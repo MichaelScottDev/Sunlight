@@ -1,0 +1,23 @@
+[0;1;32m●[0m nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (]8;;file://vultr/usr/lib/systemd/system/nginx.service/usr/lib/systemd/system/nginx.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (running)[0m since Tue 2026-02-24 05:57:35 UTC; 4h 44min ago
+       Docs: ]8;;man:nginx(8)man:nginx(8)]8;;
+    Process: 860 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+    Process: 886 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+    Process: 5680 ExecReload=/usr/sbin/nginx -g daemon on; master_process on; -s reload (code=exited, status=0/SUCCESS)
+   Main PID: 896 (nginx)
+      Tasks: 2 (limit: 1050)
+     Memory: 2.4M (peak: 3.7M swap: 724.0K swap peak: 1.8M)
+        CPU: 84ms
+     CGroup: /system.slice/nginx.service
+             ├─[0;38;5;245m 896 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"[0m
+             └─[0;38;5;245m5681 "nginx: worker process"[0m
+
+Feb 24 05:57:35 vultr systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Feb 24 05:57:35 vultr systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+Feb 24 10:04:02 vultr systemd[1]: Reloading nginx.service - A high performance web server and a reverse proxy server...
+Feb 24 10:04:02 vultr nginx[5642]: 2026/02/24 10:04:02 [notice] 5642#5642: signal process started
+Feb 24 10:04:02 vultr systemd[1]: Reloaded nginx.service - A high performance web server and a reverse proxy server.
+Feb 24 10:04:12 vultr systemd[1]: Reloading nginx.service - A high performance web server and a reverse proxy server...
+Feb 24 10:04:12 vultr nginx[5680]: 2026/02/24 10:04:12 [notice] 5680#5680: signal process started
+Feb 24 10:04:12 vultr systemd[1]: Reloaded nginx.service - A high performance web server and a reverse proxy server.
