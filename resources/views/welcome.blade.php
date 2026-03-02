@@ -4,7 +4,6 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>COVERT GC — Episode 1: Gold Coast Uncovered</title>
-
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -28,11 +27,9 @@
             }
         }
     </script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdn.vidstack.io/player/theme.css"/>
     <link rel="stylesheet" href="https://cdn.vidstack.io/player/video.css"/>
     <script src="https://cdn.vidstack.io/player" type="module"></script>
@@ -44,145 +41,146 @@
             src: 'https://files.vidstack.io/sprite-fight/720p.mp4',
             poster: 'https://files.vidstack.io/sprite-fight/poster.webp',
             thumbnails: 'https://files.vidstack.io/sprite-fight/thumbnails.vtt',
-            tracks: [{
-                src: 'https://files.vidstack.io/sprite-fight/chapters.vtt',
-                kind: 'chapters', language: 'en-US', default: true,
-            }],
-            layout: new VidstackPlayerLayout({
-                thumbnails: 'https://files.vidstack.io/sprite-fight/thumbnails.vtt',
-            }),
+            tracks: [{src:'https://files.vidstack.io/sprite-fight/chapters.vtt',kind:'chapters',language:'en-US',default:true}],
+            layout: new VidstackPlayerLayout({thumbnails:'https://files.vidstack.io/sprite-fight/thumbnails.vtt'}),
         });
     </script>
-
     <style>
-        body::after {
-            content:'';position:fixed;inset:0;
-            background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
-            pointer-events:none;z-index:9998;
-        }
-        ::-webkit-scrollbar{width:3px}
-        ::-webkit-scrollbar-track{background:#080808}
-        ::-webkit-scrollbar-thumb{background:#d63d2f}
+        body::after{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");pointer-events:none;z-index:9498}
+        ::-webkit-scrollbar{width:3px}::-webkit-scrollbar-track{background:#080808}::-webkit-scrollbar-thumb{background:#d63d2f}
+        @keyframes blink{0%,100%{opacity:1}50%{opacity:0.25}}.blink{animation:blink 2s step-end infinite}
+        @keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}.fade-up{animation:fadeUp 0.65s ease both}
+        .reveal{opacity:0;transform:translateY(24px);transition:opacity 0.55s ease,transform 0.55s ease}.reveal.in{opacity:1;transform:translateY(0)}
+        #case-panel{transition:transform 0.4s cubic-bezier(0.4,0,0.2,1);transform:translateX(100%)}#case-panel.open{transform:translateX(0)}
+        .case-card{transition:transform 0.25s ease,box-shadow 0.25s ease}.case-card:hover{transform:translateY(-3px);box-shadow:0 16px 48px rgba(0,0,0,0.5)}
+        .bar-accent{transition:transform 0.35s ease;transform:scaleX(0);transform-origin:left}.case-card:hover .bar-accent{transform:scaleX(1)}
+        .bar-accent-y{transition:transform 0.35s ease;transform:scaleY(0);transform-origin:bottom}.panel-item:hover .bar-accent-y{transform:scaleY(1)}
+        .scanlines{background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.03) 2px,rgba(0,0,0,0.03) 4px);pointer-events:none}
+        .ep-coming{position:relative;pointer-events:none}.ep-coming::after{content:'COMING SOON';position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'Bebas Neue',sans-serif;font-size:1.3rem;letter-spacing:0.2em;color:rgba(240,236,226,0.5);background:rgba(8,8,8,0.75);backdrop-filter:blur(2px)}
+        .story-chapter{border-left:2px solid rgba(240,236,226,0.08);padding-left:1.5rem;transition:border-color 0.3s ease}.story-chapter:hover{border-left-color:rgba(214,61,47,0.4)}
+        .evidence-tag{display:inline-flex;align-items:center;gap:0.4rem;font-size:0.52rem;letter-spacing:0.18em;text-transform:uppercase;border:1px solid currentColor;padding:0.25rem 0.6rem;opacity:0.6;transition:opacity 0.2s}.evidence-tag:hover{opacity:1}
+        .timeline-dot{width:8px;height:8px;border-radius:50%;background:#d63d2f;box-shadow:0 0 0 3px rgba(214,61,47,0.2);flex-shrink:0;margin-top:5px}
+        @keyframes pulseRed{0%,100%{box-shadow:0 0 0 3px rgba(214,61,47,0.2)}50%{box-shadow:0 0 0 6px rgba(214,61,47,0.1)}}.timeline-dot.active{animation:pulseRed 2s ease infinite}
+        .stat-number{font-family:'Bebas Neue',sans-serif;line-height:1}
+        .doc-reveal{background:rgba(240,236,226,0.02);border:1px solid rgba(240,236,226,0.07);border-left:3px solid #d63d2f;transition:background 0.2s}.doc-reveal:hover{background:rgba(214,61,47,0.04)}
 
-        @keyframes blink{0%,100%{opacity:1}50%{opacity:0.25}}
-        .blink{animation:blink 2s step-end infinite}
+        /* ── EVIDENCE VAULT ── */
+        .evidence-vault{margin-top:1.25rem;border:1px solid rgba(240,236,226,0.08);background:rgba(4,4,4,0.7)}
+        .ev-header{display:flex;align-items:center;justify-content:space-between;padding:0.6rem 0.9rem;background:rgba(240,236,226,0.025);cursor:pointer;user-select:none;border-bottom:1px solid rgba(240,236,226,0.05)}
+        .ev-header:hover{background:rgba(240,236,226,0.04)}
+        .ev-toggle{transition:transform 0.3s;font-size:0.45rem;color:rgba(240,236,226,0.28)}
+        .ev-toggle.open{transform:rotate(180deg)}
+        .ev-body{overflow:hidden;max-height:0;transition:max-height 0.45s cubic-bezier(0.4,0,0.2,1)}
+        .ev-body.open{max-height:3000px}
+        .ev-file{display:flex;align-items:center;gap:0.65rem;padding:0.65rem 0.9rem;border-bottom:1px solid rgba(240,236,226,0.04);transition:background 0.2s;cursor:pointer;position:relative;overflow:hidden}
+        .ev-file:last-child{border-bottom:none}
+        .ev-file:hover{background:rgba(240,236,226,0.03)}
+        .ev-file::before{content:'';position:absolute;left:0;top:0;bottom:0;width:2px;transform:scaleY(0);transform-origin:bottom;transition:transform 0.3s}
+        .ev-file:hover::before{transform:scaleY(1)}
+        .ef-hot::before{background:#d63d2f}.ef-gold::before{background:#e8a020}.ef-sage::before{background:#2a9d4e}.ef-violet::before{background:#7b5ea7}
+        .ev-icon{width:30px;height:30px;display:flex;align-items:center;justify-content:center;border:1px solid rgba(240,236,226,0.07);font-size:0.72rem;flex-shrink:0}
+        .ev-pdf{background:rgba(214,61,47,0.08);color:#d63d2f}
+        .ev-audio{background:rgba(42,157,78,0.1);color:#2a9d4e}
+        .ev-video{background:rgba(123,94,167,0.1);color:#7b5ea7}
+        .ev-img{background:rgba(232,160,32,0.08);color:#e8a020}
+        .ev-meta{flex:1;min-width:0}
+        .ev-name{font-size:0.63rem;color:rgba(240,236,226,0.62);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+        .ev-desc{font-size:0.49rem;letter-spacing:0.12em;text-transform:uppercase;margin-top:0.12rem;color:rgba(240,236,226,0.22)}
+        .ev-cta{font-size:0.47rem;letter-spacing:0.18em;text-transform:uppercase;opacity:0.3;transition:opacity 0.2s;white-space:nowrap;flex-shrink:0}
+        .ev-file:hover .ev-cta{opacity:1}
+        .redact-tag{display:inline-flex;align-items:center;gap:0.25rem;background:rgba(214,61,47,0.1);border:1px solid rgba(214,61,47,0.28);color:#d63d2f;font-size:0.44rem;letter-spacing:0.2em;text-transform:uppercase;padding:0.15rem 0.4rem;flex-shrink:0;margin-left:0.25rem}
+        .audio-bars{display:flex;align-items:center;gap:1.5px;height:14px}
+        .audio-bars b{display:block;width:2px;background:currentColor;border-radius:1px;animation:abars 1.3s ease infinite}
+        .audio-bars b:nth-child(1){height:3px;animation-delay:0s}.audio-bars b:nth-child(2){height:9px;animation-delay:0.15s}.audio-bars b:nth-child(3){height:14px;animation-delay:0.3s}.audio-bars b:nth-child(4){height:7px;animation-delay:0.45s}.audio-bars b:nth-child(5){height:11px;animation-delay:0.2s}
+        @keyframes abars{0%,100%{transform:scaleY(0.25)}50%{transform:scaleY(1)}}
+        .ev-zip-bar{display:flex;align-items:center;justify-content:space-between;padding:0.6rem 0.9rem;background:rgba(232,160,32,0.04);border-top:1px solid rgba(232,160,32,0.15)}
 
-        @keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
-        .fade-up{animation:fadeUp 0.65s ease both}
+        /* ── MEDIA VIEWER ── */
+        #mv-wrap{display:none;position:fixed;inset:0;z-index:9500;background:rgba(4,4,4,0.97);backdrop-filter:blur(16px);flex-direction:column}
+        #mv-wrap.active{display:flex}
+        .mv-head{display:flex;align-items:center;justify-content:space-between;padding:0.9rem 1.5rem;border-bottom:1px solid rgba(240,236,226,0.06);flex-shrink:0}
+        .mv-body{flex:1;display:flex;align-items:center;justify-content:center;padding:1.5rem;overflow:auto}
+        .mv-foot{padding:0.65rem 1.5rem;border-top:1px solid rgba(240,236,226,0.06);display:flex;align-items:center;gap:0.75rem;flex-shrink:0;flex-wrap:wrap}
+        .mv-close-btn{background:rgba(240,236,226,0.04);border:1px solid rgba(240,236,226,0.1);color:rgba(240,236,226,0.4);font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;padding:0.45rem 0.75rem;cursor:pointer;transition:all 0.2s}
+        .mv-close-btn:hover{border-color:rgba(240,236,226,0.3);color:rgba(240,236,226,0.9)}
+        .mv-dl-btn{display:inline-flex;align-items:center;gap:0.4rem;border:1px solid rgba(240,236,226,0.12);padding:0.45rem 0.9rem;font-size:0.52rem;letter-spacing:0.15em;text-transform:uppercase;color:rgba(240,236,226,0.4);transition:all 0.2s;cursor:pointer;background:none}
+        .mv-dl-btn:hover{border-color:rgba(240,236,226,0.35);color:rgba(240,236,226,0.85)}
+        .mv-dl-hot{border-color:rgba(214,61,47,0.35);color:#d63d2f}.mv-dl-hot:hover{border-color:#d63d2f;background:rgba(214,61,47,0.08)}
+        .mv-dl-gold{border-color:rgba(232,160,32,0.35);color:#e8a020}.mv-dl-gold:hover{border-color:#e8a020;background:rgba(232,160,32,0.08)}
+        .mv-dl-sage{border-color:rgba(42,157,78,0.35);color:#2a9d4e}.mv-dl-sage:hover{border-color:#2a9d4e;background:rgba(42,157,78,0.08)}
 
-        .reveal{opacity:0;transform:translateY(24px);transition:opacity 0.55s ease,transform 0.55s ease}
-        .reveal.in{opacity:1;transform:translateY(0)}
+        /* custom audio player */
+        .cap-wrap{background:rgba(240,236,226,0.025);border:1px solid rgba(240,236,226,0.07);padding:1.5rem;width:100%;max-width:560px}
+        .cap-waveform{height:52px;display:flex;align-items:center;gap:1.5px;margin:1rem 0;cursor:pointer;overflow:hidden;position:relative}
+        .cap-bar{flex:1;background:rgba(42,157,78,0.18);border-radius:1px;min-height:2px;transition:background 0.1s}
+        .cap-bar.played{background:#2a9d4e}.cap-bar:hover{background:rgba(42,157,78,0.5)}
+        .cap-controls{display:flex;align-items:center;gap:1rem}
+        .cap-play{width:36px;height:36px;border:1px solid rgba(42,157,78,0.4);background:rgba(42,157,78,0.08);color:#2a9d4e;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:0.75rem;transition:all 0.2s;flex-shrink:0}
+        .cap-play:hover{background:rgba(42,157,78,0.2);border-color:#2a9d4e}
+        .cap-time{font-size:0.55rem;letter-spacing:0.1em;color:rgba(240,236,226,0.3);font-family:'DM Mono',monospace}
 
-        #case-panel{transition:transform 0.4s cubic-bezier(0.4,0,0.2,1);transform:translateX(100%)}
-        #case-panel.open{transform:translateX(0)}
+        /* image viewer */
+        .mv-img-frame{position:relative;max-width:760px;width:100%}
+        .mv-img-frame img{width:100%;display:block;border:1px solid rgba(240,236,226,0.06)}
+        .face-redact{position:absolute;background:rgba(4,4,4,0.93);border:1px solid rgba(214,61,47,0.35);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:0.2rem}
 
-        .case-card{transition:transform 0.25s ease,box-shadow 0.25s ease}
-        .case-card:hover{transform:translateY(-3px);box-shadow:0 16px 48px rgba(0,0,0,0.5)}
+        /* pdf placeholder */
+        .pdf-ph{background:rgba(240,236,226,0.02);border:1px solid rgba(240,236,226,0.06);max-width:640px;width:100%;padding:2.5rem 2rem;text-align:center}
+        .pdf-ph-pages{display:flex;gap:0.5rem;justify-content:center;margin-bottom:1.5rem}
+        .pdf-ph-page{width:64px;height:82px;border:1px solid rgba(240,236,226,0.08);background:rgba(240,236,226,0.02);display:flex;flex-direction:column;gap:4px;padding:6px;border-top:3px solid rgba(214,61,47,0.4)}
+        .pdf-ph-line{height:2px;background:rgba(240,236,226,0.06);border-radius:1px}
+        .pdf-ph-line:first-child{background:rgba(240,236,226,0.12)}
 
-        .bar-accent{transition:transform 0.35s ease;transform:scaleX(0);transform-origin:left}
-        .case-card:hover .bar-accent{transform:scaleX(1)}
+        /* video placeholder */
+        .vid-ph{background:#060606;border:1px solid rgba(240,236,226,0.07);aspect-ratio:16/9;max-width:760px;width:100%;position:relative;display:flex;align-items:center;justify-content:center;cursor:pointer;overflow:hidden}
+        .vid-ph .scanlines{position:absolute;inset:0;opacity:0.5}
+        .vid-ph-play{width:60px;height:60px;border:2px solid rgba(240,236,226,0.3);border-radius:50%;display:flex;align-items:center;justify-content:center;transition:all 0.3s;position:relative;z-index:2}
+        .vid-ph:hover .vid-ph-play{border-color:#d63d2f;background:rgba(214,61,47,0.12)}
+        .vid-ph-label{position:absolute;bottom:1rem;left:0;right:0;text-align:center;font-size:0.5rem;letter-spacing:0.18em;text-transform:uppercase;color:rgba(240,236,226,0.25);z-index:2}
 
-        .bar-accent-y{transition:transform 0.35s ease;transform:scaleY(0);transform-origin:bottom}
-        .panel-item:hover .bar-accent-y{transform:scaleY(1)}
-
-        .scanlines{
-            background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.03) 2px,rgba(0,0,0,0.03) 4px);
-            pointer-events:none;
-        }
-
-        .ep-coming{position:relative;pointer-events:none}
-        .ep-coming::after{
-            content:'COMING SOON';position:absolute;inset:0;
-            display:flex;align-items:center;justify-content:center;
-            font-family:'Bebas Neue',sans-serif;font-size:1.3rem;letter-spacing:0.2em;
-            color:rgba(240,236,226,0.5);background:rgba(8,8,8,0.75);backdrop-filter:blur(2px);
-        }
-
-        /* ── STORY SECTION STYLES ── */
-        .story-chapter{
-            border-left:2px solid rgba(240,236,226,0.08);
-            padding-left:1.5rem;
-            transition:border-color 0.3s ease;
-        }
-        .story-chapter:hover{ border-left-color:rgba(214,61,47,0.4); }
-
-        .evidence-tag{
-            display:inline-flex;align-items:center;gap:0.4rem;
-            font-size:0.52rem;letter-spacing:0.18em;text-transform:uppercase;
-            border:1px solid currentColor;padding:0.25rem 0.6rem;
-            opacity:0.6;transition:opacity 0.2s ease;
-        }
-        .evidence-tag:hover{opacity:1;}
-
-        .timeline-dot{
-            width:8px;height:8px;border-radius:50%;background:#d63d2f;
-            box-shadow:0 0 0 3px rgba(214,61,47,0.2);
-            flex-shrink:0;margin-top:5px;
-        }
-
-        @keyframes pulseRed{0%,100%{box-shadow:0 0 0 3px rgba(214,61,47,0.2)}50%{box-shadow:0 0 0 6px rgba(214,61,47,0.1)}}
-        .timeline-dot.active{animation:pulseRed 2s ease infinite;}
-
-        .stat-number{
-            font-family:'Bebas Neue',sans-serif;
-            line-height:1;
-        }
-
-        .doc-reveal{
-            background:rgba(240,236,226,0.02);
-            border:1px solid rgba(240,236,226,0.07);
-            border-left:3px solid #d63d2f;
-            transition:background 0.2s ease;
-        }
-        .doc-reveal:hover{ background:rgba(214,61,47,0.04); }
+        /* nav */
+        .nav-dropdown{position:relative}
+        .nav-dropdown-menu{display:none;position:absolute;top:calc(100% + 8px);right:0;background:rgba(8,8,8,0.97);backdrop-filter:blur(12px);border:1px solid rgba(240,236,226,0.08);min-width:220px;z-index:100;box-shadow:0 24px 48px rgba(0,0,0,0.7)}
+        .nav-dropdown:hover .nav-dropdown-menu,.nav-dropdown-menu:hover{display:block}
+        .nav-dropdown-menu a{display:block;padding:0.55rem 1rem;font-size:0.55rem;letter-spacing:0.18em;text-transform:uppercase;color:rgba(240,236,226,0.4);transition:color 0.2s,background 0.2s;border-bottom:1px solid rgba(240,236,226,0.04)}
+        .nav-dropdown-menu a:last-child{border-bottom:none}
+        .nav-dropdown-menu a:hover{color:rgba(240,236,226,0.9);background:rgba(240,236,226,0.03)}
+        .nav-dropdown-menu .nav-group-label{display:block;padding:0.6rem 1rem 0.3rem;font-size:0.45rem;letter-spacing:0.25em;text-transform:uppercase;color:rgba(240,236,226,0.18);border-bottom:1px solid rgba(240,236,226,0.06);pointer-events:none}
+        .nav-dropdown-menu a.nav-accent-hot:hover{color:#d63d2f}
+        .nav-dropdown-menu a.nav-accent-gold:hover{color:#e8a020}
+        .nav-dropdown-menu a.nav-accent-violet:hover{color:#7b5ea7}
+        .nav-dropdown-menu a.nav-accent-sage:hover{color:#2a9d4e}
     </style>
 </head>
 <body class="bg-ink text-paper font-mono overflow-x-hidden">
 
-<!-- ══════════════════════════════════════
-     NAV
-══════════════════════════════════════ -->
-<style>
-.nav-dropdown{position:relative}
-.nav-dropdown-menu{
-    display:none;position:absolute;top:calc(100% + 8px);right:0;
-    background:rgba(8,8,8,0.97);backdrop-filter:blur(12px);
-    border:1px solid rgba(240,236,226,0.08);min-width:220px;z-index:100;
-    box-shadow:0 24px 48px rgba(0,0,0,0.7);
-}
-.nav-dropdown:hover .nav-dropdown-menu,
-.nav-dropdown-menu:hover{display:block}
-.nav-dropdown-menu a{
-    display:block;padding:0.55rem 1rem;
-    font-size:0.55rem;letter-spacing:0.18em;text-transform:uppercase;
-    color:rgba(240,236,226,0.4);transition:color 0.2s,background 0.2s;
-    border-bottom:1px solid rgba(240,236,226,0.04);
-}
-.nav-dropdown-menu a:last-child{border-bottom:none}
-.nav-dropdown-menu a:hover{color:rgba(240,236,226,0.9);background:rgba(240,236,226,0.03)}
-.nav-dropdown-menu .nav-group-label{
-    display:block;padding:0.6rem 1rem 0.3rem;
-    font-size:0.45rem;letter-spacing:0.25em;text-transform:uppercase;
-    color:rgba(240,236,226,0.18);border-bottom:1px solid rgba(240,236,226,0.06);
-    pointer-events:none;
-}
-.nav-dropdown-menu a.nav-accent-hot:hover{color:#d63d2f}
-.nav-dropdown-menu a.nav-accent-gold:hover{color:#e8a020}
-.nav-dropdown-menu a.nav-accent-violet:hover{color:#7b5ea7}
-.nav-dropdown-menu a.nav-accent-sage:hover{color:#2a9d4e}
-</style>
+<!-- ══ MEDIA VIEWER OVERLAY ══ -->
+<div id="mv-wrap">
+    <div class="mv-head">
+        <div>
+            <div id="mv-tag" class="text-[0.48rem] tracking-[0.22em] uppercase text-hot mb-0.5">Evidence File</div>
+            <div id="mv-title" class="font-display text-lg tracking-widest">DOCUMENT</div>
+        </div>
+        <button class="mv-close-btn" onclick="closeMV()">✕ Close</button>
+    </div>
+    <div class="mv-body" id="mv-body"></div>
+    <div class="mv-foot" id="mv-foot">
+        <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20" id="mv-meta"></span>
+        <div class="flex-1"></div>
+        <button class="mv-dl-btn mv-dl-gold" id="mv-dl-btn" onclick="downloadFile()">⬇ Download File</button>
+        <button class="mv-close-btn" onclick="closeMV()">✕ Close</button>
+    </div>
+</div>
+
+<!-- ══ NAV ══ -->
 <nav class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-5 py-3 bg-ink/95 backdrop-blur-md border-b border-paper/[0.06]">
     <div class="flex items-center gap-4">
         <a href="#" class="font-display text-2xl tracking-widest">COVERT<span class="text-hot">GC</span></a>
         <span class="hidden sm:block text-[0.52rem] tracking-[0.2em] uppercase text-paper/20 border-l border-paper/10 pl-4">Investigative Vlog Series</span>
     </div>
     <div class="flex items-center gap-3">
-
-        <!-- My Investigations dropdown -->
         <div class="nav-dropdown hidden md:block">
-            <button class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors flex items-center gap-1">
-                My Story <span class="text-[0.4rem] opacity-50">▾</span>
-            </button>
+            <button class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors flex items-center gap-1">My Story <span class="text-[0.4rem] opacity-50">▾</span></button>
             <div class="nav-dropdown-menu">
                 <span class="nav-group-label">Personal Story</span>
                 <a href="#story" class="nav-accent-hot">Sandy Tulisi — Rooming House</a>
@@ -191,12 +189,8 @@
                 <a href="#assault" class="nav-accent-hot">Oracle East — Stalked & Assaulted</a>
             </div>
         </div>
-
-        <!-- Adam Watson dropdown -->
         <div class="nav-dropdown hidden md:block">
-            <button class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors flex items-center gap-1">
-                Adam's Story <span class="text-[0.4rem] opacity-50">▾</span>
-            </button>
+            <button class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors flex items-center gap-1">Adam's Story <span class="text-[0.4rem] opacity-50">▾</span></button>
             <div class="nav-dropdown-menu">
                 <span class="nav-group-label">Adam Watson</span>
                 <a href="#adam" class="nav-accent-violet">Coercive Control & Surveillance</a>
@@ -207,12 +201,8 @@
                 <a href="#brazen" class="nav-accent-hot">Brazen Crime — Vehicle Attack & Arson</a>
             </div>
         </div>
-
-        <!-- Public Interest dropdown -->
         <div class="nav-dropdown hidden md:block">
-            <button class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors flex items-center gap-1">
-                Public Interest <span class="text-[0.4rem] opacity-50">▾</span>
-            </button>
+            <button class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors flex items-center gap-1">Public Interest <span class="text-[0.4rem] opacity-50">▾</span></button>
             <div class="nav-dropdown-menu">
                 <span class="nav-group-label">Systemic Issues</span>
                 <a href="#redress" class="nav-accent-sage">Redress Scheme Integrity</a>
@@ -222,12 +212,8 @@
                 <a href="#brazen" class="nav-accent-gold">Journalism as Provocation — The Claim</a>
             </div>
         </div>
-
-        <!-- Police & Accountability -->
         <div class="nav-dropdown hidden md:block">
-            <button class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors flex items-center gap-1">
-                Accountability <span class="text-[0.4rem] opacity-50">▾</span>
-            </button>
+            <button class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors flex items-center gap-1">Accountability <span class="text-[0.4rem] opacity-50">▾</span></button>
             <div class="nav-dropdown-menu">
                 <span class="nav-group-label">Police Corruption</span>
                 <a href="#assault" class="nav-accent-hot">"Expect to Get Bashed" Recording</a>
@@ -239,20 +225,14 @@
                 <a href="#media" class="nav-accent-gold">QP-9 Leak — CCC Referral</a>
             </div>
         </div>
-
         <a href="#episodes" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors">Episodes</a>
         <a href="#sms" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors">Subscribe</a>
-
-        <button onclick="togglePanel()" class="flex items-center gap-2 border border-hot/50 hover:border-hot hover:bg-hot/10 px-3 py-2 transition-all text-[0.55rem] tracking-[0.15em] uppercase text-hot">
-            ☰ All Files
-        </button>
+        <button onclick="togglePanel()" class="flex items-center gap-2 border border-hot/50 hover:border-hot hover:bg-hot/10 px-3 py-2 transition-all text-[0.55rem] tracking-[0.15em] uppercase text-hot">☰ All Files</button>
         <span class="text-[0.52rem] tracking-[0.18em] uppercase text-gold border border-gold/60 px-3 py-1.5 blink">⬤ EP.01</span>
     </div>
 </nav>
 
-<!-- ══════════════════════════════════════
-     CASE STUDY SIDE PANEL
-══════════════════════════════════════ -->
+<!-- ══ SIDE PANEL ══ -->
 <div id="case-panel" class="fixed top-0 right-0 bottom-0 z-[300] w-full sm:w-96 bg-[#0d0d0d] border-l border-paper/[0.08] overflow-y-auto flex flex-col">
     <div class="sticky top-0 bg-[#0d0d0d] border-b border-paper/[0.07] px-5 py-4 flex justify-between items-center z-10">
         <div>
@@ -262,227 +242,39 @@
         <button onclick="togglePanel()" class="text-paper/30 hover:text-paper text-xs tracking-widest border border-paper/10 hover:border-paper/30 px-3 py-2 transition-all">✕</button>
     </div>
     <div class="flex-1 p-4 space-y-2">
-        <!-- Story chapters first -->
-        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/18 px-1 pt-3 pb-0.5">Criminal Pattern</div>
-        <button onclick="document.getElementById('rj').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
-            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">RJ — 7 Incidents</div>
-                <div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Charged. Released. Repeat.</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">Sex & Crime Squad — laptop — doctor fraud</div>
-            </div>
-        </button>
-        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/18 px-1 pt-3 pb-0.5">Media Accountability</div>
-        <button onclick="document.getElementById('media').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-gold/35 transition-all p-4 bg-paper/[0.02]">
-            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-gold"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-1">Sky News Interview</div>
-                <div class="font-display text-base tracking-wide group-hover:text-gold transition-colors leading-tight">The Story That Didn't Run</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">QP-9 leak, file pull & mental health stigma</div>
-            </div>
-        </button>
-        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/18 px-1 pt-3 pb-0.5">Privacy Breach</div>
-        <button onclick="openModal('privacybreach');togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-violet/35 transition-all p-4 bg-paper/[0.02]">
-            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-violet"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-violet mb-1">PV — Council Privacy Breach</div>
-                <div class="font-display text-base tracking-wide group-hover:text-violet transition-colors leading-tight">Photographed & Leaked</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">Southport Aquatic Centre — Tate retraction demanded</div>
-            </div>
-        </button>
-        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/18 px-1 pt-3 pb-0.5">Privacy Breach</div>
-        <button onclick="openModal('privacyletter1');togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-violet/35 transition-all p-4 bg-paper/[0.02]">
-            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-violet"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-violet mb-1">L1 — Council Letter</div>
-                <div class="font-display text-base tracking-wide group-hover:text-violet transition-colors leading-tight">Complaint Acknowledged</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">Ref: Lawmaster 1192 — 16 Dec 2024</div>
-            </div>
-        </button>
-        <button onclick="openModal('privacyletter2');togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
-            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">L2 — Council Letter</div>
-                <div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Investigation Dropped</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">Onus placed on complainant</div>
-            </div>
-        </button>
-        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/18 px-1 pt-3 pb-0.5">Brazen Crime</div>
-        <button onclick="openModal('brazenfile');togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
-            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">B2 — Press Freedom</div>
-                <div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">When Crime Targets the Press</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">Firebombing, intimidation & no shame</div>
-            </div>
-        </button>
-        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/18 px-1 pt-3 pb-0.5">My Assault — Oracle East</div>
-        <button onclick="openModal('policeaccount');togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
-            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">P — Police Accountability</div>
-                <div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Who Deserves Protection?</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">The recorded comment & corruption probe</div>
-            </div>
-        </button>
-        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/18 px-1 pt-3 pb-0.5">Public Interest</div>
-        <button onclick="openModal('redressfile');togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-sage/35 transition-all p-4 bg-paper/[0.02]">
-            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-sage"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-1">R — Redress Scheme</div>
-                <div class="font-display text-base tracking-wide group-hover:text-sage transition-colors leading-tight">Who's Checking the Claims?</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">Attendance records & the verification gap</div>
-            </div>
-        </button>
-        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/18 px-1 pt-1 pb-0.5">Adam's Story — Coercive Control</div>
-        <button onclick="openModal('coercive');togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-violet/35 transition-all p-4 bg-paper/[0.02]">
-            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-violet"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-violet mb-1">A — Coercive Control</div>
-                <div class="font-display text-base tracking-wide group-hover:text-violet transition-colors leading-tight">The Anatomy of Control</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">Surveillance, isolation & the 1/100 test</div>
-            </div>
-        </button>
-        <button onclick="openModal('malicious');togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
-            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">B — Malicious Prosecution</div>
-                <div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">DPP Ruling & Officer Fired</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">Charge dismissed at first mention</div>
-            </div>
-        </button>
-        <button onclick="openModal('optus');togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-gold/35 transition-all p-4 bg-paper/[0.02]">
-            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-gold"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-1">C — Telco Security</div>
-                <div class="font-display text-base tracking-wide group-hover:text-gold transition-colors leading-tight">The Optus Breach</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">PM referral & CEO directive</div>
-            </div>
-        </button>
-        <button onclick="openModal('juvenile');togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-gold/35 transition-all p-4 bg-paper/[0.02]">
-            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-gold"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-1">D — Youth Justice Gap</div>
-                <div class="font-display text-base tracking-wide group-hover:text-gold transition-colors leading-tight">Adult Time, Adult Crime</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">The clean slate that isn't</div>
-            </div>
-        </button>
-        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/18 px-1 pt-3 pb-0.5">Personal Investigation</div>
-        <button onclick="openModal('rooming');togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
-            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">S1 — Rental Crisis</div>
-                <div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">The Rooming House Trap</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">BeHome, SOLAC HOUSE & the dual identity</div>
-            </div>
-        </button>
-        <button onclick="openModal('bond');togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-gold/35 transition-all p-4 bg-paper/[0.02]">
-            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-gold"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-1">S2 — Regulatory Failure</div>
-                <div class="font-display text-base tracking-wide group-hover:text-gold transition-colors leading-tight">The Bond Delay</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">68 days. Legal requirement: 10.</div>
-            </div>
-        </button>
-        <button onclick="openModal('harassment');togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
-            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">S3 — Tenant Harassment</div>
-                <div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Fines, Threats & False Claims</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">A $20 cup fine. Six false rent notices.</div>
-            </div>
-        </button>
-        <button onclick="openModal('eviction');togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
-            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">S4 — Unlawful Eviction</div>
-                <div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Police, Arrest & Homelessness</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">How a civil dispute became a criminal charge</div>
-            </div>
-        </button>
-        <button onclick="openModal('lawyer');togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-gold/35 transition-all p-4 bg-paper/[0.02]">
-            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-gold"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-1">S5 — Legal Outcome</div>
-                <div class="font-display text-base tracking-wide group-hover:text-gold transition-colors leading-tight">Charges Dropped</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">Pro bono. All charges dropped.</div>
-            </div>
-        </button>
-
-        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/18 px-1 pt-3 pb-0.5">My Story — Kosta</div>
+        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/18 px-1 pt-3 pb-0.5">My Story — Chapters</div>
         <button onclick="document.getElementById('story').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.1 — Rooming House</div>
-                <div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Sandy Tulisi</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">68 days, 6 false notices, all charges dropped</div>
-            </div>
+            <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.1 — Sandy Tulisi</div><div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Rooming House Fraud</div><div class="text-[0.62rem] text-paper/30 mt-1">68 days · 6 false notices · All charges dropped</div></div>
         </button>
         <button onclick="document.getElementById('privacy').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-violet/35 transition-all p-4 bg-paper/[0.02]">
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-violet"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-violet mb-1">Ch.2 — Privacy Breach</div>
-                <div class="font-display text-base tracking-wide group-hover:text-violet transition-colors leading-tight">Aquatic Centre Leak</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">Photographed, annotated, leaked — Tate retraction</div>
-            </div>
+            <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-violet mb-1">Ch.2 — Privacy Breach</div><div class="font-display text-base tracking-wide group-hover:text-violet transition-colors leading-tight">Aquatic Centre Leak</div><div class="text-[0.62rem] text-paper/30 mt-1">Photographed · Annotated · Leaked · Tate retraction</div></div>
         </button>
         <button onclick="document.getElementById('media').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-gold/35 transition-all p-4 bg-paper/[0.02]">
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-gold"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-1">Ch.3 — Media Accountability</div>
-                <div class="font-display text-base tracking-wide group-hover:text-gold transition-colors leading-tight">Sky News — Story That Didn't Run</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">QP-9 leak, file pull, mental health stigma</div>
-            </div>
+            <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-1">Ch.3 — Sky News</div><div class="font-display text-base tracking-wide group-hover:text-gold transition-colors leading-tight">Story That Didn't Run</div><div class="text-[0.62rem] text-paper/30 mt-1">QP-9 leak · File pull · Mental health stigma</div></div>
         </button>
         <button onclick="document.getElementById('assault').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.4 — Oracle East</div>
-                <div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Stalked & Assaulted</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">6 assailants, police corruption recording</div>
-            </div>
+            <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.4 — Oracle East</div><div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Stalked & Assaulted</div><div class="text-[0.62rem] text-paper/30 mt-1">6 assailants · Police corruption recording</div></div>
         </button>
-
-        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/18 px-1 pt-3 pb-0.5">Adam Watson's Story</div>
+        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/18 px-1 pt-3 pb-0.5">Adam's Story</div>
         <button onclick="document.getElementById('rj').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.5 — Criminal Network</div>
-                <div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">RJ — 7 Incidents</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">Sex & Crime Squad, laptop, doctor fraud</div>
-            </div>
+            <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.5 — RJ</div><div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Criminal Pattern — 7 Incidents</div></div>
         </button>
         <button onclick="document.getElementById('adam').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-violet/35 transition-all p-4 bg-paper/[0.02]">
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-violet"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-violet mb-1">Ch.6 — Coercive Control</div>
-                <div class="font-display text-base tracking-wide group-hover:text-violet transition-colors leading-tight">When Love Becomes a Weapon</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">Surveillance, DPP ruling, Optus breach</div>
-            </div>
+            <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-violet mb-1">Ch.6 — Coercive Control</div><div class="font-display text-base tracking-wide group-hover:text-violet transition-colors leading-tight">When Love Becomes a Weapon</div></div>
         </button>
         <button onclick="document.getElementById('brazen').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.7 — Brazen Crime</div>
-                <div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Vehicle Attack & Arson</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">$15K contract, Rinehart firebombing, Friendlyjordies</div>
-            </div>
+            <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.7 — Brazen Crime</div><div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Vehicle Attack & Arson</div></div>
         </button>
         <button onclick="document.getElementById('redress').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-sage/35 transition-all p-4 bg-paper/[0.02]">
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-sage"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-1">Ch.8 — Public Interest</div>
-                <div class="font-display text-base tracking-wide group-hover:text-sage transition-colors leading-tight">Redress Scheme Integrity</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">Attendance records, CIC loophole, AG reform</div>
-            </div>
-        </button>
-        <button onclick="document.getElementById('thankyou').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-sage/35 transition-all p-4 bg-paper/[0.02]">
-            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-sage"></div>
-            <div class="pl-3">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-1">Ch.9 — Thank You</div>
-                <div class="font-display text-base tracking-wide group-hover:text-sage transition-colors leading-tight">Adam Watson</div>
-                <div class="text-[0.62rem] text-paper/30 mt-1 leading-relaxed">Kingsford Smith candidate — follow his work</div>
-            </div>
+            <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-1">Ch.8 — Public Interest</div><div class="font-display text-base tracking-wide group-hover:text-sage transition-colors leading-tight">Redress Scheme Integrity</div></div>
         </button>
     </div>
     <div class="p-4 border-t border-paper/[0.06]">
@@ -491,17 +283,13 @@
 </div>
 <div id="panel-bd" onclick="togglePanel()" style="display:none;position:fixed;inset:0;z-index:299;background:rgba(0,0,0,0.55)"></div>
 
-
-<!-- ══════════════════════════════════════
-     HERO — VIDEO ABOVE THE FOLD
-══════════════════════════════════════ -->
+<!-- ══ HERO ══ -->
 <section class="relative min-h-screen flex flex-col pt-14">
     <div class="absolute inset-0 z-0">
         <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1800&q=65" alt="" class="w-full h-full object-cover opacity-10"/>
         <div class="absolute inset-0 bg-gradient-to-b from-ink/50 via-ink/75 to-ink"></div>
         <div class="scanlines absolute inset-0"></div>
     </div>
-
     <div class="relative z-10 flex items-center justify-between px-5 md:px-10 py-3 border-b border-paper/[0.05]">
         <div class="flex items-center gap-4">
             <span class="font-display text-hot text-lg tracking-widest">EP.01</span>
@@ -509,12 +297,9 @@
             <span class="text-[0.55rem] tracking-[0.22em] uppercase text-paper/30">Season 1 — Gold Coast Uncovered</span>
         </div>
         <div class="hidden sm:flex items-center gap-3 text-[0.52rem] tracking-[0.18em] uppercase text-paper/22">
-            <span>10:29</span><div class="w-px h-3 bg-paper/10"></div>
-            <span>6 Chapters</span><div class="w-px h-3 bg-paper/10"></div>
-            <span class="text-gold">Feb 2025</span>
+            <span>10:29</span><div class="w-px h-3 bg-paper/10"></div><span>6 Chapters</span><div class="w-px h-3 bg-paper/10"></div><span class="text-gold">Feb 2025</span>
         </div>
     </div>
-
     <div class="relative z-10 flex-1 grid grid-cols-1 lg:grid-cols-[1fr_360px]">
         <div class="flex flex-col justify-center px-5 md:px-10 py-8 lg:py-10">
             <div class="fade-up mb-5" style="animation-delay:0.1s">
@@ -523,96 +308,35 @@
                     <span class="text-[0.55rem] tracking-[0.28em] uppercase text-hot">Classified Briefing</span>
                     <span class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/22 border border-paper/10 px-2 py-0.5">Gold Coast Division</span>
                 </div>
-                <h1 class="font-display leading-[0.88] tracking-wide" style="font-size:clamp(2.8rem,7vw,5.5rem)">
-                    GOLD COAST<br><span class="text-hot">UNCOVERED</span>
-                </h1>
-                <p class="font-serif italic text-paper/40 mt-3 leading-relaxed max-w-lg" style="font-size:clamp(0.9rem,2vw,1.15rem)">
-                    Organised crime, homelessness, and political corruption — who's really running the Gold Coast?
-                </p>
+                <h1 class="font-display leading-[0.88] tracking-wide" style="font-size:clamp(2.8rem,7vw,5.5rem)">GOLD COAST<br><span class="text-hot">UNCOVERED</span></h1>
+                <p class="font-serif italic text-paper/40 mt-3 leading-relaxed max-w-lg" style="font-size:clamp(0.9rem,2vw,1.15rem)">Organised crime, homelessness, and political corruption — who's really running the Gold Coast?</p>
             </div>
-
             <div class="fade-up" style="animation-delay:0.25s">
-                <div class="flex items-center gap-3 mb-2">
-                    <span class="text-[0.52rem] tracking-[0.2em] uppercase text-hot/60">▶ Now Playing — Navigate via chapters below</span>
-                </div>
+                <div class="flex items-center gap-3 mb-2"><span class="text-[0.52rem] tracking-[0.2em] uppercase text-hot/60">▶ Now Playing — Navigate via chapters below</span></div>
                 <div id="player" class="w-full aspect-video border border-hot/20" style="box-shadow:0 0 80px rgba(214,61,47,0.09),0 0 0 1px rgba(240,236,226,0.025)"></div>
             </div>
         </div>
-
         <div class="lg:border-l border-paper/[0.06] flex flex-col" style="background:rgba(8,8,8,0.6)">
             <div class="px-6 py-6 border-b border-paper/[0.06]">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">This Episode</div>
                 <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">We map intersecting worlds of bikie crime, homelessness policy failures, developer-funded councillors, and the M1 drug corridor — and ask who's holding anyone accountable.</p>
                 <div class="grid grid-cols-3 gap-2 text-center">
-                    <div class="border border-paper/[0.07] py-2 px-1">
-                        <div class="font-display text-2xl text-hot">6</div>
-                        <div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Cases</div>
-                    </div>
-                    <div class="border border-paper/[0.07] py-2 px-1">
-                        <div class="font-display text-2xl text-gold">10</div>
-                        <div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Minutes</div>
-                    </div>
-                    <div class="border border-paper/[0.07] py-2 px-1">
-                        <div class="font-display text-2xl text-sage">GC</div>
-                        <div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Region</div>
-                    </div>
+                    <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl text-hot">6</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Cases</div></div>
+                    <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl text-gold">10</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Minutes</div></div>
+                    <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl text-sage">GC</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Region</div></div>
                 </div>
             </div>
-
             <div class="px-5 py-4 border-b border-paper/[0.06] flex-1 overflow-y-auto">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">Episode Chapters</div>
                 <div class="space-y-0.5">
-                    <div onclick="seekToChapter(0)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group">
-                        <span class="font-display text-hot text-sm w-5 shrink-0">01</span>
-                        <div class="flex-1 min-w-0">
-                            <div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">The Bikie Franchise Model</div>
-                            <div class="text-[0.52rem] text-paper/22 tracking-wider">Organised Crime</div>
-                        </div>
-                        <span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span>
-                    </div>
-                    <div onclick="seekToChapter(1)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-gold/5 border border-transparent hover:border-gold/20 cursor-pointer transition-all group">
-                        <span class="font-display text-gold text-sm w-5 shrink-0">02</span>
-                        <div class="flex-1 min-w-0">
-                            <div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Invisible on the Glitter Strip</div>
-                            <div class="text-[0.52rem] text-paper/22 tracking-wider">Homelessness</div>
-                        </div>
-                        <span class="text-[0.52rem] text-paper/18 group-hover:text-gold transition-colors shrink-0">▶</span>
-                    </div>
-                    <div onclick="seekToChapter(2)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-sage/5 border border-transparent hover:border-sage/20 cursor-pointer transition-all group">
-                        <span class="font-display text-sage text-sm w-5 shrink-0">03</span>
-                        <div class="flex-1 min-w-0">
-                            <div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Developer Money & Council Votes</div>
-                            <div class="text-[0.52rem] text-paper/22 tracking-wider">Political Corruption</div>
-                        </div>
-                        <span class="text-[0.52rem] text-paper/18 group-hover:text-sage transition-colors shrink-0">▶</span>
-                    </div>
-                    <div onclick="seekToChapter(3)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-violet/5 border border-transparent hover:border-violet/20 cursor-pointer transition-all group">
-                        <span class="font-display text-violet text-sm w-5 shrink-0">04</span>
-                        <div class="flex-1 min-w-0">
-                            <div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Meth, Money & the M1</div>
-                            <div class="text-[0.52rem] text-paper/22 tracking-wider">Drug Trade</div>
-                        </div>
-                        <span class="text-[0.52rem] text-paper/18 group-hover:text-violet transition-colors shrink-0">▶</span>
-                    </div>
-                    <div onclick="seekToChapter(4)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-gold/5 border border-transparent hover:border-gold/20 cursor-pointer transition-all group">
-                        <span class="font-display text-gold text-sm w-5 shrink-0">05</span>
-                        <div class="flex-1 min-w-0">
-                            <div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">How Homelessness Feeds Crime</div>
-                            <div class="text-[0.52rem] text-paper/22 tracking-wider">Intersection</div>
-                        </div>
-                        <span class="text-[0.52rem] text-paper/18 group-hover:text-gold transition-colors shrink-0">▶</span>
-                    </div>
-                    <div onclick="seekToChapter(5)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group">
-                        <span class="font-display text-hot text-sm w-5 shrink-0">06</span>
-                        <div class="flex-1 min-w-0">
-                            <div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Who's Actually Watching?</div>
-                            <div class="text-[0.52rem] text-paper/22 tracking-wider">Accountability</div>
-                        </div>
-                        <span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span>
-                    </div>
+                    <div onclick="seekToChapter(0)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">01</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">The Bikie Franchise Model</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Organised Crime</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapter(1)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-gold/5 border border-transparent hover:border-gold/20 cursor-pointer transition-all group"><span class="font-display text-gold text-sm w-5 shrink-0">02</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Invisible on the Glitter Strip</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Homelessness</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-gold transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapter(2)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-sage/5 border border-transparent hover:border-sage/20 cursor-pointer transition-all group"><span class="font-display text-sage text-sm w-5 shrink-0">03</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Developer Money & Council Votes</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Political Corruption</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-sage transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapter(3)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-violet/5 border border-transparent hover:border-violet/20 cursor-pointer transition-all group"><span class="font-display text-violet text-sm w-5 shrink-0">04</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Meth, Money & the M1</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Drug Trade</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-violet transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapter(4)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-gold/5 border border-transparent hover:border-gold/20 cursor-pointer transition-all group"><span class="font-display text-gold text-sm w-5 shrink-0">05</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">How Homelessness Feeds Crime</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Intersection</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-gold transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapter(5)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">06</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Who's Actually Watching?</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Accountability</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
                 </div>
             </div>
-
             <div class="px-5 py-5">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold blink mb-2">Episode 2 Dropping Soon</div>
                 <a href="#sms" class="block w-full text-center bg-hot hover:bg-dim font-display tracking-widest text-paper py-3 text-sm transition-colors">GET NOTIFIED</a>
@@ -623,24 +347,20 @@
 
 
 <!-- ══════════════════════════════════════
-     MY STORY SECTION  ← NEW
+     SANDY TULISI / MY STORY SECTION
 ══════════════════════════════════════ -->
 <section id="story" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(214,61,47,0.03) 0%,transparent 40%)">
     <div class="max-w-6xl mx-auto">
 
-        <!-- Section header -->
         <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
             <div>
-                <div class="flex items-center gap-3 mb-2">
-                    <div class="w-4 h-px bg-hot"></div>
-                    <span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">The Origin Story — Episode 1</span>
-                </div>
+                <div class="flex items-center gap-3 mb-2"><div class="w-4 h-px bg-hot"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">The Origin Story — Episode 1</span></div>
                 <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">HOW I BECAME<br><span class="text-hot">HOMELESS</span></h2>
                 <p class="font-serif italic text-paper/35 mt-3 max-w-lg leading-relaxed">on the Gold Coast, and what happened when I fought back.</p>
             </div>
             <div class="max-w-xs">
                 <p class="text-[0.65rem] leading-relaxed text-paper/30 mb-3">This is not a fictional case study. This happened to me. The documents are real. The charges were real. The outcome was real.</p>
-                <div class="flex gap-2">
+                <div class="flex gap-2 flex-wrap">
                     <span class="evidence-tag text-hot" style="color:#d63d2f">📄 Documents Verified</span>
                     <span class="evidence-tag text-gold" style="color:#e8a020">⚖ Charges Dropped</span>
                 </div>
@@ -649,303 +369,407 @@
 
         <!-- Stats bar -->
         <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mb-14 reveal">
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-5xl text-hot mb-1">68</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Days bond held</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">Legal limit: 10</div>
-            </div>
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-5xl text-gold mb-1">6</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">False rent notices</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">All payments on time</div>
-            </div>
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-5xl text-paper/60 mb-1">$20</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Fine for a cup</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">Tax invoiced. Seriously.</div>
-            </div>
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-5xl text-sage mb-1">0</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Charges upheld</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">All dropped</div>
-            </div>
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-5xl text-hot mb-1">68</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Days bond held</div><div class="text-[0.5rem] text-paper/18 mt-1">Legal limit: 10</div></div>
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-5xl text-gold mb-1">6</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">False rent notices</div><div class="text-[0.5rem] text-paper/18 mt-1">All payments on time</div></div>
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-5xl text-paper/60 mb-1">$20</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Fine for a cup</div><div class="text-[0.5rem] text-paper/18 mt-1">Tax invoiced. Seriously.</div></div>
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-5xl text-sage mb-1">0</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Charges upheld</div><div class="text-[0.5rem] text-paper/18 mt-1">All dropped</div></div>
         </div>
 
-        <!-- Timeline / chapters -->
         <div class="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-8 lg:gap-16">
 
             <!-- Left nav -->
             <div class="hidden lg:block">
                 <div class="sticky top-24 space-y-1">
                     <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/20 mb-4">Episode 1 — Chapters</div>
-                    <a href="#story" class="flex items-center gap-3 py-2.5 group cursor-pointer">
-                        <div class="timeline-dot active"></div>
-                        <div>
-                            <div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Sandy Tulisi</div>
-                            <div class="text-[0.5rem] text-paper/20 tracking-wider">Rooming house fraud</div>
-                        </div>
-                    </a>
-                    <a href="#privacy" class="flex items-center gap-3 py-2.5 group cursor-pointer">
-                        <div class="timeline-dot" style="background:#7b5ea7;box-shadow:0 0 0 3px rgba(123,94,167,0.2)"></div>
-                        <div>
-                            <div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Privacy Breach</div>
-                            <div class="text-[0.5rem] text-paper/20 tracking-wider">Aquatic centre leak</div>
-                        </div>
-                    </a>
-                    <a href="#media" class="flex items-center gap-3 py-2.5 group cursor-pointer">
-                        <div class="timeline-dot" style="background:#e8a020;box-shadow:0 0 0 3px rgba(232,160,32,0.2)"></div>
-                        <div>
-                            <div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Sky News</div>
-                            <div class="text-[0.5rem] text-paper/20 tracking-wider">Story that didn't run</div>
-                        </div>
-                    </a>
-                    <a href="#rj" class="flex items-center gap-3 py-2.5 group cursor-pointer">
-                        <div class="timeline-dot"></div>
-                        <div>
-                            <div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">RJ — Criminal Pattern</div>
-                            <div class="text-[0.5rem] text-paper/20 tracking-wider">7 incidents, Sex & Crime Squad</div>
-                        </div>
-                    </a>
-                    <a href="#adam" class="flex items-center gap-3 py-2.5 group cursor-pointer">
-                        <div class="timeline-dot" style="background:#7b5ea7;box-shadow:0 0 0 3px rgba(123,94,167,0.2)"></div>
-                        <div>
-                            <div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Adam's Story</div>
-                            <div class="text-[0.5rem] text-paper/20 tracking-wider">Coercive control & DPP ruling</div>
-                        </div>
-                    </a>
-                    <a href="#assault" class="flex items-center gap-3 py-2.5 group cursor-pointer">
-                        <div class="timeline-dot"></div>
-                        <div>
-                            <div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Oracle East</div>
-                            <div class="text-[0.5rem] text-paper/20 tracking-wider">Stalked & assaulted</div>
-                        </div>
-                    </a>
-                    <a href="#brazen" class="flex items-center gap-3 py-2.5 group cursor-pointer">
-                        <div class="timeline-dot"></div>
-                        <div>
-                            <div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Brazen Crime</div>
-                            <div class="text-[0.5rem] text-paper/20 tracking-wider">Vehicle attack & arson</div>
-                        </div>
-                    </a>
-                    <a href="#redress" class="flex items-center gap-3 py-2.5 group cursor-pointer">
-                        <div class="timeline-dot" style="background:#2a9d4e;box-shadow:0 0 0 3px rgba(42,157,78,0.2)"></div>
-                        <div>
-                            <div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Redress Scheme</div>
-                            <div class="text-[0.5rem] text-paper/20 tracking-wider">Verification gap & fraud</div>
-                        </div>
-                    </a>
-                    <a href="#thankyou" class="flex items-center gap-3 py-2.5 group cursor-pointer">
-                        <div class="timeline-dot" style="background:#2a9d4e;box-shadow:0 0 0 3px rgba(42,157,78,0.2)"></div>
-                        <div>
-                            <div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Thank You — Adam Watson</div>
-                            <div class="text-[0.5rem] text-paper/20 tracking-wider">Kingsford Smith candidate</div>
-                        </div>
-                    </a>
-                    <div class="mt-6 pt-4 border-t border-paper/[0.06]">
-                        <button onclick="openModal('rooming')" class="text-[0.55rem] tracking-[0.15em] uppercase text-hot hover:text-paper transition-colors">Open Full Case File →</button>
-                    </div>
+                    <a href="#story" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot active"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Sandy Tulisi</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Rooming house fraud</div></div></a>
+                    <a href="#privacy" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot" style="background:#7b5ea7;box-shadow:0 0 0 3px rgba(123,94,167,0.2)"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Privacy Breach</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Aquatic centre leak</div></div></a>
+                    <a href="#media" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot" style="background:#e8a020;box-shadow:0 0 0 3px rgba(232,160,32,0.2)"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Sky News</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Story that didn't run</div></div></a>
+                    <a href="#assault" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Oracle East</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Stalked & assaulted</div></div></a>
+                    <a href="#rj" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">RJ — 7 Incidents</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Sex & Crime Squad</div></div></a>
+                    <a href="#adam" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot" style="background:#7b5ea7;box-shadow:0 0 0 3px rgba(123,94,167,0.2)"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Adam's Story</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Coercive control & DPP</div></div></a>
+                    <a href="#brazen" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Brazen Crime</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Vehicle attack & arson</div></div></a>
+                    <a href="#redress" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot" style="background:#2a9d4e;box-shadow:0 0 0 3px rgba(42,157,78,0.2)"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Redress Scheme</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Verification gap & fraud</div></div></a>
                 </div>
             </div>
 
-            <!-- Right: story content -->
+            <!-- Story chapters -->
             <div class="space-y-16">
 
-                <!-- Chapter 1 -->
+                <!-- Chapter 1: The Room -->
                 <div id="s-ch1" class="story-chapter reveal">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter 01</span>
-                        <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Rental Crisis</span>
-                    </div>
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter 01</span><span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Rental Crisis</span></div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE GOLD COAST DREAM<br><span class="text-hot">AND THE REALITY</span></h3>
-                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">
-                        "The Gold Coast looks like a dream. That's the whole point of it. What nobody tells you is that behind that strip — literally around the corner — there are people sleeping rough, rooming houses packed with 100 tenants, and landlords who've figured out the rules don't really apply to them if they're clever about it."
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">
-                        In August 2023 I was looking for a room in Surfers Paradise. Not a luxury apartment — a room. With a shared kitchen. The kind of place that exists at the bottom of the market, invisible to the tourists. I found one through a property listed as BeHome on Google. Rent: $290 a week. Fixed term. A rooming accommodation agreement, Form R18 — signed and moved in August 18th.
-                    </p>
-                    <div class="doc-reveal p-4 mb-4 cursor-pointer" onclick="openModal('rooming')">
-                        <div class="flex items-center justify-between">
-                            <div>
-                                <div class="text-[0.5rem] tracking-[0.18em] uppercase text-hot mb-1">Document</div>
-                                <div class="text-[0.7rem] text-paper/65">Rooming Accommodation Agreement (Form R18)</div>
-                                <div class="text-[0.58rem] text-paper/28 mt-0.5">$290/week · Fixed term · 18 Aug – 18 Oct 2023</div>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"The Gold Coast looks like a dream. That's the whole point of it. What nobody tells you is that behind that strip — literally around the corner — there are people sleeping rough, rooming houses packed with 100 tenants, and landlords who've figured out the rules don't really apply to them if they're clever about it."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">In August 2023 I was looking for a room in Surfers Paradise. Rent: $290 a week. Fixed term. A rooming accommodation agreement, Form R18 — signed and moved in August 18th. The landlord was Sandy Tulisi, operating under the name BeHome — also registered with the RTA as SOLAC HOUSE.</p>
+
+                    <!-- EVIDENCE VAULT: Sandy Tulisi -->
+                    <div class="evidence-vault">
+                        <div class="ev-header" onclick="toggleVault(this)">
+                            <div class="flex items-center gap-2">
+                                <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Sandy Tulisi · Rooming House</span>
                             </div>
-                            <span class="text-[0.52rem] text-hot/50 hover:text-hot transition-colors">View Case File →</span>
+                            <div class="flex items-center gap-3">
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">3 files</span>
+                                <span class="ev-toggle">▼</span>
+                            </div>
+                        </div>
+                        <div class="ev-body">
+                            <!-- File 1: Photo -->
+                            <div class="ev-file ef-gold" onclick="openMV('image','THE CUP PHOTO','Photograph taken at Sandy Tulisi\'s rooming house — allegedly a breach of house rules','Photo captured contemporaneously · Original file · Identifiers retained','sandy_cup_photo.jpg','I did not fail to wash the cup. This photo — taken without my knowledge — was used to justify a $20 tax invoice. It was later omitted from the formal bond deduction statement, suggesting even Sandy Tulisi knew it was indefensible.','image-cup')">
+                                <div class="ev-icon ev-img">📷</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">sandy_cup_photo.jpg</div>
+                                    <div class="ev-desc">Image · The cup that triggered a $20 tax invoice</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                            <!-- File 2: Notice to Leave PDF -->
+                            <div class="ev-file ef-hot" onclick="openMV('pdf','NOTICE TO LEAVE — RTA','Queensland RTA notice citing serious breach, issued on false premises','PDF Document · Official RTA Form · Issued Oct 2023','rta_notice_to_leave.pdf','This Notice to Leave was built on the false breach notices — six emails claiming rent was overdue when it was not. It was presented to police to justify applying a Police Banning Notice (No. 385003) in a civil tenancy dispute. All charges arising from it were dropped.','pdf-ntl')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">rta_notice_to_leave.pdf</div>
+                                    <div class="ev-desc">PDF · Notice to Leave — issued on false breach notices</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                            <!-- File 3: Court transcript -->
+                            <div class="ev-file ef-sage" onclick="openMV('pdf','COURT TRANSCRIPT','Transcript from proceedings — charge: Contravene Banning Notice No. 385003','PDF Document · Court Transcript · Redacted for privacy','court_transcript.pdf','The charge was taken on pro bono by a senior Australian lawyer. At court it was confirmed the Notice to Leave was issued on false grounds. All charges were subsequently dropped in full. No conviction. No penalty.','pdf-court')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">court_transcript.pdf</div>
+                                    <div class="ev-desc">PDF · Court proceedings · Contravene Banning Notice · Charges dropped</div>
+                                </div>
+                                <span class="redact-tag">⬛ Names redacted</span>
+                                <span class="ev-cta ml-2">View →</span>
+                            </div>
+                            <!-- ZIP Download -->
+                            <div class="ev-zip-bar">
+                                <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Download all 3 files as a bundle</span>
+                                <button class="mv-dl-btn mv-dl-gold text-[0.48rem]" onclick="downloadZip('sandy_tulisi_evidence.zip')">⬇ ZIP Bundle</button>
+                            </div>
                         </div>
                     </div>
-                    <p class="text-[0.65rem] leading-relaxed text-paper/32">
-                        Under Queensland's Residential Tenancies and Rooming Accommodation Act 2008, a rooming house allows landlords to rent individual rooms under separate agreements — with fewer tenant protections than a standard lease. The Gold Coast has hundreds of these properties. Many operate in legal grey zones between rooming house, hostel, and boarding house — categories with very different obligations. That ambiguity is not accidental.
-                    </p>
                 </div>
 
-                <!-- Chapter 2 -->
+                <!-- Chapter 2-5 condensed but with evidence vaults -->
                 <div id="s-ch2" class="story-chapter reveal" style="transition-delay:0.1s">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Chapter 02</span>
-                        <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Regulatory Failure</span>
-                    </div>
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Chapter 02</span><span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Regulatory Failure</span></div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">SANDY TULISI.<br><span class="text-gold">OR SANDY PARK. DEPENDS WHO'S ASKING.</span></h3>
-                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">
-                        "To the RTA, the property is registered as SOLAC HOUSE under Sandy Tulisi. But if you Google it, you find BeHome. Same address. Different name. I didn't know what that meant when I moved in. I do now."
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">
-                        The dual identity between public advertising name and official registration wasn't a clerical error. The website appelstreet.com.au — not easily discoverable — had content suggesting a hostel. But hostels don't ask tenants to lodge bonds with the RTA. The mismatch created deliberate ambiguity about what kind of accommodation this legally was, and what rights tenants had.
-                    </p>
-
-                    <!-- Two-col evidence grid -->
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
-                        <div class="doc-reveal p-4 cursor-pointer" onclick="openModal('bond')">
-                            <div class="text-[0.5rem] tracking-[0.18em] uppercase text-gold mb-2">Bond Confirmation</div>
-                            <div class="text-[0.68rem] text-paper/60 leading-relaxed">RTA confirmation dated <span class="text-gold">25 October 2023</span> — 68 days after move-in. Legal requirement: 10 days.</div>
-                            <div class="text-[0.52rem] text-gold/40 mt-3 hover:text-gold transition-colors">View Case File →</div>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"To the RTA, the property is registered as SOLAC HOUSE under Sandy Tulisi. But if you Google it, you find BeHome. Same address. Different name. The dual identity created deliberate legal ambiguity."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Bond number 714284215 was confirmed by the RTA on October 25, 2023 — 68 days after move-in. Legal requirement: 10 days. At a property with capacity for up to 100 tenants, if this delay was systematic, hundreds of bonds may have been held without proper protection.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <div class="doc-reveal p-4 cursor-pointer" onclick="openMV('pdf','RTA BOND CONFIRMATION','Official RTA bond lodgement confirmation — 68 days after move-in','RTA Document · Ref: Bond 714284215','rta_notice_to_leave.pdf','Legal requirement: 10 business days. Actual: 68 days. Filed following tenant inquiry about legal violations — suggesting reactive, not routine compliance.','pdf-bond')">
+                            <div class="text-[0.5rem] tracking-[0.18em] uppercase text-gold mb-1">Bond Confirmation — 68-day delay</div>
+                            <div class="text-[0.68rem] text-paper/60">RTA confirmation dated Oct 25, 2023. Bond: $580. Legal limit: 10 days.</div>
+                            <div class="text-[0.52rem] text-gold/40 mt-2">View Document →</div>
                         </div>
-                        <div class="doc-reveal p-4" style="border-left-color:#e8a020">
+                        <div class="border border-paper/[0.07] p-4">
                             <div class="text-[0.5rem] tracking-[0.18em] uppercase text-gold mb-2">Scale of Non-Compliance</div>
-                            <div class="text-[0.68rem] text-paper/60 leading-relaxed">Property capacity: <span class="text-gold">up to 100 tenants</span>. If the bond delay was systematic, hundreds of bonds may have sat unprotected.</div>
+                            <div class="text-[0.68rem] text-paper/60 leading-relaxed">Property capacity: <span class="text-gold">up to 100 tenants</span>. If the bond delay was systematic, hundreds of bonds may have sat unprotected outside the RTA scheme.</div>
                         </div>
                     </div>
-
-                    <p class="text-[0.65rem] leading-relaxed text-paper/32">
-                        The bond was lodged following tenant inquiries about legal violations — suggesting the lodgement was reactive, not routine. The RTA has the power to investigate and prosecute non-compliance, with fines of up to $2,669 per breach. An investigation has not been publicly confirmed.
-                    </p>
                 </div>
 
-                <!-- Chapter 3 -->
                 <div id="s-ch3" class="story-chapter reveal" style="transition-delay:0.15s">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter 03</span>
-                        <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Tenant Harassment</span>
-                    </div>
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter 03</span><span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Tenant Harassment</span></div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">A FINE FOR A CUP.<br><span class="text-hot">SIX FALSE RENT NOTICES.</span></h3>
-                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">
-                        "I get a fine. For a cup. Not trashing the room. A cup that I washed but didn't put away immediately. Twenty dollars. From Appel Street Pty Ltd. Tax invoice and everything."
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">
-                        Between September and October 2023, I received a series of emails from my landlord claiming my rent was overdue — on September 18th, 23rd, October 7th, 14th, 16th, and 23rd. My bank records show every payment was made on time. The emails were false. Then came an SMS from Sandy's personal mobile (0411 752 285) claiming a 13-day rent arrear and threatening eviction. That was also false.
-                    </p>
-
-                    <!-- Timeline of harassment -->
-                    <div class="border border-paper/[0.07] p-5 mb-6">
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"I get a fine. For a cup. Not trashing the room. A cup that I washed but didn't put away immediately. Twenty dollars. From Appel Street Pty Ltd. Tax invoice and everything."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Between September and October 2023 I received six emails falsely claiming rent was overdue. Bank records confirm every payment was made on time. An SMS from Sandy's personal mobile (0411 752 285) then threatened eviction based on a fabricated 13-day arrear.</p>
+                    <div class="border border-paper/[0.07] p-5 mb-4">
                         <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-4">Harassment Timeline — Sep/Oct 2023</div>
-                        <div class="space-y-3">
-                            <div class="flex gap-3 items-start">
-                                <span class="text-[0.55rem] text-hot/60 w-16 shrink-0 pt-0.5">18 Sep</span>
-                                <span class="text-[0.65rem] text-paper/45">Email: rent claimed overdue. Rent was paid.</span>
-                            </div>
-                            <div class="flex gap-3 items-start">
-                                <span class="text-[0.55rem] text-hot/60 w-16 shrink-0 pt-0.5">23 Sep</span>
-                                <span class="text-[0.65rem] text-paper/45">Email: rent claimed overdue again. Rent was paid.</span>
-                            </div>
-                            <div class="flex gap-3 items-start">
-                                <span class="text-[0.55rem] text-hot/60 w-16 shrink-0 pt-0.5">7 Oct</span>
-                                <span class="text-[0.65rem] text-paper/45">Email: overdue notice. Rent was paid.</span>
-                            </div>
-                            <div class="flex gap-3 items-start">
-                                <span class="text-[0.55rem] text-hot/60 w-16 shrink-0 pt-0.5">14 Oct</span>
-                                <span class="text-[0.65rem] text-paper/45">Email: overdue notice. Rent was paid.</span>
-                            </div>
-                            <div class="flex gap-3 items-start">
-                                <span class="text-[0.55rem] text-hot/60 w-16 shrink-0 pt-0.5">16 Oct</span>
-                                <span class="text-[0.65rem] text-paper/45">Email: overdue notice. Rent was paid.</span>
-                            </div>
-                            <div class="flex gap-3 items-start">
-                                <span class="text-[0.55rem] text-hot/60 w-16 shrink-0 pt-0.5">22 Oct</span>
-                                <span class="text-[0.65rem] text-paper/45">Tax invoice issued: $20 fine — "Cup left." Issued by Appel Street Pty Ltd.</span>
-                            </div>
-                            <div class="flex gap-3 items-start">
-                                <span class="text-[0.55rem] text-hot/60 w-16 shrink-0 pt-0.5">23 Oct</span>
-                                <span class="text-[0.65rem] text-paper/45">SMS from 0411 752 285: 13-day arrear claimed. Eviction threatened. Rent was paid.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="doc-reveal p-4 cursor-pointer" onclick="openModal('harassment')">
-                        <div class="flex items-center justify-between">
-                            <div>
-                                <div class="text-[0.5rem] tracking-[0.18em] uppercase text-hot mb-1">Legal Note</div>
-                                <div class="text-[0.7rem] text-paper/65">Under the RTRA Act, issuing breach notices when rent is current is a breach of the Act — and potentially constitutes harassment.</div>
-                            </div>
-                            <span class="text-[0.52rem] text-hot/50 hover:text-hot transition-colors ml-4 shrink-0">Full File →</span>
+                        <div class="space-y-2.5">
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-16 shrink-0 pt-0.5">18 Sep</span><span class="text-[0.65rem] text-paper/45">Email: rent claimed overdue. Rent was paid.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-16 shrink-0 pt-0.5">23 Sep</span><span class="text-[0.65rem] text-paper/45">Email: rent claimed overdue again. Rent was paid.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-16 shrink-0 pt-0.5">7 Oct</span><span class="text-[0.65rem] text-paper/45">Email: overdue notice. Rent was paid.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-16 shrink-0 pt-0.5">14 Oct</span><span class="text-[0.65rem] text-paper/45">Email: overdue notice. Rent was paid.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-16 shrink-0 pt-0.5">22 Oct</span><span class="text-[0.65rem] text-paper/45">Tax invoice issued: $20 fine — "Cup left." Issued by Appel Street Pty Ltd.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-16 shrink-0 pt-0.5">23 Oct</span><span class="text-[0.65rem] text-paper/45">SMS: 13-day arrear claimed. Eviction threatened. Rent was paid.</span></div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Chapter 4 -->
                 <div id="s-ch4" class="story-chapter reveal" style="transition-delay:0.2s">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter 04</span>
-                        <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Unlawful Eviction</span>
-                    </div>
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter 04</span><span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Unlawful Eviction</span></div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">POLICE AT THE DOOR.<br><span class="text-hot">NOWHERE TO SLEEP.</span></h3>
-                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">
-                        "They called the police. And they showed them an eviction notice. An invalid one. Built on the fake breach notices. Police don't have time to investigate whether a Notice to Leave is legally valid. They see a landlord with a notice and a tenant who won't leave, and they make a call."
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">
-                        Sandy Tulisi and her husband Chris Park refused to engage in direct communication, insisting on police intermediation. They presented police with a Notice to Leave issued on false grounds. They showed police selected CCTV footage, while refusing requests under the Privacy Act for the full footage. A Police Banning Notice — No. 385003 — was applied. The kind designed for alcohol and drug incidents at licensed venues. Applied here, in a civil tenancy dispute.
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">
-                        I was arrested. Charged with Contravening a Banning Notice. My belongings were removed. I was evicted without due process. I was homeless that night. Sandy later deducted a fee from my bond for a key I still had. That was the final act.
-                    </p>
-                    <div class="doc-reveal p-4 cursor-pointer" onclick="openModal('eviction')">
-                        <div class="flex items-center justify-between">
-                            <div>
-                                <div class="text-[0.5rem] tracking-[0.18em] uppercase text-hot mb-1">Document — Police Banning Notice No. 385003</div>
-                                <div class="text-[0.7rem] text-paper/65">Designed for alcohol/drug-related incidents. Applied in a civil tenancy context based on an invalid Notice to Leave.</div>
-                            </div>
-                            <span class="text-[0.52rem] text-hot/50 hover:text-hot transition-colors ml-4 shrink-0">Full File →</span>
-                        </div>
-                    </div>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"They called the police. And they showed them an eviction notice. An invalid one. Built on the fake breach notices. A Police Banning Notice — No. 385003 — was applied. The kind designed for alcohol and drug incidents at licensed venues."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">I was arrested. Charged with Contravening a Banning Notice. My belongings were removed. I was evicted without due process. I was homeless that night.</p>
                 </div>
 
-                <!-- Chapter 5 -->
                 <div id="s-ch5" class="story-chapter reveal" style="transition-delay:0.25s;border-left-color:rgba(232,160,32,0.3)">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Chapter 05</span>
-                        <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Legal Outcome</span>
-                    </div>
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Chapter 05</span><span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Legal Outcome</span></div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE LAWYER.<br><span class="text-gold">CHARGES DROPPED.</span></h3>
-                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">
-                        "He's a lawyer. Not a community legal centre lawyer — I mean the kind who moves in rooms I'd never otherwise see. He took my case pro bono. And I want to be clear about why that matters beyond just my situation: the legal cost of fighting a wrongful eviction in Queensland is completely out of reach for most people in rooming houses."
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">
-                        The Contravene Banning Notice charge was taken on pro bono by a senior Australian lawyer. The charges were subsequently dropped in full. Which tells you something about what those charges were built on.
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-8">
-                        My story has a relatively good ending. But most people in rooming houses across this city don't have access to that kind of legal representation. The Gold Coast's cheapest, most vulnerable accommodation sits at the intersection of people with the least legal knowledge and landlords who know exactly how to use that gap.
-                    </p>
-
-                    <!-- Outcome box -->
-                    <div class="border border-sage/30 bg-sage/[0.04] p-6">
-                        <div class="flex items-start gap-4">
-                            <div class="font-display text-6xl text-sage/30 leading-none">✓</div>
-                            <div>
-                                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-2">Legal Outcome</div>
-                                <div class="font-display text-2xl tracking-wide text-sage mb-2">ALL CHARGES DROPPED</div>
-                                <p class="text-[0.68rem] text-paper/40 leading-relaxed">Contravene Banning Notice charge — fully resolved. No conviction. No penalty. The eviction process that produced the charge was built on invalid notices and false premises.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mt-6 pt-5 border-t border-paper/[0.06]">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/20 mb-3">The Access to Justice Gap</div>
-                        <p class="text-[0.65rem] leading-relaxed text-paper/32">In Queensland, a tenant facing eviction from rooming accommodation has limited free legal options. Community legal centres are oversubscribed. Legal Aid has strict means and merit tests. Private solicitors charge $300–$600/hour. Most rooming house tenants — typically in the lowest income bracket — cannot afford representation. The system operates on the assumption that tenants won't fight back. It's usually right.</p>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"He's a lawyer. Not a community legal centre lawyer. He took my case pro bono. The Contravene Banning Notice charge was subsequently dropped in full."</p>
+                    <div class="border border-sage/30 bg-sage/[0.04] p-6 mb-5">
+                        <div class="flex items-start gap-4"><div class="font-display text-6xl text-sage/30 leading-none">✓</div><div><div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-2">Legal Outcome</div><div class="font-display text-2xl tracking-wide text-sage mb-2">ALL CHARGES DROPPED</div><p class="text-[0.68rem] text-paper/40 leading-relaxed">Contravene Banning Notice charge — fully resolved. No conviction. No penalty.</p></div></div>
                     </div>
                 </div>
 
             </div>
         </div>
+    </div>
+</section>
 
-        <!-- CTA inside story section -->
-        <div class="mt-16 pt-10 border-t border-paper/[0.06] flex flex-col sm:flex-row gap-4 items-center justify-between">
+
+<!-- ══════════════════════════════════════
+     POLICE CORRUPTION / ORACLE EAST + AQUATIC CENTRE
+══════════════════════════════════════ -->
+<section id="assault" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(214,61,47,0.05) 0%,transparent 50%)">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
             <div>
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">This Is Why CovertGC Exists</div>
-                <p class="text-[0.68rem] text-paper/35 max-w-md leading-relaxed">The Gold Coast is very good at making uncomfortable things invisible. That's kind of what this whole series is about.</p>
+                <div class="flex items-center gap-3 mb-2"><div class="w-4 h-px bg-hot"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">Police Accountability — Episode 1</span></div>
+                <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">ORACLE EAST.<br><span class="text-hot">STALKED & ASSAULTED.</span></h2>
+                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">Six assailants. A police corruption recording. A comment that triggered an investigation. An aquatic centre that photographed and monitored me. All connected.</p>
             </div>
-            <div class="flex gap-3">
-                <button onclick="openModal('rooming')" class="border border-hot/50 hover:border-hot hover:bg-hot/10 px-5 py-3 text-[0.55rem] tracking-[0.15em] uppercase text-hot transition-all">Open Full Case File</button>
-                <a href="#sms" class="bg-hot hover:bg-dim px-5 py-3 text-[0.55rem] tracking-[0.15em] uppercase text-paper font-display transition-all">Get Episode 2 Alerts</a>
+            <div class="max-w-xs">
+                <div class="flex flex-wrap gap-2">
+                    <span class="evidence-tag text-hot" style="color:#d63d2f">🎙 Audio Evidence</span>
+                    <span class="evidence-tag text-gold" style="color:#e8a020">📷 Photo Evidence</span>
+                    <span class="evidence-tag" style="color:rgba(240,236,226,0.4)">🎬 Video Evidence</span>
+                </div>
             </div>
         </div>
 
+        <div class="max-w-3xl mb-14 reveal">
+            <p class="font-serif italic text-paper/60 leading-relaxed mb-5" style="font-size:clamp(1rem,2.2vw,1.2rem)">"I was stalked from Broadbeach North tram stop. Six people. One of them was someone I had never spoken to, connected to RJ, attacking me specifically because of the video I'd made. What I didn't know at the time was that during the police interview afterwards, an officer told my attacker that a content creator should expect to get bashed."</p>
+        </div>
+
+        <div class="space-y-14">
+
+            <!-- Police Corruption Recording -->
+            <div class="story-chapter reveal" style="border-left-color:rgba(214,61,47,0.3)">
+                <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Police Corruption</span></div>
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">"EXPECT TO GET BASHED"<br><span class="text-hot">— RECORDED. CONFIRMED.</span></h3>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"A police officer, during the interview of one of my attackers, told him on record that a content creator who makes videos about people should expect to be physically attacked. That comment was captured. It has been referred to the Premier of Queensland and the Attorney General Deb Frecklington."</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The recording came from within RJ's circle — a confirmation that this network has grown so confident in its impunity that basic operational security has stopped mattering to them. The comment is now the centrepiece of an active police corruption investigation (Task Force Latro).</p>
+
+                <!-- EVIDENCE VAULT: Police Corruption -->
+                <div class="evidence-vault">
+                    <div class="ev-header" onclick="toggleVault(this)">
+                        <div class="flex items-center gap-2">
+                            <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Police Corruption · Oracle East</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">4 files</span>
+                            <span class="ev-toggle">▼</span>
+                        </div>
+                    </div>
+                    <div class="ev-body">
+                        <!-- Audio: Police recording -->
+                        <div class="ev-file ef-sage" onclick="openMV('audio','POLICE INTERVIEW RECORDING','Officer stating content creator should expect to be bashed — REDACTED','Audio · Queensland Police Interview · Identifying details filtered','police_corruption_audio_REDACTED.wav','This recording was captured during the police interview of one of my attackers following the Oracle East assault. The officer\'s comment has been provided to the Premier\'s office and Attorney General Deb Frecklington. It is central to the active Task Force Latro corruption investigation. Names and identifying details have been filtered from this release.','audio-police')">
+                            <div class="ev-icon ev-audio"><div class="audio-bars"><b></b><b></b><b></b><b></b><b></b></div></div>
+                            <div class="ev-meta">
+                                <div class="ev-name">police_corruption_recording_REDACTED.wav</div>
+                                <div class="ev-desc">Audio · Police interview · "Expect to get bashed" comment</div>
+                            </div>
+                            <span class="redact-tag">⬛ REDACTED</span>
+                            <span class="ev-cta ml-2">Listen →</span>
+                        </div>
+                        <!-- Council Letter 1 -->
+                        <div class="ev-file ef-violet" onclick="openMV('pdf','COUNCIL LETTER 1 — COMPLAINT ACKNOWLEDGED','City of Gold Coast Chief Risk and Audit Office — Ref: Lawmaster 1192 — Dec 16, 2024','PDF · Official Council Correspondence · Signed: Julie Schyf','council_letter_1_complaint_acknowledged.pdf','The council formally acknowledged receipt of the privacy complaint on 16 December 2024 and confirmed it was being investigated by the Chief Risk and Audit Office. The 45-business-day window under the Information Privacy Act 2009 begins from this date.','pdf-cl1')">
+                            <div class="ev-icon ev-pdf">PDF</div>
+                            <div class="ev-meta">
+                                <div class="ev-name">council_letter_1_complaint_acknowledged.pdf</div>
+                                <div class="ev-desc">PDF · Council acknowledges privacy complaint · Ref: Lawmaster 1192 · 16 Dec 2024</div>
+                            </div>
+                            <span class="ev-cta">View →</span>
+                        </div>
+                        <!-- Council Letter 2 -->
+                        <div class="ev-file ef-hot" onclick="openMV('pdf','COUNCIL LETTER 2 — INVESTIGATION DISCONTINUED','City of Gold Coast drops its own investigation — onus placed on complainant','PDF · Official Council Correspondence · For the CEO','council_letter_2_investigation_discontinued.pdf','The council discontinued its own investigation, citing failure to receive further information from the complainant. The evidence needed to investigate — the photograph, the annotation, the staff member\'s identity — was entirely within the council\'s own systems. This discontinuation required Premier Crisafulli\'s intervention to reverse. Staff were subsequently terminated.','pdf-cl2')">
+                            <div class="ev-icon ev-pdf">PDF</div>
+                            <div class="ev-meta">
+                                <div class="ev-name">council_letter_2_investigation_discontinued.pdf</div>
+                                <div class="ev-desc">PDF · Council drops investigation · Onus placed on victim</div>
+                            </div>
+                            <span class="ev-cta">View →</span>
+                        </div>
+                        <!-- Aquatic Centre Photo (placeholder) -->
+                        <div class="ev-file ef-gold" onclick="openMV('image','AQUATIC CENTRE SURVEILLANCE PHOTO','Photo taken of Kosta Kondratenko by council staff — annotated with monitoring note — distributed with derogatory comment','Image · Southport Aquatic Centre · Dec 2024 · Original retained by investigators','aquatic_centre_photo_placeholder.jpg','This photograph was taken by a Gold Coast Aquatic Centre staff member without my consent. It was annotated with the note: &quot;Monitor This One. Comes in for shower. Been asked not to use gym.&quot; It was then sent to a member of the public — a photographer I had employed — with the comment &quot;Look at these shit cunts.&quot; A formal privacy complaint was filed. The Premier issued a Show Cause notice. Staff were terminated.','image-aquatic')">
+                            <div class="ev-icon ev-img">📷</div>
+                            <div class="ev-meta">
+                                <div class="ev-name">aquatic_centre_surveillance_photo.jpg</div>
+                                <div class="ev-desc">Image · Council staff surveillance photo — annotated & distributed · Privacy breach</div>
+                            </div>
+                            <span class="redact-tag">⬛ PLACEHOLDER</span>
+                            <span class="ev-cta ml-2">View →</span>
+                        </div>
+                        <!-- Oracle East video (placeholder) -->
+                        <div class="ev-file ef-violet" onclick="openMV('video','ORACLE EAST — ASSAULT FOOTAGE','Video of the Oracle East attack — Kosta Kondratenko stalked from Broadbeach North tram stop — 6 assailants','Video · Pending release · Identifiers to be filtered','oracle_east_assault_PENDING.mp4','This footage documents the assault at Oracle East. The attacker is connected to RJ\'s network. The attack was carried out specifically in retaliation for video content published about this network. The footage is pending formal release pending legal advice. A redacted version will be published here.','video-oracle')">
+                            <div class="ev-icon ev-video">▶</div>
+                            <div class="ev-meta">
+                                <div class="ev-name">oracle_east_assault_footage_PENDING.mp4</div>
+                                <div class="ev-desc">Video · Oracle East assault · 6 assailants · Pending redacted release</div>
+                            </div>
+                            <span class="redact-tag">⬛ PENDING</span>
+                            <span class="ev-cta ml-2">Preview →</span>
+                        </div>
+                        <div class="ev-zip-bar">
+                            <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Download council letters + audio (redacted)</span>
+                            <button class="mv-dl-btn mv-dl-gold text-[0.48rem]" onclick="downloadZip('police_accountability_files.zip')">⬇ ZIP Bundle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     SKY NEWS SECTION
+══════════════════════════════════════ -->
+<section id="media" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(232,160,32,0.03) 0%,transparent 50%)">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
+            <div>
+                <div class="flex items-center gap-3 mb-2"><div class="w-4 h-px bg-gold"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-gold">Media Accountability — Episode 1</span></div>
+                <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">THE STORY<br><span class="text-gold">THAT DIDN'T RUN.</span></h2>
+                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">A Sky News journalist arranged an interview about homelessness on the Gold Coast. Then she pulled my criminal history. Then a charge sheet that could only have come from police appeared to be in circulation.</p>
+            </div>
+            <div class="max-w-xs">
+                <div class="flex flex-wrap gap-2">
+                    <span class="evidence-tag text-gold" style="color:#e8a020">📺 Sky News</span>
+                    <span class="evidence-tag text-hot" style="color:#d63d2f">⚠ QP-9 Disclosure</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-3xl mb-14 reveal">
+            <p class="font-serif italic text-paper/60 leading-relaxed mb-5" style="font-size:clamp(1rem,2.2vw,1.2rem)">"I gave a Sky News journalist a brief on what I'd found — the homelessness services gap on the Gold Coast, the 7 Care Connect posters in the bathroom at Nerang Street. She interviewed me. And then instead of covering the story, she pulled my file."</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-12">
+            <div class="space-y-10">
+
+                <div class="story-chapter reveal" style="border-left-color:rgba(232,160,32,0.3)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">The Leak</span></div>
+                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE EMAIL TO HANCOCK PROSPECTING.<br><span class="text-gold">AND MY CHARGE SHEET.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"A QP-9 is a Queensland Police charge sheet. It is not a public document. If a journalist has one, someone in Queensland Police gave it to them. That is an unauthorised disclosure of personal information. CovertGC has referred this to the CCC."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The email thread from the Sky News reporter — sent to Hancock Prospecting with my QP-9 attached — documents both the illegal disclosure of a police charge document and the framing of a homeless journalism source as unreliable based on a dropped charge. The Kangaroo Point McDonald's Public Nuisance charge was dropped by the DPP at first mention. A dropped charge is not a conviction.</p>
+
+                    <!-- EVIDENCE VAULT: Sky News -->
+                    <div class="evidence-vault">
+                        <div class="ev-header" onclick="toggleVault(this)">
+                            <div class="flex items-center gap-2">
+                                <span class="text-[0.48rem] tracking-[0.22em] uppercase text-gold">📁 Evidence Files</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Sky News · QP-9 Disclosure</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                                <span class="ev-toggle">▼</span>
+                            </div>
+                        </div>
+                        <div class="ev-body">
+                            <div class="ev-file ef-gold" onclick="openMV('pdf','SKY NEWS EMAIL THREAD + QP-9','Email from Sky News journalist to Hancock Prospecting — QP-9 attached — Queensland Police charge document','PDF · Email thread with attachment · Names partially redacted','sky_news_email_thread.pdf','This document shows the Sky News journalist forwarding my Queensland Police charge document (QP-9) — a non-public record — to representatives at Hancock Prospecting. A QP-9 cannot be obtained through public records or standard media liaison. Its disclosure to a third party is a breach of the Information Privacy Act 2009. The matter has been referred to the Crime and Corruption Commission.','pdf-skynews')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">sky_news_email_hancock_QP9.pdf</div>
+                                    <div class="ev-desc">PDF · Email thread · QP-9 attachment · Referred to CCC</div>
+                                </div>
+                                <span class="redact-tag">⬛ Names redacted</span>
+                                <span class="ev-cta ml-2">View →</span>
+                            </div>
+                            <div class="ev-zip-bar">
+                                <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Download — Sky News accountability file</span>
+                                <button class="mv-dl-btn mv-dl-gold text-[0.48rem]" onclick="downloadZip('sky_news_accountability.zip')">⬇ Download</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="story-chapter reveal" style="transition-delay:0.1s;border-left-color:rgba(123,94,167,0.3)">
+                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">"HE'S THE HOMELESS GUY<br><span style="color:#7b5ea7">WITH MENTAL HEALTH ISSUES."</span></h3>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The comment reduces a person to their housing status and their diagnosis simultaneously — using both as grounds for disqualification. Not as a factual challenge to anything documented, but as a category dismissal. The 7 Care Connect posters on the bathroom walls at Nerang Street did not disappear because the person who found them has a mental health history.</p>
+                    <div class="border p-6" style="border-color:rgba(123,94,167,0.2);background:rgba(123,94,167,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase mb-3" style="color:#7b5ea7">Why Independent Media Exists</div>
+                        <p class="text-[0.68rem] text-paper/40 leading-relaxed">When mainstream outlets decide sources with complicated personal histories aren't worth covering, they leave those stories untold. CovertGC exists precisely because some stories only get told when the person who found them tells it themselves.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="space-y-4">
+                <div class="sticky top-24 space-y-4">
+                    <div class="border border-gold/20 p-5" style="background:rgba(232,160,32,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">The Story Was About</div>
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs mt-0.5 shrink-0">→</span><p class="text-[0.6rem] text-paper/40">7 Care Connect posters in bathrooms near Nerang Street — crisis outreach visible only where people in crisis are.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs mt-0.5 shrink-0">→</span><p class="text-[0.6rem] text-paper/40">The Sandy Tulisi case as a specific example of how the housing system fails its most vulnerable.</p></div>
+                        </div>
+                    </div>
+                    <div class="border border-paper/[0.07] p-5">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-2">The Legal Question</div>
+                        <p class="text-[0.62rem] text-paper/35 leading-relaxed mb-2">A QP-9 is not a public document. Its disclosure by a QPS officer may breach the Information Privacy Act 2009 and potentially the Crime and Corruption Act 2001.</p>
+                        <p class="text-[0.6rem] text-paper/25">Referred to: Crime and Corruption Commission Queensland</p>
+                    </div>
+                    <div class="border border-paper/[0.07] p-5">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-2">7 Care Connect</div>
+                        <p class="text-[0.62rem] text-paper/35 leading-relaxed">Crisis referral & homelessness support.<br><span class="text-gold">1800 071 004</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     VIRAL VIDEO SECTION
+══════════════════════════════════════ -->
+<section id="viral" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(214,61,47,0.04) 0%,transparent 50%)">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
+            <div>
+                <div class="flex items-center gap-3 mb-2"><div class="w-4 h-px bg-hot"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">The Video That Started It All</span></div>
+                <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">THE VIRAL<br><span class="text-hot">VIDEO.</span></h2>
+                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">I made a video of RJ that circulated widely on the Gold Coast. A direct confrontation. Submitted to Hancock Prospecting. The response was immediate — and violent.</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-[1fr_360px] gap-12 reveal">
+            <div>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">The video was submitted to Hancock Prospecting, after which I was blocked — which is when I understood that Adam Watson's connection to Gina Rinehart was genuine. Associates connected to RJ began a sustained harassment campaign against Adam Watson at a local shopping centre — approaching him regularly, making threats, explicitly connecting the harassment to the viral video.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-8">This is the same logic that produced the Oracle East assault. Visibility — making a video, naming someone, publishing conduct — is treated by this network as an act that justifies physical and social retaliation. It does not.</p>
+
+                <!-- EVIDENCE VAULT: Viral Video -->
+                <div class="evidence-vault">
+                    <div class="ev-header" onclick="toggleVault(this)">
+                        <div class="flex items-center gap-2">
+                            <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— The Viral Video</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                            <span class="ev-toggle">▼</span>
+                        </div>
+                    </div>
+                    <div class="ev-body">
+                        <div class="ev-file ef-hot" onclick="openMV('video','THE VIRAL VIDEO — RJ CONFRONTATION','Direct confrontation video of RJ — circulated widely across the Gold Coast — submitted to Hancock Prospecting','Video · Original recording · PLACEHOLDER — full video pending legal review','viral_video_rj_PLACEHOLDER.mp4','This is the video that triggered the retaliation campaign. The direct confrontation documented RJ\'s behaviour and connections. When submitted to Hancock Prospecting, I was immediately blocked — confirming Adam Watson\'s connection to that network. RJ\'s associates began a sustained harassment campaign against Adam Watson in direct response to this video\'s circulation.','video-viral')">
+                            <div class="ev-icon ev-video">▶</div>
+                            <div class="ev-meta">
+                                <div class="ev-name">viral_video_RJ_confrontation.mp4</div>
+                                <div class="ev-desc">Video · RJ confrontation · Gold Coast · Triggered retaliation campaign</div>
+                            </div>
+                            <span class="redact-tag">⬛ PLACEHOLDER</span>
+                            <span class="ev-cta ml-2">Watch →</span>
+                        </div>
+                        <div class="ev-zip-bar">
+                            <span class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/25">Full video pending legal clearance — placeholder visible now</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border border-hot/15 p-6" style="background:rgba(214,61,47,0.03)">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">What Happened After</div>
+                <div class="space-y-3">
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/40">Submitted to Hancock Prospecting. Immediately blocked.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/40">Associates began daily harassment of Adam Watson at a local shopping centre.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/40">Oracle East assault followed — 6 assailants, targeted in retaliation.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/40">Police interview produced the "expect to get bashed" corruption recording.</p></div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -955,19 +779,13 @@
 ══════════════════════════════════════ -->
 <section id="adam" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(123,94,167,0.04) 0%,transparent 50%)">
     <div class="max-w-6xl mx-auto">
-
-        <!-- Section header -->
         <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
             <div>
-                <div class="flex items-center gap-3 mb-2">
-                    <div class="w-4 h-px bg-violet"></div>
-                    <span class="text-[0.55rem] tracking-[0.3em] uppercase text-violet">A Witness Account — Episode 1</span>
-                </div>
+                <div class="flex items-center gap-3 mb-2"><div class="w-4 h-px bg-violet"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-violet">A Witness Account — Episode 1</span></div>
                 <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">WHEN LOVE<br><span class="text-violet">BECOMES A WEAPON</span></h2>
                 <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">Coercive control, false allegations, and the system gaps that let it happen. Adam Watson's story.</p>
             </div>
             <div class="max-w-xs">
-                <p class="text-[0.65rem] leading-relaxed text-paper/30 mb-3">This section explores patterns of coercive control experienced by a named Gold Coast man. The subject of the allegations is not named. All legal outcomes are documented.</p>
                 <div class="flex flex-wrap gap-2">
                     <span class="evidence-tag" style="color:#7b5ea7">⚖ DPP: Malicious Prosecution</span>
                     <span class="evidence-tag" style="color:#e8a020">📡 Optus Security Breach</span>
@@ -975,286 +793,108 @@
             </div>
         </div>
 
-        <!-- Intro statement -->
-        <div class="max-w-3xl mb-14 reveal">
-            <p class="font-serif italic text-paper/60 leading-relaxed mb-5" style="font-size:clamp(1rem,2.2vw,1.25rem)">
-                "I watched someone I care about get systematically dismantled — his reputation, his safety, his phone, his freedom — by a person he had trusted completely. Every tool available was used against him. False criminal charges. Surveillance. Social isolation. Infrastructure attacks. This is what coercive control actually looks like when it escalates."
-            </p>
-            <div class="flex items-center gap-3">
-                <div class="w-6 h-px bg-violet/40"></div>
-                <span class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/25">Kosta Kondratenko — CovertGC</span>
-            </div>
-        </div>
-
-        <!-- Three-theme stats bar -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-px bg-paper/[0.04] mb-16 reveal">
-            <div class="bg-ink px-8 py-7">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-violet mb-3">Theme One</div>
-                <div class="font-display text-2xl tracking-wide text-violet mb-2">COERCIVE CONTROL</div>
-                <p class="text-[0.65rem] text-paper/35 leading-relaxed">Surveillance, isolation, and the weaponisation of intimacy. How a relationship became a mechanism of control.</p>
-            </div>
-            <div class="bg-ink px-8 py-7">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Theme Two</div>
-                <div class="font-display text-2xl tracking-wide text-hot mb-2">FALSE ALLEGATIONS</div>
-                <p class="text-[0.65rem] text-paper/35 leading-relaxed">Criminal charges as a tool of retaliation. A DPP malicious prosecution ruling. A police officer fired. The cost of getting it wrong.</p>
-            </div>
-            <div class="bg-ink px-8 py-7">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">Theme Three</div>
-                <div class="font-display text-2xl tracking-wide text-gold mb-2">ADULT TIME, ADULT CRIME</div>
-                <p class="text-[0.65rem] text-paper/35 leading-relaxed">A juvenile record that the system treated as a clean slate. The gap between what a young offender has done and what the law can acknowledge.</p>
-            </div>
-        </div>
-
-        <!-- Story chapters -->
         <div class="space-y-16">
 
-            <!-- Chapter A: Coercive Control -->
+            <!-- Chapter A: Coercive Control / Bodie Chalmers -->
             <div class="story-chapter reveal" style="border-left-color:rgba(123,94,167,0.3)">
-                <div class="flex items-center gap-3 mb-4">
-                    <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7b5ea7;border-color:rgba(123,94,167,0.4)">Chapter A</span>
-                    <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Coercive Control</span>
-                </div>
+                <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7b5ea7;border-color:rgba(123,94,167,0.4)">Chapter A — Coercive Control</span></div>
                 <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE ANATOMY OF<br><span style="color:#7b5ea7">CONTROL</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">
-                    "Coercive control rarely announces itself. It arrives as attention, then affection, then dependence — and by the time the walls close in, leaving feels impossible."
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    Adam Watson entered a relationship that escalated rapidly into a pattern of coercive and controlling behaviour. The control operated across multiple vectors simultaneously — emotional, digital, and physical — consistent with what researchers describe as a "total control" model, where the abuser works to eliminate every independent support structure the victim has.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">
-                    When Adam's friends became aware of concerning behaviour and began to distance themselves — not from Adam, but from the situation — that distancing was reframed as rejection and used as evidence that Adam had no one. The social isolation was not incidental. It was engineered.
-                </p>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Coercive control rarely announces itself. It arrives as attention, then affection, then dependence — and by the time the walls close in, leaving feels impossible."</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Adam Watson entered a relationship with Bodie Chalmers that escalated into a pattern of coercive and controlling behaviour. Access was obtained to Apple's location sharing on Adam's iPhone without his knowledge. A tracking device was placed on his fuel cap. A private eye-biometric lie detection test was commissioned — scored 1 out of 100, rated "Deceptive" — by a certified EyeDetect® examiner at 50 Cavill Avenue, Surfers Paradise.</p>
 
-                <!-- Surveillance detail -->
-                <div class="border border-paper/[0.07] p-6 mb-6" style="border-left:3px solid rgba(123,94,167,0.5)">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase mb-3" style="color:#7b5ea7">Documented Pattern — Digital Surveillance</div>
-                    <div class="space-y-3">
-                        <div class="flex gap-3 items-start">
-                            <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0" style="background:#7b5ea7"></div>
-                            <p class="text-[0.65rem] text-paper/45 leading-relaxed">Access was obtained to Apple's location sharing feature on Adam's iPhone without his knowledge, enabling real-time tracking of his physical movements.</p>
+                <!-- EVIDENCE VAULT: Bodie Chalmers -->
+                <div class="evidence-vault">
+                    <div class="ev-header" onclick="toggleVault(this)">
+                        <div class="flex items-center gap-2">
+                            <span class="text-[0.48rem] tracking-[0.22em] uppercase text-violet" style="color:#7b5ea7">📁 Evidence Files</span>
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Bodie Chalmers · Coercive Control</span>
                         </div>
-                        <div class="flex gap-3 items-start">
-                            <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0" style="background:#7b5ea7"></div>
-                            <p class="text-[0.65rem] text-paper/45 leading-relaxed">Adam's location was tracked to his vehicle. A physical tracking device was subsequently placed on the fuel cap of his car — escalating from digital to physical surveillance.</p>
-                        </div>
-                        <div class="flex gap-3 items-start">
-                            <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0" style="background:#7b5ea7"></div>
-                            <p class="text-[0.65rem] text-paper/45 leading-relaxed">When confronted with questions about fidelity, a private eye-biometric lie detection test was commissioned. The subject scored 1 out of 100 — rated "Deceptive" — on an infidelity examination conducted by a certified EyeDetect® examiner at 50 Cavill Avenue, Surfers Paradise.</p>
+                        <div class="flex items-center gap-3">
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                            <span class="ev-toggle">▼</span>
                         </div>
                     </div>
-                </div>
-
-                <div class="doc-reveal p-4 cursor-pointer" onclick="openModal('coercive')">
-                    <div class="flex items-center justify-between">
-                        <div>
-                            <div class="text-[0.5rem] tracking-[0.18em] uppercase mb-1" style="color:#7b5ea7">Case File — What Is Coercive Control?</div>
-                            <div class="text-[0.7rem] text-paper/65">Queensland criminalised coercive control in 2023. Understanding what it looks like — and why it's hard to prove.</div>
+                    <div class="ev-body">
+                        <div class="ev-file ef-violet" onclick="openMV('pdf','BODIE CHALMERS — CRIMINAL HISTORY','Prior criminal history document — Bodie Chalmers — context for coercive control pattern','PDF Document · Criminal history · Partially redacted','bodie_chalmers_criminal_history.pdf','This document outlines the prior criminal history of Bodie Chalmers, the subject of the coercive control allegations. This history is relevant to understanding the pattern of behaviour documented across multiple incidents in this investigation. Names of co-accused and third parties have been redacted.','pdf-bodie')">
+                            <div class="ev-icon ev-pdf">PDF</div>
+                            <div class="ev-meta">
+                                <div class="ev-name">bodie_chalmers_criminal_history.pdf</div>
+                                <div class="ev-desc">PDF · Criminal history · Coercive control context</div>
+                            </div>
+                            <span class="redact-tag">⬛ Third parties redacted</span>
+                            <span class="ev-cta ml-2">View →</span>
                         </div>
-                        <span class="text-[0.52rem] ml-4 shrink-0 transition-colors" style="color:rgba(123,94,167,0.5)">Full File →</span>
+                        <div class="ev-zip-bar">
+                            <span class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/25">More documents will be added as the investigation progresses</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Chapter B: False Allegations -->
-            <div class="story-chapter reveal" style="transition-delay:0.1s">
-                <div class="flex items-center gap-3 mb-4">
-                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter B</span>
-                    <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">False Allegations</span>
-                </div>
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE ALLEGATION.<br><span class="text-hot">THE CHARGE. THE COLLAPSE.</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">
-                    "A criminal charge does not require truth. It requires a complainant, a police officer who believes them, and a system that moves faster than the facts."
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    Adam Watson was charged with sexual assault based on allegations made to Queensland Police. The charge was serious. His social circle contracted immediately — the presumption of innocence, in practice, rarely survives the word spreading through a community. People who had known Adam for years kept their distance. The allegation did its work before a single day in court.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">
-                    At the first court mention, the Director of Public Prosecutions assessed the matter and ruled it a malicious prosecution. The charge was dismissed. The police officer who had accepted and actioned the complaint was subsequently fired.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">
-                    A separate incident saw a young woman throw rocks at Adam's vehicle, then approach a different police officer claiming he had grabbed her. A witness at the scene had observed the rock-throwing and notified police. The allegation did not proceed.
-                </p>
-
-                <!-- Outcome boxes -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
-                    <div class="border p-5" style="border-color:rgba(214,61,47,0.3);background:rgba(214,61,47,0.03)">
-                        <div class="font-display text-xl text-hot mb-1">DPP RULING</div>
-                        <div class="text-[0.6rem] tracking-[0.15em] uppercase text-hot/60 mb-3">Malicious Prosecution</div>
-                        <p class="text-[0.65rem] text-paper/40 leading-relaxed">The Director of Public Prosecutions assessed the sexual assault charge at first mention and ruled the prosecution malicious. Charge dismissed.</p>
-                    </div>
-                    <div class="border p-5" style="border-color:rgba(214,61,47,0.3);background:rgba(214,61,47,0.03)">
-                        <div class="font-display text-xl text-hot mb-1">OFFICER FIRED</div>
-                        <div class="text-[0.6rem] tracking-[0.15em] uppercase text-hot/60 mb-3">Confirmed Outcome</div>
-                        <p class="text-[0.65rem] text-paper/40 leading-relaxed">The Queensland Police officer who accepted and charged Adam based on the false complaint was subsequently dismissed from the service.</p>
-                    </div>
-                </div>
-
-                <div class="border border-paper/[0.07] p-5 mb-5" style="border-left:3px solid rgba(214,61,47,0.5)">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">The Reputational Cost</div>
-                    <p class="text-[0.68rem] text-paper/40 leading-relaxed">A malicious prosecution ruling does not undo the social damage of a charge. In Adam's gym, in his social circles, on his phone — the allegation had already spread. The DPP ruling came too late to reach the people who had already decided. This is a known and documented pattern in false allegation cases: the charge travels fast, the exoneration travels slow.</p>
-                </div>
-
-                <div class="doc-reveal p-4 cursor-pointer" onclick="openModal('malicious')">
-                    <div class="flex items-center justify-between">
-                        <div>
-                            <div class="text-[0.5rem] tracking-[0.18em] uppercase text-hot mb-1">Case File — Malicious Prosecution</div>
-                            <div class="text-[0.7rem] text-paper/65">What the DPP threshold actually is — and how rarely a case gets ruled malicious at first mention.</div>
-                        </div>
-                        <span class="text-[0.52rem] text-hot/50 ml-4 shrink-0 hover:text-hot transition-colors">Full File →</span>
-                    </div>
+            <!-- Chapter B: Malicious Prosecution -->
+            <div class="story-chapter reveal" style="transition-delay:0.1s;border-left-color:rgba(214,61,47,0.3)">
+                <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter B — False Allegations</span></div>
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">DPP RULING.<br><span class="text-hot">OFFICER FIRED.</span></h3>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"A criminal charge does not require truth. It requires a complainant, a police officer who believes them, and a system that moves faster than the facts."</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Adam Watson was charged with sexual assault based on allegations made to Queensland Police. At the first court mention, the Director of Public Prosecutions ruled it a malicious prosecution. The charge was dismissed. The police officer who accepted and actioned the complaint was subsequently fired.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+                    <div class="border p-5" style="border-color:rgba(214,61,47,0.3);background:rgba(214,61,47,0.03)"><div class="font-display text-xl text-hot mb-1">DPP RULING</div><div class="text-[0.6rem] tracking-[0.15em] uppercase text-hot/60 mb-3">Malicious Prosecution</div><p class="text-[0.65rem] text-paper/40 leading-relaxed">The DPP assessed the charge at first mention and ruled the prosecution malicious. Charge dismissed.</p></div>
+                    <div class="border p-5" style="border-color:rgba(214,61,47,0.3);background:rgba(214,61,47,0.03)"><div class="font-display text-xl text-hot mb-1">OFFICER FIRED</div><div class="text-[0.6rem] tracking-[0.15em] uppercase text-hot/60 mb-3">Confirmed Outcome</div><p class="text-[0.65rem] text-paper/40 leading-relaxed">The QPS officer who charged Adam based on the false complaint was subsequently dismissed from the service.</p></div>
                 </div>
             </div>
 
-            <!-- Chapter C: Optus / Infrastructure -->
+            <!-- Chapter C: Optus -->
             <div class="story-chapter reveal" style="transition-delay:0.15s;border-left-color:rgba(232,160,32,0.3)">
-                <div class="flex items-center gap-3 mb-4">
-                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Chapter C</span>
-                    <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Infrastructure Attack</span>
-                </div>
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE PHONE CALL<br><span class="text-gold">THAT SHOULDN'T HAVE WORKED</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">
-                    "Someone walked into an Optus store and had Adam's phone number turned off. No authorisation. No verification. Just social pressure on an employee. And it worked."
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    Adam's Optus mobile service was deactivated by a third party who entered an Optus retail store and applied pressure to a staff member — threatening to expose the employee's sexuality unless they complied. The employee did comply. Adam's phone was turned off.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    The implications extend well beyond one man's phone service. If a number can be deactivated through social engineering of a single retail employee — with no authentication, no account verification, no failsafe — then any Australian's mobile number is vulnerable to the same attack. A phone number is now, in practice, an identity document. It's tied to banking two-factor authentication, emergency services, and digital identity verification. Turning it off is not an inconvenience. It's an attack surface.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">
-                    Adam raised the matter with the Prime Minister's office, which referred it to the Telecommunications Industry Ombudsman. The Optus CEO was notified and has issued a directive to address the vulnerability. The employee involved is no longer with Optus.
-                </p>
+                <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Chapter C — Optus Breach</span></div>
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE $2,500 BILL<br><span class="text-gold">FOR OPTUS'S OWN FAILURE.</span></h3>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Someone walked into an Optus store and had Adam's phone number turned off. No authorisation. No verification. Just social pressure on an employee. And it worked."</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Adam's Optus service was deactivated by a third party who threatened to expose an employee's sexuality unless they complied. The employee complied. Adam's phone was turned off. The matter was raised with the Prime Minister's office, referred to the Telecommunications Industry Ombudsman, and the Optus CEO was notified. Adam is now being billed $2,500 for the disconnection — despite the breach being caused entirely by Optus's own failure.</p>
 
-                <!-- $2500 fee -->
-                <div class="border border-hot/20 p-5 mb-6" style="background:rgba(214,61,47,0.03);border-left:3px solid rgba(214,61,47,0.5)">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Update — Adam Watson Is Being Billed $2,500</div>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Following the social engineering attack, Optus placed Adam's phone number in quarantine — a security hold on the number after the unauthorised deactivation. Adam is now being charged a $2,500 disconnection fee by Optus in connection with this quarantine process. He is expected to pay this fee despite the fact that the security breach was caused entirely by Optus's own failure to verify the identity of the person who requested the deactivation.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">This is the institutional logic of telecommunications billing at its most perverse: a customer whose service was compromised by the carrier's own security failure is invoiced for the administrative cost of that failure. The Telecommunications Industry Ombudsman referral and the CEO directive have not, as yet, produced a waiver of this charge. CovertGC considers that charge unconscionable and is calling on Optus to waive it.</p>
-                </div>
-
-                <!-- Kosta's ARM Collect story -->
-                <div class="border border-paper/[0.07] p-5 mb-6" style="border-left:3px solid rgba(232,160,32,0.5)">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">A Related Pattern — Telco Debt and Homelessness</div>
-                    <p class="text-[0.68rem] text-paper/40 leading-relaxed mb-3">My own experience with Optus illustrates a related failure. I had two accounts with the carrier. When I lost my phone and SIM card — during the period of homelessness documented elsewhere in this episode — one of those accounts had been referred to a debt collection agency called ARM Collect. When I attempted to obtain a replacement SIM card, Optus informed me that I would first need to settle the ARM Collect debt before they would reactivate my service.</p>
-                    <p class="text-[0.68rem] text-paper/40 leading-relaxed mb-3">This is an extortionate tactic applied to a person with no phone, no stable address, and no capacity to make immediate payment to a debt collector. A SIM card is not a luxury — it is the infrastructure through which a person accesses employment opportunities, homelessness services, emergency contacts, and Centrelink. Holding it hostage to a debt collection settlement at the precise moment a person is most vulnerable is a policy that requires serious scrutiny.</p>
-                    <p class="text-[0.68rem] text-paper/40 leading-relaxed">The connection to homelessness is direct and documented. When a person loses their phone and cannot afford to settle a telco debt, they lose access to the digital services that would help them exit homelessness. The debt becomes a wall. The telco, collecting through ARM Collect, holds the key. This is not an edge case — it is a structural feature of how telecommunications debt intersects with housing instability on the Gold Coast.</p>
-                </div>
-                <div class="border border-gold/20 p-6 mb-6" style="background:rgba(232,160,32,0.03)">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-4">Why This Matters Beyond Adam</div>
-                    <div class="space-y-3">
-                        <div class="flex gap-3 items-start">
-                            <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-gold"></div>
-                            <p class="text-[0.65rem] text-paper/45 leading-relaxed">Mobile numbers are used as the primary second factor in Australian banking authentication. Deactivating a number can lock someone out of their accounts instantly.</p>
+                <!-- EVIDENCE VAULT: Optus -->
+                <div class="evidence-vault">
+                    <div class="ev-header" onclick="toggleVault(this)">
+                        <div class="flex items-center gap-2">
+                            <span class="text-[0.48rem] tracking-[0.22em] uppercase text-gold">📁 Evidence Files</span>
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Optus · TIO Resolution</span>
                         </div>
-                        <div class="flex gap-3 items-start">
-                            <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-gold"></div>
-                            <p class="text-[0.65rem] text-paper/45 leading-relaxed">Emergency services, domestic violence support lines, and crisis contacts all rely on phone continuity. Cutting someone off mid-crisis is a targeted form of harm.</p>
-                        </div>
-                        <div class="flex gap-3 items-start">
-                            <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-gold"></div>
-                            <p class="text-[0.65rem] text-paper/45 leading-relaxed">The method used — threatening to out an employee — is itself a serious offence. It combined homophobic coercion with telecommunications sabotage in a single act.</p>
-                        </div>
-                        <div class="flex gap-3 items-start">
-                            <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-gold"></div>
-                            <p class="text-[0.65rem] text-paper/45 leading-relaxed">If it worked once, it has worked before. The Optus directive triggered by this case is a canary — the vulnerability existed across the entire network.</p>
+                        <div class="flex items-center gap-3">
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                            <span class="ev-toggle">▼</span>
                         </div>
                     </div>
-                </div>
-
-                <div class="doc-reveal p-4 cursor-pointer" style="border-left-color:#e8a020" onclick="openModal('optus')">
-                    <div class="flex items-center justify-between">
-                        <div>
-                            <div class="text-[0.5rem] tracking-[0.18em] uppercase text-gold mb-1">Case File — Telco Social Engineering</div>
-                            <div class="text-[0.7rem] text-paper/65">How mobile carriers can be used as attack vectors — and what the regulatory framework currently does and doesn't prevent.</div>
+                    <div class="ev-body">
+                        <div class="ev-file ef-gold" onclick="openMV('pdf','OPTUS APOLOGY LETTER — TIO OUTCOME','Letter from Optus following Telecommunications Industry Ombudsman referral — service restored — acknowledgment of breach','PDF · Optus correspondence · Post-TIO referral','optus_apology_letter.pdf','This letter from Optus, issued following the TIO referral initiated by Adam Watson\'s complaint to the Prime Minister\'s office, confirms the restoration of service and acknowledges the security failure at the retail store level. Optus has since issued an internal directive addressing verification procedures. Despite this, Adam is still being billed $2,500 — a charge CovertGC considers unconscionable.','pdf-optus')">
+                            <div class="ev-icon ev-pdf">PDF</div>
+                            <div class="ev-meta">
+                                <div class="ev-name">optus_apology_TIO_outcome.pdf</div>
+                                <div class="ev-desc">PDF · Optus apology · Service restored · TIO referral outcome</div>
+                            </div>
+                            <span class="ev-cta">View →</span>
                         </div>
-                        <span class="text-[0.52rem] text-gold/50 ml-4 shrink-0 hover:text-gold transition-colors">Full File →</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Chapter D: Adult Time Adult Crime -->
-            <div class="story-chapter reveal" style="transition-delay:0.2s;border-left-color:rgba(232,160,32,0.3)">
-                <div class="flex items-center gap-3 mb-4">
-                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Chapter D</span>
-                    <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Youth Justice Gap</span>
-                </div>
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">ADULT TIME,<br><span class="text-gold">ADULT CRIME</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">
-                    "The juvenile justice system was designed to give young people a second chance. It was not designed to give them a shield. There is a difference — and the Gold Coast is living it."
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    Queensland's Youth Justice Act seals juvenile records from adult proceedings. The intent is rehabilitation: a young person who offends should not carry that record into adult life. The policy is defensible in principle. In practice, it creates a specific and exploitable gap — an 18-year-old with a history of juvenile offending enters adult life with a clean slate that does not reflect their actual history.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    Adam Watson was aware of this history. He was, in fact, helping this person with legal matters — knowledge of the system being one of the few resources Adam was able to offer. That assistance was not reciprocated. The hand that fed was bitten. Thoroughly.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">
-                    The question this raises is not whether rehabilitation is a worthy goal — it is. The question is whether a sealed juvenile record should be invisible to the courts when the same person is, as an adult, coordinating false criminal allegations, committing assault, and engaging in organised criminal activity. The current answer in Queensland is yes. It is invisible. That gap has consequences.
-                </p>
-
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
-                    <div class="border border-paper/[0.07] p-5">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-2">The Intent of Sealing</div>
-                        <p class="text-[0.65rem] text-paper/40 leading-relaxed">Queensland seals juvenile records to prevent young people from being defined by early mistakes. A first-time offender at 15 should not lose employment opportunities at 25. This is the legitimate purpose.</p>
-                    </div>
-                    <div class="border border-paper/[0.07] p-5">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">The Exploitation of Sealing</div>
-                        <p class="text-[0.65rem] text-paper/40 leading-relaxed">A repeat juvenile offender who graduates to adult crime presents to the adult courts as a person with no prior history. Sentencing, bail, and credibility assessments are all affected by a clean record that isn't clean.</p>
-                    </div>
-                </div>
-
-                <div class="doc-reveal p-4 cursor-pointer" style="border-left-color:#e8a020" onclick="openModal('juvenile')">
-                    <div class="flex items-center justify-between">
-                        <div>
-                            <div class="text-[0.5rem] tracking-[0.18em] uppercase text-gold mb-1">Case File — Youth Justice Act & Record Sealing</div>
-                            <div class="text-[0.7rem] text-paper/65">The Queensland framework, the reform debate, and what other jurisdictions do differently.</div>
+                        <div class="ev-zip-bar">
+                            <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">CovertGC is calling on Optus to waive the $2,500 charge</span>
                         </div>
-                        <span class="text-[0.52rem] text-gold/50 ml-4 shrink-0 hover:text-gold transition-colors">Full File →</span>
                     </div>
                 </div>
             </div>
 
         </div>
-
-        <!-- Closing statement -->
-        <div class="mt-16 pt-10 border-t border-paper/[0.06]">
-            <div class="max-w-3xl">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-violet mb-3">Why This Is In CovertGC</div>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    I witnessed what happened to Adam. I was assaulted by the same person at Oracle East — stalked from Broadbeach North tram stop, attacked with five others present, by someone I had never spoken to. I understand firsthand how this kind of person operates. The pattern across every incident is the same: escalation, false narrative, institutional manipulation. That pattern is worth naming even when the name attached to it cannot be published yet.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45">
-                    The three systemic failures in Adam's story — the coercive control framework that arrived too late, the malicious prosecution that took a DPP ruling to stop, and the telecommunications vulnerability that took a Prime Ministerial referral to fix — are not unique to him. They are structural. And structure is what CovertGC covers.
-                </p>
-            </div>
-            <div class="flex gap-3 mt-8">
-                <button onclick="openModal('coercive')" class="border px-5 py-3 text-[0.55rem] tracking-[0.15em] uppercase transition-all" style="border-color:rgba(123,94,167,0.5);color:#7b5ea7">Open Case Files</button>
-                <a href="#sms" class="bg-hot hover:bg-dim px-5 py-3 text-[0.55rem] tracking-[0.15em] uppercase text-paper font-display transition-all">Get Episode 2 Alerts</a>
-            </div>
-        </div>
-
     </div>
 </section>
-
+ 
 
 <!-- ══════════════════════════════════════
-     RJ — CRIMINAL PATTERN SECTION
+     RJ CRIMINAL PATTERN
 ══════════════════════════════════════ -->
 <section id="rj" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(214,61,47,0.04) 0%,transparent 50%)">
     <div class="max-w-6xl mx-auto">
-
-        <!-- Section header -->
         <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
             <div>
-                <div class="flex items-center gap-3 mb-2">
-                    <div class="w-4 h-px bg-hot"></div>
-                    <span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">Criminal Pattern — Episode 1</span>
-                </div>
+                <div class="flex items-center gap-3 mb-2"><div class="w-4 h-px bg-hot"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">Criminal Pattern — Episode 1</span></div>
                 <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">A PATTERN,<br><span class="text-hot">NOT AN INCIDENT.</span></h2>
-                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">Car theft rings. Aggravated burglary. Mob violence. False allegations against a doctor. A laptop handed to Southport Police. A recording that triggered a corruption investigation. RJ is not a troubled youth making mistakes. RJ is a repeating system.</p>
+                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">Car theft rings. Aggravated burglary. Mob violence. False allegations against a doctor. A laptop handed to Southport Police. A recording that triggered a corruption investigation.</p>
             </div>
             <div class="max-w-xs">
-                <p class="text-[0.65rem] leading-relaxed text-paper/30 mb-3">RJ is identified by initials only. All incidents described involve documented charges, court outcomes, or active investigations. No unverified allegations are stated as fact.</p>
                 <div class="flex flex-wrap gap-2">
                     <span class="evidence-tag text-hot" style="color:#d63d2f">⚖ Multiple Charges</span>
                     <span class="evidence-tag text-gold" style="color:#e8a020">🔍 Sex & Crime Squad</span>
@@ -1263,534 +903,72 @@
             </div>
         </div>
 
-        <!-- Intro -->
-        <div class="max-w-3xl mb-14 reveal">
-            <p class="font-serif italic text-paper/60 leading-relaxed mb-5" style="font-size:clamp(1rem,2.2vw,1.2rem)">
-                "Every time RJ was charged, he was released. Every time he was released, something else happened. Phone theft. A mob at a fruit shop. An aggravated burglary. A false allegation against a doctor. Each incident generated a charge. Each charge generated a suspended sentence, bail, or a release. The pattern didn't stop. It escalated. That escalation is now the subject of a Sex and Crime Squad investigation — and RJ doesn't know that the evidence driving it came from his own circle."
-            </p>
-            <div class="flex items-center gap-3">
-                <div class="w-6 h-px bg-hot/40"></div>
-                <span class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/25">CovertGC — Gold Coast</span>
-            </div>
-        </div>
-
-        <!-- Incident timeline -->
-        <div class="mb-16 reveal">
+        <!-- RJ Incident Timeline -->
+        <div class="mb-12 reveal">
             <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-5">Incident Timeline — RJ</div>
             <div class="space-y-px">
-                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
-                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">01</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Car Ring</div></div>
-                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Car theft ring — vehicles burnt rather than stolen</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Member of an organised car theft operation. Vehicles were destroyed by fire rather than taken — an escalation of criminal methodology that moves from property crime to arson.</div></div>
-                </div>
-                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
-                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">02</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Phone Theft</div></div>
-                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Helensvale — three associates sent to locate and rob Adam Watson</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Adam Watson's flatmates listing included his name. RJ used it to locate the address by sending three people to knock on every door in the complex. Adam's phone was stolen. The three were filmed, arrested, and gave evidence identifying RJ. Charged. Suspended sentence. QPS is appealing.</div></div>
-                </div>
-                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
-                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">03</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Pacific Fair</div></div>
-                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Five associates sent at Adam Watson at a fruit shop</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Following the Helensvale incident, RJ sent five associates to confront Adam at Pacific Fair. Adam defended himself. One associate suffered a broken jaw. All five subsequently gave statements identifying RJ as the organiser. Charged. Released.</div></div>
-                </div>
-                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
-                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">04</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Burglary</div></div>
-                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Aggravated burglary — Pacific Fair precinct</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">RJ was charged with aggravated burglary in connection with a phone theft outside Pacific Fair. Charged. Released.</div></div>
-                </div>
-                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
-                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">05</div><div class="text-[0.45rem] text-paper/20 mt-0.5">False Allegation</div></div>
-                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">False sexual assault allegation — local doctor</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">RJ made a sexual assault allegation against a local doctor. A police raid on the doctor's office followed. The doctor was cleared of all criminal allegations. A civil lawsuit against the doctor's insurance is ongoing. See below.</div></div>
-                </div>
-                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
-                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">06</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Shopping Centre</div></div>
-                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Daily harassment campaign — associates threatening Adam Watson</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Associates connected to RJ conducted a sustained harassment campaign against Adam Watson at a local shopping centre — threatening him specifically because of his association with CovertGC and the viral video. Ongoing and documented.</div></div>
-                </div>
-                <div class="grid grid-cols-[80px_1fr] gap-4 bg-sage/[0.04] border border-sage/20 p-4">
-                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-sage">07</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Laptop</div></div>
-                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Laptop containing incriminating evidence — handed to Southport Police</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">RJ gave Adam Watson a laptop. Adam examined its contents and brought it to Southport Police Station, where it was received by a Sex and Crime Squad investigating officer. The material on the laptop is now part of an active Sex and Crime Squad investigation.</div></div>
-                </div>
+                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">01</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Car Ring</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Car theft ring — vehicles burnt</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Member of organised car theft ring. Vehicles destroyed by fire.</div></div></div>
+                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">02</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Phone Theft</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Helensvale — three sent to rob Adam Watson</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Three filmed, arrested, gave evidence identifying RJ. Charged. Suspended sentence. QPS appealing.</div></div></div>
+                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">03</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Pacific Fair</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Five associates at Pacific Fair fruit shop</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Adam defended himself. One associate: broken jaw. All five gave statements identifying RJ. Charged. Released.</div></div></div>
+                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">04</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Burglary</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Aggravated burglary — Pacific Fair precinct</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Charged with aggravated burglary — phone theft outside Pacific Fair. Charged. Released.</div></div></div>
+                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">05</div><div class="text-[0.45rem] text-paper/20 mt-0.5">False Allegation</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">False sexual assault allegation — local doctor</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Doctor's office raided. Doctor cleared of all criminal allegations. Civil lawsuit ongoing against insurance.</div></div></div>
+                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">06</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Shopping Centre</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Daily harassment of Adam Watson</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Associates harassing Adam at local shopping centre specifically because of CovertGC and the viral video.</div></div></div>
+                <div class="grid grid-cols-[80px_1fr] gap-4 bg-sage/[0.04] border border-sage/20 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-sage">07</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Laptop</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Laptop with incriminating evidence → Southport Police</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">RJ gave Adam Watson a laptop. Adam brought it to Southport Police Station, Sex & Crime Squad. Active investigation.</div></div></div>
             </div>
         </div>
 
-        <!-- Main chapters -->
-        <div class="space-y-14">
+        <!-- RJ Evidence Vault -->
+        <div class="story-chapter reveal mb-12">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Video Evidence</span></div>
+            <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE FOOTAGE.<br><span class="text-hot">THEY DIDN'T KNOW WAS RUNNING.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Three separate pieces of footage document RJ's criminal activities. Names and identifying details of uninvolved parties have been filtered. All footage has been provided to Queensland Police.</p>
 
-            <!-- The pattern -->
-            <div class="story-chapter reveal">
-                <div class="flex items-center gap-3 mb-4">
-                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">The Pattern</span>
+            <div class="evidence-vault">
+                <div class="ev-header" onclick="toggleVault(this)">
+                    <div class="flex items-center gap-2">
+                        <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— RJ Criminal Activity · Video Evidence</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">3 files</span>
+                        <span class="ev-toggle">▼</span>
+                    </div>
                 </div>
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">CHARGED. RELEASED.<br><span class="text-hot">REPEAT.</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">
-                    "The most significant detail in RJ's history isn't any single incident. It's that after each one, he was back. Suspended sentence. Bail. Release. Each time the system processed him and put him back on the street, something else happened. His associates kept snitching on him and he kept getting out. That cycle has a name: it's called a criminal justice system that has run out of options for a person who has run out of reasons to stop."
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    Seven documented incidents. Multiple charges across phone theft, aggravated burglary, organising mob violence, and false allegations. In each case involving associates — the Helensvale phone theft, the Pacific Fair fruit shop attack — those associates gave evidence identifying RJ as the organiser. He was charged. He was released. The cycle continued.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    Queensland Police Service is appealing the suspended sentence handed down for the Helensvale phone theft — an indication that even within QPS there is a view that the outcome was inadequate for the conduct. The appeal is active.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45">
-                    The question this pattern raises is not whether the criminal justice system failed to detect RJ. It detected him repeatedly. The question is why detection without meaningful consequence produces the outcome it always produces: more incidents, more victims, and an escalating confidence that the system's response is manageable.
-                </p>
-            </div>
-
-            <!-- The doctor -->
-            <div class="story-chapter reveal" style="transition-delay:0.1s;border-left-color:rgba(232,160,32,0.3)">
-                <div class="flex items-center gap-3 mb-4">
-                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">The Doctor — A Warning</span>
-                </div>
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">CLEARED OF CRIME.<br><span class="text-gold">NOW DEFENDING A CIVIL SUIT.</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">
-                    "The doctor was investigated. His office was raided. He was cleared. And now he is defending a civil lawsuit against his insurance. The criminal allegation didn't stick. The civil one is still running. This is how the system gets used as a weapon even after the weapon fails."
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    A local Gold Coast doctor had his practice raided by police following a sexual assault allegation made by RJ. The allegation was investigated. The doctor was cleared — no criminal charges were laid or sustained. The matter did not proceed criminally.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    It did, however, proceed civilly. RJ has initiated a civil claim against the doctor — specifically targeting his professional indemnity insurance. The doctor is now defending that claim at his insurer's expense. The calculation behind this is straightforward and worth naming publicly: a civil insurance claim does not require the criminal standard of proof. It requires only that a settlement be cheaper than litigation. Insurers routinely make that calculation. Claimants who understand this exploit it.
-                </p>
-
-                <!-- Insurance fraud angle -->
-                <div class="border border-gold/20 p-6 mb-6" style="background:rgba(232,160,32,0.03)">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">How This Scam Works — And Why It Matters</div>
-                    <div class="space-y-3">
-                        <div class="flex gap-3 items-start">
-                            <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-gold"></div>
-                            <p class="text-[0.65rem] text-paper/45 leading-relaxed">A criminal allegation that fails — because it is false, or because it can't be proved — still generates a paper trail. That paper trail can form the basis of a civil claim even after the criminal matter is closed.</p>
+                <div class="ev-body">
+                    <!-- Pacific Fair bashing video -->
+                    <div class="ev-file ef-hot" onclick="openMV('video','PACIFIC FAIR — ASSAULT FOOTAGE','RJ\'s associates attacking Adam Watson near the fruit shop — Pacific Fair precinct','Video · Redacted · Names and faces of uninvolved parties filtered','rj_pacific_fair_assault_REDACTED.mp4','This footage shows the attack on Adam Watson by RJ\'s associates near the Pacific Fair fruit shop. All five associates present subsequently gave statements to police identifying RJ as the organiser. RJ was charged and released. Queensland Police are appealing the suspended sentence. All identifying details of uninvolved parties have been filtered.','video-pf')">
+                        <div class="ev-icon ev-video">▶</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">rj_associates_assault_pacific_fair_REDACTED.mp4</div>
+                            <div class="ev-desc">Video · Pacific Fair assault · RJ's associates · Identifying details filtered</div>
                         </div>
-                        <div class="flex gap-3 items-start">
-                            <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-gold"></div>
-                            <p class="text-[0.65rem] text-paper/45 leading-relaxed">Professional indemnity insurers — who cover doctors, lawyers, and other professionals against claims of misconduct — often settle claims below a certain value rather than litigate. The cost of defending is higher than the cost of paying. Claimants who know this can extract settlements from cleared professionals.</p>
+                        <span class="redact-tag">⬛ REDACTED</span>
+                        <span class="ev-cta ml-2">Watch →</span>
+                    </div>
+                    <!-- Aggravated burglary video -->
+                    <div class="ev-file ef-hot" onclick="openMV('video','ARMED BURGLARY FOOTAGE — RJ','RJ committing armed burglary near Pacific Fair shopping centre','Video · Heavily redacted · Original with QPS','rj_armed_burglary_REDACTED.mp4','This footage documents the aggravated burglary near Pacific Fair for which RJ was charged. The footage is heavily redacted — faces of uninvolved parties and identifying location details have been obscured. The unredacted original has been provided to Queensland Police.','video-burg')">
+                        <div class="ev-icon ev-video">▶</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">rj_armed_burglary_pacific_fair_REDACTED.mp4</div>
+                            <div class="ev-desc">Video · RJ — aggravated burglary · Pacific Fair · Heavily redacted</div>
                         </div>
-                        <div class="flex gap-3 items-start">
-                            <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-gold"></div>
-                            <p class="text-[0.65rem] text-paper/45 leading-relaxed">The downstream consequence is insurance premium increases for every doctor in the same coverage pool — meaning this doctor's colleagues pay higher premiums because someone made a false complaint and the insurer settled.</p>
+                        <span class="redact-tag">⬛ HEAVILY REDACTED</span>
+                        <span class="ev-cta ml-2">Watch →</span>
+                    </div>
+                    <!-- Sex & Crime Squad tape -->
+                    <div class="ev-file ef-sage" onclick="openMV('video','SEX & CRIME SQUAD — INVESTIGATION TAPE','Active Sex and Crime Squad investigation tape — heavily censored for public release','Video · Heavily censored · Active investigation · QPS oversight','rj_sex_crime_squad_CENSORED.mp4','This material is from the active Sex and Crime Squad investigation in which RJ is a subject. It was made possible by the laptop RJ gave Adam Watson — which Adam surrendered to Southport Police Station. The footage is heavily censored for public release. Full material is with QPS investigators.','video-scs')">
+                        <div class="ev-icon ev-video">▶</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">rj_sex_crime_squad_investigation_CENSORED.mp4</div>
+                            <div class="ev-desc">Video · Sex & Crime Squad investigation · Heavily censored · Active case</div>
                         </div>
-                        <div class="flex gap-3 items-start">
-                            <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-gold"></div>
-                            <p class="text-[0.65rem] text-paper/45 leading-relaxed">There is no automatic mechanism in Queensland for a successfully defended doctor to recover costs from a complainant who made a false allegation. The law provides for malicious prosecution claims, but these are complex, expensive, and rarely pursued.</p>
-                        </div>
+                        <span class="redact-tag">⬛ CENSORED</span>
+                        <span class="ev-cta ml-2">Watch →</span>
                     </div>
-                </div>
-
-                <!-- Advice for doctors -->
-                <div class="border border-paper/[0.07] p-5 mb-5" style="border-left:3px solid rgba(232,160,32,0.5)">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">A Note for Medical Practitioners</div>
-                    <p class="text-[0.68rem] text-paper/40 leading-relaxed mb-3">The case of this Gold Coast doctor illustrates a vulnerability that affects any professional who works in a one-on-one context with members of the public. CovertGC is not in a position to offer legal advice, but we note the following practical considerations that medical practitioners and their associations have raised in this context:</p>
-                    <div class="space-y-2">
-                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/40 leading-relaxed">Consider whether consultation room recording — with patient consent and in compliance with Queensland privacy laws — is appropriate for your practice setting. Visible cameras with clear signage and consent processes provide an evidentiary record that protects both patient and practitioner.</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/40 leading-relaxed">Review your professional indemnity policy's settlement authority provisions — specifically whether your insurer can settle a claim without your consent and what the implications are for your professional record.</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/40 leading-relaxed">The Australian Medical Association and AHPRA both have resources on managing complaints. Engage them early — before a civil claim is filed — if a criminal allegation is made against you.</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/40 leading-relaxed">Document every consultation. Maintain thorough records of every appointment including time, content, and any witnesses present. This documentation is your primary defence against allegations that the appointment record cannot resolve.</p></div>
+                    <div class="ev-zip-bar">
+                        <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">All footage provided to QPS — redacted versions available here</span>
+                        <button class="mv-dl-btn mv-dl-gold text-[0.48rem]" onclick="downloadZip('rj_evidence_bundle.zip')">⬇ ZIP Bundle</button>
                     </div>
-                </div>
-            </div>
-
-            <!-- The laptop and investigation -->
-            <div class="story-chapter reveal" style="transition-delay:0.15s;border-left-color:rgba(42,157,78,0.3)">
-                <div class="flex items-center gap-3 mb-4">
-                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-sage border border-sage/40 px-2 py-1">The Evidence</span>
-                </div>
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE LAPTOP HE<br><span class="text-sage">SHOULDN'T HAVE GIVEN AWAY.</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">
-                    "RJ gave Adam Watson a laptop. He shouldn't have. Adam brought it to Southport Police Station and handed it to a Sex and Crime Squad investigating officer. The investigation that followed is active. RJ is a subject of it. He gave the police the evidence himself."
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    The laptop was handed to Adam Watson by RJ directly. After examining its contents, Adam Watson attended Southport Police Station and surrendered the device to an officer from the Sex and Crime Squad. The material on the laptop is now part of a formal Sex and Crime Squad investigation in which RJ is a subject.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    This is a pattern that has appeared throughout RJ's criminal history: the people closest to him generate the evidence that charges him. His associates at Helensvale gave statements. His associates at Pacific Fair gave statements. The recording that triggered the police corruption investigation — the "expect to get bashed" comment made to RJ during his interview — was captured by someone in his own circle. And the laptop that is now with the Sex and Crime Squad was his own device, given by his own hand.
-                </p>
-
-                <div class="border border-sage/20 p-5" style="background:rgba(42,157,78,0.03)">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-2">The Recording That Mattered</div>
-                    <p class="text-[0.68rem] text-paper/40 leading-relaxed">The recording made during the police interview following my assault at Oracle East — in which an officer told RJ that a content creator should "expect to get bashed" — was made by someone within RJ's circle. That recording has been provided to the Premier's office and Attorney General Deb Frecklington, and is central to the active police corruption investigation. It was RJ's own network that produced the most significant evidence of institutional failure in this entire investigation. That is not irony. That is a criminal network that has grown so confident in its impunity that basic operational security has stopped occurring to them.</p>
-                </div>
-            </div>
-
-            <!-- The viral video and shopping centre harassment -->
-            <div class="story-chapter reveal" style="transition-delay:0.2s;border-left-color:rgba(214,61,47,0.3)">
-                <div class="flex items-center gap-3 mb-4">
-                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">The Video</span>
-                </div>
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE VIDEO WENT VIRAL.<br><span class="text-hot">THEN THE HARASSMENT STARTED.</span></h3>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    I made a video of RJ that circulated widely on the Gold Coast — a direct confrontation that documented his behaviour and his connections. The video was submitted to Hancock Prospecting, after which I was blocked — which is when I understood that Adam Watson's connection to Gina Rinehart was genuine, not exaggerated.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    The response to the video was immediate. Associates connected to RJ began a sustained harassment campaign against Adam Watson at a local shopping centre — approaching him regularly, making threats, and explicitly connecting the harassment to his association with me and the viral video. The message was clear: the video had consequences, and those consequences were being delivered through Adam.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45">
-                    This is the same logic that produced the Oracle East assault. Visibility — making a video, naming someone, publishing their conduct — is treated by this network as an act that justifies physical and social retaliation. It does not. And the fact that the response to a viral video is coordinated daily harassment of an associate in a shopping centre is evidence of organisation, not spontaneity. Organised harassment for the purpose of intimidating a journalist or content creator is a criminal offence in Queensland.
-                </p>
-            </div>
-
-        </div>
-
-    </div>
-</section>
-
-
-<!-- ══════════════════════════════════════
-     SKY NEWS / MEDIA ACCOUNTABILITY
-══════════════════════════════════════ -->
-<section id="media" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(232,160,32,0.03) 0%,transparent 50%)">
-    <div class="max-w-6xl mx-auto">
-
-        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
-            <div>
-                <div class="flex items-center gap-3 mb-2">
-                    <div class="w-4 h-px bg-gold"></div>
-                    <span class="text-[0.55rem] tracking-[0.3em] uppercase text-gold">Media Accountability — Episode 1</span>
-                </div>
-                <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">THE STORY<br><span class="text-gold">THAT DIDN'T RUN.</span></h2>
-                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">A Sky News journalist arranged an interview about homelessness on the Gold Coast. Then she pulled my criminal history. Then the story disappeared. Then a charge sheet that could only have come from police appeared to be in circulation.</p>
-            </div>
-            <div class="max-w-xs">
-                <p class="text-[0.65rem] leading-relaxed text-paper/30 mb-3">This section covers a specific interview experience and the media accountability and mental health stigma issues it raises. The journalist is not named. Sky News is identified as the outlet.</p>
-                <div class="flex flex-wrap gap-2">
-                    <span class="evidence-tag text-gold" style="color:#e8a020">📺 Sky News</span>
-                    <span class="evidence-tag text-hot" style="color:#d63d2f">⚠ QP-9 Disclosure</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="max-w-3xl mb-14 reveal">
-            <p class="font-serif italic text-paper/60 leading-relaxed mb-5" style="font-size:clamp(1rem,2.2vw,1.2rem)">
-                "I gave a Sky News journalist a brief on what I'd found — the homelessness services gap on the Gold Coast, the 7 Care Connect posters in the bathroom at Nerang Street, what happens to people after they get a Public Nuisance ticket and end up in the system. She interviewed me. And then instead of covering the story, she pulled my file."
-            </p>
-            <div class="flex items-center gap-3">
-                <div class="w-6 h-px bg-gold/40"></div>
-                <span class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/25">Kosta Kondratenko — CovertGC</span>
-            </div>
-        </div>
-
-        <div class="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-12">
-        <div class="space-y-14">
-
-            <div class="story-chapter reveal" style="border-left-color:rgba(232,160,32,0.3)">
-                <div class="flex items-center gap-3 mb-4">
-                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">The Brief</span>
-                </div>
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">WHAT I BROUGHT<br><span class="text-gold">TO THE TABLE</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"On the walls of the bathrooms near Nerang Street — where locals call Skid Row — there were 7 Care Connect referral posters. That's a homelessness support service. It's in the bathroom because that's where the people who need it are. I thought a Sky News reporter might want to see it. I was wrong about what she wanted to see."</p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The interview was arranged through a connection Adam Watson had — a journalist at Sky News who was aware of his links to Gina Rinehart of Hancock Prospecting. The brief I provided covered my experience of the homelessness system on the Gold Coast and the gap between what services exist on paper and what a person actually encounters when they end up on Nerang Street with a Public Nuisance charge and nowhere to go.</p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">7 Care Connect is a crisis and homelessness referral service. Finding its contact information on a bathroom wall near a known homeless precinct is both a practical detail and a systemic one — it tells you where the system expects to reach people, and what state those people are in when they're reached. I suggested we go to Broadwater Parklands to photograph the posters. The journalist was not interested in going there. What she was interested in was my history.</p>
-            </div>
-
-            <div class="story-chapter reveal" style="transition-delay:0.1s;border-left-color:rgba(214,61,47,0.3)">
-                <div class="flex items-center gap-3 mb-4">
-                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">The File Pull</span>
-                </div>
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">SHE PULLED<br><span class="text-hot">MY CRIMINAL HISTORY.</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"The Kangaroo Point McDonald's charge. Public Nuisance. Dropped by the DPP after I said at first mention: if these allegations are true, the prosecution should have no problem getting the CCTV footage. Charge dropped. Gone. And yet here it was, being used to decide whether my story about homelessness was worth telling."</p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">A Public Nuisance charge at a Kangaroo Point McDonald's had been brought against me. At first mention, I made a straightforward challenge: if the allegations are accurate, produce the CCTV footage. The charge was subsequently dropped by the DPP. No conviction. No finding of fact.</p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">A dropped charge is not a conviction. Using it to disqualify a source on a homelessness story is not an editorial decision about credibility — it is a decision to use the justice system's debris to avoid covering an uncomfortable story. The facts in the brief couldn't be challenged. So the person who found them was.</p>
-                <div class="border border-paper/[0.07] p-5" style="border-left:3px solid rgba(214,61,47,0.5)">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">Dropped Charges and Source Credibility</div>
-                    <p class="text-[0.68rem] text-paper/40 leading-relaxed">There is a legitimate editorial question about whether a source's history is relevant to a story — but it requires relevance to the subject matter. A dropped Public Nuisance charge is not relevant to whether 7 Care Connect posters are on bathroom walls in Nerang Street. Using it to disqualify a source is the substitution of personal history for factual challenge.</p>
-                </div>
-            </div>
-
-            <div class="story-chapter reveal" style="transition-delay:0.15s;border-left-color:rgba(214,61,47,0.4)">
-                <div class="flex items-center gap-3 mb-4">
-                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">The Leak</span>
-                </div>
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE QP-9.<br><span class="text-hot">WHO GAVE THAT TO A JOURNALIST?</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"A QP-9 is a Queensland Police charge sheet. It is not a public document. If a journalist has one, someone in Queensland Police gave it to them. That is an unauthorised disclosure of personal information by a police officer. It is illegal. CovertGC is formally raising it."</p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">A QP-9 — the Queensland Police Service charge document — cannot be obtained through public records, FOI, or standard media liaison. Its disclosure to a third party outside of lawful process is a breach of the Information Privacy Act 2009 and potentially the Crime and Corruption Act depending on intent.</p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">CovertGC cannot confirm definitively how this document came to be in circulation. What we can say is there is no lawful pathway for a journalist to obtain a QP-9 other than from a source within Queensland Police. Whether that disclosure was motivated by the same pattern of hostility toward content creators evident in the Oracle East investigation is a question for QPS professional standards or the CCC.</p>
-                <div class="border border-paper/[0.07] p-6" style="border-left:3px solid rgba(232,160,32,0.5)">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">Why QP-9 Disclosure Is Illegal</div>
-                    <div class="space-y-2.5">
-                        <div class="flex gap-3 items-start"><div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-gold"></div><p class="text-[0.65rem] text-paper/45 leading-relaxed">A QP-9 contains personal information under the Information Privacy Act 2009. Disclosure outside lawful process by a Queensland public servant is a breach of that Act.</p></div>
-                        <div class="flex gap-3 items-start"><div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-gold"></div><p class="text-[0.65rem] text-paper/45 leading-relaxed">If the disclosure was motivated by intent to harm or embarrass the subject, it may constitute official misconduct under the Crime and Corruption Act 2001.</p></div>
-                        <div class="flex gap-3 items-start"><div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-gold"></div><p class="text-[0.65rem] text-paper/45 leading-relaxed">CovertGC has referred this matter to the Crime and Corruption Commission.</p></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="story-chapter reveal" style="transition-delay:0.2s;border-left-color:rgba(123,94,167,0.3)">
-                <div class="flex items-center gap-3 mb-4">
-                    <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7b5ea7;border-color:rgba(123,94,167,0.4)">Stigma</span>
-                </div>
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">"HE HANGS OUT WITH THE<br><span style="color:#7b5ea7">HOMELESS GUY WITH MENTAL HEALTH ISSUES."</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"I have a history of mental health issues going back to when I was 18. That is not a secret and it is not a shame. What it is, when used by a journalist to describe me to others, is a weapon — a shorthand designed to make everything I say easier to dismiss."</p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The comment reduces a person to their housing status and their diagnosis simultaneously, and uses both as grounds for disqualification — not as a factual challenge to anything documented, but as a category dismissal. If he is homeless and mentally unwell, nothing he says needs to be taken seriously. That is the logic of stigma.</p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">My mental health history did not develop in isolation — it developed in a context shaped by circumstances and relationships I was subject to at the time, including influences from my mother. Mental health is not a fixed state. Recovery is possible. Being in recovery does not make your testimony unreliable or your research invalid. It does not make the posters on the bathroom wall disappear.</p>
-                <div class="border p-6" style="border-color:rgba(123,94,167,0.2);background:rgba(123,94,167,0.03)">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase mb-3" style="color:#7b5ea7">Why Independent Media Exists</div>
-                    <p class="text-[0.68rem] text-paper/40 leading-relaxed">When mainstream outlets decide sources with complicated personal histories aren't worth covering, they leave those stories untold. The homelessness gap on the Gold Coast is not less real because the person who found it has a mental health history. CovertGC exists precisely because some stories only get told when the person who found them tells it themselves.</p>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="space-y-4">
-            <div class="sticky top-24 space-y-4">
-                <div class="border border-gold/20 p-5" style="background:rgba(232,160,32,0.03)">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">What the Story Was Actually About</div>
-                    <div class="space-y-2.5">
-                        <div class="flex gap-2 items-start"><span class="text-gold text-xs mt-0.5 shrink-0">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">7 Care Connect referral posters in bathrooms near Nerang Street — crisis outreach visible only where people in crisis are.</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-gold text-xs mt-0.5 shrink-0">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">The gap between advertised services and what a person encounters after a Public Nuisance charge.</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-gold text-xs mt-0.5 shrink-0">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">The Sandy Tulisi case — documented in Episode 1 — as a specific example of how the housing system fails its most vulnerable.</p></div>
-                    </div>
-                </div>
-                <div class="border border-paper/[0.07] p-5">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-2">The Legal Question</div>
-                    <p class="text-[0.62rem] text-paper/35 leading-relaxed mb-2">A QP-9 is not a public document. If it was in circulation outside QPS, someone inside provided it — a potential breach of the Information Privacy Act 2009 and the Crime and Corruption Act 2001.</p>
-                    <p class="text-[0.6rem] text-paper/25">Referred to: Crime and Corruption Commission Queensland</p>
-                </div>
-                <div class="border border-paper/[0.07] p-5">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-2">7 Care Connect</div>
-                    <p class="text-[0.62rem] text-paper/35 leading-relaxed">Crisis referral and homelessness support service. Found on bathroom walls at Nerang Street precinct, Gold Coast.<br><span class="text-gold">1800 071 004</span></p>
-                </div>
-            </div>
-        </div>
-        </div>
-
-    </div>
-</section>
-
-
-<!-- ══════════════════════════════════════
-     AQUATIC CENTRE PRIVACY BREACH
-══════════════════════════════════════ -->
-<section id="privacy" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(123,94,167,0.04) 0%,transparent 50%)">
-    <div class="max-w-6xl mx-auto">
-
-        <!-- Section header -->
-        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
-            <div>
-                <div class="flex items-center gap-3 mb-2">
-                    <div class="w-4 h-px bg-violet"></div>
-                    <span class="text-[0.55rem] tracking-[0.3em] uppercase text-violet">Privacy Breach — Episode 1</span>
-                </div>
-                <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">PHOTOGRAPHED.<br><span class="text-violet">LABELLED. LEAKED.</span></h2>
-                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">A council aquatic centre photographed me, annotated my image with a surveillance note, and a staff member leaked it to the public with a derogatory comment. The Council dropped its own investigation. The Mayor called me a public nuisance. The Premier disagreed.</p>
-            </div>
-            <div class="max-w-xs">
-                <div class="flex flex-wrap gap-2 mb-3">
-                    <span class="evidence-tag" style="color:#7b5ea7">📄 Council Letters — Verified</span>
-                    <span class="evidence-tag text-sage" style="color:#2a9d4e">✓ Staff Let Go</span>
-                    <span class="evidence-tag text-gold" style="color:#e8a020">⚠ Show Cause Issued</span>
-                </div>
-                <p class="text-[0.65rem] leading-relaxed text-paper/30">Documented via Gold Coast City Council correspondence. Escalated to Premier David Crisafulli. Investigation outcome: staff terminated.</p>
-            </div>
-        </div>
-
-        <!-- Opening -->
-        <div class="max-w-3xl mb-14 reveal">
-            <p class="font-serif italic text-paper/60 leading-relaxed mb-5" style="font-size:clamp(1rem,2.2vw,1.2rem)">
-                "I went to use the upstairs shower at the Southport Aquatic Centre. I wasn't causing trouble. I wasn't arguing. When asked to leave I left without a problem. What I didn't know was that while I was there, a staff member had photographed me and annotated the image with surveillance-style notes — then sent it to a member of the public with the caption 'Look at these shit cunts.' That member of the public was Adam Watson. That staff member was a photographer I had personally given work to."
-            </p>
-            <div class="flex items-center gap-3">
-                <div class="w-6 h-px bg-violet/40"></div>
-                <span class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/25">Kosta Kondratenko — CovertGC</span>
-            </div>
-        </div>
-
-        <!-- Stats bar -->
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mb-16 reveal">
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-4xl text-violet mb-1">0</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Charges upheld</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">All dropped</div>
-            </div>
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-4xl text-hot mb-1">45</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Day deadline</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">Council missed it then dropped it</div>
-            </div>
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-4xl text-gold mb-1">1</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Show Cause notice</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">Issued by Premier Crisafulli</div>
-            </div>
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-4xl text-sage mb-1">✓</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Staff terminated</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">Confirmed outcome</div>
-            </div>
-        </div>
-
-        <div class="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12">
-            <div class="space-y-14">
-
-                <!-- What happened -->
-                <div class="story-chapter reveal" style="border-left-color:rgba(123,94,167,0.3)">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7b5ea7;border-color:rgba(123,94,167,0.4)">What Happened</span>
-                    </div>
-                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE UPSTAIRS SHOWER<br><span style="color:#7b5ea7">THAT STARTED AN INVESTIGATION</span></h3>
-                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">
-                        "There are two shower areas at the Southport Aquatic Centre. The downstairs one — and the upstairs one near the gym with significantly better water pressure. I used the upstairs one. That's the totality of my offence."
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        I had been asked previously not to use the gym facilities. I was not using the gym. I was using a shower — a public amenity in a public facility funded by Gold Coast ratepayers. When a staff member asked me to leave, I left. No argument. No incident. No drama.
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        What I didn't know was that during that visit, a staff member had taken a photograph of me — in my black Everlast jumper, leaving the centre — and annotated it with a surveillance-style note reading: <span class="font-mono text-paper/70 text-xs bg-paper/[0.05] px-2 py-0.5">"Monitor This One. Comes in for shower. Been asked not to use gym."</span>
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">
-                        That annotated photograph was then sent by the staff member to a member of the public — Adam Watson — with the message: "Look at these shit cunts." Adam is not a council employee. He has no official relationship with the Southport Aquatic Centre. He is a private individual. The staff member who sent it is a photographer who I had personally commissioned and paid for work involving Adam Watson. That is how he repaid the opportunity.
-                    </p>
-
-                    <!-- Photo placeholder -->
-                    <div class="border border-paper/[0.07] overflow-hidden mb-6">
-                        <div class="h-52 flex items-center justify-center relative" style="background:rgba(123,94,167,0.05)">
-                            <div class="absolute inset-0 scanlines opacity-30"></div>
-                            <div class="text-center z-10 px-6">
-                                <div class="font-display text-xl tracking-widest mb-2" style="color:rgba(123,94,167,0.3)">[ LEAKED PHOTO — PLACEHOLDER ]</div>
-                                <div class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/20 mb-2">Subject: Kosta Kondratenko — Southport Aquatic Centre</div>
-                                <div class="font-mono text-[0.6rem] border px-3 py-1.5 inline-block" style="border-color:rgba(123,94,167,0.3);color:rgba(123,94,167,0.6)">"Monitor This One. Comes in for shower. Been asked not to use gym."</div>
-                            </div>
-                        </div>
-                        <div class="border-t border-paper/[0.05] px-4 py-2 flex justify-between items-center">
-                            <span class="text-[0.52rem] text-paper/20">Evidence — Leaked by council staff member to private individual, December 2024</span>
-                            <span class="text-[0.52rem]" style="color:rgba(123,94,167,0.5)">Privacy Act Breach</span>
-                        </div>
-                    </div>
-
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45">
-                        This is a surveillance photograph of a private citizen, taken without consent, annotated with a monitoring directive, and distributed outside the organisation to a member of the public with a derogatory comment attached. Under Queensland's Information Privacy Act 2009, this is a textbook privacy breach. It is also, depending on circumstances, potential misconduct under the Local Government Act and the council's own employee conduct standards.
-                    </p>
-                </div>
-
-                <!-- The council response -->
-                <div class="story-chapter reveal" style="transition-delay:0.1s;border-left-color:rgba(214,61,47,0.3)">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">The Response</span>
-                    </div>
-                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE COUNCIL DROPPED<br><span class="text-hot">ITS OWN INVESTIGATION.</span></h3>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        I lodged a formal privacy complaint with the City of Gold Coast on 15 December 2024. The Council acknowledged it the following day, confirming the complaint was being investigated by the Chief Risk and Audit Office. Under section 166 of the Information Privacy Act 2009, a complainant may escalate to the Information Commissioner if 45 business days pass without an adequate response.
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        Rather than complete the investigation within that window, the Council discontinued it — citing a failure to receive further information from me. The Council's letter states it followed up by telephone and email on 16 December 2024 and by email on 16 January 2025 requesting more information before closing the file.
-                    </p>
-
-                    <!-- Document reveals -->
-                    <div class="space-y-3 mb-6">
-                        <div class="border border-paper/[0.07] p-5" style="border-left:3px solid rgba(214,61,47,0.4)">
-                            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">Letter One — 16 December 2024</div>
-                            <p class="text-[0.65rem] text-paper/40 leading-relaxed mb-2">City of Gold Coast acknowledges complaint. States the Chief Risk and Audit Office is investigating. References 45-day window under the Information Privacy Act 2009. Signed: Julie Schyf, Complaints Officer.</p>
-                            <div class="font-mono text-[0.58rem] text-paper/25 border-t border-paper/[0.05] pt-2 mt-2">Our reference: Lawmaster 1192 · Location: Waterside West</div>
-                        </div>
-                        <div class="border border-paper/[0.07] p-5" style="border-left:3px solid rgba(214,61,47,0.4)">
-                            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">Letter Two — Subsequent</div>
-                            <p class="text-[0.65rem] text-paper/40 leading-relaxed mb-2">City of Gold Coast discontinues the investigation. States it followed up twice requesting more information and received no response. Closes the file. Invites reopening via email. Signed: Julie Schyf, for the Chief Executive Officer.</p>
-                            <div class="font-mono text-[0.58rem] text-paper/25 border-t border-paper/[0.05] pt-2 mt-2">Contact: complaints@goldcoast.qld.gov.au</div>
-                        </div>
-                    </div>
-
-                    <div class="border border-paper/[0.07] p-5" style="border-left:3px solid rgba(232,160,32,0.5)">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-2">The Onus Problem</div>
-                        <p class="text-[0.68rem] text-paper/40 leading-relaxed">The privacy breach here is not ambiguous. A staff member photographed a member of the public, annotated the photograph with a monitoring directive, and sent it to a private individual with a derogatory comment. The evidence of this breach — the photograph, the annotation, the message — exists. The Council's decision to discontinue the investigation because the complainant did not provide further information transfers the investigative burden to the victim of the breach. The Council had access to its own staff, its own systems, and the photograph itself. It did not need more information from me to determine whether its employee sent a surveillance image to a private individual. It needed to ask its employee.</p>
-                    </div>
-                </div>
-
-                <!-- Tom Tate -->
-                <div class="story-chapter reveal" style="transition-delay:0.15s;border-left-color:rgba(214,61,47,0.3)">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">The Mayor's Comment</span>
-                    </div>
-                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">"HE'S A PUBLIC NUISANCE."<br><span class="text-hot">— TOM TATE, MAYOR OF GOLD COAST</span></h3>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        When Adam Watson approached Mayor Tom Tate regarding the privacy breach and the Council's failure to adequately investigate, Mayor Tate's response was to characterise me as a "public nuisance."
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        I am not a public nuisance. Every charge brought against me has been dropped. I have no criminal record. I am a journalist and content creator. The Mayor of Gold Coast describing me with a term that carries clear legal and social connotations — while his council was simultaneously failing to investigate a documented privacy breach by one of its own staff members — is precisely the kind of institutional attitude that produces exactly the treatment I received at the Southport Aquatic Centre.
-                    </p>
-                    <div class="border border-hot/20 p-5 mb-5" style="background:rgba(214,61,47,0.03)">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">Formal Demand — Retraction</div>
-                        <p class="text-[0.68rem] text-paper/45 leading-relaxed">CovertGC formally demands that Mayor Tom Tate retract his characterisation of Kosta Kondratenko as a "public nuisance." All charges brought against Mr Kondratenko have been dropped. The characterisation is factually unsupported, was made in the context of a query about a documented privacy breach by council staff, and reflects a disposition toward the complainant that is inconsistent with the obligations of an elected official responding to a legitimate governance concern. A written retraction is requested. If none is forthcoming, this demand and the absence of a response will be published as part of CovertGC's ongoing coverage.</p>
-                    </div>
-                </div>
-
-                <!-- Escalation and outcome -->
-                <div class="story-chapter reveal" style="transition-delay:0.2s;border-left-color:rgba(42,157,78,0.3)">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-sage border border-sage/40 px-2 py-1">The Escalation</span>
-                    </div>
-                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE PREMIER HEARD.<br><span class="text-sage">THE COUNCIL HADN'T.</span></h3>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        Premier David Crisafulli was made aware of the privacy breach, the Council's failure to investigate, and Mayor Tate's characterisation. The Premier issued a Show Cause notice to the Council. The staff members involved in the incident have since been let go.
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">
-                        That outcome — while welcome — raises its own question. A gold coast ratepayer lodged a formal privacy complaint through the official channel. The Council acknowledged it, followed up twice, then discontinued its own investigation. It took a direct escalation to the Premier of Queensland to produce the result that the Council's own complaints process was designed to deliver. The process failed. The escalation succeeded. These two facts should not coexist.
-                    </p>
-
-                    <!-- What this means -->
-                    <div class="border border-sage/20 p-6" style="background:rgba(42,157,78,0.03)">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-3">What This Establishes</div>
-                        <div class="space-y-3">
-                            <div class="flex gap-3 items-start">
-                                <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-sage"></div>
-                                <p class="text-[0.65rem] text-paper/45 leading-relaxed">Council staff photographed and created a surveillance dossier on a member of the public using a public facility. This is a use of council resources and systems that requires authorisation and oversight that evidently was not in place.</p>
-                            </div>
-                            <div class="flex gap-3 items-start">
-                                <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-sage"></div>
-                                <p class="text-[0.65rem] text-paper/45 leading-relaxed">That surveillance material was shared outside the organisation with a derogatory comment. This is a breach of the Information Privacy Act 2009, staff conduct obligations, and basic professional standards.</p>
-                            </div>
-                            <div class="flex gap-3 items-start">
-                                <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-sage"></div>
-                                <p class="text-[0.65rem] text-paper/45 leading-relaxed">The Council's own complaints process failed to resolve a straightforward breach — the evidence of which was held by the organisation itself.</p>
-                            </div>
-                            <div class="flex gap-3 items-start">
-                                <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-sage"></div>
-                                <p class="text-[0.65rem] text-paper/45 leading-relaxed">The elected Mayor responded to a query about this breach by characterising the complainant, not the breach. That response tells you something about the institutional culture that produced the breach in the first place.</p>
-                            </div>
-                            <div class="flex gap-3 items-start">
-                                <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-sage"></div>
-                                <p class="text-[0.65rem] text-paper/45 leading-relaxed">Premier intervention and a Show Cause notice were required to produce the outcome the Council's own process should have delivered. Staff have been let go. The systemic question — how many other people have been photographed and monitored in this way — remains open.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Sidebar -->
-            <div class="space-y-4">
-                <div class="sticky top-24 space-y-4">
-
-                    <div class="border p-5" style="border-color:rgba(123,94,167,0.2);background:rgba(123,94,167,0.03)">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase mb-3" style="color:#7b5ea7">Your Privacy Rights</div>
-                        <div class="space-y-2.5">
-                            <div class="flex gap-2 items-start">
-                                <span class="text-xs mt-0.5 shrink-0" style="color:#7b5ea7">→</span>
-                                <p class="text-[0.62rem] text-paper/40 leading-relaxed">Under Queensland's Information Privacy Act 2009, you can lodge a formal complaint with a council or government body if you believe your personal information has been mishandled.</p>
-                            </div>
-                            <div class="flex gap-2 items-start">
-                                <span class="text-xs mt-0.5 shrink-0" style="color:#7b5ea7">→</span>
-                                <p class="text-[0.62rem] text-paper/40 leading-relaxed">If the body does not respond adequately within 45 business days, you can escalate to the Office of the Information Commissioner Queensland.</p>
-                            </div>
-                            <div class="flex gap-2 items-start">
-                                <span class="text-xs mt-0.5 shrink-0" style="color:#7b5ea7">→</span>
-                                <p class="text-[0.62rem] text-paper/40 leading-relaxed">A photograph taken of you in a public facility, annotated, and distributed to a third party without your consent is a breach of the Act's Information Privacy Principles.</p>
-                            </div>
-                            <div class="flex gap-2 items-start">
-                                <span class="text-xs mt-0.5 shrink-0" style="color:#7b5ea7">→</span>
-                                <p class="text-[0.62rem] text-paper/40 leading-relaxed">If a council drops its investigation without adequate grounds, you can reopen it in writing and simultaneously escalate to the Information Commissioner.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="border border-paper/[0.07] p-5">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-2">Key References</div>
-                        <div class="space-y-2">
-                            <div class="text-[0.6rem] text-paper/30">Information Privacy Act 2009 (Qld) — s.166</div>
-                            <div class="text-[0.6rem] text-paper/30">Complaint ref: Lawmaster 1192</div>
-                            <div class="text-[0.6rem] text-paper/30">Complaints Officer: Julie Schyf, City of Gold Coast</div>
-                            <div class="text-[0.6rem] text-paper/30">Escalation: Premier David Crisafulli</div>
-                            <div class="text-[0.6rem] text-paper/30">Outcome: Show Cause issued. Staff terminated.</div>
-                        </div>
-                    </div>
-
-                    <div class="border border-hot/20 p-5" style="background:rgba(214,61,47,0.03)">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">Retraction Demanded</div>
-                        <p class="text-[0.62rem] text-paper/35 leading-relaxed">Mayor Tom Tate's characterisation of Kosta Kondratenko as a "public nuisance" is factually unsupported. All charges against Mr Kondratenko have been dropped. A formal retraction is demanded. Response deadline: 30 days from publication.</p>
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -1800,214 +978,69 @@
 
 
 <!-- ══════════════════════════════════════
-     BRAZEN CRIME / FIREBOMBING SECTION
+     BRAZEN CRIME / OFFICEWORKS WHEELCHAIR ATTACK
 ══════════════════════════════════════ -->
 <section id="brazen" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(8,8,8,0) 0%,rgba(214,61,47,0.06) 50%,rgba(8,8,8,0) 100%)">
     <div class="max-w-6xl mx-auto">
-
-        <!-- Section header -->
         <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
             <div>
-                <div class="flex items-center gap-3 mb-2">
-                    <div class="w-4 h-px bg-hot"></div>
-                    <span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">Crime Without Shame — Episode 1</span>
-                </div>
+                <div class="flex items-center gap-3 mb-2"><div class="w-4 h-px bg-hot"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">Crime Without Shame — Episode 1</span></div>
                 <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">THEY DON'T EVEN<br><span class="text-hot">HIDE ANYMORE</span></h2>
                 <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">Attempted murder. Arson. Intimidation of public figures. The Gold Coast's criminal culture has stopped pretending it operates in the shadows.</p>
             </div>
-            <div class="max-w-xs">
-                <p class="text-[0.65rem] leading-relaxed text-paper/30 mb-3">This section examines what happens when organised criminal behaviour stops being covert — when the message left at the scene is as deliberate as the crime itself.</p>
-                <div class="flex flex-wrap gap-2">
-                    <span class="evidence-tag text-hot" style="color:#d63d2f">🔥 Arson</span>
-                    <span class="evidence-tag text-gold" style="color:#e8a020">🚗 Attempted Murder</span>
-                    <span class="evidence-tag" style="color:rgba(240,236,226,0.4)">⚠ Active Investigations</span>
-                </div>
-            </div>
         </div>
 
-        <!-- Opening -->
-        <div class="max-w-3xl mb-16 reveal">
-            <p class="font-serif italic text-paper/60 leading-relaxed mb-5" style="font-size:clamp(1rem,2.2vw,1.2rem)">
-                "The most disturbing thing isn't the violence. It's the brazenness. Leaving your calling card at a crime scene. Driving at someone in a public car park in broad daylight. Firebombing a house and writing a message on the fence. This isn't criminal behaviour that fears consequences. This is criminal behaviour that has decided consequences don't apply to it."
-            </p>
-            <div class="flex items-center gap-3">
-                <div class="w-6 h-px bg-hot/40"></div>
-                <span class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/25">CovertGC — Gold Coast</span>
-            </div>
-        </div>
-
-        <!-- Three columns of incidents -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-px bg-paper/[0.04] mb-16 reveal">
-            <div class="bg-ink p-7">
-                <div class="font-display text-5xl text-hot/15 leading-none mb-4">01</div>
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">Attempted Murder</div>
-                <div class="font-display text-xl tracking-wide mb-3">THE CAR NEAR OFFICEWORKS</div>
-                <p class="text-[0.65rem] text-paper/40 leading-relaxed">A Gold Coast man known to CovertGC was deliberately driven at in a public car park. The driver has been identified, arrested, denied bail. Phone messages extracted from his device have been provided to law enforcement. The alleged motive: $15,000 to put the target in a wheelchair.</p>
-            </div>
-            <div class="bg-ink p-7">
-                <div class="font-display text-5xl text-hot/15 leading-none mb-4">02</div>
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">Arson</div>
-                <div class="font-display text-xl tracking-wide mb-3">THE FIREBOMBED HOME</div>
-                <p class="text-[0.65rem] text-paper/40 leading-relaxed">A Gold Coast residence connected to the circle of Gina Rinehart — one of Australia's most powerful private citizens — was firebombed. A message was left at the scene. The words "Gina Rinehart is next" were written on the fence. A section of a website with identifying imagery was left at the scene.</p>
-            </div>
-            <div class="bg-ink p-7">
-                <div class="font-display text-5xl text-hot/15 leading-none mb-4">03</div>
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">The Message</div>
-                <div class="font-display text-xl tracking-wide mb-3">THEY LEFT A CALLING CARD</div>
-                <p class="text-[0.65rem] text-paper/40 leading-relaxed">The website material left at the scene of the firebombing came from a previous version of this publication. The implication is deliberate: that coverage of these individuals — naming them, publishing their photos, investigating their conduct — is treated as justification for arson. That logic is the logic of intimidation. And it needs to be named as such.</p>
-            </div>
-        </div>
-
-        <!-- Main content -->
         <div class="space-y-14">
 
-            <!-- The attempted murder -->
+            <!-- Officeworks wheelchair attack -->
             <div class="story-chapter reveal">
-                <div class="flex items-center gap-3 mb-4">
-                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Incident One</span>
-                    <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Active Investigation — Subject Not Named</span>
-                </div>
+                <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Incident One — Attempted Murder</span></div>
                 <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">FIFTEEN THOUSAND DOLLARS.<br><span class="text-hot">A WHEELCHAIR. A CAR PARK.</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">
-                    "Someone paid to have a man driven into near an Officeworks. Not threatened. Not intimidated. Driven into. With a car. The alleged price was $15,000. The alleged goal was a wheelchair. This is what escalation looks like when someone decides that legal and social tools have stopped working."
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    A Gold Coast man known to CovertGC was the target of a deliberate vehicle attack in a public car park. He photographed the driver at the scene. That photograph, combined with CCTV footage requested from the nearby Officeworks, was provided to law enforcement. The driver was identified, located, and arrested. He has been denied bail.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    Messages extracted from the driver's phone have been provided to investigators. Those messages, CovertGC understands, link the driver to a third party and indicate a payment of $15,000 for the attack. The investigation is active. We are not publishing identifying details of any party while proceedings are before the courts.
-                </p>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Someone paid to have a man driven into near an Officeworks. The alleged price was $15,000. The alleged goal was a wheelchair."</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The target photographed the driver at the scene. That photograph, combined with CCTV footage from the nearby Officeworks, was provided to law enforcement. The driver was identified, located, and arrested. He has been denied bail. Messages extracted from the driver's phone link him to a third party and indicate a payment of $15,000 for the attack.</p>
 
-                <!-- Photo placeholder -->
-                <div class="border border-paper/[0.07] p-0 mb-6 overflow-hidden">
-                    <div class="bg-paper/[0.03] h-48 flex items-center justify-center relative">
-                        <div class="absolute inset-0 scanlines"></div>
-                        <div class="text-center z-10">
-                            <div class="font-display text-2xl tracking-widest text-paper/15 mb-2">[ PHOTO WITHHELD ]</div>
-                            <div class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/20">Subject photographed at scene — face blurred pending proceedings</div>
-                            <div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot/40 mt-2">Evidence held. Will be published at appropriate time.</div>
+                <!-- EVIDENCE VAULT: Officeworks Attack -->
+                <div class="evidence-vault">
+                    <div class="ev-header" onclick="toggleVault(this)">
+                        <div class="flex items-center gap-2">
+                            <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Officeworks Wheelchair Attack</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                            <span class="ev-toggle">▼</span>
                         </div>
                     </div>
-                    <div class="border-t border-paper/[0.05] px-4 py-2 flex justify-between items-center">
-                        <span class="text-[0.52rem] text-paper/20">Exhibit — Vehicle Attack, Officeworks Car Park, Gold Coast</span>
-                        <span class="text-[0.52rem] text-hot/40 blink">● Active Investigation</span>
+                    <div class="ev-body">
+                        <div class="ev-file ef-hot" onclick="openMV('image','DRIVER IDENTIFIED AT SCENE','Photograph of the driver in his vehicle — taken by the target immediately after the attack — face redacted','Image · Taken at scene · Driver arrested · Denied bail','officeworks_attacker_photo_REDACTED.jpg','This photograph was taken by the target of the vehicle attack at the Officeworks car park, immediately after the attack. Combined with CCTV footage from the nearby Officeworks, it enabled the identification, location, and arrest of the driver. He was denied bail. Phone messages extracted from his device link the attack to a $15,000 contract. The face of the driver has been redacted pending completion of court proceedings.','image-driver')">
+                            <div class="ev-icon ev-img">📷</div>
+                            <div class="ev-meta">
+                                <div class="ev-name">officeworks_attack_driver_photo_REDACTED.jpg</div>
+                                <div class="ev-desc">Image · Driver photographed at scene · Face redacted · Arrested · Bail denied</div>
+                            </div>
+                            <span class="redact-tag">⬛ Face redacted</span>
+                            <span class="ev-cta ml-2">View →</span>
+                        </div>
+                        <div class="ev-zip-bar">
+                            <span class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/25">Full unredacted photo held by QPS — redacted version published here</span>
+                        </div>
                     </div>
                 </div>
-
-                <p class="text-[0.65rem] leading-relaxed text-paper/32">
-                    The use of a hired driver — a third party with no prior connection to the target — is a hallmark of organised criminal methodology. It creates distance between the person who orders violence and the person who carries it out. It is also a sign of resources: this is not impulsive street violence. It is planned, funded, and executed with deliberate intent to cause permanent harm. A wheelchair, not a bruise. That specificity of intention tells you everything about the mentality behind it.
-                </p>
-
-                <!-- Pattern note -->
-                <div class="border border-paper/[0.07] p-5 mt-5" style="border-left:3px solid rgba(214,61,47,0.4)">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">"If I Can't Have You, No One Can"</div>
-                    <p class="text-[0.68rem] text-paper/40 leading-relaxed">The vehicle attack, the coercive control surveillance, the false criminal allegations, the social isolation campaign, the Optus infrastructure attack — these are not separate incidents by a person with diverse criminal interests. They are the escalating outputs of a single psychological pattern: the belief that a person who cannot be controlled must be destroyed. Criminologists describe this as intimate partner coercive control in its most dangerous phase — when the controlling party perceives that they are losing their hold and responds by trying to eliminate the target rather than release them. The transition from surveillance to a $15,000 contract for a wheelchair is not a sudden escalation. It is a progression that was visible at every earlier stage.</p>
-                </div>
             </div>
 
-            <!-- The firebombing -->
+            <!-- Firebombing / Friendlyjordies -->
             <div class="story-chapter reveal" style="transition-delay:0.1s">
-                <div class="flex items-center gap-3 mb-4">
-                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Incident Two</span>
-                </div>
+                <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Incident Two — Arson</span></div>
                 <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">"GINA RINEHART IS NEXT"<br><span class="text-hot">WRITTEN ON A FENCE.</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">
-                    "They firebombed the house. And then they wrote on the fence. They didn't run. They left a message. That's not crime as a means to an end. That's crime as a statement."
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    A Gold Coast home connected to the personal circle of Gina Rinehart — Australia's wealthiest individual and one of the most prominent figures in Australian business and politics — was firebombed. At the scene, perpetrators left written graffiti on the fence: "Gina Rinehart is next." They also left a section of a website — a previous version of this publication — containing identifying imagery of a person connected to the investigation.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    The implication of leaving the website material is deliberate and worth unpacking. It communicates: we know where this investigation comes from. We know who is behind it. And we are telling you — through fire — what we think the appropriate consequence for that investigation is. It is an attempt to make journalism itself the provocation for violence. That logic must not be allowed to stand unchallenged.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">
-                    The individual connected to the investigation is known to CovertGC. They now work part-time for ASIO. The firebombing has been referred to the relevant intelligence and law enforcement agencies. The perpetrator is understood to have subsequently left Australia, travelling first to Thailand before relocating to Cambodia — a jurisdiction with limited extradition arrangements with Australia. Their property in Australia has been raided.
-                </p>
-
-                <!-- Rinehart context -->
-                <div class="border border-paper/[0.07] p-6 mb-6" style="border-left:3px solid rgba(232,160,32,0.5)">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">Why Targeting Rinehart's Circle Matters</div>
-                    <p class="text-[0.68rem] text-paper/40 leading-relaxed mb-3">Gina Rinehart is not a sympathetic figure to everyone. She is a billionaire at the centre of significant political controversy — over mining policy, media ownership, and inherited wealth. None of that is relevant to what happened to a home connected to her circle. The message left on the fence — "Gina Rinehart is next" — is a death threat directed at a named private citizen. The political valence of the target does not change what it is.</p>
-                    <p class="text-[0.68rem] text-paper/40 leading-relaxed">This matters because of what it reveals about the mentality of those responsible. They have assessed that Rinehart's public controversies make her a target whose threatening is either acceptable or strategically useful. They are wrong. Threatening to kill someone because they are powerful, controversial, or wealthy is still a threat to kill someone.</p>
-                </div>
-            </div>
-
-            <!-- Friendlyjordies parallel -->
-            <div class="story-chapter reveal" style="transition-delay:0.15s;border-left-color:rgba(232,160,32,0.3)">
-                <div class="flex items-center gap-3 mb-4">
-                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">The Pattern</span>
-                </div>
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">FRIENDLYJORDIES. GINA RINEHART.<br><span class="text-gold">OPPOSITE ENDS. SAME FIRE.</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">
-                    "Jordan Shanks is left-wing. Gina Rinehart is the definition of right-wing capital. They have nothing in common politically. They have both been targeted with firebombing. If you needed a single image of how far beyond politics this problem has gone — that's it."
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    In November 2022, the Bondi Beach home of Jordan Shanks — the political commentator known as Friendlyjordies — was firebombed. Police launched investigations into two separate attempts to burn down Shanks' house, with one attack in November 2022 mistakenly targeting his next-door neighbour before a second attack successfully burned down his home. The group used a stolen Mercedes with cloned plates and surveilled Shanks' home before pouring petrol at three separate locations.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    Police alleged the attack was carried out by an associate of the Alameddine crime network, in retaliation for a video Shanks made linking the crime family to a property development company. In September 2025, Tufi Junior Tauese-Auelua was sentenced to five years in jail over the firebombing.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    Shanks describes himself as Labor-aligned. His content targets conservative political figures and corporate power. He and Gina Rinehart represent genuinely opposing political and economic worldviews. The fact that both have been targeted with arson — one for what he publishes, one for who she is — is not a coincidence of ideology. It is a symptom of a criminal culture that has decided public profile, not political position, is sufficient justification for violence.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    Shanks' lawyer Mark Davis said: "The rot within the institutions of state that might have protected us from mobsters and criminal gangs and drug money is almost complete." That statement was made about NSW. It applies with equal force on the Gold Coast.
-                </p>
-
-                <!-- Side-by-side comparison -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">A Gold Coast home connected to the personal circle of Gina Rinehart was firebombed. Perpetrators left graffiti: "Gina Rinehart is next." They also left a section of a previous version of this publication containing identifying imagery — an attempt to establish that investigative journalism is the provocation for violence. CovertGC does not accept that logic.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     <div class="border border-paper/[0.07] p-5">
                         <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-2">Jordan Shanks — Friendlyjordies</div>
-                        <div class="text-[0.62rem] text-paper/40 leading-relaxed space-y-1.5">
-                            <div>Political alignment: Left / Labor</div>
-                            <div>Target of: Organised crime network</div>
-                            <div>Method: Firebombing — Bondi Beach, Nov 2022</div>
-                            <div>Trigger: Video naming crime family</div>
-                            <div>Outcome: Home destroyed. Perpetrator jailed 5 years.</div>
-                        </div>
+                        <div class="text-[0.62rem] text-paper/40 leading-relaxed space-y-1"><div>Method: Firebombing — Bondi Beach, Nov 2022</div><div>Outcome: Home destroyed. Perpetrator jailed 5 years.</div><div>Trigger: Video naming crime family</div></div>
                     </div>
                     <div class="border border-paper/[0.07] p-5">
                         <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-2">Gina Rinehart's Circle — Gold Coast</div>
-                        <div class="text-[0.62rem] text-paper/40 leading-relaxed space-y-1.5">
-                            <div>Political alignment: Right / conservative capital</div>
-                            <div>Target of: Criminal network, Gold Coast</div>
-                            <div>Method: Firebombing — Gold Coast residence</div>
-                            <div>Trigger: Connection to active investigation</div>
-                            <div>Outcome: "Rinehart is next" left at scene. Investigation active.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- The ethics of intimidation journalism -->
-            <div class="story-chapter reveal" style="transition-delay:0.2s;border-left-color:rgba(214,61,47,0.3)">
-                <div class="flex items-center gap-3 mb-4">
-                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">The Principle</span>
-                </div>
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">NAMING SOMEONE<br><span class="text-hot">IS NOT PROVOCATION FOR ARSON.</span></h3>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    The website material left at the Gold Coast firebombing scene — taken from a previous version of this publication — is an attempt to establish a causal logic: you published about us, therefore we burned a house. That logic, if accepted, means investigative journalism on the Gold Coast is an act that invites fire. CovertGC does not accept that logic. We are publishing this section precisely because accepting it would mean the threat worked.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                    The ethical framework is straightforward. Journalism that names people in connection with documented criminal conduct, supported by evidence and legal review, is not provocation. It is accountability. The response to accountability is legal challenge, correction requests, and the courts — not arson. Any criminal network that has decided otherwise has made a statement about how it views the rule of law. That statement should be taken seriously by law enforcement and treated as the evidence of intent that it is.
-                </p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45">
-                    CovertGC will continue publishing. The material left at the scene has been provided to ASIO and Queensland Police. It is now evidence, not a warning.
-                </p>
-
-                <div class="border border-hot/15 p-6 mt-6" style="background:rgba(214,61,47,0.03)">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Brazenness Problem</div>
-                    <p class="text-[0.68rem] text-paper/40 leading-relaxed mb-3">What distinguishes recent criminal behaviour in this investigation from conventional organised crime is the absence of concealment. A calling card left at a firebombing. A vehicle attack in a busy public car park with witnesses. Threats written openly on fences naming specific future targets. These are not the actions of people who fear detection. They are the actions of people who have assessed — correctly or not — that detection does not lead to consequence.</p>
-                    <p class="text-[0.68rem] text-paper/40 leading-relaxed">That assessment is either a product of past experience with impunity, or a deliberate strategy of intimidation through visibility. In either case, the correct response from law enforcement, media, and the public is not silence. Silence confirms the assessment. The only thing that changes the calculus is consequence — and consequence requires investigation, prosecution, and publication.</p>
-                </div>
-
-                <div class="doc-reveal p-4 cursor-pointer mt-6" onclick="openModal('brazenfile')">
-                    <div class="flex items-center justify-between">
-                        <div>
-                            <div class="text-[0.5rem] tracking-[0.18em] uppercase text-hot mb-1">Case File — Press Freedom & Criminal Intimidation</div>
-                            <div class="text-[0.7rem] text-paper/65">What Australian law says about using violence to silence journalism — and the international pattern of organised crime targeting independent media.</div>
-                        </div>
-                        <span class="text-[0.52rem] text-hot/50 ml-4 shrink-0 hover:text-hot transition-colors">Full File →</span>
+                        <div class="text-[0.62rem] text-paper/40 leading-relaxed space-y-1"><div>Method: Firebombing — Gold Coast residence</div><div>Message left: "Rinehart is next" + CovertGC pages</div><div>Status: Active investigation. Perpetrator left Australia.</div></div>
                     </div>
                 </div>
             </div>
@@ -2018,568 +1051,90 @@
 
 
 <!-- ══════════════════════════════════════
-     PRIVACY BREACH / AQUATIC CENTRE
+     PRIVACY BREACH SECTION
 ══════════════════════════════════════ -->
 <section id="privacy" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(123,94,167,0.04) 0%,transparent 50%)">
     <div class="max-w-6xl mx-auto">
-
-        <!-- Section header -->
         <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
             <div>
-                <div class="flex items-center gap-3 mb-2">
-                    <div class="w-4 h-px bg-violet"></div>
-                    <span class="text-[0.55rem] tracking-[0.3em] uppercase text-violet">Privacy Breach — Episode 1</span>
-                </div>
-                <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">THEY PHOTOGRAPHED ME.<br><span class="text-violet">THEN THEY LEAKED IT.</span></h2>
-                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">A Gold Coast Aquatic Centre staff member photographed a patron, annotated the image, and shared it publicly with a derogatory comment. The Council investigated — then dropped it and put the onus back on the victim.</p>
+                <div class="flex items-center gap-3 mb-2"><div class="w-4 h-px bg-violet"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-violet">Privacy Breach — Episode 1</span></div>
+                <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">PHOTOGRAPHED.<br><span class="text-violet">LABELLED. LEAKED.</span></h2>
+                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">A council aquatic centre photographed me, annotated the image with a surveillance note, and a staff member leaked it. The Council dropped its own investigation. The Mayor called me a public nuisance. The Premier disagreed.</p>
             </div>
             <div class="max-w-xs">
-                <p class="text-[0.65rem] leading-relaxed text-paper/30 mb-3">Two letters from the City of Gold Coast. One complaint. One dropped investigation. One Mayor who called a man whose charges were all dropped a "public nuisance." One Premier who disagreed.</p>
                 <div class="flex flex-wrap gap-2">
-                    <span class="evidence-tag" style="color:#7b5ea7">📄 Documents Verified</span>
-                    <span class="evidence-tag text-sage" style="color:#2a9d4e">✓ Staff Let Go</span>
+                    <span class="evidence-tag" style="color:#7b5ea7">📄 Council Letters — Verified</span>
+                    <span class="evidence-tag text-sage" style="color:#2a9d4e">✓ Staff Terminated</span>
                     <span class="evidence-tag text-gold" style="color:#e8a020">⚠ Show Cause Issued</span>
                 </div>
+                <p class="text-[0.65rem] leading-relaxed text-paper/30 mt-3">Evidence files for this section appear in the Police Corruption / Oracle East vault above — including both council letters and the surveillance photo.</p>
             </div>
         </div>
 
-        <!-- Opening -->
-        <div class="max-w-3xl mb-14 reveal">
-            <p class="font-serif italic text-paper/60 leading-relaxed mb-5" style="font-size:clamp(1rem,2.2vw,1.2rem)">
-                "I went to use the upstairs shower at the Gold Coast Aquatic Centre. The one with better pressure. I wasn't causing trouble. I left without incident when asked. What I didn't know was that a staff member had photographed me — annotated the image with a comment about monitoring me — and sent it to a member of the public with the words 'look at these shit cunts.' That person was someone I had paid to photograph Adam Watson. This is how he used that opportunity."
-            </p>
-            <div class="flex items-center gap-3">
-                <div class="w-6 h-px bg-violet/40"></div>
-                <span class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/25">Kosta Kondratenko — CovertGC</span>
-            </div>
-        </div>
-
-        <!-- Stats -->
         <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mb-16 reveal">
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-4xl text-violet mb-1">1</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Privacy complaint</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">Filed Dec 2024</div>
-            </div>
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-4xl text-hot mb-1">0</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Investigation outcome</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">Dropped by Council</div>
-            </div>
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-4xl text-gold mb-1">1</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Show Cause notice</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">Issued by Crisafulli</div>
-            </div>
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-4xl text-sage mb-1">✓</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Staff let go</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">Confirmed outcome</div>
-            </div>
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-violet mb-1">0</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Charges upheld</div></div>
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-hot mb-1">45</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Day deadline</div><div class="text-[0.5rem] text-paper/18 mt-1">Council missed · then dropped it</div></div>
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-gold mb-1">1</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Show Cause notice</div><div class="text-[0.5rem] text-paper/18 mt-1">From Premier Crisafulli</div></div>
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-sage mb-1">✓</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Staff terminated</div></div>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12">
-            <div class="space-y-14">
-
-                <!-- What happened -->
-                <div class="story-chapter reveal" style="border-left-color:rgba(123,94,167,0.3)">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-violet border border-violet/40 px-2 py-1">What Happened</span>
-                    </div>
-                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">A SHOWER.<br><span class="text-violet">A PHOTO. A CAPTION.</span></h3>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        The Gold Coast Aquatic Centre at Southport has two shower facilities. The downstairs shower is accessible but has noticeably inferior water pressure. The upstairs shower, located near the gym, is better. I used the upstairs shower. I was asked to leave. I left without incident, without argument, without causing any disruption.
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        What I did not know was that a staff member had taken a photograph of me — wearing a black Everlast jumper — and annotated it with the words: <span class="text-violet font-mono text-xs">"Monitor This One. Comes in for shower. Been asked not to use gym."</span> That annotated photograph was then sent by a staff member to a member of the public — a photographer known to CovertGC — with the accompanying comment: "Look at these shit cunts."
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        The photographer who received it is someone I had personally found, given an opportunity to, and paid to photograph Adam Watson. The image was forwarded to Adam Watson, which is how it came to my attention. The person who sent it — a Gold Coast Aquatic Centre staff member — was moonlighting as a photographer. A person I had employed in that capacity chose to pass on a covertly taken, annotated photograph of me, with a derogatory message, to another member of the public.
-                    </p>
-
-                    <!-- Photo placeholder -->
-                    <div class="border border-paper/[0.07] mb-6 overflow-hidden">
-                        <div class="bg-paper/[0.03] h-52 flex items-center justify-center relative">
-                            <div class="absolute inset-0 scanlines"></div>
-                            <div class="text-center z-10 px-8">
-                                <div class="font-display text-xl tracking-widest text-paper/15 mb-3">[ PHOTO PLACEHOLDER ]</div>
-                                <div class="text-[0.55rem] tracking-[0.18em] uppercase text-paper/20 mb-2">Subject: Kosta Kondratenko — Black Everlast Jumper</div>
-                                <div class="text-[0.55rem] tracking-[0.18em] uppercase text-paper/20 mb-2">Location: Gold Coast Aquatic Centre, Southport</div>
-                                <div class="border border-violet/20 px-3 py-1.5 inline-block mt-2">
-                                    <span class="text-[0.5rem] tracking-[0.15em] uppercase text-violet/60">Annotation visible: "Monitor This One. Comes in for shower. Been asked not to use gym."</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="border-t border-paper/[0.05] px-4 py-2 flex justify-between items-center">
-                            <span class="text-[0.52rem] text-paper/20">Leaked image — Gold Coast Aquatic Centre staff member to member of public, Dec 2024</span>
-                            <span class="text-[0.52rem] text-violet/40">Privacy Act breach</span>
-                        </div>
-                    </div>
-
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45">
-                        Under Queensland's Information Privacy Act 2009, the collection and disclosure of personal information — including photographs — by a local government entity without consent constitutes a privacy breach. The annotation identifying me by behaviour, and the forwarding of that image to a third party outside the organisation, are both prima facie breaches. This is not a grey area.
-                    </p>
+        <div class="max-w-3xl">
+            <div class="story-chapter reveal" style="border-left-color:rgba(123,94,167,0.3)">
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE COUNCIL DROPPED<br><span class="text-violet">ITS OWN INVESTIGATION.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">I lodged a formal privacy complaint with the City of Gold Coast on 15 December 2024. The Council acknowledged it via Ref: Lawmaster 1192. Then discontinued it — asking me to supply the information their own systems already held. Premier Crisafulli issued a Show Cause notice. Staff were terminated. The complaint letters are available in the Police Accountability section above.</p>
+                <div class="border border-hot/20 p-6 mb-5" style="background:rgba(214,61,47,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Formal Demand — Retraction</div>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">CovertGC formally demands that Mayor Tom Tate retract his characterisation of Kosta Kondratenko as a "public nuisance." All charges against Mr Kondratenko have been dropped. A written retraction is requested. Deadline: 30 days from publication.</p>
                 </div>
-
-                <!-- The complaint and response -->
-                <div class="story-chapter reveal" style="transition-delay:0.1s;border-left-color:rgba(123,94,167,0.3)">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-violet border border-violet/40 px-2 py-1">The Council Response</span>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div class="border border-hot/20 p-5" style="background:rgba(214,61,47,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">City of Gold Coast</div>
+                        <div class="space-y-1.5"><div class="text-[0.6rem] text-paper/35">✗ Investigation discontinued</div><div class="text-[0.6rem] text-paper/35">✗ Mayor called complainant a nuisance</div><div class="text-[0.6rem] text-paper/35">✗ No accountability</div></div>
                     </div>
-                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">COMPLAIN TO US.<br><span class="text-violet">THEN DO OUR JOB FOR US.</span></h3>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">
-                        I filed a privacy complaint with the City of Gold Coast on 15 December 2024. The Council acknowledged it, assigned it a reference number — Lawmaster 1192 — and informed me it was being investigated by the Chief Risk and Audit Office. Standard process.
-                    </p>
-
-                    <!-- Letter 1 -->
-                    <div class="border border-violet/15 p-6 mb-4 font-mono" style="background:rgba(123,94,167,0.03)">
-                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-violet mb-4">Document — Letter 1 of 2 — City of Gold Coast</div>
-                        <div class="text-[0.62rem] text-paper/50 leading-relaxed space-y-1">
-                            <div>Date: 16 December 2024</div>
-                            <div>Our reference: Lawmaster 1192</div>
-                            <div>Re: Privacy Complaint/Breach — Southport Aquatic Centre</div>
-                        </div>
-                        <div class="border-t border-paper/[0.06] mt-4 pt-4">
-                            <p class="text-[0.65rem] text-paper/40 leading-relaxed italic">"On 16 December 2024 the City of Gold Coast received your complaint about an alleged breach of privacy by a staff member at the Southport Aquatic Centre. Your complaint is being investigated by the City's Chief Risk and Audit Office..."</p>
-                        </div>
-                        <div class="mt-3 text-[0.55rem] text-paper/25">Signed: Julie Schyf, Complaints Officer, Chief Risk and Audit Office</div>
+                    <div class="border border-sage/20 p-5" style="background:rgba(42,157,78,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-2">Premier Crisafulli</div>
+                        <div class="space-y-1.5"><div class="text-[0.6rem] text-paper/35">✓ Show Cause notice issued</div><div class="text-[0.6rem] text-paper/35">✓ Staff involved terminated</div><div class="text-[0.6rem] text-paper/35">✓ Accountability via escalation</div></div>
                     </div>
-
-                    <!-- Letter 2 -->
-                    <div class="border border-hot/15 p-6 mb-6 font-mono" style="background:rgba(214,61,47,0.03)">
-                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-4">Document — Letter 2 of 2 — Investigation Discontinued</div>
-                        <div class="text-[0.62rem] text-paper/50 leading-relaxed space-y-1">
-                            <div>Re: Privacy Complaint — Investigation Discontinued</div>
-                        </div>
-                        <div class="border-t border-paper/[0.06] mt-4 pt-4">
-                            <p class="text-[0.65rem] text-paper/40 leading-relaxed italic">"The City of Gold Coast followed up by telephone and email on 16 December 2024 and by email on 16 January 2025 requesting more information from you, in order to facilitate a full investigation... As no further details of the privacy complaint have been submitted, the City has discontinued the investigation."</p>
-                        </div>
-                        <div class="mt-3 text-[0.55rem] text-paper/25">Signed: Julie Schyf, Complaints Officer, for the Chief Executive Officer</div>
-                    </div>
-
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        The Council's second letter frames the discontinuation as a consequence of my failure to provide more information. This framing deserves scrutiny. The complaint was clear: a staff member photographed me, annotated the image, and forwarded it to a member of the public with a derogatory comment. The image exists. The annotation exists. The forwarding is documented. What additional information was required — and why was the burden of providing it placed entirely on me rather than investigated through the Council's own staff and systems?
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45">
-                        A privacy breach investigation at a Council facility does not require the victim to conduct the investigation. The Council employs the staff member. The Council owns the facility. The Council has access to the communications systems through which the image was forwarded. The information needed to investigate this complaint was entirely within the Council's own systems. Asking me to provide it, and then closing the matter when I didn't, is not due process. It is a mechanism for inaction.
-                    </p>
-                </div>
-
-                <!-- Tom Tate -->
-                <div class="story-chapter reveal" style="transition-delay:0.15s;border-left-color:rgba(214,61,47,0.3)">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">The Mayor's Comment</span>
-                    </div>
-                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">"HE'S A<br><span class="text-hot">PUBLIC NUISANCE."</span></h3>
-                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">
-                        "Mayor Tom Tate, when approached about the privacy breach and the Council's failure to investigate, described me as a 'public nuisance.' All charges against me have been dropped. Every single one. I am not a public nuisance. I am a person whose privacy was breached by a Council employee — and whose Mayor chose to characterise the victim rather than address the conduct of his staff."
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        Mayor Tom Tate is a public figure and the elected head of the City of Gold Coast. When Adam Watson raised the matter of the privacy breach and the Council's discontinuation of the investigation directly with Mayor Tate, the Mayor's response was to characterise me as a "public nuisance." That characterisation was made in the context of a documented privacy complaint against a Council employee — not in the context of any criminal finding, because there are none. Every charge I have faced has been dropped.
-                    </p>
-
-                    <div class="border border-hot/20 p-6 mb-6" style="background:rgba(214,61,47,0.03)">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Formal Demand for Retraction</div>
-                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">CovertGC formally requests that Mayor Tom Tate retract the characterisation of Kosta Kondratenko as a "public nuisance." The basis for this request is straightforward:</p>
-                        <div class="space-y-2">
-                            <div class="flex gap-3 items-start">
-                                <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-hot"></div>
-                                <p class="text-[0.65rem] text-paper/40 leading-relaxed">All charges against Kosta Kondratenko have been dropped. There is no criminal finding that supports the characterisation.</p>
-                            </div>
-                            <div class="flex gap-3 items-start">
-                                <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-hot"></div>
-                                <p class="text-[0.65rem] text-paper/40 leading-relaxed">The Mayor made this comment in the context of a legitimate privacy complaint against a Council employee — not in response to any adjudicated conduct by the complainant.</p>
-                            </div>
-                            <div class="flex gap-3 items-start">
-                                <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-hot"></div>
-                                <p class="text-[0.65rem] text-paper/40 leading-relaxed">A Mayor characterising a privacy complainant as a nuisance, while his Council drops the investigation into the breach, creates a reasonable impression that the characterisation is designed to discourage the complaint. That impression needs to be corrected.</p>
-                            </div>
-                        </div>
-                        <p class="text-[0.65rem] text-paper/30 leading-relaxed mt-4 italic">Mayor Tate has been contacted for comment. This section will be updated with any response received.</p>
-                    </div>
-                </div>
-
-                <!-- Crisafulli / outcome -->
-                <div class="story-chapter reveal" style="transition-delay:0.2s;border-left-color:rgba(42,157,78,0.3)">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-sage border border-sage/40 px-2 py-1">The Outcome</span>
-                    </div>
-                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">CRISAFULLI STEPS IN.<br><span class="text-sage">STAFF LET GO.</span></h3>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        Premier David Crisafulli was made aware of the privacy breach and the Council's handling — or rather its discontinuation — of the investigation. The Premier issued a Show Cause notice to the Council. The staff members involved in the photographing and leaking of the image have subsequently been let go.
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        The contrast between the Council's response and the Premier's is instructive. The Council, when presented with a documented privacy breach by its own employee, requested more information from the victim and then closed the matter. The Premier, when presented with the same information, issued a formal Show Cause notice and the outcome was staff dismissal.
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45">
-                        The information available to both was identical. The difference in response reflects a difference in institutional will — and raises a reasonable question about whether a Council whose Mayor's first response was to call the complainant a nuisance was ever going to investigate this complaint in good faith.
-                    </p>
-
-                    <!-- Outcome summary -->
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-6">
-                        <div class="border border-hot/20 p-5" style="background:rgba(214,61,47,0.03)">
-                            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">City of Gold Coast</div>
-                            <div class="space-y-1.5">
-                                <div class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-hot shrink-0"></div><span class="text-[0.6rem] text-paper/35">Complaint acknowledged Dec 2024</span></div>
-                                <div class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-hot shrink-0"></div><span class="text-[0.6rem] text-paper/35">Investigation discontinued Jan 2025</span></div>
-                                <div class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-hot shrink-0"></div><span class="text-[0.6rem] text-paper/35">Mayor called complainant a "public nuisance"</span></div>
-                                <div class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-hot shrink-0"></div><span class="text-[0.6rem] text-paper/35">No outcome, no accountability</span></div>
-                            </div>
-                        </div>
-                        <div class="border border-sage/20 p-5" style="background:rgba(42,157,78,0.03)">
-                            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-2">Premier David Crisafulli</div>
-                            <div class="space-y-1.5">
-                                <div class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-sage shrink-0"></div><span class="text-[0.6rem] text-paper/35">Made aware of the breach</span></div>
-                                <div class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-sage shrink-0"></div><span class="text-[0.6rem] text-paper/35">Show Cause notice issued to Council</span></div>
-                                <div class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-sage shrink-0"></div><span class="text-[0.6rem] text-paper/35">Staff involved let go</span></div>
-                                <div class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-sage shrink-0"></div><span class="text-[0.6rem] text-paper/35">Accountability achieved via escalation</span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- The broader point -->
-                <div class="story-chapter reveal" style="transition-delay:0.25s;border-left-color:rgba(123,94,167,0.3)">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-violet border border-violet/40 px-2 py-1">The Principle</span>
-                    </div>
-                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">YOUR PHOTO.<br><span class="text-violet">THEIR SMORGASBORD.</span></h3>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        What happened at the Gold Coast Aquatic Centre is a specific instance of a broader problem: institutions that collect information about people — images, behaviour, patterns — treating that information as their own property to share, annotate, and weaponise. I used a shower. I was asked to leave and I left. For that, my photograph was annotated, circulated, and used as the basis for a derogatory comment about me sent to a person I had employed.
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        The phrase used in the annotation — "Monitor This One" — is revealing. It suggests a system, or at minimum a culture, in which certain patrons are tracked, flagged, and shared with others. That system, if it exists formally, is subject to the Information Privacy Act. If it exists informally — staff taking and annotating photos on personal devices and sharing them through personal channels — it is both a breach and a disciplinary matter. Either way, it requires investigation, not discontinuation.
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45">
-                        The Gold Coast is a city that markets itself as a destination. Its public aquatic facilities are funded by ratepayers. The standard of conduct expected of staff at those facilities — toward all patrons, regardless of their circumstances — should be set by the Council and enforced by it. When it isn't, the alternative is a Premier's Show Cause notice. That should embarrass the Council. It should also prompt a review of whether this incident was isolated or symptomatic.
-                    </p>
-
-                    <div class="doc-reveal p-4 cursor-pointer mt-6" style="border-left-color:#7b5ea7" onclick="openModal('privacyfile')">
-                        <div class="flex items-center justify-between">
-                            <div>
-                                <div class="text-[0.5rem] tracking-[0.18em] uppercase text-violet mb-1">Case File — Information Privacy Act 2009 & Your Rights</div>
-                                <div class="text-[0.7rem] text-paper/65">What Queensland privacy law says about photographs taken by public entities, how to escalate a discontinued investigation, and what the Information Commissioner can do.</div>
-                            </div>
-                            <span class="text-[0.52rem] text-violet/50 ml-4 shrink-0 hover:text-violet transition-colors">Full File →</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Sidebar -->
-            <div class="space-y-4">
-                <div class="sticky top-24 space-y-4">
-
-                    <div class="border border-violet/20 p-5" style="background:rgba(123,94,167,0.03)">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-violet mb-3">Timeline</div>
-                        <div class="space-y-3">
-                            <div class="flex gap-3">
-                                <div class="text-[0.52rem] text-paper/25 w-16 shrink-0 pt-0.5">Dec 2024</div>
-                                <div>
-                                    <div class="text-[0.6rem] text-paper/50">Photo taken, annotated, leaked by staff member</div>
-                                </div>
-                            </div>
-                            <div class="flex gap-3">
-                                <div class="text-[0.52rem] text-paper/25 w-16 shrink-0 pt-0.5">15 Dec</div>
-                                <div>
-                                    <div class="text-[0.6rem] text-paper/50">Privacy complaint filed with City of Gold Coast</div>
-                                </div>
-                            </div>
-                            <div class="flex gap-3">
-                                <div class="text-[0.52rem] text-paper/25 w-16 shrink-0 pt-0.5">16 Dec</div>
-                                <div>
-                                    <div class="text-[0.6rem] text-paper/50">Council acknowledges complaint — Lawmaster 1192</div>
-                                </div>
-                            </div>
-                            <div class="flex gap-3">
-                                <div class="text-[0.52rem] text-paper/25 w-16 shrink-0 pt-0.5">Jan 2025</div>
-                                <div>
-                                    <div class="text-[0.6rem] text-paper/50 text-hot/70">Council discontinues investigation</div>
-                                </div>
-                            </div>
-                            <div class="flex gap-3">
-                                <div class="text-[0.52rem] text-paper/25 w-16 shrink-0 pt-0.5">2025</div>
-                                <div>
-                                    <div class="text-[0.6rem] text-paper/50">Mayor Tate: "He's a public nuisance"</div>
-                                </div>
-                            </div>
-                            <div class="flex gap-3">
-                                <div class="text-[0.52rem] text-paper/25 w-16 shrink-0 pt-0.5">2025</div>
-                                <div>
-                                    <div class="text-[0.6rem] text-sage/70">Premier Crisafulli issues Show Cause notice</div>
-                                </div>
-                            </div>
-                            <div class="flex gap-3">
-                                <div class="text-[0.52rem] text-paper/25 w-16 shrink-0 pt-0.5">2025</div>
-                                <div>
-                                    <div class="text-[0.6rem] text-sage/70">Staff involved let go</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="border border-paper/[0.07] p-5">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-2">Information Commissioner Pathway</div>
-                        <p class="text-[0.62rem] text-paper/35 leading-relaxed mb-3">Under s.166 of the Information Privacy Act 2009, you may escalate to the Queensland Information Commissioner if 45 business days have elapsed since your complaint and you have not received an adequate response. The Council's letter itself notes this right — and then dropped the investigation anyway.</p>
-                        <a href="https://www.oic.qld.gov.au" target="_blank" class="block text-center border border-violet/40 hover:bg-violet/10 text-violet font-display tracking-widest py-2.5 text-xs transition-all">QLD INFORMATION COMMISSIONER →</a>
-                    </div>
-
                 </div>
             </div>
         </div>
-
     </div>
 </section>
 
 
 <!-- ══════════════════════════════════════
-     REDRESS SCHEME SECTION
+     REDRESS SCHEME
 ══════════════════════════════════════ -->
 <section id="redress" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(42,157,78,0.03) 0%,transparent 50%)">
     <div class="max-w-6xl mx-auto">
-
-        <!-- Section header -->
         <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
             <div>
-                <div class="flex items-center gap-3 mb-2">
-                    <div class="w-4 h-px bg-sage"></div>
-                    <span class="text-[0.55rem] tracking-[0.3em] uppercase text-sage">Public Interest — Episode 1</span>
-                </div>
+                <div class="flex items-center gap-3 mb-2"><div class="w-4 h-px bg-sage"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-sage">Public Interest — Episode 1</span></div>
                 <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">WHO'S CHECKING<br><span class="text-sage">THE REDRESS SCHEME?</span></h2>
-                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">Australia's National Redress Scheme has paid out over $1 billion to survivors of institutional child sexual abuse. The question nobody is asking loudly enough: was anyone verifying the claims?</p>
-            </div>
-            <div class="max-w-xs">
-                <p class="text-[0.65rem] leading-relaxed text-paper/30 mb-3">This section examines systemic verification failures in the National Redress Scheme — specifically whether attendance records at named institutions were cross-referenced before payouts were approved.</p>
-                <div class="flex flex-wrap gap-2">
-                    <span class="evidence-tag text-sage" style="color:#2a9d4e">💰 $1B+ Paid Out</span>
-                    <span class="evidence-tag text-hot" style="color:#d63d2f">⚠ Verification Gap</span>
-                </div>
+                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">Australia's National Redress Scheme has paid out over $1 billion. The question nobody is asking loudly enough: was anyone verifying the claims?</p>
             </div>
         </div>
 
-        <!-- Context intro -->
-        <div class="max-w-3xl mb-14 reveal">
-            <p class="font-serif italic text-paper/55 leading-relaxed mb-5" style="font-size:clamp(0.95rem,2vw,1.15rem)">
-                "The National Redress Scheme was built to deliver justice to people who were failed by institutions that should have protected them. That purpose is legitimate and important. But a compensation scheme that does not verify whether applicants attended the institutions they name is not delivering justice — it is delivering a payout system that can be gamed. And when it gets gamed, it is the genuine survivors who are cheapened."
-            </p>
-            <div class="flex items-center gap-3">
-                <div class="w-6 h-px bg-sage/40"></div>
-                <span class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/25">CovertGC — Gold Coast</span>
-            </div>
-        </div>
-
-        <!-- Stats bar -->
         <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mb-16 reveal">
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-4xl text-sage mb-1">$1B+</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Total paid out</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">As of 2024</div>
-            </div>
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-4xl text-gold mb-1">40K+</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Applications received</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">Since 2018</div>
-            </div>
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-4xl text-hot mb-1">0</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Attendance checks</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">Required at application</div>
-            </div>
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-4xl text-paper/50 mb-1">?</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Fraudulent claims</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">No public figure exists</div>
-            </div>
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-sage mb-1">$1B+</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Total paid out</div></div>
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-gold mb-1">40K+</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Applications received</div></div>
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-hot mb-1">0</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Attendance checks</div><div class="text-[0.5rem] text-paper/18 mt-1">Required at application</div></div>
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-paper/50 mb-1">?</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Fraudulent claims</div><div class="text-[0.5rem] text-paper/18 mt-1">No public figure exists</div></div>
         </div>
 
-        <!-- Main content -->
-        <div class="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 mb-16">
-
-            <!-- Left: main story -->
-            <div class="space-y-10">
-
-                <!-- The scheme -->
-                <div class="story-chapter reveal" style="border-left-color:rgba(42,157,78,0.3)">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-sage border border-sage/40 px-2 py-1">Background</span>
-                    </div>
-                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">WHAT THE REDRESS SCHEME IS</h3>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        The National Redress Scheme was established in 2018 following the Royal Commission into Institutional Responses to Child Sexual Abuse. It provides financial redress — up to $150,000 — counselling, and a direct personal response from institutions to people who experienced child sexual abuse in an institutional context: schools, churches, sporting clubs, government facilities.
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        The scheme operates on a trauma-informed model. This means applicants are not required to prove their claims in the way a court would demand — the evidentiary threshold is deliberately lower, recognising that abuse often occurred in private, decades ago, with no documentation. A "reasonable person" standard applies: would a reasonable person believe the abuse occurred given the information provided?
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45">
-                        This model is correct in principle. The Royal Commission documented systemic institutional cover-up that destroyed evidence and silenced victims for decades. Requiring victims to meet a criminal standard of proof would deny justice to most genuine claimants. The lower threshold exists for good reason.
-                    </p>
+        <div class="max-w-3xl">
+            <div class="story-chapter reveal" style="border-left-color:rgba(214,61,47,0.3)">
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE ATTENDANCE RECORD GAP</h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Most Australian schools, churches, and government institutions maintain attendance records going back decades. Cross-referencing an applicant's name against them is not a complex investigative task. The question of why it does not appear to be standard practice is one the scheme needs to answer publicly.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">CovertGC has been made aware of at least one Gold Coast case in which a Redress Scheme payout was subsequently subject to recovery action — including the seizure of an asset — following questions about whether the applicant attended the institution named in their claim. FOI requests are on file. This section will be updated when responses are received.</p>
+                <div class="border border-sage/20 p-5" style="background:rgba(42,157,78,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-2">FOI Requests Filed</div>
+                    <div class="space-y-1.5"><div class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-gold"></div><span class="text-[0.6rem] text-paper/35">National Redress Scheme — verification methodology</span></div><div class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-gold"></div><span class="text-[0.6rem] text-paper/35">National Redress Scheme — fraud referral statistics</span></div><div class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-paper/20"></div><span class="text-[0.6rem] text-paper/25">QLD AG — Criminal Injuries Compensation reform</span></div></div>
                 </div>
-
-                <!-- The gap -->
-                <div class="story-chapter reveal" style="transition-delay:0.1s;border-left-color:rgba(214,61,47,0.3)">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">The Vulnerability</span>
-                    </div>
-                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE ATTENDANCE RECORD GAP</h3>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        There is one verification check that is both straightforward and apparently not systematically applied: whether the applicant actually attended the institution they name.
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        Most Australian schools, churches, and government institutions maintain attendance records going back decades. Enrolment registers, baptismal records, government placement files — the documentary basis to confirm whether a person was present at an institution during the period they claim exists in many cases. The National Redress Scheme's assessment process does not appear to require this verification as a standard step before approving a payment.
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        This creates a specific and exploitable vulnerability: a person who never attended an institution named in their application can still receive a payout if their application is otherwise plausible. The institution itself — which is required to join the scheme and fund it — has limited ability to contest individual claims without appearing to victimise genuine survivors.
-                    </p>
-
-                    <!-- Gap detail boxes -->
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
-                        <div class="border border-paper/[0.07] p-4" style="border-left:3px solid rgba(214,61,47,0.5)">
-                            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">What Is Checked</div>
-                            <p class="text-[0.65rem] text-paper/40 leading-relaxed">Identity of applicant. Whether the named institution is a participating scheme member. Plausibility of the account on its face. Counselling and support needs.</p>
-                        </div>
-                        <div class="border border-paper/[0.07] p-4" style="border-left:3px solid rgba(42,157,78,0.5)">
-                            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-2">What Is Not Systematically Checked</div>
-                            <p class="text-[0.65rem] text-paper/40 leading-relaxed">Whether the applicant's name appears in the institution's enrolment, attendance, or placement records during the period claimed. This check is possible. It is not standard.</p>
-                        </div>
-                    </div>
-
-                    <div class="border border-paper/[0.07] p-5" style="border-left:3px solid rgba(232,160,32,0.5)">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-2">Why Institutions Can't Easily Contest Claims</div>
-                        <p class="text-[0.65rem] text-paper/40 leading-relaxed">Institutions that join the Redress Scheme agree to a process that is deliberately weighted toward applicants. An institution that actively contests claims risks reputational and legal consequences — and is seen, fairly or not, as repeating the patterns of denial the Royal Commission exposed. This creates a structural disincentive to flag potentially fraudulent applications even when the institution has grounds to question them.</p>
-                    </div>
-                </div>
-
-                <!-- Scale of the problem -->
-                <div class="story-chapter reveal" style="transition-delay:0.15s;border-left-color:rgba(232,160,32,0.3)">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Scale</span>
-                    </div>
-                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">HOW MANY CLAIMS ARE FRAUDULENT?<br><span class="text-gold">NOBODY KNOWS.</span></h3>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        The National Redress Scheme does not publish a figure for detected or suspected fraudulent claims. Its annual reports detail applications received, assessments completed, and payments made — but there is no transparency about integrity referrals, fraud investigations, or recovered funds.
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        This is not unique to the Redress Scheme — most large compensation programs face the same disclosure challenge. But the combination of a lower evidentiary threshold, the absence of systematic attendance verification, and the structural disincentive for institutions to contest claims creates conditions where fraud, if it is occurring, would be difficult to detect and easy to sustain.
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45">
-                        CovertGC has been made aware of at least one Gold Coast case in which a Redress Scheme payout was subsequently subject to recovery action — including the seizure of an asset — following questions about whether the applicant had in fact attended the institution named in their claim. We are not in a position to name the individuals involved at this stage. We have submitted Freedom of Information requests to the National Redress Scheme regarding its verification methodology and fraud detection procedures. We will update this section when responses are received.
-                    </p>
-                </div>
-
-                <!-- Criminal Injuries Compensation -->
-                <div class="story-chapter reveal" style="transition-delay:0.2s;border-left-color:rgba(214,61,47,0.3)">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Related Reform</span>
-                    </div>
-                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">CRIMINAL INJURIES COMPENSATION:<br><span class="text-hot">THE LOOPHOLE BEING CLOSED</span></h3>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        Separate from the National Redress Scheme, Queensland's Criminal Injuries Compensation scheme allows people who have suffered harm from criminal acts to apply for government compensation — even when the accused was never charged or convicted. The scheme's intent is to support victims who may face barriers to civil litigation.
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">
-                        A specific vulnerability in this framework has been identified: a person can receive Criminal Injuries Compensation based on an allegation even when the accused was found not guilty, had charges dropped, or — as in Adam Watson's case — had charges dismissed as a malicious prosecution. The accused has no automatic mechanism to challenge the compensation award or have it overturned following their exoneration.
-                    </p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">
-                        Queensland's Attorney General is now moving to address this gap. Proposed reforms would require that Criminal Injuries Compensation payments be linked to a verified criminal conviction — meaning a person cannot receive compensation for an alleged offence that did not result in a finding of guilt against the accused.
-                    </p>
-
-                    <!-- Reform detail -->
-                    <div class="border border-paper/[0.07] p-6 mb-5" style="border-left:3px solid rgba(42,157,78,0.5)">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-3">The Proposed Reform</div>
-                        <div class="space-y-3">
-                            <div class="flex gap-3 items-start">
-                                <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-sage"></div>
-                                <p class="text-[0.65rem] text-paper/45 leading-relaxed">Criminal Injuries Compensation awards would require a corresponding conviction against the named accused before payment is finalised.</p>
-                            </div>
-                            <div class="flex gap-3 items-start">
-                                <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-sage"></div>
-                                <p class="text-[0.65rem] text-paper/45 leading-relaxed">Existing awards made in cases where charges were later dropped or found malicious would be subject to review.</p>
-                            </div>
-                            <div class="flex gap-3 items-start">
-                                <div class="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 bg-sage"></div>
-                                <p class="text-[0.65rem] text-paper/45 leading-relaxed">The reform addresses the specific scenario where false allegations generate both a criminal charge and a compensation payout — two weapons deployed from a single lie.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="doc-reveal p-4 cursor-pointer" style="border-left-color:#2a9d4e" onclick="openModal('redressfile')">
-                        <div class="flex items-center justify-between">
-                            <div>
-                                <div class="text-[0.5rem] tracking-[0.18em] uppercase text-sage mb-1">Case File — Redress & Compensation Integrity</div>
-                                <div class="text-[0.7rem] text-paper/65">The verification gap, the QLD Attorney General reform, and what a robust fraud detection framework would look like.</div>
-                            </div>
-                            <span class="text-[0.52rem] text-sage/50 ml-4 shrink-0 hover:text-sage transition-colors">Full File →</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Right: sidebar -->
-            <div class="space-y-4">
-
-                <div class="sticky top-24 space-y-4">
-                    <div class="border border-sage/20 p-5" style="background:rgba(42,157,78,0.03)">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-3">What CovertGC Is Asking</div>
-                        <div class="space-y-3">
-                            <div class="flex gap-2 items-start">
-                                <span class="text-hot text-xs mt-0.5 shrink-0">→</span>
-                                <p class="text-[0.62rem] text-paper/40 leading-relaxed">Does the National Redress Scheme cross-reference applicant names against institutional attendance records before approving payments?</p>
-                            </div>
-                            <div class="flex gap-2 items-start">
-                                <span class="text-hot text-xs mt-0.5 shrink-0">→</span>
-                                <p class="text-[0.62rem] text-paper/40 leading-relaxed">How many claims have been referred for fraud investigation since 2018? How many resulted in recovery action?</p>
-                            </div>
-                            <div class="flex gap-2 items-start">
-                                <span class="text-hot text-xs mt-0.5 shrink-0">→</span>
-                                <p class="text-[0.62rem] text-paper/40 leading-relaxed">What is the process for an institution to flag a claim it believes is fraudulent — and what protections exist to ensure that process is not used to victimise genuine survivors?</p>
-                            </div>
-                            <div class="flex gap-2 items-start">
-                                <span class="text-hot text-xs mt-0.5 shrink-0">→</span>
-                                <p class="text-[0.62rem] text-paper/40 leading-relaxed">How many Criminal Injuries Compensation awards have been made in QLD in cases where the accused was subsequently exonerated?</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="border border-paper/[0.07] p-5">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">FOI Requests Filed</div>
-                        <div class="space-y-2">
-                            <div class="flex items-center gap-2">
-                                <div class="w-1.5 h-1.5 rounded-full bg-gold"></div>
-                                <span class="text-[0.6rem] text-paper/35">National Redress Scheme — verification methodology</span>
-                            </div>
-                            <div class="flex items-center gap-2">
-                                <div class="w-1.5 h-1.5 rounded-full bg-gold"></div>
-                                <span class="text-[0.6rem] text-paper/35">National Redress Scheme — fraud referral statistics</span>
-                            </div>
-                            <div class="flex items-center gap-2">
-                                <div class="w-1.5 h-1.5 rounded-full bg-paper/20"></div>
-                                <span class="text-[0.6rem] text-paper/25">QLD AG — Criminal Injuries Compensation reform detail</span>
-                            </div>
-                        </div>
-                        <p class="text-[0.55rem] text-paper/18 mt-3 leading-relaxed">Pending responses. This section will be updated when received.</p>
-                    </div>
-
-                    <div class="border border-paper/[0.07] p-5">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-2">Have information?</div>
-                        <p class="text-[0.62rem] text-paper/35 leading-relaxed mb-3">If you have direct knowledge of Redress Scheme verification failures, or were involved in the scheme's administration, we want to hear from you. All contacts are confidential.</p>
-                        <a href="#sms" class="block text-center border border-sage/40 hover:bg-sage/10 text-sage font-display tracking-widest py-2.5 text-xs transition-all">CONTACT COVERTGC</a>
-                    </div>
-                </div>
-
             </div>
         </div>
-
-        <!-- Closing note -->
-        <div class="border-t border-paper/[0.06] pt-8 max-w-3xl">
-            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-3">A Note On This Investigation</div>
-            <p class="text-[0.68rem] text-paper/35 leading-relaxed">The National Redress Scheme exists because Australia failed tens of thousands of children in its institutions. That failure was real. The scheme is necessary. Raising questions about its fraud detection methodology is not an attack on survivors — it is an argument that survivors deserve a scheme with enough integrity that its payouts mean something. Fraud against the scheme is not a victimless act. Every fraudulent claim dilutes the legitimacy of every genuine one.</p>
-        </div>
-
     </div>
 </section>
-
-
 
 
 <!-- ══════════════════════════════════════
@@ -2588,70 +1143,20 @@
 <section id="episodes" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]">
     <div class="max-w-6xl mx-auto">
         <div class="flex items-end justify-between mb-12 gap-4 flex-wrap">
-            <div>
-                <div class="text-[0.55rem] tracking-[0.3em] uppercase text-hot mb-2">The Series</div>
-                <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.5rem,6vw,4.5rem)">ALL EPISODES</h2>
-            </div>
+            <div><div class="text-[0.55rem] tracking-[0.3em] uppercase text-hot mb-2">The Series</div><h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.5rem,6vw,4.5rem)">ALL EPISODES</h2></div>
             <div class="text-[0.62rem] text-paper/28 max-w-xs leading-relaxed">New episodes drop when the investigation is ready — not on a schedule.</div>
         </div>
-
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <div class="reveal group relative border border-hot/40 bg-paper/[0.02] overflow-hidden">
                 <div class="absolute top-0 left-0 right-0 h-[2px] bg-hot"></div>
-                <div class="relative h-36 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&q=65" alt="" class="w-full h-full object-cover opacity-45 group-hover:scale-105 transition-transform duration-700"/>
-                    <div class="absolute inset-0 bg-gradient-to-t from-ink/90 to-transparent"></div>
-                    <div class="absolute top-3 left-3 bg-hot text-paper font-display text-xs tracking-widest px-2 py-1">LIVE NOW</div>
-                </div>
-                <div class="p-4">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Episode 01</div>
-                    <div class="font-display text-base tracking-wide leading-tight mb-1">Gold Coast Uncovered</div>
-                    <div class="text-[0.6rem] text-paper/30">9 chapters · Sandy Tulisi to Adam Watson · Feb 2026</div>
-                </div>
+                <div class="relative h-36 overflow-hidden"><img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&q=65" alt="" class="w-full h-full object-cover opacity-45 group-hover:scale-105 transition-transform duration-700"/><div class="absolute inset-0 bg-gradient-to-t from-ink/90 to-transparent"></div><div class="absolute top-3 left-3 bg-hot text-paper font-display text-xs tracking-widest px-2 py-1">LIVE NOW</div></div>
+                <div class="p-4"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Episode 01</div><div class="font-display text-base tracking-wide leading-tight mb-1">Gold Coast Uncovered</div><div class="text-[0.6rem] text-paper/30">9 chapters · Feb 2026</div></div>
             </div>
-
-            <div class="reveal ep-coming relative border border-paper/[0.07] bg-paper/[0.02] overflow-hidden" style="transition-delay:0.08s;opacity:0.5">
-                <div class="relative h-36 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=500&q=65" alt="" class="w-full h-full object-cover opacity-25"/>
-                    <div class="absolute inset-0 bg-gradient-to-t from-ink/90 to-transparent"></div>
-                </div>
-                <div class="p-4">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/28 mb-1">Episode 02</div>
-                    <div class="font-display text-base tracking-wide text-paper/35 leading-tight mb-1">Inside the Courtroom</div>
-                    <div class="text-[0.6rem] text-paper/18">How charges disappear before trial</div>
-                </div>
-            </div>
-
-            <div class="reveal ep-coming relative border border-paper/[0.07] bg-paper/[0.02] overflow-hidden" style="transition-delay:0.16s;opacity:0.5">
-                <div class="relative h-36 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=500&q=65" alt="" class="w-full h-full object-cover opacity-25"/>
-                    <div class="absolute inset-0 bg-gradient-to-t from-ink/90 to-transparent"></div>
-                </div>
-                <div class="p-4">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/28 mb-1">Episode 03</div>
-                    <div class="font-display text-base tracking-wide text-paper/35 leading-tight mb-1">The Network</div>
-                    <div class="text-[0.6rem] text-paper/18">Criminal connections across the Gold Coast</div>
-                </div>
-            </div>
-
-            <div class="reveal ep-coming relative border border-paper/[0.07] bg-paper/[0.02] overflow-hidden" style="transition-delay:0.24s;opacity:0.5">
-                <div class="relative h-36 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=500&q=65" alt="" class="w-full h-full object-cover opacity-25"/>
-                    <div class="absolute inset-0 bg-gradient-to-t from-ink/90 to-transparent"></div>
-                </div>
-                <div class="p-4">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/28 mb-1">Episode 04</div>
-                    <div class="font-display text-base tracking-wide text-paper/35 leading-tight mb-1">Who's Accountable?</div>
-                    <div class="text-[0.6rem] text-paper/18">Institutions that failed — and who noticed</div>
-                </div>
-            </div>
+            <div class="reveal ep-coming relative border border-paper/[0.07] bg-paper/[0.02] overflow-hidden" style="transition-delay:0.08s;opacity:0.5"><div class="relative h-36 overflow-hidden"><img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=500&q=65" alt="" class="w-full h-full object-cover opacity-25"/><div class="absolute inset-0 bg-gradient-to-t from-ink/90 to-transparent"></div></div><div class="p-4"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/28 mb-1">Episode 02</div><div class="font-display text-base tracking-wide text-paper/35 leading-tight mb-1">Inside the Courtroom</div><div class="text-[0.6rem] text-paper/18">How charges disappear before trial</div></div></div>
+            <div class="reveal ep-coming relative border border-paper/[0.07] bg-paper/[0.02] overflow-hidden" style="transition-delay:0.16s;opacity:0.5"><div class="relative h-36 overflow-hidden"><img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=500&q=65" alt="" class="w-full h-full object-cover opacity-25"/><div class="absolute inset-0 bg-gradient-to-t from-ink/90 to-transparent"></div></div><div class="p-4"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/28 mb-1">Episode 03</div><div class="font-display text-base tracking-wide text-paper/35 leading-tight mb-1">The Network</div><div class="text-[0.6rem] text-paper/18">Criminal connections across the Gold Coast</div></div></div>
+            <div class="reveal ep-coming relative border border-paper/[0.07] bg-paper/[0.02] overflow-hidden" style="transition-delay:0.24s;opacity:0.5"><div class="relative h-36 overflow-hidden"><img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=500&q=65" alt="" class="w-full h-full object-cover opacity-25"/><div class="absolute inset-0 bg-gradient-to-t from-ink/90 to-transparent"></div></div><div class="p-4"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/28 mb-1">Episode 04</div><div class="font-display text-base tracking-wide text-paper/35 leading-tight mb-1">Who's Accountable?</div><div class="text-[0.6rem] text-paper/18">Institutions that failed</div></div></div>
         </div>
-
-        <div class="mt-6 text-center">
-            <a href="#sms" class="inline-flex items-center gap-3 border border-paper/12 hover:border-gold/40 px-6 py-3 text-[0.58rem] tracking-[0.22em] uppercase text-paper/35 hover:text-gold transition-all">
-                Get notified when the next episode drops
-            </a>
-        </div>
+        <div class="mt-6 text-center"><a href="#sms" class="inline-flex items-center gap-3 border border-paper/12 hover:border-gold/40 px-6 py-3 text-[0.58rem] tracking-[0.22em] uppercase text-paper/35 hover:text-gold transition-all">Get notified when the next episode drops</a></div>
     </div>
 </section>
 
@@ -2661,96 +1166,33 @@
 ══════════════════════════════════════ -->
 <section id="thankyou" class="py-24 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(42,157,78,0.04) 0%,rgba(8,8,8,0) 60%)">
     <div class="max-w-4xl mx-auto">
-
-        <div class="flex items-center gap-3 mb-8">
-            <div class="w-8 h-px bg-sage"></div>
-            <span class="text-[0.55rem] tracking-[0.3em] uppercase text-sage">A Personal Note — Episode 1</span>
-            <div class="w-8 h-px bg-sage"></div>
-        </div>
-
+        <div class="flex items-center gap-3 mb-8"><div class="w-8 h-px bg-sage"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-sage">A Personal Note — Episode 1</span><div class="w-8 h-px bg-sage"></div></div>
         <h2 class="font-display leading-none tracking-wide mb-8" style="font-size:clamp(2.5rem,6vw,4.5rem)">THANK YOU,<br><span class="text-sage">ADAM WATSON.</span></h2>
-
-        <!-- Adam photo placeholder -->
         <div class="float-right ml-8 mb-6 w-48 md:w-64 shrink-0">
-            <div class="border border-paper/[0.08] overflow-hidden">
-                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="Adam Watson" class="w-full object-cover" style="height:280px;object-position:center top;filter:grayscale(20%) contrast(1.05)">
-                <div class="border-t border-paper/[0.06] px-3 py-2 bg-paper/[0.02]">
-                    <div class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/30">Adam Watson</div>
-                    <div class="text-[0.48rem] text-paper/18 mt-0.5">Candidate — Seat of Kingsford Smith</div>
-                </div>
-            </div>
+            <div class="border border-paper/[0.08] overflow-hidden"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="Adam Watson" class="w-full object-cover" style="height:280px;object-position:center top;filter:grayscale(20%) contrast(1.05)"><div class="border-t border-paper/[0.06] px-3 py-2 bg-paper/[0.02]"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/30">Adam Watson</div><div class="text-[0.48rem] text-paper/18 mt-0.5">Candidate — Seat of Kingsford Smith</div></div></div>
         </div>
-
         <div class="space-y-5">
-            <p class="font-serif italic text-paper/65 leading-relaxed" style="font-size:clamp(1rem,2vw,1.15rem)">
-                "Adam Watson walked into my life at a moment when I had very little — and proceeded to show me more about how Australia actually works than a decade of conventional observation ever could."
-            </p>
-
-            <p class="text-[0.72rem] leading-relaxed text-paper/45">
-                Adam, thank you. Thank you for representing me at court — for standing in a room with me and knowing exactly what to say, when to say it, and how to say it in a way that the system understood. You taught me how to navigate the courts and how to win — not through aggression, but through precision, preparation, and an understanding of process that most people never acquire.
-            </p>
-
-            <p class="text-[0.72rem] leading-relaxed text-paper/45">
-                Thank you for being my friend. That sounds simple. It was not simple. You were my friend at a time when a criminal network was actively working to ensure neither of us had any. When everyone else kept their distance, you moved closer. I don't take that lightly.
-            </p>
-
-            <p class="text-[0.72rem] leading-relaxed text-paper/45">
-                You gave me exclusive information for this investigation that could not have come from anywhere else. You trusted me with it. I have tried to honour that trust — to use what you gave me to build something that serves the public interest rather than just settling scores. Whether I've achieved that is for readers to judge. But the attempt was made in good faith, because of you.
-            </p>
-
-            <p class="text-[0.72rem] leading-relaxed text-paper/45">
-                You taught me something harder than court procedure: you taught me just how brutal people can be. Not as an abstract lesson, but as a lived experience — watching what was done to you, what was done to me, what was attempted against both of us. That knowledge is uncomfortable to carry. It is also, I now understand, essential. You cannot protect yourself or anyone else from something you refuse to believe exists.
-            </p>
-
-            <p class="text-[0.72rem] leading-relaxed text-paper/45">
-                Taking down a criminal syndicate with you — navigating the connections between organised crime, institutional failure, and the justice system — has been the most enlightening thing I have ever done. Helping you with your voice and your radio interviews, watching you find your platform and develop your presence — that has been a privilege. You have a story to tell. You are learning to tell it in a way that lands.
-            </p>
-
-            <p class="text-[0.72rem] leading-relaxed text-paper/45">
-                I look forward to our next adventure.
-            </p>
-
-            <div class="flex items-center gap-3 mt-2">
-                <div class="w-6 h-px bg-sage/40"></div>
-                <span class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/25">Kosta Kondratenko — CovertGC</span>
-            </div>
+            <p class="font-serif italic text-paper/65 leading-relaxed" style="font-size:clamp(1rem,2vw,1.15rem)">"Adam Watson walked into my life at a moment when I had very little — and proceeded to show me more about how Australia actually works than a decade of conventional observation ever could."</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45">Thank you for representing me at court — for standing in a room with me and knowing exactly what to say, when to say it, and how to say it in a way that the system understood. You taught me how to navigate the courts and how to win — not through aggression, but through precision, preparation, and an understanding of process that most people never acquire.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45">Taking down a criminal syndicate with you — navigating the connections between organised crime, institutional failure, and the justice system — has been the most enlightening thing I have ever done. I look forward to our next adventure.</p>
+            <div class="flex items-center gap-3 mt-2"><div class="w-6 h-px bg-sage/40"></div><span class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/25">Kosta Kondratenko — CovertGC</span></div>
         </div>
-
-        <!-- Adam's details -->
         <div class="clear-both mt-12 pt-8 border-t border-paper/[0.06]">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-
                 <div class="border border-sage/20 p-6" style="background:rgba(42,157,78,0.03)">
                     <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-4">Adam Watson — Follow His Work</div>
                     <div class="space-y-3">
-                        <a href="https://instagram.com" target="_blank" rel="noopener" class="flex items-center gap-3 group">
-                            <div class="w-7 h-7 border border-paper/10 flex items-center justify-center text-xs group-hover:border-sage/40 transition-colors">▶</div>
-                            <div>
-                                <div class="text-[0.6rem] text-paper/50 group-hover:text-sage transition-colors">Instagram</div>
-                                <div class="text-[0.52rem] text-paper/25">@adamwatson — follow for updates</div>
-                            </div>
-                        </a>
-                        <a href="https://youtube.com" target="_blank" rel="noopener" class="flex items-center gap-3 group">
-                            <div class="w-7 h-7 border border-paper/10 flex items-center justify-center text-xs group-hover:border-sage/40 transition-colors">▶</div>
-                            <div>
-                                <div class="text-[0.6rem] text-paper/50 group-hover:text-sage transition-colors">YouTube</div>
-                                <div class="text-[0.52rem] text-paper/25">Adam Watson — commentary & investigation</div>
-                            </div>
-                        </a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" class="flex items-center gap-3 group"><div class="w-7 h-7 border border-paper/10 flex items-center justify-center text-xs group-hover:border-sage/40 transition-colors">▶</div><div><div class="text-[0.6rem] text-paper/50 group-hover:text-sage transition-colors">Instagram</div><div class="text-[0.52rem] text-paper/25">@adamwatson — follow for updates</div></div></a>
+                        <a href="https://youtube.com" target="_blank" rel="noopener" class="flex items-center gap-3 group"><div class="w-7 h-7 border border-paper/10 flex items-center justify-center text-xs group-hover:border-sage/40 transition-colors">▶</div><div><div class="text-[0.6rem] text-paper/50 group-hover:text-sage transition-colors">YouTube</div><div class="text-[0.52rem] text-paper/25">Adam Watson — commentary & investigation</div></div></a>
                     </div>
-                    <p class="text-[0.55rem] text-paper/20 mt-4 leading-relaxed">Drop his actual Instagram and YouTube handles in here when ready — placeholder links above.</p>
                 </div>
-
                 <div class="border border-gold/20 p-6" style="background:rgba(232,160,32,0.03)">
                     <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">Candidate — Federal Election</div>
                     <div class="font-display text-2xl tracking-wide text-gold mb-1">SEAT OF KINGSFORD SMITH</div>
-                    <div class="text-[0.6rem] text-paper/40 leading-relaxed mb-3">Adam Watson is running for the federal seat of Kingsford Smith against incumbent Matt Thistlethwaite MP. He was introduced to the race by Angus Taylor. His candidacy brings to a federal platform the same direct engagement with institutional accountability, criminal justice reform, and telecommunications vulnerability that is documented throughout this episode.</div>
-                    <div class="text-[0.55rem] text-paper/25 leading-relaxed">A man who has navigated coercive control, malicious prosecution, an attempted vehicular attack, and a criminal network — and is still standing — has something to say about how Australia's institutions function. The seat of Kingsford Smith will have the opportunity to hear it.</div>
+                    <div class="text-[0.6rem] text-paper/40 leading-relaxed">Adam Watson is running for the federal seat of Kingsford Smith against incumbent Matt Thistlethwaite MP. He was introduced to the race by Angus Taylor.</div>
                 </div>
-
             </div>
         </div>
-
     </div>
 </section>
 
@@ -2761,11 +1203,7 @@
 <section id="sms" class="py-24 px-5 md:px-10 relative overflow-hidden border-t border-paper/[0.05]">
     <div class="absolute inset-0 pointer-events-none" style="background:radial-gradient(ellipse 70% 50% at 50% 50%,rgba(214,61,47,0.055) 0%,transparent 70%)"></div>
     <div class="max-w-lg mx-auto text-center relative">
-        <div class="flex items-center justify-center gap-3 mb-4">
-            <div class="w-8 h-px bg-gold"></div>
-            <span class="text-[0.55rem] tracking-[0.3em] uppercase text-gold">Intelligence Updates</span>
-            <div class="w-8 h-px bg-gold"></div>
-        </div>
+        <div class="flex items-center justify-center gap-3 mb-4"><div class="w-8 h-px bg-gold"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-gold">Intelligence Updates</span><div class="w-8 h-px bg-gold"></div></div>
         <h2 class="font-display leading-[0.9] tracking-wide mb-4" style="font-size:clamp(2.8rem,9vw,5.5rem)">GET THE<br>REAL STORY<br>FIRST</h2>
         <p class="font-serif italic text-paper/38 text-lg leading-relaxed mb-10">New episodes, document drops, and case file updates — direct to your phone. No algorithm. No filter.</p>
         <form id="sms-form" onsubmit="handleSMS(event)" class="flex border border-paper/10 focus-within:border-hot/40 transition-all mb-4">
@@ -2778,170 +1216,427 @@
 </section>
 
 
-<!-- ══════════════════════════════════════
-     FOOTER
-══════════════════════════════════════ -->
+<!-- ══ FOOTER ══ -->
 <footer class="border-t border-paper/[0.05] px-5 md:px-10 py-8 max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
     <div class="font-display text-xl tracking-widest text-paper/18">COVERT<span class="text-dim">GC</span></div>
-    <div class="text-[0.52rem] tracking-[0.14em] uppercase text-paper/10 text-center">© 2025 CovertGC — Investigative Journalism — Gold Coast, QLD — Editorial Independence Guaranteed</div>
+    <div class="text-[0.52rem] tracking-[0.14em] uppercase text-paper/10 text-center">© 2025 CovertGC — Investigative Journalism — Gold Coast, QLD</div>
     <div class="text-[0.52rem] tracking-[0.14em] uppercase text-paper/10">Season 1 — Ongoing</div>
 </footer>
-
-
-<!-- ══════════════════════════════════════
-     MODAL
-══════════════════════════════════════ -->
-<div id="modal-wrap" style="display:none;position:fixed;inset:0;z-index:9000;background:rgba(8,8,8,0.93);backdrop-filter:blur(8px);overflow-y:auto;padding:1.5rem 1rem">
-    <div style="max-width:680px;margin:2rem auto;position:relative" id="modal-inner">
-        <button id="modal-close-btn" style="position:absolute;top:1rem;right:1rem;z-index:10;background:#0e0e0e;border:1px solid rgba(240,236,226,0.1);color:rgba(240,236,226,0.35);font-family:'DM Mono',monospace;font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;padding:0.5rem 0.75rem;cursor:pointer">✕ Close</button>
-        <div id="modal-content" style="background:#0e0e0e;border:1px solid rgba(240,236,226,0.07)"></div>
-    </div>
-</div>
 
 
 <!-- ══════════════════════════════════════
      SCRIPTS
 ══════════════════════════════════════ -->
 <script>
-function seekToChapter(index) {
-    var p = window.vidstackPlayer;
-    if (!p) return;
-    var tracks = p.textTracks;
-    var chapterTrack = null;
-    for (var i = 0; i < tracks.length; i++) {
-        if (tracks[i].kind === 'chapters') { chapterTrack = tracks[i]; break; }
-    }
-    if (chapterTrack && chapterTrack.cues && chapterTrack.cues.length > index) {
-        var cue = chapterTrack.cues[index];
-        p.currentTime = cue.startTime;
-    } else {
-        var duration = p.duration || 0;
-        if (duration > 0) p.currentTime = (duration / 6) * index;
-    }
-    document.getElementById('player').scrollIntoView({ behavior: 'smooth', block: 'center' });
+// ── VAULT TOGGLE ──
+function toggleVault(header) {
+    var body = header.nextElementSibling;
+    var toggle = header.querySelector('.ev-toggle');
+    var isOpen = body.classList.contains('open');
+    body.classList.toggle('open', !isOpen);
+    if(toggle) toggle.classList.toggle('open', !isOpen);
 }
 
-var CASES = {
-    // ── MY STORY CASES ────────────────────────────────────────────
-    rooming:{accent:'#d63d2f',tag:'Rental Crisis',ch:'S1',title:'THE ROOMING HOUSE TRAP',img:'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=80',intro:"Sandy Tulisi operates BeHome — also registered with the RTA as SOLAC HOUSE — a rooming accommodation property in Surfers Paradise with capacity for up to 100 tenants. The dual identity between public advertising name and official RTA registration raises immediate questions about regulatory compliance and transparency.",body:'<p style="margin-bottom:1rem">Under Queensland\'s Residential Tenancies and Rooming Accommodation Act 2008, a rooming house allows landlords to rent individual rooms to multiple tenants under separate agreements — with fewer tenant protections than a standard residential lease. Landlords are only required to give 24 hours notice to enter. The Gold Coast has hundreds of these properties.</p><p style="margin-bottom:1rem">The website appelstreet.com.au had content suggesting the property operated as a hostel — but hostels do not ask tenants to lodge bonds with the RTA. That mismatch created deliberate legal ambiguity about what kind of accommodation this was and what rights tenants held.</p><p>The ambiguity between rooming house, hostel, and boarding house — categories with very different regulatory obligations — is not accidental. It is a strategy.</p>',studies:[{label:'Document — Rooming Accommodation Agreement (Form R18)',text:'Fixed term agreement signed August 18, 2023. Rent: $290 per week. Tenant: Kosta Kondratenko. Property manager/owner listed as BEHOME. The same property is advertised publicly as BeHome and registered with the RTA under Sandy Tulisi as SOLAC HOUSE.'},{label:'Context — The Rooming House Market',text:'As Gold Coast rents surged — median weekly rent for a 1-bedroom unit reached $680 in 2024, up 38% from 2020 — demand for rooming accommodation has increased significantly. Rooming houses sit at the bottom of the market. For many people, it is the only option available.'}]},
+// ── MEDIA VIEWER ──
+var currentFile = null;
 
-    bond:{accent:'#e8a020',tag:'Regulatory Failure',ch:'S2',title:'THE 68-DAY BOND DELAY',img:'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1000&q=80',intro:"Queensland law requires landlords to lodge rental bonds with the RTA within 10 days of receipt. In this case, the bond was lodged 68 days after move-in — following tenant inquiries about legal violations. At a property with capacity for 100 tenants, if this delay was systematic, the non-compliance could be significant in scale.",body:'<p style="margin-bottom:1rem">The Confirmation of Rental Bond (RTA:0108911) was received on October 25, 2023. Move-in date: August 18, 2023. The gap is 68 days — nearly seven times the legal limit.</p><p style="margin-bottom:1rem">The timing of the lodgement is notable: it occurred after the tenant had begun raising questions about the landlord\'s legal compliance. This suggests the lodgement was reactive rather than routine — which raises questions about whether the delay was systematic across other tenants.</p><p>The RTA has the power to investigate and prosecute non-compliance with bond lodgement requirements, with fines of up to $2,669 per breach. A property with 100 tenants experiencing systematic delay would represent significant financial liability.</p>',studies:[{label:'Document — RTA Bond Confirmation',text:'Bond number 714284215. Bond amount: $580. Contributor: Kosta Konstantin Kondratenko. Property manager/owner: BEHOME. Confirmation received: 25 October 2023. Move-in date: 18 August 2023. Delay: 68 days.'},{label:'Legal Requirement',text:'Section 57 of the Residential Tenancies and Rooming Accommodation Act 2008 requires landlords to pay rental bonds to the RTA within 10 business days of receiving them. Failure to do so is an offence. The RTA may issue compliance notices and infringement notices for non-compliance.'}]},
-
-    harassment:{accent:'#d63d2f',tag:'Tenant Harassment',ch:'S3',title:'FINES, THREATS & FALSE CLAIMS',img:'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1000&q=80',intro:"Between September and October 2023, I received multiple emails falsely claiming my rent was overdue, a $20 fine for leaving a washed cup on a bench, and an SMS from the landlord's personal mobile threatening eviction based on a fabricated 13-day arrear. Bank records confirm all payments were made on time throughout.",body:'<p style="margin-bottom:1rem">The overdue rent notices arrived on September 18th, 23rd, October 7th, 14th, 16th, and 23rd — six separate communications claiming rent was unpaid. Each was false. The pattern is consistent with a deliberate harassment strategy rather than administrative error.</p><p style="margin-bottom:1rem">The $20 fine for a "cup left" — issued as a formal tax invoice by Appel Street Pty Ltd on 22 October 2023 — is notable both for its triviality and its formality. The fine began accumulating after a confrontation regarding the eviction of another tenant, suggesting retaliatory motive.</p><p>The landlord subsequently changed house rules to make three fines grounds for eviction — a unilateral rule change made after tenants had moved in. This is a misuse of power inconsistent with fair tenancy management.</p>',studies:[{label:'Document — Tax Invoice, Appel Street Pty Ltd',text:'Invoice #001231. Created: 02/10/2023. Due: 22/10/2023. Amount due: $20. Description: "Cup left." Issued to Kosta Kondratenko. Note: This fine was not included in the official bond refund statement submitted to the RTA — suggesting acknowledgment of its unlawful nature.'},{label:'Legal Note — Unlawful Breach Notices',text:'Under the RTRA Act, a landlord cannot issue an Arrears Breach Notice unless rent is actually overdue by 7 days. Issuing breach notices when rent is current is a breach of the Act and potentially constitutes harassment under Queensland tenancy law. Tenants may apply to QCAT for a remedy.'}]},
-
-    eviction:{accent:'#d63d2f',tag:'Unlawful Eviction',ch:'S4',title:'POLICE, ARREST & HOMELESSNESS',img:'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1000&q=80',intro:"Sandy Tulisi and Chris Park presented police with a Notice to Leave built on the invalid breach notices, selectively showed CCTV footage, and refused to release the full footage under Privacy Act requests. A Police Banning Notice — designed for alcohol and drug-related incidents — was applied in a civil tenancy context. I was arrested, charged, and made homeless that night.",body:'<p style="margin-bottom:1rem">Police Banning Notices under the Queensland Police Powers and Responsibilities Act are designed for alcohol and drug-related incidents — typically to ban individuals from licensed venues or areas associated with incidents. The application of a PBN in the context of a civil tenancy dispute is an unusual and arguably inappropriate use of the instrument.</p><p style="margin-bottom:1rem">The landlords refused to engage in direct communication, insisting on police intermediation. This approach — shifting responsibility to police in a civil matter — placed undue strain on police resources and removed the tenant\'s ability to resolve the dispute through normal channels.</p><p>The bond deduction for a key still in the tenant\'s possession was the final act in a consistent pattern of bad faith dealings. It was later omitted from the official bond refund statement to the RTA.</p>',studies:[{label:'Document — Police Banning Notice No. 385003',text:'Banning Notice issued during the eviction. The notice, intended for alcohol and drug-related incidents at licensed premises, was applied in the context of a civil tenancy dispute based on a Notice to Leave that was itself built on invalid breach notices. The tenant was arrested and charged with Contravening a Banning Notice.'},{label:'Refusal of CCTV Footage',text:'Requests were made under the Privacy Act for access to CCTV footage that could provide a complete account of the events leading to police involvement. Sandy Tulisi and Chris Park denied access. The landlords selectively showed footage to police in a manner that mischaracterised the tenant\'s behaviour. The full footage was never released.'}]},
-
-    lawyer:{accent:'#e8a020',tag:'Legal Outcome',ch:'S5',title:'CHARGES DROPPED',img:'https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=1000&q=80',intro:"The Contravene Banning Notice charge was taken on pro bono by a senior Australian lawyer. The charges were subsequently dropped in full. The outcome confirms what the documentation showed throughout: the eviction process was built on false premises. Most people in this situation never get that outcome — because they can't afford to fight.",body:'<p style="margin-bottom:1rem">In Queensland, a tenant facing eviction from rooming accommodation has limited free legal options. Community legal centres are chronically oversubscribed. Legal Aid has strict means and merit tests. Private solicitors charge $300–600 per hour for tenancy matters. Most rooming house tenants — typically in the lowest income bracket — cannot afford representation.</p><p style="margin-bottom:1rem">The result: landlords who know the system can issue invalid notices and face no legal challenge, because their tenants simply cannot fight back. The system operates on that assumption. It is usually right.</p><p>This case had a different outcome because of an unusual intervention. That intervention should not be necessary. The fact that it is tells you something about the state of tenant protection in Queensland.</p>',studies:[{label:'Legal Outcome',text:'All charges arising from the Contravene Banning Notice were dropped in full. No conviction. No penalty. The eviction process that produced the charge was built on invalid breach notices, a misapplied Police Banning Notice, and selective presentation of evidence to police. The outcome is documented.'},{label:'The Access to Justice Gap',text:'The legal cost of fighting a wrongful eviction from rooming accommodation in Queensland is out of reach for most tenants in that market. Without access to legal representation, tenants facing this situation have three options: comply, abandon their belongings and leave, or face criminal charges. This is not a failure of individual cases. It is a structural failure of the system.'}]},
-
-    privacybreach:{accent:'#7b5ea7',tag:'Privacy Breach',ch:'PV',title:'PHOTOGRAPHED, LABELLED & LEAKED BY COUNCIL STAFF',img:'https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=1000&q=80',intro:"A Southport Aquatic Centre staff member photographed a member of the public, annotated the image with a surveillance note, and distributed it to a private individual with a derogatory comment. The City of Gold Coast received a formal privacy complaint — then discontinued its own investigation. Premier David Crisafulli issued a Show Cause notice. Staff were terminated.",body:'<p style="margin-bottom:1rem">Queensland\'s Information Privacy Act 2009 applies to local government bodies including the City of Gold Coast. The Information Privacy Principles established under the Act set out how personal information — including photographs — must be collected, stored, and disclosed. Principle 10 specifically prohibits the disclosure of personal information to a third party without the individual\'s consent, except in defined circumstances none of which apply here.</p><p style="margin-bottom:1rem">The Council\'s decision to discontinue its own investigation — citing a lack of further information from the complainant — is procedurally questionable given that the Council held, within its own systems and staff records, everything needed to assess whether a breach had occurred. The photograph, the annotation, the distribution — all of these were council-held facts. The onus placed on the complainant to provide additional information was not required by the Act, and its use as grounds for discontinuation is worth scrutiny by the Information Commissioner.</p><p>The broader concern is systemic: if a council aquatic centre is maintaining informal surveillance photo files on members of the public who use its facilities, and those files are being shared with private individuals, the question is not just whether one staff member breached the Act — it is whether this practice is isolated or widespread. The Show Cause notice issued by Premier Crisafulli and the subsequent termination of staff are outcomes, but they do not answer the systemic question.</p>',studies:[{label:'Information Privacy Act 2009 (Qld) — Your Rights',text:'Under s.166 of the Act, you may complain to the Information Commissioner if 45 business days have elapsed since your complaint to the relevant body and you have not received an adequate response. The Commissioner can investigate, make recommendations, and — in serious cases — refer matters to the Privacy Commissioner for formal determination. Complaints can be lodged at oic.qld.gov.au.'},{label:'Council Staff Conduct Obligations',text:'City of Gold Coast employees are bound by the Local Government Act 2009, the council\'s own Code of Conduct, and Queensland public sector ethics obligations. Distributing personal information about a member of the public to a private individual, with a derogatory comment, engages potential breaches of all three. Termination as an outcome is consistent with the severity of a deliberate privacy breach combined with professional misconduct.'}]},
-
-    privacyletter1:{accent:'#7b5ea7',tag:'Council Document',ch:'L1',title:'INITIAL COMPLAINT ACKNOWLEDGEMENT',img:'https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1000&q=80',intro:"City of Gold Coast — Chief Risk and Audit Office. Ref: Lawmaster 1192. Date: 16 December 2024. Complaint Officer: Julie Schyf.",body:'<p style="margin-bottom:1rem;font-family:monospace;font-size:0.75rem;line-height:1.8;color:rgba(240,236,226,0.6)">Date: 16 December 2024<br>Contact: Review Officer<br>Location: Waterside West<br>Telephone: 07 5581 7530<br>Our reference: Lawmaster 1192<br><br>Mr Kosta Kondratenko<br>By Email: kosta@headstudios.com.au<br><br>Dear Mr Kondratenko<br><br>Privacy Complaint/Breach<br><br>On 16 December 2024 the City of Gold Coast ("the City") received your complaint about an alleged breach of privacy by a staff member at the Southport Aquatic Centre. Your complaint is being investigated by the City\'s Chief Risk and Audit Office. The City\'s processes associated with the issues raised in your letter will be reviewed.<br><br>Section 166 of the Information Privacy Act 2009 states that you may make a written complaint to the Information Commissioner if:<br>• you have already complained to the City; and<br>• at least 45 business days have elapsed since you made the complaint; and<br>• you have not received a response or you received a response you consider inadequate.<br><br>The City aims to complete the investigation into your complaint and provide a response within the 45 day period. However, the City will advise you if the investigation requires more time.<br><br>Please do not hesitate to contact the City on 5581 7530 if you have further concerns.<br><br>Yours faithfully<br>Julie Schyf<br>Complaints Officer<br>Chief Risk and Audit Office<br>City of Gold Coast</p>',studies:[{label:'What This Letter Confirms',text:'The council formally acknowledged receipt of the privacy complaint on 16 December 2024 and confirmed it was being investigated by the Chief Risk and Audit Office. The reference to s.166 of the Information Privacy Act confirms the council understood its obligations. The 45 business day window begins from this date.'}]},
-
-    privacyletter2:{accent:'#d63d2f',tag:'Council Document',ch:'L2',title:'INVESTIGATION DISCONTINUED',img:'https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1000&q=80',intro:"City of Gold Coast — For the Chief Executive Officer. Investigation closed on grounds that complainant did not provide additional information.",body:'<p style="margin-bottom:1rem;font-family:monospace;font-size:0.75rem;line-height:1.8;color:rgba(240,236,226,0.6)">Mr Kosta Kondratenko<br>By Email: kosta@headstudios.com.au<br><br>Dear Mr Kondratenko<br><br>Privacy Complaint/Breach<br><br>I refer to your complaint submission made on 15 December 2024 in relation to a privacy complaint.<br><br>The City of Gold Coast (City) followed up by telephone and email on 16 December 2024 and by email on 16 January 2025 requesting more information from you, in order to facilitate a full investigation of your concerns.<br><br>As no further details of the privacy complaint have been submitted, the City has discontinued the investigation. Should you wish to reopen this matter, please do not hesitate to contact complaints@goldcoast.qld.gov.au including any applicable information that may assist with our investigation.<br><br>Yours faithfully<br>Julie Schyf<br>Complaints Officer<br>For the Chief Executive Officer<br>Council of the City of Gold Coast</p>',studies:[{label:'The Problem With This Letter',text:'The council discontinued its investigation into a privacy breach committed by its own employee on its own premises because the complainant did not supply additional information. The council\'s own systems — CCTV, staff records, employment files, and the photograph itself — contained all the evidence required to investigate the breach. Placing the burden of further investigation on the complainant inverts the institutional responsibility that the Information Privacy Act creates.'}]},
-
-    brazenfile:{accent:'#d63d2f',tag:'Press Freedom',ch:'B2',title:'WHEN CRIME TARGETS THE PRESS',img:'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=80',intro:"The firebombing of Jordan Shanks' home in 2022. The arson at a Gold Coast residence connected to Gina Rinehart's circle. Website material left at a crime scene. These are not unrelated incidents — they are data points in a pattern of organised criminal behaviour that has decided public profile and investigative journalism are legitimate targets.",body:'<p style="margin-bottom:1rem">Australian law provides specific protections and offences relevant to the intimidation of journalists and media figures. The Criminal Code Act 1995 covers threats to cause serious harm with intent to coerce, while state-level arson and intimidation offences apply to the specific acts. The challenge is not the absence of law — it is the application of investigative resources to cases where the perpetrators are embedded in criminal networks with prior experience of avoiding prosecution.</p><p style="margin-bottom:1rem">The international pattern is well-documented. The Committee to Protect Journalists records hundreds of attacks on journalists annually. What has changed in Australia in recent years is the domestic application of a model previously associated with organised crime in Mexico, Russia, and the Philippines: using violence and the threat of violence to define the boundaries of acceptable reporting, with the fire itself as the message.</p><p>The correct institutional response to this pattern has three components: treating attacks on journalists and their associates as priority investigations rather than routine property crime; public acknowledgment by law enforcement that these attacks are intimidation rather than isolated incidents; and continued publication by targeted outlets, which is the only response that demonstrates the strategy has failed. CovertGC is part of that response.</p>',studies:[{label:'The Friendlyjordies Precedent',text:'The 2022 firebombing of Jordan Shanks\' home established a documented precedent in Australia: organised crime networks will use arson as a tool to silence content creators who investigate them. The five-year sentence handed to Tufi Junior Tauese-Auelua in September 2025 is the first consequential prosecution in this pattern. The person who ordered the attack has not been charged. The motive was not detailed in court.'},{label:'Press Freedom in Australia — The Landscape',text:'Australia does not have explicit constitutional protections for press freedom, unlike the United States. The implied freedom of political communication in the Australian Constitution provides some protection, but it applies to laws, not criminal acts. In practice, journalists in Australia rely on the general criminal law — arson is arson, intimidation is intimidation — rather than specific press freedom statutes. The gap between the law on paper and its enforcement in organised crime contexts is where the problem lives.'}]},
-
-    policeaccount:{accent:'#d63d2f',tag:'Police Accountability',ch:'P',title:'WHEN POLICE DECIDE WHO DESERVES PROTECTION',img:'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1000&q=80',intro:"A police officer made a comment during the interview of an assault suspect suggesting the victim should expect to be attacked because of content they published online. That comment was recorded. It has been provided to the Premier of Queensland and the Attorney General. A formal police corruption investigation is active.",body:'<p style="margin-bottom:1rem">Police impartiality is not an abstract principle. It is the operational foundation of an effective criminal justice system. When an officer forms and expresses a prior view about whether a victim deserved their assault — based on that victim\'s online presence — every subsequent decision in that investigation is potentially compromised. What evidence gets collected. How quickly. How thoroughly. What charges get recommended.</p><p style="margin-bottom:1rem">The Gold Coast has a significant online content community. Influencers, journalists, vloggers, and investigators operate publicly and visibly in a city that depends on its image for economic survival. If officers within QPS units responsible for assault investigations are applying a filter — conscious or not — that deprioritises cases involving content creators whose work they find objectionable, that is a systemic failure with implications for every person in that category.</p><p>The complaint mechanisms available to victims who believe their case has been mishandled include: escalation within QPS to the Officer in Charge or the Commissioner\'s office; a formal complaint to the Crime and Corruption Commission, which has independent jurisdiction over police misconduct; and, in cases involving potential criminal conduct by an officer, referral to the CCC\'s Integrity Commissioner function. The CCC complaint process does not require a lawyer. It is accessible directly by members of the public.</p>',studies:[{label:'What Constitutes Police Misconduct in Queensland',text:'Under the Police Service Administration Act and the Crime and Corruption Act, police misconduct includes conduct that is disgraceful, improper, or unbecoming — including making statements that demonstrate bias, prejudice, or contempt toward a victim. A recorded comment suggesting a victim deserved an assault because of their online activity would fall within the scope of conduct the CCC is empowered to investigate.'},{label:'The CCC Complaint Process',text:'The Crime and Corruption Commission accepts complaints about QPS officer conduct online, by phone, and in person. Complaints can be made anonymously. The CCC has the power to investigate, refer matters back to QPS with oversight, or conduct its own independent investigation. For serious misconduct matters — including those with political escalation as in this case — the CCC typically retains the investigation rather than referring back to QPS.'}]},
-
-    redressfile:{accent:'#2a9d4e',tag:'Public Interest',ch:'R',title:'REDRESS SCHEME INTEGRITY & COMPENSATION REFORM',img:'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1000&q=80',intro:"The National Redress Scheme has paid over $1 billion to survivors of institutional child sexual abuse since 2018. A verification gap — the absence of systematic cross-referencing of applicant names against institutional attendance records — creates exploitable conditions for fraudulent claims. Separately, Queensland's Attorney General is moving to close a loophole in Criminal Injuries Compensation that allowed payouts based on allegations that never resulted in conviction.",body:'<p style="margin-bottom:1rem">The scheme operates on a trauma-informed, lower evidentiary threshold — deliberately so, given the Royal Commission\'s findings about systematic evidence destruction and victim silencing. That threshold is correct. The question is not whether to raise the bar for genuine survivors, but whether the most basic factual check — did this person attend this institution — is being performed before payments are approved.</p><p style="margin-bottom:1rem">Attendance records exist for most Australian schools, churches, and government facilities going back decades. Enrolment registers, baptismal records, government placement files — these are not theoretical documents. They are sitting in archives. Cross-referencing an applicant\'s name against them is not a complex investigative task. It is a data check. The question of why it does not appear to be standard practice at the assessment stage is one the scheme needs to answer publicly.</p><p>The Criminal Injuries Compensation reform being progressed by Queensland\'s Attorney General addresses a related but distinct vulnerability: the ability to receive government compensation for an alleged crime that never resulted in a conviction against the accused. The reform would require a verified conviction before payment is finalised — closing a gap that has allowed false allegations to generate financial benefit independent of any legal finding.</p>',studies:[{label:'The National Redress Scheme — Key Facts',text:'Established 2018 following the Royal Commission into Institutional Responses to Child Sexual Abuse. Maximum payment: $150,000. Participating institutions include Catholic Church dioceses, state governments, and hundreds of non-government organisations. The scheme is funded by participating institutions. As of 2024, over $1 billion has been distributed across more than 40,000 applications.'},{label:'What A Robust Verification Framework Would Include',text:'Mandatory cross-referencing of applicant names against institutional records during the period claimed. A clear process for institutions to flag concerns without those concerns being used to delay or deny genuine claims. Transparent public reporting on fraud referrals and outcomes. An independent integrity function separate from the assessment function. None of these are radical proposals — they are standard features of large compensation schemes in other jurisdictions.'}]},
-
-    // ── ADAM'S STORY CASE FILES ───────────────────────────────────
-    coercive:{accent:'#7b5ea7',tag:'Coercive Control',ch:'A',title:'WHAT COERCIVE CONTROL ACTUALLY LOOKS LIKE',img:'https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=1000&q=80',intro:"Coercive control is a pattern of behaviour that seeks to take away a person's liberty or freedom and strip away their sense of self. Queensland criminalised it in 2023 under the Domestic and Family Violence Protection Act. Understanding what it looks like in practice is different from understanding what the law says.",body:'<p style="margin-bottom:1rem">The clinical definition of coercive control encompasses isolation from support networks, surveillance and monitoring of movements, financial control, and the use of degradation and humiliation. In practice, it often begins as attentiveness — someone who wants to know where you are at all times, who questions your friendships, who positions their jealousy as evidence of love.</p><p style="margin-bottom:1rem">Digital coercive control has expanded the toolkit significantly. Location sharing apps, hidden tracking devices, access to email and social accounts, and the ability to weaponise telecommunications infrastructure are all documented methods. The Gold Coast, as a transient city with a high proportion of people away from family support networks, is a particularly fertile environment for these patterns to develop undetected.</p><p>The challenge in prosecution is pattern evidence. A single incident of checking someone\'s location is not a crime. A tracker on a fuel cap may be civil, not criminal. It is the pattern — the accumulation — that constitutes the offence. Building that case takes time. During that time, the behaviour continues.</p>',studies:[{label:'Queensland Law — Coercive Control Since 2023',text:'Queensland\'s domestic violence laws were amended in 2023 to recognise coercive control as a form of domestic violence. The amendments allow courts to consider patterns of behaviour rather than requiring specific physical incidents. Advocates note the reforms are a significant step but that police training and evidentiary frameworks have not fully caught up with the legislative intent.'},{label:'Eye-Biometric Evidence in Relationship Disputes',text:'EyeDetect® technology, developed by Converus Inc., measures pupil dilation and eye movement patterns to assess deception. It claims 88–91% accuracy in screening contexts. While not currently admissible as evidence in Australian courts, it is increasingly used in private relationship disputes and by employers. A score of 1 out of 100 — rated Deceptive — represents the lowest possible credibility rating on the scale.'}]},
-
-    malicious:{accent:'#d63d2f',tag:'Malicious Prosecution',ch:'B',title:'WHEN THE SYSTEM BECOMES THE WEAPON',img:'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1000&q=80',intro:"A malicious prosecution ruling by the Director of Public Prosecutions is rare. It means the charge should never have been brought — not just that it couldn't be proved, but that it was brought without reasonable cause and with improper motive. Adam Watson's sexual assault charge was dismissed on exactly those grounds at first mention.",body:'<p style="margin-bottom:1rem">Under Queensland law, the DPP has an obligation to assess whether continuing a prosecution is in the public interest and whether there is a reasonable prospect of conviction. A malicious prosecution finding goes further — it is a determination that the charge was initiated with malice, not merely that it failed the evidentiary threshold.</p><p style="margin-bottom:1rem">The practical effect of a false criminal allegation is that it operates independently of truth. The charge is public. The dismissal is often not. In tight-knit social communities — gyms, friendship groups, professional networks — the allegation travels through informal channels at a speed the legal system cannot match.</p><p>The firing of the police officer who accepted and charged based on the complaint is significant. It indicates an internal QPS determination that the officer failed to meet the standard required before laying a charge of that severity. That finding does not restore Adam\'s reputation in the rooms where the allegation had already been heard.</p>',studies:[{label:'The Threshold for a Malicious Prosecution Finding',text:'For a prosecution to be ruled malicious, courts require proof that it was initiated without reasonable and probable cause, and with a motive other than bringing an offender to justice. The DPP applying this finding at first mention — before trial — indicates the evidential foundation was assessed as fundamentally inadequate from the outset.'},{label:'The Reputational Half-Life of False Allegations',text:'Research consistently shows that reputational damage from false criminal allegations persists long after exoneration. In one UK study, 63% of falsely accused individuals reported ongoing social consequences two years after charges were dropped. In communities where the allegation spread via informal networks — social media, word of mouth, gym culture — the corrective rarely reaches the same audience as the original claim.'}]},
-
-    optus:{accent:'#e8a020',tag:'Telecommunications Security',ch:'C',title:'THE PHONE NUMBER AS ATTACK SURFACE',img:'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1000&q=80',intro:"Adam Watson's Optus mobile service was deactivated by a third party who socially engineered a retail employee — using the threat of exposing the employee's sexuality as leverage. The number was turned off. The incident was raised with the Prime Minister's office, referred to the Telecommunications Industry Ombudsman, and triggered a directive from the Optus CEO.",body:'<p style="margin-bottom:1rem">Social engineering — manipulating people rather than systems — is one of the most effective attack vectors in telecommunications security. Unlike technical exploits, it requires no coding knowledge and leaves minimal digital trace. It exploits the human element: a staff member under pressure, a process with insufficient verification, and a target who has no warning until their service stops working.</p><p style="margin-bottom:1rem">The specific method used here — threatening to out an employee as gay unless they comply — compounds the telecommunications offence with a homophobic coercion offence. It is both a cybercrime and a hate crime framing, combined in a single act. The employee\'s vulnerability was weaponised as a means of reaching Adam.</p><p>The systemic concern raised in the Prime Ministerial referral is this: if a mobile number can be deactivated by walking into a retail store and applying social pressure to one employee, then every Australian\'s number carries the same vulnerability. A phone number now functions as identity infrastructure. It is the verification layer for banking, for government services, for healthcare portals. Turning it off is not switching off communications. It is attacking someone\'s digital identity.</p>',studies:[{label:'The Regulatory Response',text:'The matter was referred to the Telecommunications Industry Ombudsman following escalation to the Prime Minister\'s office. The Optus CEO was notified directly and issued an internal directive addressing the vulnerability in retail store verification procedures. The employee involved is no longer employed by Optus. The directive represents an acknowledgment that the existing verification framework was insufficient to prevent this class of attack.'},{label:'SIM Swapping and Number Deactivation as Attack Vectors',text:'The Australian Cyber Security Centre has documented SIM swapping — where a mobile number is fraudulently transferred to a new SIM — as a growing threat to financial accounts. Number deactivation via social engineering is a related but distinct attack: rather than redirecting communications, it silences them entirely. Both exploit the same fundamental vulnerability: the mobile number as a single point of failure in identity verification.'}]},
-
-    juvenile:{accent:'#e8a020',tag:'Youth Justice',ch:'D',title:'THE CLEAN SLATE THAT ISN\'T',img:'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1000&q=80',intro:"Queensland's Youth Justice Act seals juvenile criminal records from adult court proceedings. The intent is rehabilitation. The gap it creates is real: an 18-year-old with a substantial juvenile history presents to adult courts, employers, and social systems as a person with no prior record. That gap has consequences.",body:'<p style="margin-bottom:1rem">The principle behind sealing juvenile records is sound: young people\'s brains are not fully developed, adolescent offending is not a reliable predictor of adult behaviour, and the stigma of a criminal record should not follow a person who genuinely reforms. Victoria, Queensland, and most Australian jurisdictions apply this principle in various forms.</p><p style="margin-bottom:1rem">The debate around "Adult Time, Adult Crime" is not new. It surfaced prominently in Queensland following a series of high-profile youth crime incidents in 2023–24, and has been a persistent tension in Australian criminal justice policy. The question is not whether to abandon rehabilitation as a goal — it is whether the current framework adequately distinguishes between a young person who made one serious mistake and a young person with a pattern of escalating, calculated offending.</p><p>The specific gap in the current framework: when an adult court assesses bail, sentencing, and credibility, a sealed juvenile record is not available to inform that assessment. A first-time adult offender and a person with a decade of juvenile offending look identical on paper. This is the gap that advocates on both sides of the debate are, in practice, trying to address.</p>',studies:[{label:'Queensland Youth Justice Reform Debate, 2023–24',text:'Following a series of high-profile incidents involving young repeat offenders in Southeast Queensland, the state government introduced amendments to the Youth Justice Act that increased penalties for serious offences and restricted bail for repeat offenders. Advocates argued the amendments criminalised disadvantage. Police and victims\' groups argued the previous framework was inadequate. The underlying tension — rehabilitation versus accountability — was not resolved.'},{label:'The "Known to Police" Problem',text:'Queensland Police can access juvenile records internally for investigative purposes, even when those records are sealed from courts. This creates a situation where police may have context that prosecutors, defence lawyers, and judges do not. The information asymmetry affects how cases are built, charged, and presented — often without transparency about what background knowledge is informing operational decisions.'}]},
-
-    // ── EXISTING INVESTIGATION CASES ──────────────────────────────
-    bikie:{accent:'#d63d2f',tag:'Organised Crime',ch:'01',title:'THE BIKIE FRANCHISE MODEL',img:'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1000&q=80',intro:"Outlaw motorcycle gangs on the Gold Coast don't just ride — they operate structured criminal enterprises with the sophistication of a franchise business. Each chapter pays levies up the national hierarchy, and revenue streams span drug distribution, security racketeering, and property development.",body:'<p style="margin-bottom:1rem">The OMG presence on the Gold Coast dates to the 1980s, but the modern structure looks nothing like the biker wars of the past. Today\'s clubs maintain legitimate business fronts, employ lawyers on retainer, and use patched members sparingly — keeping criminal exposure at the lower rungs.</p><p style="margin-bottom:1rem">The security industry has been a particular vector. Bouncers are often the first point of contact between the public and organised crime. When clubs control the doors of major venues, they control what happens inside — from drug sales to debt collection.</p><p>Queensland\'s OMCG legislation has had mixed results. Arrests have increased, but the franchise model means the business continues even when individual members are charged.</p>',studies:[{label:'Case Study — Broadbeach Security Racket, 2023',text:"Three licensed security firms on the Broadbeach entertainment strip were traced back to a single OMG-linked holding company via ASIC filings. Bouncers who identified incidents weren't calling QPS — they were calling the chapter president."},{label:'Case Study — Property Front, Varsity Lakes 2022',text:'A residential construction company registered in 2019 completed 14 townhouse projects in three years with no public marketing and no real estate listings. All sales were private treaty. QPS financial intelligence flagged the unusual velocity as consistent with money laundering.'}]},
-
-    homeless:{accent:'#e8a020',tag:'Homelessness',ch:'02',title:'INVISIBLE ON THE GLITTER STRIP',img:'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1000&q=80',intro:"The Gold Coast has one of Queensland's fastest-growing rough-sleeper populations — but you won't see them near Cavill Avenue. Council bylaws criminalise sitting, camping, and begging in tourist precincts, pushing the crisis out of sight, not out of existence.",body:'<p style="margin-bottom:1rem">Gold Coast City Council\'s "move on" powers allow rangers to direct individuals to leave public spaces, and the city has invested in hostile architecture — sloped benches, armrest dividers, sprinkler systems that activate at night — to prevent rough sleeping in high-visibility areas.</p><p style="margin-bottom:1rem">The result is a spatial segregation of poverty. The homeless population concentrates in peripheral suburbs — Southport, Nerang, Coomera — where there\'s less tourist pressure.</p><p>The political calculus is straightforward: tourists and investors don\'t want to see homelessness. Council responds to those stakeholders.</p>',studies:[{label:'Case Study — Musgrave Park Clearances, Southport 2024',text:'A settlement of 40+ people living rough was forcibly cleared by council rangers three times in six months. Each clearance cost ratepayers approximately $28,000 in overtime. Zero transitional housing was offered.'},{label:'Case Study — The Invisible Census',text:"The City of Gold Coast's official rough sleeper count for 2024 was 312 individuals. Independent surveys by the Gold Coast Homelessness Network produced a figure of over 900. The methodology difference is not accidental."}]},
-
-    developer:{accent:'#2a9d4e',tag:'Political Corruption',ch:'03',title:'DEVELOPER MONEY & COUNCIL VOTES',img:'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1000&q=80',intro:"Property developers donate to campaign funds. Councillors approve rezonings. It's not always illegal — but the pattern is undeniable. On the Gold Coast, where construction is the dominant industry, the line between lobbying and corruption is deliberately blurred.",body:'<p style="margin-bottom:1rem">Queensland\'s local government donation disclosure rules require councillors to declare donations over $500. But donations to associated entities, fundraising dinners, and third-party bodies operate in grey zones.</p><p style="margin-bottom:1rem">The Gold Coast development approval process is particularly susceptible. The GCC has historically allowed individual councillors significant discretion over development applications — creating a direct transactional relationship between donation and outcome.</p><p>Academic studies of Gold Coast planning decisions between 2015–2024 have found a statistically significant correlation between developer donation levels and height variance approval rates.</p>',studies:[{label:'Case Study — The Surfers Paradise Variance, 2022',text:'A 68-storey tower requiring a height variance of over 200% was approved by GCC by a vote of 9–2 in November 2022. Six weeks prior, a $45,000 donation was made to the division\'s sitting councillor via a developer-linked corporate entity.'},{label:'Case Study — The Consultancy Arrangement',text:'A planning consultant who held a senior GCC planning role from 2016–2019 established a private consultancy in 2020. Within two years his firm had facilitated approvals for 11 development applications — all approved on first submission, against a council average of 34%.'}]},
-
-    drugs:{accent:'#7b5ea7',tag:'Drug Trade',ch:'04',title:'METH, MONEY & THE M1',img:'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1000&q=80',intro:"The highway corridor between Brisbane and the Gold Coast is one of Australia's most active drug supply routes. Crystal methamphetamine distribution networks operate through legitimate-looking businesses, converting drug cash into clean income across the northern suburbs.",body:'<p style="margin-bottom:1rem">The shift from heroin to methamphetamine as the dominant illicit drug in Southeast Queensland transformed the economics of the local drug trade. Meth has higher margins, longer shelf life, and a more distributed market.</p><p style="margin-bottom:1rem">The M1 functions as both supply route and market. Distribution points cluster around interchange suburbs — Coomera, Oxenford, Nerang — where vehicle movement is high.</p><p>Money laundering through small cash businesses remains the primary mechanism.</p>',studies:[{label:'Case Study — The Labrador Business Cluster, 2023',text:'AFP and QPS financial intelligence identified seven cash-heavy small businesses on a single Labrador commercial strip with near-zero foot traffic. Combined reported annual revenue: $3.8M. All seven shared the same registered accountant and a single silent business partner with two prior drug convictions.'},{label:'Case Study — The Delivery Network, 2024',text:'QPS Organised Crime Group dismantled a distribution network embedded within a legitimate food delivery franchise. Fourteen people were charged. The franchise operator was not among them.'}]},
-
-    pipeline:{accent:'#e8a020',tag:'Intersection',ch:'05',title:'HOW HOMELESSNESS FEEDS CRIME',img:'https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=1000&q=80',intro:"When people have no housing and no support, criminal networks step in as the only functioning welfare system. OMGs and drug crews offer shelter, food, belonging — and debt. It's a recruitment pipeline that starts with a couch and ends with a charge sheet.",body:'<p style="margin-bottom:1rem">The intersection of homelessness and organised crime is structural, not coincidental. Criminal networks actively recruit from the homeless population because homeless individuals have acute immediate needs, weakened social networks, and reduced leverage to say no once initial debts are incurred.</p><p style="margin-bottom:1rem">The recruitment process is gradual. It begins with genuine-seeming assistance — a place to stay, meals, a social group. Obligations are introduced slowly.</p><p>A 2024 Senate inquiry found the Gold Coast had the worst ratio of crisis youth beds to homeless youth of any comparable Australian city.</p>',studies:[{label:'Case Study — The Nerang Youth Pipeline, 2024',text:'Research by Gold Coast Youth Services found 1 in 3 young people experiencing homelessness for more than six months reported being approached by individuals connected to organised crime networks. Average age of first approach: 17 years.'},{label:'Case Study — The Debt Cycle',text:'"Marcus" was homeless in Surfers Paradise at 16 after ageing out of foster care. An OMG-connected individual offered him a room in exchange for "keeping an eye on things." Within three months he was transporting packages. Released at 19 with a criminal record and no housing, he described re-entering the same network as the only viable option.'}]},
-
-    oversight:{accent:'#d63d2f',tag:'Accountability',ch:'06',title:"WHO'S ACTUALLY WATCHING?",img:'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1000&q=80',intro:'ASIO, AFP, QPS, QCAT, the CMC — the alphabet soup of agencies theoretically covering this ground is long. But jurisdictional gaps, resource limits, and political hesitation mean serious accountability is rare. Local investigative reporting is nearly extinct.',body:'<p style="margin-bottom:1rem">The oversight architecture in Queensland is theoretically robust. The CMC has broad jurisdiction over public sector corruption. The AFP handles serious organised crime. In practice, each agency has a narrow mandate, limited resources for proactive investigation, and significant incentive to avoid politically contentious cases.</p><p style="margin-bottom:1rem">Referrals between agencies can take months. Joint operations require memoranda of understanding that take years to negotiate.</p><p>The collapse of local investigative journalism is arguably the most significant gap. Stories requiring six months of document analysis are economically unviable. The people who benefit from that absence know it.</p>',studies:[{label:'Case Study — The CMC Referral Backlog, 2024',text:"The Crime and Corruption Commission received 847 referrals related to local government conduct in 2023–24. Of those, 11 progressed to formal investigation. The remainder were closed at intake."},{label:'Case Study — The Journalist Count',text:'In 2008, the Gold Coast Bulletin employed 34 full-time journalists. In 2024, fewer than 8 remain, mostly covering lifestyle and entertainment. The sustained, relationship-based reporting that uncovers institutional corruption does not exist in any meaningful form.'}]}
+var EVIDENCE = {
+    'image-cup': {
+        type:'image',
+        title:'THE CUP PHOTO',
+        tag:'Sandy Tulisi — Rooming House Evidence',
+        meta:'Original photograph · Surfers Paradise · Aug–Oct 2023',
+        desc:'This photograph, taken without my knowledge, was used to justify a $20 tax invoice from Appel Street Pty Ltd. The "cup left" fine was later omitted from the formal bond deduction statement submitted to the RTA — suggesting even Sandy Tulisi knew it was legally indefensible.',
+        src:'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=800&q=80',
+        redact:false,
+        filename:'sandy_cup_photo.jpg'
+    },
+    'pdf-ntl': {
+        type:'pdf',
+        title:'NOTICE TO LEAVE — RTA',
+        tag:'Queensland RTA · Oct 2023',
+        meta:'PDF Document · Official RTA Form · Issued on false premises',
+        desc:'This Notice to Leave was constructed on the false breach notices — six emails claiming rent was overdue when it was not. It was presented to police to justify applying Police Banning Notice No. 385003 in what was fundamentally a civil tenancy dispute. All charges arising from it were dropped in full.',
+        filename:'rta_notice_to_leave.pdf',
+        pages: 2
+    },
+    'pdf-court': {
+        type:'pdf',
+        title:'COURT TRANSCRIPT',
+        tag:'Contravene Banning Notice · Charges Dropped',
+        meta:'PDF · Court Proceedings · Redacted · All charges dropped',
+        desc:'Transcript from the proceedings regarding Contravene Banning Notice No. 385003. The charge was taken on pro bono by a senior Australian lawyer. The case confirmed the Notice to Leave was issued on false grounds. All charges were subsequently dropped in full. No conviction. No penalty.',
+        filename:'court_transcript.pdf',
+        pages: 8
+    },
+    'audio-police': {
+        type:'audio',
+        title:'POLICE INTERVIEW RECORDING — REDACTED',
+        tag:'Police Corruption · Task Force Latro',
+        meta:'Audio · Redacted · Provided to Premier\'s office and AG Frecklington',
+        desc:'Recording captured during the police interview of one of my attackers following the Oracle East assault. The officer makes a comment suggesting a content creator who makes videos about people should expect to be physically attacked. This recording has been provided to the Premier of Queensland and Attorney General Deb Frecklington. Names and identifying details have been filtered.',
+        duration: '2:34',
+        filename:'police_corruption_audio_REDACTED.wav'
+    },
+    'pdf-cl1': {
+        type:'pdf',
+        title:'COUNCIL LETTER 1 — COMPLAINT ACKNOWLEDGED',
+        tag:'City of Gold Coast · Ref: Lawmaster 1192 · Dec 16, 2024',
+        meta:'PDF · Official Council Correspondence · Signed: Julie Schyf',
+        desc:'The City of Gold Coast formally acknowledges receipt of the privacy complaint and confirms it is being investigated by the Chief Risk and Audit Office. The letter references the 45-business-day window under the Information Privacy Act 2009 — a window the Council would subsequently allow to pass before discontinuing its own investigation.',
+        filename:'council_letter_1_complaint_acknowledged.pdf',
+        pages: 1
+    },
+    'pdf-cl2': {
+        type:'pdf',
+        title:'COUNCIL LETTER 2 — INVESTIGATION DISCONTINUED',
+        tag:'City of Gold Coast · For the CEO · Investigation Dropped',
+        meta:'PDF · Official Council Correspondence · Investigation closed',
+        desc:'The Council discontinues its own investigation, citing failure to receive further information from the complainant. The evidence needed to investigate — the photograph, the annotation, the staff member\'s identity — was entirely within the Council\'s own systems. This outcome required escalation to Premier Crisafulli to reverse.',
+        filename:'council_letter_2_investigation_discontinued.pdf',
+        pages: 1
+    },
+    'image-aquatic': {
+        type:'image',
+        title:'AQUATIC CENTRE SURVEILLANCE PHOTO',
+        tag:'Privacy Breach · Southport Aquatic Centre · Dec 2024',
+        meta:'Placeholder image — original retained by investigators',
+        desc:'Photograph taken of Kosta Kondratenko by a Gold Coast Aquatic Centre staff member without consent. Annotated: "Monitor This One. Comes in for shower. Been asked not to use gym." Sent to a private individual with the comment "Look at these shit cunts." A formal privacy complaint was filed. Premier Crisafulli issued a Show Cause notice. Staff were terminated.',
+        src:'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80',
+        redact:true,
+        redactLabel:'SUBJECT IDENTITY WITHHELD',
+        filename:'aquatic_centre_photo_PLACEHOLDER.jpg'
+    },
+    'video-oracle': {
+        type:'video',
+        title:'ORACLE EAST — ASSAULT FOOTAGE',
+        tag:'Pending Release · Redacted Version Coming',
+        meta:'Video · Pending legal clearance · Identifiers to be filtered',
+        desc:'This footage documents the assault at Oracle East — Kosta Kondratenko stalked from Broadbeach North tram stop and attacked by 6 assailants connected to RJ\'s network. The attack was carried out in retaliation for video content published about this network. The footage is pending formal release pending legal advice.',
+        isPlaceholder:true,
+        placeholderLabel:'FOOTAGE PENDING LEGAL CLEARANCE',
+        filename:'oracle_east_assault_PENDING.mp4'
+    },
+    'pdf-skynews': {
+        type:'pdf',
+        title:'SKY NEWS EMAIL + QP-9 ATTACHMENT',
+        tag:'Media Accountability · QP-9 Disclosure · Referred to CCC',
+        meta:'PDF · Email thread with attachment · Names partially redacted',
+        desc:'Email from Sky News journalist forwarding Queensland Police charge document (QP-9) to representatives at Hancock Prospecting. A QP-9 is a non-public police record. Its disclosure to a third party is a breach of the Information Privacy Act 2009. Whether the disclosure was motivated by the pattern of hostility toward content creators evident in the Oracle East investigation is a question for the CCC. This matter has been referred.',
+        filename:'sky_news_email_QP9_attachment.pdf',
+        pages: 3
+    },
+    'video-viral': {
+        type:'video',
+        title:'THE VIRAL VIDEO — RJ CONFRONTATION',
+        tag:'Gold Coast · The Video That Started It All',
+        meta:'Placeholder — full video pending legal review',
+        desc:'The direct confrontation video of RJ that circulated widely across the Gold Coast. Submitted to Hancock Prospecting — I was immediately blocked, confirming Adam Watson\'s connection to that network. RJ\'s associates began a sustained harassment campaign against Adam Watson in direct response to this video\'s circulation. The Oracle East assault followed.',
+        isPlaceholder:true,
+        placeholderLabel:'FULL VIDEO PENDING LEGAL REVIEW',
+        filename:'viral_video_RJ_PLACEHOLDER.mp4'
+    },
+    'pdf-bodie': {
+        type:'pdf',
+        title:'BODIE CHALMERS — CRIMINAL HISTORY',
+        tag:'Coercive Control Context · Prior Criminal History',
+        meta:'PDF · Criminal history · Third parties redacted',
+        desc:'Prior criminal history of Bodie Chalmers, the subject of the coercive control allegations detailed in Adam Watson\'s story. This history provides context for understanding the pattern of behaviour documented across multiple incidents — including the DPP malicious prosecution ruling, the Optus social engineering attack, and the Officeworks vehicle attack.',
+        filename:'bodie_chalmers_criminal_history.pdf',
+        pages: 4
+    },
+    'pdf-optus': {
+        type:'pdf',
+        title:'OPTUS APOLOGY LETTER — TIO OUTCOME',
+        tag:'Telecommunications Ombudsman · Service Restored',
+        meta:'PDF · Optus correspondence · Post-TIO referral',
+        desc:'Letter from Optus issued following the TIO referral initiated by Adam Watson\'s complaint to the Prime Minister\'s office. Confirms restoration of service and acknowledges the security failure at the retail store level. Despite this acknowledgment, Adam continues to receive a $2,500 billing claim in connection with the unauthorised deactivation — a charge CovertGC considers unconscionable.',
+        filename:'optus_apology_TIO_letter.pdf',
+        pages: 2
+    },
+    'image-driver': {
+        type:'image',
+        title:'OFFICEWORKS ATTACK — DRIVER PHOTOGRAPHED',
+        tag:'Attempted Murder · Officeworks Car Park · Active Proceedings',
+        meta:'Placeholder image — face redacted — original with QPS',
+        desc:'Photograph taken by the target of the vehicle attack immediately after the Officeworks car park incident. Combined with CCTV footage, it enabled identification and arrest of the driver, who was denied bail. Phone messages link the attack to a $15,000 contract. The face of the driver has been redacted pending completion of court proceedings.',
+        src:'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&q=80',
+        redact:true,
+        redactLabel:'FACE REDACTED — PROCEEDINGS ONGOING',
+        filename:'officeworks_driver_REDACTED.jpg'
+    },
+    'video-pf': {
+        type:'video',
+        title:'PACIFIC FAIR ASSAULT — RJ ASSOCIATES',
+        tag:'RJ Criminal Pattern · Incident 03 · Redacted',
+        meta:'Video · Identifying details filtered · Original with QPS',
+        desc:'Footage of the attack on Adam Watson by RJ\'s associates near the Pacific Fair fruit shop. All five associates present subsequently gave statements identifying RJ as the organiser. RJ was charged and released. QPS is appealing the suspended sentence. All identifying details of uninvolved parties have been filtered.',
+        isPlaceholder:true,
+        placeholderLabel:'REDACTED VERSION — PENDING UPLOAD',
+        filename:'rj_pacific_fair_assault_REDACTED.mp4'
+    },
+    'video-burg': {
+        type:'video',
+        title:'ARMED BURGLARY — RJ · PACIFIC FAIR',
+        tag:'RJ Criminal Pattern · Incident 04 · Heavily Redacted',
+        meta:'Video · Heavily redacted · Original with QPS',
+        desc:'Footage documenting the aggravated burglary near Pacific Fair for which RJ was charged. The footage is heavily redacted — faces of uninvolved parties and identifying location details have been obscured. The unredacted original has been provided to Queensland Police.',
+        isPlaceholder:true,
+        placeholderLabel:'HEAVILY REDACTED — PENDING UPLOAD',
+        filename:'rj_burglary_REDACTED.mp4'
+    },
+    'video-scs': {
+        type:'video',
+        title:'SEX & CRIME SQUAD — INVESTIGATION TAPE',
+        tag:'Active Investigation · Heavily Censored',
+        meta:'Video · Sex & Crime Squad · Heavily censored · Active case',
+        desc:'Material from the active Sex and Crime Squad investigation in which RJ is a subject. Made possible by the laptop RJ gave Adam Watson — which was surrendered to Southport Police Station. This footage is heavily censored for public release. Full material is with QPS investigators.',
+        isPlaceholder:true,
+        placeholderLabel:'CENSORED — ACTIVE INVESTIGATION',
+        filename:'rj_sex_crime_squad_CENSORED.mp4'
+    },
+    'pdf-bond': {
+        type:'pdf',
+        title:'RTA BOND CONFIRMATION — 68-DAY DELAY',
+        tag:'Regulatory Failure · SOLAC HOUSE / BeHome',
+        meta:'PDF · RTA Bond 714284215 · 68 days after move-in',
+        desc:'RTA bond confirmation showing lodgement 68 days after move-in. Legal requirement: 10 business days. At a property with capacity for 100 tenants, if this delay was systematic, hundreds of bonds may have sat outside RTA protection.',
+        filename:'rta_bond_confirmation.pdf',
+        pages: 1
+    }
 };
 
-function buildModal(c) {
-    var studies = c.studies.map(function(s){
-        return '<div style="border-left:2px solid '+c.accent+'55;background:rgba(255,255,255,0.018);padding:0.9rem 1rem 0.9rem 1.1rem;margin-bottom:0.9rem">'+
-            '<div style="color:'+c.accent+';font-size:0.62rem;letter-spacing:0.18em;text-transform:uppercase;margin-bottom:0.5rem">'+s.label+'</div>'+
-            '<p style="font-family:\'Instrument Serif\',serif;font-style:italic;font-size:0.82rem;line-height:1.75;color:rgba(240,236,226,0.58)">'+s.text+'</p>'+
-        '</div>';
-    }).join('');
+function openMV(type, title, tag, meta, filename, desc, key) {
+    if(key && EVIDENCE[key]) {
+        var e = EVIDENCE[key];
+        renderMV(e);
+    } else {
+        renderMV({type:type,title:title,tag:tag,meta:meta,filename:filename,desc:desc});
+    }
+}
 
-    return '<div style="position:relative;height:220px;overflow:hidden">'+
-        '<img src="'+c.img+'" style="width:100%;height:100%;object-fit:cover;opacity:0.42"/>'+
-        '<div style="position:absolute;inset:0;background:linear-gradient(to top,#0e0e0e 15%,rgba(14,14,14,0.25) 60%,transparent)"></div>'+
-        '<div style="position:absolute;top:0;left:0;bottom:0;width:3px;background:'+c.accent+'"></div>'+
-        '<div style="position:absolute;bottom:0;left:0;right:0;padding:1.5rem 1.75rem">'+
-            '<span style="display:inline-block;color:'+c.accent+';border:1px solid '+c.accent+'55;font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;padding:0.2rem 0.5rem;margin-right:0.5rem;margin-bottom:0.5rem">'+c.tag+'</span>'+
-            '<span style="display:inline-block;color:rgba(240,236,226,0.3);border:1px solid rgba(240,236,226,0.12);font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;padding:0.2rem 0.5rem;margin-bottom:0.5rem">Chapter '+c.ch+'</span>'+
-            '<h2 style="font-family:\'Bebas Neue\',sans-serif;font-size:clamp(1.8rem,5vw,3rem);letter-spacing:0.04em;line-height:1;color:#f0ece2">'+c.title+'</h2>'+
-        '</div>'+
-    '</div>'+
-    '<div style="padding:1.75rem">'+
-        '<p style="font-family:\'Instrument Serif\',serif;font-style:italic;font-size:1.05rem;line-height:1.7;border-left:2px solid '+c.accent+';padding-left:1rem;margin-bottom:1.5rem;color:rgba(240,236,226,0.68)">'+c.intro+'</p>'+
-        '<div style="font-family:\'DM Mono\',monospace;font-size:0.76rem;line-height:1.85;color:rgba(240,236,226,0.48);margin-bottom:1.5rem">'+c.body+'</div>'+
-        '<div style="font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:'+c.accent+';margin-bottom:0.75rem">Documented Case Studies</div>'+
-        studies+
+function renderMV(e) {
+    currentFile = e;
+    document.getElementById('mv-tag').textContent = e.tag || 'Evidence File';
+    document.getElementById('mv-title').textContent = e.title || 'DOCUMENT';
+    document.getElementById('mv-meta').textContent = e.meta || '';
+
+    var dl = document.getElementById('mv-dl-btn');
+    dl.textContent = '⬇ Download ' + (e.filename || 'file');
+
+    var body = document.getElementById('mv-body');
+    body.innerHTML = '';
+
+    if(e.type === 'pdf') {
+        body.innerHTML = buildPDFViewer(e);
+    } else if(e.type === 'audio') {
+        body.innerHTML = buildAudioPlayer(e);
+    } else if(e.type === 'image') {
+        body.innerHTML = buildImageViewer(e);
+    } else if(e.type === 'video') {
+        body.innerHTML = buildVideoViewer(e);
+    }
+
+    document.getElementById('mv-wrap').classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function buildPDFViewer(e) {
+    var pages = e.pages || 2;
+    var pagesHtml = '';
+    for(var i=0;i<Math.min(pages,4);i++){
+        pagesHtml += '<div class="pdf-ph-page"><div class="pdf-ph-line" style="height:3px;background:rgba(214,61,47,0.3)"></div>' +
+            Array(8).fill('<div class="pdf-ph-line"></div>').join('') + '</div>';
+    }
+    return '<div class="pdf-ph">' +
+        '<div style="font-size:0.48rem;letter-spacing:0.22em;text-transform:uppercase;color:rgba(214,61,47,0.6);margin-bottom:1rem">PDF Document — Placeholder Preview</div>' +
+        '<div class="pdf-ph-pages">' + pagesHtml + '</div>' +
+        '<div style="font-family:\'Bebas Neue\',sans-serif;font-size:1.4rem;letter-spacing:0.06em;color:rgba(240,236,226,0.5);margin-bottom:0.75rem">' + (e.title||'DOCUMENT') + '</div>' +
+        '<div style="font-size:0.62rem;line-height:1.7;color:rgba(240,236,226,0.35);max-width:480px;margin:0 auto">' + (e.desc||'') + '</div>' +
+        '<div style="margin-top:1.5rem;font-size:0.5rem;letter-spacing:0.15em;text-transform:uppercase;color:rgba(240,236,226,0.2);border:1px solid rgba(240,236,226,0.07);display:inline-block;padding:0.35rem 0.75rem">' + pages + ' pages · ' + (e.filename||'document.pdf') + '</div>' +
+        '</div>';
+}
+
+function buildAudioPlayer(e) {
+    var bars = '';
+    var numBars = 80;
+    var heights = [];
+    for(var i=0;i<numBars;i++){
+        var h = 15 + Math.random()*70;
+        if(i<numBars*0.3||i>numBars*0.7) h = h*0.5;
+        heights.push(h);
+        bars += '<div class="cap-bar" style="height:'+Math.max(4,h)+'px" data-idx="'+i+'"></div>';
+    }
+    return '<div class="cap-wrap">' +
+        '<div style="font-size:0.48rem;letter-spacing:0.22em;text-transform:uppercase;color:rgba(42,157,78,0.7);margin-bottom:0.5rem">Audio Evidence · Redacted</div>' +
+        '<div style="font-family:\'Bebas Neue\',sans-serif;font-size:1.2rem;letter-spacing:0.05em;color:rgba(240,236,226,0.65);margin-bottom:0.25rem">' + (e.title||'AUDIO') + '</div>' +
+        '<div style="font-size:0.58rem;color:rgba(240,236,226,0.3);margin-bottom:0.5rem">' + (e.desc||'') + '</div>' +
+        '<div class="cap-waveform" id="cap-wave" onclick="scrubAudio(event)">' + bars + '</div>' +
+        '<div class="cap-controls">' +
+            '<button class="cap-play" id="cap-playbtn" onclick="toggleAudio()">▶</button>' +
+            '<div style="flex:1">' +
+                '<div style="font-size:0.5rem;letter-spacing:0.15em;text-transform:uppercase;color:rgba(240,236,226,0.3);margin-bottom:0.15rem">' + (e.filename||'audio.wav') + '</div>' +
+                '<div style="font-size:0.5rem;color:rgba(240,236,226,0.2)">Duration: ' + (e.duration||'~2:30') + ' (redacted version) · Original with investigators</div>' +
+            '</div>' +
+            '<div class="cap-time" id="cap-time">0:00 / ' + (e.duration||'2:30') + '</div>' +
+        '</div>' +
+        '<div style="margin-top:0.75rem;font-size:0.48rem;letter-spacing:0.15em;text-transform:uppercase;background:rgba(214,61,47,0.08);border:1px solid rgba(214,61,47,0.2);color:#d63d2f;padding:0.35rem 0.6rem;display:inline-block">⬛ Identifying details filtered — placeholder audio</div>' +
+        '</div>';
+}
+
+function buildImageViewer(e) {
+    var redactHtml = '';
+    if(e.redact) {
+        redactHtml = '<div class="face-redact" style="top:10%;left:25%;width:25%;height:30%">' +
+            '<div style="font-size:0.46rem;letter-spacing:0.18em;text-transform:uppercase;color:#d63d2f;text-align:center">⬛</div>' +
+            '<div style="font-size:0.42rem;letter-spacing:0.12em;text-transform:uppercase;color:rgba(214,61,47,0.7);text-align:center;margin-top:0.2rem">' + (e.redactLabel||'REDACTED') + '</div>' +
+            '</div>';
+    }
+    var src = e.src || 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=65';
+    return '<div class="mv-img-frame">' +
+        '<img src="' + src + '" alt="' + (e.title||'Evidence') + '" style="filter:contrast(1.05) saturate(0.8)"/>' +
+        redactHtml +
+        '<div style="position:absolute;bottom:0;left:0;right:0;padding:1rem;background:linear-gradient(transparent,rgba(4,4,4,0.9))">' +
+            '<div style="font-size:0.48rem;letter-spacing:0.18em;text-transform:uppercase;color:rgba(240,236,226,0.4)">' + (e.meta||'') + '</div>' +
+        '</div>' +
+        '</div>' +
+        (e.desc ? '<div style="max-width:760px;width:100%;padding:1rem 0 0;font-size:0.62rem;line-height:1.7;color:rgba(240,236,226,0.4)">' + e.desc + '</div>' : '');
+}
+
+function buildVideoViewer(e) {
+    if(e.isPlaceholder) {
+        return '<div style="width:100%;max-width:760px">' +
+            '<div class="vid-ph">' +
+                '<div class="scanlines"></div>' +
+                '<div style="text-align:center;z-index:2;position:relative">' +
+                    '<div class="vid-ph-play"><span style="color:rgba(240,236,226,0.4);font-size:1.2rem;margin-left:3px">▶</span></div>' +
+                    '<div style="margin-top:0.75rem;font-size:0.48rem;letter-spacing:0.18em;text-transform:uppercase;color:rgba(240,236,226,0.25)">' + (e.placeholderLabel||'VIDEO PENDING UPLOAD') + '</div>' +
+                '</div>' +
+                '<div style="position:absolute;bottom:0.75rem;left:0;right:0;text-align:center">' +
+                    '<div style="font-size:0.44rem;letter-spacing:0.15em;text-transform:uppercase;color:rgba(240,236,226,0.2)">' + (e.filename||'video.mp4') + '</div>' +
+                '</div>' +
+            '</div>' +
+            '<div style="padding:0.75rem 0 0;font-size:0.62rem;line-height:1.7;color:rgba(240,236,226,0.38)">' + (e.desc||'') + '</div>' +
+        '</div>';
+    }
+    return '<div style="width:100%;max-width:760px">' +
+        '<video controls style="width:100%;border:1px solid rgba(240,236,226,0.06)">' +
+            '<source src="#" type="video/mp4"/>' +
+        '</video>' +
+        '<div style="padding:0.75rem 0 0;font-size:0.62rem;line-height:1.7;color:rgba(240,236,226,0.38)">' + (e.desc||'') + '</div>' +
     '</div>';
 }
 
-function openModal(key) {
-    var c = CASES[key];
-    if (!c) { return; }
-    document.getElementById('modal-content').innerHTML = buildModal(c);
-    document.getElementById('modal-wrap').style.display = 'block';
-    document.body.style.overflow = 'hidden';
-    document.getElementById('modal-wrap').scrollTop = 0;
+// Audio playback simulation
+var audioPlaying = false;
+var audioProgress = 0;
+var audioInterval = null;
+
+function toggleAudio() {
+    audioPlaying = !audioPlaying;
+    var btn = document.getElementById('cap-playbtn');
+    if(btn) btn.innerHTML = audioPlaying ? '⏸' : '▶';
+    if(audioPlaying) {
+        audioInterval = setInterval(function(){
+            audioProgress += 0.5;
+            var bars = document.querySelectorAll('.cap-bar');
+            var played = Math.floor((audioProgress/100)*bars.length);
+            bars.forEach(function(b,i){
+                b.classList.toggle('played', i < played);
+            });
+            var duration = 150; // 2:30 in seconds
+            var elapsed = Math.floor((audioProgress/100)*duration);
+            var m = Math.floor(elapsed/60);
+            var s = elapsed%60;
+            var ct = document.getElementById('cap-time');
+            if(ct) ct.textContent = m+':'+(s<10?'0':'')+s+' / 2:30';
+            if(audioProgress >= 100) { clearInterval(audioInterval); audioPlaying=false; if(btn)btn.innerHTML='▶'; }
+        }, 200);
+    } else {
+        clearInterval(audioInterval);
+    }
 }
 
-function closeModal() {
-    document.getElementById('modal-wrap').style.display = 'none';
+function scrubAudio(event) {
+    var wave = document.getElementById('cap-wave');
+    if(!wave) return;
+    var rect = wave.getBoundingClientRect();
+    audioProgress = ((event.clientX - rect.left) / rect.width) * 100;
+    var bars = document.querySelectorAll('.cap-bar');
+    var played = Math.floor((audioProgress/100)*bars.length);
+    bars.forEach(function(b,i){ b.classList.toggle('played',i<played); });
+}
+
+function closeMV() {
+    document.getElementById('mv-wrap').classList.remove('active');
     document.body.style.overflow = '';
+    audioPlaying = false;
+    clearInterval(audioInterval);
 }
 
-document.getElementById('modal-close-btn').addEventListener('click', closeModal);
-document.getElementById('modal-wrap').addEventListener('click', function(e){ if(e.target===this) closeModal(); });
-document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeModal(); });
+function downloadFile() {
+    if(!currentFile) return;
+    var a = document.createElement('a');
+    a.href = '#';
+    a.download = currentFile.filename || 'covertgc_document';
+    a.click();
+    // Toast
+    showToast('Download started: ' + (currentFile.filename||'file'));
+}
 
+function downloadZip(name) {
+    showToast('ZIP download started: ' + name);
+}
+
+function showToast(msg) {
+    var t = document.createElement('div');
+    t.style.cssText = 'position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%);background:rgba(8,8,8,0.95);border:1px solid rgba(232,160,32,0.3);color:#e8a020;font-family:DM Mono,monospace;font-size:0.55rem;letter-spacing:0.15em;text-transform:uppercase;padding:0.6rem 1.2rem;z-index:9999;pointer-events:none;transition:opacity 0.3s';
+    t.textContent = msg;
+    document.body.appendChild(t);
+    setTimeout(function(){ t.style.opacity='0'; setTimeout(function(){ t.remove(); },300); }, 2500);
+}
+
+// Close MV on backdrop
+document.getElementById('mv-wrap').addEventListener('click',function(e){if(e.target===this||e.target===document.getElementById('mv-body'))closeMV();});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMV();});
+
+// ── PANEL ──
 function togglePanel() {
     var panel = document.getElementById('case-panel');
     var bd = document.getElementById('panel-bd');
     var open = panel.classList.contains('open');
-    if (open) {
-        panel.classList.remove('open');
-        bd.style.display = 'none';
-        document.body.style.overflow = '';
-    } else {
-        panel.classList.add('open');
-        bd.style.display = 'block';
-        document.body.style.overflow = 'hidden';
-    }
+    panel.classList.toggle('open',!open);
+    bd.style.display = open?'none':'block';
+    document.body.style.overflow = open?'':'hidden';
 }
 
+// ── VIDEO PLAYER ──
+function seekToChapter(index) {
+    var p = window.vidstackPlayer;
+    if(!p) return;
+    var tracks = p.textTracks;
+    var ct = null;
+    for(var i=0;i<tracks.length;i++){if(tracks[i].kind==='chapters'){ct=tracks[i];break;}}
+    if(ct&&ct.cues&&ct.cues.length>index){p.currentTime=ct.cues[index].startTime;}
+    else{var d=p.duration||0;if(d>0)p.currentTime=(d/6)*index;}
+    document.getElementById('player').scrollIntoView({behavior:'smooth',block:'center'});
+}
+
+// ── SMS ──
 function handleSMS(e) {
     e.preventDefault();
     var v = document.getElementById('sms-input').value.trim().replace(/\s/g,'');
     var msg = document.getElementById('sms-msg');
-    if (!v || v.length < 10) {
-        msg.style.color = '#d63d2f'; msg.textContent = '✗ Please enter a valid Australian mobile number.'; return;
-    }
-    msg.style.color = '#2a9d4e'; msg.textContent = '✓ You\'re in. First intel drop incoming.';
-    document.getElementById('sms-input').value = '';
+    if(!v||v.length<10){msg.style.color='#d63d2f';msg.textContent='✗ Please enter a valid Australian mobile number.';return;}
+    msg.style.color='#2a9d4e';msg.textContent='✓ You\'re in. First intel drop incoming.';
+    document.getElementById('sms-input').value='';
 }
 
+// ── SCROLL REVEAL ──
 var obs = new IntersectionObserver(function(entries){
-    entries.forEach(function(e){ if(e.isIntersecting) e.target.classList.add('in'); });
-}, {threshold:0.08});
-document.querySelectorAll('.reveal').forEach(function(el){ obs.observe(el); });
+    entries.forEach(function(e){if(e.isIntersecting)e.target.classList.add('in');});
+},{threshold:0.08});
+document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el);});
 </script>
 </body>
 </html>
