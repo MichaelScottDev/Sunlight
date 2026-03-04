@@ -329,12 +329,12 @@
             <div class="px-5 py-4 border-b border-paper/[0.06] flex-1 overflow-y-auto">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">Episode Chapters</div>
                 <div class="space-y-0.5">
-                    <div onclick="seekToChapter(0)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">01</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">The Bikie Franchise Model</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Organised Crime</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
-                    <div onclick="seekToChapter(1)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-gold/5 border border-transparent hover:border-gold/20 cursor-pointer transition-all group"><span class="font-display text-gold text-sm w-5 shrink-0">02</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Invisible on the Glitter Strip</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Homelessness</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-gold transition-colors shrink-0">▶</span></div>
-                    <div onclick="seekToChapter(2)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-sage/5 border border-transparent hover:border-sage/20 cursor-pointer transition-all group"><span class="font-display text-sage text-sm w-5 shrink-0">03</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Developer Money & Council Votes</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Political Corruption</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-sage transition-colors shrink-0">▶</span></div>
-                    <div onclick="seekToChapter(3)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-violet/5 border border-transparent hover:border-violet/20 cursor-pointer transition-all group"><span class="font-display text-violet text-sm w-5 shrink-0">04</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Meth, Money & the M1</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Drug Trade</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-violet transition-colors shrink-0">▶</span></div>
-                    <div onclick="seekToChapter(4)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-gold/5 border border-transparent hover:border-gold/20 cursor-pointer transition-all group"><span class="font-display text-gold text-sm w-5 shrink-0">05</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">How Homelessness Feeds Crime</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Intersection</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-gold transition-colors shrink-0">▶</span></div>
-                    <div onclick="seekToChapter(5)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">06</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Who's Actually Watching?</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Accountability</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapter(0)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">01</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Sandy Tulisi</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Rooming house fraud</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapter(1)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-violet/5 border border-transparent hover:border-violet/20 cursor-pointer transition-all group"><span class="font-display text-violet text-sm w-5 shrink-0">02</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Privacy Breach</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Aquatic centre leak</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-violet transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapter(2)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-gold/5 border border-transparent hover:border-gold/20 cursor-pointer transition-all group"><span class="font-display text-gold text-sm w-5 shrink-0">03</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Sky News</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Story that didn't run</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-gold transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapter(3)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">04</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Oracle East</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Stalked & assaulted</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapter(4)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">05</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">RJ — 7 Incidents</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Sex & Crime Squad</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapter(5)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-violet/5 border border-transparent hover:border-violet/20 cursor-pointer transition-all group"><span class="font-display text-violet text-sm w-5 shrink-0">06</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Adam's Story</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Coercive control & DPP</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-violet transition-colors shrink-0">▶</span></div>
                 </div>
             </div>
             <div class="px-5 py-5">
@@ -502,6 +502,81 @@
                     <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"He's a lawyer. Not a community legal centre lawyer. He took my case pro bono. The Contravene Banning Notice charge was subsequently dropped in full."</p>
                     <div class="border border-sage/30 bg-sage/[0.04] p-6 mb-5">
                         <div class="flex items-start gap-4"><div class="font-display text-6xl text-sage/30 leading-none">✓</div><div><div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-2">Legal Outcome</div><div class="font-display text-2xl tracking-wide text-sage mb-2">ALL CHARGES DROPPED</div><p class="text-[0.68rem] text-paper/40 leading-relaxed">Contravene Banning Notice charge — fully resolved. No conviction. No penalty.</p></div></div>
+                    </div>
+                </div>
+
+                <div id="s-ch6" class="story-chapter reveal" style="transition-delay:0.3s;border-left-color:rgba(214,61,47,0.3)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter 06</span><span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Systemic Injustice</span></div>
+                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE REGISTRAR'S MISTAKE.<br><span class="text-hot">INJUSTICE GOES FREE.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"I sent a detailed legal email to Southport Court Registry explaining why Form 21 was the correct subpoena form. Their response was to stamp Form 10 anyway. A judge later said they should never have done that. By then it was too late. The landlords walked free."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">To call witnesses — particularly Sandy Tulisi and Chris Park — I needed subpoenas issued by the court. The Justices Act 1886, Section 78 states that only a justice can issue a summons (Form 10) if a witness will provide material evidence. I am not a justice. The Criminal Practice Rules 1999, Rule 29 explicitly permits parties like myself to issue subpoenas using Form 21. I sent this legal analysis to the Southport Court Registry in writing.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The Registry's response was to suggest I use Form 10 anyway. Adam complied, got it stamped, and had it served on Sandy Tulisi. At trial, the Judge explicitly stated that the Registrar should never have stamped that form — it was procedurally improper.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Result: No bench warrant was issued when Sandy didn't appear. Chris Park never took the stand. The two key witnesses against the landlords were absent from the courtroom. I won the case — the charges were dropped — but the landlords faced no accountability because the court's own official failed to follow proper procedure.</p>
+
+                    <!-- EVIDENCE VAULT: Systemic Injustice -->
+                    <div class="evidence-vault">
+                        <div class="ev-header" onclick="toggleVault(this)">
+                            <div class="flex items-center gap-2">
+                                <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Subpoena Procedural Failure · Systemic Injustice</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">4 files</span>
+                                <span class="ev-toggle">▼</span>
+                            </div>
+                        </div>
+                        <div class="ev-body">
+                            <!-- Email to Registry -->
+                            <div class="ev-file ef-hot" onclick="openMV('pdf','EMAIL TO SOUTHPORT COURT REGISTRY','Legal analysis of Forms 10 vs 21 — Justices Act 1886 s.78 vs Criminal Practice Rules 1999 r.29','PDF · Correspondence · Legal references included','email_registry_form_analysis.pdf','This email to the Southport Court Registry provides detailed legal analysis explaining that Form 10 (Summons by Justice) was not applicable to my situation as I am not a justice, and that Form 21 (Party-issued Subpoena) was the correct form under Criminal Practice Rules 1999, Rule 29. The email includes direct references to the relevant legislation. The Registry ignored this advice and recommended Form 10 anyway.','pdf-email-registry')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">email_southport_registry_form_analysis.pdf</div>
+                                    <div class="ev-desc">PDF · Email to Court Registry · Form 10 vs Form 21 legal analysis</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                            <!-- Form 10 Summons -->
+                            <div class="ev-file ef-hot" onclick="openMV('pdf','FORM 10 — SUMMONS STAMPED & SERVED','Stamped by Southport Court Registry — served on Sandy Tulisi — improper form per Judge','PDF · Stamped official form · Served October 2023','form10_summons_stamped_served.pdf','This is Form 10 (Summons of a Witness) that was stamped by the Southport Court Registry despite my prior legal correspondence explaining it was the wrong form. It was served on Sandy Tulisi. At trial, the Judge explicitly stated the Registrar should never have stamped this form. The procedural impropriety meant no bench warrant could be issued when Sandy failed to appear.','pdf-form10')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">form10_summons_stamped_served.pdf</div>
+                                    <div class="ev-desc">PDF · Form 10 — Stamped & served · Procedurally improper per Judge</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                            <!-- Form 21 Subpoena -->
+                            <div class="ev-file ef-sage" onclick="openMV('pdf','FORM 21 — CORRECT SUBPOENA FORM','The correct form under Criminal Practice Rules 1999, Rule 29 — demonstrates proper procedure','PDF · Reference form · CPR 1999 r.29','form21_correct_subpoena_form.pdf','This is Form 21 (Subpoena / Subpoena to Produce) — the form that should have been used. Criminal Practice Rules 1999, Rule 29 explicitly permits parties (including the accused or respondent) to issue subpoenas in this form, and authorizes the court registrar to issue them. The Southport Court Registry rejected this proper form in favour of the improper Form 10.','pdf-form21')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">form21_correct_subpoena_form.pdf</div>
+                                    <div class="ev-desc">PDF · Form 21 — Correct form per CPR 1999 r.29 — Party-issued subpoena</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                            <!-- Court Transcript -->
+                            <div class="ev-file ef-hot" onclick="openMV('pdf','COURT TRANSCRIPT — JUDGE\'S RULING','Transcript excerpt — Judge states Registrar should never have stamped Form 10','PDF · Court proceedings · Redacted for privacy','court_transcript_subpoena_ruling.pdf','This transcript extract from the hearing documents the Judge\'s explicit statement that the Southport Court Registrar should never have stamped Form 10. The improper procedure meant that when Sandy Tulisi failed to appear, no bench warrant could be issued, and the key witness was absent from proceedings. This procedural failure ensured the landlords faced no accountability despite my case succeeding.','pdf-transcript-subpoena')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">court_transcript_judge_subpoena_ruling.pdf</div>
+                                    <div class="ev-desc">PDF · Court transcript — Judge rules on improper Form 10</div>
+                                </div>
+                                <span class="redact-tag">⬛ Redacted</span>
+                                <span class="ev-cta ml-2">View →</span>
+                            </div>
+                            <div class="ev-zip-bar">
+                                <span class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/25">Download all files — Evidence of systemic procedural failure</span>
+                                <button class="mv-dl-btn mv-dl-hot text-[0.48rem]" onclick="downloadZip('systemic_injustice_subpoena_failure.zip')">⬇ ZIP Bundle</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- THE SYSTEMIC PROBLEM -->
+                    <div class="mt-8 border-l-4 pl-6" style="border-color:rgba(214,61,47,0.4);background:rgba(214,61,47,0.04);padding:1.5rem">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Systemic Issue</div>
+                        <h4 class="font-display text-xl tracking-wide text-hot mb-4">When Court Officials Make Mistakes, Who Pays the Price?</h4>
+                        <p class="text-[0.68rem] leading-relaxed text-paper/40 mb-4">A court registrar — a government official — gave incorrect legal advice and stamped an improper form. This wasn't disputed. The Judge confirmed it was wrong. But the consequence fell entirely on the victims of the original wrong (me, the person evicted; potentially Sandy and Chris who might have testified). The landlord — the party who created this entire chain of events through illegal conduct — walked away without facing the witnesses who could hold them accountable.</p>
+                        <p class="text-[0.68rem] leading-relaxed text-paper/40 mb-4">This is systemic injustice. Not through malice, but through procedural indifference. The court system protected its own mistake by allowing the substantive outcome to be determined by a technicality that protected the wrongdoer.</p>
+                        <p class="text-[0.68rem] leading-relaxed text-paper/40">I am now publishing this evidence formally to establish a record: When court officials make procedural errors that prevent victims from presenting evidence, those errors should not result in the wrongdoer going free. Accountability requires that official mistakes don't become escape routes for the actual criminals.</p>
                     </div>
                 </div>
 
