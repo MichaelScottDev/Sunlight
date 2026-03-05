@@ -276,6 +276,14 @@
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-sage"></div>
             <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-1">Ch.8 — Public Interest</div><div class="font-display text-base tracking-wide group-hover:text-sage transition-colors leading-tight">Redress Scheme Integrity</div></div>
         </button>
+        <button onclick="document.getElementById('west-kira').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
+            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
+            <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.A2 — West Kira</div><div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Bodie's Accomplice</div></div>
+        </button>
+        <button onclick="document.getElementById('kira-kira').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
+            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
+            <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.S2 — Kira & Kira</div><div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Furniture Out. Cocaine In.</div></div>
+        </button>
     </div>
     <div class="p-4 border-t border-paper/[0.06]">
         <a href="#sms" onclick="togglePanel()" class="block w-full text-center bg-hot hover:bg-dim font-display tracking-widest text-paper py-3 text-sm transition-colors">GET ALERTS FOR EP.02</a>
@@ -885,11 +893,20 @@
                             <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Bodie Chalmers · Coercive Control</span>
                         </div>
                         <div class="flex items-center gap-3">
-                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">2 files</span>
                             <span class="ev-toggle">▼</span>
                         </div>
                     </div>
                     <div class="ev-body">
+                        <div class="ev-file ef-violet" onclick="openMV('pdf','BODIE CHALMERS — LIE DETECTOR TEST','Private EyeDetect® biometric examination — certified examiner — scored 1/100 &quot;Deceptive&quot;','PDF Document · Surveillance evidence · Certified examination','bodie_chalmers_lie_detector_test.pdf','Certified EyeDetect® lie detector examination conducted by a qualified examiner at 50 Cavill Avenue, Surfers Paradise. The test scored 1 out of 100 and rated as &quot;Deceptive&quot; — indicating the subject was being deceptive throughout the examination. This evidence documents the forensic basis for concerns about Bodie Chalmers\'s truthfulness in his account of events related to Adam Watson.','pdf-bodie-lie')">
+                            <div class="ev-icon ev-pdf">PDF</div>
+                            <div class="ev-meta">
+                                <div class="ev-name">bodie_chalmers_lie_detector_test.pdf</div>
+                                <div class="ev-desc">PDF · Forensic examination · EyeDetect® certified</div>
+                            </div>
+                            <span class="redact-tag">🔬 Forensic Evidence</span>
+                            <span class="ev-cta ml-2">View →</span>
+                        </div>
                         <div class="ev-file ef-violet" onclick="openMV('pdf','BODIE CHALMERS — CRIMINAL HISTORY','Prior criminal history document — Bodie Chalmers — context for coercive control pattern','PDF Document · Criminal history · Partially redacted','bodie_chalmers_criminal_history.pdf','This document outlines the prior criminal history of Bodie Chalmers, the subject of the coercive control allegations. This history is relevant to understanding the pattern of behaviour documented across multiple incidents in this investigation. Names of co-accused and third parties have been redacted.','pdf-bodie')">
                             <div class="ev-icon ev-pdf">PDF</div>
                             <div class="ev-meta">
@@ -1213,8 +1230,1125 @@
 
 
 <!-- ══════════════════════════════════════
-     EPISODES GRID
+     WEST KIRA & KIRA · FURNITURE & COCAINE
 ══════════════════════════════════════ -->
+
+<!-- SECTION LABEL -->
+<div class="px-5 md:px-10 pt-10 pb-4 border-b border-paper/[0.05]" style="background:rgba(214,61,47,0.03)">
+    <div class="max-w-6xl mx-auto flex items-center gap-4">
+        <div class="w-1 h-8 bg-hot"></div>
+        <div>
+            <div class="text-[0.5rem] tracking-[0.22em] uppercase text-hot mb-0.5">New Section — Adam's Story</div>
+            <div class="font-display text-xl tracking-wide text-paper/50">Chapter A2 + Standalone Section · West Kira &amp; Kira and Kira</div>
+        </div>
+    </div>
+</div>
+
+<!-- Chapter A2: West Kira (inner chapter) -->
+<div class="px-5 md:px-10 py-16 border-b border-paper/[0.05]">
+    <div class="max-w-6xl mx-auto">
+        <div class="mb-6 pb-4 border-b border-paper/[0.06]">
+            <div class="text-[0.5rem] tracking-[0.22em] uppercase text-paper/20 mb-1">Placement: Inside #adam section · After Chapter A (Bodie Chalmers)</div>
+        </div>
+
+        <div id="west-kira" class="story-chapter reveal" style="border-left-color:rgba(214,61,47,0.3)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter A2 — The Accomplice</span>
+                <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">West Kira</span>
+            </div>
+            <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">BODIE'S ACCOMPLICE.<br><span class="text-hot">THE KID WHO BROKE THE GLASSES.</span></h3>
+            <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Adam gave him a ride. He repaid that by destroying Adam's glasses. It was recorded. That's the kind of person we're dealing with — and that's before we get to his father."</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">West Kira is a known associate of Bodie Chalmers. During a ride provided by Adam Watson — an act of basic human decency — West Kira deliberately broke Adam's glasses. The incident was captured on recording. It is a small act, but it is characteristic: a pattern of casual entitlement, destruction without consequence, and the assumption that proximity to power insulates you from accountability.</p>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-px bg-paper/[0.04] mb-8">
+                <div class="bg-ink px-5 py-5 text-center">
+                    <div class="stat-number text-4xl text-hot mb-1">$10K</div>
+                    <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Default judgement</div>
+                    <div class="text-[0.5rem] text-paper/18 mt-1">Debt sold — unpaid</div>
+                </div>
+                <div class="bg-ink px-5 py-5 text-center">
+                    <div class="stat-number text-4xl text-gold mb-1">1</div>
+                    <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Recorded incident</div>
+                    <div class="text-[0.5rem] text-paper/18 mt-1">Glasses destroyed on video</div>
+                </div>
+                <div class="bg-ink px-5 py-5 text-center">
+                    <div class="stat-number text-4xl text-paper/40 mb-1">0</div>
+                    <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Bills paid</div>
+                    <div class="text-[0.5rem] text-paper/18 mt-1">Pattern of non-payment</div>
+                </div>
+            </div>
+
+            <div class="border border-paper/[0.07] p-5 mb-8" style="background:rgba(214,61,47,0.03)">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Financial Record</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">West Kira has a default judgement entered against him — $10,000. The debt has since been sold to a third-party collector. A default judgement is not a disputed debt. It is what happens when someone does not show up, does not pay, and does not respond. It is a matter of public record.</p>
+            </div>
+
+            <div class="evidence-vault">
+                <div class="ev-header" onclick="toggleVault(this)">
+                    <div class="flex items-center gap-2">
+                        <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— West Kira · Recorded Incident</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                        <span class="ev-toggle">▼</span>
+                    </div>
+                </div>
+                <div class="ev-body">
+                    <div class="ev-file ef-hot" onclick="openMV('video-wk-glasses')">
+                        <div class="ev-icon ev-video">▶</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">west_kira_glasses_incident.mp4</div>
+                            <div class="ev-desc">Video · In-vehicle recording · West Kira destroys Adam's glasses</div>
+                        </div>
+                        <span class="ev-cta">Watch →</span>
+                    </div>
+                    <div class="ev-zip-bar">
+                        <span class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/25">Footage under legal review — full version pending clearance</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Kira & Kira Standalone Section -->
+<section id="kira-kira" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(214,61,47,0.06) 0%,rgba(8,8,8,0) 60%)">
+    <div class="max-w-6xl mx-auto">
+
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
+            <div>
+                <div class="flex items-center gap-3 mb-2">
+                    <div class="w-4 h-px bg-hot"></div>
+                    <span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">Organised Crime — Episode 1</span>
+                </div>
+                <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">KIRA &amp; KIRA.<br><span class="text-hot">FURNITURE OUT. COCAINE IN.</span></h2>
+                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">A Gold Coast furniture shop. A wealthy owner with Mick Gatto connections. Yakuza involvement. And a campaign of intimidation against Adam Watson that reached a Priceline chemist, a Centre Manager, and a disability centre near Broadbeach library.</p>
+            </div>
+            <div class="max-w-xs">
+                <div class="flex flex-wrap gap-2">
+                    <span class="evidence-tag text-hot" style="color:#d63d2f">⚠ Drug Trafficking — Alleged</span>
+                    <span class="evidence-tag text-gold" style="color:#e8a020">🎙 Psychologist Recording</span>
+                    <span class="evidence-tag" style="color:rgba(240,236,226,0.4)">⚖ Officers Stood Down</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mb-14 reveal">
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-hot mb-1">2</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Officers stood down</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">AG Deb Frecklington</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-gold mb-1">0</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Addresses obtained</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Threat had no legal basis</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-paper/50 mb-1">GC</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Kira &amp; Kira</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Alleged front — Gold Coast</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-sage mb-1">✓</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Mgmt co. terminated</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Entire company — Pacific Fair</div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-12">
+            <div class="space-y-14">
+
+                <!-- The Front -->
+                <div class="story-chapter reveal" style="border-left-color:rgba(214,61,47,0.3)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">The Front</span>
+                    </div>
+                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE FURNITURE SHOP<br><span class="text-hot">THAT MOVES MORE THAN SOFAS.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Kira and Kira is a Gold Coast furniture shop. On paper it is a legitimate retail business. In practice, it is alleged to be a front through which cocaine is moved — funnelled through the furniture, and distributed with Yakuza involvement."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">West Kira's father is the proprietor. He is wealthy. He is an associate of Mick Gatto. He allegedly arranged for associates to have a friend bashed — a friend who is connected to the supply chain running through Kira and Kira. The Yakuza are alleged to have been the instrument of that bashing.</p>
+                    <div class="border border-paper/[0.07] p-5 mb-5" style="background:rgba(214,61,47,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">What Is Alleged</div>
+                        <div class="space-y-2.5">
+                            <div class="flex gap-3 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><span class="text-[0.65rem] text-paper/45">Kira &amp; Kira operates as a front for cocaine distribution through its Gold Coast premises.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><span class="text-[0.65rem] text-paper/45">Narcotics are alleged to be funnelled through furniture inventory and shipments.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><span class="text-[0.65rem] text-paper/45">Yakuza connections are alleged to have been engaged to bash a person linked to the distribution chain.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><span class="text-[0.65rem] text-paper/45">West Kira's father subsequently directed a three-stage campaign of intimidation against Adam Watson.</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- The Chemist -->
+                <div class="story-chapter reveal" style="transition-delay:0.1s;border-left-color:rgba(232,160,32,0.3)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">The Priceline Incident</span>
+                    </div>
+                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THREATEN THE CHEMIST.<br><span class="text-gold">GET THE ADDRESS.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"West Kira's father wanted Adam Watson's home address. He went to the Priceline pharmacy that holds Adam's prescription records. He had enough money and enough connections to have the Centre Manager stand down the security guards and threaten the chemist's lease."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The Centre Manager — employed by the company contracted to manage Pacific Fair — was directed to stand the guards down and then issue a threat to the pharmacy operator: provide Adam Watson's home address, or face lease termination. It did not work. The chemist's lease runs directly through Wesfarmers, Priceline's parent company. The Centre Manager had no standing to terminate it. The address was not handed over.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The consequences were swift and total. The head of Wesfarmers contacted the owner of Pacific Fair directly. The owner was appalled. He personally called Jason — the Priceline pharmacist — and apologised for what had been done to him. He then stood down the entire company that had been managing Pacific Fair. Not just the Centre Manager. The whole management company — terminated.</p>
+
+                    <div class="border border-paper/[0.07] p-5 mb-5">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-4">Intimidation Sequence — The Priceline Attempt</div>
+                        <div class="space-y-2.5">
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Step 01</span><span class="text-[0.65rem] text-paper/45">West Kira's father approaches the Priceline chemist holding Adam Watson's prescription records.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Step 02</span><span class="text-[0.65rem] text-paper/45">Centre Manager is directed to stand down security guards — clearing access to the pharmacy.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Step 03</span><span class="text-[0.65rem] text-paper/45">Centre Manager threatens the chemist: provide Adam's home address or the lease will be terminated.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-gold/70 w-28 shrink-0 pt-0.5">Why it failed</span><span class="text-[0.65rem] text-paper/45">The chemist's lease runs to <span class="text-gold">Wesfarmers</span> — not to the building. The Centre Manager had no authority to terminate it. The threat could not be enforced.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-sage/70 w-28 shrink-0 pt-0.5">Outcome</span><span class="text-[0.65rem] text-paper/45">Address not obtained. Gina Rinehart contacted the Wesfarmers head, who called the Pacific Fair owner directly. The owner personally apologised to Jason the pharmacist — then terminated the entire management company. Not just the Centre Manager. The whole company.</span></div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <div class="border border-hot/20 p-5" style="background:rgba(214,61,47,0.03)">
+                            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">Management Company</div>
+                            <div class="space-y-1.5">
+                                <div class="text-[0.6rem] text-paper/35">✗ Centre Manager ordered security to stand down</div>
+                                <div class="text-[0.6rem] text-paper/35">✗ Threatened Jason the pharmacist's lease</div>
+                                <div class="text-[0.6rem] text-paper/35">✗ Entire company terminated — Pacific Fair</div>
+                            </div>
+                        </div>
+                        <div class="border border-sage/20 p-5" style="background:rgba(42,157,78,0.03)">
+                            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-2">Result</div>
+                            <div class="space-y-1.5">
+                                <div class="text-[0.6rem] text-paper/35">✓ No address obtained</div>
+                                <div class="text-[0.6rem] text-paper/35">✓ Wesfarmers head notified — Gina Rinehart</div>
+                                <div class="text-[0.6rem] text-paper/35">✓ Pacific Fair owner apologised to Jason personally</div>
+                                <div class="text-[0.6rem] text-paper/35">✓ Entire management company stood down</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- The Confrontation -->
+                <div class="story-chapter reveal" style="transition-delay:0.15s;border-left-color:rgba(123,94,167,0.3)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7b5ea7;border-color:rgba(123,94,167,0.4)">The Confrontation</span>
+                    </div>
+                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">TWO CORRUPT COPS.<br><span style="color:#7b5ea7">A PSYCHOLOGIST. A PHONE CALL.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"When the chemist gambit failed, West Kira's father went directly to the disability centre near Broadbeach library where Adam was. He came with two police officers on his payroll — and Peter Demchenko, the father of Aaliyah, Bodie Chalmers's girlfriend. West Kira's dad dropped Mick Gatto's name — as a threat. Adam called Mick Gatto right in front of them."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">A psychologist was present throughout the confrontation and recorded the entire interaction. West Kira's father arrived with two Queensland Police officers who attempted to intimidate Adam Watson, alongside Peter Demchenko — the father of Aaliyah, Bodie Chalmers's girlfriend, establishing the direct connection between the Chalmers network and this intimidation campaign. The invocation of Mick Gatto's name by West Kira's father was intended to establish a threat by association. Adam Watson's response — calling Mick Gatto directly, in front of everyone present — removed any ambiguity. Mick Gatto warned them clearly: do not mess with Adam Watson.</p>
+
+                    <div class="border border-paper/[0.07] p-5 mb-6">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-4">Confrontation — Broadbeach Disability Centre</div>
+                        <div class="space-y-2.5">
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Arrival</span><span class="text-[0.65rem] text-paper/45">West Kira's father and Peter Demchenko — father of Aaliyah, Bodie Chalmers's girlfriend — attend the disability centre near Broadbeach library where Adam Watson is present, accompanied by two QPS officers on payroll.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">The Threat</span><span class="text-[0.65rem] text-paper/45">West Kira's father drops Mick Gatto's name — invoking it as a warning against Adam Watson.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-gold/70 w-28 shrink-0 pt-0.5">The Call</span><span class="text-[0.65rem] text-paper/45">Adam Watson calls Mick Gatto directly — in front of all parties present. Gatto warns them: do not interfere with Adam Watson.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] w-28 shrink-0 pt-0.5" style="color:rgba(123,94,167,0.7)">The Recording</span><span class="text-[0.65rem] text-paper/45">A psychologist present records the entire confrontation — the officers, the threat, the phone call, and Mick Gatto's warning.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-sage/70 w-28 shrink-0 pt-0.5">Outcome</span><span class="text-[0.65rem] text-paper/45">Attorney General Deb Frecklington stands down both officers immediately upon receiving the psychologist's recording.</span></div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+                        <div class="border border-hot/20 p-5" style="background:rgba(214,61,47,0.03)">
+                            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">The Officers</div>
+                            <div class="font-display text-xl text-hot mb-2">STOOD DOWN</div>
+                            <p class="text-[0.62rem] text-paper/40 leading-relaxed">Both QPS officers present at the confrontation were stood down immediately by Attorney General Deb Frecklington following receipt of the psychologist's recording.</p>
+                        </div>
+                        <div class="border border-sage/20 p-5" style="background:rgba(42,157,78,0.03)">
+                            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-2">Recorded In Full</div>
+                            <div class="font-display text-xl text-sage mb-2">PSYCHOLOGIST PRESENT</div>
+                            <p class="text-[0.62rem] text-paper/40 leading-relaxed">A psychologist recorded the confrontation in its entirety — the intimidation attempt, the Mick Gatto phone call, and Gatto's warning. That recording drove the AG's immediate action.</p>
+                        </div>
+                    </div>
+
+                    <!-- Evidence Vault -->
+                    <div class="evidence-vault">
+                        <div class="ev-header" onclick="toggleVault(this)">
+                            <div class="flex items-center gap-2">
+                                <span class="text-[0.48rem] tracking-[0.22em] uppercase" style="color:#7b5ea7">📁 Evidence Files</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Kira Sr · Disability Centre Confrontation</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">2 files</span>
+                                <span class="ev-toggle">▼</span>
+                            </div>
+                        </div>
+                        <div class="ev-body">
+                            <div class="ev-file ef-sage" onclick="openMV('audio-disability')">
+                                <div class="ev-icon ev-audio"><div class="audio-bars"><b></b><b></b><b></b><b></b><b></b></div></div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">disability_centre_confrontation_RECORDING.wav</div>
+                                    <div class="ev-desc">Audio · Psychologist recording · Confrontation + Mick Gatto call · Broadbeach</div>
+                                </div>
+                                <span class="redact-tag">⬛ Under Review</span>
+                                <span class="ev-cta ml-2">Listen →</span>
+                            </div>
+                            <div class="ev-file ef-hot" onclick="openMV('video-wk-glasses')">
+                                <div class="ev-icon ev-video">▶</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">west_kira_glasses_incident.mp4</div>
+                                    <div class="ev-desc">Video · In-vehicle · West Kira destroys Adam's glasses · Bodie Chalmers associate</div>
+                                </div>
+                                <span class="ev-cta">Watch →</span>
+                            </div>
+                            <div class="ev-zip-bar">
+                                <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Download — Kira confrontation evidence bundle</span>
+                                <button class="mv-dl-btn mv-dl-gold text-[0.48rem]" onclick="downloadZip('kira_confrontation_evidence.zip')">⬇ ZIP Bundle</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- SIDEBAR -->
+            <div class="space-y-4">
+                <div class="sticky top-24 space-y-4">
+                    <div class="border border-hot/20 p-5" style="background:rgba(214,61,47,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Who Is West Kira Sr.</div>
+                        <div class="space-y-2.5">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40">Owner of Kira &amp; Kira — Gold Coast furniture retail.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40">Associate of Mick Gatto — invoked his name as a threat at the Broadbeach confrontation.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40">Alleged front operation — cocaine distribution through furniture.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40">Alleged Yakuza connection — engaged to bash an individual linked to the supply chain.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40">Directed three-stage intimidation campaign against Adam Watson.</p></div>
+                        </div>
+                    </div>
+                    <div class="border border-paper/[0.07] p-5" style="background:rgba(123,94,167,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase mb-2" style="color:#7b5ea7">Peter Demchenko</div>
+                        <p class="text-[0.62rem] text-paper/35 leading-relaxed">Father of Aaliyah — Bodie Chalmers's girlfriend. Present at the Broadbeach disability centre confrontation alongside West Kira's father and the two corrupt QPS officers. His presence establishes the direct connection between the Chalmers network and the intimidation campaign against Adam Watson.</p>
+                    </div>
+                    <div class="border border-gold/20 p-5" style="background:rgba(232,160,32,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-2">The Wesfarmers Connection</div>
+                        <p class="text-[0.62rem] text-paper/40 leading-relaxed mb-3">The Centre Manager's threat to terminate the Priceline lease was legally void — the lease runs to Wesfarmers, not the building. The intimidation had no legal basis.</p>
+                        <p class="text-[0.62rem] text-paper/40 leading-relaxed">Gina Rinehart contacted the Wesfarmers head, who called the Pacific Fair owner. The owner was appalled — he personally apologised to Jason the pharmacist, then terminated the entire company managing Pacific Fair.</p>
+                    </div>
+                    <div class="border border-paper/[0.07] p-5">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-2">Attorney General</div>
+                        <p class="text-[0.62rem] text-paper/35 leading-relaxed">Both QPS officers stood down by <span class="text-paper/55">Deb Frecklington</span>, Attorney General of Queensland, immediately following receipt of the psychologist's recording of the disability centre confrontation.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════
+     ILLAWARRA STRATA MANAGEMENT
+══════════════════════════ -->
+<section class="relative min-h-screen flex flex-col pt-14">
+    <div class="absolute inset-0 z-0">
+        <div class="absolute inset-0" style="background:linear-gradient(135deg,rgba(214,61,47,0.07) 0%,transparent 55%,rgba(123,94,167,0.04) 100%)"></div>
+        <div class="scanlines absolute inset-0 opacity-40"></div>
+        <div style="position:absolute;inset:0;background-image:linear-gradient(rgba(240,236,226,0.018) 1px,transparent 1px),linear-gradient(90deg,rgba(240,236,226,0.018) 1px,transparent 1px);background-size:64px 64px"></div>
+        <div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,#d63d2f 35%,#e8a020 65%,transparent)"></div>
+    </div>
+
+    <!-- top bar -->
+    <div class="relative z-10 flex items-center justify-between px-5 md:px-10 py-3 border-b border-paper/[0.05]">
+        <div class="flex items-center gap-4">
+            <span class="font-display text-hot text-lg tracking-widest">WOLLONGONG NSW</span>
+            <div class="w-px h-4 bg-paper/10"></div>
+            <span class="text-[0.55rem] tracking-[0.22em] uppercase text-paper/30">Property Investigation — SP 93922</span>
+        </div>
+        <div class="hidden sm:flex items-center gap-3 text-[0.52rem] tracking-[0.18em] uppercase text-paper/22">
+            <span>5 Grounds</span><div class="w-px h-3 bg-paper/10"></div><span>9 Documents</span><div class="w-px h-3 bg-paper/10"></div><span class="text-gold">Filed 3 Mar 2026</span>
+        </div>
+    </div>
+
+    <div class="relative z-10 flex-1 grid grid-cols-1 lg:grid-cols-[1fr_400px]">
+        <!-- Left -->
+        <div class="flex flex-col justify-center px-6 md:px-12 py-14 lg:py-20">
+            <div class="fade-up mb-6" style="animation-delay:0.05s">
+                <div class="flex items-center gap-3 mb-5">
+                    <div class="w-6 h-px bg-hot"></div>
+                    <span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">Strata Investigation</span>
+                    <span class="text-[0.48rem] tracking-[0.12em] uppercase text-paper/22 border border-paper/10 px-2 py-0.5">NCAT Active Case</span>
+                </div>
+                <h1 class="font-display leading-[0.85] tracking-wide glitch" data-text="ILLAWARRA" style="font-size:clamp(3.5rem,10vw,8rem)">ILLAWARRA</h1>
+                <h1 class="font-display leading-[0.85] tracking-wide text-hot" style="font-size:clamp(3.5rem,10vw,8rem)">STRATA</h1>
+                <h1 class="font-display leading-[0.85] tracking-wide text-paper/30" style="font-size:clamp(2rem,5.5vw,4.5rem)">MANAGEMENT</h1>
+                <div class="w-24 h-[2px] bg-hot mt-5 mb-5"></div>
+                <p class="font-serif italic text-paper/45 leading-relaxed max-w-xl" style="font-size:clamp(1rem,2vw,1.2rem)">How a Wollongong strata manager turned a consistently paying lot owner into a Federal Court wind-up target — while the building crumbled and the books stayed dark.</p>
+            </div>
+
+            <div class="fade-up flex flex-wrap gap-2 mb-10" style="animation-delay:0.22s">
+                <span class="evidence-tag" style="color:#d63d2f;border-color:#d63d2f">⚖ NCAT s.237 SSMA 2015</span>
+                <span class="evidence-tag" style="color:#e8a020;border-color:#e8a020">📋 Federal Court TAD47/2025</span>
+                <span class="evidence-tag" style="color:#7b5ea7;border-color:#7b5ea7">🏢 Oxford On Crown · 30 Burelli St</span>
+            </div>
+
+            <!-- 5-stat strip -->
+            <div class="fade-up grid grid-cols-5 gap-px bg-paper/[0.04]" style="animation-delay:0.36s">
+                <div class="bg-ink px-3 py-5 text-center"><div class="stat-number text-4xl text-hot mb-1">5</div><div class="text-[0.44rem] tracking-[0.1em] uppercase text-paper/28 leading-tight">Legal<br>Grounds</div></div>
+                <div class="bg-ink px-3 py-5 text-center"><div class="stat-number text-4xl text-gold mb-1">$63K</div><div class="text-[0.44rem] tracking-[0.1em] uppercase text-paper/28 leading-tight">Lot 4<br>Balance</div></div>
+                <div class="bg-ink px-3 py-5 text-center"><div class="stat-number text-4xl text-paper/55 mb-1">$8K</div><div class="text-[0.44rem] tracking-[0.1em] uppercase text-paper/28 leading-tight">Paid<br>Monthly</div></div>
+                <div class="bg-ink px-3 py-5 text-center"><div class="stat-number text-4xl text-hot mb-1">2×</div><div class="text-[0.44rem] tracking-[0.1em] uppercase text-paper/28 leading-tight">Wind-Up<br>Petitions</div></div>
+                <div class="bg-ink px-3 py-5 text-center"><div class="stat-number text-4xl text-sage mb-1">14</div><div class="text-[0.44rem] tracking-[0.1em] uppercase text-paper/28 leading-tight">Defect<br>Photos</div></div>
+            </div>
+        </div>
+
+        <!-- Right sidebar -->
+        <div class="lg:border-l border-paper/[0.06] flex flex-col" style="background:rgba(8,8,8,0.72)">
+            <div class="px-6 py-5 border-b border-paper/[0.06]">
+                <div class="text-[0.47rem] tracking-[0.22em] uppercase text-hot mb-1">Active Proceedings</div>
+                <div class="font-display text-base tracking-widest text-paper/50 mb-4">CASE REFERENCE</div>
+                <div class="space-y-2.5">
+                    <div class="border border-paper/[0.06] p-3.5">
+                        <div class="text-[0.45rem] tracking-[0.18em] uppercase text-paper/22 mb-1.5">NCAT Application</div>
+                        <div class="text-[0.68rem] text-paper/55 leading-relaxed">PSR Crown Investments Pty Ltd<br><span class="text-paper/30">v</span><br>The Owners — SP 93922</div>
+                        <div class="text-[0.48rem] text-hot mt-1.5">Filed 3 March 2026</div>
+                    </div>
+                    <div class="border border-paper/[0.06] p-3.5">
+                        <div class="text-[0.45rem] tracking-[0.18em] uppercase text-paper/22 mb-1.5">Federal Court</div>
+                        <div class="text-[0.68rem] text-paper/55 leading-relaxed">TAD47/2025<br>Petition 1 dismissed by consent 8 Oct 2025</div>
+                        <div class="text-[0.48rem] text-gold mt-1.5">Petition 2 filed Feb 2026 — active</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="px-6 py-5 border-b border-paper/[0.06]">
+                <div class="text-[0.47rem] tracking-[0.22em] uppercase text-paper/22 mb-3">The Property</div>
+                <div class="border border-paper/[0.06] p-4 mb-3">
+                    <div class="font-display text-xl tracking-wide text-paper/50">OXFORD ON CROWN</div>
+                    <div class="text-[0.58rem] text-paper/30 mt-0.5">30 Burelli Street, Wollongong NSW 2500</div>
+                    <div class="text-[0.5rem] text-paper/20 mt-0.5">Strata Plan 93922 · ABN: 64 673 362 665</div>
+                </div>
+                <div class="text-[0.47rem] tracking-[0.22em] uppercase text-paper/22 mb-3">The Applicant</div>
+                <div class="text-[0.62rem] text-paper/40 leading-relaxed">PSR Crown Investments Pty Ltd (ACN: 162 526 712) — owns Lots 4 (Suite 5) and 8 (Suite 10), acquired 7 March 2022. Robert Huang, director.</div>
+            </div>
+
+            <div class="px-6 py-5 border-b border-paper/[0.06] flex-1">
+                <div class="text-[0.47rem] tracking-[0.22em] uppercase text-paper/22 mb-3">Key Parties</div>
+                <div class="space-y-3">
+                    <div class="flex gap-2.5 items-start"><div class="w-1.5 h-1.5 rounded-full bg-sage mt-1.5 shrink-0"></div><div><div class="text-[0.6rem] text-paper/55">PSR Crown Investments Pty Ltd</div><div class="text-[0.5rem] text-paper/28">Robert Huang, Director · Lots 4 & 8 · SP 93922</div></div></div>
+                    <div class="flex gap-2.5 items-start"><div class="w-1.5 h-1.5 rounded-full bg-hot mt-1.5 shrink-0"></div><div><div class="text-[0.6rem] text-paper/55">Wandah Allen-Taylor</div><div class="text-[0.5rem] text-paper/28">Illawarra Strata Management — Strata Manager</div></div></div>
+                    <div class="flex gap-2.5 items-start"><div class="w-1.5 h-1.5 rounded-full bg-hot mt-1.5 shrink-0"></div><div><div class="text-[0.6rem] text-paper/55">CCA Legal</div><div class="text-[0.5rem] text-paper/28">Stephen Ecob, Lauren Ikin — Debt Recovery</div></div></div>
+                    <div class="flex gap-2.5 items-start"><div class="w-1.5 h-1.5 rounded-full bg-gold mt-1.5 shrink-0"></div><div><div class="text-[0.6rem] text-paper/55">Graham Gordon</div><div class="text-[0.5rem] text-paper/28">Strata Committee Chairman — Levy notices redirected to him</div></div></div>
+                </div>
+            </div>
+
+            <div class="px-6 py-4">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold blink mb-2">NCAT Determination Pending</div>
+                <div class="text-[0.55rem] text-paper/22 leading-relaxed">Urgent interim orders sought to stay Federal Court wind-up proceedings while NCAT determines whether to appoint a compulsory strata managing agent.</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════
+     INTRO
+══════════════════════════ -->
+<section class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(214,61,47,0.04) 0%,transparent 45%)">
+    <div class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-12">
+            <div class="reveal">
+                <div class="flex items-center gap-3 mb-5"><div class="w-4 h-px bg-hot"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">The Investigation</span></div>
+                <h2 class="font-display leading-none tracking-wide mb-6" style="font-size:clamp(2.2rem,5vw,3.8rem)">PAYING EVERY MONTH.<br><span class="text-hot">FACING WIND-UP.</span></h2>
+                <p class="font-serif italic text-paper/55 leading-relaxed mb-5" style="font-size:clamp(1rem,2vw,1.15rem)">"PSR Crown Investments has paid $4,000 per month on each lot without fail since March 2022. In return, their strata manager's chosen debt recovery firm filed two separate wind-up petitions against them in the Federal Court — and loaded their account with over $63,000 in charges, the bulk of which are legal fees, not unpaid levies."</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The NCAT application sets out five distinct grounds under section 237 of the Strata Schemes Management Act 2015. Together they describe a strata scheme where common property is deteriorating, committee members are using shared areas without authorisation, the strata roll has been manipulated to intercept levy notices, a consistently paying owner has been subjected to two winding-up petitions, and financial records have been withheld.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45">The applicant is not seeking money. They are asking NCAT to appoint a compulsory strata managing agent — and to stay the Federal Court proceedings in the meantime.</p>
+            </div>
+            <div class="reveal space-y-3" style="transition-delay:0.1s">
+                <div class="border border-hot/25 p-5" style="background:rgba(214,61,47,0.03)">
+                    <div class="text-[0.47rem] tracking-[0.2em] uppercase text-hot mb-2">What s.237 SSMA Does</div>
+                    <p class="text-[0.62rem] text-paper/40 leading-relaxed">Allows NCAT to appoint a compulsory strata managing agent when the Owners Corporation has failed its statutory duties or the scheme is not functioning satisfactorily. The appointed agent takes over all OC functions.</p>
+                </div>
+                <div class="border border-paper/[0.07] p-5">
+                    <div class="text-[0.47rem] tracking-[0.2em] uppercase text-paper/22 mb-2">No Mediation Required</div>
+                    <p class="text-[0.62rem] text-paper/35 leading-relaxed">The application relies on the exemption under s.227(4)(a) SSMA — compulsory manager applications are exempt from the mediation requirement.</p>
+                </div>
+                <div class="border border-gold/25 p-5" style="background:rgba(232,160,32,0.025)">
+                    <div class="text-[0.47rem] tracking-[0.2em] uppercase text-gold mb-2">Interim Orders Sought</div>
+                    <p class="text-[0.62rem] text-paper/35 leading-relaxed">Stay of Federal Court wind-up proceedings and restraint on Graham Gordon and the OC from taking further adverse action pending NCAT determination.</p>
+                </div>
+                <div class="border border-paper/[0.07] p-5">
+                    <div class="text-[0.47rem] tracking-[0.2em] uppercase text-paper/22 mb-2">Three Cited Authorities</div>
+                    <div class="space-y-1.5">
+                        <div class="text-[0.57rem] text-paper/32 italic">Maple v The Owners SP 8950 [2021]</div>
+                        <div class="text-[0.57rem] text-paper/32 italic">Kahn v Owners Corp SP 2010 [2017]</div>
+                        <div class="text-[0.57rem] text-paper/32 italic">Hoare v The Owners SP 73905 [2018]</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════
+     GROUNDS
+══════════════════════════ -->
+<section class="py-20 px-5 md:px-10 border-t border-paper/[0.05]">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
+            <div>
+                <div class="flex items-center gap-3 mb-2"><div class="w-4 h-px bg-hot"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">Five Grounds — s.237(3) SSMA 2015</span></div>
+                <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">THE CASE<br><span class="text-hot">AGAINST THEM</span></h2>
+                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">Five independent grounds, each sufficient alone. Together they describe a scheme whose management has comprehensively failed its lot owners over three years.</p>
+            </div>
+            <div class="flex flex-wrap gap-2 max-w-xs">
+                <span class="evidence-tag" style="color:#d63d2f;border-color:#d63d2f">📄 Statement of Grounds verified</span>
+                <span class="evidence-tag" style="color:#e8a020;border-color:#e8a020">⚖ Active NCAT Application</span>
+            </div>
+        </div>
+
+        <!-- left nav + chapters grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-[240px_1fr] gap-10 lg:gap-16">
+
+            <!-- sticky nav -->
+            <div class="hidden lg:block">
+                <div class="sticky top-24 space-y-1">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/20 mb-4">Five Grounds</div>
+                    <a href="#ground1" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot active"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Ground 01</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Common property neglect</div></div></a>
+                    <a href="#ground2" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot" style="background:#e8a020;box-shadow:0 0 0 3px rgba(232,160,32,0.2)"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Ground 02</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Unauthorised committee use</div></div></a>
+                    <a href="#ground3" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot" style="background:#7b5ea7;box-shadow:0 0 0 3px rgba(123,94,167,0.2)"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Ground 03</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Strata roll manipulation</div></div></a>
+                    <a href="#ground4" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Ground 04</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Systematic debt loading</div></div></a>
+                    <a href="#ground5" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot" style="background:#7b5ea7;box-shadow:0 0 0 3px rgba(123,94,167,0.2)"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Ground 05</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Financial records withheld</div></div></a>
+                    <a href="#timeline" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot" style="background:#2a9d4e;box-shadow:0 0 0 3px rgba(42,157,78,0.2)"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Timeline</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Payment plan betrayal</div></div></a>
+                    <a href="#tasmania" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot" style="background:#d63d2f;box-shadow:0 0 0 3px rgba(214,61,47,0.25)"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-hot transition-colors">Tasmania</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Jurisdictional bullying</div></div></a>
+                </div>
+            </div>
+
+            <div class="space-y-20">
+
+                <!-- ── GROUND 1 ── -->
+                <div id="ground1" class="story-chapter reveal">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Ground 01 — s.106 SSMA</span>
+                        <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Statutory Duty to Maintain</span>
+                    </div>
+                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE BUILDING IS<br><span class="text-hot">FALLING APART.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Section 106 of the SSMA imposes a non-delegable duty on the Owners Corporation to properly maintain and keep in good and serviceable repair the common property. Oxford On Crown is not being maintained. The photographic evidence is unambiguous."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">The application is supported by 14 photographs of common property at 30 Burelli Street documenting a building in sustained, ongoing physical deterioration — and a strata committee that has failed to address any of it.</p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-6">
+                        <div class="border border-hot/20 p-4" style="background:rgba(214,61,47,0.03)"><div class="text-[0.47rem] tracking-[0.18em] uppercase text-hot mb-1.5">C-6 — Ceiling Hole</div><div class="text-[0.63rem] text-paper/50 leading-relaxed">Large hole in common area ceiling. Exposed structural beams. Live electrical wiring accessible. Unaddressed safety hazard.</div></div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(214,61,47,0.03)"><div class="text-[0.47rem] tracking-[0.18em] uppercase text-hot mb-1.5">C-7, C-11 — Black Mould</div><div class="text-[0.63rem] text-paper/50 leading-relaxed">Severe black mould growth at internal wall and ceiling junction near atrium skylight. Active water penetration. Ongoing.</div></div>
+                        <div class="border border-paper/[0.07] p-4"><div class="text-[0.47rem] tracking-[0.18em] uppercase text-paper/28 mb-1.5">C-3 — Exposed Wiring</div><div class="text-[0.63rem] text-paper/50 leading-relaxed">Services cupboard: unsecured electrical conduits and exposed cabling. Compliance breach. Unremediated.</div></div>
+                        <div class="border border-paper/[0.07] p-4"><div class="text-[0.47rem] tracking-[0.18em] uppercase text-paper/28 mb-1.5">C-5 — Cracked Tiles</div><div class="text-[0.63rem] text-paper/50 leading-relaxed">Multiple cracked floor tiles across common area. Documented trip hazard. No remediation.</div></div>
+                        <div class="border border-paper/[0.07] p-4"><div class="text-[0.47rem] tracking-[0.18em] uppercase text-paper/28 mb-1.5">C-9 — Missing Ceiling Tiles</div><div class="text-[0.63rem] text-paper/50 leading-relaxed">Corridor ceiling: multiple missing tiles, void exposed. Systemic neglect across multiple corridors.</div></div>
+                        <div class="border border-paper/[0.07] p-4"><div class="text-[0.47rem] tracking-[0.18em] uppercase text-paper/28 mb-1.5">C-1, C-2, C-12–14 — Grounds</div><div class="text-[0.63rem] text-paper/50 leading-relaxed">Bare planters. Warped decking. Deteriorated furniture. Damaged glass doors. Building-wide external neglect.</div></div>
+                    </div>
+
+                    <div class="evidence-vault">
+                        <div class="ev-header" onclick="toggleVault(this)">
+                            <div class="flex items-center gap-2"><span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span><span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Annexure C · 14 Photographs of Common Property</span></div>
+                            <div class="flex items-center gap-3"><span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">14 images</span><span class="ev-toggle">▼</span></div>
+                        </div>
+                        <div class="ev-body">
+                            <div class="ev-file ef-hot" onclick="openDoc('pdf-c6','C-6 — Ceiling Hole With Live Wiring','Annexure C · Ground 01','Image · Large hole in common area ceiling — exposed beams — live wiring accessible — unrepaired',4)"><div class="ev-icon ev-img">📷</div><div class="ev-meta"><div class="ev-name">annexure_C6_ceiling_hole_live_wiring.jpg</div><div class="ev-desc">Image · Common area ceiling hole with exposed beams and live wiring · Unrepaired</div></div><span class="ev-cta">View →</span></div>
+                            <div class="ev-file ef-hot" onclick="openDoc('pdf-c7','C-7, C-11 — Severe Black Mould','Annexure C · Ground 01','Image · Black mould at wall/ceiling junction near atrium skylight · Active water penetration · Ongoing',4)"><div class="ev-icon ev-img">📷</div><div class="ev-meta"><div class="ev-name">annexure_C7_C11_black_mould_atrium.jpg</div><div class="ev-desc">Image · Severe black mould near skylight · Active water penetration · Unrepaired</div></div><span class="ev-cta">View →</span></div>
+                            <div class="ev-file ef-gold" onclick="openDoc('pdf-c3','C-3 — Exposed Electrical Conduits','Annexure C · Ground 01','Image · Services cupboard — unsecured electrical conduits — compliance breach',4)"><div class="ev-icon ev-img">📷</div><div class="ev-meta"><div class="ev-name">annexure_C3_exposed_electrical_conduits.jpg</div><div class="ev-desc">Image · Services cupboard — unsecured conduits — compliance breach</div></div><span class="ev-cta">View →</span></div>
+                            <div class="ev-file ef-gold" onclick="openDoc('pdf-c5','C-5 — Cracked Floor Tiles','Annexure C · Ground 01','Image · Multiple cracked floor tiles across common area · Trip hazard · Unremediated',4)"><div class="ev-icon ev-img">📷</div><div class="ev-meta"><div class="ev-name">annexure_C5_cracked_tiles_common_area.jpg</div><div class="ev-desc">Image · Multiple cracked floor tiles · Unremediated trip hazard</div></div><span class="ev-cta">View →</span></div>
+                            <div class="ev-file ef-sage" onclick="openDoc('pdf-c9','C-9 — Missing Ceiling Tiles','Annexure C · Ground 01','Image · Corridor ceiling with multiple missing tiles — void exposed above — systemic neglect',4)"><div class="ev-icon ev-img">📷</div><div class="ev-meta"><div class="ev-name">annexure_C9_missing_ceiling_tiles_corridor.jpg</div><div class="ev-desc">Image · Corridor — missing ceiling tiles — void above exposed — systemic neglect</div></div><span class="ev-cta">View →</span></div>
+                            <div class="ev-file ef-sage" onclick="openDoc('pdf-cext','C-1, C-2, C-12–C-14 — External Grounds Neglect','Annexure C · Ground 01','Images (6) · Bare planters · Warped decking · Damaged furniture · External frontage',4)"><div class="ev-icon ev-img">📷</div><div class="ev-meta"><div class="ev-name">annexure_C1_C2_C12-14_external_grounds.jpg</div><div class="ev-desc">Images ×6 · Bare planters · Warped decking · Damaged external furniture</div></div><span class="ev-cta">View →</span></div>
+                            <div class="ev-zip-bar"><span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Full photographic annexure — 14 images — lodged with NCAT 3 March 2026</span><button class="mv-dl-btn mv-dl-gold text-[0.48rem]" onclick="showToast('Annexure C — 14 photographs lodged with NCAT 3 March 2026')">⬇ Annexure C</button></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ── GROUND 2 ── -->
+                <div id="ground2" class="story-chapter reveal" style="transition-delay:0.06s;border-left-color:rgba(232,160,32,0.15)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Ground 02 — Common Property</span>
+                        <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Unauthorised Use</span>
+                    </div>
+                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">COMMITTEE MEMBERS<br><span class="text-gold">USING COMMON PROPERTY. NO BY-LAW.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Common property belongs to all lot owners collectively. Any grant of exclusive use requires a special by-law passed at a duly convened general meeting — a safeguard designed to prevent the committee from quietly conferring benefits on its own members at the expense of everyone else."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Committee members of the Owners Corporation have been permitted to occupy or use common property of the Scheme without proper authorisation — no special by-law, no general meeting resolution. This is an improper conferral of benefit on committee members at the expense of all lot owners.</p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                        <div class="border border-paper/[0.07] p-5">
+                            <div class="text-[0.48rem] tracking-[0.18em] uppercase text-paper/25 mb-2">What Should Have Happened</div>
+                            <div class="space-y-1.5">
+                                <div class="text-[0.62rem] text-paper/40">→ Special by-law passed at general meeting</div>
+                                <div class="text-[0.62rem] text-paper/40">→ All lot owners notified and given a vote</div>
+                                <div class="text-[0.62rem] text-paper/40">→ Transparent resolution on the public record</div>
+                            </div>
+                        </div>
+                        <div class="border border-hot/20 p-5" style="background:rgba(214,61,47,0.03)">
+                            <div class="text-[0.48rem] tracking-[0.18em] uppercase text-hot mb-2">What Actually Happened</div>
+                            <div class="space-y-1.5">
+                                <div class="text-[0.62rem] text-paper/40">→ No special by-law</div>
+                                <div class="text-[0.62rem] text-paper/40">→ No general meeting resolution</div>
+                                <div class="text-[0.62rem] text-paper/40">→ Benefit conferred on committee at lot owners' expense</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-[0.65rem] text-paper/32 leading-relaxed border-l-2 border-gold/30 pl-4 italic">Legal authority: <em>Bischoff v Sahade [2015] NSWCATAP 135</em> — unauthorised conferral of benefit on committee members at the expense of lot owners is consistent with the scheme's management not functioning satisfactorily under s.237(3)(a).</p>
+                </div>
+
+                <!-- ── GROUND 3 ── -->
+                <div id="ground3" class="story-chapter reveal" style="transition-delay:0.1s;border-left-color:rgba(123,94,167,0.2)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7b5ea7;border-color:rgba(123,94,167,0.4)">Ground 03 — Strata Roll</span>
+                        <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Manipulation</span>
+                    </div>
+                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">LEVY NOTICES REDIRECTED<br><span style="color:#7b5ea7">TO THE CHAIRMAN. WITHOUT CONSENT.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Without the knowledge or consent of the Applicant, the address recorded for the Applicant's lots on the strata roll was altered. Levy notices and correspondence were directed to Graham Gordon — the chairman of the strata committee — rather than to the lot owner."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">The OC is required to maintain an accurate strata roll and issue levy notices to lot owners at their correct address. Redirecting that correspondence to a committee chairman — without the lot owner's knowledge — is exactly the mechanism by which a debt can be allowed to grow silently, without the owner ever receiving a notice.</p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                        <div class="border p-5" style="border-color:rgba(123,94,167,0.2);background:rgba(123,94,167,0.03)">
+                            <div class="text-[0.48rem] tracking-[0.18em] uppercase mb-2" style="color:#7b5ea7">Strata Roll Should Show</div>
+                            <div class="text-[0.65rem] text-paper/45 leading-relaxed">PSR Crown Investments Pty Ltd<br>Robert Huang, Director<br>Lots 4 & 8 — SP 93922<br><span class="text-paper/25 text-[0.52rem]">Registered lot owner address</span></div>
+                        </div>
+                        <div class="border border-hot/20 p-5" style="background:rgba(214,61,47,0.03)">
+                            <div class="text-[0.48rem] tracking-[0.18em] uppercase text-hot mb-2">What Was Recorded Instead</div>
+                            <div class="text-[0.65rem] text-paper/45 leading-relaxed">Address altered — notices redirected to:<br><span class="text-hot">Graham Gordon</span><br>Strata Committee Chairman<br><span class="text-paper/25 text-[0.52rem]">Without consent of the lot owner</span></div>
+                        </div>
+                    </div>
+
+                    <div class="evidence-vault">
+                        <div class="ev-header" onclick="toggleVault(this)">
+                            <div class="flex items-center gap-2"><span class="text-[0.48rem] tracking-[0.22em] uppercase" style="color:#7b5ea7">📁 Evidence Files</span><span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Annexure D · Strata Roll Address Redirection Evidence</span></div>
+                            <div class="flex items-center gap-3"><span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span><span class="ev-toggle">▼</span></div>
+                        </div>
+                        <div class="ev-body">
+                            <div class="ev-file ef-violet" onclick="openDoc('pdf-d','Annexure D — Strata Roll Address Redirection','Ground 03 · Strata Roll Manipulation','Evidence of strata roll address alteration — levy notices redirected to Graham Gordon without lot owner consent',2)"><div class="ev-icon ev-pdf">PDF</div><div class="ev-meta"><div class="ev-name">annexure_D_strata_roll_address_redirection.pdf</div><div class="ev-desc">PDF · Evidence of address alteration — levy notices redirected to committee chairman</div></div><span class="ev-cta">View →</span></div>
+                            <div class="ev-zip-bar"><span class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/25">Strata roll manipulation evidence — lodged with NCAT 3 March 2026</span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- end space-y-20 -->
+        </div><!-- end grid -->
+    </div>
+</section>
+
+
+<!-- ══════════════════════════
+     GROUND 4 — DEBT LOADING
+══════════════════════════ -->
+<section id="ground4" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(214,61,47,0.06) 0%,transparent 55%)">
+    <div class="max-w-6xl mx-auto">
+
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
+            <div>
+                <div class="flex items-center gap-3 mb-2"><div class="w-4 h-px bg-hot"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">Ground 04 — The Core Allegation</span></div>
+                <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">SYSTEMATIC<br><span class="text-hot">DEBT LOADING</span></h2>
+                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">A lot owner paying $4,000 per month on each lot, every month, for four years — ending up with a $63,000 debt, mostly from legal fees charged by the same lawyers pursuing them in Federal Court.</p>
+            </div>
+            <div class="flex flex-wrap gap-2 max-w-xs">
+                <span class="evidence-tag" style="color:#d63d2f;border-color:#d63d2f">📋 Annexure A — Account Statements</span>
+                <span class="evidence-tag" style="color:#e8a020;border-color:#e8a020">⚖ 2× Wind-Up Petitions</span>
+            </div>
+        </div>
+
+        <!-- Stats strip -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mb-14 reveal">
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-5xl text-hot mb-1">$63K</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Lot 4 balance</div><div class="text-[0.5rem] text-paper/18 mt-1">As at 2 March 2026</div></div>
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-5xl text-gold mb-1">$6,978</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Wind-up filing fees</div><div class="text-[0.5rem] text-paper/18 mt-1">Split across both lots</div></div>
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-5xl text-paper/55 mb-1">$4K</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Per lot per month</div><div class="text-[0.5rem] text-paper/18 mt-1">Consistent. Never missed.</div></div>
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-5xl text-sage mb-1">0</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Payments missed</div><div class="text-[0.5rem] text-paper/18 mt-1">March 2022 — present</div></div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12">
+            <div>
+                <div class="story-chapter reveal mb-10">
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The account statements for Lot 4 tell a specific story. Between July 2023 and February 2026, CCA Legal charged the account with demand letters, processing fees, company searches, caveat searches, title searches, multiple Statements of Claim, Local Court judgments, Garnishee orders, NSW Strata S86 Demands, Corporations Act S509 Demands — and ultimately the winding-up petition filing fee, split at $3,489 per lot.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Throughout this entire period, the $4,000 monthly payments kept arriving. The Statement of Grounds records payments as recently as 16 February 2026 — 15 days before the NCAT application was filed. The lot owner was not defaulting. They were being systematically loaded with costs by the very agents the Owners Corporation had engaged to pursue them.</p>
+                    <p class="text-[0.65rem] text-paper/32 leading-relaxed border-l-2 border-hot/30 pl-4 italic">Legal authority: <em>Hoare v The Owners – Strata Plan No. 73905 [2018] NSWCATCD 45</em> — initiating winding up proceedings against a lot owner making ongoing payments, whose balance is primarily inflated by legal costs charged by the Owners Corporation's own debt recovery agents, constitutes an improper and disproportionate exercise of the Owners Corporation's functions.</p>
+                </div>
+
+                <!-- CCA Cost Table -->
+                <div class="reveal">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">CCA Legal Charges — Lot 4 Account (Selected entries from Annexure A1)</div>
+                    <div style="overflow-x:auto">
+                        <table class="cost-table">
+                            <thead><tr><th style="width:90px">Date</th><th>Description</th><th style="text-align:right;width:90px">Amount</th></tr></thead>
+                            <tbody>
+                                <tr><td class="td-date">26 Jul 2023</td><td>CCA #426586: Demand Letter — Registered Mail</td><td class="td-amt">$77.00</td></tr>
+                                <tr><td class="td-date">26 Jul 2023</td><td>Processing CCA invoice #426586</td><td class="td-amt">$33.00</td></tr>
+                                <tr><td class="td-date">18 Nov 2024</td><td>CCA #481303: Demand Letter — Registered Mail</td><td class="td-amt">$77.00</td></tr>
+                                <tr><td class="td-date">18 Nov 2024</td><td>Processing CCA invoice #481303</td><td class="td-amt">$33.00</td></tr>
+                                <tr><td class="td-date">27 Jun 2025</td><td>CCA #510320: NSW Strata S86 Demand</td><td class="td-amt">$198.00</td></tr>
+                                <tr><td class="td-date">11 Aug 2025</td><td>CCA #515451: Statement of Claim — Local Court</td><td class="td-amt">$1,502.00</td></tr>
+                                <tr><td class="td-date">11 Aug 2025</td><td>CCA #515447: Title Search / Care & Attention</td><td class="td-amt">$154.00</td></tr>
+                                <tr><td class="td-date">11 Aug 2025</td><td>CCA #515461: NSW Strata S86 Demand</td><td class="td-amt">$209.00</td></tr>
+                                <tr><td class="td-date">21 Aug 2025</td><td>CCA #517131: Advice / Correspondence</td><td class="td-amt">$275.00</td></tr>
+                                <tr><td class="td-date">10 Sep 2025</td><td>CCA #519893: Title Search / Investigation</td><td class="td-amt">$99.00</td></tr>
+                                <tr><td class="td-date">10 Sep 2025</td><td>CCA #519897: Statement of Claim — Local Court</td><td class="td-amt">$997.40</td></tr>
+                                <tr><td class="td-date">16 Sep 2025</td><td>CCA #520491: Garnishee Order — Local Court</td><td class="td-amt">$264.00</td></tr>
+                                <tr><td class="td-date">16 Sep 2025</td><td>CCA #520489: Judgment — Local Court</td><td class="td-amt">$310.20</td></tr>
+                                <tr><td class="td-date">28 Oct 2025</td><td>CCA #525493: Judgment — Local Court</td><td class="td-amt">$248.16</td></tr>
+                                <tr><td class="td-date">28 Oct 2025</td><td>CCA #525495: Garnishee Order — Local Court</td><td class="td-amt">$264.00</td></tr>
+                                <tr><td class="td-date">12 Nov 2025</td><td>CCA #527096: Company Search</td><td class="td-amt">$55.00</td></tr>
+                                <tr><td class="td-date">12 Nov 2025</td><td>CCA #527097: NSW Strata S86 Demand</td><td class="td-amt">$209.00</td></tr>
+                                <tr><td class="td-date">12 Nov 2025</td><td>CCA #527098: Caveat Search</td><td class="td-amt">$44.00</td></tr>
+                                <tr><td class="td-date">17 Nov 2025</td><td>CCA #527072: S509 Demand — Corporations Act + Affidavit (½ split)</td><td class="td-amt">$313.50</td></tr>
+                                <tr><td class="td-date">16 Dec 2025</td><td>Interest on arrears to 16/12/2025</td><td class="td-amt">$1,268.78</td></tr>
+                                <tr><td class="td-date">6–9 Feb 2026</td><td>CCA #536264: Wind-Up Petition — Filing Fee + Instructions (½ split)</td><td class="td-amt">$3,489.00</td></tr>
+                                <tr class="subtotal"><td colspan="2" class="text-[0.5rem] tracking-[0.12em] uppercase text-paper/28">Selected CCA Legal charges — Lot 4 (excludes underlying levy amounts)</td><td class="td-total">~$10,100+</td></tr>
+                                <tr class="subtotal"><td colspan="2" class="text-[0.5rem] tracking-[0.12em] uppercase text-paper/28">Total Lot 4 balance — incl. all fees + interest — 2 March 2026</td><td class="td-total" style="color:#d63d2f">$63,332.85</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="text-[0.53rem] text-paper/22 mt-2 leading-relaxed">Lot 8 carries a separate balance of $6,388.03 as at 2 March 2026, after the $30,000 lump sum on 20 August 2025 and continued monthly payments.</p>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="reveal space-y-4" style="transition-delay:0.1s">
+                <div class="sticky top-24 space-y-4">
+                    <div class="border border-hot/25 p-5" style="background:rgba(214,61,47,0.04)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Lot 4 — Balance Breakdown</div>
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-center py-1 border-b border-paper/[0.05]"><span class="text-[0.6rem] text-paper/45">Administrative Fund</span><span class="text-[0.6rem] text-hot">$49,191.69</span></div>
+                            <div class="flex justify-between items-center py-1 border-b border-paper/[0.05]"><span class="text-[0.6rem] text-paper/45">Capital Works Fund</span><span class="text-[0.6rem] text-paper/45">$9,799.22</span></div>
+                            <div class="flex justify-between items-center py-1 border-b border-paper/[0.05]"><span class="text-[0.6rem] text-paper/45">Interest due</span><span class="text-[0.6rem] text-paper/45">$4,341.94</span></div>
+                            <div class="flex justify-between items-center pt-2"><span class="text-[0.62rem] text-paper/65 font-display tracking-wide">TOTAL (2 Mar 2026)</span><span class="font-display text-xl text-hot">$63,332.85</span></div>
+                        </div>
+                        <p class="text-[0.5rem] text-paper/22 mt-3 leading-relaxed">A substantial proportion of the Administrative Fund represents accumulated CCA Legal charges, not unpaid levies per se.</p>
+                    </div>
+                    <div class="border border-gold/20 p-5" style="background:rgba(232,160,32,0.025)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">Lot 8 — Balance</div>
+                        <div class="flex justify-between items-center"><span class="text-[0.6rem] text-paper/45">Total incl. interest</span><span class="font-display text-xl text-gold">$6,388.03</span></div>
+                        <p class="text-[0.5rem] text-paper/22 mt-2">After $30,000 lump sum 20 Aug 2025 + continued monthly payments.</p>
+                    </div>
+                    <div class="border border-paper/[0.07] p-5">
+                        <div class="text-[0.47rem] tracking-[0.2em] uppercase text-paper/22 mb-3">Payment Record on Lot 4 & 8</div>
+                        <div class="space-y-1.5 text-[0.57rem] text-paper/35">
+                            <div>→ 19 Sep 2025 · $4,000</div>
+                            <div>→ 20 Oct 2025 · $4,000</div>
+                            <div>→ 31 Oct 2025 · $4,000</div>
+                            <div>→ 17 Nov 2025 · $4,000</div>
+                            <div>→ 16 Dec 2025 · $4,000</div>
+                            <div>→ 12 Jan 2026 · $4,000</div>
+                            <div>→ 9 Feb 2026 · $4,000</div>
+                            <div>→ <span class="text-hot">16 Feb 2026 · $4,000 ← Lot 4</span></div>
+                        </div>
+                        <p class="text-[0.5rem] text-paper/18 mt-2 italic">Payments made while wind-up petition fees were being added to their accounts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Account statement vault -->
+        <div class="mt-10 reveal">
+            <div class="evidence-vault">
+                <div class="ev-header" onclick="toggleVault(this)">
+                    <div class="flex items-center gap-2"><span class="text-[0.48rem] tracking-[0.22em] uppercase text-gold">📁 Evidence Files</span><span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Annexure A · Owner Account Statements · Lots 4 & 8 · Signed Wandah Allen-Taylor</span></div>
+                    <div class="flex items-center gap-3"><span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">2 files</span><span class="ev-toggle">▼</span></div>
+                </div>
+                <div class="ev-body">
+                    <div class="ev-file ef-hot" onclick="openDoc('pdf-a1','Annexure A1 — Lot 4 Owner Account Statement','Ground 04 · Illawarra Strata Management','PDF · 4 pages · Lot 4 (Suite 5) · SP 93922 · Balance $63,332.85 · Printed 02.03.2026 · Signed Wandah Allen-Taylor · Illawarra Strata Management',4)"><div class="ev-icon ev-pdf">PDF</div><div class="ev-meta"><div class="ev-name">annexure_A1_lot4_suite5_owner_account_02March2026.pdf</div><div class="ev-desc">PDF · 4 pages · Lot 4 (Suite 5) · Balance $63,332.85 · Signed Wandah Allen-Taylor · 02.03.2026</div></div><span class="ev-cta">View →</span></div>
+                    <div class="ev-file ef-gold" onclick="openDoc('pdf-a2','Annexure A2 — Lot 8 Owner Account Statement','Ground 04 · Illawarra Strata Management','PDF · 4 pages · Lot 8 (Suite 10) · SP 93922 · Balance $6,388.03 · Printed 02.03.2026 · Signed Wandah Allen-Taylor · Illawarra Strata Management',4)"><div class="ev-icon ev-pdf">PDF</div><div class="ev-meta"><div class="ev-name">annexure_A2_lot8_suite10_owner_account_02March2026.pdf</div><div class="ev-desc">PDF · 4 pages · Lot 8 (Suite 10) · Balance $6,388.03 · Signed Wandah Allen-Taylor · 02.03.2026</div></div><span class="ev-cta">View →</span></div>
+                    <div class="ev-zip-bar"><span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Both statements prepared by Illawarra Strata Management — signed Wandah Allen-Taylor — printed 02.03.2026</span><button class="mv-dl-btn mv-dl-gold text-[0.48rem]" onclick="showToast('Annexure A — Account Statements lodged with NCAT 3 March 2026')">⬇ Annexure A</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════
+     PAYMENT PLAN TIMELINE
+══════════════════════════ -->
+<section id="timeline" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(42,157,78,0.03) 0%,transparent 50%)">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
+            <div>
+                <div class="flex items-center gap-3 mb-2"><div class="w-4 h-px bg-sage"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-sage">The Payment Plan Betrayal</span></div>
+                <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">PAID $30,000.<br><span class="text-hot">SECOND PETITION FILED ANYWAY.</span></h2>
+                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">The Applicant negotiated in good faith, paid an immediate $30,000 lump sum, had the first petition dismissed by consent — then watched a second petition arrive five months later.</p>
+            </div>
+        </div>
+
+        <div class="space-y-px mb-14 reveal">
+            <div class="inc-row"><div><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">Aug 2025</div><div class="text-[0.44rem] text-paper/22 mt-0.5">Petition Filed</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/65 mb-0.5">FIRST WIND-UP PETITION — FEDERAL COURT TAD47/2025</div><div class="text-[0.57rem] text-paper/35 leading-relaxed">Petition filed against PSR Crown Investments by the Owners Corporation. Wind-up petition filing fee ($6,784) charged to the Lot 8 account on or about 20 August 2025. Company faces dissolution despite consistent monthly payments since 2022.</div></div></div>
+            <div class="inc-row pos"><div><div class="text-[0.5rem] tracking-[0.15em] uppercase text-sage">20 Aug 2025</div><div class="text-[0.44rem] text-paper/22 mt-0.5">$30K Paid</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/65 mb-0.5">$30,000 LUMP SUM PAID · PAYMENT PLAN AGREED</div><div class="text-[0.57rem] text-paper/35 leading-relaxed">Robert Huang pays $30,000 immediately to CCA Legal's Stephen Ecob. Written agreement reached: $8,000 per month going forward, first instalment by 20 September 2025. CCA confirms they will withdraw the winding-up application. Evidence at Annexure B.</div></div></div>
+            <div class="inc-row pos"><div><div class="text-[0.5rem] tracking-[0.15em] uppercase text-sage">Sep–Dec 2025</div><div class="text-[0.44rem] text-paper/22 mt-0.5">Plan Performed</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/65 mb-0.5">PAYMENTS CONTINUING — PLAN BEING HONOURED</div><div class="text-[0.57rem] text-paper/35 leading-relaxed">Payments recorded: 18 Sep, 19 Sep, 20 Oct, 31 Oct, 17 Nov, 16 Dec 2025. Regular $4,000 payments continuing on both lots. Applicant is actively honouring the agreement.</div></div></div>
+            <div class="inc-row pos"><div><div class="text-[0.5rem] tracking-[0.15em] uppercase text-sage">8 Oct 2025</div><div class="text-[0.44rem] text-paper/22 mt-0.5">Dismissed</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/65 mb-0.5">FIRST PETITION DISMISSED BY CONSENT — FEDERAL COURT 8:37AM AEDT</div><div class="text-[0.57rem] text-paper/35 leading-relaxed">Stamped Consent Orders received by Federal Court. Originating Process dismissed. PSR Crown pays Owners Corporation costs of $6,971. Both parties sign — Lauren Ikin for CCA Legal, Robert Huang for PSR Crown. Case TAD47/2025 concluded. See Annexure F.</div></div></div>
+            <div class="inc-row"><div><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">9 Feb 2026</div><div class="text-[0.44rem] text-paper/22 mt-0.5">Second Petition</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/65 mb-0.5">SECOND WIND-UP PETITION — BOTH LOTS 4 AND 8</div><div class="text-[0.57rem] text-paper/35 leading-relaxed">CCA #536264 processed 6–9 February 2026. Filing fee of $3,489 charged to each lot account ($6,978 total). Court proceedings filed on or about 11 March 2026. PSR Crown paid $4,000 on Lot 8 on 9 February 2026 and $4,000 on Lot 4 on 16 February 2026 — payments made on the very days the petition fees were being charged to their accounts.</div></div></div>
+            <div class="inc-row"><div><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">3 Mar 2026</div><div class="text-[0.44rem] text-paper/22 mt-0.5">NCAT Filed</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/65 mb-0.5">NCAT APPLICATION LODGED — s.237 SSMA 2015</div><div class="text-[0.57rem] text-paper/35 leading-relaxed">PSR Crown Investments lodges application for appointment of compulsory strata managing agent, plus urgent interim orders to stay Federal Court proceedings. Signed by Robert Huang. Nine supporting annexures lodged.</div></div></div>
+        </div>
+
+        <!-- Payment plan vault -->
+        <div class="reveal">
+            <div class="evidence-vault">
+                <div class="ev-header" onclick="toggleVault(this)">
+                    <div class="flex items-center gap-2"><span class="text-[0.48rem] tracking-[0.22em] uppercase text-sage">📁 Evidence Files</span><span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Annexures B & F · Payment Plan Email Chain + Federal Court Consent Orders</span></div>
+                    <div class="flex items-center gap-3"><span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">3 files</span><span class="ev-toggle">▼</span></div>
+                </div>
+                <div class="ev-body">
+                    <div class="ev-file ef-sage" onclick="openDoc('pdf-b1','Annexure B — Payment Plan Email Chain','Payment Plan Betrayal · 20 Aug 2025','Email chain 20 Aug 2025 · Robert Huang ↔ Stephen Ecob (CCA Legal) · $30,000 payment + $8K/month plan agreement',3)"><div class="ev-icon ev-pdf">PDF</div><div class="ev-meta"><div class="ev-name">annexure_B1_payment_plan_email_chain_20Aug2025.pdf</div><div class="ev-desc">PDF · Email chain · Robert Huang ↔ Stephen Ecob · $30,000 lump sum + $8K/month plan</div></div><span class="ev-cta">View →</span></div>
+                    <div class="ev-file ef-sage" onclick="openDoc('pdf-b2','Annexure B — $30,000 Payment Receipt','Payment Plan Betrayal · 20 Aug 2025','PDF · $30,000 payment receipt · PSR Crown Investments → SP 93922 · 20 August 2025',1)"><div class="ev-icon ev-pdf">PDF</div><div class="ev-meta"><div class="ev-name">annexure_B2_payment_receipt_30000_20Aug2025.pdf</div><div class="ev-desc">PDF · $30,000 receipt · PSR Crown → SP 93922 · 20 August 2025</div></div><span class="ev-cta">View →</span></div>
+                    <div class="ev-file ef-gold" onclick="openDoc('pdf-f','Annexure F — Federal Court Consent Orders TAD47/2025','Payment Plan Betrayal · 8 Oct 2025','PDF · Federal Court of Australia · TAD47/2025 · Consent Orders stamped 8 Oct 2025 08:37 AEDT · Originating Process dismissed · Costs $6,971',3)"><div class="ev-icon ev-pdf">PDF</div><div class="ev-meta"><div class="ev-name">annexure_F_consent_orders_TAD47_2025_8Oct2025.pdf</div><div class="ev-desc">PDF · Federal Court · TAD47/2025 · Consent Orders 8 Oct 2025 · Dismissed · Costs $6,971</div></div><span class="ev-cta">View →</span></div>
+                    <div class="ev-zip-bar"><span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">First petition dismissed by consent — second petition filed against same paying lot owner Feb 2026</span><button class="mv-dl-btn mv-dl-gold text-[0.48rem]" onclick="showToast('Annexures B & F — lodged with NCAT 3 March 2026')">⬇ Annexures B & F</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════
+     GROUND 5 + WHY IT MATTERS
+══════════════════════════ -->
+<section id="ground5" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]">
+    <div class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-16">
+            <div id="ground5-inner" class="story-chapter reveal" style="border-left-color:rgba(123,94,167,0.2)">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7b5ea7;border-color:rgba(123,94,167,0.4)">Ground 05 — s.182 SSMA</span>
+                </div>
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">RECORDS REQUESTED.<br><span style="color:#7b5ea7">REQUESTS IGNORED.</span></h3>
+                <p class="text-[0.68rem] leading-relaxed text-paper/42 mb-4">Section 182 of the SSMA gives lot owners the right to inspect Owners Corporation records. The Applicant has been paying over $8,000 per month and has never received proper receipts or a clear explanation of how those payments are being allocated.</p>
+                <p class="text-[0.68rem] leading-relaxed text-paper/42 mb-4">The Lot 8 account shows multiple unexplained 'allocation of unallocated money' and 'levy cancellation' entries on 21 March 2025 that have never been explained. Written requests for clarification have been ignored entirely.</p>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs mt-0.5 shrink-0">✗</span><p class="text-[0.6rem] text-paper/35">No receipts confirming correct allocation of $8,000/month payments</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs mt-0.5 shrink-0">✗</span><p class="text-[0.6rem] text-paper/35">Unexplained 'allocation of unallocated money' entries — 21 Mar 2025, Lot 8</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs mt-0.5 shrink-0">✗</span><p class="text-[0.6rem] text-paper/35">Written requests for clarification — ignored — evidenced Annexure E</p></div>
+                </div>
+                <div class="evidence-vault mt-5">
+                    <div class="ev-header" onclick="toggleVault(this)">
+                        <div class="flex items-center gap-2"><span class="text-[0.48rem] tracking-[0.22em] uppercase" style="color:#7b5ea7">📁 Evidence Files</span><span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Annexure E · Ignored Correspondence</span></div>
+                        <div class="flex items-center gap-3"><span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span><span class="ev-toggle">▼</span></div>
+                    </div>
+                    <div class="ev-body">
+                        <div class="ev-file ef-violet" onclick="openDoc('pdf-e','Annexure E — Ignored Correspondence','Ground 05 · Financial Records Withheld','PDF · Copies of emails and letters to the Owners Corporation that were ignored — financial record requests and clarification requests',3)"><div class="ev-icon ev-pdf">PDF</div><div class="ev-meta"><div class="ev-name">annexure_E_ignored_correspondence_OC.pdf</div><div class="ev-desc">PDF · Emails and letters to OC — ignored — financial record requests</div></div><span class="ev-cta">View →</span></div>
+                        <div class="ev-zip-bar"><span class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/25">Correspondence ignored by Illawarra Strata Management — lodged NCAT 3 March 2026</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="reveal space-y-4" style="transition-delay:0.1s">
+                <h3 class="font-display text-2xl tracking-wide mb-3 leading-tight">THIS IS NOT<br><span class="text-hot">A DISPUTE ABOUT MONEY.</span></h3>
+                <p class="font-serif italic text-paper/55 leading-relaxed text-lg">"The Applicant has paid consistently for four years. They are not trying to avoid their levy obligations — they are trying to understand why those consistent payments have produced a $63,000 debt, two Federal Court winding-up petitions, a building full of unrepaired defects, and a strata roll that sent their correspondence to the person who now benefits from the wind-up."</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45">Under section 237 of the SSMA, the question for NCAT is not whether the Applicant owes money. It is whether the Owners Corporation's management has broken down to the point where it should be replaced.</p>
+                <div class="border border-hot/20 p-5" style="background:rgba(214,61,47,0.03)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Why a Compulsory Manager Is Appropriate</div>
+                    <p class="text-[0.62rem] text-paper/40 leading-relaxed">This is a pattern of serious and sustained dysfunction spanning over three years — not an isolated incident. Cited authorities: <em>Maple v The Owners SP 8950 [2021]</em> and <em>Kahn v Owners Corp SP 2010 [2017]</em> establish that exactly this pattern justifies a compulsory management order.</p>
+                </div>
+                <div class="grid grid-cols-3 gap-3">
+                    <div class="border border-hot/20 p-4 text-center" style="background:rgba(214,61,47,0.03)"><div class="font-display text-3xl text-hot mb-1">3+</div><div class="text-[0.5rem] tracking-[0.12em] uppercase text-paper/28">Years of dysfunction</div></div>
+                    <div class="border border-paper/[0.07] p-4 text-center"><div class="font-display text-3xl text-gold mb-1">3</div><div class="text-[0.5rem] tracking-[0.12em] uppercase text-paper/28">Cited authorities</div></div>
+                    <div class="border border-paper/[0.07] p-4 text-center"><div class="font-display text-3xl text-sage mb-1">5</div><div class="text-[0.5rem] tracking-[0.12em] uppercase text-paper/28">Independent grounds</div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Relief Sought -->
+        <div class="reveal">
+            <div class="flex items-center gap-3 mb-8"><div class="w-8 h-px bg-sage"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-sage">What the Applicant Is Asking For</span><div class="w-8 h-px bg-sage"></div></div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+                <div class="border border-sage/25 p-6" style="background:rgba(42,157,78,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-3">Primary Relief — s.237 SSMA</div>
+                    <div class="font-display text-2xl tracking-wide text-sage mb-3">COMPULSORY MANAGER</div>
+                    <p class="text-[0.65rem] text-paper/40 leading-relaxed mb-4">An order appointing a licensed strata managing agent to exercise all functions of the Owners Corporation. The Applicant does not nominate a specific replacement and asks the Tribunal to appoint a suitable licensed agent on appropriate terms.</p>
+                    <div class="text-[0.5rem] tracking-[0.14em] uppercase text-sage/55 border border-sage/20 px-3 py-1.5 inline-block">Relies on s.237(3)(a) and s.237(3)(c) SSMA</div>
+                </div>
+                <div class="border border-hot/25 p-6" style="background:rgba(214,61,47,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Urgent Interim Relief</div>
+                    <div class="font-display text-2xl tracking-wide text-hot mb-3">STAY THE PROCEEDINGS</div>
+                    <p class="text-[0.65rem] text-paper/40 leading-relaxed mb-3">An order staying or suspending any further steps in the Federal Court wind-up proceedings pending NCAT determination. If a wind-up order is made before NCAT decides, PSR Crown faces dissolution — harm that cannot be undone by any later NCAT order.</p>
+                    <p class="text-[0.65rem] text-paper/40 leading-relaxed">An order restraining the Owners Corporation and its officers — including Graham Gordon — from taking any further adverse action against the Applicant pending determination.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5 Grounds At a Glance -->
+        <div class="reveal">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-4">Five Grounds — At a Glance</div>
+            <div class="space-y-px">
+                <div class="flex gap-4 p-4 border border-paper/[0.05] items-start" style="background:rgba(4,4,4,0.5)"><div class="font-display text-hot text-2xl w-8 shrink-0 leading-none mt-0.5">01</div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/65 mb-0.5">Failure to Maintain Common Property — s.106 SSMA</div><div class="text-[0.55rem] text-paper/30">14 photographs. Ceiling holes with live wiring. Severe black mould. Cracked tiles. Exposed electrical conduits. Neglected grounds. Ongoing, unaddressed.</div></div></div>
+                <div class="flex gap-4 p-4 border border-paper/[0.05] items-start" style="background:rgba(4,4,4,0.5)"><div class="font-display text-gold text-2xl w-8 shrink-0 leading-none mt-0.5">02</div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/65 mb-0.5">Unauthorised Use of Common Property by Committee Members</div><div class="text-[0.55rem] text-paper/30">No special by-law. No general meeting resolution. Improper benefit conferred on committee members at lot owners' expense.</div></div></div>
+                <div class="flex gap-4 p-4 border border-paper/[0.05] items-start" style="background:rgba(4,4,4,0.5)"><div class="font-display text-2xl w-8 shrink-0 leading-none mt-0.5" style="color:#7b5ea7">03</div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/65 mb-0.5">Manipulation of Strata Roll — Levy Notices Redirected Without Consent</div><div class="text-[0.55rem] text-paper/30">Lot owner's address altered. Levy notices sent to committee chairman Graham Gordon. Owner deprived of notice of alleged arrears.</div></div></div>
+                <div class="flex gap-4 p-4 border border-paper/[0.05] items-start" style="background:rgba(4,4,4,0.5)"><div class="font-display text-hot text-2xl w-8 shrink-0 leading-none mt-0.5">04</div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/65 mb-0.5">Systematic Debt Loading and Wind-Up Proceedings Against an Active Payer</div><div class="text-[0.55rem] text-paper/30">$4,000/month per lot since 2022. Payment plan agreed. $30,000 paid. First petition dismissed. Second petition filed Feb 2026. Lot 4 balance $63,332.85 — majority CCA Legal fees, not unpaid levies.</div></div></div>
+                <div class="flex gap-4 p-4 border border-paper/[0.05] items-start" style="background:rgba(4,4,4,0.5)"><div class="font-display text-2xl w-8 shrink-0 leading-none mt-0.5" style="color:#7b5ea7">05</div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/65 mb-0.5">Failure to Provide Financial Records and Receipts — s.182 SSMA</div><div class="text-[0.55rem] text-paper/30">No proper receipts. Unexplained account adjustments. Requests for clarification ignored. A paying owner kept entirely in the dark about how their money is being applied.</div></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════
+     FULL EVIDENCE VAULT
+══════════════════════════ -->
+<section id="evidence-vault" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12 pb-5 border-b border-paper/[0.06]">
+            <div>
+                <div class="flex items-center gap-3 mb-2"><div class="w-4 h-px bg-gold"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-gold">Full Lodgement Bundle</span></div>
+                <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.5rem,6vw,4rem)">NCAT<br><span class="text-gold">EVIDENCE VAULT</span></h2>
+                <p class="font-serif italic text-paper/35 mt-3 max-w-lg">Complete document bundle lodged with NCAT on 3 March 2026. Nine documents. Five grounds.</p>
+            </div>
+        </div>
+
+        <div class="evidence-vault reveal">
+            <div class="ev-header" onclick="toggleVault(this)">
+                <div class="flex items-center gap-2"><span class="text-[0.48rem] tracking-[0.22em] uppercase text-gold">📁 Complete Lodgement Bundle</span><span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— NCAT · PSR Crown Investments v The Owners SP 93922 · 3 March 2026</span></div>
+                <div class="flex items-center gap-3"><span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">9 documents</span><span class="ev-toggle">▼</span></div>
+            </div>
+            <div class="ev-body">
+                <div class="ev-file ef-hot" onclick="openDoc('pdf-app','NCAT Application Form','s.237 SSMA 2015 · Filed 3 March 2026','PDF · NCAT Application Form · s.237 SSMA 2015 · Signed Robert Huang · Filed 3 March 2026',4)"><div class="ev-icon ev-pdf">PDF</div><div class="ev-meta"><div class="ev-name">ncat_application_form_PSR_Crown_3March2026.pdf</div><div class="ev-desc">PDF · NCAT Application Form · s.237 SSMA 2015 · Signed Robert Huang · Filed 3 March 2026</div></div><span class="ev-cta">Application →</span></div>
+                <div class="ev-file ef-hot" onclick="openDoc('pdf-sog','Statement of Grounds','PSR Crown Investments v The Owners SP 93922','PDF · Statement of Grounds · 5 grounds · Parts A–F · Signed Robert Huang · Filed 3 March 2026',8)"><div class="ev-icon ev-pdf">PDF</div><div class="ev-meta"><div class="ev-name">statement_of_grounds_PSR_Crown_SP93922_3March2026.pdf</div><div class="ev-desc">PDF · Statement of Grounds · 5 grounds · Parts A–F · Signed Robert Huang · 3 March 2026</div></div><span class="ev-cta">Core Document →</span></div>
+                <div class="ev-file ef-gold" onclick="openDoc('pdf-a1','Annexure A1 — Lot 4 Owner Account Statement','Signed Wandah Allen-Taylor · Illawarra Strata Management','PDF · Lot 4 (Suite 5) · Balance $63,332.85 · Printed 02.03.2026 · Signed Wandah Allen-Taylor',4)"><div class="ev-icon ev-pdf">PDF</div><div class="ev-meta"><div class="ev-name">annexure_A1_lot4_owner_account_02March2026.pdf</div><div class="ev-desc">PDF · Annexure A1 · Lot 4 · Balance $63,332.85 · Signed Wandah Allen-Taylor · Illawarra Strata Management</div></div><span class="ev-cta">Annexure A1 →</span></div>
+                <div class="ev-file ef-gold" onclick="openDoc('pdf-a2','Annexure A2 — Lot 8 Owner Account Statement','Signed Wandah Allen-Taylor · Illawarra Strata Management','PDF · Lot 8 (Suite 10) · Balance $6,388.03 · Printed 02.03.2026 · Signed Wandah Allen-Taylor',4)"><div class="ev-icon ev-pdf">PDF</div><div class="ev-meta"><div class="ev-name">annexure_A2_lot8_owner_account_02March2026.pdf</div><div class="ev-desc">PDF · Annexure A2 · Lot 8 · Balance $6,388.03 · Signed Wandah Allen-Taylor · Illawarra Strata Management</div></div><span class="ev-cta">Annexure A2 →</span></div>
+                <div class="ev-file ef-sage" onclick="openDoc('pdf-b1','Annexure B — Payment Plan Email Chain + $30,000 Receipt','Payment Plan Betrayal · 20 Aug 2025','PDF · Email chain Robert Huang ↔ Stephen Ecob + $30,000 receipt · 20 August 2025',4)"><div class="ev-icon ev-pdf">PDF</div><div class="ev-meta"><div class="ev-name">annexure_B_payment_plan_email_and_receipt_20Aug2025.pdf</div><div class="ev-desc">PDF · Annexure B · Payment plan email chain + $30,000 receipt · 20 August 2025</div></div><span class="ev-cta">Annexure B →</span></div>
+                <div class="ev-file ef-hot" onclick="openDoc('pdf-c6','Annexure C — 14 Photographs of Common Property Disrepair','Ground 01 · s.106 SSMA','Images · 14 photographs · Ceiling holes · Black mould · Cracked tiles · Exposed wiring · Neglected grounds',4)"><div class="ev-icon ev-img">📷</div><div class="ev-meta"><div class="ev-name">annexure_C_photographs_common_property_x14.pdf</div><div class="ev-desc">Images · Annexure C · 14 photographs · Ceiling holes · Mould · Tiles · Exposed wiring · Grounds</div></div><span class="ev-cta">Annexure C →</span></div>
+                <div class="ev-file ef-violet" onclick="openDoc('pdf-d','Annexure D — Strata Roll Address Redirection Evidence','Ground 03 · Strata Roll Manipulation','PDF · Evidence of strata roll address alteration — levy notices redirected to Graham Gordon without lot owner consent',2)"><div class="ev-icon ev-pdf">PDF</div><div class="ev-meta"><div class="ev-name">annexure_D_strata_roll_address_redirection.pdf</div><div class="ev-desc">PDF · Annexure D · Strata roll manipulation — levy notices → Graham Gordon without consent</div></div><span class="ev-cta">Annexure D →</span></div>
+                <div class="ev-file ef-violet" onclick="openDoc('pdf-e','Annexure E — Ignored Correspondence','Ground 05 · Financial Records Withheld','PDF · Emails and letters to OC requesting financial records and clarification — ignored',3)"><div class="ev-icon ev-pdf">PDF</div><div class="ev-meta"><div class="ev-name">annexure_E_ignored_correspondence_OC.pdf</div><div class="ev-desc">PDF · Annexure E · Correspondence to OC ignored — financial record requests</div></div><span class="ev-cta">Annexure E →</span></div>
+                <div class="ev-file ef-sage" onclick="openDoc('pdf-f','Annexure F — Federal Court TAD47/2025 Documents','Payment Plan Betrayal · Consent Orders 8 Oct 2025','PDF · Federal Court TAD47/2025 · Consent Orders 8 Oct 2025 + second petition filed c.11 March 2026',5)"><div class="ev-icon ev-pdf">PDF</div><div class="ev-meta"><div class="ev-name">annexure_F_federal_court_TAD47_2025_consent_orders.pdf</div><div class="ev-desc">PDF · Annexure F · Federal Court TAD47/2025 · Consent Orders 8 Oct 2025 + second petition</div></div><span class="ev-cta">Annexure F →</span></div>
+                <div class="ev-zip-bar">
+                    <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Complete NCAT lodgement bundle — 9 documents — PSR Crown Investments v The Owners SP 93922 — Filed 3 March 2026</span>
+                    <button class="mv-dl-btn mv-dl-gold text-[0.48rem]" onclick="showToast('Complete bundle — 9 documents — lodged with NCAT 3 March 2026')">⬇ Full Bundle</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════
+     TASMANIA — JURISDICTIONAL BULLYING
+══════════════════════════ -->
+<section id="tasmania" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(214,61,47,0.07) 0%,rgba(123,94,167,0.04) 60%,transparent 100%)">
+    <div class="max-w-6xl mx-auto">
+
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
+            <div>
+                <div class="flex items-center gap-3 mb-2"><div class="w-4 h-px bg-hot"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">The Predatory Strategy — Revealed</span></div>
+                <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">FILED IN<br><span class="text-hot">TASMANIA.</span></h2>
+                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">The winding-up petition against PSR Crown Investments was not filed in NSW, where the property is. It was filed in Tasmania — a jurisdiction Robert Huang has no connection to, where the Federal Court does not permit AVL appearances, and where Graham Gordon has filed before.</p>
+            </div>
+            <div class="flex flex-wrap gap-2 max-w-sm">
+                <span class="evidence-tag" style="color:#d63d2f;border-color:#d63d2f">⚠ No AVL — Must Appear In Person</span>
+                <span class="evidence-tag" style="color:#e8a020;border-color:#e8a020">✈ Hobart to Defend</span>
+                <span class="evidence-tag" style="color:#7b5ea7;border-color:#7b5ea7">🔁 Pattern — Prior Filings</span>
+            </div>
+        </div>
+
+        <!-- Anatomy of the strategy -->
+        <div class="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 mb-16">
+            <div>
+                <div class="story-chapter reveal" style="border-left-color:rgba(214,61,47,0.35)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">The Setup</span></div>
+                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE LETTERS NEVER ARRIVE.<br><span class="text-hot">THE COURT IS IN HOBART.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"First, you redirect the lot owner's levy notices to yourself so the debt quietly compounds without their knowledge. Then, when the debt is large enough, you file a wind-up petition in a jurisdiction they have no connection to — one that won't let them appear by video link. They either fly to Hobart to fight it or they don't. If they don't, the company winds up. You buy the lots at a fire sale price. That's the play."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The Federal Court's Tasmanian registry was used to file the winding-up proceedings against PSR Crown Investments Pty Ltd. Robert Huang is based in NSW. The property — the entire subject of the dispute — is in Wollongong, NSW. There is no organic connection between PSR Crown Investments and Tasmania. The choice of jurisdiction is not procedural convenience. It is strategic obstruction.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">The Federal Court of Australia's Tasmania registry does not permit appearances by Audio Visual Link (AVL) for winding-up proceedings. A respondent who cannot afford to fly to Hobart, engage Tasmanian counsel, and appear in person is functionally unable to defend. The default position — undefended — is a winding-up order. The company dissolves. The lots go to a court-appointed liquidator. They sell quickly, at a discount. The buyer with resources and foreknowledge is positioned to acquire.</p>
+
+                    <!-- The three-step strategy diagram -->
+                    <div class="border border-hot/15 mb-6" style="background:rgba(8,8,8,0.7)">
+                        <div class="text-[0.47rem] tracking-[0.22em] uppercase text-hot px-5 py-3 border-b border-hot/10">The Three-Step Predatory Acquisition Strategy — As Alleged</div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-paper/[0.06]">
+                            <div class="px-5 py-5">
+                                <div class="font-display text-4xl text-hot/30 mb-2">01</div>
+                                <div class="text-[0.5rem] tracking-[0.18em] uppercase text-hot mb-2">Intercept</div>
+                                <p class="text-[0.62rem] text-paper/40 leading-relaxed">Redirect levy notices on the strata roll to the committee chairman. The lot owner never receives notice of alleged arrears. Debt compounds silently. Owner is unaware.</p>
+                            </div>
+                            <div class="px-5 py-5">
+                                <div class="font-display text-4xl text-gold/30 mb-2">02</div>
+                                <div class="text-[0.5rem] tracking-[0.18em] uppercase text-gold mb-2">Load</div>
+                                <p class="text-[0.62rem] text-paper/40 leading-relaxed">Engage debt recovery agents to compound legal fees onto the account. File Local Court proceedings, judgments, garnishee orders. The balance inflates far beyond actual unpaid levies.</p>
+                            </div>
+                            <div class="px-5 py-5">
+                                <div class="font-display text-4xl text-paper/20 mb-2">03</div>
+                                <div class="text-[0.5rem] tracking-[0.18em] uppercase text-paper/35 mb-2">Crush</div>
+                                <p class="text-[0.62rem] text-paper/40 leading-relaxed">File wind-up petition in Tasmania — a jurisdiction with no AVL, no connection to the respondent, and no practical ability for an interstate director to defend without significant legal spend. Default = wind-up order = fire sale.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border border-paper/[0.07] p-5 mb-5">
+                        <div class="text-[0.48rem] tracking-[0.18em] uppercase text-paper/22 mb-3">Why Tasmania Specifically</div>
+                        <div class="space-y-2.5">
+                            <div class="flex gap-3 items-start"><div class="w-1.5 h-1.5 rounded-full bg-hot mt-1.5 shrink-0"></div><p class="text-[0.62rem] text-paper/42 leading-relaxed">Federal Court Tasmania <span class="text-hot">does not permit AVL</span> appearances for winding-up proceedings. Interstate respondents must attend in person.</p></div>
+                            <div class="flex gap-3 items-start"><div class="w-1.5 h-1.5 rounded-full bg-hot mt-1.5 shrink-0"></div><p class="text-[0.62rem] text-paper/42 leading-relaxed">PSR Crown Investments has <span class="text-hot">no connection to Tasmania</span> — no offices, no registered address, no business operations. The property is in Wollongong, NSW.</p></div>
+                            <div class="flex gap-3 items-start"><div class="w-1.5 h-1.5 rounded-full bg-hot mt-1.5 shrink-0"></div><p class="text-[0.62rem] text-paper/42 leading-relaxed">Engaging Tasmanian counsel adds <span class="text-hot">cost and delay</span> that a well-resourced opposing party can absorb and an individual director cannot.</p></div>
+                            <div class="flex gap-3 items-start"><div class="w-1.5 h-1.5 rounded-full bg-gold mt-1.5 shrink-0"></div><p class="text-[0.62rem] text-paper/42 leading-relaxed">The same lawyer who filed this petition has <span class="text-gold">filed prior winding-up applications in Tasmania for entities connected to Graham Gordon</span> — establishing a pattern, not a one-off choice.</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- The lawyer pattern -->
+                <div class="story-chapter reveal mt-10" style="transition-delay:0.08s;border-left-color:rgba(232,160,32,0.25)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">The Lawyer's Pattern</span></div>
+                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">NOT A ONE-OFF.<br><span class="text-gold">THIS IS THE HUSTLE.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"The lawyer engaged to file this petition has done this before — for Graham Gordon's companies, in Tasmania, using the same jurisdictional strategy. This is not a lawyer who happened to be instructed to file in an inconvenient registry. This is a lawyer who has built a practice around filing in Tasmania precisely because it forecloses the other side's ability to respond."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The combination of the same lawyer, the same registry, the same petitioner's corporate network, and the same outcome — jurisdictional inaccessibility for the respondent — constitutes a pattern. It is not possible to explain the choice of Tasmania by reference to legitimate legal strategy when the property, the lot owner, the OC, the strata scheme, and the debt recovery history are all entirely within NSW.</p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div class="border border-gold/20 p-5" style="background:rgba(232,160,32,0.03)">
+                            <div class="text-[0.48rem] tracking-[0.18em] uppercase text-gold mb-3">This Filing — PSR Crown</div>
+                            <div class="space-y-1.5">
+                                <div class="text-[0.62rem] text-paper/45">Respondent: PSR Crown Investments Pty Ltd</div>
+                                <div class="text-[0.62rem] text-paper/45">Director: Robert Huang — NSW-based</div>
+                                <div class="text-[0.62rem] text-paper/45">Property: Wollongong, NSW</div>
+                                <div class="text-[0.62rem] text-paper/45">Registry used: <span class="text-hot">Federal Court Tasmania</span></div>
+                                <div class="text-[0.62rem] text-paper/45">AVL available: <span class="text-hot">No</span></div>
+                                <div class="text-[0.62rem] text-paper/45">Nexus to Tasmania: <span class="text-hot">None</span></div>
+                            </div>
+                        </div>
+                        <div class="border border-paper/[0.07] p-5" style="background:rgba(123,94,167,0.03)">
+                            <div class="text-[0.48rem] tracking-[0.18em] uppercase mb-3" style="color:#7b5ea7">Prior Filings — Gordon-Connected Entities</div>
+                            <div class="space-y-1.5">
+                                <div class="text-[0.62rem] text-paper/45">Same lawyer — confirmed</div>
+                                <div class="text-[0.62rem] text-paper/45">Same registry: Federal Court Tasmania</div>
+                                <div class="text-[0.62rem] text-paper/45">Same pattern: respondent has no TAS nexus</div>
+                                <div class="text-[0.62rem] text-paper/45">Same outcome sought: undefended wind-up</div>
+                                <div class="text-[0.62rem] text-paper/20 italic mt-2">Specific prior matters — further details to be added as investigation progresses</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right sidebar -->
+            <div class="reveal space-y-4" style="transition-delay:0.1s">
+                <div class="sticky top-24 space-y-4">
+                    <div class="border border-hot/25 p-5" style="background:rgba(214,61,47,0.05)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">What "Jurisdictional Bullying" Means</div>
+                        <p class="text-[0.62rem] text-paper/40 leading-relaxed mb-3">Filing legal proceedings in a registry the opposing party has no connection to — specifically chosen because it imposes maximum cost and inconvenience on them and minimum cost on you — is not a legitimate use of court process. It is an attempt to win by exhaustion rather than on the merits.</p>
+                        <p class="text-[0.62rem] text-paper/40 leading-relaxed">When the choice of jurisdiction is combined with a prior pattern of the same tactic by the same lawyer for the same network, it ceases to be coincidence and becomes conduct amenable to scrutiny.</p>
+                    </div>
+
+                    <div class="border border-paper/[0.07] p-5">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/22 mb-3">The Full Sequence — Alleged</div>
+                        <div class="space-y-2.5">
+                            <div class="flex gap-2.5 items-start"><div class="text-[0.52rem] text-hot w-4 shrink-0 mt-0.5">→</div><p class="text-[0.6rem] text-paper/35 leading-relaxed">Strata roll altered: levy notices redirected to Gordon. Owner never sees the debt building.</p></div>
+                            <div class="flex gap-2.5 items-start"><div class="text-[0.52rem] text-hot w-4 shrink-0 mt-0.5">→</div><p class="text-[0.6rem] text-paper/35 leading-relaxed">CCA Legal loads account with fees far exceeding unpaid levies. Balance hits $63K.</p></div>
+                            <div class="flex gap-2.5 items-start"><div class="text-[0.52rem] text-hot w-4 shrink-0 mt-0.5">→</div><p class="text-[0.6rem] text-paper/35 leading-relaxed">First wind-up petition. Owner pays $30K lump sum, agrees $8K/month plan. Petition dismissed.</p></div>
+                            <div class="flex gap-2.5 items-start"><div class="text-[0.52rem] text-hot w-4 shrink-0 mt-0.5">→</div><p class="text-[0.6rem] text-paper/35 leading-relaxed">Second wind-up petition — filed in <span class="text-hot">Tasmania</span>. No AVL. Must fly to Hobart to defend.</p></div>
+                            <div class="flex gap-2.5 items-start"><div class="text-[0.52rem] text-gold w-4 shrink-0 mt-0.5">→</div><p class="text-[0.6rem] text-paper/35 leading-relaxed">If undefended: wind-up order → liquidator → lots sold at discount → acquisition opportunity.</p></div>
+                        </div>
+                    </div>
+
+                    <div class="border border-paper/[0.07] p-5">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/22 mb-2">The NCAT Interim Order Becomes Critical</div>
+                        <p class="text-[0.62rem] text-paper/35 leading-relaxed">The NCAT application seeks an urgent stay of the Federal Court proceedings. Without that stay, PSR Crown Investments faces wind-up proceedings in a jurisdiction it cannot practically defend — on a debt primarily composed of legal fees charged by the same side pursuing it, on a lot whose correspondence was secretly redirected to the person who now benefits from the wind-up.</p>
+                    </div>
+
+                    <div class="border border-hot/15 p-5" style="background:rgba(214,61,47,0.03)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Questions This Raises</div>
+                        <div class="space-y-1.5">
+                            <div class="text-[0.6rem] text-paper/35">→ Who benefits if PSR Crown winds up?</div>
+                            <div class="text-[0.6rem] text-paper/35">→ Does Graham Gordon or connected entities hold a financial interest in acquiring Lots 4 or 8?</div>
+                            <div class="text-[0.6rem] text-paper/35">→ How many other respondents has this lawyer placed in Tasmanian proceedings with no TAS nexus?</div>
+                            <div class="text-[0.6rem] text-paper/35">→ Is the choice of Tasmania a pattern across Gordon-connected matters specifically?</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stat strip -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] reveal">
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-hot mb-1">0</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">AVL appearances</div><div class="text-[0.5rem] text-paper/18 mt-1">Permitted in Fed Court TAS wind-ups</div></div>
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-gold mb-1">0</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">TAS connection</div><div class="text-[0.5rem] text-paper/18 mt-1">PSR Crown has none</div></div>
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-paper/55 mb-1">2+</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Prior TAS filings</div><div class="text-[0.5rem] text-paper/18 mt-1">Same lawyer · Gordon-connected</div></div>
+            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-hot mb-1">✈</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Fly to Hobart</div><div class="text-[0.5rem] text-paper/18 mt-1">Or your company winds up</div></div>
+        </div>
+    </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="border-t border-paper/[0.05] px-5 md:px-10 py-10 max-w-6xl mx-auto">
+    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
+        <div>
+            <div class="font-display text-xl tracking-widest text-paper/18 mb-1">COVERT<span class="text-dim">GC</span></div>
+            <div class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/12">© 2026 CovertGC — Investigative Journalism</div>
+        </div>
+        <div class="text-center">
+            <div class="text-[0.5rem] tracking-[0.18em] uppercase text-paper/18 mb-1">Case Reference</div>
+            <div class="text-[0.6rem] text-paper/28">PSR Crown Investments Pty Ltd v The Owners — Strata Plan No. 93922</div>
+            <div class="text-[0.5rem] text-paper/15 mt-0.5">NCAT Application · s.237 SSMA 2015 · Filed 3 March 2026</div>
+        </div>
+        <div class="text-right">
+            <div class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/18 mb-1">Strata Scheme</div>
+            <div class="text-[0.6rem] text-paper/28">Oxford On Crown · 30 Burelli St, Wollongong NSW 2500</div>
+            <div class="text-[0.5rem] text-paper/15 mt-0.5">SP 93922 · ABN 64 673 362 665</div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- ══ SCRIPTS ══ -->
+<script>
+// ── VAULT TOGGLE ──
+function toggleVault(header) {
+    var body = header.nextElementSibling;
+    var toggle = header.querySelector('.ev-toggle');
+    var isOpen = body.classList.contains('open');
+    body.classList.toggle('open', !isOpen);
+    if (toggle) toggle.classList.toggle('open', !isOpen);
+}
+
+// ── PANEL ──
+function togglePanel() {
+    var panel = document.getElementById('case-panel');
+    var bd = document.getElementById('panel-bd');
+    var open = panel.classList.contains('open');
+    panel.classList.toggle('open', !open);
+    bd.style.display = open ? 'none' : 'block';
+    document.body.style.overflow = open ? '' : 'hidden';
+}
+
+// ── SCROLL NAV ──
+function scrollTo(selector) {
+    var el = document.querySelector(selector);
+    if (el) el.scrollIntoView({ behavior: 'smooth' });
+    togglePanel();
+}
+
+// ── DOCUMENT VIEWER ──
+var currentDoc = null;
+
+function openDoc(id, title, tag, desc, pages) {
+    currentDoc = { id: id, title: title, tag: tag, desc: desc, pages: pages || 2 };
+    document.getElementById('mv-tag').textContent = tag || 'Evidence File';
+    document.getElementById('mv-title').textContent = title || 'DOCUMENT';
+    document.getElementById('mv-meta').textContent = 'Lodged with NCAT · 3 March 2026 · PSR Crown Investments v The Owners SP 93922';
+
+    var body = document.getElementById('mv-body');
+    body.innerHTML = buildPDFViewer(title, desc, pages || 2);
+
+    document.getElementById('mv-wrap').classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function buildPDFViewer(title, desc, pages) {
+    var pagesHtml = '';
+    for (var i = 0; i < Math.min(pages, 5); i++) {
+        var lines = '';
+        for (var j = 0; j < 9; j++) {
+            lines += '<div class="pdf-ph-line' + (j === 0 ? ' h' : '') + '"></div>';
+        }
+        pagesHtml += '<div class="pdf-ph-page">' + lines + '</div>';
+    }
+    return '<div class="pdf-ph">' +
+        '<div style="font-size:0.48rem;letter-spacing:0.22em;text-transform:uppercase;color:rgba(214,61,47,0.6);margin-bottom:1rem">PDF Document — Lodged with NCAT 3 March 2026</div>' +
+        '<div class="pdf-ph-pages">' + pagesHtml + '</div>' +
+        '<div style="font-family:\'Bebas Neue\',sans-serif;font-size:1.4rem;letter-spacing:0.06em;color:rgba(240,236,226,0.5);margin-bottom:0.75rem">' + (title || 'DOCUMENT') + '</div>' +
+        '<div style="font-size:0.62rem;line-height:1.7;color:rgba(240,236,226,0.35);max-width:480px;margin:0 auto">' + (desc || '') + '</div>' +
+        '<div style="margin-top:1.5rem;font-size:0.5rem;letter-spacing:0.15em;text-transform:uppercase;color:rgba(240,236,226,0.2);border:1px solid rgba(240,236,226,0.07);display:inline-block;padding:0.35rem 0.75rem">' + pages + ' pages · Lodged with NCAT</div>' +
+        '</div>';
+}
+
+function closeMV() {
+    document.getElementById('mv-wrap').classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+document.getElementById('mv-wrap').addEventListener('click', function (e) {
+    if (e.target === this || e.target === document.getElementById('mv-body')) closeMV();
+});
+document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeMV(); });
+
+// ── TOAST ──
+function showToast(msg) {
+    var t = document.createElement('div');
+    t.style.cssText = 'position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%);background:rgba(8,8,8,0.95);border:1px solid rgba(232,160,32,0.35);color:#e8a020;font-family:"DM Mono",monospace;font-size:0.55rem;letter-spacing:0.15em;text-transform:uppercase;padding:0.6rem 1.4rem;z-index:9999;pointer-events:none;transition:opacity 0.3s;white-space:nowrap';
+    t.textContent = msg;
+    document.body.appendChild(t);
+    setTimeout(function () { t.style.opacity = '0'; setTimeout(function () { t.remove(); }, 300); }, 2800);
+}
+
+// ── SCROLL REVEAL ──
+var obs = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) { if (e.isIntersecting) e.target.classList.add('in'); });
+}, { threshold: 0.07 });
+document.querySelectorAll('.reveal').forEach(function (el) { obs.observe(el); });
+</script>
 <section id="episodes" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]">
     <div class="max-w-6xl mx-auto">
         <div class="flex items-end justify-between mb-12 gap-4 flex-wrap">
@@ -1411,6 +2545,15 @@ var EVIDENCE = {
         placeholderLabel:'FULL VIDEO PENDING LEGAL REVIEW',
         filename:'viral_video_RJ_PLACEHOLDER.mp4'
     },
+    'pdf-bodie-lie': {
+        type:'pdf',
+        title:'BODIE CHALMERS — LIE DETECTOR TEST',
+        tag:'Forensic Evidence · EyeDetect® Certified · Scored 1/100',
+        meta:'PDF · Forensic examination · Certified examiner',
+        desc:'Certified EyeDetect® biometric lie detection examination conducted at 50 Cavill Avenue, Surfers Paradise. The subject (Bodie Chalmers) scored 1 out of 100 and was rated as "Deceptive" throughout the entire examination. The examiner is a qualified and certified EyeDetect® professional. This forensic evidence strengthens concerns about Bodie Chalmers\'s credibility and supports the pattern of deceptive behaviour documented throughout Adam Watson\'s account of the coercive control incidents.',
+        filename:'bodie_chalmers_lie_detector_test.pdf',
+        pages: 1
+    },
     'pdf-bodie': {
         type:'pdf',
         title:'BODIE CHALMERS — CRIMINAL HISTORY',
@@ -1478,6 +2621,25 @@ var EVIDENCE = {
         desc:'RTA bond confirmation showing lodgement 68 days after move-in. Legal requirement: 10 business days. At a property with capacity for 100 tenants, if this delay was systematic, hundreds of bonds may have sat outside RTA protection.',
         filename:'rta_bond_confirmation.pdf',
         pages: 1
+    },
+    'audio-disability': {
+        type:'audio',
+        title:'DISABILITY CENTRE CONFRONTATION',
+        tag:'Broadbeach · Psychologist Recording · AG Deb Frecklington',
+        meta:'Audio · Psychologist recording · Two officers stood down immediately',
+        desc:'Recording of the confrontation at the Broadbeach disability centre — West Kira\'s father and Peter Demchenko (father of Aaliyah, Bodie Chalmers\'s girlfriend) arriving with two QPS officers on their payroll, West Kira\'s father invoking Mick Gatto\'s name as a threat, Adam Watson calling Mick Gatto directly in front of all parties, Gatto\'s warning to back off. Provided to AG Deb Frecklington. Both officers were stood down immediately.',
+        duration: '~8:00',
+        filename:'disability_centre_confrontation_RECORDING.wav'
+    },
+    'video-wk-glasses': {
+        type:'video',
+        title:'WEST KIRA — GLASSES INCIDENT',
+        tag:'West Kira · Bodie Chalmers Associate · In-Vehicle Recording',
+        meta:'Video · In-vehicle recording · Identifiers under review',
+        desc:'West Kira was given a ride by Adam Watson — an act of goodwill. During the ride he deliberately destroyed Adam\'s glasses. The incident was captured on recording and establishes West Kira\'s character and his connection to the broader network around Bodie Chalmers.',
+        isPlaceholder:true,
+        placeholderLabel:'FOOTAGE PENDING LEGAL REVIEW',
+        filename:'west_kira_glasses_incident.mp4'
     }
 };
 
@@ -1671,6 +2833,15 @@ function showToast(msg) {
     setTimeout(function(){ t.style.opacity='0'; setTimeout(function(){ t.remove(); },300); }, 2500);
 }
 
+// ── VAULT TOGGLE ──
+function toggleVault(header) {
+    var body = header.nextElementSibling;
+    var toggle = header.querySelector('.ev-toggle');
+    var isOpen = body.classList.contains('open');
+    body.classList.toggle('open', !isOpen);
+    if (toggle) toggle.classList.toggle('open', !isOpen);
+}
+
 // Close MV on backdrop
 document.getElementById('mv-wrap').addEventListener('click',function(e){if(e.target===this||e.target===document.getElementById('mv-body'))closeMV();});
 document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMV();});
@@ -1713,5 +2884,29 @@ var obs = new IntersectionObserver(function(entries){
 },{threshold:0.08});
 document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el);});
 </script>
+
+<!-- ══════════════════════════════════════
+     EPISODES GRID
+══════════════════════════════════════ -->
+
+<footer class="border-t border-paper/[0.05] px-5 md:px-10 py-10 max-w-6xl mx-auto">
+    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
+        <div>
+            <div class="font-display text-xl tracking-widest text-paper/18 mb-1">COVERT<span class="text-dim">GC</span></div>
+            <div class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/12">© 2026 CovertGC — Investigative Journalism</div>
+        </div>
+        <div class="text-center">
+            <div class="text-[0.5rem] tracking-[0.18em] uppercase text-paper/18 mb-1">Case Reference</div>
+            <div class="text-[0.6rem] text-paper/28">PSR Crown Investments Pty Ltd v The Owners — Strata Plan No. 93922</div>
+            <div class="text-[0.5rem] text-paper/15 mt-0.5">NCAT Application · s.237 SSMA 2015 · Filed 3 March 2026</div>
+        </div>
+        <div class="text-right">
+            <div class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/18 mb-1">Strata Scheme</div>
+            <div class="text-[0.6rem] text-paper/28">Oxford On Crown · 30 Burelli St, Wollongong NSW 2500</div>
+            <div class="text-[0.5rem] text-paper/15 mt-0.5">SP 93922 · ABN 64 673 362 665</div>
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>
