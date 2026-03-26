@@ -935,9 +935,9 @@
                 </div>
 
                 <!-- Criminal Injuries Compensation Loophole -->
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE CHARGE WAS FAKE.<br><span class="text-hot">THE $100,000 WAS REAL.</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"The DPP called it malicious prosecution. The officer was fired. And Bodie Chalmers walked out of the courthouse, saw Adam Watson, and laughed at him. Then he claimed over $100,000 in Criminal Injuries Compensation — for a crime that never happened."</p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Queensland's Criminal Injuries Compensation scheme contains a systemic loophole: a person can claim compensation for an alleged crime even where no conviction has been recorded — and even where the prosecution was ruled malicious. There is no requirement that the accused be found guilty, or that the charge survive its first court appearance. The scheme takes the complainant's word for it. Bodie Chalmers exploited this gap to claim in excess of $100,000 in compensation for an assault the DPP said never happened in the way alleged.</p>
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE CHARGE WAS FAKE.<br><span class="text-hot">THE $165,000 WAS REAL.</span></h3>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"The DPP called it malicious prosecution. The officer was fired. And Bodie Chalmers walked out of the courthouse, saw Adam Watson, and laughed at him. Then he claimed $165,000 in Criminal Injuries Compensation — for a crime that never happened."</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Queensland's Criminal Injuries Compensation scheme contains a systemic loophole: a person can claim compensation for an alleged crime even where no conviction has been recorded — and even where the prosecution was ruled malicious. There is no requirement that the accused be found guilty, or that the charge survive its first court appearance. The scheme takes the complainant's word for it. Bodie Chalmers exploited this gap to claim $165,000 in compensation for an assault the DPP said never happened in the way alleged.</p>
                 <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">When Bodie Chalmers saw Adam Watson outside the courthouse following the dismissal of the charge, he mocked him. The compensation claim was either already in progress or filed shortly after. The system that was supposed to protect victims of crime was used as a weapon against the person it falsely accused.</p>
 
                 <div class="border border-hot/20 p-6 mb-6" style="background:rgba(214,61,47,0.04)">
@@ -947,15 +947,15 @@
                         <div class="flex gap-3 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><span class="text-[0.65rem] text-paper/45">A charge is laid. The accused is taken to court.</span></div>
                         <div class="flex gap-3 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><span class="text-[0.65rem] text-paper/45">The DPP dismisses the charge — even ruling it a malicious prosecution.</span></div>
                         <div class="flex gap-3 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><span class="text-[0.65rem] text-paper/45">The complainant applies for Criminal Injuries Compensation. No conviction is required. No finding against the accused is required. The scheme pays out.</span></div>
-                        <div class="flex gap-3 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><span class="text-[0.65rem] text-paper/45">Bodie Chalmers received in excess of <span class="text-hot font-display tracking-wide">$100,000</span>.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><span class="text-[0.65rem] text-paper/45">Bodie Chalmers received <span class="text-hot font-display tracking-wide">$165,000</span>.</span></div>
                     </div>
                     <p class="text-[0.62rem] text-paper/32 leading-relaxed italic border-l-2 border-hot/25 pl-3">This is not a legal technicality. It is a structural failure that allows false complainants to profit from the criminal justice system at the expense of the people they falsely accused.</p>
                 </div>
 
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
                     <div class="border border-hot/20 p-5" style="background:rgba(214,61,47,0.03)">
                         <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Compensation Paid</div>
-                        <div class="font-display text-3xl text-hot mb-2">$100,000+</div>
+                        <div class="font-display text-3xl text-hot mb-2">$165,000</div>
                         <p class="text-[0.62rem] text-paper/40 leading-relaxed">Claimed by Bodie Chalmers under Queensland's Criminal Injuries Compensation scheme — for a charge the DPP ruled malicious prosecution at first mention.</p>
                     </div>
                     <div class="border border-sage/20 p-5" style="background:rgba(42,157,78,0.03)">
@@ -965,10 +965,72 @@
                     </div>
                 </div>
 
-                <div class="border border-sage/20 p-6" style="background:rgba(42,157,78,0.03)">
+                <div class="border border-sage/20 p-6 mb-10" style="background:rgba(42,157,78,0.03)">
                     <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-3">The Reform — What Frecklington Is Fixing</div>
                     <p class="text-[0.68rem] text-paper/42 leading-relaxed mb-3">Attorney General Deb Frecklington has identified the systemic gap in the Criminal Injuries Compensation Act that allows claimants to receive compensation in circumstances where no conviction has been recorded — including cases where the DPP has declined to proceed or ruled the prosecution malicious. The reform would require that compensation claims be assessed against the actual outcome of court proceedings, not merely the allegation.</p>
-                    <p class="text-[0.68rem] text-paper/42 leading-relaxed">Adam Watson's case is a concrete example of why this reform is needed. A person who was the subject of a false complaint — ruled malicious by the DPP, with the officer who filed it subsequently dismissed — watched his accuser receive over $100,000 from the public purse. The reform, if passed, would prevent this outcome from being repeated.</p>
+                    <p class="text-[0.68rem] text-paper/42 leading-relaxed">Adam Watson's case is a concrete example of why this reform is needed. A person who was the subject of a false complaint — ruled malicious by the DPP, with the officer who filed it subsequently dismissed — watched his accuser receive $165,000 from the public purse. The reform, if passed, would prevent this outcome from being repeated.</p>
+                </div>
+
+                <!-- EMF Brisbane / QP-9 Gym Attack -->
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE QP-9 GOES TO THE GYM.<br><span class="text-hot">EMF BRISBANE. THE CHANGEROOM ATTACK.</span></h3>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Bodie Chalmers got hold of the QP-9 — the police charge sheet for the sexual assault that the malicious officer had placed on Adam Watson. Queensland Police did not want to confirm how he obtained it. He walked into EMF Brisbane, the gym Adam trains at, handed the charge sheet to the front counter, and told staff he had been raped. The gym banned Adam Watson on the spot."</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">A QP-9 is not a public document. It is an internal Queensland Police charge sheet. That Bodie Chalmers was in possession of one — specifically the charge sheet relating to Adam Watson — raises the same question as the Sky News QP-9 disclosure: who in Queensland Police gave it to him, and why. Queensland Police declined to confirm the source when the matter was raised.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">EMF Brisbane banned Adam Watson based on the charge sheet. The ban stood. Adam was still being charged membership fees despite being barred from entering the premises.</p>
+
+                <div class="border border-hot/20 p-5 mb-6" style="background:rgba(214,61,47,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-4">The Changeroom Attack — Sequence of Events</div>
+                    <div class="space-y-2.5">
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Step 01</span><span class="text-[0.65rem] text-paper/45">Bodie Chalmers circulates the rumour — through his network — that Adam Watson raped him. The charge sheet is used as the basis for the claim.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Step 02</span><span class="text-[0.65rem] text-paper/45">Five associates of Bodie Chalmers — who had heard the rumour — confront Adam Watson in the change rooms at EMF Brisbane.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Step 03</span><span class="text-[0.65rem] text-paper/45">They assault Adam — holding him down and punching him.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-gold/70 w-28 shrink-0 pt-0.5">Intervenes</span><span class="text-[0.65rem] text-paper/45">An elderly man enters the change rooms, sees what is happening, and physically pulls the attackers off Adam Watson.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Step 04</span><span class="text-[0.65rem] text-paper/45">Police are called. Two of the five attackers are charged. The elderly man who intervened to stop the assault is also charged.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">The Comment</span><span class="text-[0.65rem] text-paper/45">The attending officer makes a comment that Adam Watson — by helping Kosta Kondratenko with the Crime and Corruption Commission report — had "ruined" the officer's colleague's life, and that they would therefore be charging the old man.</span></div>
+                    </div>
+                </div>
+
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">The police officer's comment at the scene directly connects the charging of the elderly man who intervened — the person who stopped the attack — to retribution for the CCC report filed against a corrupt officer. An old man who did the right thing in a change room was charged because Adam Watson had helped expose police corruption. That is the logic of a system that has ceased to operate as a justice system.</p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                    <div class="bg-ink px-5 py-5 text-center border border-paper/[0.06]">
+                        <div class="stat-number text-4xl text-hot mb-1">5</div>
+                        <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Attackers</div>
+                        <div class="text-[0.5rem] text-paper/18 mt-1">Change rooms — EMF Brisbane</div>
+                    </div>
+                    <div class="bg-ink px-5 py-5 text-center border border-paper/[0.06]">
+                        <div class="stat-number text-4xl text-gold mb-1">2</div>
+                        <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Attackers charged</div>
+                        <div class="text-[0.5rem] text-paper/18 mt-1">Of the five who assaulted Adam</div>
+                    </div>
+                    <div class="bg-ink px-5 py-5 text-center border border-paper/[0.06]">
+                        <div class="stat-number text-4xl text-hot mb-1">1</div>
+                        <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Old man charged</div>
+                        <div class="text-[0.5rem] text-paper/18 mt-1">For stopping the attack</div>
+                    </div>
+                </div>
+
+                <div class="border border-paper/[0.07] p-6 mb-6">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-4">Civil Action — What Adam Watson Is Pursuing</div>
+                    <div class="space-y-3">
+                        <div class="flex gap-3 items-start">
+                            <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
+                            <div>
+                                <div class="text-[0.62rem] text-paper/55 mb-0.5">EMF Brisbane — Membership Fees During Ban</div>
+                                <p class="text-[0.6rem] text-paper/35 leading-relaxed">EMF Brisbane banned Adam Watson based on a charge sheet provided by Bodie Chalmers — a charge that had been ruled a malicious prosecution and dismissed. Despite the ban preventing Adam from accessing the facility, the gym continued to charge him membership fees. Adam Watson is pursuing civil action against EMF Brisbane for fees charged during a period he was barred from the premises.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-3 items-start">
+                            <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
+                            <div>
+                                <div class="text-[0.62rem] text-paper/55 mb-0.5">Father of One Attacker — Ford Dealership</div>
+                                <p class="text-[0.6rem] text-paper/35 leading-relaxed">One of the two attackers who was charged is the son of the owner of a Ford dealership. Adam Watson is pursuing civil action against the father in connection with the attack carried out by his son — an attack that was predicated on a false rumour spread by Bodie Chalmers using a fraudulently obtained police charge document.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-l-4 pl-6 py-1" style="border-color:rgba(214,61,47,0.4)">
+                    <p class="text-[0.68rem] text-paper/40 leading-relaxed">The QP-9 charge sheet is a non-public police document. Its disclosure to Bodie Chalmers — who used it to have a man banned from a gym, spread a rape rumour through a network that resulted in a violent attack, and collect $165,000 in compensation — is the most concrete example in this investigation of what happens when internal police documents reach the wrong hands. The question of who disclosed it has not been answered.</p>
                 </div>
             </div>
 
