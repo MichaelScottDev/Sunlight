@@ -928,10 +928,47 @@
                 <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter B — False Allegations</span></div>
                 <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">DPP RULING.<br><span class="text-hot">OFFICER FIRED.</span></h3>
                 <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"A criminal charge does not require truth. It requires a complainant, a police officer who believes them, and a system that moves faster than the facts."</p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Adam Watson was charged with sexual assault based on allegations made to Queensland Police. At the first court mention, the Director of Public Prosecutions ruled it a malicious prosecution. The charge was dismissed. The police officer who accepted and actioned the complaint was subsequently fired.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Bodie Chalmers, together with his accomplice Ebony, gave a police statement alleging sexual assault against Adam Watson. A corrupt officer accepted and actioned the complaint. At the first court mention, the Director of Public Prosecutions ruled it a malicious prosecution. The charge was dismissed. The officer was subsequently fired.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
+                    <div class="border p-5" style="border-color:rgba(214,61,47,0.3);background:rgba(214,61,47,0.03)"><div class="font-display text-xl text-hot mb-1">DPP RULING</div><div class="text-[0.6rem] tracking-[0.15em] uppercase text-hot/60 mb-3">Malicious Prosecution</div><p class="text-[0.65rem] text-paper/40 leading-relaxed">The DPP assessed the charge at first mention and ruled the prosecution malicious. Charge dismissed. Bodie Chalmers and Ebony's statement was the basis for the charge.</p></div>
+                    <div class="border p-5" style="border-color:rgba(214,61,47,0.3);background:rgba(214,61,47,0.03)"><div class="font-display text-xl text-hot mb-1">OFFICER FIRED</div><div class="text-[0.6rem] tracking-[0.15em] uppercase text-hot/60 mb-3">Confirmed Outcome</div><p class="text-[0.65rem] text-paper/40 leading-relaxed">The QPS officer who accepted and actioned the false complaint from Bodie Chalmers and Ebony was subsequently dismissed from the service.</p></div>
+                </div>
+
+                <!-- Criminal Injuries Compensation Loophole -->
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE CHARGE WAS FAKE.<br><span class="text-hot">THE $100,000 WAS REAL.</span></h3>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"The DPP called it malicious prosecution. The officer was fired. And Bodie Chalmers walked out of the courthouse, saw Adam Watson, and laughed at him. Then he claimed over $100,000 in Criminal Injuries Compensation — for a crime that never happened."</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Queensland's Criminal Injuries Compensation scheme contains a systemic loophole: a person can claim compensation for an alleged crime even where no conviction has been recorded — and even where the prosecution was ruled malicious. There is no requirement that the accused be found guilty, or that the charge survive its first court appearance. The scheme takes the complainant's word for it. Bodie Chalmers exploited this gap to claim in excess of $100,000 in compensation for an assault the DPP said never happened in the way alleged.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">When Bodie Chalmers saw Adam Watson outside the courthouse following the dismissal of the charge, he mocked him. The compensation claim was either already in progress or filed shortly after. The system that was supposed to protect victims of crime was used as a weapon against the person it falsely accused.</p>
+
+                <div class="border border-hot/20 p-6 mb-6" style="background:rgba(214,61,47,0.04)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Loophole — How It Works</div>
+                    <div class="space-y-2.5 mb-4">
+                        <div class="flex gap-3 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><span class="text-[0.65rem] text-paper/45">A person makes a complaint of a serious offence to Queensland Police.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><span class="text-[0.65rem] text-paper/45">A charge is laid. The accused is taken to court.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><span class="text-[0.65rem] text-paper/45">The DPP dismisses the charge — even ruling it a malicious prosecution.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><span class="text-[0.65rem] text-paper/45">The complainant applies for Criminal Injuries Compensation. No conviction is required. No finding against the accused is required. The scheme pays out.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><span class="text-[0.65rem] text-paper/45">Bodie Chalmers received in excess of <span class="text-hot font-display tracking-wide">$100,000</span>.</span></div>
+                    </div>
+                    <p class="text-[0.62rem] text-paper/32 leading-relaxed italic border-l-2 border-hot/25 pl-3">This is not a legal technicality. It is a structural failure that allows false complainants to profit from the criminal justice system at the expense of the people they falsely accused.</p>
+                </div>
+
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
-                    <div class="border p-5" style="border-color:rgba(214,61,47,0.3);background:rgba(214,61,47,0.03)"><div class="font-display text-xl text-hot mb-1">DPP RULING</div><div class="text-[0.6rem] tracking-[0.15em] uppercase text-hot/60 mb-3">Malicious Prosecution</div><p class="text-[0.65rem] text-paper/40 leading-relaxed">The DPP assessed the charge at first mention and ruled the prosecution malicious. Charge dismissed.</p></div>
-                    <div class="border p-5" style="border-color:rgba(214,61,47,0.3);background:rgba(214,61,47,0.03)"><div class="font-display text-xl text-hot mb-1">OFFICER FIRED</div><div class="text-[0.6rem] tracking-[0.15em] uppercase text-hot/60 mb-3">Confirmed Outcome</div><p class="text-[0.65rem] text-paper/40 leading-relaxed">The QPS officer who charged Adam based on the false complaint was subsequently dismissed from the service.</p></div>
+                    <div class="border border-hot/20 p-5" style="background:rgba(214,61,47,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Compensation Paid</div>
+                        <div class="font-display text-3xl text-hot mb-2">$100,000+</div>
+                        <p class="text-[0.62rem] text-paper/40 leading-relaxed">Claimed by Bodie Chalmers under Queensland's Criminal Injuries Compensation scheme — for a charge the DPP ruled malicious prosecution at first mention.</p>
+                    </div>
+                    <div class="border border-sage/20 p-5" style="background:rgba(42,157,78,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-1">Reform Underway</div>
+                        <div class="font-display text-xl text-sage mb-2">AG DEB FRECKLINGTON</div>
+                        <p class="text-[0.62rem] text-paper/40 leading-relaxed">Attorney General Deb Frecklington is actively working to close the loophole that allows Criminal Injuries Compensation claims where no conviction has been recorded against the accused.</p>
+                    </div>
+                </div>
+
+                <div class="border border-sage/20 p-6" style="background:rgba(42,157,78,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-3">The Reform — What Frecklington Is Fixing</div>
+                    <p class="text-[0.68rem] text-paper/42 leading-relaxed mb-3">Attorney General Deb Frecklington has identified the systemic gap in the Criminal Injuries Compensation Act that allows claimants to receive compensation in circumstances where no conviction has been recorded — including cases where the DPP has declined to proceed or ruled the prosecution malicious. The reform would require that compensation claims be assessed against the actual outcome of court proceedings, not merely the allegation.</p>
+                    <p class="text-[0.68rem] text-paper/42 leading-relaxed">Adam Watson's case is a concrete example of why this reform is needed. A person who was the subject of a false complaint — ruled malicious by the DPP, with the officer who filed it subsequently dismissed — watched his accuser receive over $100,000 from the public purse. The reform, if passed, would prevent this outcome from being repeated.</p>
                 </div>
             </div>
 
