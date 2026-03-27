@@ -1359,7 +1359,12 @@
             <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Adam gave him a ride. He repaid that by destroying Adam's glasses. It was recorded. That's the kind of person we're dealing with — and that's before we get to his father."</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">West Kira is a known associate of Bodie Chalmers. During a ride provided by Adam Watson — an act of basic human decency — West Kira deliberately broke Adam's glasses. The incident was captured on recording. It is a small act, but it is characteristic: a pattern of casual entitlement, destruction without consequence, and the assumption that proximity to power insulates you from accountability.</p>
 
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-px bg-paper/[0.04] mb-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mb-8">
+                <div class="bg-ink px-5 py-5 text-center">
+                    <div class="stat-number text-4xl text-hot mb-1">$750K</div>
+                    <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Drugs — street value</div>
+                    <div class="text-[0.5rem] text-paper/18 mt-1">Charged · Bail denied</div>
+                </div>
                 <div class="bg-ink px-5 py-5 text-center">
                     <div class="stat-number text-4xl text-hot mb-1">$10K</div>
                     <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Default judgement</div>
@@ -1376,6 +1381,30 @@
                     <div class="text-[0.5rem] text-paper/18 mt-1">Pattern of non-payment</div>
                 </div>
             </div>
+
+                <!-- Drug charges / bail -->
+                <div class="border border-hot/25 p-6 mb-8" style="background:rgba(214,61,47,0.04)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Update — Drug Charges</span>
+                        <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/25 border border-paper/10 px-2 py-0.5">Bail Denied · Supreme Court Application Pending</span>
+                    </div>
+                    <h4 class="font-display text-2xl tracking-wide mb-3 leading-tight">$750,000 IN DRUGS.<br><span class="text-hot">DENIED BAIL. SUPREME COURT.</span></h4>
+                    <p class="text-[0.68rem] leading-relaxed text-paper/45 mb-4">West Kira has since been charged following his arrest with drugs valued at approximately $750,000. He was denied bail. He has subsequently applied to the Supreme Court of Queensland for bail — an application that remains before the court.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <div class="border border-hot/15 p-4" style="background:rgba(214,61,47,0.03)">
+                            <div class="text-[0.48rem] tracking-[0.18em] uppercase text-hot mb-1">Charged</div>
+                            <p class="text-[0.62rem] text-paper/40 leading-relaxed">Drug offences — street value of seized drugs approximately $750,000.</p>
+                        </div>
+                        <div class="border border-hot/15 p-4" style="background:rgba(214,61,47,0.03)">
+                            <div class="text-[0.48rem] tracking-[0.18em] uppercase text-hot mb-1">Bail Denied</div>
+                            <p class="text-[0.62rem] text-paper/40 leading-relaxed">Bail refused at first instance. West Kira remains in custody pending the Supreme Court application.</p>
+                        </div>
+                        <div class="border border-gold/15 p-4" style="background:rgba(232,160,32,0.03)">
+                            <div class="text-[0.48rem] tracking-[0.18em] uppercase text-gold mb-1">Supreme Court</div>
+                            <p class="text-[0.62rem] text-paper/40 leading-relaxed">Bail application filed in the Supreme Court of Queensland. Outcome pending.</p>
+                        </div>
+                    </div>
+                </div>
 
             <div class="border border-paper/[0.07] p-5 mb-8" style="background:rgba(214,61,47,0.03)">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Financial Record</div>
