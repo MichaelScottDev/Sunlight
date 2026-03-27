@@ -1411,6 +1411,44 @@
                 <p class="text-[0.68rem] text-paper/45 leading-relaxed">West Kira has a default judgement entered against him — $10,000. The debt has since been sold to a third-party collector. A default judgement is not a disputed debt. It is what happens when someone does not show up, does not pay, and does not respond. It is a matter of public record.</p>
             </div>
 
+            <!-- Mick Gatto / Hit Solicitation -->
+            <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">"ANYTHING MR. WATSON TOUCHES<br><span class="text-hot">TURNS TO STONE."</span></h3>
+            <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"West Kira and his father called Mick Gatto and offered him money to put a hit out on Adam Watson. Mick Gatto told them that anything Mr. Watson touches turns to stone. He called them amateurs. Then he handed the recorded inbound call to police."</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The call was made by West Kira and his father to Mick Gatto — an approach that combined a solicitation to murder with the offering of a sum of money. Gatto's response was unambiguous. He recorded the inbound call and provided it directly to police. West Kira and his father are now facing charges as a result of that recorded call being in police possession.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">This is the same Mick Gatto who, at the Broadbeach disability centre confrontation, warned West Kira's father directly — in front of two corrupt QPS officers and a psychologist — not to interfere with Adam Watson. West Kira's father ignored that warning. He then compounded it by making a recorded call soliciting violence against the same person Gatto had already publicly stated was under his protection.</p>
+
+            <div class="border border-hot/20 p-6 mb-6" style="background:rgba(214,61,47,0.04)">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-4">Sequence of Events — The Call</div>
+                <div class="space-y-2.5">
+                    <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">The Call</span><span class="text-[0.65rem] text-paper/45">West Kira and his father call Mick Gatto and offer him a sum of money to arrange a hit on Adam Watson.</span></div>
+                    <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-gold/70 w-28 shrink-0 pt-0.5">Gatto's Response</span><span class="text-[0.65rem] text-paper/45">"Anything Mr. Watson touches turns to stone." Gatto calls them amateurs and refuses.</span></div>
+                    <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-gold/70 w-28 shrink-0 pt-0.5">The Recording</span><span class="text-[0.65rem] text-paper/45">Gatto's inbound call was being recorded. He provides the recording to Queensland Police.</span></div>
+                    <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Charged</span><span class="text-[0.65rem] text-paper/45">West Kira and his father are now facing charges in connection with the recorded solicitation.</span></div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8">
+                <div class="border border-hot/20 p-5" style="background:rgba(214,61,47,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">West Kira</div>
+                    <div class="font-display text-lg text-hot mb-1">CHARGED</div>
+                    <p class="text-[0.6rem] text-paper/40 leading-relaxed">Drug offences ($750K). Bail denied. Supreme Court bail application pending. Now also facing charges over the recorded Gatto call.</p>
+                </div>
+                <div class="border border-hot/20 p-5" style="background:rgba(214,61,47,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">West Kira's Father</div>
+                    <div class="font-display text-lg text-hot mb-1">CHARGED</div>
+                    <p class="text-[0.6rem] text-paper/40 leading-relaxed">Facing charges over the recorded solicitation call to Mick Gatto — the same man he previously invoked as a threat at the Broadbeach disability centre confrontation.</p>
+                </div>
+                <div class="border border-sage/20 p-5" style="background:rgba(42,157,78,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-1">Mick Gatto</div>
+                    <div class="font-display text-lg text-sage mb-1">COOPERATED</div>
+                    <p class="text-[0.6rem] text-paper/40 leading-relaxed">Recorded the inbound call and provided it to police. The recording is the basis for the charges now facing both West Kira and his father.</p>
+                </div>
+            </div>
+
+            <div class="border-l-4 pl-6 py-1 mb-8" style="border-color:rgba(214,61,47,0.4)">
+                <p class="text-[0.68rem] text-paper/40 leading-relaxed">West Kira's father had already been warned by Mick Gatto at the Broadbeach confrontation — in front of witnesses, on a recording that drove two QPS officers to be stood down by the Attorney General. He chose to call Gatto again anyway, this time to offer money for a murder. The charge that came from that call is not a surprise. It is a consequence.</p>
+            </div>
+
             <div class="evidence-vault">
                 <div class="ev-header" onclick="toggleVault(this)">
                     <div class="flex items-center gap-2">
