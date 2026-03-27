@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>COVERT GC — Episode 1: Gold Coast Uncovered</title>
+    <title>Sunlight.Quest — Episode 1: Gold Coast Uncovered</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -175,7 +175,7 @@
 <!-- ══ NAV ══ -->
 <nav class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-5 py-3 bg-ink/95 backdrop-blur-md border-b border-paper/[0.06]">
     <div class="flex items-center gap-4">
-        <a href="#" class="font-display text-2xl tracking-widest">COVERT<span class="text-hot">GC</span></a>
+        <a href="#" class="font-display text-2xl tracking-widest">SUNLIGHT<span class="text-hot">.QUEST</span></a>
         <span class="hidden sm:block text-[0.52rem] tracking-[0.2em] uppercase text-paper/20 border-l border-paper/10 pl-4">Investigative Vlog Series</span>
     </div>
     <div class="flex items-center gap-3">
@@ -733,7 +733,7 @@
                 <div class="story-chapter reveal" style="border-left-color:rgba(201,138,16,0.3)">
                     <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">The Leak</span></div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE EMAIL TO HANCOCK PROSPECTING.<br><span class="text-gold">AND MY CHARGE SHEET.</span></h3>
-                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"A QP-9 is a Queensland Police charge sheet. It is not a public document. If a journalist has one, someone in Queensland Police gave it to them. That is an unauthorised disclosure of personal information. CovertGC has referred this to the CCC."</p>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"A QP-9 is a Queensland Police charge sheet. It is not a public document. If a journalist has one, someone in Queensland Police gave it to them. That is an unauthorised disclosure of personal information. Sunlight.Quest has referred this to the CCC."</p>
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The email thread from the Sky News reporter — sent to Hancock Prospecting with my QP-9 attached — documents both the illegal disclosure of a police charge document and the framing of a homeless journalism source as unreliable based on a dropped charge. The Kangaroo Point McDonald's Public Nuisance charge was dropped by the DPP at first mention. A dropped charge is not a conviction.</p>
 
                     <!-- EVIDENCE VAULT: Sky News -->
@@ -771,7 +771,7 @@
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The comment reduces a person to their housing status and their diagnosis simultaneously — using both as grounds for disqualification. Not as a factual challenge to anything documented, but as a category dismissal. The 7 Care Connect posters on the bathroom walls at Nerang Street did not disappear because the person who found them has a mental health history.</p>
                     <div class="border p-6" style="border-color:rgba(124,106,170,0.2);background:rgba(124,106,170,0.03)">
                         <div class="text-[0.5rem] tracking-[0.2em] uppercase mb-3" style="color:#7c6aaa">Why Independent Media Exists</div>
-                        <p class="text-[0.68rem] text-paper/40 leading-relaxed">When mainstream outlets decide sources with complicated personal histories aren't worth covering, they leave those stories untold. CovertGC exists precisely because some stories only get told when the person who found them tells it themselves.</p>
+                        <p class="text-[0.68rem] text-paper/40 leading-relaxed">When mainstream outlets decide sources with complicated personal histories aren't worth covering, they leave those stories untold. Sunlight.Quest exists precisely because some stories only get told when the person who found them tells it themselves.</p>
                     </div>
                 </div>
 
@@ -1057,7 +1057,7 @@
                         </div>
                     </div>
                     <div class="ev-body">
-                        <div class="ev-file ef-gold" onclick="openMV('pdf','OPTUS APOLOGY LETTER — TIO OUTCOME','Letter from Optus following Telecommunications Industry Ombudsman referral — service restored — acknowledgment of breach','PDF · Optus correspondence · Post-TIO referral','optus_apology_letter.pdf','This letter from Optus, issued following the TIO referral initiated by Adam Watson\'s complaint to the Prime Minister\'s office, confirms the restoration of service and acknowledges the security failure at the retail store level. Optus has since issued an internal directive addressing verification procedures. Despite this, Adam is still being billed $2,500 — a charge CovertGC considers unconscionable.','pdf-optus')">
+                        <div class="ev-file ef-gold" onclick="openMV('pdf','OPTUS APOLOGY LETTER — TIO OUTCOME','Letter from Optus following Telecommunications Industry Ombudsman referral — service restored — acknowledgment of breach','PDF · Optus correspondence · Post-TIO referral','optus_apology_letter.pdf','This letter from Optus, issued following the TIO referral initiated by Adam Watson\'s complaint to the Prime Minister\'s office, confirms the restoration of service and acknowledges the security failure at the retail store level. Optus has since issued an internal directive addressing verification procedures. Despite this, Adam is still being billed $2,500 — a charge Sunlight.Quest considers unconscionable.','pdf-optus')">
                             <div class="ev-icon ev-pdf">PDF</div>
                             <div class="ev-meta">
                                 <div class="ev-name">optus_apology_TIO_outcome.pdf</div>
@@ -1066,7 +1066,7 @@
                             <span class="ev-cta">View →</span>
                         </div>
                         <div class="ev-zip-bar">
-                            <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">CovertGC is calling on Optus to waive the $2,500 charge</span>
+                            <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Sunlight.Quest is calling on Optus to waive the $2,500 charge</span>
                         </div>
                     </div>
                 </div>
@@ -1106,7 +1106,7 @@
                 <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">03</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Pacific Fair</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Five associates at Pacific Fair fruit shop</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Adam defended himself. One associate: broken jaw. All five gave statements identifying RJ. Charged. Released.</div></div></div>
                 <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">04</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Burglary</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Aggravated burglary — Pacific Fair precinct</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Charged with aggravated burglary — phone theft outside Pacific Fair. Charged. Released.</div></div></div>
                 <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">05</div><div class="text-[0.45rem] text-paper/20 mt-0.5">False Allegation</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">False sexual assault allegation — local doctor</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Doctor's office raided. Doctor cleared of all criminal allegations. Civil lawsuit ongoing against insurance.</div></div></div>
-                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">06</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Shopping Centre</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Daily harassment of Adam Watson</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Associates harassing Adam at local shopping centre specifically because of CovertGC and the viral video.</div></div></div>
+                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">06</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Shopping Centre</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Daily harassment of Adam Watson</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Associates harassing Adam at local shopping centre specifically because of Sunlight.Quest and the viral video.</div></div></div>
                 <div class="grid grid-cols-[80px_1fr] gap-4 bg-sage/[0.04] border border-sage/20 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-sage">07</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Laptop</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Laptop with incriminating evidence → Southport Police</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">RJ gave Adam Watson a laptop. Adam brought it to Southport Police Station, Sex & Crime Squad. Active investigation.</div></div></div>
             </div>
         </div>
@@ -1226,7 +1226,7 @@
             <div class="story-chapter reveal" style="transition-delay:0.1s">
                 <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Incident Two — Arson</span></div>
                 <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">"GINA RINEHART IS NEXT"<br><span class="text-hot">WRITTEN ON A FENCE.</span></h3>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">A Gold Coast home connected to the personal circle of Gina Rinehart was firebombed. Perpetrators left graffiti: "Gina Rinehart is next." They also left a section of a previous version of this publication containing identifying imagery — an attempt to establish that investigative journalism is the provocation for violence. CovertGC does not accept that logic.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">A Gold Coast home connected to the personal circle of Gina Rinehart was firebombed. Perpetrators left graffiti: "Gina Rinehart is next." They also left a section of a previous version of this publication containing identifying imagery — an attempt to establish that investigative journalism is the provocation for violence. Sunlight.Quest does not accept that logic.</p>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     <div class="border border-paper/[0.07] p-5">
                         <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-2">Jordan Shanks — Friendlyjordies</div>
@@ -1234,7 +1234,7 @@
                     </div>
                     <div class="border border-paper/[0.07] p-5">
                         <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-2">Gina Rinehart's Circle — Gold Coast</div>
-                        <div class="text-[0.62rem] text-paper/40 leading-relaxed space-y-1"><div>Method: Firebombing — Gold Coast residence</div><div>Message left: "Rinehart is next" + CovertGC pages</div><div>Status: Active investigation. Perpetrator left Australia.</div></div>
+                        <div class="text-[0.62rem] text-paper/40 leading-relaxed space-y-1"><div>Method: Firebombing — Gold Coast residence</div><div>Message left: "Rinehart is next" + Sunlight.Quest pages</div><div>Status: Active investigation. Perpetrator left Australia.</div></div>
                     </div>
                 </div>
             </div>
@@ -1278,7 +1278,7 @@
                 <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">I lodged a formal privacy complaint with the City of Gold Coast on 15 December 2024. The Council acknowledged it via Ref: Lawmaster 1192. Then discontinued it — asking me to supply the information their own systems already held. Premier Crisafulli issued a Show Cause notice. Staff were terminated. The complaint letters are available in the Police Accountability section above.</p>
                 <div class="border border-hot/20 p-6 mb-5" style="background:rgba(193,68,14,0.03)">
                     <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Formal Demand — Retraction</div>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">CovertGC formally demands that Mayor Tom Tate retract his characterisation of Kosta Kondratenko as a "public nuisance." All charges against Mr Kondratenko have been dropped. A written retraction is requested. Deadline: 30 days from publication.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">Sunlight.Quest formally demands that Mayor Tom Tate retract his characterisation of Kosta Kondratenko as a "public nuisance." All charges against Mr Kondratenko have been dropped. A written retraction is requested. Deadline: 30 days from publication.</p>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
@@ -1320,7 +1320,7 @@
             <div class="story-chapter reveal" style="border-left-color:rgba(193,68,14,0.3)">
                 <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE ATTENDANCE RECORD GAP</h3>
                 <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Most Australian schools, churches, and government institutions maintain attendance records going back decades. Cross-referencing an applicant's name against them is not a complex investigative task. The question of why it does not appear to be standard practice is one the scheme needs to answer publicly.</p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">CovertGC has been made aware of at least one Gold Coast case in which a Redress Scheme payout was subsequently subject to recovery action — including the seizure of an asset — following questions about whether the applicant attended the institution named in their claim. FOI requests are on file. This section will be updated when responses are received.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Sunlight.Quest has been made aware of at least one Gold Coast case in which a Redress Scheme payout was subsequently subject to recovery action — including the seizure of an asset — following questions about whether the applicant attended the institution named in their claim. FOI requests are on file. This section will be updated when responses are received.</p>
                 <div class="border border-sage/20 p-5" style="background:rgba(61,122,74,0.03)">
                     <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-2">FOI Requests Filed</div>
                     <div class="space-y-1.5"><div class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-gold"></div><span class="text-[0.6rem] text-paper/35">National Redress Scheme — verification methodology</span></div><div class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-gold"></div><span class="text-[0.6rem] text-paper/35">National Redress Scheme — fraud referral statistics</span></div><div class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-paper/20"></div><span class="text-[0.6rem] text-paper/25">QLD AG — Criminal Injuries Compensation reform</span></div></div>
@@ -2414,8 +2414,8 @@
 <footer class="border-t border-paper/[0.05] px-5 md:px-10 py-10 max-w-6xl mx-auto">
     <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
         <div>
-            <div class="font-display text-xl tracking-widest text-paper/18 mb-1">COVERT<span class="text-dim">GC</span></div>
-            <div class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/12">© 2026 CovertGC — Investigative Journalism</div>
+            <div class="font-display text-xl tracking-widest text-paper/18 mb-1">SUNLIGHT<span class="text-dim">.QUEST</span></div>
+            <div class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/12">© 2026 Sunlight.Quest — Investigative Journalism</div>
         </div>
         <div class="text-center">
             <div class="text-[0.5rem] tracking-[0.18em] uppercase text-paper/18 mb-1">Case Reference</div>
@@ -2553,7 +2553,7 @@ document.querySelectorAll('.reveal').forEach(function (el) { obs.observe(el); })
             <p class="font-serif italic text-paper/65 leading-relaxed" style="font-size:clamp(1rem,2vw,1.15rem)">"Adam Watson walked into my life at a moment when I had very little — and proceeded to show me more about how Australia actually works than a decade of conventional observation ever could."</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45">Thank you for representing me at court — for standing in a room with me and knowing exactly what to say, when to say it, and how to say it in a way that the system understood. You taught me how to navigate the courts and how to win — not through aggression, but through precision, preparation, and an understanding of process that most people never acquire.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45">Taking down a criminal syndicate with you — navigating the connections between organised crime, institutional failure, and the justice system — has been the most enlightening thing I have ever done. I look forward to our next adventure.</p>
-            <div class="flex items-center gap-3 mt-2"><div class="w-6 h-px bg-sage/40"></div><span class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/25">Kosta Kondratenko — CovertGC</span></div>
+            <div class="flex items-center gap-3 mt-2"><div class="w-6 h-px bg-sage/40"></div><span class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/25">Kosta Kondratenko — Sunlight.Quest</span></div>
         </div>
         <div class="clear-both mt-12 pt-8 border-t border-paper/[0.06]">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -2596,8 +2596,8 @@ document.querySelectorAll('.reveal').forEach(function (el) { obs.observe(el); })
 
 <!-- ══ FOOTER ══ -->
 <footer class="border-t border-paper/[0.05] px-5 md:px-10 py-8 max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
-    <div class="font-display text-xl tracking-widest text-paper/18">COVERT<span class="text-dim">GC</span></div>
-    <div class="text-[0.52rem] tracking-[0.14em] uppercase text-paper/10 text-center">© 2025 CovertGC — Investigative Journalism — Gold Coast, QLD</div>
+    <div class="font-display text-xl tracking-widest text-paper/18">SUNLIGHT<span class="text-dim">.QUEST</span></div>
+    <div class="text-[0.52rem] tracking-[0.14em] uppercase text-paper/10 text-center">© 2025 Sunlight.Quest — Investigative Journalism — Gold Coast, QLD</div>
     <div class="text-[0.52rem] tracking-[0.14em] uppercase text-paper/10">Season 1 — Ongoing</div>
 </footer>
 
@@ -2737,7 +2737,7 @@ var EVIDENCE = {
         title:'OPTUS APOLOGY LETTER — TIO OUTCOME',
         tag:'Telecommunications Ombudsman · Service Restored',
         meta:'PDF · Optus correspondence · Post-TIO referral',
-        desc:'Letter from Optus issued following the TIO referral initiated by Adam Watson\'s complaint to the Prime Minister\'s office. Confirms restoration of service and acknowledges the security failure at the retail store level. Despite this acknowledgment, Adam continues to receive a $2,500 billing claim in connection with the unauthorised deactivation — a charge CovertGC considers unconscionable.',
+        desc:'Letter from Optus issued following the TIO referral initiated by Adam Watson\'s complaint to the Prime Minister\'s office. Confirms restoration of service and acknowledges the security failure at the retail store level. Despite this acknowledgment, Adam continues to receive a $2,500 billing claim in connection with the unauthorised deactivation — a charge Sunlight.Quest considers unconscionable.',
         filename:'optus_apology_TIO_letter.pdf',
         pages: 2
     },
@@ -2984,7 +2984,7 @@ function downloadFile() {
     if(!currentFile) return;
     var a = document.createElement('a');
     a.href = '#';
-    a.download = currentFile.filename || 'covertgc_document';
+    a.download = currentFile.filename || 'sunlightquest_document';
     a.click();
     // Toast
     showToast('Download started: ' + (currentFile.filename||'file'));
@@ -3061,8 +3061,8 @@ document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el);});
 <footer class="border-t border-paper/[0.05] px-5 md:px-10 py-10 max-w-6xl mx-auto">
     <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
         <div>
-            <div class="font-display text-xl tracking-widest text-paper/18 mb-1">COVERT<span class="text-dim">GC</span></div>
-            <div class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/12">© 2026 CovertGC — Investigative Journalism</div>
+            <div class="font-display text-xl tracking-widest text-paper/18 mb-1">SUNLIGHT<span class="text-dim">.QUEST</span></div>
+            <div class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/12">© 2026 Sunlight.Quest — Investigative Journalism</div>
         </div>
         <div class="text-center">
             <div class="text-[0.5rem] tracking-[0.18em] uppercase text-paper/18 mb-1">Case Reference</div>
