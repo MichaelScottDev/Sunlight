@@ -1072,10 +1072,68 @@
                 </div>
             </div>
 
+            <!-- Chapter D: Alex Vourliotis -->
+            <div class="story-chapter reveal" style="transition-delay:0.2s;border-left-color:rgba(193,68,14,0.3)">
+                <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter D — Car Theft & Fraud</span></div>
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE MAN IN THE VAN.<br><span class="text-hot">ALEX VOURLIOTIS.</span></h3>
+
+                <div class="grid grid-cols-1 lg:grid-cols-[160px_1fr] gap-6 mb-6">
+                    <div class="shrink-0">
+                        <div class="border border-paper/[0.08] overflow-hidden">
+                            <img src="https://d26oc3sg82pgk3.cloudfront.net/files/media/uploads/casting_call/8bdf3330-eb64-44e5-9ab1-777e4b28c21e-bWFpbi1uLW4tMC0wLTAtMC0w.jpg" alt="Alex Vourliotis" style="width:100%;display:block;filter:grayscale(15%) contrast(1.05);object-fit:cover;aspect-ratio:1/1"/>
+                            <div class="border-t border-paper/[0.06] px-2 py-1.5" style="background:rgba(12,8,4,0.7)">
+                                <div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/30">Alex Vourliotis</div>
+                                <div class="text-[0.44rem] text-hot/60 mt-0.5">Jailed · Car fraud</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-4">"I met him outside Setfree — he was in a van, picking up free food. He started talking about court issues with his partner and it sounded like gibberish. First sign of a scammer. Then he mentioned something about Orange Sky laundry and a text message he'd seen about St. John's Crisis Centre."</p>
+                        <p class="text-[0.72rem] leading-relaxed text-paper/45">Kosta Kondratenko encountered Alex Vourliotis outside Setfree, a community service providing free food on the Gold Coast. Vourliotis was operating out of a van and immediately began relaying incoherent complaints about court proceedings involving his partner — a pattern recognisable in retrospect as the opening of a social engineering approach. He had seen a text message Kosta had sent regarding financial irregularities at St. John's Crisis Centre. He then called Kosta directly and raised a separate complaint about Orange Sky Laundry failing to return his belongings.</p>
+                    </div>
+                </div>
+
+                <div class="border border-paper/[0.07] p-5 mb-6">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-4">How It Unfolded — The Vourliotis Timeline</div>
+                    <div class="space-y-2.5">
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">First Contact</span><span class="text-[0.65rem] text-paper/45">Kosta meets Vourliotis outside Setfree. He is in a van collecting free food. He raises incoherent complaints about partner court proceedings — in retrospect, the hallmark opening of a scammer establishing rapport.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">The Intercept</span><span class="text-[0.65rem] text-paper/45">Vourliotis had seen a text message Kosta sent about financial irregularities at St. John's Crisis Centre — a message he should not have had access to. He uses it as a pretext to call Kosta and raise the Orange Sky laundry issue.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Introduction</span><span class="text-[0.65rem] text-paper/45">Kosta introduces Vourliotis to Adam Watson at the pub. During this meeting, Vourliotis admits he arrived wearing a secret recording device.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">The Lift</span><span class="text-[0.65rem] text-paper/45">Adam Watson gives Vourliotis a lift. A relationship develops. Adam falls asleep. Vourliotis opens the glove compartment and takes the vehicle registration papers.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Interstate</span><span class="text-[0.65rem] text-paper/45">Vourliotis travels interstate and uses the registration papers to transfer the car into his own name. He then obtains financing against the vehicle through Cash Converters.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-gold/70 w-28 shrink-0 pt-0.5">Arrested</span><span class="text-[0.65rem] text-paper/45">Police arrest Vourliotis. During the record of interview he makes the comment: <span class="text-paper/70 italic">"But he has everything"</span> — understood to be a reference to Adam Watson's boat.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Jailed</span><span class="text-[0.65rem] text-paper/45">Vourliotis is convicted and jailed for the fraud.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] w-28 shrink-0 pt-0.5" style="color:rgba(124,106,170,0.7)">In Custody</span><span class="text-[0.65rem] text-paper/45">While jailed, Vourliotis feeds information about Adam Watson to his psychologist. Adam Watson speculated this was a deliberate strategy — building a record of claimed trauma to later subpoena the psychologist as a witness against him.</span></div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                    <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Secret Recording</div>
+                        <div class="font-display text-xl text-hot mb-1">ADMITTED</div>
+                        <p class="text-[0.62rem] text-paper/40 leading-relaxed">Vourliotis admitted at the pub meeting that he arrived wearing a concealed recording device. He recorded the introduction to Adam Watson.</p>
+                    </div>
+                    <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">The Comment</div>
+                        <div class="font-display text-xl text-hot mb-1">"HE HAS EVERYTHING"</div>
+                        <p class="text-[0.62rem] text-paper/40 leading-relaxed">Made during police record of interview. Understood to refer to Adam Watson's boat — suggesting the car was not the only asset Vourliotis had in mind.</p>
+                    </div>
+                    <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Psychologist Play</div>
+                        <div class="font-display text-xl text-hot mb-1">ALLEGED STRATEGY</div>
+                        <p class="text-[0.62rem] text-paper/40 leading-relaxed">Feeding a psychologist a narrative of trauma while in custody — potentially to create a witness who could be called to court. Adam Watson identified this as a deliberate litigation strategy.</p>
+                    </div>
+                </div>
+
+                <div class="border-l-4 pl-6 py-1" style="border-color:rgba(193,68,14,0.4)">
+                    <p class="text-[0.68rem] text-paper/40 leading-relaxed">The Orange Sky laundry complaint and the St. John's Crisis Centre text message gave Vourliotis two entry points into Kosta's investigative work — one as a grievance, one as a demonstration that he had access to private communications. He arrived at the first meeting already recording. The car was gone before Adam Watson woke up. The comment about "everything" suggests the vehicle was a starting point, not the plan.</p>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
- 
+
 
 <!-- ══════════════════════════════════════
      RJ CRIMINAL PATTERN
