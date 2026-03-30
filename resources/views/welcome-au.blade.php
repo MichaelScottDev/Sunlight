@@ -971,7 +971,12 @@
                 <div class="border border-sage/20 p-6 mb-10" style="background:rgba(61,122,74,0.03)">
                     <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-3">The Reform — What Frecklington Is Fixing</div>
                     <p class="text-[0.68rem] text-paper/42 leading-relaxed mb-3">Attorney General Deb Frecklington has identified the systemic gap in the Criminal Injuries Compensation Act that allows claimants to receive compensation in circumstances where no conviction has been recorded — including cases where the DPP has declined to proceed or ruled the prosecution malicious. The reform would require that compensation claims be assessed against the actual outcome of court proceedings, not merely the allegation.</p>
-                    <p class="text-[0.68rem] text-paper/42 leading-relaxed">Adam Watson's case is a concrete example of why this reform is needed. A person who was the subject of a false complaint — ruled malicious by the DPP, with the officer who filed it subsequently dismissed — watched his accuser receive $165,000 from the public purse. The reform, if passed, would prevent this outcome from being repeated.</p>
+                    <p class="text-[0.68rem] text-paper/42 leading-relaxed mb-3">Adam Watson's case is a concrete example of why this reform is needed. A person who was the subject of a false complaint — ruled malicious by the DPP, with the officer who filed it subsequently dismissed — watched his accuser receive $165,000 from the public purse. The reform, if passed, would prevent this outcome from being repeated.</p>
+                    <p class="text-[0.68rem] text-paper/42 leading-relaxed">Despite Frecklington's reform efforts, Adam Watson is still being actively pursued by the DPP in relation to the Criminal Injuries Compensation claim — meaning the very case that exposed the loophole is the one the state continues to press forward on. The reform has not been applied retrospectively. Adam remains subject to proceedings arising from a charge the DPP itself ruled as malicious prosecution.</p>
+                </div>
+                <div class="border-l-4 border-hot/50 pl-5 mb-10" style="background:rgba(193,68,14,0.04);padding:1.25rem 1.25rem 1.25rem 1.5rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Still Ongoing</div>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed">The Attorney General is reforming the law that made this possible. The DPP is simultaneously using that same law to pursue the victim of it. Both things are true at the same time.</p>
                 </div>
 
                 <!-- EMF Brisbane / QP-9 Gym Attack -->
