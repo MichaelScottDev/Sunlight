@@ -1238,7 +1238,15 @@
                 </div>
                 <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">03</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Car Ambush</div></div>
-                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Samira and her husband corner Adam at his vehicle</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Both Samira and her husband confronted Adam Watson at his car. Her husband entered Adam's vehicle without permission.</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Samira and her husband corner Adam at his vehicle</div><div class="text-[0.55rem] text-paper/30 leading-relaxed mb-2">Both Samira and her husband confronted Adam Watson at his car. Her husband entered Adam's vehicle without permission.</div>
+                    <div class="ev-file ef-hot mt-2" onclick="openMV('video-samira-car')" style="max-width:380px">
+                        <div class="ev-icon ev-video">▶</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">samira_khalaj_car_entry.mp4</div>
+                            <div class="ev-desc">Video · Samira's husband enters Adam's vehicle without permission</div>
+                        </div>
+                        <span class="ev-cta">Watch →</span>
+                    </div></div>
                 </div>
                 <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">04</div><div class="text-[0.45rem] text-paper/20 mt-0.5">False Statement</div></div>
@@ -3072,6 +3080,16 @@ var EVIDENCE = {
         isPlaceholder:true,
         placeholderLabel:'FOOTAGE PENDING LEGAL REVIEW',
         filename:'west_kira_glasses_incident.mp4'
+    },
+    'video-samira-car': {
+        type:'video',
+        title:'SAMIRA KHALAJ — ENTERS ADAM\'S VEHICLE WITHOUT PERMISSION',
+        tag:'Samira Khalaj · Coogee · Unauthorised Entry',
+        meta:'Video · Recorded footage · Samira Khalaj and husband confront Adam at his car',
+        desc:'Footage capturing the confrontation in which Samira Khalaj and her husband cornered Adam Watson at his vehicle. Samira\'s husband can be seen entering the vehicle without Adam\'s permission. This incident preceded Samira\'s sworn police statement alleging Adam punched her in the jaw — a statement her own doctor\'s findings do not support.',
+        isPlaceholder:true,
+        placeholderLabel:'FOOTAGE PENDING UPLOAD',
+        filename:'samira_khalaj_car_entry.mp4'
     }
 };
 
