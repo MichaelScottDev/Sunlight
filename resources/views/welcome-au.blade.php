@@ -1213,6 +1213,145 @@
 
 
 <!-- ══════════════════════════════════════
+     SAMIRA KHALAJ
+══════════════════════════════════════ -->
+<section id="samira" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(124,106,170,0.05) 0%,transparent 60%)">
+    <div class="max-w-4xl mx-auto">
+
+        <div class="flex items-center gap-3 mb-3 reveal">
+            <span class="text-[0.48rem] tracking-[0.22em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">Chapter E — False Allegations · Coogee</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-3 leading-tight reveal">SAMIRA KHALAJ.<br><span style="color:#7c6aaa">HELPED. THEN ACCUSED.</span></h2>
+        <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-10 reveal">"Adam helped Samira get an AVO. She then accused him of scamming her. Her husband cornered him at his car. Her associate fractured her skull with an axe — and police are now trying to get him to say Adam ordered it. In a Registrar hearing she told Adam to 'Gas all you Jews.' It was recorded."</p>
+
+        <!-- Timeline -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(124,106,170,0.3)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase mb-5" style="color:rgba(124,106,170,0.7)">Timeline — Samira Khalaj</div>
+            <div class="space-y-px">
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase" style="color:#7c6aaa">01</div><div class="text-[0.45rem] text-paper/20 mt-0.5">AVO Help</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Adam assists Samira with an AVO application</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Adam Watson assisted Samira Khalaj in obtaining an Apprehended Violence Order against another party. She received the AVO.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">02</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Scam Claim</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Samira turns around and accuses Adam of scamming her</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Having received Adam's help, Samira Khalaj subsequently lodged a complaint claiming Adam Watson had scammed her.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">03</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Car Ambush</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Samira and her husband corner Adam at his vehicle</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Both Samira and her husband confronted Adam Watson at his car. Her husband entered Adam's vehicle without permission.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">04</div><div class="text-[0.45rem] text-paper/20 mt-0.5">False Statement</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Samira lodges police statement claiming Adam punched her in the jaw</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Samira lodged a sworn police statement alleging Adam Watson punched her in the jaw. She attended a doctor who recorded her jaw as "sore."</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold">05</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Mercedes</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Samira's husband tampers with Adam's Mercedes at Coogee</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">After seeing Adam pull up to the Coogee property in his Mercedes, Samira's husband tampered with the vehicle. A local drug dealer witnessed it and reported it to Adam — offering to deal with the husband, which Adam declined. The Mercedes subsequently broke down and had to be abandoned on the side of the road.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">06</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Gas Meters</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Samira's husband arrested for tampering with gas meters</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Samira's husband was arrested for tampering with residential gas meters — a serious criminal offence that interferes with government-regulated infrastructure and endangers lives.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">07</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Axe Attack</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Socrates attacks Samira with an axe — faces 25 years</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Adam had been assisting a man named Socrates with legal matters. Socrates had been charged with offences relating to a minor (the girl had told him she was 16). When Socrates learned what Samira was doing to Adam, he attended her home armed with an axe and struck her in the head. Charged. Combined with his existing charges he faces a maximum of 25 years.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">08</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Fabrication</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Police and Samira pressure Socrates for an affidavit implicating Adam</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Police and Samira Khalaj are now attempting to get Socrates to swear an affidavit claiming he was acting on Adam Watson's instructions when he attacked Samira. Socrates has not done so.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">09</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Antisemitic Threat</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Registrar hearing — "Gas all you Jews!" — recorded</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Appearing in the Registrar, Samira Khalaj told Adam Watson: "Gas all you Jews!" The Registrar captured the outburst on the official court recording. Samira was subsequently charged and remanded in custody. She has since been released.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold">10</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Ongoing</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Harassment continues — Coogee property listed for sale</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Samira's husband has been smearing substances on Adam's windows. Samira has been smearing feces on his door handle, then immediately reporting fictitious complaints to police. Adam no longer feels safe at the Coogee property. The property has been listed for sale and has received multiple offers.</div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Medical evidence callout -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.3)">
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE JAW THAT WAS JUST "SORE."<br><span class="text-hot">A DOCTOR'S NOTE DOESN'T MAKE IT TRUE.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Samira Khalaj swore to police that Adam Watson — a man of significant physical size — punched her in the jaw. She attended a doctor. The doctor's finding: her jaw was "sore."</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">A punch to the jaw from a person of Adam's build does not produce a jaw that is merely "sore." It produces fractures. It produces wiring. It produces documented emergency presentations. A jaw that is "sore" is a jaw that has not been punched — it is a jaw belonging to someone who visited a doctor seeking a document and received the most conservative finding available.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+                <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">The Allegation</div>
+                    <p class="text-[0.62rem] text-paper/40 leading-relaxed">Sworn police statement. Claimed Adam Watson punched her in the jaw. Medical examination obtained to support claim.</p>
+                </div>
+                <div class="border border-sage/20 p-5" style="background:rgba(61,122,74,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-2">The Medical Finding</div>
+                    <p class="text-[0.62rem] text-paper/40 leading-relaxed">Doctor's report: jaw "sore." No fracture. No imaging. No emergency presentation. No findings consistent with a blow from a person of Adam's size.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Socrates / fabricated order callout -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.3)">
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">SOCRATES CHARGED.<br><span class="text-gold">NOW THEY WANT AN AFFIDAVIT NAMING ADAM.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Socrates had his own pending charges — including offences relating to a minor. He claimed the girl had told him she was 16. He was charged. Adam had been helping him navigate that process.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">When Socrates learned what Samira was doing to Adam — the false police statement, the pressure campaign, the feces on the door handle — he armed himself with an axe, went to her house, and struck her in the head. He has been charged for this. Combined with his existing charges, he faces a maximum sentence of 25 years.</p>
+            <div class="border-l-4 border-gold/50 pl-5 py-1 mb-5" style="background:rgba(201,138,16,0.04);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">The Fabrication Attempt</div>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">Police and Samira Khalaj are now attempting to leverage Socrates's position — facing 25 years — to get him to swear an affidavit claiming the attack on Samira was carried out on Adam Watson's direct orders. There is no evidence of this. Adam did not order it. The attempt to produce such an affidavit under those circumstances is a fabrication.</p>
+            </div>
+        </div>
+
+        <!-- Registrar recording -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.3)">
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">"GAS ALL YOU JEWS."<br><span class="text-hot">SAID IN A REGISTRAR. RECORDED.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Samira Khalaj appeared in the Registrar. Her lawyer had already abandoned her. In the proceedings, she turned to Adam Watson and said: <span class="font-display text-paper/70">"Gas all you Jews!"</span></p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The Registrar captured the statement on the official court recording. Samira was subsequently charged and remanded in custody. She has since been released and continues to engage in the same behaviour.</p>
+            <div class="border border-paper/[0.07] p-5 mb-2" style="background:rgba(0,0,0,0.15)">
+                <div class="flex items-center justify-between mb-3">
+                    <div>
+                        <div class="text-[0.48rem] tracking-[0.22em] uppercase text-hot mb-1">🎙 Court Recording — Registrar</div>
+                        <div class="text-[0.6rem] font-display tracking-wide text-paper/50">SAMIRA KHALAJ — "GAS ALL YOU JEWS" — REGISTRAR CAPTURE</div>
+                        <div class="text-[0.5rem] text-paper/25 mt-1">Official court recording · Antisemitic outburst · Samira Khalaj charged and remanded</div>
+                    </div>
+                    <a href="#" onclick="return false;" class="text-[0.52rem] tracking-[0.15em] uppercase text-hot border border-hot/40 px-3 py-1.5 hover:bg-hot/10 transition-colors cursor-pointer">Listen →</a>
+                </div>
+                <p class="text-[0.55rem] text-paper/25 leading-relaxed">Captured during Registrar proceedings. Samira Khalaj's lawyer had withdrawn prior to this hearing. The statement was directed at Adam Watson and recorded in its entirety by the Registrar's audio system.</p>
+            </div>
+        </div>
+
+        <!-- Stat strip -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mb-10 reveal">
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-hot mb-1">0</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Injuries found</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Doctor found jaw "sore"</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-gold mb-1">25</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Yrs max — Socrates</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Combined charges</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-paper/50 mb-1">1</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Arrest — gas meters</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Samira's husband</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-sage mb-1">↑</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Offers received</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Coogee property listed</div>
+            </div>
+        </div>
+
+        <!-- Closing note -->
+        <div class="border-l-4 pl-6 py-1 reveal" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.03);padding:1.25rem 1.25rem 1.25rem 1.5rem">
+            <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Pattern</div>
+            <p class="text-[0.68rem] text-paper/45 leading-relaxed">Adam helped Samira get an AVO. She used the knowledge of how that system works to turn it against him. Her husband tampered with his car. Her associate attacked her with an axe — and police want that man to say it was Adam's idea. She made antisemitic statements in open court and was charged for them. She is still free. She is still doing it. The property where this began has been listed for sale.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
      RJ CRIMINAL PATTERN
 ══════════════════════════════════════ -->
 <section id="rj" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(193,68,14,0.04) 0%,transparent 50%)">
