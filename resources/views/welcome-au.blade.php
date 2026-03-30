@@ -1168,8 +1168,37 @@
                     </div>
                 </div>
 
-                <div class="border-l-4 pl-6 py-1" style="border-color:rgba(193,68,14,0.4)">
+                <div class="border-l-4 pl-6 py-1 mb-8" style="border-color:rgba(193,68,14,0.4)">
                     <p class="text-[0.68rem] text-paper/40 leading-relaxed">The comment "It all makes sense now" is the clearest evidence that Vourliotis's approach at Setfree was deliberate. He did not stumble into a relationship with Kosta by chance and then opportunistically meet Adam Watson. He identified Kosta, cultivated the introduction, arrived at the pub already recording, and took the car. When the eviction happened he recognised it immediately — not as a coincidence, but as the closing of a loop. He had known who Kosta was the entire time.</p>
+                </div>
+
+                <!-- Sandy Tulisi recordings / Hancock / Channel 7 -->
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">HE WENT TO SANDY TULISI.<br><span class="text-hot">TO BUILD A FILE ON ME.</span></h3>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"While he was scamming Adam and had already been evicted from Jason's flat — Alex Vourliotis went to Sandy Tulisi's house. He recorded her. He asked her questions about me. He then sent those recordings to the offices of Hancock Prospecting and Channel 7 in an attempt to assassinate my character. The irony is that Sandy Tulisi is herself breaking the law — which is documented on this very site."</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Vourliotis sought out Sandy Tulisi — the same landlord whose bond fraud, false rent notices, and unlawful eviction of Kosta Kondratenko are documented in Episode 1 of this investigation — and covertly recorded her making statements about Kosta. He then transmitted those recordings to Hancock Prospecting and to Channel 7, framing them as character evidence against the person who had exposed him during the housing commission eviction.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Sandy Tulisi was not a neutral witness. She is a subject of this investigation — a landlord who held a bond for 68 days beyond the legal limit, issued six false rent notices, had her tenant evicted using an improperly obtained Police Banning Notice, and whose charges were dropped after the court registrar's procedural failure prevented her from being subpoenaed. A recording sourced from Sandy Tulisi about Kosta Kondratenko is a recording sourced from a person with documented legal exposure to him.</p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+                    <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">What Vourliotis Did</div>
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Attended Sandy Tulisi's home with a recording device.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Recorded Sandy Tulisi making statements about Kosta Kondratenko.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Sent recordings to Hancock Prospecting and Channel 7 as character-assassination material.</p></div>
+                        </div>
+                    </div>
+                    <div class="border border-paper/[0.07] p-5">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">The Source He Chose</div>
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/35 leading-relaxed">Sandy Tulisi: bond held 68 days over legal limit. Six false rent notices. Charges dropped.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/35 leading-relaxed">Her conduct is documented in full in the Sandy Tulisi chapter of this investigation.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/35 leading-relaxed">Using a person under documented legal scrutiny as a character witness does not strengthen the case against the subject — it reveals the desperation of the attempt.</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-l-4 pl-6 py-1" style="border-color:rgba(193,68,14,0.4)">
+                    <p class="text-[0.68rem] text-paper/40 leading-relaxed">Vourliotis went to the one person in this investigation whose own conduct is documented in court records and on this site — and asked her to speak against the person who had exposed her. He sent what she said to two of the most prominent institutions in the Hancock Prospecting orbit. The recording was intended to close a door on Kosta's credibility. Instead it is one more data point in the file on Vourliotis — a man who arrived with a recording device, took a car, attempted to force entry into a housing commission flat, and chose a fraudulent landlord as his character witness.</p>
                 </div>
             </div>
 
