@@ -1125,8 +1125,51 @@
                     </div>
                 </div>
 
-                <div class="border-l-4 pl-6 py-1" style="border-color:rgba(193,68,14,0.4)">
+                <div class="border-l-4 pl-6 py-1 mb-8" style="border-color:rgba(193,68,14,0.4)">
                     <p class="text-[0.68rem] text-paper/40 leading-relaxed">The Orange Sky laundry complaint and the St. John's Crisis Centre text message gave Vourliotis two entry points into Kosta's investigative work — one as a grievance, one as a demonstration that he had access to private communications. He arrived at the first meeting already recording. The car was gone before Adam Watson woke up. The comment about "everything" suggests the vehicle was a starting point, not the plan.</p>
+                </div>
+
+                <!-- Background: Gym, Metallurgy, Debts -->
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE GYM. THE FURNACE.<br><span class="text-hot">THE DEBTS THAT FOLLOWED HIM.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Vourliotis had previously operated a gym and owned a metallurgy business. Neither ended cleanly. The property adjoining his gym was burnt down — understood to be a direct message from people to whom he owed money. A separate group was actively looking for him in connection with unpaid debts from the metallurgy business. By the time he was operating out of a van collecting free food outside Setfree, he was not simply down on his luck — he was a person with significant outstanding obligations and a documented history of not meeting them.</p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8">
+                    <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">The Gym</div>
+                        <div class="font-display text-lg text-hot mb-1">FORMER OWNER</div>
+                        <p class="text-[0.62rem] text-paper/40 leading-relaxed">Property adjacent to the gym was deliberately burnt down as a warning — connected to unpaid debts owed by Vourliotis.</p>
+                    </div>
+                    <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Metallurgy Business</div>
+                        <div class="font-display text-lg text-hot mb-1">UNPAID DEBTS</div>
+                        <p class="text-[0.62rem] text-paper/40 leading-relaxed">People were actively looking for Vourliotis in connection with debts left unpaid from his metallurgy operation.</p>
+                    </div>
+                    <div class="border border-paper/[0.07] p-5">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-1">By the Time of the Van</div>
+                        <div class="font-display text-lg text-paper/40 mb-1">PATTERN ESTABLISHED</div>
+                        <p class="text-[0.62rem] text-paper/35 leading-relaxed">Operating out of a van, collecting free food, with no fixed address — and a trail of creditors behind him.</p>
+                    </div>
+                </div>
+
+                <!-- Housing Commission Eviction -->
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE COUCH. THE FRIDGE.<br><span class="text-hot">"IT ALL MAKES SENSE NOW."</span></h3>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"He had weaseled his way into Jason's housing commission flat and refused to leave. There was a large sweat mark on the couch where he'd been sleeping. I put the fridge against the door, left his things outside, and had Jason send him a text message. He tried to force his way back in. Then he saw me — and said: 'It all makes sense now.' He knew who I was. He knew about Adam. And this was while he was in the middle of scamming him."</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Vourliotis had, without authorisation, established himself in the housing commission flat of Jason — a resident Kosta had been helping. He had made himself at home, leaving a visible sweat imprint on the couch, and refused to vacate when asked. Kosta intervened: he moved the fridge against the door to block re-entry, placed Vourliotis's belongings outside, and had Jason send a formal eviction text message. When Vourliotis returned and attempted to force his way back into the flat, he found the door blocked — and found Kosta waiting.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">His response — <span class="text-paper/70 italic">"It all makes sense now"</span> — was an acknowledgment that he recognised Kosta's connection to Adam Watson. He was being evicted by the same person whose introduction to Adam Watson he had exploited to steal a car. The comment confirmed he had known the relationship all along — that his approach to Kosta at Setfree was not coincidental. He was actively scamming Adam Watson at the time.</p>
+
+                <div class="border border-paper/[0.07] p-5 mb-6">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-4">The Eviction — Sequence</div>
+                    <div class="space-y-2.5">
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">The Setup</span><span class="text-[0.65rem] text-paper/45">Vourliotis had manoeuvred himself into Jason's housing commission flat without authorisation. He refused to leave when asked. A large sweat mark on the couch had become a fixture.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">The Eviction</span><span class="text-[0.65rem] text-paper/45">Kosta moved the fridge against the door, placed Vourliotis's belongings outside, and had Jason send a text message formally requesting he not return.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">The Attempt</span><span class="text-[0.65rem] text-paper/45">Vourliotis returned and attempted to force entry into the flat.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-gold/70 w-28 shrink-0 pt-0.5">The Comment</span><span class="text-[0.65rem] text-paper/45">He saw Kosta. He said: <span class="text-paper/70 italic">"It all makes sense now."</span> — confirming he knew exactly who Kosta was, and what his connection to Adam Watson meant.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">The Timing</span><span class="text-[0.65rem] text-paper/45">This was happening while Vourliotis was actively in the process of defrauding Adam Watson. He had already taken the registration papers. The car transfer was in progress.</span></div>
+                    </div>
+                </div>
+
+                <div class="border-l-4 pl-6 py-1" style="border-color:rgba(193,68,14,0.4)">
+                    <p class="text-[0.68rem] text-paper/40 leading-relaxed">The comment "It all makes sense now" is the clearest evidence that Vourliotis's approach at Setfree was deliberate. He did not stumble into a relationship with Kosta by chance and then opportunistically meet Adam Watson. He identified Kosta, cultivated the introduction, arrived at the pub already recording, and took the car. When the eviction happened he recognised it immediately — not as a coincidence, but as the closing of a loop. He had known who Kosta was the entire time.</p>
                 </div>
             </div>
 
@@ -1392,17 +1435,6 @@
 <!-- ══════════════════════════════════════
      WEST KIRA & KIRA · FURNITURE & COCAINE
 ══════════════════════════════════════ -->
-
-<!-- SECTION LABEL -->
-<div class="px-5 md:px-10 pt-10 pb-4 border-b border-paper/[0.05]" style="background:rgba(193,68,14,0.03)">
-    <div class="max-w-6xl mx-auto flex items-center gap-4">
-        <div class="w-1 h-8 bg-hot"></div>
-        <div>
-            <div class="text-[0.5rem] tracking-[0.22em] uppercase text-hot mb-0.5">New Section — Adam's Story</div>
-            <div class="font-display text-xl tracking-wide text-paper/50">Chapter A2 + Standalone Section · West Kira &amp; Kira and Kira</div>
-        </div>
-    </div>
-</div>
 
 <!-- Chapter A2: West Kira (inner chapter) -->
 <div class="px-5 md:px-10 py-16 border-b border-paper/[0.05]">
