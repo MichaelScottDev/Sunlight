@@ -358,6 +358,96 @@
 
 
 <!-- ══════════════════════════════════════
+     POLITICAL DEVELOPMENTS
+══════════════════════════════════════ -->
+<section id="politics" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(61,122,74,0.06) 0%,transparent 60%)">
+    <div class="max-w-5xl mx-auto">
+
+        <div class="flex items-center gap-3 mb-3 reveal">
+            <div class="w-4 h-px bg-sage"></div>
+            <span class="text-[0.55rem] tracking-[0.3em] uppercase text-sage">Political Developments</span>
+        </div>
+        <h2 class="font-display leading-none tracking-wide mb-3 reveal" style="font-size:clamp(2.4rem,6vw,4rem)">ALBANESE.<br><span class="text-sage">THE GOVERNMENT RESPONDS.</span></h2>
+        <p class="font-serif italic text-paper/45 text-lg leading-relaxed mb-12 reveal max-w-2xl">Prime Minister Anthony Albanese has confirmed a series of positions in connection with Adam Watson and the issues documented on this site. What follows is on the record.</p>
+
+        <div class="space-y-6 reveal">
+
+            <!-- Item 1: Vyleen White / deportation -->
+            <div class="story-chapter" style="border-left-color:rgba(61,122,74,0.4)">
+                <div class="flex items-center gap-3 mb-3">
+                    <span class="text-[0.48rem] tracking-[0.22em] uppercase text-sage border border-sage/40 px-2 py-1">Confirmed</span>
+                    <span class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/20">Vyleen White · Deportation Call</span>
+                </div>
+                <h3 class="font-display text-2xl tracking-wide mb-3 leading-tight">ALBANESE TO STAND WITH ADAM WATSON.<br><span class="text-sage">CALL FOR DEPORTATION OF VYLEEN WHITE KILLER.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Prime Minister Anthony Albanese has confirmed he will back Adam Watson and cooperate with Attorney General Deb Frecklington to stand publicly and call for the deportation of the killer of Vyleen White. The commitment represents a direct alignment between the Federal Government and the position Adam Watson has publicly advocated.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45">Albanese has further confirmed that Steven Miles — while not making a public statement — privately told associates that he assisted the mother of the Vyleen White killer to appeal the sentence handed down for the murder. Albanese has stated he agrees with Adam Watson's position on this and considers it disqualifying conduct for a Premier.</p>
+            </div>
+
+            <!-- Item 2: Sovereign fuel policy -->
+            <div class="story-chapter" style="border-left-color:rgba(201,138,16,0.4)">
+                <div class="flex items-center gap-3 mb-3">
+                    <span class="text-[0.48rem] tracking-[0.22em] uppercase text-gold border border-gold/40 px-2 py-1">Confirmed</span>
+                    <span class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/20">Energy Policy</span>
+                </div>
+                <h3 class="font-display text-2xl tracking-wide mb-3 leading-tight">SOVEREIGN FUEL POLICY.<br><span class="text-gold">ALBANESE ADOPTS ADAM WATSON'S POSITION.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45">Anthony Albanese has confirmed he is adopting Adam Watson's sovereign fuel policy. The policy, which Adam Watson has publicly advanced, has now been taken up at the Federal level.</p>
+            </div>
+
+            <!-- Item 3: Steven Miles / Adult Time Adult Crime -->
+            <div class="story-chapter" style="border-left-color:rgba(193,68,14,0.4)">
+                <div class="flex items-center gap-3 mb-3">
+                    <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot border border-hot/40 px-2 py-1">Reported</span>
+                    <span class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/20">Queensland — Youth Justice</span>
+                </div>
+                <h3 class="font-display text-2xl tracking-wide mb-3 leading-tight">STEVEN MILES.<br><span class="text-hot">ADULT TIME, ADULT CRIME — GONE WITHIN 30 DAYS.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Anthony Albanese has confirmed that Steven Miles — while not making a public statement — has told associates that if he is re-elected, he will drop the Adult Time, Adult Crime sentencing framework within 30 days. The policy, introduced to address youth crime on the Gold Coast and statewide, would be dismantled in the first month of a Miles government.</p>
+                <div class="border-l-4 border-hot/40 pl-5 py-1" style="background:rgba(193,68,14,0.04);padding:0.85rem 1rem 0.85rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-1">Not Publicly Confirmed</div>
+                    <p class="text-[0.62rem] text-paper/40 leading-relaxed">Miles has not stated this publicly. This is a private communication confirmed by Albanese.</p>
+                </div>
+            </div>
+
+            <!-- Item 4: Refugee Convention -->
+            <div class="story-chapter" style="border-left-color:rgba(61,122,74,0.4)">
+                <div class="flex items-center gap-3 mb-3">
+                    <span class="text-[0.48rem] tracking-[0.22em] uppercase text-sage border border-sage/40 px-2 py-1">Confirmed</span>
+                    <span class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/20">Immigration · Refugee Convention</span>
+                </div>
+                <h3 class="font-display text-2xl tracking-wide mb-3 leading-tight">REFUGEE CONVENTION.<br><span class="text-sage">ALBANESE AGREES: AUSTRALIA SHOULD PULL OUT.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45">Anthony Albanese has confirmed he agrees with Adam Watson's immigration position — that Australia needs to withdraw from the 1951 Refugee Convention. The confirmation represents a significant alignment between the Prime Minister and the position Adam Watson has advanced publicly.</p>
+            </div>
+
+        </div>
+
+        <!-- Stat strip -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mt-12 mb-2 reveal">
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-sage mb-1">PM</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Albanese</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">4 positions confirmed</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-gold mb-1">⚡</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Sovereign fuel</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Adam Watson's policy</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-hot mb-1">30</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Days — Miles plan</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Drop Adult Time Adult Crime</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-sage mb-1">↗</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Refugee Convention</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">PM backs withdrawal</div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
      SANDY TULISI / MY STORY SECTION
 ══════════════════════════════════════ -->
 <section id="story" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(193,68,14,0.03) 0%,transparent 40%)">
