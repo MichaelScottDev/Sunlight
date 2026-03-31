@@ -591,6 +591,17 @@
                     </div>
                 </div>
 
+                <!-- BeHome new location -->
+                <div class="mt-10 story-chapter reveal" style="border-left-color:rgba(201,138,16,0.4)">
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">SHE OPENED A NEW ONE.<br><span class="text-gold">BEHOME. SURFERS PARADISE. AGAIN.</span></h3>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">While the evidence on this page documents what happened at her first operation — the bond held 68 days over the legal limit, the false rent notices, the improper eviction — Sandy Tulisi has opened a new BeHome location in Surfers Paradise.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The same name. The same suburb. Funded, at least in part, by whatever financial advantage was extracted from tenants through the conduct documented here. No conviction recorded. No barrier to operating again.</p>
+                    <div class="border-l-4 border-gold/50 pl-5 py-1" style="background:rgba(201,138,16,0.04);padding:1rem 1rem 1rem 1.25rem">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">Still Operating</div>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">The system that failed to hold her accountable the first time has given her the space to do it again. BeHome is open. The evidence is here.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -1349,10 +1360,88 @@
             </div>
         </div>
 
+        <!-- Raz knife + police assault -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.3)">
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">RAZ WITH A KNIFE.<br><span class="text-hot">THEN SIX POLICE WHO CALLED HIM A JEWISH FAGGOT.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Samira's husband is Raz. After Adam obtained an AVO against Samira, Raz confronted Adam with a knife — almost certainly as retaliation for the AVO. Adam called police. Six officers attended.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">What followed was not protection. The officers told Adam he was making trouble on the radio by talking about protecting Jewish people and that he was going against Muslims. They called him a <span class="font-display text-paper/65">"Jewish Faggot."</span> They said he was lying about having an AVO. Adam told them they were uneducated. They then assaulted and bashed him.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">After the assault, Adam — who is diabetic — asked the officers for his diabetic medication. They refused. He subsequently sent a video of himself bleeding.</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+                <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">What The Officers Said</div>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Called Adam a "Jewish Faggot"</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Said he was making trouble on the radio for talking about protecting Jewish people</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Claimed he was "going against Muslims"</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Denied the AVO existed — told Adam he was lying about it</p></div>
+                    </div>
+                </div>
+                <div class="border border-paper/[0.07] p-5" style="background:rgba(0,0,0,0.1)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-2">What They Did</div>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start"><span class="text-paper/30 text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Assaulted and bashed Adam Watson</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-paper/30 text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Refused to provide his diabetic medication when he asked</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-paper/30 text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Left him bleeding. Adam subsequently filmed himself and sent the video.</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Evidence cards -->
+            <div class="space-y-2 mb-6">
+                <div class="ev-file ef-hot" onclick="openMV('photo-adam-bleeding')">
+                    <div class="ev-icon ev-photo">📷</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">adam_watson_after_police_assault.jpg</div>
+                        <div class="ev-desc">Photo · Video still · Adam Watson bleeding following police assault — filmed by Adam, sent to Kosta</div>
+                    </div>
+                    <span class="ev-cta">View →</span>
+                </div>
+                <div class="ev-file ef-sage" onclick="openMV('pdf-lecc-complaint')">
+                    <div class="ev-icon ev-doc">📄</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">lecc_complaint_six_officers.pdf</div>
+                        <div class="ev-desc">PDF · LECC Complaint · Seeking names of 6 officers · Antisemitic slurs + assault + medication denial</div>
+                    </div>
+                    <span class="ev-cta">Download →</span>
+                </div>
+            </div>
+
+            <div class="border border-paper/[0.07] p-5 mb-5" style="background:rgba(0,0,0,0.12)">
+                <div class="text-[0.48rem] tracking-[0.22em] uppercase text-paper/22 mb-3">The Samira Filming — NSW Land and Housing Corporation</div>
+                <p class="text-[0.65rem] text-paper/40 leading-relaxed mb-2">Samira Khalaj filmed the incident in its entirety and provided the recording to the NSW Land and Housing Corporation. That footage has not been made available to Adam Watson.</p>
+                <p class="text-[0.65rem] text-paper/40 leading-relaxed">A subpoena is currently being prepared to compel its production — it is directly relevant to the AVO proceedings. Samira filmed it. She knows what it shows. The subpoena will obtain it regardless.</p>
+            </div>
+
+            <div class="border-l-4 border-hot/50 pl-5 py-1" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">LECC Complaint — Active</div>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">A complaint has been lodged with the Law Enforcement Conduct Commission to obtain the names and badge numbers of all six officers present. This is the mechanism for bringing them to account. The LECC complaint is provided as a download on this page.</p>
+            </div>
+        </div>
+
+        <!-- Update stat strip to include 6 officers -->
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-px bg-paper/[0.04] mb-10 reveal">
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-hot mb-1">6</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Officers attended</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Raz knife call — assault followed</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-hot mb-1">0</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Medication provided</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Diabetic — request refused</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-gold mb-1">LECC</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Complaint active</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">6 officers — names sought</div>
+            </div>
+        </div>
+
         <!-- Closing note -->
         <div class="border-l-4 pl-6 py-1 reveal" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.03);padding:1.25rem 1.25rem 1.25rem 1.5rem">
             <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Pattern</div>
-            <p class="text-[0.68rem] text-paper/45 leading-relaxed">Adam helped Samira get an AVO. She used the knowledge of how that system works to turn it against him. Her husband tampered with his car. Her associate attacked her with an axe — and police want that man to say it was Adam's idea. She made antisemitic statements in open court and was charged for them. She is still free. She is still doing it. The property where this began has been listed for sale.</p>
+            <p class="text-[0.68rem] text-paper/45 leading-relaxed">Adam helped Samira get an AVO. She used the knowledge of how that system works to turn it against him. Her husband came back with a knife. Six officers attended and beat Adam instead of arresting the man with the knife — calling him a Jewish Faggot and denying him his medication. Her associate attacked her with an axe — and police want that man to say it was Adam's idea. She made antisemitic statements in open court and was charged for them. She is still free. She is still doing it. The property where this began has been listed for sale.</p>
         </div>
 
     </div>
@@ -3080,6 +3169,27 @@ var EVIDENCE = {
         isPlaceholder:true,
         placeholderLabel:'FOOTAGE PENDING LEGAL REVIEW',
         filename:'west_kira_glasses_incident.mp4'
+    },
+    'photo-adam-bleeding': {
+        type:'photo',
+        title:'ADAM WATSON — AFTER POLICE ASSAULT',
+        tag:'Coogee · NSW Police · Six Officers · Antisemitic Slurs',
+        meta:'Photo · Video still · Sent to Kosta Kondratenko following assault',
+        desc:'Adam Watson filmed himself after being assaulted by six NSW Police officers who attended following his call about Raz (Samira Khalaj\'s husband) threatening him with a knife. Officers called Adam a "Jewish Faggot," denied his AVO existed, told him he was making trouble for "going against Muslims," bashed him, and refused to provide his diabetic medication when asked. This still was sent directly to Kosta.',
+        isPlaceholder:true,
+        placeholderLabel:'FOOTAGE PENDING UPLOAD',
+        filename:'adam_watson_after_police_assault.jpg'
+    },
+    'pdf-lecc-complaint': {
+        type:'pdf',
+        title:'LECC COMPLAINT — SIX OFFICERS · COOGEE ASSAULT',
+        tag:'Law Enforcement Conduct Commission · NSW · Active Complaint',
+        meta:'PDF · LECC Complaint · Seeking officer names and badge numbers',
+        desc:'Formal complaint lodged with the Law Enforcement Conduct Commission (LECC) regarding the conduct of six NSW Police officers who attended a call made by Adam Watson after Raz Khalaj threatened him with a knife. Officers made antisemitic slurs ("Jewish Faggot"), denied the existence of the AVO, assaulted Adam Watson, and refused to provide his diabetic medication on request. The complaint seeks the names and badge numbers of all six attending officers.',
+        isPlaceholder:true,
+        placeholderLabel:'DOCUMENT PENDING UPLOAD',
+        filename:'lecc_complaint_six_officers.pdf',
+        pages: 4
     },
     'video-samira-car': {
         type:'video',
