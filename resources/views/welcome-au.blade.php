@@ -2860,6 +2860,153 @@
     </div>
 </section>
 
+<!-- ══════════════════════════════════════
+     STRATA OUTCOME — CONSENT ORDER
+══════════════════════════════════════ -->
+<section id="strata-outcome" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(61,122,74,0.06) 0%,transparent 60%)">
+    <div class="max-w-5xl mx-auto">
+
+        <div class="flex items-center gap-3 mb-3 reveal">
+            <div class="w-4 h-px bg-sage"></div>
+            <span class="text-[0.55rem] tracking-[0.3em] uppercase text-sage">Outcome — TAD 6 of 2026 · Federal Court of Australia</span>
+        </div>
+        <h2 class="font-display leading-none tracking-wide mb-3 reveal" style="font-size:clamp(2.4rem,6vw,4rem)">THEY PAID.<br><span class="text-sage">$1,294,001 TO MAKE IT GO AWAY.</span></h2>
+        <p class="font-serif italic text-paper/45 text-lg leading-relaxed mb-10 reveal max-w-2xl">"NCAT confirmed it would refer the matter to the Director of Public Prosecutions if it went to trial. The lawyer called Adam and said they were willing to settle. The document below is the result. There is no suppression order. It is public."</p>
+
+        <!-- Why they settled -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(61,122,74,0.4)">
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">WHY THEY SETTLED.<br><span class="text-sage">THE DPP REFERRAL THEY COULDN'T AFFORD.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">NCAT had confirmed that if the matter proceeded to trial, it would be directing the file to the Director of Public Prosecutions. That referral would have meant criminal exposure for the individuals behind the conduct documented on this site — the strata roll manipulation, the debt loading, the false levy notices redirected to Graham Gordon, the Tasmania forum-shopping strategy.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The lawyer for the Owners Corporation and Graham Gordon called Adam Watson. They were willing to settle — on condition that Adam dropped the Federal Court proceedings, the Local Court proceedings, and the NCAT proceedings in their entirety.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45">Adam agreed. The Consent Order for Dismissal was signed before Judicial Registrar Segal on 1 April 2026. The case number is TAD 6 of 2026. The payments are due by 15 April 2026.</p>
+        </div>
+
+        <!-- Payment breakdown -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.4)">
+            <h3 class="font-display text-2xl tracking-wide mb-5 leading-tight">THE PAYMENTS.<br><span class="text-gold">ORDERED BY CONSENT. DUE 15 APRIL 2026.</span></h3>
+            <div class="space-y-px mb-6">
+                <div class="grid grid-cols-[1fr_auto] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4 items-center">
+                    <div>
+                        <div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">The Owners – Strata Plan No. 93922</div>
+                        <div class="text-[0.52rem] text-paper/28">Owners Corporation · Order 2 · To PSR Crown Investment Pty Ltd</div>
+                    </div>
+                    <div class="text-right">
+                        <div class="font-display text-xl text-gold">$395,000</div>
+                        <div class="text-[0.48rem] text-paper/25">+ $49,667 costs</div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-[1fr_auto] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4 items-center">
+                    <div>
+                        <div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Graham Gordon</div>
+                        <div class="text-[0.52rem] text-paper/28">Strata Committee Chairman · Third Party · Order 3 · To PSR Crown Investment Pty Ltd</div>
+                    </div>
+                    <div class="text-right">
+                        <div class="font-display text-xl text-hot">$365,000</div>
+                        <div class="text-[0.48rem] text-paper/25">+ $49,667 costs</div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-[1fr_auto] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4 items-center">
+                    <div>
+                        <div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Collection Corporation Australia Pty Ltd</div>
+                        <div class="text-[0.52rem] text-paper/28">Debt Recovery Firm · Third Party · Order 4 · To PSR Crown Investment Pty Ltd</div>
+                    </div>
+                    <div class="text-right">
+                        <div class="font-display text-xl text-hot">$385,000</div>
+                        <div class="text-[0.48rem] text-paper/25">+ $49,667 costs</div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-[1fr_auto] gap-4 border border-sage/30 p-4 items-center" style="background:rgba(61,122,74,0.04)">
+                    <div>
+                        <div class="text-[0.6rem] font-display tracking-wide text-sage mb-0.5">Legal Costs — Adam Watson (direct payment)</div>
+                        <div class="text-[0.52rem] text-paper/28">One-third each of $149,001 total · Order 5 · Paid directly to Adam Watson</div>
+                    </div>
+                    <div class="text-right">
+                        <div class="font-display text-xl text-sage">$149,001</div>
+                        <div class="text-[0.48rem] text-paper/25">$49,667 × 3 parties</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Total -->
+            <div class="border border-gold/30 p-6 mb-6" style="background:rgba(201,138,16,0.05)">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-1">Total — All Payments Combined</div>
+                        <div class="text-[0.6rem] text-paper/35">Principal ($1,145,000) + Legal Costs ($149,001) · All due 15 April 2026</div>
+                    </div>
+                    <div class="font-display text-4xl text-gold">$1,294,001</div>
+                </div>
+            </div>
+
+            <!-- View the order -->
+            <div class="ev-file ef-sage" onclick="openMV('pdf-consent-order')" style="max-width:520px">
+                <div class="ev-icon ev-doc">📄</div>
+                <div class="ev-meta">
+                    <div class="ev-name">TAD_6_of_2026_consent_order_dismissal.pdf</div>
+                    <div class="ev-desc">PDF · Federal Court of Australia · Tasmania District Registry · Signed 1 April 2026 · Judicial Registrar Segal</div>
+                </div>
+                <span class="ev-cta">View Order →</span>
+            </div>
+        </div>
+
+        <!-- How they escape justice through payment -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.4)">
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">MONEY AS AN EXIT.<br><span class="text-hot">HOW THEY ESCAPE JUSTICE THROUGH PAYMENT.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The Consent Order dismisses the proceedings. It does not acquit. It does not exonerate. No finding of innocence has been made. No court has determined that the conduct documented on this site did not occur. The parties have paid — and in paying, they have obtained the dismissal of proceedings that would have placed that conduct before a judge and, if NCAT's direction was followed, before the Director of Public Prosecutions.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">This is a lawful outcome. Settlement is a recognised part of the civil litigation process. But it is important to be clear about what it is: it is the purchase of a dismissal. The strata roll was still manipulated. The levy notices were still redirected. The Tasmania forum-shopping was still deployed. The debt loading still happened. Payment does not undo any of that — it simply closes the court file.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">There is no suppression order in this matter. The Consent Order is a public document of the Federal Court of Australia. The parties, their names, and the amounts they have paid are on the record. This page is that record.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+                <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">What the Settlement Does</div>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Dismisses Federal Court, Local Court and NCAT proceedings</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Removes the immediate DPP referral pathway NCAT had confirmed</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Closes the court file — no verdict, no judicial findings</p></div>
+                    </div>
+                </div>
+                <div class="border border-sage/20 p-5" style="background:rgba(61,122,74,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-3">What the Settlement Does Not Do</div>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Does not acquit or exonerate any party</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Does not undo the conduct documented on this site</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Does not suppress this document — no suppression order exists</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-l-4 border-hot/50 pl-5" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">No Suppression Order Exists</div>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">The parties did not seek and were not granted a suppression order. The Consent Order is a public Federal Court document. The conduct, the names, and the payments are part of the public record. Sunlight.Quest is publishing it here.</p>
+            </div>
+        </div>
+
+        <!-- Stat strip -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mb-2 reveal">
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-gold mb-1">$1.29M</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Total paid</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Principal + costs · Due 15 Apr</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-hot mb-1">3</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Paying parties</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">OC · Gordon · Collection Corp</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-sage mb-1">DPP</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Referral avoided</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">NCAT had confirmed direction</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-paper/50 mb-1">0</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Suppression orders</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Public record — no gag</div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
 <!-- ══ FOOTER ══ -->
 <footer class="border-t border-paper/[0.05] px-5 md:px-10 py-10 max-w-6xl mx-auto">
     <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
@@ -3259,6 +3406,17 @@ var EVIDENCE = {
         isPlaceholder:true,
         placeholderLabel:'FOOTAGE PENDING LEGAL REVIEW',
         filename:'west_kira_glasses_incident.mp4'
+    },
+    'pdf-consent-order': {
+        type:'pdf',
+        title:'CONSENT ORDER FOR DISMISSAL — TAD 6 OF 2026',
+        tag:'Federal Court of Australia · Tasmania District Registry · 1 April 2026',
+        meta:'PDF · Federal Court Order · Signed before Judicial Registrar Segal · Public document — no suppression order',
+        desc:'Consent Order for Dismissal in the matter of The Owners – Strata Plan No 93922 v PSR Crown Investment Pty Ltd (TAD 6 of 2026). By consent of all parties including third parties Graham Gordon and Collection Corporation Australia Pty Ltd. Orders: (1) Proceedings dismissed; (2) Owners Corporation pays $395,000 to PSR Crown; (3) Graham Gordon pays $365,000 to PSR Crown; (4) Collection Corporation Australia pays $385,000 to PSR Crown; (5) Each of the three parties pays $49,667 legal costs directly to Adam Watson. All payments due 15 April 2026. No suppression order exists — this is a public Federal Court document.',
+        isPlaceholder:true,
+        placeholderLabel:'DOCUMENT PENDING UPLOAD',
+        filename:'TAD_6_of_2026_consent_order_dismissal.pdf',
+        pages: 3
     },
     'photo-adam-bleeding': {
         type:'photo',
