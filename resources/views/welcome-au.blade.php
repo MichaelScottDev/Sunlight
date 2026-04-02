@@ -634,7 +634,7 @@
                     <!-- Barrow blind eye threat -->
                     <div class="border-l-4 border-hot/50 pl-5 mt-4" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
                         <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Further Retaliation — Threat Against Kosta's Life</div>
-                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">Marc Barrow separately told Adam Watson that if RJ stabs Kosta to death, he will turn a blind eye. A sworn officer of Queensland Police stated to a member of the public that he would ignore the murder of a named individual by a named associate. This is not a figure of speech. It is a threat. It has been recorded and is being actioned accordingly.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">Marc Barrow made a comment to Adam Watson that if RJ stabs Kosta to death, he will turn a blind eye. Adam Watson relayed this to Kosta. A sworn officer of Queensland Police stated to a third party that he would ignore the murder of a named individual by a named associate. This is not a figure of speech. It is a threat communicated via an intermediary, and it has been documented accordingly.</p>
                     </div>
                 </div>
 
@@ -1945,6 +1945,32 @@
                         <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Rinehart's read: "He turned on you over RJ." Kosta's read: basic accountability was refused.</p></div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <!-- SMS subpoena / racial vilification pressure / Adam asks Kosta to leave -->
+        <div class="story-chapter reveal mt-10" style="border-left-color:rgba(193,68,14,0.3)">
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE SMS WAS PRIVATE.<br><span class="text-hot">POLICE SUBPOENAED IT. THEN PRESSURED ADAM TO CHARGE KOSTA.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Although the "white cunt" message was sent in a private text conversation — not broadcast, not published, not shared with any third party — police subpoenaed the full SMS exchange between Kosta and Adam Watson. Kosta's assessment is that this was instigated by RJ's false allegation, with the investigation routed to Marc Barrow — the same officer who has demonstrated a documented pattern of targeting Kosta.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Police visited Adam Watson and applied pressure on him to have Kosta charged with racial vilification. That charge would not have held. Racial vilification under Queensland law requires that the conduct be public — a communication made otherwise than in private. A private text message between two people is not a broadcast and does not meet that threshold. The pressure was legally unfounded.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Following the police visit, Adam Watson asked Kosta to collect his things. He had been spooked by the visit. The result: Kosta was displaced. A private argument about a missing PayID receipt — an argument Kosta has acknowledged and apologised for his own language in — was weaponised by police to pressure Adam into removing Kosta, and it worked. This is what police overreach costs in practice: not a conviction, but destabilisation.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-5">
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">The Message</div>
+                    <p class="text-[0.58rem] text-paper/38 leading-relaxed">Private SMS. Two parties. Never broadcast. Apologised for. Not a public act.</p>
+                </div>
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Police Action</div>
+                    <p class="text-[0.58rem] text-paper/38 leading-relaxed">Full SMS exchange subpoenaed. Adam Watson visited. Pressure applied to have Kosta charged with racial vilification.</p>
+                </div>
+                <div class="border border-sage/20 p-4" style="background:rgba(61,122,74,0.03)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-2">Why It Would Have Failed</div>
+                    <p class="text-[0.58rem] text-paper/38 leading-relaxed">Racial vilification requires a public act. A private text between two people does not meet the legal threshold. The pressure had no legal basis.</p>
+                </div>
+            </div>
+            <div class="border-l-4 border-hot/50 pl-5" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">The Outcome — Displacement</div>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">Adam asked Kosta to collect his things after police spooked him. The goal was never a conviction — racial vilification in a private SMS would never succeed in court. The goal was displacement. It worked. That is the overreach: using a legally baseless threat to destabilise a person's living situation through a third party.</p>
             </div>
         </div>
 
