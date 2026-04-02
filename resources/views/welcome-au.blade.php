@@ -971,6 +971,52 @@
 
         </div>
     </div>
+
+    <!-- Child Protection Unit text / SMS investigation / Task Force Latro -->
+    <div class="max-w-4xl mx-auto mt-16">
+        <div class="story-chapter reveal" style="border-left-color:rgba(193,68,14,0.4)">
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">CHILD PROTECTION UNIT.<br><span class="text-hot">AFTER A 6-ON-1 ASSAULT. BY PEOPLE I DIDN'T KNOW.</span></h3>
+            <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-5">"I received a text message from police directing me to report to the Child Protection Unit. I had just been assaulted by six people I had never met. That word — in that context — tells you everything about which side police were on."</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Following the Oracle East assault, Kosta Kondratenko received a police text message directing him to report to the Child Protection Unit. The assault involved six people Kosta did not know. The invocation of child protection in that context is not procedural. It is a signal.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">When the investigating officer called Kosta, she raised the claim made by the attackers: that Kosta had sent a text message to one of their girls, and that this was their justification for the assault. The fact that the investigating officer raised this at all — volunteering the attackers' stated rationale as though it were a mitigating factor — demonstrates that she was not approaching this as an investigation of an assault. She was approaching it as an inquiry into whether the victim deserved it.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">No subpoena was placed on the Oracle East strata. Kosta made enquiries with Jill, the strata manager, who confirmed no subpoena had been received. If police were genuinely investigating a 6-on-1 assault at that address, obtaining strata records would be elementary. They did not seek them. They were not in his corner.</p>
+
+            <div class="border border-paper/[0.07] p-5 mb-6" style="background:rgba(0,0,0,0.1)">
+                <div class="text-[0.48rem] tracking-[0.22em] uppercase text-paper/22 mb-3">The SMS Service — On the Record</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The old version of this website had an SMS sign-up service. It has been preserved on Facebook. Anyone could register for it. Messages sent through it were mass-sends — broadcast to all subscribers simultaneously. Kosta did not send any personal text message to any girl. The SMS service was a public subscription tool, not a personal messaging channel.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">Even if a message had been sent — and none was sent personally — the idea that a text message constitutes grounds for six people to physically assault one person is not a legal defence in any jurisdiction. The investigating officer raising it as context is the investigating officer signalling that she considered it relevant mitigation. That is bias. It is documented here.</p>
+            </div>
+
+            <div class="border-l-4 border-hot/50 pl-5 mb-5" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Why Task Force Latro North Was Disbanded</div>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-2">Task Force Latro North was disbanded as part of David Crisafulli's election win. The conduct documented on this page — directing an assault victim to the Child Protection Unit, failing to subpoena the assault location's strata, raising attacker-supplied justifications as relevant context, routing a private SMS investigation through Marc Barrow — is a representative sample of why the community voted the way it did.</p>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">Steven Miles lost the Queensland election on community safety. This is what community safety looked like under his government: a man assaulted by six strangers, directed to the Child Protection Unit, and investigated for whether he deserved it.</p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04]">
+                <div class="bg-ink px-5 py-5 text-center">
+                    <div class="stat-number text-3xl text-hot mb-1">CPU</div>
+                    <div class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/28">Text received</div>
+                    <div class="text-[0.45rem] text-paper/18 mt-1">After 6-on-1 assault</div>
+                </div>
+                <div class="bg-ink px-5 py-5 text-center">
+                    <div class="stat-number text-3xl text-hot mb-1">0</div>
+                    <div class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/28">Strata subpoena</div>
+                    <div class="text-[0.45rem] text-paper/18 mt-1">Jill confirmed — none issued</div>
+                </div>
+                <div class="bg-ink px-5 py-5 text-center">
+                    <div class="stat-number text-3xl text-gold mb-1">MASS</div>
+                    <div class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/28">SMS service</div>
+                    <div class="text-[0.45rem] text-paper/18 mt-1">Public signup · Not personal</div>
+                </div>
+                <div class="bg-ink px-5 py-5 text-center">
+                    <div class="stat-number text-3xl text-sage mb-1">↓</div>
+                    <div class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/28">Task Force Latro N</div>
+                    <div class="text-[0.45rem] text-paper/18 mt-1">Disbanded — Crisafulli win</div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 
