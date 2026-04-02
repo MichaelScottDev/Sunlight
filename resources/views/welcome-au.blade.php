@@ -1189,6 +1189,38 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Context: Adam was helping Bodie with armed burglary charges -->
+                <div class="border-l-4 pl-5 mt-6 mb-2" style="border-color:rgba(124,106,170,0.4);background:rgba(124,106,170,0.03);padding:1rem 1rem 1rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Context</div>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">Adam Watson was actively helping Bodie Chalmers navigate his court cases for armed burglary charges at the time all of this was occurring. Bodie repaid that assistance with the coercive control behaviour, the false sexual assault allegation, and the pattern documented across this chapter.</p>
+                </div>
+
+                <!-- Robina KFC -->
+                <div class="border-l-4 border-hot/40 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Social Stigmatisation — Robina KFC</div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">REFUSED SERVICE AT THE DRIVE-THROUGH.<br><span class="text-hot">BODIE CHALMERS'S RUMOURS REACH ROBINA KFC.</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A friend of Bodie Chalmers's Russian girlfriend Aaliyah was working at the Robina KFC when Adam Watson went through the drive-through in an Uber. Adam was refused service — the result of the malicious rumours Bodie Chalmers had been spreading. The Uber driver suggested they go inside to get food. An incident ensued.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Adam Watson is currently working to identify the owner of the Robina KFC franchise with the intention of having the employee who refused him service terminated. The employee's decision to deny service based on unverified rumours from a known associate of the subject of a malicious prosecution finding is not a defensible position for a staff member to take.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">This is what social stigmatisation looks like in practice. A person who was the subject of a charge the DPP ruled malicious, who was never convicted, who has no finding against him — denied service at a fast food outlet because of rumours spread by the person who fabricated the charge. This is what Bodie Chalmers and his accomplice Ebony's conduct costs people in daily life.</p>
+                </div>
+
+                <!-- Yakuza van / rent begging -->
+                <div class="border-l-4 border-gold/40 pl-5 mt-6 mb-2" style="background:rgba(201,138,16,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">Where Bodie Chalmers Is Now</div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">BEGGING ADAM FOR RENT MONEY.<br><span class="text-gold">THE $30M YAKUZA VAN. THE ALBANIANS. THE DOUBLE CROSS.</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The last time Bodie Chalmers made contact with Adam Watson, he was begging for rent money — concerned he was about to be evicted. The drug money appears to have dissipated. The charges have accumulated.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Bodie had received a van containing drugs with a street value in excess of $30 million from the Yakuza, with instructions to sell the product to the Albanian organised crime network. Instead, Bodie double-crossed the Yakuza — telling them the van had been stolen. He then called Adam Watson asking him to negotiate with the Yakuza on his behalf, claiming the drugs were stolen.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">He is now facing those charges, the existing charges, and apparently a rent bill he cannot cover.</p>
+                </div>
+
+                <!-- CGU Insurance rep -->
+                <div class="border-l-4 border-hot/40 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">CGU Insurance — Firebombing Aftermath</div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">CGU REP CALLS THE SITE "INCITING HATE."<br><span class="text-hot">THEIR NAME IS BEING SOUGHT.</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A representative from CGU Insurance was present at the firebombed property — the house connected to Gina Rinehart's personal circle — in the aftermath of the attack. Gina Rinehart was also present. The CGU representative, having viewed an older version of this website, made comments stating that the characterisation of Bodie Chalmers as an "incest baby" constituted inciting hate.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">The name of this CGU representative is currently being sought. Their comments will be addressed when that identity is confirmed and published here.</p>
+                </div>
             </div>
 
             <!-- Chapter B: Malicious Prosecution -->
@@ -1788,6 +1820,24 @@
                         <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">All footage provided to QPS — redacted versions available here</span>
                         <button class="mv-dl-btn mv-dl-gold text-[0.48rem]" onclick="downloadZip('rj_evidence_bundle.zip')">⬇ ZIP Bundle</button>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Street University / police informant / pedophile insinuation -->
+        <div class="story-chapter reveal mt-10" style="border-left-color:rgba(193,68,14,0.3)">
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">STREET UNIVERSITY. SOUTHPORT.<br><span class="text-hot">"WE'VE GOT YOU HERE FILMING THE KIDS."</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Walking past Street University in Southport, a young woman approached Kosta Kondratenko and asked whether he was a police informant. For the record: Kosta has never taken the stand against anyone. He has never given evidence against any individual in any court proceeding.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">RJ ran out and made the following comment: <span class="font-display text-paper/65">"We've got you here filming the kids."</span> The insinuation — that Kosta was filming children for predatory purposes — is a deliberate and malicious fabrication.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">For the record, and to be absolutely clear: there has never been a complaint against Kosta Kondratenko in any corporate setting. There is no affidavit in any police station. There is not even a text message, from any source, alleging any type of inappropriate behaviour toward a woman or a man. Not once. Not anywhere. The comment RJ made at Street University is a lie — a deliberate attempt to attach a label to a person that has no basis in fact, made by someone who uses the language of child protection as a weapon.</p>
+            <div class="border-l-4 border-hot/50 pl-5" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">On the Record</div>
+                <div class="space-y-2 mb-1">
+                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.62rem] text-paper/45 leading-relaxed">Kosta Kondratenko has never taken the stand against any person</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.62rem] text-paper/45 leading-relaxed">No complaint in any corporate setting — none</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.62rem] text-paper/45 leading-relaxed">No affidavit in any police station alleging inappropriate conduct</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.62rem] text-paper/45 leading-relaxed">Not a single text message — from anyone — alleging inappropriate behaviour toward a woman or man</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/45 leading-relaxed">RJ's "filming the kids" comment is a deliberate lie. It tells you what RJ is.</p></div>
                 </div>
             </div>
         </div>
