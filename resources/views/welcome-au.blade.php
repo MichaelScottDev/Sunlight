@@ -1873,6 +1873,34 @@
             </div>
         </div>
 
+        <!-- PayID / accountability / Rinehart -->
+        <div class="story-chapter reveal mt-10" style="border-left-color:rgba(201,138,16,0.3)">
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">A RECEIPT.<br><span class="text-gold">30 SECONDS. REFUSED. AND THE FALLOUT.</span></h3>
+            <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-5">"I asked Adam to send R some money via PayID. He did. When I saw R J on the tram and asked if he got it, he said he didn't know what I was talking about — then leaned to his friend and said 'He's weird.' I got back to my tent and asked Adam to send me a receipt. He refused. That refusal caused a fight."</p>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Kosta had asked Adam Watson to send money to R via PayID on his behalf. Adam did so. When Kosta encountered RJ on the tram and asked whether he had received the money, RJ denied any knowledge of it — then turned to his friend and said "He's weird." Kosta returned to his tent and contacted Adam, relaying what RJ had said. He asked Adam to produce a receipt of the PayID transfer — a screenshot that would take thirty seconds to generate — to confirm the payment had been made and resolve the question.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Adam refused to provide the receipt. That refusal caused a fight. During the exchange Kosta sent a number of text messages — including one in which he called Adam a "white cunt." Kosta has apologised for that message. He states clearly that the language was wrong and the apology stands.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Adam subsequently crashed into a tree. Gina Rinehart received the text message containing the "white cunt" comment and made the observation: <span class="font-display text-paper/65">"Look — he turned on you over RJ."</span> Kosta rejects that characterisation. This was not turning on Adam over RJ. This was asking for basic accountability — a receipt for a payment made on Kosta's behalf. Refusing to produce a 30-second screenshot and then characterising the request as disloyalty exposed Kosta in the street and made him unsafe. The fight was about accountability. It was not about RJ.</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-2">What Was Asked</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">A screenshot of the PayID receipt confirming the transfer was made</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">30 seconds to produce. Standard. Reasonable.</p></div>
+                    </div>
+                </div>
+                <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">The Consequence of the Refusal</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Fight ensued. Heated messages sent — including one Kosta has apologised for.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Kosta exposed in the street. Safety compromised.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Rinehart's read: "He turned on you over RJ." Kosta's read: basic accountability was refused.</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 
