@@ -1602,6 +1602,33 @@
                 <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">The Fabrication Attempt</div>
                 <p class="text-[0.68rem] text-paper/50 leading-relaxed">Police and Samira Khalaj are now attempting to leverage Socrates's position — facing 25 years — to get him to swear an affidavit claiming the attack on Samira was carried out on Adam Watson's direct orders. There is no evidence of this. Adam did not order it. The attempt to produce such an affidavit under those circumstances is a fabrication.</p>
             </div>
+
+            <!-- Stephen Alexander / ALS / latest development -->
+            <div class="border-l-4 border-gold/40 pl-5 mb-2" style="background:rgba(201,138,16,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">Latest Development — Legal Representation</div>
+                <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">STEPHEN ALEXANDER TAKES OVER.<br><span class="text-gold">ABORIGINAL LEGAL SERVICES AND THEIR PSYCHOLOGIST STOOD DOWN.</span></h4>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Stephen Alexander — the lawyer now acting in this matter — held a linked call with Socrates, the Aboriginal Legal Services representative, and the psychologist sourced by the Aboriginal Legal Services. On that call, Stephen Alexander informed both the ALS lawyer and the psychologist that Socrates is no longer to be represented by them. Stephen Alexander will source his own psychologist for Socrates going forward.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">It is worth noting that funding is being withdrawn from Aboriginal Legal Services more broadly on the basis that they are not operating efficiently in carrying out their mandate.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Socrates's father has made insinuations that Adam Watson and Stephen Alexander are attempting to rort Socrates. This is a curious allegation — Socrates has no money. There is nothing to rort. His father has also stated that Socrates should remain with the Aboriginal Legal Services, and has made comments suggesting Adam Watson's motivation for helping Socrates is that he is a young boy — despite the fact that Socrates is 19 years old.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
+                    <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">What Happened</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Stephen Alexander held linked call with ALS lawyer, ALS psychologist, and Socrates</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">ALS and their psychologist stood down from representing Socrates</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Stephen Alexander to source independent psychologist</p></div>
+                        </div>
+                    </div>
+                    <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Father's Allegations — Addressed</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Alleged Adam &amp; Stephen Alexander are "rorting" Socrates — Socrates has no money</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Suggested Adam's motive is that Socrates is a "young boy" — Socrates is 19</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Wants Socrates to return to the ALS — the same service being stood down for inefficiency</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Registrar recording -->
