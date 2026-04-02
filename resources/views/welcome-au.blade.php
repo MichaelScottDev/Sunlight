@@ -604,6 +604,33 @@
                     <div class="border border-sage/30 bg-sage/[0.04] p-6 mb-5">
                         <div class="flex items-start gap-4"><div class="font-display text-6xl text-sage/30 leading-none">✓</div><div><div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-2">Legal Outcome</div><div class="font-display text-2xl tracking-wide text-sage mb-2">ALL CHARGES DROPPED</div><p class="text-[0.68rem] text-paper/40 leading-relaxed">Contravene Banning Notice charge — fully resolved. No conviction. No penalty.</p></div></div>
                     </div>
+
+                    <!-- Marc Barrow retaliation -->
+                    <div class="border-l-4 border-hot/40 pl-5 mb-4" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Retaliation — Marc Barrow · CCC Report Filed</div>
+                        <h4 class="font-display text-lg tracking-wide text-hot mb-3">THE OFFICER WHO FILED THE CHARGE RETALIATED WHEN A CCC REPORT WAS MADE AGAINST HIM.</h4>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The officer who placed the Contravene Banning Notice charge — Marc Barrow — was the subject of a Crime and Corruption Commission report filed by Kosta Kondratenko. In response, Barrow contacted Adam Watson directly to inform him that he would be opposing the liquor licence application on Adam's planned purchase of the Platinum and Empire nightclubs in Surfers Paradise — two venues owned by the same person. The message was clear: associating with Kosta Kondratenko carries a penalty.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Corey Cook, the prosecutor, was contacted about the phone call. Cook agreed it was overreach by Barrow — once again — and contacted Marc Barrow's supervisor to ask him to stop targeting Adam Watson. There was no anti-social behaviour on Adam's part that could justify the opposition. There was nothing to oppose on the merits. It was an officer using his position to punish an innocent third party because of who that person associated with.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed">This incident illustrates two systemic failures simultaneously: members of Queensland Police are permitted to pick on the homeless and on those connected to critics of the force — and face no repercussions. And the Crime and Corruption Commission, to whom the original report was made, provides no meaningful deterrent to that behaviour.</p>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-2">
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">The Retaliation</div>
+                            <div class="space-y-1.5">
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">CCC report filed on Marc Barrow by Kosta Kondratenko</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Barrow contacts Adam Watson — threatens to oppose Platinum &amp; Empire nightclub liquor licence</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">No anti-social behaviour by Adam — no legitimate basis for opposition</p></div>
+                            </div>
+                        </div>
+                        <div class="border border-sage/20 p-4" style="background:rgba(61,122,74,0.03)">
+                            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-2">The Intervention</div>
+                            <div class="space-y-1.5">
+                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Prosecutor Corey Cook contacted about the call</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Cook agrees: overreach by Barrow</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Cook contacts Barrow's supervisor — asks him to stop targeting Adam Watson</p></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div id="s-ch6" class="story-chapter reveal" style="transition-delay:0.3s;border-left-color:rgba(193,68,14,0.3)">
@@ -1741,7 +1768,7 @@
                     <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Formal Demand — Retraction</div>
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed">Sunlight.Quest formally demands that Mayor Tom Tate retract his characterisation of Kosta Kondratenko as a "public nuisance." All charges against Mr Kondratenko have been dropped. A written retraction is requested. Deadline: 30 days from publication.</p>
                 </div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
                     <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
                         <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">City of Gold Coast</div>
                         <div class="space-y-1.5"><div class="text-[0.6rem] text-paper/35">✗ Investigation discontinued</div><div class="text-[0.6rem] text-paper/35">✗ Mayor called complainant a nuisance</div><div class="text-[0.6rem] text-paper/35">✗ No accountability</div></div>
@@ -1750,6 +1777,15 @@
                         <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-2">Premier Crisafulli</div>
                         <div class="space-y-1.5"><div class="text-[0.6rem] text-paper/35">✓ Show Cause notice issued</div><div class="text-[0.6rem] text-paper/35">✓ Staff involved terminated</div><div class="text-[0.6rem] text-paper/35">✓ Accountability via escalation</div></div>
                     </div>
+                </div>
+
+                <!-- Tom Tate CCC report — no response -->
+                <div class="border-l-4 border-hot/40 pl-5 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">CCC Complaint — Tom Tate Corruption Report</div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">THE CCC RECEIVED A CORRUPTION REPORT ON TOM TATE.<br><span class="text-hot">AND DIDN'T EVEN REPLY.</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A corruption report concerning Tom Tate was emailed to the Crime and Corruption Commission. The report did not include photographs. The CCC did not email back to request that photographs be added. They did not follow up in any form.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The minimum expectation when a corruption report is lodged with a government watchdog is that the watchdog reads it — and if the submission is incomplete, asks for what is missing. The CCC did neither. The silence is not merely a procedural shortcoming. It is evidence of an institution that is not taking the reports handed to it seriously.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">A body that exists to investigate corruption but does not respond to corruption reports is not a watchdog. It is a filing cabinet.</p>
                 </div>
             </div>
         </div>
