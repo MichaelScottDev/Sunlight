@@ -726,6 +726,143 @@
 
 
 <!-- ══════════════════════════════════════
+     COLES / PACIFIC FAIR — MOVE ON DIRECTION
+══════════════════════════════════════ -->
+<section id="coles" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(193,68,14,0.04) 0%,transparent 55%)">
+    <div class="max-w-4xl mx-auto">
+
+        <div class="flex items-center gap-3 mb-3 reveal">
+            <div class="w-4 h-px bg-hot"></div>
+            <span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">Pacific Fair · Coles · Body Worn Camera</span>
+        </div>
+        <h2 class="font-display leading-none tracking-wide mb-3 reveal" style="font-size:clamp(2.4rem,6vw,4rem)">A YAKULT BOTTLE.<br><span class="text-hot">$550,000 TO THE TAXPAYER.</span></h2>
+        <p class="font-serif italic text-paper/45 text-lg leading-relaxed mb-10 reveal max-w-2xl">"I never stole anything from Coles. There has never been a call to police claiming I stole — not once in my life. A Coles employee made a false allegation. The police took it without asking for CCTV, without asking for proof, without asking why it hadn't been lodged. This is what followed."</p>
+
+        <!-- How it started -->
+        <div class="story-chapter reveal mb-8" style="border-left-color:rgba(193,68,14,0.3)">
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">HOW IT STARTED.<br><span class="text-hot">THE YAKULT. THE PSLO TEAM. THE PRIOR HISTORY.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The original disturbance was over a Yakult bottle — admittedly drunk by Kosta. It was already outside the 5-pack it came from and would have been discarded. The CCTV captured the incident. Kosta was approached. That is where the disturbance began. He was never asked to pay for the Yakult.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The arresting officer had a prior history with Kosta. On Nerang Street, the PSLO team — the same team that had been stealing Kosta's tent from his campsite in the forest when he wasn't there — was witnessed giving a bottle of water to a group of homeless people. Kosta called them out for performative philanthropy. Police were called. During that interaction, a Coles employee made a false allegation that Kosta had stolen. The police accepted the allegation without requesting CCTV footage, without asking for any supporting proof, and without asking why the matter had not been lodged as a formal police report.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">For the record: Kosta Kondratenko has never stolen from Coles or any retailer. There has never been a police call or report filed in his life claiming theft. The allegation was false. It was accepted without scrutiny.</p>
+            <div class="border border-paper/[0.07] p-5 mb-2" style="background:rgba(0,0,0,0.1)">
+                <div class="text-[0.48rem] tracking-[0.22em] uppercase text-paper/22 mb-3">For the Record — Theft Allegation</div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot mb-1.5">What Was Alleged</div>
+                        <p class="text-[0.6rem] text-paper/35 leading-relaxed">A Coles employee alleged Kosta Kondratenko had stolen from the store. The allegation was made verbally to police at the scene.</p>
+                    </div>
+                    <div>
+                        <div class="text-[0.5rem] tracking-[0.15em] uppercase text-sage mb-1.5">What Police Did Not Do</div>
+                        <div class="space-y-1">
+                            <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/35">Did not request CCTV footage</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/35">Did not ask for proof of the allegation</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/35">Did not ask why no formal report had been lodged</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BWC muting -->
+        <div class="story-chapter reveal mb-8" style="border-left-color:rgba(201,138,16,0.3)">
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE BODY WORN CAMERA.<br><span class="text-gold">MUTED. THE COMMENTS TO SECURITY — GONE.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Body Worn Camera footage obtained by Kosta revealed that the comments made by the arresting officer to Pacific Fair security had been selectively muted. The conversation between the officer and security — the conversation that would have established the officer's state of mind and the basis for the charge — was removed from the footage provided.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Selective muting of BWC footage is not an accident. Audio does not remove itself from one part of a recording while remaining intact in others. The muting of the specific exchange with security — the exchange most relevant to the charge — is evidence of maliciousness in the original arrest.</p>
+            <div class="ev-file ef-gold" onclick="openMV('video-bwc-coles')" style="max-width:500px">
+                <div class="ev-icon ev-video">▶</div>
+                <div class="ev-meta">
+                    <div class="ev-name">BWC_pacific_fair_coles_MUTED.mp4</div>
+                    <div class="ev-desc">Video · Body Worn Camera · Pacific Fair · Officer comments to security selectively muted</div>
+                </div>
+                <span class="ev-cta">Watch →</span>
+            </div>
+        </div>
+
+        <!-- DPP pursuit / District Court -->
+        <div class="story-chapter reveal mb-8" style="border-left-color:rgba(193,68,14,0.3)">
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE DPP PURSUED IT ANYWAY.<br><span class="text-hot">DISTRICT COURT. MAGISTRATE'S COURT. AGAIN.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The Director of Public Prosecutions — having seen the selectively muted BWC footage — did not drop the charge. Kosta appealed the decision to the District Court. The District Court Judge made direct comments to the prosecution: this matter was probably not worth pursuing, given the significant cost to the taxpayer and the minor penalty that would result from a guilty verdict even if they succeeded.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The matter was sent back to the Magistrate's Court. When it was re-listed, neither the prosecution nor the presiding Magistrate had the information that it had been returned from the District Court. It was treated as a new case — starting fresh — as though the District Court's comments and the return had never occurred.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">It was only through Adam Watson — who was representing Kosta — raising the matter directly and noting that the file had already been through the District Court that the correct procedural history was restored. The prosecution had also attempted to bring up the Yakult bottle in the Magistrate's Court, using it to attack Kosta's character. The item in question had a retail value of approximately $1. The prosecution raised it in proceedings that have, by this point, cost the taxpayer an estimated $550,000.</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">The Yakult</div>
+                    <div class="font-display text-2xl text-hot mb-1">~$1</div>
+                    <p class="text-[0.58rem] text-paper/35 leading-relaxed">Approximate retail value of item. Already outside the 5-pack. Would have been discarded.</p>
+                </div>
+                <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-2">Prosecution used it to</div>
+                    <div class="font-display text-xl text-gold mb-1">Assassinate Character</div>
+                    <p class="text-[0.58rem] text-paper/35 leading-relaxed">Raised in Magistrate's Court proceedings to attack Kosta's credibility. A $1 item.</p>
+                </div>
+                <div class="border border-paper/[0.07] p-5" style="background:rgba(0,0,0,0.1)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-2">Cost to Taxpayer</div>
+                    <div class="font-display text-2xl text-paper/55 mb-1">$550,000</div>
+                    <p class="text-[0.58rem] text-paper/35 leading-relaxed">Estimated cost of running this prosecution through Magistrate's Court, appeal to District Court, and back.</p>
+                </div>
+            </div>
+
+            <div class="border-l-4 border-hot/50 pl-5 mb-5" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">The District Court Judge's Comment</div>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">The District Court Judge told the prosecution directly that this was probably not worth pursuing — the cost to the taxpayer was significant and even a successful prosecution would result in a minor penalty. The prosecution returned it to the Magistrate's Court regardless.</p>
+            </div>
+        </div>
+
+        <!-- Coles / offer to pay -->
+        <div class="story-chapter reveal mb-8" style="border-left-color:rgba(61,122,74,0.3)">
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THEY WERE OFFERED PAYMENT.<br><span class="text-sage">COLES REFUSED.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Kosta was banned from the store. An associate — acting on Kosta's behalf — attended the Coles store to ask whether Coles wanted payment for the Yakult bottle. The store refused.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The Area Manager of Coles was also contacted directly to determine whether payment for the Yakult would resolve the matter. The Coles Area Manager did not accept it.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Coles declined to accept approximately $1 in payment and has instead been party to a prosecution that has cost the taxpayer $550,000. Civil action against Coles arising from this matter is under consideration.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div class="border border-sage/20 p-5" style="background:rgba(61,122,74,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-2">Offer Made</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Associate attended Coles Pacific Fair to offer payment for the Yakult</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Coles Area Manager contacted directly — same offer made</p></div>
+                    </div>
+                </div>
+                <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">Coles Response</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Store refused payment</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Area Manager declined to accept ~$1</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Civil action under consideration</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stat strip -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mb-2 reveal">
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-hot mb-1">$550K</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Taxpayer cost</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">To prosecute a $1 item</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-gold mb-1">BWC</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Selectively muted</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Officer comments to security removed</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-paper/50 mb-1">0</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Prior theft reports</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Never — not once in Kosta's life</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-sage mb-1">~$1</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Yakult retail value</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Offered to Coles — refused</div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
      POLICE CORRUPTION / ORACLE EAST + AQUATIC CENTRE
 ══════════════════════════════════════ -->
 <section id="assault" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(193,68,14,0.05) 0%,transparent 50%)">
@@ -3442,6 +3579,16 @@ var EVIDENCE = {
         isPlaceholder:true,
         placeholderLabel:'FOOTAGE PENDING LEGAL REVIEW',
         filename:'west_kira_glasses_incident.mp4'
+    },
+    'video-bwc-coles': {
+        type:'video',
+        title:'BODY WORN CAMERA — PACIFIC FAIR COLES — SELECTIVELY MUTED',
+        tag:'Contravene Move On Direction · Pacific Fair · BWC Disclosure',
+        meta:'Video · Body Worn Camera · Officer comments to Pacific Fair security selectively muted',
+        desc:'Body Worn Camera footage obtained by Kosta Kondratenko following the Contravene Move On Direction charge at Coles Pacific Fair. The footage reveals that the comments made by the arresting officer to Pacific Fair security have been selectively muted — the exchange most directly relevant to the basis for the charge is absent from the provided footage. The original disturbance arose from a Yakult bottle already removed from its packaging. The officer had a prior history with Kosta from a Nerang Street incident involving the PSLO team. The selective muting is the basis for arguing maliciousness in the arrest. Prosecution has continued despite the District Court Judge\'s comments that the matter was not worth pursuing at this cost to the taxpayer.',
+        isPlaceholder:true,
+        placeholderLabel:'FOOTAGE PENDING UPLOAD',
+        filename:'BWC_pacific_fair_coles_MUTED.mp4'
     },
     'pdf-consent-order': {
         type:'pdf',
