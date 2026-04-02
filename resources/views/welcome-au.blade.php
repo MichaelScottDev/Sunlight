@@ -711,6 +711,40 @@
                         <p class="text-[0.68rem] leading-relaxed text-paper/40 mb-4">This is systemic injustice. Not through malice, but through procedural indifference. The court system protected its own mistake by allowing the substantive outcome to be determined by a technicality that protected the wrongdoer.</p>
                         <p class="text-[0.68rem] leading-relaxed text-paper/40">I am now publishing this evidence formally to establish a record: When court officials make procedural errors that prevent victims from presenting evidence, those errors should not result in the wrongdoer going free. Accountability requires that official mistakes don't become escape routes for the actual criminals.</p>
                     </div>
+
+                    <!-- Frecklington $400M digital courts reform -->
+                    <div class="mt-8 border-l-4 pl-6" style="border-color:rgba(61,122,74,0.4);background:rgba(61,122,74,0.04);padding:1.5rem">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-3">Reform — Attorney General Deb Frecklington</div>
+                        <h4 class="font-display text-xl tracking-wide text-sage mb-4">$400 MILLION. DIGITAL COURTS. THE REFORM THAT WOULD HAVE STOPPED THIS.</h4>
+                        <p class="text-[0.68rem] leading-relaxed text-paper/40 mb-4">Attorney General Deb Frecklington has conveyed to Adam Watson a $400 million commitment to digitising the Queensland court system. The reform would move court processes — including the filing, stamping, and serving of documents — onto a private portal. The practical consequence: the type of registrar error that occurred in this case, where incorrect verbal advice and an improperly stamped form allowed a wrongdoer to escape accountability, would be substantially harder to make. Procedure would be enforced by the system, not by the individual official standing at the counter.</p>
+                        <p class="text-[0.68rem] leading-relaxed text-paper/40 mb-4">The cost of the current system is not measured in dollars alone. It is measured in weeks spent preparing documents, navigating counter staff who give contradictory advice, travelling to courthouses, waiting for stamps, arranging service — only for a procedural error by a court official to undo the entire effort at the moment it matters most. Sandy Tulisi's landlord walked free not because the evidence was insufficient, but because the system stamped the wrong form and a judge could not look past it. That is not justice. That is administration defeating accountability.</p>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                            <div class="border border-sage/20 p-4" style="background:rgba(61,122,74,0.03)">
+                                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-2">What Digitisation Fixes</div>
+                                <div class="space-y-1.5">
+                                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Forms validated by system before stamping — wrong form cannot be accepted</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Private portal creates audit trail — verbal advice that contradicts procedure is eliminated</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Filing, serving, and tracking in one place — no more manual counter stamps that can be challenged</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Self-represented litigants guided through correct procedure — reducing reliance on counter staff who may err</p></div>
+                                </div>
+                            </div>
+                            <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">What the Current System Costs</div>
+                                <div class="space-y-1.5">
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Weeks of preparation undone by one counter error</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">No compensating mechanism when the court's own mistake produces the unjust outcome</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Wrongdoers who can afford lawyers benefit from self-represented litigants being misdirected by staff</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Procedural complexity disproportionately burdens those who cannot pay for representation</p></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h4 class="font-display text-lg tracking-wide mb-3" style="color:#3d7a4a">WHY AI MATTERS FOR ACCESS TO JUSTICE</h4>
+                        <p class="text-[0.68rem] leading-relaxed text-paper/40 mb-3">The Sandy Tulisi matter illustrates something that is true across thousands of cases every year in Australia: the person in the right loses not because the evidence is wrong but because they do not know which form to use, which registry to file at, or which procedural rule their opponent's lawyer is about to exploit. The gap between knowing the law and being able to use it is where most injustice lives — and it is a gap that disproportionately punishes the poor, the homeless, and the self-represented.</p>
+                        <p class="text-[0.68rem] leading-relaxed text-paper/40 mb-3">Artificial intelligence — applied to legal procedure — can close that gap in a way that no previous technology has been able to. An AI that knows the correct subpoena form, knows the relevant rule, checks against the court's procedural requirements before the document is filed, and flags errors before they become irreversible is not a luxury. It is what equal access to justice looks like in practice.</p>
+                        <p class="text-[0.68rem] leading-relaxed text-paper/40">Frecklington's $400 million commitment to digitising the court system is a structural step in the right direction. The next step is making those digital systems intelligent — capable of guiding ordinary people through procedure in the same way that an experienced lawyer does, without the $500-an-hour price tag that currently determines whose procedural errors get caught and whose do not.</p>
+                    </div>
                 </div>
 
                 <!-- BeHome new location -->
