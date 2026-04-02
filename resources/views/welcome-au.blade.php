@@ -631,6 +631,11 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Barrow blind eye threat -->
+                    <div class="border-l-4 border-hot/50 pl-5 mt-4" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Further Retaliation — Threat Against Kosta's Life</div>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">Marc Barrow separately told Adam Watson that if RJ stabs Kosta to death, he will turn a blind eye. A sworn officer of Queensland Police stated to a member of the public that he would ignore the murder of a named individual by a named associate. This is not a figure of speech. It is a threat. It has been recorded and is being actioned accordingly.</p>
+                    </div>
                 </div>
 
                 <div id="s-ch6" class="story-chapter reveal" style="transition-delay:0.3s;border-left-color:rgba(193,68,14,0.3)">
@@ -1253,6 +1258,15 @@
                     <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">CGU REP CALLS THE SITE "INCITING HATE."<br><span class="text-hot">THEIR NAME IS BEING SOUGHT.</span></h4>
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A representative from CGU Insurance was present at the firebombed property — the house connected to Gina Rinehart's personal circle — in the aftermath of the attack. Gina Rinehart was also present. The CGU representative, having viewed an older version of this website, made comments stating that the characterisation of Bodie Chalmers as an "incest baby" constituted inciting hate.</p>
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed">The name of this CGU representative is currently being sought. Their comments will be addressed when that identity is confirmed and published here.</p>
+                </div>
+
+                <!-- Tweed Heads pub incident -->
+                <div class="border-l-4 border-hot/40 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Tweed Heads — Pub Incident</div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">BODIE FOLLOWS THE RUMOUR TO TWEED HEADS.<br><span class="text-hot">"YOU'RE FRIENDS WITH ADAM THE PAEDOPHILE."</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Adam had friends in Coogee whose family had since moved to Tweed Heads. While at a pub in Tweed Heads, Bodie Chalmers recognised these individuals as associates of Adam Watson. He opened with: <span class="font-display text-paper/65">"You're friends with Adam the paedophile."</span> An altercation followed.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">James McDonald — an associate of Bodie Chalmers — had his teeth smashed out during the altercation. Following the incident, both Bodie Chalmers and James McDonald went to police and provided statements against the person they had the altercation with. They snitched.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">Adam Watson is now assisting that person with legal representation arising from the charges that followed. The pattern is consistent: Bodie Chalmers instigates a situation using the false "paedophile" label he has been spreading, an altercation occurs, and he and his associates then use the police — the same institution he has weaponised against Adam — to pursue the person who responded.</p>
                 </div>
             </div>
 
