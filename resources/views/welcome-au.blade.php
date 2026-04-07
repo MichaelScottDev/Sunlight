@@ -237,6 +237,9 @@
                 <a href="#privacy" class="nav-accent-hot">Tom Tate — Retraction Demanded</a>
                 <span class="nav-group-label">Media Accountability</span>
                 <a href="#media" class="nav-accent-gold">QP-9 Leak — CCC Referral</a>
+                <span class="nav-group-label">Homelessness &amp; Welfare</span>
+                <a href="#homelessness" class="nav-accent-sage">Gold Coast Homeless Action Plan — Failure</a>
+                <a href="#homelessness" class="nav-accent-hot">Undercover Drug Offer Allegation</a>
                 <span class="nav-group-label">About &amp; Contact</span>
                 <a href="#adam-watson" class="nav-accent-gold">Adam Watson — The Man</a>
                 <a href="#contact" class="nav-accent-hot">Submit a Tip-off</a>
@@ -1456,6 +1459,164 @@
             <div class="border-l-4 border-hot/50 pl-5" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
                 <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">On the Record</div>
                 <p class="text-[0.68rem] text-paper/50 leading-relaxed">Kosta Kondratenko refuses to be mischaracterised. He refuses to have his political speech reframed as a mental health event. He refuses to have his credibility attacked by routing corporate interests through a police welfare visit. The viral video was political speech. "Bury you" was political language. The visit to the tent was intimidation dressed as welfare. The record reflects all of it.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     GOLD COAST HOMELESSNESS — INSTITUTIONAL FAILURE
+══════════════════════════════════════ -->
+<section id="homelessness" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(61,122,74,0.05) 0%,rgba(193,68,14,0.03) 60%,transparent 100%)">
+    <div class="max-w-4xl mx-auto">
+
+        <div class="flex items-center gap-3 mb-3 reveal">
+            <span class="text-[0.48rem] tracking-[0.22em] uppercase border px-2 py-1 text-sage border-sage/40">Gold Coast — Homeless Action Plan · Institutional Failure</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-3 leading-tight reveal">FOUR SLICES OF PIZZA.<br><span class="text-hot">AND A FORM THEY NEVER GAVE ME.</span></h2>
+        <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-10 reveal">"The Gold Coast Homeless Action Plan hands you a piece of paper with food services on it, confiscates your tent while you're away, puts a sticker on it saying it's abandoned, and when the Department of Housing finally shows up — they ask for a QLD Driver's Licence and tell you they heard you were thinking of moving to NSW. I'm not. And I've been here two years."</p>
+
+        <!-- Undercover police drug offer allegation -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.45)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Allegation — Undercover Police</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THREE PEOPLE IN CLEAN JUMPERS.<br><span class="text-hot">OFFERING DRUGS. ON THE WAY TO MY TENT.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">On the way to his tent, Kosta Kondratenko was approached by three people wearing jumpers that were notably too clean. They offered him drugs. The offer was refused. Kosta's assessment of what he observed: the individuals were dressed like him — a deliberate choice — but the condition of their clothing, their manner, and the circumstances of the approach were inconsistent with the street environment they were presenting as belonging to.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">It is Kosta's allegation that these three individuals were <strong class="text-paper/70">undercover police officers</strong> — and that the drug offer was not casual but deliberate: a structured attempt to induce a psychotic or schizophrenic episode that would generate a documented mental health event. That event, if it had occurred, would have served to validate the notes that Marc Barrow had placed into the police system characterising Kosta as having a past history of mental health problems.</p>
+            <div class="border border-hot/20 p-5 mb-2" style="background:rgba(193,68,14,0.04)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Why This Matters — The Marc Barrow Connection</div>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Marc Barrow placed notes in the police system asserting Kosta had a past history of mental health issues</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">A documented mental health episode — induced by a drug reaction — would corroborate those notes</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Once corroborated, those notes become the institutional basis for dismissing Kosta's testimony, journalism, and complaints in any formal context</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">The individuals did not fit the environment they were presenting as belonging to — the jumpers were too clean, the approach too deliberate</p></div>
+                </div>
+                <p class="text-[0.62rem] text-paper/35 leading-relaxed mt-3 italic">This is an allegation. It is made on the basis of direct observation, pattern of conduct, and the documented existence of Marc Barrow's mental health notes. Kosta did not take the drugs. The episode they may have been attempting to create did not occur.</p>
+            </div>
+        </div>
+
+        <!-- PSLO tent confiscations -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.4)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Gold Coast Homeless Action Plan — PSLO Team</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE PSLO TEAM.<br><span class="text-gold">DECALS ON A TENT THAT WASN'T ABANDONED.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The Public Liaison Officer (PSLO) team — established as part of the Gold Coast Homeless Action Plan — regularly confiscated Kosta Kondratenko's tent. The tent had been set up away from any local roads, in a location that should not have triggered any intervention. Despite this, the PSLO team repeatedly placed decals on the tent stating it had been abandoned.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">The tent was not abandoned. Kosta was using it. He had set it up. He was present in the area. An <strong class="text-paper/70">email thread with the PSLO team and Rob McDonald</strong> produced an acknowledgment: they confirmed in writing that they had placed the decals. Despite that acknowledgment, the conduct continued. The decals kept appearing. The confiscations kept happening.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">What the PSLO Did</div>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Repeatedly confiscated tent that was in active use</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Placed "abandoned" decals on occupied property</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Continued the conduct <em>after</em> Rob McDonald confirmed in writing they had done it</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Targeted a tent placed away from any local roads</p></div>
+                    </div>
+                </div>
+                <div class="border border-paper/[0.08] p-5" style="background:rgba(0,0,0,0.12)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">What Happened When Kosta Was Present</div>
+                    <p class="text-[0.6rem] text-paper/42 leading-relaxed mb-3">When Kosta was present as the PSLO team turned up, he was handed an A4 piece of paper listing services. The paper was presented as though a comprehensive support network existed. In practice, it was a list of food services.</p>
+                    <p class="text-[0.6rem] text-paper/42 leading-relaxed">You could turn up to a food referral on that list and receive four slices of pizza. You would still be hungry. The PSLO team never referred Kosta to a homeless service. The paper was theatre.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- St John's Crisis Centre / Pizza photos -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.3)">
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">ST JOHN'S CRISIS CENTRE.<br><span class="text-hot">CLOSED OVER EASTER. AND THE CHURCH'S ASSETS.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">The St John's Crisis Centre was closed over the Easter period. The photo of the closed notice is below. The Catholic Church runs services for the homeless and the vulnerable — and closes them over the period it deems most holy. The people those services exist for do not stop being homeless over Easter. They do not stop being in crisis. The Church does not stop owning its assets.</p>
+
+            <!-- Photo grid: closed poster + pizza -->
+            <div class="grid grid-cols-2 gap-4 mb-6">
+                <div>
+                    <div class="w-full border border-paper/[0.07] flex items-center justify-center mb-2" style="aspect-ratio:3/4;background:rgba(193,68,14,0.04)">
+                        <div class="text-center px-4">
+                            <div class="text-[0.5rem] tracking-[0.18em] uppercase text-hot/50 mb-2">Photo</div>
+                            <div class="text-[0.45rem] text-paper/22 leading-relaxed">St John's Crisis Centre<br>"Closed over Easter"<br>Poster — pending upload</div>
+                        </div>
+                    </div>
+                    <p class="text-[0.5rem] text-paper/28 leading-relaxed italic">St John's Crisis Centre — closed over Easter. The sign is real. The irony is real.</p>
+                </div>
+                <div>
+                    <div class="w-full border border-paper/[0.07] flex items-center justify-center mb-2" style="aspect-ratio:3/4;background:rgba(201,138,16,0.04)">
+                        <div class="text-center px-4">
+                            <div class="text-[0.5rem] tracking-[0.18em] uppercase text-gold/50 mb-2">Photo</div>
+                            <div class="text-[0.45rem] text-paper/22 leading-relaxed">Four slices of pizza<br>Homeless food referral<br>Photo — pending upload</div>
+                        </div>
+                    </div>
+                    <p class="text-[0.5rem] text-paper/28 leading-relaxed italic">The food referral service: four slices of pizza. Still hungry.</p>
+                </div>
+            </div>
+
+            <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.03)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">The Catholic Church — Assets and Accountability</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">During the Royal Commission into Institutional Responses to Child Sexual Abuse, the Catholic Church did not fully disclose the size of its asset base. The Commission's findings noted significant difficulty in obtaining complete financial disclosure from Catholic entities — creating a situation where an institution that had caused documented, systemic harm to children across decades was permitted to control the narrative of its own financial capacity to compensate victims.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">We are now in a cost of living crisis. Interest rates have been elevated for years. Homelessness in Australia has increased. And the Catholic Church continues to hold assets — land, property, investment portfolios — whose full scale has never been publicly disclosed, while running crisis services that close over Easter and food services that give people four slices of pizza.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">The cost of living crisis is the correct moment to ask again: <strong class="text-paper/65">what does the Catholic Church actually own? And what would genuine accountability for its financial capacity look like — particularly given that accountability was avoided in the Royal Commission?</strong></p>
+            </div>
+        </div>
+
+        <!-- Department of Housing / Link 2 Home -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(61,122,74,0.35)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-sage border border-sage/40 px-2 py-1">Department of Housing — QLD</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">RIHANNA SAYS I'M GOING TO NSW.<br><span class="text-sage">I'M NOT. AND THEY ALREADY HAVE MY EMAIL.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Department of Housing representatives approached Kosta Kondratenko and indicated he was being considered for referral to <strong class="text-paper/65">Link 2 Home</strong> — a homeless support service in New South Wales. Kosta is not going to NSW. He has not indicated he is going to NSW. He was not consulted about this referral. He was not given forms to complete. He was not shown any documentation.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">He was then placed on the contact list of the <strong class="text-paper/65">Gold Coast Homeless Health Outreach Team</strong> — a service that is structured as <em>Homeless Health Outreach</em>, meaning mental health is primary and homelessness is secondary. A person experiencing homelessness is referred to a service that will assess their mental health before it addresses their housing. The framing matters: it determines the lens through which the service will engage with you, and it determines the documentation it will generate about you.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Kosta provided the Department of Housing with his email address. The ranger who placed a crime sticker around his tent also has his email. No referral forms were completed. No housing applications were initiated. No pathway was opened. An email was provided, absorbed, and nothing happened.</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-5">
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">What They Said</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Rihanna from the Housing Team said Kosta was considering going to Link 2 Home (NSW)</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Being placed on Gold Coast Homeless Health Outreach Team (mental health first)</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">QLD Driver's Licence required to access Department of Housing</p></div>
+                    </div>
+                </div>
+                <div class="border border-sage/20 p-4" style="background:rgba(61,122,74,0.03)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-2">The Reality</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Kosta is not going to NSW. He did not indicate this. He was not consulted.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">No forms were provided. No applications were initiated.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">He has been on the Gold Coast for 2 years — a QLD licence requirement is a structural barrier, not an honest one</p></div>
+                    </div>
+                </div>
+                <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.12)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-2">The Pattern</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-paper/40 text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Route person to mental health lens first</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-paper/40 text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Generate mental health documentation</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-paper/40 text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Use that documentation to dismiss the person in any formal context</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-paper/40 text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Push them toward NSW — make them someone else's problem</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-l-4 border-hot/50 pl-5" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">What Is Actually Happening</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed">The Gold Coast only wants the rich here. The Homeless Action Plan is a compliance exercise — an A4 piece of paper, a food referral, four slices of pizza — designed to make it look like something is being done while moving the problem on. Confiscate the tent. Place an "abandoned" sticker on it. Hand over a service list. Refer to mental health. Ask for a driver's licence. Suggest NSW. At no point does the person in front of you get housed.</p>
+            </div>
+        </div>
+
+        <!-- Steven Miles response + Tom Tate connection -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.4)">
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">"YOUR MATE IS NOT ON THE LIST."<br><span class="text-hot">STEVEN MILES. A DRAWER. AND A COST OF LIVING CRISIS.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">When the homelessness situation was raised with Steven Miles, his response was to go back to a drawer and inform Kosta: <span class="font-display text-paper/70">"Well I checked — and your mate is not on the Department of Housing list."</span></p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Being on the list accomplishes nothing anyway. A list is not housing. In a cost of living crisis — where rents have increased 30–40% in some Gold Coast suburbs since 2020, where mortgage stress is at multi-decade highs, and where the working population is increasingly priced out of the city it services — the government's response is to check a list and report the result. The list is not the service. The list is the bureaucratic alibi for not providing the service.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">What Accountability Looks Like</div>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">The government's responsibility in a cost of living crisis is to ensure referral pathways actually function</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">There should be short-term accommodation options — not necessarily in the middle of the Gold Coast, but accessible and available</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">A list that does nothing is not a policy. It is a document that allows a politician to say they checked.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">"Not on the list" is not an answer to homelessness — it is a dismissal dressed as due diligence</p></div>
+                    </div>
+                </div>
+                <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">The Tom Tate Connection</div>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed mb-3">Tom Tate — the Gold Coast Mayor who has demanded retractions from this publication — allowed the Sandy Tulisi rooming house operation to stand. He let a predatory landlord's substandard, unsafe housing remain without council intervention. Sandy Tulisi has now opened a new BeHome location in Surfers Paradise with the proceeds.</p>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed">The Gold Coast moved on the homeless person's tent with stickers and confiscations. It did not move on the predatory landlord's rooming house. That asymmetry is a policy choice. It tells you whose Gold Coast this is.</p>
+                </div>
             </div>
         </div>
 
