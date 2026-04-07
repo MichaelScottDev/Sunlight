@@ -1918,7 +1918,7 @@
                 </div>
                 <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">07</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Axe Attack</div></div>
-                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Socrates attacks Samira with an axe — faces 25 years</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Adam had been assisting a man named Socrates with legal matters. Socrates had been charged with offences relating to a minor (the girl had told him she was 16). When Socrates learned what Samira was doing to Adam, he attended her home armed with an axe and struck her in the head. Charged. Combined with his existing charges he faces a maximum of 25 years.</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Socrates Zidane Abdul Rahmahn attacks Samira with an axe — faces 25 years</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Adam had been assisting Socrates Zidane Abdul Rahmahn with legal matters. Socrates had been charged on multiple occasions for sexual intercourse with a 15-year-old minor, using Section 14 of the Mental Health Act to avoid conviction. When Socrates learned what Samira was doing to Adam, he attended her home armed with an axe and struck her in the head. Charged. Combined with his existing charges he faces a maximum of 25 years.</div></div>
                 </div>
                 <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">08</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Fabrication</div></div>
@@ -1954,8 +1954,58 @@
 
         <!-- Socrates / fabricated order callout -->
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.3)">
-            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">SOCRATES CHARGED.<br><span class="text-gold">NOW THEY WANT AN AFFIDAVIT NAMING ADAM.</span></h3>
-            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Socrates had his own pending charges — including offences relating to a minor. He claimed the girl had told him she was 16. He was charged. Adam had been helping him navigate that process.</p>
+
+            <!-- Socrates header with placeholder photo -->
+            <div class="flex gap-5 mb-5 items-start">
+                <div class="shrink-0 w-24 border border-paper/[0.07] flex items-center justify-center" style="aspect-ratio:2/3;background:rgba(201,138,16,0.04)">
+                    <div class="text-center px-2">
+                        <div class="text-[0.42rem] tracking-[0.15em] uppercase mb-1.5" style="color:rgba(201,138,16,0.4)">Photo</div>
+                        <div class="text-[0.38rem] text-paper/20 leading-relaxed">Socrates Zidane<br>Abdul Rahmahn<br>Pending</div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-display text-2xl tracking-wide mb-2 leading-tight">SOCRATES ZIDANE ABDUL RAHMAHN.<br><span class="text-gold">TWICE CHARGED. MENTAL HEALTH ACT USED AS SHIELD.</span></h3>
+                    <p class="text-[0.6rem] text-paper/35 italic leading-relaxed">One of 7 children by a Muslim migrant father who has fathered each child by a different wife — a pattern the father actively coaches his sons to replicate.</p>
+                </div>
+            </div>
+
+            <!-- Sex with minor / s.14 block -->
+            <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.03)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Charges — Sexual Offences / Minor</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Socrates Zidane Abdul Rahmahn has been charged on <strong class="text-paper/60">at least two separate occasions</strong> for sexual intercourse with a person under the age of consent. The victim was 15 years old. On both occasions, Socrates escaped criminal conviction by invoking <strong class="text-paper/60">Section 14 of the Mental Health (Forensic Provisions) Act</strong> — a provision designed to divert genuinely mentally unwell accused away from the criminal justice system and into treatment.</p>
+                <div class="border-l-4 border-hot/40 pl-4" style="background:rgba(193,68,14,0.04);padding:0.9rem 0.9rem 0.9rem 1.1rem">
+                    <div class="text-[0.47rem] tracking-[0.18em] uppercase text-hot mb-2">The Systemic Problem</div>
+                    <p class="text-[0.62rem] text-paper/38 leading-relaxed">Section 14 was not designed to provide repeat offenders with a reusable escape mechanism. Its repeated deployment to avoid accountability for child sexual offences raises serious questions about how the Act is being administered — and whether it is now functioning as an instrument of predation rather than protection.</p>
+                </div>
+            </div>
+
+            <!-- Weave Youth psychologist block -->
+            <div class="border border-violet/20 p-5 mb-5" style="background:rgba(124,106,170,0.03)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-3" style="color:#7c6aaa">Weave Youth &amp; Community Services — Psychologist Recording</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A psychologist employed by <strong class="text-paper/60">Weave Youth &amp; Community Services</strong> — a service ostensibly providing mental health support to young people — was <strong class="text-paper/60">recorded by Socrates</strong> coaching him on how to manufacture evidence and fabricate circumstances to get Adam Watson into trouble with police.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">This conduct violates every foundational obligation in mental health ethics:</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-3">
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start"><span class="shrink-0 mt-0.5" style="color:#7c6aaa">✗</span><p class="text-[0.58rem] text-paper/38 leading-relaxed"><strong class="text-paper/50">Non-maleficence (Do No Harm)</strong> — the psychologist actively facilitated harm against a third party</p></div>
+                        <div class="flex gap-2 items-start"><span class="shrink-0 mt-0.5" style="color:#7c6aaa">✗</span><p class="text-[0.58rem] text-paper/38 leading-relaxed"><strong class="text-paper/50">APS Code of Ethics B.1</strong> — psychologists must not engage in conduct that exploits or harms others</p></div>
+                        <div class="flex gap-2 items-start"><span class="shrink-0 mt-0.5" style="color:#7c6aaa">✗</span><p class="text-[0.58rem] text-paper/38 leading-relaxed"><strong class="text-paper/50">Duty of Integrity</strong> — coaching a client to fabricate police complaints is a fundamental breach of professional honesty obligations</p></div>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start"><span class="shrink-0 mt-0.5" style="color:#7c6aaa">✗</span><p class="text-[0.58rem] text-paper/38 leading-relaxed"><strong class="text-paper/50">National Law (Health Practitioner)</strong> — behaviour that could constitute unprofessional conduct or misconduct reportable to AHPRA</p></div>
+                        <div class="flex gap-2 items-start"><span class="shrink-0 mt-0.5" style="color:#7c6aaa">✗</span><p class="text-[0.58rem] text-paper/38 leading-relaxed"><strong class="text-paper/50">Beneficence</strong> — using a therapeutic relationship to coach the client toward criminal conduct is the inverse of therapeutic benefit</p></div>
+                        <div class="flex gap-2 items-start"><span class="shrink-0 mt-0.5" style="color:#7c6aaa">✗</span><p class="text-[0.58rem] text-paper/38 leading-relaxed"><strong class="text-paper/50">Confidentiality obligations</strong> — the recording itself and what it captures raise questions about whether this conduct is reportable under mandatory obligations</p></div>
+                    </div>
+                </div>
+                <p class="text-[0.62rem] text-paper/35 leading-relaxed italic">The recording exists. It is in evidence. Weave Youth &amp; Community Services has been put on notice.</p>
+            </div>
+
+            <!-- Family background -->
+            <div class="border border-paper/[0.06] p-5 mb-5" style="background:rgba(0,0,0,0.1)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">Background — Family Structure</div>
+                <p class="text-[0.68rem] text-paper/40 leading-relaxed mb-2">Socrates is one of <strong class="text-paper/55">seven children</strong> fathered by a Muslim migrant man — each child born to a different woman. The father has openly coached his sons to replicate this pattern. Socrates's father has also accused Adam Watson of being a <strong class="text-paper/55">pedophile</strong> — an allegation that is false, unsubstantiated, and consistent with a broader strategy across multiple individuals in this narrative of deploying child-related allegations to discredit and isolate Adam Watson.</p>
+                <p class="text-[0.68rem] text-paper/35 leading-relaxed italic">Adam Watson denies the allegation in the clearest possible terms. No charge, complaint, or finding of any kind has ever been made against him in this regard.</p>
+            </div>
+
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">When Socrates learned what Samira was doing to Adam — the false police statement, the pressure campaign, the feces on the door handle — he armed himself with an axe, went to her house, and struck her in the head. He has been charged for this. Combined with his existing charges, he faces a maximum sentence of 25 years.</p>
             <div class="border-l-4 border-gold/50 pl-5 py-1 mb-5" style="background:rgba(201,138,16,0.04);padding:1rem 1rem 1rem 1.25rem">
                 <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">The Fabrication Attempt</div>
