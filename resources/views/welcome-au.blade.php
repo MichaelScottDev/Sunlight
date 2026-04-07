@@ -1329,8 +1329,28 @@
                     <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">BEGGING ADAM FOR RENT MONEY.<br><span class="text-gold">THE $30M YAKUZA VAN. THE ALBANIANS. THE DOUBLE CROSS.</span></h4>
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The last time Bodie Chalmers made contact with Adam Watson, he was begging for rent money — concerned he was about to be evicted. The drug money appears to have dissipated. The charges have accumulated.</p>
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Bodie had received a van containing drugs with a street value in excess of $30 million from the Yakuza, with instructions to sell the product to the Albanian organised crime network. Instead, Bodie double-crossed the Yakuza — telling them the van had been stolen. He then called Adam Watson asking him to negotiate with the Yakuza on his behalf, claiming the drugs were stolen.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">He is now facing those charges, the existing charges, and apparently a rent bill he cannot cover.</p>
-                </div>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">He is now facing those charges, the existing charges, and apparently a rent bill he cannot cover.</p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4 mb-1">
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Where the Money Went</div>
+                            <div class="space-y-1.5">
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">$10,000/week house — paid one full year upfront</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Exotic cars — all seized</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">$38,000 stolen from Aaliyah's bank account</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">$45 million owed to drug dealers</p></div>
+                            </div>
+                        </div>
+                        <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
+                            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">Current Position</div>
+                            <div class="space-y-1.5">
+                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Locked up — attempting to scam a woman into putting her house up as bail bond</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Likely to be refused bail given the drug debt exposure</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Will likely attempt to snitch on drug connects to reduce sentence</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">ASIO warrants mean a new identity and early release are not available to him — ASIO will follow regardless</p></div>
+                            </div>
+                        </div>
+                    </div>
 
                 <!-- CGU Insurance rep -->
                 <div class="border-l-4 border-hot/40 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
@@ -3313,7 +3333,11 @@
             <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">WHY THEY SETTLED.<br><span class="text-sage">THE DPP REFERRAL THEY COULDN'T AFFORD.</span></h3>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">NCAT had confirmed that if the matter proceeded to trial, it would be directing the file to the Director of Public Prosecutions. That referral would have meant criminal exposure for the individuals behind the conduct documented on this site — the strata roll manipulation, the debt loading, the false levy notices redirected to Graham Gordon, the Tasmania forum-shopping strategy.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The lawyer for the Owners Corporation and Graham Gordon called Adam Watson. They were willing to settle — on condition that Adam dropped the Federal Court proceedings, the Local Court proceedings, and the NCAT proceedings in their entirety.</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/45">Adam agreed. The Consent Order for Dismissal was signed before Judicial Registrar Segal on 1 April 2026. The case number is TAD 6 of 2026. The payments are due by 15 April 2026.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Adam agreed. The Consent Order for Dismissal was signed before Judicial Registrar Segal on 1 April 2026. The case number is TAD 6 of 2026. The payments are due by 15 April 2026.</p>
+            <div class="border-l-4 border-hot/40 pl-5" style="background:rgba(193,68,14,0.04);padding:0.9rem 1rem 0.9rem 1.25rem">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-1.5">Adam Watson — Current Status</div>
+                <p class="text-[0.65rem] text-paper/45 leading-relaxed">Adam Watson has suffered a stroke affecting his right arm. He is continuing to pursue Robert Huang for the payments due under the Consent Order.</p>
+            </div>
         </div>
 
         <!-- Payment breakdown -->
