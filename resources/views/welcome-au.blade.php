@@ -184,6 +184,7 @@
             <div class="nav-dropdown-menu">
                 <span class="nav-group-label">Personal Story</span>
                 <a href="#story" class="nav-accent-hot">Sandy Tulisi — Rooming House</a>
+                <a href="#smithinson" class="nav-accent-hot">Jonathan Smithinson — Psychiatrist · Silverwater</a>
                 <a href="#privacy" class="nav-accent-violet">Aquatic Centre Privacy Breach</a>
                 <a href="#media" class="nav-accent-gold">Sky News — Story That Didn't Run</a>
                 <a href="#assault" class="nav-accent-hot">Oracle East — Stalked & Assaulted</a>
@@ -249,6 +250,10 @@
         <button onclick="document.getElementById('story').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
             <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.1 — Sandy Tulisi</div><div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Rooming House Fraud</div><div class="text-[0.62rem] text-paper/30 mt-1">68 days · 6 false notices · All charges dropped</div></div>
+        </button>
+        <button onclick="document.getElementById('smithinson').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
+            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
+            <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.1B — Jonathan Smithinson</div><div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Psychiatrist · Bondi Smear · Silverwater</div><div class="text-[0.62rem] text-paper/30 mt-1">Disbarred · Shoplifting · Murder charge</div></div>
         </button>
         <button onclick="document.getElementById('privacy').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-violet/35 transition-all p-4 bg-paper/[0.02]">
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-violet"></div>
@@ -760,6 +765,105 @@
 
             </div>
         </div>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     JONATHAN SMITHINSON
+══════════════════════════════════════ -->
+<section id="smithinson" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(193,68,14,0.05) 0%,transparent 60%)">
+    <div class="max-w-4xl mx-auto">
+
+        <div class="flex items-center gap-3 mb-3 reveal">
+            <span class="text-[0.48rem] tracking-[0.22em] uppercase border border-hot/40 text-hot px-2 py-1">Profile — Jonathan Smithinson</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-3 leading-tight reveal">JONATHAN SMITHINSON.<br><span class="text-hot">BONDI JUNCTION. OXYCONTIN. SILVERWATER.</span></h2>
+        <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-10 reveal max-w-2xl">"I innocently asked Adam to ask his psychologist friend why I pace. Jonathan heard that and tried to convince Gina Rinehart I was the next Bondi Junction stabber. He is now in Silverwater charged with murder. Adam gave him mouth to mouth and saved his life."</p>
+
+        <!-- Photo + intro -->
+        <div class="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-8 mb-10 reveal">
+            <div>
+                <img src="https://static.ffx.io/images/$zoom_1.895%2C$multiply_1.9683%2C$ratio_1.5%2C$width_756%2C$x_0%2C$y_36/t_crop_custom/q_62%2Cf_auto/6471906e057360cdf2a0d0f6ef9e324c296d183e" alt="Jonathan Smithinson" class="w-full border border-paper/[0.07]" style="filter:grayscale(30%)" onerror="this.style.display='none'">
+                <div class="text-[0.45rem] text-paper/20 mt-2 leading-relaxed">Source: Sydney Morning Herald · Former heroin-addicted psychiatrist · Failed drug tests</div>
+                <a href="https://www.smh.com.au/national/nsw/former-heroin-addicted-psychiatrist-fails-drug-tests-20200920-p55xe6.html" target="_blank" rel="noopener noreferrer" class="text-[0.48rem] tracking-[0.12em] uppercase text-gold border-b border-gold/30 hover:border-gold/70 transition-colors mt-2 inline-block">SMH Article →</a>
+            </div>
+            <div>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Jonathan Smithinson is a former psychiatrist with a documented heroin addiction who failed mandatory drug tests — as reported by the <em>Sydney Morning Herald</em> in September 2020. Reddit communities had publicly questioned how someone with his history had been permitted to retain a medical licence for as long as he did.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45">He was part of a WhatsApp group that included Gina Rinehart. That group is where Kosta Kondratenko became his subject — based entirely on the fact that Kosta walks around a lot and has high energy.</p>
+            </div>
+        </div>
+
+        <!-- Timeline -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.3)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-5">Timeline — Jonathan Smithinson</div>
+            <div class="space-y-px">
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase" style="color:#7c6aaa">01</div><div class="text-[0.45rem] text-paper/20 mt-0.5">The Question</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Kosta innocently asks Adam to consult his psychologist friend about pacing</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Kosta, who has high energy, paces frequently. He asked Adam Watson to ask his psychologist friend whether there was something he could do about it. An innocent question about a benign habit.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">02</div><div class="text-[0.45rem] text-paper/20 mt-0.5">The Smear</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Jonathan uses "walks around too much" to attempt to brand Kosta the next Bondi Junction stabber</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Jonathan Smithinson — in the WhatsApp group that included Gina Rinehart — used the information that Kosta paces to attempt to implant the idea that Kosta was dangerous. The comparison invoked was the Bondi Junction shopping centre stabbing. The basis was that Kosta walks around.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold">03</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Rinehart Acts</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Gina Rinehart contacts the medical board — she could hear him gritting his teeth</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">During a conversation with Jonathan, Gina Rinehart noticed he was audibly gritting his teeth. She contacted the medical board. A drug test was ordered. Jonathan failed. He was disbarred.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">04</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Disbarred</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Fails drug test — medical licence removed</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Drug testing confirmed active substance use. Jonathan's medical registration was cancelled. Reddit communities, which had long questioned how he retained his licence given his documented history, noted the outcome.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">05</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Shoplifting</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Charged with shoplifting following disbarment</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">After losing his medical registration, Jonathan was charged with shoplifting.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">06</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Adam Saves Him</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Adam Watson saves Jonathan's life — mouth to mouth resuscitation</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">At some point prior to Jonathan's final arrest, Adam Watson saved Jonathan from suicide by performing mouth to mouth resuscitation. Jonathan survived.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 border border-hot/30 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">07</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Silverwater</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Charged with murder — supplying OxyContin to enable a killing — remanded at Silverwater</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Jonathan Smithinson is currently remanded at Silverwater Correctional Centre following a murder charge. The allegation is that he supplied OxyContin to an accomplice with the knowledge that it would be used to fatally overdose a third party — targeted for their inheritance money.</div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The pacing smear -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.3)">
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE BASIS FOR "BONDI JUNCTION STABBER."<br><span class="text-gold">HE WALKS AROUND TOO MUCH.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The entirety of Jonathan Smithinson's attempt to brand Kosta Kondratenko as a violent threat rested on a single piece of information relayed through Adam Watson: that Kosta paces. He walks around. He has energy. That is the clinical profile from which a former heroin-addicted psychiatrist, in a WhatsApp group with one of Australia's wealthiest people, attempted to seed the idea that Kosta was the next Bondi Junction attacker.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">This is not diagnostic reasoning. It is the use of clinical language and institutional authority — the title "psychiatrist," the appearance of professional assessment — to manufacture panic from nothing. The attempt failed. Jonathan was disbarred before it could gain traction. Gina Rinehart, to her credit, was the one who triggered the investigation that removed his licence.</p>
+            <div class="border-l-4 border-gold/50 pl-5" style="background:rgba(201,138,16,0.04);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">The Irony</div>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">The man who attempted to characterise Kosta as a dangerous unstable person based on the fact that he walks around is now in Silverwater on a murder charge. The man he tried to smear is publishing this. Adam Watson saved Jonathan's life. That life has since been used to facilitate a murder. The people around Adam have since noted: once a junkie, always a junkie. Whether the effort to save him was worth it is a question only Adam can answer.</p>
+            </div>
+        </div>
+
+        <!-- Stat strip -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mb-2 reveal">
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-hot mb-1">1</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Basis for threat claim</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Kosta paces</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-gold mb-1">✗</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Medical licence</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Failed drug test — disbarred</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-paper/50 mb-1">CPR</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Adam saved him</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Mouth to mouth — suicide attempt</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-hot mb-1">MUR</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Charged — Silverwater</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">OxyContin · inheritance kill</div>
+            </div>
+        </div>
+
     </div>
 </section>
 
