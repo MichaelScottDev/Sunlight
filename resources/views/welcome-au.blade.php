@@ -94,6 +94,13 @@
         .audio-bars b:nth-child(1){height:3px;animation-delay:0s}.audio-bars b:nth-child(2){height:9px;animation-delay:0.15s}.audio-bars b:nth-child(3){height:14px;animation-delay:0.3s}.audio-bars b:nth-child(4){height:7px;animation-delay:0.45s}.audio-bars b:nth-child(5){height:11px;animation-delay:0.2s}
         @keyframes abars{0%,100%{transform:scaleY(0.25)}50%{transform:scaleY(1)}}
         .ev-zip-bar{display:flex;align-items:center;justify-content:space-between;padding:0.6rem 0.9rem;background:rgba(201,138,16,0.04);border-top:1px solid rgba(201,138,16,0.15)}
+        /* ── TIMELINE ROWS ── */
+        .tl-row{background:rgba(245,234,212,0.05);border:1px solid rgba(245,234,212,0.13);transition:background 0.2s,border-color 0.2s}
+        .tl-row:hover{background:rgba(245,234,212,0.085);border-color:rgba(245,234,212,0.22)}
+        .tl-step{font-size:0.5rem;letter-spacing:0.15em;text-transform:uppercase;font-weight:600}
+        .tl-sublabel{font-size:0.45rem;color:rgba(245,234,212,0.35);margin-top:0.2rem}
+        .tl-title{font-size:0.62rem;font-weight:600;letter-spacing:0.04em;color:rgba(245,234,212,0.72);margin-bottom:0.25rem}
+        .tl-body{font-size:0.56rem;color:rgba(245,234,212,0.48);line-height:1.65}
 
         /* ── MEDIA VIEWER ── */
         #mv-wrap{display:none;position:fixed;inset:0;z-index:9500;background:rgba(4,4,4,0.97);backdrop-filter:blur(16px);flex-direction:column}
@@ -225,6 +232,9 @@
                 <a href="#privacy" class="nav-accent-hot">Tom Tate — Retraction Demanded</a>
                 <span class="nav-group-label">Media Accountability</span>
                 <a href="#media" class="nav-accent-gold">QP-9 Leak — CCC Referral</a>
+                <span class="nav-group-label">About &amp; Contact</span>
+                <a href="#adam-watson" class="nav-accent-gold">Adam Watson — The Man</a>
+                <a href="#contact" class="nav-accent-hot">Submit a Tip-off</a>
             </div>
         </div>
         <a href="#episodes" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors">Episodes</a>
@@ -807,31 +817,31 @@
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.3)">
             <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-5">Timeline — Samir Dhakal</div>
             <div class="space-y-px">
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold">01</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Taken In</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Kicked out by his Nepalese housemates — Adam Watson takes him in</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Samir Dhakal had been removed from his Nepalese share house. Adam Watson, as was consistent with his character, took him in and gave him somewhere to live.</div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">02</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Surveillance</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Camera installed above Adam's laptop to capture keystrokes</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">While living with Adam, Samir installed a camera positioned to record Adam's keystrokes on his laptop — an attempt to capture banking credentials and access his accounts.</div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">03</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Physical Assault</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Ruptured Adam Watson's testicles</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Samir Dhakal physically assaulted Adam Watson, causing rupture of his testicles.</div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">04</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Rinehart Taunts</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">"The bigger they are the harder they fall!" — calls to Gina Rinehart</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Samir would contact Gina Rinehart directly, taunting her with the phrase "The bigger they are the harder they fall!"</div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold">05</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Adam Leaves</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Adam Watson goes to the Gold Coast to escape Samir Dhakal</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">The relationship left Adam Watson suicidal. He would make comments about walking into the Surfers Paradise beach and letting the water take him. He relocated to the Gold Coast to get distance from Samir.</div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold">06</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Sally Downing</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Charged by Sally Downing for offences against women</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Sally Downing charged Samir Dhakal with a raft of offences against women. These charges formed a key part of the deportation case assembled for Tony Burke.</div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold">07</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Deportation Case</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Kosta and Adam build the documentation file for Tony Burke</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Much of the early work Kosta Kondratenko did with Adam Watson when they first met was directed at building the deportation file — debts, offences against women, criminal conduct — for then-Immigration Minister Tony Burke to approve Samir's removal from Australia.</div></div>
                 </div>
@@ -899,27 +909,27 @@
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.3)">
             <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-5">Timeline — Jonathan Smithinson</div>
             <div class="space-y-px">
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase" style="color:#7c6aaa">01</div><div class="text-[0.45rem] text-paper/20 mt-0.5">The Question</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Kosta innocently asks Adam to consult his psychologist friend about pacing</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Kosta, who has high energy, paces frequently. He asked Adam Watson to ask his psychologist friend whether there was something he could do about it. An innocent question about a benign habit.</div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">02</div><div class="text-[0.45rem] text-paper/20 mt-0.5">The Smear</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Jonathan uses "walks around too much" to attempt to brand Kosta the next Bondi Junction stabber</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Jonathan Smithinson — in the WhatsApp group that included Gina Rinehart — used the information that Kosta paces to attempt to implant the idea that Kosta was dangerous. The comparison invoked was the Bondi Junction shopping centre stabbing. The basis was that Kosta walks around.</div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold">03</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Rinehart Acts</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Gina Rinehart contacts the medical board — she could hear him gritting his teeth</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">During a conversation with Jonathan, Gina Rinehart noticed he was audibly gritting his teeth. She contacted the medical board. A drug test was ordered. Jonathan failed. He was disbarred.</div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">04</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Disbarred</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Fails drug test — medical licence removed</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Drug testing confirmed active substance use. Jonathan's medical registration was cancelled. Reddit communities, which had long questioned how he retained his licence given his documented history, noted the outcome.</div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">05</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Shoplifting</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Charged with shoplifting following disbarment</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">After losing his medical registration, Jonathan was charged with shoplifting.</div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">06</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Adam Saves Him</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Adam Watson saves Jonathan's life — mouth to mouth resuscitation</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">At some point prior to Jonathan's final arrest, Adam Watson saved Jonathan from suicide by performing mouth to mouth resuscitation. Jonathan survived.</div></div>
                 </div>
@@ -1567,9 +1577,22 @@
                 <!-- CGU Insurance rep -->
                 <div class="border-l-4 border-hot/40 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">CGU Insurance — Firebombing Aftermath</div>
-                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">CGU REP CALLS THE SITE "INCITING HATE."<br><span class="text-hot">THEIR NAME IS BEING SOUGHT.</span></h4>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A representative from CGU Insurance was present at the firebombed property — the house connected to Gina Rinehart's personal circle — in the aftermath of the attack. Gina Rinehart was also present. The CGU representative, having viewed an older version of this website, made comments stating that the characterisation of Bodie Chalmers as an "incest baby" constituted inciting hate.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">The name of this CGU representative is currently being sought. Their comments will be addressed when that identity is confirmed and published here.</p>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">CGU REP CALLS THE SITE "INCITING HATE."<br><span class="text-hot">AT A FIREBOMBED HOUSE. THEIR NAME IS BEING SOUGHT.</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">A representative from CGU Insurance was present at the firebombed property — the house connected to Gina Rinehart's personal circle — in the aftermath of the arson attack. Gina Rinehart was also present. While surveying the burnt-out scene, the CGU representative viewed an older version of this website on a device and made comments asserting that the section describing Bodie Chalmers as an "incest baby" constituted <em>inciting hate</em>.</p>
+                    <div class="border border-paper/[0.08] p-4 mb-4" style="background:rgba(0,0,0,0.2)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">The Irony — On the Record</div>
+                        <p class="text-[0.65rem] text-paper/45 leading-relaxed">A property was set on fire. Graffiti reading <span class="font-display text-paper/65">"Gina Rinehart is Next"</span> was left on the fence. Pages of this publication were deliberately placed at the scene in an apparent attempt to implicate investigative journalism as the cause of violence. And the person from CGU Insurance — standing in the charred aftermath of an actual arson attack — chose to direct their concern at the words on a website. Not at the fire. Not at the graffiti. Not at the perpetrators. At the journalism. The irony is not lost on us.</p>
+                    </div>
+                    <div class="border border-hot/20 p-4 mb-4" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Why This Comment Is Wrong</div>
+                        <div class="space-y-2.5">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/40 leading-relaxed"><strong class="text-paper/55">Factual accuracy is not hate speech.</strong> Describing a person's circumstances of birth based on documented facts is reportage. It is not directed at any group. It is not incitement.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/40 leading-relaxed"><strong class="text-paper/55">The legal definition of incitement requires more than discomfort.</strong> Inciting hatred under the Racial Discrimination Act or Criminal Code requires material that encourages hatred against a group on protected grounds. A biographical description of an individual does not meet that threshold.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/40 leading-relaxed"><strong class="text-paper/55">Conflating criticism with hate normalises suppression.</strong> Using "inciting hate" language to characterise journalism that documents criminal conduct is a rhetorical strategy — not a legal or ethical argument. It is exactly the kind of pressure investigative journalism exists to resist.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/40 leading-relaxed"><strong class="text-paper/55">An insurance representative is not a regulator.</strong> CGU Insurance has no standing to adjudicate what constitutes hate speech. Making that comment at a crime scene — to parties connected to this publication — carries the character of an attempt to influence or intimidate.</p></div>
+                        </div>
+                    </div>
+                    <p class="text-[0.65rem] text-paper/40 leading-relaxed">The full name and role of this CGU representative is currently being sought. Upon confirmation, a formal complaint will be lodged with CGU's conduct and compliance function and, where appropriate, referred to the relevant professional body. Their comments, the context in which they were made, and this individual's identity will be published here.</p>
                 </div>
 
                 <!-- Tweed Heads pub incident -->
@@ -1884,15 +1907,15 @@
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(124,106,170,0.3)">
             <div class="text-[0.5rem] tracking-[0.2em] uppercase mb-5" style="color:rgba(124,106,170,0.7)">Timeline — Samira Khalaj</div>
             <div class="space-y-px">
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase" style="color:#7c6aaa">01</div><div class="text-[0.45rem] text-paper/20 mt-0.5">AVO Help</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Adam assists Samira with an AVO application</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Adam Watson assisted Samira Khalaj in obtaining an Apprehended Violence Order against another party. She received the AVO.</div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">02</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Scam Claim</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Samira turns around and accuses Adam of scamming her</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Having received Adam's help, Samira Khalaj subsequently lodged a complaint claiming Adam Watson had scammed her.</div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">03</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Car Ambush</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Samira and her husband corner Adam at his vehicle</div><div class="text-[0.55rem] text-paper/30 leading-relaxed mb-2">Both Samira and her husband confronted Adam Watson at his car. Her husband entered Adam's vehicle without permission.</div>
                     <div class="ev-file ef-hot mt-2" onclick="openMV('video-samira-car')" style="max-width:380px">
@@ -1904,31 +1927,31 @@
                         <span class="ev-cta">Watch →</span>
                     </div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">04</div><div class="text-[0.45rem] text-paper/20 mt-0.5">False Statement</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Samira lodges police statement claiming Adam punched her in the jaw</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Samira lodged a sworn police statement alleging Adam Watson punched her in the jaw. She attended a doctor who recorded her jaw as "sore."</div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold">05</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Mercedes</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Samira's husband tampers with Adam's Mercedes at Coogee</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">After seeing Adam pull up to the Coogee property in his Mercedes, Samira's husband tampered with the vehicle. A local drug dealer witnessed it and reported it to Adam — offering to deal with the husband, which Adam declined. The Mercedes subsequently broke down and had to be abandoned on the side of the road.</div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">06</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Gas Meters</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Samira's husband arrested for tampering with gas meters</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Samira's husband was arrested for tampering with residential gas meters — a serious criminal offence that interferes with government-regulated infrastructure and endangers lives.</div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">07</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Axe Attack</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Socrates Zidane Abdul Rahmahn attacks Samira with an axe — faces 25 years</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Adam had been assisting Socrates Zidane Abdul Rahmahn with legal matters. Socrates had been charged on multiple occasions for sexual intercourse with a 15-year-old minor, using Section 14 of the Mental Health Act to avoid conviction. When Socrates learned what Samira was doing to Adam, he attended her home armed with an axe and struck her in the head. Charged. Combined with his existing charges he faces a maximum of 25 years.</div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">08</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Fabrication</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Police and Samira pressure Socrates for an affidavit implicating Adam</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Police and Samira Khalaj are now attempting to get Socrates to swear an affidavit claiming he was acting on Adam Watson's instructions when he attacked Samira. Socrates has not done so.</div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">09</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Antisemitic Threat</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Registrar hearing — "Gas all you Jews!" — recorded</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Appearing in the Registrar, Samira Khalaj told Adam Watson: "Gas all you Jews!" The Registrar captured the outburst on the official court recording. Samira was subsequently charged and remanded in custody. She has since been released.</div></div>
                 </div>
-                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold">10</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Ongoing</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Harassment continues — Coogee property listed for sale</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Samira's husband has been smearing substances on Adam's windows. Samira has been smearing feces on his door handle, then immediately reporting fictitious complaints to police. Adam no longer feels safe at the Coogee property. The property has been listed for sale and has received multiple offers.</div></div>
                 </div>
@@ -2198,12 +2221,12 @@
         <div class="mb-12 reveal">
             <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-5">Incident Timeline — RJ</div>
             <div class="space-y-px">
-                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">01</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Car Ring</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Car theft ring — vehicles burnt</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Member of organised car theft ring. Vehicles destroyed by fire.</div></div></div>
-                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">02</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Phone Theft</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Helensvale — three sent to rob Adam Watson</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Three filmed, arrested, gave evidence identifying RJ. Charged. Suspended sentence. QPS appealing.</div></div></div>
-                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">03</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Pacific Fair</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Five associates at Pacific Fair fruit shop</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Adam defended himself. One associate: broken jaw. All five gave statements identifying RJ. Charged. Released.</div></div></div>
-                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">04</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Burglary</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Aggravated burglary — Pacific Fair precinct</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Charged with aggravated burglary — phone theft outside Pacific Fair. Charged. Released.</div></div></div>
-                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">05</div><div class="text-[0.45rem] text-paper/20 mt-0.5">False Allegation</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">False sexual assault allegation — local doctor</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Doctor's office raided. Doctor cleared of all criminal allegations. Civil lawsuit ongoing against insurance.</div></div></div>
-                <div class="grid grid-cols-[80px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">06</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Shopping Centre</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Daily harassment of Adam Watson</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Associates harassing Adam at local shopping centre specifically because of Sunlight.Quest and the viral video.</div></div></div>
+                <div class="tl-row grid grid-cols-[80px_1fr] gap-4 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">01</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Car Ring</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Car theft ring — vehicles burnt</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Member of organised car theft ring. Vehicles destroyed by fire.</div></div></div>
+                <div class="tl-row grid grid-cols-[80px_1fr] gap-4 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">02</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Phone Theft</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Helensvale — three sent to rob Adam Watson</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Three filmed, arrested, gave evidence identifying RJ. Charged. Suspended sentence. QPS appealing.</div></div></div>
+                <div class="tl-row grid grid-cols-[80px_1fr] gap-4 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">03</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Pacific Fair</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Five associates at Pacific Fair fruit shop</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Adam defended himself. One associate: broken jaw. All five gave statements identifying RJ. Charged. Released.</div></div></div>
+                <div class="tl-row grid grid-cols-[80px_1fr] gap-4 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">04</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Burglary</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Aggravated burglary — Pacific Fair precinct</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Charged with aggravated burglary — phone theft outside Pacific Fair. Charged. Released.</div></div></div>
+                <div class="tl-row grid grid-cols-[80px_1fr] gap-4 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">05</div><div class="text-[0.45rem] text-paper/20 mt-0.5">False Allegation</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">False sexual assault allegation — local doctor</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Doctor's office raided. Doctor cleared of all criminal allegations. Civil lawsuit ongoing against insurance.</div></div></div>
+                <div class="tl-row grid grid-cols-[80px_1fr] gap-4 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">06</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Shopping Centre</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Daily harassment of Adam Watson</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Associates harassing Adam at local shopping centre specifically because of Sunlight.Quest and the viral video.</div></div></div>
                 <div class="grid grid-cols-[80px_1fr] gap-4 bg-sage/[0.04] border border-sage/20 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-sage">07</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Laptop</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Laptop with incriminating evidence → Southport Police</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">RJ gave Adam Watson a laptop. Adam brought it to Southport Police Station, Sex & Crime Squad. Active investigation.</div></div></div>
             </div>
         </div>
@@ -3613,7 +3636,7 @@
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.4)">
             <h3 class="font-display text-2xl tracking-wide mb-5 leading-tight">THE PAYMENTS.<br><span class="text-gold">ORDERED BY CONSENT. DUE 15 APRIL 2026.</span></h3>
             <div class="space-y-px mb-6">
-                <div class="grid grid-cols-[1fr_auto] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4 items-center">
+                <div class="tl-row grid grid-cols-[1fr_auto] gap-4 p-4 items-center">
                     <div>
                         <div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">The Owners – Strata Plan No. 93922</div>
                         <div class="text-[0.52rem] text-paper/28">Owners Corporation · Order 2 · To PSR Crown Investment Pty Ltd</div>
@@ -3623,7 +3646,7 @@
                         <div class="text-[0.48rem] text-paper/25">+ $49,667 costs</div>
                     </div>
                 </div>
-                <div class="grid grid-cols-[1fr_auto] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4 items-center">
+                <div class="tl-row grid grid-cols-[1fr_auto] gap-4 p-4 items-center">
                     <div>
                         <div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Graham Gordon</div>
                         <div class="text-[0.52rem] text-paper/28">Strata Committee Chairman · Third Party · Order 3 · To PSR Crown Investment Pty Ltd</div>
@@ -3633,7 +3656,7 @@
                         <div class="text-[0.48rem] text-paper/25">+ $49,667 costs</div>
                     </div>
                 </div>
-                <div class="grid grid-cols-[1fr_auto] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4 items-center">
+                <div class="tl-row grid grid-cols-[1fr_auto] gap-4 p-4 items-center">
                     <div>
                         <div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Collection Corporation Australia Pty Ltd</div>
                         <div class="text-[0.52rem] text-paper/28">Debt Recovery Firm · Third Party · Order 4 · To PSR Crown Investment Pty Ltd</div>
@@ -3915,6 +3938,143 @@ document.querySelectorAll('.reveal').forEach(function (el) { obs.observe(el); })
         </form>
         <p id="sms-msg" class="text-xs tracking-wider min-h-[1.2rem] mb-4"></p>
         <p class="text-[0.54rem] tracking-wide text-paper/18 leading-relaxed">Reply STOP to unsubscribe anytime. Standard rates may apply. We never sell your number.</p>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     ADAM WATSON — THE MAN
+══════════════════════════════════════ -->
+<section id="adam-watson" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(201,138,16,0.06) 0%,transparent 70%)">
+    <div class="max-w-4xl mx-auto">
+
+        <div class="flex items-center gap-3 mb-3 reveal">
+            <span class="text-[0.48rem] tracking-[0.22em] uppercase border px-2 py-1 text-gold border-gold/40">Profile — Adam Watson</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-3 leading-tight reveal">ADAM WATSON.<br><span class="text-gold">THE MAN BEHIND THE STORY.</span></h2>
+        <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-10 reveal">"Adam Watson has lived more of Australia's real history than most journalists will ever document. He was there for the mining boom's foundations — and he is now determined to shape what comes next."</p>
+
+        <!-- Lang Hancock -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.35)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-4">Personal History</div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">GOOD FRIENDS WITH LANG HANCOCK.<br><span class="text-gold">THE FOUNDER OF HANCOCK PROSPECTING.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Adam Watson was personally acquainted with <strong class="text-paper/70">Lang Hancock</strong> — the mining magnate who founded Hancock Prospecting, built the iron ore empire of the Pilbara, and whose legacy was inherited by his daughter Gina Rinehart, now Australia's wealthiest person. Lang Hancock did not build his fortune through institutions. He built it through raw persistence, an eye for resource country, and a willingness to operate outside the established order. Adam Watson, who knew him personally, recognises that template.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">That friendship affords Adam — and this publication — a window into Australian economic history that no university course provides. The internal politics of Hancock Prospecting, the relationships that shaped Queensland and Western Australian resource law, the backroom arrangements that turned dirt tracks into billion-dollar corridors: Adam Watson was adjacent to all of it. The inside account of Gina Rinehart and the Hancock dynasty, as understood by someone who knew its founder, will be published through Sunlight.Quest.</p>
+            <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">What This Means for the Record</div>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">First-hand account of the Hancock Prospecting founding era — not filtered through authorised biography</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Inside understanding of the Rinehart family's internal dynamics, power structure, and long-standing disputes</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Broader context for Gina Rinehart's conduct documented elsewhere in this publication</p></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Political run -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(61,122,74,0.35)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-4">Political Developments</div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">MAKING A RUN FOR POLITICS.<br><span class="text-sage">AND WE'RE GOING IN WITH HIM.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Adam Watson is preparing to enter politics. This publication — Sunlight.Quest — is actively supporting that effort. We are not a neutral observer. We are a participant. The investigative work documented here is inseparable from Adam's political platform: accountability for corruption, reform of the criminal justice system, protection of investigative journalism, and an end to the institutional protection of predatory conduct.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Sunlight.Quest will be providing inside intelligence on the political landscape — including, where appropriate and in the public interest, inside information on <strong class="text-paper/70">Gina Rinehart</strong>, Australian resource politics, and the networks that have operated without scrutiny for decades. That information will be published here, on our terms, on our timeline.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                <div class="border border-sage/25 p-5" style="background:rgba(61,122,74,0.04)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-2">The Platform</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Corruption accountability — CCC, police, and corporate networks</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Criminal justice reform — mental health diversions, DPP conduct</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Protection of journalism — public interest privilege, media freedom</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Housing and strata reform — based on lived experience of system failure</p></div>
+                    </div>
+                </div>
+                <div class="border border-gold/25 p-5" style="background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">What's Coming</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Inside account of the Hancock Prospecting dynasty and its political dealings</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Detailed reporting on Gina Rinehart's conduct — from primary sources</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Australian political history through the lens of someone who was in the room</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Endorsements, political strategy, and campaign developments — live</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-l-4 border-gold/50 pl-5" style="background:rgba(201,138,16,0.05);padding:1rem 1rem 1rem 1.25rem">
+                <p class="text-[0.72rem] text-paper/55 leading-relaxed italic font-serif">We are about to become a powerbroker. The inside goss on Gina Rinehart and Australian history will be published through this platform — and the people who have tried to silence this journalism are going to wish they hadn't.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     TIPOFF / CONTACT FORM
+══════════════════════════════════════ -->
+<section id="contact" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:rgba(4,4,4,0.6)">
+    <div class="max-w-2xl mx-auto">
+
+        <div class="flex items-center gap-3 mb-3 reveal">
+            <span class="text-[0.48rem] tracking-[0.22em] uppercase border px-2 py-1 text-hot border-hot/40">Secure Intelligence</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-3 leading-tight reveal">GOT SOMETHING<br><span class="text-hot">WE SHOULD KNOW?</span></h2>
+        <p class="font-serif italic text-paper/45 text-lg leading-relaxed mb-10 reveal">Tip-offs from members of the public, additional information about the individuals documented here, crime and scam intelligence, media enquiries — all welcome. Information submitted will be used to triangulate and verify. Sources will not be published without explicit consent.</p>
+
+        <!-- Form -->
+        <form id="tipoff-form" onsubmit="handleTipoff(event)" class="space-y-4 reveal">
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                    <label class="block text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-2">Name <span class="text-paper/18">(optional)</span></label>
+                    <input type="text" name="name" placeholder="Anonymous if preferred" class="w-full bg-paper/[0.03] border border-paper/[0.1] text-paper text-sm px-4 py-3 outline-none focus:border-hot/40 transition-colors placeholder:text-paper/18 placeholder:text-xs" />
+                </div>
+                <div>
+                    <label class="block text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-2">Contact <span class="text-paper/18">(optional — email or phone)</span></label>
+                    <input type="text" name="contact" placeholder="Only if you want a reply" class="w-full bg-paper/[0.03] border border-paper/[0.1] text-paper text-sm px-4 py-3 outline-none focus:border-hot/40 transition-colors placeholder:text-paper/18 placeholder:text-xs" />
+                </div>
+            </div>
+
+            <div>
+                <label class="block text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-2">Category</label>
+                <select name="category" class="w-full bg-ink border border-paper/[0.1] text-paper/60 text-sm px-4 py-3 outline-none focus:border-hot/40 transition-colors appearance-none cursor-pointer" style="background-image:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='rgba(245,234,212,0.3)' stroke-width='1.5' fill='none'/%3E%3C/svg%3E\");background-repeat:no-repeat;background-position:right 1rem center">
+                    <option value="" class="bg-ink">Select a category…</option>
+                    <option value="crime-tipoff" class="bg-ink">Crime tip-off</option>
+                    <option value="scam-tipoff" class="bg-ink">Scam or fraud intelligence</option>
+                    <option value="additional-info" class="bg-ink">Additional info on a person documented here</option>
+                    <option value="correction" class="bg-ink">Correction or dispute to published information</option>
+                    <option value="media" class="bg-ink">Media enquiry</option>
+                    <option value="legal" class="bg-ink">Legal notice or correspondence</option>
+                    <option value="other" class="bg-ink">Other</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="block text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-2">Your information</label>
+                <textarea name="message" rows="7" placeholder="Tell us what you know. Include as much detail as possible — dates, locations, names, amounts. Everything helps with triangulation." class="w-full bg-paper/[0.03] border border-paper/[0.1] text-paper text-sm px-4 py-3 outline-none focus:border-hot/40 transition-colors placeholder:text-paper/18 placeholder:text-[0.6rem] leading-relaxed resize-y font-mono"></textarea>
+            </div>
+
+            <div class="flex items-start gap-3 p-4 border border-paper/[0.07]" style="background:rgba(0,0,0,0.2)">
+                <input type="checkbox" name="consent" id="consent-check" class="mt-0.5 accent-hot shrink-0" required />
+                <label for="consent-check" class="text-[0.55rem] text-paper/35 leading-relaxed cursor-pointer">I understand that information submitted may be used for investigative purposes. I confirm I am not submitting false or malicious information about any individual.</label>
+            </div>
+
+            <button type="submit" class="w-full bg-hot hover:bg-dim font-display tracking-widest text-paper py-4 transition-colors text-sm">SUBMIT INTELLIGENCE →</button>
+            <p id="tipoff-msg" class="text-[0.55rem] tracking-[0.12em] text-center min-h-[1.2rem] text-paper/35"></p>
+
+        </form>
+
+        <div class="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4 reveal">
+            <div class="border border-paper/[0.07] p-4 text-center" style="background:rgba(193,68,14,0.03)">
+                <div class="text-[0.48rem] tracking-[0.18em] uppercase text-hot mb-2">Crime &amp; Scam Tips</div>
+                <p class="text-[0.55rem] text-paper/35 leading-relaxed">Information about criminal activity involving any person documented on this site, or related scams targeting members of the public.</p>
+            </div>
+            <div class="border border-paper/[0.07] p-4 text-center" style="background:rgba(201,138,16,0.03)">
+                <div class="text-[0.48rem] tracking-[0.18em] uppercase text-gold mb-2">Media &amp; Press</div>
+                <p class="text-[0.55rem] text-paper/35 leading-relaxed">Journalists, producers, and broadcasters seeking comment, interview, or access to underlying documentation are welcome to submit enquiries here.</p>
+            </div>
+            <div class="border border-paper/[0.07] p-4 text-center" style="background:rgba(61,122,74,0.03)">
+                <div class="text-[0.48rem] tracking-[0.18em] uppercase text-sage mb-2">Confidentiality</div>
+                <p class="text-[0.55rem] text-paper/35 leading-relaxed">We will not publish identifying information about tip-off sources without explicit written consent. All submissions are treated as confidential by default.</p>
+            </div>
+        </div>
+
     </div>
 </section>
 
@@ -4422,6 +4582,21 @@ function handleSMS(e) {
     if(!v||v.length<10){msg.style.color='#c1440e';msg.textContent='✗ Please enter a valid Australian mobile number.';return;}
     msg.style.color='#3d7a4a';msg.textContent='✓ You\'re in. First intel drop incoming.';
     document.getElementById('sms-input').value='';
+}
+
+// ── TIP-OFF FORM ──
+function handleTipoff(e) {
+    e.preventDefault();
+    var msg = document.getElementById('tipoff-msg');
+    var form = document.getElementById('tipoff-form');
+    var message = form.querySelector('[name="message"]').value.trim();
+    if(!message){msg.style.color='#c1440e';msg.textContent='✗ Please enter your information before submitting.';return;}
+    msg.style.color='#3d7a4a';
+    msg.textContent='✓ Received. Information logged — we\'ll triangulate and follow up if contact details were provided.';
+    form.querySelector('[name="message"]').value='';
+    form.querySelector('[name="name"]').value='';
+    form.querySelector('[name="contact"]').value='';
+    form.querySelector('[name="category"]').value='';
 }
 
 // ── SCROLL REVEAL ──
