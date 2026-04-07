@@ -101,6 +101,11 @@
         .tl-sublabel{font-size:0.45rem;color:rgba(245,234,212,0.35);margin-top:0.2rem}
         .tl-title{font-size:0.62rem;font-weight:600;letter-spacing:0.04em;color:rgba(245,234,212,0.72);margin-bottom:0.25rem}
         .tl-body{font-size:0.56rem;color:rgba(245,234,212,0.48);line-height:1.65}
+        /* ── TIMELINE READABILITY BOOST ── */
+        .tl-row>div:last-child>div:first-child{font-size:0.73rem!important;color:rgba(245,234,212,0.84)!important;line-height:1.35}
+        .tl-row>div:last-child>div:last-child,.tl-row>div:last-child>div:nth-child(2){font-size:0.62rem!important;color:rgba(245,234,212,0.58)!important;line-height:1.7}
+        .tl-row>div:first-child>div:first-child{font-size:0.72rem!important;font-weight:700;letter-spacing:0.1em}
+        .tl-row>div:first-child>div:last-child{font-size:0.5rem!important;color:rgba(245,234,212,0.45)!important;margin-top:0.25rem}
 
         /* ── MEDIA VIEWER ── */
         #mv-wrap{display:none;position:fixed;inset:0;z-index:9500;background:rgba(4,4,4,0.97);backdrop-filter:blur(16px);flex-direction:column}
@@ -2217,6 +2222,45 @@
             </div>
         </div>
 
+        <!-- RJ Character Profile -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.4)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Character Profile — RJ</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">RJ.<br><span class="text-hot">CAR THIEF. AMBUSH ORGANISER. RACE WEAPON.</span></h3>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-5">
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Documented Criminal Pattern</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Organised car theft ring — vehicles destroyed by fire</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Multiple aggravated burglary charges</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Directed mob violence — Pacific Fair and Helensvale</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">False sexual assault allegation — doctor cleared, civil action ongoing</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Premeditated ambush — Bridgestone Nerang</p></div>
+                    </div>
+                </div>
+                <div class="border border-paper/[0.08] p-4" style="background:rgba(124,106,170,0.04)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-3" style="color:#7c6aaa">Digital Offences</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="mt-0.5 text-xs shrink-0" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Phone hacked while sitting outside Adam's home</p></div>
+                        <div class="flex gap-2 items-start"><span class="mt-0.5 text-xs shrink-0" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Full contact list extracted and used for targeted intimidation</p></div>
+                        <div class="flex gap-2 items-start"><span class="mt-0.5 text-xs shrink-0" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Alvin Li (Costar Real Estate) targeted with N-word extortion threat</p></div>
+                        <div class="flex gap-2 items-start"><span class="mt-0.5 text-xs shrink-0" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Race weaponised as a threat to raise a mob against Adam Watson</p></div>
+                    </div>
+                </div>
+                <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">Tactics &amp; Methods</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Uses younger associates as proxies — "just kids"</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Systematically uses false allegations to weaponise institutions (police, courts)</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Cultivates insider access (Bridgestone employee) to surveil targets</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Responds to police reporting with physical retaliation (ambush after laptop handover)</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-l-4 border-hot/50 pl-5" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">RJ is not a person who commits opportunistic crimes. He organises them. He recruits for them. He uses insiders, proxies, and institutional processes as instruments. When those instruments fail — when footage captures his associates, when a laptop lands at Southport Police — his response is physical and premeditated. The pattern documented here is not a series of incidents. It is a methodology.</p>
+            </div>
+        </div>
+
         <!-- RJ Incident Timeline -->
         <div class="mb-12 reveal">
             <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-5">Incident Timeline — RJ</div>
@@ -2228,6 +2272,8 @@
                 <div class="tl-row grid grid-cols-[80px_1fr] gap-4 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">05</div><div class="text-[0.45rem] text-paper/20 mt-0.5">False Allegation</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">False sexual assault allegation — local doctor</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Doctor's office raided. Doctor cleared of all criminal allegations. Civil lawsuit ongoing against insurance.</div></div></div>
                 <div class="tl-row grid grid-cols-[80px_1fr] gap-4 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">06</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Shopping Centre</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Daily harassment of Adam Watson</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Associates harassing Adam at local shopping centre specifically because of Sunlight.Quest and the viral video.</div></div></div>
                 <div class="grid grid-cols-[80px_1fr] gap-4 bg-sage/[0.04] border border-sage/20 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-sage">07</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Laptop</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Laptop with incriminating evidence → Southport Police</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">RJ gave Adam Watson a laptop. Adam brought it to Southport Police Station, Sex & Crime Squad. Active investigation.</div></div></div>
+                <div class="grid grid-cols-[80px_1fr] gap-4 p-4" style="background:rgba(193,68,14,0.07);border:1px solid rgba(193,68,14,0.28);border-left:3px solid #c1440e"><div class="text-center"><div class="text-[0.72rem] tracking-[0.1em] uppercase font-bold text-hot">08</div><div class="text-[0.5rem] text-paper/45 mt-0.5">AMBUSH</div></div><div><div class="text-[0.73rem] font-display tracking-wide text-paper/84 mb-0.5" style="color:rgba(245,234,212,0.84)">Bridgestone Nerang — premeditated ambush — after the laptop</div><div class="text-[0.62rem] leading-relaxed" style="color:rgba(245,234,212,0.58)">After Adam handed the laptop to Southport Police, RJ organised an ambush at Bridgestone Nerang. 3–4 people waited in a car. An orange-haired staff member at Bridgestone tipped them off — he has since been fired and charged. Adam defended himself with an implement, bashed RJ, and destroyed the car. Attackers: "We're just kids." Adam was charged. Police admitted they had to charge him to not look bad. He has never been convicted.</div></div></div>
+                <div class="grid grid-cols-[80px_1fr] gap-4 p-4" style="background:rgba(193,68,14,0.04);border:1px solid rgba(193,68,14,0.15)"><div class="text-center"><div class="text-[0.72rem] tracking-[0.1em] uppercase font-bold text-hot">09</div><div class="text-[0.5rem] text-paper/45 mt-0.5">HACKED</div></div><div><div class="text-[0.73rem] font-display tracking-wide mb-0.5" style="color:rgba(245,234,212,0.84)">RJ sits outside Adam's home — hacks phone — steals contact list</div><div class="text-[0.62rem] leading-relaxed" style="color:rgba(245,234,212,0.58)">RJ positioned himself outside Adam Watson's home and remotely accessed his phone, extracting his full contact list. He then used stolen contacts to intimidate Adam's network — including Alvin Li from Costar Real Estate.</div></div></div>
             </div>
         </div>
 
@@ -2283,6 +2329,75 @@
                         <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">All footage provided to QPS — redacted versions available here</span>
                         <button class="mv-dl-btn mv-dl-gold text-[0.48rem]" onclick="downloadZip('rj_evidence_bundle.zip')">⬇ ZIP Bundle</button>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bridgestone Nerang ambush -->
+        <div class="story-chapter reveal mt-10 mb-10" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Incident — Premeditated Ambush</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">BRIDGESTONE NERANG.<br><span class="text-hot">3–4 MEN. A TIP-OFF. ADAM HAD HIS CAR BACK.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">After Adam Watson surrendered the laptop to Southport Police — triggering an active Sex and Crime Squad investigation — RJ organised a premeditated ambush. When Adam arrived at Bridgestone Nerang to collect his car, a group of 3–4 men were already there, waiting in a vehicle. They had been tipped off in advance by an <strong class="text-paper/70">orange-haired staff member at Bridgestone</strong> who had alerted RJ to Adam's scheduled pickup. That employee has since been fired. He has also been charged.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Adam defended himself with an implement. He bashed RJ. He also destroyed the car the group had used to wait for him. When police arrived, the attackers' response was immediate: <span class="font-display text-paper/70">"We're just kids."</span> The men who had arrived in a vehicle, in a group, pre-tipped to intercept a single person collecting his car, described themselves as children.</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">What Happened</div>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/48 leading-relaxed">Adam goes to Bridgestone Nerang to collect his vehicle</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/48 leading-relaxed">Orange-haired Bridgestone employee tips off RJ — fired, charged</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/48 leading-relaxed">3–4 men arrive in a car and wait for Adam on-site</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/48 leading-relaxed">Adam defends himself — RJ bashed, attackers' car destroyed</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/48 leading-relaxed">Attackers tell police: "We're just kids"</p></div>
+                    </div>
+                </div>
+                <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">The Charge — and What Police Said</div>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed mb-3">Adam Watson was charged. Police acknowledged — to those who asked — that they had to charge him to avoid making themselves look bad after he destroyed the car. That is not a legal justification for a charge. That is a political justification for a charge.</p>
+                    <p class="text-[0.62rem] text-paper/40 leading-relaxed italic">A man picks up his own car. He is ambushed by a group tipped off by an insider. He defends himself. The insider is fired. The insider is charged. And the man who was ambushed is also charged — because the car was destroyed. The question the charge never answered: what else was he supposed to do?</p>
+                </div>
+            </div>
+
+            <div class="border-l-4 border-hot/50 pl-5" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Context — Timing</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed">The ambush occurred <strong class="text-paper/65">after</strong> Adam handed the laptop to Southport Police. The sequence is not coincidental. The laptop triggered a Sex and Crime Squad investigation. The ambush was the response. The orange-haired employee at Bridgestone was the link between RJ's network and Adam's movements. The entire operation was pre-planned around a police reporting act.</p>
+            </div>
+        </div>
+
+        <!-- Phone hack / contact theft / Alvin Li -->
+        <div class="story-chapter reveal mt-10 mb-10" style="border-left-color:rgba(124,106,170,0.4)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">Digital Stalking &amp; Extortion</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">SITTING OUTSIDE ADAM'S HOME.<br><span style="color:#7c6aaa">HACKING HIS PHONE. STEALING HIS CONTACTS.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">RJ positioned himself outside Adam Watson's home and remotely accessed his phone, extracting the full contact list. The breach gave RJ direct access to everyone in Adam's personal and professional network — and he used it. What followed demonstrates the deliberate weaponisation of stolen data to intimidate and isolate Adam Watson by threatening the people around him.</p>
+
+            <!-- Alvin Li callout -->
+            <div class="border border-paper/[0.1] p-5 mb-5" style="background:rgba(124,106,170,0.04)">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase mb-3" style="color:#7c6aaa">Target — Alvin Li · Costar Real Estate</div>
+                <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">THE N-WORD THREAT.<br><span style="color:#7c6aaa">WEAPONISING RACE TO RAISE A MOB.</span></h4>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">Using the stolen contact list, RJ called <strong class="text-paper/65">Alvin Li</strong> — a contact of Adam Watson's from <strong class="text-paper/65">Costar Real Estate</strong> — and made a direct threat: he told Alvin Li that he was going to tell everyone that Adam Watson had called him the N-word.</p>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">This was not a complaint. It was extortion by another name — a threat designed to destroy Adam Watson's professional relationships and personal reputation by placing a racially incendiary accusation into the hands of every person in his contact list, unless the implicit demand was met.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+                    <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">The Mechanism</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Phone hacked — contact list stolen</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Contacts called one by one with damaging false allegations</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Alvin Li threatened with N-word claim about Adam Watson</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Designed to scare Adam's professional network into distancing themselves</p></div>
+                        </div>
+                    </div>
+                    <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.15)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-2">What This Reveals</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-paper/40 text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">RJ was willing to weaponise his own racial identity as a tool of intimidation</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-paper/40 text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">The threat of a mob — "I'll tell everyone" — was the explicit mechanism of harm</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-paper/40 text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">This was not a racial grievance — it was a calculated tactic by someone who had already committed car theft, burglary, fraud, and assault</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-paper/40 text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">The fact that Alvin Li was targeted tells us RJ had reviewed the contact list and strategically selected targets for maximum reputational damage</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-l-4 pl-4 py-1" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.04);padding:0.9rem 0.9rem 0.9rem 1.1rem">
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed italic">Using a racial slur allegation as a social threat — "I'll tell everyone you called me the N-word" — is the deployment of anti-racism language as a weapon of personal destruction. It exploits the legitimate gravity of racial abuse to silence, isolate, and harm a target with no basis in fact. It also instrumentalises a community's genuine vulnerability for individual criminal purposes.</p>
                 </div>
             </div>
         </div>
