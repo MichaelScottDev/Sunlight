@@ -240,6 +240,7 @@
                 <span class="nav-group-label">Homelessness &amp; Welfare</span>
                 <a href="#homelessness" class="nav-accent-sage">Gold Coast Homeless Action Plan — Failure</a>
                 <a href="#homelessness" class="nav-accent-hot">Undercover Drug Offer Allegation</a>
+                <a href="#viral" class="nav-accent-hot">Surf Network WiFi Block — Council Censorship</a>
                 <span class="nav-group-label">About &amp; Contact</span>
                 <a href="#adam-watson" class="nav-accent-gold">Adam Watson — The Man</a>
                 <a href="#contact" class="nav-accent-hot">Submit a Tip-off</a>
@@ -1427,6 +1428,7 @@
                     <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/40">Oracle East assault followed — 6 assailants, targeted in retaliation.</p></div>
                     <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/40">Police interview produced the "expect to get bashed" corruption recording.</p></div>
                     <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/40">Rinehart commenced civil proceedings against Adam Watson — privacy violation. Proceedings subsequently dropped.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/40"><strong class="text-paper/55">Sunlight.Quest blocked from Surf Network WiFi</strong> — the Gold Coast Council-maintained public WiFi network. Site remains inaccessible on that network.</p></div>
                 </div>
             </div>
         </div>
@@ -1459,6 +1461,51 @@
             <div class="border-l-4 border-hot/50 pl-5" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
                 <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">On the Record</div>
                 <p class="text-[0.68rem] text-paper/50 leading-relaxed">Kosta Kondratenko refuses to be mischaracterised. He refuses to have his political speech reframed as a mental health event. He refuses to have his credibility attacked by routing corporate interests through a police welfare visit. The viral video was political speech. "Bury you" was political language. The visit to the tent was intimidation dressed as welfare. The record reflects all of it.</p>
+            </div>
+        </div>
+
+        <!-- Surf Network WiFi block / government censorship -->
+        <div class="story-chapter reveal mt-12" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Government Censorship — Public Infrastructure</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">SUNLIGHT.QUEST BLOCKED ON SURF NETWORK.<br><span class="text-hot">GOLD COAST COUNCIL'S OWN WIFI. AFTER THE VIRAL VIDEO.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Following the publication of the viral video and the content on this site documenting Tom Tate and the Gold Coast Council, <strong class="text-paper/70">Sunlight.Quest was blocked on the Surf Network</strong> — the public WiFi network maintained and controlled by Gold Coast City Council. The site became inaccessible to anyone using council-controlled public internet infrastructure.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">This is a government body using its control over public internet infrastructure to make a publication that is critical of that government body inaccessible. It is censorship. It is being done through the most passive mechanism available — a network-level block, with no notice, no stated reason, and no appeal process — to a person who, as documented elsewhere in this section, cannot easily access private internet infrastructure because they are homeless.</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Why This Is Government Censorship</div>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Surf Network is public infrastructure maintained by Gold Coast City Council — a government body</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">The site blocked contains political speech directly critical of the Mayor, Tom Tate</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">The block followed the viral video — the sequence is not coincidental</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">No notice was given. No reason was stated. No appeal mechanism exists.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">The person affected is homeless — council-controlled WiFi is their primary internet access</p></div>
+                    </div>
+                </div>
+                <div class="border border-paper/[0.08] p-5" style="background:rgba(0,0,0,0.12)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">The Legal &amp; Constitutional Context</div>
+                    <p class="text-[0.6rem] text-paper/42 leading-relaxed mb-3">Australian law does not provide a freestanding right to freedom of expression equivalent to the First Amendment. However, the High Court has recognised an implied constitutional freedom of political communication — and blocking a publication that is engaged in political speech, on government-controlled infrastructure, in direct response to content about a government official, raises serious questions under that implied freedom.</p>
+                    <p class="text-[0.6rem] text-paper/42 leading-relaxed">It also raises questions under the principles that govern what councils can and cannot do with public infrastructure they hold in trust for all residents — including the ones their Mayor wants to silence.</p>
+                </div>
+            </div>
+
+            <div class="border-l-4 border-hot/50 pl-5" style="background:rgba(193,68,14,0.05);padding:1rem 1rem 1rem 1.25rem">
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">Tom Tate demanded a retraction from this publication. Sunlight.Quest did not retract. What happened next: the Gold Coast Council's public WiFi network blocks the site. The Mayor of the Gold Coast is using the city's digital infrastructure as a tool of political suppression. That is the record.</p>
+            </div>
+        </div>
+
+        <!-- Hancock Prospecting block + street consequences -->
+        <div class="story-chapter reveal mt-12" style="border-left-color:rgba(201,138,16,0.4)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Hancock Prospecting — Consequences</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">BLOCKED BY HANCOCK PROSPECTING.<br><span class="text-gold">AND WHAT HAPPENS WHEN YOU START TROUBLE IN AUSTRALIA.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">When the viral video was submitted to Hancock Prospecting, Kosta Kondratenko was immediately blocked. That block confirmed what Adam Watson had been saying about his connection to Gina Rinehart — it was real. A corporation does not block a person for sending them content unless the content is credible and the sender is perceived as a genuine threat.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">What followed demonstrated something broader about Australia: the consequences of starting trouble with the powerful are not abstract or institutional. They are physical. They are immediate. They arrive in car parks, outside tyre shops, at 2am when no one is filming. The retaliation that followed the video — the Oracle East assault, the harassment campaigns, the Bridgestone ambush — is what accountability costs when the people you are holding accountable have street connections, corrupted police, and the patience to wait.</p>
+
+            <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">The Brutal Street Reality of Australian Accountability Journalism</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">In countries with strong press freedom institutions, a journalist who publishes damaging content about a powerful person faces legal challenges, defamation claims, source pressure. In Australia — particularly in a city like the Gold Coast, where organised crime, corrupt police, and wealthy networks overlap — it can also mean people waiting for you in a car. It can mean six strangers in a building you live in. It can mean your phone being hacked while you sleep in a tent.</p>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">This is not complained about here as though it is surprising. It is documented here so that the pattern is visible. Every institution that was supposed to prevent it — Queensland Police, Gold Coast Council, Department of Housing — has either actively participated in the retaliation, or stood aside while it happened, or been captured by the networks doing it.</p>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed">Starting trouble in Australia means understanding that the institutions will not protect you. Sunlight.Quest is proceeding anyway. That is the point of it.</p>
             </div>
         </div>
 
@@ -3227,7 +3274,11 @@
                     </div>
                     <div class="border border-paper/[0.07] p-5" style="background:rgba(124,106,170,0.03)">
                         <div class="text-[0.5rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Peter Demchenko</div>
-                        <p class="text-[0.62rem] text-paper/35 leading-relaxed">Father of Aaliyah — Bodie Chalmers's girlfriend. Present at the Broadbeach disability centre confrontation alongside West Kira's father and the two corrupt QPS officers. His presence establishes the direct connection between the Chalmers network and the intimidation campaign against Adam Watson.</p>
+                        <p class="text-[0.62rem] text-paper/35 leading-relaxed mb-3">Father of Aaliyah — Bodie Chalmers's girlfriend. Present at the Broadbeach disability centre confrontation alongside West Kira's father and the two corrupt QPS officers. His presence establishes the direct connection between the Chalmers network and the intimidation campaign against Adam Watson.</p>
+                        <div class="border-l-2 pl-3 py-1" style="border-color:rgba(193,68,14,0.5);background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1">Update — Firebombing</div>
+                            <p class="text-[0.57rem] text-paper/40 leading-relaxed">Peter Demchenko's house has since been firebombed — by other parties he has had separate ongoing disputes with. His involvement in the intimidation of Adam Watson is one strand of a broader pattern of conflict in which Demchenko is embedded.</p>
+                        </div>
                     </div>
                     <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.03)">
                         <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-2">The Wesfarmers Connection</div>
