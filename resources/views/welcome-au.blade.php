@@ -1620,6 +1620,72 @@
             </div>
         </div>
 
+        <!-- Camera access / who gets to speak -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(124,106,170,0.4)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">Speech &amp; Access — Cost of Living Crisis</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">MY VOICE SHOULD BE THE LOUDEST.<br><span style="color:#7c6aaa">I CAN'T EVEN GET A CAMERA.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Gold Coast Council spends over <strong class="text-paper/70">$1 billion per year</strong>. That budget covers media teams, communications staff, event documentation, council-branded content. The infrastructure to document public life on the Gold Coast is extensive and publicly funded. And yet Kosta Kondratenko — a person at the centre of the most documented sequence of Gold Coast corruption, police misconduct, and criminal conduct in recent years — cannot get access to camera equipment to document his own story.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">The Queensland State Library has cameras and visual production equipment available to the public. In practice, they are not available in any meaningful way to a person who is homeless and navigating the same institutions that are simultaneously trying to label them as mentally unwell. The equipment exists. The access does not.</p>
+
+            <div class="border border-paper/[0.08] p-5 mb-5" style="background:rgba(124,106,170,0.04)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-3" style="color:#7c6aaa">The Speech Problem — Who Gets to Speak</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">This is a question about speech — about who gets to produce it, and in what quality, and with what reach. A Gold Coast Council media team can produce professional broadcast-standard content about the city. A major corporation can deploy PR firms to shape the narrative about the people documented on this site. Gina Rinehart can fund legal action to suppress a video. And the person who witnessed all of it, who is documenting it, who has the clearest interest in getting it on record — is doing it from a tent, without a camera, without equipment, without the institutional support that every other party in this story has access to.</p>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">That is the cost of living crisis in its fullest expression. It is not just that you cannot afford rent. It is that you cannot afford to speak. You cannot afford the equipment to document what you are experiencing. You cannot afford the legal representation to defend what you document. You cannot even turn up to a library and access equipment that is theoretically public because the conditions that put you outside have also made every public institution less accessible to you.</p>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed italic">The people who most need their voices heard are the people with the fewest tools to make themselves heard. And the people who want those voices suppressed — the councils, the corporations, the predatory landlords, the corrupt police — have every tool available.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">$1 Billion/Year — GCC Budget</div>
+                    <p class="text-[0.6rem] text-paper/42 leading-relaxed">Gold Coast Council's annual budget exceeds $1 billion. Its communications and media function is funded from public money. The public — including its homeless residents — cannot access equivalent tools to document public interest matters from their own perspective.</p>
+                </div>
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.1)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-2">QLD Library — Equipment In Name Only</div>
+                    <p class="text-[0.6rem] text-paper/42 leading-relaxed">The Queensland State Library lists cameras and visual equipment as available resources. For someone without a fixed address, navigating referral systems and mental health labels, "available in theory" and "accessible in practice" are not the same thing. Where is the money going?</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- YouTube takedown / youth crime / media responsibility -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.4)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Big Tech · Youth Crime · Media Accountability</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE VIRAL VIDEO GOT AN AUTOMATED TAKEDOWN.<br><span class="text-hot">AND YOUTH CRIME GETS UNDER-REPORTED BECAUSE OF IT.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The viral video — footage that was viewed by millions and directly triggered civil proceedings from Gina Rinehart — received an automated takedown from YouTube. Kosta's assessment: the trigger for the automated removal was content involving RJ. <strong class="text-paper/65">It is suspected that the takedown was at least partly influenced by RJ being Black, or younger</strong> — that YouTube's content moderation systems, which are well-documented to carry racial and age-related biases in their automated enforcement, flagged footage involving a young Black person in a confrontational context and removed it.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">If that suspicion is accurate, the consequence is perverse: the content moderation system designed to protect marginalised communities functioned to protect the person in this footage — a documented repeat offender who organised car theft rings, directed mob violence, and ran a premeditated ambush — from public accountability. The tool that was supposed to help actually shielded the perpetrator from exposure.</p>
+
+            <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Youth Crime and Big Tech — The Suppression Pattern</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Youth crime in Australia — and particularly on the Gold Coast — is systematically under-reported. The reasons are structural: police statistics are aggregated in ways that obscure repeat offenders; courts impose non-publication orders on juvenile proceedings; and now, increasingly, the footage that documents these incidents is being removed by automated content moderation systems before it can be seen, shared, and acted on.</p>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Big tech platforms are not neutral arbiters. Their automated systems make decisions about what the public can see — and those decisions have disproportionate effects on who gets held accountable. When footage of a crime is removed because an algorithm flagged the race or age of the person in it, the result is not protection. It is suppression. It removes the record. It prevents accountability. And it leaves the community that was harmed with no documentation of what happened to them.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
+                    <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.12)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-2">What Big Tech Does</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Automated systems remove footage before human review</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Racial and age signals in content moderation are documented and disputed</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Takedowns suppress public record — the footage cannot be shared or cited once removed</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Appeal processes are slow, opaque, and designed for institutional accounts, not individuals</p></div>
+                        </div>
+                    </div>
+                    <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.12)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-2">What This Costs</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Communities affected by youth crime lose their documentation</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Perpetrators benefit from algorithmic protection that was never intended for them</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">The political and legal record is incomplete — evidence disappears before it can be preserved</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Journalists and independent reporters bear the cost alone</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border border-paper/[0.08] p-5" style="background:rgba(0,0,0,0.14)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">The Responsibility of Media</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Legacy media has retreated from the street. Newsroom budgets have been cut. Local reporters no longer cover the full spectrum of what happens in communities — what happens at 2am outside a service station, what happens in the car parks, what happens when a group of young men decide to wait for someone at a tyre shop. Those stories don't fit neatly into the production cycle. They don't generate ad revenue. And when footage exists, a platform takedown can remove it before a journalist even sees it.</p>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed">The responsibility of media — and of platforms that function as media infrastructure — is to cover what is actually happening in the streets and how people actually live. Not just the curated version. Not just the events that fit the format. The version that involves a man defending himself at a tyre shop, a tent with a sticker saying it's abandoned, and a person who cannot get a camera to document his own story because the Gold Coast only wants the rich here.</p>
+            </div>
+        </div>
+
     </div>
 </section>
 
