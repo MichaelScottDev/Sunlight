@@ -184,6 +184,7 @@
             <div class="nav-dropdown-menu">
                 <span class="nav-group-label">Personal Story</span>
                 <a href="#story" class="nav-accent-hot">Sandy Tulisi — Rooming House</a>
+                <a href="#samir" class="nav-accent-gold">Samir Dhakal — Deported</a>
                 <a href="#smithinson" class="nav-accent-hot">Jonathan Smithinson — Psychiatrist · Silverwater</a>
                 <a href="#privacy" class="nav-accent-violet">Aquatic Centre Privacy Breach</a>
                 <a href="#media" class="nav-accent-gold">Sky News — Story That Didn't Run</a>
@@ -250,6 +251,10 @@
         <button onclick="document.getElementById('story').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
             <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.1 — Sandy Tulisi</div><div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Rooming House Fraud</div><div class="text-[0.62rem] text-paper/30 mt-1">68 days · 6 false notices · All charges dropped</div></div>
+        </button>
+        <button onclick="document.getElementById('samir').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-gold/35 transition-all p-4 bg-paper/[0.02]">
+            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-gold"></div>
+            <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-1">Ch.1A — Samir Dhakal</div><div class="font-display text-base tracking-wide group-hover:text-gold transition-colors leading-tight">Keystroke Camera · Deported</div><div class="text-[0.62rem] text-paper/30 mt-1">Camera · Assault · Tony Burke deportation</div></div>
         </button>
         <button onclick="document.getElementById('smithinson').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
@@ -765,6 +770,102 @@
 
             </div>
         </div>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     SAMIR DHAKAL
+══════════════════════════════════════ -->
+<section id="samir" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(201,138,16,0.05) 0%,transparent 60%)">
+    <div class="max-w-4xl mx-auto">
+
+        <div class="flex items-center gap-3 mb-3 reveal">
+            <span class="text-[0.48rem] tracking-[0.22em] uppercase border border-gold/40 text-gold px-2 py-1">Profile — Samir Dhakal</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-3 leading-tight reveal">SAMIR DHAKAL.<br><span class="text-gold">TAKEN IN. THEN TURNED ON.</span></h2>
+        <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-10 reveal max-w-2xl">"Adam took him in after his own mates kicked him out. He repaid that by installing a camera above Adam's laptop to steal his banking credentials and rupturing Adam's testicles. He was eventually deported."</p>
+
+        <!-- Photo + intro -->
+        <div class="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-8 mb-10 reveal">
+            <div>
+                <div class="w-full border border-paper/[0.07] flex items-center justify-center" style="aspect-ratio:2/3;background:rgba(201,138,16,0.04)">
+                    <div class="text-center px-4">
+                        <div class="text-[0.55rem] tracking-[0.18em] uppercase text-gold/40 mb-2">Photo</div>
+                        <div class="text-[0.48rem] text-paper/20 leading-relaxed">Samir Dhakal<br>Pending upload</div>
+                    </div>
+                </div>
+                <div class="text-[0.45rem] text-paper/20 mt-2 leading-relaxed">Samir Dhakal · Deported · Charged by Sally Downing</div>
+            </div>
+            <div>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Samir Dhakal is a Nepalese national who was taken in by Adam Watson after being kicked out by his own Nepalese housemates. Adam gave him a place to stay. Samir used that access to surveil Adam's digital activity, attempt to steal from his bank account, and physically injure him.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45">A significant part of the early work Kosta Kondratenko did alongside Adam Watson was building the deportation case for then-Immigration Minister Tony Burke — compiling documentation of debts, criminal conduct, and offences against women. After sustained effort, Samir Dhakal was deported.</p>
+            </div>
+        </div>
+
+        <!-- Timeline -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.3)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-5">Timeline — Samir Dhakal</div>
+            <div class="space-y-px">
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold">01</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Taken In</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Kicked out by his Nepalese housemates — Adam Watson takes him in</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Samir Dhakal had been removed from his Nepalese share house. Adam Watson, as was consistent with his character, took him in and gave him somewhere to live.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">02</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Surveillance</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Camera installed above Adam's laptop to capture keystrokes</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">While living with Adam, Samir installed a camera positioned to record Adam's keystrokes on his laptop — an attempt to capture banking credentials and access his accounts.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">03</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Physical Assault</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Ruptured Adam Watson's testicles</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Samir Dhakal physically assaulted Adam Watson, causing rupture of his testicles.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">04</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Rinehart Taunts</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">"The bigger they are the harder they fall!" — calls to Gina Rinehart</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Samir would contact Gina Rinehart directly, taunting her with the phrase "The bigger they are the harder they fall!"</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold">05</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Adam Leaves</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Adam Watson goes to the Gold Coast to escape Samir Dhakal</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">The relationship left Adam Watson suicidal. He would make comments about walking into the Surfers Paradise beach and letting the water take him. He relocated to the Gold Coast to get distance from Samir.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold">06</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Sally Downing</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Charged by Sally Downing for offences against women</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Sally Downing charged Samir Dhakal with a raft of offences against women. These charges formed a key part of the deportation case assembled for Tony Burke.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 bg-paper/[0.02] border border-paper/[0.05] p-4">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold">07</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Deportation Case</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Kosta and Adam build the documentation file for Tony Burke</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Much of the early work Kosta Kondratenko did with Adam Watson when they first met was directed at building the deportation file — debts, offences against women, criminal conduct — for then-Immigration Minister Tony Burke to approve Samir's removal from Australia.</div></div>
+                </div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 border border-sage/30 p-4" style="background:rgba(61,122,74,0.04)">
+                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-sage">08</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Deported</div></div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Samir Dhakal deported — Minister Tony Burke approves removal</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">After sustained effort by Kosta and Adam Watson, Tony Burke approved the deportation. Samir Dhakal was removed from Australia.</div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stat strip -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mb-2 reveal">
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-gold mb-1">📷</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Keystroke camera</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Installed above Adam's laptop</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-hot mb-1">↑</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Charges — women</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Sally Downing prosecution</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-sage mb-1">✓</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Deported</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Tony Burke · Immigration</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-gold mb-1">"↓"</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Rinehart taunts</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">"Bigger they are..."</div>
+            </div>
+        </div>
+
     </div>
 </section>
 
@@ -1371,9 +1472,16 @@
             <!-- Chapter A: Coercive Control / Bodie Chalmers -->
             <div class="story-chapter reveal" style="border-left-color:rgba(124,106,170,0.3)">
                 <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">Chapter A — Coercive Control</span></div>
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE ANATOMY OF<br><span style="color:#7c6aaa">CONTROL</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Coercive control rarely announces itself. It arrives as attention, then affection, then dependence — and by the time the walls close in, leaving feels impossible."</p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Adam Watson entered a relationship with Bodie Chalmers that escalated into a pattern of coercive and controlling behaviour. Access was obtained to Apple's location sharing on Adam's iPhone without his knowledge. A tracking device was placed on his fuel cap. A private eye-biometric lie detection test was commissioned — scored 1 out of 100, rated "Deceptive" — by a certified EyeDetect® examiner at 50 Cavill Avenue, Surfers Paradise.</p>
+                <div class="flex gap-5 mb-5 items-start">
+                    <div class="shrink-0 w-24 border border-paper/[0.07] flex items-center justify-center" style="aspect-ratio:2/3;background:rgba(124,106,170,0.04)">
+                        <div class="text-center px-2"><div class="text-[0.42rem] tracking-[0.12em] uppercase mb-1" style="color:rgba(124,106,170,0.4)">Photo</div><div class="text-[0.38rem] text-paper/20">Bodie Chalmers<br>Pending</div></div>
+                    </div>
+                    <div>
+                        <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE ANATOMY OF<br><span style="color:#7c6aaa">CONTROL</span></h3>
+                        <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Coercive control rarely announces itself. It arrives as attention, then affection, then dependence — and by the time the walls close in, leaving feels impossible."</p>
+                    </div>
+                </div>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5 mt-4">Adam Watson entered a relationship with Bodie Chalmers that escalated into a pattern of coercive and controlling behaviour. Access was obtained to Apple's location sharing on Adam's iPhone without his knowledge. A tracking device was placed on his fuel cap. A private eye-biometric lie detection test was commissioned — scored 1 out of 100, rated "Deceptive" — by a certified EyeDetect® examiner at 50 Cavill Avenue, Surfers Paradise.</p>
 
                 <!-- EVIDENCE VAULT: Bodie Chalmers -->
                 <div class="evidence-vault">
@@ -2367,9 +2475,16 @@
                 <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter A2 — The Accomplice</span>
                 <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">West Kira</span>
             </div>
-            <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">BODIE'S ACCOMPLICE.<br><span class="text-hot">THE KID WHO BROKE THE GLASSES.</span></h3>
-            <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Adam gave him a ride. He repaid that by destroying Adam's glasses. It was recorded. That's the kind of person we're dealing with — and that's before we get to his father."</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">West Kira is a known associate of Bodie Chalmers. During a ride provided by Adam Watson — an act of basic human decency — West Kira deliberately broke Adam's glasses. The incident was captured on recording. It is a small act, but it is characteristic: a pattern of casual entitlement, destruction without consequence, and the assumption that proximity to power insulates you from accountability.</p>
+            <div class="flex gap-5 mb-5 items-start">
+                <div class="shrink-0 w-24 border border-paper/[0.07] flex items-center justify-center" style="aspect-ratio:2/3;background:rgba(193,68,14,0.04)">
+                    <div class="text-center px-2"><div class="text-[0.42rem] tracking-[0.12em] uppercase text-hot/40 mb-1">Photo</div><div class="text-[0.38rem] text-paper/20">West Kira<br>Pending</div></div>
+                </div>
+                <div>
+                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">BODIE'S ACCOMPLICE.<br><span class="text-hot">THE KID WHO BROKE THE GLASSES.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Adam gave him a ride. He repaid that by destroying Adam's glasses. It was recorded. That's the kind of person we're dealing with — and that's before we get to his father."</p>
+                </div>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6 mt-4">West Kira is a known associate of Bodie Chalmers. During a ride provided by Adam Watson — an act of basic human decency — West Kira deliberately broke Adam's glasses. The incident was captured on recording. It is a small act, but it is characteristic: a pattern of casual entitlement, destruction without consequence, and the assumption that proximity to power insulates you from accountability.</p>
 
             <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mb-8">
                 <div class="bg-ink px-5 py-5 text-center">
