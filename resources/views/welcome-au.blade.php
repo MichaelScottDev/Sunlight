@@ -1575,12 +1575,7 @@
             <!-- Photo grid: closed poster + pizza -->
             <div class="grid grid-cols-2 gap-4 mb-6">
                 <div>
-                    <div class="w-full border border-paper/[0.07] flex items-center justify-center mb-2" style="aspect-ratio:3/4;background:rgba(193,68,14,0.04)">
-                        <div class="text-center px-4">
-                            <div class="text-[0.5rem] tracking-[0.18em] uppercase text-hot/50 mb-2">Photo</div>
-                            <div class="text-[0.45rem] text-paper/22 leading-relaxed">St John's Crisis Centre<br>"Closed over Easter"<br>Poster — pending upload</div>
-                        </div>
-                    </div>
+                    <img src="/img/stjohns-crisis-centre-closed-easter.jpg" alt="St John's Crisis Centre closed over Easter — Good Friday 3 April and Easter Monday 6 April" class="w-full mb-2" style="object-fit:cover;border:1px solid rgba(245,234,212,0.07)" loading="lazy" />
                     <p class="text-[0.5rem] text-paper/28 leading-relaxed italic">St John's Crisis Centre — closed over Easter. The sign is real. The irony is real.</p>
                 </div>
                 <div>
