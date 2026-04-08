@@ -1031,13 +1031,23 @@
             <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE BODY WORN CAMERA.<br><span class="text-gold">MUTED. THE COMMENTS TO SECURITY — GONE.</span></h3>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Body Worn Camera footage obtained by Kosta revealed that the comments made by the arresting officer to Pacific Fair security had been selectively muted. The conversation between the officer and security — the conversation that would have established the officer's state of mind and the basis for the charge — was removed from the footage provided.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Selective muting of BWC footage is not an accident. Audio does not remove itself from one part of a recording while remaining intact in others. The muting of the specific exchange with security — the exchange most relevant to the charge — is evidence of maliciousness in the original arrest.</p>
-            <div class="ev-file ef-gold" onclick="openMV('video-bwc-coles')" style="max-width:500px">
-                <div class="ev-icon ev-video">▶</div>
-                <div class="ev-meta">
-                    <div class="ev-name">BWC_pacific_fair_coles_MUTED.mp4</div>
-                    <div class="ev-desc">Video · Body Worn Camera · Pacific Fair · Officer comments to security selectively muted</div>
+            <div class="space-y-2 mt-2">
+                <div class="ev-file ef-gold" onclick="openMV('video-bwc-coles')">
+                    <div class="ev-icon ev-video">▶</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">Axon_Body_3_2024-02-27_0950_X60500377.mp4</div>
+                        <div class="ev-desc">BWC · Officer X60500377 · 27 Feb 2024 · Selectively muted</div>
+                    </div>
+                    <span class="ev-cta">Watch →</span>
                 </div>
-                <span class="ev-cta">Watch →</span>
+                <div class="ev-file ef-gold" onclick="openMV('video-bwc-coles-2')">
+                    <div class="ev-icon ev-video">▶</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">Axon_Body_3_2024-02-27_0950_X60J05359.mp4</div>
+                        <div class="ev-desc">BWC · Officer X60J05359 · 27 Feb 2024 · Second camera</div>
+                    </div>
+                    <span class="ev-cta">Watch →</span>
+                </div>
             </div>
         </div>
 
@@ -4694,13 +4704,21 @@ var EVIDENCE = {
     },
     'video-bwc-coles': {
         type:'video',
-        title:'BODY WORN CAMERA — PACIFIC FAIR COLES — SELECTIVELY MUTED',
+        title:'BWC — OFFICER X60500377 — PACIFIC FAIR COLES',
         tag:'Contravene Move On Direction · Pacific Fair · BWC Disclosure',
-        meta:'Video · Body Worn Camera · Officer comments to Pacific Fair security selectively muted',
-        desc:'Body Worn Camera footage obtained by Kosta Kondratenko following the Contravene Move On Direction charge at Coles Pacific Fair. The footage reveals that the comments made by the arresting officer to Pacific Fair security have been selectively muted — the exchange most directly relevant to the basis for the charge is absent from the provided footage. The original disturbance arose from a Yakult bottle already removed from its packaging. The officer had a prior history with Kosta from a Nerang Street incident involving the PSLO team. The selective muting is the basis for arguing maliciousness in the arrest. Prosecution has continued despite the District Court Judge\'s comments that the matter was not worth pursuing at this cost to the taxpayer.',
-        isPlaceholder:true,
-        placeholderLabel:'FOOTAGE PENDING UPLOAD',
-        filename:'BWC_pacific_fair_coles_MUTED.mp4'
+        meta:'Video · Axon Body 3 · 27 Feb 2024 09:50 · Officer X60500377',
+        desc:'Body Worn Camera footage (Axon Body 3, 27 February 2024, 09:50) — Officer X60500377 — obtained by Kosta Kondratenko following the Contravene Move On Direction charge at Coles Pacific Fair. The footage reveals that the comments made by the arresting officer to Pacific Fair security have been selectively muted — the exchange most directly relevant to the basis for the charge is absent from the provided footage. The original disturbance arose from a Yakult bottle already removed from its packaging. The selective muting is the basis for arguing maliciousness in the arrest.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/Axon_Body_3_Video_2024-02-27_0950_X60500377.mp4',
+        filename:'Axon_Body_3_Video_2024-02-27_0950_X60500377.mp4'
+    },
+    'video-bwc-coles-2': {
+        type:'video',
+        title:'BWC — OFFICER X60J05359 — PACIFIC FAIR COLES',
+        tag:'Contravene Move On Direction · Pacific Fair · BWC Disclosure',
+        meta:'Video · Axon Body 3 · 27 Feb 2024 09:50 · Officer X60J05359',
+        desc:'Body Worn Camera footage (Axon Body 3, 27 February 2024, 09:50) — Officer X60J05359 — second body camera present at the Coles Pacific Fair Contravene Move On Direction incident. Compare with footage from Officer X60500377. The selective muting of the exchange between the arresting officer and Pacific Fair security is the basis for the maliciousness argument. The District Court Judge observed the matter was probably not worth pursuing at this cost to the taxpayer. The DPP pursued it regardless.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/Axon_Body_3_Video_2024-02-27_0950_X60J05359.mp4',
+        filename:'Axon_Body_3_Video_2024-02-27_0950_X60J05359.mp4'
     },
     'pdf-consent-order': {
         type:'pdf',
@@ -4859,9 +4877,11 @@ function buildVideoViewer(e) {
             '<div style="padding:0.75rem 0 0;font-size:0.62rem;line-height:1.7;color:rgba(245,234,212,0.38)">' + (e.desc||'') + '</div>' +
         '</div>';
     }
+    var src = e.url || e.src || '';
     return '<div style="width:100%;max-width:760px">' +
-        '<video controls style="width:100%;border:1px solid rgba(245,234,212,0.06)">' +
-            '<source src="#" type="video/mp4"/>' +
+        '<video controls style="width:100%;border:1px solid rgba(245,234,212,0.06)" preload="metadata">' +
+            '<source src="' + src + '" type="video/mp4"/>' +
+            'Your browser does not support video playback.' +
         '</video>' +
         '<div style="padding:0.75rem 0 0;font-size:0.62rem;line-height:1.7;color:rgba(245,234,212,0.38)">' + (e.desc||'') + '</div>' +
     '</div>';
