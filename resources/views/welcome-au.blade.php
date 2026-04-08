@@ -4750,12 +4750,9 @@ var EVIDENCE = {
 };
 
 function openMV(type, title, tag, meta, filename, desc, key) {
-    if(key && EVIDENCE[key]) {
-        var e = EVIDENCE[key];
-        renderMV(e);
-    } else {
-        renderMV({type:type,title:title,tag:tag,meta:meta,filename:filename,desc:desc});
-    }
+    if(EVIDENCE[type]) { renderMV(EVIDENCE[type]); return; }
+    if(key && EVIDENCE[key]) { renderMV(EVIDENCE[key]); return; }
+    renderMV({type:type,title:title,tag:tag,meta:meta,filename:filename,desc:desc});
 }
 
 function renderMV(e) {
@@ -4929,12 +4926,8 @@ function closeMV() {
 
 function downloadFile() {
     if(!currentFile) return;
-    var a = document.createElement('a');
-    a.href = '#';
-    a.download = currentFile.filename || 'sunlightquest_document';
-    a.click();
-    // Toast
-    showToast('Download started: ' + (currentFile.filename||'file'));
+    if(currentFile.url) { window.open(currentFile.url, '_blank'); return; }
+    showToast('No download available for this file');
 }
 
 function downloadZip(name) {
