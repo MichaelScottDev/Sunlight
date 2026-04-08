@@ -30,21 +30,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.vidstack.io/player/theme.css"/>
-    <link rel="stylesheet" href="https://cdn.vidstack.io/player/video.css"/>
-    <script src="https://cdn.vidstack.io/player" type="module"></script>
-    <script type="module">
-        import { VidstackPlayer, VidstackPlayerLayout } from 'https://cdn.vidstack.io/player';
-        window.vidstackPlayer = await VidstackPlayer.create({
-            target: '#player',
-            title: 'Episode 1 — Gold Coast Uncovered',
-            src: 'https://files.vidstack.io/sprite-fight/720p.mp4',
-            poster: 'https://files.vidstack.io/sprite-fight/poster.webp',
-            thumbnails: 'https://files.vidstack.io/sprite-fight/thumbnails.vtt',
-            tracks: [{src:'https://files.vidstack.io/sprite-fight/chapters.vtt',kind:'chapters',language:'en-US',default:true}],
-            layout: new VidstackPlayerLayout({thumbnails:'https://files.vidstack.io/sprite-fight/thumbnails.vtt'}),
-        });
-    </script>
     <style>
         body::after{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");pointer-events:none;z-index:9498}
         ::-webkit-scrollbar{width:3px}::-webkit-scrollbar-track{background:#0c0804}::-webkit-scrollbar-thumb{background:#c1440e}
@@ -4781,6 +4766,8 @@ function renderMV(e) {
 
     var dl = document.getElementById('mv-dl-btn');
     dl.textContent = '⬇ Download ' + (e.filename || 'file');
+    if(e.url) { dl.onclick = function(){ window.open(e.url,'_blank'); }; }
+    else { dl.onclick = downloadFile; }
 
     var body = document.getElementById('mv-body');
     body.innerHTML = '';
@@ -4878,12 +4865,18 @@ function buildVideoViewer(e) {
         '</div>';
     }
     var src = e.url || e.src || '';
+    if(!src) {
+        return '<div style="width:100%;max-width:760px;text-align:center;padding:3rem 1rem">' +
+            '<div style="font-size:0.52rem;letter-spacing:0.18em;text-transform:uppercase;color:rgba(245,234,212,0.3)">No video URL available</div>' +
+        '</div>';
+    }
     return '<div style="width:100%;max-width:760px">' +
-        '<video controls style="width:100%;border:1px solid rgba(245,234,212,0.06)" preload="metadata">' +
-            '<source src="' + src + '" type="video/mp4"/>' +
-            'Your browser does not support video playback.' +
-        '</video>' +
-        '<div style="padding:0.75rem 0 0;font-size:0.62rem;line-height:1.7;color:rgba(245,234,212,0.38)">' + (e.desc||'') + '</div>' +
+        '<div style="background:rgba(0,0,0,0.4);border:1px solid rgba(245,234,212,0.08);padding:2.5rem 1.5rem;text-align:center;margin-bottom:1rem">' +
+            '<div style="font-size:0.48rem;letter-spacing:0.2em;text-transform:uppercase;color:rgba(245,234,212,0.3);margin-bottom:1.25rem">Video Evidence · S3 Hosted · Axon Body Camera</div>' +
+            '<a href="' + src + '" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:0.6rem;background:#c1440e;color:#f5ead4;font-family:\'Bebas Neue\',sans-serif;font-size:1.05rem;letter-spacing:0.12em;padding:0.75rem 2rem;text-decoration:none;transition:opacity 0.2s" onmouseover="this.style.opacity=\'0.85\'" onmouseout="this.style.opacity=\'1\'">&#9654; WATCH IN NEW TAB</a>' +
+            '<div style="margin-top:1rem;font-size:0.44rem;letter-spacing:0.14em;text-transform:uppercase;color:rgba(245,234,212,0.2);word-break:break-all;max-width:480px;margin-left:auto;margin-right:auto">' + (e.filename||src) + '</div>' +
+        '</div>' +
+        '<div style="padding:0.5rem 0 0;font-size:0.62rem;line-height:1.7;color:rgba(245,234,212,0.38)">' + (e.desc||'') + '</div>' +
     '</div>';
 }
 
