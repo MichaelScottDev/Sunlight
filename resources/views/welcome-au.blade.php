@@ -650,6 +650,30 @@
                         <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Further Retaliation — Threat Against Kosta's Life</div>
                         <p class="text-[0.68rem] text-paper/50 leading-relaxed">Marc Barrow made a comment to Adam Watson that if RJ stabs Kosta to death, he will turn a blind eye. Adam Watson relayed this to Kosta. A sworn officer of Queensland Police stated to a third party that he would ignore the murder of a named individual by a named associate. This is not a figure of speech. It is a threat communicated via an intermediary, and it has been documented accordingly.</p>
                     </div>
+
+                    <!-- Public Nuisance Charge Evidence -->
+                    <div class="evidence-vault mt-6">
+                        <div class="ev-header" onclick="toggleVault(this)">
+                            <div class="flex items-center gap-2">
+                                <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Marc Barrow · Public Nuisance · Unlawful Eviction</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                                <span class="ev-toggle">▼</span>
+                            </div>
+                        </div>
+                        <div class="ev-body">
+                            <div class="ev-file ef-hot" onclick="openMV('pdf-public-nuisance-charge')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">public_nuisance_charge.pdf — QP Charge Sheet · Marc Barrow</div>
+                                    <div class="ev-desc">PDF · Public Nuisance charge · Property misclassified as hostel · Invalid trespass threat · Items removed without warrant · Charge escalated through post · Dropped by Judge</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div id="s-ch6" class="story-chapter reveal" style="transition-delay:0.3s;border-left-color:rgba(193,68,14,0.3)">
@@ -715,7 +739,7 @@
                                 <div class="ev-icon ev-video">▶</div>
                                 <div class="ev-meta">
                                     <div class="ev-name">VID_20240115_165018.mp4 — Subpoena Service Attempt · BeHome</div>
-                                    <div class="ev-desc">Video · Adam Watson serving Form 10 · BeHome property · 15 Jan 2024 · Intimidatory counter-recording by unidentified shirtless male</div>
+                                    <div class="ev-desc">Video · Adam Watson serving Form 10 · BeHome property · 15 Jan 2024 · Intimidatory counter-recording by Alex VOURLIOTIS</div>
                                 </div>
                                 <span class="redact-tag" style="color:#c98a10;border-color:rgba(201,138,16,0.4)">📹 Court Record</span>
                                 <span class="ev-cta ml-2">Watch →</span>
@@ -730,17 +754,17 @@
                     <!-- Service attempt at BeHome -->
                     <div class="border-l-4 border-gold/50 pl-5 mt-6 mb-2" style="background:rgba(201,138,16,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
                         <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">On Camera — The Service Attempt at BeHome</div>
-                        <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">A SHIRTLESS MAN WITH EARRINGS.<br><span class="text-gold">RECORDING THE PERSON SERVING THE SUBPOENA.</span></h4>
+                        <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">ALEX VOURLIOTIS.<br><span class="text-gold">RECORDING THE PERSON SERVING THE SUBPOENA.</span></h4>
                         <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Adam Watson attended the BeHome property to serve the Form 10 subpoena on Sandy Tulisi and Chris Park. The entire service attempt was recorded — not to document harassment, but to provide a court record of proper service in the event it was later disputed.</p>
-                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">On arrival, a shirtless man with earrings — not Sandy Tulisi, not Chris Park — appeared and began recording Adam Watson on his phone. The property already had CCTV cameras covering the premises. A person choosing to additionally film someone who is there to serve legal documents, in a property already under camera surveillance, serves one purpose: intimidation. The man refused to provide his name when asked directly.</p>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">On arrival, a shirtless man with earrings — not Sandy Tulisi, not Chris Park — appeared and began recording Adam Watson on his phone. He has since been identified as <strong style="color:#c98a10">Alex VOURLIOTIS</strong>. The property already had CCTV cameras covering the premises. A person choosing to additionally film someone who is there to serve legal documents, in a property already under camera surveillance, serves one purpose: intimidation. VOURLIOTIS refused to provide his name when asked directly on camera.</p>
                         <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Sandy Tulisi eventually answered the door. She stated that Chris Park was sick. She accepted service of the documents. The service was complete and recorded on video.</p>
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
                             <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
                                 <div class="text-[0.46rem] tracking-[0.18em] uppercase text-gold mb-2">What the Video Shows</div>
                                 <div class="space-y-1.5">
-                                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Shirtless male recording Adam Watson on phone</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Alex VOURLIOTIS recording Adam Watson on phone</p></div>
                                     <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">CCTV already present — additional filming unnecessary</p></div>
-                                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Male refuses to identify himself when asked</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">VOURLIOTIS refuses to identify himself when asked on camera</p></div>
                                     <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Sandy Tulisi answers door, accepts service</p></div>
                                     <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Sandy states Chris Park is sick</p></div>
                                 </div>
@@ -749,7 +773,7 @@
                                 <div class="text-[0.46rem] tracking-[0.18em] uppercase text-hot mb-2">Why This Matters</div>
                                 <div class="space-y-1.5">
                                     <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Service was required for court — this video is the proof it occurred</p></div>
-                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Counter-filming by an unnamed associate of the subject is documented intimidation</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Counter-filming by Alex VOURLIOTIS — associate of the subject — is documented intimidation</p></div>
                                     <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Despite being served, Sandy Tulisi did not appear in court</p></div>
                                     <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">No bench warrant — because the form was wrong, as documented above</p></div>
                                 </div>
@@ -2143,9 +2167,18 @@ var EVIDENCE = {
         title:'SUBPOENA SERVICE ATTEMPT — BEHOME PROPERTY',
         tag:'Sandy Tulisi · Chris Park · Form 10 Service · 15 January 2024',
         meta:'Video · Recorded for court purposes · Adam Watson serving documents · BeHome property',
-        desc:'Adam Watson attending the BeHome property to serve the Form 10 subpoena on Sandy Tulisi and Chris Park. A shirtless male with earrings who was present began filming Adam Watson on his phone — despite CCTV cameras already covering the property. He refused to provide his name when asked directly. Sandy Tulisi eventually answered the door, stated that Chris Park was sick, and accepted service of the documents. This recording was made to provide a court record of proper service in the event it was later disputed.',
+        desc:'Adam Watson attending the BeHome property to serve the Form 10 subpoena on Sandy Tulisi and Chris Park. Alex VOURLIOTIS — a shirtless male with earrings associated with the property — began filming Adam Watson on his phone despite CCTV cameras already covering the premises. He refused to provide his name when asked directly on camera. Sandy Tulisi eventually answered the door, stated that Chris Park was sick, and accepted service of the documents. This recording was made to provide a court record of proper service in the event it was later disputed.',
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/VID_20240115_165018.mp4',
         filename:'VID_20240115_165018.mp4'
+    },
+    'pdf-public-nuisance-charge': {
+        type:'pdf',
+        title:'PUBLIC NUISANCE — QP CHARGE SHEET',
+        tag:'Marc Barrow · Queensland Police · BeHome Property Eviction',
+        meta:'PDF · QP Charge Sheet · Escalated through post · Dropped by Judge',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/public_nuisance_charge.pdf',
+        filename:'public_nuisance_charge.pdf',
+        desc:'The Public Nuisance charge sheet issued during the eviction from the BeHome property. The document refers to the property as a "hostel" — it was a licensed rooming house. The charge sheet stated I would be arrested for trespass; this was invalid as the Notice to Leave was for the following day and had been shown to Officer Marc Barrow directly — he had no lawful basis to arrest for trespass. Barrow also removed items from the property without a warrant of possession, which is unlawful. During the van incident, abusive comments were made — but only after being pushed against the police van without provocation, as BWC footage from the incident (currently being sought) will confirm. I had also notified Barrow of property breaches — his duty as a police officer was to uphold the law, not facilitate an unlawful eviction. The initial public nuisance ticket was escalated to a formal Public Nuisance charge through the post. The charge was subsequently dropped by the Judge.'
     },
     'image-cup': {
         type:'image',
