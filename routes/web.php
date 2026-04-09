@@ -6,6 +6,10 @@ Route::get('/', function () {
     return view('welcome-au');
 });
 
+Route::get('/episode-2', function () {
+    return view('welcome-au-ep2');
+});
+
 Route::get('/new', function () {
     return view('new');
 });
