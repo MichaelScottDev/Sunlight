@@ -609,6 +609,50 @@
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">POLICE AT THE DOOR.<br><span class="text-hot">NOWHERE TO SLEEP.</span></h3>
                     <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"They called the police. And they showed them an eviction notice. An invalid one. Built on the fake breach notices. A Police Banning Notice — No. 385003 — was applied. The kind designed for alcohol and drug incidents at licensed venues."</p>
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">I was arrested. Charged with Contravening a Banning Notice. My belongings were removed. I was evicted without due process. I was homeless that night.</p>
+
+                    <!-- Timeline contradiction -->
+                    <div class="border border-hot/30 p-5 mb-5" style="background:rgba(193,68,14,0.05)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-4">The Timeline That Should Not Be Possible</div>
+                        <div class="space-y-3 mb-5">
+                            <div class="flex gap-4 items-start border-b border-paper/[0.06] pb-3">
+                                <span class="text-[0.62rem] text-hot/70 w-20 shrink-0 font-display tracking-wide pt-0.5">23/10/23</span>
+                                <div>
+                                    <div class="text-[0.62rem] text-paper/65 mb-0.5">Contravene Banning Notice charge issued — Queensland Person History, page 9</div>
+                                    <div class="text-[0.55rem] text-paper/35 leading-relaxed">Marc Barrow applied Police Banning Notice No. 385003 and issued the charge on this date. The charge is recorded in the Queensland Person History, confirmed in the police correspondence at page 9.</div>
+                                </div>
+                            </div>
+                            <div class="flex gap-4 items-start">
+                                <span class="text-[0.62rem] text-gold/70 w-20 shrink-0 font-display tracking-wide pt-0.5">24/10/23</span>
+                                <div>
+                                    <div class="text-[0.62rem] text-paper/65 mb-0.5">Notice to Leave — resident must vacate by 5:00pm</div>
+                                    <div class="text-[0.55rem] text-paper/35 leading-relaxed">The formal Notice to Leave, issued under the RTA, states the resident must vacate the property by 5pm on this date — the day after the charge was already laid.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-l-2 border-hot pl-4">
+                            <p class="text-[0.62rem] text-paper/55 leading-relaxed">The charge of <em>contravening</em> the Notice to Leave was issued on 23 October. The Notice to Leave itself did not expire until 5pm on 24 October. You cannot contravene a notice that has not yet required you to leave. The charge was applied before any breach was legally possible.</p>
+                        </div>
+                    </div>
+
+                    <!-- Serious Breach with no evidence -->
+                    <div class="border-l-4 pl-5 mb-2" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Serious Breach — No Email. No Complaints. No Explanation.</div>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">The Notice to Leave was issued under the category of <strong class="text-paper/70">Serious Breach</strong>. There is no email documenting what the serious breach was. There are no complaints from any housemates. The Public Nuisance incident — itself disputed — occurred after the Notice to Leave was already issued, meaning it could not have been the basis for it. The "serious breach" cited to justify removing a person from their home has no paper trail because no breach occurred.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-3">
+                            <div class="border border-paper/[0.07] p-3 text-center">
+                                <div class="font-display text-xl mb-1" style="color:#7c6aaa">0</div>
+                                <div class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/30">Emails about breach</div>
+                            </div>
+                            <div class="border border-paper/[0.07] p-3 text-center">
+                                <div class="font-display text-xl mb-1" style="color:#7c6aaa">0</div>
+                                <div class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/30">Housemate complaints</div>
+                            </div>
+                            <div class="border border-paper/[0.07] p-3 text-center">
+                                <div class="font-display text-xl text-hot mb-1">1</div>
+                                <div class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/30">Charge before deadline</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div id="s-ch5" class="story-chapter reveal" style="transition-delay:0.25s;border-left-color:rgba(201,138,16,0.3)">
@@ -797,7 +841,7 @@
                                 <div class="ev-icon ev-pdf">PDF</div>
                                 <div class="ev-meta">
                                     <div class="ev-name">police_corrrespondence.pdf — Police Correspondence · Page 27</div>
-                                    <div class="ev-desc">PDF · Page 27: prosecution received RTA bond confirmation — knew property was a rooming accommodation not a hostel — chose to proceed with "hostel" framing regardless</div>
+                                    <div class="ev-desc">PDF · Page 9: Queensland Person History — charge issued 23/10/23, before notice expired 24/10/23 · Page 27: prosecution had RTA bond confirmation, knew it was a rooming accommodation, called it a hostel in court</div>
                                 </div>
                                 <span class="ev-cta">View →</span>
                             </div>
@@ -2248,10 +2292,10 @@ var EVIDENCE = {
         type:'pdf',
         title:'POLICE CORRESPONDENCE — PROSECUTION HAD THE BOND CONFIRMATION',
         tag:'Sandy Tulisi · RTA Bond · Split Identity · Prosecution Conduct',
-        meta:'PDF · Police Correspondence · Page 27 · Rooming Accommodation confirmation',
+        meta:'PDF · Police Correspondence · Page 9: Queensland Person History · Page 27: Rooming Accommodation confirmation',
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/police_corrrespondence.pdf',
         filename:'police_corrrespondence.pdf',
-        desc:'Page 27 of the police correspondence confirms that the prosecution received a copy of the RTA bond confirmation — the same document that establishes the property as a registered rooming accommodation, not a hostel. This means the prosecution knew Sandy Tulisi was operating under a split identity (BeHome / SOLAC HOUSE registered with the RTA). They had the paperwork. They had proof it was a rooming accommodation. They chose to call it a hostel in court regardless. The Judge accepted that framing without challenge. This is not an oversight — it is a deliberate choice to misrepresent the nature of the property in proceedings against the tenant, while the operator faced no consequences.'
+        desc:'Two key pages. Page 9 — the Queensland Person History — records the Contravene Banning Notice charge as issued on 23/10/23. The Notice to Leave states the resident must vacate by 5pm on 24/10/23. The charge was issued the day before the notice expired, meaning no contravention was legally possible at the time of the charge. Page 27 confirms the prosecution received a copy of the RTA bond confirmation — proof the property was a registered rooming accommodation, not a hostel. The prosecution knew Sandy Tulisi was operating under a split identity (BeHome / SOLAC HOUSE). They had the paperwork. They chose to call it a hostel in court anyway. The Judge accepted that framing. This is not oversight — it is deliberate misrepresentation in proceedings against the tenant, while the operator faced no consequences.'
     },
     'pdf-contravene-banning-notice': {
         type:'pdf',
@@ -2284,11 +2328,11 @@ var EVIDENCE = {
     'pdf-ntl': {
         type:'pdf',
         title:'NOTICE TO LEAVE — RTA',
-        tag:'Queensland RTA · Oct 2023',
+        tag:'Queensland RTA · Oct 2023 · Serious Breach — No Evidence of Breach',
         meta:'PDF Document · Official RTA Form · Issued on false premises',
-        desc:'This Notice to Leave was constructed on the false breach notices — six emails claiming rent was overdue when it was not. It was presented to police to justify applying Police Banning Notice No. 385003 in what was fundamentally a civil tenancy dispute. All charges arising from it were dropped in full.',
-        filename:'rta_notice_to_leave.pdf',
-        pages: 2
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/notice_to_leave.pdf',
+        filename:'notice_to_leave.pdf',
+        desc:'The Notice to Leave issued under the RTA, citing a Serious Breach. The document states the resident must vacate by 5pm on 24/10/23. However, the Contravene Banning Notice charge — confirmed in the Queensland Person History at page 9 of the police correspondence — was issued on 23/10/23, the day before the vacate deadline. You cannot contravene a notice that has not yet expired. There is no email documenting what the "Serious Breach" was. There are no complaints from any housemates. The Public Nuisance incident occurred after the Notice to Leave was issued and could not have been its basis. The Notice to Leave was built on the six false rent notices and was used to apply Police Banning Notice No. 385003 in a civil tenancy dispute. All charges were subsequently dropped in full.'
     },
     'pdf-court': {
         type:'pdf',
