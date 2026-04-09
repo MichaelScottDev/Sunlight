@@ -730,6 +730,13 @@
                             </div>
                         </div>
 
+                        <!-- Prosecution had the bond confirmation -->
+                        <div class="border p-4 mb-4" style="border-color:rgba(193,68,14,0.4);background:rgba(193,68,14,0.06)">
+                            <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">They Had the Proof. They Proceeded Anyway.</div>
+                            <p class="text-[0.62rem] text-paper/55 leading-relaxed mb-2">Page 27 of the police correspondence establishes something that cannot be explained away as an error: <strong class="text-paper/75">the prosecution had a copy of the RTA bond confirmation</strong>. That document shows the property registered as a rooming accommodation — not a hostel. They had it. They knew what Sandy Tulisi was operating. They knew about the split identity between BeHome and SOLAC HOUSE.</p>
+                            <p class="text-[0.62rem] text-paper/55 leading-relaxed">And yet they stood in court and called it a hostel. And the Judge went along with it. This was not a mistake made from ignorance. This was a choice — made with the documentation in hand — to misrepresent the nature of the property in a proceeding against the person who had been evicted from it.</p>
+                        </div>
+
                         <div class="border-l-2 pl-4 py-1" style="border-color:rgba(124,106,170,0.4)">
                             <p class="text-[0.62rem] text-paper/40 leading-relaxed italic">"The Judge didn't even have the video of Adam Watson serving the subpoena and made comments that she had no evidence it was served. I filmed it. I gave it to the Court. The Court didn't have it in front of them. This is how the system works against you — not through malice, but through a paper-based process that loses documents, loses videos, loses accountability — and when it does, the wrongdoer walks free and you carry the consequences."</p>
                         </div>
@@ -743,7 +750,7 @@
                                 <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Subpoena Procedural Failure · Systemic Injustice</span>
                             </div>
                             <div class="flex items-center gap-3">
-                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">6 files</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">7 files</span>
                                 <span class="ev-toggle">▼</span>
                             </div>
                         </div>
@@ -785,6 +792,15 @@
                                 <span class="redact-tag">⬛ Redacted</span>
                                 <span class="ev-cta ml-2">View →</span>
                             </div>
+                            <!-- Police Correspondence -->
+                            <div class="ev-file ef-hot" onclick="openMV('pdf-police-correspondence')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">police_corrrespondence.pdf — Police Correspondence · Page 27</div>
+                                    <div class="ev-desc">PDF · Page 27: prosecution received RTA bond confirmation — knew property was a rooming accommodation not a hostel — chose to proceed with "hostel" framing regardless</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
                             <!-- Full court transcript -->
                             <div class="ev-file ef-violet" onclick="openMV('pdf-contravene-banning-notice')">
                                 <div class="ev-icon ev-pdf">PDF</div>
@@ -799,7 +815,7 @@
                                 <div class="ev-icon ev-video">▶</div>
                                 <div class="ev-meta">
                                     <div class="ev-name">VID_20240115_165018.mp4 — Subpoena Service Attempt · BeHome</div>
-                                    <div class="ev-desc">Video · Adam Watson serving Form 10 · BeHome property · 15 Jan 2024 · Intimidatory counter-recording by Alex VOURLIOTIS</div>
+                                    <div class="ev-desc">Video · Adam Watson serving Form 10 · BeHome property · 15 Jan 2024 · Counter-recording by unidentified male who refused to give his name</div>
                                 </div>
                                 <span class="redact-tag" style="color:#c98a10;border-color:rgba(201,138,16,0.4)">📹 Court Record</span>
                                 <span class="ev-cta ml-2">Watch →</span>
@@ -814,17 +830,17 @@
                     <!-- Service attempt at BeHome -->
                     <div class="border-l-4 border-gold/50 pl-5 mt-6 mb-2" style="background:rgba(201,138,16,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
                         <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">On Camera — The Service Attempt at BeHome</div>
-                        <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">ALEX VOURLIOTIS.<br><span class="text-gold">RECORDING THE PERSON SERVING THE SUBPOENA.</span></h4>
+                        <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">AN UNIDENTIFIED MAN.<br><span class="text-gold">RECORDING THE PERSON SERVING THE SUBPOENA.</span></h4>
                         <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Adam Watson attended the BeHome property to serve the Form 10 subpoena on Sandy Tulisi and Chris Park. The entire service attempt was recorded — not to document harassment, but to provide a court record of proper service in the event it was later disputed.</p>
-                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">On arrival, a shirtless man with earrings — not Sandy Tulisi, not Chris Park — appeared and began recording Adam Watson on his phone. He has since been identified as <strong style="color:#c98a10">Alex VOURLIOTIS</strong>. The property already had CCTV cameras covering the premises. A person choosing to additionally film someone who is there to serve legal documents, in a property already under camera surveillance, serves one purpose: intimidation. VOURLIOTIS refused to provide his name when asked directly on camera.</p>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">On arrival, a shirtless man with earrings — not Sandy Tulisi, not Chris Park — appeared and began recording Adam Watson on his phone. The property already had CCTV cameras covering the premises. A person choosing to additionally film someone who is there to serve legal documents, in a property already under camera surveillance, serves one purpose: intimidation. When asked directly on camera to provide his name, the man refused. He remains unidentified. His deliberate refusal to identify himself is consistent with the wider pattern of obfuscation surrounding this operation — and raises the question of what the police knew about who was present at this property and why.</p>
                         <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Sandy Tulisi eventually answered the door. She stated that Chris Park was sick. She accepted service of the documents. The service was complete and recorded on video.</p>
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
                             <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
                                 <div class="text-[0.46rem] tracking-[0.18em] uppercase text-gold mb-2">What the Video Shows</div>
                                 <div class="space-y-1.5">
-                                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Alex VOURLIOTIS recording Adam Watson on phone</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Unidentified shirtless male recording Adam Watson on phone</p></div>
                                     <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">CCTV already present — additional filming unnecessary</p></div>
-                                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">VOURLIOTIS refuses to identify himself when asked on camera</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Man refuses to identify himself when asked directly on camera</p></div>
                                     <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Sandy Tulisi answers door, accepts service</p></div>
                                     <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Sandy states Chris Park is sick</p></div>
                                 </div>
@@ -833,7 +849,7 @@
                                 <div class="text-[0.46rem] tracking-[0.18em] uppercase text-hot mb-2">Why This Matters</div>
                                 <div class="space-y-1.5">
                                     <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Service was required for court — this video is the proof it occurred</p></div>
-                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Counter-filming by Alex VOURLIOTIS — associate of the subject — is documented intimidation</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Counter-filming by an unidentified associate of the subject — deliberate refusal to ID adds to pattern of obfuscation</p></div>
                                     <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Despite being served, Sandy Tulisi did not appear in court</p></div>
                                     <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">No bench warrant — because the form was wrong, as documented above</p></div>
                                 </div>
@@ -2227,9 +2243,18 @@ var EVIDENCE = {
         title:'SUBPOENA SERVICE ATTEMPT — BEHOME PROPERTY',
         tag:'Sandy Tulisi · Chris Park · Form 10 Service · 15 January 2024',
         meta:'Video · Recorded for court purposes · Adam Watson serving documents · BeHome property',
-        desc:'Adam Watson attending the BeHome property to serve the Form 10 subpoena on Sandy Tulisi and Chris Park. Alex VOURLIOTIS — a shirtless male with earrings associated with the property — began filming Adam Watson on his phone despite CCTV cameras already covering the premises. He refused to provide his name when asked directly on camera. Sandy Tulisi eventually answered the door, stated that Chris Park was sick, and accepted service of the documents. This recording was made to provide a court record of proper service in the event it was later disputed.',
+        desc:'Adam Watson attending the BeHome property to serve the Form 10 subpoena on Sandy Tulisi and Chris Park. An unidentified shirtless male with earrings — not Sandy Tulisi, not Chris Park — began filming Adam Watson on his phone despite CCTV cameras already covering the premises. When asked directly on camera to provide his name, the man refused. He remains unidentified. His deliberate refusal is consistent with the pattern of obfuscation surrounding this operation. Sandy Tulisi eventually answered the door, stated that Chris Park was sick, and accepted service of the documents. This recording was made to provide a court record of proper service in the event it was later disputed.',
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/VID_20240115_165018.mp4',
         filename:'VID_20240115_165018.mp4'
+    },
+    'pdf-police-correspondence': {
+        type:'pdf',
+        title:'POLICE CORRESPONDENCE — PROSECUTION HAD THE BOND CONFIRMATION',
+        tag:'Sandy Tulisi · RTA Bond · Split Identity · Prosecution Conduct',
+        meta:'PDF · Police Correspondence · Page 27 · Rooming Accommodation confirmation',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/police_corrrespondence.pdf',
+        filename:'police_corrrespondence.pdf',
+        desc:'Page 27 of the police correspondence confirms that the prosecution received a copy of the RTA bond confirmation — the same document that establishes the property as a registered rooming accommodation, not a hostel. This means the prosecution knew Sandy Tulisi was operating under a split identity (BeHome / SOLAC HOUSE registered with the RTA). They had the paperwork. They had proof it was a rooming accommodation. They chose to call it a hostel in court regardless. The Judge accepted that framing without challenge. This is not an oversight — it is a deliberate choice to misrepresent the nature of the property in proceedings against the tenant, while the operator faced no consequences.'
     },
     'pdf-contravene-banning-notice': {
         type:'pdf',
