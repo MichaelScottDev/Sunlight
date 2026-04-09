@@ -684,6 +684,57 @@
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The Registry's response was to suggest I use Form 10 anyway. Adam complied, got it stamped, and had it served on Sandy Tulisi. At trial, the Judge explicitly stated that the Registrar should never have stamped that form — it was procedurally improper.</p>
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Result: No bench warrant was issued when Sandy didn't appear. Chris Park never took the stand. The two key witnesses against the landlords were absent from the courtroom. I won the case — the charges were dropped — but the landlords faced no accountability because the court's own official failed to follow proper procedure.</p>
 
+                    <!-- INSIDE THE COURTROOM -->
+                    <div class="mt-6 border-l-4 pl-6" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.04);padding:1.5rem">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-violet mb-3">Inside the Courtroom — Contravene Banning Notice Proceedings</div>
+                        <h4 class="font-display text-xl tracking-wide mb-4 leading-tight">"DO YOU THINK YOU CAN MISLEAD THE COURT<br><span style="color:#7c6aaa">BECAUSE YOU'RE A POLICE OFFICER?"</span></h4>
+                        <p class="text-[0.68rem] leading-relaxed text-paper/45 mb-4">The full transcript of the Contravene Banning Notice proceedings is published below. What it documents is not just a procedural failure — it is a courtroom in which the system actively worked against the person it was supposed to protect.</p>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                            <div class="border p-4" style="border-color:rgba(124,106,170,0.25);background:rgba(124,106,170,0.03)">
+                                <div class="text-[0.46rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Page 26 — Cross-Examination of Marc Barrow</div>
+                                <p class="text-[0.62rem] text-paper/45 leading-relaxed mb-2">On cross-examination, I asked Marc Barrow directly: <em class="text-paper/65">"Do you think you can mislead the Court because you're a police officer?"</em></p>
+                                <p class="text-[0.62rem] text-paper/45 leading-relaxed">The Judge intervened — prompted by Adam Watson's guidance — to ask whether Barrow could answer the question as put. He could not answer it plainly. A police officer on oath, asked whether he thought his uniform entitled him to mislead a court, could not give a straight answer.</p>
+                            </div>
+                            <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The Missing File — The Judge Had No Subpoena Record</div>
+                                <p class="text-[0.62rem] text-paper/45 leading-relaxed mb-2">The Judge did not have the subpoena file in front of her. The document proving formal service on Sandy Tulisi — the very basis for why she should have been in that courtroom — was not before the court. The Judge stated she had no proof the people named in the subpoena had actually been served.</p>
+                                <p class="text-[0.62rem] text-paper/45 leading-relaxed">The service had been filmed in full. The video had been provided to the Court. The Judge made her comments without it. This is not a hypothetical risk of a paper-based court system — it is an actual outcome that occurred in this case.</p>
+                            </div>
+                        </div>
+
+                        <div class="border border-paper/[0.07] p-4 mb-4" style="background:rgba(12,8,4,0.4)">
+                            <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/30 mb-3">The Language Used in That Courtroom</div>
+                            <div class="space-y-2.5">
+                                <div class="flex gap-3 items-start">
+                                    <span class="text-hot text-xs shrink-0 mt-0.5">×</span>
+                                    <div>
+                                        <div class="text-[0.6rem] text-paper/60 mb-0.5">The Prosecution referred to the property as a <span class="text-hot">"hostel"</span> throughout proceedings.</div>
+                                        <div class="text-[0.55rem] text-paper/35 leading-relaxed">It was a licensed rooming accommodation under Queensland law. Marc Barrow used the same language in the charge sheet. The word "hostel" carries connotations of transience and disorder — it is not a legal classification, and it is not what the RTA register says. The entire prosecution was built on a word designed to make the property — and by extension the tenant — seem less legitimate.</div>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3 items-start">
+                                    <span class="text-hot text-xs shrink-0 mt-0.5">×</span>
+                                    <div>
+                                        <div class="text-[0.6rem] text-paper/60 mb-0.5">The Judge referred to the property as a <span class="text-hot">"hostel"</span>.</div>
+                                        <div class="text-[0.55rem] text-paper/35 leading-relaxed">Not a rooming house. Not a rooming accommodation. A hostel. The same misclassification used by the officer who issued the charge, repeated unchallenged from the bench. Language that frames the victim as a transient — not a tenant with legal rights — does not belong in a court of law. It belongs in a narrative designed to justify what was done.</div>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3 items-start">
+                                    <span class="text-gold text-xs shrink-0 mt-0.5">→</span>
+                                    <div>
+                                        <div class="text-[0.6rem] text-paper/60 mb-0.5">The Registry stamped the wrong form. The consequence fell on me.</div>
+                                        <div class="text-[0.55rem] text-paper/35 leading-relaxed">A court official gave incorrect advice and stamped an improper subpoena. The Judge acknowledged this at trial. But the practical result — Sandy Tulisi absent, no bench warrant, no accountability for the landlord — was absorbed entirely by the person the system was supposed to help. The Registry made the error. I lost the witnesses. That is not a technicality. That is the system protecting itself at the expense of justice.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="border-l-2 pl-4 py-1" style="border-color:rgba(124,106,170,0.4)">
+                            <p class="text-[0.62rem] text-paper/40 leading-relaxed italic">"The Judge didn't even have the video of Adam Watson serving the subpoena and made comments that she had no evidence it was served. I filmed it. I gave it to the Court. The Court didn't have it in front of them. This is how the system works against you — not through malice, but through a paper-based process that loses documents, loses videos, loses accountability — and when it does, the wrongdoer walks free and you carry the consequences."</p>
+                        </div>
+                    </div>
+
                     <!-- EVIDENCE VAULT: Systemic Injustice -->
                     <div class="evidence-vault">
                         <div class="ev-header" onclick="toggleVault(this)">
@@ -692,7 +743,7 @@
                                 <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Subpoena Procedural Failure · Systemic Injustice</span>
                             </div>
                             <div class="flex items-center gap-3">
-                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">5 files</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">6 files</span>
                                 <span class="ev-toggle">▼</span>
                             </div>
                         </div>
@@ -733,6 +784,15 @@
                                 </div>
                                 <span class="redact-tag">⬛ Redacted</span>
                                 <span class="ev-cta ml-2">View →</span>
+                            </div>
+                            <!-- Full court transcript -->
+                            <div class="ev-file ef-violet" onclick="openMV('pdf-contravene-banning-notice')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">contravene_banning_notice.pdf — Full Court Transcript</div>
+                                    <div class="ev-desc">PDF · Full proceedings · Contravene Banning Notice · Marc Barrow cross-examined · Hostel misclassification · Missing subpoena file · Charges dropped</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
                             </div>
                             <!-- Subpoena service attempt video -->
                             <div class="ev-file ef-gold" onclick="openMV('video-sandy-service')">
@@ -2170,6 +2230,15 @@ var EVIDENCE = {
         desc:'Adam Watson attending the BeHome property to serve the Form 10 subpoena on Sandy Tulisi and Chris Park. Alex VOURLIOTIS — a shirtless male with earrings associated with the property — began filming Adam Watson on his phone despite CCTV cameras already covering the premises. He refused to provide his name when asked directly on camera. Sandy Tulisi eventually answered the door, stated that Chris Park was sick, and accepted service of the documents. This recording was made to provide a court record of proper service in the event it was later disputed.',
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/VID_20240115_165018.mp4',
         filename:'VID_20240115_165018.mp4'
+    },
+    'pdf-contravene-banning-notice': {
+        type:'pdf',
+        title:'CONTRAVENE BANNING NOTICE — FULL COURT TRANSCRIPT',
+        tag:'Marc Barrow · Southport Magistrates Court · Charges Dropped',
+        meta:'PDF · Full Proceedings Transcript · Contravene Banning Notice No. 385003',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/contravene_banning_notice.pdf',
+        filename:'contravene_banning_notice.pdf',
+        desc:'Full transcript of the Contravene Banning Notice proceedings. At page 26, I cross-examined Marc Barrow directly: "Do you think you can mislead the Court because you\'re a police officer?" The Judge — prompted by Adam Watson — asked whether Barrow could answer the question as put. He could not give a straight answer. Throughout proceedings, the Prosecution referred to the property as a "hostel" — not a rooming accommodation as registered. The Judge used the same language. The Judge also did not have the subpoena file before her and stated she had no proof Sandy Tulisi had been served — despite the service being filmed in full and provided to the Court. The Registry stamped the wrong form. The Judge made findings without the video. The consequence of both failures fell on me. The charge was dropped. Sandy Tulisi faced no accountability.'
     },
     'pdf-public-nuisance-charge': {
         type:'pdf',
