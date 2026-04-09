@@ -584,6 +584,20 @@
                             <div class="text-[0.68rem] text-paper/60 leading-relaxed">Property capacity: <span class="text-gold">up to 100 tenants</span>. If the bond delay was systematic, hundreds of bonds may have sat unprotected outside the RTA scheme.</div>
                         </div>
                     </div>
+
+                    <!-- Appel Street / entity obfuscation -->
+                    <div class="border-l-4 pl-5 mt-6" style="border-color:rgba(201,138,16,0.5);background:rgba(201,138,16,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">Four Entity Names. One Property. Maximum Ambiguity.</div>
+                        <h4 class="font-display text-lg tracking-wide text-gold mb-3">THE NOTICE TO LEAVE IS ISSUED BY "APPEL STREET PTY LTD".<br><span class="text-paper/55">THE RTA'S OWN EMAIL CALLS IT "BEHOME".</span></h4>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The Notice to Leave — the formal legal document used to evict me — lists the issuing entity as <strong class="text-paper/70">Appel Street Pty Ltd</strong>. Not BeHome. Not SOLAC HOUSE. Not Sandy Tulisi or Sandy Park. A fourth entity name, appearing on the most consequential document in the entire dispute, making it as difficult as possible to trace what is happening to whom.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">The RTA's own email — reproduced in the police correspondence — refers to the entity as BeHome. So the regulator uses one name, and the eviction notice uses another. Each official document in this chain references a different legal identity. Any attempt to link the conduct to a single responsible party requires navigating between Sandy Tulisi, Sandy Park, BeHome, SOLAC HOUSE, and Appel Street Pty Ltd — all of which point back to the same property, the same operation, and the same person.</p>
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                            <div class="border border-paper/[0.07] p-3 text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold/60 mb-1">Person</div><div class="text-[0.6rem] text-paper/50">Sandy Tulisi<br><span class="text-paper/30">/ Sandy Park</span></div></div>
+                            <div class="border border-paper/[0.07] p-3 text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold/60 mb-1">RTA Registration</div><div class="text-[0.6rem] text-paper/50">SOLAC HOUSE</div></div>
+                            <div class="border border-paper/[0.07] p-3 text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold/60 mb-1">Trading Name</div><div class="text-[0.6rem] text-paper/50">BeHome</div></div>
+                            <div class="border border-paper/[0.07] p-3 text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold/60 mb-1">Eviction Notice</div><div class="text-[0.6rem] text-paper/50">Appel Street<br>Pty Ltd</div></div>
+                        </div>
+                    </div>
                 </div>
 
                 <div id="s-ch3" class="story-chapter reveal" style="transition-delay:0.15s">
@@ -769,7 +783,11 @@
                     </div>
                 </div>
 
-                <div id="s-ch6" class="story-chapter reveal" style="transition-delay:0.3s;border-left-color:rgba(193,68,14,0.3)">
+            </div><!-- /space-y-16 -->
+        </div><!-- /grid -->
+
+        <!-- Chapter 06 — full width -->
+        <div id="s-ch6" class="mt-16 pt-12 border-t border-paper/[0.05] reveal">
                     <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter 06</span><span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Systemic Injustice</span></div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE REGISTRAR'S MISTAKE.<br><span class="text-hot">INJUSTICE GOES FREE.</span></h3>
                     <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"I sent a detailed legal email to Southport Court Registry explaining why Form 21 was the correct subpoena form. Their response was to stamp Form 10 anyway. A judge later said they should never have done that. By then it was too late. The landlords walked free."</p>
@@ -1005,8 +1023,6 @@
                     </div>
                 </div>
 
-            </div>
-        </div>
     </div>
 </section>
 
