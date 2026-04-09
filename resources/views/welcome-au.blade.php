@@ -668,7 +668,7 @@
                                 <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Subpoena Procedural Failure · Systemic Injustice</span>
                             </div>
                             <div class="flex items-center gap-3">
-                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">4 files</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">5 files</span>
                                 <span class="ev-toggle">▼</span>
                             </div>
                         </div>
@@ -710,9 +710,49 @@
                                 <span class="redact-tag">⬛ Redacted</span>
                                 <span class="ev-cta ml-2">View →</span>
                             </div>
+                            <!-- Subpoena service attempt video -->
+                            <div class="ev-file ef-gold" onclick="openMV('video-sandy-service')">
+                                <div class="ev-icon ev-video">▶</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">VID_20240115_165018.mp4 — Subpoena Service Attempt · BeHome</div>
+                                    <div class="ev-desc">Video · Adam Watson serving Form 10 · BeHome property · 15 Jan 2024 · Intimidatory counter-recording by unidentified shirtless male</div>
+                                </div>
+                                <span class="redact-tag" style="color:#c98a10;border-color:rgba(201,138,16,0.4)">📹 Court Record</span>
+                                <span class="ev-cta ml-2">Watch →</span>
+                            </div>
                             <div class="ev-zip-bar">
                                 <span class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/25">Download all files — Evidence of systemic procedural failure</span>
                                 <button class="mv-dl-btn mv-dl-hot text-[0.48rem]" onclick="downloadZip('systemic_injustice_subpoena_failure.zip')">⬇ ZIP Bundle</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service attempt at BeHome -->
+                    <div class="border-l-4 border-gold/50 pl-5 mt-6 mb-2" style="background:rgba(201,138,16,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">On Camera — The Service Attempt at BeHome</div>
+                        <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">A SHIRTLESS MAN WITH EARRINGS.<br><span class="text-gold">RECORDING THE PERSON SERVING THE SUBPOENA.</span></h4>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Adam Watson attended the BeHome property to serve the Form 10 subpoena on Sandy Tulisi and Chris Park. The entire service attempt was recorded — not to document harassment, but to provide a court record of proper service in the event it was later disputed.</p>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">On arrival, a shirtless man with earrings — not Sandy Tulisi, not Chris Park — appeared and began recording Adam Watson on his phone. The property already had CCTV cameras covering the premises. A person choosing to additionally film someone who is there to serve legal documents, in a property already under camera surveillance, serves one purpose: intimidation. The man refused to provide his name when asked directly.</p>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Sandy Tulisi eventually answered the door. She stated that Chris Park was sick. She accepted service of the documents. The service was complete and recorded on video.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
+                            <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
+                                <div class="text-[0.46rem] tracking-[0.18em] uppercase text-gold mb-2">What the Video Shows</div>
+                                <div class="space-y-1.5">
+                                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Shirtless male recording Adam Watson on phone</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">CCTV already present — additional filming unnecessary</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Male refuses to identify himself when asked</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Sandy Tulisi answers door, accepts service</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Sandy states Chris Park is sick</p></div>
+                                </div>
+                            </div>
+                            <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.46rem] tracking-[0.18em] uppercase text-hot mb-2">Why This Matters</div>
+                                <div class="space-y-1.5">
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Service was required for court — this video is the proof it occurred</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Counter-filming by an unnamed associate of the subject is documented intimidation</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Despite being served, Sandy Tulisi did not appear in court</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">No bench warrant — because the form was wrong, as documented above</p></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -2098,6 +2138,15 @@ function toggleVault(header) {
 var currentFile = null;
 
 var EVIDENCE = {
+    'video-sandy-service': {
+        type:'video',
+        title:'SUBPOENA SERVICE ATTEMPT — BEHOME PROPERTY',
+        tag:'Sandy Tulisi · Chris Park · Form 10 Service · 15 January 2024',
+        meta:'Video · Recorded for court purposes · Adam Watson serving documents · BeHome property',
+        desc:'Adam Watson attending the BeHome property to serve the Form 10 subpoena on Sandy Tulisi and Chris Park. A shirtless male with earrings who was present began filming Adam Watson on his phone — despite CCTV cameras already covering the property. He refused to provide his name when asked directly. Sandy Tulisi eventually answered the door, stated that Chris Park was sick, and accepted service of the documents. This recording was made to provide a court record of proper service in the event it was later disputed.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/VID_20240115_165018.mp4',
+        filename:'VID_20240115_165018.mp4'
+    },
     'image-cup': {
         type:'image',
         title:'THE CUP PHOTO',
