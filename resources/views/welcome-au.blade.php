@@ -653,9 +653,30 @@
                             </div>
                         </div>
                     </div>
+                    <!-- SOLAC HOUSE obfuscation -->
+                    <div class="border-l-4 pl-5 mt-5" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Barrow's Statement — "SOLAC HOUSE" · Deliberate Obfuscation</div>
+                        <h4 class="font-display text-lg tracking-wide mb-3 leading-tight" style="color:#7c6aaa">HE WROTE "SOLAC HOUSE".<br><span class="text-paper/55">THE SIGN ON THE BUILDING SAYS "BEHOME".</span></h4>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">In his official statement, Marc Barrow refers to the property he evicted me from as <strong class="text-paper/70">"SOLAC HOUSE"</strong> — not BeHome. BeHome is the trading name. It is on the building. It is how the property is marketed and found. SOLAC HOUSE is the entity registered with the RTA — a name that the average person would not associate with the premises, and which the police officer documenting the eviction would have seen labelled as something entirely different when he arrived.</p>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">The choice to write "SOLAC HOUSE" in an official police statement is not a clerical error. It is the use of the obscured legal entity rather than the visible trading name — precisely the split identity that Sandy Tulisi maintained to create legal ambiguity. By using "SOLAC HOUSE" in his statement, Barrow insulates himself from any direct association with BeHome: he can claim he simply documented what he was told, without needing to acknowledge the BeHome signage on the building in front of him.</p>
+                        <div class="border border-paper/[0.08] p-3 mt-3" style="background:rgba(12,8,4,0.35)">
+                            <div class="flex gap-4 items-start">
+                                <div class="text-center shrink-0">
+                                    <div class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/25 mb-1">Written in statement</div>
+                                    <div class="font-display text-base" style="color:#7c6aaa">"SOLAC HOUSE"</div>
+                                </div>
+                                <div class="text-paper/20 text-xl self-center">≠</div>
+                                <div class="text-center shrink-0">
+                                    <div class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/25 mb-1">Sign on the building</div>
+                                    <div class="font-display text-base text-gold">"BEHOME"</div>
+                                </div>
+                                <div class="flex-1 border-l border-paper/[0.07] pl-4">
+                                    <div class="text-[0.52rem] text-paper/35 leading-relaxed">One is the obscured RTA legal entity. One is what you see when you walk up to the front door. A sworn police officer on the premises chose to record the former.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div id="s-ch5" class="story-chapter reveal" style="transition-delay:0.25s;border-left-color:rgba(201,138,16,0.3)">
                     <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Chapter 05</span><span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Legal Outcome</span></div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE LAWYER.<br><span class="text-gold">CHARGES DROPPED.</span></h3>
                     <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"He's a lawyer. Not a community legal centre lawyer. He took my case pro bono. The Contravene Banning Notice charge was subsequently dropped in full."</p>
@@ -695,19 +716,47 @@
                         <p class="text-[0.68rem] text-paper/50 leading-relaxed">Marc Barrow made a comment to Adam Watson that if RJ stabs Kosta to death, he will turn a blind eye. Adam Watson relayed this to Kosta. A sworn officer of Queensland Police stated to a third party that he would ignore the murder of a named individual by a named associate. This is not a figure of speech. It is a threat communicated via an intermediary, and it has been documented accordingly.</p>
                     </div>
 
-                    <!-- Public Nuisance Charge Evidence -->
+                    <!-- CCC Response -->
+                    <div class="border-l-4 pl-5 mt-5 mb-2" style="border-color:rgba(61,122,74,0.4);background:rgba(61,122,74,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-2">Crime and Corruption Commission — Response to Marc Barrow Report</div>
+                        <h4 class="font-display text-lg tracking-wide text-sage mb-3">"WE ONLY DEAL WITH THE MOST SERIOUS AND SYSTEMIC CASES."<br><span class="text-paper/55">REFERRED BACK TO QUEENSLAND POLICE SERVICE.</span></h4>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The Crime and Corruption Commission was notified of Marc Barrow's conduct. Their response: they only deal with the most serious and systemic cases of corruption, and the matter was referred back to the Queensland Police Service — the same body the report was made about.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The CCC had access to all of the following at the time of the referral: a charge issued the day before the notice expired; a property deliberately misclassified as a hostel in official documents; items removed from the premises without a warrant of possession; retaliation against a third party (Adam Watson) over the CCC report itself; a sworn officer communicating through an intermediary that he would ignore the murder of a named person by a named associate. They referred it back to QPS.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed">The purpose of the Crime and Corruption Commission is to act when Queensland Police cannot or will not hold themselves accountable. When the oversight body receives a complaint, reviews the material, and sends it back to the institution being complained about — the institution has not been scrutinised. It has been protected. This is not a failure of process. It is the process working exactly as those who benefit from it intend.</p>
+                    </div>
+
+                    <!-- Marc Barrow Evidence Vault -->
                     <div class="evidence-vault mt-6">
                         <div class="ev-header" onclick="toggleVault(this)">
                             <div class="flex items-center gap-2">
                                 <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
-                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Marc Barrow · Public Nuisance · Unlawful Eviction</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Marc Barrow · CCC · Charge Sheet · Unlawful Eviction</span>
                             </div>
                             <div class="flex items-center gap-3">
-                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">3 files</span>
                                 <span class="ev-toggle">▼</span>
                             </div>
                         </div>
                         <div class="ev-body">
+                            <!-- Contravene Banning Notice charge sheet -->
+                            <div class="ev-file ef-hot" onclick="openMV('pdf-qp-charge-sheet')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">qp_contravene_move_on_direction.pdf — QP Charge Sheet · Marc Barrow</div>
+                                    <div class="ev-desc">PDF · Contravene Banning Notice charge sheet · Barrow writes "SOLAC HOUSE" not "BeHome" · Deliberate use of obscured RTA entity to create plausible deniability</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                            <!-- CCC response email -->
+                            <div class="ev-file ef-sage" onclick="openMV('pdf-ccc-marc-barrow')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">crime_commission_marc_barrow.pdf — CCC Response</div>
+                                    <div class="ev-desc">PDF · Crime and Corruption Commission · "Most serious and systemic cases only" · Matter referred back to QPS · Institutional failure documented</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                            <!-- Public Nuisance charge -->
                             <div class="ev-file ef-hot" onclick="openMV('pdf-public-nuisance-charge')">
                                 <div class="ev-icon ev-pdf">PDF</div>
                                 <div class="ev-meta">
@@ -2305,6 +2354,24 @@ var EVIDENCE = {
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/contravene_banning_notice.pdf',
         filename:'contravene_banning_notice.pdf',
         desc:'Full transcript of the Contravene Banning Notice proceedings. At page 26, I cross-examined Marc Barrow directly: "Do you think you can mislead the Court because you\'re a police officer?" The Judge — prompted by Adam Watson — asked whether Barrow could answer the question as put. He could not give a straight answer. Throughout proceedings, the Prosecution referred to the property as a "hostel" — not a rooming accommodation as registered. The Judge used the same language. The Judge also did not have the subpoena file before her and stated she had no proof Sandy Tulisi had been served — despite the service being filmed in full and provided to the Court. The Registry stamped the wrong form. The Judge made findings without the video. The consequence of both failures fell on me. The charge was dropped. Sandy Tulisi faced no accountability.'
+    },
+    'pdf-qp-charge-sheet': {
+        type:'pdf',
+        title:'QP CHARGE SHEET — CONTRAVENE BANNING NOTICE · MARC BARROW',
+        tag:'Marc Barrow · SOLAC HOUSE · BeHome · Deliberate Obfuscation',
+        meta:'PDF · Queensland Police Charge Sheet · Contravene Banning Notice No. 385003',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/qp_contravene_move_on_direction.pdf',
+        filename:'qp_contravene_move_on_direction.pdf',
+        desc:'The Queensland Police charge sheet for Contravene Banning Notice No. 385003, issued by Marc Barrow. In his statement, Barrow refers to the property as "SOLAC HOUSE" — the obscured RTA legal entity — rather than "BeHome", the trading name displayed on the building itself. This is not a clerical error. By using the RTA registration name rather than the name visible to anyone approaching the premises, Barrow creates plausible deniability: he can claim he documented what he was told without needing to acknowledge the BeHome branding right in front of him. The same split-identity tactic used by Sandy Tulisi to create legal ambiguity has been reproduced in an official police document.'
+    },
+    'pdf-ccc-marc-barrow': {
+        type:'pdf',
+        title:'CRIME AND CORRUPTION COMMISSION — RESPONSE TO MARC BARROW REPORT',
+        tag:'CCC · Marc Barrow · Referred Back to QPS · Institutional Failure',
+        meta:'PDF · CCC Email Response · "Most serious and systemic cases only"',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/crime_commission_marc_barrow.pdf',
+        filename:'crime_commission_marc_barrow.pdf',
+        desc:'The Crime and Corruption Commission\'s response to the report filed about Marc Barrow\'s conduct. The CCC states they deal only with the most serious and systemic cases of corruption, and refers the matter back to the Queensland Police Service. This response was given despite the CCC having access to: a charge issued before the notice deadline expired; a property deliberately misclassified as a hostel in official documents; property removed without a warrant of possession; documented retaliation against a third party; and a sworn officer communicating that he would ignore the murder of a named person. The oversight body responsible for holding police accountable reviewed this material and sent it back to the institution it concerned. That is not oversight. That is institutional protection.'
     },
     'pdf-public-nuisance-charge': {
         type:'pdf',
