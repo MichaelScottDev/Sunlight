@@ -933,11 +933,8 @@
         <!-- Photo + intro -->
         <div class="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-8 mb-10 reveal">
             <div>
-                <div class="w-full border border-paper/[0.07] flex items-center justify-center" style="aspect-ratio:2/3;background:rgba(201,138,16,0.04)">
-                    <div class="text-center px-4">
-                        <div class="text-[0.55rem] tracking-[0.18em] uppercase text-gold/40 mb-2">Photo</div>
-                        <div class="text-[0.48rem] text-paper/20 leading-relaxed">Samir Dhakal<br>Pending upload</div>
-                    </div>
+                <div class="w-full border border-paper/[0.07] overflow-hidden" style="aspect-ratio:2/3">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/samir_dhakal_another_scammer.jpg" alt="Samir Dhakal" class="w-full h-full object-cover object-top" />
                 </div>
                 <div class="text-[0.45rem] text-paper/20 mt-2 leading-relaxed">Samir Dhakal · Deported · Charged by Sally Downing</div>
             </div>
