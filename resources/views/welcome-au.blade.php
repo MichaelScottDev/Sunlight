@@ -340,6 +340,44 @@
                 <div class="flex items-center gap-3 mb-2"><span class="text-[0.52rem] tracking-[0.2em] uppercase text-hot/60">▶ Now Playing — Navigate via chapters below</span></div>
                 <div id="player" class="w-full aspect-video border border-hot/20" style="box-shadow:0 0 80px rgba(193,68,14,0.09),0 0 0 1px rgba(245,234,212,0.025)"></div>
             </div>
+            <!-- Chapter nav below video -->
+            <div class="fade-up mt-5 border border-paper/[0.07]" style="animation-delay:0.35s;background:rgba(12,8,4,0.7)">
+                <div class="px-4 py-2 border-b border-paper/[0.06]"><span class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/22">Episode 1 — Chapters</span></div>
+                <div class="flex flex-wrap gap-0">
+                    <a href="#story" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
+                        <span class="font-display text-hot text-[0.62rem]">01</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Sandy Tulisi</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Rooming house</div></div>
+                    </a>
+                    <a href="#privacy" class="flex items-center gap-2 px-4 py-3 hover:bg-violet/8 border-r border-paper/[0.06] transition-all group">
+                        <span class="font-display text-[0.62rem]" style="color:#7c6aaa">02</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Privacy Breach</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Aquatic centre leak</div></div>
+                    </a>
+                    <a href="#media" class="flex items-center gap-2 px-4 py-3 hover:bg-gold/8 border-r border-paper/[0.06] transition-all group">
+                        <span class="font-display text-gold text-[0.62rem]">03</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Sky News</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Story didn't run</div></div>
+                    </a>
+                    <a href="#assault" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
+                        <span class="font-display text-hot text-[0.62rem]">04</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Oracle East</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Stalked & assaulted</div></div>
+                    </a>
+                    <a href="#rj" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
+                        <span class="font-display text-hot text-[0.62rem]">05</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">RJ — 11 Incidents</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Sex & Crime Squad</div></div>
+                    </a>
+                    <a href="#adam" class="flex items-center gap-2 px-4 py-3 hover:bg-violet/8 border-r border-paper/[0.06] transition-all group">
+                        <span class="font-display text-[0.62rem]" style="color:#7c6aaa">06</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Adam's Story</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Coercive control</div></div>
+                    </a>
+                    <a href="#brazen" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
+                        <span class="font-display text-hot text-[0.62rem]">07</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Brazen Crime</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Vehicle & arson</div></div>
+                    </a>
+                    <a href="#redress" class="flex items-center gap-2 px-4 py-3 hover:bg-sage/8 transition-all group">
+                        <span class="font-display text-sage text-[0.62rem]">08</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Redress Scheme</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Fraud & gaps</div></div>
+                    </a>
+                </div>
+            </div>
         </div>
         <div class="lg:border-l border-paper/[0.06] flex flex-col" style="background:rgba(12,8,4,0.6)">
             <div class="px-6 py-6 border-b border-paper/[0.06]">
@@ -502,25 +540,8 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-8 lg:gap-16">
-
-            <!-- Left nav -->
-            <div class="hidden lg:block">
-                <div class="sticky top-24 space-y-1">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/20 mb-4">Episode 1 — Chapters</div>
-                    <a href="#story" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot active"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Sandy Tulisi</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Rooming house fraud</div></div></a>
-                    <a href="#privacy" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot" style="background:#7c6aaa;box-shadow:0 0 0 3px rgba(124,106,170,0.2)"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Privacy Breach</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Aquatic centre leak</div></div></a>
-                    <a href="#media" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot" style="background:#c98a10;box-shadow:0 0 0 3px rgba(201,138,16,0.2)"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Sky News</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Story that didn't run</div></div></a>
-                    <a href="#assault" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Oracle East</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Stalked & assaulted</div></div></a>
-                    <a href="#rj" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">RJ — 7 Incidents</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Sex & Crime Squad</div></div></a>
-                    <a href="#adam" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot" style="background:#7c6aaa;box-shadow:0 0 0 3px rgba(124,106,170,0.2)"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Adam's Story</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Coercive control & DPP</div></div></a>
-                    <a href="#brazen" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Brazen Crime</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Vehicle attack & arson</div></div></a>
-                    <a href="#redress" class="flex items-center gap-3 py-2.5 group cursor-pointer"><div class="timeline-dot" style="background:#3d7a4a;box-shadow:0 0 0 3px rgba(61,122,74,0.2)"></div><div><div class="text-[0.62rem] text-paper/45 group-hover:text-paper transition-colors">Redress Scheme</div><div class="text-[0.5rem] text-paper/20 tracking-wider">Verification gap & fraud</div></div></a>
-                </div>
-            </div>
-
-            <!-- Story chapters -->
-            <div class="space-y-16">
+        <!-- Story chapters — single column -->
+        <div class="space-y-16">
 
                 <!-- Chapter 1: The Room -->
                 <div id="s-ch1" class="story-chapter reveal">
@@ -1087,8 +1108,7 @@
                     </div>
                 </div>
 
-            </div><!-- /space-y-16 -->
-        </div><!-- /grid -->
+        </div><!-- /space-y-16 -->
     </div><!-- /max-w-6xl -->
 </section>
 
