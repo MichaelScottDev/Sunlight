@@ -850,11 +850,8 @@
                     </div>
                 </div>
 
-            </div><!-- /space-y-16 -->
-        </div><!-- /grid -->
-
-        <!-- Chapter 06 — full width -->
-        <div id="s-ch6" class="mt-16 pt-12 border-t border-paper/[0.05] reveal">
+                <!-- Chapter 06 -->
+                <div id="s-ch6" class="story-chapter reveal" style="transition-delay:0.3s;border-left-color:rgba(193,68,14,0.3)">
                     <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter 06</span><span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Systemic Injustice</span></div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE REGISTRAR'S MISTAKE.<br><span class="text-hot">INJUSTICE GOES FREE.</span></h3>
                     <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"I sent a detailed legal email to Southport Court Registry explaining why Form 21 was the correct subpoena form. Their response was to stamp Form 10 anyway. A judge later said they should never have done that. By then it was too late. The landlords walked free."</p>
@@ -1090,7 +1087,9 @@
                     </div>
                 </div>
 
-    </div>
+            </div><!-- /space-y-16 -->
+        </div><!-- /grid -->
+    </div><!-- /max-w-6xl -->
 </section>
 
 
