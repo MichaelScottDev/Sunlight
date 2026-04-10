@@ -286,7 +286,18 @@
             </div>
             <div class="fade-up" style="animation-delay:0.25s">
                 <div class="flex items-center gap-3 mb-2"><span class="text-[0.52rem] tracking-[0.2em] uppercase" style="color:rgba(124,106,170,0.6)">▶ Now Playing — Navigate via chapters below</span></div>
-                <div id="player-ep2" class="w-full aspect-video border" style="border-color:rgba(124,106,170,0.2);box-shadow:0 0 80px rgba(124,106,170,0.09),0 0 0 1px rgba(245,234,212,0.025)"></div>
+                <div id="player-ep2" class="w-full aspect-video border" style="border-color:rgba(124,106,170,0.2);box-shadow:0 0 80px rgba(124,106,170,0.09),0 0 0 1px rgba(245,234,212,0.025);background:#060606;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden">
+                    <div class="scanlines" style="position:absolute;inset:0;opacity:0.5"></div>
+                    <div style="text-align:center;position:relative;z-index:2">
+                        <div style="width:60px;height:60px;border:2px solid rgba(124,106,170,0.4);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto;transition:all 0.3s" onmouseover="this.style.borderColor='#7c6aaa';this.style.background='rgba(124,106,170,0.12)'" onmouseout="this.style.borderColor='rgba(124,106,170,0.4)';this.style.background='transparent'">
+                            <span style="color:rgba(124,106,170,0.5);font-size:1.2rem;margin-left:3px">▶</span>
+                        </div>
+                        <div style="margin-top:0.75rem;font-size:0.48rem;letter-spacing:0.18em;text-transform:uppercase;color:rgba(245,234,212,0.2);font-family:'DM Mono',monospace">Episode 2 — Video Pending Upload</div>
+                    </div>
+                    <div style="position:absolute;bottom:0.75rem;left:0;right:0;text-align:center">
+                        <div style="font-size:0.44rem;letter-spacing:0.15em;text-transform:uppercase;color:rgba(124,106,170,0.25);font-family:'DM Mono',monospace">sunlight.quest · season 1 · ep.02</div>
+                    </div>
+                </div>
             </div>
             <!-- Chapter nav below video -->
             <div class="fade-up mt-5 border border-paper/[0.07]" style="animation-delay:0.35s;background:rgba(12,8,4,0.7)">
@@ -337,13 +348,17 @@
                     <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl text-sage">GC</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Region</div></div>
                 </div>
             </div>
-            <div class="px-5 py-4 border-b border-paper/[0.06] flex-1">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">Also In This Episode</div>
-                <div class="space-y-3">
-                    <div class="text-[0.62rem] text-paper/40 leading-relaxed border-l-2 pl-3" style="border-color:rgba(124,106,170,0.3)">Bodie Chalmers — malicious prosecution, $165K fraud, Yakuza connection</div>
-                    <div class="text-[0.62rem] text-paper/40 leading-relaxed border-l-2 border-hot/30 pl-3">RJ — 11 documented incidents, Sex & Crime Squad investigation</div>
-                    <div class="text-[0.62rem] text-paper/40 leading-relaxed border-l-2 pl-3" style="border-color:rgba(201,138,16,0.3)">Kira Kira — furniture out, cocaine in</div>
-                    <div class="text-[0.62rem] text-paper/40 leading-relaxed border-l-2 border-sage/30 pl-3">Tasmania strata litigation — the connection</div>
+            <div class="px-5 py-4 border-b border-paper/[0.06] flex-1 overflow-y-auto">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">Episode Chapters</div>
+                <div class="space-y-0.5">
+                    <div onclick="seekToChapterEp2(0)" class="flex items-center gap-3 py-2.5 px-3 border border-transparent cursor-pointer transition-all group" onmouseover="this.style.background='rgba(124,106,170,0.05)';this.style.borderColor='rgba(124,106,170,0.2)'" onmouseout="this.style.background='';this.style.borderColor='transparent'"><span class="font-display text-sm w-5 shrink-0" style="color:#7c6aaa">01</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Adam's Story</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Coercive control & DPP</div></div><span class="text-[0.52rem] text-paper/18 shrink-0" style="color:rgba(124,106,170,0.4)">▶</span></div>
+                    <div onclick="seekToChapterEp2(1)" class="flex items-center gap-3 py-2.5 px-3 border border-transparent cursor-pointer transition-all group" onmouseover="this.style.background='rgba(124,106,170,0.05)';this.style.borderColor='rgba(124,106,170,0.2)'" onmouseout="this.style.background='';this.style.borderColor='transparent'"><span class="font-display text-sm w-5 shrink-0" style="color:#7c6aaa">02</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Samira</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Registrar recording</div></div><span class="text-[0.52rem] text-paper/18 shrink-0" style="color:rgba(124,106,170,0.4)">▶</span></div>
+                    <div onclick="seekToChapterEp2(2)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">03</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">RJ — 11 Incidents</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Sex & Crime Squad</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapterEp2(3)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">04</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Brazen Crime</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Vehicle attack & arson</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapterEp2(4)" class="flex items-center gap-3 py-2.5 px-3 border border-transparent cursor-pointer transition-all group" onmouseover="this.style.background='rgba(124,106,170,0.05)';this.style.borderColor='rgba(124,106,170,0.2)'" onmouseout="this.style.background='';this.style.borderColor='transparent'"><span class="font-display text-sm w-5 shrink-0" style="color:#7c6aaa">05</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Privacy Breach</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Aquatic centre leak</div></div><span class="text-[0.52rem] text-paper/18 shrink-0" style="color:rgba(124,106,170,0.4)">▶</span></div>
+                    <div onclick="seekToChapterEp2(5)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-sage/5 border border-transparent hover:border-sage/20 cursor-pointer transition-all group"><span class="font-display text-sage text-sm w-5 shrink-0">06</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Redress Scheme</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Verification gap & fraud</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-sage transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapterEp2(6)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-gold/5 border border-transparent hover:border-gold/20 cursor-pointer transition-all group"><span class="font-display text-gold text-sm w-5 shrink-0">07</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Kira & Kira</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Cocaine in, furniture out</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-gold transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapterEp2(7)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">08</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Tasmania</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Strata litigation</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
                 </div>
             </div>
             <div class="px-5 py-5">
@@ -3324,9 +3339,10 @@ var EVIDENCE = {
         type:'pdf',
         title:'BODIE CHALMERS — LIE DETECTOR TEST',
         tag:'Forensic Evidence · EyeDetect® Certified · Scored 1/100',
-        meta:'PDF · Forensic examination · Certified examiner',
+        meta:'PDF · Forensic examination · Certified examiner · 20 May 2025',
         desc:'Certified EyeDetect® biometric lie detection examination conducted at 50 Cavill Avenue, Surfers Paradise. The subject (Bodie Chalmers) scored 1 out of 100 and was rated as "Deceptive" throughout the entire examination. The examiner is a qualified and certified EyeDetect® professional. This forensic evidence strengthens concerns about Bodie Chalmers\'s credibility and supports the pattern of deceptive behaviour documented throughout Adam Watson\'s account of the coercive control incidents.',
-        filename:'bodie_chalmers_lie_detector_test.pdf',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/2025.05.20-lie-detector-test-australia.pdf',
+        filename:'2025.05.20-lie-detector-test-australia.pdf',
         pages: 1
     },
     'pdf-bodie': {
@@ -3703,8 +3719,21 @@ function seekToChapter(index) {
     var ct = null;
     for(var i=0;i<tracks.length;i++){if(tracks[i].kind==='chapters'){ct=tracks[i];break;}}
     if(ct&&ct.cues&&ct.cues.length>index){p.currentTime=ct.cues[index].startTime;}
-    else{var d=p.duration||0;if(d>0)p.currentTime=(d/6)*index;}
-    document.getElementById('player').scrollIntoView({behavior:'smooth',block:'center'});
+    else{var d=p.duration||0;if(d>0)p.currentTime=(d/8)*index;}
+    document.getElementById('player-ep2').scrollIntoView({behavior:'smooth',block:'center'});
+}
+function seekToChapterEp2(index) {
+    var p = window.vidstackPlayerEp2;
+    if(!p) {
+        document.getElementById('player-ep2').scrollIntoView({behavior:'smooth',block:'center'});
+        return;
+    }
+    var tracks = p.textTracks;
+    var ct = null;
+    for(var i=0;i<tracks.length;i++){if(tracks[i].kind==='chapters'){ct=tracks[i];break;}}
+    if(ct&&ct.cues&&ct.cues.length>index){p.currentTime=ct.cues[index].startTime;}
+    else{var d=p.duration||0;if(d>0)p.currentTime=(d/8)*index;}
+    document.getElementById('player-ep2').scrollIntoView({behavior:'smooth',block:'center'});
 }
 
 // ── SMS ──
