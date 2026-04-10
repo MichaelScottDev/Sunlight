@@ -13,3 +13,7 @@ Route::get('/episode-2', function () {
 Route::get('/new', function () {
     return view('new');
 });
+
+Route::get('/white-papers', function () {
+    return view('white-papers');
+});

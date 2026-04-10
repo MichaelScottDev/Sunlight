@@ -457,13 +457,16 @@
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed">This is what social stigmatisation looks like in practice. A person who was the subject of a charge the DPP ruled malicious, who was never convicted, who has no finding against him — denied service at a fast food outlet because of rumours spread by the person who fabricated the charge. This is what Bodie Chalmers and his accomplice Ebony's conduct costs people in daily life.</p>
                 </div>
 
-                <!-- Yakuza van / rent begging -->
-                <div class="border-l-4 border-gold/40 pl-5 mt-6 mb-2" style="background:rgba(201,138,16,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
-                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">Where Bodie Chalmers Is Now</div>
-                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">BEGGING ADAM FOR RENT MONEY.<br><span class="text-gold">THE $30M YAKUZA VAN. THE ALBANIANS. THE DOUBLE CROSS.</span></h4>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The last time Bodie Chalmers made contact with Adam Watson, he was begging for rent money — concerned he was about to be evicted. The drug money appears to have dissipated. The charges have accumulated.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Bodie had received a van containing drugs with a street value in excess of $30 million from the Yakuza, with instructions to sell the product to the Albanian organised crime network. Instead, Bodie double-crossed the Yakuza — telling them the van had been stolen. He then called Adam Watson asking him to negotiate with the Yakuza on his behalf, claiming the drugs were stolen.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">When he was arrested, police found <strong class="text-paper/65">$30,000 worth of Louis Vuitton</strong> in the house. The rent had not been paid. That combination — luxury goods stacked to the ceiling while the landlord goes unpaid — tells you everything about Bodie Chalmers's priorities. He had also accumulated multiple outstanding warrants at the time of arrest, meaning police had been looking for him across multiple jurisdictions while he was living in a $10,000-a-week house surrounded by designer goods.</p>
+                <!-- Yakuza van / custody update -->
+                <div class="border-l-4 border-hot/50 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">Current Status</span>
+                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5 blink">⬤ IN CUSTODY</span>
+                    </div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">96 CHARGES.<br><span class="text-hot">IN CUSTODY. INCLUDING FALSE ACCUSATIONS AGAINST ADAM WATSON.</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Bodie Chalmers is currently in custody. He has been charged with 96 offences. Among those charges are the false accusations made against Adam Watson — the same pattern documented across this chapter, now formally before the courts.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The last time Bodie made contact with Adam, he was begging for rent money while the drug money had dissipated. He had received a van from the Yakuza containing drugs with a street value in excess of $30 million, with instructions to move the product to the Albanian organised crime network. Instead, Bodie double-crossed the Yakuza — told them the van was stolen. He then called Adam Watson asking him to negotiate with the Yakuza on his behalf. Adam declined.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">When arrested, police found <strong class="text-paper/65">$30,000 worth of Louis Vuitton</strong> in the house. The rent had not been paid. Multiple outstanding warrants were active across jurisdictions while he was living in a $10,000-a-week house surrounded by designer goods.</p>
 
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4 mb-1">
                         <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
@@ -476,13 +479,13 @@
                                 <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">$45 million owed to drug dealers</p></div>
                             </div>
                         </div>
-                        <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
-                            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">Current Position</div>
+                        <div class="border border-hot/30 p-4" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Current Position — In Custody</div>
                             <div class="space-y-1.5">
-                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Locked up — attempting to scam a woman into putting her house up as bail bond</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Likely to be refused bail given the drug debt exposure</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Will likely attempt to snitch on drug connects to reduce sentence</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">ASIO warrants mean a new identity and early release are not available to him — ASIO will follow regardless</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed"><strong class="text-paper/55">96 charges</strong> — including false accusations against Adam Watson</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">In custody — attempted to scam a woman into putting her house up as bail bond</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Bail refused given drug debt exposure and charge volume</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">ASIO warrants — new identity and early release not available</p></div>
                             </div>
                         </div>
                     </div>
