@@ -395,8 +395,8 @@
             <div class="story-chapter reveal" style="border-left-color:rgba(124,106,170,0.3)">
                 <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">Chapter A — Coercive Control</span></div>
                 <div class="flex gap-5 mb-5 items-start">
-                    <div class="shrink-0 w-24 border border-paper/[0.07] flex items-center justify-center" style="aspect-ratio:2/3;background:rgba(124,106,170,0.04)">
-                        <div class="text-center px-2"><div class="text-[0.42rem] tracking-[0.12em] uppercase mb-1" style="color:rgba(124,106,170,0.4)">Photo</div><div class="text-[0.38rem] text-paper/20">Bodie Chalmers<br>Pending</div></div>
+                    <div class="shrink-0 w-24 border border-paper/[0.07] overflow-hidden" style="aspect-ratio:2/3">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bodie-chalmers-photo.jpg" alt="Bodie Chalmers" class="w-full h-full object-cover object-top" />
                     </div>
                     <div>
                         <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE ANATOMY OF<br><span style="color:#7c6aaa">CONTROL</span></h3>
