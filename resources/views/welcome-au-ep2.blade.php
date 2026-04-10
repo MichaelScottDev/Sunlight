@@ -176,65 +176,10 @@
         <span class="hidden sm:block text-[0.52rem] tracking-[0.2em] uppercase text-paper/20 border-l border-paper/10 pl-4">Investigative Vlog Series</span>
     </div>
     <div class="flex items-center gap-3">
-        <div class="nav-dropdown hidden md:block">
-            <button class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors flex items-center gap-1">My Story <span class="text-[0.4rem] opacity-50">▾</span></button>
-            <div class="nav-dropdown-menu">
-                <span class="nav-group-label">Personal Story</span>
-                <a href="#story" class="nav-accent-hot">Sandy Tulisi — Rooming House</a>
-                <a href="#samir" class="nav-accent-gold">Samir Dhakal — Deported</a>
-                <a href="#smithinson" class="nav-accent-hot">Jonathan Smithinson — Psychiatrist · Silverwater</a>
-                <a href="#privacy" class="nav-accent-violet">Aquatic Centre Privacy Breach</a>
-                <a href="#media" class="nav-accent-gold">Sky News — Story That Didn't Run</a>
-                <a href="#assault" class="nav-accent-hot">Oracle East — Stalked & Assaulted</a>
-            </div>
-        </div>
-        <div class="nav-dropdown hidden md:block">
-            <button class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors flex items-center gap-1">Adam's Story <span class="text-[0.4rem] opacity-50">▾</span></button>
-            <div class="nav-dropdown-menu">
-                <span class="nav-group-label">Adam Watson</span>
-                <a href="#adam" class="nav-accent-violet">Coercive Control & Surveillance</a>
-                <a href="#adam" class="nav-accent-hot">Malicious Prosecution — DPP Ruling</a>
-                <a href="#adam" class="nav-accent-gold">Optus Security Breach — $2,500 Bill</a>
-                <span class="nav-group-label">Criminal Network</span>
-                <a href="#rj" class="nav-accent-hot">RJ — 7 Incidents, Pattern of Crime</a>
-                <a href="#brazen" class="nav-accent-hot">Brazen Crime — Vehicle Attack & Arson</a>
-            </div>
-        </div>
-        <div class="nav-dropdown hidden md:block">
-            <button class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors flex items-center gap-1">Public Interest <span class="text-[0.4rem] opacity-50">▾</span></button>
-            <div class="nav-dropdown-menu">
-                <span class="nav-group-label">Systemic Issues</span>
-                <a href="#redress" class="nav-accent-sage">Redress Scheme Integrity</a>
-                <a href="#redress" class="nav-accent-hot">Criminal Injuries Compensation Reform</a>
-                <span class="nav-group-label">Press Freedom</span>
-                <a href="#brazen" class="nav-accent-hot">Friendlyjordies & Gina Rinehart</a>
-                <a href="#brazen" class="nav-accent-gold">Journalism as Provocation — The Claim</a>
-            </div>
-        </div>
-        <div class="nav-dropdown hidden md:block">
-            <button class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors flex items-center gap-1">Accountability <span class="text-[0.4rem] opacity-50">▾</span></button>
-            <div class="nav-dropdown-menu">
-                <span class="nav-group-label">Police Corruption</span>
-                <a href="#assault" class="nav-accent-hot">"Expect to Get Bashed" Recording</a>
-                <a href="#assault" class="nav-accent-hot">Task Force Latro — Active Investigation</a>
-                <span class="nav-group-label">Council Accountability</span>
-                <a href="#privacy" class="nav-accent-violet">Gold Coast Council — Privacy Breach</a>
-                <a href="#privacy" class="nav-accent-hot">Tom Tate — Retraction Demanded</a>
-                <span class="nav-group-label">Media Accountability</span>
-                <a href="#media" class="nav-accent-gold">QP-9 Leak — CCC Referral</a>
-                <span class="nav-group-label">Homelessness &amp; Welfare</span>
-                <a href="#homelessness" class="nav-accent-sage">Gold Coast Homeless Action Plan — Failure</a>
-                <a href="#homelessness" class="nav-accent-hot">Undercover Drug Offer Allegation</a>
-                <a href="#viral" class="nav-accent-hot">Surf Network WiFi Block — Council Censorship</a>
-                <span class="nav-group-label">About &amp; Contact</span>
-                <a href="#adam-watson" class="nav-accent-gold">Adam Watson — The Man</a>
-                <a href="#contact" class="nav-accent-hot">Submit a Tip-off</a>
-            </div>
-        </div>
-        <a href="#episodes" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors">Episodes</a>
         <a href="#sms" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors">Subscribe</a>
+        <a href="/" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-hot/50 px-3 py-1.5 transition-all">← Episode 1</a>
         <button onclick="togglePanel()" class="flex items-center gap-2 border border-hot/50 hover:border-hot hover:bg-hot/10 px-3 py-2 transition-all text-[0.55rem] tracking-[0.15em] uppercase text-hot">☰ All Files</button>
-        <a href="/" class="hidden md:block text-[0.52rem] tracking-[0.18em] uppercase text-paper/30 hover:text-paper transition-colors border border-paper/10 hover:border-paper/30 px-3 py-1.5">← EP 1</a><span class="text-[0.52rem] tracking-[0.18em] uppercase text-violet border px-3 py-1.5" style="border-color:rgba(124,106,170,0.6);color:#7c6aaa">⬤ EP.02</span>
+        <span class="text-[0.52rem] tracking-[0.18em] uppercase border px-3 py-1.5" style="border-color:rgba(124,106,170,0.6);color:#7c6aaa">⬤ EP.02</span>
     </div>
 </nav>
 
@@ -310,18 +255,102 @@
 
 
 <!-- ══════════════════════════════════════
-     EPISODE 2 HEADER
+     EPISODE 2 HERO
 ══════════════════════════════════════ -->
-<section class="pt-32 pb-16 px-5 md:px-10 border-b border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(124,106,170,0.07) 0%,transparent 70%)">
-    <div class="max-w-5xl mx-auto">
-        <div class="flex items-center gap-4 mb-8">
-            <a href="/" class="text-[0.52rem] tracking-[0.2em] uppercase text-paper/30 hover:text-paper transition-colors border border-paper/10 hover:border-paper/30 px-4 py-2.5">← EPISODE 1</a>
+<section class="relative min-h-screen flex flex-col pt-14">
+    <div class="absolute inset-0 z-0">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1800&q=65" alt="" class="w-full h-full object-cover opacity-8"/>
+        <div class="absolute inset-0 bg-gradient-to-b from-ink/60 via-ink/80 to-ink"></div>
+        <div class="scanlines absolute inset-0"></div>
+    </div>
+    <div class="relative z-10 flex items-center justify-between px-5 md:px-10 py-3 border-b border-paper/[0.05]">
+        <div class="flex items-center gap-4">
+            <span class="font-display text-[0.62rem] tracking-[0.14em]" style="color:#7c6aaa">EP.02</span>
             <div class="w-px h-4 bg-paper/10"></div>
-            <span class="text-[0.52rem] tracking-[0.25em] uppercase" style="color:rgba(124,106,170,0.7)">Episode 2 of 2</span>
+            <span class="text-[0.55rem] tracking-[0.22em] uppercase text-paper/30">Season 1 — The Network</span>
         </div>
-        <div class="flex items-center gap-3 mb-3"><div class="w-4 h-px" style="background:#7c6aaa"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase" style="color:#7c6aaa">Investigative Series — The Network</span></div>
-        <h1 class="font-display leading-none tracking-wide mb-5" style="font-size:clamp(3rem,9vw,6.5rem)">THE NETWORK.<br><span style="color:#7c6aaa">THE INVESTIGATION.</span></h1>
-        <p class="font-serif italic text-paper/40 text-xl leading-relaxed max-w-2xl">Adam Watson and the coercive control case. Bodie Chalmers — malicious prosecution, $165K fraud, Yakuza. RJ — 10 documented incidents. Samira Khalaj. Kira Kira. Tasmania. And the strata litigation that connects them.</p>
+        <div class="hidden sm:flex items-center gap-3 text-[0.52rem] tracking-[0.18em] uppercase text-paper/22">
+            <span>8 Chapters</span><div class="w-px h-3 bg-paper/10"></div><span style="color:#7c6aaa">2025</span>
+        </div>
+    </div>
+    <div class="relative z-10 flex-1 grid grid-cols-1 lg:grid-cols-[1fr_360px]">
+        <div class="flex flex-col justify-center px-5 md:px-10 py-8 lg:py-10">
+            <div class="fade-up mb-5" style="animation-delay:0.1s">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-5 h-px" style="background:#7c6aaa"></div>
+                    <span class="text-[0.55rem] tracking-[0.28em] uppercase" style="color:#7c6aaa">Classified Briefing</span>
+                    <span class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/22 border border-paper/10 px-2 py-0.5">Gold Coast Division</span>
+                </div>
+                <h1 class="font-display leading-[0.88] tracking-wide" style="font-size:clamp(2.8rem,7vw,5.5rem)">THE NETWORK.<br><span style="color:#7c6aaa">THE INVESTIGATION.</span></h1>
+                <p class="font-serif italic text-paper/40 mt-3 leading-relaxed max-w-lg" style="font-size:clamp(0.9rem,2vw,1.15rem)">Coercive control, criminal networks, and the system gaps that protect them.</p>
+            </div>
+            <div class="fade-up" style="animation-delay:0.25s">
+                <div class="flex items-center gap-3 mb-2"><span class="text-[0.52rem] tracking-[0.2em] uppercase" style="color:rgba(124,106,170,0.6)">▶ Now Playing — Navigate via chapters below</span></div>
+                <div id="player-ep2" class="w-full aspect-video border" style="border-color:rgba(124,106,170,0.2);box-shadow:0 0 80px rgba(124,106,170,0.09),0 0 0 1px rgba(245,234,212,0.025)"></div>
+            </div>
+            <!-- Chapter nav below video -->
+            <div class="fade-up mt-5 border border-paper/[0.07]" style="animation-delay:0.35s;background:rgba(12,8,4,0.7)">
+                <div class="px-4 py-2 border-b border-paper/[0.06]"><span class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/22">Episode 2 — Chapters</span></div>
+                <div class="flex flex-wrap gap-0">
+                    <a href="#adam" class="flex items-center gap-2 px-4 py-3 border-r border-paper/[0.06] transition-all group" style="--tw-bg-opacity:1" onmouseover="this.style.background='rgba(124,106,170,0.08)'" onmouseout="this.style.background=''">
+                        <span class="font-display text-[0.62rem]" style="color:#7c6aaa">01</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Adam's Story</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Coercive control</div></div>
+                    </a>
+                    <a href="#samira" class="flex items-center gap-2 px-4 py-3 border-r border-paper/[0.06] transition-all group" onmouseover="this.style.background='rgba(124,106,170,0.08)'" onmouseout="this.style.background=''">
+                        <span class="font-display text-[0.62rem]" style="color:#7c6aaa">02</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Samira</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Registrar recording</div></div>
+                    </a>
+                    <a href="#rj" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
+                        <span class="font-display text-hot text-[0.62rem]">03</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">RJ — 11 Incidents</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Sex & Crime Squad</div></div>
+                    </a>
+                    <a href="#brazen" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
+                        <span class="font-display text-hot text-[0.62rem]">04</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Brazen Crime</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Vehicle & arson</div></div>
+                    </a>
+                    <a href="#privacy" class="flex items-center gap-2 px-4 py-3 border-r border-paper/[0.06] transition-all group" onmouseover="this.style.background='rgba(124,106,170,0.08)'" onmouseout="this.style.background=''">
+                        <span class="font-display text-[0.62rem]" style="color:#7c6aaa">05</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Privacy Breach</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Aquatic centre</div></div>
+                    </a>
+                    <a href="#redress" class="flex items-center gap-2 px-4 py-3 hover:bg-sage/8 border-r border-paper/[0.06] transition-all group">
+                        <span class="font-display text-sage text-[0.62rem]">06</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Redress Scheme</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Fraud & gaps</div></div>
+                    </a>
+                    <a href="#kira-kira" class="flex items-center gap-2 px-4 py-3 hover:bg-gold/8 border-r border-paper/[0.06] transition-all group">
+                        <span class="font-display text-gold text-[0.62rem]">07</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Kira & Kira</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Cocaine in, furniture out</div></div>
+                    </a>
+                    <a href="#tasmania" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 transition-all group">
+                        <span class="font-display text-hot text-[0.62rem]">08</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Tasmania</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Strata litigation</div></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="lg:border-l border-paper/[0.06] flex flex-col" style="background:rgba(12,8,4,0.6)">
+            <div class="px-6 py-6 border-b border-paper/[0.06]">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">This Episode</div>
+                <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Coercive control, criminal networks, and the systemic failures that protect them. Adam Watson, Bodie Chalmers, RJ — 11 incidents. Samira Khalaj. Kira Kira. Tasmania. The strata litigation.</p>
+                <div class="grid grid-cols-3 gap-2 text-center">
+                    <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl" style="color:#7c6aaa">8</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Cases</div></div>
+                    <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl text-hot">11</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">RJ Incidents</div></div>
+                    <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl text-sage">GC</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Region</div></div>
+                </div>
+            </div>
+            <div class="px-5 py-4 border-b border-paper/[0.06] flex-1">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">Also In This Episode</div>
+                <div class="space-y-3">
+                    <div class="text-[0.62rem] text-paper/40 leading-relaxed border-l-2 pl-3" style="border-color:rgba(124,106,170,0.3)">Bodie Chalmers — malicious prosecution, $165K fraud, Yakuza connection</div>
+                    <div class="text-[0.62rem] text-paper/40 leading-relaxed border-l-2 border-hot/30 pl-3">RJ — 11 documented incidents, Sex & Crime Squad investigation</div>
+                    <div class="text-[0.62rem] text-paper/40 leading-relaxed border-l-2 pl-3" style="border-color:rgba(201,138,16,0.3)">Kira Kira — furniture out, cocaine in</div>
+                    <div class="text-[0.62rem] text-paper/40 leading-relaxed border-l-2 border-sage/30 pl-3">Tasmania strata litigation — the connection</div>
+                </div>
+            </div>
+            <div class="px-5 py-5">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 blink mb-2">← Episode 1 also available</div>
+                <a href="/" class="block w-full text-center border border-paper/20 hover:border-hot/50 hover:bg-hot/5 font-display tracking-widest text-paper/60 hover:text-paper py-3 text-sm transition-all">WATCH EPISODE 1</a>
+            </div>
+        </div>
     </div>
 </section>
 

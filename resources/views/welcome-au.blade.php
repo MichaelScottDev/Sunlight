@@ -176,63 +176,8 @@
         <span class="hidden sm:block text-[0.52rem] tracking-[0.2em] uppercase text-paper/20 border-l border-paper/10 pl-4">Investigative Vlog Series</span>
     </div>
     <div class="flex items-center gap-3">
-        <div class="nav-dropdown hidden md:block">
-            <button class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors flex items-center gap-1">My Story <span class="text-[0.4rem] opacity-50">▾</span></button>
-            <div class="nav-dropdown-menu">
-                <span class="nav-group-label">Personal Story</span>
-                <a href="#story" class="nav-accent-hot">Sandy Tulisi — Rooming House</a>
-                <a href="#samir" class="nav-accent-gold">Samir Dhakal — Deported</a>
-                <a href="#smithinson" class="nav-accent-hot">Jonathan Smithinson — Psychiatrist · Silverwater</a>
-                <a href="#privacy" class="nav-accent-violet">Aquatic Centre Privacy Breach</a>
-                <a href="#media" class="nav-accent-gold">Sky News — Story That Didn't Run</a>
-                <a href="#assault" class="nav-accent-hot">Oracle East — Stalked & Assaulted</a>
-            </div>
-        </div>
-        <div class="nav-dropdown hidden md:block">
-            <button class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors flex items-center gap-1">Adam's Story <span class="text-[0.4rem] opacity-50">▾</span></button>
-            <div class="nav-dropdown-menu">
-                <span class="nav-group-label">Adam Watson</span>
-                <a href="#adam" class="nav-accent-violet">Coercive Control & Surveillance</a>
-                <a href="#adam" class="nav-accent-hot">Malicious Prosecution — DPP Ruling</a>
-                <a href="#adam" class="nav-accent-gold">Optus Security Breach — $2,500 Bill</a>
-                <span class="nav-group-label">Criminal Network</span>
-                <a href="#rj" class="nav-accent-hot">RJ — 7 Incidents, Pattern of Crime</a>
-                <a href="#brazen" class="nav-accent-hot">Brazen Crime — Vehicle Attack & Arson</a>
-            </div>
-        </div>
-        <div class="nav-dropdown hidden md:block">
-            <button class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors flex items-center gap-1">Public Interest <span class="text-[0.4rem] opacity-50">▾</span></button>
-            <div class="nav-dropdown-menu">
-                <span class="nav-group-label">Systemic Issues</span>
-                <a href="#redress" class="nav-accent-sage">Redress Scheme Integrity</a>
-                <a href="#redress" class="nav-accent-hot">Criminal Injuries Compensation Reform</a>
-                <span class="nav-group-label">Press Freedom</span>
-                <a href="#brazen" class="nav-accent-hot">Friendlyjordies & Gina Rinehart</a>
-                <a href="#brazen" class="nav-accent-gold">Journalism as Provocation — The Claim</a>
-            </div>
-        </div>
-        <div class="nav-dropdown hidden md:block">
-            <button class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors flex items-center gap-1">Accountability <span class="text-[0.4rem] opacity-50">▾</span></button>
-            <div class="nav-dropdown-menu">
-                <span class="nav-group-label">Police Corruption</span>
-                <a href="#assault" class="nav-accent-hot">"Expect to Get Bashed" Recording</a>
-                <a href="#assault" class="nav-accent-hot">Task Force Latro — Active Investigation</a>
-                <span class="nav-group-label">Council Accountability</span>
-                <a href="#privacy" class="nav-accent-violet">Gold Coast Council — Privacy Breach</a>
-                <a href="#privacy" class="nav-accent-hot">Tom Tate — Retraction Demanded</a>
-                <span class="nav-group-label">Media Accountability</span>
-                <a href="#media" class="nav-accent-gold">QP-9 Leak — CCC Referral</a>
-                <span class="nav-group-label">Homelessness &amp; Welfare</span>
-                <a href="#homelessness" class="nav-accent-sage">Gold Coast Homeless Action Plan — Failure</a>
-                <a href="#homelessness" class="nav-accent-hot">Undercover Drug Offer Allegation</a>
-                <a href="#viral" class="nav-accent-hot">Surf Network WiFi Block — Council Censorship</a>
-                <span class="nav-group-label">About &amp; Contact</span>
-                <a href="#adam-watson" class="nav-accent-gold">Adam Watson — The Man</a>
-                <a href="#contact" class="nav-accent-hot">Submit a Tip-off</a>
-            </div>
-        </div>
-        <a href="#episodes" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors">Episodes</a>
         <a href="#sms" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors">Subscribe</a>
+        <a href="/episode-2" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-violet/50 px-3 py-1.5 transition-all" style="hover-color:#7c6aaa">Episode 2 →</a>
         <button onclick="togglePanel()" class="flex items-center gap-2 border border-hot/50 hover:border-hot hover:bg-hot/10 px-3 py-2 transition-all text-[0.55rem] tracking-[0.15em] uppercase text-hot">☰ All Files</button>
         <span class="text-[0.52rem] tracking-[0.18em] uppercase text-gold border border-gold/60 px-3 py-1.5 blink">⬤ EP.01</span>
     </div>
@@ -346,35 +291,35 @@
                 <div class="flex flex-wrap gap-0">
                     <a href="#story" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
                         <span class="font-display text-hot text-[0.62rem]">01</span>
-                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Sandy Tulisi</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Rooming house</div></div>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Sandy Tulisi</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Rooming house fraud</div></div>
                     </a>
-                    <a href="#privacy" class="flex items-center gap-2 px-4 py-3 hover:bg-violet/8 border-r border-paper/[0.06] transition-all group">
-                        <span class="font-display text-[0.62rem]" style="color:#7c6aaa">02</span>
-                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Privacy Breach</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Aquatic centre leak</div></div>
+                    <a href="#samir" class="flex items-center gap-2 px-4 py-3 hover:bg-gold/8 border-r border-paper/[0.06] transition-all group">
+                        <span class="font-display text-gold text-[0.62rem]">02</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Samir Dhakal</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Deported</div></div>
                     </a>
-                    <a href="#media" class="flex items-center gap-2 px-4 py-3 hover:bg-gold/8 border-r border-paper/[0.06] transition-all group">
-                        <span class="font-display text-gold text-[0.62rem]">03</span>
-                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Sky News</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Story didn't run</div></div>
+                    <a href="#smithinson" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
+                        <span class="font-display text-hot text-[0.62rem]">03</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Psychiatrist</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Silverwater</div></div>
+                    </a>
+                    <a href="#coles" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
+                        <span class="font-display text-hot text-[0.62rem]">04</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Coles Incident</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Police body cam</div></div>
                     </a>
                     <a href="#assault" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
-                        <span class="font-display text-hot text-[0.62rem]">04</span>
+                        <span class="font-display text-hot text-[0.62rem]">05</span>
                         <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Oracle East</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Stalked & assaulted</div></div>
                     </a>
-                    <a href="#rj" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
-                        <span class="font-display text-hot text-[0.62rem]">05</span>
-                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">RJ — 11 Incidents</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Sex & Crime Squad</div></div>
+                    <a href="#media" class="flex items-center gap-2 px-4 py-3 hover:bg-gold/8 border-r border-paper/[0.06] transition-all group">
+                        <span class="font-display text-gold text-[0.62rem]">06</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Sky News</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Story didn't run</div></div>
                     </a>
-                    <a href="#adam" class="flex items-center gap-2 px-4 py-3 hover:bg-violet/8 border-r border-paper/[0.06] transition-all group">
-                        <span class="font-display text-[0.62rem]" style="color:#7c6aaa">06</span>
-                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Adam's Story</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Coercive control</div></div>
-                    </a>
-                    <a href="#brazen" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
+                    <a href="#viral" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
                         <span class="font-display text-hot text-[0.62rem]">07</span>
-                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Brazen Crime</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Vehicle & arson</div></div>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Viral Video</div><div class="text-[0.47rem] text-paper/22 tracking-wider">RJ confrontation</div></div>
                     </a>
-                    <a href="#redress" class="flex items-center gap-2 px-4 py-3 hover:bg-sage/8 transition-all group">
+                    <a href="#homelessness" class="flex items-center gap-2 px-4 py-3 hover:bg-sage/8 transition-all group">
                         <span class="font-display text-sage text-[0.62rem]">08</span>
-                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Redress Scheme</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Fraud & gaps</div></div>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Homelessness</div><div class="text-[0.47rem] text-paper/22 tracking-wider">GC action plan</div></div>
                     </a>
                 </div>
             </div>
