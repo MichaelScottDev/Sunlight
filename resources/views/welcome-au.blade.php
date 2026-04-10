@@ -490,6 +490,18 @@
             <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-5xl text-sage mb-1">0</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Charges upheld</div><div class="text-[0.5rem] text-paper/18 mt-1">All dropped</div></div>
         </div>
 
+        <!-- Sandy Tulisi profile -->
+        <div class="flex items-center gap-5 mb-10 reveal">
+            <div class="shrink-0 w-16 h-16 rounded-full overflow-hidden border border-hot/30">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/sandy_photo.jpg" alt="Sandy Tulisi" class="w-full h-full object-cover object-top" />
+            </div>
+            <div>
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-1">Subject</div>
+                <div class="font-display text-lg tracking-wide">Sandy Tulisi</div>
+                <div class="text-[0.55rem] text-paper/35 tracking-wide">aka Sandy Park · BeHome · SOLAC HOUSE · Appel Street Pty Ltd</div>
+            </div>
+        </div>
+
         <div class="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-8 lg:gap-16">
 
             <!-- Left nav -->
@@ -515,7 +527,7 @@
                     <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter 01</span><span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Rental Crisis</span></div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE GOLD COAST DREAM<br><span class="text-hot">AND THE REALITY</span></h3>
                     <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"The Gold Coast looks like a dream. That's the whole point of it. What nobody tells you is that behind that strip — literally around the corner — there are people sleeping rough, rooming houses packed with 100 tenants, and landlords who've figured out the rules don't really apply to them if they're clever about it."</p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">In August 2023 I was looking for a room in Surfers Paradise. Rent: $290 a week. Fixed term. A rooming accommodation agreement, Form R18 — signed and moved in August 18th. The landlord was Sandy Tulisi, operating under the name BeHome — also registered with the RTA as SOLAC HOUSE.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">In August 2023 I was looking for a room in Surfers Paradise. Rent: $290 a week. Fixed term. A rooming accommodation agreement, Form R18 — signed and moved in August 18th. The landlord was Sandy Tulisi, operating under the name BeHome.</p>
 
                     <!-- EVIDENCE VAULT: Sandy Tulisi -->
                     <div class="evidence-vault">
@@ -571,7 +583,7 @@
                 <div id="s-ch2" class="story-chapter reveal" style="transition-delay:0.1s">
                     <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Chapter 02</span><span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Regulatory Failure</span></div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">SANDY TULISI.<br><span class="text-gold">OR SANDY PARK. DEPENDS WHO'S ASKING.</span></h3>
-                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"To the RTA, the property is registered as SOLAC HOUSE under Sandy Tulisi. But if you Google it, you find BeHome. Same address. Different name. The dual identity created deliberate legal ambiguity."</p>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"Google the address. You get BeHome. Serve a subpoena, the eviction notice says Appel Street Pty Ltd. Marc Barrow writes SOLAC HOUSE in his QP-9 charge sheet. Every official document uses a different name. Same property. Same landlord. Maximum legal ambiguity."</p>
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Bond number 714284215 was confirmed by the RTA on October 25, 2023 — 68 days after move-in. Legal requirement: 10 days. At a property with capacity for up to 100 tenants, if this delay was systematic, hundreds of bonds may have been held without proper protection.</p>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                         <div class="doc-reveal p-4 cursor-pointer" onclick="openMV('pdf','RTA BOND CONFIRMATION','Official RTA bond lodgement confirmation — 68 days after move-in','RTA Document · Ref: Bond 714284215','rta_notice_to_leave.pdf','Legal requirement: 10 business days. Actual: 68 days. Filed following tenant inquiry about legal violations — suggesting reactive, not routine compliance.','pdf-bond')">
@@ -590,20 +602,20 @@
                         <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">Four Entity Names. One Property. Maximum Ambiguity.</div>
                         <h4 class="font-display text-lg tracking-wide text-gold mb-3">THE NOTICE TO LEAVE IS ISSUED BY "APPEL STREET PTY LTD".<br><span class="text-paper/55">THE RTA'S OWN EMAIL CALLS IT "BEHOME".</span></h4>
                         <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The Notice to Leave — the formal legal document used to evict me — lists the issuing entity as <strong class="text-paper/70">Appel Street Pty Ltd</strong>. Not BeHome. Not SOLAC HOUSE. Not Sandy Tulisi or Sandy Park. A fourth entity name, appearing on the most consequential document in the entire dispute, making it as difficult as possible to trace what is happening to whom.</p>
-                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">The RTA's own email — reproduced in the police correspondence — refers to the entity as BeHome. So the regulator uses one name, and the eviction notice uses another. Each official document in this chain references a different legal identity. Any attempt to link the conduct to a single responsible party requires navigating between Sandy Tulisi, Sandy Park, BeHome, SOLAC HOUSE, and Appel Street Pty Ltd — all of which point back to the same property, the same operation, and the same person.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">The RTA's own email — reproduced in the police correspondence — refers to the entity as BeHome. So the regulator uses one name, the eviction notice uses another, and the arresting officer wrote a third in his charge sheet. Each official document in this chain references a different legal identity. Any attempt to link the conduct to a single responsible party requires navigating between Sandy Tulisi, Sandy Park, BeHome, Appel Street Pty Ltd, and SOLAC HOUSE — all of which point back to the same property, the same operation, and the same person.</p>
                         <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
                             <div class="border border-paper/[0.07] p-3 text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold/60 mb-1">Person</div><div class="text-[0.6rem] text-paper/50">Sandy Tulisi<br><span class="text-paper/30">/ Sandy Park</span></div></div>
-                            <div class="border border-paper/[0.07] p-3 text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold/60 mb-1">RTA Registration</div><div class="text-[0.6rem] text-paper/50">SOLAC HOUSE</div></div>
                             <div class="border border-paper/[0.07] p-3 text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold/60 mb-1">Trading Name</div><div class="text-[0.6rem] text-paper/50">BeHome</div></div>
                             <div class="border border-paper/[0.07] p-3 text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold/60 mb-1">Eviction Notice</div><div class="text-[0.6rem] text-paper/50">Appel Street<br>Pty Ltd</div></div>
+                            <div class="border border-paper/[0.07] p-3 text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold/60 mb-1">QP-9 Charge Sheet</div><div class="text-[0.6rem] text-paper/50">SOLAC HOUSE<br><span class="text-paper/30">(Barrow)</span></div></div>
                         </div>
                     </div>
                 </div>
 
                 <div id="s-ch3" class="story-chapter reveal" style="transition-delay:0.15s">
                     <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter 03</span><span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Tenant Harassment</span></div>
-                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">A FINE FOR A CUP.<br><span class="text-hot">SIX FALSE RENT NOTICES.</span></h3>
-                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"I get a fine. For a cup. Not trashing the room. A cup that I washed but didn't put away immediately. Twenty dollars. From Appel Street Pty Ltd. Tax invoice and everything."</p>
+                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">FINES FOR LEAVING BOWLS.<br><span class="text-hot">SIX FALSE RENT NOTICES.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"The fine wasn't for not washing a bowl. It was for leaving one. The photo they emailed was literally named 'Kosta Bowl left'. A bowl that was left somewhere. Tax invoiced. Twice."</p>
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Between September and October 2023 I received six emails falsely claiming rent was overdue. Bank records confirm every payment was made on time. An SMS from Sandy's personal mobile (0411 752 285) then threatened eviction based on a fabricated 13-day arrear.</p>
                     <div class="border border-paper/[0.07] p-5 mb-4">
                         <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-4">Harassment Timeline — Sep/Oct 2023</div>
@@ -612,8 +624,63 @@
                             <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-16 shrink-0 pt-0.5">23 Sep</span><span class="text-[0.65rem] text-paper/45">Email: rent claimed overdue again. Rent was paid.</span></div>
                             <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-16 shrink-0 pt-0.5">7 Oct</span><span class="text-[0.65rem] text-paper/45">Email: overdue notice. Rent was paid.</span></div>
                             <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-16 shrink-0 pt-0.5">14 Oct</span><span class="text-[0.65rem] text-paper/45">Email: overdue notice. Rent was paid.</span></div>
-                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-16 shrink-0 pt-0.5">22 Oct</span><span class="text-[0.65rem] text-paper/45">Tax invoice issued: $20 fine — "Cup left." Issued by Appel Street Pty Ltd.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-16 shrink-0 pt-0.5">22 Oct</span><span class="text-[0.65rem] text-paper/45">Tax invoice issued — bowl left. Photo named "Kosta Bowl left". Issued by Appel Street Pty Ltd.</span></div>
                             <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-16 shrink-0 pt-0.5">23 Oct</span><span class="text-[0.65rem] text-paper/45">SMS: 13-day arrear claimed. Eviction threatened. Rent was paid.</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Bowl fines callout -->
+                    <div class="border-l-4 border-hot/40 pl-5 mb-5" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">The Invoice. For a Bowl. That Was Left Somewhere.</div>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">The fine was not for failing to wash a bowl. It was not for damaging anything. The photo used to justify the invoice was emailed with the filename <strong class="text-paper/70">"Kosta Bowl left"</strong> — meaning the entire basis for the fine was that a bowl had been placed somewhere and not immediately moved. A tax invoice was issued for this. Then a second invoice was issued. Both are published below.</p>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed">Neither fine appeared in the formal bond deduction statement subsequently submitted to the RTA — the document that legally sets out what money is being withheld from a tenant's bond. If these fines were legitimate deductions, they would have been in that statement. They were not. That omission is the landlord acknowledging, in their own paperwork, that these charges were indefensible.</p>
+                    </div>
+
+                    <!-- Bowl evidence vault -->
+                    <div class="evidence-vault">
+                        <div class="ev-header" onclick="toggleVault(this)">
+                            <div class="flex items-center gap-2">
+                                <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Bowl Fines · Appel Street Pty Ltd · Invoices &amp; Photos</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">4 files</span>
+                                <span class="ev-toggle">▼</span>
+                            </div>
+                        </div>
+                        <div class="ev-body">
+                            <div class="ev-file ef-gold" onclick="openMV('image-bowl-left')">
+                                <div class="ev-icon ev-img">📷</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">Kosta Bowl left.jpg — Photo sent by landlord</div>
+                                    <div class="ev-desc">Image · Filename: "Kosta Bowl left" · The entire basis for Invoice #1202 — a bowl placed somewhere</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                            <div class="ev-file ef-gold" onclick="openMV('image-bowl-yellow')">
+                                <div class="ev-icon ev-img">📷</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">Kosta Yellow bowl.jpg — Second bowl photo</div>
+                                    <div class="ev-desc">Image · Second bowl photo used to justify Invoice #1241 — a yellow bowl left somewhere</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                            <div class="ev-file ef-hot" onclick="openMV('pdf-invoice-1202')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">Invoice # 1202.pdf — Appel Street Pty Ltd</div>
+                                    <div class="ev-desc">PDF · Tax invoice · Fine for leaving a bowl · Appel Street Pty Ltd · Not included in RTA bond deduction statement</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                            <div class="ev-file ef-hot" onclick="openMV('pdf-invoice-1241')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">Invoice # 1241.pdf — Appel Street Pty Ltd</div>
+                                    <div class="ev-desc">PDF · Tax invoice · Second bowl fine · Appel Street Pty Ltd · Not included in RTA bond deduction statement</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -2397,6 +2464,42 @@ var EVIDENCE = {
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/public_nuisance_charge.pdf',
         filename:'public_nuisance_charge.pdf',
         desc:'The Public Nuisance charge sheet issued during the eviction from the BeHome property. The document refers to the property as a "hostel" — it was a licensed rooming house. The charge sheet stated I would be arrested for trespass; this was invalid as the Notice to Leave was for the following day and had been shown to Officer Marc Barrow directly — he had no lawful basis to arrest for trespass. Barrow also removed items from the property without a warrant of possession, which is unlawful. During the van incident, abusive comments were made — but only after being pushed against the police van without provocation, as BWC footage from the incident (currently being sought) will confirm. I had also notified Barrow of property breaches — his duty as a police officer was to uphold the law, not facilitate an unlawful eviction. The initial public nuisance ticket was escalated to a formal Public Nuisance charge through the post. The charge was subsequently dropped by the Judge.'
+    },
+    'image-bowl-left': {
+        type:'image',
+        title:'KOSTA BOWL LEFT — PHOTO SENT BY LANDLORD',
+        tag:'Appel Street Pty Ltd · Invoice #1202 · Oct 2023',
+        meta:'Image · Filename: "Kosta Bowl left" · Emailed as basis for fine',
+        src:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/Kosta+Bowl+left.jpg',
+        filename:'Kosta Bowl left.jpg',
+        desc:'The photo emailed by the landlord to justify Invoice #1202. The filename — "Kosta Bowl left" — is the entire description of the alleged offence: a bowl was left somewhere. Not broken. Not dirty. Left. This photo, with this filename, was used to issue a formal tax invoice through Appel Street Pty Ltd. The fine did not appear in the RTA bond deduction statement, suggesting even the landlord knew it was indefensible.'
+    },
+    'image-bowl-yellow': {
+        type:'image',
+        title:'KOSTA YELLOW BOWL — SECOND BOWL PHOTO',
+        tag:'Appel Street Pty Ltd · Invoice #1241 · Oct 2023',
+        meta:'Image · Yellow bowl · Basis for second fine',
+        src:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/Kosta+Yellow+bowl.jpg',
+        filename:'Kosta Yellow bowl.jpg',
+        desc:'Second bowl photo used to justify Invoice #1241. A yellow bowl, left somewhere. Two separate tax invoices were issued by Appel Street Pty Ltd for bowls being left. Neither fine appeared in the formal RTA bond deduction statement.'
+    },
+    'pdf-invoice-1202': {
+        type:'pdf',
+        title:'INVOICE #1202 — APPEL STREET PTY LTD',
+        tag:'Bowl left · Oct 2023 · Not in RTA bond deduction statement',
+        meta:'PDF · Tax Invoice #1202 · Appel Street Pty Ltd',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/Invoice+%23+1202.pdf',
+        filename:'Invoice # 1202.pdf',
+        desc:'Tax invoice #1202 issued by Appel Street Pty Ltd for leaving a bowl. The photo sent with this invoice was named "Kosta Bowl left" by the sender — confirming the fine was purely for the bowl being left somewhere, not for any hygiene breach or damage. This invoice was not included in the formal bond deduction statement subsequently submitted to the RTA. Its omission from that statement indicates the landlord acknowledged it had no legal basis.'
+    },
+    'pdf-invoice-1241': {
+        type:'pdf',
+        title:'INVOICE #1241 — APPEL STREET PTY LTD',
+        tag:'Yellow bowl left · Oct 2023 · Not in RTA bond deduction statement',
+        meta:'PDF · Tax Invoice #1241 · Appel Street Pty Ltd',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/Invoice+%23+1241.pdf',
+        filename:'Invoice # 1241.pdf',
+        desc:'Tax invoice #1241 issued by Appel Street Pty Ltd — a second fine for a second bowl being left. Two separate invoices for two bowls placed somewhere. Neither appeared in the RTA bond deduction statement. A landlord issuing tax invoices for items left in a kitchen, through a separate company entity, then omitting those invoices from the official bond claim, is a landlord who knows those charges cannot withstand legal scrutiny.'
     },
     'image-cup': {
         type:'image',
