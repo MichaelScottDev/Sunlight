@@ -1147,6 +1147,7 @@
                 <div class="grid grid-cols-[80px_1fr] gap-4 bg-sage/[0.04] border border-sage/20 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-sage">08</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Laptop</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Laptop with incriminating evidence → Southport Police</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">RJ gave Adam Watson a laptop. Adam brought it to Southport Police Station, Sex & Crime Squad. Active investigation.</div></div></div>
                 <div class="grid grid-cols-[80px_1fr] gap-4 p-4" style="background:rgba(193,68,14,0.07);border:1px solid rgba(193,68,14,0.28);border-left:3px solid #c1440e"><div class="text-center"><div class="text-[0.72rem] tracking-[0.1em] uppercase font-bold text-hot">09</div><div class="text-[0.5rem] text-paper/45 mt-0.5">AMBUSH</div></div><div><div class="text-[0.73rem] font-display tracking-wide text-paper/84 mb-0.5" style="color:rgba(245,234,212,0.84)">Bridgestone Nerang — premeditated ambush — after the laptop</div><div class="text-[0.62rem] leading-relaxed" style="color:rgba(245,234,212,0.58)">After Adam handed the laptop to Southport Police, RJ organised an ambush at Bridgestone Nerang. 3–4 people waited in a car. An orange-haired staff member at Bridgestone tipped them off — he has since been fired and charged. Adam defended himself with an implement, bashed RJ, and destroyed the car. Attackers: "We're just kids." Adam was charged. Police admitted they had to charge him to not look bad. He has never been convicted.</div></div></div>
                 <div class="grid grid-cols-[80px_1fr] gap-4 p-4" style="background:rgba(124,106,170,0.07);border:1px solid rgba(124,106,170,0.25);border-left:3px solid #7c6aaa"><div class="text-center"><div class="text-[0.72rem] tracking-[0.1em] uppercase font-bold" style="color:#7c6aaa">10</div><div class="text-[0.5rem] text-paper/45 mt-0.5">CONFRONTED</div></div><div><div class="text-[0.73rem] font-display tracking-wide mb-0.5" style="color:rgba(245,234,212,0.84)">"You won't hit me — you have too much to lose."</div><div class="text-[0.62rem] leading-relaxed" style="color:rgba(245,234,212,0.58)">RJ approached someone who knew Adam and said "You won't hit me because you have too much to lose!" — banking on the person's reputation to act as a shield. The person's friend, a bricklayer, punched RJ in the face twice. A local police officer witnessed it and did nothing.</div></div></div>
+                <div class="grid grid-cols-[80px_1fr] gap-4 p-4" style="background:rgba(193,68,14,0.07);border:1px solid rgba(193,68,14,0.28);border-left:3px solid #c1440e"><div class="text-center"><div class="text-[0.72rem] tracking-[0.1em] uppercase font-bold text-hot">11</div><div class="text-[0.5rem] text-paper/45 mt-0.5">G-LINK</div></div><div><div class="text-[0.73rem] font-display tracking-wide text-paper/84 mb-0.5" style="color:rgba(245,234,212,0.84)">G-Link tram — sexual harassment, false allegation against Adam Watson, footage proves lie</div><div class="text-[0.62rem] leading-relaxed" style="color:rgba(245,234,212,0.58)">Adam witnessed RJ and five accomplices on the G-Link tram sexually harassing a woman, demanding "Do you have a white pussy or a pink pussy?" A confrontation erupted. RJ's phone was thrown off the tram. Another male passenger punched one of RJ's associates. Police were called. One of RJ's group then claimed Adam had grabbed his backside — a false allegation. Tram footage reviewed by police disproved the claim entirely. The woman told RJ's group: "If my husband was here, he'd stab you."</div></div></div>
             </div>
         </div>
 
@@ -1276,6 +1277,54 @@
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Pattern — Why This Mentality Matters</div>
                 <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">This is not an isolated exchange. It is a documented mentality — the assumption that a person's community standing is a one-way constraint that only applies to them. It is the same logic that explains why RJ sent three associates to rob Adam Watson: he calculated that Adam would not fight back because of who Adam is and what he has to lose. The calculation was wrong then too.</p>
                 <p class="text-[0.68rem] text-paper/45 leading-relaxed">The lesson for community safety is this: criminals who target people with networks and reputations are not selecting soft targets. They are selecting targets whose legitimate standing they intend to use as a weapon. Awareness of this pattern — and the willingness to refuse the premise — is part of how communities protect themselves from those who exploit good faith.</p>
+            </div>
+        </div>
+
+        <!-- G-Link tram — Incident 11 -->
+        <div class="story-chapter reveal mt-10 mb-10" style="border-left-color:rgba(193,68,14,0.4)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#c1440e;border-color:rgba(193,68,14,0.4)">Incident 11 — G-Link Tram</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">"DO YOU HAVE A WHITE PUSSY<br><span class="text-hot">OR A PINK PUSSY?"</span></h3>
+            <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-5">"Six men. One woman. A moving tram. A false accusation. And footage that proved the lie."</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Adam Watson witnessed RJ and five accomplices on the G-Link tram sexually harassing a woman. The language was explicit and deliberate: <span class="font-display text-paper/70">"Do you have a white pussy or a pink pussy?"</span> Six men. One target. A public space in motion. A confrontation that escalated quickly.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The woman's response to RJ's group: <span class="font-display text-paper/70">"If my husband was here, he'd stab you."</span> The group did not back down. A physical confrontation followed. RJ's phone was thrown off the tram. Another male passenger — not connected to Adam — punched one of RJ's associates.</p>
+
+            <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">What Happened — Sequence</div>
+                <div class="space-y-2.5">
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/48 leading-relaxed">RJ and five accomplices sexually harass a woman on the G-Link tram</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/48 leading-relaxed">A confrontation erupts — RJ's phone is thrown off the tram</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/48 leading-relaxed">An unconnected male passenger punches one of RJ's associates</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/48 leading-relaxed">Police are called to the scene</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/48 leading-relaxed">One of RJ's group alleges that Adam grabbed his backside</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.62rem] text-paper/48 leading-relaxed">Tram footage reviewed by police — allegation against Adam disproved entirely</p></div>
+                </div>
+            </div>
+
+            <!-- False allegation callout -->
+            <div class="border-l-4 pl-5 mb-5" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">The Counter-Allegation</div>
+                <h4 class="font-display text-lg tracking-wide mb-3 leading-tight" style="color:#7c6aaa">THE LIE. AND THE FOOTAGE THAT KILLED IT.</h4>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">After the confrontation, one of RJ's group claimed to police that Adam Watson had grabbed his backside — a sexual assault allegation designed to flip the narrative. It is the same playbook applied in other incidents: generate a counter-allegation, create confusion, shift police attention from the perpetrators to the witness.</p>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">The G-Link tram has cameras. Police reviewed the footage. The allegation was false. Adam had done nothing to RJ's associate. The claim was fabricated — on the spot, to police — by a member of a group that had just spent the preceding minutes sexually harassing a stranger on a tram with five friends watching.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">The Pattern — False Allegation as Tactic</div>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed mb-2">This is not the first time a member of RJ's network made a false counter-allegation to police. It is a documented tactic: when caught in a criminal act, immediately accuse the other party of something — anything — that forces police to investigate both sides simultaneously.</p>
+                    <p class="text-[0.62rem] text-paper/40 leading-relaxed">The victim becomes a suspect. The investigation bifurcates. The tram footage was available and was reviewed. Without it, Adam Watson would have been facing a sexual assault allegation manufactured in real-time by a group that had just sexually harassed someone else.</p>
+                </div>
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(61,122,74,0.03)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-3">What the Footage Proved</div>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed mb-2">The tram's CCTV system recorded the entire incident. Police reviewed it. Adam Watson did not touch RJ's associate. The allegation was false. The footage proved it unambiguously — and in doing so, also captured the original harassment incident that triggered the confrontation.</p>
+                    <p class="text-[0.62rem] text-paper/40 leading-relaxed">Six men harassing one woman in public. One of those men lying to police about being assaulted. Footage that shows the truth. This is the documented record.</p>
+                </div>
+            </div>
+
+            <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Why This Incident Is in the Record</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Sexual harassment of a stranger in a public space, in a group, with five associates present. A physical confrontation that RJ's group initiated and lost. A false allegation made to police immediately afterward. Footage that disproved the allegation. This is not an isolated incident of poor judgement. It is a pattern of behaviour: harassment, confrontation, false counter-allegation, and reliance on the absence of evidence to escape accountability.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">The tram had cameras. The allegation failed. The question is how many times the same tactic has worked in spaces without cameras.</p>
             </div>
         </div>
 
