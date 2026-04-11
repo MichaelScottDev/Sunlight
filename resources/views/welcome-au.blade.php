@@ -1768,6 +1768,30 @@
                 <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">On the Record</div>
                 <p class="text-[0.68rem] text-paper/50 leading-relaxed">Kosta Kondratenko refuses to be mischaracterised. He refuses to have his political speech reframed as a mental health event. He refuses to have his credibility attacked by routing corporate interests through a police welfare visit. The viral video was political speech. "Bury you" was political language. The visit to the tent was intimidation dressed as welfare. The record reflects all of it.</p>
             </div>
+
+            <!-- Evidence vault: mental health check -->
+            <div class="evidence-vault mt-6">
+                <div class="ev-header" onclick="toggleVault(this)">
+                    <div class="flex items-center gap-2">
+                        <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Mental Health Welfare Check · Post-Viral Video</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                        <span class="ev-toggle">▼</span>
+                    </div>
+                </div>
+                <div class="ev-body">
+                    <div class="ev-file ef-hot" onclick="openMV('video-mental-health-check')">
+                        <div class="ev-icon ev-video">▶</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">mental_health_check.mp4</div>
+                            <div class="ev-desc">Video · Police tent visit following viral video · Hancock Prospecting questions embedded</div>
+                        </div>
+                        <span class="ev-cta">Watch →</span>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Surf Network WiFi block / government censorship -->
@@ -2575,6 +2599,15 @@ var EVIDENCE = {
         isPlaceholder:true,
         placeholderLabel:'FULL VIDEO PENDING LEGAL REVIEW',
         filename:'viral_video_RJ_PLACEHOLDER.mp4'
+    },
+    'video-mental-health-check': {
+        type:'video',
+        title:'MENTAL HEALTH CHECK — POLICE TENT VISIT',
+        tag:'Welfare Visit · Post-Viral Video · Hancock Prospecting Questions Embedded',
+        meta:'Video · Recorded at tent · Following viral video publication',
+        desc:'Police attended Kosta Kondratenko\'s tent location framed as a mental health welfare check following the viral video. During the visit, enquiries were made about an alleged email depicting Steven Miles in a coffin — denied. Hancock Prospecting\'s questions were embedded in the welfare check. This video is the record of that visit. A police welfare check is not a vehicle for a private corporation to conduct character research on a journalist.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/mental_health_check.mp4',
+        filename:'mental_health_check.mp4'
     },
     'pdf-bodie-lie': {
         type:'pdf',
