@@ -474,14 +474,18 @@
         </div>
 
         <!-- Sandy Tulisi profile -->
-        <div class="flex items-center gap-5 mb-10 reveal">
-            <div class="shrink-0 w-16 h-16 rounded-full overflow-hidden border border-hot/30">
-                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/sandy_photo.jpg" alt="Sandy Tulisi" class="w-full h-full object-cover object-top" />
+        <div class="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-8 mb-10 reveal">
+            <div>
+                <div class="w-full border border-paper/[0.07] overflow-hidden" style="aspect-ratio:2/3">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/sandy_photo.jpg" alt="Sandy Tulisi" class="w-full h-full object-cover object-top" />
+                </div>
+                <div class="text-[0.45rem] text-paper/20 mt-2 leading-relaxed">Sandy Tulisi / Sandy Park · BeHome · Surfers Paradise</div>
             </div>
             <div>
-                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-1">Subject</div>
-                <div class="font-display text-lg tracking-wide">Sandy Tulisi</div>
-                <div class="text-[0.55rem] text-paper/35 tracking-wide">aka Sandy Park · BeHome · SOLAC HOUSE · Appel Street Pty Ltd</div>
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Subject — Episode 1</div>
+                <h3 class="font-display text-2xl tracking-wide mb-3 leading-tight">SANDY TULISI.<br><span class="text-hot">AKA SANDY PARK.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Sandy Tulisi — also known as Sandy Park — operated BeHome rooming accommodation in Surfers Paradise under the company Appel Street Pty Ltd. She also operated SOLAC HOUSE. The properties ran at high density, reportedly housing up to 100 tenants.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45">After signing a Form R18 rooming accommodation agreement, she issued six false rent-overdue notices (all rent was paid on time), held the bond for 68 days past the legal limit of 10, and invoiced a $20 fee for a cup. She obtained a police banning notice to enforce a civil tenancy dispute. All charges she initiated were subsequently dropped in full. Not a single one was upheld.</p>
             </div>
         </div>
 
@@ -503,21 +507,12 @@
                                 <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Sandy Tulisi · Rooming House</span>
                             </div>
                             <div class="flex items-center gap-3">
-                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">3 files</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">2 files</span>
                                 <span class="ev-toggle">▼</span>
                             </div>
                         </div>
                         <div class="ev-body">
-                            <!-- File 1: Photo -->
-                            <div class="ev-file ef-gold" onclick="openMV('image','THE CUP PHOTO','Photograph taken at Sandy Tulisi\'s rooming house — allegedly a breach of house rules','Photo captured contemporaneously · Original file · Identifiers retained','sandy_cup_photo.jpg','I did not fail to wash the cup. This photo — taken without my knowledge — was used to justify a $20 tax invoice. It was later omitted from the formal bond deduction statement, suggesting even Sandy Tulisi knew it was indefensible.','image-cup')">
-                                <div class="ev-icon ev-img">📷</div>
-                                <div class="ev-meta">
-                                    <div class="ev-name">sandy_cup_photo.jpg</div>
-                                    <div class="ev-desc">Image · The cup that triggered a $20 tax invoice</div>
-                                </div>
-                                <span class="ev-cta">View →</span>
-                            </div>
-                            <!-- File 2: Notice to Leave PDF -->
+                            <!-- File 1: Notice to Leave PDF -->
                             <div class="ev-file ef-hot" onclick="openMV('pdf','NOTICE TO LEAVE — RTA','Queensland RTA notice citing serious breach, issued on false premises','PDF Document · Official RTA Form · Issued Oct 2023','rta_notice_to_leave.pdf','This Notice to Leave was built on the false breach notices — six emails claiming rent was overdue when it was not. It was presented to police to justify applying a Police Banning Notice (No. 385003) in a civil tenancy dispute. All charges arising from it were dropped.','pdf-ntl')">
                                 <div class="ev-icon ev-pdf">PDF</div>
                                 <div class="ev-meta">
@@ -538,7 +533,7 @@
                             </div>
                             <!-- ZIP Download -->
                             <div class="ev-zip-bar">
-                                <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Download all 3 files as a bundle</span>
+                                <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Download all 2 files as a bundle</span>
                                 <button class="mv-dl-btn mv-dl-gold text-[0.48rem]" onclick="downloadZip('sandy_tulisi_evidence.zip')">⬇ ZIP Bundle</button>
                             </div>
                         </div>
@@ -2538,16 +2533,6 @@ var EVIDENCE = {
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/Invoice+%23+1241.pdf',
         filename:'Invoice # 1241.pdf',
         desc:'Tax invoice #1241 issued by Appel Street Pty Ltd — a second fine for a second bowl being left. Two separate invoices for two bowls placed somewhere. Neither appeared in the RTA bond deduction statement. A landlord issuing tax invoices for items left in a kitchen, through a separate company entity, then omitting those invoices from the official bond claim, is a landlord who knows those charges cannot withstand legal scrutiny.'
-    },
-    'image-cup': {
-        type:'image',
-        title:'THE CUP PHOTO',
-        tag:'Sandy Tulisi — Rooming House Evidence',
-        meta:'Original photograph · Surfers Paradise · Aug–Oct 2023',
-        desc:'This photograph, taken without my knowledge, was used to justify a $20 tax invoice from Appel Street Pty Ltd. The "cup left" fine was later omitted from the formal bond deduction statement submitted to the RTA — suggesting even Sandy Tulisi knew it was legally indefensible.',
-        src:'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=800&q=80',
-        redact:false,
-        filename:'sandy_cup_photo.jpg'
     },
     'pdf-ntl': {
         type:'pdf',
