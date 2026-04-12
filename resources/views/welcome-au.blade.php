@@ -1051,6 +1051,56 @@
                         <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">Still Operating</div>
                         <p class="text-[0.68rem] text-paper/50 leading-relaxed">The system that failed to hold her accountable the first time has given her the space to do it again. BeHome is open. The evidence is here.</p>
                     </div>
+
+                    <!-- QFES fire safety -->
+                    <div class="border-l-4 border-hot/50 pl-5 mt-6" style="background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Queensland Fire &amp; Emergency Services — Referral · Awaiting Response</div>
+                        <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">THE QFES CAN TURN OFF THE POWER.<br><span class="text-hot">SANDY'S PROPERTY IS NOT FIRE-SAFE.</span></h4>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The Queensland Fire and Emergency Services has a power that no other regulator in this chain has used: if a property is found to be non-compliant with fire safety standards, the QFES can direct that power be cut to the building. A rooming house operating with up to 100 tenants and no compliant fire safety infrastructure is not a technicality — it is a life-safety risk.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Sandy Tulisi's operation has a documented pattern of issuing one-day eviction notices to tenants caught vaping inside the property. A single-day notice for vaping — in a building where up to 100 people sleep — suggests the property's approach to fire safety is about rule enforcement against tenants, not structural compliance. The rules exist, but only when they are useful as an eviction lever. The question of whether the building itself meets Queensland's fire safety standards for rooming accommodation at that density is a separate and more serious matter.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 my-4">
+                            <div class="border border-hot/20 p-3 text-center" style="background:rgba(193,68,14,0.03)">
+                                <div class="font-display text-2xl text-hot mb-1">1 Day</div>
+                                <div class="text-[0.48rem] tracking-[0.14em] uppercase text-hot/60">Eviction notice</div>
+                                <div class="text-[0.47rem] text-paper/25 mt-1">For vaping inside</div>
+                            </div>
+                            <div class="border border-paper/[0.07] p-3 text-center">
+                                <div class="font-display text-2xl text-paper/60 mb-1">~100</div>
+                                <div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/28">Tenants on site</div>
+                                <div class="text-[0.47rem] text-paper/25 mt-1">Rooming accommodation density</div>
+                            </div>
+                            <div class="border border-gold/20 p-3 text-center" style="background:rgba(201,138,16,0.03)">
+                                <div class="font-display text-2xl text-gold mb-1">0</div>
+                                <div class="text-[0.48rem] tracking-[0.14em] uppercase text-gold/60">QFES response</div>
+                                <div class="text-[0.47rem] text-paper/25 mt-1">Referral lodged — awaiting</div>
+                            </div>
+                        </div>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">A formal referral was made to the Queensland Fire and Emergency Services documenting the property's fire safety concerns. As of the date of this publication, no response has been received. The referral stands. The property continues to operate.</p>
+
+                        <div class="evidence-vault mt-2">
+                            <div class="ev-header" onclick="toggleVault(this)">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
+                                    <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— QFES Correspondence · Fire Safety Referral</span>
+                                </div>
+                                <div class="flex items-center gap-3">
+                                    <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                                    <span class="ev-toggle">▼</span>
+                                </div>
+                            </div>
+                            <div class="ev-body">
+                                <div class="ev-file ef-hot" onclick="openMV('pdf-qfes-email')">
+                                    <div class="ev-icon ev-pdf">PDF</div>
+                                    <div class="ev-meta">
+                                        <div class="ev-name">qld_fire_email_redacted.pdf</div>
+                                        <div class="ev-desc">PDF · QFES correspondence · Fire safety referral · Redacted · BeHome Surfers Paradise</div>
+                                    </div>
+                                    <span class="redact-tag">⬛ Redacted</span>
+                                    <span class="ev-cta ml-2">View →</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
         </div><!-- /space-y-16 -->
@@ -2608,6 +2658,15 @@ var EVIDENCE = {
         desc:'Police attended Kosta Kondratenko\'s tent location framed as a mental health welfare check following the viral video. During the visit, enquiries were made about an alleged email depicting Steven Miles in a coffin — denied. Hancock Prospecting\'s questions were embedded in the welfare check. This video is the record of that visit. A police welfare check is not a vehicle for a private corporation to conduct character research on a journalist.',
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/mental_health_check.mp4',
         filename:'mental_health_check.mp4'
+    },
+    'pdf-qfes-email': {
+        type:'pdf',
+        title:'QFES CORRESPONDENCE — FIRE SAFETY REFERRAL',
+        tag:'Queensland Fire & Emergency Services · BeHome · Fire Safety Non-Compliance',
+        meta:'PDF · Email correspondence · Redacted · Sandy Tulisi / BeHome Surfers Paradise',
+        desc:'Redacted email correspondence with the Queensland Fire and Emergency Services reporting fire safety concerns at Sandy Tulisi\'s BeHome rooming accommodation. The QFES has the power to direct that power be cut to a building found non-compliant with fire safety standards. The property operates at up to 100-tenant density with documented unsafe conditions. Sandy issued 1-day eviction notices for tenants caught vaping inside the property — yet maintained no compliant fire safety infrastructure. Referral lodged with QFES. No response received as of publication.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/qld_fire_email_redacted.pdf',
+        filename:'qld_fire_email_redacted.pdf'
     },
     'pdf-bodie-lie': {
         type:'pdf',
