@@ -211,7 +211,7 @@
         </button>
         <button onclick="document.getElementById('privacy').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-violet/35 transition-all p-4 bg-paper/[0.02]">
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-violet"></div>
-            <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-violet mb-1">Ch.2 — Privacy Breach</div><div class="font-display text-base tracking-wide group-hover:text-violet transition-colors leading-tight">Aquatic Centre Leak</div><div class="text-[0.62rem] text-paper/30 mt-1">Photographed · Annotated · Leaked · Tate retraction</div></div>
+            <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-violet mb-1">Ch.2 — Privacy Breach</div><div class="font-display text-base tracking-wide group-hover:text-violet transition-colors leading-tight">Aquatic Centre Leak</div><div class="text-[0.62rem] text-paper/30 mt-1">Photographed · Annotated · Leaked · Council block</div></div>
         </button>
         <button onclick="document.getElementById('media').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-gold/35 transition-all p-4 bg-paper/[0.02]">
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-gold"></div>
@@ -507,7 +507,7 @@
                                 <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Sandy Tulisi · Rooming House</span>
                             </div>
                             <div class="flex items-center gap-3">
-                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">2 files</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
                                 <span class="ev-toggle">▼</span>
                             </div>
                         </div>
@@ -521,19 +521,9 @@
                                 </div>
                                 <span class="ev-cta">View →</span>
                             </div>
-                            <!-- File 3: Court transcript -->
-                            <div class="ev-file ef-sage" onclick="openMV('pdf','COURT TRANSCRIPT','Transcript from proceedings — charge: Contravene Banning Notice No. 385003','PDF Document · Court Transcript · Redacted for privacy','court_transcript.pdf','The charge was taken on pro bono by a senior Australian lawyer. At court it was confirmed the Notice to Leave was issued on false grounds. All charges were subsequently dropped in full. No conviction. No penalty.','pdf-court')">
-                                <div class="ev-icon ev-pdf">PDF</div>
-                                <div class="ev-meta">
-                                    <div class="ev-name">court_transcript.pdf</div>
-                                    <div class="ev-desc">PDF · Court proceedings · Contravene Banning Notice · Charges dropped</div>
-                                </div>
-                                <span class="redact-tag">⬛ Names redacted</span>
-                                <span class="ev-cta ml-2">View →</span>
-                            </div>
                             <!-- ZIP Download -->
                             <div class="ev-zip-bar">
-                                <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Download all 2 files as a bundle</span>
+                                <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Download file</span>
                                 <button class="mv-dl-btn mv-dl-gold text-[0.48rem]" onclick="downloadZip('sandy_tulisi_evidence.zip')">⬇ ZIP Bundle</button>
                             </div>
                         </div>
@@ -886,48 +876,11 @@
                                 <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Subpoena Procedural Failure · Systemic Injustice</span>
                             </div>
                             <div class="flex items-center gap-3">
-                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">7 files</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">3 files</span>
                                 <span class="ev-toggle">▼</span>
                             </div>
                         </div>
                         <div class="ev-body">
-                            <!-- Email to Registry -->
-                            <div class="ev-file ef-hot" onclick="openMV('pdf','EMAIL TO SOUTHPORT COURT REGISTRY','Legal analysis of Forms 10 vs 21 — Justices Act 1886 s.78 vs Criminal Practice Rules 1999 r.29','PDF · Correspondence · Legal references included','email_registry_form_analysis.pdf','This email to the Southport Court Registry provides detailed legal analysis explaining that Form 10 (Summons by Justice) was not applicable to my situation as I am not a justice, and that Form 21 (Party-issued Subpoena) was the correct form under Criminal Practice Rules 1999, Rule 29. The email includes direct references to the relevant legislation. The Registry ignored this advice and recommended Form 10 anyway.','pdf-email-registry')">
-                                <div class="ev-icon ev-pdf">PDF</div>
-                                <div class="ev-meta">
-                                    <div class="ev-name">email_southport_registry_form_analysis.pdf</div>
-                                    <div class="ev-desc">PDF · Email to Court Registry · Form 10 vs Form 21 legal analysis</div>
-                                </div>
-                                <span class="ev-cta">View →</span>
-                            </div>
-                            <!-- Form 10 Summons -->
-                            <div class="ev-file ef-hot" onclick="openMV('pdf','FORM 10 — SUMMONS STAMPED & SERVED','Stamped by Southport Court Registry — served on Sandy Tulisi — improper form per Judge','PDF · Stamped official form · Served October 2023','form10_summons_stamped_served.pdf','This is Form 10 (Summons of a Witness) that was stamped by the Southport Court Registry despite my prior legal correspondence explaining it was the wrong form. It was served on Sandy Tulisi. At trial, the Judge explicitly stated the Registrar should never have stamped this form. The procedural impropriety meant no bench warrant could be issued when Sandy failed to appear.','pdf-form10')">
-                                <div class="ev-icon ev-pdf">PDF</div>
-                                <div class="ev-meta">
-                                    <div class="ev-name">form10_summons_stamped_served.pdf</div>
-                                    <div class="ev-desc">PDF · Form 10 — Stamped & served · Procedurally improper per Judge</div>
-                                </div>
-                                <span class="ev-cta">View →</span>
-                            </div>
-                            <!-- Form 21 Subpoena -->
-                            <div class="ev-file ef-sage" onclick="openMV('pdf','FORM 21 — CORRECT SUBPOENA FORM','The correct form under Criminal Practice Rules 1999, Rule 29 — demonstrates proper procedure','PDF · Reference form · CPR 1999 r.29','form21_correct_subpoena_form.pdf','This is Form 21 (Subpoena / Subpoena to Produce) — the form that should have been used. Criminal Practice Rules 1999, Rule 29 explicitly permits parties (including the accused or respondent) to issue subpoenas in this form, and authorizes the court registrar to issue them. The Southport Court Registry rejected this proper form in favour of the improper Form 10.','pdf-form21')">
-                                <div class="ev-icon ev-pdf">PDF</div>
-                                <div class="ev-meta">
-                                    <div class="ev-name">form21_correct_subpoena_form.pdf</div>
-                                    <div class="ev-desc">PDF · Form 21 — Correct form per CPR 1999 r.29 — Party-issued subpoena</div>
-                                </div>
-                                <span class="ev-cta">View →</span>
-                            </div>
-                            <!-- Court Transcript -->
-                            <div class="ev-file ef-hot" onclick="openMV('pdf','COURT TRANSCRIPT — JUDGE\'S RULING','Transcript excerpt — Judge states Registrar should never have stamped Form 10','PDF · Court proceedings · Redacted for privacy','court_transcript_subpoena_ruling.pdf','This transcript extract from the hearing documents the Judge\'s explicit statement that the Southport Court Registrar should never have stamped Form 10. The improper procedure meant that when Sandy Tulisi failed to appear, no bench warrant could be issued, and the key witness was absent from proceedings. This procedural failure ensured the landlords faced no accountability despite my case succeeding.','pdf-transcript-subpoena')">
-                                <div class="ev-icon ev-pdf">PDF</div>
-                                <div class="ev-meta">
-                                    <div class="ev-name">court_transcript_judge_subpoena_ruling.pdf</div>
-                                    <div class="ev-desc">PDF · Court transcript — Judge rules on improper Form 10</div>
-                                </div>
-                                <span class="redact-tag">⬛ Redacted</span>
-                                <span class="ev-cta ml-2">View →</span>
-                            </div>
                             <!-- Police Correspondence -->
                             <div class="ev-file ef-hot" onclick="openMV('pdf-police-correspondence')">
                                 <div class="ev-icon ev-pdf">PDF</div>
@@ -1517,39 +1470,11 @@
                             <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Police Corruption · Oracle East</span>
                         </div>
                         <div class="flex items-center gap-3">
-                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">4 files</span>
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
                             <span class="ev-toggle">▼</span>
                         </div>
                     </div>
                     <div class="ev-body">
-                        <!-- Audio: Police recording -->
-                        <div class="ev-file ef-sage" onclick="openMV('audio','POLICE INTERVIEW RECORDING','Officer stating content creator should expect to be bashed — REDACTED','Audio · Queensland Police Interview · Identifying details filtered','police_corruption_audio_REDACTED.wav','This recording was captured during the police interview of one of my attackers following the Oracle East assault. The officer\'s comment has been provided to the Premier\'s office and Attorney General Deb Frecklington. It is central to the active Task Force Latro corruption investigation. Names and identifying details have been filtered from this release.','audio-police')">
-                            <div class="ev-icon ev-audio"><div class="audio-bars"><b></b><b></b><b></b><b></b><b></b></div></div>
-                            <div class="ev-meta">
-                                <div class="ev-name">police_corruption_recording_REDACTED.wav</div>
-                                <div class="ev-desc">Audio · Police interview · "Expect to get bashed" comment</div>
-                            </div>
-                            <span class="redact-tag">⬛ REDACTED</span>
-                            <span class="ev-cta ml-2">Listen →</span>
-                        </div>
-                        <!-- Council Letter 1 -->
-                        <div class="ev-file ef-violet" onclick="openMV('pdf','COUNCIL LETTER 1 — COMPLAINT ACKNOWLEDGED','City of Gold Coast Chief Risk and Audit Office — Ref: Lawmaster 1192 — Dec 16, 2024','PDF · Official Council Correspondence · Signed: Julie Schyf','council_letter_1_complaint_acknowledged.pdf','The council formally acknowledged receipt of the privacy complaint on 16 December 2024 and confirmed it was being investigated by the Chief Risk and Audit Office. The 45-business-day window under the Information Privacy Act 2009 begins from this date.','pdf-cl1')">
-                            <div class="ev-icon ev-pdf">PDF</div>
-                            <div class="ev-meta">
-                                <div class="ev-name">council_letter_1_complaint_acknowledged.pdf</div>
-                                <div class="ev-desc">PDF · Council acknowledges privacy complaint · Ref: Lawmaster 1192 · 16 Dec 2024</div>
-                            </div>
-                            <span class="ev-cta">View →</span>
-                        </div>
-                        <!-- Council Letter 2 -->
-                        <div class="ev-file ef-hot" onclick="openMV('pdf','COUNCIL LETTER 2 — INVESTIGATION DISCONTINUED','City of Gold Coast drops its own investigation — onus placed on complainant','PDF · Official Council Correspondence · For the CEO','council_letter_2_investigation_discontinued.pdf','The council discontinued its own investigation, citing failure to receive further information from the complainant. The evidence needed to investigate — the photograph, the annotation, the staff member\'s identity — was entirely within the council\'s own systems. This discontinuation required Premier Crisafulli\'s intervention to reverse. Staff were subsequently terminated.','pdf-cl2')">
-                            <div class="ev-icon ev-pdf">PDF</div>
-                            <div class="ev-meta">
-                                <div class="ev-name">council_letter_2_investigation_discontinued.pdf</div>
-                                <div class="ev-desc">PDF · Council drops investigation · Onus placed on victim</div>
-                            </div>
-                            <span class="ev-cta">View →</span>
-                        </div>
                         <!-- Aquatic Centre Leaked Board Photo -->
                         <div class="ev-file ef-gold" onclick="openMV('image-aquatic')">
                             <div class="ev-icon ev-img">📷</div>
@@ -1560,19 +1485,9 @@
                             <span class="redact-tag" style="color:#c98a10;border-color:rgba(201,138,16,0.4)">📋 Leaked Board</span>
                             <span class="ev-cta ml-2">View →</span>
                         </div>
-                        <!-- Oracle East video (placeholder) -->
-                        <div class="ev-file ef-violet" onclick="openMV('video','ORACLE EAST — ASSAULT FOOTAGE','Video of the Oracle East attack — Kosta Kondratenko stalked from Broadbeach North tram stop — 6 assailants','Video · Pending release · Identifiers to be filtered','oracle_east_assault_PENDING.mp4','This footage documents the assault at Oracle East. The attacker is connected to RJ\'s network. The attack was carried out specifically in retaliation for video content published about this network. The footage is pending formal release pending legal advice. A redacted version will be published here.','video-oracle')">
-                            <div class="ev-icon ev-video">▶</div>
-                            <div class="ev-meta">
-                                <div class="ev-name">oracle_east_assault_footage_PENDING.mp4</div>
-                                <div class="ev-desc">Video · Oracle East assault · 6 assailants · Pending redacted release</div>
-                            </div>
-                            <span class="redact-tag">⬛ PENDING</span>
-                            <span class="ev-cta ml-2">Preview →</span>
-                        </div>
                         <div class="ev-zip-bar">
-                            <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Download council letters + audio (redacted)</span>
-                            <button class="mv-dl-btn mv-dl-gold text-[0.48rem]" onclick="downloadZip('police_accountability_files.zip')">⬇ ZIP Bundle</button>
+                            <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Download evidence file</span>
+                            <button class="mv-dl-btn mv-dl-gold text-[0.48rem]" onclick="downloadZip('police_accountability_files.zip')">⬇ Download</button>
                         </div>
                     </div>
                 </div>
@@ -1661,34 +1576,6 @@
                     <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"A QP-9 is a Queensland Police charge sheet. It is not a public document. If a journalist has one, someone in Queensland Police gave it to them. That is an unauthorised disclosure of personal information. Sunlight.Quest has referred this to the CCC."</p>
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The email thread from the Sky News reporter — sent to Hancock Prospecting with my QP-9 attached — documents both the illegal disclosure of a police charge document and the framing of a homeless journalism source as unreliable based on a dropped charge. The Kangaroo Point McDonald's Public Nuisance charge was dropped by the DPP at first mention. A dropped charge is not a conviction.</p>
 
-                    <!-- EVIDENCE VAULT: Sky News -->
-                    <div class="evidence-vault">
-                        <div class="ev-header" onclick="toggleVault(this)">
-                            <div class="flex items-center gap-2">
-                                <span class="text-[0.48rem] tracking-[0.22em] uppercase text-gold">📁 Evidence Files</span>
-                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Sky News · QP-9 Disclosure</span>
-                            </div>
-                            <div class="flex items-center gap-3">
-                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
-                                <span class="ev-toggle">▼</span>
-                            </div>
-                        </div>
-                        <div class="ev-body">
-                            <div class="ev-file ef-gold" onclick="openMV('pdf','SKY NEWS EMAIL THREAD + QP-9','Email from Sky News journalist to Hancock Prospecting — QP-9 attached — Queensland Police charge document','PDF · Email thread with attachment · Names partially redacted','sky_news_email_thread.pdf','This document shows the Sky News journalist forwarding my Queensland Police charge document (QP-9) — a non-public record — to representatives at Hancock Prospecting. A QP-9 cannot be obtained through public records or standard media liaison. Its disclosure to a third party is a breach of the Information Privacy Act 2009. The matter has been referred to the Crime and Corruption Commission.','pdf-skynews')">
-                                <div class="ev-icon ev-pdf">PDF</div>
-                                <div class="ev-meta">
-                                    <div class="ev-name">sky_news_email_hancock_QP9.pdf</div>
-                                    <div class="ev-desc">PDF · Email thread · QP-9 attachment · Referred to CCC</div>
-                                </div>
-                                <span class="redact-tag">⬛ Names redacted</span>
-                                <span class="ev-cta ml-2">View →</span>
-                            </div>
-                            <div class="ev-zip-bar">
-                                <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Download — Sky News accountability file</span>
-                                <button class="mv-dl-btn mv-dl-gold text-[0.48rem]" onclick="downloadZip('sky_news_accountability.zip')">⬇ Download</button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="story-chapter reveal" style="transition-delay:0.1s;border-left-color:rgba(124,106,170,0.3)">
@@ -1865,7 +1752,7 @@
             </div>
 
             <div class="border-l-4 border-hot/50 pl-5" style="background:rgba(193,68,14,0.05);padding:1rem 1rem 1rem 1.25rem">
-                <p class="text-[0.68rem] text-paper/50 leading-relaxed">Tom Tate demanded a retraction from this publication. Sunlight.Quest did not retract. What happened next: the Gold Coast Council's public WiFi network blocks the site. The Mayor of the Gold Coast is using the city's digital infrastructure as a tool of political suppression. That is the record.</p>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">The Gold Coast Council's public WiFi network blocks this site. The Mayor of the Gold Coast is using the city's digital infrastructure as a tool of political suppression. That is the record.</p>
             </div>
         </div>
 
@@ -2031,7 +1918,7 @@
                 </div>
                 <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.04)">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">The Tom Tate Connection</div>
-                    <p class="text-[0.62rem] text-paper/45 leading-relaxed mb-3">Tom Tate — the Gold Coast Mayor who has demanded retractions from this publication — allowed the Sandy Tulisi rooming house operation to stand. He let a predatory landlord's substandard, unsafe housing remain without council intervention. Sandy Tulisi has now opened a new BeHome location in Surfers Paradise with the proceeds.</p>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed mb-3">Tom Tate — the Gold Coast Mayor — allowed the Sandy Tulisi rooming house operation to stand. He let a predatory landlord's substandard, unsafe housing remain without council intervention. Sandy Tulisi has now opened a new BeHome location in Surfers Paradise with the proceeds.</p>
                     <p class="text-[0.62rem] text-paper/45 leading-relaxed">The Gold Coast moved on the homeless person's tent with stickers and confiscations. It did not move on the predatory landlord's rooming house. That asymmetry is a policy choice. It tells you whose Gold Coast this is.</p>
                 </div>
             </div>
@@ -2543,42 +2430,6 @@ var EVIDENCE = {
         filename:'notice_to_leave.pdf',
         desc:'The Notice to Leave issued under the RTA, citing a Serious Breach. The document states the resident must vacate by 5pm on 24/10/23. However, the Contravene Banning Notice charge — confirmed in the Queensland Person History at page 9 of the police correspondence — was issued on 23/10/23, the day before the vacate deadline. You cannot contravene a notice that has not yet expired. There is no email documenting what the "Serious Breach" was. There are no complaints from any housemates. The Public Nuisance incident occurred after the Notice to Leave was issued and could not have been its basis. The Notice to Leave was built on the six false rent notices and was used to apply Police Banning Notice No. 385003 in a civil tenancy dispute. All charges were subsequently dropped in full.'
     },
-    'pdf-court': {
-        type:'pdf',
-        title:'COURT TRANSCRIPT',
-        tag:'Contravene Banning Notice · Charges Dropped',
-        meta:'PDF · Court Proceedings · Redacted · All charges dropped',
-        desc:'Transcript from the proceedings regarding Contravene Banning Notice No. 385003. The charge was taken on pro bono by a senior Australian lawyer. The case confirmed the Notice to Leave was issued on false grounds. All charges were subsequently dropped in full. No conviction. No penalty.',
-        filename:'court_transcript.pdf',
-        pages: 8
-    },
-    'audio-police': {
-        type:'audio',
-        title:'POLICE INTERVIEW RECORDING — REDACTED',
-        tag:'Police Corruption · Task Force Latro',
-        meta:'Audio · Redacted · Provided to Premier\'s office and AG Frecklington',
-        desc:'Recording captured during the police interview of one of my attackers following the Oracle East assault. The officer makes a comment suggesting a content creator who makes videos about people should expect to be physically attacked. This recording has been provided to the Premier of Queensland and Attorney General Deb Frecklington. Names and identifying details have been filtered.',
-        duration: '2:34',
-        filename:'police_corruption_audio_REDACTED.wav'
-    },
-    'pdf-cl1': {
-        type:'pdf',
-        title:'COUNCIL LETTER 1 — COMPLAINT ACKNOWLEDGED',
-        tag:'City of Gold Coast · Ref: Lawmaster 1192 · Dec 16, 2024',
-        meta:'PDF · Official Council Correspondence · Signed: Julie Schyf',
-        desc:'The City of Gold Coast formally acknowledges receipt of the privacy complaint and confirms it is being investigated by the Chief Risk and Audit Office. The letter references the 45-business-day window under the Information Privacy Act 2009 — a window the Council would subsequently allow to pass before discontinuing its own investigation.',
-        filename:'council_letter_1_complaint_acknowledged.pdf',
-        pages: 1
-    },
-    'pdf-cl2': {
-        type:'pdf',
-        title:'COUNCIL LETTER 2 — INVESTIGATION DISCONTINUED',
-        tag:'City of Gold Coast · For the CEO · Investigation Dropped',
-        meta:'PDF · Official Council Correspondence · Investigation closed',
-        desc:'The Council discontinues its own investigation, citing failure to receive further information from the complainant. The evidence needed to investigate — the photograph, the annotation, the staff member\'s identity — was entirely within the Council\'s own systems. This outcome required escalation to Premier Crisafulli to reverse.',
-        filename:'council_letter_2_investigation_discontinued.pdf',
-        pages: 1
-    },
     'image-aquatic': {
         type:'image',
         title:'AQUATIC CENTRE — LEAKED SURVEILLANCE BOARD',
@@ -2605,25 +2456,6 @@ var EVIDENCE = {
         desc:'Order from His Honour Judge Rowan Jackson KC setting aside the sentence and remitting the matter back to the Magistrate\'s Court. His Honour made direct comment to the prosecution that, given the cost to the state of pursuing this charge and the low penalty if convicted, it may be in the DPP\'s best interest to reconsider whether it serves the public purse to continue. The matter was subsequently re-listed in the Magistrate\'s Court. When it came before the Magistrate, neither the prosecution nor the presiding Magistrate were aware of His Honour\'s comments — the matter was treated as a new case. The Magistrate stated that a fine would be imposed, at which point Adam Watson interjected to inform the court of the District Court\'s remarks recommending dismissal. The Magistrate then dismissed the case. This procedural failure — where a matter returns from a higher court without its history being known to the parties below — illustrates how justice can miscarry for those who do not have someone in their corner who understands the system.',
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/contravene_move_on/KONDRATENKO_Order.pdf',
         filename:'KONDRATENKO_Order.pdf'
-    },
-    'video-oracle': {
-        type:'video',
-        title:'ORACLE EAST — ASSAULT FOOTAGE',
-        tag:'Pending Release · Redacted Version Coming',
-        meta:'Video · Pending legal clearance · Identifiers to be filtered',
-        desc:'This footage documents the assault at Oracle East — Kosta Kondratenko stalked from Broadbeach North tram stop and attacked by 6 assailants connected to RJ\'s network. The attack was carried out in retaliation for video content published about this network. The footage is pending formal release pending legal advice.',
-        isPlaceholder:true,
-        placeholderLabel:'FOOTAGE PENDING LEGAL CLEARANCE',
-        filename:'oracle_east_assault_PENDING.mp4'
-    },
-    'pdf-skynews': {
-        type:'pdf',
-        title:'SKY NEWS EMAIL + QP-9 ATTACHMENT',
-        tag:'Media Accountability · QP-9 Disclosure · Referred to CCC',
-        meta:'PDF · Email thread with attachment · Names partially redacted',
-        desc:'Email from Sky News journalist forwarding Queensland Police charge document (QP-9) to representatives at Hancock Prospecting. A QP-9 is a non-public police record. Its disclosure to a third party is a breach of the Information Privacy Act 2009. Whether the disclosure was motivated by the pattern of hostility toward content creators evident in the Oracle East investigation is a question for the CCC. This matter has been referred.',
-        filename:'sky_news_email_QP9_attachment.pdf',
-        pages: 3
     },
     'video-viral': {
         type:'video',
