@@ -803,7 +803,87 @@
 
                 <!-- Chapter 06 -->
                 <div id="s-ch6" class="story-chapter reveal" style="transition-delay:0.3s;border-left-color:rgba(193,68,14,0.3)">
-                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter 06</span><span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Systemic Injustice</span></div>
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter 06</span><span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">The Confrontation</span></div>
+                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">PERSONAL SECURITY.<br><span class="text-hot">IN UNIFORM. ON THE PUBLIC PAYROLL.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"I told his second-in-command that nobody in that building is paying bonds. He looked me in the eye and said: 'You don't know what you're talking about.' The RTA confirmed 68 days later that bond number 714284215 had just been lodged. He knew. He just chose not to."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">During the confrontation with Marc Barrow and his second-in-command, the bond non-compliance at BeHome was raised directly. The officer's response — <strong class="text-paper/70">"You don't know what you're talking about"</strong> — was not a factual denial. It was a dismissal designed to end the conversation. The RTA subsequently confirmed the bond had been sitting outside the scheme for 68 days. The officer was not uninformed. He was unwilling.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">What the video documents is not simply a heated exchange. It is a pattern of behaviour: officers attending a licensed rooming accommodation in a professional capacity, not to protect tenants or enforce the law, but to act as the operational extension of the landlord's authority. Tenants — most of whom have no knowledge of their rights under the Residential Tenancies and Rooming Accommodation Act — were being evicted on police direction without warrants of possession. That is not a police function. That is a private enforcement service, delivered in uniform, funded by the public.</p>
+
+                    <!-- Gaslighting callout -->
+                    <div class="border-l-4 border-hot/50 pl-5 mb-5" style="background:rgba(193,68,14,0.06);padding:1.1rem 1rem 1.1rem 1.25rem">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Gaslighting On Record</div>
+                        <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">"YOU DON'T KNOW WHAT YOU'RE TALKING ABOUT."<br><span class="text-hot/70 text-lg">— MARC BARROW'S SECOND-IN-COMMAND</span></h4>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The comment was made in direct response to the claim that no tenants at BeHome were having their bonds lodged within the legal 10-day requirement. It is the classic gaslighting structure: the person with information is told by the authority figure that their information is wrong — not with evidence, but with confidence. The authority's certainty is meant to replace the facts.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">The RTA documentation, published in this section, establishes that bond 714284215 was lodged 68 days after move-in. The legal maximum is 10. The officer had no factual basis for his dismissal. He had presence of mind to dismiss it anyway. This is the conversation captured on video.</p>
+                    </div>
+
+                    <!-- Personal security / kickback allegation -->
+                    <div class="border-l-4 border-gold/40 pl-5 mb-5" style="background:rgba(201,138,16,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">Alleged — Inside Information · Not Yet Formally Evidenced</div>
+                        <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">THE ALLEGATION:<br><span class="text-gold">SANDY IS PAYING. TOM TATE IS RECEIVING. POLICE ARE DEPLOYED ACCORDINGLY.</span></h4>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Inside information received by this publication alleges that Sandy Tulisi / Sandy Park has been providing financial kickbacks to Gold Coast Mayor Tom Tate — and that, in return, officers within Marc Barrow's network have been directed to turn a blind eye to her operation and to act as her personal enforcement mechanism when tenants need to be moved on.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">This would explain what is otherwise difficult to explain: why a licensed rooming accommodation with documented bond fraud, a multi-entity obfuscation structure, and a pattern of tenants removed without warrants of possession, continues to operate without council or police intervention — while the same officers attend the property to enforce the landlord's wishes directly.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">Sunlight.Quest has not yet been able to formally evidence the financial relationship. The allegation is published here because it is directly relevant to the conduct documented in this section, and because the public interest in knowing the alleged mechanism of that conduct — if true — is significant. This publication will update this section when further material is available.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4">
+                            <div class="border border-gold/20 p-3 text-center" style="background:rgba(201,138,16,0.03)">
+                                <div class="font-display text-2xl text-gold mb-1">?</div>
+                                <div class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/30">Alleged kickback</div>
+                                <div class="text-[0.45rem] text-paper/20 mt-0.5">Sandy Tulisi → Tom Tate</div>
+                            </div>
+                            <div class="border border-hot/20 p-3 text-center" style="background:rgba(193,68,14,0.03)">
+                                <div class="font-display text-2xl text-hot mb-1">∞</div>
+                                <div class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/30">Blind eye</div>
+                                <div class="text-[0.45rem] text-paper/20 mt-0.5">No investigation. No intervention.</div>
+                            </div>
+                            <div class="border border-hot/20 p-3 text-center" style="background:rgba(193,68,14,0.03)">
+                                <div class="font-display text-2xl text-hot mb-1">~100</div>
+                                <div class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/30">Tenants affected</div>
+                                <div class="text-[0.45rem] text-paper/20 mt-0.5">Many without knowledge of legal rights</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Illegal evictions -->
+                    <div class="border border-paper/[0.07] p-5 mb-5" style="background:rgba(12,8,4,0.2)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">The Pattern — Illegal Evictions</div>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Multiple tenants at BeHome and associated properties operated by Sandy Tulisi / Sandy Park have been removed from the premises through police attendance — without a warrant of possession, without following the formal eviction process under the Residential Tenancies and Rooming Accommodation Act 2008, and without the tenant being informed of their legal right to remain pending a tribunal order.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A warrant of possession is the legal instrument required to physically remove a tenant. Without it, any removal is unlawful — regardless of whether a Notice to Leave has been issued. Many of the tenants at these properties are in vulnerable circumstances, are unfamiliar with the RTA framework, and have no access to legal advice. The presence of uniformed police officers creates the impression of legal authority where none exists for the removal itself.</p>
+                        <div class="space-y-1.5 mt-3">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/38 leading-relaxed">A warrant of possession is required before a tenant can be physically removed — Queensland law, no exceptions</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/38 leading-relaxed">Police attendance at a civil tenancy eviction, without a warrant of possession, does not make the removal legal</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/38 leading-relaxed">Tenants who don't know this have no way to object — which is precisely why it keeps happening</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/38 leading-relaxed">If you have been removed from a BeHome property by police without a warrant of possession, you may have been unlawfully evicted — contact the RTA or a community legal centre</p></div>
+                        </div>
+                    </div>
+
+                    <!-- Evidence vault -->
+                    <div class="evidence-vault">
+                        <div class="ev-header" onclick="toggleVault(this)">
+                            <div class="flex items-center gap-2">
+                                <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Police Confrontation · Marc Barrow</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                                <span class="ev-toggle">▼</span>
+                            </div>
+                        </div>
+                        <div class="ev-body">
+                            <div class="ev-file ef-hot" onclick="openMV('video-marc-barrow-dodgy')">
+                                <div class="ev-icon ev-video">▶</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">marc_barrow_dodgy.mp4</div>
+                                    <div class="ev-desc">Video · Confrontation with Marc Barrow and second-in-command · Bond gaslighting documented · "You don't know what you're talking about"</div>
+                                </div>
+                                <span class="ev-cta">Watch →</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chapter 07 -->
+                <div id="s-ch7" class="story-chapter reveal" style="transition-delay:0.3s;border-left-color:rgba(193,68,14,0.3)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter 07</span><span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Systemic Injustice</span></div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE REGISTRAR'S MISTAKE.<br><span class="text-hot">INJUSTICE GOES FREE.</span></h3>
                     <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"I sent a detailed legal email to Southport Court Registry explaining why Form 21 was the correct subpoena form. Their response was to stamp Form 10 anyway. A judge later said they should never have done that. By then it was too late. The landlords walked free."</p>
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">To call witnesses — particularly Sandy Tulisi and Chris Park — I needed subpoenas issued by the court. The Justices Act 1886, Section 78 states that only a justice can issue a summons (Form 10) if a witness will provide material evidence. I am not a justice. The Criminal Practice Rules 1999, Rule 29 explicitly permits parties like myself to issue subpoenas using Form 21. I sent this legal analysis to the Southport Court Registry in writing.</p>
@@ -2331,6 +2411,15 @@ function toggleVault(header) {
 var currentFile = null;
 
 var EVIDENCE = {
+    'video-marc-barrow-dodgy': {
+        type:'video',
+        title:'CONFRONTATION — MARC BARROW & SECOND-IN-COMMAND',
+        tag:'Police Gaslighting · Bond Non-Compliance · BeHome · Sandy Tulisi',
+        meta:'Video · Recorded at BeHome property · Marc Barrow and second-in-command',
+        desc:'Confrontation with Marc Barrow and his second-in-command at the BeHome property. When informed that tenants\' bonds were not being lodged within the legal 10-day requirement, the second-in-command responded: "You don\'t know what you\'re talking about." The RTA subsequently confirmed bond 714284215 had been outstanding for 68 days — more than six times the legal limit. This video documents the dismissal of documented evidence by officers attending the property not to investigate the landlord, but to protect her operation.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/marc_barrow_dodgy.mp4',
+        filename:'marc_barrow_dodgy.mp4'
+    },
     'video-sandy-service': {
         type:'video',
         title:'SUBPOENA SERVICE ATTEMPT — BEHOME PROPERTY',
