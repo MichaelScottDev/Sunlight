@@ -948,15 +948,46 @@
                         </div>
                     </div>
 
+                    <!-- Post-trial: Registrar deflects again -->
+                    <div class="mt-6 border-l-4 border-hot/50 pl-5" style="background:rgba(193,68,14,0.05);padding:1.2rem 1rem 1.2rem 1.25rem">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">After the Win — The Registry Still Won't Answer</div>
+                        <h4 class="font-display text-xl tracking-wide mb-4 leading-tight">I WON THE CASE.<br><span class="text-hot">THEN I SENT THE TRANSCRIPT BACK TO THE REGISTRAR AND ASKED AGAIN.</span></h4>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">After the charges were dropped and the Judge had explicitly stated on the record that the Registrar should never have stamped Form 10, I emailed the Southport Court Registry. I attached the transcript. I explained what the Judge had said. And I asked, as a matter of feedback — and so I would know for any future proceedings — what the correct form was.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">The Registrar did not answer the question. The response did not identify the correct form. It did not address the Judge's comments. It did not acknowledge the procedural failure that caused Sandy Tulisi to walk free. Instead, the Registrar's response directed me to seek Legal Aid.</p>
+                        <div class="border border-hot/20 p-4 mb-4" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">What Was Asked. What Was Given.</div>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <div class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/30 mb-2">The Question</div>
+                                    <p class="text-[0.6rem] text-paper/50 leading-relaxed italic">"The Judge said the Registrar should never have stamped Form 10 in my situation. I've attached the transcript. Can you confirm what the correct form is for a party to issue a subpoena — so I know for future proceedings?"</p>
+                                </div>
+                                <div>
+                                    <div class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/30 mb-2">The Response</div>
+                                    <p class="text-[0.6rem] text-paper/50 leading-relaxed">Deflection. Seek Legal Aid. No form identified. No acknowledgement of the Judge's ruling. No answer to the question asked.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-5">This is not an isolated failure of one Registrar on one day. This is a system that does not give self-represented parties accurate procedural information — not before, not during, and not after the case. When the Judge says on the record that the wrong form was stamped, and the Registry's response to that transcript is to tell you to find a lawyer, the message is unambiguous: the system expects you to fail without one. And it will not correct itself even when corrected from the bench.</p>
+
+                        <!-- Claude contrast -->
+                        <div class="border border-paper/[0.07] p-5" style="background:rgba(12,8,4,0.35)">
+                            <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/25 mb-3">The Contrast — 2026</div>
+                            <h5 class="font-display text-base tracking-wide mb-3 leading-tight">THE SAME QUESTION. ASKED TO AN AI. ANSWERED IN SECONDS.</h5>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed mb-3">The question the Southport Court Registry refused to answer — what form should a self-represented party use to issue a subpoena in Queensland — was posed to Claude. The answer was immediate, accurate, and referenced the correct legislation: Criminal Practice Rules 1999, Rule 29. Form 21. The same answer that was sent to the Registry in the original email before the trial. The answer the Registry ignored.</p>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed mb-4">A public institution whose function is to assist parties navigate court procedure sent a self-represented person to get a lawyer rather than answer a basic procedural question. A publicly accessible AI answered it correctly, with citations, for free. The implication is not that AI is better than the courts. It is that the courts are choosing not to help — and that choice has consequences for justice.</p>
+                            <a href="https://claude.ai/share/5a05ca36-2ed7-49d3-be74-7a601f7f27a3" target="_blank" rel="noopener" class="inline-flex items-center gap-2 border border-paper/15 hover:border-gold/40 px-4 py-2 text-[0.5rem] tracking-[0.18em] uppercase text-paper/40 hover:text-gold transition-all">View the Claude conversation → Form 21 vs Form 10 explained</a>
+                        </div>
+                    </div>
+
                     <!-- EVIDENCE VAULT: Systemic Injustice -->
-                    <div class="evidence-vault">
+                    <div class="evidence-vault mt-6">
                         <div class="ev-header" onclick="toggleVault(this)">
                             <div class="flex items-center gap-2">
                                 <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
                                 <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Subpoena Procedural Failure · Systemic Injustice</span>
                             </div>
                             <div class="flex items-center gap-3">
-                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">3 files</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">4 files</span>
                                 <span class="ev-toggle">▼</span>
                             </div>
                         </div>
@@ -988,6 +1019,15 @@
                                 </div>
                                 <span class="redact-tag" style="color:#c98a10;border-color:rgba(201,138,16,0.4)">📹 Court Record</span>
                                 <span class="ev-cta ml-2">Watch →</span>
+                            </div>
+                            <!-- Registrar clarification email + transcript -->
+                            <div class="ev-file ef-hot" onclick="openMV('pdf-registrar-clarification')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">clarification_request_subpeonas.pdf</div>
+                                    <div class="ev-desc">PDF · Post-trial email to Southport Registry · Transcript attached · Registrar deflects to Legal Aid without answering</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
                             </div>
                             <div class="ev-zip-bar">
                                 <span class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/25">Download all files — Evidence of systemic procedural failure</span>
@@ -2428,6 +2468,15 @@ var EVIDENCE = {
         desc:'Adam Watson attending the BeHome property to serve the Form 10 subpoena on Sandy Tulisi and Chris Park. An unidentified shirtless male with earrings — not Sandy Tulisi, not Chris Park — began filming Adam Watson on his phone despite CCTV cameras already covering the premises. When asked directly on camera to provide his name, the man refused. He remains unidentified. His deliberate refusal is consistent with the pattern of obfuscation surrounding this operation. Sandy Tulisi eventually answered the door, stated that Chris Park was sick, and accepted service of the documents. This recording was made to provide a court record of proper service in the event it was later disputed.',
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/VID_20240115_165018.mp4',
         filename:'VID_20240115_165018.mp4'
+    },
+    'pdf-registrar-clarification': {
+        type:'pdf',
+        title:'REGISTRAR CLARIFICATION REQUEST — POST-TRIAL',
+        tag:'Southport Court Registry · Form 10 vs Form 21 · Deflection · Seek Legal Aid',
+        meta:'PDF · Email correspondence · Transcript attached · Post-trial follow-up',
+        desc:'After winning the Contravene Banning Notice case and the Judge explicitly stating on the record that the Registrar should never have stamped Form 10, this email was sent to the Southport Court Registry with the transcript attached. The question was simple: what is the correct form for a self-represented party to issue a subpoena? The Registry\'s response did not identify the correct form, did not acknowledge the Judge\'s ruling, and did not address the procedural failure that allowed Sandy Tulisi to walk free. The Registry directed the sender to seek Legal Aid. The same question, posed to Claude AI, was answered correctly and immediately: Criminal Practice Rules 1999, Rule 29 — Form 21.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/clarification_request_subpeonas.pdf',
+        filename:'clarification_request_subpeonas.pdf'
     },
     'pdf-police-correspondence': {
         type:'pdf',
