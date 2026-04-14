@@ -2076,8 +2076,8 @@
 
         <!-- St John's Crisis Centre / Pizza photos -->
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.3)">
-            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">ST JOHN'S CRISIS CENTRE.<br><span class="text-hot">CLOSED OVER EASTER. AND THE CHURCH'S ASSETS.</span></h3>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">The St John's Crisis Centre was closed over the Easter period. The photo of the closed notice is below. The Catholic Church runs services for the homeless and the vulnerable — and closes them over the period it deems most holy. The people those services exist for do not stop being homeless over Easter. They do not stop being in crisis. The Church does not stop owning its assets.</p>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">ST JOHN'S CRISIS CENTRE.<br><span class="text-hot">CLOSED. OR DOMINO'S. THAT'S THE OFFER.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">St John's Crisis Centre is not part of the Catholic Church. On the question of food supply: the centre is frequently closed, or when open, the food on offer is Domino's Pizza — four slices. The people relying on these services do not stop being homeless or hungry when the centre is closed or when the budget runs to takeaway. If the food supply situation at services like St John's needs to be fixed, this is something that can be taken up directly with Mrs. Rinehart.</p>
 
             <!-- Photo grid: closed poster + pizza -->
             <div class="grid grid-cols-2 gap-4 mb-6">
@@ -2086,13 +2086,8 @@
                     <p class="text-[0.5rem] text-paper/28 leading-relaxed italic">St John's Crisis Centre — closed over Easter. The sign is real. The irony is real.</p>
                 </div>
                 <div>
-                    <div class="w-full border border-paper/[0.07] flex items-center justify-center mb-2" style="aspect-ratio:3/4;background:rgba(201,138,16,0.04)">
-                        <div class="text-center px-4">
-                            <div class="text-[0.5rem] tracking-[0.18em] uppercase text-gold/50 mb-2">Photo</div>
-                            <div class="text-[0.45rem] text-paper/22 leading-relaxed">Four slices of pizza<br>Homeless food referral<br>Photo — pending upload</div>
-                        </div>
-                    </div>
-                    <p class="text-[0.5rem] text-paper/28 leading-relaxed italic">The food referral service: four slices of pizza. Still hungry.</p>
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/aquatic/pizza_slices.jpg" alt="Domino's pizza slices — food referral at St John's Crisis Centre" class="w-full mb-2" style="object-fit:cover;border:1px solid rgba(245,234,212,0.07)" loading="lazy" />
+                    <p class="text-[0.5rem] text-paper/28 leading-relaxed italic">The food referral: Domino's. Four slices. Still hungry after. This is what the system offers.</p>
                 </div>
             </div>
 
