@@ -1171,6 +1171,131 @@
                     </div>
                 </div>
 
+            <!-- Aquatic Centre Privacy Breach -->
+            <div id="privacy" class="story-chapter reveal" style="border-left-color:rgba(124,106,170,0.4)">
+                <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">Privacy Breach</span><span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Southport Aquatic Centre · Gold Coast Council</span></div>
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">PHOTOGRAPHED. ANNOTATED. LEAKED.<br><span style="color:#7c6aaa">THE COUNCIL DROPPED IT ANYWAY.</span></h3>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"My photograph was taken from the CCTV inside the Southport Aquatic Centre. It was printed, pinned to a staff noticeboard, and annotated. Then it was photographed by a staff member and sent to members of the public. The Council opened an investigation. Then closed it. I used the upstairs shower — the one outside the gym — because it had better water pressure. That is the full extent of my misconduct."</p>
+
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The leaked surveillance board from the Southport Aquatic Centre — a real photograph, a real annotations, a real distribution — constitutes a privacy breach under the Information Privacy Act 2009. My photograph was extracted from internal CCTV and placed on a staff noticeboard with handwritten annotations including terms designed to deny me entry and flag me to staff for surveillance. That board was then photographed and circulated. A formal privacy complaint was filed. The Gold Coast Council acknowledged it. Their own investigation ran for less than the legislated 45-business-day window before being discontinued — citing failure to receive further information from the complainant.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The information needed to investigate — the photograph, the annotations, the identity of the staff member who circulated it — was entirely within the Council's own systems. The Council did not need me to provide it. They had it. The discontinuance was not a procedural outcome. It was a choice.</p>
+
+                <!-- The Brazilian -->
+                <div class="border-l-4 pl-5 mb-5" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">The Leaker — "The Brazilian"</div>
+                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">THE EMPLOYEE WHO CIRCULATED IT<br><span style="color:#7c6aaa">IS A PHOTOGRAPHER ENGAGED BY THE AQUATIC CENTRE.</span></h4>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The staff member responsible for photographing and distributing the surveillance board — referred to throughout this publication as "The Brazilian" — was employed as a photographer engaged by the Aquatic Centre. The Gold Coast Council, in correspondence, stated that the name of the staff member involved had not been provided to this publication. That email is in the evidence vault below.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Regardless of whether the Council chose to provide the name: my photograph was taken from their CCTV, placed on a board by their staff, and distributed by someone working in their building. The Council's obligation to investigate that conduct did not depend on me identifying the person. They had the CCTV logs. They had the staff records. They had the building. They dropped the investigation anyway.</p>
+                    <div class="border border-paper/[0.07] p-4 mt-3" style="background:rgba(12,8,4,0.3)">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/25 mb-2">Additional Allegations — Alleged · Not Formally Evidenced</div>
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">The Brazilian is alleged to be running an immigration scam — living with an Australian woman in circumstances that suggest the arrangement is designed to secure residency rather than a genuine domestic partnership.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">The Brazilian is alleged to have attempted to sell steroids to a friend of this publication for the purposes of weight loss — a transaction that would constitute an illegal supply of a controlled substance under Queensland law.</p></div>
+                        </div>
+                        <p class="text-[0.55rem] text-paper/25 mt-3 leading-relaxed">These allegations are published here because they are directly relevant to the character of the person responsible for the privacy breach. They have not been independently verified. This publication will update this section as further material becomes available.</p>
+                    </div>
+                </div>
+
+                <!-- Security confrontation -->
+                <div class="border-l-4 border-hot/50 pl-5 mb-5" style="background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">The Security Confrontation — Outside the Aquatic Centre · At Night</div>
+                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">A SECURITY GUARD TOLD ME I HAD THREATENED THE AQUATIC CENTRE.<br><span class="text-hot">I DENY THIS. POLICE NEVER CONTACTED ME.</span></h4>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Following the privacy breach becoming known, Aquatic Centre employees made comments to Adam Watson that by showing this publication the leaked surveillance board, he had created a situation that could potentially put those employees in danger. This is the inversion of accountability: the person who circulated a photograph of a member of the public without consent was not identified as the risk. The person who made the breach known was.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">I was subsequently approached by security outside the Aquatic Centre at night. A security staff member made a direct comment: that I had threatened the Aquatic Centre. I deny this accusation in full. No specific threat was ever made. No person was ever put at risk by anything I said or did.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Critically: Queensland Police Service never contacted me regarding any alleged threat. I was not interviewed. I was not served with any notice or direction. I was not the subject of any formal complaint communicated to me by police. This means one of two things: either the allegation was never reported to police — in which case it is not credible enough to be put on record — or it was placed into internal police files without my knowledge. The latter possibility raises a more serious concern.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The Allegation (Security Staff)</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">That Kosta Kondratenko threatened the Aquatic Centre following the privacy breach becoming public.</p>
+                        </div>
+                        <div class="border border-sage/20 p-4" style="background:rgba(61,122,74,0.03)">
+                            <div class="text-[0.46rem] tracking-[0.2em] uppercase text-sage mb-2">The Record</div>
+                            <div class="space-y-1">
+                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/40">QPS never contacted Kosta</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/40">No interview conducted</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/40">No formal complaint served</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40">Likely placed in internal files only</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kerry Stokes / defense fund -->
+                <div class="border-l-4 border-gold/40 pl-5 mb-5" style="background:rgba(201,138,16,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">Kerry Stokes · Discovery Network — Defense Fund Offered</div>
+                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">THE NOTES IN THE SYSTEM.<br><span class="text-gold">KERRY STOKES HAS BEEN MADE AWARE.</span></h4>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Kerry Stokes has been made aware of the Aquatic Centre privacy breach and the subsequent conduct — including the security confrontation and the unverified allegation about internal police files. Stokes has offered to put up a defense fund, under which Discovery Network would recover any notes placed into police or council systems and cross-reference them with Queensland Police Service, who can be subpoenaed to give sworn testimony as to why they were never contacted about the supposed threat made against the Aquatic Centre.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed">If there are entries in internal police files characterising Kosta Kondratenko as a threat based on an allegation made by Aquatic Centre security staff — entries made without a formal complaint, without interview, and without any contact with the person allegedly named — those entries can be recovered, examined, and tested against the sworn testimony of the officers responsible for creating them.</p>
+                </div>
+
+                <!-- The shower — context -->
+                <div class="border border-paper/[0.07] p-5 mb-5" style="background:rgba(12,8,4,0.15)">
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/25 mb-3">For the Record — What I Was Actually Doing</div>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The annotations on the surveillance board suggest I was flagged as a concern at the Aquatic Centre. The full extent of my conduct there was this: I used the upstairs shower outside the gym because it had better water pressure than the downstairs change rooms. I made no disturbance. I was not aggressive toward any staff member or patron. I was never asked to leave. I was never banned. No incident report was ever filed against me that I was made aware of.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">My photograph was taken from CCTV and placed on a surveillance board because someone decided, without any formal complaint or incident, that I should be monitored. That is the origin of this entire matter. The breach was not triggered by my conduct. It was triggered by someone's decision to photograph and circulate images of a member of the public without their consent or any lawful basis.</p>
+                </div>
+
+                <!-- Council dropped it + email -->
+                <div class="border-l-4 border-hot/50 pl-5 mb-5" style="background:rgba(193,68,14,0.05);padding:1rem 1rem 1rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Council Dropped It — Despite Having Everything They Needed</div>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The Gold Coast Council acknowledged my complaint in December 2024 and confirmed it was being investigated by the Chief Risk and Audit Office under the 45-business-day window set by the Information Privacy Act 2009. They subsequently discontinued the investigation — citing failure to receive further information from the complainant. An email was sent to the Council asking for the name of the staff member responsible. That email was not answered.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed">The Council did not need my response to continue its own investigation. The photograph was from their CCTV. The noticeboard was in their building. The staff member was their employee. The decision to discontinue despite having access to all material evidence — and despite failing to respond to a direct inquiry — reflects a Council that is not interested in holding its own employees accountable for privacy violations against members of the public. The fact that the Council's website was then used to block access to this publication adds context to that disinterest.</p>
+                </div>
+
+                <!-- Evidence vault -->
+                <div class="evidence-vault mt-6">
+                    <div class="ev-header" onclick="toggleVault(this)">
+                        <div class="flex items-center gap-2">
+                            <span class="text-[0.48rem] tracking-[0.22em] uppercase" style="color:#7c6aaa">📁 Evidence Files</span>
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Aquatic Centre Privacy Breach · Gold Coast Council</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">4 files</span>
+                            <span class="ev-toggle">▼</span>
+                        </div>
+                    </div>
+                    <div class="ev-body">
+                        <div class="ev-file ef-gold" onclick="openMV('image-aquatic')">
+                            <div class="ev-icon ev-img">📷</div>
+                            <div class="ev-meta">
+                                <div class="ev-name">aquatic_centre_surveillance_board.jpg</div>
+                                <div class="ev-desc">Image · Leaked surveillance board · Council staff photos annotated &amp; distributed · Privacy breach confirmed</div>
+                            </div>
+                            <span class="redact-tag" style="color:#c98a10;border-color:rgba(201,138,16,0.4)">📋 Leaked Board</span>
+                            <span class="ev-cta ml-2">View →</span>
+                        </div>
+                        <div class="ev-file ef-violet" onclick="openMV('pdf-aquatic-acknowledgement')">
+                            <div class="ev-icon ev-pdf">PDF</div>
+                            <div class="ev-meta">
+                                <div class="ev-name">PRIVACY COMPLAINT — Kosta Kondratenko — ACKNOWLEDGEMENT LETTER.pdf</div>
+                                <div class="ev-desc">PDF · Gold Coast Council · Complaint receipt confirmed · Chief Risk &amp; Audit Office · 45-day investigation window</div>
+                            </div>
+                            <span class="ev-cta">View →</span>
+                        </div>
+                        <div class="ev-file ef-hot" onclick="openMV('pdf-aquatic-discontinuance')">
+                            <div class="ev-icon ev-pdf">PDF</div>
+                            <div class="ev-meta">
+                                <div class="ev-name">PRIVACY COMPLAINT — Kondratenko — DECISION LETTER TO COMPLAINANT.pdf</div>
+                                <div class="ev-desc">PDF · Gold Coast Council · Investigation discontinued · Cited: no further information from complainant · Evidence was entirely within Council systems</div>
+                            </div>
+                            <span class="ev-cta">View →</span>
+                        </div>
+                        <div class="ev-file ef-violet" onclick="openMV('pdf-aquatic-employee-name')">
+                            <div class="ev-icon ev-pdf">PDF</div>
+                            <div class="ev-meta">
+                                <div class="ev-name">employee_name.pdf</div>
+                                <div class="ev-desc">PDF · Gold Coast Council email · States name of staff member not received — email was sent, never answered</div>
+                            </div>
+                            <span class="ev-cta">View →</span>
+                        </div>
+                        <div class="ev-zip-bar">
+                            <span class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/25">Download — Aquatic Centre privacy breach bundle</span>
+                            <button class="mv-dl-btn mv-dl-hot text-[0.48rem]" onclick="downloadZip('aquatic_centre_privacy_breach.zip')">⬇ ZIP Bundle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div><!-- /space-y-16 -->
     </div><!-- /max-w-6xl -->
 </section>
@@ -2567,6 +2692,33 @@ var EVIDENCE = {
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/notice_to_leave.pdf',
         filename:'notice_to_leave.pdf',
         desc:'The Notice to Leave issued under the RTA, citing a Serious Breach. The document states the resident must vacate by 5pm on 24/10/23. However, the Contravene Banning Notice charge — confirmed in the Queensland Person History at page 9 of the police correspondence — was issued on 23/10/23, the day before the vacate deadline. You cannot contravene a notice that has not yet expired. There is no email documenting what the "Serious Breach" was. There are no complaints from any housemates. The Public Nuisance incident occurred after the Notice to Leave was issued and could not have been its basis. The Notice to Leave was built on the six false rent notices and was used to apply Police Banning Notice No. 385003 in a civil tenancy dispute. All charges were subsequently dropped in full.'
+    },
+    'pdf-aquatic-acknowledgement': {
+        type:'pdf',
+        title:'PRIVACY COMPLAINT — ACKNOWLEDGEMENT LETTER',
+        tag:'Gold Coast Council · Chief Risk & Audit Office · Dec 2024',
+        meta:'PDF · Official Council Correspondence · Complaint confirmed received',
+        desc:'The City of Gold Coast formally acknowledges receipt of the privacy complaint regarding the Southport Aquatic Centre surveillance board leak. The letter confirms the matter is being investigated by the Chief Risk and Audit Office under the 45-business-day window established by the Information Privacy Act 2009.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/aquatic/PRIVACY+COMPLAINT+-+Kosta+Kondratenko+-+ACKNOWLEDGEMENT+LETTER.pdf',
+        filename:'PRIVACY_COMPLAINT_Kosta_Kondratenko_ACKNOWLEDGEMENT_LETTER.pdf'
+    },
+    'pdf-aquatic-discontinuance': {
+        type:'pdf',
+        title:'PRIVACY COMPLAINT — DECISION LETTER — INVESTIGATION DISCONTINUED',
+        tag:'Gold Coast Council · Investigation Dropped · No Further Information',
+        meta:'PDF · Official Council Correspondence · Investigation discontinued',
+        desc:'The City of Gold Coast discontinues its investigation into the Aquatic Centre privacy breach, citing failure to receive further information from the complainant. The evidence required to investigate — the CCTV photograph, the annotated surveillance board, and the identity of the staff member responsible — was entirely within the Council\'s own systems and did not require any information from the complainant to obtain.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/aquatic/PRIVACY+COMPLAINT+-+Kondratenko+-+DECISION+LETTER+TO+COMPLAINANT.pdf',
+        filename:'PRIVACY_COMPLAINT_Kondratenko_DECISION_LETTER_TO_COMPLAINANT.pdf'
+    },
+    'pdf-aquatic-employee-name': {
+        type:'pdf',
+        title:'GOLD COAST COUNCIL — STAFF MEMBER NAME NOT PROVIDED',
+        tag:'Gold Coast Council · Staff Identity · Email Not Answered',
+        meta:'PDF · Council email · Name of staff member stated as not received',
+        desc:'Email from the Gold Coast Council stating that the name of the staff member responsible for photographing and distributing the surveillance board had not been provided to this publication. An email was sent to the Council requesting the staff member\'s name. That email was not answered. The Council\'s failure to respond to the identification inquiry, combined with its subsequent discontinuance of the investigation, reflects a deliberate decision not to pursue accountability for the breach.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/aquatic/employee_name.pdf',
+        filename:'employee_name.pdf'
     },
     'image-aquatic': {
         type:'image',
