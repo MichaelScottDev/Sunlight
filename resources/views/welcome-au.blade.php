@@ -757,6 +757,23 @@
                         <p class="text-[0.68rem] text-paper/45 leading-relaxed">The purpose of the Crime and Corruption Commission is to act when Queensland Police cannot or will not hold themselves accountable. When the oversight body receives a complaint, reviews the material, and sends it back to the institution being complained about — the institution has not been scrutinised. It has been protected. This is not a failure of process. It is the process working exactly as those who benefit from it intend.</p>
                     </div>
 
+                    <!-- ESC Outcome -->
+                    <div class="border-l-4 pl-5 mt-4 mb-4" style="border-color:rgba(193,68,14,0.45);background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">QPS Ethical Standards Command — ESC Outcome · COM-24-00427</div>
+                        <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">THEY REVIEWED THE BWC FOOTAGE.<br><span class="text-hot">THEY WON'T RELEASE IT.</span></h4>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">When the CCC referred the complaint, it was forwarded to the QPS Ethical Standards Command. The ESC reviewed the Body Worn Camera footage from the eviction and, on 18 June 2024, Inspector C A Sanderson issued a formal outcome letter under reference COM-24-00427. The finding: force was not excessive, officers' actions were lawful and reasonable, no misconduct was found.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">Following the outcome letter, a request was made to the ESC for the BWC footage to be provided — particularly after the Public Nuisance charge was dropped by the Magistrate. The ESC declined to provide the footage. The request was redirected to the QPS Right to Information Unit. The footage has not been released.</p>
+                        <div class="border border-hot/20 p-4 mb-3" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">The Disputed Finding — Entry Without Warrant of Possession</div>
+                            <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">The ESC outcome letter explicitly references the allegation that Marc Barrow entered the BeHome property without a Warrant of Possession. The ESC found this to be lawful. This publication disputes that finding. The position here is straightforward: Barrow viewed the Notice to Leave — a notice to a tenant, not a court order authorising physical removal. A Notice to Leave and a Warrant of Possession are not the same instrument. Only a Warrant of Possession authorises the removal of a tenant from licensed rooming accommodation under Queensland law. Barrow had one. He did not have the other.</p>
+                            <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">What the BWC footage will show — if it is ever released — is the following: Marc Barrow entering the BeHome property without a Warrant of Possession; removing Kosta Kondratenko's belongings from the premises; and then coming to the paddy wagon to ask whether the laptop was his. That is what occurred during the Public Nuisance charge. These events are not in dispute. They happened. The BWC exists. The ESC has reviewed it. It has not been released.</p>
+                            <div class="border border-paper/[0.06] p-3" style="background:rgba(245,234,212,0.02)">
+                                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/35 mb-2">To Queensland Police Service</div>
+                                <p class="text-[0.62rem] text-paper/45 leading-relaxed italic">If the QPS wish to dispute the account of what occurred at the BeHome property on the night of the eviction — release the Body Worn Camera footage. It will show what happened. This publication will publish it in full.</p>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Marc Barrow Evidence Vault -->
                     <div class="evidence-vault mt-6">
                         <div class="ev-header" onclick="toggleVault(this)">
@@ -765,7 +782,7 @@
                                 <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Marc Barrow · CCC · Charge Sheet · Unlawful Eviction</span>
                             </div>
                             <div class="flex items-center gap-3">
-                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">3 files</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">5 files</span>
                                 <span class="ev-toggle">▼</span>
                             </div>
                         </div>
@@ -794,6 +811,24 @@
                                 <div class="ev-meta">
                                     <div class="ev-name">public_nuisance_charge.pdf — QP Charge Sheet · Marc Barrow</div>
                                     <div class="ev-desc">PDF · Public Nuisance charge · Property misclassified as hostel · Invalid trespass threat · Items removed without warrant · Charge escalated through post · Dropped by Judge</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                            <!-- ESC Outcome email thread -->
+                            <div class="ev-file ef-hot" onclick="openMV('pdf-esc-outcome-letter')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">OUTCOME-LETTER.pdf — ESC Email Thread · BWC Request Redirected</div>
+                                    <div class="ev-desc">PDF · QPS Ethical Standards Command · Email thread 18 Jun – 4 Jul 2024 · BWC footage request redirected to Right to Information Unit</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                            <!-- ESC formal outcome letter -->
+                            <div class="ev-file ef-hot" onclick="openMV('pdf-esc-complaint-letter')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">COM-24-00427 CP KONDRATENKO.pdf — Formal ESC Outcome Letter</div>
+                                    <div class="ev-desc">PDF · COM-24-00427 · Inspector C A Sanderson · 18 June 2024 · BWC reviewed · No misconduct found · Entry without WoP disputed by this publication</div>
                                 </div>
                                 <span class="ev-cta">View →</span>
                             </div>
@@ -2642,6 +2677,24 @@ var EVIDENCE = {
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/public_nuisance_charge.pdf',
         filename:'public_nuisance_charge.pdf',
         desc:'The Public Nuisance charge sheet issued during the eviction from the BeHome property. The document refers to the property as a "hostel" — it was a licensed rooming house. The charge sheet stated I would be arrested for trespass; this was invalid as the Notice to Leave was for the following day and had been shown to Officer Marc Barrow directly — he had no lawful basis to arrest for trespass. Barrow also removed items from the property without a warrant of possession, which is unlawful. During the van incident, abusive comments were made — but only after being pushed against the police van without provocation, as BWC footage from the incident (currently being sought) will confirm. I had also notified Barrow of property breaches — his duty as a police officer was to uphold the law, not facilitate an unlawful eviction. The initial public nuisance ticket was escalated to a formal Public Nuisance charge through the post. The charge was subsequently dropped by the Judge.'
+    },
+    'pdf-esc-outcome-letter': {
+        type:'pdf',
+        title:'ESC OUTCOME — EMAIL THREAD · BWC FOOTAGE REQUEST REDIRECTED',
+        tag:'QPS Ethical Standards Command · ESC · BWC Footage · Right to Information Unit',
+        meta:'PDF · Email thread · 3 messages · 18 June – 4 July 2024',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/OUTCOME-LETTER.pdf',
+        filename:'OUTCOME-LETTER.pdf',
+        desc:'Email thread between Kosta Kondratenko and the QPS Ethical Standards Command. Three messages spanning 18 June to 4 July 2024. The ESC sends the formal outcome letter on 18 June. On 3 July, Kosta responds noting the Public Nuisance charge has been dropped by the Magistrate and requests the BWC footage. On 4 July, the ESC redirects the BWC footage request to the QPS Right to Information Unit — a separate department and a separate process. The footage has not been released.'
+    },
+    'pdf-esc-complaint-letter': {
+        type:'pdf',
+        title:'COM-24-00427 — FORMAL ESC OUTCOME LETTER — INSPECTOR SANDERSON',
+        tag:'QPS Ethical Standards Command · COM-24-00427 · Marc Barrow · BWC Footage · Warrant of Possession',
+        meta:'PDF · Formal outcome letter · 18 June 2024 · Inspector C A Sanderson',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/COM-24-00427+CP+KONDRATENKO.pdf',
+        filename:'COM-24-00427_CP_KONDRATENKO.pdf',
+        desc:'Formal outcome letter from the QPS Ethical Standards Command, reference COM-24-00427 (CS), signed by Inspector C A Sanderson on 18 June 2024. The ESC reviewed the Body Worn Camera footage and concluded that force was not excessive and that officers\' actions were lawful and reasonable — no misconduct found. The letter notes the Contravene Banning Notice charge was dismissed by the Magistrate (who found police had no authority to issue it). The letter explicitly references the allegation that the officer entered the BeHome property without a Warrant of Possession — the ESC found this to be lawful. This publication disputes that finding: Barrow viewed the Notice to Leave, not a Warrant of Possession. Those are not the same instrument. Only a Warrant of Possession authorises the physical removal of a tenant under Queensland law.'
     },
     'image-bowl-left': {
         type:'image',
