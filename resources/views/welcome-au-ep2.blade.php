@@ -117,8 +117,8 @@
         .cap-time{font-size:0.55rem;letter-spacing:0.1em;color:rgba(245,234,212,0.3);font-family:'DM Mono',monospace}
 
         /* image viewer */
-        .mv-img-frame{position:relative;max-width:760px;width:100%}
-        .mv-img-frame img{width:100%;display:block;border:1px solid rgba(245,234,212,0.06)}
+        .mv-img-frame{position:relative;max-width:760px;width:100%;align-self:flex-start}
+        .mv-img-frame img{width:100%;height:auto;display:block;border:1px solid rgba(245,234,212,0.06)}
         .face-redact{position:absolute;background:rgba(4,4,4,0.93);border:1px solid rgba(193,68,14,0.35);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:0.2rem}
 
         /* pdf placeholder */
