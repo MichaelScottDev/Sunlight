@@ -3673,7 +3673,7 @@ var EVIDENCE = {
         tag:'RJ · Text Message · Post-Viral · Restraining Order Threat',
         meta:'Image · Text message sent by RJ to Adam Watson following the viral video',
         desc:'Text message sent by RJ to Adam Watson after the viral video. RJ threatens restraining orders despite a documented pattern of organising gang assaults and pre-planned ambushes against Adam Watson. The message contains a reference to "cunt mums" — notable given that RJ\'s own mother has a restraining order against him. The message also deploys the word "creep" — a deliberate destabilisation tactic modelled on a false allegation successfully used against a local doctor.',
-        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/rj_stayaway.jpg',
+        src:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/rj_stayaway.jpg',
         filename:'rj_stayaway.jpg'
     }
 };
