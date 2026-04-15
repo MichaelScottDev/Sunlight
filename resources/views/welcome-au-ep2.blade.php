@@ -1598,6 +1598,49 @@
             </div>
         </div>
 
+        <!-- RJ text message after viral video -->
+        <div class="story-chapter reveal mt-10" style="border-left-color:rgba(193,68,14,0.3)">
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">AFTER THE VIDEO WENT VIRAL.<br><span class="text-hot">RJ TEXTS. THREATENS RESTRAINING ORDERS. HIS OWN MOTHER HAS ONE ON HIM.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Following the viral video, RJ sent the following text message. A person with a documented pattern of organising gang assaults is now threatening legal process.</p>
+
+            <!-- Screenshot -->
+            <div class="ev-file ef-hot mb-5" onclick="openMV('image-rj-text')">
+                <div class="ev-icon ev-img">📷</div>
+                <div class="ev-meta">
+                    <div class="ev-name">rj_stayaway.jpg</div>
+                    <div class="ev-desc">Image · Text message · RJ to Adam Watson — sent after viral video · Threatening restraining orders</div>
+                </div>
+                <span class="ev-cta">View →</span>
+            </div>
+
+            <!-- Restraining order threat / irony -->
+            <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.03)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">The Restraining Order Threat — Context and Irony</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">RJ — a person whose documented pattern includes <strong class="text-paper/60">organising gang assaults</strong>, pre-planned ambushes, a Bridgestone insider tip-off, and criminal activity captured across multiple incidents on video — is threatening to seek a restraining order against Adam Watson. The same person who sent three associates to wait for Adam in a car park is now reaching for the legal system as a shield.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">In the message he references <strong class="text-paper/60">"cunt mums."</strong> The irony is not subtle: <strong class="text-paper/60">RJ's own mother has a restraining order on him.</strong> The person invoking mothers in a threatening message is someone his own mother needed legal protection from.</p>
+            </div>
+
+            <!-- "Creep" tactic -->
+            <div class="border border-violet/20 p-5 mb-5" style="background:rgba(124,106,170,0.03)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Tactic — "You're a Creep" as a Destabilisation Tool</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">RJ's use of the word <strong class="text-paper/60">"creep"</strong> is not casual language. It is a deliberate attempt to get Adam Watson off his footing — to introduce a sexual character implication into the framing of the conflict in a context where no such basis exists, and force Adam into a defensive posture.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">This appears to be a tactic modelled on one that has already worked: a false allegation of this kind was deployed against a <strong class="text-paper/60">local doctor</strong> with significant effect. The allegation alone — without any finding, without any conviction — was sufficient to damage standing, trigger institutional responses, and shift the social dynamics of the situation in the accuser's favour.</p>
+                <div class="border border-violet/10 p-3" style="background:rgba(124,106,170,0.04)">
+                    <div class="text-[0.45rem] tracking-[0.15em] uppercase mb-2" style="color:#7c6aaa">The Playbook</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Attach a sexual implication ("creep") to destabilise the target's footing and shift the framing of the public conflict in the accuser's favour</p></div>
+                        <div class="flex gap-2 items-start"><span class="shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">The label does not need to be provable — the suggestion alone forces the target to over-explain, self-censor, and appear defensive to observers</p></div>
+                        <div class="flex gap-2 items-start"><span class="shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">The false allegation against a local doctor followed this exact structure — and it worked. RJ appears to be running the same play.</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-l-4 border-hot/50 pl-5" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Noted</div>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">RJ organises gang assaults. He is documented doing so across this chapter. He threatens restraining orders while his own mother has one against him. He deploys "creep" language borrowed from a false allegation playbook that worked on a local doctor. The text message is here. The pattern is here. None of this is coincidence.</p>
+            </div>
+        </div>
+
     </div>
 </section>
 
@@ -3623,6 +3666,15 @@ var EVIDENCE = {
         isPlaceholder:true,
         placeholderLabel:'FOOTAGE PENDING UPLOAD',
         filename:'samira_khalaj_car_entry.mp4'
+    },
+    'image-rj-text': {
+        type:'image',
+        title:'RJ — TEXT MESSAGE AFTER VIRAL VIDEO',
+        tag:'RJ · Text Message · Post-Viral · Restraining Order Threat',
+        meta:'Image · Text message sent by RJ to Adam Watson following the viral video',
+        desc:'Text message sent by RJ to Adam Watson after the viral video. RJ threatens restraining orders despite a documented pattern of organising gang assaults and pre-planned ambushes against Adam Watson. The message contains a reference to "cunt mums" — notable given that RJ\'s own mother has a restraining order against him. The message also deploys the word "creep" — a deliberate destabilisation tactic modelled on a false allegation successfully used against a local doctor.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/rj_stayaway.jpg',
+        filename:'rj_stayaway.jpg'
     }
 };
 
