@@ -1544,29 +1544,64 @@
             </div>
         </div>
 
-        <!-- PayID / accountability / Rinehart -->
+        <!-- RJ Trilogy Event 1 — PayID payments / tram denial / police station -->
         <div class="story-chapter reveal mt-10" style="border-left-color:rgba(201,138,16,0.3)">
-            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">A RECEIPT.<br><span class="text-gold">30 SECONDS. REFUSED. AND THE FALLOUT.</span></h3>
-            <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-5">"I asked Adam to send R some money via PayID. He did. When I saw R J on the tram and asked if he got it, he said he didn't know what I was talking about — then leaned to his friend and said 'He's weird.' I got back to my tent and asked Adam to send me a receipt. He refused. That refusal caused a fight."</p>
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">RJ Trilogy — Event 1 of 3</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE MONEY. THE TRAM. THE POLICE STATION.<br><span class="text-gold">GOOD FAITH PAYMENTS USED TO ALLEGE SEX.</span></h3>
+            <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-5">"I'd seen RJ on the G-Link with some associates. I asked him directly: 'Did you get the money?' He said: 'I don't know what you're talking about.' Then turned to his friend and said 'He's weird.' He then took those receipts to the police station."</p>
 
-            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Kosta had asked Adam Watson to send money to R via PayID on his behalf. Adam did so. When Kosta encountered RJ on the tram and asked whether he had received the money, RJ denied any knowledge of it — then turned to his friend and said "He's weird." Kosta returned to his tent and contacted Adam, relaying what RJ had said. He asked Adam to produce a receipt of the PayID transfer — a screenshot that would take thirty seconds to generate — to confirm the payment had been made and resolve the question.</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Adam refused to provide the receipt. That refusal caused a fight. During the exchange Kosta sent a number of text messages — including one in which he called Adam a "white cunt." Kosta has apologised for that message. He states clearly that the language was wrong and the apology stands.</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Adam subsequently crashed into a tree. Gina Rinehart received the text message containing the "white cunt" comment and made the observation: <span class="font-display text-paper/65">"Look — he turned on you over RJ."</span> Kosta rejects that characterisation. This was not turning on Adam over RJ. This was asking for basic accountability — a receipt for a payment made on Kosta's behalf. Refusing to produce a 30-second screenshot and then characterising the request as disloyalty exposed Kosta in the street and made him unsafe. The fight was about accountability. It was not about RJ.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">At Kosta's instruction, Adam Watson sent money to RJ as a <strong class="text-paper/60">show of good faith</strong>. The payments were made. The receipts exist. When Kosta subsequently encountered RJ on the G-Link tram with some associates and asked directly — <span class="font-display text-paper/65">"Did you get the money?"</span> — RJ denied any knowledge of it, then turned to his associate and said: <span class="font-display text-paper/65">"I don't know what you're talking about. He's weird."</span></p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">RJ then took those same payment receipts to the police station and used them as <strong class="text-paper/60">instruments to build the narrative that the money was payment for sex</strong>. Payments made as a gesture of good faith — at Kosta's instruction, confirmed by receipt — were reframed as evidence of a transaction for sexual services. The receipts below are the payments RJ denied knowing anything about on the tram.</p>
+
+            <!-- Receipt evidence files -->
+            <div class="border border-gold/20 p-4 mb-5" style="background:rgba(201,138,16,0.03)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">Payment Receipts — Adam Watson to RJ (at Kosta's Instruction)</div>
+                <div class="space-y-2">
+                    <div class="ev-file ef-gold" onclick="openMV('image-rj-receipt-1')">
+                        <div class="ev-icon ev-img">📷</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">rj_payment_receipt_1.jpg</div>
+                            <div class="ev-desc">Image · WhatsApp receipt · Payment sent by Adam Watson to RJ — Kosta's instruction — later taken to police as alleged sex payment</div>
+                        </div>
+                        <span class="ev-cta">View →</span>
+                    </div>
+                    <div class="ev-file ef-gold" onclick="openMV('image-rj-receipt-2')">
+                        <div class="ev-icon ev-img">📷</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">rj_payment_receipt_2.jpg</div>
+                            <div class="ev-desc">Image · WhatsApp receipt · Payment sent by Adam Watson to RJ — Kosta's instruction — later taken to police as alleged sex payment</div>
+                        </div>
+                        <span class="ev-cta">View →</span>
+                    </div>
+                    <div class="ev-file ef-gold" onclick="openMV('image-rj-receipt-3')">
+                        <div class="ev-icon ev-img">📷</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">rj_payment_receipt_3.jpg</div>
+                            <div class="ev-desc">Image · WhatsApp receipt · Payment sent by Adam Watson to RJ — Kosta's instruction — later taken to police as alleged sex payment</div>
+                        </div>
+                        <span class="ev-cta">View →</span>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Kosta returned to his tent and asked Adam Watson to produce a receipt of the PayID transfer — a screenshot that would take thirty seconds to generate — to confirm the payment and put RJ's tram denial on the record. <strong class="text-paper/60">Adam refused.</strong> That refusal caused a fight.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">During the exchange, Kosta sent a number of text messages — including one in which he called Adam a <strong class="text-paper/60">"white cunt."</strong> Kosta has apologised for that message. The language was wrong and the apology stands. The message was sent privately, in the heat of an argument about basic accountability — after being denied a receipt for a payment made on his behalf, having just watched RJ deny the payment to his face on a tram.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">That private message was subsequently subpoenaed. Police were sent to Adam Watson's house and applied pressure on him to charge Kosta with racial vilification. The charge would not have held — racial vilification requires a public act, not a private SMS between two people. But it did not need to hold. <strong class="text-paper/60">The goal was to spook Adam. It worked.</strong> Adam asked Kosta to collect his things.</p>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.03)">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-2">What Was Asked</div>
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-2">What Was Asked For</div>
                     <div class="space-y-1.5">
-                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">A screenshot of the PayID receipt confirming the transfer was made</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">30 seconds to produce. Standard. Reasonable.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">A screenshot confirming the PayID transfer RJ denied on the tram</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">30 seconds to produce. Standard. Reasonable. Refused.</p></div>
                     </div>
                 </div>
                 <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">The Consequence of the Refusal</div>
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">The Chain That Followed</div>
                     <div class="space-y-1.5">
-                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Fight ensued. Heated messages sent — including one Kosta has apologised for.</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Kosta exposed in the street. Safety compromised.</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Rinehart's read: "He turned on you over RJ." Kosta's read: basic accountability was refused.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Fight — heated private messages including "white cunt" (apologised for)</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">SMS subpoenaed — police sent to Adam Watson's house</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Pressure to charge Kosta — Adam spooked — Kosta displaced</p></div>
                     </div>
                 </div>
             </div>
@@ -1574,6 +1609,7 @@
 
         <!-- SMS subpoena / racial vilification pressure / Adam asks Kosta to leave -->
         <div class="story-chapter reveal mt-10" style="border-left-color:rgba(193,68,14,0.3)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">RJ Trilogy — Event 2 of 3</span></div>
             <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE SMS WAS PRIVATE.<br><span class="text-hot">POLICE SUBPOENAED IT. THEN PRESSURED ADAM TO CHARGE KOSTA.</span></h3>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Although the "white cunt" message was sent in a private text conversation — not broadcast, not published, not shared with any third party — police subpoenaed the full SMS exchange between Kosta and Adam Watson. Kosta's assessment is that this was instigated by RJ's false allegation, with the investigation routed to Marc Barrow — the same officer who has demonstrated a documented pattern of targeting Kosta.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Police visited Adam Watson and applied pressure on him to have Kosta charged with racial vilification. That charge would not have held. Racial vilification under Queensland law requires that the conduct be public — a communication made otherwise than in private. A private text message between two people is not a broadcast and does not meet that threshold. The pressure was legally unfounded.</p>
@@ -1600,6 +1636,7 @@
 
         <!-- RJ text message after viral video -->
         <div class="story-chapter reveal mt-10" style="border-left-color:rgba(193,68,14,0.3)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">RJ Trilogy — Event 3 of 3</span></div>
             <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">AFTER THE VIDEO WENT VIRAL.<br><span class="text-hot">RJ TEXTS. THREATENS RESTRAINING ORDERS. HIS OWN MOTHER HAS ONE ON HIM.</span></h3>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Following the viral video, RJ sent the following text message. A person with a documented pattern of organising gang assaults is now threatening legal process.</p>
 
@@ -3666,6 +3703,33 @@ var EVIDENCE = {
         isPlaceholder:true,
         placeholderLabel:'FOOTAGE PENDING UPLOAD',
         filename:'samira_khalaj_car_entry.mp4'
+    },
+    'image-rj-receipt-1': {
+        type:'image',
+        title:'RJ PAYMENT RECEIPT 1 — ADAM WATSON TO RJ',
+        tag:'RJ · Payment Receipt · Good Faith Payment · Later Used at Police Station',
+        meta:'Image · WhatsApp screenshot · Payment sent by Adam Watson to RJ at Kosta\'s instruction',
+        desc:'Payment receipt showing money sent by Adam Watson to RJ at Kosta Kondratenko\'s instruction, as a show of good faith. When Kosta encountered RJ on the G-Link tram and asked "Did you get the money?", RJ denied any knowledge of it. RJ subsequently took these receipts to the police station and used them to build the narrative that the payments were for sexual services.',
+        src:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/WhatsApp+Image+2024-09-19+at+17.34.05_65ed8f78.jpg',
+        filename:'rj_payment_receipt_1.jpg'
+    },
+    'image-rj-receipt-2': {
+        type:'image',
+        title:'RJ PAYMENT RECEIPT 2 — ADAM WATSON TO RJ',
+        tag:'RJ · Payment Receipt · Good Faith Payment · Later Used at Police Station',
+        meta:'Image · WhatsApp screenshot · Payment sent by Adam Watson to RJ at Kosta\'s instruction',
+        desc:'Payment receipt showing money sent by Adam Watson to RJ at Kosta Kondratenko\'s instruction, as a show of good faith. RJ denied receiving these payments when confronted on the G-Link tram, then took the receipts to police to allege the money was payment for sex.',
+        src:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/WhatsApp+Image+2024-09-19+at+17.45.25_2dde20d6.jpg',
+        filename:'rj_payment_receipt_2.jpg'
+    },
+    'image-rj-receipt-3': {
+        type:'image',
+        title:'RJ PAYMENT RECEIPT 3 — ADAM WATSON TO RJ',
+        tag:'RJ · Payment Receipt · Good Faith Payment · Later Used at Police Station',
+        meta:'Image · WhatsApp screenshot · Payment sent by Adam Watson to RJ at Kosta\'s instruction',
+        desc:'Payment receipt showing money sent by Adam Watson to RJ at Kosta Kondratenko\'s instruction, as a show of good faith. RJ denied receiving these payments when confronted on the G-Link tram, then took the receipts to police to allege the money was payment for sex.',
+        src:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/WhatsApp+Image+2024-09-19+at+17.33.42_17fbe41e.jpg',
+        filename:'rj_payment_receipt_3.jpg'
     },
     'image-rj-text': {
         type:'image',
