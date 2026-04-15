@@ -578,6 +578,24 @@
                     <p class="text-[0.68rem] text-paper/50 leading-relaxed">The Attorney General is reforming the law that made this possible. The DPP is simultaneously using that same law to pursue the victim of it. Both things are true at the same time.</p>
                 </div>
 
+                <!-- Unsolicited image / DPP comment / Grooming allegation rebuttal -->
+                <div class="border-l-4 pl-5 mb-10" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Unsolicited Image — Shown to DPP Prior to First Mention</div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">BODIE CHALMERS SENT AN UNSOLICITED EXPLICIT IMAGE TO ADAM WATSON.<br><span style="color:#7c6aaa">"THAT SAYS IT ALL. THIS IS UNWINNABLE." — DPP</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Prior to the first court mention of his case, Bodie Chalmers sent Adam Watson an <strong class="text-paper/60">unsolicited explicit image</strong> — an unsolicited photograph of his genitals. Adam Watson presented this to the Director of Public Prosecutions. The DPP's response was immediate and unambiguous: <span class="font-display text-paper/70">"That says it all. This is unwinnable."</span> It is one of the factors that informed the DPP's assessment that the prosecution was malicious.</p>
+
+                    <!-- Grooming allegation — rebuttal -->
+                    <div class="border border-hot/20 p-4 mb-0" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">False Allegation — "Adam Groomed Bodie at Age 17"</div>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Bodie Chalmers's mother has stated that Adam Watson knew Bodie when he was 17 years old and groomed him. <strong class="text-paper/60">This narrative is false.</strong></p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Call records will establish that Adam Watson was not in the Gold Coast and had no phone interactions with Bodie Chalmers during the period when Bodie was 17. Metadata will prove this conclusively should the allegation ever progress to that point.</p>
+                        <div class="border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.12)">
+                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/25 mb-2">Current Status</div>
+                            <p class="text-[0.62rem] text-paper/38 leading-relaxed">There are <strong class="text-paper/52">no open investigations against Adam Watson</strong> in relation to this allegation. The claim originates from Bodie Chalmers's mother and is consistent with the broader pattern of false allegations — including the one already ruled a malicious prosecution — being deployed to attach criminal character to Adam Watson where none exists.</p>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- EMF Brisbane / QP-9 Gym Attack -->
                 <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE QP-9 GOES TO THE GYM.<br><span class="text-hot">EMF BRISBANE. THE CHANGEROOM ATTACK.</span></h3>
                 <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Bodie Chalmers got hold of the QP-9 — the police charge sheet for the sexual assault that the malicious officer had placed on Adam Watson. Queensland Police did not want to confirm how he obtained it. He walked into EMF Brisbane, the gym Adam trains at, handed the charge sheet to the front counter, and told staff he had been raped. The gym banned Adam Watson on the spot."</p>
