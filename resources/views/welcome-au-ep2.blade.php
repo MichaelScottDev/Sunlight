@@ -963,20 +963,77 @@
                 <p class="text-[0.68rem] text-paper/50 leading-relaxed">Samira Khalaj is now making the allegation that Adam Watson <em>paid</em> Socrates to attack her with the axe. Adam Watson denies this. Socrates denies this. There is no evidence of any payment. The allegation is consistent with the broader pattern of Samira using third parties and legal proceedings to attach criminal liability to Adam Watson for acts he did not commission or carry out.</p>
             </div>
 
-            <!-- Stephen Alexander / ALS / latest development -->
+            <!-- Aboriginal Legal Aid — ATSILS — Brief lost / OLSC complaint -->
             <div class="border-l-4 border-gold/40 pl-5 mb-2" style="background:rgba(201,138,16,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
-                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">Latest Development — Legal Representation</div>
-                <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">STEPHEN ALEXANDER TAKES OVER.<br><span class="text-gold">ABORIGINAL LEGAL SERVICES AND THEIR PSYCHOLOGIST STOOD DOWN.</span></h4>
+                <!-- ATSILS Logo + header -->
+                <div class="flex gap-4 items-start mb-4">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/samira_socrates/atsils_logo_home-300x152.png" alt="Aboriginal Legal Aid — ATSILS" class="shrink-0 h-12 w-auto opacity-80" style="max-width:120px" />
+                    <div>
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-1">Latest Development — Legal Representation</div>
+                        <h4 class="font-display text-lg tracking-wide leading-tight">ABORIGINAL LEGAL AID LOSES THE BRIEF.<br><span class="text-hot">DVR FOOTAGE GONE. 8-WEEK DELAY. $1,500 PER BRIEF.</span></h4>
+                    </div>
+                </div>
+
+                <!-- Lost Brief of Evidence -->
+                <div class="border border-hot/20 p-4 mb-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Critical Failure — Brief of Evidence Lost</div>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-2">Aboriginal Legal Aid — acting as Socrates's representatives for his assault charge relating to Samira — <strong class="text-paper/60">lost the entire Brief of Evidence</strong>, including the DVR footage. Police are now required to order everything again from scratch. This process will take <strong class="text-paper/60">a minimum of 8 weeks</strong>.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">This delay is entirely through no fault of Socrates. It is a direct consequence of the incompetence of those appointed to represent him.</p>
+                </div>
+
+                <!-- $1,500 per brief -->
+                <div class="border border-gold/20 p-4 mb-4" style="background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">Cost to Socrates — $1,500 Per Brief</div>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">Because the original brief was lost, Socrates will be required to <strong class="text-paper/60">pay the police $1,500 for each brief</strong> pertaining to his charges. This financial burden falls on him directly — a young man with no money — as a consequence not of anything he did, but of the <strong class="text-paper/60">utter incompetence of Aboriginal Legal Aid</strong>. The legal system is punishing the client for his representative's failure.</p>
+                </div>
+
+                <!-- ALS funding loss -->
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Aboriginal Legal Aid are at risk of <strong class="text-paper/60">losing their funding</strong> due to systemic incompetence in carrying out their mandate. This incident — losing an entire Brief of Evidence including DVR footage — is precisely the kind of institutional failure that warrants that outcome.</p>
+
+                <!-- AI self-representation note -->
+                <div class="border border-sage/20 p-4 mb-4" style="background:rgba(61,122,74,0.03)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-2">A Note on Self-Representation &amp; AI</div>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">Cases like this are a reminder that <strong class="text-paper/60">in many circumstances you are better off being self-represented with the assistance of AI</strong> than relying on a funded legal service that loses your brief, delays your proceedings by months, and passes the bill for their incompetence onto you. Legal aid, when poorly administered, can be worse than no representation at all.</p>
+                </div>
+
+                <!-- OLSC Complaint -->
+                <div class="border border-violet/20 p-4 mb-4" style="background:rgba(124,106,170,0.03)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">OLSC Complaint — Filed Against Aboriginal Legal Aid</div>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A formal complaint has been lodged with the <strong class="text-paper/60">Office of the Legal Services Commissioner (OLSC)</strong> documenting the failures of Aboriginal Legal Aid in this matter.</p>
+                    <!-- Issues noted in the complaint -->
+                    <div class="border border-violet/10 p-3 mb-3" style="background:rgba(124,106,170,0.04)">
+                        <div class="text-[0.45rem] tracking-[0.18em] uppercase mb-2" style="color:#7c6aaa">Issues Identified in the Complaint</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed"><strong class="text-paper/50">Loss of Brief of Evidence</strong> — the entirety of the brief, including DVR footage, was lost under their custody — a fundamental failure of document management and client care</p></div>
+                            <div class="flex gap-2 items-start"><span class="shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed"><strong class="text-paper/50">Financial harm to client</strong> — Socrates is personally liable for $1,500 per brief reorder cost as a direct consequence of their failure, not his own conduct</p></div>
+                            <div class="flex gap-2 items-start"><span class="shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed"><strong class="text-paper/50">Procedural delay</strong> — an 8-week delay imposed on Socrates's matter with real consequences for bail conditions and court timelines — entirely the fault of the representative, not the client</p></div>
+                            <div class="flex gap-2 items-start"><span class="shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed"><strong class="text-paper/50">Breach of competency obligations</strong> — legal practitioners are required to handle client materials with reasonable care; losing the brief constitutes a failure of basic professional duty under the Legal Profession Uniform Law</p></div>
+                            <div class="flex gap-2 items-start"><span class="shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed"><strong class="text-paper/50">Client welfare failure</strong> — the cumulative effect of these failures has caused material harm to a vulnerable client already facing compounding criminal charges with no financial means to absorb additional costs</p></div>
+                        </div>
+                    </div>
+                    <div class="ev-file ef-violet" onclick="openMV('pdf-olsc-atsils-complaint')">
+                        <div class="ev-icon ev-doc">📄</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">OLSC_Complaint_Form_burazer_redacted.pdf</div>
+                            <div class="ev-desc">PDF · OLSC Complaint · Formal complaint against Aboriginal Legal Aid — Brief of Evidence lost including DVR footage — redacted copy</div>
+                        </div>
+                        <span class="ev-cta">View →</span>
+                    </div>
+                </div>
+
+                <!-- Stephen Alexander takeover -->
                 <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Stephen Alexander — the lawyer now acting in this matter — held a linked call with Socrates, the Aboriginal Legal Services representative, and the psychologist sourced by the Aboriginal Legal Services. On that call, Stephen Alexander informed both the ALS lawyer and the psychologist that Socrates is no longer to be represented by them. Stephen Alexander will source his own psychologist for Socrates going forward.</p>
-                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">It is worth noting that funding is being withdrawn from Aboriginal Legal Services more broadly on the basis that they are not operating efficiently in carrying out their mandate.</p>
                 <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Socrates's father has made insinuations that Adam Watson and Stephen Alexander are attempting to rort Socrates. This is a curious allegation — Socrates has no money. There is nothing to rort. His father has also stated that Socrates should remain with the Aboriginal Legal Services, and has made comments suggesting Adam Watson's motivation for helping Socrates is that he is a young boy — despite the fact that Socrates is 19 years old.</p>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
                     <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
                         <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">What Happened</div>
                         <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Aboriginal Legal Aid lost the entire Brief of Evidence including DVR footage</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Police must reorder — 8-week delay imposed on Socrates through no fault of his own</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Socrates faces $1,500 per brief cost — a consequence of ALS incompetence, not his conduct</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">OLSC complaint lodged documenting the failures</p></div>
                             <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Stephen Alexander held linked call with ALS lawyer, ALS psychologist, and Socrates</p></div>
-                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">ALS and their psychologist stood down from representing Socrates</p></div>
-                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Stephen Alexander to source independent psychologist</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">ALS and their psychologist stood down — Stephen Alexander to source independent psychologist</p></div>
                         </div>
                     </div>
                     <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
@@ -984,10 +1041,55 @@
                         <div class="space-y-1.5">
                             <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Alleged Adam &amp; Stephen Alexander are "rorting" Socrates — Socrates has no money</p></div>
                             <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Suggested Adam's motive is that Socrates is a "young boy" — Socrates is 19</p></div>
-                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Wants Socrates to return to the ALS — the same service being stood down for inefficiency</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Wants Socrates to remain with ALS — the same service being stood down for incompetence</p></div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <!-- Socrates — Housing NSW eviction + Edgecliff Lodge Motel -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(61,122,74,0.3)">
+            <h3 class="font-display text-2xl tracking-wide mb-2 leading-tight">SOCRATES — EVICTED FROM HOUSING NSW.<br><span style="color:#3d7a4a">EDGECLIFF LODGE MOTEL. $189 A NIGHT. BED BUGS.</span></h3>
+            <p class="text-[0.6rem] text-paper/35 italic leading-relaxed mb-5">Government accommodation sourced at taxpayer expense. A room that gave him something extra.</p>
+
+            <!-- Housing NSW eviction -->
+            <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.03)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Evicted — Housing NSW</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">Socrates has been kicked out of his NSW social housing accommodation. He was removed and required to find alternative housing in the middle of active legal proceedings — another instability layered onto an already precarious situation.</p>
+            </div>
+
+            <!-- Edgecliff Lodge Motel -->
+            <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.03)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">Edgecliff Lodge Motel — Government Funded at $189/Night</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">In response to his eviction, Socrates was placed in <strong class="text-paper/60">Edgecliff Lodge Motel</strong> — accommodation sourced and funded by the government at a cost of <strong class="text-paper/60">$189 per night</strong> to the taxpayer. This is where the system chose to house a young man with no income and unresolved charges.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">The outcome: Socrates developed a <strong class="text-paper/60">bed bug infestation</strong> during his stay.</p>
+            </div>
+
+            <!-- Bed bugs / compliance callout -->
+            <div class="border border-hot/30 p-5 mb-5" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Compliance Failure — Bed Bug Infestation</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">A government-funded property collecting <strong class="text-paper/60">$189 per night</strong> to house vulnerable people has an active bed bug infestation. The operator appears to be receiving public funds without meeting basic hygiene and pest-control obligations. <strong class="text-paper/60">This property requires a compliance inspection.</strong></p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-2">Questions That Need Answers</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">When was the property last inspected for pest compliance?</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Has the operator been notified of the infestation? What remediation has been carried out?</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Are other rooms affected? Are other government-placed tenants at risk?</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Does $189/night carry any minimum standard of accommodation quality the operator is required to meet?</p></div>
+                        </div>
+                    </div>
+                    <div class="border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.1)">
+                        <div class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/22 mb-2">The Broader Pattern</div>
+                        <p class="text-[0.58rem] text-paper/38 leading-relaxed">The government is paying a private operator $189 per night to house a vulnerable person. That operator is not spending that money on basic maintenance or pest control. This arrangement warrants scrutiny from NSW Fair Trading, local council environmental health officers, and whoever administers the government contract with this property. The money is going somewhere — it is not going into de-lousing the rooms.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-l-4 border-sage/40 pl-5" style="background:rgba(61,122,74,0.04);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-2">Status</div>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">Socrates remains at Edgecliff Lodge Motel. The bed bug issue has not been resolved. The government continues to pay $189 per night for accommodation that does not meet basic standards. This property should be checked for compliance — and the operator should not continue receiving public funds while running an infested premises.</p>
             </div>
         </div>
 
@@ -3484,6 +3586,15 @@ var EVIDENCE = {
         placeholderLabel:'DOCUMENT PENDING UPLOAD',
         filename:'lecc_complaint_six_officers.pdf',
         pages: 4
+    },
+    'pdf-olsc-atsils-complaint': {
+        type:'pdf',
+        title:'OLSC COMPLAINT — ABORIGINAL LEGAL AID · BRIEF OF EVIDENCE LOST',
+        tag:'Office of the Legal Services Commissioner · NSW · Active Complaint',
+        meta:'PDF · OLSC Complaint · Aboriginal Legal Aid incompetence — Brief of Evidence lost including DVR footage',
+        desc:'Formal complaint lodged with the Office of the Legal Services Commissioner (OLSC) against Aboriginal Legal Aid. Aboriginal Legal Aid, acting as Socrates\'s representative for his assault charge relating to Samira Khalaj, lost the entire Brief of Evidence including DVR footage. Police are required to reorder everything from scratch — an 8-week delay imposed on Socrates through no fault of his own. Socrates is personally liable for $1,500 per brief reorder cost as a direct consequence of their failure. The complaint documents failures of competency, client welfare, and professional duty under the Legal Profession Uniform Law. Redacted copy.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/samira_socrates/OLSC_Complaint_Form_burazer_redacted.pdf',
+        filename:'OLSC_Complaint_Form_burazer_redacted.pdf'
     },
     'video-samira-car': {
         type:'video',
