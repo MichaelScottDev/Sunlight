@@ -1814,6 +1814,104 @@
 
 
 <!-- ══════════════════════════════════════
+     SKY NEWS — STORY THAT DIDN'T RUN
+══════════════════════════════════════ -->
+<section id="media" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(201,138,16,0.04) 0%,transparent 60%)">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
+            <div>
+                <div class="flex items-center gap-3 mb-2"><div class="w-4 h-px bg-gold"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-gold">Ch.3 — Sky News · Episode 2</span></div>
+                <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">STORY THAT<br><span class="text-gold">DIDN'T RUN.</span></h2>
+                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">A Sky News journalist obtained Adam Watson's non-public QP-9 police charge sheet and forwarded it to representatives at Hancock Prospecting. The story never ran. The document did.</p>
+            </div>
+            <div class="max-w-xs">
+                <div class="flex flex-wrap gap-2">
+                    <span class="evidence-tag text-gold" style="color:#c98a10">⚠ QP-9 Disclosed to Third Party</span>
+                    <span class="evidence-tag text-hot" style="color:#c1440e">📋 Referred to CCC</span>
+                    <span class="evidence-tag" style="color:#7c6aaa">🔒 Non-Public Police Record</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-4xl">
+            <div class="story-chapter reveal" style="border-left-color:rgba(201,138,16,0.3)">
+
+                <!-- Lauren Forbes identification card -->
+                <div class="flex gap-4 items-start mb-7 border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lauren_forbes.jpg" alt="Lauren Forbes" class="shrink-0 w-20 h-20 object-cover object-top border border-gold/30" />
+                    <div>
+                        <div class="text-[0.45rem] tracking-[0.18em] uppercase text-gold mb-1">Identified</div>
+                        <div class="font-display text-lg tracking-wide text-paper/80 leading-tight mb-1">LAUREN FORBES</div>
+                        <div class="text-[0.55rem] text-paper/40 leading-relaxed">Sky News Journalist — obtained and forwarded Adam Watson's QP-9 charge sheet to representatives at Hancock Prospecting. The story was never published. The document was circulated regardless.</div>
+                    </div>
+                </div>
+
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE QP-9 REACHED<br><span class="text-gold">HANCOCK PROSPECTING.</span></h3>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"A non-public Queensland Police charge sheet was forwarded by a Sky News journalist to representatives at one of Australia's largest private companies. No story ran. No explanation was given. The question that remains unanswered: who gave it to her, and why did she send it on?"</p>
+
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">A QP-9 is an internal Queensland Police charge document. It is not a public record. Its disclosure to a journalist — and the journalist's onward transmission of it to Hancock Prospecting — constitutes a potential breach of the <em>Information Privacy Act 2009</em> (Qld). The matter has been referred to the Crime and Corruption Commission.</p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-7">
+                    <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">The Document</div>
+                        <div class="font-display text-lg text-hot mb-1">QP-9</div>
+                        <p class="text-[0.62rem] text-paper/40 leading-relaxed">Non-public Queensland Police charge sheet relating to Adam Watson. Internal record. Not subject to public disclosure.</p>
+                    </div>
+                    <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-1">The Recipient</div>
+                        <div class="font-display text-lg text-gold mb-1">HANCOCK PROSPECTING</div>
+                        <p class="text-[0.62rem] text-paper/40 leading-relaxed">Representatives at Hancock Prospecting received the QP-9 via email from the Sky News journalist. No public interest justification applies.</p>
+                    </div>
+                    <div class="border border-paper/[0.08] p-5">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/30 mb-1">The Story</div>
+                        <div class="font-display text-lg text-paper/40 mb-1">NEVER PUBLISHED</div>
+                        <p class="text-[0.62rem] text-paper/40 leading-relaxed">Sky News did not run a story. The QP-9 was circulated to a third party but no journalism resulted. The file pull and the leak appear to have served a different purpose.</p>
+                    </div>
+                </div>
+
+                <div class="border border-gold/20 p-5 mb-6" style="background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">Mental Health Stigma — The Pull</div>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Alongside the QP-9 disclosure, evidence suggests the Sky News inquiry involved pulling records related to Adam Watson's mental health history. No story relating to mental health was published. The purpose of obtaining that information — and who it was shared with — is part of the CCC referral.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">The use of mental health history as a reputational weapon is a documented tactic in this investigation. That a media organisation may have accessed and shared it without publication amplifies the concern about motivation.</p>
+                </div>
+
+                <div class="border-l-4 pl-6 py-1 mb-8" style="border-color:rgba(201,138,16,0.4)">
+                    <p class="text-[0.68rem] text-paper/40 leading-relaxed">The pattern across Bodie Chalmers (QP-9 to gym), Sky News / Lauren Forbes (QP-9 to Hancock Prospecting), and Queensland Police conduct is consistent: the same non-public document reaching the same network through different vectors. How a charge sheet that the DPP eventually declined to prosecute reached a media outlet and a mining company before any court proceeding is a question for the CCC.</p>
+                </div>
+
+                <!-- Evidence vault -->
+                <div class="evidence-vault">
+                    <div class="ev-header" onclick="toggleVault(this)">
+                        <div class="flex items-center gap-2">
+                            <span class="text-[0.48rem] tracking-[0.22em] uppercase text-gold">📁 Evidence Files</span>
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Sky News · QP-9 Email Thread</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                            <span class="ev-toggle">▼</span>
+                        </div>
+                    </div>
+                    <div class="ev-body">
+                        <div class="ev-file ef-gold" onclick="openMV('pdf','SKY NEWS EMAIL + QP-9 ATTACHMENT','Media Accountability · QP-9 Disclosure · Referred to CCC','PDF · Email thread with attachment · Names partially redacted','sky_news_email_QP9_attachment.pdf','Email from Sky News journalist forwarding Queensland Police charge document (QP-9) to representatives at Hancock Prospecting. A QP-9 is a non-public police record. Its disclosure to a third party is a breach of the Information Privacy Act 2009. Whether the disclosure was motivated by the pattern of hostility toward content creators evident in the Oracle East investigation is a question for the CCC. This matter has been referred.','pdf-skynews')">
+                            <div class="ev-icon ev-pdf">PDF</div>
+                            <div class="ev-meta">
+                                <div class="ev-name">sky_news_email_QP9_attachment.pdf</div>
+                                <div class="ev-desc">PDF · Email thread · QP-9 attachment · Hancock Prospecting recipients · 3 pages</div>
+                            </div>
+                            <span class="ev-cta">View →</span>
+                        </div>
+                        <div class="ev-zip-bar">
+                            <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Matter referred to CCC — Information Privacy Act 2009 (Qld) potential breach</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
      REDRESS SCHEME
 ══════════════════════════════════════ -->
 <section id="redress" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(61,122,74,0.03) 0%,transparent 50%)">
