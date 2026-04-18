@@ -920,16 +920,13 @@
         <!-- Socrates / fabricated order callout -->
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.3)">
 
-            <!-- Socrates header with placeholder photo -->
+            <!-- Socrates header with photo -->
             <div class="flex gap-5 mb-5 items-start">
-                <div class="shrink-0 w-24 border border-paper/[0.07] flex items-center justify-center" style="aspect-ratio:2/3;background:rgba(201,138,16,0.04)">
-                    <div class="text-center px-2">
-                        <div class="text-[0.42rem] tracking-[0.15em] uppercase mb-1.5" style="color:rgba(201,138,16,0.4)">Photo</div>
-                        <div class="text-[0.38rem] text-paper/20 leading-relaxed">Socrates Zidane<br>Abdul Rahmahn<br>Pending</div>
-                    </div>
+                <div class="shrink-0 w-24 border border-paper/[0.07] overflow-hidden" style="aspect-ratio:2/3">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/socrates.jpg" alt="Socrates Zidane Abdul Rahmahn Burazer" class="w-full h-full object-cover object-top" />
                 </div>
                 <div>
-                    <h3 class="font-display text-2xl tracking-wide mb-2 leading-tight">SOCRATES ZIDANE ABDUL RAHMAHN.<br><span class="text-gold">TWICE CHARGED. MENTAL HEALTH ACT USED AS SHIELD.</span></h3>
+                    <h3 class="font-display text-2xl tracking-wide mb-2 leading-tight">SOCRATES ZIDANE ABDUL RAHMAHN BURAZER.<br><span class="text-gold">TWICE CHARGED. MENTAL HEALTH ACT USED AS SHIELD.</span></h3>
                     <p class="text-[0.6rem] text-paper/35 italic leading-relaxed">One of 7 children by a Muslim migrant father who has fathered each child by a different wife — a pattern the father actively coaches his sons to replicate.</p>
                 </div>
             </div>
