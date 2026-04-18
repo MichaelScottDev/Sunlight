@@ -497,7 +497,19 @@
                     <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter 01</span><span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Rental Crisis</span></div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE GOLD COAST DREAM<br><span class="text-hot">AND THE REALITY</span></h3>
                     <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-6">"The Gold Coast looks like a dream. That's the whole point of it. What nobody tells you is that behind that strip — literally around the corner — there are people sleeping rough, rooming houses packed with 100 tenants, and landlords who've figured out the rules don't really apply to them if they're clever about it."</p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">In August 2023 I was looking for a room in Surfers Paradise. Rent: $290 a week. Fixed term. A rooming accommodation agreement, Form R18 — signed and moved in August 18th. The landlord was Sandy Tulisi, operating under the name BeHome.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">In August 2023 I was looking for a room in Surfers Paradise. Rent: $290 a week. A rooming accommodation agreement — Form R18 — was signed and I moved in on <strong class="text-paper/70">18 August 2023</strong>. The landlord was Sandy Tulisi, operating under the name BeHome.</p>
+
+                    <!-- Rooming agreement callout -->
+                    <div class="border border-gold/20 p-5 mb-6" style="background:rgba(201,138,16,0.03)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">What the Rooming Agreement Proves</div>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The signed rooming agreement — now uploaded — confirms the start date of <strong class="text-paper/65">18/8/23</strong> and contains a clause stating that after two months the tenancy becomes <strong class="text-paper/65">periodic</strong>. Two months from 18 August is 18 October 2023.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">That is the same window — September and October 2023 — in which Sandy Tulisi issued six false rent-overdue notices and ultimately pursued eviction. By the time the Police Banning Notice was applied, the tenancy had already transitioned to a periodic agreement, carrying different protections under the <em>Residential Tenancies and Rooming Accommodation Act 2008</em> (Qld). A periodic tenant cannot be evicted on the same grounds as a fixed-term tenant. She was attempting to apply fixed-term eviction mechanics to a tenancy that had already become periodic.</p>
+                        <div class="grid grid-cols-3 gap-3 mt-4">
+                            <div class="border border-gold/20 p-3 text-center" style="background:rgba(201,138,16,0.02)"><div class="text-[0.45rem] tracking-[0.12em] uppercase text-gold/60 mb-1">Agreement Start</div><div class="font-display text-base text-gold">18/8/23</div></div>
+                            <div class="border border-gold/20 p-3 text-center" style="background:rgba(201,138,16,0.02)"><div class="text-[0.45rem] tracking-[0.12em] uppercase text-gold/60 mb-1">Becomes Periodic</div><div class="font-display text-base text-gold">18/10/23</div></div>
+                            <div class="border border-hot/20 p-3 text-center" style="background:rgba(193,68,14,0.02)"><div class="text-[0.45rem] tracking-[0.12em] uppercase text-hot/60 mb-1">Eviction Attempted</div><div class="font-display text-base text-hot">Oct 2023</div></div>
+                        </div>
+                    </div>
 
                     <!-- EVIDENCE VAULT: Sandy Tulisi -->
                     <div class="evidence-vault">
@@ -507,12 +519,22 @@
                                 <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Sandy Tulisi · Rooming House</span>
                             </div>
                             <div class="flex items-center gap-3">
-                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">2 files</span>
                                 <span class="ev-toggle">▼</span>
                             </div>
                         </div>
                         <div class="ev-body">
-                            <!-- File 1: Notice to Leave PDF -->
+                            <!-- File 1: Rooming Agreement PDF -->
+                            <div class="ev-file ef-gold" onclick="openMV('pdf','ROOMING ACCOMMODATION AGREEMENT — FORM R18','Signed rooming agreement — start date 18/8/23 — periodic clause after 2 months','PDF Document · Form R18 · Signed August 2023','rooming_agreement.pdf','Signed rooming accommodation agreement (Form R18) for the BeHome property in Surfers Paradise. Start date: 18 August 2023. Rent: $290/week. Contains the clause stating the tenancy becomes periodic after two months — i.e. from 18 October 2023. The eviction campaign began in September/October 2023, by which point the tenancy had transitioned to periodic status under the RTRA Act 2008 (Qld), carrying additional protections Sandy Tulisi did not account for in her eviction strategy.','pdf-rooming-agreement')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">rooming_agreement.pdf</div>
+                                    <div class="ev-desc">PDF · Form R18 · Start 18/8/23 · Periodic after 2 months · Signed</div>
+                                </div>
+                                <span class="redact-tag" style="background:rgba(201,138,16,0.12);border-color:rgba(201,138,16,0.3);color:#c98a10">📋 Signed Agreement</span>
+                                <span class="ev-cta ml-2">View →</span>
+                            </div>
+                            <!-- File 2: Notice to Leave PDF -->
                             <div class="ev-file ef-hot" onclick="openMV('pdf','NOTICE TO LEAVE — RTA','Queensland RTA notice citing serious breach, issued on false premises','PDF Document · Official RTA Form · Issued Oct 2023','rta_notice_to_leave.pdf','This Notice to Leave was built on the false breach notices — six emails claiming rent was overdue when it was not. It was presented to police to justify applying a Police Banning Notice (No. 385003) in a civil tenancy dispute. All charges arising from it were dropped.','pdf-ntl')">
                                 <div class="ev-icon ev-pdf">PDF</div>
                                 <div class="ev-meta">
@@ -523,7 +545,7 @@
                             </div>
                             <!-- ZIP Download -->
                             <div class="ev-zip-bar">
-                                <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Download file</span>
+                                <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Download files</span>
                                 <button class="mv-dl-btn mv-dl-gold text-[0.48rem]" onclick="downloadZip('sandy_tulisi_evidence.zip')">⬇ ZIP Bundle</button>
                             </div>
                         </div>
@@ -2745,6 +2767,15 @@ var EVIDENCE = {
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/Invoice+%23+1241.pdf',
         filename:'Invoice # 1241.pdf',
         desc:'Tax invoice #1241 issued by Appel Street Pty Ltd — a second fine for a second bowl being left. Two separate invoices for two bowls placed somewhere. Neither appeared in the RTA bond deduction statement. A landlord issuing tax invoices for items left in a kitchen, through a separate company entity, then omitting those invoices from the official bond claim, is a landlord who knows those charges cannot withstand legal scrutiny.'
+    },
+    'pdf-rooming-agreement': {
+        type:'pdf',
+        title:'ROOMING ACCOMMODATION AGREEMENT — FORM R18',
+        tag:'Sandy Tulisi · BeHome · Surfers Paradise · Signed Aug 2023',
+        meta:'PDF · Form R18 · Signed · Start date 18/8/23',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/rooming_agreement.pdf',
+        filename:'rooming_agreement.pdf',
+        desc:'Signed rooming accommodation agreement (Form R18) for the BeHome property in Surfers Paradise. Start date: 18 August 2023. Rent: $290 per week. The agreement includes a clause stating the tenancy transitions to periodic after two months — meaning from 18 October 2023, the tenancy became periodic under the Residential Tenancies and Rooming Accommodation Act 2008 (Qld). Sandy Tulisi\'s eviction campaign — six false rent notices, an invalid Notice to Leave, and a Police Banning Notice — was conducted in September and October 2023, precisely the window in which the tenancy was transitioning to periodic status. Periodic tenants carry additional protections she did not account for. All charges were dropped.'
     },
     'pdf-ntl': {
         type:'pdf',
