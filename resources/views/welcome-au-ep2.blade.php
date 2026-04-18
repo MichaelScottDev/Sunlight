@@ -2309,7 +2309,10 @@
                     <div class="flex gap-2.5 items-start"><div class="w-1.5 h-1.5 rounded-full bg-sage mt-1.5 shrink-0"></div><div><div class="text-[0.6rem] text-paper/55">PSR Crown Investments Pty Ltd</div><div class="text-[0.5rem] text-paper/28">Robert Huang, Director · Lots 4 & 8 · SP 93922</div></div></div>
                     <div class="flex gap-2.5 items-start"><div class="w-1.5 h-1.5 rounded-full bg-hot mt-1.5 shrink-0"></div><div><div class="text-[0.6rem] text-paper/55">Wandah Allen-Taylor</div><div class="text-[0.5rem] text-paper/28">Illawarra Strata Management — Strata Manager</div></div></div>
                     <div class="flex gap-2.5 items-start"><div class="w-1.5 h-1.5 rounded-full bg-hot mt-1.5 shrink-0"></div><div><div class="text-[0.6rem] text-paper/55">CCA Legal</div><div class="text-[0.5rem] text-paper/28">Stephen Ecob, Lauren Ikin — Debt Recovery</div></div></div>
-                    <div class="flex gap-2.5 items-start"><div class="w-1.5 h-1.5 rounded-full bg-gold mt-1.5 shrink-0"></div><div><div class="text-[0.6rem] text-paper/55">Graham Gordon</div><div class="text-[0.5rem] text-paper/28">Strata Committee Chairman — Levy notices redirected to him</div></div></div>
+                    <div class="flex gap-2.5 items-start">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/grahamgordon.jpg" alt="Graham Gordon" class="w-8 h-8 object-cover object-top shrink-0 border border-gold/40" />
+                        <div><div class="text-[0.6rem] text-paper/55">Graham Gordon</div><div class="text-[0.5rem] text-paper/28">Strata Committee Chairman — Levy notices redirected to him</div></div>
+                    </div>
                 </div>
             </div>
 
@@ -2474,6 +2477,16 @@
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">LEVY NOTICES REDIRECTED<br><span style="color:#7c6aaa">TO THE CHAIRMAN. WITHOUT CONSENT.</span></h3>
                     <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Without the knowledge or consent of the Applicant, the address recorded for the Applicant's lots on the strata roll was altered. Levy notices and correspondence were directed to Graham Gordon — the chairman of the strata committee — rather than to the lot owner."</p>
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">The OC is required to maintain an accurate strata roll and issue levy notices to lot owners at their correct address. Redirecting that correspondence to a committee chairman — without the lot owner's knowledge — is exactly the mechanism by which a debt can be allowed to grow silently, without the owner ever receiving a notice.</p>
+
+                    <!-- Graham Gordon identification -->
+                    <div class="flex gap-4 items-start mb-5 border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/grahamgordon.jpg" alt="Graham Gordon" class="shrink-0 w-20 h-20 object-cover object-top border border-gold/30" />
+                        <div>
+                            <div class="text-[0.45rem] tracking-[0.18em] uppercase text-gold mb-1">Identified</div>
+                            <div class="font-display text-lg tracking-wide text-paper/80 leading-tight mb-1">GRAHAM GORDON</div>
+                            <div class="text-[0.55rem] text-paper/40 leading-relaxed">Strata Committee Chairman — Oxford on Crown, 30 Burelli Street, Wollongong. The lot owner's address on the strata roll was altered without consent so that levy notices were directed to Gordon rather than to PSR Crown Investments.</div>
+                        </div>
+                    </div>
 
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
                         <div class="border p-5" style="border-color:rgba(124,106,170,0.2);background:rgba(124,106,170,0.03)">
