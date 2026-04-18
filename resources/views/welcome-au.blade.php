@@ -1851,7 +1851,21 @@
             <div class="space-y-10">
 
                 <div class="story-chapter reveal" style="border-left-color:rgba(201,138,16,0.3)">
-                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">The Leak</span></div>
+                    <div class="flex items-center gap-3 mb-6"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">The Leak</span></div>
+
+                    <!-- Lauren Forbes identification -->
+                    <div class="flex gap-6 items-start mb-8 border border-gold/20 p-5" style="background:rgba(201,138,16,0.03)">
+                        <div class="shrink-0 border border-gold/30 overflow-hidden" style="width:140px;aspect-ratio:3/4">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lauren_forbes.jpg" alt="Lauren Forbes" class="w-full h-full object-cover object-top" />
+                        </div>
+                        <div class="pt-1">
+                            <div class="text-[0.45rem] tracking-[0.22em] uppercase text-gold mb-2">Identified — Sky News Journalist</div>
+                            <div class="font-display text-2xl tracking-wide text-paper/85 leading-tight mb-3">LAUREN FORBES</div>
+                            <div class="text-[0.62rem] text-paper/45 leading-relaxed mb-3">Arranged an interview with Kosta Kondratenko about the homelessness services gap on the Gold Coast. Instead of running the story, she pulled his criminal history and forwarded his QP-9 charge sheet to representatives at Hancock Prospecting.</div>
+                            <div class="text-[0.55rem] text-paper/28 leading-relaxed">The QP-9 — a non-public Queensland Police charge document — was never a basis for public reporting. Its onward transmission to a third party is a potential breach of the <em>Information Privacy Act 2009</em> (Qld). Referred to the CCC.</div>
+                        </div>
+                    </div>
+
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE EMAIL TO HANCOCK PROSPECTING.<br><span class="text-gold">AND MY CHARGE SHEET.</span></h3>
                     <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"A QP-9 is a Queensland Police charge sheet. It is not a public document. If a journalist has one, someone in Queensland Police gave it to them. That is an unauthorised disclosure of personal information. Sunlight.Quest has referred this to the CCC."</p>
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The email thread from the Sky News reporter — sent to Hancock Prospecting with my QP-9 attached — documents both the illegal disclosure of a police charge document and the framing of a homeless journalism source as unreliable based on a dropped charge. The Kangaroo Point McDonald's Public Nuisance charge was dropped by the DPP at first mention. A dropped charge is not a conviction.</p>
