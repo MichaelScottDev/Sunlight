@@ -3094,6 +3094,106 @@
 </section>
 
 
+<!-- ══════════════════════════════════════
+     ADAM WATSON — POLITICAL CANDIDATE
+══════════════════════════════════════ -->
+<section id="candidate" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(61,122,74,0.06) 0%,rgba(201,138,16,0.04) 60%,transparent 100%)">
+    <div class="max-w-6xl mx-auto">
+
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
+            <div class="reveal">
+                <div class="flex items-center gap-3 mb-2">
+                    <div class="w-4 h-px bg-sage"></div>
+                    <span class="text-[0.55rem] tracking-[0.3em] uppercase text-sage">Independent Candidate</span>
+                </div>
+                <h2 class="font-display leading-none tracking-wide mb-3" style="font-size:clamp(2.8rem,7vw,5rem)">ADAM WATSON.<br><span class="text-sage">INDEPENDENT.</span></h2>
+                <p class="font-serif italic text-paper/45 max-w-2xl leading-relaxed" style="font-size:clamp(0.9rem,1.8vw,1.1rem)">"The people documented on this site — the officers who didn't act, the institutions that protected themselves instead of the public, the systems that punished accountability — are the reason I'm running."</p>
+            </div>
+            <div class="reveal shrink-0" style="transition-delay:0.1s">
+                <div class="border border-sage/30 px-5 py-4 text-center" style="background:rgba(61,122,74,0.05)">
+                    <div class="text-[0.45rem] tracking-[0.22em] uppercase text-sage mb-1">Policy Platform</div>
+                    <div class="font-display text-3xl text-sage mb-1">5</div>
+                    <div class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/30">Policy Areas</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="reveal mb-10">
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4 max-w-3xl">Adam Watson is running as an independent candidate. His platform is built on direct, documented experience with the systems that govern fuel prices, energy costs, employment, national security, and immigration — and a firsthand understanding of what happens when those systems are captured by interests that aren't the public's.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 max-w-3xl">His policies are available in full below. Each is a working document — not a campaign slogan.</p>
+        </div>
+
+        <!-- Policy cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 reveal">
+
+            <!-- Fuel Policy -->
+            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/adamwatson/adam-watson-fuel-policy.html" target="_blank" rel="noopener" class="group block border border-paper/[0.08] p-6 transition-all duration-300 hover:border-gold/40" style="background:rgba(201,138,16,0.03);text-decoration:none">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="text-[0.42rem] tracking-[0.22em] uppercase text-gold">Policy 01</div>
+                    <span class="text-[0.5rem] tracking-[0.15em] uppercase text-gold/50 border border-gold/20 px-2 py-0.5 group-hover:border-gold/50 transition-colors">View →</span>
+                </div>
+                <div class="font-display text-2xl tracking-wide text-paper/80 leading-tight mb-3 group-hover:text-paper transition-colors">FUEL</div>
+                <p class="text-[0.58rem] text-paper/35 leading-relaxed">Price transparency, competition policy, and the mechanisms that keep Australians paying more at the pump than they should.</p>
+            </a>
+
+            <!-- Defence Policy -->
+            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/adamwatson/adam-watson-defence-policy.html" target="_blank" rel="noopener" class="group block border border-paper/[0.08] p-6 transition-all duration-300 hover:border-hot/40" style="background:rgba(193,68,14,0.03);text-decoration:none">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="text-[0.42rem] tracking-[0.22em] uppercase text-hot">Policy 02</div>
+                    <span class="text-[0.5rem] tracking-[0.15em] uppercase text-hot/50 border border-hot/20 px-2 py-0.5 group-hover:border-hot/50 transition-colors">View →</span>
+                </div>
+                <div class="font-display text-2xl tracking-wide text-paper/80 leading-tight mb-3 group-hover:text-paper transition-colors">DEFENCE</div>
+                <p class="text-[0.58rem] text-paper/35 leading-relaxed">National security, capability investment, and what an independent voice looks like when defence policy isn't written by lobbyists.</p>
+            </a>
+
+            <!-- Immigration Policy -->
+            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/adamwatson/adam-watson-immigration-policy.html" target="_blank" rel="noopener" class="group block border border-paper/[0.08] p-6 transition-all duration-300 hover:border-violet/40" style="background:rgba(124,106,170,0.03);text-decoration:none">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="text-[0.42rem] tracking-[0.22em] uppercase" style="color:#7c6aaa">Policy 03</div>
+                    <span class="text-[0.5rem] tracking-[0.15em] uppercase border px-2 py-0.5 transition-colors" style="color:rgba(124,106,170,0.5);border-color:rgba(124,106,170,0.2)">View →</span>
+                </div>
+                <div class="font-display text-2xl tracking-wide text-paper/80 leading-tight mb-3 group-hover:text-paper transition-colors">IMMIGRATION</div>
+                <p class="text-[0.58rem] text-paper/35 leading-relaxed">Integrity, capacity, and a frank account of what the current system costs communities that have no political voice to push back.</p>
+            </a>
+
+            <!-- Jobs Policy -->
+            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/adamwatson/adam-watson-jobs-policy.html" target="_blank" rel="noopener" class="group block border border-paper/[0.08] p-6 transition-all duration-300 hover:border-sage/40" style="background:rgba(61,122,74,0.03);text-decoration:none">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="text-[0.42rem] tracking-[0.22em] uppercase text-sage">Policy 04</div>
+                    <span class="text-[0.5rem] tracking-[0.15em] uppercase text-sage/50 border border-sage/20 px-2 py-0.5 group-hover:border-sage/50 transition-colors">View →</span>
+                </div>
+                <div class="font-display text-2xl tracking-wide text-paper/80 leading-tight mb-3 group-hover:text-paper transition-colors">JOBS</div>
+                <p class="text-[0.58rem] text-paper/35 leading-relaxed">Employment, local industry, and economic frameworks that work for people who actually need them — not the ones who already have access.</p>
+            </a>
+
+            <!-- Energy Policy -->
+            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/adamwatson/adam-watson-energy-policy.html" target="_blank" rel="noopener" class="group block border border-paper/[0.08] p-6 transition-all duration-300 hover:border-gold/40" style="background:rgba(201,138,16,0.03);text-decoration:none">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="text-[0.42rem] tracking-[0.22em] uppercase text-gold">Policy 05</div>
+                    <span class="text-[0.5rem] tracking-[0.15em] uppercase text-gold/50 border border-gold/20 px-2 py-0.5 group-hover:border-gold/50 transition-colors">View →</span>
+                </div>
+                <div class="font-display text-2xl tracking-wide text-paper/80 leading-tight mb-3 group-hover:text-paper transition-colors">ENERGY</div>
+                <p class="text-[0.58rem] text-paper/35 leading-relaxed">The transition, the grid, household costs, and why energy policy designed in isolation from working people's bills is policy designed to fail.</p>
+            </a>
+
+            <!-- Platform summary tile -->
+            <div class="border border-sage/25 p-6 flex flex-col justify-between" style="background:rgba(61,122,74,0.06)">
+                <div>
+                    <div class="text-[0.42rem] tracking-[0.22em] uppercase text-sage mb-4">Full Platform</div>
+                    <div class="font-display text-xl tracking-wide text-paper/70 leading-tight mb-3">INDEPENDENT.<br>NO DONOR.<br>NO FACTION.</div>
+                    <p class="text-[0.55rem] text-paper/35 leading-relaxed">All five policies are live. Each links directly to the working document. No sign-up. No paywall.</p>
+                </div>
+                <div class="mt-4 border-t border-sage/20 pt-4">
+                    <div class="text-[0.48rem] tracking-[0.15em] uppercase text-sage/60">Sunlight.Quest</div>
+                    <div class="text-[0.45rem] text-paper/25 mt-0.5">Episode 2 · The Candidate</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
 <!-- ══ FOOTER ══ -->
 <footer class="border-t border-paper/[0.05] px-5 md:px-10 py-10 max-w-6xl mx-auto">
     <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
