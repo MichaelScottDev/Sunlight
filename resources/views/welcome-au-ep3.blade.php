@@ -300,6 +300,90 @@
             </div>
         </div>
 
+        <!-- ── Chapter 02 divider ── -->
+        <div class="reveal mt-20 mb-12 border-t border-paper/[0.05] pt-14">
+            <div class="flex items-center gap-3 mb-6">
+                <span class="font-display text-[0.62rem] tracking-[0.14em]" style="color:#c98a10">Chapter 02</span>
+                <div class="w-px h-4 bg-paper/10"></div>
+                <span class="text-[0.52rem] tracking-[0.2em] uppercase text-paper/28">The Email Exchange · 3–4 August 2023</span>
+            </div>
+            <h3 class="font-display leading-none tracking-wide mb-2" style="font-size:clamp(1.6rem,4vw,3rem)">THE QUESTION THAT<br><span style="color:#c98a10">COULD NEVER BE ANSWERED.</span></h3>
+        </div>
+
+        <!-- Chapter 02 pull quote -->
+        <div class="reveal border-l-2 pl-6 mb-10" style="border-color:#c98a10">
+            <p class="font-serif italic text-paper/60 leading-relaxed" style="font-size:clamp(0.9rem,2vw,1.1rem)">"Is it a legal requirement that I must physically go to these locations to apply, or can this be done through other means? He eventually said no — not legally required. Then he said my payment could be suspended for it anyway."</p>
+        </div>
+
+        <!-- Chapter 02 body -->
+        <div class="reveal max-w-3xl space-y-5 mb-14 text-[0.75rem] leading-relaxed text-paper/50">
+            <p>Over 13 messages on 3–4 August 2023, I asked Luke Krauss one question in multiple forms: is the in-person application method a legal obligation under social security law, or is it a Tursa guideline? The exchange, preserved in full in the email thread uploaded here, produces one of the more extraordinary admissions in the documented record of welfare compliance in Australia.</p>
+        </div>
+
+        <!-- Four admissions -->
+        <div class="reveal mb-14">
+            <div class="text-[0.52rem] tracking-[0.24em] uppercase text-paper/22 mb-5">The Four Admissions — Luke Krauss, Tursa, 4 August 2023</div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-px" style="background:rgba(245,234,212,0.06)">
+
+                <div class="p-5 panel-item relative overflow-hidden" style="background:#0c0804">
+                    <div class="absolute left-0 top-0 bottom-0 w-0.5 bar-accent-y" style="background:#c98a10"></div>
+                    <div class="flex items-baseline gap-3 mb-3">
+                        <span class="text-[0.48rem] tracking-[0.18em] uppercase text-paper/22">Email 1</span>
+                        <span class="font-display text-[0.62rem]" style="color:#c98a10">09:24</span>
+                    </div>
+                    <p class="font-serif italic text-paper/75 leading-snug mb-3" style="font-size:0.85rem">"You are not legally required to do anything."</p>
+                    <p class="text-[0.58rem] leading-relaxed text-paper/30">Krauss confirms no legal obligation — but states consequences follow from choices made within the program.</p>
+                </div>
+
+                <div class="p-5 panel-item relative overflow-hidden" style="background:#0c0804">
+                    <div class="absolute left-0 top-0 bottom-0 w-0.5 bar-accent-y" style="background:#c98a10"></div>
+                    <div class="flex items-baseline gap-3 mb-3">
+                        <span class="text-[0.48rem] tracking-[0.18em] uppercase text-paper/22">Email 2</span>
+                        <span class="font-display text-[0.62rem]" style="color:#c98a10">14:10</span>
+                    </div>
+                    <p class="font-serif italic text-paper/75 leading-snug mb-3" style="font-size:0.85rem">"No you are not legally required to apply for these specific jobs in person."</p>
+                    <p class="text-[0.58rem] leading-relaxed text-paper/30">The clearest possible written confirmation that the in-person requirement had no legal basis.</p>
+                </div>
+
+                <div class="p-5 panel-item relative overflow-hidden" style="background:#0c0804">
+                    <div class="absolute left-0 top-0 bottom-0 w-0.5 bar-accent-y" style="background:#c1440e"></div>
+                    <div class="flex items-baseline gap-3 mb-3">
+                        <span class="text-[0.48rem] tracking-[0.18em] uppercase text-paper/22">Email 3</span>
+                        <span class="font-display text-[0.62rem] text-hot">15:04</span>
+                    </div>
+                    <p class="font-serif italic text-paper/75 leading-snug mb-3" style="font-size:0.85rem">"Yes your payment could be suspended."</p>
+                    <p class="text-[0.58rem] leading-relaxed text-paper/30">Not legally required — but payment suspended for non-compliance anyway. No regulatory citation provided.</p>
+                </div>
+
+                <div class="p-5 panel-item relative overflow-hidden" style="background:#0c0804">
+                    <div class="absolute left-0 top-0 bottom-0 w-0.5 bar-accent-y" style="background:#7c6aaa"></div>
+                    <div class="flex items-baseline gap-3 mb-3">
+                        <span class="text-[0.48rem] tracking-[0.18em] uppercase text-paper/22">Email 4</span>
+                        <span class="font-display text-[0.62rem] text-violet">16:07</span>
+                    </div>
+                    <p class="font-serif italic text-paper/75 leading-snug mb-3" style="font-size:0.85rem">"I'm really struggling to comprehend how this is so hard for someone as smart as you are to understand."</p>
+                    <p class="text-[0.58rem] leading-relaxed text-paper/30">Having failed to provide any regulatory citation, Krauss shifts to personal diminishment. The record ends here.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Extended Krauss quote -->
+        <div class="reveal border border-paper/[0.07] p-6 mb-10 max-w-3xl" style="background:rgba(124,106,170,0.04)">
+            <p class="font-serif italic text-paper/55 leading-relaxed mb-4" style="font-size:0.88rem">"If you wish to go try searching for intricate policies regarding this go for it, I cannot advise you where you can find this, I don't even think the department of employment and workplace relations (DEWR) has gone that deep into it because its not rocket science."</p>
+            <div class="text-[0.5rem] tracking-[0.16em] uppercase text-paper/25">— Luke Krauss, Employment Adviser, Tursa Murwillumbah. Email, 4 August 2023.</div>
+        </div>
+
+        <!-- Chapter 02 closing analysis -->
+        <div class="reveal max-w-3xl space-y-5 mb-10 text-[0.75rem] leading-relaxed text-paper/50">
+            <p>That statement — the regulatory basis doesn't exist in any document because it's "not rocket science" — is the clearest possible articulation of how the compliance system actually operates. The requirement is not legal. It is coercive. It is enforced not through law but through the threat of payment suspension. The threat is real. The law behind it does not exist.</p>
+        </div>
+
+        <div class="reveal border border-paper/[0.07] p-5 max-w-2xl" style="background:rgba(193,68,14,0.04)">
+            <div class="text-[0.52rem] tracking-[0.2em] uppercase mb-2 text-hot">Finding</div>
+            <p class="text-[0.65rem] leading-relaxed text-paper/45">The in-person application requirement was confirmed in writing to have no legal basis. Payment was suspended for non-compliance regardless. No regulatory citation was ever provided across 13 messages.</p>
+        </div>
+
     </div>
 </section>
 
