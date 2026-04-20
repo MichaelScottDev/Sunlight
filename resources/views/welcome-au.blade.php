@@ -1959,17 +1959,16 @@
                         </div>
                     </div>
                     <div class="ev-body">
-                        <div class="ev-file ef-hot" onclick="openMV('video','THE VIRAL VIDEO — RJ CONFRONTATION','Direct confrontation video of RJ — circulated widely across the Gold Coast — submitted to Hancock Prospecting','Video · Original recording · PLACEHOLDER — full video pending legal review','viral_video_rj_PLACEHOLDER.mp4','This is the video that triggered the retaliation campaign. The direct confrontation documented RJ\'s behaviour and connections. When submitted to Hancock Prospecting, I was immediately blocked — confirming Adam Watson\'s connection to that network. RJ\'s associates began a sustained harassment campaign against Adam Watson in direct response to this video\'s circulation.','video-viral')">
+                        <div class="ev-file ef-hot" onclick="openMV('video-viral')">
                             <div class="ev-icon ev-video">▶</div>
                             <div class="ev-meta">
-                                <div class="ev-name">viral_video_RJ_confrontation.mp4</div>
+                                <div class="ev-name">rj_confront.mp4</div>
                                 <div class="ev-desc">Video · RJ confrontation · Gold Coast · Triggered retaliation campaign</div>
                             </div>
-                            <span class="redact-tag">⬛ PLACEHOLDER</span>
-                            <span class="ev-cta ml-2">Watch →</span>
+                            <span class="ev-cta">Watch →</span>
                         </div>
                         <div class="ev-zip-bar">
-                            <span class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/25">Full video pending legal clearance — placeholder visible now</span>
+                            <span class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/25">Original viral video — RJ direct confrontation</span>
                         </div>
                     </div>
                 </div>
@@ -2844,11 +2843,10 @@ var EVIDENCE = {
         type:'video',
         title:'THE VIRAL VIDEO — RJ CONFRONTATION',
         tag:'Gold Coast · The Video That Started It All',
-        meta:'Placeholder — full video pending legal review',
+        meta:'Video · Original recording · RJ direct confrontation',
         desc:'The direct confrontation video of RJ that circulated widely across the Gold Coast. Submitted to Hancock Prospecting — I was immediately blocked, confirming Adam Watson\'s connection to that network. RJ\'s associates began a sustained harassment campaign against Adam Watson in direct response to this video\'s circulation. The Oracle East assault followed.',
-        isPlaceholder:true,
-        placeholderLabel:'FULL VIDEO PENDING LEGAL REVIEW',
-        filename:'viral_video_RJ_PLACEHOLDER.mp4'
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/rj_confront.mp4',
+        filename:'rj_confront.mp4'
     },
     'video-mental-health-check': {
         type:'video',
