@@ -384,6 +384,222 @@
             <p class="text-[0.65rem] leading-relaxed text-paper/45">The in-person application requirement was confirmed in writing to have no legal basis. Payment was suspended for non-compliance regardless. No regulatory citation was ever provided across 13 messages.</p>
         </div>
 
+        <!-- ── Chapter 03 ── -->
+        <div class="reveal mt-20 mb-12 border-t border-paper/[0.05] pt-14">
+            <div class="flex items-center gap-3 mb-6">
+                <span class="font-display text-[0.62rem] tracking-[0.14em]" style="color:#c98a10">Chapter 03</span>
+                <div class="w-px h-4 bg-paper/10"></div>
+                <span class="text-[0.52rem] tracking-[0.2em] uppercase text-paper/28">The Camera · The Office · The Police Call</span>
+            </div>
+            <h3 class="font-display leading-none tracking-wide mb-2" style="font-size:clamp(1.6rem,4vw,3rem)">A 30-MINUTE APPOINTMENT.</h3>
+            <div class="text-[0.72rem] tracking-[0.12em] uppercase mb-6" style="color:#c1440e">TERMINATED BECAUSE I HELD A CAMERA.</div>
+        </div>
+
+        <div class="reveal border-l-2 pl-6 mb-10" style="border-color:#c98a10">
+            <p class="font-serif italic text-paper/60 leading-relaxed" style="font-size:clamp(0.9rem,2vw,1.1rem)">"The appointment was scheduled for 30 minutes. I held a camera. She called the police. She pressed the duress alarm. She called me a pig. She asked if intimidating a woman was going to be my 'new repertoire.' The appointment had been going for under three minutes."</p>
+        </div>
+
+        <div class="reveal max-w-3xl space-y-5 mb-12 text-[0.75rem] leading-relaxed text-paper/50">
+            <p>I attended a scheduled appointment at the Tursa Murwillumbah office. The appointment was booked for 30 minutes. I held a camera — not recording, according to the transcript — and the staff member terminated the appointment and called police, stating she did not consent to being recorded. The full confrontation is transcribed in the CCTV Request transcript uploaded below.</p>
+        </div>
+
+        <!-- Transcript block -->
+        <div class="reveal mb-12 border border-paper/[0.07] max-w-3xl" style="background:rgba(12,8,4,0.8)">
+            <div class="px-5 py-3 border-b border-paper/[0.06] flex items-center gap-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase" style="color:#c98a10">▶ Recorded Confrontation</span>
+                <span class="text-[0.48rem] tracking-[0.16em] uppercase text-paper/25">Tursa Murwillumbah Office · Transcript Extract</span>
+            </div>
+            <div class="divide-y divide-paper/[0.05]">
+
+                <div class="px-5 py-4 grid grid-cols-[5rem_1fr] gap-4 items-start">
+                    <div class="text-[0.52rem] tracking-[0.14em] uppercase text-paper/30 pt-0.5">Staff Member</div>
+                    <p class="font-serif italic text-paper/65 text-[0.8rem] leading-relaxed">"Can you put your camera back in your bag, please?"</p>
+                </div>
+
+                <div class="px-5 py-4 grid grid-cols-[5rem_1fr] gap-4 items-start" style="background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.52rem] tracking-[0.14em] uppercase pt-0.5" style="color:#c98a10">Kosta</div>
+                    <p class="font-serif italic text-paper/65 text-[0.8rem] leading-relaxed">"I have a right to hold the camera."</p>
+                </div>
+
+                <div class="px-5 py-4 grid grid-cols-[5rem_1fr] gap-4 items-start">
+                    <div class="text-[0.52rem] tracking-[0.14em] uppercase text-paper/30 pt-0.5">Staff Member</div>
+                    <p class="font-serif italic text-paper/65 text-[0.8rem] leading-relaxed">"Out you get. I'm not doing this. Out. Get out of my office, please, Costa."</p>
+                </div>
+
+                <div class="px-5 py-4 grid grid-cols-[5rem_1fr] gap-4 items-start" style="background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.52rem] tracking-[0.14em] uppercase pt-0.5" style="color:#c98a10">Kosta</div>
+                    <p class="font-serif italic text-paper/65 text-[0.8rem] leading-relaxed">"But that appointment was scheduled for 30 minutes."</p>
+                </div>
+
+                <div class="px-5 py-4 grid grid-cols-[5rem_1fr] gap-4 items-start">
+                    <div class="text-[0.52rem] tracking-[0.14em] uppercase text-paper/30 pt-0.5 leading-snug">Staff Member<br><span class="text-paper/18 normal-case">[on phone to colleague]</span></div>
+                    <p class="font-serif italic text-paper/65 text-[0.8rem] leading-relaxed">"He refuses to leave my office. He is recording in here as well at the moment with the camera and a big thing on a microphone as well. Saying that he is not recording, however he is recording. He refuses to leave my office and he will not get out of my space."</p>
+                </div>
+
+                <div class="px-5 py-4 grid grid-cols-[5rem_1fr] gap-4 items-start">
+                    <div class="text-[0.52rem] tracking-[0.14em] uppercase text-paper/30 pt-0.5">Staff Member</div>
+                    <p class="font-serif italic text-paper/65 text-[0.8rem] leading-relaxed">"Or do you find intimidating a woman to be something that you're actually... that this is going to be one of the new repertoire, is it?"</p>
+                </div>
+
+                <div class="px-5 py-4 grid grid-cols-[5rem_1fr] gap-4 items-start" style="background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.52rem] tracking-[0.14em] uppercase pt-0.5 text-paper/20">Final line</div>
+                    <p class="text-[0.68rem] text-paper/40 leading-relaxed">"Please provide me CCTV footage of this situation."</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Post-transcript quote -->
+        <div class="reveal border border-paper/[0.07] p-6 mb-10 max-w-3xl" style="background:rgba(124,106,170,0.04)">
+            <p class="font-serif italic text-paper/55 leading-relaxed" style="font-size:0.88rem">"The request for CCTV footage is the natural investigative reflex of a person who understands that the only reliable record of what happens in these offices is the footage the office itself holds. The system that demands your compliance won't show you its own evidence."</p>
+        </div>
+
+        <div class="reveal max-w-3xl space-y-5 mb-12 text-[0.75rem] leading-relaxed text-paper/50">
+            <p>What the transcript documents is not simply a hostile encounter. It is the precise mechanism by which the system transforms a participant's reasonable attempt at documentation into a justification for exclusion. The provider has every institutional incentive to end the encounter on their terms — and every tool to document it in a way that turns the participant's persistence into a compliance failure. The duress button was pressed. An incident report was filed. The MSP followed.</p>
+        </div>
+
+        <!-- Guidelines callout -->
+        <div class="reveal mb-6">
+            <div class="text-[0.52rem] tracking-[0.24em] uppercase text-paper/22 mb-4">What the Guidelines Actually Say — Chapter 5.3.1</div>
+            <div class="border border-paper/[0.07] p-5 max-w-3xl" style="background:rgba(61,122,74,0.04)">
+                <div class="text-[0.48rem] tracking-[0.16em] uppercase text-paper/20 mb-3">Workforce Australia Guidelines, Chapter 5, effective 1 July 2023:</div>
+                <p class="font-serif italic text-paper/60 leading-relaxed mb-4" style="font-size:0.88rem">"Participants have the right to ask questions and appropriately outline their views on their entitlements and servicing. As long as they are not being abusive or using offensive language, Participants should not be considered as demonstrating challenging behaviours in these situations."</p>
+                <p class="text-[0.65rem] leading-relaxed text-paper/40">Asking — in writing, eleven times, without any abusive language — for the regulatory basis of a requirement is the textbook exercise of this right. The incident report filed after the camera confrontation, and the MSP that followed, classified the exercise of a specifically enumerated right as challenging behaviour. That is not the system malfunctioning. That is the system working as it was designed.</p>
+            </div>
+        </div>
+
+        <!-- ── Chapter 04 ── -->
+        <div class="reveal mt-20 mb-12 border-t border-paper/[0.05] pt-14">
+            <div class="flex items-center gap-3 mb-6">
+                <span class="font-display text-[0.62rem] tracking-[0.14em]" style="color:#c98a10">Chapter 04</span>
+                <div class="w-px h-4 bg-paper/10"></div>
+                <span class="text-[0.52rem] tracking-[0.2em] uppercase text-paper/28">The Managed Service Plan · Six Months</span>
+            </div>
+            <h3 class="font-display leading-none tracking-wide mb-2" style="font-size:clamp(1.6rem,4vw,3rem)">THE MSP.</h3>
+            <div class="text-[0.72rem] tracking-[0.12em] uppercase mb-6" style="color:#c1440e">BARRED FROM THE OFFICE. BARRED FROM WRITING. SIX MONTHS.</div>
+        </div>
+
+        <div class="reveal border-l-2 pl-6 mb-10" style="border-color:#c98a10">
+            <p class="font-serif italic text-paper/60 leading-relaxed" style="font-size:clamp(0.9rem,2vw,1.1rem)">"The manager wrote that I had breached the MSP by attending the office. I attended because I had a scheduled appointment. They put a new MSP in place — phone only, no attendance at any Tursa site, no written contact with any Tursa staff. For six months."</p>
+        </div>
+
+        <!-- MSP letter vs guidelines comparison -->
+        <div class="reveal mb-12">
+            <div class="text-[0.52rem] tracking-[0.24em] uppercase text-paper/22 mb-4">MSP Letter — David Wiblen, Manager, Workforce Australia (Tursa) · 10/8/2023</div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-px" style="background:rgba(245,234,212,0.06)">
+
+                <div class="p-6" style="background:#0c0804">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase mb-4 text-hot">What the Letter States</div>
+                    <ul class="space-y-3">
+                        <li class="flex gap-3 text-[0.68rem] text-paper/50 leading-snug">
+                            <span class="text-hot shrink-0 mt-0.5">→</span>
+                            <span>I had breached the prior MSP by attending the Tursa Murwillumbah office</span>
+                        </li>
+                        <li class="flex gap-3 text-[0.68rem] text-paper/50 leading-snug">
+                            <span class="text-hot shrink-0 mt-0.5">→</span>
+                            <span>I attended twice — one occasion the police were called</span>
+                        </li>
+                        <li class="flex gap-3 text-[0.68rem] text-paper/50 leading-snug">
+                            <span class="text-hot shrink-0 mt-0.5">→</span>
+                            <span>New MSP: assistance via phone only</span>
+                        </li>
+                        <li class="flex gap-3 text-[0.68rem] text-paper/50 leading-snug">
+                            <span class="text-hot shrink-0 mt-0.5">→</span>
+                            <span>Period: 10/8/2023 – 9/2/2024 (six months)</span>
+                        </li>
+                        <li class="flex gap-3 text-[0.68rem] text-paper/50 leading-snug">
+                            <span class="text-hot shrink-0 mt-0.5">→</span>
+                            <span>Not permitted to attend any Tursa site</span>
+                        </li>
+                        <li class="flex gap-3 text-[0.68rem] text-paper/50 leading-snug">
+                            <span class="text-hot shrink-0 mt-0.5">→</span>
+                            <span>Not permitted to write to any Tursa staff</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="p-6" style="background:#0c0804">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase mb-4 text-sage">What the Guidelines Require</div>
+                    <ul class="space-y-3">
+                        <li class="flex gap-3 text-[0.68rem] text-paper/50 leading-snug">
+                            <span class="text-sage shrink-0 mt-0.5">→</span>
+                            <span>Either face-to-face OR telephone must remain available at all times</span>
+                        </li>
+                        <li class="flex gap-3 text-[0.68rem] text-paper/50 leading-snug">
+                            <span class="text-sage shrink-0 mt-0.5">→</span>
+                            <span>Full face-to-face restriction AND full writing restriction simultaneously is the most restrictive arrangement possible</span>
+                        </li>
+                        <li class="flex gap-3 text-[0.68rem] text-paper/50 leading-snug">
+                            <span class="text-sage shrink-0 mt-0.5">→</span>
+                            <span>Participant must be given opportunity to participate in MSP review</span>
+                        </li>
+                        <li class="flex gap-3 text-[0.68rem] text-paper/50 leading-snug">
+                            <span class="text-sage shrink-0 mt-0.5">→</span>
+                            <span>Participants can request review at any time — contact NCSL: 1800 805 260</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- MSP severity callout -->
+        <div class="reveal mb-10">
+            <div class="text-[0.52rem] tracking-[0.24em] uppercase text-paper/22 mb-4">The MSP Applied to a Participant Whose Conduct Was Asking Questions</div>
+            <div class="grid grid-cols-3 gap-px mb-8" style="background:rgba(245,234,212,0.06)">
+                <div class="px-4 py-5 text-center" style="background:#0c0804">
+                    <div class="font-display text-2xl mb-1 text-hot">FULL</div>
+                    <div class="text-[0.58rem] text-paper/55 mb-1">F2F Restriction</div>
+                    <div class="text-[0.46rem] tracking-[0.12em] uppercase text-paper/22">No site attendance</div>
+                </div>
+                <div class="px-4 py-5 text-center" style="background:#0c0804">
+                    <div class="font-display text-2xl mb-1 text-hot">FULL</div>
+                    <div class="text-[0.58rem] text-paper/55 mb-1">Writing Restriction</div>
+                    <div class="text-[0.46rem] tracking-[0.12em] uppercase text-paper/22">No written contact</div>
+                </div>
+                <div class="px-4 py-5 text-center" style="background:#0c0804">
+                    <div class="font-display text-2xl mb-1" style="color:#c98a10">MAX</div>
+                    <div class="text-[0.58rem] text-paper/55 mb-1">Restriction Level</div>
+                    <div class="text-[0.46rem] tracking-[0.12em] uppercase text-paper/22">Most restrictive possible</div>
+                </div>
+            </div>
+            <div class="text-[0.72rem] tracking-[0.12em] uppercase mb-6 text-paper/30">FULL FACE-TO-FACE RESTRICTION.<br>FULL WRITING RESTRICTION.<br>SIX MONTHS.</div>
+        </div>
+
+        <div class="reveal max-w-3xl space-y-5 mb-12 text-[0.75rem] leading-relaxed text-paper/50">
+            <p>The MSP framework exists, according to the guidelines, to tailor service delivery to participants who display challenging behaviours — while ensuring they remain connected to employment services. The most restrictive arrangement permitted is full face-to-face restriction combined with full writing restriction, leaving only telephone.</p>
+            <p>This is what was applied — for six months — to a participant whose documented conduct was: asking in writing for the regulatory basis of a requirement (emails preserved), attending a scheduled appointment while holding a camera (transcript preserved), and asking for CCTV footage of the confrontation that followed. The guidelines explicitly state that participants who ask questions about their entitlements should not be considered as demonstrating challenging behaviours. The MSP says otherwise.</p>
+        </div>
+
+        <!-- Chapter 04 stat row -->
+        <div class="reveal grid grid-cols-2 md:grid-cols-4 gap-px mb-10" style="background:rgba(245,234,212,0.06)">
+            <div class="px-5 py-6" style="background:#0c0804">
+                <div class="font-display text-3xl mb-1 text-violet">6mo</div>
+                <div class="text-[0.6rem] text-paper/55 leading-snug mb-1">MSP Duration</div>
+                <div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">10/8/23 – 9/2/24</div>
+            </div>
+            <div class="px-5 py-6" style="background:#0c0804">
+                <div class="font-display text-3xl mb-1 text-hot">FULL</div>
+                <div class="text-[0.6rem] text-paper/55 leading-snug mb-1">F2F Restriction</div>
+                <div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">No site attendance</div>
+            </div>
+            <div class="px-5 py-6" style="background:#0c0804">
+                <div class="font-display text-3xl mb-1 text-hot">FULL</div>
+                <div class="text-[0.6rem] text-paper/55 leading-snug mb-1">Writing Restriction</div>
+                <div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">No written contact</div>
+            </div>
+            <div class="px-5 py-6" style="background:#0c0804">
+                <div class="font-display text-3xl mb-1" style="color:#c98a10">MAX</div>
+                <div class="text-[0.6rem] text-paper/55 leading-snug mb-1">Restriction Level</div>
+                <div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Most restrictive possible</div>
+            </div>
+        </div>
+
+        <div class="reveal border border-paper/[0.07] p-5 max-w-2xl" style="background:rgba(193,68,14,0.04)">
+            <div class="text-[0.52rem] tracking-[0.2em] uppercase mb-2 text-hot">Finding</div>
+            <p class="text-[0.65rem] leading-relaxed text-paper/45">The maximum-restriction MSP was applied to a participant whose documented conduct — asking questions in writing, attending a scheduled appointment — is explicitly protected under the Workforce Australia Guidelines, Chapter 5.3.1.</p>
+        </div>
+
     </div>
 </section>
 
