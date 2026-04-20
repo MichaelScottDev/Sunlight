@@ -641,11 +641,8 @@
                     </div>
                 </div>
                 </div>
-            </div>
 
-            <!-- Chapter B: Malicious Prosecution -->
-            <div class="story-chapter reveal" style="transition-delay:0.1s;border-left-color:rgba(193,68,14,0.3)">
-                <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter B — False Allegations</span></div>
+                <div class="flex items-center gap-3 mt-10 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter B — False Allegations</span></div>
                 <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">DPP RULING.<br><span class="text-hot">OFFICER FIRED.</span></h3>
                 <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"A criminal charge does not require truth. It requires a complainant, a police officer who believes them, and a system that moves faster than the facts."</p>
                 <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Bodie Chalmers, together with his accomplice Ebony, gave a police statement alleging sexual assault against Adam Watson. A corrupt officer accepted and actioned the complaint. At the first court mention, the Director of Public Prosecutions ruled it a malicious prosecution. The charge was dismissed. The officer was subsequently fired.</p>
