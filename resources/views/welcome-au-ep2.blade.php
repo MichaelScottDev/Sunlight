@@ -457,6 +457,128 @@
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed">This is what social stigmatisation looks like in practice. A person who was the subject of a charge the DPP ruled malicious, who was never convicted, who has no finding against him — denied service at a fast food outlet because of rumours spread by the person who fabricated the charge. This is what Bodie Chalmers and his accomplice Ebony's conduct costs people in daily life.</p>
                 </div>
 
+                <!-- Tweed Heads pub incident -->
+                <div class="border-l-4 border-hot/40 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Tweed Heads — Pub Incident</div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">BODIE FOLLOWS THE RUMOUR TO TWEED HEADS.<br><span class="text-hot">"YOU'RE FRIENDS WITH ADAM THE PAEDOPHILE."</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Adam had friends in Coogee whose family had since moved to Tweed Heads. While at a pub in Tweed Heads, Bodie Chalmers recognised these individuals as associates of Adam Watson. He opened with: <span class="font-display text-paper/65">"You're friends with Adam the paedophile."</span> An altercation followed. The rumours Bodie had been spreading caused that altercation — the false label he was circulating is what triggered the confrontation.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">James McDonald — an associate of Bodie Chalmers — had his teeth smashed out during the altercation. Following the incident, both Bodie Chalmers and James McDonald went to police and provided statements against the person they had the altercation with. They snitched. Bodie Chalmers — who had instigated the incident by spreading false rumours — walked into a police station to give a statement against the person who responded to those rumours.</p>
+                    <div class="border border-gold/20 p-4 mb-3" style="background:rgba(201,138,16,0.04)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">The Warrant Miss — Bodie Gets Away</div>
+                        <p class="text-[0.62rem] text-paper/45 leading-relaxed">When Bodie Chalmers attended the police station and the arresting officer processed the incident, <strong class="text-paper/60">the officer did not check Bodie's outstanding warrants</strong>. Bodie had multiple warrants active at the time — meaning police were already looking for him in connection with other matters. A routine warrant check at the station would have seen him taken into custody on the spot. It did not happen. Bodie walked out. He was there voluntarily — snitching on the person who responded to his own false rumour campaign — and left without being detained for offences he was already wanted for.</p>
+                    </div>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">Adam Watson is now assisting that person with legal representation arising from the charges that followed. The pattern is consistent: Bodie Chalmers instigates a situation using the false "paedophile" label he has been spreading, an altercation occurs, and he then uses the police to pursue the person who responded — while somehow avoiding the warrants that were outstanding in his own name.</p>
+                </div>
+
+                <!-- Optus $2,500 bill — Bodie Chalmers -->
+                <div class="story-chapter reveal" style="border-left-color:rgba(201,138,16,0.3)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Bodie Chalmers — Optus Security Breach</span></div>
+                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE $2,500 BILL<br><span class="text-gold">FOR OPTUS'S OWN FAILURE.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Bodie Chalmers walked into an Optus store and had Adam's phone number turned off. No authorisation. No verification. Just social pressure on an employee. And it worked."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Bodie Chalmers deactivated Adam's Optus service by threatening to expose an employee's sexuality unless they complied. The employee complied. Adam's phone was turned off. The matter was raised with the Prime Minister's office, referred to the Telecommunications Industry Ombudsman, and the Optus CEO was notified. Adam is now being billed $2,500 for the disconnection — despite the breach being caused entirely by Bodie Chalmers exploiting Optus's own failure.</p>
+
+                    <!-- EVIDENCE VAULT: Optus -->
+                    <div class="evidence-vault">
+                        <div class="ev-header" onclick="toggleVault(this)">
+                            <div class="flex items-center gap-2">
+                                <span class="text-[0.48rem] tracking-[0.22em] uppercase text-gold">📁 Evidence Files</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Optus · TIO Resolution</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                                <span class="ev-toggle">▼</span>
+                            </div>
+                        </div>
+                        <div class="ev-body">
+                            <div class="ev-file ef-gold" onclick="openMV('pdf','OPTUS APOLOGY LETTER — TIO OUTCOME','Letter from Optus following Telecommunications Industry Ombudsman referral — service restored — acknowledgment of breach','PDF · Optus correspondence · Post-TIO referral','optus_apology_letter.pdf','This letter from Optus, issued following the TIO referral initiated by Adam Watson\'s complaint to the Prime Minister\'s office, confirms the restoration of service and acknowledges the security failure at the retail store level. Optus has since issued an internal directive addressing verification procedures. Despite this, Adam is still being billed $2,500 — a charge Sunlight.Quest considers unconscionable.','pdf-optus')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">optus_apology_TIO_outcome.pdf</div>
+                                    <div class="ev-desc">PDF · Optus apology · Service restored · TIO referral outcome</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                            <div class="ev-zip-bar">
+                                <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Sunlight.Quest is calling on Optus to waive the $2,500 charge</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Officeworks wheelchair attack -->
+                <div class="story-chapter reveal" style="transition-delay:0.05s">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">They Don't Even Hide — Incident One — Attempted Murder</span></div>
+                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">FIFTEEN THOUSAND DOLLARS.<br><span class="text-hot">A WHEELCHAIR. A CAR PARK.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Someone paid to have a man driven into near an Officeworks. The alleged price was $15,000. The alleged goal was a wheelchair."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The target photographed the driver at the scene. That photograph, combined with CCTV footage from the nearby Officeworks, was provided to law enforcement. The driver was identified, located, and arrested. He has been denied bail. Messages extracted from the driver's phone link him to a third party and indicate a payment of $15,000 for the attack.</p>
+
+                    <!-- EVIDENCE VAULT: Officeworks Attack -->
+                    <div class="evidence-vault">
+                        <div class="ev-header" onclick="toggleVault(this)">
+                            <div class="flex items-center gap-2">
+                                <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Officeworks Wheelchair Attack</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                                <span class="ev-toggle">▼</span>
+                            </div>
+                        </div>
+                        <div class="ev-body">
+                            <div class="ev-file ef-hot" onclick="openMV('image','DRIVER IDENTIFIED AT SCENE','Photograph of the driver in his vehicle — taken by the target immediately after the attack — face redacted','Image · Taken at scene · Driver arrested · Denied bail','officeworks_attacker_photo_REDACTED.jpg','This photograph was taken by the target of the vehicle attack at the Officeworks car park, immediately after the attack. Combined with CCTV footage from the nearby Officeworks, it enabled the identification, location, and arrest of the driver. He was denied bail. Phone messages extracted from his device link the attack to a $15,000 contract. The face of the driver has been redacted pending completion of court proceedings.','image-driver')">
+                                <div class="ev-icon ev-img">📷</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">officeworks_attack_driver_photo_REDACTED.jpg</div>
+                                    <div class="ev-desc">Image · Driver photographed at scene · Face redacted · Arrested · Bail denied</div>
+                                </div>
+                                <span class="redact-tag">⬛ Face redacted</span>
+                                <span class="ev-cta ml-2">View →</span>
+                            </div>
+                            <div class="ev-zip-bar">
+                                <span class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/25">Full unredacted photo held by QPS — redacted version published here</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gina Rinehart arson -->
+                <div class="story-chapter reveal" style="transition-delay:0.1s">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">They Don't Even Hide — Incident Two — Arson</span></div>
+                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">"GINA RINEHART IS NEXT"<br><span class="text-hot">WRITTEN ON A FENCE.</span></h3>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">A Gold Coast home connected to the personal circle of Gina Rinehart was firebombed. Perpetrators left graffiti: "Gina Rinehart is next." They also left a section of a previous version of this publication containing identifying imagery — an attempt to establish that investigative journalism is the provocation for violence. Sunlight.Quest does not accept that logic.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <div class="border border-paper/[0.07] p-5">
+                            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-2">Jordan Shanks — Friendlyjordies</div>
+                            <div class="text-[0.62rem] text-paper/40 leading-relaxed space-y-1"><div>Method: Firebombing — Bondi Beach, Nov 2022</div><div>Outcome: Home destroyed. Perpetrator jailed 5 years.</div><div>Trigger: Video naming crime family</div></div>
+                        </div>
+                        <div class="border border-paper/[0.07] p-5">
+                            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-2">Gina Rinehart's Circle — Gold Coast</div>
+                            <div class="text-[0.62rem] text-paper/40 leading-relaxed space-y-1"><div>Method: Firebombing — Gold Coast residence</div><div>Message left: "Rinehart is next" + Sunlight.Quest pages</div><div>Status: Active investigation. Perpetrator left Australia.</div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CGU Insurance -->
+                <div class="border-l-4 border-hot/40 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">CGU Insurance — Firebombing Aftermath</div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">CGU REP CALLS THE SITE "INCITING HATE."<br><span class="text-hot">AT A FIREBOMBED HOUSE. THEIR NAME IS BEING SOUGHT.</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">A representative from CGU Insurance was present at the firebombed property — the house connected to Gina Rinehart's personal circle — in the aftermath of the arson attack. Gina Rinehart was also present. While surveying the burnt-out scene, the CGU representative viewed an older version of this website on a device and made comments asserting that the section describing Bodie Chalmers as an "incest baby" constituted <em>inciting hate</em>.</p>
+                    <div class="border border-paper/[0.08] p-4 mb-4" style="background:rgba(0,0,0,0.2)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">The Irony — On the Record</div>
+                        <p class="text-[0.65rem] text-paper/45 leading-relaxed">A property was set on fire. Graffiti reading <span class="font-display text-paper/65">"Gina Rinehart is Next"</span> was left on the fence. Pages of this publication were deliberately placed at the scene in an apparent attempt to implicate investigative journalism as the cause of violence. And the person from CGU Insurance — standing in the charred aftermath of an actual arson attack — chose to direct their concern at the words on a website. Not at the fire. Not at the graffiti. Not at the perpetrators. At the journalism. The irony is not lost on us.</p>
+                    </div>
+                    <div class="border border-hot/20 p-4 mb-4" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Why This Comment Is Wrong</div>
+                        <div class="space-y-2.5">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/40 leading-relaxed"><strong class="text-paper/55">Factual accuracy is not hate speech.</strong> Describing a person's circumstances of birth based on documented facts is reportage. It is not directed at any group. It is not incitement.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/40 leading-relaxed"><strong class="text-paper/55">The legal definition of incitement requires more than discomfort.</strong> Inciting hatred under the Racial Discrimination Act or Criminal Code requires material that encourages hatred against a group on protected grounds. A biographical description of an individual does not meet that threshold.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/40 leading-relaxed"><strong class="text-paper/55">Conflating criticism with hate normalises suppression.</strong> Using "inciting hate" language to characterise journalism that documents criminal conduct is a rhetorical strategy — not a legal or ethical argument. It is exactly the kind of pressure investigative journalism exists to resist.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/40 leading-relaxed"><strong class="text-paper/55">An insurance representative is not a regulator.</strong> CGU Insurance has no standing to adjudicate what constitutes hate speech. Making that comment at a crime scene — to parties connected to this publication — carries the character of an attempt to influence or intimidate.</p></div>
+                        </div>
+                    </div>
+                    <p class="text-[0.65rem] text-paper/40 leading-relaxed">The full name and role of this CGU representative is currently being sought. Upon confirmation, a formal complaint will be lodged with CGU's conduct and compliance function and, where appropriate, referred to the relevant professional body. Their comments, the context in which they were made, and this individual's identity will be published here.</p>
+                </div>
+
                 <!-- Yakuza van / custody update -->
                 <div class="border-l-4 border-hot/50 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
                     <div class="flex items-center gap-2 mb-2">
@@ -518,37 +640,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="border-l-4 border-hot/40 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
-                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">CGU Insurance — Firebombing Aftermath</div>
-                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">CGU REP CALLS THE SITE "INCITING HATE."<br><span class="text-hot">AT A FIREBOMBED HOUSE. THEIR NAME IS BEING SOUGHT.</span></h4>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">A representative from CGU Insurance was present at the firebombed property — the house connected to Gina Rinehart's personal circle — in the aftermath of the arson attack. Gina Rinehart was also present. While surveying the burnt-out scene, the CGU representative viewed an older version of this website on a device and made comments asserting that the section describing Bodie Chalmers as an "incest baby" constituted <em>inciting hate</em>.</p>
-                    <div class="border border-paper/[0.08] p-4 mb-4" style="background:rgba(0,0,0,0.2)">
-                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">The Irony — On the Record</div>
-                        <p class="text-[0.65rem] text-paper/45 leading-relaxed">A property was set on fire. Graffiti reading <span class="font-display text-paper/65">"Gina Rinehart is Next"</span> was left on the fence. Pages of this publication were deliberately placed at the scene in an apparent attempt to implicate investigative journalism as the cause of violence. And the person from CGU Insurance — standing in the charred aftermath of an actual arson attack — chose to direct their concern at the words on a website. Not at the fire. Not at the graffiti. Not at the perpetrators. At the journalism. The irony is not lost on us.</p>
-                    </div>
-                    <div class="border border-hot/20 p-4 mb-4" style="background:rgba(193,68,14,0.03)">
-                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Why This Comment Is Wrong</div>
-                        <div class="space-y-2.5">
-                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/40 leading-relaxed"><strong class="text-paper/55">Factual accuracy is not hate speech.</strong> Describing a person's circumstances of birth based on documented facts is reportage. It is not directed at any group. It is not incitement.</p></div>
-                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/40 leading-relaxed"><strong class="text-paper/55">The legal definition of incitement requires more than discomfort.</strong> Inciting hatred under the Racial Discrimination Act or Criminal Code requires material that encourages hatred against a group on protected grounds. A biographical description of an individual does not meet that threshold.</p></div>
-                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/40 leading-relaxed"><strong class="text-paper/55">Conflating criticism with hate normalises suppression.</strong> Using "inciting hate" language to characterise journalism that documents criminal conduct is a rhetorical strategy — not a legal or ethical argument. It is exactly the kind of pressure investigative journalism exists to resist.</p></div>
-                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/40 leading-relaxed"><strong class="text-paper/55">An insurance representative is not a regulator.</strong> CGU Insurance has no standing to adjudicate what constitutes hate speech. Making that comment at a crime scene — to parties connected to this publication — carries the character of an attempt to influence or intimidate.</p></div>
-                        </div>
-                    </div>
-                    <p class="text-[0.65rem] text-paper/40 leading-relaxed">The full name and role of this CGU representative is currently being sought. Upon confirmation, a formal complaint will be lodged with CGU's conduct and compliance function and, where appropriate, referred to the relevant professional body. Their comments, the context in which they were made, and this individual's identity will be published here.</p>
-                </div>
-
-                <!-- Tweed Heads pub incident -->
-                <div class="border-l-4 border-hot/40 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
-                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Tweed Heads — Pub Incident</div>
-                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">BODIE FOLLOWS THE RUMOUR TO TWEED HEADS.<br><span class="text-hot">"YOU'RE FRIENDS WITH ADAM THE PAEDOPHILE."</span></h4>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Adam had friends in Coogee whose family had since moved to Tweed Heads. While at a pub in Tweed Heads, Bodie Chalmers recognised these individuals as associates of Adam Watson. He opened with: <span class="font-display text-paper/65">"You're friends with Adam the paedophile."</span> An altercation followed. The rumours Bodie had been spreading caused that altercation — the false label he was circulating is what triggered the confrontation.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">James McDonald — an associate of Bodie Chalmers — had his teeth smashed out during the altercation. Following the incident, both Bodie Chalmers and James McDonald went to police and provided statements against the person they had the altercation with. They snitched. Bodie Chalmers — who had instigated the incident by spreading false rumours — walked into a police station to give a statement against the person who responded to those rumours.</p>
-                    <div class="border border-gold/20 p-4 mb-3" style="background:rgba(201,138,16,0.04)">
-                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">The Warrant Miss — Bodie Gets Away</div>
-                        <p class="text-[0.62rem] text-paper/45 leading-relaxed">When Bodie Chalmers attended the police station and the arresting officer processed the incident, <strong class="text-paper/60">the officer did not check Bodie's outstanding warrants</strong>. Bodie had multiple warrants active at the time — meaning police were already looking for him in connection with other matters. A routine warrant check at the station would have seen him taken into custody on the spot. It did not happen. Bodie walked out. He was there voluntarily — snitching on the person who responded to his own false rumour campaign — and left without being detained for offences he was already wanted for.</p>
-                    </div>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">Adam Watson is now assisting that person with legal representation arising from the charges that followed. The pattern is consistent: Bodie Chalmers instigates a situation using the false "paedophile" label he has been spreading, an altercation occurs, and he then uses the police to pursue the person who responded — while somehow avoiding the warrants that were outstanding in his own name.</p>
                 </div>
             </div>
 
@@ -683,41 +774,6 @@
 
                 <div class="border-l-4 pl-6 py-1" style="border-color:rgba(193,68,14,0.4)">
                     <p class="text-[0.68rem] text-paper/40 leading-relaxed">The QP-9 charge sheet is a non-public police document. Its disclosure to Bodie Chalmers — who used it to have a man banned from a gym, spread a rape rumour through a network that resulted in a violent attack, and collect $165,000 in compensation — is the most concrete example in this investigation of what happens when internal police documents reach the wrong hands. The question of who disclosed it has not been answered.</p>
-                </div>
-            </div>
-
-            <!-- Chapter C: Optus -->
-            <div class="story-chapter reveal" style="transition-delay:0.15s;border-left-color:rgba(201,138,16,0.3)">
-                <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Chapter C — Optus Breach</span></div>
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE $2,500 BILL<br><span class="text-gold">FOR OPTUS'S OWN FAILURE.</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Someone walked into an Optus store and had Adam's phone number turned off. No authorisation. No verification. Just social pressure on an employee. And it worked."</p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Adam's Optus service was deactivated by a third party who threatened to expose an employee's sexuality unless they complied. The employee complied. Adam's phone was turned off. The matter was raised with the Prime Minister's office, referred to the Telecommunications Industry Ombudsman, and the Optus CEO was notified. Adam is now being billed $2,500 for the disconnection — despite the breach being caused entirely by Optus's own failure.</p>
-
-                <!-- EVIDENCE VAULT: Optus -->
-                <div class="evidence-vault">
-                    <div class="ev-header" onclick="toggleVault(this)">
-                        <div class="flex items-center gap-2">
-                            <span class="text-[0.48rem] tracking-[0.22em] uppercase text-gold">📁 Evidence Files</span>
-                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Optus · TIO Resolution</span>
-                        </div>
-                        <div class="flex items-center gap-3">
-                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
-                            <span class="ev-toggle">▼</span>
-                        </div>
-                    </div>
-                    <div class="ev-body">
-                        <div class="ev-file ef-gold" onclick="openMV('pdf','OPTUS APOLOGY LETTER — TIO OUTCOME','Letter from Optus following Telecommunications Industry Ombudsman referral — service restored — acknowledgment of breach','PDF · Optus correspondence · Post-TIO referral','optus_apology_letter.pdf','This letter from Optus, issued following the TIO referral initiated by Adam Watson\'s complaint to the Prime Minister\'s office, confirms the restoration of service and acknowledges the security failure at the retail store level. Optus has since issued an internal directive addressing verification procedures. Despite this, Adam is still being billed $2,500 — a charge Sunlight.Quest considers unconscionable.','pdf-optus')">
-                            <div class="ev-icon ev-pdf">PDF</div>
-                            <div class="ev-meta">
-                                <div class="ev-name">optus_apology_TIO_outcome.pdf</div>
-                                <div class="ev-desc">PDF · Optus apology · Service restored · TIO referral outcome</div>
-                            </div>
-                            <span class="ev-cta">View →</span>
-                        </div>
-                        <div class="ev-zip-bar">
-                            <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">Sunlight.Quest is calling on Optus to waive the $2,500 charge</span>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -1720,60 +1776,7 @@
         </div>
 
         <div class="space-y-14">
-
-            <!-- Officeworks wheelchair attack -->
-            <div class="story-chapter reveal">
-                <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Incident One — Attempted Murder</span></div>
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">FIFTEEN THOUSAND DOLLARS.<br><span class="text-hot">A WHEELCHAIR. A CAR PARK.</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Someone paid to have a man driven into near an Officeworks. The alleged price was $15,000. The alleged goal was a wheelchair."</p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The target photographed the driver at the scene. That photograph, combined with CCTV footage from the nearby Officeworks, was provided to law enforcement. The driver was identified, located, and arrested. He has been denied bail. Messages extracted from the driver's phone link him to a third party and indicate a payment of $15,000 for the attack.</p>
-
-                <!-- EVIDENCE VAULT: Officeworks Attack -->
-                <div class="evidence-vault">
-                    <div class="ev-header" onclick="toggleVault(this)">
-                        <div class="flex items-center gap-2">
-                            <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
-                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Officeworks Wheelchair Attack</span>
-                        </div>
-                        <div class="flex items-center gap-3">
-                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
-                            <span class="ev-toggle">▼</span>
-                        </div>
-                    </div>
-                    <div class="ev-body">
-                        <div class="ev-file ef-hot" onclick="openMV('image','DRIVER IDENTIFIED AT SCENE','Photograph of the driver in his vehicle — taken by the target immediately after the attack — face redacted','Image · Taken at scene · Driver arrested · Denied bail','officeworks_attacker_photo_REDACTED.jpg','This photograph was taken by the target of the vehicle attack at the Officeworks car park, immediately after the attack. Combined with CCTV footage from the nearby Officeworks, it enabled the identification, location, and arrest of the driver. He was denied bail. Phone messages extracted from his device link the attack to a $15,000 contract. The face of the driver has been redacted pending completion of court proceedings.','image-driver')">
-                            <div class="ev-icon ev-img">📷</div>
-                            <div class="ev-meta">
-                                <div class="ev-name">officeworks_attack_driver_photo_REDACTED.jpg</div>
-                                <div class="ev-desc">Image · Driver photographed at scene · Face redacted · Arrested · Bail denied</div>
-                            </div>
-                            <span class="redact-tag">⬛ Face redacted</span>
-                            <span class="ev-cta ml-2">View →</span>
-                        </div>
-                        <div class="ev-zip-bar">
-                            <span class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/25">Full unredacted photo held by QPS — redacted version published here</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Firebombing / Friendlyjordies -->
-            <div class="story-chapter reveal" style="transition-delay:0.1s">
-                <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Incident Two — Arson</span></div>
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">"GINA RINEHART IS NEXT"<br><span class="text-hot">WRITTEN ON A FENCE.</span></h3>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">A Gold Coast home connected to the personal circle of Gina Rinehart was firebombed. Perpetrators left graffiti: "Gina Rinehart is next." They also left a section of a previous version of this publication containing identifying imagery — an attempt to establish that investigative journalism is the provocation for violence. Sunlight.Quest does not accept that logic.</p>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                    <div class="border border-paper/[0.07] p-5">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-2">Jordan Shanks — Friendlyjordies</div>
-                        <div class="text-[0.62rem] text-paper/40 leading-relaxed space-y-1"><div>Method: Firebombing — Bondi Beach, Nov 2022</div><div>Outcome: Home destroyed. Perpetrator jailed 5 years.</div><div>Trigger: Video naming crime family</div></div>
-                    </div>
-                    <div class="border border-paper/[0.07] p-5">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-2">Gina Rinehart's Circle — Gold Coast</div>
-                        <div class="text-[0.62rem] text-paper/40 leading-relaxed space-y-1"><div>Method: Firebombing — Gold Coast residence</div><div>Message left: "Rinehart is next" + Sunlight.Quest pages</div><div>Status: Active investigation. Perpetrator left Australia.</div></div>
-                    </div>
-                </div>
-            </div>
-
+            <p class="text-[0.72rem] leading-relaxed text-paper/45">The incidents documented in this section have moved to the Bodie Chalmers section above.</p>
         </div>
     </div>
 </section>
