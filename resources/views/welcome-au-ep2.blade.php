@@ -1058,6 +1058,36 @@
                 <p class="text-[0.68rem] text-paper/50 leading-relaxed">Samira Khalaj is now making the allegation that Adam Watson <em>paid</em> Socrates to attack her with the axe. Adam Watson denies this. Socrates denies this. There is no evidence of any payment. The allegation is consistent with the broader pattern of Samira using third parties and legal proceedings to attach criminal liability to Adam Watson for acts he did not commission or carry out.</p>
             </div>
 
+            <!-- Socrates threatens Adam directly -->
+            <div class="border border-hot/30 p-5 mb-5" style="background:rgba(193,68,14,0.05)">
+                <div class="flex items-center gap-2 mb-3">
+                    <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">Direct Threat — Socrates to Adam Watson</span>
+                    <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5">EXTORTION</span>
+                </div>
+                <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">"I'LL TELL POLICE YOU COACHED ME TO HURT HER."<br><span class="text-hot">SOCRATES THREATENS ADAM WATSON DIRECTLY.</span></h4>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Socrates Zidane Abdul Rahmahn Burazer — a person Adam Watson had been helping with legal representation — directly threatened Adam Watson that he would go to police and tell them Adam had coached him to hurt Samira Khalaj. The threat was made to Adam personally. It was not a vague implication. It was a direct statement: comply, or I tell police you ordered it.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-4">
+                    <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">The Threat</div>
+                        <div class="font-display text-base text-hot mb-1">MADE DIRECTLY</div>
+                        <p class="text-[0.6rem] text-paper/38 leading-relaxed">Socrates told Adam Watson he would go to police and claim Adam had coached him to attack Samira Khalaj — a false claim, made as leverage.</p>
+                    </div>
+                    <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">The Context</div>
+                        <div class="font-display text-base text-hot mb-1">BITING THE HAND</div>
+                        <p class="text-[0.6rem] text-paper/38 leading-relaxed">Adam Watson had been assisting Socrates with his legal situation. The threat was made by a person whose legal expenses and representation Adam was actively supporting.</p>
+                    </div>
+                    <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">The Reality</div>
+                        <div class="font-display text-base text-hot mb-1">FALSE. DENIED.</div>
+                        <p class="text-[0.6rem] text-paper/38 leading-relaxed">Adam Watson did not coach Socrates to harm anyone. The threat is a fabrication used as personal leverage — consistent with the pattern of false accusations documented throughout this chapter.</p>
+                    </div>
+                </div>
+                <div class="border-l-4 border-hot/40 pl-4 py-1" style="background:rgba(193,68,14,0.03)">
+                    <p class="text-[0.65rem] text-paper/40 leading-relaxed">The threat is an attempt to use a false narrative — the same false narrative that police and Samira Khalaj are independently trying to construct — as personal leverage against Adam Watson. Whether Socrates arrived at this independently or was coached to make it is a question the investigation is pursuing. What is clear is that a person who received help from Adam Watson used that position to threaten him with fabricated criminal liability.</p>
+                </div>
+            </div>
+
             <!-- Aboriginal Legal Aid — ATSILS — Brief lost / OLSC complaint -->
             <div class="border-l-4 border-gold/40 pl-5 mb-2" style="background:rgba(201,138,16,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
                 <!-- ATSILS Logo + header -->
