@@ -486,11 +486,38 @@
                                 <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">In custody — attempted to scam a woman into putting her house up as bail bond</p></div>
                                 <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Bail refused given drug debt exposure and charge volume</p></div>
                                 <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">ASIO warrants — new identity and early release not available</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed"><strong class="text-paper/55">New charge:</strong> using a telecommunications device in a corrective facility — phone confiscated</p></div>
                             </div>
                         </div>
                     </div>
 
-                <!-- CGU Insurance rep -->
+                <!-- Phone inside jail -->
+                <div class="border border-hot/30 mt-6 mb-2 p-5" style="background:rgba(193,68,14,0.05)">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">Update — Corrective Services</span>
+                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5 blink">⬤ NEW CHARGE</span>
+                    </div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">CALLING FROM INSIDE.<br><span class="text-hot">PHONE CONFISCATED. NEW CHARGE LAID.</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">While in custody, Bodie Chalmers obtained a mobile phone inside the corrective facility and used it to contact Adam Watson. The phone has since been confiscated by corrections officers. Bodie is now facing a charge of using a telecommunications device inside a corrective services facility — an offence under Queensland's corrective services legislation.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">The contact was unsolicited. Adam Watson did not invite it. That a person facing 96 charges, in custody, with bail refused, chose to use a contraband phone to reach out to the person documenting his conduct against them — rather than to address any of the serious matters before the courts — speaks to the pattern of harassment that has characterised this entire chapter.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">The Device</div>
+                            <div class="font-display text-base text-hot mb-1">CONTRABAND PHONE</div>
+                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">Mobile phone obtained inside the correctional facility. Now confiscated by corrections officers.</p>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">The Contact</div>
+                            <div class="font-display text-base text-hot mb-1">ADAM WATSON</div>
+                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">Unsolicited contact made to Adam Watson from inside custody. Not invited. Not responded to.</p>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">The Charge</div>
+                            <div class="font-display text-base text-hot mb-1">TELCO DEVICE — JAIL</div>
+                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">Charged with using a telecommunications device in a corrective services facility. Adds to 96 existing charges.</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="border-l-4 border-hot/40 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">CGU Insurance — Firebombing Aftermath</div>
                     <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">CGU REP CALLS THE SITE "INCITING HATE."<br><span class="text-hot">AT A FIREBOMBED HOUSE. THEIR NAME IS BEING SOUGHT.</span></h4>
