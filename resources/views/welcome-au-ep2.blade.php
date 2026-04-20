@@ -448,28 +448,6 @@
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed">Adam Watson was actively helping Bodie Chalmers navigate his court cases for armed burglary charges at the time all of this was occurring. Bodie repaid that assistance with the coercive control behaviour, the false sexual assault allegation, and the pattern documented across this chapter.</p>
                 </div>
 
-                <!-- Robina KFC -->
-                <div class="border-l-4 border-hot/40 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
-                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Social Stigmatisation — Robina KFC</div>
-                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">REFUSED SERVICE AT THE DRIVE-THROUGH.<br><span class="text-hot">BODIE CHALMERS'S RUMOURS REACH ROBINA KFC.</span></h4>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A friend of Bodie Chalmers's Russian girlfriend Aaliyah was working at the Robina KFC when Adam Watson went through the drive-through in an Uber. Adam was refused service — the result of the malicious rumours Bodie Chalmers had been spreading. The Uber driver suggested they go inside to get food. An incident ensued.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Adam Watson is currently working to identify the owner of the Robina KFC franchise with the intention of having the employee who refused him service terminated. The employee's decision to deny service based on unverified rumours from a known associate of the subject of a malicious prosecution finding is not a defensible position for a staff member to take.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">This is what social stigmatisation looks like in practice. A person who was the subject of a charge the DPP ruled malicious, who was never convicted, who has no finding against him — denied service at a fast food outlet because of rumours spread by the person who fabricated the charge. This is what Bodie Chalmers and his accomplice Ebony's conduct costs people in daily life.</p>
-                </div>
-
-                <!-- Tweed Heads pub incident -->
-                <div class="border-l-4 border-hot/40 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
-                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Tweed Heads — Pub Incident</div>
-                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">BODIE FOLLOWS THE RUMOUR TO TWEED HEADS.<br><span class="text-hot">"YOU'RE FRIENDS WITH ADAM THE PAEDOPHILE."</span></h4>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Adam had friends in Coogee whose family had since moved to Tweed Heads. While at a pub in Tweed Heads, Bodie Chalmers recognised these individuals as associates of Adam Watson. He opened with: <span class="font-display text-paper/65">"You're friends with Adam the paedophile."</span> An altercation followed. The rumours Bodie had been spreading caused that altercation — the false label he was circulating is what triggered the confrontation.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">James McDonald — an associate of Bodie Chalmers — had his teeth smashed out during the altercation. Following the incident, both Bodie Chalmers and James McDonald went to police and provided statements against the person they had the altercation with. They snitched. Bodie Chalmers — who had instigated the incident by spreading false rumours — walked into a police station to give a statement against the person who responded to those rumours.</p>
-                    <div class="border border-gold/20 p-4 mb-3" style="background:rgba(201,138,16,0.04)">
-                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">The Warrant Miss — Bodie Gets Away</div>
-                        <p class="text-[0.62rem] text-paper/45 leading-relaxed">When Bodie Chalmers attended the police station and the arresting officer processed the incident, <strong class="text-paper/60">the officer did not check Bodie's outstanding warrants</strong>. Bodie had multiple warrants active at the time — meaning police were already looking for him in connection with other matters. A routine warrant check at the station would have seen him taken into custody on the spot. It did not happen. Bodie walked out. He was there voluntarily — snitching on the person who responded to his own false rumour campaign — and left without being detained for offences he was already wanted for.</p>
-                    </div>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">Adam Watson is now assisting that person with legal representation arising from the charges that followed. The pattern is consistent: Bodie Chalmers instigates a situation using the false "paedophile" label he has been spreading, an altercation occurs, and he then uses the police to pursue the person who responded — while somehow avoiding the warrants that were outstanding in his own name.</p>
-                </div>
-
                 <!-- Optus $2,500 bill — Bodie Chalmers -->
                 <div class="story-chapter reveal" style="border-left-color:rgba(201,138,16,0.3)">
                     <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Bodie Chalmers — Optus Security Breach</span></div>
@@ -708,6 +686,28 @@
 
                 <div class="border-l-4 pl-6 py-1" style="border-color:rgba(193,68,14,0.4)">
                     <p class="text-[0.68rem] text-paper/40 leading-relaxed">The QP-9 charge sheet is a non-public police document. Its disclosure to Bodie Chalmers — who used it to have a man banned from a gym, spread a rape rumour through a network that resulted in a violent attack, and collect $165,000 in compensation — is the most concrete example in this investigation of what happens when internal police documents reach the wrong hands. The question of who disclosed it has not been answered.</p>
+                </div>
+
+                <!-- Robina KFC -->
+                <div class="border-l-4 border-hot/40 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Social Stigmatisation — Robina KFC</div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">REFUSED SERVICE AT THE DRIVE-THROUGH.<br><span class="text-hot">BODIE CHALMERS'S RUMOURS REACH ROBINA KFC.</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A friend of Bodie Chalmers's Russian girlfriend Aaliyah was working at the Robina KFC when Adam Watson went through the drive-through in an Uber. Adam was refused service — the result of the malicious rumours Bodie Chalmers had been spreading. The Uber driver suggested they go inside to get food. An incident ensued.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Adam Watson is currently working to identify the owner of the Robina KFC franchise with the intention of having the employee who refused him service terminated. The employee's decision to deny service based on unverified rumours from a known associate of the subject of a malicious prosecution finding is not a defensible position for a staff member to take.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">This is what social stigmatisation looks like in practice. A person who was the subject of a charge the DPP ruled malicious, who was never convicted, who has no finding against him — denied service at a fast food outlet because of rumours spread by the person who fabricated the charge. This is what Bodie Chalmers and his accomplice Ebony's conduct costs people in daily life.</p>
+                </div>
+
+                <!-- Tweed Heads pub incident -->
+                <div class="border-l-4 border-hot/40 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Tweed Heads — Pub Incident</div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">BODIE FOLLOWS THE RUMOUR TO TWEED HEADS.<br><span class="text-hot">"YOU'RE FRIENDS WITH ADAM THE PAEDOPHILE."</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Adam had friends in Coogee whose family had since moved to Tweed Heads. While at a pub in Tweed Heads, Bodie Chalmers recognised these individuals as associates of Adam Watson. He opened with: <span class="font-display text-paper/65">"You're friends with Adam the paedophile."</span> An altercation followed. The rumours Bodie had been spreading caused that altercation — the false label he was circulating is what triggered the confrontation.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">James McDonald — an associate of Bodie Chalmers — had his teeth smashed out during the altercation. Following the incident, both Bodie Chalmers and James McDonald went to police and provided statements against the person they had the altercation with. They snitched. Bodie Chalmers — who had instigated the incident by spreading false rumours — walked into a police station to give a statement against the person who responded to those rumours.</p>
+                    <div class="border border-gold/20 p-4 mb-3" style="background:rgba(201,138,16,0.04)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">The Warrant Miss — Bodie Gets Away</div>
+                        <p class="text-[0.62rem] text-paper/45 leading-relaxed">When Bodie Chalmers attended the police station and the arresting officer processed the incident, <strong class="text-paper/60">the officer did not check Bodie's outstanding warrants</strong>. Bodie had multiple warrants active at the time — meaning police were already looking for him in connection with other matters. A routine warrant check at the station would have seen him taken into custody on the spot. It did not happen. Bodie walked out. He was there voluntarily — snitching on the person who responded to his own false rumour campaign — and left without being detained for offences he was already wanted for.</p>
+                    </div>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">Adam Watson is now assisting that person with legal representation arising from the charges that followed. The pattern is consistent: Bodie Chalmers instigates a situation using the false "paedophile" label he has been spreading, an altercation occurs, and he then uses the police to pursue the person who responded — while somehow avoiding the warrants that were outstanding in his own name.</p>
                 </div>
 
                 <!-- Yakuza van / custody update -->
