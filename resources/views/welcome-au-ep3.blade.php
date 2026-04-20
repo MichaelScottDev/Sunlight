@@ -605,6 +605,174 @@
 
 
 <!-- ══════════════════════════════════════
+     EVIDENCE VAULT
+══════════════════════════════════════ -->
+<section id="evidence" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(61,122,74,0.04) 0%,transparent 60%)">
+    <div class="max-w-6xl mx-auto">
+
+        <div class="reveal mb-10">
+            <div class="flex items-center gap-3 mb-3">
+                <div class="w-5 h-px" style="background:#3d7a4a"></div>
+                <span class="text-[0.52rem] tracking-[0.26em] uppercase text-paper/30">Episode 3 — Source Material</span>
+            </div>
+            <h2 class="font-display leading-none tracking-wide mb-2" style="font-size:clamp(1.8rem,4vw,3rem)">EVIDENCE<br><span style="color:#3d7a4a">VAULT.</span></h2>
+            <p class="text-[0.72rem] leading-relaxed text-paper/35 max-w-xl mt-3">8 primary documents. All case-specific. Uploaded without redaction.</p>
+        </div>
+
+        <!-- Primary case documents -->
+        <div class="reveal mb-3">
+            <div class="text-[0.48rem] tracking-[0.24em] uppercase text-paper/20 mb-4">Primary Case Documents</div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-px" style="background:rgba(245,234,212,0.06)">
+
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/tura_convo2.pdf" target="_blank" rel="noopener" class="group flex gap-4 p-5 transition-colors" style="background:#0c0804" onmouseover="this.style.background='rgba(201,138,16,0.04)'" onmouseout="this.style.background='#0c0804'">
+                    <div class="shrink-0 mt-0.5">
+                        <div class="w-8 h-10 border flex items-center justify-center" style="border-color:rgba(201,138,16,0.3)">
+                            <span class="text-[0.44rem] tracking-[0.1em] uppercase" style="color:#c98a10">PDF</span>
+                        </div>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-2 mb-1">
+                            <span class="text-[0.46rem] tracking-[0.16em] uppercase border px-1.5 py-0.5" style="border-color:rgba(201,138,16,0.3);color:#c98a10">Ch.02</span>
+                        </div>
+                        <div class="text-[0.7rem] text-paper/70 leading-snug mb-1 group-hover:text-paper transition-colors">Email Exchange — Luke Krauss</div>
+                        <div class="text-[0.52rem] tracking-[0.12em] uppercase text-paper/25">13 messages · 3–4 August 2023 · Four written admissions</div>
+                    </div>
+                    <div class="shrink-0 self-center text-paper/15 group-hover:text-paper/40 transition-colors text-sm">↗</div>
+                </a>
+
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/cctv+request.pdf" target="_blank" rel="noopener" class="group flex gap-4 p-5 transition-colors" style="background:#0c0804" onmouseover="this.style.background='rgba(201,138,16,0.04)'" onmouseout="this.style.background='#0c0804'">
+                    <div class="shrink-0 mt-0.5">
+                        <div class="w-8 h-10 border flex items-center justify-center" style="border-color:rgba(201,138,16,0.3)">
+                            <span class="text-[0.44rem] tracking-[0.1em] uppercase" style="color:#c98a10">PDF</span>
+                        </div>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-2 mb-1">
+                            <span class="text-[0.46rem] tracking-[0.16em] uppercase border px-1.5 py-0.5" style="border-color:rgba(201,138,16,0.3);color:#c98a10">Ch.03</span>
+                        </div>
+                        <div class="text-[0.7rem] text-paper/70 leading-snug mb-1 group-hover:text-paper transition-colors">CCTV Request Transcript</div>
+                        <div class="text-[0.52rem] tracking-[0.12em] uppercase text-paper/25">Office confrontation · Police called · Duress alarm pressed</div>
+                    </div>
+                    <div class="shrink-0 self-center text-paper/15 group-hover:text-paper/40 transition-colors text-sm">↗</div>
+                </a>
+
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/MOF+suspension+letter+TCF_K269035727+(2).pdf" target="_blank" rel="noopener" class="group flex gap-4 p-5 transition-colors" style="background:#0c0804" onmouseover="this.style.background='rgba(193,68,14,0.04)'" onmouseout="this.style.background='#0c0804'">
+                    <div class="shrink-0 mt-0.5">
+                        <div class="w-8 h-10 border flex items-center justify-center" style="border-color:rgba(193,68,14,0.35)">
+                            <span class="text-[0.44rem] tracking-[0.1em] uppercase text-hot">PDF</span>
+                        </div>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-2 mb-1">
+                            <span class="text-[0.46rem] tracking-[0.16em] uppercase border px-1.5 py-0.5" style="border-color:rgba(193,68,14,0.35);color:#c1440e">Ch.01</span>
+                        </div>
+                        <div class="text-[0.7rem] text-paper/70 leading-snug mb-1 group-hover:text-paper transition-colors">Payment Suspension Letter — MOF/TCF</div>
+                        <div class="text-[0.52rem] tracking-[0.12em] uppercase text-paper/25">Suspended 25/7/23 · Deadline was 31/7/23 · Six days early</div>
+                    </div>
+                    <div class="shrink-0 self-center text-paper/15 group-hover:text-paper/40 transition-colors text-sm">↗</div>
+                </a>
+
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/Konstantin+Kondratenko+MSP+letter.pdf" target="_blank" rel="noopener" class="group flex gap-4 p-5 transition-colors" style="background:#0c0804" onmouseover="this.style.background='rgba(193,68,14,0.04)'" onmouseout="this.style.background='#0c0804'">
+                    <div class="shrink-0 mt-0.5">
+                        <div class="w-8 h-10 border flex items-center justify-center" style="border-color:rgba(193,68,14,0.35)">
+                            <span class="text-[0.44rem] tracking-[0.1em] uppercase text-hot">PDF</span>
+                        </div>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-2 mb-1">
+                            <span class="text-[0.46rem] tracking-[0.16em] uppercase border px-1.5 py-0.5" style="border-color:rgba(193,68,14,0.35);color:#c1440e">Ch.04</span>
+                        </div>
+                        <div class="text-[0.7rem] text-paper/70 leading-snug mb-1 group-hover:text-paper transition-colors">MSP Letter — David Wiblen, Manager</div>
+                        <div class="text-[0.52rem] tracking-[0.12em] uppercase text-paper/25">10/8/2023 · Six months · Full F2F + writing restriction</div>
+                    </div>
+                    <div class="shrink-0 self-center text-paper/15 group-hover:text-paper/40 transition-colors text-sm">↗</div>
+                </a>
+
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/Notification+(24).pdf" target="_blank" rel="noopener" class="group flex gap-4 p-5 transition-colors" style="background:#0c0804" onmouseover="this.style.background='rgba(201,138,16,0.04)'" onmouseout="this.style.background='#0c0804'">
+                    <div class="shrink-0 mt-0.5">
+                        <div class="w-8 h-10 border flex items-center justify-center" style="border-color:rgba(201,138,16,0.3)">
+                            <span class="text-[0.44rem] tracking-[0.1em] uppercase" style="color:#c98a10">PDF</span>
+                        </div>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-2 mb-1">
+                            <span class="text-[0.46rem] tracking-[0.16em] uppercase border px-1.5 py-0.5" style="border-color:rgba(201,138,16,0.3);color:#c98a10">Ch.01</span>
+                        </div>
+                        <div class="text-[0.7rem] text-paper/70 leading-snug mb-1 group-hover:text-paper transition-colors">Job Referral Notification (24)</div>
+                        <div class="text-[0.52rem] tracking-[0.12em] uppercase text-paper/25">Written referral · Wild Thyme Café / Imperial Hotel</div>
+                    </div>
+                    <div class="shrink-0 self-center text-paper/15 group-hover:text-paper/40 transition-colors text-sm">↗</div>
+                </a>
+
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/Notification+(25).pdf" target="_blank" rel="noopener" class="group flex gap-4 p-5 transition-colors" style="background:#0c0804" onmouseover="this.style.background='rgba(201,138,16,0.04)'" onmouseout="this.style.background='#0c0804'">
+                    <div class="shrink-0 mt-0.5">
+                        <div class="w-8 h-10 border flex items-center justify-center" style="border-color:rgba(201,138,16,0.3)">
+                            <span class="text-[0.44rem] tracking-[0.1em] uppercase" style="color:#c98a10">PDF</span>
+                        </div>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-2 mb-1">
+                            <span class="text-[0.46rem] tracking-[0.16em] uppercase border px-1.5 py-0.5" style="border-color:rgba(201,138,16,0.3);color:#c98a10">Ch.01</span>
+                        </div>
+                        <div class="text-[0.7rem] text-paper/70 leading-snug mb-1 group-hover:text-paper transition-colors">Job Referral Notification (25)</div>
+                        <div class="text-[0.52rem] tracking-[0.12em] uppercase text-paper/25">Written referral · Deadline 10/08/2023</div>
+                    </div>
+                    <div class="shrink-0 self-center text-paper/15 group-hover:text-paper/40 transition-colors text-sm">↗</div>
+                </a>
+
+            </div>
+        </div>
+
+        <!-- Framework reference documents -->
+        <div class="reveal mt-8">
+            <div class="text-[0.48rem] tracking-[0.24em] uppercase text-paper/20 mb-4">Framework Reference Documents</div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-px" style="background:rgba(245,234,212,0.06)">
+
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/Workforce+Australia+Guidelines+-+Part+A_+Universal+Guidelines+v1.pdf" target="_blank" rel="noopener" class="group flex gap-4 p-5 transition-colors" style="background:#0c0804" onmouseover="this.style.background='rgba(61,122,74,0.05)'" onmouseout="this.style.background='#0c0804'">
+                    <div class="shrink-0 mt-0.5">
+                        <div class="w-8 h-10 border flex items-center justify-center" style="border-color:rgba(61,122,74,0.4)">
+                            <span class="text-[0.44rem] tracking-[0.1em] uppercase text-sage">PDF</span>
+                        </div>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-2 mb-1">
+                            <span class="text-[0.46rem] tracking-[0.16em] uppercase border px-1.5 py-0.5" style="border-color:rgba(61,122,74,0.4);color:#3d7a4a">Ch.03 / Ch.04</span>
+                        </div>
+                        <div class="text-[0.7rem] text-paper/70 leading-snug mb-1 group-hover:text-paper transition-colors">Workforce Australia Guidelines — Part A</div>
+                        <div class="text-[0.52rem] tracking-[0.12em] uppercase text-paper/25">Universal Guidelines v1 · §5.3.1 cited in evidence · Eff. 1 July 2023</div>
+                    </div>
+                    <div class="shrink-0 self-center text-paper/15 group-hover:text-paper/40 transition-colors text-sm">↗</div>
+                </a>
+
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/managed-service-plan-guidelines.pdf" target="_blank" rel="noopener" class="group flex gap-4 p-5 transition-colors" style="background:#0c0804" onmouseover="this.style.background='rgba(61,122,74,0.05)'" onmouseout="this.style.background='#0c0804'">
+                    <div class="shrink-0 mt-0.5">
+                        <div class="w-8 h-10 border flex items-center justify-center" style="border-color:rgba(61,122,74,0.4)">
+                            <span class="text-[0.44rem] tracking-[0.1em] uppercase text-sage">PDF</span>
+                        </div>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-2 mb-1">
+                            <span class="text-[0.46rem] tracking-[0.16em] uppercase border px-1.5 py-0.5" style="border-color:rgba(61,122,74,0.4);color:#3d7a4a">Ch.04</span>
+                        </div>
+                        <div class="text-[0.7rem] text-paper/70 leading-snug mb-1 group-hover:text-paper transition-colors">Managed Service Plan Guidelines</div>
+                        <div class="text-[0.52rem] tracking-[0.12em] uppercase text-paper/25">Framework the Wiblen MSP letter is measured against</div>
+                    </div>
+                    <div class="shrink-0 self-center text-paper/15 group-hover:text-paper/40 transition-colors text-sm">↗</div>
+                </a>
+
+            </div>
+        </div>
+
+        <!-- Omitted docs note -->
+        <div class="reveal mt-8 px-4 py-3 border border-paper/[0.05] max-w-xl" style="background:rgba(12,8,4,0.5)">
+            <p class="text-[0.52rem] leading-relaxed text-paper/20">2 documents from the source set omitted: job plan (Nov 2022, predates events by 8 months, not cited in evidence) and TCF framework poster (generic government document, not case-specific).</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
      FOOTER
 ══════════════════════════════════════ -->
 <footer class="border-t border-paper/[0.05] px-5 md:px-10 py-10 max-w-6xl mx-auto">
