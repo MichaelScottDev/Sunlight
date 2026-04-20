@@ -579,69 +579,6 @@
                     <p class="text-[0.65rem] text-paper/40 leading-relaxed">The full name and role of this CGU representative is currently being sought. Upon confirmation, a formal complaint will be lodged with CGU's conduct and compliance function and, where appropriate, referred to the relevant professional body. Their comments, the context in which they were made, and this individual's identity will be published here.</p>
                 </div>
 
-                <!-- Yakuza van / custody update -->
-                <div class="border-l-4 border-hot/50 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
-                    <div class="flex items-center gap-2 mb-2">
-                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">Current Status</span>
-                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5 blink">⬤ IN CUSTODY</span>
-                    </div>
-                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">96 CHARGES.<br><span class="text-hot">IN CUSTODY. INCLUDING FALSE ACCUSATIONS AGAINST ADAM WATSON.</span></h4>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Bodie Chalmers is currently in custody. He has been charged with 96 offences. Among those charges are the false accusations made against Adam Watson — the same pattern documented across this chapter, now formally before the courts.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The last time Bodie made contact with Adam, he was begging for rent money while the drug money had dissipated. He had received a van from the Yakuza containing drugs with a street value in excess of $30 million, with instructions to move the product to the Albanian organised crime network. Instead, Bodie double-crossed the Yakuza — told them the van was stolen. He then called Adam Watson asking him to negotiate with the Yakuza on his behalf. Adam declined.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">When arrested, police found <strong class="text-paper/65">$30,000 worth of Louis Vuitton</strong> in the house. The rent had not been paid. Multiple outstanding warrants were active across jurisdictions while he was living in a $10,000-a-week house surrounded by designer goods.</p>
-
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4 mb-1">
-                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
-                            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Where the Money Went</div>
-                            <div class="space-y-1.5">
-                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">$10,000/week house — paid one full year upfront. Rent later unpaid.</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">$30,000 Louis Vuitton found in the house on arrest</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Exotic cars — all seized</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">$38,000 stolen from Aaliyah's bank account</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">$45 million owed to drug dealers</p></div>
-                            </div>
-                        </div>
-                        <div class="border border-hot/30 p-4" style="background:rgba(193,68,14,0.04)">
-                            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Current Position — In Custody</div>
-                            <div class="space-y-1.5">
-                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed"><strong class="text-paper/55">96 charges</strong> — including false accusations against Adam Watson</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">In custody — attempted to scam a woman into putting her house up as bail bond</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Bail refused given drug debt exposure and charge volume</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">ASIO warrants — new identity and early release not available</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed"><strong class="text-paper/55">New charge:</strong> using a telecommunications device in a corrective facility — phone confiscated</p></div>
-                            </div>
-                        </div>
-                    </div>
-
-                <!-- Phone inside jail -->
-                <div class="border border-hot/30 mt-6 mb-2 p-5" style="background:rgba(193,68,14,0.05)">
-                    <div class="flex items-center gap-2 mb-3">
-                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">Update — Corrective Services</span>
-                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5 blink">⬤ NEW CHARGE</span>
-                    </div>
-                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">CALLING FROM INSIDE.<br><span class="text-hot">PHONE CONFISCATED. NEW CHARGE LAID.</span></h4>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">While in custody, Bodie Chalmers obtained a mobile phone inside the corrective facility and used it to contact Adam Watson. The phone has since been confiscated by corrections officers. Bodie is now facing a charge of using a telecommunications device inside a corrective services facility — an offence under Queensland's corrective services legislation.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">The contact was unsolicited. Adam Watson did not invite it. That a person facing 96 charges, in custody, with bail refused, chose to use a contraband phone to reach out to the person documenting his conduct against them — rather than to address any of the serious matters before the courts — speaks to the pattern of harassment that has characterised this entire chapter.</p>
-                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
-                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">The Device</div>
-                            <div class="font-display text-base text-hot mb-1">CONTRABAND PHONE</div>
-                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">Mobile phone obtained inside the correctional facility. Now confiscated by corrections officers.</p>
-                        </div>
-                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
-                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">The Contact</div>
-                            <div class="font-display text-base text-hot mb-1">ADAM WATSON</div>
-                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">Unsolicited contact made to Adam Watson from inside custody. Not invited. Not responded to.</p>
-                        </div>
-                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
-                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">The Charge</div>
-                            <div class="font-display text-base text-hot mb-1">TELCO DEVICE — JAIL</div>
-                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">Charged with using a telecommunications device in a corrective services facility. Adds to 96 existing charges.</p>
-                        </div>
-                    </div>
-                </div>
-                </div>
-
                 <div class="flex items-center gap-3 mt-10 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter B — False Allegations</span></div>
                 <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">DPP RULING.<br><span class="text-hot">OFFICER FIRED.</span></h3>
                 <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"A criminal charge does not require truth. It requires a complainant, a police officer who believes them, and a system that moves faster than the facts."</p>
@@ -771,6 +708,69 @@
 
                 <div class="border-l-4 pl-6 py-1" style="border-color:rgba(193,68,14,0.4)">
                     <p class="text-[0.68rem] text-paper/40 leading-relaxed">The QP-9 charge sheet is a non-public police document. Its disclosure to Bodie Chalmers — who used it to have a man banned from a gym, spread a rape rumour through a network that resulted in a violent attack, and collect $165,000 in compensation — is the most concrete example in this investigation of what happens when internal police documents reach the wrong hands. The question of who disclosed it has not been answered.</p>
+                </div>
+
+                <!-- Yakuza van / custody update -->
+                <div class="border-l-4 border-hot/50 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">Current Status</span>
+                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5 blink">⬤ IN CUSTODY</span>
+                    </div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">96 CHARGES.<br><span class="text-hot">IN CUSTODY. INCLUDING FALSE ACCUSATIONS AGAINST ADAM WATSON.</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Bodie Chalmers is currently in custody. He has been charged with 96 offences. Among those charges are the false accusations made against Adam Watson — the same pattern documented across this chapter, now formally before the courts.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The last time Bodie made contact with Adam, he was begging for rent money while the drug money had dissipated. He had received a van from the Yakuza containing drugs with a street value in excess of $30 million, with instructions to move the product to the Albanian organised crime network. Instead, Bodie double-crossed the Yakuza — told them the van was stolen. He then called Adam Watson asking him to negotiate with the Yakuza on his behalf. Adam declined.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">When arrested, police found <strong class="text-paper/65">$30,000 worth of Louis Vuitton</strong> in the house. The rent had not been paid. Multiple outstanding warrants were active across jurisdictions while he was living in a $10,000-a-week house surrounded by designer goods.</p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4 mb-1">
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Where the Money Went</div>
+                            <div class="space-y-1.5">
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">$10,000/week house — paid one full year upfront. Rent later unpaid.</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">$30,000 Louis Vuitton found in the house on arrest</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Exotic cars — all seized</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">$38,000 stolen from Aaliyah's bank account</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">$45 million owed to drug dealers</p></div>
+                            </div>
+                        </div>
+                        <div class="border border-hot/30 p-4" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Current Position — In Custody</div>
+                            <div class="space-y-1.5">
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed"><strong class="text-paper/55">96 charges</strong> — including false accusations against Adam Watson</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">In custody — attempted to scam a woman into putting her house up as bail bond</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Bail refused given drug debt exposure and charge volume</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">ASIO warrants — new identity and early release not available</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed"><strong class="text-paper/55">New charge:</strong> using a telecommunications device in a corrective facility — phone confiscated</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone inside jail -->
+                <div class="border border-hot/30 mt-6 mb-2 p-5" style="background:rgba(193,68,14,0.05)">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">Update — Corrective Services</span>
+                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5 blink">⬤ NEW CHARGE</span>
+                    </div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">CALLING FROM INSIDE.<br><span class="text-hot">PHONE CONFISCATED. NEW CHARGE LAID.</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">While in custody, Bodie Chalmers obtained a mobile phone inside the corrective facility and used it to contact Adam Watson. The phone has since been confiscated by corrections officers. Bodie is now facing a charge of using a telecommunications device inside a corrective services facility — an offence under Queensland's corrective services legislation.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">The contact was unsolicited. Adam Watson did not invite it. That a person facing 96 charges, in custody, with bail refused, chose to use a contraband phone to reach out to the person documenting his conduct against them — rather than to address any of the serious matters before the courts — speaks to the pattern of harassment that has characterised this entire chapter.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">The Device</div>
+                            <div class="font-display text-base text-hot mb-1">CONTRABAND PHONE</div>
+                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">Mobile phone obtained inside the correctional facility. Now confiscated by corrections officers.</p>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">The Contact</div>
+                            <div class="font-display text-base text-hot mb-1">ADAM WATSON</div>
+                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">Unsolicited contact made to Adam Watson from inside custody. Not invited. Not responded to.</p>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">The Charge</div>
+                            <div class="font-display text-base text-hot mb-1">TELCO DEVICE — JAIL</div>
+                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">Charged with using a telecommunications device in a corrective services facility. Adds to 96 existing charges.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
