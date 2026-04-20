@@ -168,12 +168,138 @@
 
 
 <!-- ══════════════════════════════════════
-     SECTION SLOT 1 — id="tursa"
-     Replace contents when ready
+     SECTION — id="tursa"
 ══════════════════════════════════════ -->
 <section id="tursa" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(201,138,16,0.04) 0%,transparent 50%)">
     <div class="max-w-6xl mx-auto">
-        <!-- CONTENT GOES HERE -->
+
+        <!-- Section header -->
+        <div class="reveal mb-10">
+            <div class="flex items-center gap-3 mb-3">
+                <div class="w-5 h-px" style="background:#c98a10"></div>
+                <span class="text-[0.52rem] tracking-[0.26em] uppercase text-paper/30">The Compliance Machine — Welfare System</span>
+            </div>
+            <div class="flex items-baseline gap-4 flex-wrap mb-2">
+                <span class="font-display tracking-widest text-paper/20" style="font-size:clamp(1.1rem,3vw,1.6rem)">TURSA.</span>
+                <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2rem,5.5vw,4rem)">THE COMPLIANCE<br><span style="color:#c98a10">MACHINE.</span></h2>
+            </div>
+            <p class="text-[0.78rem] leading-relaxed text-paper/45 max-w-2xl mt-4">What happened when I asked for the legal basis of a requirement to walk my resume to a kitchenhand position. In writing. Eleven times.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/30 max-w-2xl mt-3">This is not a complaint about a bad experience. This is a documented record of how the Workforce Australia compliance architecture operates — and what it does to people who ask questions.</p>
+        </div>
+
+        <!-- Document badges -->
+        <div class="reveal flex flex-wrap gap-3 mb-10">
+            <span class="text-[0.52rem] tracking-[0.18em] uppercase border border-paper/15 px-3 py-1.5 text-paper/40">📄 9 Source Documents</span>
+            <span class="text-[0.52rem] tracking-[0.18em] uppercase border px-3 py-1.5" style="border-color:rgba(61,122,74,0.5);color:#3d7a4a">⚖ All Charges Dropped</span>
+            <span class="text-[0.52rem] tracking-[0.18em] uppercase border border-paper/15 px-3 py-1.5 text-paper/40">📧 Email Chain Filed</span>
+        </div>
+
+        <!-- Stat grid -->
+        <div class="reveal grid grid-cols-2 md:grid-cols-4 gap-px mb-12" style="background:rgba(245,234,212,0.06)">
+            <div class="px-5 py-6" style="background:#0c0804">
+                <div class="font-display text-4xl mb-1" style="color:#c98a10">11</div>
+                <div class="text-[0.6rem] text-paper/55 leading-snug mb-1">Written requests</div>
+                <div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">For the legal basis — never provided</div>
+            </div>
+            <div class="px-5 py-6" style="background:#0c0804">
+                <div class="font-display text-4xl mb-1 text-hot">0</div>
+                <div class="text-[0.6rem] text-paper/55 leading-snug mb-1">Legal citations given</div>
+                <div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Adviser confirmed: not legally required</div>
+            </div>
+            <div class="px-5 py-6" style="background:#0c0804">
+                <div class="font-display text-4xl mb-1 text-violet">6mo</div>
+                <div class="text-[0.6rem] text-paper/55 leading-snug mb-1">MSP duration</div>
+                <div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Barred from all Tursa sites &amp; written contact</div>
+            </div>
+            <div class="px-5 py-6" style="background:#0c0804">
+                <div class="font-display text-4xl mb-1 text-paper/25">$0</div>
+                <div class="text-[0.6rem] text-paper/55 leading-snug mb-1">Legal basis for method</div>
+                <div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Suspended anyway. MSP applied anyway.</div>
+            </div>
+        </div>
+
+        <!-- Chapter 01 -->
+        <div class="reveal mb-8">
+            <div class="flex items-center gap-3 mb-6">
+                <span class="font-display text-[0.62rem] tracking-[0.14em]" style="color:#c98a10">Chapter 01</span>
+                <div class="w-px h-4 bg-paper/10"></div>
+                <span class="text-[0.52rem] tracking-[0.2em] uppercase text-paper/28">Murwillumbah · Tursa Employment &amp; Training</span>
+            </div>
+            <h3 class="font-display leading-none tracking-wide mb-2" style="font-size:clamp(1.6rem,4vw,3rem)">THE JOB REFERRAL.</h3>
+            <div class="text-[0.72rem] tracking-[0.12em] uppercase mb-6" style="color:#c1440e">ON FOOT. OR YOUR PAYMENT GETS SUSPENDED.</div>
+        </div>
+
+        <!-- Pull quote -->
+        <div class="reveal border-l-2 pl-6 mb-10" style="border-color:#c98a10">
+            <p class="font-serif italic text-paper/60 leading-relaxed" style="font-size:clamp(0.9rem,2vw,1.1rem)">"The adviser told me I had to walk my resume to a kitchenhand position. In person. On foot. I asked him to show me where that requirement was written. He couldn't. He suspended my payment anyway."</p>
+        </div>
+
+        <!-- Body copy -->
+        <div class="reveal max-w-3xl space-y-5 mb-14 text-[0.75rem] leading-relaxed text-paper/50">
+            <p>I was placed with Tursa Employment &amp; Training in Murwillumbah, NSW, as a Workforce Australia participant on JobSeeker Payment. In late July 2023 I was assigned a job referral task — Kitchenhand at Wild Thyme Café, then Imperial Hotel Murwillumbah — and told by Employment Adviser Luke Krauss that I was required to take my resume in physically, in person, on foot, and apply. I was told he would be checking with the employer to confirm I had walked in.</p>
+            <p>My JobSeeker Payment was suspended from 25 July 2023 for failing to take action on a job opportunity — a date six days before the job referral's deadline of 31 July. The Centrelink letter confirming this was dated 2 August 2023. The payment was suspended before the task deadline had elapsed.</p>
+        </div>
+
+        <!-- Timeline -->
+        <div class="reveal">
+            <div class="text-[0.52rem] tracking-[0.24em] uppercase text-paper/22 mb-5">The Timeline That Should Not Be Possible</div>
+            <div class="relative">
+                <!-- vertical rule -->
+                <div class="absolute left-[3.5rem] top-0 bottom-0 w-px" style="background:rgba(245,234,212,0.07)"></div>
+                <div class="space-y-0">
+
+                    <div class="reveal flex gap-6 pb-8">
+                        <div class="w-14 shrink-0 text-right">
+                            <span class="font-display text-[0.68rem]" style="color:#c98a10">26/7/23</span>
+                        </div>
+                        <div class="pl-6 border-l-0">
+                            <div class="w-2 h-2 rounded-full absolute left-[3.1rem] mt-1.5" style="background:#c98a10"></div>
+                            <div class="text-[0.68rem] text-paper/70 leading-snug mb-1">Phone appointment — job referral task set. Wild Thyme Café, kitchenhand. Must walk in.</div>
+                            <div class="text-[0.52rem] tracking-[0.12em] uppercase text-paper/25">No written confirmation of in-person requirement provided at this point.</div>
+                        </div>
+                    </div>
+
+                    <div class="reveal flex gap-6 pb-8">
+                        <div class="w-14 shrink-0 text-right">
+                            <span class="font-display text-[0.68rem]" style="color:#c98a10">28/7/23</span>
+                        </div>
+                        <div class="pl-6">
+                            <div class="w-2 h-2 rounded-full absolute left-[3.1rem] mt-1.5" style="background:#c98a10"></div>
+                            <div class="text-[0.68rem] text-paper/70 leading-snug mb-1">Written notification received: Imperial Hotel Murwillumbah, Kitchenhand. Deadline: 10/08/2023.</div>
+                        </div>
+                    </div>
+
+                    <div class="reveal flex gap-6 pb-8">
+                        <div class="w-14 shrink-0 text-right">
+                            <span class="font-display text-[0.68rem] text-hot">25/7/23</span>
+                        </div>
+                        <div class="pl-6">
+                            <div class="w-2 h-2 rounded-full absolute left-[3.1rem] mt-1.5" style="background:#c1440e"></div>
+                            <div class="text-[0.68rem] text-paper/70 leading-snug mb-1">Payment suspended — <span class="text-hot">SIX DAYS BEFORE</span> the task deadline.</div>
+                            <div class="text-[0.52rem] tracking-[0.12em] uppercase text-paper/25">The Centrelink letter states payment stopped from this date for failing to act on an opportunity presented on 31/7/23 — yet 31/7 is still six days in the future when 25/7 arrives.</div>
+                        </div>
+                    </div>
+
+                    <div class="reveal flex gap-6">
+                        <div class="w-14 shrink-0 text-right">
+                            <span class="font-display text-[0.68rem]" style="color:#c98a10">2/8/23</span>
+                        </div>
+                        <div class="pl-6">
+                            <div class="w-2 h-2 rounded-full absolute left-[3.1rem] mt-1.5" style="background:#c98a10"></div>
+                            <div class="text-[0.68rem] text-paper/70 leading-snug mb-1">Centrelink letter received confirming suspension.</div>
+                            <div class="text-[0.52rem] tracking-[0.12em] uppercase text-paper/25">This anomaly was never explained by Tursa or Services Australia.</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="mt-10 border border-paper/[0.07] p-5 max-w-2xl" style="background:rgba(193,68,14,0.04)">
+                <div class="text-[0.52rem] tracking-[0.2em] uppercase mb-2 text-hot">Finding</div>
+                <p class="text-[0.65rem] leading-relaxed text-paper/45">The charge of failing to comply with the notice was applied before any breach was legally possible. The payment was suspended before the task deadline arrived.</p>
+            </div>
+        </div>
+
     </div>
 </section>
 
