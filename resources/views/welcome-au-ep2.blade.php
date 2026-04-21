@@ -954,9 +954,9 @@
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-gold">05</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Mercedes</div></div>
                     <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Samira's husband tampers with Adam's Mercedes at Coogee</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">After seeing Adam pull up to the Coogee property in his Mercedes, Samira's husband tampered with the vehicle. A local drug dealer witnessed it and reported it to Adam — offering to deal with the husband, which Adam declined. The Mercedes subsequently broke down and had to be abandoned on the side of the road.</div></div>
                 </div>
-                <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
-                    <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">06</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Gas Meters</div></div>
-                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Samira's husband arrested for tampering with gas meters</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Samira's husband was arrested for tampering with residential gas meters — a serious criminal offence that interferes with government-regulated infrastructure and endangers lives.</div></div>
+                <div class="grid grid-cols-[90px_1fr] gap-4 p-4" style="background:rgba(193,68,14,0.05);border:1px solid rgba(193,68,14,0.2);border-left:3px solid #c1440e">
+                    <div class="text-center"><div class="text-[0.62rem] tracking-[0.1em] uppercase font-bold text-hot">06</div><div class="text-[0.45rem] text-paper/45 mt-0.5">GAS</div></div>
+                    <div><div class="text-[0.65rem] font-display tracking-wide text-paper/75 mb-1">Samira and Raz tamper with gas pipelines — multiple neighbours affected including Socrates</div><div class="text-[0.55rem] text-paper/45 leading-relaxed">Samira Khalaj has cut off gas supply and interfered with gas pipelines serving multiple neighbours at the property, including Socrates — who is very upset about this. Her husband Raz has done the same. Tampering with a gas supply is not a civil dispute — it is interference with government-regulated critical infrastructure. The penalties are severe. This is a documented pattern of behaviour by both Samira and Raz.</div></div>
                 </div>
                 <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">07</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Axe Attack</div></div>
@@ -978,6 +978,50 @@
                     <div class="text-center"><div class="text-[0.72rem] tracking-[0.1em] uppercase font-bold" style="color:#7c6aaa">11</div><div class="text-[0.5rem] text-paper/45 mt-0.5">EVICTED</div></div>
                     <div><div class="text-[0.73rem] font-display tracking-wide mb-0.5" style="color:rgba(245,234,212,0.84)">Department of Housing eviction proceedings — Samira Khalaj being removed from her property</div><div class="text-[0.62rem] leading-relaxed" style="color:rgba(245,234,212,0.58)">Samira Khalaj is now being evicted from her Department of Housing property. The conduct that led to that outcome — the criminal charges, the Registrar outburst, the pattern of behaviour documented across this section — has reached the point where NSW Department of Housing is moving to remove her. A taxpayer-funded tenancy used as a base for a sustained campaign of harassment, false allegations, and racial vilification is being terminated.</div></div>
                 </div>
+            </div>
+        </div>
+
+        <!-- Gas pipeline tampering -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Gas Infrastructure — Samira Khalaj &amp; Raz</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">CUTTING THE GAS.<br><span class="text-hot">MESSING WITH THE GOVERNMENT.</span></h3>
+            <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-5">"Samira has cut the gas off to various neighbours — including Socrates, who is very upset. Raz has done the same. When you interfere with a gas supply to a house, you are not interfering with a neighbour. You are interfering with government-regulated infrastructure. The penalties are severe."</p>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Samira Khalaj has cut off gas supply and tampered with gas pipelines serving multiple properties in the building, affecting several neighbours — including Socrates, who is extremely upset about the situation. Her husband Raz has engaged in the same conduct. This is not a neighbour dispute. Gas supply in residential properties is government-regulated critical infrastructure. The moment a person interferes with a gas pipeline — cutting supply, tampering with connections, manipulating meters — they are committing an offence that is treated with the same seriousness as any interference with government infrastructure.</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-px mb-6" style="background:rgba(245,234,212,0.06)">
+                <div class="p-5" style="background:#0c0804">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">The Conduct</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">Samira cut gas supply to multiple neighbours</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">Raz (her husband) did the same</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">Socrates among those affected — very upset</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">Pattern of behaviour — both individuals</p></div>
+                    </div>
+                </div>
+                <div class="p-5" style="background:#0c0804">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Why This Is Serious</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">Gas supply is government-regulated infrastructure</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">Tampering with gas = interfering with government</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">Creates safety risk for all occupants of the building</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">Cannot be framed as a neighbourly grievance</p></div>
+                    </div>
+                </div>
+                <div class="p-5" style="background:#0c0804">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">The Penalties</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">Severe criminal penalties for infrastructure tampering</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">Applies to both Samira and Raz individually</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">Pattern of behaviour increases exposure at sentencing</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">Raz previously arrested for gas meter tampering (Timeline 06)</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border border-paper/[0.07] p-5" style="background:rgba(193,68,14,0.03)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Context</div>
+                <p class="text-[0.65rem] leading-relaxed text-paper/40">This is not an isolated act of property damage. It is part of a documented pattern of targeted conduct against the people who share this building with Samira Khalaj and Raz — the same pattern that includes smearing substances on windows, smearing faeces on door handles, making false reports to police, and the "Gas all you Jews!" outburst in the Registrar. The gas tampering sits in that context. It is one act in a campaign.</p>
             </div>
         </div>
 
@@ -1417,13 +1461,13 @@
                 <div class="grid grid-cols-[80px_1fr] gap-4 p-4" style="background:rgba(193,68,14,0.04);border:1px solid rgba(193,68,14,0.15)"><div class="text-center"><div class="text-[0.72rem] tracking-[0.1em] uppercase font-bold text-hot">03</div><div class="text-[0.5rem] text-paper/45 mt-0.5">HACKED</div></div><div><div class="text-[0.73rem] font-display tracking-wide mb-0.5" style="color:rgba(245,234,212,0.84)">RJ sits outside Adam's home — hacks phone — steals contact list</div><div class="text-[0.62rem] leading-relaxed" style="color:rgba(245,234,212,0.58)">Having obtained Adam's address through the Helensvale robbery, RJ positioned himself outside Adam Watson's home and remotely accessed his phone, extracting his full contact list. He then used stolen contacts to intimidate Adam's network — including Alvin Li from Costar Real Estate.</div></div></div>
                 <div class="tl-row grid grid-cols-[80px_1fr] gap-4 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">04</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Pacific Fair</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Five associates at Pacific Fair fruit shop</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Adam defended himself. One associate: broken jaw. All five gave statements identifying RJ. Charged. Released.</div></div></div>
                 <div class="tl-row grid grid-cols-[80px_1fr] gap-4 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">05</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Burglary</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Aggravated burglary — Pacific Fair precinct</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Charged with aggravated burglary — phone theft outside Pacific Fair. Charged. Released.</div></div></div>
-                <div class="tl-row grid grid-cols-[80px_1fr] gap-4 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">06</div><div class="text-[0.45rem] text-paper/20 mt-0.5">False Allegation</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">False sexual assault allegation — local doctor</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Doctor's office raided. Doctor cleared of all criminal allegations. Civil lawsuit ongoing against insurance.</div></div></div>
-                <div class="tl-row grid grid-cols-[80px_1fr] gap-4 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">07</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Shopping Centre</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Daily harassment of Adam Watson</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Associates harassing Adam at local shopping centre specifically because of Sunlight.Quest and the viral video.</div></div></div>
-                <div class="grid grid-cols-[80px_1fr] gap-4 bg-sage/[0.04] border border-sage/20 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-sage">08</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Laptop</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Laptop with incriminating evidence → Southport Police</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">RJ gave Adam Watson a laptop. Adam brought it to Southport Police Station, Sex & Crime Squad. Active investigation.</div></div></div>
-                <div class="grid grid-cols-[80px_1fr] gap-4 p-4" style="background:rgba(193,68,14,0.07);border:1px solid rgba(193,68,14,0.28);border-left:3px solid #c1440e"><div class="text-center"><div class="text-[0.72rem] tracking-[0.1em] uppercase font-bold text-hot">09</div><div class="text-[0.5rem] text-paper/45 mt-0.5">AMBUSH</div></div><div><div class="text-[0.73rem] font-display tracking-wide text-paper/84 mb-0.5" style="color:rgba(245,234,212,0.84)">Bridgestone Nerang — premeditated ambush — after the laptop</div><div class="text-[0.62rem] leading-relaxed" style="color:rgba(245,234,212,0.58)">After Adam handed the laptop to Southport Police, RJ organised an ambush at Bridgestone Nerang. 3–4 people waited in a car. An orange-haired staff member at Bridgestone tipped them off — he has since been fired and charged. Adam defended himself with an implement, bashed RJ, and destroyed the car. Attackers: "We're just kids." Adam was charged. Police admitted they had to charge him to not look bad. He has never been convicted.</div></div></div>
-                <div class="grid grid-cols-[80px_1fr] gap-4 p-4" style="background:rgba(124,106,170,0.07);border:1px solid rgba(124,106,170,0.25);border-left:3px solid #7c6aaa"><div class="text-center"><div class="text-[0.72rem] tracking-[0.1em] uppercase font-bold" style="color:#7c6aaa">10</div><div class="text-[0.5rem] text-paper/45 mt-0.5">CONFRONTED</div></div><div><div class="text-[0.73rem] font-display tracking-wide mb-0.5" style="color:rgba(245,234,212,0.84)">"You won't hit me — you have too much to lose."</div><div class="text-[0.62rem] leading-relaxed" style="color:rgba(245,234,212,0.58)">RJ approached someone who knew Adam and said "You won't hit me because you have too much to lose!" — banking on the person's reputation to act as a shield. The person's friend, a bricklayer, punched RJ in the face twice. A local police officer witnessed it and did nothing.</div></div></div>
-                <div class="grid grid-cols-[80px_1fr] gap-4 p-4" style="background:rgba(193,68,14,0.07);border:1px solid rgba(193,68,14,0.28);border-left:3px solid #c1440e"><div class="text-center"><div class="text-[0.72rem] tracking-[0.1em] uppercase font-bold text-hot">11</div><div class="text-[0.5rem] text-paper/45 mt-0.5">G-LINK</div></div><div><div class="text-[0.73rem] font-display tracking-wide text-paper/84 mb-0.5" style="color:rgba(245,234,212,0.84)">G-Link tram — sexual harassment, false allegation against Adam Watson, footage proves lie</div><div class="text-[0.62rem] leading-relaxed" style="color:rgba(245,234,212,0.58)">Adam witnessed RJ and five accomplices on the G-Link tram sexually harassing a woman, demanding "Do you have a white pussy or a pink pussy?" A confrontation erupted. RJ's phone was thrown off the tram. Another male passenger punched one of RJ's associates. Police were called. One of RJ's group then claimed Adam had grabbed his backside — a false allegation. Tram footage reviewed by police disproved the claim entirely. The woman told RJ's group: "If my husband was here, he'd stab you."</div></div></div>
-                <div class="tl-row grid grid-cols-[80px_1fr] gap-4 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">12</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Surfer's Para</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Surfer's Paradise — jumped out of car in a threatening manner, then ran</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">RJ spotted Adam and Kosta walking at Surfer's Paradise. Exited the vehicle in a threatening manner, then fled. Adam called Marc Barrow. Vehicle confiscated by police.</div></div></div>
+                <div class="tl-row grid grid-cols-[80px_1fr] gap-4 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">06</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Surfer's Para</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Surfer's Paradise — jumped out of car in a threatening manner, then ran</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">RJ spotted Adam and Kosta walking at Surfer's Paradise. Exited the vehicle in a threatening manner, then fled. Adam called Marc Barrow. Vehicle confiscated by police.</div></div></div>
+                <div class="tl-row grid grid-cols-[80px_1fr] gap-4 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">07</div><div class="text-[0.45rem] text-paper/20 mt-0.5">False Allegation</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">False sexual assault allegation — local doctor</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Doctor's office raided. Doctor cleared of all criminal allegations. Civil lawsuit ongoing against insurance.</div></div></div>
+                <div class="tl-row grid grid-cols-[80px_1fr] gap-4 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">08</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Shopping Centre</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Daily harassment of Adam Watson</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">Associates harassing Adam at local shopping centre specifically because of Sunlight.Quest and the viral video.</div></div></div>
+                <div class="grid grid-cols-[80px_1fr] gap-4 bg-sage/[0.04] border border-sage/20 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-sage">09</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Laptop</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Laptop with incriminating evidence → Southport Police</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">RJ gave Adam Watson a laptop. Adam brought it to Southport Police Station, Sex & Crime Squad. Active investigation.</div></div></div>
+                <div class="grid grid-cols-[80px_1fr] gap-4 p-4" style="background:rgba(193,68,14,0.07);border:1px solid rgba(193,68,14,0.28);border-left:3px solid #c1440e"><div class="text-center"><div class="text-[0.72rem] tracking-[0.1em] uppercase font-bold text-hot">10</div><div class="text-[0.5rem] text-paper/45 mt-0.5">AMBUSH</div></div><div><div class="text-[0.73rem] font-display tracking-wide text-paper/84 mb-0.5" style="color:rgba(245,234,212,0.84)">Bridgestone Nerang — premeditated ambush — after the laptop</div><div class="text-[0.62rem] leading-relaxed" style="color:rgba(245,234,212,0.58)">After Adam handed the laptop to Southport Police, RJ organised an ambush at Bridgestone Nerang. 3–4 people waited in a car. An orange-haired staff member at Bridgestone tipped them off — he has since been fired and charged. Adam defended himself with an implement, bashed RJ, and destroyed the car. Attackers: "We're just kids." Adam was charged. Police admitted they had to charge him to not look bad. He has never been convicted.</div></div></div>
+                <div class="grid grid-cols-[80px_1fr] gap-4 p-4" style="background:rgba(124,106,170,0.07);border:1px solid rgba(124,106,170,0.25);border-left:3px solid #7c6aaa"><div class="text-center"><div class="text-[0.72rem] tracking-[0.1em] uppercase font-bold" style="color:#7c6aaa">11</div><div class="text-[0.5rem] text-paper/45 mt-0.5">CONFRONTED</div></div><div><div class="text-[0.73rem] font-display tracking-wide mb-0.5" style="color:rgba(245,234,212,0.84)">"You won't hit me — you have too much to lose."</div><div class="text-[0.62rem] leading-relaxed" style="color:rgba(245,234,212,0.58)">RJ approached someone who knew Adam and said "You won't hit me because you have too much to lose!" — banking on the person's reputation to act as a shield. The person's friend, a bricklayer, punched RJ in the face twice. A local police officer witnessed it and did nothing.</div></div></div>
+                <div class="grid grid-cols-[80px_1fr] gap-4 p-4" style="background:rgba(193,68,14,0.07);border:1px solid rgba(193,68,14,0.28);border-left:3px solid #c1440e"><div class="text-center"><div class="text-[0.72rem] tracking-[0.1em] uppercase font-bold text-hot">12</div><div class="text-[0.5rem] text-paper/45 mt-0.5">G-LINK</div></div><div><div class="text-[0.73rem] font-display tracking-wide text-paper/84 mb-0.5" style="color:rgba(245,234,212,0.84)">G-Link tram — sexual harassment, false allegation against Adam Watson, footage proves lie</div><div class="text-[0.62rem] leading-relaxed" style="color:rgba(245,234,212,0.58)">Adam witnessed RJ and five accomplices on the G-Link tram sexually harassing a woman, demanding "Do you have a white pussy or a pink pussy?" A confrontation erupted. RJ's phone was thrown off the tram. Another male passenger punched one of RJ's associates. Police were called. One of RJ's group then claimed Adam had grabbed his backside — a false allegation. Tram footage reviewed by police disproved the claim entirely. The woman told RJ's group: "If my husband was here, he'd stab you."</div></div></div>
                 <div class="grid grid-cols-[80px_1fr] gap-4 p-4" style="background:rgba(193,68,14,0.07);border:1px solid rgba(193,68,14,0.28);border-left:3px solid #c1440e"><div class="text-center"><div class="text-[0.72rem] tracking-[0.1em] uppercase font-bold text-hot">13</div><div class="text-[0.5rem] text-paper/45 mt-0.5">ADVANCES</div></div><div><div class="text-[0.73rem] font-display tracking-wide text-paper/84 mb-0.5" style="color:rgba(245,234,212,0.84)">Priceline chemist — indecent exposure + private number calls to Adam's home</div><div class="text-[0.62rem] leading-relaxed" style="color:rgba(245,234,212,0.58)">RJ spotted Adam at Priceline chemist, turned around and dropped his shorts, exposing himself. Photograph being supplied to police by Jason. Indecent exposure charge pending. RJ also continues to call Adam from private numbers asking if he can sleep at Adam's house — a pattern of continual unwanted advances toward the person he has spent months targeting with violence and intimidation.</div></div></div>
             </div>
         </div>
@@ -1524,7 +1568,7 @@
 
         <!-- "You won't hit me" — emboldened criminal mentality -->
         <div class="story-chapter reveal mt-10 mb-10" style="border-left-color:rgba(124,106,170,0.5)">
-            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">Incident 10 — Emboldened</span></div>
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">Incident 11 — Emboldened</span></div>
             <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">"YOU WON'T HIT ME.<br><span style="color:#7c6aaa">YOU HAVE TOO MUCH TO LOSE."</span></h3>
             <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-5">"A person with a network, a reputation, and something to lose is not protected by those things. To a certain type of criminal, they are a guarantee of impunity."</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">RJ approached a person he knew was connected to Adam Watson — someone with a professional reputation, community ties, and legitimate standing in their field. Standing in front of that person, RJ said: <span class="font-display text-paper/70">"You won't hit me because you have too much to lose."</span></p>
@@ -1559,7 +1603,7 @@
 
         <!-- G-Link tram — Incident 11 -->
         <div class="story-chapter reveal mt-10 mb-10" style="border-left-color:rgba(193,68,14,0.4)">
-            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#c1440e;border-color:rgba(193,68,14,0.4)">Incident 11 — G-Link Tram</span></div>
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#c1440e;border-color:rgba(193,68,14,0.4)">Incident 12 — G-Link Tram</span></div>
             <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">"DO YOU HAVE A WHITE PUSSY<br><span class="text-hot">OR A PINK PUSSY?"</span></h3>
             <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-5">"Six men. One woman. A moving tram. A false accusation. And footage that proved the lie."</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Adam Watson witnessed RJ and five accomplices on the G-Link tram sexually harassing a woman. The language was explicit and deliberate: <span class="font-display text-paper/70">"Do you have a white pussy or a pink pussy?"</span> Six men. One target. A public space in motion. A confrontation that escalated quickly.</p>
@@ -1878,24 +1922,6 @@
 </section>
 
 
-<!-- ══════════════════════════════════════
-     BRAZEN CRIME / OFFICEWORKS WHEELCHAIR ATTACK
-══════════════════════════════════════ -->
-<section id="brazen" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(12,8,4,0) 0%,rgba(193,68,14,0.06) 50%,rgba(12,8,4,0) 100%)">
-    <div class="max-w-6xl mx-auto">
-        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
-            <div>
-                <div class="flex items-center gap-3 mb-2"><div class="w-4 h-px bg-hot"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">Crime Without Shame — Episode 1</span></div>
-                <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">THEY DON'T EVEN<br><span class="text-hot">HIDE ANYMORE</span></h2>
-                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">Attempted murder. Arson. Intimidation of public figures. The Gold Coast's criminal culture has stopped pretending it operates in the shadows.</p>
-            </div>
-        </div>
-
-        <div class="space-y-14">
-            <p class="text-[0.72rem] leading-relaxed text-paper/45">The incidents documented in this section have moved to the Bodie Chalmers section above.</p>
-        </div>
-    </div>
-</section>
 
 
 <!-- ══════════════════════════════════════
@@ -2134,6 +2160,46 @@
                     <div class="ev-zip-bar">
                         <span class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/25">Footage under legal review — full version pending clearance</span>
                     </div>
+                </div>
+            </div>
+
+            <!-- Gay hate crime — West Kira & Bodie Chalmers -->
+            <div class="story-chapter reveal mt-10" style="border-left-color:rgba(193,68,14,0.6)">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Gay Hate Crime — Bodie Chalmers &amp; West Kira</span>
+                    <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/20 border border-paper/10 px-2 py-0.5">Footage Obtained · Both Charged</span>
+                </div>
+                <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">FILMED IT. SHOWED IT.<br><span class="text-hot">"DON'T YOU LIKE BAD BOYS?"</span></h3>
+                <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-5">"Bodie showed Adam the footage and said: 'Don't you like bad boys?' Adam said: 'Not like that.' The footage was of West Kira cutting off a man's testicles on camera because he was gay. That footage has now been obtained. Both are charged."</p>
+
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">West Kira filmed himself cutting off a man's testicles because he was gay. Bodie Chalmers obtained the footage and showed it to Adam Watson. His comment when he did so: <span class="font-display text-paper/70">"Don't you like bad boys?"</span> Adam's response: <span class="font-display text-paper/70">"Not like that."</span> The footage has since been obtained by police. Both Bodie Chalmers and West Kira are charged with a gay hate crime. For this single offence alone, both are looking at up to 25 years.</p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-px mb-6" style="background:rgba(245,234,212,0.06)">
+                    <div class="p-5" style="background:#0c0804">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">West Kira — The Act</div>
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Filmed himself cutting off a man's testicles because the victim was gay</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Act motivated by victim's sexual orientation — classified as gay hate crime</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Footage obtained by police · Charged</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Maximum: 25 years for this offence alone</p></div>
+                        </div>
+                    </div>
+                    <div class="p-5" style="background:#0c0804">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Bodie Chalmers — The Distribution</div>
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Obtained the footage and showed it to Adam Watson</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Said: "Don't you like bad boys?" — Adam: "Not like that."</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Charged with gay hate crime · Footage obtained</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Maximum: 25 years for this offence alone</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Irony callout -->
+                <div class="border border-violet/25 p-5" style="background:rgba(124,106,170,0.04)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">The Irony — On the Record</div>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Bodie Chalmers was in a relationship with Adam Watson at the time he was distributing footage of a gay hate crime and asking Adam whether he liked "bad boys." A person in a same-sex relationship, committing and celebrating a violent act against a man because of his sexual orientation, then asking his gay partner whether he finds this attractive. That is not a contradiction. It is a demonstration of who Bodie Chalmers is — someone for whom the sexual orientation of a target is a weapon, regardless of his own relationships.</p>
+                    <p class="text-[0.68rem] text-paper/40 leading-relaxed">The footage exists. Both are charged. The penalties for gay hate crimes in Queensland carry significant maximum sentences — and this is one charge among many that Bodie Chalmers and West Kira now face. The 25-year maximum for this offence alone does not account for the other charges before the court.</p>
                 </div>
             </div>
         </div>
