@@ -1052,7 +1052,7 @@
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase border border-hot/40 text-hot px-2 py-1">09 JAN 2026</div>
                 <div class="font-display text-xl tracking-wide text-paper/80 leading-tight">COOGEE. RAZ. THE AVO THAT "DIDN'T EXIST."</div>
             </div>
-            <p class="text-[0.68rem] leading-relaxed text-paper/50 mb-3">Adam Watson called triple-zero to report that Raz — his former partner, subject to a current Apprehended Violence Order — had breached the order. Six officers from NSW Police attended his Coogee address. Rather than enforcing the AVO, officers told Adam the order did not exist. They did not check the system. They did not verify. They denied it.</p>
+            <p class="text-[0.68rem] leading-relaxed text-paper/50 mb-3">Adam Watson called triple-zero to report that Raz — subject to a current Apprehended Violence Order — had breached the order. Six officers from NSW Police attended his Coogee address. Rather than enforcing the AVO, officers told Adam the order did not exist. They did not check the system. They did not verify. They denied it.</p>
             <p class="text-[0.68rem] leading-relaxed text-paper/50">What followed was a physical assault. During the incident, officers called Adam a "Jewish Faggot" — a slur combining antisemitism and homophobia, repeated and witnessed. His medication — Ozempic, prescribed for type 2 diabetes, valued at $878 — was seized from him. He was not charged with any offence. He was not given a receipt. He was left without medication he depends on to manage a serious health condition.</p>
         </div>
 
