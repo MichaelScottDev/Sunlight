@@ -1786,6 +1786,44 @@
             </div>
         </div>
 
+        <!-- Surfer's Paradise — car incident -->
+        <div class="story-chapter reveal mt-10" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Surfer's Paradise · Street Intimidation</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">SPOTTED ON FOOT.<br><span class="text-hot">JUMPED OUT OF THE CAR. THEN RAN.</span></h3>
+            <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-5">"RJ spotted Adam and Kosta walking at Surfer's Paradise. He jumped out of the car in a threatening manner. Then he ran. Adam called Marc Barrow. The car was confiscated."</p>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Following the sustained daily campaign against Adam Watson, RJ spotted Adam and Kosta walking together at Surfer's Paradise. RJ exited the vehicle in a threatening manner — approaching them in a way that made the intent clear — then fled. Adam Watson contacted Marc Barrow. Police attended. The car RJ had jumped out of was confiscated.</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-px mb-6" style="background:rgba(245,234,212,0.06)">
+                <div class="p-4" style="background:#0c0804">
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-hot mb-2">What Happened</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">RJ spots Adam and Kosta on foot at Surfer's Paradise. Exits the car in a threatening manner. Approaches. Then runs.</p>
+                </div>
+                <div class="p-4" style="background:#0c0804">
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase" style="color:#c98a10;margin-bottom:0.5rem">Adam's Response</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Adam called Marc Barrow. Police were contacted directly. The response was immediate.</p>
+                </div>
+                <div class="p-4" style="background:#0c0804">
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-sage mb-2">Outcome</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">The vehicle RJ jumped out of was confiscated by police.</p>
+                </div>
+            </div>
+
+            <!-- Accomplice note -->
+            <div class="border border-paper/[0.07] p-5 mb-6" style="background:rgba(124,106,170,0.04)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">On Complicity</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Whoever was in that car with RJ that day may not have planned an intimidation. They may have had no idea what RJ intended when he told them to stop. But the moment a person provides transport to someone who uses it to exit a vehicle in a threatening manner toward two people walking on a public street — they have become part of the incident. Complicity does not require intent. It requires presence and participation.</p>
+                <p class="text-[0.68rem] text-paper/40 leading-relaxed">The car was confiscated. The record exists. Anyone in that vehicle is now connected to a documented intimidation incident. That connection does not disappear because they didn't know what was coming.</p>
+            </div>
+
+            <!-- Thank you to Marc Barrow -->
+            <div class="border-l-4 pl-5" style="border-color:rgba(61,122,74,0.6);background:rgba(61,122,74,0.04);padding:1.2rem 1rem 1.2rem 1.4rem">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-3">Thank You — Marc Barrow</div>
+                <p class="font-serif italic text-paper/55 leading-relaxed mb-3" style="font-size:0.88rem">"When Adam called, you came. That is what it is supposed to look like."</p>
+                <p class="text-[0.65rem] text-paper/40 leading-relaxed">Marc Barrow responded when Adam Watson called after the Surfer's Paradise incident. The car was confiscated. The record was made. When the system works — when a call is answered, when an officer takes the situation seriously and acts — it is worth acknowledging. This is that acknowledgement. Whatever the surrounding complexity of this case and the roles various people have played in it, this particular response was the right one. Thank you.</p>
+            </div>
+        </div>
+
     </div>
 </section>
 
