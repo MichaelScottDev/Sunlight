@@ -3234,14 +3234,50 @@
                 </div>
             </div>
 
-            <!-- View the order -->
-            <div class="ev-file ef-sage" onclick="openMV('pdf-consent-order')" style="max-width:520px">
-                <div class="ev-icon ev-doc">📄</div>
-                <div class="ev-meta">
-                    <div class="ev-name">TAD_6_of_2026_consent_order_dismissal.pdf</div>
-                    <div class="ev-desc">PDF · Federal Court of Australia · Tasmania District Registry · Signed 1 April 2026 · Judicial Registrar Segal</div>
+            <!-- Evidence Vault -->
+            <div class="evidence-vault mt-6">
+                <div class="ev-header" onclick="toggleVault(this)">
+                    <div class="flex items-center gap-2">
+                        <span class="text-[0.48rem] tracking-[0.22em] uppercase text-sage">📁 Evidence Files</span>
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Graham Gordon Matter · TAD 6 of 2026</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">2 files</span>
+                        <span class="ev-toggle">▼</span>
+                    </div>
                 </div>
-                <span class="ev-cta">View Order →</span>
+                <div class="ev-body">
+
+                    <!-- Consent Order -->
+                    <div class="ev-file ef-sage" onclick="openMV('pdf-consent-order')">
+                        <div class="ev-icon ev-doc">📄</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">Consent_Order_Dismissal_TAD6_2026.pdf</div>
+                            <div class="ev-desc">PDF · Federal Court of Australia · Signed 1 April 2026 · Judicial Registrar Segal · TAD 6 of 2026</div>
+                        </div>
+                        <span class="ev-cta">View Order →</span>
+                    </div>
+                    <div class="px-4 py-2 border-b border-paper/[0.05]" style="background:rgba(201,138,16,0.03)">
+                        <p class="text-[0.5rem] leading-relaxed" style="color:rgba(201,138,16,0.6)">⚠ Note: This consent order has been signed by Graham Gordon. The other parties have not yet signed.</p>
+                    </div>
+
+                    <!-- NCAT Lodgement Bundle -->
+                    <div class="ev-file ef-hot" onclick="openMV('pdf-ncat-bundle')">
+                        <div class="ev-icon ev-doc">📄</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">NCAT_Full_Lodgement_Bundle.pdf</div>
+                            <div class="ev-desc">PDF · NCAT Full Lodgement Bundle · Case documentation · Applicant: PSR Crown Investment Pty Ltd</div>
+                        </div>
+                        <span class="ev-cta">View Bundle →</span>
+                    </div>
+                    <div class="px-4 py-2 border-b border-paper/[0.05]" style="background:rgba(193,68,14,0.03)">
+                        <p class="text-[0.5rem] leading-relaxed text-paper/30">Many sections of this lodgement bundle were prepared with assistance from Claude (Anthropic). NCAT confirmed that if this matter is lodged and proceeds to hearing, it will be directed to the Director of Public Prosecutions. This is what Graham Gordon fears.</p>
+                    </div>
+
+                    <div class="ev-zip-bar">
+                        <span class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/25">Graham Gordon matter — TAD 6 of 2026 · No suppression order — public documents</span>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -3980,11 +4016,19 @@ var EVIDENCE = {
         title:'CONSENT ORDER FOR DISMISSAL — TAD 6 OF 2026',
         tag:'Federal Court of Australia · Tasmania District Registry · 1 April 2026',
         meta:'PDF · Federal Court Order · Signed before Judicial Registrar Segal · Public document — no suppression order',
-        desc:'Consent Order for Dismissal in the matter of The Owners – Strata Plan No 93922 v PSR Crown Investment Pty Ltd (TAD 6 of 2026). By consent of all parties including third parties Graham Gordon and Collection Corporation Australia Pty Ltd. Orders: (1) Proceedings dismissed; (2) Owners Corporation pays $395,000 to PSR Crown; (3) Graham Gordon pays $365,000 to PSR Crown; (4) Collection Corporation Australia pays $385,000 to PSR Crown; (5) Each of the three parties pays $49,667 legal costs directly to Adam Watson. All payments due 15 April 2026. No suppression order exists — this is a public Federal Court document.',
-        isPlaceholder:true,
-        placeholderLabel:'DOCUMENT PENDING UPLOAD',
-        filename:'TAD_6_of_2026_consent_order_dismissal.pdf',
+        desc:'Consent Order for Dismissal in the matter of The Owners – Strata Plan No 93922 v PSR Crown Investment Pty Ltd (TAD 6 of 2026). Orders: (1) Proceedings dismissed; (2) Owners Corporation pays $395,000 to PSR Crown; (3) Graham Gordon pays $365,000 to PSR Crown; (4) Collection Corporation Australia pays $385,000 to PSR Crown; (5) Each of the three parties pays $49,667 legal costs directly to Adam Watson. All payments due 15 April 2026. Note: signed by Graham Gordon — other parties have not yet signed. No suppression order exists.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/graham_gordon/Consent_Order_Dismissal_TAD6_2026.pdf',
+        filename:'Consent_Order_Dismissal_TAD6_2026.pdf',
         pages: 3
+    },
+    'pdf-ncat-bundle': {
+        type:'pdf',
+        title:'NCAT FULL LODGEMENT BUNDLE',
+        tag:'NCAT · PSR Crown Investment Pty Ltd · Graham Gordon Matter',
+        meta:'PDF · Full lodgement bundle · Applicant: PSR Crown Investment Pty Ltd · Sections prepared with Claude (Anthropic)',
+        desc:'The complete NCAT lodgement bundle for the Graham Gordon matter. Many sections of this bundle were prepared with assistance from Claude (Anthropic). NCAT has confirmed that if this matter is lodged and proceeds to hearing, the file will be directed to the Director of Public Prosecutions. This referral pathway is what Graham Gordon fears — it is the reason the consent order exists.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/graham_gordon/NCAT_Full_Lodgement_Bundle.pdf',
+        filename:'NCAT_Full_Lodgement_Bundle.pdf'
     },
     'photo-adam-bleeding': {
         type:'photo',
