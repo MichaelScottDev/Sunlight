@@ -314,7 +314,7 @@
                     </a>
                     <a href="#rj" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
                         <span class="font-display text-hot text-[0.62rem]">03</span>
-                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">RJ — 11 Incidents</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Sex & Crime Squad</div></div>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">RJ — 13 Incidents</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Sex & Crime Squad</div></div>
                     </a>
                     <a href="#brazen" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
                         <span class="font-display text-hot text-[0.62rem]">04</span>
@@ -342,10 +342,10 @@
         <div class="lg:border-l border-paper/[0.06] flex flex-col" style="background:rgba(12,8,4,0.6)">
             <div class="px-6 py-6 border-b border-paper/[0.06]">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">This Episode</div>
-                <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Coercive control, criminal networks, and the systemic failures that protect them. Adam Watson, Bodie Chalmers, RJ — 11 incidents. Samira Khalaj. Kira Kira. Tasmania. The strata litigation.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Coercive control, criminal networks, and the systemic failures that protect them. Adam Watson, Bodie Chalmers, RJ — 13 incidents. Samira Khalaj. Kira Kira. Tasmania. The strata litigation.</p>
                 <div class="grid grid-cols-3 gap-2 text-center">
                     <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl" style="color:#7c6aaa">8</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Cases</div></div>
-                    <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl text-hot">11</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">RJ Incidents</div></div>
+                    <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl text-hot">13</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">RJ Incidents</div></div>
                     <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl text-sage">GC</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Region</div></div>
                 </div>
             </div>
@@ -1423,6 +1423,8 @@
                 <div class="grid grid-cols-[80px_1fr] gap-4 p-4" style="background:rgba(193,68,14,0.07);border:1px solid rgba(193,68,14,0.28);border-left:3px solid #c1440e"><div class="text-center"><div class="text-[0.72rem] tracking-[0.1em] uppercase font-bold text-hot">09</div><div class="text-[0.5rem] text-paper/45 mt-0.5">AMBUSH</div></div><div><div class="text-[0.73rem] font-display tracking-wide text-paper/84 mb-0.5" style="color:rgba(245,234,212,0.84)">Bridgestone Nerang — premeditated ambush — after the laptop</div><div class="text-[0.62rem] leading-relaxed" style="color:rgba(245,234,212,0.58)">After Adam handed the laptop to Southport Police, RJ organised an ambush at Bridgestone Nerang. 3–4 people waited in a car. An orange-haired staff member at Bridgestone tipped them off — he has since been fired and charged. Adam defended himself with an implement, bashed RJ, and destroyed the car. Attackers: "We're just kids." Adam was charged. Police admitted they had to charge him to not look bad. He has never been convicted.</div></div></div>
                 <div class="grid grid-cols-[80px_1fr] gap-4 p-4" style="background:rgba(124,106,170,0.07);border:1px solid rgba(124,106,170,0.25);border-left:3px solid #7c6aaa"><div class="text-center"><div class="text-[0.72rem] tracking-[0.1em] uppercase font-bold" style="color:#7c6aaa">10</div><div class="text-[0.5rem] text-paper/45 mt-0.5">CONFRONTED</div></div><div><div class="text-[0.73rem] font-display tracking-wide mb-0.5" style="color:rgba(245,234,212,0.84)">"You won't hit me — you have too much to lose."</div><div class="text-[0.62rem] leading-relaxed" style="color:rgba(245,234,212,0.58)">RJ approached someone who knew Adam and said "You won't hit me because you have too much to lose!" — banking on the person's reputation to act as a shield. The person's friend, a bricklayer, punched RJ in the face twice. A local police officer witnessed it and did nothing.</div></div></div>
                 <div class="grid grid-cols-[80px_1fr] gap-4 p-4" style="background:rgba(193,68,14,0.07);border:1px solid rgba(193,68,14,0.28);border-left:3px solid #c1440e"><div class="text-center"><div class="text-[0.72rem] tracking-[0.1em] uppercase font-bold text-hot">11</div><div class="text-[0.5rem] text-paper/45 mt-0.5">G-LINK</div></div><div><div class="text-[0.73rem] font-display tracking-wide text-paper/84 mb-0.5" style="color:rgba(245,234,212,0.84)">G-Link tram — sexual harassment, false allegation against Adam Watson, footage proves lie</div><div class="text-[0.62rem] leading-relaxed" style="color:rgba(245,234,212,0.58)">Adam witnessed RJ and five accomplices on the G-Link tram sexually harassing a woman, demanding "Do you have a white pussy or a pink pussy?" A confrontation erupted. RJ's phone was thrown off the tram. Another male passenger punched one of RJ's associates. Police were called. One of RJ's group then claimed Adam had grabbed his backside — a false allegation. Tram footage reviewed by police disproved the claim entirely. The woman told RJ's group: "If my husband was here, he'd stab you."</div></div></div>
+                <div class="tl-row grid grid-cols-[80px_1fr] gap-4 p-4"><div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">12</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Surfer's Para</div></div><div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Surfer's Paradise — jumped out of car in a threatening manner, then ran</div><div class="text-[0.55rem] text-paper/30 leading-relaxed">RJ spotted Adam and Kosta walking at Surfer's Paradise. Exited the vehicle in a threatening manner, then fled. Adam called Marc Barrow. Vehicle confiscated by police.</div></div></div>
+                <div class="grid grid-cols-[80px_1fr] gap-4 p-4" style="background:rgba(193,68,14,0.07);border:1px solid rgba(193,68,14,0.28);border-left:3px solid #c1440e"><div class="text-center"><div class="text-[0.72rem] tracking-[0.1em] uppercase font-bold text-hot">13</div><div class="text-[0.5rem] text-paper/45 mt-0.5">ADVANCES</div></div><div><div class="text-[0.73rem] font-display tracking-wide text-paper/84 mb-0.5" style="color:rgba(245,234,212,0.84)">Priceline chemist — indecent exposure + private number calls to Adam's home</div><div class="text-[0.62rem] leading-relaxed" style="color:rgba(245,234,212,0.58)">RJ spotted Adam at Priceline chemist, turned around and dropped his shorts, exposing himself. Photograph being supplied to police by Jason. Indecent exposure charge pending. RJ also continues to call Adam from private numbers asking if he can sleep at Adam's house — a pattern of continual unwanted advances toward the person he has spent months targeting with violence and intimidation.</div></div></div>
             </div>
         </div>
 
@@ -1821,6 +1823,54 @@
                 <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-3">Thank You — Marc Barrow</div>
                 <p class="font-serif italic text-paper/55 leading-relaxed mb-3" style="font-size:0.88rem">"When Adam called, you came. That is what it is supposed to look like."</p>
                 <p class="text-[0.65rem] text-paper/40 leading-relaxed">Marc Barrow responded when Adam Watson called after the Surfer's Paradise incident. The car was confiscated. The record was made. When the system works — when a call is answered, when an officer takes the situation seriously and acts — it is worth acknowledging. This is that acknowledgement. Whatever the surrounding complexity of this case and the roles various people have played in it, this particular response was the right one. Thank you.</p>
+            </div>
+        </div>
+
+        <!-- Priceline + private calls — continual unwanted advances -->
+        <div class="story-chapter reveal mt-10" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Incident 13 — Continual Unwanted Advances</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">PRICELINE. PRIVATE NUMBERS.<br><span class="text-hot">CAN HE SLEEP AT YOUR HOUSE?</span></h3>
+            <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-5">"He dropped his shorts at Priceline chemist. In public. In front of Adam. Then went home and called from a private number to ask if he could sleep there."</p>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">The following incidents are documented here not as isolated embarrassments but as a pattern of continual unwanted advances toward a person RJ spent months targeting with violence, intimidation, and institutional weaponisation. The shift in behaviour does not represent a change in the dynamic. It is the same dynamic, expressed differently.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-px mb-6" style="background:rgba(245,234,212,0.06)">
+
+                <div class="p-5" style="background:#0c0804">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-[0.46rem] tracking-[0.18em] uppercase border px-1.5 py-0.5 text-hot" style="border-color:rgba(193,68,14,0.4)">Priceline Chemist</span>
+                    </div>
+                    <h4 class="font-display text-lg tracking-wide leading-tight mb-3">DROPPED HIS SHORTS.<br><span class="text-hot">INDECENT EXPOSURE. CHARGE PENDING.</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">RJ spotted Adam Watson at Priceline chemist. He turned around and dropped his shorts, exposing himself in a public retail environment in full view of Adam. The incident was photographed. Jason is supplying the photograph to police. An indecent exposure charge is pending.</p>
+                    <div class="border border-hot/15 p-3 mt-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Public indecent exposure — Priceline chemist</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Photograph obtained — being supplied to police by Jason</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Indecent exposure charge: pending</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-5" style="background:#0c0804">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-[0.46rem] tracking-[0.18em] uppercase border px-1.5 py-0.5" style="border-color:rgba(124,106,170,0.4);color:#7c6aaa">Private Number Calls</span>
+                    </div>
+                    <h4 class="font-display text-lg tracking-wide leading-tight mb-3" style="color:#7c6aaa">CALLING FROM PRIVATE.<br><span class="text-paper/55">CAN I SLEEP AT YOUR HOUSE?</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">RJ continues to call Adam Watson from withheld private numbers. The content of the calls: asking if he can sleep at Adam's house. A person who organised gang ambushes, had his car confiscated after a street intimidation incident, and is now facing an indecent exposure charge — repeatedly calling the person he has spent months targeting, from a concealed number, to ask for shelter.</p>
+                    <div class="border p-3 mt-3" style="background:rgba(124,106,170,0.03);border-color:rgba(124,106,170,0.15)">
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="shrink-0 mt-0.5 text-xs" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Calls made from private / withheld numbers</p></div>
+                            <div class="flex gap-2 items-start"><span class="shrink-0 mt-0.5 text-xs" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Content: requests to sleep at Adam Watson's home</p></div>
+                            <div class="flex gap-2 items-start"><span class="shrink-0 mt-0.5 text-xs" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/38 leading-relaxed">Ongoing — pattern of continual unwanted contact</p></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="border border-paper/[0.07] p-5" style="background:rgba(193,68,14,0.03)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">On the Pattern</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">Violence and unwanted intimacy are not opposites in this context. They are expressions of the same dynamic: a refusal to accept that another person is not available to be controlled. The person who organises ambushes is the same person exposing himself in a chemist and calling from private numbers to ask for a bed. The through-line is not affection and it is not hostility. It is a belief that Adam Watson's space — physical, social, domestic — is available to RJ on his terms. It is not. The record is here.</p>
             </div>
         </div>
 
