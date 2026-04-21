@@ -49,6 +49,39 @@
         .nav-dropdown-menu a.nav-accent-hot:hover{color:#c1440e}
         .nav-dropdown-menu a.nav-accent-gold:hover{color:#c98a10}
         .nav-dropdown-menu a.nav-accent-violet:hover{color:#7c6aaa}
+        /* story chapter */
+        .story-chapter{border-left:2px solid rgba(245,234,212,0.08);padding-left:1.5rem;transition:border-color 0.3s ease}.story-chapter:hover{border-left-color:rgba(193,68,14,0.4)}
+        /* evidence file rows */
+        .ev-file{display:flex;align-items:center;gap:0.65rem;padding:0.65rem 0.9rem;border-bottom:1px solid rgba(245,234,212,0.04);transition:background 0.2s;cursor:pointer;position:relative;overflow:hidden}
+        .ev-file:last-child{border-bottom:none}
+        .ev-file:hover{background:rgba(245,234,212,0.03)}
+        .ev-file::before{content:'';position:absolute;left:0;top:0;bottom:0;width:2px;transform:scaleY(0);transform-origin:bottom;transition:transform 0.3s}
+        .ev-file:hover::before{transform:scaleY(1)}
+        .ef-hot::before{background:#c1440e}.ef-gold::before{background:#c98a10}.ef-sage::before{background:#3d7a4a}
+        .ev-icon{width:30px;height:30px;display:flex;align-items:center;justify-content:center;border:1px solid rgba(245,234,212,0.07);font-size:0.65rem;flex-shrink:0;letter-spacing:0.04em}
+        .ev-pdf{background:rgba(193,68,14,0.08);color:#c1440e}
+        .ev-video{background:rgba(193,68,14,0.14);color:#c1440e;font-size:0.85rem}
+        .ev-meta{flex:1;min-width:0}
+        .ev-name{font-size:0.63rem;color:rgba(245,234,212,0.62);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+        .ev-desc{font-size:0.49rem;letter-spacing:0.12em;text-transform:uppercase;margin-top:0.12rem;color:rgba(245,234,212,0.22)}
+        .ev-cta{font-size:0.47rem;letter-spacing:0.18em;text-transform:uppercase;opacity:0.3;transition:opacity 0.2s;white-space:nowrap;flex-shrink:0}
+        .ev-file:hover .ev-cta{opacity:1}
+        /* media viewer overlay */
+        #mv-wrap{display:none;position:fixed;inset:0;z-index:9500;background:rgba(4,4,4,0.97);backdrop-filter:blur(16px);flex-direction:column}
+        #mv-wrap.active{display:flex}
+        .mv-head{display:flex;align-items:center;justify-content:space-between;padding:0.9rem 1.5rem;border-bottom:1px solid rgba(245,234,212,0.06);flex-shrink:0}
+        .mv-body{flex:1;display:flex;flex-direction:column;align-items:center;padding:1.5rem;overflow-y:auto;overflow-x:hidden}
+        .mv-foot{padding:0.65rem 1.5rem;border-top:1px solid rgba(245,234,212,0.06);display:flex;align-items:center;gap:0.75rem;flex-shrink:0;flex-wrap:wrap}
+        .mv-close-btn{background:rgba(245,234,212,0.04);border:1px solid rgba(245,234,212,0.1);color:rgba(245,234,212,0.4);font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;padding:0.45rem 0.75rem;cursor:pointer;transition:all 0.2s}
+        .mv-close-btn:hover{border-color:rgba(245,234,212,0.3);color:rgba(245,234,212,0.9)}
+        .mv-dl-btn{display:inline-flex;align-items:center;gap:0.4rem;border:1px solid rgba(245,234,212,0.12);padding:0.45rem 0.9rem;font-size:0.52rem;letter-spacing:0.15em;text-transform:uppercase;color:rgba(245,234,212,0.4);transition:all 0.2s;cursor:pointer;background:none}
+        .mv-dl-btn:hover{border-color:rgba(245,234,212,0.35);color:rgba(245,234,212,0.85)}
+        .mv-dl-hot{border-color:rgba(193,68,14,0.35);color:#c1440e}.mv-dl-hot:hover{border-color:#c1440e;background:rgba(193,68,14,0.08)}
+        /* pdf placeholder */
+        .pdf-ph{background:rgba(245,234,212,0.02);border:1px solid rgba(245,234,212,0.06);max-width:640px;width:100%;padding:2.5rem 2rem;text-align:center}
+        .pdf-ph-pages{display:flex;gap:0.5rem;justify-content:center;margin-bottom:1.5rem}
+        .pdf-ph-page{width:64px;height:82px;border:1px solid rgba(245,234,212,0.08);background:rgba(245,234,212,0.02);display:flex;flex-direction:column;gap:4px;padding:6px;border-top:3px solid rgba(193,68,14,0.4)}
+        .pdf-ph-line{height:2px;background:rgba(245,234,212,0.06);border-radius:1px}
     </style>
 </head>
 <body class="bg-ink text-paper font-mono overflow-x-hidden" style="background-color:#0c0804;background-image:linear-gradient(160deg,rgba(201,138,16,0.07) 0%,transparent 40%,rgba(61,122,74,0.03) 100%)">
@@ -75,6 +108,24 @@
 
 <!-- ══ AU STRIPE ══ -->
 <div style="position:fixed;top:56px;left:0;right:0;z-index:49;height:2px;background:linear-gradient(90deg,#c1440e 0%,#c98a10 35%,#3d7a4a 65%,#c1440e 100%);opacity:0.55;pointer-events:none"></div>
+
+<!-- ══ MEDIA VIEWER OVERLAY ══ -->
+<div id="mv-wrap">
+    <div class="mv-head">
+        <div>
+            <div id="mv-tag" class="text-[0.48rem] tracking-[0.22em] uppercase text-hot mb-0.5">Evidence File</div>
+            <div id="mv-title" class="font-display text-lg tracking-widest">DOCUMENT</div>
+        </div>
+        <button class="mv-close-btn" onclick="closeMV()">✕ Close</button>
+    </div>
+    <div class="mv-body" id="mv-body"></div>
+    <div class="mv-foot">
+        <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20" id="mv-meta"></span>
+        <div class="flex-1"></div>
+        <button class="mv-dl-btn mv-dl-hot" id="mv-dl-btn" onclick="downloadFile()">⬇ Download File</button>
+        <button class="mv-close-btn" onclick="closeMV()">✕ Close</button>
+    </div>
+</div>
 
 
 <!-- ══════════════════════════════════════
@@ -954,6 +1005,183 @@
 
 
 <!-- ══════════════════════════════════════
+     LECC COMPLAINT — EXT2026-0413
+══════════════════════════════════════ -->
+<section id="lecc" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(193,68,14,0.07) 0%,transparent 65%)">
+    <div class="max-w-6xl mx-auto">
+
+        <!-- Section header -->
+        <div class="reveal mb-10">
+            <div class="flex items-center gap-3 mb-3">
+                <div class="w-5 h-px bg-hot"></div>
+                <span class="text-[0.52rem] tracking-[0.26em] uppercase text-paper/30">Episode 3 — LECC Complaint · EXT2026-0413</span>
+            </div>
+            <h2 class="font-display leading-none tracking-wide mb-2" style="font-size:clamp(1.8rem,4vw,3rem)">SIX OFFICERS.<br><span class="text-hot">ONE COMPLAINT.</span></h2>
+            <p class="text-[0.72rem] leading-relaxed text-paper/35 max-w-2xl mt-3">On 9 January 2026, Adam Watson called police to report a breach of an Apprehended Violence Order. Six officers attended his Coogee address. They assaulted him, called him a "Jewish Faggot", seized his prescribed diabetic medication, and told him the AVO did not exist. The internal investigation was closed in sixteen days.</p>
+        </div>
+
+        <!-- Key facts grid -->
+        <div class="reveal mb-10">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-px" style="background:rgba(193,68,14,0.18)">
+                <div class="p-5" style="background:#0c0804">
+                    <div class="font-display text-4xl text-hot mb-1">6</div>
+                    <div class="text-[0.52rem] tracking-[0.16em] uppercase text-paper/45 leading-snug">Officers Attended</div>
+                    <div class="text-[0.5rem] text-paper/25 mt-2 leading-relaxed">Called for AVO breach. Left after the assault.</div>
+                </div>
+                <div class="p-5" style="background:#0c0804">
+                    <div class="font-display leading-tight text-hot mb-1" style="font-size:1.05rem">"JEWISH<br>FAGGOT"</div>
+                    <div class="text-[0.52rem] tracking-[0.16em] uppercase text-paper/45 leading-snug">Slur Used by Officers</div>
+                    <div class="text-[0.5rem] text-paper/25 mt-2 leading-relaxed">Repeated. Witnessed. Documented in complaint.</div>
+                </div>
+                <div class="p-5" style="background:#0c0804">
+                    <div class="font-display text-4xl text-hot mb-1">$878</div>
+                    <div class="text-[0.52rem] tracking-[0.16em] uppercase text-paper/45 leading-snug">Medication Seized</div>
+                    <div class="text-[0.5rem] text-paper/25 mt-2 leading-relaxed">Ozempic — prescribed, diabetic. Never returned.</div>
+                </div>
+                <div class="p-5" style="background:#0c0804">
+                    <div class="font-display text-4xl text-hot mb-1">16</div>
+                    <div class="text-[0.52rem] tracking-[0.16em] uppercase text-paper/45 leading-snug">Days to Close</div>
+                    <div class="text-[0.5rem] text-paper/25 mt-2 leading-relaxed">Internal review. SC Agnew. "No evidence identified."</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Narrative: Jan 9 -->
+        <div class="reveal story-chapter mb-8" style="border-left-color:rgba(193,68,14,0.3)">
+            <div class="flex flex-wrap items-center gap-3 mb-4">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase border border-hot/40 text-hot px-2 py-1">09 JAN 2026</div>
+                <div class="font-display text-xl tracking-wide text-paper/80 leading-tight">COOGEE. RAZ. THE AVO THAT "DIDN'T EXIST."</div>
+            </div>
+            <p class="text-[0.68rem] leading-relaxed text-paper/50 mb-3">Adam Watson called triple-zero to report that Raz — his former partner, subject to a current Apprehended Violence Order — had breached the order. Six officers from NSW Police attended his Coogee address. Rather than enforcing the AVO, officers told Adam the order did not exist. They did not check the system. They did not verify. They denied it.</p>
+            <p class="text-[0.68rem] leading-relaxed text-paper/50">What followed was a physical assault. During the incident, officers called Adam a "Jewish Faggot" — a slur combining antisemitism and homophobia, repeated and witnessed. His medication — Ozempic, prescribed for type 2 diabetes, valued at $878 — was seized from him. He was not charged with any offence. He was not given a receipt. He was left without medication he depends on to manage a serious health condition.</p>
+        </div>
+
+        <!-- Narrative: SC Agnew -->
+        <div class="reveal story-chapter mb-10" style="border-left-color:rgba(245,234,212,0.12)">
+            <div class="flex flex-wrap items-center gap-3 mb-4">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase border border-paper/20 text-paper/40 px-2 py-1">25 JAN 2026</div>
+                <div class="font-display text-xl tracking-wide text-paper/80 leading-tight">SC AGNEW. SIXTEEN DAYS. "NO EVIDENCE IDENTIFIED."</div>
+            </div>
+            <p class="text-[0.68rem] leading-relaxed text-paper/50 mb-3">Senior Constable Anthony Agnew — together with SC Grace — was assigned to investigate the complaint. The investigation was concluded on 25 January 2026, sixteen days after the incident. The outcome: the complaint was closed with a finding that there was "no evidence identified to substantiate" the allegations of assault, antisemitic slur use, or unlawful property seizure.</p>
+            <p class="text-[0.68rem] leading-relaxed text-paper/50">Sixteen days. That is the speed at which six officers, a documented physical assault, a recorded antisemitic slur, and the seizure of $878 in prescription medication were assessed and dismissed as unsubstantiated by the same police force whose officers the complaint concerned.</p>
+        </div>
+
+        <!-- What investigators didn't do -->
+        <div class="reveal mb-10 border border-paper/[0.07] p-6" style="background:rgba(193,68,14,0.03)">
+            <div class="text-[0.5rem] tracking-[0.22em] uppercase text-hot mb-5">What the Internal Investigation Did Not Do</div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="flex items-start gap-3">
+                    <div class="w-4 h-4 border border-hot/40 flex items-center justify-center shrink-0 mt-0.5" style="font-size:0.5rem;color:#c1440e">✕</div>
+                    <div>
+                        <div class="text-[0.62rem] text-paper/65 mb-1">Contact eyewitnesses</div>
+                        <div class="text-[0.5rem] text-paper/28 leading-relaxed">No independent witness was identified or interviewed as part of the review.</div>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3">
+                    <div class="w-4 h-4 border border-hot/40 flex items-center justify-center shrink-0 mt-0.5" style="font-size:0.5rem;color:#c1440e">✕</div>
+                    <div>
+                        <div class="text-[0.62rem] text-paper/65 mb-1">Obtain hospital or medical records</div>
+                        <div class="text-[0.5rem] text-paper/28 leading-relaxed">No medical records documenting the assault were requested or reviewed.</div>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3">
+                    <div class="w-4 h-4 border border-hot/40 flex items-center justify-center shrink-0 mt-0.5" style="font-size:0.5rem;color:#c1440e">✕</div>
+                    <div>
+                        <div class="text-[0.62rem] text-paper/65 mb-1">Review body-worn camera footage</div>
+                        <div class="text-[0.5rem] text-paper/28 leading-relaxed">BWC footage from six attending officers was not obtained, reviewed, or referenced.</div>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3">
+                    <div class="w-4 h-4 border border-hot/40 flex items-center justify-center shrink-0 mt-0.5" style="font-size:0.5rem;color:#c1440e">✕</div>
+                    <div>
+                        <div class="text-[0.62rem] text-paper/65 mb-1">Individually identify the responding officers</div>
+                        <div class="text-[0.5rem] text-paper/28 leading-relaxed">No officer was named or individually identified in the investigation file.</div>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3 md:col-span-2">
+                    <div class="w-4 h-4 border border-hot/40 flex items-center justify-center shrink-0 mt-0.5" style="font-size:0.5rem;color:#c1440e">✕</div>
+                    <div>
+                        <div class="text-[0.62rem] text-paper/65 mb-1">Address the seizure of prescribed medication</div>
+                        <div class="text-[0.5rem] text-paper/28 leading-relaxed">The unlawful seizure of $878 in diabetic medication was not referenced anywhere in the investigation outcome.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LECC complaint callout -->
+        <div class="reveal mb-10 border-l-4 border-hot pl-6 py-2">
+            <div class="text-[0.48rem] tracking-[0.22em] uppercase text-hot mb-2">19 March 2026 — Formal Complaint Lodged with LECC</div>
+            <div class="font-display text-2xl tracking-wide text-paper/85 mb-3">LECC COMPLAINT EXT2026-0413</div>
+            <p class="text-[0.68rem] leading-relaxed text-paper/45 max-w-2xl">A formal complaint was lodged with the Law Enforcement Conduct Commission on 19 March 2026. Reference: <strong class="text-paper/65 font-mono">EXT2026-0413</strong>. The complaint names the attending officers, documents the assault, the antisemitic and homophobic slur, the unlawful seizure of prescribed medication, and identifies five investigative failures in the internal review conducted by SC Agnew and SC Grace. The video recorded by Adam Watson in the immediate aftermath of the assault is attached as primary evidence.</p>
+        </div>
+
+        <!-- Evidence vault -->
+        <div class="reveal">
+            <div class="text-[0.48rem] tracking-[0.24em] uppercase text-paper/20 mb-4">LECC Evidence — 6 Objects</div>
+            <div class="border border-paper/[0.07]" style="background:rgba(12,8,4,0.7)">
+
+                <div class="ev-file ef-hot" onclick="openMV('video-police-assault')">
+                    <div class="ev-icon ev-video">▶</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">Video — Sent by Adam After the Assault</div>
+                        <div class="ev-desc">Primary evidence · Recorded immediately after incident · 9 Jan 2026 · Coogee NSW</div>
+                    </div>
+                    <span class="ev-cta text-hot">View ↗</span>
+                </div>
+
+                <div class="ev-file ef-hot" onclick="openMV('pdf-lecc-agnew')">
+                    <div class="ev-icon ev-pdf" style="font-size:0.5rem;letter-spacing:0.04em">PDF</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">SC Agnew — Investigation Closure Letter</div>
+                        <div class="ev-desc">Internal review · Closed 25 Jan 2026 · "No evidence identified to substantiate"</div>
+                    </div>
+                    <span class="ev-cta text-hot">View ↗</span>
+                </div>
+
+                <div class="ev-file ef-hot" onclick="openMV('pdf-lecc-complaint')">
+                    <div class="ev-icon ev-pdf" style="font-size:0.5rem;letter-spacing:0.04em">PDF</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">LECC Formal Complaint — EXT2026-0413</div>
+                        <div class="ev-desc">Adam Watson · Filed 19 March 2026 · Full submission to LECC</div>
+                    </div>
+                    <span class="ev-cta text-hot">View ↗</span>
+                </div>
+
+                <div class="ev-file ef-gold" onclick="openMV('pdf-lecc-email')">
+                    <div class="ev-icon ev-pdf" style="background:rgba(201,138,16,0.08);color:#c98a10;font-size:0.5rem;letter-spacing:0.04em">PDF</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">Email Correspondence — Police Complaint</div>
+                        <div class="ev-desc">Supporting correspondence · Jan–Mar 2026</div>
+                    </div>
+                    <span class="ev-cta" style="color:#c98a10">View ↗</span>
+                </div>
+
+                <div class="ev-file ef-gold" onclick="openMV('pdf-lecc-3')">
+                    <div class="ev-icon ev-pdf" style="background:rgba(201,138,16,0.08);color:#c98a10;font-size:0.5rem;letter-spacing:0.04em">PDF</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">Supporting Document — LECC Matter</div>
+                        <div class="ev-desc">Supplementary evidence · LECC EXT2026-0413</div>
+                    </div>
+                    <span class="ev-cta" style="color:#c98a10">View ↗</span>
+                </div>
+
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lecc/sunlight_lecc_editorial.html" target="_blank" rel="noopener" class="ev-file ef-sage" style="text-decoration:none">
+                    <div class="ev-icon" style="background:rgba(61,122,74,0.1);color:#3d7a4a;border:1px solid rgba(245,234,212,0.07);font-size:0.5rem;letter-spacing:0.04em">HTM</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">Sunlight Editorial — LECC Complaint Analysis</div>
+                        <div class="ev-desc">Sunlight.Quest · Full editorial · Opens in new tab</div>
+                    </div>
+                    <span class="ev-cta" style="color:#3d7a4a">Open ↗</span>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
      FOOTER
 ══════════════════════════════════════ -->
 <footer class="border-t border-paper/[0.05] px-5 md:px-10 py-10 max-w-6xl mx-auto">
@@ -976,6 +1204,128 @@ var obs = new IntersectionObserver(function(entries) {
     entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add('in'); });
 }, { threshold: 0.08 });
 document.querySelectorAll('.reveal').forEach(function(el) { obs.observe(el); });
+
+// ── MEDIA VIEWER ──
+var EVIDENCE = {
+    'video-police-assault': {
+        type: 'video',
+        title: 'VIDEO — SENT AFTER ASSAULT',
+        tag: 'Primary Evidence · LECC Complaint EXT2026-0413',
+        meta: 'Recorded by Adam Watson · 9 January 2026 · Coogee NSW',
+        desc: 'Video recorded and sent to Sunlight.Quest by Adam Watson immediately after the assault by NSW Police officers on 9 January 2026. Six officers had attended his Coogee address following a call reporting an AVO breach. This footage documents the immediate aftermath. It is attached to LECC complaint EXT2026-0413 as primary evidence.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lecc/adam-police-assault.mp4',
+        filename: 'adam-police-assault.mp4'
+    },
+    'pdf-lecc-agnew': {
+        type: 'pdf',
+        title: 'SC AGNEW — INVESTIGATION CLOSURE',
+        tag: 'Internal Review · NSW Police · LECC Matter',
+        meta: 'PDF · Closed 25 January 2026 · SC Agnew / SC Grace',
+        desc: 'The NSW Police internal investigation closure letter from SC Anthony Agnew and SC Grace. The complaint was closed 16 days after the incident with the finding that "no evidence was identified to substantiate" the allegations — despite no witnesses being contacted, no BWC footage reviewed, no hospital records obtained, and no officers individually identified.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lecc/lecc_agnew_1.pdf',
+        filename: 'lecc_agnew_1.pdf',
+        pages: 2
+    },
+    'pdf-lecc-complaint': {
+        type: 'pdf',
+        title: 'LECC FORMAL COMPLAINT — EXT2026-0413',
+        tag: 'Law Enforcement Conduct Commission · Adam Watson',
+        meta: 'PDF · Filed 19 March 2026 · Reference: EXT2026-0413',
+        desc: 'The formal complaint lodged with the Law Enforcement Conduct Commission on 19 March 2026. The complaint documents the assault, the antisemitic and homophobic slur used by officers ("Jewish Faggot"), the unlawful seizure of $878 in prescribed diabetic medication, and identifies five specific investigative failures in the internal review conducted by SC Agnew and SC Grace.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lecc/LECC_Complaint_Adam_Watson_v2.docx.pdf',
+        filename: 'LECC_Complaint_Adam_Watson_v2.docx.pdf',
+        pages: 6
+    },
+    'pdf-lecc-email': {
+        type: 'pdf',
+        title: 'EMAIL CORRESPONDENCE — POLICE COMPLAINT',
+        tag: 'Supporting Correspondence · Jan–Mar 2026',
+        meta: 'PDF · Email thread · Complaint period correspondence',
+        desc: 'Email correspondence related to the police complaint and internal review process, covering the period between the 9 January 2026 incident and the lodgement of the formal LECC complaint in March 2026.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lecc/lecc_email.pdf',
+        filename: 'lecc_email.pdf',
+        pages: 3
+    },
+    'pdf-lecc-3': {
+        type: 'pdf',
+        title: 'SUPPORTING DOCUMENT — LECC MATTER',
+        tag: 'Supplementary Evidence · EXT2026-0413',
+        meta: 'PDF · Supplementary document · LECC complaint file',
+        desc: 'Supplementary document filed as part of LECC complaint EXT2026-0413.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lecc/lecc_3.pdf',
+        filename: 'lecc_3.pdf',
+        pages: 2
+    }
+};
+
+var currentFile = null;
+
+function openMV(key) {
+    if (EVIDENCE[key]) { renderMV(EVIDENCE[key]); return; }
+    renderMV({ type: 'pdf', title: key, tag: 'Evidence File', meta: '', filename: key + '.pdf', desc: '' });
+}
+
+function renderMV(e) {
+    currentFile = e;
+    document.getElementById('mv-tag').textContent = e.tag || 'Evidence File';
+    document.getElementById('mv-title').textContent = e.title || 'DOCUMENT';
+    document.getElementById('mv-meta').textContent = e.meta || '';
+    var dl = document.getElementById('mv-dl-btn');
+    dl.textContent = '⬇ Download ' + (e.filename || 'file');
+    if (e.url) { dl.onclick = function () { window.open(e.url, '_blank'); }; }
+    else { dl.onclick = downloadFile; }
+    var body = document.getElementById('mv-body');
+    body.innerHTML = '';
+    if (e.type === 'pdf') { body.innerHTML = buildPDFViewer(e); }
+    else if (e.type === 'video') { body.innerHTML = buildVideoViewer(e); }
+    document.getElementById('mv-wrap').classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeMV() {
+    document.getElementById('mv-wrap').classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+function downloadFile() {
+    if (currentFile && currentFile.url) { window.open(currentFile.url, '_blank'); }
+}
+
+function buildPDFViewer(e) {
+    var pages = e.pages || 2;
+    var pagesHtml = '';
+    for (var i = 0; i < Math.min(pages, 4); i++) {
+        pagesHtml += '<div class="pdf-ph-page"><div class="pdf-ph-line" style="height:3px;background:rgba(193,68,14,0.3)"></div>' +
+            Array(8).fill('<div class="pdf-ph-line"></div>').join('') + '</div>';
+    }
+    return '<div class="pdf-ph">' +
+        '<div style="font-size:0.48rem;letter-spacing:0.22em;text-transform:uppercase;color:rgba(193,68,14,0.6);margin-bottom:1rem">PDF Document — Evidence File</div>' +
+        '<div class="pdf-ph-pages">' + pagesHtml + '</div>' +
+        '<div style="font-family:\'Bebas Neue\',sans-serif;font-size:1.4rem;letter-spacing:0.06em;color:rgba(245,234,212,0.5);margin-bottom:0.75rem">' + (e.title || 'DOCUMENT') + '</div>' +
+        '<div style="font-size:0.62rem;line-height:1.7;color:rgba(245,234,212,0.35);max-width:480px;margin:0 auto">' + (e.desc || '') + '</div>' +
+        (e.url ? '<div style="margin-top:1.5rem"><a href="' + e.url + '" target="_blank" rel="noopener" style="display:inline-block;font-size:0.5rem;letter-spacing:0.18em;text-transform:uppercase;color:#c1440e;border:1px solid rgba(193,68,14,0.4);padding:0.45rem 1.1rem;text-decoration:none">▶ OPEN PDF IN NEW TAB</a></div>' : '') +
+        '<div style="margin-top:1rem;font-size:0.5rem;letter-spacing:0.15em;text-transform:uppercase;color:rgba(245,234,212,0.2);border:1px solid rgba(245,234,212,0.07);display:inline-block;padding:0.35rem 0.75rem">' + (e.filename || 'document.pdf') + '</div>' +
+        '</div>';
+}
+
+function buildVideoViewer(e) {
+    var src = e.url || e.src || '';
+    if (!src) {
+        return '<div style="width:100%;max-width:760px;text-align:center;padding:3rem 1rem"><div style="font-size:0.52rem;letter-spacing:0.18em;text-transform:uppercase;color:rgba(245,234,212,0.3)">No video URL available</div></div>';
+    }
+    return '<div style="width:100%;max-width:760px">' +
+        '<div style="background:rgba(0,0,0,0.4);border:1px solid rgba(245,234,212,0.08);padding:2.5rem 1.5rem;text-align:center;margin-bottom:1rem">' +
+            '<div style="font-size:0.48rem;letter-spacing:0.2em;text-transform:uppercase;color:rgba(245,234,212,0.3);margin-bottom:1.25rem">Video Evidence · S3 Hosted · LECC Matter EXT2026-0413</div>' +
+            '<a href="' + src + '" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:0.6rem;background:#c1440e;color:#f5ead4;font-family:\'Bebas Neue\',sans-serif;font-size:1.05rem;letter-spacing:0.12em;padding:0.75rem 2rem;text-decoration:none" onmouseover="this.style.opacity=\'0.85\'" onmouseout="this.style.opacity=\'1\'">&#9654; WATCH IN NEW TAB</a>' +
+            '<div style="margin-top:1rem;font-size:0.44rem;letter-spacing:0.14em;text-transform:uppercase;color:rgba(245,234,212,0.2);word-break:break-all;max-width:480px;margin-left:auto;margin-right:auto">' + (e.filename || src) + '</div>' +
+        '</div>' +
+        '<div style="padding:0.5rem 0 0;font-size:0.62rem;line-height:1.7;color:rgba(245,234,212,0.38)">' + (e.desc || '') + '</div>' +
+    '</div>';
+}
+
+document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') { closeMV(); }
+});
 </script>
 </body>
 </html>
