@@ -2045,8 +2045,8 @@
                 <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">West Kira</span>
             </div>
             <div class="flex gap-5 mb-5 items-start">
-                <div class="shrink-0 w-24 border border-paper/[0.07] flex items-center justify-center" style="aspect-ratio:2/3;background:rgba(193,68,14,0.04)">
-                    <div class="text-center px-2"><div class="text-[0.42rem] tracking-[0.12em] uppercase text-hot/40 mb-1">Photo</div><div class="text-[0.38rem] text-paper/20">West Kira<br>Pending</div></div>
+                <div class="shrink-0 w-24 border border-paper/[0.07] overflow-hidden" style="aspect-ratio:2/3;background:rgba(193,68,14,0.04)">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west-kira.jpg" alt="West Kira" class="w-full h-full object-cover object-top" />
                 </div>
                 <div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">BODIE'S ACCOMPLICE.<br><span class="text-hot">THE KID WHO BROKE THE GLASSES.</span></h3>
