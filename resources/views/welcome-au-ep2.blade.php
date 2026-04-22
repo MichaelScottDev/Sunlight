@@ -210,10 +210,6 @@
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
             <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.1B — Jonathan Smithinson</div><div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Psychiatrist · Bondi Smear · Silverwater</div><div class="text-[0.62rem] text-paper/30 mt-1">Disbarred · Shoplifting · Murder charge</div></div>
         </button>
-        <button onclick="document.getElementById('privacy').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-violet/35 transition-all p-4 bg-paper/[0.02]">
-            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-violet"></div>
-            <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-violet mb-1">Ch.2 — Privacy Breach</div><div class="font-display text-base tracking-wide group-hover:text-violet transition-colors leading-tight">Aquatic Centre Leak</div><div class="text-[0.62rem] text-paper/30 mt-1">Photographed · Annotated · Leaked · Tate retraction</div></div>
-        </button>
         <button onclick="document.getElementById('media').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-gold/35 transition-all p-4 bg-paper/[0.02]">
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-gold"></div>
             <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-1">Ch.3 — Sky News</div><div class="font-display text-base tracking-wide group-hover:text-gold transition-colors leading-tight">Story That Didn't Run</div><div class="text-[0.62rem] text-paper/30 mt-1">QP-9 leak · File pull · Mental health stigma</div></div>
@@ -320,10 +316,6 @@
                         <span class="font-display text-hot text-[0.62rem]">04</span>
                         <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Brazen Crime</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Vehicle & arson</div></div>
                     </a>
-                    <a href="#privacy" class="flex items-center gap-2 px-4 py-3 border-r border-paper/[0.06] transition-all group" onmouseover="this.style.background='rgba(124,106,170,0.08)'" onmouseout="this.style.background=''">
-                        <span class="font-display text-[0.62rem]" style="color:#7c6aaa">05</span>
-                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Privacy Breach</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Aquatic centre</div></div>
-                    </a>
                     <a href="#redress" class="flex items-center gap-2 px-4 py-3 hover:bg-sage/8 border-r border-paper/[0.06] transition-all group">
                         <span class="font-display text-sage text-[0.62rem]">06</span>
                         <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Redress Scheme</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Fraud & gaps</div></div>
@@ -356,7 +348,6 @@
                     <div onclick="seekToChapterEp2(1)" class="flex items-center gap-3 py-2.5 px-3 border border-transparent cursor-pointer transition-all group" onmouseover="this.style.background='rgba(124,106,170,0.05)';this.style.borderColor='rgba(124,106,170,0.2)'" onmouseout="this.style.background='';this.style.borderColor='transparent'"><span class="font-display text-sm w-5 shrink-0" style="color:#7c6aaa">02</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Samira</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Registrar recording</div></div><span class="text-[0.52rem] text-paper/18 shrink-0" style="color:rgba(124,106,170,0.4)">▶</span></div>
                     <div onclick="seekToChapterEp2(2)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">03</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">RJ — 11 Incidents</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Sex & Crime Squad</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
                     <div onclick="seekToChapterEp2(3)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">04</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Brazen Crime</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Vehicle attack & arson</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
-                    <div onclick="seekToChapterEp2(4)" class="flex items-center gap-3 py-2.5 px-3 border border-transparent cursor-pointer transition-all group" onmouseover="this.style.background='rgba(124,106,170,0.05)';this.style.borderColor='rgba(124,106,170,0.2)'" onmouseout="this.style.background='';this.style.borderColor='transparent'"><span class="font-display text-sm w-5 shrink-0" style="color:#7c6aaa">05</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Privacy Breach</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Aquatic centre leak</div></div><span class="text-[0.52rem] text-paper/18 shrink-0" style="color:rgba(124,106,170,0.4)">▶</span></div>
                     <div onclick="seekToChapterEp2(5)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-sage/5 border border-transparent hover:border-sage/20 cursor-pointer transition-all group"><span class="font-display text-sage text-sm w-5 shrink-0">06</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Redress Scheme</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Verification gap & fraud</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-sage transition-colors shrink-0">▶</span></div>
                     <div onclick="seekToChapterEp2(6)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-gold/5 border border-transparent hover:border-gold/20 cursor-pointer transition-all group"><span class="font-display text-gold text-sm w-5 shrink-0">07</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Kira & Kira</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Cocaine in, furniture out</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-gold transition-colors shrink-0">▶</span></div>
                     <div onclick="seekToChapterEp2(7)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">08</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Tasmania</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Strata litigation</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
@@ -1935,64 +1926,6 @@
 <!-- ══════════════════════════════════════
      PRIVACY BREACH SECTION
 ══════════════════════════════════════ -->
-<section id="privacy" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(124,106,170,0.04) 0%,transparent 50%)">
-    <div class="max-w-6xl mx-auto">
-        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14 pb-5 border-b border-paper/[0.06]">
-            <div>
-                <div class="flex items-center gap-3 mb-2"><div class="w-4 h-px bg-violet"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-violet">Privacy Breach — Episode 1</span></div>
-                <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">PHOTOGRAPHED.<br><span class="text-violet">LABELLED. LEAKED.</span></h2>
-                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">A council aquatic centre photographed me, annotated the image with a surveillance note, and a staff member leaked it. The Council dropped its own investigation. The Mayor called me a public nuisance. The Premier disagreed.</p>
-            </div>
-            <div class="max-w-xs">
-                <div class="flex flex-wrap gap-2">
-                    <span class="evidence-tag" style="color:#7c6aaa">📄 Council Letters — Verified</span>
-                    <span class="evidence-tag text-sage" style="color:#3d7a4a">✓ Staff Terminated</span>
-                    <span class="evidence-tag text-gold" style="color:#c98a10">⚠ Show Cause Issued</span>
-                </div>
-                <p class="text-[0.65rem] leading-relaxed text-paper/30 mt-3">Evidence files for this section appear in the Police Corruption / Oracle East vault above — including both council letters and the surveillance photo.</p>
-            </div>
-        </div>
-
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mb-16 reveal">
-            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-violet mb-1">0</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Charges upheld</div></div>
-            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-hot mb-1">45</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Day deadline</div><div class="text-[0.5rem] text-paper/18 mt-1">Council missed · then dropped it</div></div>
-            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-gold mb-1">1</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Show Cause notice</div><div class="text-[0.5rem] text-paper/18 mt-1">From Premier Crisafulli</div></div>
-            <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-sage mb-1">✓</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Staff terminated</div></div>
-        </div>
-
-        <div class="max-w-3xl">
-            <div class="story-chapter reveal" style="border-left-color:rgba(124,106,170,0.3)">
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE COUNCIL DROPPED<br><span class="text-violet">ITS OWN INVESTIGATION.</span></h3>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">I lodged a formal privacy complaint with the City of Gold Coast on 15 December 2024. The Council acknowledged it via Ref: Lawmaster 1192. Then discontinued it — asking me to supply the information their own systems already held. Premier Crisafulli issued a Show Cause notice. Staff were terminated. The complaint letters are available in the Police Accountability section above.</p>
-                <div class="border border-hot/20 p-6 mb-5" style="background:rgba(193,68,14,0.03)">
-                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Formal Demand — Retraction</div>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">Sunlight.Quest formally demands that Mayor Tom Tate retract his characterisation of Kosta Kondratenko as a "public nuisance." All charges against Mr Kondratenko have been dropped. A written retraction is requested. Deadline: 30 days from publication.</p>
-                </div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
-                    <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">City of Gold Coast</div>
-                        <div class="space-y-1.5"><div class="text-[0.6rem] text-paper/35">✗ Investigation discontinued</div><div class="text-[0.6rem] text-paper/35">✗ Mayor called complainant a nuisance</div><div class="text-[0.6rem] text-paper/35">✗ No accountability</div></div>
-                    </div>
-                    <div class="border border-sage/20 p-5" style="background:rgba(61,122,74,0.03)">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-2">Premier Crisafulli</div>
-                        <div class="space-y-1.5"><div class="text-[0.6rem] text-paper/35">✓ Show Cause notice issued</div><div class="text-[0.6rem] text-paper/35">✓ Staff involved terminated</div><div class="text-[0.6rem] text-paper/35">✓ Accountability via escalation</div></div>
-                    </div>
-                </div>
-
-                <!-- Tom Tate CCC report — no response -->
-                <div class="border-l-4 border-hot/40 pl-5 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
-                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">CCC Complaint — Tom Tate Corruption Report</div>
-                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">THE CCC RECEIVED A CORRUPTION REPORT ON TOM TATE.<br><span class="text-hot">AND DIDN'T EVEN REPLY.</span></h4>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A corruption report concerning Tom Tate was emailed to the Crime and Corruption Commission. The report did not include photographs. The CCC did not email back to request that photographs be added. They did not follow up in any form.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The minimum expectation when a corruption report is lodged with a government watchdog is that the watchdog reads it — and if the submission is incomplete, asks for what is missing. The CCC did neither. The silence is not merely a procedural shortcoming. It is evidence of an institution that is not taking the reports handed to it seriously.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">A body that exists to investigate corruption but does not respond to corruption reports is not a watchdog. It is a filing cabinet.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
 <!-- ══════════════════════════════════════
      REDRESS SCHEME
 ══════════════════════════════════════ -->

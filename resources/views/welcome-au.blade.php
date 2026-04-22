@@ -1237,6 +1237,13 @@
                 <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The leaked surveillance board from the Southport Aquatic Centre — a real photograph, a real annotations, a real distribution — constitutes a privacy breach under the Information Privacy Act 2009. My photograph was extracted from internal CCTV and placed on a staff noticeboard with handwritten annotations including terms designed to deny me entry and flag me to staff for surveillance. That board was then photographed and circulated. A formal privacy complaint was filed. The Gold Coast Council acknowledged it. Their own investigation ran for less than the legislated 45-business-day window before being discontinued — citing failure to receive further information from the complainant.</p>
                 <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The information needed to investigate — the photograph, the annotations, the identity of the staff member who circulated it — was entirely within the Council's own systems. The Council did not need me to provide it. They had it. The discontinuance was not a procedural outcome. It was a choice.</p>
 
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mb-8">
+                    <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-violet mb-1">0</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Charges upheld</div></div>
+                    <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-hot mb-1">45</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Day deadline</div><div class="text-[0.5rem] text-paper/18 mt-1">Council missed · then dropped it</div></div>
+                    <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-gold mb-1">1</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Show Cause notice</div><div class="text-[0.5rem] text-paper/18 mt-1">From Premier Crisafulli</div></div>
+                    <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-sage mb-1">✓</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Staff terminated</div></div>
+                </div>
+
                 <!-- The Brazilian -->
                 <div class="border-l-4 pl-5 mb-5" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">The Leaker — "The Brazilian"</div>
@@ -1297,6 +1304,31 @@
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Council Dropped It — Despite Having Everything They Needed</div>
                     <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The Gold Coast Council acknowledged my complaint in December 2024 and confirmed it was being investigated by the Chief Risk and Audit Office under the 45-business-day window set by the Information Privacy Act 2009. They subsequently discontinued the investigation — citing failure to receive further information from the complainant. An email was sent to the Council asking for the name of the staff member responsible. That email was not answered.</p>
                     <p class="text-[0.68rem] text-paper/50 leading-relaxed">The Council did not need my response to continue its own investigation. The photograph was from their CCTV. The noticeboard was in their building. The staff member was their employee. The decision to discontinue despite having access to all material evidence — and despite failing to respond to a direct inquiry — reflects a Council that is not interested in holding its own employees accountable for privacy violations against members of the public. The fact that the Council's website was then used to block access to this publication adds context to that disinterest.</p>
+                </div>
+
+                <!-- Formal demand + accountability comparison -->
+                <div class="border border-hot/20 p-6 mb-5" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Formal Demand — Retraction</div>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">Sunlight.Quest formally demands that Mayor Tom Tate retract his characterisation of Kosta Kondratenko as a "public nuisance." All charges against Mr Kondratenko have been dropped. A written retraction is requested. Deadline: 30 days from publication.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
+                    <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-2">City of Gold Coast</div>
+                        <div class="space-y-1.5"><div class="text-[0.6rem] text-paper/35">✗ Investigation discontinued</div><div class="text-[0.6rem] text-paper/35">✗ Mayor called complainant a nuisance</div><div class="text-[0.6rem] text-paper/35">✗ No accountability</div></div>
+                    </div>
+                    <div class="border border-sage/20 p-5" style="background:rgba(61,122,74,0.03)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-2">Premier Crisafulli</div>
+                        <div class="space-y-1.5"><div class="text-[0.6rem] text-paper/35">✓ Show Cause notice issued</div><div class="text-[0.6rem] text-paper/35">✓ Staff involved terminated</div><div class="text-[0.6rem] text-paper/35">✓ Accountability via escalation</div></div>
+                    </div>
+                </div>
+
+                <!-- CCC complaint — Tom Tate -->
+                <div class="border-l-4 border-hot/40 pl-5 mb-5" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">CCC Complaint — Tom Tate Corruption Report</div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">THE CCC RECEIVED A CORRUPTION REPORT ON TOM TATE.<br><span class="text-hot">AND DIDN'T EVEN REPLY.</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A corruption report concerning Tom Tate was emailed to the Crime and Corruption Commission. The report did not include photographs. The CCC did not email back to request that photographs be added. They did not follow up in any form.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The minimum expectation when a corruption report is lodged with a government watchdog is that the watchdog reads it — and if the submission is incomplete, asks for what is missing. The CCC did neither. The silence is not merely a procedural shortcoming. It is evidence of an institution that is not taking the reports handed to it seriously.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">A body that exists to investigate corruption but does not respond to corruption reports is not a watchdog. It is a filing cabinet.</p>
                 </div>
 
                 <!-- Evidence vault -->
