@@ -219,6 +219,10 @@
             <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.4 — Oracle East</div><div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Stalked & Assaulted</div><div class="text-[0.62rem] text-paper/30 mt-1">6 assailants · Police corruption recording</div></div>
         </button>
         <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/18 px-1 pt-3 pb-0.5">Adam's Story</div>
+        <button onclick="document.getElementById('changfa').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
+            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
+            <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.F — Changfa</div><div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Home Invasion · $2B Agent</div><div class="text-[0.62rem] text-paper/30 mt-1">Power cut · Garage entry · Bodie bribed</div></div>
+        </button>
         <button onclick="document.getElementById('rj').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
             <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.5 — RJ</div><div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Criminal Pattern — 7 Incidents</div></div>
@@ -1386,6 +1390,167 @@
         <div class="border-l-4 pl-6 py-1 reveal" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.03);padding:1.25rem 1.25rem 1.25rem 1.5rem">
             <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Pattern</div>
             <p class="text-[0.68rem] text-paper/45 leading-relaxed">Adam helped Samira get an AVO. She used the knowledge of how that system works to turn it against him. Her husband came back with a knife. Six officers attended and beat Adam instead of arresting the man with the knife — calling him a Jewish Faggot and denying him his medication. Her associate attacked her with an axe — and police want that man to say it was Adam's idea. She made antisemitic statements in open court and was charged for them. She is still free. She is still doing it. The property where this began has been listed for sale.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     CHANGFA REAL ESTATE — HOME INVASION
+══════════════════════════════════════ -->
+<section id="changfa" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(193,68,14,0.06) 0%,transparent 65%)">
+    <div class="max-w-6xl mx-auto">
+
+        <!-- Section header -->
+        <div class="reveal mb-10 pb-6 border-b border-paper/[0.06]">
+            <div class="flex items-start justify-between gap-6 flex-wrap">
+                <div>
+                    <div class="flex items-center gap-3 mb-3">
+                        <span class="text-[0.48rem] tracking-[0.22em] uppercase border border-hot/40 text-hot px-2 py-1">Chapter F — Home Invasion · Changfa Real Estate</span>
+                    </div>
+                    <h2 class="font-display leading-none tracking-wide mb-4" style="font-size:clamp(2rem,5vw,4rem)">THEY DISCONNECTED<br>THE POWER.<br><span class="text-hot">THEN WALKED IN.</span></h2>
+                    <p class="font-serif italic text-paper/50 text-lg leading-relaxed max-w-xl">"The Changfa agent cut the power from the external powerbox, entered through the garage, and left fingerprints. Police confirmed them. QCAT ordered the power back on. Bodie Chalmers saw it happen. They paid him $30,000 to stay quiet. He didn't get the full amount. Now he's talking."</p>
+                </div>
+                <div class="flex flex-col items-end gap-3 shrink-0">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/changfa/changfa_logo.png" alt="Changfa Real Estate" class="h-10 w-auto opacity-65" />
+                    <div class="text-[0.46rem] tracking-[0.14em] uppercase text-paper/22 text-right">$2 billion annual turnover<br>per Changfa website</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Key facts -->
+        <div class="reveal mb-10">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-px" style="background:rgba(193,68,14,0.18)">
+                <div class="p-5 text-center" style="background:#0c0804">
+                    <div class="font-display text-3xl text-hot mb-1">$2B</div>
+                    <div class="text-[0.52rem] tracking-[0.16em] uppercase text-paper/40 leading-snug">Changfa Turnover</div>
+                    <div class="text-[0.48rem] text-paper/22 mt-1">Per company website</div>
+                </div>
+                <div class="p-5 text-center" style="background:#0c0804">
+                    <div class="font-display text-3xl text-hot mb-1">$30K</div>
+                    <div class="text-[0.52rem] tracking-[0.16em] uppercase text-paper/40 leading-snug">Bribe to Bodie</div>
+                    <div class="text-[0.48rem] text-paper/22 mt-1">To stay quiet · Not fully paid</div>
+                </div>
+                <div class="p-5 text-center" style="background:#0c0804">
+                    <div class="font-display text-3xl text-gold mb-1">1</div>
+                    <div class="text-[0.52rem] tracking-[0.16em] uppercase text-paper/40 leading-snug">QCAT Order</div>
+                    <div class="text-[0.48rem] text-paper/22 mt-1">Q6970-25 · Power restored</div>
+                </div>
+                <div class="p-5 text-center" style="background:#0c0804">
+                    <div class="font-display text-3xl text-sage mb-1">✓</div>
+                    <div class="text-[0.52rem] tracking-[0.16em] uppercase text-paper/40 leading-snug">Prints Confirmed</div>
+                    <div class="text-[0.48rem] text-paper/22 mt-1">Police forensics · Powerbox</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Agent photo + intro -->
+        <div class="reveal flex gap-6 items-start mb-10">
+            <div class="shrink-0 w-24 border border-paper/[0.07] overflow-hidden" style="aspect-ratio:2/3;background:rgba(193,68,14,0.04)">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/changfa/changfa-agent.jpg" alt="Changfa Agent — Unnamed" class="w-full h-full object-cover object-top" />
+            </div>
+            <div>
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot/60 mb-2">Changfa Agent — Name Withheld Pending Charge</div>
+                <h3 class="font-display text-2xl tracking-wide mb-3 text-paper/85 leading-tight">THE AGENT WITHOUT A NAME.<br><span class="text-hot">THE FINGERPRINTS THAT REMAINED.</span></h3>
+                <p class="text-[0.68rem] leading-relaxed text-paper/45">A Changfa Real Estate agent — unnamed here pending the laying of formal charges — disconnected power to Adam Watson's property by accessing the external powerbox. This allowed entry through the garage. He did not expect police to dust the powerbox for fingerprints. They did. The prints confirmed his presence. He is being charged with home invasion.</p>
+            </div>
+        </div>
+
+        <!-- Incident 01 — Power / Garage -->
+        <div class="reveal story-chapter mb-8" style="border-left-color:rgba(193,68,14,0.35)">
+            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Incident 01 — The Home Invasion</div>
+            <h4 class="font-display text-xl tracking-wide mb-4 leading-tight">POWERBOX. GARAGE. FINGERPRINTS.</h4>
+            <p class="text-[0.68rem] leading-relaxed text-paper/50 mb-3">The Changfa agent accessed the external electricity powerbox at Adam Watson's property and disconnected the power supply. The loss of power disabled the garage entry system, allowing him to enter the property through the garage without authorisation.</p>
+            <p class="text-[0.68rem] leading-relaxed text-paper/50 mb-3">When police attended, they dusted the powerbox for fingerprints. The prints were confirmed as belonging to the Changfa agent. That forensic evidence formed the basis of the home invasion charge now being pursued against him. The fingerprint evidence was also presented at the subsequent QCAT hearing — where QCAT issued formal order Q6970-25, directing Changfa Real Estate to restore electricity to Adam's property immediately.</p>
+            <p class="text-[0.68rem] leading-relaxed text-paper/50">Following the QCAT order, a letter was sent to Jenny, the Changfa agent handling the matter, requesting power be restored as quickly as possible in compliance with the order. That correspondence is in the evidence vault below.</p>
+        </div>
+
+        <!-- Incident 02 — Milo bottle -->
+        <div class="reveal story-chapter mb-8" style="border-left-color:rgba(193,68,14,0.35)">
+            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Incident 02 — The Milo Bottle</div>
+            <h4 class="font-display text-xl tracking-wide mb-4 leading-tight">AN AVR LINK TO JUSTICE BECKETT.<br><span class="text-hot">A BOTTLE THROWN AT HIS HEAD.</span></h4>
+            <p class="text-[0.68rem] leading-relaxed text-paper/50 mb-3">On a separate occasion, the same Changfa agent entered Adam Watson's property without permission. At the time, Adam was connected via AVR link for a matter being heard before Justice Beckett. The agent entered and threw a Milo bottle at Adam's head.</p>
+            <p class="text-[0.68rem] leading-relaxed text-paper/50">The incident was witnessed. It occurred while Adam was actively appearing before the court. The act jeopardised the court matter and constituted an assault in circumstances designed to disrupt active legal proceedings before a sitting judge.</p>
+        </div>
+
+        <!-- Bodie Chalmers — bribed witness -->
+        <div class="reveal mb-10 border-l-4 border-hot pl-5 py-1">
+            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Bodie Chalmers — Witness · Bribed · Now Talking</div>
+            <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">$30,000. HE WATCHED IT HAPPEN.<br><span class="text-hot">HE DIDN'T GET THE FULL AMOUNT. NOW HE'S IN CUSTODY.</span></h4>
+            <p class="text-[0.68rem] leading-relaxed text-paper/45 mb-3">Bodie Chalmers was present and witnessed the home invasion by the Changfa agent. Shortly after, the Changfa agent paid Bodie Chalmers $30,000 to remain silent about what he had seen. Bodie accepted the arrangement — and stayed quiet.</p>
+            <p class="text-[0.68rem] leading-relaxed text-paper/45 mb-4">The payment was not made in full. Bodie Chalmers did not receive the complete agreed amount. He is now in custody, facing his own charges. From custody, he has agreed to talk. He has agreed to sign a formal statement describing what he witnessed — the disconnection of power, the entry through the garage, and the conduct of the Changfa agent inside the property.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The Arrangement</div>
+                    <div class="space-y-1.5">
+                        <div class="text-[0.58rem] text-paper/40">$30,000 paid to Bodie Chalmers</div>
+                        <div class="text-[0.58rem] text-paper/40">Condition: silence on the home invasion</div>
+                        <div class="text-[0.58rem] text-paper/40">Payment was not made in full</div>
+                    </div>
+                </div>
+                <div class="border border-sage/20 p-4" style="background:rgba(61,122,74,0.03)">
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-sage mb-2">Now in Custody — Now Talking</div>
+                    <div class="space-y-1.5">
+                        <div class="text-[0.58rem] text-paper/40">✓ Bodie Chalmers in custody</div>
+                        <div class="text-[0.58rem] text-paper/40">✓ Agreed to sign formal statement</div>
+                        <div class="text-[0.58rem] text-paper/40">✓ Will describe what he witnessed</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Evidence vault -->
+        <div class="reveal">
+            <div class="text-[0.48rem] tracking-[0.24em] uppercase text-paper/20 mb-4">Changfa Evidence — 5 Objects</div>
+            <div class="border border-paper/[0.07]" style="background:rgba(12,8,4,0.7)">
+
+                <div class="ev-file ef-gold" onclick="openMV('image-electricity-1')">
+                    <div class="ev-icon ev-img">📷</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">electricity_disconnected.jpg</div>
+                        <div class="ev-desc">Image · External powerbox · Electricity disconnected · Fingerprints confirmed by police forensics</div>
+                    </div>
+                    <span class="ev-cta" style="color:#c98a10">View ↗</span>
+                </div>
+
+                <div class="ev-file ef-gold" onclick="openMV('image-electricity-2')">
+                    <div class="ev-icon ev-img">📷</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">electricity_disconnected_2.jpg</div>
+                        <div class="ev-desc">Image · Powerbox secondary angle · Corroborating forensic photograph</div>
+                    </div>
+                    <span class="ev-cta" style="color:#c98a10">View ↗</span>
+                </div>
+
+                <div class="ev-file ef-hot" onclick="openMV('pdf-qcat-changfa')">
+                    <div class="ev-icon ev-pdf">PDF</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">QCAT_Decision_Q6970-25.pdf</div>
+                        <div class="ev-desc">PDF · QCAT Order Q6970-25 · Changfa directed to restore power · Issued on fingerprint evidence</div>
+                    </div>
+                    <span class="ev-cta text-hot">View ↗</span>
+                </div>
+
+                <div class="ev-file ef-gold" onclick="openMV('pdf-jenny-letter')">
+                    <div class="ev-icon ev-pdf" style="background:rgba(201,138,16,0.08);color:#c98a10">PDF</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">letter_to_jenny_redacted.pdf</div>
+                        <div class="ev-desc">PDF · Post-QCAT letter to Jenny (Changfa) · Requesting power restored per order Q6970-25 · Redacted</div>
+                    </div>
+                    <span class="ev-cta" style="color:#c98a10">View ↗</span>
+                </div>
+
+                <div class="ev-file ef-hot" onclick="openMV('image-changfa-agent')">
+                    <div class="ev-icon ev-img" style="background:rgba(193,68,14,0.1);color:#c1440e">📷</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">changfa-agent.jpg</div>
+                        <div class="ev-desc">Image · Changfa agent — unnamed pending charge · Subject of home invasion investigation</div>
+                    </div>
+                    <span class="ev-cta text-hot">View ↗</span>
+                </div>
+
+            </div>
         </div>
 
     </div>
@@ -3726,6 +3891,56 @@ function toggleVault(header) {
 var currentFile = null;
 
 var EVIDENCE = {
+    'image-electricity-1': {
+        type:'image',
+        title:'POWERBOX — ELECTRICITY DISCONNECTED (1)',
+        tag:'Changfa Real Estate · Home Invasion · Forensic Evidence',
+        meta:'Image · External powerbox · Power disconnected to enable garage entry',
+        desc:'Photograph of the external electricity powerbox at Adam Watson\'s property, documenting the disconnection of power by the Changfa agent. Police forensics confirmed the agent\'s fingerprints on the powerbox. This evidence was presented at the QCAT hearing (Q6970-25) which resulted in an order for immediate power restoration.',
+        src:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/changfa/electricity_disconnected.jpg',
+        filename:'electricity_disconnected.jpg',
+        redact:false
+    },
+    'image-electricity-2': {
+        type:'image',
+        title:'POWERBOX — ELECTRICITY DISCONNECTED (2)',
+        tag:'Changfa Real Estate · Home Invasion · Forensic Evidence',
+        meta:'Image · External powerbox · Secondary angle · Corroborating evidence',
+        desc:'Second photograph of the external powerbox documenting the disconnection. Corroborates the primary forensic evidence used in the home invasion charge and the QCAT application.',
+        src:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/changfa/electricity_disconnected_2.jpg',
+        filename:'electricity_disconnected_2.jpg',
+        redact:false
+    },
+    'pdf-qcat-changfa': {
+        type:'pdf',
+        title:'QCAT ORDER — Q6970-25',
+        tag:'QCAT · Changfa Real Estate · Power Restoration Order',
+        meta:'PDF · QCAT Decision Q6970-25 · Changfa directed to restore power immediately',
+        desc:'The formal QCAT order issued following the hearing in which fingerprint evidence from the powerbox was presented. QCAT ordered Changfa Real Estate to restore electricity to Adam Watson\'s property immediately. Reference: Q6970-25.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/changfa/QCAT_Decision_Q6970-25.pdf',
+        filename:'QCAT_Decision_Q6970-25.pdf',
+        pages:3
+    },
+    'pdf-jenny-letter': {
+        type:'pdf',
+        title:'LETTER TO JENNY — CHANGFA POWER RESTORATION',
+        tag:'Changfa Real Estate · Post-QCAT Correspondence · Redacted',
+        meta:'PDF · Letter to Jenny (Changfa agent) · Post-QCAT Order Q6970-25',
+        desc:'Email sent to Jenny, the Changfa real estate agent handling the matter, requesting power be restored to Adam Watson\'s property as quickly as possible following QCAT Order Q6970-25. Redacted.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/changfa/letter_to_jenny_redacted.pdf',
+        filename:'letter_to_jenny_redacted.pdf',
+        pages:2
+    },
+    'image-changfa-agent': {
+        type:'image',
+        title:'CHANGFA AGENT — UNNAMED PENDING CHARGE',
+        tag:'Changfa Real Estate · Home Invasion · Subject of Investigation',
+        meta:'Image · Changfa agent · Name withheld pending formal charge',
+        desc:'Photograph of the Changfa Real Estate agent who is the subject of the home invasion investigation. Name withheld pending the formal laying of charges. This agent disconnected electricity to Adam Watson\'s property and entered through the garage, leaving fingerprints confirmed by police forensics. A second incident involved the same agent entering without permission and throwing a Milo bottle at Adam\'s head while he was on an AVR court link before Justice Beckett.',
+        src:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/changfa/changfa-agent.jpg',
+        filename:'changfa-agent.jpg',
+        redact:false
+    },
     'image-cup': {
         type:'image',
         title:'THE CUP PHOTO',
