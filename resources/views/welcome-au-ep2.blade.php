@@ -936,12 +936,20 @@
                 </div>
                 <div class="tl-row grid grid-cols-[90px_1fr] gap-4 p-4">
                     <div class="text-center"><div class="text-[0.5rem] tracking-[0.15em] uppercase text-hot">03</div><div class="text-[0.45rem] text-paper/20 mt-0.5">Car Ambush</div></div>
-                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Samira and her husband corner Adam at his vehicle</div><div class="text-[0.55rem] text-paper/30 leading-relaxed mb-2">Both Samira and her husband confronted Adam Watson at his car. Her husband entered Adam's vehicle without permission.</div>
+                    <div><div class="text-[0.6rem] font-display tracking-wide text-paper/60 mb-0.5">Samira and Raz corner Adam at his vehicle — Samira enters car without permission, Raz attacks</div><div class="text-[0.55rem] text-paper/30 leading-relaxed mb-2">Samira Khalaj and Raz harassed Adam Watson at his car. Samira entered his vehicle without permission. When Adam attempted to regain autonomy of his vehicle, Raz attacked him. Both incidents recorded.</div>
                     <div class="ev-file ef-hot mt-2" onclick="openMV('video-samira-car')" style="max-width:380px">
                         <div class="ev-icon ev-video">▶</div>
                         <div class="ev-meta">
-                            <div class="ev-name">samira_khalaj_car_entry.mp4</div>
-                            <div class="ev-desc">Video · Samira's husband enters Adam's vehicle without permission</div>
+                            <div class="ev-name">samiravideo1.mp4</div>
+                            <div class="ev-desc">Video · Samira and Raz harass Adam · Samira enters car without permission</div>
+                        </div>
+                        <span class="ev-cta">Watch →</span>
+                    </div>
+                    <div class="ev-file ef-hot mt-1" onclick="openMV('video-samira-raz-attack')" style="max-width:380px">
+                        <div class="ev-icon ev-video">▶</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">samira-video-2.mp4</div>
+                            <div class="ev-desc">Video · Raz attacks Adam as he attempts to regain his vehicle</div>
                         </div>
                         <span class="ev-cta">Watch →</span>
                     </div></div>
@@ -4062,13 +4070,21 @@ var EVIDENCE = {
     },
     'video-samira-car': {
         type:'video',
-        title:'SAMIRA KHALAJ — ENTERS ADAM\'S VEHICLE WITHOUT PERMISSION',
-        tag:'Samira Khalaj · Coogee · Unauthorised Entry',
-        meta:'Video · Recorded footage · Samira Khalaj and husband confront Adam at his car',
-        desc:'Footage capturing the confrontation in which Samira Khalaj and her husband cornered Adam Watson at his vehicle. Samira\'s husband can be seen entering the vehicle without Adam\'s permission. This incident preceded Samira\'s sworn police statement alleging Adam punched her in the jaw — a statement her own doctor\'s findings do not support.',
-        isPlaceholder:true,
-        placeholderLabel:'FOOTAGE PENDING UPLOAD',
-        filename:'samira_khalaj_car_entry.mp4'
+        title:'SAMIRA & RAZ — HARASSING ADAM AT HIS CAR / SAMIRA ENTERS WITHOUT PERMISSION',
+        tag:'Samira Khalaj · Raz · Coogee · Unauthorised Entry',
+        meta:'Video · S3 Hosted · samiravideo1.mp4',
+        desc:'Footage capturing Samira Khalaj and Raz harassing Adam Watson at his vehicle. Samira can be seen entering Adam\'s car without his permission. This incident preceded Samira\'s sworn police statement alleging Adam punched her in the jaw — a statement her own doctor\'s findings do not support.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/samira_socrates/samiravideo1.mp4',
+        filename:'samiravideo1.mp4'
+    },
+    'video-samira-raz-attack': {
+        type:'video',
+        title:'RAZ ATTACKS ADAM — ATTEMPTS TO REGAIN HIS VEHICLE',
+        tag:'Raz · Samira Khalaj · Coogee · Physical Attack · Motor Vehicle',
+        meta:'Video · S3 Hosted · samira-video-2.mp4',
+        desc:'Footage capturing Raz attacking Adam Watson when Adam attempts to regain autonomy of his own motor vehicle. Raz is the partner of Samira Khalaj and is named as a respondent in the AVO Adam helped Samira obtain — yet here he is physically attacking the person who assisted her.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/samira_socrates/samira-video-2.mp4',
+        filename:'samira-video-2.mp4'
     },
     'image-rj-receipt-1': {
         type:'image',
