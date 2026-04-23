@@ -2794,12 +2794,21 @@
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">The OC is required to maintain an accurate strata roll and issue levy notices to lot owners at their correct address. Redirecting that correspondence to a committee chairman — without the lot owner's knowledge — is exactly the mechanism by which a debt can be allowed to grow silently, without the owner ever receiving a notice.</p>
 
                     <!-- Graham Gordon identification -->
-                    <div class="flex gap-4 items-start mb-5 border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
-                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/grahamgordon.jpg" alt="Graham Gordon" class="shrink-0 w-20 h-20 object-cover object-top border border-gold/30" />
-                        <div>
-                            <div class="text-[0.45rem] tracking-[0.18em] uppercase text-gold mb-1">Identified</div>
-                            <div class="font-display text-lg tracking-wide text-paper/80 leading-tight mb-1">GRAHAM GORDON</div>
-                            <div class="text-[0.55rem] text-paper/40 leading-relaxed">Strata Committee Chairman — Oxford on Crown, 30 Burelli Street, Wollongong. The lot owner's address on the strata roll was altered without consent so that levy notices were directed to Gordon rather than to PSR Crown Investments.</div>
+                    <div class="border border-gold/20 p-4 mb-5" style="background:rgba(201,138,16,0.03)">
+                        <div class="flex gap-4 items-start mb-4">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/grahamgordon.jpg" alt="Graham Gordon" class="shrink-0 w-20 h-20 object-cover object-top border border-gold/30" />
+                            <div>
+                                <div class="text-[0.45rem] tracking-[0.18em] uppercase text-gold mb-1">Identified</div>
+                                <div class="font-display text-lg tracking-wide text-paper/80 leading-tight mb-1">GRAHAM GORDON</div>
+                                <div class="text-[0.55rem] text-paper/40 leading-relaxed">Strata Committee Chairman — Oxford on Crown, 30 Burelli Street, Wollongong. The lot owner's address on the strata roll was altered without consent so that levy notices were directed to Gordon rather than to PSR Crown Investments.</div>
+                            </div>
+                        </div>
+                        <div class="border-t border-gold/10 pt-3">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold/60 mb-2">Board positions — Illawarra Strata &amp; Integrity Strata</div>
+                            <div class="flex items-center gap-5">
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/graham_gordon/illawara-strata.png" alt="Illawarra Strata" class="h-8 w-auto opacity-70" />
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/graham_gordon/integrity-strata.png" alt="Integrity Strata" class="h-8 w-auto opacity-70" />
+                            </div>
                         </div>
                     </div>
 
@@ -3277,9 +3286,17 @@
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">NCAT had confirmed that if the matter proceeded to trial, it would be directing the file to the Director of Public Prosecutions. That referral would have meant criminal exposure for the individuals behind the conduct documented on this site — the strata roll manipulation, the debt loading, the false levy notices redirected to Graham Gordon, the Tasmania forum-shopping strategy.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The lawyer for the Owners Corporation and Graham Gordon called Adam Watson. They were willing to settle — on condition that Adam dropped the Federal Court proceedings, the Local Court proceedings, and the NCAT proceedings in their entirety.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Adam agreed. The Consent Order for Dismissal was signed before Judicial Registrar Segal on 1 April 2026. The case number is TAD 6 of 2026. The payments are due by 15 April 2026.</p>
-            <div class="border-l-4 border-hot/40 pl-5" style="background:rgba(193,68,14,0.04);padding:0.9rem 1rem 0.9rem 1.25rem">
+            <div class="border-l-4 border-hot/40 pl-5 mb-5" style="background:rgba(193,68,14,0.04);padding:0.9rem 1rem 0.9rem 1.25rem">
                 <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-1.5">Adam Watson — Current Status</div>
                 <p class="text-[0.65rem] text-paper/45 leading-relaxed">Adam Watson has suffered a stroke affecting his right arm. He is continuing to pursue Robert Huang for the payments due under the Consent Order.</p>
+            </div>
+            <div class="border border-sage/25 p-5" style="background:rgba(61,122,74,0.04)">
+                <div class="flex items-center gap-3 mb-3">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/graham_gordon/illawara-strata.png" alt="Illawarra Strata" class="h-7 w-auto opacity-65" />
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-sage">Consequence of Proceedings</div>
+                </div>
+                <div class="font-display text-lg tracking-wide text-paper/80 leading-tight mb-2">ILLAWARRA STRATA IS BEING REPLACED.</div>
+                <p class="text-[0.62rem] text-paper/45 leading-relaxed">Illawarra Strata — the strata management company for 51 Crown Street, on whose board Graham Gordon sits — is now being replaced as the strata company for the property as a direct result of these proceedings.</p>
             </div>
         </div>
 
