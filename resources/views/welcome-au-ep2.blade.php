@@ -2202,7 +2202,29 @@
 
             <div class="border border-paper/[0.07] p-5 mb-8" style="background:rgba(193,68,14,0.03)">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Financial Record</div>
-                <p class="text-[0.68rem] text-paper/45 leading-relaxed">West Kira has a default judgement entered against him — $10,000. The debt has since been sold to a third-party collector. A default judgement is not a disputed debt. It is what happens when someone does not show up, does not pay, and does not respond. It is a matter of public record.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">West Kira has a Statement of Claim stamped by the Local Court for obtaining benefit by deception — a debt that includes the cost of deliberately destroying Adam Watson's glasses during the in-vehicle incident. The debt has since been onsold to a third-party collector. A stamped Statement of Claim is not an allegation. It is a court document. The conduct is on the record.</p>
+                <div class="evidence-vault mt-3">
+                    <div class="ev-header" onclick="toggleVault(this)">
+                        <div class="flex items-center gap-2">
+                            <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— West Kira · Statement of Claim · Local Court</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                            <span class="ev-toggle">▼</span>
+                        </div>
+                    </div>
+                    <div class="ev-body">
+                        <div class="ev-file ef-hot" onclick="openMV('pdf-soc-west-kira')">
+                            <div class="ev-icon ev-pdf">PDF</div>
+                            <div class="ev-meta">
+                                <div class="ev-name">statement_of_claim_west_kira.pdf</div>
+                                <div class="ev-desc">PDF · Statement of Claim · Local Court · Stamped · Obtaining benefit by deception · Debt onsold · Includes glasses damage</div>
+                            </div>
+                            <span class="ev-cta">View →</span>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Mick Gatto / Hit Solicitation -->
@@ -4155,6 +4177,15 @@ var EVIDENCE = {
         desc:'Recording of the confrontation at the Broadbeach disability centre — West Kira\'s father and Peter Demchenko (father of Aaliyah, Bodie Chalmers\'s girlfriend) arriving with two QPS officers on their payroll, West Kira\'s father invoking Mick Gatto\'s name as a threat, Adam Watson calling Mick Gatto directly in front of all parties, Gatto\'s warning to back off. Provided to AG Deb Frecklington. Both officers were stood down immediately.',
         duration: '~8:00',
         filename:'disability_centre_confrontation_RECORDING.wav'
+    },
+    'pdf-soc-west-kira': {
+        type:'pdf',
+        title:'STATEMENT OF CLAIM — WEST KIRA · LOCAL COURT',
+        tag:'Obtaining Benefit by Deception · Debt Onsold · Glasses Damage',
+        meta:'PDF · Statement of Claim · Local Court · Stamped',
+        desc:'Statement of Claim stamped by the Local Court against West Kira for obtaining benefit by deception. The debt includes the cost of Adam Watson\'s glasses, deliberately destroyed by West Kira during the in-vehicle incident captured on recording. The debt has since been onsold to a third-party debt collector. A stamped Statement of Claim is a court document, not an allegation — the conduct and the debt are on the record.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/statement_of_claim_west_kira.pdf',
+        filename:'statement_of_claim_west_kira.pdf'
     },
     'video-wk-glasses': {
         type:'video',

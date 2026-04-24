@@ -1455,6 +1455,51 @@
             </div>
         </div>
 
+            <!-- Judgement Order -->
+            <div class="border border-gold/20 p-5 mb-4 reveal" style="background:rgba(201,138,16,0.03)">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">Local Court — Judgement Order · Stamped</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">A Local Court Judgement Order — stamped — was entered against Samir Dhakal for <strong class="text-paper/70">$92,505</strong>. The debt was not repaid. The judgement documents obtaining benefit by deception: extracting financial value from a person who extended him trust, and leaving without repayment. This document was submitted to Minister Tony Burke as part of the court documentation supporting Samir Dhakal's deportation on character grounds — non-payment of debt as evidence of character unfitness for continued residency in Australia.</p>
+                <div class="grid grid-cols-3 gap-3 mb-4">
+                    <div class="bg-ink px-4 py-4 text-center">
+                        <div class="font-display text-2xl text-hot mb-1">$92,505</div>
+                        <div class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/28">Judgement Order</div>
+                        <div class="text-[0.42rem] text-paper/18 mt-1">Local Court · Stamped</div>
+                    </div>
+                    <div class="bg-ink px-4 py-4 text-center">
+                        <div class="font-display text-xl text-hot mb-1">UNPAID</div>
+                        <div class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/28">Debt Not Repaid</div>
+                        <div class="text-[0.42rem] text-paper/18 mt-1">Obtaining benefit by deception</div>
+                    </div>
+                    <div class="bg-ink px-4 py-4 text-center">
+                        <div class="font-display text-xl text-sage mb-1">DEPORTED</div>
+                        <div class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/28">Character Grounds</div>
+                        <div class="text-[0.42rem] text-paper/18 mt-1">Tony Burke · Immigration</div>
+                    </div>
+                </div>
+                <div class="evidence-vault">
+                    <div class="ev-header" onclick="toggleVault(this)">
+                        <div class="flex items-center gap-2">
+                            <span class="text-[0.48rem] tracking-[0.22em] uppercase text-gold">📁 Evidence Files</span>
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Local Court · Judgement Order · Samir Dhakal</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                            <span class="ev-toggle">▼</span>
+                        </div>
+                    </div>
+                    <div class="ev-body">
+                        <div class="ev-file ef-hot" onclick="openMV('pdf-judgement-samir')">
+                            <div class="ev-icon ev-pdf">PDF</div>
+                            <div class="ev-meta">
+                                <div class="ev-name">judgement_order_samir_dhakal.pdf</div>
+                                <div class="ev-desc">PDF · Local Court Judgement Order · Stamped · $92,505 · Obtaining benefit by deception · Character evidence for deportation</div>
+                            </div>
+                            <span class="ev-cta">View →</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         <!-- Stat strip -->
         <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mb-2 reveal">
             <div class="bg-ink px-6 py-6 text-center">
@@ -2780,6 +2825,15 @@ function toggleVault(header) {
 var currentFile = null;
 
 var EVIDENCE = {
+    'pdf-judgement-samir': {
+        type:'pdf',
+        title:'JUDGEMENT ORDER — SAMIR DHAKAL · LOCAL COURT',
+        tag:'$92,505 · Obtaining Benefit by Deception · Deportation Character Evidence',
+        meta:'PDF · Local Court Judgement Order · Stamped · Unpaid',
+        desc:'Local Court Judgement Order entered against Samir Dhakal for $92,505. The debt was not repaid. Samir Dhakal obtained benefit by deception — extracting financial value from Adam Watson and others who trusted him, then failing to repay. This stamped court document was submitted as part of the character evidence package provided to then-Immigration Minister Tony Burke in support of Samir Dhakal\'s deportation from Australia. Non-payment of a court-ordered debt was relied upon as evidence of character unfitness for continued residency.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/judgement_order_samir_dhakal.pdf',
+        filename:'judgement_order_samir_dhakal.pdf'
+    },
     'video-marc-barrow-dodgy': {
         type:'video',
         title:'CONFRONTATION — MARC BARROW & SECOND-IN-COMMAND',
