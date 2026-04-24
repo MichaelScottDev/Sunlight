@@ -1915,14 +1915,80 @@
                         <div class="pt-1">
                             <div class="text-[0.45rem] tracking-[0.22em] uppercase text-gold mb-2">Identified — Sky News Journalist</div>
                             <div class="font-display text-2xl tracking-wide text-paper/85 leading-tight mb-3">LAUREN FORBES</div>
-                            <div class="text-[0.62rem] text-paper/45 leading-relaxed mb-3">Arranged an interview with Kosta Kondratenko about the homelessness services gap on the Gold Coast. Instead of running the story, she pulled his criminal history and forwarded his QP-9 charge sheet to representatives at Hancock Prospecting.</div>
-                            <div class="text-[0.55rem] text-paper/28 leading-relaxed">The QP-9 — a non-public Queensland Police charge document — was never a basis for public reporting. Its onward transmission to a third party is a potential breach of the <em>Information Privacy Act 2009</em> (Qld). Referred to the CCC.</div>
+                            <div class="text-[0.62rem] text-paper/45 leading-relaxed mb-3">Arranged an interview with Kosta Kondratenko about the homelessness services gap on the Gold Coast. Instead of running the story, she pulled his criminal history and forwarded his QP-9 charge sheet — and tram fine prosecution documents — to representatives at Hancock Prospecting.</div>
+                            <div class="text-[0.55rem] text-paper/28 leading-relaxed">The QP-9 — a non-public Queensland Police charge document — was never a basis for public reporting. Its onward transmission to a third party is a potential breach of the <em>Information Privacy Act 2009</em> (Qld). The tram prosecution documents were equally non-public at the time of transmission. Both referred to the CCC.</div>
                         </div>
                     </div>
 
-                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE EMAIL TO HANCOCK PROSPECTING.<br><span class="text-gold">AND MY CHARGE SHEET.</span></h3>
+                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE EMAIL TO HANCOCK PROSPECTING.<br><span class="text-gold">MY CHARGE SHEET. AND MY TRAM FINES.</span></h3>
                     <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"A QP-9 is a Queensland Police charge sheet. It is not a public document. If a journalist has one, someone in Queensland Police gave it to them. That is an unauthorised disclosure of personal information. Sunlight.Quest has referred this to the CCC."</p>
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The email thread from the Sky News reporter — sent to Hancock Prospecting with my QP-9 attached — documents both the illegal disclosure of a police charge document and the framing of a homeless journalism source as unreliable based on a dropped charge. The Kangaroo Point McDonald's Public Nuisance charge was dropped by the DPP at first mention. A dropped charge is not a conviction.</p>
+
+                    <!-- Tram fines sub-section -->
+                    <div class="mt-6 border-t border-gold/10 pt-6">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-4">She Also Leaked — Tram Fine Prosecution Documents</div>
+                        <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">$2.84 FARE.<br><span class="text-gold">$19,096 MAXIMUM PENALTY. FORWARDED TO HANCOCK PROSPECTING.</span></h3>
+                        <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Lauren Forbes did not stop at the QP-9. She also obtained and forwarded prosecution documents relating to tram fine charges filed against Kosta Kondratenko — charges arising from two incidents on the Gold Coast G-Link tram line in June and July 2024, when Kosta was homeless and without the fare.</p>
+                        <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Three charges were laid. Two under s218C(1) of the Transport Operations (Passenger Transport) Regulation — fare evasion on 27 June and 13 July 2024. The disputed fare value: $2.84. The maximum combined penalty for those two charges: $12,644. The third charge is where the prosecution reveals its character: Kosta was charged under s127(5) of the Transport Operations (Passenger Transport) Act for failure to state his name — because when Officer Trevor Clinton demanded it, Kosta responded: <span class="font-display text-paper/70">"I request my right to privacy."</span> That statement is Charge 3. Maximum penalty: $6,452.</p>
+                        <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Combined maximum exposure: <strong class="text-paper/70">$19,096</strong> — against a $2.84 disputed fare. A ratio of 6,723:1. The prosecution brief, filed by James Kelvin Goldsworthy Tribe, Principal Legal Officer of TMR Prosecution Services, recorded homelessness as the reason Kosta was without a ticket — and concluded it did not constitute reasonable excuse. Case 465/26793 proceeded to Southport Magistrates Court, first mention hearing 9 September 2025.</p>
+                        <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">These prosecution documents were not obtained through any public proceeding at the time Lauren Forbes had them. Their transmission to Hancock Prospecting — a private corporation with a documented interest in discrediting Kosta Kondratenko — is a second, distinct disclosure of non-public legal proceedings for the purpose of character suppression.</p>
+
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
+                            <div class="bg-ink px-4 py-4 text-center">
+                                <div class="font-display text-2xl text-gold mb-1">$2.84</div>
+                                <div class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/28">Disputed Fare</div>
+                            </div>
+                            <div class="bg-ink px-4 py-4 text-center">
+                                <div class="font-display text-2xl text-hot mb-1">$19,096</div>
+                                <div class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/28">Maximum Penalty</div>
+                            </div>
+                            <div class="bg-ink px-4 py-4 text-center">
+                                <div class="font-display text-2xl text-hot mb-1">6,723:1</div>
+                                <div class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/28">Penalty / Fare Ratio</div>
+                            </div>
+                            <div class="bg-ink px-4 py-4 text-center">
+                                <div class="font-display text-2xl text-gold mb-1">3</div>
+                                <div class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/28">Charges Filed</div>
+                            </div>
+                        </div>
+
+                        <div class="border-l-4 border-gold/40 pl-5 mb-5" style="background:rgba(201,138,16,0.04);padding:1rem 1rem 1rem 1.25rem">
+                            <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold/70 mb-2">Charge 3 — Verbatim Basis · Officer Trevor Clinton · 13 July 2024</div>
+                            <p class="font-serif italic text-paper/60 text-base leading-relaxed">"I request my right to privacy."</p>
+                            <p class="text-[0.55rem] text-paper/35 mt-2">Six words said to an inspector who demanded Kosta's name. This statement became the basis for a charge carrying a $6,452 maximum penalty under s127(5) Transport Operations (Passenger Transport) Act.</p>
+                        </div>
+
+                        <div class="evidence-vault">
+                            <div class="ev-header" onclick="toggleVault(this)">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-[0.48rem] tracking-[0.22em] uppercase text-gold">📁 Evidence Files</span>
+                                    <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Tram Prosecution Docs · Case 465/26793</span>
+                                </div>
+                                <div class="flex items-center gap-3">
+                                    <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">2 files</span>
+                                    <span class="ev-toggle">▼</span>
+                                </div>
+                            </div>
+                            <div class="ev-body">
+                                <div class="ev-file ef-hot" onclick="openMV('pdf-tram-court-docs')">
+                                    <div class="ev-icon ev-pdf">PDF</div>
+                                    <div class="ev-meta">
+                                        <div class="ev-name">tram_fine_court_docs.pdf</div>
+                                        <div class="ev-desc">PDF · Court Documents · Case 465/26793 · Southport Magistrates Court · 3 charges, max $19,096</div>
+                                    </div>
+                                    <span class="ev-cta">View →</span>
+                                </div>
+                                <div class="ev-file ef-gold" onclick="openMV('pdf-tram-email')">
+                                    <div class="ev-icon ev-pdf">PDF</div>
+                                    <div class="ev-meta">
+                                        <div class="ev-name">tram_fine_court_doc_email.pdf</div>
+                                        <div class="ev-desc">PDF · Email · Court documents transmitted by Lauren Forbes to Hancock Prospecting</div>
+                                    </div>
+                                    <span class="ev-cta">View →</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
 
@@ -2920,6 +2986,24 @@ var EVIDENCE = {
         desc:'The direct confrontation video of RJ that circulated widely across the Gold Coast. Submitted to Hancock Prospecting — I was immediately blocked, confirming Adam Watson\'s connection to that network. RJ\'s associates began a sustained harassment campaign against Adam Watson in direct response to this video\'s circulation. The Oracle East assault followed.',
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/rj_confront.mp4',
         filename:'rj_confront.mp4'
+    },
+    'pdf-tram-court-docs': {
+        type:'pdf',
+        title:'TRAM FINE PROSECUTION — COURT DOCUMENTS',
+        tag:'Case 465/26793 · Southport Magistrates Court · 3 Charges · $19,096 Max Penalty',
+        meta:'PDF · Court Documents · TMR Prosecution Services · James K. Tribe',
+        desc:'Prosecution brief for three charges arising from tram incidents on the Gold Coast G-Link in June–July 2024. Charge 1: Fare evasion s218C(1) TOPTR — 27 June 2024, max $6,192. Charge 2: Fare evasion s218C(1) TOPTR — 13 July 2024, max $6,452. Charge 3: Failure to state name s127(5) TOPTA — 13 July 2024, max $6,452, arising from the statement "I request my right to privacy." Combined maximum penalty: $19,096 against a $2.84 disputed fare — a ratio of 6,723:1. The prosecution brief recorded homelessness as the reason Kosta was without a ticket and concluded it did not constitute reasonable excuse. Complainant: James Kelvin Goldsworthy Tribe, Principal Legal Officer, TMR Prosecution Services. These documents were transmitted by Lauren Forbes to representatives at Hancock Prospecting.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tram/tram_fine_court_docs.pdf',
+        filename:'tram_fine_court_docs.pdf'
+    },
+    'pdf-tram-email': {
+        type:'pdf',
+        title:'TRAM FINE DOCS — EMAIL TRANSMISSION',
+        tag:'Lauren Forbes · Sky News · Hancock Prospecting · Non-Public Documents',
+        meta:'PDF · Email Correspondence · Documents forwarded to Hancock Prospecting',
+        desc:'Email correspondence documenting the transmission of tram fine prosecution documents by Lauren Forbes to representatives at Hancock Prospecting. The documents were non-public at the time of transmission. The email establishes the chain of disclosure: prosecution documents obtained by a Sky News journalist and forwarded to a private corporation with a documented interest in discrediting Kosta Kondratenko.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tram/tram_fine_court_doc_email.pdf',
+        filename:'tram_fine_court_doc_email.pdf'
     },
     'video-mental-health-check': {
         type:'video',
