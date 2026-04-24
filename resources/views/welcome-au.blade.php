@@ -2021,29 +2021,70 @@
         <!-- Mental health tent visit -->
         <div class="story-chapter reveal mt-12" style="border-left-color:rgba(193,68,14,0.3)">
             <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THEY CAME TO THE TENT.<br><span class="text-hot">A "MENTAL HEALTH CHECK." WITH HANCOCK PROSPECTING'S QUESTIONS IN IT.</span></h3>
-            <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-5">"Police visited my tent after the viral video under the guise of a mental health check. Among the enquiries: had I ever sent an email to someone with an attachment depicting Steven Miles in a coffin. I had not. I reject any attempt to put me through a mental health lens to dismiss my political speech."</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Following the viral video, police attended Kosta Kondratenko's tent location framed as a mental health welfare check. During that visit, enquiries were made asking whether Kosta had ever sent an email to someone containing an attachment depicting Steven Miles with the suggestion that Kosta was going to put him in a coffin.</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Kosta denies sending any such email or attachment. The viral video stated clearly and on camera that Gina Rinehart has dirt on Steven Miles and Tom Tate — <span class="font-display text-paper/65">"to bury you."</span> That is a colloquial expression. It refers to political leverage and reputational exposure. It is political speech. Anyone who watched the video understands that. The suggestion that this constitutes a threat or indicates disturbed mental state is a deliberate mischaracterisation.</p>
+            <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-5">"Police visited my tent after the viral video under the guise of a mental health check. Among the enquiries: had I ever sent emails and videos to people stating I would kill them — including Premier Steven Miles and Mayor Tom Tate. I had not. I reject any attempt to put me through a mental health lens to dismiss my political speech."</p>
+
+            <!-- Prior visit context -->
+            <div class="border border-hot/20 p-4 mb-5" style="background:rgba(193,68,14,0.03)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">Context — 2 Days Earlier</div>
+                <p class="text-[0.65rem] text-paper/45 leading-relaxed">Two days before the welfare check, police had already attended Kosta Kondratenko's tent on a theft allegation tip. During that visit, Kosta was handcuffed. The welfare check was not an isolated or spontaneous event — it was the second police attendance at the same location within 48 hours.</p>
+            </div>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Following the viral video, police attended Kosta Kondratenko's tent location framed as a mental health welfare check. The visit was conducted under the banner of the <strong class="text-paper/65">Homeless Health Outreach Team (HHOT)</strong> — the formal name used to justify the intervention. Present during the visit was a mental health nurse named <strong class="text-paper/65">Tracy</strong>.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The allegations raised during the visit extended well beyond the Miles coffin email. Officers put to Kosta that he had sent emails and videos to people <strong class="text-paper/65">"stating you will kill them"</strong> — including alleged threats against Premier Steven Miles and Mayor Tom Tate. These are serious allegations. They were put to Kosta without a formal caution. No legal representation was present. No formal charge or investigation had been initiated. The allegations were communicated as the basis for a welfare check — not the formal investigative process they would require if taken seriously.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Critically, when questioned about the basis for these claims, officers acknowledged the information was <strong class="text-paper/65">second and third hand</strong>. They did not have the emails. They had not seen the videos. The intelligence had passed through multiple intermediaries before reaching the officers who were now presenting it to Kosta as fact. This is not how credible threat intelligence works. This is hearsay routed through a welfare framework to avoid the procedural requirements of a formal investigation.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Kosta denies sending any such email, attachment, or video. The viral video stated clearly and on camera that Gina Rinehart has dirt on Steven Miles and Tom Tate — <span class="font-display text-paper/65">"to bury you."</span> That is a colloquial expression. It refers to political leverage and reputational exposure. It is political speech. Anyone who watched the video understands that. The suggestion that this constitutes a threat or indicates disturbed mental state is a deliberate mischaracterisation.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Officers also raised a mental health diagnosis — more than 20 years old, from New South Wales — as justification for the current visit. A two-decade-old psychiatric record from another state is not a clinical basis for a 2024 welfare intervention. It is a file. It was used to frame Kosta's journalism as a symptom and to lend institutional weight to what was, in substance, a character inquiry conducted on behalf of a private corporation.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The same welfare visit also included enquiries from Hancock Prospecting regarding Kosta's mental health. A police welfare check is not a vehicle for a private corporation to conduct character research on a journalist. The co-presence of Hancock Prospecting's questions within a police mental health visit is not a coincidence. It is coordination.</p>
+
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
                 <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
                     <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">What Was Alleged / Insinuated</div>
                     <div class="space-y-2">
                         <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Email sent with attachment of Steven Miles in a coffin</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">"Sent emails and videos to people stating you will kill them" — including Premier Miles and Mayor Tate</p></div>
                         <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Questions about Kosta's mental state — sourced via Hancock Prospecting</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">20+ year old NSW mental health diagnosis raised as current clinical context</p></div>
                         <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Implicit framing: viral video = instability, not journalism</p></div>
                     </div>
                 </div>
                 <div class="border border-sage/20 p-5" style="background:rgba(61,122,74,0.03)">
                     <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-3">What Is Actually True</div>
                     <div class="space-y-2">
-                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">No such email was sent — denied</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">No such email, attachment, or video was sent — denied</p></div>
                         <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">"Bury you" in the viral video = political dirt / leverage. Colloquial. Unambiguous in context.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Officers admitted the intelligence was second and third hand — they did not have the emails</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">A 20-year-old interstate diagnosis is not a clinical basis for a current welfare intervention</p></div>
                         <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">This was a welfare visit used as an intelligence-gathering exercise for a private corporation</p></div>
                     </div>
                 </div>
             </div>
-            <div class="border-l-4 border-hot/50 pl-5" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
+
+            <!-- Procedural irregularity -->
+            <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.03)">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Procedural Irregularity</div>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Serious allegations — including death threats against a Premier and a Mayor — were put to Kosta without a formal caution</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">No legal representation was present or offered during questioning on those allegations</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">If these allegations were credible, standard procedure requires a formal investigation with evidence — not a casual welfare check on second-hand hearsay</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">The choice to frame this as a welfare check — not an investigation — suggests the purpose was not to pursue a crime but to generate a mental health record</p></div>
+                </div>
+            </div>
+
+            <!-- Educational visit verbatim quote -->
+            <div class="border-l-4 border-hot/40 pl-5 mb-5" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot/70 mb-2">Verbatim — Officer to Kosta, on camera</div>
+                <p class="font-serif italic text-paper/60 text-base leading-relaxed">"Take this as an educational visit as well... be mindful of how you do that and be mindful of how it could be interpreted in respects to crossing the line of it being an offense..."</p>
+                <p class="text-[0.55rem] text-paper/35 mt-2">A warning — not an investigation. Delivered to someone who had just been subjected to serious unsubstantiated allegations without caution or legal representation.</p>
+            </div>
+
+            <!-- Kosta "setup" quote -->
+            <div class="border-l-4 border-gold/50 pl-5 mb-5" style="background:rgba(215,175,71,0.04);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold/70 mb-2">On Camera — Kosta Kondratenko</div>
+                <p class="font-serif italic text-paper/60 text-base leading-relaxed">"The setup is in so when you watch this in four months time if there's some kind of bullshit criminal charge... this is why you need a camera."</p>
+                <p class="text-[0.55rem] text-paper/35 mt-2">Said on the day, on record. The camera was running. If the setup materialises, it is documented.</p>
+            </div>
+
+            <div class="border-l-4 border-hot/50 pl-5 mb-5" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
                 <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">On the Record</div>
                 <p class="text-[0.68rem] text-paper/50 leading-relaxed">Kosta Kondratenko refuses to be mischaracterised. He refuses to have his political speech reframed as a mental health event. He refuses to have his credibility attacked by routing corporate interests through a police welfare visit. The viral video was political speech. "Bury you" was political language. The visit to the tent was intimidation dressed as welfare. The record reflects all of it.</p>
             </div>
