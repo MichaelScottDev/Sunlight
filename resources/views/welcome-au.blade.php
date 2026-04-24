@@ -1875,6 +1875,56 @@
         </div>
     </div>
 
+    <!-- Ministerial escalation / Daniel Purdie / Robina Hospital -->
+    <div class="max-w-4xl mx-auto mt-10">
+        <div class="story-chapter reveal" style="border-left-color:rgba(193,68,14,0.35)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Ministerial Escalation</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">ESCALATED TO THE MINISTER FOR POLICE.<br><span class="text-hot">SERGEANT ROBERT WILKINSON SENT IN RESPONSE.</span></h3>
+            <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"I wrote to Daniel Purdie — Minister for Police — requesting a formal review of the assault. His office responded in writing to confirm Sergeant Robert Wilkinson had been sent to me in connection with my enquiry. The assault was documented at Robina Hospital. All three documents are on the record."</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Following the Oracle East assault, a formal written request for review was submitted directly to Daniel Purdie — Minister for Police. The email documented the assault, the failure to properly investigate, and the conduct of the officers involved. Robina Hospital medical records were obtained to substantiate the physical injuries sustained in the attack, providing clinical corroboration of a 6-on-1 assault.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The Minister for Police's office responded in writing, confirming that Sergeant Robert Wilkinson had been sent to Kosta Kondratenko in connection with the enquiry. That written confirmation is significant: it establishes a formal record that the escalation was received, logged, and actioned at ministerial level. The conduct documented throughout this section — directing an assault victim to the Child Protection Unit, failing to subpoena the assault location's strata, raising attacker-supplied justifications — occurred against the backdrop of a ministerial-level referral that produced a sergeant's visit and nothing further.</p>
+
+            <div class="evidence-vault mt-4">
+                <div class="ev-header" onclick="toggleVault(this)">
+                    <div class="flex items-center gap-2">
+                        <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Oracle East Assault · Ministerial Escalation · Medical Evidence</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">3 files</span>
+                        <span class="ev-toggle">▼</span>
+                    </div>
+                </div>
+                <div class="ev-body">
+                    <div class="ev-file ef-hot" onclick="openMV('pdf-oracle-purdie-email')">
+                        <div class="ev-icon ev-pdf">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">request_for_review_of_assault.pdf</div>
+                            <div class="ev-desc">PDF · Original email to Daniel Purdie (Minister for Police) · Formal request for review of Oracle East assault</div>
+                        </div>
+                        <span class="ev-cta">View →</span>
+                    </div>
+                    <div class="ev-file ef-hot" onclick="openMV('pdf-oracle-robina-medical')">
+                        <div class="ev-icon ev-pdf">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">robina_hospital_medical_records.pdf</div>
+                            <div class="ev-desc">PDF · Robina Hospital Medical Certificate · Clinical record of injuries sustained in 6-on-1 assault</div>
+                        </div>
+                        <span class="ev-cta">View →</span>
+                    </div>
+                    <div class="ev-file ef-gold" onclick="openMV('pdf-oracle-minister-response')">
+                        <div class="ev-icon ev-pdf">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">letter_from_minister_of_police.pdf</div>
+                            <div class="ev-desc">PDF · Letter from Daniel Purdie's office · Confirms Sergeant Robert Wilkinson visited in response to enquiry</div>
+                        </div>
+                        <span class="ev-cta">View →</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Child Protection Unit text / SMS investigation / Task Force Latro -->
     <div class="max-w-4xl mx-auto mt-16">
         <div class="story-chapter reveal" style="border-left-color:rgba(193,68,14,0.4)">
@@ -2825,6 +2875,33 @@ function toggleVault(header) {
 var currentFile = null;
 
 var EVIDENCE = {
+    'pdf-oracle-purdie-email': {
+        type:'pdf',
+        title:'REQUEST FOR REVIEW — ORACLE EAST ASSAULT · DANIEL PURDIE',
+        tag:'Minister for Police · Formal Review Request · Oracle East · 6-on-1 Assault',
+        meta:'PDF · Email correspondence · Sent to Daniel Purdie, Minister for Police',
+        desc:'Original email sent to Daniel Purdie — Minister for Police — formally requesting a review of the Oracle East assault. The email documents the assault, the failure of the investigating officers to properly investigate, and the conduct that has since been the subject of escalation. This email initiated the ministerial-level review that resulted in Sergeant Robert Wilkinson being dispatched in response.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/oracle_assault/request_for_review_of_assault.pdf',
+        filename:'request_for_review_of_assault.pdf'
+    },
+    'pdf-oracle-robina-medical': {
+        type:'pdf',
+        title:'ROBINA HOSPITAL MEDICAL CERTIFICATE — ORACLE EAST ASSAULT',
+        tag:'Medical Evidence · Robina Hospital · Injuries · 6-on-1 Assault',
+        meta:'PDF · Medical Certificate · Robina Hospital · Clinical record of assault injuries',
+        desc:'Robina Hospital medical certificate documenting the injuries sustained during the Oracle East assault — a 6-on-1 attack by individuals connected to RJ\'s network, following the circulation of the viral video. Clinical medical evidence corroborating the account of a sustained physical assault. Obtained following the assault and submitted as supporting documentation in the escalation to the Minister for Police.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/oracle_assault/robina_hospital_medical_records.pdf',
+        filename:'robina_hospital_medical_records.pdf'
+    },
+    'pdf-oracle-minister-response': {
+        type:'pdf',
+        title:'LETTER FROM MINISTER FOR POLICE — SGT ROBERT WILKINSON DISPATCHED',
+        tag:'Daniel Purdie · Minister for Police · Sergeant Robert Wilkinson · Ministerial Confirmation',
+        meta:'PDF · Letter from Daniel Purdie\'s office · Ministerial level response',
+        desc:'Letter from the office of Daniel Purdie, Minister for Police, confirming that Sergeant Robert Wilkinson was sent to Kosta Kondratenko in connection with the enquiry into the Oracle East assault. This written confirmation from a ministerial office establishes a formal record: the escalation was received, logged, and actioned. Sergeant Wilkinson\'s visit is the documented response to the assault review request. The conduct of the original investigating officers — directing the victim to the Child Protection Unit, failing to subpoena the assault location, volunteering attacker-supplied justifications — occurred against the backdrop of this ministerial referral.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/oracle_assault/letter_from_minister_of_police.pdf',
+        filename:'letter_from_minister_of_police.pdf'
+    },
     'pdf-judgement-samir': {
         type:'pdf',
         title:'JUDGEMENT ORDER — SAMIR DHAKAL · LOCAL COURT',
