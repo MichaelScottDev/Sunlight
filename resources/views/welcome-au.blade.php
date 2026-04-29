@@ -2090,6 +2090,49 @@
                     <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"A QP-9 is a Queensland Police charge sheet. It is not a public document. If a journalist has one, someone in Queensland Police gave it to them. That is an unauthorised disclosure of personal information. Sunlight.Quest has referred this to the CCC."</p>
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The email thread from the Sky News reporter — sent to Hancock Prospecting with my QP-9 attached — documents both the illegal disclosure of a police charge document and the framing of a homeless journalism source as unreliable based on a dropped charge. The Kangaroo Point McDonald's Public Nuisance charge was dropped by the DPP at first mention. A dropped charge is not a conviction.</p>
 
+                    <!-- Care Connect story + email thread -->
+                    <div class="border-t border-gold/10 pt-6 mb-6">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-4">The Story She Was Supposed to Cover</div>
+                        <h3 class="font-display text-xl tracking-wide mb-4 leading-tight">7 CARE CONNECT POSTERS IN THE BATHROOM.<br><span class="text-gold">THE WEBSITE HAS BEEN DOWN FOR OVER 1.5 YEARS.</span></h3>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-5">
+                            <div>
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/council_forbes/homeless-service-showers-small.jpg" alt="7 Care Connect posters in the bathroom at Nerang Street" class="w-full border border-paper/[0.08]" loading="lazy" />
+                                <div class="text-[0.45rem] text-paper/25 mt-1.5 leading-relaxed">7 Care Connect posters · Nerang Street bathrooms · Gold Coast homelessness services gap</div>
+                            </div>
+                            <div>
+                                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">I walked into the bathroom at Nerang Street and counted seven Care Connect crisis service posters on the walls. That is where you put homelessness outreach when you know where people in crisis are: in the bathrooms they are using to clean themselves. That was the story Lauren Forbes was supposed to run.</p>
+                                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">The Care Connect website has been down for over 1.5 years — independently verified on the Wayback Machine, with the outage beginning around the time I became homeless and started documenting the services gap. A crisis referral service whose website does not exist is not a safety net. It is theatre.</p>
+                                <div class="border border-gold/20 p-3" style="background:rgba(201,138,16,0.04)">
+                                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold/60 mb-2">Lauren Forbes — What She Said When She Called</div>
+                                    <p class="font-serif italic text-paper/60 text-sm leading-relaxed mb-1">"I hope you're dry!"</p>
+                                    <p class="text-[0.52rem] text-paper/30 leading-relaxed">She would call and say that. Not: when can we schedule the interview. Not: I'm still working on the story. "I hope you're dry." The story never ran. My charge sheet went to Hancock Prospecting instead.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="evidence-vault">
+                            <div class="ev-header" onclick="toggleVault(this)">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-[0.48rem] tracking-[0.22em] uppercase text-gold">📁 Evidence Files</span>
+                                    <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Lauren Forbes · Email Thread · Care Connect Story</span>
+                                </div>
+                                <div class="flex items-center gap-3">
+                                    <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                                    <span class="ev-toggle">▼</span>
+                                </div>
+                            </div>
+                            <div class="ev-body">
+                                <div class="ev-file ef-gold" onclick="openMV('pdf-lauren-forbes-email')">
+                                    <div class="ev-icon ev-pdf">PDF</div>
+                                    <div class="ev-meta">
+                                        <div class="ev-name">lauren_forbes_email_thread.pdf</div>
+                                        <div class="ev-desc">PDF · Email thread with Lauren Forbes · Sky News journalist · Care Connect story · Calls saying "I hope you're dry!"</div>
+                                    </div>
+                                    <span class="ev-cta">View →</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Tram fines sub-section -->
                     <div class="mt-6 border-t border-gold/10 pt-6">
                         <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-4">She Also Leaked — Tram Fine Prosecution Documents</div>
@@ -3197,6 +3240,15 @@ var EVIDENCE = {
         desc:'The direct confrontation video of RJ that circulated widely across the Gold Coast. Submitted to Hancock Prospecting — I was immediately blocked, confirming Adam Watson\'s connection to that network. RJ\'s associates began a sustained harassment campaign against Adam Watson in direct response to this video\'s circulation. The Oracle East assault followed.',
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/rj_confront.mp4',
         filename:'rj_confront.mp4'
+    },
+    'pdf-lauren-forbes-email': {
+        type:'pdf',
+        title:'EMAIL THREAD — LAUREN FORBES · SKY NEWS',
+        tag:'Lauren Forbes · Sky News · Care Connect · Homelessness Story · "I hope you\'re dry!"',
+        meta:'PDF · Email correspondence · Kosta Kondratenko & Lauren Forbes · Sky News journalist',
+        desc:'Email thread between Kosta Kondratenko and Lauren Forbes, Sky News journalist. Forbes had arranged to cover the homelessness services gap on the Gold Coast — specifically the 7 Care Connect crisis referral posters found in the Nerang Street bathrooms, and the fact that the Care Connect website has been down for over 1.5 years as verified on the Wayback Machine. Instead of running the story, Forbes pulled Kosta\'s criminal history and forwarded non-public documents to Hancock Prospecting. During the period of supposed reporting, she would call to say "I hope you\'re dry!" The story never ran.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/council_forbes/lauren_forbes_email_thread.pdf',
+        filename:'lauren_forbes_email_thread.pdf'
     },
     'pdf-tram-court-docs': {
         type:'pdf',
