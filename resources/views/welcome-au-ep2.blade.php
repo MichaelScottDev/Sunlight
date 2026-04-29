@@ -1581,6 +1581,20 @@
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.4)">
             <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Character Profile — RJ</span></div>
             <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">RJ.<br><span class="text-hot">CAR THIEF. AMBUSH ORGANISER. RACE WEAPON.</span></h3>
+
+            <!-- RJ photo ID card -->
+            <div class="flex gap-6 items-start mb-6 border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                <div class="shrink-0 border border-hot/30 overflow-hidden" style="width:130px;aspect-ratio:3/4">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/r_j_1.jpg" alt="RJ" class="w-full h-full object-cover object-top" />
+                </div>
+                <div class="pt-1">
+                    <div class="text-[0.45rem] tracking-[0.22em] uppercase text-hot mb-2">Identified</div>
+                    <div class="font-display text-2xl tracking-wide text-paper/85 leading-tight mb-3">RJ</div>
+                    <div class="text-[0.62rem] text-paper/45 leading-relaxed mb-2">Car thief. Ambush organiser. 13 documented incidents against Adam Watson. Subject of active investigation — Sex &amp; Crime Squad, Southport Police.</div>
+                    <div class="text-[0.55rem] text-paper/28 leading-relaxed">Charged: aggravated burglary, organised mob violence, indecent exposure. QPS appealing suspended sentence. Laptop with incriminating evidence held by Southport Police.</div>
+                </div>
+            </div>
+
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-5">
                 <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Documented Criminal Pattern</div>
