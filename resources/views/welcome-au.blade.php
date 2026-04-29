@@ -1300,19 +1300,34 @@
                     <div class="bg-ink px-6 py-6 text-center"><div class="stat-number text-4xl text-sage mb-1">✓</div><div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Staff terminated</div></div>
                 </div>
 
-                <!-- The Brazilian -->
+                <!-- Felipe Mattos -->
                 <div class="border-l-4 pl-5 mb-5" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
-                    <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">The Leaker — "The Brazilian"</div>
-                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">THE PERSON WHO CIRCULATED IT<br><span style="color:#7c6aaa">IS A FREELANCE PHOTOGRAPHER WHO HAD BEEN APPROACHED FOR WORK.</span></h4>
-                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The person responsible for photographing and distributing the surveillance board — referred to throughout this publication as "The Brazilian" — is a freelance photographer who contracts his work out independently. He had been approached by this publication for photography work. He is not an employee of the Aquatic Centre. The Gold Coast Council, in correspondence, stated that the name of the staff member involved had not been provided to this publication. That email is in the evidence vault below.</p>
-                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Regardless of whether the Council chose to provide the name: my photograph was taken from their CCTV, placed on a board by their staff, and distributed by someone working in their building. The Council's obligation to investigate that conduct did not depend on me identifying the person. They had the CCTV logs. They had the staff records. They had the building. They dropped the investigation anyway.</p>
-                    <div class="border border-paper/[0.07] p-4 mt-3" style="background:rgba(12,8,4,0.3)">
-                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/25 mb-2">Additional Allegations — Alleged · Not Formally Evidenced</div>
-                        <div class="space-y-2">
-                            <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">The Brazilian is alleged to be running an immigration scam — living with an Australian woman in circumstances that suggest the arrangement is designed to secure residency rather than a genuine domestic partnership.</p></div>
-                            <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">The Brazilian is alleged to have attempted to sell steroids to a friend of this publication for the purposes of weight loss — a transaction that would constitute an illegal supply of a controlled substance under Queensland law.</p></div>
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-4" style="color:#7c6aaa">Identified — The Leaker</div>
+
+                    <!-- Photo ID card -->
+                    <div class="flex gap-5 items-start mb-5 border p-4" style="border-color:rgba(124,106,170,0.2);background:rgba(12,8,4,0.2)">
+                        <div class="shrink-0 border overflow-hidden" style="width:120px;aspect-ratio:3/4;border-color:rgba(124,106,170,0.3)">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/privacy_leak/felipe_mattos.jpg" alt="Felipe Mattos" class="w-full h-full object-cover object-top" />
                         </div>
-                        <p class="text-[0.55rem] text-paper/25 mt-3 leading-relaxed">These allegations are published here because they are directly relevant to the character of the person responsible for the privacy breach. They have not been independently verified. This publication will update this section as further material becomes available.</p>
+                        <div class="pt-1">
+                            <div class="text-[0.45rem] tracking-[0.22em] uppercase mb-2" style="color:#7c6aaa">Identified · Aquatic Centre Staff · Leaker</div>
+                            <div class="font-display text-2xl tracking-wide text-paper/85 leading-tight mb-2">FELIPE MATTOS</div>
+                            <div class="text-[0.55rem] text-paper/45 leading-relaxed mb-2">820 Partner Visa holder. Freelance photographer. Former Southport Aquatic Centre staff member. Fired following the David Crisafulli administration's response to the privacy breach — after the Gold Coast Council initially refused to act.</div>
+                            <div class="text-[0.52rem] text-paper/28 leading-relaxed">Now a fitness instructor at UNSW. Previously: swim teacher and DJ. Featured in Gold Coast Bulletin — banned from a nightclub over neck tattoo. Told the Bulletin he is not a bikie and comes in peace.</div>
+                        </div>
+                    </div>
+
+                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">THE PERSON WHO CIRCULATED IT<br><span style="color:#7c6aaa">IS A FREELANCE PHOTOGRAPHER WHO HAD BEEN APPROACHED FOR WORK.</span></h4>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Felipe Mattos is the person responsible for photographing and distributing the surveillance board. He is a freelance photographer who contracts his work out independently — he had been approached by this publication for photography work. He is not a permanent employee of the Aquatic Centre. The Gold Coast Council, in correspondence, stated that the name of the staff member involved had not been provided to this publication. That email is in the evidence vault below.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">Regardless of whether the Council chose to provide the name: my photograph was taken from their CCTV, placed on a board by their staff, and distributed by someone working in their building. The Council's obligation to investigate did not depend on me identifying the person. They had the CCTV logs. They had the staff records. They had the building. They dropped the investigation anyway. When the Crisafulli administration took over and applied pressure, Felipe Mattos and his entire team were fired. The Council had been covering for them.</p>
+
+                    <div class="border p-4" style="border-color:rgba(124,106,170,0.2);background:rgba(12,8,4,0.25)">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase mb-3" style="color:#7c6aaa">Additional Allegations — On the Record</div>
+                        <div class="space-y-2.5">
+                            <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed"><strong class="text-paper/55">820 Visa / Relationship fraud:</strong> Felipe Mattos is on an 820 Partner Visa and is in a relationship with an Australian woman aged approximately 40. He has told Adam Watson directly that he is using the relationship to obtain citizenship — not because it is genuine. He is currently attending therapy about his relationship issues, with the apparent intention of being able to subpoena the therapist after obtaining citizenship to establish the relationship was not working — supporting any future visa challenge.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed"><strong class="text-paper/55">Ozempic supply:</strong> Felipe Mattos attempted to purchase Adam Watson's Ozempic medication so that he could sell it on the street for weight loss. Adam Watson has the text messages. Ozempic (semaglutide) is a prescription medication. Its onward sale without a licence constitutes illegal supply under Queensland law.</p></div>
+                        </div>
+                        <p class="text-[0.52rem] text-paper/22 mt-3 leading-relaxed">These matters are published on the basis of direct communications held by Adam Watson. This publication will update this section as further material becomes available.</p>
                     </div>
                 </div>
 
