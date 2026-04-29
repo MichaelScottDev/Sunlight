@@ -445,6 +445,62 @@
 
 
 <!-- ══════════════════════════════════════
+     QLD POLICE RECORD
+══════════════════════════════════════ -->
+<section id="record" class="py-16 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(201,138,16,0.04) 0%,transparent 60%)">
+    <div class="max-w-4xl mx-auto reveal">
+        <div class="flex items-center gap-3 mb-6"><div class="w-4 h-px bg-gold"></div><span class="text-[0.55rem] tracking-[0.3em] uppercase text-gold">Full Record — Nothing to Hide</span></div>
+        <h2 class="font-display leading-none tracking-wide mb-6" style="font-size:clamp(2rem,5vw,3.5rem)">MY FULL QLD POLICE RECORD.<br><span class="text-gold">PUBLISHED. EVERY CHARGE DROPPED OR DEFEATED.</span></h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+            <div>
+                <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">In my viral video, I listed my Queensland Police Statement on camera — openly, without qualification. Most people accused of anything move to suppress their history. I published mine. I have nothing to hide. Every single charge in my QLD Police record has been either dropped by the prosecution or defeated at hearing. Not one has resulted in a conviction.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/50">I am actively fighting to have all documents about me released — police files, internal notes, everything. This record is the starting point. Read it. Judge the charges. Then look at what happened to them.</p>
+            </div>
+            <div class="space-y-3">
+                <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">On the Record</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Disclosed voluntarily — in the viral video, on camera</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Every charge: dropped or defeated. Zero convictions.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Fighting for full release of all documents held about me</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Transparency is the point — this is what accountability looks like</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-l-4 border-gold/50 pl-5 mb-8" style="background:rgba(201,138,16,0.04);padding:1rem 1rem 1rem 1.25rem">
+            <p class="font-serif italic text-paper/60 text-base leading-relaxed">"Most people fight to keep their police record hidden. I put mine on camera. The difference between me and the people documented on this site is simple: I have nothing to fear from transparency. They do."</p>
+        </div>
+
+        <div class="evidence-vault">
+            <div class="ev-header" onclick="toggleVault(this)">
+                <div class="flex items-center gap-2">
+                    <span class="text-[0.48rem] tracking-[0.22em] uppercase text-gold">📁 Evidence Files</span>
+                    <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Queensland Person History · Full Police Record</span>
+                </div>
+                <div class="flex items-center gap-3">
+                    <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                    <span class="ev-toggle">▼</span>
+                </div>
+            </div>
+            <div class="ev-body">
+                <div class="ev-file ef-gold" onclick="openMV('pdf-qld-person-history')">
+                    <div class="ev-icon ev-pdf">PDF</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">qld_person_history.pdf</div>
+                        <div class="ev-desc">PDF · Queensland Person History · Full QLD Police Record · All charges dropped or defeated · Zero convictions</div>
+                    </div>
+                    <span class="ev-cta">View →</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
      SANDY TULISI / MY STORY SECTION
 ══════════════════════════════════════ -->
 <section id="story" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(193,68,14,0.03) 0%,transparent 40%)">
@@ -2875,6 +2931,15 @@ function toggleVault(header) {
 var currentFile = null;
 
 var EVIDENCE = {
+    'pdf-qld-person-history': {
+        type:'pdf',
+        title:'QUEENSLAND PERSON HISTORY — FULL POLICE RECORD',
+        tag:'QLD Police Record · All Charges Dropped or Defeated · Zero Convictions',
+        meta:'PDF · Queensland Person History · Voluntarily disclosed',
+        desc:'The full Queensland Police person history for Kosta Kondratenko — disclosed voluntarily, on camera, in the viral video. Every charge listed in this document has been either dropped by the prosecution or defeated at hearing. Not a single charge has resulted in a conviction. Published here as a direct statement: transparency is not a vulnerability. It is a position. The people documented elsewhere on this site have not taken the same position.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/qld_person_history+copy.pdf',
+        filename:'qld_person_history copy.pdf'
+    },
     'pdf-oracle-purdie-email': {
         type:'pdf',
         title:'REQUEST FOR REVIEW — ORACLE EAST ASSAULT · DANIEL PURDIE',
