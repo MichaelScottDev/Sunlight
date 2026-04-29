@@ -1826,6 +1826,116 @@
             </div>
         </div>
 
+        <!-- Certificate of Readiness -->
+        <div class="story-chapter reveal mb-8" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Procedural Weaponisation</span><span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">D236/24 · District Court of Queensland</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE CERTIFICATE OF READINESS.<br><span class="text-hot">ALTERED. REFILED. USED TO PREDETERMINE THE SCOPE OF AN APPEAL.</span></h3>
+            <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"The Director of Public Prosecutions doesn't run the Court — the Court runs it. I will only take directions directly from the Judge."</p>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The appeal of the Contravene Move-On Direction conviction — matter D236/24, District Court of Queensland, Southport — exposed a mechanism by which an administrative form was used to predetermine the scope of a judicial appeal before any judge had reviewed it. The instrument was the Certificate of Readiness: a filing required before a hearing date is set.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">On 14 October 2025, the DPP enquired about a hearing date. The registry disclosed that a Certificate of Readiness was outstanding — Kosta had never been notified one was required. That same evening, Kosta submitted his own version: full substantive appeal, new evidence sought (BWC footage, Coles CCTV, the Coles employee subpoenaed for cross-examination), estimated half a day. The following day, the DPP sent their version for countersignature. It described a fundamentally different proceeding.</p>
+
+            <!-- Two versions comparison -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+                <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">DPP's Version</div>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Scope: procedural fairness only</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">No new evidence sought</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">No witnesses — cross-examination not preserved</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Estimated time: 30 minutes</p></div>
+                    </div>
+                </div>
+                <div class="border border-sage/20 p-5" style="background:rgba(61,122,74,0.03)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-3">Kosta's Version</div>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Scope: substantive conviction + evidence + fairness</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">BWC footage, Coles CCTV, Coles employee testimony sought</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Coles employee subpoenaed and called for cross-examination</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Estimated time: 4 hours (half day)</p></div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Signing the DPP's version would have converted a substantive appeal — challenging the conviction itself, seeking new evidence, and preserving cross-examination rights — into a brief 30-minute procedural review. The two documents described fundamentally different proceedings. Countersigning the DPP's version would have forfeited rights that had not yet been adjudicated by any judge.</p>
+
+            <!-- The Alteration -->
+            <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Alteration — 16 October 2025</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Kosta's signed Certificate of Readiness was returned by the DPP with handwritten alterations. The substantive sections — the appeal scope, the new evidence, the cross-examination request — were crossed out with a notation: <strong class="text-paper/65">"Replacement to be Lodged."</strong> The registry declined to file the altered document. Kosta's own signed version was now unfiliable. The DPP had altered a self-represented party's signed document and prevented its filing without creating any formal dispute mechanism.</p>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">17 Oct: Attended in person — told digital signatures unacceptable, wet signature required. Issued formal notice requesting judicial intervention.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">21 Oct: DPP resent their version. Signed and returned by email. Registry declined again — physical hard copy required.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">22 Oct: Wrote directly to the District Court Registrar requesting urgent judicial directions.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">23 Oct: Judge requested electronic copies — bypassed hard-copy requirement. 24 Oct: matter listed for 30 October, Courtroom 17, Webex permitted.</p></div>
+                </div>
+            </div>
+
+            <!-- Information gap -->
+            <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.03)">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">The Information Gap — When It Was Remitted</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">At the 30 October mention, the Judge reviewed the full paper trail — including the DPP's alterations and both competing versions. Addressing prosecutor Karyn Land directly, the Judge remarked that given the likely penalty and the cost to the state, the matter may not be worth pursuing. The matter was remitted back to the Magistrates Court.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">When the matter was re-listed in the Magistrates Court, no mention was made of the District Court proceedings, the remittal order, or the Judge's bench comment about proportionality. The Magistrate proceeded as if the matter was fresh. It was Adam Watson — attending with Kosta — who raised the District Court Judge's comment. Once that judicial record was introduced, the prosecution dropped the charge. The conviction was not reimposed. A District Court Judge's direction had to be carried into the lower court by the defendant himself.</p>
+            </div>
+
+            <div class="border-l-4 border-hot/50 pl-5 mb-5" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Structural Issues — Sunlight.Quest Raises</div>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed"><strong class="text-paper/55">Certificate design:</strong> The DPP used an administrative form to predetermine appeal scope before any judicial review.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed"><strong class="text-paper/55">Document alteration:</strong> A prosecutor crossed out sections of a self-represented party's signed document and marked it for replacement — preventing filing without a formal dispute mechanism.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed"><strong class="text-paper/55">Filing loop:</strong> Technical filing requirements exploited over three weeks to exhaust the appellant.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed"><strong class="text-paper/55">Information transfer failure:</strong> The District Court Judge's bench comment did not travel with the remitted matter. The charge nearly proceeded to reimposition without the appellate history.</p></div>
+                </div>
+            </div>
+
+            <!-- Evidence vault: Certificate of Readiness -->
+            <div class="evidence-vault mt-4">
+                <div class="ev-header" onclick="toggleVault(this)">
+                    <div class="flex items-center gap-2">
+                        <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Certificate of Readiness · D236/24 · Procedural Weaponisation</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">4 files</span>
+                        <span class="ev-toggle">▼</span>
+                    </div>
+                </div>
+                <div class="ev-body">
+                    <div class="ev-file ef-hot" onclick="openMV('pdf-cor-alteration')">
+                        <div class="ev-icon ev-pdf">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">certificate_of_readiness_alteration.pdf</div>
+                            <div class="ev-desc">PDF · Kosta's signed certificate returned by DPP with handwritten alterations · Substantive sections crossed out · "Replacement to be Lodged"</div>
+                        </div>
+                        <span class="ev-cta">View →</span>
+                    </div>
+                    <div class="ev-file ef-hot" onclick="openMV('pdf-cor-dpp')">
+                        <div class="ev-icon ev-pdf">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">certificate_of_readiness_dpp_version.pdf</div>
+                            <div class="ev-desc">PDF · DPP's version · Narrowed to procedural fairness only · 30 minutes · No witnesses · No new evidence</div>
+                        </div>
+                        <span class="ev-cta">View →</span>
+                    </div>
+                    <div class="ev-file ef-sage" onclick="openMV('pdf-cor-kosta')">
+                        <div class="ev-icon ev-pdf">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">certificate_of_readiness.pdf</div>
+                            <div class="ev-desc">PDF · Kosta's version · Full substantive appeal · BWC + CCTV + Coles employee cross-examination · Half day estimated</div>
+                        </div>
+                        <span class="ev-cta">View →</span>
+                    </div>
+                    <div class="ev-file ef-violet" onclick="openMV('pdf-cor-filed')">
+                        <div class="ev-icon ev-pdf">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">Certificate of readiness.pdf</div>
+                            <div class="ev-desc">PDF · Court-filed Certificate of Readiness · D236/24 · District Court of Queensland Southport</div>
+                        </div>
+                        <span class="ev-cta">View →</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Coles / offer to pay -->
         <div class="story-chapter reveal mb-8" style="border-left-color:rgba(61,122,74,0.3)">
             <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THEY WERE OFFERED PAYMENT.<br><span class="text-sage">COLES REFUSED.</span></h3>
@@ -3033,6 +3143,42 @@ var EVIDENCE = {
         desc:'Local Court Judgement Order entered against Samir Dhakal for $92,505. The debt was not repaid. Samir Dhakal obtained benefit by deception — extracting financial value from Adam Watson and others who trusted him, then failing to repay. This stamped court document was submitted as part of the character evidence package provided to then-Immigration Minister Tony Burke in support of Samir Dhakal\'s deportation from Australia. Non-payment of a court-ordered debt was relied upon as evidence of character unfitness for continued residency.',
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/judgement_order_samir_dhakal.pdf',
         filename:'judgement_order_samir_dhakal.pdf'
+    },
+    'pdf-cor-alteration': {
+        type:'pdf',
+        title:'CERTIFICATE OF READINESS — DPP ALTERATIONS',
+        tag:'D236/24 · DPP Handwritten Alterations · "Replacement to be Lodged"',
+        meta:'PDF · Kosta\'s signed certificate returned with DPP alterations · 16 October 2025',
+        desc:'Kosta Kondratenko\'s signed Certificate of Readiness, returned by the DPP with handwritten alterations crossing out the substantive sections of the appeal — scope, new evidence sought, cross-examination — with a notation "Replacement to be Lodged." The registry declined to file the altered document, making Kosta\'s own signed version unfileable. No formal dispute mechanism was created.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/contravene_move_on/certificate_of_readiness_alteration.pdf',
+        filename:'certificate_of_readiness_alteration.pdf'
+    },
+    'pdf-cor-dpp': {
+        type:'pdf',
+        title:'CERTIFICATE OF READINESS — DPP VERSION',
+        tag:'D236/24 · DPP Version · Procedural Fairness Only · 30 Minutes · No Witnesses',
+        meta:'PDF · DPP\'s Certificate of Readiness · Sent for countersignature 15 October 2025',
+        desc:'The DPP\'s version of the Certificate of Readiness for D236/24, sent to Kosta Kondratenko for countersignature on 15 October 2025. This version narrowed the appeal scope to procedural fairness only, estimated 30 minutes, sought no new evidence, called no witnesses, and did not preserve cross-examination rights — describing a fundamentally different proceeding from Kosta\'s version. Signing it would have converted a substantive appeal into a brief procedural review.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/contravene_move_on/certificate_of_readiness_dpp_version.pdf',
+        filename:'certificate_of_readiness_dpp_version.pdf'
+    },
+    'pdf-cor-kosta': {
+        type:'pdf',
+        title:'CERTIFICATE OF READINESS — APPELLANT\'S VERSION',
+        tag:'D236/24 · Kosta\'s Version · Full Substantive Appeal · BWC + CCTV + Cross-examination',
+        meta:'PDF · Kosta\'s Certificate of Readiness · Submitted 14 October 2025',
+        desc:'Kosta Kondratenko\'s version of the Certificate of Readiness submitted on 14 October 2025 — the same evening he was first notified one was outstanding. Full substantive appeal: conviction challenged, BWC footage sought, Coles CCTV sought, Coles employee subpoenaed for cross-examination. Estimated half day. This version was subsequently returned with DPP handwritten alterations crossing out the substantive sections.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/contravene_move_on/certificate_of_readiness.pdf',
+        filename:'certificate_of_readiness.pdf'
+    },
+    'pdf-cor-filed': {
+        type:'pdf',
+        title:'CERTIFICATE OF READINESS — COURT FILED',
+        tag:'D236/24 · District Court Queensland Southport · Court-filed version',
+        meta:'PDF · Certificate of Readiness · D236/24 · District Court of Queensland Southport',
+        desc:'The Certificate of Readiness as filed with the District Court of Queensland, Southport for matter D236/24 — Kondratenko v Commissioner of Police. After a three-week procedural loop involving rejected digital signatures, DPP alterations, and a direct approach to the District Court Registrar, a Judge intervened and bypassed the hard-copy requirement, permitting electronic copies. The matter was listed for mention on 30 October 2025, Courtroom 17, Webex permitted.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/contravene_move_on/Certificate+of+readiness.pdf',
+        filename:'Certificate of readiness.pdf'
     },
     'video-marc-barrow-dodgy': {
         type:'video',
