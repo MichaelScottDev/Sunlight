@@ -3705,7 +3705,7 @@ function showToast(msg) {
 // ── SCROLL REVEAL ──
 var obs = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) { if (e.isIntersecting) e.target.classList.add('in'); });
-}, { threshold: 0.07 });
+}, { threshold: 0 });
 document.querySelectorAll('.reveal').forEach(function (el) { obs.observe(el); });
 </script>
 <section id="episodes" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]">
@@ -4606,7 +4606,7 @@ function handleTipoff(e) {
 // ── SCROLL REVEAL ──
 var obs = new IntersectionObserver(function(entries){
     entries.forEach(function(e){if(e.isIntersecting)e.target.classList.add('in');});
-},{threshold:0.08});
+},{threshold:0});
 document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el);});
 </script>
 
