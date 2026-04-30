@@ -180,14 +180,34 @@
                     <span class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/22">Episode 3 — Chapters</span>
                 </div>
                 <div class="flex flex-wrap gap-0">
-                    <!-- SECTION PLACEHOLDER — replace with real chapter links -->
-                    <div class="flex items-center gap-2 px-4 py-3 opacity-30">
+                    <a href="#tursa" class="flex items-center gap-2 px-4 py-3 hover:bg-paper/[0.03] transition-colors border-r border-paper/[0.06]">
                         <span class="font-display text-[0.62rem]" style="color:#c98a10">01</span>
                         <div>
-                            <div class="text-[0.6rem] text-paper/55 leading-none mb-0.5">Chapters coming soon</div>
-                            <div class="text-[0.47rem] text-paper/22 tracking-wider">In production</div>
+                            <div class="text-[0.6rem] text-paper/55 leading-none mb-0.5">Workforce Australia</div>
+                            <div class="text-[0.47rem] text-paper/22 tracking-wider">Tursa · MSP</div>
                         </div>
-                    </div>
+                    </a>
+                    <a href="#ai-narrative" class="flex items-center gap-2 px-4 py-3 hover:bg-paper/[0.03] transition-colors border-r border-paper/[0.06]">
+                        <span class="font-display text-[0.62rem]" style="color:#7c6aaa">02</span>
+                        <div>
+                            <div class="text-[0.6rem] text-paper/55 leading-none mb-0.5">AI Narrative</div>
+                            <div class="text-[0.47rem] text-paper/22 tracking-wider">The machine account</div>
+                        </div>
+                    </a>
+                    <a href="#lecc" class="flex items-center gap-2 px-4 py-3 hover:bg-paper/[0.03] transition-colors border-r border-paper/[0.06]">
+                        <span class="font-display text-[0.62rem] text-hot">03</span>
+                        <div>
+                            <div class="text-[0.6rem] text-paper/55 leading-none mb-0.5">LECC Complaint</div>
+                            <div class="text-[0.47rem] text-paper/22 tracking-wider">Coogee · SC Agnew</div>
+                        </div>
+                    </a>
+                    <a href="#jadhav" class="flex items-center gap-2 px-4 py-3 hover:bg-paper/[0.03] transition-colors">
+                        <span class="font-display text-[0.62rem]" style="color:#c98a10">04</span>
+                        <div>
+                            <div class="text-[0.6rem] text-paper/55 leading-none mb-0.5">Locked Out</div>
+                            <div class="text-[0.47rem] text-paper/22 tracking-wider">Jadhav · Q8092-26</div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -203,10 +223,35 @@
             </div>
             <div class="px-5 py-4 border-b border-paper/[0.06] flex-1">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">Episode Chapters</div>
-                <!-- CHAPTER LIST PLACEHOLDER — add entries here as sections are built -->
-                <div class="border border-paper/[0.06] p-4" style="background:rgba(201,138,16,0.03)">
-                    <div class="text-[0.48rem] tracking-[0.2em] uppercase blink mb-1" style="color:#c98a10">⬤ In Production</div>
-                    <div class="text-[0.58rem] text-paper/28 leading-relaxed">Chapters being prepared. Evidence being compiled.</div>
+                <div class="space-y-0.5">
+                    <a href="#tursa" class="flex items-center gap-3 p-2 hover:bg-paper/[0.03] transition-colors">
+                        <span class="font-display text-[0.5rem]" style="color:#c98a10">01</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">Workforce Australia</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Tursa Employment &amp; Training · MSP</div>
+                        </div>
+                    </a>
+                    <a href="#ai-narrative" class="flex items-center gap-3 p-2 hover:bg-paper/[0.03] transition-colors">
+                        <span class="font-display text-[0.5rem]" style="color:#7c6aaa">02</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">The AI Narrative</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Machine account · Pattern recognition</div>
+                        </div>
+                    </a>
+                    <a href="#lecc" class="flex items-center gap-3 p-2 hover:bg-paper/[0.03] transition-colors">
+                        <span class="font-display text-[0.5rem] text-hot">03</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">LECC Complaint</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Coogee · SC Agnew · EXT2026-0413</div>
+                        </div>
+                    </a>
+                    <a href="#jadhav" class="flex items-center gap-3 p-2 hover:bg-paper/[0.03] transition-colors">
+                        <span class="font-display text-[0.5rem]" style="color:#c98a10">04</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">Locked Out &amp; Still Paying</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Jadhav · Q8092-26 · Coastal Property</div>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="px-5 py-5">
@@ -1176,6 +1221,44 @@
 
             </div>
         </div>
+
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     SECTION — id="jadhav"
+══════════════════════════════════════ -->
+<section id="jadhav" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(201,138,16,0.05) 0%,rgba(193,68,14,0.03) 60%,transparent 100%)">
+    <div class="max-w-4xl mx-auto">
+
+        <div class="flex items-center gap-3 mb-3 reveal">
+            <span class="text-[0.48rem] tracking-[0.22em] uppercase border px-2 py-1 text-gold border-gold/40">QCAT Q8092-26 · Tenancy Accountability · Gold Coast</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-3 leading-tight reveal">LOCKED OUT.<br><span class="text-gold">AND STILL PAYING.</span></h2>
+        <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-8 reveal">A married couple driven from their Surfers Paradise apartment by written harassment and a police call — then billed for months of rent they couldn't use, on a bond they never controlled. Legal consultant: Adam Watson.</p>
+
+        <!-- Stats strip -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-px mb-10 reveal" style="background:rgba(245,234,212,0.06)">
+            <div class="py-5 px-4" style="background:rgb(12,8,4)">
+                <div class="font-display text-3xl md:text-4xl mb-1" style="color:#c98a10">~$9K</div>
+                <div class="text-[0.48rem] tracking-[0.18em] uppercase text-paper/30">Rent paid while locked out</div>
+            </div>
+            <div class="py-5 px-4" style="background:rgb(12,8,4)">
+                <div class="font-display text-3xl md:text-4xl mb-1 text-hot">$1,700</div>
+                <div class="text-[0.48rem] tracking-[0.18em] uppercase text-paper/30">Bond never lodged in their names</div>
+            </div>
+            <div class="py-5 px-4" style="background:rgb(12,8,4)">
+                <div class="font-display text-3xl md:text-4xl mb-1" style="color:#c98a10">$588</div>
+                <div class="text-[0.48rem] tracking-[0.18em] uppercase text-paper/30">Invoice agency admits isn't theirs</div>
+            </div>
+            <div class="py-5 px-4" style="background:rgb(12,8,4)">
+                <div class="font-display text-3xl md:text-4xl mb-1 text-hot">2+</div>
+                <div class="text-[0.48rem] tracking-[0.18em] uppercase text-paper/30">Tenancies bond held informally</div>
+            </div>
+        </div>
+
+        <!-- CHAPTERS GO HERE -->
 
     </div>
 </section>
