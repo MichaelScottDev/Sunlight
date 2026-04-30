@@ -1396,7 +1396,20 @@
             </div>
         </div>
 
-        <!-- VERDICT + VAULT GO HERE -->
+        <!-- Verdict block -->
+        <div class="reveal mb-10 p-6 md:p-8" style="background:rgba(193,68,14,0.08);border:1px solid rgba(193,68,14,0.2)">
+            <div class="text-[0.5rem] tracking-[0.22em] uppercase text-hot mb-4">What This Case Is Really About</div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight text-paper/80">THE BOND. THE HARASSMENT. THE INVOICE. THE AGENCY THAT CALLED IT ALL A PRIVATE MATTER.</h3>
+            <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">On its surface this is a tenancy dispute. Two tenants harassed out of their home, a bond withheld in another person's name, an invoice they didn't owe used as a ransom for their exit. But the pattern across two consecutive tenancies — bond money collected privately, held informally, disbursed at the controlling tenant's discretion — raises questions that go beyond one dispute between one set of co-tenants.</p>
+            <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">A licensed real estate agency was the named agent on this lease. Its obligations under the Residential Tenancies and Rooming Accommodation Act 2008 (Qld) were clear. Coastal Property Agents, by its own written admissions, was aware of the bond registration failure and failed to resolve it. It acknowledged the invoice was not the Jadhavs' responsibility while using it as a condition of their exit. It directed the Jadhavs to a conciliation process that told them it couldn't help.</p>
+            <p class="text-[0.68rem] text-paper/48 leading-relaxed">The QCAT system now has this matter. The documents are lodged. The record exists.</p>
+            <div class="flex items-center gap-3 mt-5">
+                <div class="w-8 h-px bg-hot/40"></div>
+                <span class="text-[0.48rem] tracking-[0.18em] uppercase text-hot">QCAT Q8092-26 — Lodged 30 April 2026 — Adam Watson, Legal Consultant</span>
+            </div>
+        </div>
+
+        <!-- VAULT GO HERE -->
 
     </div>
 </section>
