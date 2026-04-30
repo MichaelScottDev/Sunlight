@@ -1179,6 +1179,53 @@
                 </div>
             </div>
 
+            <!-- False rape allegation — girlfriend's brother -->
+            <div class="border-l-4 border-hot/55 pl-5 mb-6 mt-6" style="background:rgba(193,68,14,0.06);padding:1.2rem 1rem 1.2rem 1.25rem">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">False Rape Allegation — Girlfriend's Brother</div>
+                    <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 border border-paper/10 px-2 py-0.5">Recording Proved Consent · Allegation Collapsed</div>
+                </div>
+                <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">WENT TO THE POLICE STATION WITH HIS FATHER.<br><span class="text-hot">THE RECORDING SHOWED IT WAS CONSENSUAL.</span></h4>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">Socrates Zidane Abdul Rahmahn willingly performed oral sex on his girlfriend's brother. He then attended a police station with his father and alleged he had been forced — a false rape allegation against a man he had approached consensually. The girlfriend's brother had recorded the encounter on his phone. The recording showed Socrates participating willingly. It showed no coercion, no force, no distress — nothing that was consistent with the allegation Socrates had just made at the police station.</p>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-5">When police attended the girlfriend's brother about the allegation, he presented the recording. He made one thing unambiguous: the recording was shown to the police officer to establish that what had occurred was consensual, and it was not to be distributed. The officer was able to view a recording that directly contradicted the sworn complaint Socrates had made. The allegation collapsed on contact with the evidence.</p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-5">
+                    <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot mb-2">What Socrates Did</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Willingly performed oral sex on his girlfriend's brother</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Attended police station with his father</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Alleged he had been forced — false rape allegation</p></div>
+                        </div>
+                    </div>
+                    <div class="border border-sage/20 p-4" style="background:rgba(61,122,74,0.04)">
+                        <div class="text-[0.44rem] tracking-[0.15em] uppercase text-sage mb-2">The Recording</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Girlfriend's brother had recorded the encounter</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Showed to the attending police officer to prove consent</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Made clear: for evidentiary purposes only — not for distribution</p></div>
+                        </div>
+                    </div>
+                    <div class="border border-paper/[0.08] p-4" style="background:rgba(12,8,4,0.3)">
+                        <div class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/35 mb-2">Outcome</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-paper/40 text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Recording directly contradicted the sworn allegation</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-paper/40 text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Allegation collapsed on contact with the evidence</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-paper/40 text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">No conviction — Socrates's account disproved</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- The danger callout -->
+                <div class="border border-hot/30 p-5" style="background:rgba(193,68,14,0.05)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">The Pattern — Why People Like Socrates Are So Dangerous</div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">FALSE RAPE ALLEGATIONS ARE NOT A MISTAKE.<br><span class="text-hot">THEY ARE A WEAPON. AND THEY DO DAMAGE EVEN WHEN THEY FAIL.</span></h4>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Socrates Zidane Abdul Rahmahn has now deployed false sexual allegations on multiple occasions against multiple people, using multiple mechanisms. He invoked Section 14 twice to escape conviction for sexual intercourse with a 15-year-old. He made a false rape allegation against his girlfriend's brother — a man who could only clear himself because he had a recording. He threatened Adam Watson with fabricated criminal liability. He was coached by a psychologist to manufacture evidence against Adam Watson and recorded doing so.</p>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">The girlfriend's brother was protected by the existence of a recording. Most people are not. In the absence of that recording, a sworn police statement alleging rape — made by a person accompanied by his father at a police station, presenting as a victim — would have proceeded. The accused would have faced investigation, potential charge, disclosure to employers, damage to relationships, and the psychological cost of defending a false allegation through a system that presumes the complainant's good faith. The recording was the only thing that stood between a false accusation and a destroyed life.</p>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed">This is what makes people like Socrates systemically dangerous: they understand that the allegation itself is the punishment. Courts require proof. The community does not. An employer does not. A family does not. The allegation circulates before the outcome is known — and in many cases the outcome, however exculpatory, never catches up with the damage the initial allegation caused. Socrates has used this mechanism repeatedly. He will continue to use it for as long as the system allows him to.</p>
+                </div>
+            </div>
+
             <!-- Aboriginal Legal Aid — ATSILS — Brief lost / OLSC complaint -->
             <div class="border-l-4 border-gold/40 pl-5 mb-2" style="background:rgba(201,138,16,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
                 <!-- ATSILS Logo + header -->
