@@ -1258,7 +1258,24 @@
             </div>
         </div>
 
-        <!-- CHAPTERS GO HERE -->
+        <!-- Chapter 1: The Bond -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.5)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Bond Fraud · RTA Non-Compliance</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE BOND WAS IN HER NAME ONLY.<br><span class="text-gold">FROM DAY ONE.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">When Kaustubh and Amruta Jadhav moved into 505/18 Cypress Avenue, Surfers Paradise in December 2025 under a General Tenancy Agreement with Coastal Property Agents, they did everything right. They signed the Form 18a. They paid their bond. They were listed as named tenants under Queensland law. What they did not know was that the bond — number 722530939 — had been registered exclusively in the name of their co-tenant, Bemarine Yamsuan. Their $1,700 sat outside the RTA system, paid privately to the outgoing tenant Rochelle.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Coastal Property Agents — operating as Beyond Reserve Pty Ltd — attempted to run the Change of Bond Contributors process at the RTA when the Jadhavs arrived. Bemarine refused to sign. The agency confirmed this failure in writing. And then it did nothing further.</p>
+            <div class="border border-gold/20 p-5 mb-4" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">Written Confirmation — Katherine Kidd, Coastal Property Agents, 21 April 2026</div>
+                <p class="text-[0.7rem] text-paper/55 leading-relaxed italic mb-2">"The reason it is not currently in the other tenants' names is because Bemarine did not accept the changes submitted to the RTA at the time. But the changes were made by me and Bemarine should have signed when it was submitted."</p>
+                <div class="text-[0.46rem] tracking-[0.14em] uppercase text-paper/25 mt-2">— Katherine Kidd · Property Manager · Coastal Property Agents</div>
+            </div>
+            <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.04)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">The Law — RTRA Act 2008 (Qld), Sections 111 &amp; 116</div>
+                <p class="text-[0.65rem] text-paper/45 leading-relaxed">Bond money must be lodged with the RTA within 10 days of receipt. It is not a private fund to be passed between tenants at a controlling co-tenant's discretion. Coastal Property Agents was aware of this arrangement and, by its own written admission, failed to rectify it.</p>
+            </div>
+        </div>
+
+        <!-- MORE CHAPTERS GO HERE -->
 
     </div>
 </section>
