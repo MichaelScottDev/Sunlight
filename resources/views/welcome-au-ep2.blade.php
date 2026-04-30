@@ -1768,6 +1768,69 @@
             </div>
         </div>
 
+        <!-- Doctor false allegation — expanded chapter -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.55)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Incident 07 — False Allegation · Indemnity Insurance Fraud</span>
+                <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/20 border border-paper/10 px-2 py-0.5">Doctor Cleared · "Uttering" Charge Thrown Out by DPP</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE DOCTOR WHO HELPED HIM.<br><span class="text-hot">68 YEARS OLD. UNINSURABLE. WORKING UNDER TWO LICENSED DOCTORS.</span></h3>
+            <p class="font-serif italic text-paper/50 text-base leading-relaxed mb-5">"He helped RJ. He's 68 years old. He's Black. He was running his own private practice. After the false allegation and the indemnity insurance fraud, he could no longer get insurance. He now works under two licensed doctors at My Doctors Clinic, Surfers Paradise. RJ then also alleged he uttered a document. That charge was thrown out by the DPP on first appearance."</p>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The doctor helped RJ. That is where this starts. He was a private, independent practitioner operating his own clinic — a Black doctor, 68 years old, who extended care and support to RJ at a time when RJ needed it. RJ responded by making a false sexual assault allegation against him, and compounding it with indemnity insurance fraud — conduct that exploited the very relationship of trust the doctor had extended.</p>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The consequences were immediate and permanent. The allegation — not a conviction, not a finding, just an allegation — triggered the loss of his professional indemnity insurance. Without indemnity cover, a private practitioner cannot practice independently. He could no longer run his own clinic. He is now employed at My Doctors Clinic, Surfers Paradise, working under two licensed doctors who hold the insurance he can no longer obtain. At 68 years old, a man who built a private medical career was forced to give it up — not because of anything he did, but because of a false allegation made by someone he helped.</p>
+
+            <!-- Impact stats -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-px mb-6" style="background:rgba(245,234,212,0.05)">
+                <div class="p-4 text-center" style="background:#0c0804">
+                    <div class="font-display text-3xl text-hot mb-1">68</div>
+                    <div class="text-[0.46rem] tracking-[0.14em] uppercase text-paper/28">Doctor's age</div>
+                </div>
+                <div class="p-4 text-center" style="background:#0c0804">
+                    <div class="font-display text-3xl text-hot mb-1">0</div>
+                    <div class="text-[0.46rem] tracking-[0.14em] uppercase text-paper/28">Indemnity insurance</div>
+                    <div class="text-[0.42rem] text-paper/18 mt-0.5">Can no longer obtain cover</div>
+                </div>
+                <div class="p-4 text-center" style="background:#0c0804">
+                    <div class="font-display text-3xl text-hot mb-1">2</div>
+                    <div class="text-[0.46rem] tracking-[0.14em] uppercase text-paper/28">Licensed doctors above him</div>
+                    <div class="text-[0.42rem] text-paper/18 mt-0.5">My Doctors Clinic, Surfers Paradise</div>
+                </div>
+                <div class="p-4 text-center" style="background:#0c0804">
+                    <div class="font-display text-3xl text-sage mb-1">✓</div>
+                    <div class="text-[0.46rem] tracking-[0.14em] uppercase text-paper/28">All charges cleared</div>
+                    <div class="text-[0.42rem] text-paper/18 mt-0.5">Including "uttering" — DPP, first appearance</div>
+                </div>
+            </div>
+
+            <!-- Indemnity insurance fraud -->
+            <div class="border-l-4 border-hot/50 pl-5 mb-5" style="background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Indemnity Insurance Fraud — How It Works</div>
+                <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">THE ALLEGATION DOESN'T NEED TO SUCCEED.<br><span class="text-hot">IT JUST NEEDS TO BE MADE.</span></h4>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Professional indemnity insurance for medical practitioners is underwritten based on risk. A sexual assault allegation — regardless of outcome — is recorded in underwriting assessments. An allegation that triggers a police investigation, an office raid, and civil proceedings against an insurer is not simply dismissed when charges are dropped or allegations proved false. The insurer's exposure calculus changes. Cover becomes unavailable, or available only at premiums that are commercially prohibitive for a sole practitioner.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">This is the mechanism of indemnity insurance fraud: make an allegation false enough to cause maximum institutional disruption but specific enough to trigger an insurance response. You don't need a conviction. You need a claim. The doctor's office was raided. A civil lawsuit ran against the insurance. The insurance became unrenewable. A private practice — built over decades — ceased to exist. The person who made the allegation has never been convicted of anything in connection with it.</p>
+            </div>
+
+            <!-- Uttering charge callout -->
+            <div class="border border-sage/25 p-5 mb-2" style="background:rgba(61,122,74,0.04)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-3">Second Allegation — Uttering a Document · Defeated at First Appearance</div>
+                <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">RJ ALSO ALLEGED THE DOCTOR UTTERED A DOCUMENT.<br><span class="text-sage">DPP THREW IT OUT ON FIRST APPEARANCE.</span></h4>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">As though the false sexual assault allegation and the insurance fraud were not sufficient, RJ also made a separate allegation: that the doctor had uttered a document — a criminal charge in Queensland that relates to using a fraudulent or forged document as genuine. The charge was laid.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">It did not make it past first appearance. The Director of Public Prosecutions reviewed the matter and declined to proceed — the charge was thrown out on first appearance. There was no conviction, no finding, no evidence capable of sustaining the allegation. The DPP's decision at first appearance is the most efficient possible outcome for a defendant: the prosecution assessed its own case and walked away before it started. The doctor is cleared of all criminal allegations. The professional and financial consequences of the false allegations remain.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
+                    <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot mb-1.5">The Allegation</div>
+                        <div class="text-[0.6rem] text-paper/50 leading-relaxed">Uttering a document — using a fraudulent or forged document as genuine · Charge laid by RJ</div>
+                    </div>
+                    <div class="border border-sage/20 p-3" style="background:rgba(61,122,74,0.04)">
+                        <div class="text-[0.44rem] tracking-[0.15em] uppercase text-sage mb-1.5">Outcome — DPP</div>
+                        <div class="text-[0.6rem] text-paper/50 leading-relaxed">Thrown out on first appearance · DPP declined to proceed · No conviction · Doctor fully cleared</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- RJ Evidence Vault -->
         <div class="story-chapter reveal mb-12">
             <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Video Evidence</span></div>
