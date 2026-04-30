@@ -1594,6 +1594,116 @@ var EVIDENCE = {
         url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lecc/lecc_3.pdf',
         filename: 'lecc_3.pdf',
         pages: 2
+    },
+    'pdf-bemarine-lease': {
+        type: 'pdf',
+        title: 'GENERAL TENANCY AGREEMENT — FORM 18A — DEC 2025',
+        tag: 'QCAT Q8092-26 · 505/18 Cypress Ave Surfers Paradise · All Three Tenants',
+        meta: 'PDF · Form 18a · Signed December 2025 · Coastal Property Agents',
+        desc: 'The Form 18a General Tenancy Agreement executed through Coastal Property Agents (Beyond Reserve Pty Ltd) for 505/18 Cypress Avenue, Surfers Paradise. Three tenants: Bemarine Yamsuan, Amruta Jadhav, and Kaustubh Rajendra Jadhav. Rent: $875/week. Bond: $3,500. Fixed term: 17 December 2025 to 1 March 2027. Lessors: Roslyn Nugan & Mark Palmer. Bemarine signed three days before the Jadhavs — she was already in position when they arrived.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bemarine/Please_Docusign_Lease_agreement_-_50518_Cyp+(1).pdf',
+        filename: 'Please_Docusign_Lease_agreement_-_50518_Cyp+(1).pdf',
+        pages: 4
+    },
+    'pdf-bemarine-bond-clarification': {
+        type: 'pdf',
+        title: 'CLARIFICATION REGARDING BOND — KATHERINE KIDD, 21 APRIL 2026',
+        tag: 'Bond #722530939 · RTA Non-Compliance · Agency Written Admission',
+        meta: 'PDF · Email from Katherine Kidd · Coastal Property Agents · 21 April 2026',
+        desc: 'Written confirmation from Katherine Kidd that bond #722530939 remains in Bemarine\'s name only because Bemarine refused to sign the Change of Bond Contributors form. The email states: "The reason it is not currently in the other tenants\'s names is because Bemarine did not accept the changes submitted to the RTA at the time. But the changes were made by me and Bemarine should have signed when it was submitted." The agency stopped pursuing after one refusal. The Jadhavs\' $1,700 bond remained outside the RTA system entirely.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bemarine/clarification_regarding_bond.pdf',
+        filename: 'clarification_regarding_bond.pdf',
+        pages: 2
+    },
+    'pdf-bemarine-bond-previous': {
+        type: 'pdf',
+        title: 'BOND — PREVIOUS TENANT (ROCHELLE)',
+        tag: 'Pattern Across Two Tenancies · Informal Bond Scheme · Rochelle',
+        meta: 'PDF · Email from Kaustubh Jadhav to Adam Watson · 28 April 2026',
+        desc: 'Email confirming that Rochelle — the previous tenant at 505/18 Cypress Avenue — was also never listed on the bond. Bemarine held the bond in her own name when Rochelle was the tenant, just as she did with the Jadhavs. Establishes the bond misappropriation as a deliberate pattern across at least two consecutive tenancies.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bemarine/bond_previous_tenant.pdf',
+        filename: 'bond_previous_tenant.pdf',
+        pages: 2
+    },
+    'pdf-bemarine-katherine': {
+        type: 'pdf',
+        title: 'BEMARINE / KATHERINE EMAIL TRAIL — HARASSMENT MESSAGES',
+        tag: '"Toxic to Have You Both" · Kitchen Restrictions · Police Called',
+        meta: 'PDF · WhatsApp messages and emails · Bemarine Yamsuan to Amruta Jadhav',
+        desc: 'Written harassment from Bemarine Yamsuan to the Jadhavs. Includes WhatsApp: "If you can\'t manage to keep the apartment clean, it would be much better if you could find another. Its toxic to have you both." Also includes email under subject "DO NOT USE MY PERSONAL ITEMS" stating she is "not comfortable having you and seeing you both around." Kitchen access restricted to 11am–12pm. Police subsequently called — officers advised Kaustubh he could not remain if a co-tenant did not want him there.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bemarine/bemarine_katherine.pdf',
+        filename: 'bemarine_katherine.pdf',
+        pages: 3
+    },
+    'pdf-bemarine-invoice': {
+        type: 'pdf',
+        title: 'INVOICE #021880 — LIGHT REPLACEMENTS $588.72',
+        tag: '$588.72 · Pre-Tenancy Work · Used as Exit Condition · Coastal Property Agents',
+        meta: 'PDF · Tax Invoice #021880 · Dated 11 March 2026 · Due 8 April 2026',
+        desc: 'Tax Invoice #021880 for $588.72 described as "Light Replacements." Issued to all three tenants. Owner withheld approval of replacement tenants until settled. Katherine Kidd confirmed in writing on 15 April 2026: "This happened before you moved in and Bemarine was the one that requested the electrician, so Bemarine and previous tenant should be the ones paying this bill." The same email asked whether the Jadhavs could arrange a payment plan.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bemarine/Invoice+%23+21880+(2).pdf',
+        filename: 'Invoice # 21880 (2).pdf',
+        pages: 1
+    },
+    'pdf-bemarine-breaklease': {
+        type: 'pdf',
+        title: 'BREAK LEASE APPLICATION — AMRUTA JADHAV, 22 APRIL 2026',
+        tag: 'Form 13 · 25–50% Band · 3 Weeks Maximum · Bemarine Refused to Sign',
+        meta: 'PDF · Amruta Jadhav to Katherine Kidd · Signed Form 13 · 22 April 2026',
+        desc: 'Break lease application submitted by Amruta Jadhav on 22 April 2026. Signed Form 13 attached. Confirmed 25–50% band (maximum three weeks rent), requested 17 April as operative vacate date, raised financial stress of forced exclusion. Bemarine did not sign Form 13. The agency did not pursue Bemarine to sign.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bemarine/Breaklease+Application.pdf',
+        filename: 'Breaklease Application.pdf',
+        pages: 3
+    },
+    'pdf-bemarine-yahoo-proofs': {
+        type: 'pdf',
+        title: 'MORE PROOFS — KATHERINE KIDD EMAILS (FORWARDED)',
+        tag: 'Agency Admission · Invoice Exculpation + Demand · Double Standard',
+        meta: 'PDF · Yahoo Mail forward · Katherine Kidd email thread · April 2026',
+        desc: 'Forwarded email thread in which Katherine Kidd acknowledges Invoice #021880 is not the Jadhavs\' responsibility — and in the same communication asks whether they can arrange a payment plan for it. The agency simultaneously exculpated and pursued the Jadhavs for the same pre-tenancy debt.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bemarine/Yahoo+Mail+-+Fwd_+More+proofs.pdf',
+        filename: 'Yahoo Mail - Fwd More proofs.pdf',
+        pages: 3
+    },
+    'pdf-bemarine-property-exit': {
+        type: 'pdf',
+        title: 'PROPERTY EXIT UPDATE — EXIT CLEAN DOCUMENTATION',
+        tag: 'Exit Clean · 17 April 2026 · Photographic Record',
+        meta: 'PDF · Property exit documentation · 17 April 2026',
+        desc: 'Property exit documentation from 17 April 2026. Exit clean completed with photographic documentation — all belongings removed, apartment cleaned and recorded. Establishes that the Jadhavs performed their exit obligations in full.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bemarine/property_exit.pdf',
+        filename: 'property_exit.pdf',
+        pages: 3
+    },
+    'pdf-bemarine-more-emails': {
+        type: 'pdf',
+        title: 'MORE EMAILS — TENANCY CORRESPONDENCE',
+        tag: 'Supporting Correspondence · Tenancy Dispute Period · April 2026',
+        meta: 'PDF · Additional email correspondence · All parties · Dispute period',
+        desc: 'Additional correspondence between the parties during the tenancy dispute period. Supporting documentation for QCAT application Q8092-26.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bemarine/more_emails.pdf',
+        filename: 'more_emails.pdf',
+        pages: 2
+    },
+    'pdf-bemarine-dispute': {
+        type: 'pdf',
+        title: 'TENANCY DISPUTE BRIEF — KAUSTUBH TO ADAM WATSON',
+        tag: 'Full Brief · Legal Consultant Adam Watson · QCAT Q8092-26 Preparation',
+        meta: 'PDF · Dispute brief · Kaustubh Jadhav to Adam Watson · April 2026',
+        desc: 'Full tenancy dispute brief prepared by Kaustubh Jadhav for legal consultant Adam Watson in preparation for QCAT Q8092-26. Complete account of the bond situation, harassment, police call, invoice, break lease obstruction, and financial impact of being excluded from the property for approximately 17 weeks while continuing to pay rent.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bemarine/tenancy_dispute.pdf',
+        filename: 'tenancy_dispute.pdf',
+        pages: 4
+    },
+    'pdf-bemarine-qcat-form': {
+        type: 'pdf',
+        title: 'QCAT FORM 2 — APPLICATION — Q8092-26',
+        tag: 'QCAT Q8092-26 · Lodged 30 April 2026 · Jadhav v Yamsuan & Coastal Property Agents',
+        meta: 'PDF · Filed QCAT Form 2 · Queensland Civil and Administrative Tribunal · 30 April 2026',
+        desc: 'The filed QCAT Form 2 application for Q8092-26. Applicants: Kaustubh Rajendra Jadhav and Amruta Jadhav. Respondent 1: Bemarine Yamsuan. Respondent 2: Beyond Reserve Pty Ltd T/As Coastal Property Agents. Property: 505/18 Cypress Avenue, Surfers Paradise QLD 4217. Agent: Katherine Kidd. Lessors: Roslyn Nugan & Mark Palmer. Legal consultant: Adam Watson. Claims include compensation for rent paid while locked out (~$9,000), bond return ($1,700), and costs. Lodged 30 April 2026.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bemarine/print_form_qcat_form_2_complete.pdf',
+        filename: 'print_form_qcat_form_2_complete.pdf',
+        pages: 4
     }
 };
 
