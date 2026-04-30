@@ -1275,6 +1275,19 @@
             </div>
         </div>
 
+        <!-- Chapter 2: Pattern Across Two Tenancies -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.4)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Systemic Pattern · Two Consecutive Tenancies</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">ROCHELLE WASN'T ON THE BOND EITHER.<br><span class="text-hot">THIS IS NOT A MISTAKE. IT IS A METHOD.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Kaustubh Jadhav contacted the previous tenant — Rochelle — to ask about the bond situation. Her response was unambiguous: she was never listed on the bond either. Bemarine paid the full amount to the RTA in her own name when Rochelle was the tenant. When the Jadhavs asked Bemarine how their bond would be returned when they left, she proposed repeating the same arrangement: the incoming occupants would hand the money directly to them, "similar to how Rochelle managed the transition internally."</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Across at least two consecutive tenancies at the same property, bond money collected from incoming tenants was routed through Bemarine personally, held under her RTA registration, and disbursed at her discretion when tenants departed. She was proposing to run the same scheme a third time.</p>
+            <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.04)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Documented — Kaustubh Jadhav to Adam Watson, 28 April 2026</div>
+                <p class="text-[0.7rem] text-paper/55 leading-relaxed italic mb-2">"I checked with the previous tenant (Name Rochelle) regarding the bond, and it appears her name was not listed on it either. Bemarine (the current tenant) was holding her bond as well."</p>
+                <div class="text-[0.46rem] tracking-[0.14em] uppercase text-paper/25 mt-2">— Email reviewed by Sunlight.Quest · Document: bond_previous_tenant.pdf</div>
+            </div>
+        </div>
+
         <!-- MORE CHAPTERS GO HERE -->
 
     </div>
