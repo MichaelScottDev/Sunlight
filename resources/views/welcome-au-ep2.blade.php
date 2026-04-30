@@ -444,6 +444,49 @@
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed">Adam Watson was actively helping Bodie Chalmers navigate his court cases for armed burglary charges at the time all of this was occurring. Bodie repaid that assistance with the coercive control behaviour, the false sexual assault allegation, and the pattern documented across this chapter.</p>
                 </div>
 
+                <!-- Coogee Incident -->
+                <div class="story-chapter reveal mt-6" style="border-left-color:rgba(124,106,170,0.5)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">Bodie Chalmers — Coogee · NSW</span>
+                        <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/20 border border-paper/10 px-2 py-0.5">Filmed by Socrates</span>
+                    </div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">ADAM PAID THE $40 TAXI.<br><span style="color:#7c6aaa">BODIE SMASHED THE PRINTER.</span></h3>
+                    <p class="font-serif italic text-paper/50 text-base leading-relaxed mb-5">"Bodie arrived from NSW after a fight with his girlfriend. He couldn't cover the taxi fare. Adam paid the $40. Then Bodie's girlfriend called — Adam answered and told her he was Bodie's boyfriend. Bodie smashed the printer. Socrates filmed all of it."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Bodie Chalmers travelled to New South Wales following a fight with his girlfriend. When he arrived, he could not cover the taxi fare. Adam Watson paid the $40. Shortly after, Bodie's girlfriend called. Adam answered. He told her he was Bodie's boyfriend.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Bodie's response was to smash Adam Watson's printer — causing $1,900 in damage — and attempt to fight him. In the course of the altercation, Bodie Chalmers sustained a broken arm. The entire incident was captured on film by Socrates, who was present throughout.</p>
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-px mb-5" style="background:rgba(245,234,212,0.05)">
+                        <div class="p-4 text-center" style="background:#0c0804">
+                            <div class="font-display text-2xl mb-1" style="color:#7c6aaa">$40</div>
+                            <div class="text-[0.46rem] tracking-[0.14em] uppercase text-paper/28">Taxi paid by Adam</div>
+                        </div>
+                        <div class="p-4 text-center" style="background:#0c0804">
+                            <div class="font-display text-2xl text-hot mb-1">$1,900</div>
+                            <div class="text-[0.46rem] tracking-[0.14em] uppercase text-paper/28">Printer damage</div>
+                        </div>
+                        <div class="p-4 text-center" style="background:#0c0804">
+                            <div class="font-display text-2xl text-hot mb-1">✓</div>
+                            <div class="text-[0.46rem] tracking-[0.14em] uppercase text-paper/28">Arm broken</div>
+                            <div class="text-[0.42rem] text-paper/18 mt-0.5">Bodie — during altercation</div>
+                        </div>
+                        <div class="p-4 text-center" style="background:#0c0804">
+                            <div class="font-display text-2xl text-sage mb-1">🎥</div>
+                            <div class="text-[0.46rem] tracking-[0.14em] uppercase text-paper/28">Filmed</div>
+                            <div class="text-[0.42rem] text-paper/18 mt-0.5">By Socrates — full incident</div>
+                        </div>
+                    </div>
+                    <div class="border-l-4 pl-5" style="border-color:rgba(124,106,170,0.4);background:rgba(124,106,170,0.03);padding:0.9rem 1rem 0.9rem 1.25rem">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Sequence of Events</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Bodie arrives in NSW after fight with girlfriend — taxi fare unpaid</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Adam pays the $40 fare — an act of goodwill</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Bodie's girlfriend calls — Adam answers, tells her he is Bodie's boyfriend</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Bodie smashes Adam's printer — $1,900 damage</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Bodie attempts to fight — sustains broken arm in the altercation</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Socrates present throughout — filmed the entire incident</p></div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Optus $2,500 bill — Bodie Chalmers -->
                 <div class="story-chapter reveal" style="border-left-color:rgba(201,138,16,0.3)">
                     <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Bodie Chalmers — Optus Security Breach</span></div>
@@ -2389,7 +2432,7 @@
                 <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">FILMED IT. SHOWED IT.<br><span class="text-hot">"DON'T YOU LIKE BAD BOYS?"</span></h3>
                 <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-5">"Bodie showed Adam the footage and said: 'Don't you like bad boys?' Adam said: 'Not like that.' The footage was of West Kira cutting off a man's testicles on camera because he was gay. That footage has now been obtained. Both are charged."</p>
 
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">West Kira filmed himself cutting off a man's testicles because he was gay. Bodie Chalmers obtained the footage and showed it to Adam Watson. His comment when he did so: <span class="font-display text-paper/70">"Don't you like bad boys?"</span> Adam's response: <span class="font-display text-paper/70">"Not like that."</span> The footage has since been obtained by police. Both Bodie Chalmers and West Kira are charged with a gay hate crime. For this single offence alone, both are looking at up to 25 years.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">West Kira filmed himself cutting off a man's testicles because he was gay — a charge carrying 28 years. Bodie Chalmers obtained the footage and showed it to Adam Watson. His comment when he did so: <span class="font-display text-paper/70">"Don't you like bad boys?"</span> Adam's response: <span class="font-display text-paper/70">"Not like that."</span> The footage has since been obtained by police. Both Bodie Chalmers and West Kira are charged. West Kira carries a further separate 3-year charge for stealing from Adam Watson.</p>
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-px mb-6" style="background:rgba(245,234,212,0.06)">
                     <div class="p-5" style="background:#0c0804">
@@ -2398,7 +2441,8 @@
                             <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Filmed himself cutting off a man's testicles because the victim was gay</p></div>
                             <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Act motivated by victim's sexual orientation — classified as gay hate crime</p></div>
                             <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Footage obtained by police · Charged</p></div>
-                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Maximum: 25 years for this offence alone</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">28 years</strong> — genital mutilation · gay hate crime</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">3 years separate</strong> — stealing from Adam Watson</p></div>
                         </div>
                     </div>
                     <div class="p-5" style="background:#0c0804">
@@ -2407,7 +2451,32 @@
                             <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Obtained the footage and showed it to Adam Watson</p></div>
                             <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Said: "Don't you like bad boys?" — Adam: "Not like that."</p></div>
                             <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Charged with gay hate crime · Footage obtained</p></div>
-                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Maximum: 25 years for this offence alone</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Charge carries 28 years — same as West Kira for distribution</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Prison phone death threat -->
+                <div class="border-l-4 border-hot/60 pl-5 mb-5" style="background:rgba(193,68,14,0.07);padding:1.2rem 1rem 1.2rem 1.25rem">
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">Recorded — Prison Phone</div>
+                        <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 border border-paper/10 px-2 py-0.5">Flagged by Prosecutor Correy Cook</div>
+                    </div>
+                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">"I'LL KILL YOU FOR BEING GAY."<br><span class="text-hot">SAID FROM A PRISON PHONE. WHILE UP ON GAY HATE CRIMES.</span></h4>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">While already in custody facing gay hate crime charges, West Kira made a recorded death threat from a prison phone: <em class="text-paper/70">"I'll kill you for being gay."</em> The call was recorded — as all prison calls are. The threat was directed at Adam Watson on the basis of his sexual orientation.</p>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">Prosecutor Correy Cook flagged that the recording is itself potentially chargeable: threatening to kill a person on the basis of their sexual orientation, from a monitored prison line, while already before the court on gay hate crime charges. As Correy Cook noted, it is about as self-incriminating as it gets — a man facing 28 years for a gay hate crime, on a recorded line, making a fresh death threat motivated by the victim's sexual orientation.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot mb-1.5">The Threat</div>
+                            <div class="text-[0.6rem] text-paper/50 leading-relaxed">"I'll kill you for being gay" — recorded, prison call, directed at Adam Watson</div>
+                        </div>
+                        <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot mb-1.5">Context</div>
+                            <div class="text-[0.6rem] text-paper/50 leading-relaxed">Made while already in custody facing 28-year gay hate crime charges — on a monitored line</div>
+                        </div>
+                        <div class="border border-gold/20 p-3" style="background:rgba(201,138,16,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.15em] uppercase text-gold mb-1.5">Prosecutor — Correy Cook</div>
+                            <div class="text-[0.6rem] text-paper/50 leading-relaxed">Flagged recording as potentially a standalone chargeable offence in its own right</div>
                         </div>
                     </div>
                 </div>
@@ -2416,7 +2485,7 @@
                 <div class="border border-violet/25 p-5" style="background:rgba(124,106,170,0.04)">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">The Irony — On the Record</div>
                     <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Bodie Chalmers was in a relationship with Adam Watson at the time he was distributing footage of a gay hate crime and asking Adam whether he liked "bad boys." A person in a same-sex relationship, committing and celebrating a violent act against a man because of his sexual orientation, then asking his gay partner whether he finds this attractive. That is not a contradiction. It is a demonstration of who Bodie Chalmers is — someone for whom the sexual orientation of a target is a weapon, regardless of his own relationships.</p>
-                    <p class="text-[0.68rem] text-paper/40 leading-relaxed">The footage exists. Both are charged. The penalties for gay hate crimes in Queensland carry significant maximum sentences — and this is one charge among many that Bodie Chalmers and West Kira now face. The 25-year maximum for this offence alone does not account for the other charges before the court.</p>
+                    <p class="text-[0.68rem] text-paper/40 leading-relaxed">The footage exists. Both are charged. West Kira faces 28 years for the genital mutilation alone — plus 3 years separately for stealing from Adam Watson, plus the prison phone death threat that Correy Cook has flagged as potentially chargeable in its own right. These are not the only charges before the court.</p>
                 </div>
             </div>
         </div>
