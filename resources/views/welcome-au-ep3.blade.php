@@ -1347,7 +1347,56 @@
             </div>
         </div>
 
-        <!-- TIMELINE + VERDICT + VAULT GO HERE -->
+        <!-- Timeline -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.3)">
+            <div class="flex items-center gap-3 mb-5"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Timeline — December 2025 to April 2026</span></div>
+            <div class="space-y-4">
+                <div class="flex gap-4 items-start">
+                    <div class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/30 w-20 shrink-0 pt-0.5">Dec 2025</div>
+                    <div class="flex-1 border-l border-gold/20 pl-4">
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">Jadhavs sign lease. Bond paid privately to outgoing tenant Rochelle ($1,700 + $364 early renting). Bemarine refuses RTA Change of Bond Contributors — agency confirmed in writing.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 items-start">
+                    <div class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/30 w-20 shrink-0 pt-0.5">Dec–Feb</div>
+                    <div class="flex-1 border-l border-hot/20 pl-4">
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">Bemarine sends written messages restricting kitchen access to 11am–12pm, calling the Jadhavs "toxic," saying she does not want to look at them. Police called. Jadhavs vacate.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 items-start">
+                    <div class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/30 w-20 shrink-0 pt-0.5">Mar 2026</div>
+                    <div class="flex-1 border-l border-hot/20 pl-4">
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">Jadhavs write to agency reporting co-tenant conduct. Agency responds: "private matter." Invoice #021880 for $588.72 issued in all tenants' names for light work carried out before Jadhavs moved in.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 items-start">
+                    <div class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/30 w-20 shrink-0 pt-0.5">17 Apr</div>
+                    <div class="flex-1 border-l border-gold/20 pl-4">
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">Jadhavs give notice of intention to vacate. Exit clean completed and photographically documented. All belongings removed.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 items-start">
+                    <div class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/30 w-20 shrink-0 pt-0.5">21–22 Apr</div>
+                    <div class="flex-1 border-l border-gold/20 pl-4">
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">Agency sends break lease info — maximum 3 weeks rent (25–50% band). Amruta submits signed Form 13. Bemarine does not sign. Replacement tenant applications submitted.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 items-start">
+                    <div class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/30 w-20 shrink-0 pt-0.5">28–29 Apr</div>
+                    <div class="flex-1 border-l border-hot/20 pl-4">
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">Bond pattern confirmed via Rochelle. Agency confirms it will not resubmit bond change. Bemarine proposes informal bond handover — repeating the scheme a third time.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 items-start">
+                    <div class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/30 w-20 shrink-0 pt-0.5">30 Apr</div>
+                    <div class="flex-1 border-l border-gold/25 pl-4">
+                        <p class="text-[0.65rem] text-paper/60 leading-relaxed">QCAT application lodged: Q8092-26. Formal notice sent to Coastal Property Agents. Right-of-reply offered to Katherine Kidd — no response received.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- VERDICT + VAULT GO HERE -->
 
     </div>
 </section>
