@@ -1500,6 +1500,79 @@
             </div>
         </div>
 
+        <!-- TICA Blacklist -->
+        <div class="story-chapter reveal mt-8" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-5">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">TICA — Tenancy Blacklist</span>
+                <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Agent with criminal charges. Still on the register.</span>
+            </div>
+
+            <!-- TICA logo + headline -->
+            <div class="flex flex-col sm:flex-row sm:items-center gap-5 mb-6">
+                <div class="shrink-0 border border-paper/[0.07] p-3" style="background:rgba(12,8,4,0.4)">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tica_logo.png" alt="TICA — Tenancy Information Centre Australasia" class="h-10 w-auto opacity-80" />
+                </div>
+                <div>
+                    <h3 class="font-display text-3xl tracking-wide leading-tight mb-1">BLACKLISTED BY THE AGENT<br><span class="text-hot">WHO BROKE INTO HIS HOME.</span></h3>
+                    <p class="text-[0.52rem] tracking-[0.16em] uppercase text-paper/30">Tenancy Information Centre Australasia · National Blacklist Register</p>
+                </div>
+            </div>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The same Changfa agent who disconnected Adam Watson's power, entered his property without authorisation, and is now facing a home invasion charge — used his position as a real estate agent to lodge Adam Watson's name on the TICA tenancy blacklist. TICA is a national database used by landlords and agents across Australia to screen rental applicants. A listing on TICA effectively blocks a person from accessing private rental accommodation.</p>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Adam Watson attempted to appeal the TICA listing. He was informed that the appeal process must be conducted through the post — physical mail only. The appeal has not been resolved. His name remains on the TICA register. Despite TICA having received a copy of the QCAT order Q6970-25 — a formal tribunal decision issued on the basis of the police fingerprint evidence against the Changfa agent — TICA has not lifted the blacklist. Adam Watson is currently sleeping out of his car as a direct consequence.</p>
+
+            <!-- Impact stat bar -->
+            <div class="grid grid-cols-3 gap-px bg-paper/[0.04] mb-6">
+                <div class="bg-ink px-4 py-5 text-center">
+                    <div class="font-display text-3xl text-hot mb-1">0</div>
+                    <div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/28">Rentals accessible</div>
+                    <div class="text-[0.44rem] text-paper/18 mt-1">TICA listing blocks all applications</div>
+                </div>
+                <div class="bg-ink px-4 py-5 text-center">
+                    <div class="font-display text-3xl text-hot mb-1">📮</div>
+                    <div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/28">Appeal method</div>
+                    <div class="text-[0.44rem] text-paper/18 mt-1">Post only — not online, not in person</div>
+                </div>
+                <div class="bg-ink px-4 py-5 text-center">
+                    <div class="font-display text-3xl text-hot mb-1">🚗</div>
+                    <div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/28">Current housing</div>
+                    <div class="text-[0.44rem] text-paper/18 mt-1">Sleeping out of his car</div>
+                </div>
+            </div>
+
+            <!-- QCAT order not actioned callout -->
+            <div class="border-l-4 border-hot/50 pl-5 mb-6" style="background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">QCAT Order Provided — Blacklist Not Lifted</div>
+                <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">TICA RECEIVED THE QCAT ORDER.<br><span class="text-hot">ADAM'S NAME IS STILL ON THE REGISTER.</span></h4>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">QCAT Order Q6970-25 was issued on the basis of the police fingerprint evidence confirming the Changfa agent's unauthorised access to Adam Watson's property. That order — a formal tribunal finding — was provided to TICA. The order was constructed from the police investigation reports documenting the agent's conduct.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">TICA has not used this material to remove Adam Watson from the blacklist. A document issued by a Queensland tribunal, based on police forensic evidence, confirming that the agent who listed the tenant was committing a criminal act at the time — has not been treated as sufficient grounds to lift the listing. Adam Watson remains on the register. He remains without housing.</p>
+            </div>
+
+            <!-- Ethical issues -->
+            <div class="border border-gold/20 p-5 mb-2" style="background:rgba(201,138,16,0.03)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-4">Ethical & Systemic Issues — TICA Blacklisting</div>
+                <div class="space-y-3">
+                    <div class="flex gap-3 items-start">
+                        <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
+                        <p class="text-[0.62rem] text-paper/45 leading-relaxed"><strong class="text-paper/65">Agent with criminal charges retains blacklisting power.</strong> The same individual facing home invasion charges has not been stripped of his ability to maintain a national tenancy blacklist entry against his victim. The system contains no automatic mechanism to suspend an agent's blacklisting authority when that agent is under criminal investigation.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
+                        <p class="text-[0.62rem] text-paper/45 leading-relaxed"><strong class="text-paper/65">The appeal process is inaccessible by design.</strong> Requiring postal appeals in 2025 — when the listing itself was created digitally, is accessed digitally by landlords, and causes real-time harm — is a structural barrier that disproportionately affects people who are already in housing crisis and may not have a fixed address from which to send mail.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
+                        <p class="text-[0.62rem] text-paper/45 leading-relaxed"><strong class="text-paper/65">Tribunal evidence ignored.</strong> TICA operates as a private register with no statutory obligation to act on formal court or tribunal findings. A QCAT order based on police forensic evidence — the highest standard of evidence available in a civil context — is apparently insufficient to trigger removal from a blacklist that is causing a person to sleep in their car.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="text-gold text-xs shrink-0 mt-0.5">→</span>
+                        <p class="text-[0.62rem] text-paper/45 leading-relaxed"><strong class="text-paper/65">The victim pays the cost of the perpetrator's conduct.</strong> Adam Watson — whose home was broken into, whose power was cut, against whom a malicious blacklist entry was made — is sleeping in his car. The agent whose fingerprints were on the powerbox is still in the industry. This is the practical outcome of a system that protects the agent's data rights more vigorously than the tenant's housing rights.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Evidence vault -->
         <div class="reveal">
             <div class="text-[0.48rem] tracking-[0.24em] uppercase text-paper/20 mb-4">Changfa Evidence — 5 Objects</div>
