@@ -1409,7 +1409,112 @@
             </div>
         </div>
 
-        <!-- VAULT GO HERE -->
+        <!-- Evidence Vault -->
+        <div class="reveal mt-8">
+            <div class="flex items-center justify-between mb-4">
+                <div class="text-[0.5rem] tracking-[0.22em] uppercase text-gold">Evidence Vault — Q8092-26</div>
+                <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/22">11 source documents</div>
+            </div>
+            <div class="ev-vault border border-paper/[0.08]">
+                <div class="ev-header" onclick="toggleVault(this)">
+                    <div>
+                        <div class="text-[0.5rem] tracking-[0.22em] uppercase text-gold mb-0.5">QCAT Q8092-26 — JADHAV V YAMSUAN &amp; COASTAL PROPERTY AGENTS</div>
+                        <div class="text-[0.46rem] tracking-[0.14em] uppercase text-paper/25">11 documents · Lease · Bond · Harassment · Invoice · Break lease · QCAT filing</div>
+                    </div>
+                    <span class="ev-toggle text-paper/30 text-xs">▼</span>
+                </div>
+                <div class="ev-body">
+                    <div class="ev-file ef-gold" onclick="openMV('pdf-bemarine-lease')">
+                        <div class="ev-icon ev-pdf" style="background:rgba(201,138,16,0.08);color:#c98a10;font-size:0.5rem;letter-spacing:0.04em">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">General Tenancy Agreement — Form 18a — Dec 2025</div>
+                            <div class="ev-desc">PDF · Signed lease · All three tenants · 505/18 Cypress Ave · $875/week · Bond $3,500 · Fixed term Dec 2025 – Mar 2027</div>
+                        </div>
+                        <span class="ev-cta" style="color:#c98a10">View ↗</span>
+                    </div>
+                    <div class="ev-file ef-hot" onclick="openMV('pdf-bemarine-bond-clarification')">
+                        <div class="ev-icon ev-pdf" style="background:rgba(193,68,14,0.08);color:#c1440e;font-size:0.5rem;letter-spacing:0.04em">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">Clarification Regarding Bond — Katherine Kidd, 21 Apr 2026</div>
+                            <div class="ev-desc">PDF · Agency admits bond not changed into Jadhavs' names · Bemarine refused to sign · Agency stopped pursuing after one attempt</div>
+                        </div>
+                        <span class="ev-cta" style="color:#c1440e">View ↗</span>
+                    </div>
+                    <div class="ev-file ef-hot" onclick="openMV('pdf-bemarine-bond-previous')">
+                        <div class="ev-icon ev-pdf" style="background:rgba(193,68,14,0.08);color:#c1440e;font-size:0.5rem;letter-spacing:0.04em">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">Bond — Previous Tenant (Rochelle)</div>
+                            <div class="ev-desc">PDF · Rochelle also never on the bond · Bemarine held bond informally across at least two consecutive tenancies</div>
+                        </div>
+                        <span class="ev-cta" style="color:#c1440e">View ↗</span>
+                    </div>
+                    <div class="ev-file ef-hot" onclick="openMV('pdf-bemarine-katherine')">
+                        <div class="ev-icon ev-pdf" style="background:rgba(193,68,14,0.08);color:#c1440e;font-size:0.5rem;letter-spacing:0.04em">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">Bemarine / Katherine Email Trail — Harassment Messages</div>
+                            <div class="ev-desc">PDF · "Toxic to have you both" · Kitchen restricted 11am–12pm · "Not comfortable having you around" · Police called</div>
+                        </div>
+                        <span class="ev-cta" style="color:#c1440e">View ↗</span>
+                    </div>
+                    <div class="ev-file ef-gold" onclick="openMV('pdf-bemarine-invoice')">
+                        <div class="ev-icon ev-pdf" style="background:rgba(201,138,16,0.08);color:#c98a10;font-size:0.5rem;letter-spacing:0.04em">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">Invoice #021880 — Light Replacements $588.72</div>
+                            <div class="ev-desc">PDF · Pre-tenancy work · Agency admits not Jadhavs' responsibility · Used as exit condition regardless</div>
+                        </div>
+                        <span class="ev-cta" style="color:#c98a10">View ↗</span>
+                    </div>
+                    <div class="ev-file ef-gold" onclick="openMV('pdf-bemarine-breaklease')">
+                        <div class="ev-icon ev-pdf" style="background:rgba(201,138,16,0.08);color:#c98a10;font-size:0.5rem;letter-spacing:0.04em">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">Break Lease Application — Amruta Jadhav, 22 Apr 2026</div>
+                            <div class="ev-desc">PDF · Signed Form 13 · 25–50% band · 17 Apr operative date · Bemarine did not sign · Agency did not pursue</div>
+                        </div>
+                        <span class="ev-cta" style="color:#c98a10">View ↗</span>
+                    </div>
+                    <div class="ev-file ef-gold" onclick="openMV('pdf-bemarine-yahoo-proofs')">
+                        <div class="ev-icon ev-pdf" style="background:rgba(201,138,16,0.08);color:#c98a10;font-size:0.5rem;letter-spacing:0.04em">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">More Proofs — Katherine Kidd Emails (Forwarded)</div>
+                            <div class="ev-desc">PDF · Agency exculpates and pursues Jadhavs for same invoice in same email · Double standard documented</div>
+                        </div>
+                        <span class="ev-cta" style="color:#c98a10">View ↗</span>
+                    </div>
+                    <div class="ev-file ef-sage" onclick="openMV('pdf-bemarine-property-exit')">
+                        <div class="ev-icon ev-pdf" style="background:rgba(61,122,74,0.08);color:#3d7a4a;font-size:0.5rem;letter-spacing:0.04em">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">Property Exit Update — Exit Clean Documentation</div>
+                            <div class="ev-desc">PDF · Exit clean photographically documented · All belongings removed 17 April 2026</div>
+                        </div>
+                        <span class="ev-cta" style="color:#3d7a4a">View ↗</span>
+                    </div>
+                    <div class="ev-file ef-sage" onclick="openMV('pdf-bemarine-more-emails')">
+                        <div class="ev-icon ev-pdf" style="background:rgba(61,122,74,0.08);color:#3d7a4a;font-size:0.5rem;letter-spacing:0.04em">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">More Emails — Tenancy Correspondence</div>
+                            <div class="ev-desc">PDF · Additional correspondence between parties during the dispute period</div>
+                        </div>
+                        <span class="ev-cta" style="color:#3d7a4a">View ↗</span>
+                    </div>
+                    <div class="ev-file ef-violet" onclick="openMV('pdf-bemarine-dispute')">
+                        <div class="ev-icon ev-pdf" style="background:rgba(124,106,170,0.08);color:#7c6aaa;font-size:0.5rem;letter-spacing:0.04em">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">Tenancy Dispute Brief — Kaustubh to Adam Watson</div>
+                            <div class="ev-desc">PDF · Full brief for legal consultant · Complete account of bond situation, harassment, and financial impact</div>
+                        </div>
+                        <span class="ev-cta" style="color:#7c6aaa">View ↗</span>
+                    </div>
+                    <div class="ev-file ef-violet" onclick="openMV('pdf-bemarine-qcat-form')">
+                        <div class="ev-icon ev-pdf" style="background:rgba(124,106,170,0.08);color:#7c6aaa;font-size:0.5rem;letter-spacing:0.04em">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">QCAT Form 2 — Application — Q8092-26</div>
+                            <div class="ev-desc">PDF · Filed QCAT application · Jadhav v Yamsuan &amp; Coastal Property Agents · Lodged 30 April 2026</div>
+                        </div>
+                        <span class="ev-cta" style="color:#7c6aaa">View ↗</span>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 </section>
