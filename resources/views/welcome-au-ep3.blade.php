@@ -1330,7 +1330,24 @@
             </div>
         </div>
 
-        <!-- MORE CHAPTERS GO HERE -->
+        <!-- Chapter 5: The Agency's Inaction -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(245,234,212,0.15)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/40 border border-paper/20 px-2 py-1">Licensed Agent · Duty of Care · "Private Matter"</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">"PRIVATE MATTER BETWEEN TENANTS."<br><span class="text-paper/50">THAT'S WHAT THEY TOLD THEM.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">When the Jadhavs first raised the co-tenant conduct issues with Coastal Property Agents in March 2026, the agency's response was a form letter from Georgia Brown on behalf of Katherine Kidd: "Matters relating to disputes or personal conflicts between co-tenants are considered private matters between the tenants and are not something we can directly resolve." They were directed to external mediation. The RTA, when contacted, said it did not handle co-tenant relationship disputes. Both exits were closed.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">On 22 April 2026, Amruta Jadhav submitted a signed Form 13 with a detailed response — confirming the 25–50% band maximum of three weeks' rent, requesting 17 April as the operative vacate date, and raising the financial stress of the situation. Bemarine did not sign. The agency did not pursue her to sign.</p>
+            <div class="border border-paper/[0.08] p-5" style="background:rgba(0,0,0,0.14)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">Agency Obligations Under the RTRA Act 2008 (Qld)</div>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Bond must be lodged with the RTA within 10 days — not passed informally between tenants at the controlling party's discretion.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Tenants have a right to quiet enjoyment — the agency cannot declare co-tenant harassment a private matter and disengage.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">A licensed agent cannot use an invoice it acknowledges is not a tenant's responsibility as a condition of approving that tenant's exit.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Coastal Property Agents was aware of every failure documented here — confirmed by its own written admissions.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TIMELINE + VERDICT + VAULT GO HERE -->
 
     </div>
 </section>
