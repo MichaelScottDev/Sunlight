@@ -1313,6 +1313,23 @@
             </div>
         </div>
 
+        <!-- Chapter 4: The Invoice Hostage -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.4)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Exit Obstruction · Invoice #021880</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">$588.72 FOR WORK DONE BEFORE THEY ARRIVED.<br><span class="text-gold">USED AS THE EXIT CONDITION.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">As the Jadhavs attempted to exit the tenancy, Coastal Property Agents issued Tax Invoice #021880, dated 11 March 2026, for $588.72 — described as "Light Replacements." The invoice was addressed to all three tenants. The owner indicated no replacement tenants would be approved until it was settled. The Jadhavs' break lease exit was held hostage to a debt that had nothing to do with them.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+                <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-gold mb-2">Katherine Kidd — 15 April 2026</div>
+                    <p class="text-[0.68rem] text-paper/55 leading-relaxed italic">"This happened before you moved in and Bemarine was the one that requested the electrician, so Bemarine and previous tenant should be the ones paying this bill."</p>
+                </div>
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.06)">
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-hot mb-2">The Same Email</div>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed">The agency simultaneously exculpated the Jadhavs and asked whether they could arrange a payment plan for the same invoice. Both positions held in the same document. No legal basis for attributing this cost to them has ever been provided.</p>
+                </div>
+            </div>
+        </div>
+
         <!-- MORE CHAPTERS GO HERE -->
 
     </div>
