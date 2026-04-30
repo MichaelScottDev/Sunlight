@@ -1288,6 +1288,31 @@
             </div>
         </div>
 
+        <!-- Chapter 3: In Her Own Words -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Written Harassment · Police Called</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">"TOXIC TO HAVE YOU BOTH."<br><span class="text-hot">IN HER OWN WORDS.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">The harassment is not alleged. It is documented in Bemarine Yamsuan's own written communications — WhatsApp messages and emails preserved and reviewed by Sunlight.Quest. Within weeks of moving in, Bemarine sent written notices restricting kitchen access to an 11am–12pm blackout and explicitly telling the couple she did not want to look at them. She then called Queensland Police, who attended and advised Kaustubh that if a co-tenant did not want him there, he could not remain. The Jadhavs vacated.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-hot mb-2">WhatsApp — Bemarine to Amruta</div>
+                    <p class="text-[0.68rem] text-paper/55 leading-relaxed italic">"If you can't manage to keep the apartment clean, it would be much better if you could find another. Its toxic to have you both."</p>
+                </div>
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-hot mb-2">Email — "DO NOT USE MY PERSONAL ITEMS"</div>
+                    <p class="text-[0.68rem] text-paper/55 leading-relaxed italic">"As I'm not comfortable having you and seeing you both around... it may be best for you to consider alternative accommodation."</p>
+                </div>
+            </div>
+            <div class="border border-paper/[0.08] p-5" style="background:rgba(0,0,0,0.14)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">What Happened After the Police Visit</div>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Police attended on Bemarine's call and advised Kaustubh he could not remain if a co-tenant did not want him there.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Jadhavs vacated — paying rent on an apartment they could not enter while paying separately for alternative accommodation.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">This continued for approximately 17 weeks — approximately $9,000 in rent paid for a home they could not use.</p></div>
+                </div>
+            </div>
+        </div>
+
         <!-- MORE CHAPTERS GO HERE -->
 
     </div>
