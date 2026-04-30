@@ -2203,8 +2203,8 @@
                     <!-- Care Connect story + email thread -->
                     <div class="border-t border-gold/10 pt-6 mb-6">
                         <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-4">The Story She Was Supposed to Cover</div>
-                        <h3 class="font-display text-xl tracking-wide mb-4 leading-tight">7 CARE CONNECT POSTERS IN THE BATHROOM.<br><span class="text-gold">THE WEBSITE HAS BEEN DOWN FOR OVER 1.5 YEARS.</span></h3>
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-5">
+                        <h3 class="font-display text-xl tracking-wide mb-4 leading-tight">7 CARE CONNECT POSTERS IN THE BATHROOM.<br><span class="text-gold">LIBRARY CARDS AT SOUTHPORT. WEBSITE DOWN FOR OVER 1.5 YEARS.</span></h3>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-4">
                             <div>
                                 <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/council_forbes/homeless-service-showers-small.jpg" alt="7 Care Connect posters in the bathroom at Nerang Street" class="w-full border border-paper/[0.08]" loading="lazy" />
                                 <div class="text-[0.45rem] text-paper/25 mt-1.5 leading-relaxed">7 Care Connect posters · Nerang Street bathrooms · Gold Coast homelessness services gap</div>
@@ -2219,6 +2219,32 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Library cards at Southport library -->
+                        <div class="mb-4">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/library-cards.jpg" alt="7 Care Connect library cards at Southport Library" class="w-full border border-paper/[0.08]" loading="lazy" />
+                            <div class="text-[0.45rem] text-paper/25 mt-1.5 leading-relaxed">7 Care Connect library referral cards · Southport Library · Gold Coast Council homelessness outreach</div>
+                        </div>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-5">The same 7 Care Connect branding appeared as library referral cards distributed at Southport Library — a second point of presence for a service whose website had already been expired for over a year. The Gold Coast Council was actively distributing referral material pointing homeless people to a website that did not exist. The library cards send someone to an address that returns an error. That is the Council's homelessness safety net in practice.</p>
+
+                        <!-- Hostpapa hosting expired screenshot -->
+                        <div class="border border-hot/20 p-4 mb-5" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">7careconnect.com.au — Hosting Expired · Verified</div>
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/7careconnecthostingexpired.png" alt="7 Care Connect website down — Hostpapa hosting expired" class="w-full border border-paper/[0.06] mb-3" loading="lazy" />
+                            <div class="text-[0.45rem] text-paper/25 leading-relaxed">Screenshot · 7careconnect.com.au · Hostpapa hosting expired · Site offline · Referral service unreachable</div>
+                            <p class="text-[0.65rem] text-paper/42 leading-relaxed mt-3">The 7 Care Connect website did not simply go down — the Hostpapa hosting plan expired and was not renewed. This is not a technical failure. This is an administrative decision: someone decided not to pay the hosting bill. The result is that every Care Connect poster in every bathroom and every library card distributed at Southport Library points a homeless person to a domain that returns a hosting-expired error. The Gold Coast Council continued distributing the referral material after the hosting lapsed.</p>
+                        </div>
+
+                        <!-- QLD homeless budget vs hosting cost gap -->
+                        <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.03)">
+                            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">The Gap — Queensland Homelessness Budget vs. A Hosting Bill</div>
+                            <h4 class="font-display text-xl tracking-wide mb-4 leading-tight">HUNDREDS OF MILLIONS SPENT ON HOMELESSNESS.<br><span class="text-gold">COULDN'T PAY THE HOSTPAPA BILL.</span></h4>
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/qld_homeless_budget.png" alt="Queensland homelessness budget" class="w-full border border-paper/[0.06] mb-4" loading="lazy" />
+                            <div class="text-[0.45rem] text-paper/25 mb-4 leading-relaxed">Screenshot · Queensland Government homelessness funding allocation · Published budget figures</div>
+                            <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Queensland spends hundreds of millions of dollars per year on homelessness funding. The 7 Care Connect website — a Gold Coast Council referral service actively distributed via posters and library cards to homeless people — was taken offline because the hosting plan was not renewed. A standard Hostpapa shared hosting plan costs approximately $5–$15 per month. The Council's primary digital homelessness referral service was unreachable for over 1.5 years at a cost of approximately $60–$180 in missed hosting payments.</p>
+                            <p class="text-[0.68rem] text-paper/45 leading-relaxed">This is the gap: not a gap between government ambition and achievability, but between a statewide funding commitment measured in hundreds of millions and an administrative oversight measured in dollars. Homeless people were being handed cards pointing them to a website that hadn't existed for over a year. No one at the Gold Coast Council noticed, or noticed and did not act. The posters stayed on the walls. The library cards kept circulating. The website stayed down.</p>
+                        </div>
+
                         <div class="evidence-vault">
                             <div class="ev-header" onclick="toggleVault(this)">
                                 <div class="flex items-center gap-2">
