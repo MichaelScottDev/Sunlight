@@ -1521,6 +1521,44 @@
 
 
 <!-- ══════════════════════════════════════
+     SECTION — id="martin"
+══════════════════════════════════════ -->
+<section id="martin" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(124,106,170,0.05) 0%,rgba(193,68,14,0.03) 60%,transparent 100%)">
+    <div class="max-w-4xl mx-auto">
+
+        <div class="flex items-center gap-3 mb-3 reveal">
+            <span class="text-[0.48rem] tracking-[0.22em] uppercase border px-2 py-1 border-paper/20 text-paper/40">Broadbeach · Gold Coast · Character Study</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-3 leading-tight reveal">THE BUSYBODY.<br><span style="color:#7c6aaa">MARTIN.</span></h2>
+        <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-8 reveal">A chance encounter at Broadbeach library. A laundry request declined. A coffee shop closed. A tent touched, then denied. A court file requested for someone he had no connection to. Not every intervention is helpful.</p>
+
+        <!-- Stats strip -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-px mb-10 reveal" style="background:rgba(245,234,212,0.06)">
+            <div class="py-5 px-4" style="background:rgb(12,8,4)">
+                <div class="font-display text-3xl md:text-4xl mb-1 text-hot">1</div>
+                <div class="text-[0.48rem] tracking-[0.18em] uppercase text-paper/30">Coffee shop closed — FWC complaints</div>
+            </div>
+            <div class="py-5 px-4" style="background:rgb(12,8,4)">
+                <div class="font-display text-3xl md:text-4xl mb-1" style="color:#7c6aaa">NZ</div>
+                <div class="text-[0.48rem] tracking-[0.18em] uppercase text-paper/30">Properties owned — lives in vehicle</div>
+            </div>
+            <div class="py-5 px-4" style="background:rgb(12,8,4)">
+                <div class="font-display text-3xl md:text-4xl mb-1 text-hot">0</div>
+                <div class="text-[0.48rem] tracking-[0.18em] uppercase text-paper/30">Standing to request court file</div>
+            </div>
+            <div class="py-5 px-4" style="background:rgb(12,8,4)">
+                <div class="font-display text-3xl md:text-4xl mb-1" style="color:#7c6aaa">∞</div>
+                <div class="text-[0.48rem] tracking-[0.18em] uppercase text-paper/30">Involvement in others' affairs</div>
+            </div>
+        </div>
+
+        <!-- CHAPTERS GO HERE -->
+
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
      FOOTER
 ══════════════════════════════════════ -->
 <footer class="border-t border-paper/[0.05] px-5 md:px-10 py-10 max-w-6xl mx-auto">
