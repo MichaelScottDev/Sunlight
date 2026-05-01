@@ -1252,6 +1252,29 @@
         <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-3 leading-tight reveal">LOCKED OUT.<br><span class="text-gold">AND STILL PAYING.</span></h2>
         <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-8 reveal">A married couple driven from their Surfers Paradise apartment by written harassment and a police call — then billed for months of rent they couldn't use, on a bond they never controlled. Legal consultant: Adam Watson.</p>
 
+        <!-- Key parties -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8 reveal">
+            <div class="border border-paper/[0.08]" style="background:rgba(0,0,0,0.18)">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bemarine/katherine_kidd.jpg" alt="Katherine Kidd — Property Manager, Coastal Property Agents" class="w-full object-cover object-top" style="max-height:220px" loading="lazy" />
+                <div class="px-4 py-3">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-0.5">Property Manager</div>
+                    <div class="font-display text-base tracking-wide text-paper/80">Katherine Kidd</div>
+                    <div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/35 mt-0.5">Coastal Property Agents · Surfers Paradise</div>
+                </div>
+            </div>
+            <div class="border border-paper/[0.08] flex flex-col">
+                <div class="flex-1 flex items-center justify-center p-6" style="background:#ffffff">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bemarine/coastal_logo.png" alt="Coastal Property Agents logo" class="max-h-20 w-auto" loading="lazy" />
+                </div>
+                <div class="px-4 py-3" style="background:rgba(0,0,0,0.18)">
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-0.5">Licensed Agent — Respondent 2</div>
+                    <div class="font-display text-base tracking-wide text-paper/80">Coastal Property Agents</div>
+                    <div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/35 mt-0.5">Beyond Reserve Pty Ltd · ABN 39101817798</div>
+                    <a href="https://www.coastal.com.au/" target="_blank" rel="noopener" class="inline-block mt-2 text-[0.46rem] tracking-[0.14em] uppercase text-gold/60 hover:text-gold transition-colors">coastal.com.au ↗</a>
+                </div>
+            </div>
+        </div>
+
         <!-- Stats strip -->
         <div class="grid grid-cols-2 md:grid-cols-4 gap-px mb-10 reveal" style="background:rgba(245,234,212,0.06)">
             <div class="py-5 px-4" style="background:rgb(12,8,4)">
