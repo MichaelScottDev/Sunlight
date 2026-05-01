@@ -1634,7 +1634,24 @@
             </div>
         </div>
 
-        <!-- MORE CHAPTERS GO HERE -->
+        <!-- Chapter 4: The Pattern -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(245,234,212,0.15)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/40 border border-paper/20 px-2 py-1">Court Intrusion · Misrepresentation · Continued Presence</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE COURT FILE. THE MISREPRESENTATION.<br><span class="text-paper/50">THE ONGOING PRESENCE.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Martin visited court to request a homeless man's file following a police matter that had nothing to do with him. He had no standing, no connection to the matter, and no invitation. Adam characterised the behaviour plainly: a busybody. The court visit was not an isolated incident — it fit a pattern of inserting himself into situations where he had no role and had not been asked.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">When Kosta contacted police regarding an aggressive individual captured on CCTV — a legitimate safety concern — Martin misrepresented the nature of that contact to Adam. He characterised it as malicious rather than what it was. This is not confusion. Martin had enough understanding of the situation to misrepresent it purposefully. He chose the version that would reflect worse on Kosta.</p>
+            <div class="border border-paper/[0.08] p-5 mb-4" style="background:rgba(0,0,0,0.14)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">The Pattern Documented</div>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Visited court to request a file for a homeless man's matter — no connection, no standing, no invitation.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Misrepresented a legitimate police CCTV referral to Adam as a malicious act.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Called Adam immediately after being filmed — implied threat regarding the recording.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Continues to frequent areas where Adam is present — raising the pattern with library security is under consideration.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PARADOX + CONCLUSION GO HERE -->
 
     </div>
 </section>
