@@ -2337,6 +2337,135 @@
 
                 </div>
 
+                <!-- Gold Coast Homeless Outreach Team SMS -->
+                <div class="story-chapter reveal mt-8" style="border-left-color:rgba(193,68,14,0.45)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Gold Coast Homeless Outreach Team · SMS · March 2026</span></div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">"WERE YOU ABLE TO GET TO AN ACCESS POINT?"<br><span class="text-hot">NOBODY TOLD ME WHERE IT IS.</span></h3>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">The housing team in pink shirts ambushed me at the library. I gave them my mobile number and my email address and asked them to send through any form I needed to sign. What I received instead was a series of SMS messages from the Gold Coast Homeless Outreach Team — messages that reframed my homelessness as a procedural failure on my part, attributed a statement I never made, and offered solutions to a problem I don't have.</p>
+
+                    <!-- Message screenshots grid -->
+                    <div class="space-y-3 mb-6">
+                        <!-- Message 1 -->
+                        <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.18)">
+                            <div class="text-[0.44rem] tracking-[0.16em] uppercase text-paper/25 mb-2">Incoming · Gold Coast Homelessness Outreach Team · Rihanna</div>
+                            <p class="text-[0.7rem] text-paper/60 leading-relaxed italic">"Hello Kosta, this is the Gold Coast homelessness outreach team. Just checking in to see if you were able to get to an access point to complete intake so we can support you with your housing goals?"</p>
+                            <div class="mt-3 border-l-2 border-hot/40 pl-3">
+                                <p class="text-[0.58rem] text-paper/38 leading-relaxed">An "access point" was referenced without any prior communication about what an access point is, where it is, or that attending one was a requirement. I had already provided my contact details to the housing team at the library and asked them to send forms. The SMS treats my failure to attend an undisclosed location as the reason I remain unhoused.</p>
+                            </div>
+                        </div>
+
+                        <!-- Message 2 — NSW / Link 2 Home allegation -->
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.05)">
+                            <div class="text-[0.44rem] tracking-[0.16em] uppercase text-hot mb-2">Incoming · Allegation — Statement I Never Made</div>
+                            <p class="text-[0.7rem] text-paper/60 leading-relaxed italic mb-3">"Rihanna from the housing team (pink tshirts) said you were contemplating calling link to home as they would be able to access funding for 28 days accommodation however you would need to be in NSW to access this."</p>
+                            <p class="text-[0.65rem] text-paper/55 leading-relaxed italic">"...alternatively help you return to NSW if this is something you would like to do."</p>
+                            <div class="mt-3 border-l-2 border-hot/60 pl-3">
+                                <p class="text-[0.58rem] text-paper/38 leading-relaxed">I never made any comment about Link 2 Home. I never said I wanted to return to NSW. This is a statement being attributed to me by the same housing team that ambushed me at the library — and it is being used as the basis for an offer to help me leave Queensland.</p>
+                            </div>
+                        </div>
+
+                        <!-- Message 3 — QLD ID -->
+                        <div class="border border-gold/15 p-4" style="background:rgba(201,138,16,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.16em] uppercase text-gold mb-2">Incoming · QLD ID Offer</div>
+                            <p class="text-[0.7rem] text-paper/60 leading-relaxed italic">"...our team can support with changing your NSW to Queensland ID so you can apply for Queensland social housing..."</p>
+                            <p class="text-[0.65rem] text-paper/55 leading-relaxed italic mt-2">"Thank you for clarifying that you don't want to return to NSW in that case we can support you to get QLD ID if you are wanting to stay in Queensland."</p>
+                            <div class="mt-3 border-l-2 border-gold/40 pl-3">
+                                <p class="text-[0.58rem] text-paper/38 leading-relaxed">I have a NSW driver's licence. I have been in Queensland for years. My Woolworths transaction history — every grocery purchase, in QLD — documents this. The suggestion that my housing situation is solvable by converting my licence implies that the system's failure to house me is a paperwork problem I created. It is not.</p>
+                            </div>
+                        </div>
+
+                        <!-- Message 4 — Which form -->
+                        <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.18)">
+                            <div class="text-[0.44rem] tracking-[0.16em] uppercase text-paper/25 mb-2">Incoming · "Which form are you chasing?"</div>
+                            <p class="text-[0.7rem] text-paper/60 leading-relaxed italic">"Which form are you chasing and I will call them to follow it up for you."</p>
+                            <div class="mt-3 border-l-2 border-paper/20 pl-3">
+                                <p class="text-[0.58rem] text-paper/38 leading-relaxed">The outreach team does not know which form is needed to apply for social housing. That is their entire job. They stopped me at the library, took my details, told me nothing, sent me a message asking if I'd been to an intake point they hadn't named — and then asked me to tell them which form I was chasing so they could look it up.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kosta's reply -->
+                    <div class="border-l-4 border-hot/60 pl-5 py-1 mb-5">
+                        <div class="text-[0.46rem] tracking-[0.18em] uppercase text-hot mb-2">Outgoing Reply · Kosta · Tuesday 17 March · 10:21 am</div>
+                        <p class="font-serif italic text-paper/70 text-base leading-relaxed">"I never made any comments to anybody about home link that person is lying - you should be reported to the local government minister for what youve done and said."</p>
+                    </div>
+
+                    <!-- What this establishes -->
+                    <div class="border border-paper/[0.08] p-5" style="background:rgba(0,0,0,0.14)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">What These Messages Establish</div>
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">The system's answer to homelessness is an "access point" that was never communicated — my failure to attend it is treated as the cause of my situation.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">A statement I never made — about wanting to return to NSW — was attributed to me by the housing team and used as the basis for an offer to help me leave Queensland.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">I have been in Queensland for years. My bank records document this. The QLD licence offer treats multi-year residency as a bureaucratic problem I failed to resolve.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">The outreach team does not know which housing form is required. They asked me to tell them. This is the Gold Coast Council's homelessness support system in operation.</p></div>
+                        </div>
+                    </div>
+
+                    <!-- Screenshot evidence vault -->
+                    <div class="evidence-vault mt-5">
+                        <div class="ev-header" onclick="toggleVault(this)">
+                            <div class="flex items-center gap-2">
+                                <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📱 SMS Screenshots</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Gold Coast Homeless Outreach Team · Rihanna · March 2026</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">6 screenshots</span>
+                                <span class="ev-toggle">▼</span>
+                            </div>
+                        </div>
+                        <div class="ev-body">
+                            <div class="ev-file ef-hot" onclick="openMV('img-outreach-1')">
+                                <div class="ev-icon" style="font-size:0.65rem">📱</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">Screenshot_20260501_123442 — Access point intake message</div>
+                                    <div class="ev-desc">SMS · "were you able to get to an access point to complete intake"</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                            <div class="ev-file ef-hot" onclick="openMV('img-outreach-2')">
+                                <div class="ev-icon" style="font-size:0.65rem">📱</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">Screenshot_20260501_123514 — "Which form are you chasing"</div>
+                                    <div class="ev-desc">SMS · QLD ID offer + form unknown</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                            <div class="ev-file ef-hot" onclick="openMV('img-outreach-3')">
+                                <div class="ev-icon" style="font-size:0.65rem">📱</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">Screenshot_20260501_123523 — NSW ID / return to NSW</div>
+                                    <div class="ev-desc">SMS · "changing your NSW to Queensland ID" · Rihanna from pink tshirts</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                            <div class="ev-file ef-hot" onclick="openMV('img-outreach-4')">
+                                <div class="ev-icon" style="font-size:0.65rem">📱</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">Screenshot_20260501_123530 — Link 2 Home allegation</div>
+                                    <div class="ev-desc">SMS · "said you were contemplating calling link to home" — statement never made</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                            <div class="ev-file ef-gold" onclick="openMV('img-outreach-5')">
+                                <div class="ev-icon" style="font-size:0.65rem">📱</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">Screenshot_20260501_123537 — QLD ID if staying in Queensland</div>
+                                    <div class="ev-desc">SMS · "we can support you to get QLD ID if you are wanting to stay in Queensland"</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                            <div class="ev-file ef-sage" onclick="openMV('img-outreach-6')">
+                                <div class="ev-icon" style="font-size:0.65rem">📱</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">Screenshot_20260501_123544 — Kosta's reply</div>
+                                    <div class="ev-desc">SMS · Outgoing · "I never made any comments to anybody about home link that person is lying"</div>
+                                </div>
+                                <span class="ev-cta">View →</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="story-chapter reveal" style="transition-delay:0.1s;border-left-color:rgba(124,106,170,0.3)">
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">"HE'S THE HOMELESS GUY<br><span style="color:#7c6aaa">WITH MENTAL HEALTH ISSUES."</span></h3>
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The comment reduces a person to their housing status and their diagnosis simultaneously — using both as grounds for disqualification. Not as a factual challenge to anything documented, but as a category dismissal. The 7 Care Connect posters on the bathroom walls at Nerang Street did not disappear because the person who found them has a mental health history.</p>
@@ -3413,6 +3542,12 @@ var EVIDENCE = {
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/rj_confront.mp4',
         filename:'rj_confront.mp4'
     },
+    'img-outreach-1': { type:'image', title:'SMS — ACCESS POINT INTAKE MESSAGE', tag:'Gold Coast Homeless Outreach Team · Rihanna · March 2026', meta:'Screenshot · Samsung Messages · 1 May 2026', desc:'"Hello Kosta, this is the Gold Coast homelessness outreach team. Just checking in to see if you were able to get to an access point to complete intake so we can support you with your housing goals?" — An access point was referenced with no prior communication about what it is or where it is.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/messages/Screenshot_20260501_123442_Messages.jpg', filename:'Screenshot_20260501_123442_Messages.jpg' },
+    'img-outreach-2': { type:'image', title:'SMS — "WHICH FORM ARE YOU CHASING"', tag:'Gold Coast Homeless Outreach Team · QLD ID Offer · Form Unknown', meta:'Screenshot · Samsung Messages · 1 May 2026', desc:'Rihanna from the outreach team offers to help change NSW ID to QLD ID for social housing eligibility — and asks which housing form is required. The team responsible for housing intake does not know which form is needed.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/messages/Screenshot_20260501_123514_Messages.jpg', filename:'Screenshot_20260501_123514_Messages.jpg' },
+    'img-outreach-3': { type:'image', title:'SMS — NSW ID / RETURN TO NSW OFFER', tag:'Gold Coast Homeless Outreach Team · NSW ID · Pink Shirts · Rihanna', meta:'Screenshot · Samsung Messages · 1 May 2026', desc:'"our team can support with changing your NSW to Queensland ID so you can apply for Queensland social housing or alternatively help you return to NSW." The message attributes a NSW return intention and frames multi-year QLD residency as a bureaucratic problem.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/messages/Screenshot_20260501_123523_Messages.jpg', filename:'Screenshot_20260501_123523_Messages.jpg' },
+    'img-outreach-4': { type:'image', title:'SMS — LINK 2 HOME ALLEGATION', tag:'False Attribution · Link 2 Home · Statement Never Made', meta:'Screenshot · Samsung Messages · 1 May 2026', desc:'"Rihanna from the housing team (pink tshirts) said you were contemplating calling link to home as they would be able to access funding for 28 days accommodation however you would need to be in NSW to access this." — No such statement was ever made.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/messages/Screenshot_20260501_123530_Messages.jpg', filename:'Screenshot_20260501_123530_Messages.jpg' },
+    'img-outreach-5': { type:'image', title:'SMS — QLD ID IF STAYING IN QUEENSLAND', tag:'Gold Coast Homeless Outreach Team · QLD ID Offer', meta:'Screenshot · Samsung Messages · 1 May 2026', desc:'"Thank you for clarifying that you don\'t want to return to NSW in that case we can support you to get QLD ID if you are wanting to stay in Queensland." — The system\'s housing solution is a driver\'s licence transfer for someone who has been in QLD for years.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/messages/Screenshot_20260501_123537_Messages.jpg', filename:'Screenshot_20260501_123537_Messages.jpg' },
+    'img-outreach-6': { type:'image', title:'SMS — KOSTA\'S REPLY', tag:'Outgoing Reply · Tuesday 17 March · 10:21 am', meta:'Screenshot · Samsung Messages · Outgoing · 17 March 2026', desc:'"I never made any comments to anybody about home link that person is lying - you should be reported to the local government minister for what youve done and said." — Sent 17 March 2026 at 10:21 am.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/messages/Screenshot_20260501_123544_Messages.jpg', filename:'Screenshot_20260501_123544_Messages.jpg' },
     'pdf-lauren-forbes-email': {
         type:'pdf',
         title:'EMAIL THREAD — LAUREN FORBES · SKY NEWS',
