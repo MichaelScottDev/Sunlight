@@ -2558,6 +2558,63 @@
             </div>
         </div>
 
+        <!-- Tram guy — unidentified man punched -->
+        <div class="story-chapter reveal mt-12" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Unidentified Male · Tram Incident · Queen Street Stop</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">HE MOCKED THE CAMERA. CALLED ME A POLICE INFORMANT.<br><span class="text-hot">THEN GOT PUNCHED IN THE FACE.</span></h3>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                <div>
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tram_incident/tram_guy.jpg" alt="Unidentified male — tram incident" class="w-full object-cover border border-paper/[0.08]" style="max-height:380px;object-position:center top" loading="lazy" />
+                    <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/20 mt-1.5">Unidentified male · Tram incident · Gold Coast</div>
+                </div>
+                <div class="space-y-4">
+                    <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.46rem] tracking-[0.18em] uppercase text-hot mb-2">During the Viral Video — On the Tram</div>
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">While I was chasing RJ on the tram, this man approached me, began mocking my camera, and threatened to call the police. When a random passer-by came through, I called him a police informant. He got punched in the face.</p>
+                    </div>
+                    <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.14)">
+                        <div class="text-[0.46rem] tracking-[0.18em] uppercase text-paper/30 mb-2">Status</div>
+                        <p class="text-[0.65rem] text-paper/45 leading-relaxed">This man remains <strong class="text-paper/65">unidentified</strong>. I have no current issues with him. What is documented here is his prior conduct and the context the video doesn't show.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">The Prior Incident — Queen Street Tram Stop</div>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">This was not our first encounter. At Queen Street tram stop, he had previously approached me on the tram and started making comments about me talking in the library at Southport. I told him I didn't want to talk about it. He followed me outside. He swung first — and missed. We fought. I connected every punch to his head.</p>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">That prior fight is why — in the viral video — he says <span class="font-display text-paper/70">"You got a few good hits in."</span> He wasn't complimenting me out of nowhere. He was referencing what had already happened between us. The viral video captured the tail end of a pattern.</p>
+            </div>
+
+            <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">After the Fight — He Reached Into His Backpack</div>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">After the fight at Queen Street, he reached into his backpack and ran after me. This is documented on video below. The Queen Street tram stop PA system kept announcing that police were on their way. Police never arrived. I submitted the footage to Southport Police Station. There was no follow-up.</p>
+                <video controls preload="metadata" class="w-full border border-paper/[0.08]" style="max-height:400px;display:block">
+                    <source src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tram_incident/VID_20240223_231415.mp4" type="video/mp4">
+                </video>
+                <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/20 mt-2">VID_20240223_231415 · Queen Street tram stop · 23 Feb 2024 · Submitted to Southport Police · No follow-up</div>
+            </div>
+
+            <div class="border border-paper/[0.08] p-5" style="background:rgba(0,0,0,0.14)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">Aaron Barker — "Deserved to Get Bashed" — CBI Task Force Latro North</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed">When Aaron Barker said that I deserved to get bashed, he was fired from the CBI Task Force Latro North. The footage I submitted — the video of this man reaching into his backpack and chasing me after a fight I did not start, at a tram stop where the police were repeatedly announced as incoming and never appeared — is part of the documented record of why that statement cost Barker his position.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4">
+                    <div class="border border-paper/[0.06] p-3" style="background:rgba(0,0,0,0.12)">
+                        <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/28 mb-1">Police Response</div>
+                        <p class="text-[0.58rem] text-paper/40 leading-relaxed">PA at Queen Street announced police coming. Police never arrived.</p>
+                    </div>
+                    <div class="border border-paper/[0.06] p-3" style="background:rgba(0,0,0,0.12)">
+                        <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/28 mb-1">Footage Submitted</div>
+                        <p class="text-[0.58rem] text-paper/40 leading-relaxed">Submitted to Southport Police Station. No follow-up received.</p>
+                    </div>
+                    <div class="border border-paper/[0.06] p-3" style="background:rgba(0,0,0,0.12)">
+                        <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/28 mb-1">Aaron Barker</div>
+                        <p class="text-[0.58rem] text-paper/40 leading-relaxed">Said I deserved to get bashed. Fired from CBI Task Force Latro North.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Mental health tent visit -->
         <div class="story-chapter reveal mt-12" style="border-left-color:rgba(193,68,14,0.3)">
             <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THEY CAME TO THE TENT.<br><span class="text-hot">A "MENTAL HEALTH CHECK." WITH HANCOCK PROSPECTING'S QUESTIONS IN IT.</span></h3>
