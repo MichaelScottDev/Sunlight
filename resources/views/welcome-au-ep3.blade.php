@@ -1566,7 +1566,23 @@
             </div>
         </div>
 
-        <!-- CHAPTERS GO HERE -->
+        <!-- Chapter 1: The Initial Encounter -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(124,106,170,0.5)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">Broadbeach Library · First Contact</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">A CHANCE ENCOUNTER.<br><span style="color:#7c6aaa">A LAUNDRY REQUEST. A SHIFT IN BEHAVIOUR.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Martin was previously unknown. The first encounter happened at Broadbeach library — a chance meeting that should have stayed unremarkable. Martin learned about a personal matter regarding a laptop and began asking about it repeatedly during subsequent casual encounters. The curiosity was noted. The persistence was noted more.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Martin subsequently requested to use laundry facilities at Meriton Apartments through Adam — despite having a vehicle and access to laundromats. The request was declined. From that point, his behaviour became noticeably negative. A small declined convenience became the starting point for a pattern of insertion, misrepresentation, and interference that continued for months.</p>
+            <div class="border border-paper/[0.08] p-5" style="background:rgba(0,0,0,0.14)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">What Was Established From The Start</div>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Martin had no standing relationship with either Kosta or Adam — the connection was incidental.</p></div>
+                    <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">The laundry request — declined — was the first ask for a favour from someone he had just met.</p></div>
+                    <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">The negative shift in behaviour following the decline established the dynamic that defined every subsequent interaction.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MORE CHAPTERS GO HERE -->
 
     </div>
 </section>
