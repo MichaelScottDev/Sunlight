@@ -1582,6 +1582,32 @@
             </div>
         </div>
 
+        <!-- Chapter 2: Serving Our People -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.4)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Serving Our People · Fair Work Commission</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">GIVEN A CHANCE.<br><span class="text-hot">ORGANISED COMPLAINTS THAT CLOSED THE SHOP.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Martin worked at <em>Serving Our People</em> — a charity founded by Yas Matbouly that operated ten coffee shops with a mix of volunteer and paid staff. Someone advocated for Martin's inclusion: "Give him a chance." He was given one.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Martin organised fellow workers to file Fair Work Commission complaints demanding improved pay conditions. The legal costs of defending against multiple simultaneous claims proved too much. The coffee shop was forced to close. The broader community — the people the charity existed to serve — lost a resource because Martin decided the arrangement wasn't working for him and recruited others to formalise that grievance through litigation.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-hot mb-2">What Was Given</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/45 leading-relaxed">An employment opportunity at a charity operation</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/45 leading-relaxed">A personal advocate who said: "Give him a chance"</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/45 leading-relaxed">Access to an organisation serving the community</p></div>
+                    </div>
+                </div>
+                <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.14)">
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-paper/30 mb-2">What Followed</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Organised workers to file multiple FWC complaints</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Legal costs of defending multiple claims simultaneously</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.57rem] text-paper/42 leading-relaxed">Coffee shop forced to close — community lost the resource</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- MORE CHAPTERS GO HERE -->
 
     </div>
