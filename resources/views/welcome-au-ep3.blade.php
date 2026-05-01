@@ -1569,6 +1569,25 @@
         <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-3 leading-tight reveal">THE BUSYBODY.<br><span style="color:#7c6aaa">MARTIN.</span></h2>
         <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-8 reveal">A chance encounter at Broadbeach library. A laundry request declined. A coffee shop closed. A tent touched, then denied. A court file requested for someone he had no connection to. Not every intervention is helpful.</p>
 
+        <!-- Martin photo + video -->
+        <div class="reveal mb-10">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/martin/martin_photo.jpg" alt="Martin — Broadbeach" class="w-full object-cover border border-paper/[0.07]" style="max-height:520px;object-position:center top" loading="lazy" />
+            <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/20 mt-1.5">Martin · Broadbeach · Gold Coast</div>
+        </div>
+
+        <div class="reveal mb-10">
+            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">Filmed Interaction — The Confrontation</div>
+            <div class="border border-paper/[0.08]" style="background:rgba(0,0,0,0.3)">
+                <video controls preload="metadata" class="w-full" style="max-height:480px;display:block">
+                    <source src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/martin/martin.mp4" type="video/mp4">
+                </video>
+                <div class="px-4 py-3 border-t border-paper/[0.06]">
+                    <div class="text-[0.48rem] tracking-[0.18em] uppercase text-paper/35 mb-1">Recorded confrontation — Broadbeach</div>
+                    <p class="text-[0.55rem] text-paper/30 leading-relaxed">"I don't even know where your tent is!" — said on camera, after making a specific locational complaint to Adam about that same tent. After the recording device was visible, Martin immediately called Adam.</p>
+                </div>
+            </div>
+        </div>
+
         <!-- Stats strip -->
         <div class="grid grid-cols-2 md:grid-cols-4 gap-px mb-10 reveal" style="background:rgba(245,234,212,0.06)">
             <div class="py-5 px-4" style="background:rgb(12,8,4)">
