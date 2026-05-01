@@ -201,11 +201,18 @@
                             <div class="text-[0.47rem] text-paper/22 tracking-wider">Coogee · SC Agnew</div>
                         </div>
                     </a>
-                    <a href="#jadhav" class="flex items-center gap-2 px-4 py-3 hover:bg-paper/[0.03] transition-colors">
+                    <a href="#jadhav" class="flex items-center gap-2 px-4 py-3 hover:bg-paper/[0.03] transition-colors border-r border-paper/[0.06]">
                         <span class="font-display text-[0.62rem]" style="color:#c98a10">04</span>
                         <div>
                             <div class="text-[0.6rem] text-paper/55 leading-none mb-0.5">Locked Out</div>
                             <div class="text-[0.47rem] text-paper/22 tracking-wider">Jadhav · Q8092-26</div>
+                        </div>
+                    </a>
+                    <a href="#martin" class="flex items-center gap-2 px-4 py-3 hover:bg-paper/[0.03] transition-colors">
+                        <span class="font-display text-[0.62rem]" style="color:#7c6aaa">05</span>
+                        <div>
+                            <div class="text-[0.6rem] text-paper/55 leading-none mb-0.5">The Busybody</div>
+                            <div class="text-[0.47rem] text-paper/22 tracking-wider">Martin · Broadbeach</div>
                         </div>
                     </a>
                 </div>
@@ -250,6 +257,13 @@
                         <div>
                             <div class="text-[0.58rem] text-paper/55">Locked Out &amp; Still Paying</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Jadhav · Q8092-26 · Coastal Property</div>
+                        </div>
+                    </a>
+                    <a href="#martin" class="flex items-center gap-3 p-2 hover:bg-paper/[0.03] transition-colors">
+                        <span class="font-display text-[0.5rem]" style="color:#7c6aaa">05</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">The Busybody</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Martin · Broadbeach · Serving Our People</div>
                         </div>
                     </a>
                 </div>
