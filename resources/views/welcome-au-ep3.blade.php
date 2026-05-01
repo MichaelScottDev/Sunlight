@@ -1608,6 +1608,32 @@
             </div>
         </div>
 
+        <!-- Chapter 3: The Tent Accusation -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">False Accusation · Filmed Confrontation</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">"I DON'T EVEN KNOW WHERE YOUR TENT IS."<br><span class="text-hot">HE KNEW. HE'D TOUCHED IT.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Martin suggested that Kosta's tent — positioned near a children's playground — indicated inappropriate behaviour. The accusation was made to Adam. When Kosta confronted Martin directly about touching the tent, Martin's response was immediate and specific: "I don't even know where your tent is!" The denial was recorded.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">The problem with that denial is that the accusation about the tent's proximity to the playground — made earlier, to Adam — required Martin to know exactly where the tent was. You cannot complain about the specific location of something you claim not to know the location of. The contradiction was captured on film during the confrontation. After the recording device was visible, Martin immediately called Adam — the implied threat about the footage was noted.</p>
+            <div class="border border-hot/20 p-5 mb-4" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">The Contradiction — On Record</div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/28 mb-1.5">What Martin told Adam (before)</div>
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed italic">Complained that the tent was positioned near a children's playground — a specific locational complaint requiring specific locational knowledge.</p>
+                    </div>
+                    <div>
+                        <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/28 mb-1.5">What Martin said on camera (after)</div>
+                        <p class="text-[0.65rem] text-paper/55 leading-relaxed italic">"I don't even know where your tent is!"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.14)">
+                <div class="text-[0.46rem] tracking-[0.18em] uppercase text-paper/30 mb-2">During the filmed confrontation, Martin also asked:</div>
+                <p class="text-[0.72rem] text-paper/55 leading-relaxed italic mb-1">"How long have we known each other?"</p>
+                <p class="text-[0.57rem] text-paper/35 leading-relaxed">Noted at the time: they had never spoken by phone. The framing of familiarity in the question was inconsistent with the actual history of contact.</p>
+            </div>
+        </div>
+
         <!-- MORE CHAPTERS GO HERE -->
 
     </div>
