@@ -2504,8 +2504,16 @@
             </div>
 
             <!-- Mick Gatto / Hit Solicitation -->
-            <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">"ANYTHING MR. WATSON TOUCHES<br><span class="text-hot">TURNS TO STONE."</span></h3>
-            <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"West Kira and his father called Mick Gatto and offered him money to put a hit out on Adam Watson. Mick Gatto told them that anything Mr. Watson touches turns to stone. He called them amateurs. Then he handed the recorded inbound call to police."</p>
+            <div class="flex gap-5 mb-5 items-start">
+                <div class="shrink-0 w-24 border border-paper/[0.07] overflow-hidden" style="aspect-ratio:2/3;background:rgba(193,68,14,0.04)">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/Screenshot_20260501_184253_Instagram.jpg" alt="West Kira's father — Kira & Kira Instagram" class="w-full h-full object-cover object-top" loading="lazy" />
+                </div>
+                <div>
+                    <div class="text-[0.45rem] tracking-[0.18em] uppercase text-paper/25 mb-2">West Kira's Father &nbsp;·&nbsp; Kira &amp; Kira Instagram</div>
+                    <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">"ANYTHING MR. WATSON TOUCHES<br><span class="text-hot">TURNS TO STONE."</span></h3>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"West Kira and his father called Mick Gatto and offered him money to put a hit out on Adam Watson. Mick Gatto told them that anything Mr. Watson touches turns to stone. He called them amateurs. Then he handed the recorded inbound call to police."</p>
+                </div>
+            </div>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The call was made by West Kira and his father to Mick Gatto — an approach that combined a solicitation to murder with the offering of a sum of money. Gatto's response was unambiguous. He recorded the inbound call and provided it directly to police. West Kira and his father are now facing charges as a result of that recorded call being in police possession.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">This is the same Mick Gatto who, at the Broadbeach disability centre confrontation, warned West Kira's father directly — in front of two corrupt QPS officers and a psychologist — not to interfere with Adam Watson. West Kira's father ignored that warning. He then compounded it by making a recorded call soliciting violence against the same person Gatto had already publicly stated was under his protection.</p>
 
