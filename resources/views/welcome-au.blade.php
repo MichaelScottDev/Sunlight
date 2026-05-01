@@ -3837,7 +3837,7 @@ function buildImageViewer(e) {
             '<div style="font-size:0.42rem;letter-spacing:0.12em;text-transform:uppercase;color:rgba(193,68,14,0.7);text-align:center;margin-top:0.2rem">' + (e.redactLabel||'REDACTED') + '</div>' +
             '</div>';
     }
-    var src = e.src || 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=65';
+    var src = e.src || e.url || 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=65';
     return '<div class="mv-img-frame">' +
         '<img src="' + src + '" alt="' + (e.title||'Evidence') + '" style="filter:contrast(1.05) saturate(0.8)"/>' +
         redactHtml +
