@@ -297,6 +297,11 @@
             <p class="text-[0.72rem] leading-relaxed text-paper/30 max-w-2xl mt-3">This is not a complaint about a bad experience. This is a documented record of how the Workforce Australia compliance architecture operates — and what it does to people who ask questions.</p>
         </div>
 
+        <!-- Tursa logo -->
+        <div class="reveal mb-8 inline-block border border-paper/[0.08] p-4" style="background:#ffffff">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa_logo.webp" alt="Tursa Employment &amp; Training logo" class="h-10 w-auto" loading="lazy" />
+        </div>
+
         <!-- Document badges -->
         <div class="reveal flex flex-wrap gap-3 mb-10">
             <span class="text-[0.52rem] tracking-[0.18em] uppercase border border-paper/15 px-3 py-1.5 text-paper/40">📄 9 Source Documents</span>
