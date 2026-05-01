@@ -2676,7 +2676,8 @@
                     <span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">Organised Crime — Episode 1</span>
                 </div>
                 <h2 class="font-display leading-none tracking-wide" style="font-size:clamp(2.8rem,7vw,5rem)">KIRA &amp; KIRA.<br><span class="text-hot">FURNITURE OUT. COCAINE IN.</span></h2>
-                <p class="font-serif italic text-paper/35 mt-3 max-w-xl leading-relaxed">A Gold Coast furniture shop. A wealthy owner with Mick Gatto connections. Yakuza involvement. And a campaign of intimidation against Adam Watson that reached a Priceline chemist, a Centre Manager, and a disability centre near Broadbeach library.</p>
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kira_and_kira.jpg" alt="Kira &amp; Kira logo" class="mt-4 mb-3 h-14 w-auto opacity-80" loading="lazy" />
+                <p class="font-serif italic text-paper/35 mt-1 max-w-xl leading-relaxed">A Gold Coast furniture shop. A wealthy owner with Mick Gatto connections. Yakuza involvement. And a campaign of intimidation against Adam Watson that reached a Priceline chemist, a Centre Manager, and a disability centre near Broadbeach library.</p>
             </div>
             <div class="max-w-xs">
                 <div class="flex flex-wrap gap-2">
