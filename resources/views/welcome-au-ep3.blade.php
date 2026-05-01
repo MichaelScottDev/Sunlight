@@ -1651,7 +1651,41 @@
             </div>
         </div>
 
-        <!-- PARADOX + CONCLUSION GO HERE -->
+        <!-- The Paradox of Martin -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(124,106,170,0.4)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">The Contradictions</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-5 leading-tight">THE PARADOX OF MARTIN.</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.12)">
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-paper/28 mb-2">No licence. Lives in a vehicle.</div>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed">Martin lacks a driver's licence yet lives in his vehicle. The vehicle he requested access to Adam's laundry facilities from. The vehicle that gives him access to laundromats he chose not to use.</p>
+                </div>
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.12)">
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-paper/28 mb-2">Owns NZ properties. No permanent residence.</div>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed">Martin owns properties in New Zealand yet has no permanent place of residence in Australia. He requested laundry access from someone who was homeless.</p>
+                </div>
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.12)">
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-paper/28 mb-2">Given a chance. Closed the operation.</div>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed">Someone advocated for him with the words "give him a chance." He was given one. He used it to organise Fair Work complaints that cost the charity its coffee shop.</p>
+                </div>
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.12)">
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-paper/28 mb-2">Busybody. No invitation required.</div>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed">Requested a court file for a stranger's matter. Misrepresented a police safety referral. Complained about a tent location he claimed not to know. Continued frequenting spaces uninvited.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Conclusion -->
+        <div class="reveal mb-6 p-6 md:p-8" style="background:rgba(124,106,170,0.07);border:1px solid rgba(124,106,170,0.2)">
+            <div class="text-[0.5rem] tracking-[0.22em] uppercase mb-4" style="color:#7c6aaa">Conclusion</div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight text-paper/80">NOT EVERY INTERACTION REQUIRES YOUR INVOLVEMENT.</h3>
+            <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Martin's actions across every documented incident demonstrate the same pattern: insertion without invitation, intervention without standing, and misrepresentation when confronted. The harm caused by each individual action — a coffee shop closure, a false implication, a court file requested with no right to it — might appear isolated. The pattern makes it something else.</p>
+            <p class="text-[0.68rem] text-paper/48 leading-relaxed">Sometimes the most harmful actions come from those who believe they are helping. Martin has not been asked to help. He has not been given permission to insert himself into matters that do not involve him. He continues anyway. That is the record.</p>
+            <div class="flex items-center gap-3 mt-5">
+                <div class="w-8 h-px" style="background:rgba(124,106,170,0.4)"></div>
+                <span class="text-[0.48rem] tracking-[0.18em] uppercase" style="color:#7c6aaa">Broadbeach · Gold Coast · Documented by Sunlight.Quest</span>
+            </div>
+        </div>
 
     </div>
 </section>
