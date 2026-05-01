@@ -2654,6 +2654,47 @@
             </div>
         </div>
 
+        <!-- ASIO — RJ phone subpoena / Aaron Barker -->
+        <div class="story-chapter reveal mt-12" style="border-left-color:rgba(61,122,74,0.5)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.45rem] tracking-[0.2em] uppercase px-2 py-1 border border-sage/30 text-sage" style="background:rgba(61,122,74,0.07)">Australian Security Intelligence Organisation &nbsp;·&nbsp; National Security</span>
+            </div>
+
+            <div class="flex gap-5 mb-6 items-start">
+                <div class="shrink-0 border border-paper/[0.08] p-3 flex items-center justify-center" style="background:#ffffff;min-width:80px">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/asio_logo.png" alt="ASIO — Australian Security Intelligence Organisation" class="h-10 w-auto" loading="lazy" />
+                </div>
+                <div>
+                    <h3 class="font-display text-2xl tracking-wide mb-3 leading-tight">THANK YOU, ASIO.<br><span class="text-sage">THE PHONE SUBPOENA THAT BROUGHT DOWN A COP.</span></h3>
+                    <p class="font-serif italic text-paper/50 text-lg leading-relaxed">"ASIO subpoenaed RJ's phone. On it was a recording of Aaron Barker — a serving Queensland Police officer — making comments about me. He was demoted. Then stood down. For turning a blind eye to a 6-on-1 assault."</p>
+                </div>
+            </div>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The Australian Security Intelligence Organisation subpoenaed the phone of RJ. That subpoena produced a recording — a recording in which Aaron Barker, then a serving Queensland Police officer assigned to the CBI Task Force Latro North, made comments about Kosta Kondratenko. The content of that recording was not consistent with the conduct expected of an officer responsible for investigating the people who had orchestrated a 6-on-1 assault.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">Barker was first demoted. Then stood down entirely. The grounds were not obscure — a serving police officer, whose unit was nominally investigating the network that arranged an assault on a civilian, had made comments captured on that network's own phone that demonstrated he was not investigating them at all. He was on their side. The ASIO subpoena made that visible.</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                <div class="border border-sage/20 p-4" style="background:rgba(61,122,74,0.04)">
+                    <div class="text-[0.45rem] tracking-[0.2em] uppercase text-sage mb-2">The Subpoena</div>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed">ASIO subpoenaed RJ's phone as part of a national security inquiry. The device held recordings that were not meant to leave the network.</p>
+                </div>
+                <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.45rem] tracking-[0.2em] uppercase text-gold mb-2">The Recording</div>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed">Aaron Barker — CBI Task Force Latro North — captured on audio. Comments about Kosta Kondratenko inconsistent with impartial policing. Blind eye to a 6-on-1 assault.</p>
+                </div>
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.45rem] tracking-[0.2em] uppercase text-hot mb-2">The Consequence</div>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed">Barker demoted. Then stood down. His position — protecting the investigation — had been documented on the phone of the person he was supposed to be investigating.</p>
+                </div>
+            </div>
+
+            <div class="border border-sage/20 p-5" style="background:rgba(61,122,74,0.03)">
+                <div class="text-[0.45rem] tracking-[0.2em] uppercase text-sage mb-3">Why This Matters</div>
+                <p class="text-[0.62rem] text-paper/45 leading-relaxed mb-3">The 6-on-1 assault at Oracle East went nowhere — no strata subpoena, no serious investigation, a Child Protection Unit text sent to the victim. Aaron Barker was inside the unit nominally responsible for it. The ASIO subpoena of RJ's phone is what finally produced the evidence that Barker's inaction was not incompetence. It was alignment. He knew who these people were. He was on the recording of the person he was supposed to be investigating.</p>
+                <p class="text-[0.62rem] text-paper/40 leading-relaxed">That is what accountability looks like when the system that is supposed to provide it has been captured. It does not come from within. It comes from outside — from a different agency, with a different mandate, operating on a different frequency. In this case: ASIO.</p>
+            </div>
+        </div>
+
         <!-- Mental health tent visit -->
         <div class="story-chapter reveal mt-12" style="border-left-color:rgba(193,68,14,0.3)">
             <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THEY CAME TO THE TENT.<br><span class="text-hot">A "MENTAL HEALTH CHECK." WITH HANCOCK PROSPECTING'S QUESTIONS IN IT.</span></h3>
