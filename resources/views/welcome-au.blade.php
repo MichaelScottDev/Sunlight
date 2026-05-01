@@ -2111,6 +2111,44 @@
         <div class="story-chapter reveal" style="border-left-color:rgba(193,68,14,0.4)">
             <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">CHILD PROTECTION UNIT.<br><span class="text-hot">AFTER A 6-ON-1 ASSAULT. BY PEOPLE I DIDN'T KNOW.</span></h3>
             <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-5">"I received a text message from police directing me to report to the Child Protection Unit. I had just been assaulted by six people I had never met. That word — in that context — tells you everything about which side police were on."</p>
+
+            <!-- SMS screenshot -->
+            <div class="reveal mb-6">
+                <div class="border border-paper/[0.07] overflow-hidden" style="background:rgba(0,0,0,0.18)">
+                    <div class="px-4 py-2 border-b border-paper/[0.06]" style="background:rgba(0,0,0,0.25)">
+                        <span class="text-[0.45rem] tracking-[0.2em] uppercase text-hot">Primary Source &nbsp;·&nbsp; Police SMS &nbsp;·&nbsp; Queensland Police Service</span>
+                    </div>
+                    <div class="flex flex-col sm:flex-row gap-0">
+                        <div class="sm:w-64 shrink-0 flex items-center justify-center p-4" style="background:rgba(0,0,0,0.15)">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/gc_child_protection_unit.jpg" alt="Police SMS directing assault victim to Child Protection Unit" class="w-full max-w-[220px] sm:max-w-full border border-paper/[0.08]" style="cursor:pointer" onclick="this.closest('.story-chapter').querySelector('.cpu-sms-expand') && this.closest('.story-chapter').querySelector('.cpu-sms-expand').click()" loading="lazy" />
+                        </div>
+                        <div class="flex-1 p-5 flex flex-col justify-center">
+                            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">What You Are Looking At</div>
+                            <p class="text-[0.65rem] text-paper/50 leading-relaxed mb-3">This is the SMS received from Queensland Police following the Oracle East assault — a 6-on-1 attack by people Kosta Kondratenko had never met. The message directs him to the <strong class="text-paper/70">Child Protection Unit</strong>.</p>
+                            <p class="text-[0.65rem] text-paper/45 leading-relaxed mb-4">A person who has just been assaulted by a group of strangers is not a child protection matter. The routing of this victim to that unit is not an administrative coincidence. It reflects the framing applied to this case from the start — that the victim was the problem to be managed.</p>
+                            <div class="grid grid-cols-2 gap-2">
+                                <div class="border border-hot/20 px-3 py-2" style="background:rgba(193,68,14,0.04)">
+                                    <div class="text-[0.42rem] tracking-[0.18em] uppercase text-hot mb-1">Sender</div>
+                                    <div class="text-[0.6rem] text-paper/55">Queensland Police Service</div>
+                                </div>
+                                <div class="border border-hot/20 px-3 py-2" style="background:rgba(193,68,14,0.04)">
+                                    <div class="text-[0.42rem] tracking-[0.18em] uppercase text-hot mb-1">Unit Referenced</div>
+                                    <div class="text-[0.6rem] text-paper/55">Child Protection Unit</div>
+                                </div>
+                                <div class="border border-gold/20 px-3 py-2" style="background:rgba(201,138,16,0.04)">
+                                    <div class="text-[0.42rem] tracking-[0.18em] uppercase text-gold mb-1">Context</div>
+                                    <div class="text-[0.6rem] text-paper/55">Assault by 6 strangers</div>
+                                </div>
+                                <div class="border border-gold/20 px-3 py-2" style="background:rgba(201,138,16,0.04)">
+                                    <div class="text-[0.42rem] tracking-[0.18em] uppercase text-gold mb-1">Why It Matters</div>
+                                    <div class="text-[0.6rem] text-paper/55">Signals whose side police chose</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Following the Oracle East assault, Kosta Kondratenko received a police text message directing him to report to the Child Protection Unit. The assault involved six people Kosta did not know. The invocation of child protection in that context is not procedural. It is a signal.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">When the investigating officer called Kosta, she raised the claim made by the attackers: that Kosta had sent a text message to one of their girls, and that this was their justification for the assault. The fact that the investigating officer raised this at all — volunteering the attackers' stated rationale as though it were a mitigating factor — demonstrates that she was not approaching this as an investigation of an assault. She was approaching it as an inquiry into whether the victim deserved it.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">No subpoena was placed on the Oracle East strata. Kosta made enquiries with Jill, the strata manager, who confirmed no subpoena had been received. If police were genuinely investigating a 6-on-1 assault at that address, obtaining strata records would be elementary. They did not seek them. They were not in his corner.</p>
@@ -2122,9 +2160,10 @@
             </div>
 
             <div class="border-l-4 border-hot/50 pl-5 mb-5" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
-                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Why Task Force Latro North Was Disbanded</div>
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Why David Crisafulli Won &nbsp;·&nbsp; Why Task Force Latro North Was Disbanded</div>
                 <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-2">Task Force Latro North was disbanded as part of David Crisafulli's election win. The conduct documented on this page — directing an assault victim to the Child Protection Unit, failing to subpoena the assault location's strata, raising attacker-supplied justifications as relevant context, routing a private SMS investigation through Marc Barrow — is a representative sample of why the community voted the way it did.</p>
-                <p class="text-[0.68rem] text-paper/50 leading-relaxed">Steven Miles lost the Queensland election on community safety. This is what community safety looked like under his government: a man assaulted by six strangers, directed to the Child Protection Unit, and investigated for whether he deserved it.</p>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-2">The screenshot above is not an abstraction. It is the SMS. It shows what Queensland Police sent to a man who had just been attacked by six people he had never met. That message — pointing him to the Child Protection Unit — is the institutional failure that cost Steven Miles the Queensland election. Community safety was the ballot issue. This is what community safety looked like under his government.</p>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">A man assaulted by six strangers, stalked across the city, directed to the Child Protection Unit, and then investigated for whether he deserved the assault. Crisafulli won because enough people recognised that pattern — whether it happened to them, or someone they knew, or someone they read about. The screenshot above is evidence of exactly that pattern.</p>
             </div>
 
             <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04]">
