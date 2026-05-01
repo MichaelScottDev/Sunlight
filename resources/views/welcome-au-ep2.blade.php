@@ -1071,6 +1071,40 @@
             </div>
         </div>
 
+        <!-- Raz brake cutting chapter -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.45rem] tracking-[0.2em] uppercase px-2 py-1 border border-hot/30 text-hot" style="background:rgba(193,68,14,0.07)">Vehicle Sabotage &nbsp;·&nbsp; Dashcam Evidence &nbsp;·&nbsp; Raz</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">RAZ CUT THE BRAKES.<br><span class="text-hot">CAUGHT ON DASHCAM. ADAM DROVE BEFORE HE KNEW.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The gas tampering was not the only time Raz put a person's life at risk. On a separate occasion, Raz tampered with the brakes on Adam Watson's car. What makes this incident different — and more difficult to dismiss — is that it was captured on dashcam footage.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Adam drove the car before he understood anything was wrong. The vehicle's handling told him something was different. The brakes were not responding the way they should. He pulled over and got the car to a mechanic. Only after the mechanic examined the vehicle did Adam learn what Raz had done. The dashcam had recorded Raz at the car. The footage and the mechanic's findings together closed the gap between suspicion and evidence.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.45rem] tracking-[0.2em] uppercase text-hot mb-2">The Act</div>
+                    <p class="text-[0.6rem] text-paper/40 leading-relaxed">Raz tampered with the brake system on Adam Watson's car. Captured on dashcam at the vehicle prior to Adam driving.</p>
+                </div>
+                <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.45rem] tracking-[0.2em] uppercase text-gold mb-2">The Safety Consequence</div>
+                    <p class="text-[0.6rem] text-paper/40 leading-relaxed">Adam drove the car unaware of the tampering. He noticed the handling was wrong while in motion — a brake failure at speed could have been fatal.</p>
+                </div>
+                <div class="border border-sage/20 p-4" style="background:rgba(61,122,74,0.04)">
+                    <div class="text-[0.45rem] tracking-[0.2em] uppercase text-sage mb-2">The Discovery</div>
+                    <p class="text-[0.6rem] text-paper/40 leading-relaxed">Adam took the car to a mechanic who identified the sabotage. Combined with dashcam footage, the evidence established who was responsible.</p>
+                </div>
+            </div>
+            <div class="border border-paper/[0.07] p-5 mb-5" style="background:rgba(193,68,14,0.03)">
+                <div class="text-[0.45rem] tracking-[0.2em] uppercase text-hot mb-3">Pattern Context</div>
+                <p class="text-[0.6rem] text-paper/40 leading-relaxed mb-3">Cutting a person's brakes is not a dispute. It is an attempt on a person's life dressed up as a mechanical fault. When viewed against the full pattern — gas meter tampering, smeared substances, faeces on door handles, false police reports, the antisemitic outburst in the Registrar — the brake-cutting incident confirms that this conduct was coordinated, escalating, and deliberately dangerous.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-3">
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">Dashcam places Raz at the vehicle before the drive</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">Mechanic's findings confirm deliberate interference with brake system</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">Adam did not know about the tampering until after he had already driven</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">Second documented act of vehicle-related sabotage by Raz (cf. Mercedes breakdown, Timeline 2024)</p></div>
+                </div>
+            </div>
+        </div>
+
         <!-- Medical evidence callout -->
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.3)">
             <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE JAW THAT WAS JUST "SORE."<br><span class="text-hot">A DOCTOR'S NOTE DOESN'T MAKE IT TRUE.</span></h3>
