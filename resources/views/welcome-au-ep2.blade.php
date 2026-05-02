@@ -2516,7 +2516,7 @@
                 <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">West Kira</span>
             </div>
             <div class="reveal mb-6">
-                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west-kira.jpg" alt="West Kira" class="w-full object-cover object-top border border-paper/[0.07]" style="max-height:520px" loading="lazy" />
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west-kira.jpg" alt="West Kira" class="w-full object-cover object-center border border-paper/[0.07]" loading="lazy" />
                 <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/20 mt-1.5">West Kira · Chapter A2</div>
             </div>
             <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">BODIE'S ACCOMPLICE.<br><span class="text-hot">THE KID WHO BROKE THE GLASSES.</span></h3>
@@ -2599,7 +2599,7 @@
 
             <!-- Mick Gatto / Hit Solicitation -->
             <div class="reveal mb-6">
-                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/Screenshot_20260501_184253_Instagram.jpg" alt="West Kira's father — Kira & Kira Instagram" class="w-full object-cover object-top border border-paper/[0.07]" style="max-height:520px" loading="lazy" />
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/Screenshot_20260501_184253_Instagram.jpg" alt="West Kira's father — Kira & Kira Instagram" class="w-full border border-paper/[0.07]" loading="lazy" />
                 <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/20 mt-1.5">West Kira's Father &nbsp;·&nbsp; Kira &amp; Kira Instagram</div>
             </div>
             <div>
@@ -3284,7 +3284,7 @@
                     <!-- Graham Gordon identification -->
                     <div class="border border-gold/20 p-4 mb-5" style="background:rgba(201,138,16,0.03)">
                         <div class="flex gap-4 items-start mb-4">
-                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/grahamgordon.jpg" alt="Graham Gordon" class="shrink-0 w-20 h-20 object-cover object-top border border-gold/30" />
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/grahamgordon.jpg" alt="Graham Gordon" class="shrink-0 w-40 h-48 object-cover object-center border border-gold/30" />
                             <div>
                                 <div class="text-[0.45rem] tracking-[0.18em] uppercase text-gold mb-1">Identified</div>
                                 <div class="font-display text-lg tracking-wide text-paper/80 leading-tight mb-1">GRAHAM GORDON</div>
@@ -3294,7 +3294,9 @@
                         <div class="border-t border-gold/10 pt-3">
                             <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold/60 mb-2">Board positions — Illawarra Strata &amp; Integrity Strata</div>
                             <div class="flex items-center gap-5">
-                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/graham_gordon/illawara-strata.png" alt="Illawarra Strata" class="h-8 w-auto opacity-70" />
+                                <div class="border border-paper/[0.08] px-3 py-2" style="background:#ffffff">
+                                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/graham_gordon/illawara-strata.png" alt="Illawarra Strata" class="h-7 w-auto" />
+                                </div>
                                 <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/graham_gordon/integrity-strata.png" alt="Integrity Strata" class="h-8 w-auto opacity-70" />
                             </div>
                         </div>
@@ -3780,7 +3782,9 @@
             </div>
             <div class="border border-sage/25 p-5" style="background:rgba(61,122,74,0.04)">
                 <div class="flex items-center gap-3 mb-3">
-                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/graham_gordon/illawara-strata.png" alt="Illawarra Strata" class="h-7 w-auto opacity-65" />
+                    <div class="border border-paper/[0.08] px-3 py-2" style="background:#ffffff">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/graham_gordon/illawara-strata.png" alt="Illawarra Strata" class="h-7 w-auto" />
+                    </div>
                     <div class="text-[0.44rem] tracking-[0.18em] uppercase text-sage">Consequence of Proceedings</div>
                 </div>
                 <div class="font-display text-lg tracking-wide text-paper/80 leading-tight mb-2">ILLAWARRA STRATA IS BEING REPLACED.</div>
