@@ -906,6 +906,35 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Bodie Chalmers — psych ward performance -->
+                <div class="border-l-4 border-gold/50 pl-5 mb-5 mt-5" style="background:rgba(201,138,16,0.05);padding:1.2rem 1rem 1.2rem 1.25rem">
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold">Bodie Chalmers — Prison Psych Ward</div>
+                        <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 border border-paper/10 px-2 py-0.5">Mental Health Shield — Will Not Be Effective</div>
+                    </div>
+                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">"ADAM WATSON SAVE ME!<br><span class="text-gold">THE TV IS TALKING TO ME AND IT'S OUT TO GET ME!"</span></h4>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">Bodie Chalmers is currently in custody in the prison psychiatric ward, where he has been screaming: <em class="text-paper/70">"Adam Watson save me! The TV is talking to me and it's out to get me!"</em> This is being recognised for what it is: a calculated attempt to construct a mental health record that could later be used as a shield in his criminal proceedings.</p>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">The strategy follows a documented pattern — the same pattern that Socrates Zidane Abdul Rahmahn used to avoid criminal conviction twice by invoking Section 14 of the Mental Health (Forensic Provisions) Act. Bodie Chalmers, watching the system closely, appears to be attempting to manufacture the same outcome. The calculation is transparent: if a genuine psychiatric episode can be argued, the threshold for criminal responsibility shifts.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
+                            <div class="text-[0.44rem] tracking-[0.15em] uppercase text-gold mb-2">The Performance</div>
+                            <div class="space-y-1.5">
+                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Screaming Adam Watson's name in the psych ward</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Claiming the TV is "talking to him" and "out to get him"</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Consistent with an attempt to manufacture a psychiatric record</p></div>
+                            </div>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot mb-2">Why It Won't Work</div>
+                            <div class="space-y-1.5">
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">The conduct is documented, evidenced, and witnessed across multiple incidents</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Mental health as a shield has limits — it does not erase forensic evidence</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Courts are not required to accept a manufactured psychiatric episode as determinative</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Chapter D: Alex Vourliotis -->
@@ -2731,35 +2760,6 @@
                             <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot">Consequence — Solitary Confinement</div>
                         </div>
                         <p class="text-[0.62rem] text-paper/52 leading-relaxed">As a direct result of issuing the gay death threat against Adam Watson, West Kira has been placed in <strong class="text-paper/70">solitary confinement</strong>. The prison system treated the recorded threat as a serious disciplinary matter — separate from and in addition to its potential as a standalone charge flagged by prosecutor Correy Cook. West Kira is now isolated, facing 28 years for genital mutilation, a further 3 years for stealing from Adam Watson, and the prospect of a fresh charge arising from the very phone call that landed him in solitary.</p>
-                    </div>
-                </div>
-
-                <!-- Bodie Chalmers — psych ward performance -->
-                <div class="border-l-4 border-gold/50 pl-5 mb-5 mt-5" style="background:rgba(201,138,16,0.05);padding:1.2rem 1rem 1.2rem 1.25rem">
-                    <div class="flex items-center gap-3 mb-3">
-                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold">Bodie Chalmers — Prison Psych Ward</div>
-                        <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 border border-paper/10 px-2 py-0.5">Mental Health Shield — Will Not Be Effective</div>
-                    </div>
-                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">"ADAM WATSON SAVE ME!<br><span class="text-gold">THE TV IS TALKING TO ME AND IT'S OUT TO GET ME!"</span></h4>
-                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">Bodie Chalmers is currently in custody in the prison psychiatric ward, where he has been screaming: <em class="text-paper/70">"Adam Watson save me! The TV is talking to me and it's out to get me!"</em> This is being recognised for what it is: a calculated attempt to construct a mental health record that could later be used as a shield in his criminal proceedings.</p>
-                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">The strategy follows a documented pattern — the same pattern that Socrates Zidane Abdul Rahmahn used to avoid criminal conviction twice by invoking Section 14 of the Mental Health (Forensic Provisions) Act. Bodie Chalmers, watching the system closely, appears to be attempting to manufacture the same outcome. The calculation is transparent: if a genuine psychiatric episode can be argued, the threshold for criminal responsibility shifts.</p>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                        <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
-                            <div class="text-[0.44rem] tracking-[0.15em] uppercase text-gold mb-2">The Performance</div>
-                            <div class="space-y-1.5">
-                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Screaming Adam Watson's name in the psych ward</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Claiming the TV is "talking to him" and "out to get him"</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Consistent with an attempt to manufacture a psychiatric record</p></div>
-                            </div>
-                        </div>
-                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
-                            <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot mb-2">Why It Won't Work</div>
-                            <div class="space-y-1.5">
-                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">The conduct is documented, evidenced, and witnessed across multiple incidents</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Mental health as a shield has limits — it does not erase forensic evidence</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Courts are not required to accept a manufactured psychiatric episode as determinative</p></div>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
