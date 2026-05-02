@@ -147,6 +147,54 @@
         .nav-dropdown-menu a.nav-accent-gold:hover{color:#c98a10}
         .nav-dropdown-menu a.nav-accent-violet:hover{color:#7c6aaa}
         .nav-dropdown-menu a.nav-accent-sage:hover{color:#3d7a4a}
+        /* ── TIP MODAL OVERLAY ─────────────────────────────── */
+        #sq-modal{display:none;position:fixed;inset:0;z-index:200;background:rgba(0,0,0,0.9);backdrop-filter:blur(5px);overflow-y:auto;padding:24px 16px 56px}
+        #sq-modal.open{display:block}
+        .sq-modal-inner{max-width:680px;margin:0 auto;position:relative}
+        .sq-modal-close-row{display:flex;justify-content:flex-end;margin-bottom:12px}
+        .sq-modal-close-btn{background:#111;border:1px solid #2a2a2a;color:rgba(245,234,212,0.4);font-family:'DM Mono',monospace;font-size:11px;letter-spacing:1px;padding:7px 16px;cursor:pointer;transition:color 0.13s,border-color 0.13s}
+        .sq-modal-close-btn:hover{color:rgba(245,234,212,0.85);border-color:#555}
+        /* form elements */
+        .sq-logo-row{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+        .sq-logo-bar{width:4px;height:40px;background:#c8372d;flex-shrink:0}
+        .sq-logo-text{font-family:'Bebas Neue',sans-serif;font-size:30px;color:#f5f0e8;letter-spacing:3px;line-height:1}
+        .sq-logo-sub{font-family:'Instrument Serif',serif;font-size:12px;color:#5a5045;font-style:italic}
+        .sq-conf-strip{background:#c8372d;color:#f5f0e8;font-size:8px;letter-spacing:2px;text-transform:uppercase;padding:5px 12px;margin:12px 0 18px;display:inline-block}
+        .sq-card{background:#111;border:1px solid #222;padding:22px;margin-bottom:2px}
+        .sq-section{margin-bottom:22px}
+        .sq-section-label{font-family:'Bebas Neue',sans-serif;font-size:12px;letter-spacing:2.5px;color:#f5f0e8;margin-bottom:12px;display:flex;align-items:center;gap:10px}
+        .sq-section-label::after{content:'';flex:1;height:1px;background:#222}
+        .sq-badge{font-family:'DM Mono',monospace;font-size:8px;letter-spacing:1px;padding:2px 6px;text-transform:uppercase}
+        .sq-badge-opt{background:#1e1e1e;color:#4a4035}
+        .sq-badge-req{background:#c8372d;color:#f5f0e8}
+        .sq-field{margin-bottom:10px}
+        .sq-field-hint{font-size:10px;color:#3a3530;margin-top:4px;letter-spacing:0.3px;line-height:1.5}
+        .sq-grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+        .sq-input,.sq-textarea,.sq-select{width:100%;background:#161616;border:1px solid #2a2a2a;color:#e8e2d4;font-family:'DM Mono',monospace;font-size:12px;padding:10px 12px;outline:none;border-radius:0;-webkit-appearance:none;appearance:none;transition:border-color 0.13s,background 0.13s}
+        .sq-input:focus,.sq-textarea:focus,.sq-select:focus{border-color:#c8372d;background:#1a1510}
+        .sq-input::placeholder,.sq-textarea::placeholder{color:#2e2a26;font-style:italic}
+        .sq-textarea{resize:vertical;min-height:90px;line-height:1.65}
+        .sq-select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23e8e2d4'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center;background-color:#161616;padding-right:34px;cursor:pointer}
+        .sq-select option{background:#161616;color:#e8e2d4}
+        .sq-input.sq-error{border-color:#c8372d}
+        .sq-toggle-row{display:flex;align-items:flex-start;gap:11px;background:#161616;border:1px solid #2a2a2a;padding:11px 12px;margin-bottom:10px;cursor:pointer;font-family:'DM Mono',monospace;font-size:11px;color:#7a7060;line-height:1.55;user-select:none;transition:border-color 0.13s}
+        .sq-toggle-row:hover{border-color:#3a3a3a}
+        .sq-toggle-row input[type=checkbox]{accent-color:#c8372d;width:14px;height:14px;margin-top:2px;flex-shrink:0;cursor:pointer}
+        .sq-checkbox-group{display:flex;flex-direction:column;gap:8px}
+        .sq-checkbox-item{display:flex;align-items:flex-start;gap:10px;font-family:'DM Mono',monospace;font-size:11px;cursor:pointer;color:#6a6055;line-height:1.55;padding:2px 0}
+        .sq-checkbox-item input[type=checkbox]{accent-color:#c8372d;width:14px;height:14px;margin-top:1px;flex-shrink:0;cursor:pointer}
+        .sq-collapsible{display:none;margin-top:10px}
+        .sq-collapsible.open{display:block}
+        .sq-divider{border:none;border-top:1px solid #1e1e1e;margin:20px 0}
+        .sq-form-footer{background:#0d0d0d;border:1px solid #222;border-top:3px solid #c8372d;padding:16px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+        .sq-footer-note{font-size:10px;color:#3a3530;max-width:380px;line-height:1.7}
+        #sq-submit-btn{font-family:'Bebas Neue',sans-serif;font-size:17px;letter-spacing:2.5px;background:#c8372d;color:#f5f0e8;border:none;padding:12px 30px;cursor:pointer;transition:background 0.13s,transform 0.1s;white-space:nowrap}
+        #sq-submit-btn:hover{background:#a82e26}
+        #sq-submit-btn:active{transform:scale(0.97)}
+        #sq-success-state{display:none;text-align:center;padding:56px 24px}
+        .sq-success-word{font-family:'Bebas Neue',sans-serif;font-size:60px;color:#c8372d;letter-spacing:5px;display:block;margin-bottom:12px}
+        #sq-success-state p{font-family:'Instrument Serif',serif;font-size:17px;color:#5a5045;font-style:italic;line-height:1.75}
+        @media(max-width:520px){.sq-grid2{grid-template-columns:1fr}.sq-form-footer{flex-direction:column;align-items:stretch}#sq-submit-btn{width:100%;text-align:center}}
     </style>
 </head>
 <body class="bg-ink text-paper font-mono overflow-x-hidden" style="background-color:#0c0804;background-image:linear-gradient(160deg,rgba(139,60,14,0.07) 0%,transparent 40%,rgba(61,122,74,0.04) 100%)">
@@ -177,6 +225,7 @@
     </div>
     <div class="flex items-center gap-3">
         <a href="#sms" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors">Subscribe</a>
+        <button onclick="openTipModal()" class="hidden md:flex items-center gap-1.5 text-[0.55rem] tracking-[0.2em] uppercase border border-hot/50 hover:border-hot hover:bg-hot/10 px-3 py-1.5 text-hot transition-all">⊕ Submit a Tip</button>
         <a href="/episode-2" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-violet/50 px-3 py-1.5 transition-all" style="hover-color:#7c6aaa">Episode 2 →</a>
         <button onclick="togglePanel()" class="flex items-center gap-2 border border-hot/50 hover:border-hot hover:bg-hot/10 px-3 py-2 transition-all text-[0.55rem] tracking-[0.15em] uppercase text-hot">☰ All Files</button>
         <span class="text-[0.52rem] tracking-[0.18em] uppercase text-gold border border-gold/60 px-3 py-1.5 blink">⬤ EP.01</span>
@@ -3538,77 +3587,196 @@ document.querySelectorAll('.reveal').forEach(function (el) { obs.observe(el); })
 
 
 <!-- ══════════════════════════════════════
-     TIPOFF / CONTACT FORM
+     TIP-OFF POPUP MODAL
 ══════════════════════════════════════ -->
-<section id="contact" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:rgba(4,4,4,0.6)">
-    <div class="max-w-2xl mx-auto">
+<div id="sq-modal" onclick="sqModalBackdropClick(event)" role="dialog" aria-modal="true" aria-label="Submit a Tip">
+    <div class="sq-modal-inner">
 
-        <div class="flex items-center gap-3 mb-3 reveal">
-            <span class="text-[0.48rem] tracking-[0.22em] uppercase border px-2 py-1 text-hot border-hot/40">Secure Intelligence</span>
+        <!-- Close button -->
+        <div class="sq-modal-close-row">
+            <button class="sq-modal-close-btn" onclick="closeTipModal()">✕ CLOSE</button>
         </div>
-        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-3 leading-tight reveal">GOT SOMETHING<br><span class="text-hot">WE SHOULD KNOW?</span></h2>
-        <p class="font-serif italic text-paper/45 text-lg leading-relaxed mb-10 reveal">Tip-offs from members of the public, additional information about the individuals documented here, crime and scam intelligence, media enquiries — all welcome. Information submitted will be used to triangulate and verify. Sources will not be published without explicit consent.</p>
 
-        <!-- Form -->
-        <form id="tipoff-form" onsubmit="handleTipoff(event)" class="space-y-4 reveal">
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <!-- Header -->
+        <div style="margin-bottom:6px">
+            <div class="sq-logo-row">
+                <div class="sq-logo-bar"></div>
                 <div>
-                    <label class="block text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-2">Name <span class="text-paper/18">(optional)</span></label>
-                    <input type="text" name="name" placeholder="Anonymous if preferred" class="w-full bg-paper/[0.03] border border-paper/[0.1] text-paper text-sm px-4 py-3 outline-none focus:border-hot/40 transition-colors placeholder:text-paper/18 placeholder:text-xs" />
-                </div>
-                <div>
-                    <label class="block text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-2">Contact <span class="text-paper/18">(optional — email or phone)</span></label>
-                    <input type="text" name="contact" placeholder="Only if you want a reply" class="w-full bg-paper/[0.03] border border-paper/[0.1] text-paper text-sm px-4 py-3 outline-none focus:border-hot/40 transition-colors placeholder:text-paper/18 placeholder:text-xs" />
+                    <div class="sq-logo-text">Sunlight.Quest</div>
+                    <div class="sq-logo-sub">Accountability journalism · Gold Coast / Queensland</div>
                 </div>
             </div>
+            <div class="sq-conf-strip">Encrypted &nbsp;·&nbsp; Source protected &nbsp;·&nbsp; Triangulated for verification</div>
+        </div>
 
-            <div>
-                <label class="block text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-2">Category</label>
-                <select name="category" class="w-full bg-ink border border-paper/[0.1] text-paper/60 text-sm px-4 py-3 outline-none focus:border-hot/40 transition-colors appearance-none cursor-pointer" style="background-image:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='rgba(245,234,212,0.3)' stroke-width='1.5' fill='none'/%3E%3C/svg%3E\");background-repeat:no-repeat;background-position:right 1rem center">
-                    <option value="" class="bg-ink">Select a category…</option>
-                    <option value="crime-tipoff" class="bg-ink">Crime tip-off</option>
-                    <option value="scam-tipoff" class="bg-ink">Scam or fraud intelligence</option>
-                    <option value="additional-info" class="bg-ink">Additional info on a person documented here</option>
-                    <option value="correction" class="bg-ink">Correction or dispute to published information</option>
-                    <option value="media" class="bg-ink">Media enquiry</option>
-                    <option value="legal" class="bg-ink">Legal notice or correspondence</option>
-                    <option value="other" class="bg-ink">Other</option>
-                </select>
+        <!-- Form card -->
+        <div class="sq-card" id="sq-form-card">
+
+            <!-- 1. SUBJECT -->
+            <div class="sq-section">
+                <div class="sq-section-label">Subject of tip-off <span class="sq-badge sq-badge-req">required</span></div>
+                <div class="sq-field">
+                    <select class="sq-select" name="sq_subject" id="sq-subject">
+                        <option value="">— Select subject / profile —</option>
+                        <optgroup label="Episode 1">
+                            <option>Marc Barrow (QPS)</option>
+                            <option>Sandy Tulisi / BeHome</option>
+                            <option>Felipe Mattos</option>
+                            <option>Aaron Barker (QPS)</option>
+                            <option>RJ — QPS Officer</option>
+                            <option>Tom Tate (Gold Coast Council)</option>
+                            <option>Trent Long</option>
+                        </optgroup>
+                        <optgroup label="Episode 2">
+                            <option>Bodie Chalmers</option>
+                            <option>West Kirra</option>
+                            <option>Samira</option>
+                            <option>Alex Vourliotis</option>
+                            <option>Graham Gordon</option>
+                        </optgroup>
+                        <optgroup label="Episode 3">
+                            <option>Bemarine</option>
+                            <option>Katherine Kidd</option>
+                            <option>Changfa Agent</option>
+                        </optgroup>
+                        <option>Other (specify below)</option>
+                    </select>
+                </div>
+                <div class="sq-field">
+                    <input class="sq-input" type="text" name="sq_subject_other" placeholder="If 'Other' — name or describe the subject" />
+                </div>
+                <div class="sq-field">
+                    <textarea class="sq-textarea" id="sq-summary" name="sq_summary" placeholder="Summary of what you know — who, what, when, where. Keep it factual." style="min-height:110px;"></textarea>
+                    <div class="sq-field-hint">Do not include names of uninvolved third parties unless essential to the account.</div>
+                </div>
             </div>
 
-            <div>
-                <label class="block text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-2">Your information</label>
-                <textarea name="message" rows="7" placeholder="Tell us what you know. Include as much detail as possible — dates, locations, names, amounts. Everything helps with triangulation." class="w-full bg-paper/[0.03] border border-paper/[0.1] text-paper text-sm px-4 py-3 outline-none focus:border-hot/40 transition-colors placeholder:text-paper/18 placeholder:text-[0.6rem] leading-relaxed resize-y font-mono"></textarea>
+            <!-- 2. EVIDENCE -->
+            <div class="sq-section">
+                <div class="sq-section-label">Evidence / material <span class="sq-badge sq-badge-opt">optional</span></div>
+                <div class="sq-field">
+                    <select class="sq-select" name="sq_evidence_type">
+                        <option value="">— Type of evidence you have —</option>
+                        <option>Video / footage</option>
+                        <option>Photos / images</option>
+                        <option>Audio recording</option>
+                        <option>Documents / screenshots</option>
+                        <option>Witness testimony only</option>
+                        <option>Social media posts / threads</option>
+                        <option>Multiple types</option>
+                    </select>
+                </div>
+                <div class="sq-field">
+                    <input class="sq-input" type="url" name="sq_drive_link" placeholder="Google Drive / Dropbox / OneDrive link (set to 'Anyone with link')" />
+                    <div class="sq-field-hint">You retain file ownership — we access read-only.</div>
+                </div>
+                <div class="sq-field">
+                    <input class="sq-input" type="url" name="sq_direct_url" placeholder="Direct URL to video, post, or public page" />
+                </div>
+                <div class="sq-field">
+                    <textarea class="sq-textarea" name="sq_evidence_desc" placeholder="Describe the material — what it shows, when captured, chain of custody if known." style="min-height:72px;"></textarea>
+                </div>
             </div>
 
-            <div class="flex items-start gap-3 p-4 border border-paper/[0.07]" style="background:rgba(0,0,0,0.2)">
-                <input type="checkbox" name="consent" id="consent-check" class="mt-0.5 accent-hot shrink-0" required />
-                <label for="consent-check" class="text-[0.55rem] text-paper/35 leading-relaxed cursor-pointer">I understand that information submitted may be used for investigative purposes. I confirm I am not submitting false or malicious information about any individual.</label>
+            <!-- 3. PHYSICAL HANDOFF -->
+            <div class="sq-section">
+                <div class="sq-section-label">Physical handoff <span class="sq-badge sq-badge-opt">optional</span></div>
+                <label class="sq-toggle-row" for="sq-handoff-chk">
+                    <input type="checkbox" id="sq-handoff-chk" name="sq_wants_pickup" onchange="sqToggle('sq-handoff-chk','sq-handoff-fields')" />
+                    <span>I have physical material (USB, prints, recordings) and want someone to come and collect it</span>
+                </label>
+                <div class="sq-collapsible" id="sq-handoff-fields">
+                    <div class="sq-grid2">
+                        <div class="sq-field">
+                            <input class="sq-input" type="text" name="sq_pickup_suburb" placeholder="Suburb / area (no full address yet)" />
+                        </div>
+                        <div class="sq-field">
+                            <input class="sq-input" type="text" name="sq_pickup_timing" placeholder="Preferred days / times" />
+                        </div>
+                    </div>
+                    <div class="sq-field">
+                        <textarea class="sq-textarea" name="sq_pickup_notes" placeholder="Special instructions — e.g. 'call ahead', 'after 6pm only', 'come alone'" style="min-height:60px;"></textarea>
+                    </div>
+                </div>
             </div>
 
-            <button type="submit" class="w-full bg-hot hover:bg-dim font-display tracking-widest text-paper py-4 transition-colors text-sm">SUBMIT INTELLIGENCE →</button>
-            <p id="tipoff-msg" class="text-[0.55rem] tracking-[0.12em] text-center min-h-[1.2rem] text-paper/35"></p>
+            <!-- 4. TRIANGULATION -->
+            <div class="sq-section">
+                <div class="sq-section-label">Triangulation context</div>
+                <div class="sq-field">
+                    <select class="sq-select" name="sq_relation">
+                        <option value="">— Your relationship to the subject —</option>
+                        <option>Direct witness</option>
+                        <option>Former associate / colleague</option>
+                        <option>Family / household member</option>
+                        <option>Victim or affected party</option>
+                        <option>Secondary source (told by someone else)</option>
+                        <option>Public records / online research</option>
+                        <option>Prefer not to say</option>
+                    </select>
+                    <div class="sq-field-hint">Helps us weight and verify the information — not to identify you.</div>
+                </div>
+                <div class="sq-checkbox-group sq-field">
+                    <label class="sq-checkbox-item"><input type="checkbox" name="sq_has_corroboration" /> I have corroborating witnesses who may also be willing to speak</label>
+                    <label class="sq-checkbox-item"><input type="checkbox" name="sq_reported_before" /> I have previously reported this to police or authorities with no result</label>
+                    <label class="sq-checkbox-item"><input type="checkbox" name="sq_safety_concern" /> I have safety concerns in relation to this matter</label>
+                    <label class="sq-checkbox-item"><input type="checkbox" name="sq_consents_publish" /> I consent to this information being used in published reporting (anonymised)</label>
+                </div>
+            </div>
 
-        </form>
+            <hr class="sq-divider" />
 
-        <div class="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4 reveal">
-            <div class="border border-paper/[0.07] p-4 text-center" style="background:rgba(193,68,14,0.03)">
-                <div class="text-[0.48rem] tracking-[0.18em] uppercase text-hot mb-2">Crime &amp; Scam Tips</div>
-                <p class="text-[0.55rem] text-paper/35 leading-relaxed">Information about criminal activity involving any person documented on this site, or related scams targeting members of the public.</p>
+            <!-- 5. CONTACT -->
+            <div class="sq-section">
+                <div class="sq-section-label">Your details <span class="sq-badge sq-badge-opt">optional</span></div>
+                <label class="sq-toggle-row" for="sq-anon-chk">
+                    <input type="checkbox" id="sq-anon-chk" name="sq_anonymous" checked onchange="sqToggleAnon()" />
+                    <span>Submit anonymously — do not attach contact details to this report</span>
+                </label>
+                <div class="sq-collapsible" id="sq-contact-fields">
+                    <div class="sq-grid2">
+                        <div class="sq-field">
+                            <input class="sq-input" type="text" name="sq_contact_name" placeholder="Name (or alias)" />
+                        </div>
+                        <div class="sq-field">
+                            <input class="sq-input" type="text" name="sq_contact_phone" placeholder="Phone or Signal number" />
+                        </div>
+                    </div>
+                    <div class="sq-field">
+                        <input class="sq-input" type="email" name="sq_contact_email" placeholder="Email address" />
+                    </div>
+                    <div class="sq-field">
+                        <select class="sq-select" name="sq_contact_pref">
+                            <option value="">— Preferred contact method —</option>
+                            <option>Email only</option>
+                            <option>Phone call</option>
+                            <option>SMS / text</option>
+                            <option>Signal (encrypted)</option>
+                            <option>In-person only</option>
+                        </select>
+                    </div>
+                    <div class="sq-field">
+                        <textarea class="sq-textarea" name="sq_contact_notes" placeholder="Any specific instructions for how or when to contact you" style="min-height:56px;"></textarea>
+                    </div>
+                </div>
             </div>
-            <div class="border border-paper/[0.07] p-4 text-center" style="background:rgba(201,138,16,0.03)">
-                <div class="text-[0.48rem] tracking-[0.18em] uppercase text-gold mb-2">Media &amp; Press</div>
-                <p class="text-[0.55rem] text-paper/35 leading-relaxed">Journalists, producers, and broadcasters seeking comment, interview, or access to underlying documentation are welcome to submit enquiries here.</p>
-            </div>
-            <div class="border border-paper/[0.07] p-4 text-center" style="background:rgba(61,122,74,0.03)">
-                <div class="text-[0.48rem] tracking-[0.18em] uppercase text-sage mb-2">Confidentiality</div>
-                <p class="text-[0.55rem] text-paper/35 leading-relaxed">We will not publish identifying information about tip-off sources without explicit written consent. All submissions are treated as confidential by default.</p>
-            </div>
+
+        </div><!-- /sq-card -->
+
+        <!-- Success state -->
+        <div class="sq-card" id="sq-success-state">
+            <span class="sq-success-word">RECEIVED.</span>
+            <p>Your intelligence report has been logged.<br>If you provided contact details, expect a response within 48 hours.</p>
+        </div>
+
+        <!-- Footer / submit -->
+        <div class="sq-form-footer" id="sq-form-footer">
+            <p class="sq-footer-note">All submissions are timestamped on receipt. Source identity is never disclosed without explicit consent. Anonymous reports are investigated on merit.</p>
+            <button id="sq-submit-btn" onclick="sqSubmit()">SUBMIT TIP →</button>
         </div>
 
     </div>
-</section>
+</div>
 
 
 <!-- ══ FOOTER ══ -->
@@ -4382,19 +4550,39 @@ function handleSMS(e) {
 }
 
 // ── TIP-OFF FORM ──
-function handleTipoff(e) {
-    e.preventDefault();
-    var msg = document.getElementById('tipoff-msg');
-    var form = document.getElementById('tipoff-form');
-    var message = form.querySelector('[name="message"]').value.trim();
-    if(!message){msg.style.color='#c1440e';msg.textContent='✗ Please enter your information before submitting.';return;}
-    msg.style.color='#3d7a4a';
-    msg.textContent='✓ Received. Information logged — we\'ll triangulate and follow up if contact details were provided.';
-    form.querySelector('[name="message"]').value='';
-    form.querySelector('[name="name"]').value='';
-    form.querySelector('[name="contact"]').value='';
-    form.querySelector('[name="category"]').value='';
+function openTipModal() {
+    document.getElementById('sq-modal').classList.add('open');
+    document.body.style.overflow = 'hidden';
 }
+function closeTipModal() {
+    document.getElementById('sq-modal').classList.remove('open');
+    document.body.style.overflow = '';
+}
+function sqModalBackdropClick(e) {
+    if (e.target === document.getElementById('sq-modal')) closeTipModal();
+}
+function sqToggle(checkboxId, fieldsId) {
+    document.getElementById(fieldsId).classList.toggle('open', document.getElementById(checkboxId).checked);
+}
+function sqToggleAnon() {
+    document.getElementById('sq-contact-fields').classList.toggle('open', !document.getElementById('sq-anon-chk').checked);
+}
+function sqSubmit() {
+    var summary = document.getElementById('sq-summary');
+    var subject = document.getElementById('sq-subject');
+    if (!summary.value.trim()) {
+        summary.classList.add('sq-error');
+        summary.focus();
+        return;
+    }
+    summary.classList.remove('sq-error');
+    document.getElementById('sq-form-card').style.display = 'none';
+    document.getElementById('sq-form-footer').style.display = 'none';
+    document.getElementById('sq-success-state').style.display = 'block';
+}
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeTipModal();
+});
 
 // ── SCROLL REVEAL ──
 var obs = new IntersectionObserver(function(entries){
