@@ -2906,24 +2906,95 @@
 
         <!-- PSLO tent confiscations -->
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.4)">
-            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Gold Coast Homeless Action Plan — PSLO Team</span></div>
-            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE PSLO TEAM.<br><span class="text-gold">DECALS ON A TENT THAT WASN'T ABANDONED.</span></h3>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The Public Liaison Officer (PSLO) team — established as part of the Gold Coast Homeless Action Plan — regularly confiscated Kosta Kondratenko's tent. The tent had been set up away from any local roads, in a location that should not have triggered any intervention. Despite this, the PSLO team repeatedly placed decals on the tent stating it had been abandoned.</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">The tent was not abandoned. Kosta was using it. He had set it up. He was present in the area. An <strong class="text-paper/70">email thread with the PSLO team and Rob McDonald</strong> produced an acknowledgment: they confirmed in writing that they had placed the decals. Despite that acknowledgment, the conduct continued. The decals kept appearing. The confiscations kept happening.</p>
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
-                <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.04)">
-                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">What the PSLO Did</div>
-                    <div class="space-y-2">
-                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Repeatedly confiscated tent that was in active use</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Placed "abandoned" decals on occupied property</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Continued the conduct <em>after</em> Rob McDonald confirmed in writing they had done it</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Targeted a tent placed away from any local roads</p></div>
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Gold Coast Homeless Action Plan — PSLO Team · Tom Tate</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">ABANDONED PROPERTY STICKERS.<br><span class="text-gold">ON A TENT THAT WAS NEVER ABANDONED.</span></h3>
+            <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-5">"My tent was out of sight. It wasn't near a road. It wasn't in anyone's way. The PSLO team found it anyway — and when I wasn't there, they stole it. When I was there, they handed me a piece of paper and called it support."</p>
+
+            <!-- 3 sticker photos -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6 reveal">
+                <div class="border border-paper/[0.07] overflow-hidden" style="background:rgba(0,0,0,0.18)">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/19_12_23_pslo_small.jpg" alt="PSLO Abandoned Property sticker — 19 December 2023" class="w-full object-cover" loading="lazy" />
+                    <div class="px-3 py-2 border-t border-paper/[0.06]">
+                        <div class="text-[0.43rem] tracking-[0.16em] uppercase text-gold mb-0.5">19 Dec 2023</div>
+                        <div class="text-[0.55rem] text-paper/40">Abandoned Property sticker — PSLO team</div>
                     </div>
                 </div>
-                <div class="border border-paper/[0.08] p-5" style="background:rgba(0,0,0,0.12)">
-                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">What Happened When Kosta Was Present</div>
-                    <p class="text-[0.6rem] text-paper/42 leading-relaxed mb-3">When Kosta was present as the PSLO team turned up, he was handed an A4 piece of paper listing services. The paper was presented as though a comprehensive support network existed. In practice, it was a list of food services.</p>
-                    <p class="text-[0.6rem] text-paper/42 leading-relaxed">You could turn up to a food referral on that list and receive four slices of pizza. You would still be hungry. The PSLO team never referred Kosta to a homeless service. The paper was theatre.</p>
+                <div class="border border-paper/[0.07] overflow-hidden" style="background:rgba(0,0,0,0.18)">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/9_1_24_pslo_small.jpg" alt="PSLO Abandoned Property sticker — 9 January 2024" class="w-full object-cover" loading="lazy" />
+                    <div class="px-3 py-2 border-t border-paper/[0.06]">
+                        <div class="text-[0.43rem] tracking-[0.16em] uppercase text-gold mb-0.5">9 Jan 2024</div>
+                        <div class="text-[0.55rem] text-paper/40">Abandoned Property sticker — PSLO team</div>
+                    </div>
+                </div>
+                <div class="border border-paper/[0.07] overflow-hidden" style="background:rgba(0,0,0,0.18)">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/16_1_24_pslo_small.jpg" alt="PSLO Abandoned Property sticker — 16 January 2024" class="w-full object-cover" loading="lazy" />
+                    <div class="px-3 py-2 border-t border-paper/[0.06]">
+                        <div class="text-[0.43rem] tracking-[0.16em] uppercase text-gold mb-0.5">16 Jan 2024</div>
+                        <div class="text-[0.55rem] text-paper/40">Abandoned Property sticker — PSLO team</div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">These are three of the "Abandoned Property" stickers placed on Kosta Kondratenko's tent by the PSLO team between December 2023 and January 2024. The tent was not in view of any public road. It was not in anyone's way. It was set up in a location that required active searching to find — not a visible spot that a patrol happened across. This was not reactive enforcement. It was proactive agitation: a systematic effort to find the tent and create grounds to confiscate it.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">When the PSLO team arrived and Kosta was not present, they would take the tent. The "Abandoned Property" label was the mechanism. When he was present, they would hand him an A4 sheet of paper listing services — a document designed to make it appear that support existed — and leave. The paper was theatre. The services on it were virtually non-existent: closed facilities, expired websites, and referral pathways that led nowhere. The tent confiscation was the real purpose of the visit.</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">Present: A4 Paper and a Wave Goodbye</div>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Handed a list of services as though a support network existed</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Services on the list were virtually non-existent — closed centres, broken websites, phone numbers that went nowhere</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">No actual referral made. No follow-up. No housing pathway offered.</p></div>
+                    </div>
+                </div>
+                <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Not Present: Tent Stolen</div>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Tent confiscated — labelled "abandoned" even though it was actively in use</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Tent was out of sight — the PSLO team had to search to find it</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Conduct continued after Rob McDonald confirmed in writing they had done it</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Japanese tourist / bike incident -->
+            <div class="border border-paper/[0.07] p-5 mb-5" style="background:rgba(0,0,0,0.14)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">The Japanese Tourist — "I'm Going to Call and See If That Bike Was Stolen"</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">On one occasion, a PSLO officer noticed a bicycle near the campsite. The bike belonged to a Japanese tourist who had become homeless as a result of a landlord scam — the same type of predatory rental conduct documented elsewhere in this publication. The officer's response was not to ask who owned it, or to engage with the person it belonged to. His comment was: <strong class="text-paper/65">"I'm going to make a call and see if that bike was stolen."</strong></p>
+                <p class="text-[0.68rem] text-paper/40 leading-relaxed">This is the pattern. A person — a foreign national made homeless by a landlord scam — has a bicycle near a campsite. The first instinct of the Gold Coast Council's homeless liaison officer is not support. It is suspicion. It is looking for a reason to call police. The bike was not stolen. The man was a tourist. He was homeless because someone scammed him. And the representative of the Gold Coast Homeless Action Plan was trying to have him questioned about a theft that didn't happen.</p>
+            </div>
+
+            <!-- Tom Tate / Council pattern -->
+            <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.03)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Tom Tate's Gold Coast — Moving on the Homeless</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The PSLO team operates under a Gold Coast Council that has consistently prioritised the appearance of a clean city over the welfare of its homeless residents. Under Mayor Tom Tate, the Council's approach to rough sleeping has been characterised by removal operations, enforcement-first responses, and the use of administrative mechanisms — "abandoned property" designations, ranger patrols — to achieve displacement that would be harder to justify as direct eviction.</p>
+                <p class="text-[0.68rem] text-paper/40 leading-relaxed">Placing "Abandoned Property" stickers on a tent that is clearly occupied, in a location that required active searching to locate, is not a compliance operation. It is harassment. It fits within a consistent institutional pattern: a Council that spends over a billion dollars annually directing its homelessness response not at housing people, but at moving them on.</p>
+            </div>
+
+            <!-- Rob McDonald email -->
+            <div class="evidence-vault">
+                <div class="ev-header" onclick="toggleVault(this)">
+                    <div class="flex items-center gap-2">
+                        <span class="text-[0.48rem] tracking-[0.22em] uppercase text-gold">📁 Evidence Files</span>
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— PSLO Team · Rob McDonald · Gold Coast Council</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                        <span class="ev-toggle">▼</span>
+                    </div>
+                </div>
+                <div class="ev-body">
+                    <div class="ev-file ef-gold" onclick="openMV('pdf-rob-mcdonald')">
+                        <div class="ev-icon ev-pdf">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">rob_mcdonald_email.pdf</div>
+                            <div class="ev-desc">PDF · 72MB · Email correspondence — Rob McDonald, Gold Coast Council · PSLO team oversight · Abandoned Property sticker acknowledgment</div>
+                        </div>
+                        <span class="ev-cta">View →</span>
+                    </div>
+                    <div class="ev-zip-bar">
+                        <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/50">⚠ Large file — 72MB · Rob McDonald was overseeing the rangers who placed the stickers · Notified of these issues in writing</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -3723,6 +3794,15 @@ var EVIDENCE = {
     'img-outreach-4': { type:'image', title:'SMS — LINK 2 HOME ALLEGATION', tag:'False Attribution · Link 2 Home · Statement Never Made', meta:'Screenshot · Samsung Messages · 1 May 2026', desc:'"Rihanna from the housing team (pink tshirts) said you were contemplating calling link to home as they would be able to access funding for 28 days accommodation however you would need to be in NSW to access this." — No such statement was ever made.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/messages/Screenshot_20260501_123530_Messages.jpg', filename:'Screenshot_20260501_123530_Messages.jpg' },
     'img-outreach-5': { type:'image', title:'SMS — QLD ID IF STAYING IN QUEENSLAND', tag:'Gold Coast Homeless Outreach Team · QLD ID Offer', meta:'Screenshot · Samsung Messages · 1 May 2026', desc:'"Thank you for clarifying that you don\'t want to return to NSW in that case we can support you to get QLD ID if you are wanting to stay in Queensland." — The system\'s housing solution is a driver\'s licence transfer for someone who has been in QLD for years.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/messages/Screenshot_20260501_123537_Messages.jpg', filename:'Screenshot_20260501_123537_Messages.jpg' },
     'img-outreach-6': { type:'image', title:'SMS — KOSTA\'S REPLY', tag:'Outgoing Reply · Tuesday 17 March · 10:21 am', meta:'Screenshot · Samsung Messages · Outgoing · 17 March 2026', desc:'"I never made any comments to anybody about home link that person is lying - you should be reported to the local government minister for what youve done and said." — Sent 17 March 2026 at 10:21 am.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/messages/Screenshot_20260501_123544_Messages.jpg', filename:'Screenshot_20260501_123544_Messages.jpg' },
+    'pdf-rob-mcdonald': {
+        type:'pdf',
+        title:'EMAIL — ROB McDONALD · GOLD COAST COUNCIL · PSLO OVERSIGHT',
+        tag:'Rob McDonald · Gold Coast Council · PSLO Team · Abandoned Property Stickers · Rangers',
+        meta:'PDF · 72MB · Email correspondence · Rob McDonald overseeing rangers · Gold Coast Council',
+        desc:'Email correspondence with Rob McDonald, who was overseeing the PSLO rangers responsible for placing "Abandoned Property" stickers on Kosta Kondratenko\'s tent between December 2023 and January 2024. The tent was located out of sight, away from any public road, and was not abandoned — it was in active use. Rob McDonald was notified of these issues in writing. This file is 72MB due to the volume of correspondence and attachments.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/rob_mcdonald_email.pdf',
+        filename:'rob_mcdonald_email.pdf'
+    },
     'pdf-lauren-forbes-email': {
         type:'pdf',
         title:'EMAIL THREAD — LAUREN FORBES · SKY NEWS',
