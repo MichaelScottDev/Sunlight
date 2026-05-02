@@ -624,6 +624,16 @@
                     <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">They Don't Even Hide — Incident Two — Arson</span></div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">"GINA RINEHART IS NEXT"<br><span class="text-hot">WRITTEN ON A FENCE.</span></h3>
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">A Gold Coast home connected to the personal circle of Gina Rinehart was firebombed. Perpetrators left graffiti: "Gina Rinehart is next." They also left a section of a previous version of this publication containing identifying imagery — an attempt to establish that investigative journalism is the provocation for violence. Sunlight.Quest does not accept that logic.</p>
+
+                    <!-- Artist's rendition -->
+                    <div class="reveal mb-5">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bodie_chalmers/gina_rinehart_next_small.jpg" alt="Artist's rendition — Gina Rinehart firebombing" class="w-full border border-paper/[0.07]" loading="lazy" />
+                        <div class="flex items-center justify-between px-3 py-2 border border-t-0 border-paper/[0.07]" style="background:rgba(193,68,14,0.04)">
+                            <span class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/30">Artist's rendition · AI-generated image · ChatGPT · Not a photograph — for illustrative purposes only</span>
+                            <span class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/50">"Gina Rinehart Is Next" · Gold Coast · Arson</span>
+                        </div>
+                    </div>
+
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                         <div class="border border-paper/[0.07] p-5">
                             <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-2">Jordan Shanks — Friendlyjordies</div>
