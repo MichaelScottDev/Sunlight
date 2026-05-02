@@ -834,6 +834,16 @@
                         <div class="flex items-start gap-4"><div class="font-display text-6xl text-sage/30 leading-none">✓</div><div><div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-2">Legal Outcome</div><div class="font-display text-2xl tracking-wide text-sage mb-2">ALL CHARGES DROPPED</div><p class="text-[0.68rem] text-paper/40 leading-relaxed">Contravene Banning Notice charge — fully resolved. No conviction. No penalty.</p></div></div>
                     </div>
 
+                    <!-- Marc Barrow portrait -->
+                    <div class="reveal mb-5">
+                        <div class="mx-auto border border-paper/[0.07] overflow-hidden" style="max-width:340px">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/marc_barrow.jpg" alt="Marc Barrow — Queensland Police Service" class="w-full object-cover object-center" loading="lazy" />
+                            <div class="px-4 py-2 border-t border-paper/[0.06]" style="background:rgba(0,0,0,0.25)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-paper/35">Marc Barrow · Queensland Police Service · Police Banning Notice No. 385003</div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Marc Barrow retaliation -->
                     <div class="border-l-4 border-hot/40 pl-5 mb-4" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
                         <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Retaliation — Marc Barrow · CCC Report Filed</div>
