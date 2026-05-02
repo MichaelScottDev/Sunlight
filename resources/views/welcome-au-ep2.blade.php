@@ -520,6 +520,37 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Lebara switch -->
+                    <div class="border border-paper/[0.07] mt-6 overflow-hidden" style="background:rgba(0,0,0,0.12)">
+                        <div class="flex items-center gap-4 px-5 py-4 border-b border-paper/[0.06]" style="background:rgba(0,0,0,0.18)">
+                            <div class="shrink-0 border border-paper/[0.08] px-3 py-2" style="background:#ffffff">
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bodie_chalmers/lebara-logo.png" alt="Lebara Mobile" class="h-6 w-auto" loading="lazy" />
+                            </div>
+                            <div>
+                                <div class="text-[0.45rem] tracking-[0.2em] uppercase text-gold mb-0.5">Adam Watson — Network Switch</div>
+                                <div class="font-display text-base tracking-wide text-paper/80 leading-tight">SWITCHED TO LEBARA.<br><span class="text-gold">SO IT CAN NEVER HAPPEN AGAIN.</span></div>
+                            </div>
+                        </div>
+                        <div class="p-5">
+                            <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">Following the Optus incident, Adam Watson has switched to Lebara to ensure his phone number can never be disconnected in the same way again. The move was a direct response to what Bodie Chalmers was able to do — walk into a physical retail store and have a number deactivated without a verification message being sent to the account holder, without a call to the account holder, and without the knowledge of management.</p>
+                            <div class="border border-hot/20 p-4 mb-4" style="background:rgba(193,68,14,0.04)">
+                                <div class="text-[0.45rem] tracking-[0.2em] uppercase text-hot mb-2">What People Need to Know</div>
+                                <p class="text-[0.62rem] text-paper/45 leading-relaxed mb-3">Staff working in Optus and Telstra physical retail outlets have the ability to disconnect any mobile number they choose — without sending a verification message to the account holder, and without the authorisation or knowledge of their manager. A person can walk in, apply social pressure to the right employee, and have any number turned off. The account holder gets no warning. No SMS. No email. The number simply stops working.</p>
+                                <p class="text-[0.62rem] text-paper/40 leading-relaxed">This is not a hypothetical. It is what Bodie Chalmers did to Adam Watson's Optus service. The TIO referral confirmed the breach. The apology letter is in the evidence vault above. The structural vulnerability — walk-in, no verification, no notification — remains in place at major carriers' physical outlets.</p>
+                            </div>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.03)">
+                                    <div class="text-[0.43rem] tracking-[0.16em] uppercase text-hot mb-1.5">The Optus Vulnerability</div>
+                                    <p class="text-[0.58rem] text-paper/40 leading-relaxed">In-store staff can deactivate numbers. No verification to account holder. No manager sign-off required. Social engineering by a determined person is sufficient.</p>
+                                </div>
+                                <div class="border border-gold/20 p-3" style="background:rgba(201,138,16,0.03)">
+                                    <div class="text-[0.43rem] tracking-[0.16em] uppercase text-gold mb-1.5">The Switch to Lebara</div>
+                                    <p class="text-[0.58rem] text-paper/40 leading-relaxed">Adam Watson moved to Lebara specifically to remove this attack surface. His number cannot be targeted the same way again.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Officeworks wheelchair attack -->
