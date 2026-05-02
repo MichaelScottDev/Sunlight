@@ -2857,16 +2857,60 @@
 
         <!-- Hancock Prospecting block + street consequences -->
         <div class="story-chapter reveal mt-12" style="border-left-color:rgba(201,138,16,0.4)">
-            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Hancock Prospecting — Consequences</span></div>
-            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">BLOCKED BY HANCOCK PROSPECTING.<br><span class="text-gold">AND WHAT HAPPENS WHEN YOU START TROUBLE IN AUSTRALIA.</span></h3>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">When the viral video was submitted to Hancock Prospecting, Kosta Kondratenko was immediately blocked. That block confirmed what Adam Watson had been saying about his connection to Gina Rinehart — it was real. A corporation does not block a person for sending them content unless the content is credible and the sender is perceived as a genuine threat.</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">What followed demonstrated something broader about Australia: the consequences of starting trouble with the powerful are not abstract or institutional. They are physical. They are immediate. They arrive in car parks, outside tyre shops, at 2am when no one is filming. The retaliation that followed the video — the Oracle East assault, the harassment campaigns, the Bridgestone ambush — is what accountability costs when the people you are holding accountable have street connections, corrupted police, and the patience to wait.</p>
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Hancock Prospecting — The Full Account</span></div>
 
+            <div class="flex gap-5 mb-5 items-start">
+                <div class="shrink-0 border border-paper/[0.08] p-3 flex items-center justify-center" style="background:#ffffff;min-width:80px">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/hancock_prospecting_logo.jpg" alt="Hancock Prospecting" class="h-10 w-auto" loading="lazy" />
+                </div>
+                <div>
+                    <h3 class="font-display text-2xl tracking-wide mb-2 leading-tight">HANCOCK PROSPECTING.<br><span class="text-gold">WHAT ACTUALLY HAPPENED. THE FULL ACCOUNT.</span></h3>
+                    <p class="font-serif italic text-paper/50 text-base leading-relaxed">"I have never spoken to Mrs. Rinehart directly. I have never said anything negative about her. She cried over a photo of me — and I have been told she has never cried over something in that way before."</p>
+                </div>
+            </div>
+
+            <!-- Phone block / unblocked -->
             <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.04)">
-                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">The Brutal Street Reality of Australian Accountability Journalism</div>
-                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">In countries with strong press freedom institutions, a journalist who publishes damaging content about a powerful person faces legal challenges, defamation claims, source pressure. In Australia — particularly in a city like the Gold Coast, where organised crime, corrupt police, and wealthy networks overlap — it can also mean people waiting for you in a car. It can mean six strangers in a building you live in. It can mean your phone being hacked while you sleep in a tent.</p>
-                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">This is not complained about here as though it is surprising. It is documented here so that the pattern is visible. Every institution that was supposed to prevent it — Queensland Police, Gold Coast Council, Department of Housing — has either actively participated in the retaliation, or stood aside while it happened, or been captured by the networks doing it.</p>
-                <p class="text-[0.68rem] text-paper/48 leading-relaxed">Starting trouble in Australia means understanding that the institutions will not protect you. Sunlight.Quest is proceeding anyway. That is the point of it.</p>
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">The Block — and the Unblock</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">After the viral video was sent to Hancock Prospecting, Kosta Kondratenko's phone was blocked. That block has since been lifted. It has been unblocked. The block was the confirmation that the content had landed — a corporation does not block a person unless the message is credible and the sender is real. The unblock is also significant: it reflects a process of understanding what actually happened, rather than what was assumed.</p>
+            </div>
+
+            <!-- Forensic audio / RJ theory disproved -->
+            <div class="border border-paper/[0.07] p-5 mb-5" style="background:rgba(0,0,0,0.14)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">The Forensic Audio Investigation — Theory Disproved</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Gina Rinehart had formed a belief — based in part on the fact that Adam Watson was on the phone with Kosta at the time of the RJ confrontation — that Adam Watson had directed, or encouraged, Kosta to pursue RJ. To investigate this, Mrs. Rinehart sent the video to a <strong class="text-paper/65">forensic audio specialist</strong>, who extracted the audio from the phone call that was running during the incident and analysed it.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The theory proved to be incorrect. The audio extraction showed what actually occurred: Kosta had seen RJ and, not knowing how to respond, called Adam Watson. Adam Watson — who is a lawyer — suggested that Kosta record any suspicious behaviour. Kosta had already started walking toward RJ at that point. Adam Watson at no stage asked Kosta to intimidate RJ, confront him, or cause any disturbance. This is not a narrative entertained in any courtroom, because it is not supported by the evidence. The forensic audio confirmed it.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-3">
+                    <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1.5">The Theory (Incorrect)</div>
+                        <p class="text-[0.6rem] text-paper/40 leading-relaxed">Adam Watson directed Kosta to pursue / intimidate RJ during the phone call that was running during the confrontation.</p>
+                    </div>
+                    <div class="border border-sage/20 p-3" style="background:rgba(61,122,74,0.04)">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-sage mb-1.5">What the Audio Showed</div>
+                        <p class="text-[0.6rem] text-paper/40 leading-relaxed">Kosta called Adam after seeing RJ. Adam suggested recording suspicious behaviour. No direction to intimidate. No instruction that would amount to instigation. Confirmed by forensic audio specialist.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Website / testimonials / David -->
+            <div class="border border-paper/[0.07] p-5 mb-5" style="background:rgba(0,0,0,0.14)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">The Website, the Testimonials, and "David"</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">During this period, Kosta was building a website for Adam Watson that included testimonials — testimonials that were publicly available on the internet. Those same testimonials appeared in the viral video. Mrs. Rinehart engaged a person known to Kosta only as <strong class="text-paper/65">David</strong> — an IT specialist she paid — to take down the website Kosta had built for Adam Watson.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">David called Adam Watson during this process. He was yelling: <span class="font-display text-paper/70">"Get away from Kosta!!"</span> Adam Watson has issues with this behaviour. The instruction to stay away from Kosta — delivered by shouting down a phone at a person being paid by someone else to do it — is not a reasonable engagement. It is an attempt to isolate. Adam's objection to it is on the record.</p>
+            </div>
+
+            <!-- Mrs. Rinehart — character commendation -->
+            <div class="border border-gold/25 p-5 mb-5" style="background:rgba(201,138,16,0.05)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">A Note on Mrs. Rinehart's Character</div>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Kosta Kondratenko has never spoken to Gina Rinehart directly. He has never said anything negative about her. This publication has been critical of certain conduct associated with her network, but not of her personally — and the distinction matters.</p>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Mrs. Rinehart saw a photograph of Kosta that was leaked from the Gold Coast Aquatic Centre — the privacy breach documented elsewhere in this publication. She cried over it. Kosta has been informed that she has never cried over something in that way before. That response is not the response of someone who considers this person an adversary. It is the response of someone who understands what she was looking at.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">Mrs. Rinehart has also vouched for Adam Watson in connection with a construction project he is currently working on. Kosta wants to commend her character. Whatever complications have existed in the overlap between these networks, Gina Rinehart's personal conduct toward both Kosta and Adam Watson has been characterised by genuine human response — not the calculated indifference of someone operating purely through legal and corporate mechanisms.</p>
+            </div>
+
+            <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">The Broader Reality — Australian Accountability Journalism</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">What followed the video demonstrated something broader about Australia: the consequences of starting trouble with the powerful are not abstract or institutional. They are physical. They arrive in car parks, outside tyre shops, at 2am when no one is filming. The retaliation — the Oracle East assault, the harassment campaigns, the Bridgestone ambush — is what accountability costs when the people you are holding accountable have street connections, corrupted police, and the patience to wait.</p>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed">Every institution that was supposed to prevent it — Queensland Police, Gold Coast Council, Department of Housing — has either actively participated in the retaliation, stood aside while it happened, or been captured by the networks doing it. Sunlight.Quest is proceeding anyway. That is the point of it.</p>
             </div>
         </div>
 
