@@ -3273,7 +3273,11 @@ document.querySelectorAll('.reveal').forEach(function (el) { obs.observe(el); })
             <span class="text-[0.48rem] tracking-[0.22em] uppercase border px-2 py-1 text-gold border-gold/40">Profile — Adam Watson</span>
         </div>
         <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-3 leading-tight reveal">ADAM WATSON.<br><span class="text-gold">THE MAN BEHIND THE STORY.</span></h2>
-        <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-10 reveal">"Adam Watson has lived more of Australia's real history than most journalists will ever document. He was there for the mining boom's foundations — and he is now determined to shape what comes next."</p>
+        <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-6 reveal">"Adam Watson has lived more of Australia's real history than most journalists will ever document. He was there for the mining boom's foundations — and he is now determined to shape what comes next."</p>
+
+        <div class="reveal mb-10">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/adam_watson_portrait.jpg" alt="Adam Watson" class="w-full object-cover object-top border border-paper/[0.07]" style="max-height:560px" loading="lazy" />
+        </div>
 
         <!-- Lang Hancock -->
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.35)">
