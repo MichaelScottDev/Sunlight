@@ -527,7 +527,37 @@
                     <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">They Don't Even Hide — Incident One — Attempted Murder</span></div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">FIFTEEN THOUSAND DOLLARS.<br><span class="text-hot">A WHEELCHAIR. A CAR PARK.</span></h3>
                     <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Someone paid to have a man driven into near an Officeworks. The alleged price was $15,000. The alleged goal was a wheelchair."</p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The target photographed the driver at the scene. That photograph, combined with CCTV footage from the nearby Officeworks, was provided to law enforcement. The driver was identified, located, and arrested. He has been denied bail. Messages extracted from the driver's phone link him to a third party and indicate a payment of $15,000 for the attack.</p>
+
+                    <!-- Photo of the driver -->
+                    <div class="reveal mb-6">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bodie_chalmers/IMG-20251223-WA0006.jpg" alt="The man Bodie Chalmers paid to run Adam Watson over — now in custody, bail denied" class="w-full object-cover object-top border border-paper/[0.07]" style="max-height:500px" loading="lazy" />
+                        <div class="flex items-center justify-between px-3 py-2 border border-t-0 border-paper/[0.07]" style="background:rgba(193,68,14,0.06)">
+                            <span class="text-[0.45rem] tracking-[0.18em] uppercase text-hot">In Custody &nbsp;·&nbsp; Bail Denied &nbsp;·&nbsp; SMS Evidence Discovered</span>
+                            <span class="text-[0.45rem] tracking-[0.14em] uppercase text-paper/25">The man Bodie Chalmers paid to put Adam Watson in a wheelchair</span>
+                        </div>
+                    </div>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The man pictured above is the person Bodie Chalmers paid to run Adam Watson over — to put him in a wheelchair. He is now in custody. He has been denied bail. SMS messages extracted from his device establish the connection to Bodie Chalmers directly: the messages document the arrangement, the payment, and the target. The attempt on Adam Watson's life is no longer an allegation. It is a documented contract, preserved in the messages of the man who carried it out.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Adam Watson was on the phone with Kosta Kondratenko at the moment the car attacked him. The call was live. What Adam experienced in real time — the vehicle, the impact, the immediate aftermath — was heard as it happened. That call is part of the documented record of this attack.</p>
+
+                    <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">How the Driver Was Identified — The Officeworks CCTV</div>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Immediately after the attack, Adam Watson photographed the driver in his vehicle at the scene. He then pursued CCTV footage from the Officeworks adjacent to the car park — coverage that captured the vehicle, the attack, and the driver. That footage was obtained and handed to Queensland Police. Combined with the scene photograph, it gave investigators everything needed to identify and locate him.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-3">
+                            <div class="border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.14)">
+                                <div class="text-[0.43rem] tracking-[0.16em] uppercase text-hot mb-1.5">Scene Photo</div>
+                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Adam photographed the driver in his car immediately after the attack. Taken under his own initiative at the scene.</p>
+                            </div>
+                            <div class="border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.14)">
+                                <div class="text-[0.43rem] tracking-[0.16em] uppercase text-hot mb-1.5">Officeworks CCTV</div>
+                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Adam pursued the Officeworks CCTV footage directly. The footage was obtained and handed to police — capturing the vehicle and attack on camera.</p>
+                            </div>
+                            <div class="border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.14)">
+                                <div class="text-[0.43rem] tracking-[0.16em] uppercase text-hot mb-1.5">SMS Evidence</div>
+                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Messages between the driver and Bodie Chalmers extracted from his device. Link the attack to a $15,000 contract. Bail denied.</p>
+                            </div>
+                        </div>
+                    </div>
 
                     <!-- EVIDENCE VAULT: Officeworks Attack -->
                     <div class="evidence-vault">
