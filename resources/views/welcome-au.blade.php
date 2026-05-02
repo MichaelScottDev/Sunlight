@@ -567,6 +567,46 @@
                         </div>
                     </div>
 
+                    <!-- Notice to Leave — inline portrait display -->
+                    <div class="reveal mb-8">
+                        <div class="border border-hot/25" style="background:rgba(193,68,14,0.03)">
+                            <div class="px-5 py-3 border-b border-hot/15">
+                                <span class="text-[0.45rem] tracking-[0.2em] uppercase text-hot">Primary Source · Queensland RTA · Official Document · Issued Oct 2023 · Appel Street Pty Ltd</span>
+                            </div>
+                            <!-- Portrait PDF -->
+                            <div class="p-4">
+                                <div class="mx-auto border border-hot/20 overflow-hidden" style="max-width:340px">
+                                    <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/notice_to_leave.pdf" class="w-full" style="height:480px;border:none;display:block" title="Notice to Leave — RTA"></iframe>
+                                    <div class="px-3 py-2 border-t border-hot/15 text-center" style="background:rgba(193,68,14,0.08)">
+                                        <div class="text-[0.43rem] tracking-[0.12em] uppercase text-hot/70">Notice to Leave · "Serious Breach" · No Breach on Record</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Callout -->
+                            <div class="px-6 pb-6">
+                                <h4 class="font-display text-xl tracking-wide mb-4 leading-tight">NOTICE TO LEAVE.<br><span class="text-hot">ISSUED UNDER "SERIOUS BREACH" — WITH NO BREACH ON RECORD.</span></h4>
+                                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-4">
+                                    <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.03)">
+                                        <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/60 mb-1.5">Issuing Entity</div>
+                                        <div class="text-[0.6rem] text-paper/55 leading-relaxed">Signed by <strong class="text-paper/75">Appel Street Pty Ltd</strong> — not BeHome, not Sandy Tulisi. A fourth entity name appearing on the most consequential document in the dispute, designed to make the operation as difficult to trace as possible.</div>
+                                    </div>
+                                    <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.03)">
+                                        <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/60 mb-1.5">The "Serious Breach"</div>
+                                        <div class="text-[0.6rem] text-paper/55 leading-relaxed">Not documented anywhere. No supporting email. No complaint from any housemate. The notice is built entirely on six false rent-overdue notices — rent that was paid on time, every time, as confirmed by bank records.</div>
+                                    </div>
+                                    <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.03)">
+                                        <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/60 mb-1.5">The Impossible Charge</div>
+                                        <div class="text-[0.6rem] text-paper/55 leading-relaxed">Notice expired <strong class="text-paper/75">5pm 24 Oct</strong>. The Contravene Banning Notice charge was issued <strong class="text-paper/75">23 Oct</strong> — one full day before the notice expired. You cannot contravene a notice that has not yet expired.</div>
+                                    </div>
+                                </div>
+                                <div class="border border-hot/30 px-5 py-4" style="background:rgba(193,68,14,0.06)">
+                                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">How This Document Was Used Against Me</div>
+                                    <p class="text-[0.68rem] text-paper/50 leading-relaxed">This Notice to Leave — built on fabricated overdue notices, citing an undocumented breach, issued by an entity name designed to obscure accountability — was presented to police to justify issuing <strong class="text-paper/70">Police Banning Notice No. 385003</strong> in what was a civil tenancy dispute. Not a criminal matter. The resulting charge was logically impossible: the accused was charged with contravening a notice before the notice had expired. <strong class="text-paper/70">All charges were subsequently dropped in full.</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- EVIDENCE VAULT: Sandy Tulisi -->
                     <div class="evidence-vault">
                         <div class="ev-header" onclick="toggleVault(this)">
