@@ -637,6 +637,30 @@
                 </div>
 
                 <div class="flex items-center gap-3 mt-10 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter B — False Allegations</span></div>
+
+                <!-- Old website version photo -->
+                <div class="reveal mb-8">
+                    <div class="border border-paper/[0.07] overflow-hidden" style="background:rgba(0,0,0,0.18)">
+                        <div class="px-4 py-2.5 border-b border-paper/[0.06]" style="background:rgba(0,0,0,0.25)">
+                            <span class="text-[0.45rem] tracking-[0.2em] uppercase text-hot">The Old Version &nbsp;·&nbsp; Hope Island Property &nbsp;·&nbsp; Left at the Firebombing Crime Scene</span>
+                        </div>
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bodie_chalmers/old_website_version.jpg" alt="Old version of the Sunlight.Quest website — left at the firebombing crime scene" class="w-full border-b border-paper/[0.06]" loading="lazy" />
+                        <div class="p-5">
+                            <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">THE HOPE ISLAND PROPERTY.<br><span class="text-hot">WHERE BODIE AND EBONY CAME. WHERE THE FALSE CHARGE WAS BORN.</span></h4>
+                            <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">This is the Hope Island property where Adam Watson was staying — and where Bodie Chalmers and Ebony attended. It was in connection with this visit that Bodie Chalmers and Ebony made their statement to police alleging that Adam Watson had sexually assaulted Ebony. Adam Watson is gay. The allegation was false. It was ruled a malicious prosecution by the DPP on its first court mention. The officer who accepted and actioned the complaint was fired.</p>
+                            <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">The laptop screen visible in this photograph shows an older version of this website — the version that was circulating before it went offline. This is also the version that pages of were deliberately left at the scene of the firebombing of the property connected to Gina Rinehart's personal circle, apparently to link this journalism to the arson.</p>
+                            <div class="border border-gold/20 p-4 mb-4" style="background:rgba(201,138,16,0.04)">
+                                <div class="text-[0.45rem] tracking-[0.2em] uppercase text-gold mb-2">Emma Jennings — Total Property Group &nbsp;·&nbsp; Jewel Apartments &nbsp;·&nbsp; On the Laptop Screen</div>
+                                <p class="text-[0.62rem] text-paper/45 leading-relaxed">The old website version visible on the laptop screen in this photograph includes content referencing <strong class="text-paper/65">Emma Jennings</strong> of <strong class="text-paper/65">Total Property Group</strong> — the real estate agency that handles sales of the <strong class="text-paper/65">Jewel Apartments</strong>. Hancock Prospecting sent a cease and desist letter to Emma Jennings after her persistent pestering in connection with those apartments. Emma Jennings was also involved with Bodie Chalmers in a scam against Adam Watson — a connection that was documented in the old version of this publication and is part of the broader pattern of conduct recorded here.</p>
+                            </div>
+                            <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.14)">
+                                <div class="text-[0.45rem] tracking-[0.2em] uppercase text-paper/30 mb-2">The Old Version — Status &amp; Recovery</div>
+                                <p class="text-[0.62rem] text-paper/40 leading-relaxed">The old version of this website went offline and no backup was retained. Pages from that version were left at the firebombing crime scene. A formal request is being made for the full version of that website as it existed at the crime scene — the copy held as part of the arson investigation. Once obtained, it will be uploaded and published here in full.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">DPP RULING.<br><span class="text-hot">OFFICER FIRED.</span></h3>
                 <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"A criminal charge does not require truth. It requires a complainant, a police officer who believes them, and a system that moves faster than the facts."</p>
                 <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Bodie Chalmers, together with his accomplice Ebony, gave a police statement alleging sexual assault against Adam Watson. A corrupt officer accepted and actioned the complaint. At the first court mention, the Director of Public Prosecutions ruled it a malicious prosecution. The charge was dismissed. The officer was subsequently fired.</p>
