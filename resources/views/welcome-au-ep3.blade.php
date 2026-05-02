@@ -100,6 +100,7 @@
                 <a href="/" class="nav-accent-hot">← Episode 1 — The Beginning</a>
                 <a href="/episode-2" class="nav-accent-violet">← Episode 2 — The Network</a>
                 <a href="/episode-3" class="nav-accent-gold" style="color:#c98a10">⬤ Episode 3 — The Compliance Machine</a>
+                <a href="/episode-4" class="nav-accent-sage">→ Episode 4 — The Accountant</a>
             </div>
         </div>
         <span class="text-[0.52rem] tracking-[0.18em] uppercase border px-3 py-1.5" style="border-color:rgba(201,138,16,0.6);color:#c98a10">⬤ EP.03</span>
