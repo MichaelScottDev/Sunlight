@@ -607,8 +607,15 @@
 
                 <!-- CGU Insurance -->
                 <div class="border-l-4 border-hot/40 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
-                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">CGU Insurance — Firebombing Aftermath</div>
-                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">CGU REP CALLS THE SITE "INCITING HATE."<br><span class="text-hot">AT A FIREBOMBED HOUSE. THEIR NAME IS BEING SOUGHT.</span></h4>
+                    <div class="flex items-center gap-4 mb-3">
+                        <div class="shrink-0 border border-paper/[0.08] px-3 py-2" style="background:#ffffff">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bodie_chalmers/cgu-logo-horizontal-navy-green.png" alt="CGU Insurance" class="h-7 w-auto" loading="lazy" />
+                        </div>
+                        <div>
+                            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-1">CGU Insurance — Firebombing Aftermath</div>
+                            <h4 class="font-display text-lg tracking-wide leading-tight">CGU REP CALLS THE SITE "INCITING HATE."<br><span class="text-hot">AT A FIREBOMBED HOUSE. THEIR NAME IS BEING OBTAINED.</span></h4>
+                        </div>
+                    </div>
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">A representative from CGU Insurance was present at the firebombed property — the house connected to Gina Rinehart's personal circle — in the aftermath of the arson attack. Gina Rinehart was also present. While surveying the burnt-out scene, the CGU representative viewed an older version of this website on a device and made comments asserting that the section describing Bodie Chalmers as an "incest baby" constituted <em>inciting hate</em>.</p>
                     <div class="border border-paper/[0.08] p-4 mb-4" style="background:rgba(0,0,0,0.2)">
                         <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">The Irony — On the Record</div>
@@ -623,7 +630,10 @@
                             <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">✗</span><p class="text-[0.58rem] text-paper/40 leading-relaxed"><strong class="text-paper/55">An insurance representative is not a regulator.</strong> CGU Insurance has no standing to adjudicate what constitutes hate speech. Making that comment at a crime scene — to parties connected to this publication — carries the character of an attempt to influence or intimidate.</p></div>
                         </div>
                     </div>
-                    <p class="text-[0.65rem] text-paper/40 leading-relaxed">The full name and role of this CGU representative is currently being sought. Upon confirmation, a formal complaint will be lodged with CGU's conduct and compliance function and, where appropriate, referred to the relevant professional body. Their comments, the context in which they were made, and this individual's identity will be published here.</p>
+                    <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.04)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">Status — Action Being Taken</div>
+                        <p class="text-[0.65rem] text-paper/45 leading-relaxed">The identity of this CGU representative is currently being obtained. Once confirmed, the matter will be referred to CGU management so that appropriate action can be taken. A serving insurance professional making comments characterising documented journalism as "inciting hate" — at a crime scene, in front of witnesses — is a conduct matter for their employer. Their name, role, and the full context of the comments will be published here upon confirmation.</p>
+                    </div>
                 </div>
 
                 <div class="flex items-center gap-3 mt-10 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter B — False Allegations</span></div>
