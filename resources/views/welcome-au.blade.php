@@ -2601,35 +2601,31 @@
                 <div class="px-5 py-3 border-b border-hot/15" style="background:rgba(193,68,14,0.06)">
                     <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">Primary Source &nbsp;·&nbsp; Government Censorship &nbsp;·&nbsp; Gold Coast Surf Network &nbsp;·&nbsp; Fortinet</span>
                 </div>
-                <div class="flex flex-col md:flex-row gap-0">
-                    <div class="md:w-72 shrink-0 border-b md:border-b-0 md:border-r border-hot/10 flex items-center justify-center p-4" style="background:rgba(0,0,0,0.18)">
-                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/fortinet_1.jpg" alt="Fortinet block page — sunlight.quest blocked on Gold Coast Surf Network" class="w-full border border-paper/[0.07]" loading="lazy" style="cursor:zoom-in" />
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/fortinet_1.jpg" alt="Fortinet block page — sunlight.quest blocked on Gold Coast Surf Network" class="w-full border-b border-hot/10" loading="lazy" />
+                <div class="p-6">
+                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">THE SURF NETWORK BLOCKED MY WEBSITE.<br><span class="text-hot">AFTER THE VIRAL VIDEO DROPPED.</span></h4>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">The Gold Coast Surf Network is public Wi-Fi infrastructure maintained by the Gold Coast City Council. It runs on Fortinet — a commercial content filtering system. When this screenshot was taken, attempting to access <strong class="text-paper/70">sunlight.quest</strong> on the Surf Network returned a Fortinet block page: the site had been categorised and blocked at the network level.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">The timing is not ambiguous. The block appeared after the viral video was published. Before the video, the site was accessible. After it — on government infrastructure, using a government-administered content filter — it was not. This is not an automated algorithmic mistake. Fortinet's category filters are applied and reviewed by administrators. Someone made a decision.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+                        <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1.5">The Infrastructure</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">Gold Coast Surf Network — public Wi-Fi deployed across beachside Gold Coast. Administered by Gold Coast City Council. Runs Fortinet content filtering.</p>
+                        </div>
+                        <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1.5">The Block</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">sunlight.quest classified and blocked at the network level. The block page above is what Gold Coast Council is showing to every person who tries to access this publication on public Wi-Fi.</p>
+                        </div>
+                        <div class="border border-gold/20 p-3" style="background:rgba(201,138,16,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-1.5">The Timing</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">Block appeared following the viral video — the same video that named Gold Coast figures, identified the Oracle East assault network, and was submitted to Hancock Prospecting.</p>
+                        </div>
+                        <div class="border border-gold/20 p-3" style="background:rgba(201,138,16,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-1.5">The Decision</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">Fortinet category assignments on government networks are administrator-reviewed. This is not a passive filter. A human being — or a directive given to one — caused this block to appear.</p>
+                        </div>
                     </div>
-                    <div class="flex-1 p-6">
-                        <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">THE SURF NETWORK BLOCKED MY WEBSITE.<br><span class="text-hot">AFTER THE VIRAL VIDEO DROPPED.</span></h4>
-                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">The Gold Coast Surf Network is public Wi-Fi infrastructure maintained by the Gold Coast City Council. It runs on Fortinet — a commercial content filtering system. When this screenshot was taken, attempting to access <strong class="text-paper/70">sunlight.quest</strong> on the Surf Network returned a Fortinet block page: the site had been categorised and blocked at the network level.</p>
-                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">The timing is not ambiguous. The block appeared after the viral video was published. Before the video, the site was accessible. After it — on government infrastructure, using a government-administered content filter — it was not. This is not an automated algorithmic mistake. Fortinet's category filters are applied and reviewed by administrators. Someone made a decision.</p>
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
-                            <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.04)">
-                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1.5">The Infrastructure</div>
-                                <p class="text-[0.6rem] text-paper/45 leading-relaxed">Gold Coast Surf Network — public Wi-Fi deployed across beachside Gold Coast. Administered by Gold Coast City Council. Runs Fortinet content filtering.</p>
-                            </div>
-                            <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.04)">
-                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1.5">The Block</div>
-                                <p class="text-[0.6rem] text-paper/45 leading-relaxed">sunlight.quest classified and blocked at the network level. The block page above is what Gold Coast Council is showing to every person who tries to access this publication on public Wi-Fi.</p>
-                            </div>
-                            <div class="border border-gold/20 p-3" style="background:rgba(201,138,16,0.04)">
-                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-1.5">The Timing</div>
-                                <p class="text-[0.6rem] text-paper/45 leading-relaxed">Block appeared following the viral video — the same video that named Gold Coast figures, identified the Oracle East assault network, and was submitted to Hancock Prospecting.</p>
-                            </div>
-                            <div class="border border-gold/20 p-3" style="background:rgba(201,138,16,0.04)">
-                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-1.5">The Decision</div>
-                                <p class="text-[0.6rem] text-paper/45 leading-relaxed">Fortinet category assignments on government networks are administrator-reviewed. This is not a passive filter. A human being — or a directive given to one — caused this block to appear.</p>
-                            </div>
-                        </div>
-                        <div class="border-l-4 border-hot/40 pl-4 py-1" style="background:rgba(193,68,14,0.03)">
-                            <p class="text-[0.62rem] text-paper/45 leading-relaxed">This is government infrastructure being used to suppress a publication. The Gold Coast City Council — which is supposed to operate in the public interest — is actively blocking public access to journalism about the conduct of Gold Coast institutions, on Wi-Fi it administers, using a content filter it controls. This is censorship. It is documented here, with the block page as primary evidence, because this is exactly the kind of thing that is supposed to be documented.</p>
-                        </div>
+                    <div class="border-l-4 border-hot/40 pl-4 py-1" style="background:rgba(193,68,14,0.03)">
+                        <p class="text-[0.62rem] text-paper/45 leading-relaxed">This is government infrastructure being used to suppress a publication. The Gold Coast City Council — which is supposed to operate in the public interest — is actively blocking public access to journalism about the conduct of Gold Coast institutions, on Wi-Fi it administers, using a content filter it controls. This is censorship. It is documented here, with the block page as primary evidence, because this is exactly the kind of thing that is supposed to be documented.</p>
                     </div>
                 </div>
             </div>
