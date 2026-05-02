@@ -1665,12 +1665,14 @@
         </div>
 
         <!-- Agent photo + intro -->
-        <div class="reveal flex gap-6 items-start mb-10">
-            <div class="shrink-0 w-24 border border-paper/[0.07] overflow-hidden" style="aspect-ratio:2/3;background:rgba(193,68,14,0.04)">
-                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/changfa/changfa-agent.jpg" alt="Changfa Agent — Unnamed" class="w-full h-full object-cover object-top" />
+        <div class="reveal mb-10">
+            <div class="mx-auto border border-paper/[0.07] overflow-hidden" style="max-width:340px">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/changfa/changfa-agent.jpg" alt="Changfa Agent — Unnamed" class="w-full object-cover object-top" loading="lazy" />
+                <div class="px-4 py-2 border-t border-paper/[0.06]" style="background:rgba(0,0,0,0.25)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot/60">Changfa Agent — Name Withheld Pending Charge</div>
+                </div>
             </div>
-            <div>
-                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot/60 mb-2">Changfa Agent — Name Withheld Pending Charge</div>
+            <div class="mt-5">
                 <h3 class="font-display text-2xl tracking-wide mb-3 text-paper/85 leading-tight">THE AGENT WITHOUT A NAME.<br><span class="text-hot">THE FINGERPRINTS THAT REMAINED.</span></h3>
                 <p class="text-[0.68rem] leading-relaxed text-paper/45">A Changfa Real Estate agent — unnamed here pending the laying of formal charges — disconnected power to Adam Watson's property by accessing the external powerbox. This allowed entry through the garage. He did not expect police to dust the powerbox for fingerprints. They did. The prints confirmed his presence. He is being charged with home invasion.</p>
             </div>
@@ -1875,11 +1877,11 @@
             <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">RJ.<br><span class="text-hot">CAR THIEF. AMBUSH ORGANISER. RACE WEAPON.</span></h3>
 
             <!-- RJ photo ID card -->
-            <div class="flex gap-6 items-start mb-6 border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
-                <div class="shrink-0 border border-hot/30 overflow-hidden" style="width:130px;aspect-ratio:3/4">
-                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/r_j_1.jpg" alt="RJ" class="w-full h-full object-cover object-top" />
+            <div class="mb-6 border border-hot/20" style="background:rgba(193,68,14,0.03)">
+                <div class="mx-auto border-b border-hot/15 overflow-hidden" style="max-width:340px">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/r_j_1.jpg" alt="RJ" class="w-full object-cover object-top" loading="lazy" />
                 </div>
-                <div class="pt-1">
+                <div class="p-5">
                     <div class="text-[0.45rem] tracking-[0.22em] uppercase text-hot mb-2">Identified</div>
                     <div class="font-display text-2xl tracking-wide text-paper/85 leading-tight mb-3">RJ</div>
                     <div class="text-[0.62rem] text-paper/45 leading-relaxed mb-2">Car thief. Ambush organiser. 13 documented incidents against Adam Watson. Subject of active investigation — Sex &amp; Crime Squad, Southport Police.</div>
