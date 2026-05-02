@@ -1362,16 +1362,50 @@
                 <div class="border-l-4 pl-5 mb-5" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-4" style="color:#7c6aaa">Identified — The Leaker</div>
 
-                    <!-- Photo ID card -->
-                    <div class="flex gap-5 items-start mb-5 border p-4" style="border-color:rgba(124,106,170,0.2);background:rgba(12,8,4,0.2)">
-                        <div class="shrink-0 border overflow-hidden" style="width:120px;aspect-ratio:3/4;border-color:rgba(124,106,170,0.3)">
-                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/privacy_leak/felipe_mattos.jpg" alt="Felipe Mattos" class="w-full h-full object-cover object-top" />
+                    <!-- Enlarged portrait -->
+                    <div class="reveal mb-5">
+                        <div class="mx-auto border overflow-hidden" style="max-width:340px;border-color:rgba(124,106,170,0.3)">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/privacy_leak/felipe_mattos.jpg" alt="Felipe Mattos" class="w-full object-cover object-center" loading="lazy" />
+                            <div class="px-3 py-2 border-t" style="background:rgba(0,0,0,0.35);border-color:rgba(124,106,170,0.2)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase" style="color:rgba(124,106,170,0.7)">Felipe Mattos · Southport Aquatic Centre · Privacy Breach Leaker</div>
+                            </div>
                         </div>
-                        <div class="pt-1">
-                            <div class="text-[0.45rem] tracking-[0.22em] uppercase mb-2" style="color:#7c6aaa">Identified · Aquatic Centre Staff · Leaker</div>
-                            <div class="font-display text-2xl tracking-wide text-paper/85 leading-tight mb-2">FELIPE MATTOS</div>
-                            <div class="text-[0.55rem] text-paper/45 leading-relaxed mb-2">820 Partner Visa holder. Freelance photographer. Former Southport Aquatic Centre staff member. Fired following the David Crisafulli administration's response to the privacy breach — after the Gold Coast Council initially refused to act.</div>
-                            <div class="text-[0.52rem] text-paper/28 leading-relaxed">Now a fitness instructor at UNSW. Previously: swim teacher and DJ. Featured in Gold Coast Bulletin — banned from a nightclub over neck tattoo. Told the Bulletin he is not a bikie and comes in peace.</div>
+                    </div>
+
+                    <!-- ID card text -->
+                    <div class="border p-4 mb-5" style="border-color:rgba(124,106,170,0.2);background:rgba(12,8,4,0.2)">
+                        <div class="text-[0.45rem] tracking-[0.22em] uppercase mb-2" style="color:#7c6aaa">Identified · Aquatic Centre Staff · Leaker</div>
+                        <div class="font-display text-2xl tracking-wide text-paper/85 leading-tight mb-2">FELIPE MATTOS</div>
+                        <div class="text-[0.55rem] text-paper/45 leading-relaxed mb-2">820 Partner Visa holder. Freelance photographer. Former Southport Aquatic Centre staff member. Fired following the David Crisafulli administration's response to the privacy breach — after the Gold Coast Council initially refused to act.</div>
+                        <div class="text-[0.52rem] text-paper/28 leading-relaxed">Now a fitness instructor at UNSW. Previously: swim teacher and DJ.</div>
+                    </div>
+
+                    <!-- Gold Coast Bulletin callout -->
+                    <div class="border mb-5 p-5" style="border-color:rgba(124,106,170,0.25);background:rgba(124,106,170,0.05)">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Gold Coast Bulletin · Publicly Documented · On Record</div>
+                        <h4 class="font-display text-xl tracking-wide mb-3 leading-tight" style="color:#7c6aaa">HIS TATTOO SAYS "PEACE."<br><span class="text-paper/60">HE WENT TO THE BULLETIN TO PLAY THE VICTIM. THEN TRIED TO RORT THE 820 VISA.</span></h4>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Felipe Mattos was <a href="https://www.goldcoastbulletin.com.au/subscribe/news/1/?sourceCode=GCWEB_WRE170_a_GGL&dest=https%3A%2F%2Fwww.goldcoastbulletin.com.au%2Fnews%2Fgold-coast%2Fgold-coast-swim-teacher-and-dj-felipe-mattos-banned-from-clubs-over-neck-tattoo%2Fnews-story%2F9f4f1f147797a834c3568b4cc5d547c6&memtype=anonymous&mode=premium" target="_blank" rel="noopener" class="underline underline-offset-2" style="color:rgba(124,106,170,0.8)">featured in the Gold Coast Bulletin complaining that he was being denied entry to nightclubs because of his neck tattoo</a>. He told the reporter he was not a bikie. He said he comes in peace. His neck tattoo says peace.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-3">
+                            <div class="border p-4" style="border-color:rgba(124,106,170,0.2);background:rgba(124,106,170,0.04)">
+                                <div class="text-[0.44rem] tracking-[0.15em] uppercase mb-2" style="color:#7c6aaa">The Public Narrative</div>
+                                <div class="space-y-1.5">
+                                    <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Goes to the press: unfairly targeted, victim of prejudice</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Tattoo says <strong class="text-paper/65">peace</strong> — he comes in peace</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Swim teacher, DJ, innocent professional</p></div>
+                                </div>
+                            </div>
+                            <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot mb-2">The Private Reality</div>
+                                <div class="space-y-1.5">
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Photographs and distributes a surveillance board containing images of members of the public — a privacy breach</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Tells Adam Watson directly he is using the 820 relationship visa as a pathway to citizenship — not a genuine relationship</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Attempts to purchase prescription Ozempic from Adam Watson to resell illegally</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border border-hot/25 px-5 py-4" style="background:rgba(193,68,14,0.05)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The Irony</div>
+                            <p class="text-[0.68rem] text-paper/50 leading-relaxed">He went to the mainstream press to claim he was being judged unfairly because of a tattoo that says <em>peace</em>. The same person was simultaneously using a relationship that he has described as not genuine to rort the 820 Partner Visa pathway to Australian citizenship — a visa program designed to protect genuine relationships, not provide cover for those who admit privately that the arrangement is instrumental. Clubs reading his tattoo and turning him away may have been the least of anyone's concerns.</p>
                         </div>
                     </div>
 
