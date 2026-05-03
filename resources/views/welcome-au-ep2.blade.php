@@ -3865,13 +3865,39 @@
             </div>
             <div class="border border-sage/25 p-5" style="background:rgba(61,122,74,0.04)">
                 <div class="flex items-center gap-3 mb-3">
-                    <div class="border border-paper/[0.08] px-3 py-2" style="background:#ffffff">
-                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/graham_gordon/illawara-strata.png" alt="Illawarra Strata" class="h-7 w-auto" />
-                    </div>
-                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-sage">Consequence of Proceedings</div>
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-sage">Consequence of NCAT Order</div>
                 </div>
-                <div class="font-display text-lg tracking-wide text-paper/80 leading-tight mb-2">ILLAWARRA STRATA IS BEING REPLACED.</div>
-                <p class="text-[0.62rem] text-paper/45 leading-relaxed">Illawarra Strata — the strata management company for 51 Crown Street, on whose board Graham Gordon sits — is now being replaced as the strata company for the property as a direct result of these proceedings.</p>
+                <div class="font-display text-lg tracking-wide text-paper/80 leading-tight mb-3">ILLAWARRA STRATA AND INTEGRITY STRATA ARE OUT.<br><span class="text-sage">iSTRATA IS TAKING OVER.</span></div>
+                <p class="text-[0.62rem] text-paper/45 leading-relaxed mb-4">As a direct result of the NCAT order, iStrata has been appointed to take over both the <strong class="text-paper/65">residential</strong> and <strong class="text-paper/65">commercial</strong> strata management contracts at 51 Crown Street — replacing Integrity Strata and Illawarra Strata Management in their entirety.</p>
+                <div class="flex flex-wrap items-center gap-4 mb-4">
+                    <div class="shrink-0">
+                        <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/30 mb-1.5">Replacing</div>
+                        <div class="flex items-center gap-3">
+                            <div class="border border-paper/[0.08] px-3 py-2 opacity-50" style="background:#ffffff">
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/graham_gordon/illawara-strata.png" alt="Illawarra Strata" class="h-7 w-auto" />
+                            </div>
+                            <span class="text-paper/20 text-lg">+</span>
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/graham_gordon/integrity-strata.png" alt="Integrity Strata" class="h-8 w-auto opacity-30" />
+                        </div>
+                    </div>
+                    <div class="text-paper/25 text-2xl font-light">→</div>
+                    <div class="shrink-0">
+                        <div class="text-[0.42rem] tracking-[0.14em] uppercase text-sage mb-1.5">Appointed</div>
+                        <div class="border border-sage/20 px-3 py-2" style="background:#ffffff">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/istrata_logo.jpeg" alt="iStrata" class="h-10 w-auto" />
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div class="border border-sage/20 p-3" style="background:rgba(61,122,74,0.03)">
+                        <div class="text-[0.44rem] tracking-[0.15em] uppercase text-sage mb-1.5">Residential Contract</div>
+                        <p class="text-[0.58rem] text-paper/38 leading-relaxed">iStrata appointed to manage the residential strata scheme at 51 Crown Street, replacing Illawarra Strata Management. Previously managed under arrangement connected to Graham Gordon's board positions.</p>
+                    </div>
+                    <div class="border border-sage/20 p-3" style="background:rgba(61,122,74,0.03)">
+                        <div class="text-[0.44rem] tracking-[0.15em] uppercase text-sage mb-1.5">Commercial Contract</div>
+                        <p class="text-[0.58rem] text-paper/38 leading-relaxed">iStrata also appointed to the commercial strata contract, replacing Integrity Strata. Both contracts transferred as part of the same NCAT order — a full transition of management at the property.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
