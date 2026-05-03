@@ -861,8 +861,13 @@
                         <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5 blink">⬤ IN CUSTODY</span>
                     </div>
                     <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">96 CHARGES.<br><span class="text-hot">IN CUSTODY. INCLUDING FALSE ACCUSATIONS AGAINST ADAM WATSON.</span></h4>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Bodie Chalmers is currently in custody. He has been charged with 96 offences. Among those charges are the false accusations made against Adam Watson — the same pattern documented across this chapter, now formally before the courts.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The last time Bodie made contact with Adam, he was begging for rent money while the drug money had dissipated. He had received a van from the Yakuza containing drugs with a street value in excess of $30 million, with instructions to move the product to the Albanian organised crime network. Instead, Bodie double-crossed the Yakuza — told them the van was stolen. He then called Adam Watson asking him to negotiate with the Yakuza on his behalf. Adam declined.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Bodie Chalmers is currently in custody. He has been charged with 96 offences. Among those charges are the false accusations made against Adam Watson — the same pattern documented across this chapter, now formally before the courts. <strong class="text-paper/60">He is looking at 3 years in jail specifically for defrauding Adam Watson.</strong></p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The last time Bodie made contact with Adam, he was begging for rent money while the drug money had dissipated. He had received a van from the Yakuza containing drugs with a street value in excess of <strong class="text-paper/65">$35 million</strong>, with instructions to move the product to the Albanian organised crime network. Instead, Bodie double-crossed the Yakuza — told them the van was stolen. He then called Adam Watson asking him to negotiate with the Yakuza on his behalf.</p>
+                    <div class="border border-gold/20 p-4 mb-3" style="background:rgba(201,138,16,0.04)">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-2">What Would Adam Actually Say to the Yakuza?</div>
+                        <p class="text-[0.65rem] text-paper/48 leading-relaxed mb-2">Bodie Chalmers — having stolen $35 million worth of product from an organised crime network — called Adam Watson and asked him to be his intermediary. To negotiate on his behalf. With the Yakuza. Who had just been defrauded. Adam declined.</p>
+                        <p class="text-[0.65rem] text-paper/45 leading-relaxed italic">"What exactly would Adam say? 'Hi, yes, the van wasn't actually stolen — my boyfriend took your $35 million in drugs and tried to resell them to the Albanian network. He's sorry. He'd like to keep the Louis Vuitton. Can you let this one slide?'" The call was declined.</p>
+                    </div>
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">When arrested, police found <strong class="text-paper/65">$30,000 worth of Louis Vuitton</strong> in the house. The rent had not been paid. Multiple outstanding warrants were active across jurisdictions while he was living in a $10,000-a-week house surrounded by designer goods.</p>
 
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4 mb-1">
@@ -942,6 +947,39 @@
                                 <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Mental health as a shield has limits — it does not erase forensic evidence</p></div>
                                 <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Courts are not required to accept a manufactured psychiatric episode as determinative</p></div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Yakuza member — firebombing contractor -->
+                <div class="border border-hot/30 mt-6 mb-2 p-5" style="background:rgba(193,68,14,0.04)">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">Organised Crime — Subcontracted Violence</span>
+                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/40 text-hot/70 px-1.5 py-0.5">FLED AUSTRALIA</span>
+                    </div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">$150,000 TO FIREBOMB ADAM WATSON'S MOTHER'S HOUSE.<br><span class="text-hot">HIS HOPE ISLAND HOME WAS RAIDED. HE FLED OVERSEAS.</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Bodie Chalmers paid a Yakuza-connected associate <strong class="text-paper/65">$150,000</strong> to firebomb Adam Watson's mother's house. That associate, rather than carry out the job personally, subcontracted it to an individual in Western Australia. The Hope Island home of the Yakuza associate was subsequently raided by police.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">He fled overseas — to the Philippines, or Cambodia, or another country without an extradition treaty with Australia. The calculation being that no treaty means no return, no prosecution, no consequences. That calculation has a flaw.</p>
+                    <div class="border border-hot/25 p-4 mb-3" style="background:rgba(193,68,14,0.06)">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-3">ASIO Does Not Require an Extradition Treaty</div>
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed mb-2">An extradition treaty is a legal instrument between governments. ASIO is not a court. Once the Australian Security Intelligence Organisation has an interest in a person, geography is not a defence. They do not need a bilateral agreement to locate, monitor, or arrange the return of a target — the absence of a formal treaty is a procedural inconvenience, not protection.</p>
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed italic">"Once you start messing with ASIO, you are not safe anywhere you go in the world."</p>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">The Contract</div>
+                            <div class="font-display text-base text-hot mb-1">$150,000</div>
+                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">Paid by Bodie Chalmers to a Yakuza associate to firebomb Adam Watson's mother's house. Job subcontracted to a contact in Western Australia.</p>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">The Raid</div>
+                            <div class="font-display text-base text-hot mb-1">HOPE ISLAND</div>
+                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">The Yakuza associate's Hope Island home was raided by police. He fled the country before charges could be laid — destination: Philippines or Cambodia.</p>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">The Problem</div>
+                            <div class="font-display text-base text-hot mb-1">NO EXTRADITION — NO MATTER</div>
+                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">Philippines and Cambodia have no extradition treaty with Australia. ASIO does not need one. The absence of a treaty is not cover.</p>
                         </div>
                     </div>
                 </div>
