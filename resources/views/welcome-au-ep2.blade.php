@@ -2262,6 +2262,41 @@
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Walking past Street University in Southport, a young woman approached Kosta Kondratenko and asked whether he was a police informant. For the record: Kosta has never taken the stand against anyone. He has never given evidence against any individual in any court proceeding.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">RJ ran out and made the following comment: <span class="font-display text-paper/65">"We've got you here filming the kids."</span> The insinuation — that Kosta was filming children for predatory purposes — is a deliberate and malicious fabrication.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">For the record, and to be absolutely clear: there has never been a complaint against Kosta Kondratenko in any corporate setting. There is no affidavit in any police station. There is not even a text message, from any source, alleging any type of inappropriate behaviour toward a woman or a man. Not once. Not anywhere. The comment RJ made at Street University is a lie — a deliberate attempt to attach a label to a person that has no basis in fact, made by someone who uses the language of child protection as a weapon.</p>
+
+            <!-- Still from confrontation -->
+            <div class="reveal mb-6">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/sex_crimes_squad.jpg" alt="Still from the Street University confrontation — RJ approaching" class="w-full border border-hot/20" loading="lazy" />
+                <div class="flex items-center justify-between px-3 py-2 border border-t-0 border-hot/15" style="background:rgba(193,68,14,0.06)">
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/30">Still from video · Street University · Southport · RJ approaching</span>
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/50">Full video withheld — see below</span>
+                </div>
+            </div>
+
+            <!-- Why the full video is not being released -->
+            <div class="border border-hot/25 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Why the Full Video Cannot Be Released</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">The full video of this confrontation exists. It has not been released publicly and will not be at this time. The reason is straightforward: I have been advised that releasing the footage could expose me to a charge of <strong class="text-paper/65">possessing child exploitation material</strong>. Children are visible in the background of the video as RJ moves toward me — and in the current legal environment, a corrupt or motivated officer could use that fact to argue that the act of filming in proximity to children, and then distributing that footage, constitutes possession of material depicting minors.</p>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">This is not a theoretical concern. It is exactly the kind of charge that has been used historically by malicious police to silence journalists, activists, and witnesses who hold footage that is inconvenient for the people in it. The instrument is the law. The weapon is its misapplication. And the target is the person who filmed an officer approaching them in a public space.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div class="border border-hot/15 p-4" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot mb-2">The Risk</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Children visible in the background as RJ approaches on camera</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">A motivated officer could characterise public distribution as possession of material depicting minors</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">The charge is severe enough that even an unsuccessful prosecution achieves its purpose: suppression</p></div>
+                        </div>
+                    </div>
+                    <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.2)">
+                        <div class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/35 mb-2">The Pattern — Malicious Police</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-paper/30 text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">Child exploitation charges have been used as suppression instruments against journalists and witnesses in documented cases</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-paper/30 text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">A person facing 15+ incidents with QPS officers — several of whom are corrupt or have since been disciplined — cannot assume good faith in how footage would be handled</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-paper/30 text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/40 leading-relaxed">The still published above is the limit of what can be safely disclosed at this time</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="border-l-4 border-hot/50 pl-5" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
                 <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">On the Record</div>
                 <div class="space-y-2 mb-1">
