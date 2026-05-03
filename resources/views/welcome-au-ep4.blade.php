@@ -372,6 +372,19 @@
                     <span class="text-[0.5rem] tracking-[0.2em] uppercase text-sage border border-sage/40 px-2 py-1">The New Business</span>
                 </div>
                 <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">BOOKS R US IS DOWN.<br><span class="text-sage">BORN TO SHINE DISABILITY SERVICES IS UP.</span></h3>
+
+                <!-- Logo -->
+                <div class="reveal mb-5 flex items-center gap-4">
+                    <div class="border border-paper/[0.08] p-3 shrink-0" style="background:#ffffff">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/Born-To-Shine-Circle-Logo.webp" alt="Born to Shine Disability Services" class="h-14 w-auto" loading="lazy" />
+                    </div>
+                    <div>
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-sage mb-0.5">Currently Operating</div>
+                        <div class="font-display text-lg tracking-wide text-paper/75 leading-tight">BORN TO SHINE<br>DISABILITY SERVICES</div>
+                        <div class="text-[0.5rem] text-paper/30 mt-1">borntoshinedisabilityservices.com.au · NDIS Provider · Director: Hellen Pertekes</div>
+                    </div>
+                </div>
+
                 <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"After Books R Us went offline, she opened an NDIS business. She is the Director. The clients are now disabled Australians accessing government-funded care — not taxpayers."</p>
                 <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">While the Federal Court proceedings are active and the ATO is pursuing her as a hostile witness, Hellen Pertekes has moved into an entirely different sector. She is now the Director of <strong class="text-paper/65">Born to Shine Disability Services</strong>, an NDIS provider operating at <span class="text-sage/70">borntoshinedisabilityservices.com.au</span>. The National Disability Insurance Scheme is a Commonwealth-funded program that directs public money to registered providers who deliver services to Australians with disability. Registration as an NDIS provider carries obligations, background checks, and ongoing compliance requirements.</p>
 
