@@ -1719,8 +1719,8 @@
                     <p class="text-[0.62rem] text-paper/45 leading-relaxed">Martin lacks a driver's licence yet lives in his vehicle. The vehicle he requested access to Adam's laundry facilities from. The vehicle that gives him access to laundromats he chose not to use.</p>
                 </div>
                 <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.12)">
-                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-paper/28 mb-2">Owns NZ properties. No permanent residence.</div>
-                    <p class="text-[0.62rem] text-paper/45 leading-relaxed">Martin owns properties in New Zealand yet has no permanent place of residence in Australia. He requested laundry access from someone who was homeless.</p>
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-paper/28 mb-2">Owns NZ properties. Pursuing tenants for personal assets.</div>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed">Martin owns at least one commercial property in New Zealand — vacant for four years. He has a personal guarantee over the former tenant whose business failed, and is now pursuing that person's personal assets. Meanwhile he presents as someone with no stable housing.</p>
                 </div>
                 <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.12)">
                     <div class="text-[0.46rem] tracking-[0.18em] uppercase text-paper/28 mb-2">Given a chance. Closed the operation.</div>
@@ -1729,6 +1729,39 @@
                 <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.12)">
                     <div class="text-[0.46rem] tracking-[0.18em] uppercase text-paper/28 mb-2">Busybody. No invitation required.</div>
                     <p class="text-[0.62rem] text-paper/45 leading-relaxed">Requested a court file for a stranger's matter. Misrepresented a police safety referral. Complained about a tent location he claimed not to know. Continued frequenting spaces uninvited.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- NZ commercial property callout -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(124,106,170,0.4)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">New Zealand · Commercial Property · Personal Guarantee</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">FOUR YEARS VACANT.<br><span style="color:#7c6aaa">PURSUING A FORMER TENANT'S PERSONAL ASSETS.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Martin owns a commercial property in New Zealand. It has been vacant for four years. Rather than find a new tenant and put the property to productive use, it has sat empty — while Martin continues to present himself in Australia as a person without stable housing, living out of a vehicle.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">The last tenant's business failed. Martin held a personal guarantee over that individual. He is now pursuing the former tenant for their personal assets. The commercial property sits empty. The legal pursuit of a person whose business collapsed continues. He asked Adam Watson — who was homeless — to help him access laundry facilities.</p>
+            <div class="border border-paper/[0.08] p-5 mb-4" style="background:rgba(0,0,0,0.14)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">What the NZ Property Situation Suggests</div>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">A property owner with assets sufficient to hold commercial real estate in New Zealand for four years without rental income is not someone in genuine financial hardship.</p></div>
+                    <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">The personal guarantee pursuit — against someone whose business failed — suggests a willingness to use legal instruments to extract personal assets from an individual in difficulty.</p></div>
+                    <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">That the same person simultaneously presents as without stable housing — living in a vehicle, requesting laundry access from a homeless man — is a presentation, not a reality.</p></div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <div class="border p-4" style="border-color:rgba(124,106,170,0.2);background:rgba(124,106,170,0.04)">
+                    <div class="text-[0.45rem] tracking-[0.15em] uppercase mb-1" style="color:#7c6aaa">The Property</div>
+                    <div class="font-display text-base mb-1" style="color:#7c6aaa">VACANT · 4 YEARS</div>
+                    <p class="text-[0.6rem] text-paper/38 leading-relaxed">Commercial property in New Zealand. No tenant for four years. No apparent urgency to fill it.</p>
+                </div>
+                <div class="border p-4" style="border-color:rgba(124,106,170,0.2);background:rgba(124,106,170,0.04)">
+                    <div class="text-[0.45rem] tracking-[0.15em] uppercase mb-1" style="color:#7c6aaa">The Guarantee</div>
+                    <div class="font-display text-base mb-1" style="color:#7c6aaa">PERSONAL LIABILITY</div>
+                    <p class="text-[0.6rem] text-paper/38 leading-relaxed">Former tenant's business didn't work out. Personal guarantee held. Martin is now pursuing that person's private assets.</p>
+                </div>
+                <div class="border p-4" style="border-color:rgba(124,106,170,0.2);background:rgba(124,106,170,0.04)">
+                    <div class="text-[0.45rem] tracking-[0.15em] uppercase mb-1" style="color:#7c6aaa">The Presentation</div>
+                    <div class="font-display text-base mb-1" style="color:#7c6aaa">LIVES IN A VEHICLE</div>
+                    <p class="text-[0.6rem] text-paper/38 leading-relaxed">A man with commercial real estate and an active legal pursuit asked a homeless man if he could use his laundry. The homelessness is suspicious.</p>
                 </div>
             </div>
         </div>

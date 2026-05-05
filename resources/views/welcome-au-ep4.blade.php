@@ -444,6 +444,33 @@
                     <p class="text-[0.68rem] text-paper/50 leading-relaxed">A person who was simultaneously failing to lodge a client's tax returns — and has since admitted to a staff member that this was intentional — also obtained $20,000 from that same client under a fabricated medical emergency. The two acts of dishonesty were concurrent. They were directed at the same person. And the professional relationship that made both possible was one built on trust: she was his accountant, she had access to his financial information, and he had no reason at the time to question her.</p>
                 </div>
 
+                <!-- Jewel Apartment — court sale -->
+                <div class="border border-hot/30 p-5 mt-5 mb-5" style="background:rgba(193,68,14,0.05)">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">Consequential Loss — Court-Ordered Sale</span>
+                    </div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">$6 MILLION APARTMENT.<br><span class="text-hot">SOLD BY THE COURT FOR $3.5 MILLION.</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">As a direct consequence of Hellen Pertekes's failure to lodge Adam Watson's tax returns, the Jewel apartment that Adam had purchased for <strong class="text-paper/65">$6 million</strong> was sold during proceedings — not by Adam, but by the Court. The forced sale realised <strong class="text-paper/65">$3.5 million</strong>: a loss of $2.5 million on a single asset, sold at a fraction of its value because the proceedings created by her conduct required it.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">This is the concrete financial consequence of what Pertekes described — according to her own staff member — as an intentional act. It is not an abstract ATO dispute. It is a $2.5 million gap between what Adam Watson owned and what he was left with after the intervention of someone he paid to protect his financial affairs.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">Purchase Price</div>
+                            <div class="font-display text-xl text-paper/70 mb-1">$6,000,000</div>
+                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">Jewel apartment, Gold Coast. Purchased by Adam Watson. Asset held before proceedings.</p>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">Court Sale Price</div>
+                            <div class="font-display text-xl text-hot mb-1">$3,500,000</div>
+                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">Sold by order of the Court during ATO proceedings. Not a voluntary sale. A fraction of market value.</p>
+                        </div>
+                        <div class="border border-hot/30 p-4" style="background:rgba(193,68,14,0.06)">
+                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">Loss on Asset</div>
+                            <div class="font-display text-xl text-hot mb-1">−$2,500,000</div>
+                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">The direct financial consequence of Pertekes's admitted intentional non-lodgement — on a single property alone.</p>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Evidence vault -->
                 <div class="evidence-vault mt-6">
                     <div class="ev-header" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
