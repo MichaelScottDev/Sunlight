@@ -441,7 +441,13 @@
                 <!-- Context: Adam was helping Bodie with armed burglary charges -->
                 <div class="border-l-4 pl-5 mt-6 mb-2" style="border-color:rgba(124,106,170,0.4);background:rgba(124,106,170,0.03);padding:1rem 1rem 1rem 1.25rem">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Context</div>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">Adam Watson was actively helping Bodie Chalmers navigate his court cases for armed burglary charges at the time all of this was occurring. Bodie repaid that assistance with the coercive control behaviour, the false sexual assault allegation, and the pattern documented across this chapter.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Adam Watson was actively helping Bodie Chalmers navigate his court cases for armed burglary charges at the time all of this was occurring. Bodie repaid that assistance with the coercive control behaviour, the false sexual assault allegation, and the pattern documented across this chapter.</p>
+                    <div class="reveal">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bodie_chalmers/IMG-20250610-WA0002.jpg" alt="Adam Watson holding Bodie Chalmers's aggravated burglary brief" class="w-full border border-paper/[0.07]" loading="lazy" />
+                        <div class="px-3 py-2 border border-t-0 border-paper/[0.06]" style="background:rgba(0,0,0,0.3)">
+                            <span class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/30">Adam Watson · Holding Bodie Chalmers's aggravated burglary brief · The man he was helping with his court cases</span>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Coogee Incident -->
