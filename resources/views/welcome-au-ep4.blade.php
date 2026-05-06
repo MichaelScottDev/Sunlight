@@ -444,6 +444,14 @@
                     <p class="text-[0.68rem] text-paper/50 leading-relaxed">A person who was simultaneously failing to lodge a client's tax returns — and has since admitted to a staff member that this was intentional — also obtained $20,000 from that same client under a fabricated medical emergency. The two acts of dishonesty were concurrent. They were directed at the same person. And the professional relationship that made both possible was one built on trust: she was his accountant, she had access to his financial information, and he had no reason at the time to question her.</p>
                 </div>
 
+                <!-- "I want to see you fail" -->
+                <div class="border border-hot/40 p-5 mt-5 mb-2" style="background:rgba(193,68,14,0.07)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-3">Direct Statement — Hellen Pertekes to Adam Watson</div>
+                    <p class="font-display text-xl tracking-wide text-paper/80 leading-tight mb-4">"I WANT TO SEE YOU FAIL.<br>AND I WANT TO SEE YOU EATING OUT OF A BIN."</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Hellen Pertekes called Adam Watson and told him directly: <em class="text-paper/70">"I want to see you fail. And I want to see you eating out of a bin."</em> This is the person who was entrusted with his tax affairs. The person who held access to his financial records. The person whose deliberate failure to lodge his returns — admitted to a staff member as intentional — is now the subject of Federal Court proceedings.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed">The statement removes any ambiguity about motivation. A person who had not acted deliberately would have no reason to make that call. A person who had simply made errors would not ring their former client to tell them they hoped to watch them eating out of a bin. The call is an admission of intent delivered in the language of contempt.</p>
+                </div>
+
                 <!-- Jewel Apartment — court sale -->
                 <div class="border border-hot/30 p-5 mt-5 mb-5" style="background:rgba(193,68,14,0.05)">
                     <div class="flex items-center gap-2 mb-3">

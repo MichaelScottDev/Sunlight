@@ -1733,6 +1733,33 @@
             </div>
         </div>
 
+        <!-- The Enforcer Call -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">New Incident — Private Number · Third-Party Escalation</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">"WHY ARE YOU PICKING ON AN OLD MAN FOR?"<br><span class="text-hot">MARTIN SENT AN ENFORCER.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Martin has now escalated to a third party. An individual — apparently acting on Martin's behalf — called Adam Watson from a private number. The question put to Adam was: <em class="text-paper/70">"Why are you picking on an old man for?"</em> Martin had positioned himself as the victim — the frail elderly man being persecuted — to someone willing to make that call on his behalf.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">This is the same person who owns commercial real estate in New Zealand, who has been pursuing a former tenant's personal assets through a personal guarantee, who organised Fair Work Commission complaints that closed a charity's coffee shop, and who visited a court to request the file of a stranger he had no connection to. The old man framing was chosen because it was useful.</p>
+            <div class="border border-hot/25 p-5 mb-5" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">The Call</div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">Source</div>
+                        <p class="text-[0.62rem] text-paper/50 leading-relaxed">Private number. Third party calling on Martin's behalf. Not Martin himself.</p>
+                    </div>
+                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">The Line</div>
+                        <p class="text-[0.62rem] text-paper/55 leading-relaxed italic">"Why are you picking on an old man for?"</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Tip callout -->
+            <div class="border-l-4 border-gold/50 pl-5" style="background:rgba(201,138,16,0.05);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-2">A Note — If You're Calling to Threaten</div>
+                <p class="text-[0.65rem] text-paper/50 leading-relaxed mb-2">Private numbers are not untraceable. Telecommunications carriers retain call records — including the originating number behind a private display — and these records are accessible to police and courts via subpoena. A call made from a private number is not a call made anonymously.</p>
+                <p class="text-[0.65rem] text-paper/50 leading-relaxed">If the intention is to make a threatening or intimidating call, a payphone provides no greater protection. Magistrates are entirely familiar with this tactic. Calls made to intimidate, threaten, or harass — whether from a private number or a payphone — are treated seriously. Courts are not naive about why someone dials private before making that particular call.</p>
+            </div>
+        </div>
+
         <!-- NZ commercial property callout -->
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(124,106,170,0.4)">
             <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">New Zealand · Commercial Property · Personal Guarantee</span></div>
