@@ -925,6 +925,12 @@
                         <p class="text-[0.68rem] text-paper/50 leading-relaxed">Marc Barrow made a comment to Adam Watson that if RJ stabs Kosta to death, he will turn a blind eye. Adam Watson relayed this to Kosta. A sworn officer of Queensland Police stated to a third party that he would ignore the murder of a named individual by a named associate. This is not a figure of speech. It is a threat communicated via an intermediary, and it has been documented accordingly.</p>
                     </div>
 
+                    <!-- Internal QPS complaint — female officer -->
+                    <div class="border-l-4 border-hot/50 pl-5 mt-4" style="background:rgba(193,68,14,0.05);padding:1rem 1rem 1rem 1.25rem">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Internal Complaint — Female QPS Officer · Against Marc Barrow</div>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">Marc Barrow is also the subject of a complaint made against him by a female member of the Queensland Police Service. The complaint originates from within the QPS itself — not from a member of the public, but from a colleague. The nature of that complaint is known to this publication. It is consistent with the pattern of conduct documented across this section.</p>
+                    </div>
+
                     <!-- CCC Response -->
                     <div class="border-l-4 pl-5 mt-5 mb-2" style="border-color:rgba(61,122,74,0.4);background:rgba(61,122,74,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
                         <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-2">Crime and Corruption Commission — Response to Marc Barrow Report</div>
