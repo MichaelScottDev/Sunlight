@@ -2581,66 +2581,45 @@
                         </div>
                     </div>
 
-                    <!-- Screenshot evidence vault -->
-                    <div class="evidence-vault mt-5">
-                        <div class="ev-header" onclick="toggleVault(this)">
-                            <div class="flex items-center gap-2">
-                                <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📱 SMS Screenshots</span>
-                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Gold Coast Homeless Outreach Team · Rihanna · March 2026</span>
-                            </div>
-                            <div class="flex items-center gap-3">
-                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">6 screenshots</span>
-                                <span class="ev-toggle">▼</span>
-                            </div>
-                        </div>
-                        <div class="ev-body">
-                            <div class="ev-file ef-hot" onclick="openMV('img-outreach-1')">
-                                <div class="ev-icon" style="font-size:0.65rem">📱</div>
-                                <div class="ev-meta">
-                                    <div class="ev-name">Screenshot_20260501_123442 — Access point intake message</div>
-                                    <div class="ev-desc">SMS · "were you able to get to an access point to complete intake"</div>
+                    <!-- Screenshot grid — inline -->
+                    <div class="mt-5">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot/60 mb-3">📱 SMS Screenshots · Gold Coast Homeless Outreach Team · Rihanna · March 2026</div>
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+                            <div class="border border-hot/20 overflow-hidden">
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/messages/Screenshot_20260501_123442_Messages.jpg" alt="SMS — Access point intake message" class="w-full" loading="lazy" />
+                                <div class="px-2 py-1.5 border-t border-hot/15" style="background:rgba(193,68,14,0.06)">
+                                    <div class="text-[0.4rem] tracking-[0.1em] uppercase text-hot/60">"Were you able to get to an access point"</div>
                                 </div>
-                                <span class="ev-cta">View →</span>
                             </div>
-                            <div class="ev-file ef-hot" onclick="openMV('img-outreach-2')">
-                                <div class="ev-icon" style="font-size:0.65rem">📱</div>
-                                <div class="ev-meta">
-                                    <div class="ev-name">Screenshot_20260501_123514 — "Which form are you chasing"</div>
-                                    <div class="ev-desc">SMS · QLD ID offer + form unknown</div>
+                            <div class="border border-hot/20 overflow-hidden">
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/messages/Screenshot_20260501_123514_Messages.jpg" alt="SMS — Which form are you chasing" class="w-full" loading="lazy" />
+                                <div class="px-2 py-1.5 border-t border-hot/15" style="background:rgba(193,68,14,0.06)">
+                                    <div class="text-[0.4rem] tracking-[0.1em] uppercase text-hot/60">"Which form are you chasing"</div>
                                 </div>
-                                <span class="ev-cta">View →</span>
                             </div>
-                            <div class="ev-file ef-hot" onclick="openMV('img-outreach-3')">
-                                <div class="ev-icon" style="font-size:0.65rem">📱</div>
-                                <div class="ev-meta">
-                                    <div class="ev-name">Screenshot_20260501_123523 — NSW ID / return to NSW</div>
-                                    <div class="ev-desc">SMS · "changing your NSW to Queensland ID" · Rihanna from pink tshirts</div>
+                            <div class="border border-hot/20 overflow-hidden">
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/messages/Screenshot_20260501_123523_Messages.jpg" alt="SMS — NSW ID / return to NSW" class="w-full" loading="lazy" />
+                                <div class="px-2 py-1.5 border-t border-hot/15" style="background:rgba(193,68,14,0.06)">
+                                    <div class="text-[0.4rem] tracking-[0.1em] uppercase text-hot/60">NSW ID · return to NSW offer</div>
                                 </div>
-                                <span class="ev-cta">View →</span>
                             </div>
-                            <div class="ev-file ef-hot" onclick="openMV('img-outreach-4')">
-                                <div class="ev-icon" style="font-size:0.65rem">📱</div>
-                                <div class="ev-meta">
-                                    <div class="ev-name">Screenshot_20260501_123530 — Link 2 Home allegation</div>
-                                    <div class="ev-desc">SMS · "said you were contemplating calling link to home" — statement never made</div>
+                            <div class="border border-hot/20 overflow-hidden">
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/messages/Screenshot_20260501_123530_Messages.jpg" alt="SMS — Link 2 Home allegation" class="w-full" loading="lazy" />
+                                <div class="px-2 py-1.5 border-t border-hot/15" style="background:rgba(193,68,14,0.06)">
+                                    <div class="text-[0.4rem] tracking-[0.1em] uppercase text-hot/60">Link 2 Home · statement never made</div>
                                 </div>
-                                <span class="ev-cta">View →</span>
                             </div>
-                            <div class="ev-file ef-gold" onclick="openMV('img-outreach-5')">
-                                <div class="ev-icon" style="font-size:0.65rem">📱</div>
-                                <div class="ev-meta">
-                                    <div class="ev-name">Screenshot_20260501_123537 — QLD ID if staying in Queensland</div>
-                                    <div class="ev-desc">SMS · "we can support you to get QLD ID if you are wanting to stay in Queensland"</div>
+                            <div class="border border-gold/20 overflow-hidden">
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/messages/Screenshot_20260501_123537_Messages.jpg" alt="SMS — QLD ID if staying in Queensland" class="w-full" loading="lazy" />
+                                <div class="px-2 py-1.5 border-t border-gold/15" style="background:rgba(201,138,16,0.06)">
+                                    <div class="text-[0.4rem] tracking-[0.1em] uppercase text-gold/60">QLD ID if staying in Queensland</div>
                                 </div>
-                                <span class="ev-cta">View →</span>
                             </div>
-                            <div class="ev-file ef-sage" onclick="openMV('img-outreach-6')">
-                                <div class="ev-icon" style="font-size:0.65rem">📱</div>
-                                <div class="ev-meta">
-                                    <div class="ev-name">Screenshot_20260501_123544 — Kosta's reply</div>
-                                    <div class="ev-desc">SMS · Outgoing · "I never made any comments to anybody about home link that person is lying"</div>
+                            <div class="border border-sage/20 overflow-hidden">
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/messages/Screenshot_20260501_123544_Messages.jpg" alt="SMS — Kosta's reply" class="w-full" loading="lazy" />
+                                <div class="px-2 py-1.5 border-t border-sage/15" style="background:rgba(61,122,74,0.06)">
+                                    <div class="text-[0.4rem] tracking-[0.1em] uppercase text-sage/60">Kosta's reply · "that person is lying"</div>
                                 </div>
-                                <span class="ev-cta">View →</span>
                             </div>
                         </div>
                     </div>
