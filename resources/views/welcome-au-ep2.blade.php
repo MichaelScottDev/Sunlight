@@ -2928,6 +2928,39 @@
                     </div>
                 </div>
 
+                <!-- Caveat on Adam Watson's property -->
+                <div class="border-l-4 border-hot/50 pl-5 mb-5 mt-5" style="background:rgba(193,68,14,0.05);padding:1.2rem 1rem 1.2rem 1.25rem">
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">New Incident — Property Caveat · $150,000 Damages Claim</div>
+                        <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 border border-paper/10 px-2 py-0.5">Discovered During House Sale</div>
+                    </div>
+                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">A CAVEAT ON ADAM WATSON'S HOUSE.<br><span class="text-hot">LODGED BY WEST KIRA. $150,000 FOR "TRAUMA."</span></h4>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">When Adam Watson was in the process of selling his house, his agent — during the transfer process for the buyer — discovered a caveat on the property. An enquiry was made to the Land and Housing office to determine why the caveat had been lodged and on what grounds. The answer: the caveat was lodged by West Kira, who was claiming <strong class="text-paper/65">$150,000 in damages for trauma</strong>.</p>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">This is the same West Kira who is currently in custody — facing 28 years for a gay hate crime, a further 3-year charge for stealing from Adam Watson, and a solitary confinement consequence from making a recorded death threat on a monitored prison phone. He filed a caveat on the property of the person he has been charged with stealing from, while in jail, claiming trauma damages.</p>
+                    <div class="border border-hot/25 p-4 mb-4" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-3">The Position — Caveat Reversal</div>
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Adam Watson is making enquiries with a lawyer regarding the reversal of the caveat.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">In either case, if the matter proceeds to the Supreme Court on appeal, West Kira will need approximately <strong class="text-paper/60">$50,000 to appoint a lawyer</strong> to defend it.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">West Kira is in jail. He has no capacity to fund that defence. A man in custody facing a 28-year sentence cannot practically sustain a Supreme Court caveat challenge against a motivated applicant.</p></div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot mb-1.5">The Caveat</div>
+                            <div class="text-[0.6rem] text-paper/50 leading-relaxed">Lodged by West Kira on Adam Watson's property. $150,000 claimed for trauma damages. Discovered during the house sale transfer process.</div>
+                        </div>
+                        <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot mb-1.5">Who Filed It</div>
+                            <div class="text-[0.6rem] text-paper/50 leading-relaxed">West Kira — currently in custody. Facing 28-year gay hate crime charge + 3 years for stealing from Adam Watson + solitary confinement for prison death threat.</div>
+                        </div>
+                        <div class="border border-gold/20 p-3" style="background:rgba(201,138,16,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.15em] uppercase text-gold mb-1.5">The Problem for West Kira</div>
+                            <div class="text-[0.6rem] text-paper/50 leading-relaxed">Supreme Court defence requires ~$50,000 in legal costs. He is in jail. He cannot fund it. The caveat is unlikely to survive a formal challenge.</div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Irony callout -->
                 <div class="border border-violet/25 p-5" style="background:rgba(124,106,170,0.04)">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">The Irony — On the Record</div>
