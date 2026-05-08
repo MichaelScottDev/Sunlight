@@ -926,9 +926,13 @@
                     </div>
 
                     <!-- Internal QPS complaint — female officer -->
-                    <div class="border-l-4 border-hot/50 pl-5 mt-4" style="background:rgba(193,68,14,0.05);padding:1rem 1rem 1rem 1.25rem">
-                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Internal Complaint — Female QPS Officer · Against Marc Barrow</div>
-                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">Marc Barrow is also the subject of a complaint made against him by a female member of the Queensland Police Service. The complaint originates from within the QPS itself — not from a member of the public, but from a colleague. The nature of that complaint is known to this publication. It is consistent with the pattern of conduct documented across this section.</p>
+                    <div class="border border-hot/40 p-5 mt-4" style="background:rgba(193,68,14,0.07)">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">Internal Complaint — Female QPS Officer · Against Marc Barrow</span>
+                            <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-hot/40 text-hot/70 px-1.5 py-0.5">ON THE RECORD</span>
+                        </div>
+                        <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">A COMPLAINT HAS BEEN MADE AGAINST MARC BARROW<br><span class="text-hot">BY A FEMALE MEMBER OF THE QUEENSLAND POLICE SERVICE.</span></h4>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">Marc Barrow is the subject of a formal complaint made against him by a female member of the Queensland Police Service. This is not a complaint from a member of the public — it originates from within the QPS itself, from a colleague. The nature of that complaint is known to this publication and is consistent with the broader pattern of conduct documented across this section.</p>
                     </div>
 
                     <!-- CCC Response -->
