@@ -989,6 +989,34 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Bodie Chalmers — Meriton inside person -->
+                <div class="border border-hot/30 mt-6 mb-2 p-5" style="background:rgba(193,68,14,0.04)">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">New Incident — Corporate Infiltration · Meriton</span>
+                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/40 text-hot/70 px-1.5 py-0.5">EMPLOYEE FIRED · BLACKLISTED</span>
+                    </div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">"I KNOW WHICH ROOM YOU'RE IN.<br><span class="text-hot">I CAN GET TO YOU AND HURT YOU."</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Bodie Chalmers placed an inside person at Meriton — someone on staff who was able to access the guest room details system and look up which room Adam Watson was staying in. Armed with that information, Bodie called Adam directly to menace and harass him: <em class="text-paper/65">"I know which room number you're staying at — so I can get to you and hurt you."</em></p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Meriton was informed of what had occurred. The system logs every employee number when a staff member accesses guest room details. The staff member who had made the enquiry was identified. She was subsequently fired and blacklisted — another person whose career Bodie Chalmers has destroyed in the course of his campaign against Adam Watson.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">The Method</div>
+                            <div class="font-display text-base text-hot mb-1">INSIDE ACCESS</div>
+                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">Bodie placed a contact inside Meriton who accessed the guest management system to identify Adam Watson's room number without authorisation.</p>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">The Call</div>
+                            <div class="font-display text-base text-hot mb-1">MENACE &amp; THREAT</div>
+                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">Bodie called Adam to tell him he knew his room number and could get to him and hurt him. The disclosure of the room number was the threat.</p>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-hot mb-1">The Consequence</div>
+                            <div class="font-display text-base text-hot mb-1">FIRED · BLACKLISTED</div>
+                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">Employee number logging identified the staff member. Meriton fired and blacklisted her. Another victim of Bodie Chalmers — her career gone because of him.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Chapter D: Alex Vourliotis -->
@@ -2689,7 +2717,7 @@
                 <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/20 mt-1.5">West Kira · Chapter A2</div>
             </div>
             <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">BODIE'S ACCOMPLICE.<br><span class="text-hot">THE KID WHO BROKE THE GLASSES.</span></h3>
-            <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Adam gave him a ride. He repaid that by destroying Adam's glasses. It was recorded. That's the kind of person we're dealing with — and that's before we get to his father."</p>
+            <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Adam gave him a ride. He repaid that by destroying Adam's glasses. It was recorded. That's the kind of person we're dealing with — and that's before we get to his father, Grason Andrew Kira."</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6 mt-4">West Kira is a known associate of Bodie Chalmers. During a ride provided by Adam Watson — an act of basic human decency — West Kira deliberately broke Adam's glasses. The incident was captured on recording. It is a small act, but it is characteristic: a pattern of casual entitlement, destruction without consequence, and the assumption that proximity to power insulates you from accountability.</p>
 
             <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mb-8">
@@ -2768,24 +2796,24 @@
 
             <!-- Mick Gatto / Hit Solicitation -->
             <div class="reveal mb-6">
-                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/Screenshot_20260501_184253_Instagram.jpg" alt="West Kira's father — Kira & Kira Instagram" class="w-full border border-paper/[0.07]" loading="lazy" />
-                <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/20 mt-1.5">West Kira's Father &nbsp;·&nbsp; Kira &amp; Kira Instagram</div>
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/Screenshot_20260501_184253_Instagram.jpg" alt="Grason Andrew Kira — Kira & Kira Instagram" class="w-full border border-paper/[0.07]" loading="lazy" />
+                <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/20 mt-1.5">Grason Andrew Kira &nbsp;·&nbsp; Kira &amp; Kira Instagram</div>
             </div>
             <div>
                 <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">"ANYTHING MR. WATSON TOUCHES<br><span class="text-hot">TURNS TO STONE."</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"West Kira and his father called Mick Gatto and offered him money to put a hit out on Adam Watson. Mick Gatto told them that anything Mr. Watson touches turns to stone. He called them amateurs. Then he handed the recorded inbound call to police."</p>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"West Kira and Grason Andrew Kira called Mick Gatto and offered him money to put a hit out on Adam Watson. Mick Gatto told them that anything Mr. Watson touches turns to stone. He called them amateurs. Then he handed the recorded inbound call to police."</p>
             </div>
             </div>
-            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The call was made by West Kira and his father to Mick Gatto — an approach that combined a solicitation to murder with the offering of a sum of money. Gatto's response was unambiguous. He recorded the inbound call and provided it directly to police. West Kira and his father are now facing charges as a result of that recorded call being in police possession.</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">This is the same Mick Gatto who, at the Broadbeach disability centre confrontation, warned West Kira's father directly — in front of two corrupt QPS officers and a psychologist — not to interfere with Adam Watson. West Kira's father ignored that warning. He then compounded it by making a recorded call soliciting violence against the same person Gatto had already publicly stated was under his protection.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The call was made by West Kira and Grason Andrew Kira to Mick Gatto — an approach that combined a solicitation to murder with the offering of a sum of money. Gatto's response was unambiguous. He recorded the inbound call and provided it directly to police. West Kira and Grason Andrew Kira are now facing charges as a result of that recorded call being in police possession.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">This is the same Mick Gatto who, at the Broadbeach disability centre confrontation, warned Grason Andrew Kira directly — in front of two corrupt QPS officers and a psychologist — not to interfere with Adam Watson. Grason Andrew Kira ignored that warning. He then compounded it by making a recorded call soliciting violence against the same person Gatto had already publicly stated was under his protection.</p>
 
             <div class="border border-hot/20 p-6 mb-6" style="background:rgba(193,68,14,0.04)">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-4">Sequence of Events — The Call</div>
                 <div class="space-y-2.5">
-                    <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">The Call</span><span class="text-[0.65rem] text-paper/45">West Kira and his father call Mick Gatto and offer him a sum of money to arrange a hit on Adam Watson.</span></div>
+                    <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">The Call</span><span class="text-[0.65rem] text-paper/45">West Kira and Grason Andrew Kira call Mick Gatto and offer him a sum of money to arrange a hit on Adam Watson.</span></div>
                     <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-gold/70 w-28 shrink-0 pt-0.5">Gatto's Response</span><span class="text-[0.65rem] text-paper/45">"Anything Mr. Watson touches turns to stone." Gatto calls them amateurs and refuses.</span></div>
                     <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-gold/70 w-28 shrink-0 pt-0.5">The Recording</span><span class="text-[0.65rem] text-paper/45">Gatto's inbound call was being recorded. He provides the recording to Queensland Police.</span></div>
-                    <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Charged</span><span class="text-[0.65rem] text-paper/45">West Kira and his father are now facing charges in connection with the recorded solicitation.</span></div>
+                    <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Charged</span><span class="text-[0.65rem] text-paper/45">West Kira and Grason Andrew Kira are now facing charges in connection with the recorded solicitation.</span></div>
                 </div>
             </div>
 
@@ -2803,12 +2831,12 @@
                 <div class="border border-sage/20 p-5" style="background:rgba(61,122,74,0.03)">
                     <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-1">Mick Gatto</div>
                     <div class="font-display text-lg text-sage mb-1">COOPERATED</div>
-                    <p class="text-[0.6rem] text-paper/40 leading-relaxed">Recorded the inbound call and provided it to police. The recording is the basis for the charges now facing both West Kira and his father.</p>
+                    <p class="text-[0.6rem] text-paper/40 leading-relaxed">Recorded the inbound call and provided it to police. The recording is the basis for the charges now facing both West Kira and Grason Andrew Kira.</p>
                 </div>
             </div>
 
             <div class="border-l-4 pl-6 py-1 mb-8" style="border-color:rgba(193,68,14,0.4)">
-                <p class="text-[0.68rem] text-paper/40 leading-relaxed">West Kira's father had already been warned by Mick Gatto at the Broadbeach confrontation — in front of witnesses, on a recording that drove two QPS officers to be stood down by the Attorney General. He chose to call Gatto again anyway, this time to offer money for a murder. The charge that came from that call is not a surprise. It is a consequence.</p>
+                <p class="text-[0.68rem] text-paper/40 leading-relaxed">Grason Andrew Kira had already been warned by Mick Gatto at the Broadbeach confrontation — in front of witnesses, on a recording that drove two QPS officers to be stood down by the Attorney General. He chose to call Gatto again anyway, this time to offer money for a murder. The charge that came from that call is not a surprise. It is a consequence.</p>
             </div>
 
             <div class="evidence-vault">
@@ -3066,14 +3094,14 @@
                     </div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE FURNITURE SHOP<br><span class="text-hot">THAT MOVES MORE THAN SOFAS.</span></h3>
                     <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Kira and Kira is a Gold Coast furniture shop. On paper it is a legitimate retail business. In practice, it is alleged to be a front through which cocaine is moved — funnelled through the furniture, and distributed with Yakuza involvement."</p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">West Kira's father is the proprietor. He is wealthy. He is an associate of Mick Gatto. He allegedly arranged for associates to have a friend bashed — a friend who is connected to the supply chain running through Kira and Kira. The Yakuza are alleged to have been the instrument of that bashing.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Grason Andrew Kira is the proprietor. He is wealthy. He is an associate of Mick Gatto. He allegedly arranged for associates to have a friend bashed — a friend who is connected to the supply chain running through Kira and Kira. The Yakuza are alleged to have been the instrument of that bashing.</p>
                     <div class="border border-paper/[0.07] p-5 mb-5" style="background:rgba(193,68,14,0.03)">
                         <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">What Is Alleged</div>
                         <div class="space-y-2.5">
                             <div class="flex gap-3 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><span class="text-[0.65rem] text-paper/45">Kira &amp; Kira operates as a front for cocaine distribution through its Gold Coast premises.</span></div>
                             <div class="flex gap-3 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><span class="text-[0.65rem] text-paper/45">Narcotics are alleged to be funnelled through furniture inventory and shipments.</span></div>
                             <div class="flex gap-3 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><span class="text-[0.65rem] text-paper/45">Yakuza connections are alleged to have been engaged to bash a person linked to the distribution chain.</span></div>
-                            <div class="flex gap-3 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><span class="text-[0.65rem] text-paper/45">West Kira's father subsequently directed a three-stage campaign of intimidation against Adam Watson.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><span class="text-[0.65rem] text-paper/45">Grason Andrew Kira subsequently directed a three-stage campaign of intimidation against Adam Watson.</span></div>
                         </div>
                     </div>
                 </div>
@@ -3084,14 +3112,14 @@
                         <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">The Priceline Incident</span>
                     </div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THREATEN THE CHEMIST.<br><span class="text-gold">GET THE ADDRESS.</span></h3>
-                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"West Kira's father wanted Adam Watson's home address. He went to the Priceline pharmacy that holds Adam's prescription records. He had enough money and enough connections to have the Centre Manager stand down the security guards and threaten the chemist's lease."</p>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Grason Andrew Kira wanted Adam Watson's home address. He went to the Priceline pharmacy that holds Adam's prescription records. He had enough money and enough connections to have the Centre Manager stand down the security guards and threaten the chemist's lease."</p>
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The Centre Manager — employed by the company contracted to manage Pacific Fair — was directed to stand the guards down and then issue a threat to the pharmacy operator: provide Adam Watson's home address, or face lease termination. It did not work. The chemist's lease runs directly through Wesfarmers, Priceline's parent company. The Centre Manager had no standing to terminate it. The address was not handed over.</p>
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The consequences were swift and total. The head of Wesfarmers contacted the owner of Pacific Fair directly. The owner was appalled. He personally called Jason — the Priceline pharmacist — and apologised for what had been done to him. He then stood down the entire company that had been managing Pacific Fair. Not just the Centre Manager. The whole management company — terminated.</p>
 
                     <div class="border border-paper/[0.07] p-5 mb-5">
                         <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-4">Intimidation Sequence — The Priceline Attempt</div>
                         <div class="space-y-2.5">
-                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Step 01</span><span class="text-[0.65rem] text-paper/45">West Kira's father approaches the Priceline chemist holding Adam Watson's prescription records.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Step 01</span><span class="text-[0.65rem] text-paper/45">Grason Andrew Kira approaches the Priceline chemist holding Adam Watson's prescription records.</span></div>
                             <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Step 02</span><span class="text-[0.65rem] text-paper/45">Centre Manager is directed to stand down security guards — clearing access to the pharmacy.</span></div>
                             <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Step 03</span><span class="text-[0.65rem] text-paper/45">Centre Manager threatens the chemist: provide Adam's home address or the lease will be terminated.</span></div>
                             <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-gold/70 w-28 shrink-0 pt-0.5">Why it failed</span><span class="text-[0.65rem] text-paper/45">The chemist's lease runs to <span class="text-gold">Wesfarmers</span> — not to the building. The Centre Manager had no authority to terminate it. The threat could not be enforced.</span></div>
@@ -3126,14 +3154,14 @@
                         <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">The Confrontation</span>
                     </div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">TWO CORRUPT COPS.<br><span style="color:#7c6aaa">A PSYCHOLOGIST. A PHONE CALL.</span></h3>
-                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"When the chemist gambit failed, West Kira's father went directly to the disability centre near Broadbeach library where Adam was. He came with two police officers on his payroll — and Peter Demchenko, the father of Aaliyah, Bodie Chalmers's girlfriend. West Kira's dad dropped Mick Gatto's name — as a threat. Adam called Mick Gatto right in front of them."</p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">A psychologist was present throughout the confrontation and recorded the entire interaction. West Kira's father arrived with two Queensland Police officers who attempted to intimidate Adam Watson, alongside Peter Demchenko — the father of Aaliyah, Bodie Chalmers's girlfriend, establishing the direct connection between the Chalmers network and this intimidation campaign. The invocation of Mick Gatto's name by West Kira's father was intended to establish a threat by association. Adam Watson's response — calling Mick Gatto directly, in front of everyone present — removed any ambiguity. Mick Gatto warned them clearly: do not mess with Adam Watson.</p>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"When the chemist gambit failed, Grason Andrew Kira went directly to the disability centre near Broadbeach library where Adam was. He came with two police officers on his payroll — and Peter Demchenko, the father of Aaliyah, Bodie Chalmers's girlfriend. Grason Andrew Kira dropped Mick Gatto's name — as a threat. Adam called Mick Gatto right in front of them."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">A psychologist was present throughout the confrontation and recorded the entire interaction. Grason Andrew Kira arrived with two Queensland Police officers who attempted to intimidate Adam Watson, alongside Peter Demchenko — the father of Aaliyah, Bodie Chalmers's girlfriend, establishing the direct connection between the Chalmers network and this intimidation campaign. The invocation of Mick Gatto's name by Grason Andrew Kira was intended to establish a threat by association. Adam Watson's response — calling Mick Gatto directly, in front of everyone present — removed any ambiguity. Mick Gatto warned them clearly: do not mess with Adam Watson.</p>
 
                     <div class="border border-paper/[0.07] p-5 mb-6">
                         <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-4">Confrontation — Broadbeach Disability Centre</div>
                         <div class="space-y-2.5">
-                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Arrival</span><span class="text-[0.65rem] text-paper/45">West Kira's father and Peter Demchenko — father of Aaliyah, Bodie Chalmers's girlfriend — attend the disability centre near Broadbeach library where Adam Watson is present, accompanied by two QPS officers on payroll.</span></div>
-                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">The Threat</span><span class="text-[0.65rem] text-paper/45">West Kira's father drops Mick Gatto's name — invoking it as a warning against Adam Watson.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Arrival</span><span class="text-[0.65rem] text-paper/45">Grason Andrew Kira and Peter Demchenko — father of Aaliyah, Bodie Chalmers's girlfriend — attend the disability centre near Broadbeach library where Adam Watson is present, accompanied by two QPS officers on payroll.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">The Threat</span><span class="text-[0.65rem] text-paper/45">Grason Andrew Kira drops Mick Gatto's name — invoking it as a warning against Adam Watson.</span></div>
                             <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-gold/70 w-28 shrink-0 pt-0.5">The Call</span><span class="text-[0.65rem] text-paper/45">Adam Watson calls Mick Gatto directly — in front of all parties present. Gatto warns them: do not interfere with Adam Watson.</span></div>
                             <div class="flex gap-3 items-start"><span class="text-[0.55rem] w-28 shrink-0 pt-0.5" style="color:rgba(124,106,170,0.7)">The Recording</span><span class="text-[0.65rem] text-paper/45">A psychologist present records the entire confrontation — the officers, the threat, the phone call, and Mick Gatto's warning.</span></div>
                             <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-sage/70 w-28 shrink-0 pt-0.5">Outcome</span><span class="text-[0.65rem] text-paper/45">Attorney General Deb Frecklington stands down both officers immediately upon receiving the psychologist's recording.</span></div>
@@ -3158,7 +3186,7 @@
                         <div class="ev-header" onclick="toggleVault(this)">
                             <div class="flex items-center gap-2">
                                 <span class="text-[0.48rem] tracking-[0.22em] uppercase" style="color:#7c6aaa">📁 Evidence Files</span>
-                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Kira Sr · Disability Centre Confrontation</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Grason Andrew Kira · Disability Centre Confrontation</span>
                             </div>
                             <div class="flex items-center gap-3">
                                 <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">2 files</span>
@@ -3191,13 +3219,52 @@
                     </div>
                 </div>
 
+                <!-- Grason Andrew Kira — Commonwealth Bank incident -->
+                <div class="story-chapter reveal mt-10" style="border-left-color:rgba(193,68,14,0.5)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Grason Andrew Kira — Financial Interference · Commonwealth Bank</span>
+                        <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/20 border border-paper/10 px-2 py-0.5">Associate Fired · Blacklisted</span>
+                    </div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">USED AN ASSOCIATE INSIDE COMMONWEALTH BANK<br><span class="text-hot">TO SHUT DOWN ADAM WATSON'S ACCOUNT.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"When the intimidation campaign failed at every other front, Grason Andrew Kira went to his associate inside a Commonwealth Bank branch in Brisbane. He had that person shut down Adam Watson's bank account. The CEO was contacted. The employee was fired. She will be blacklisted from working in any finance position."</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Grason Andrew Kira ran to an associate who worked at a Commonwealth Bank branch in Brisbane — and got that person to shut down Adam Watson's Commonwealth Bank account. This is not an external fraud. This is the deliberate exploitation of a personal connection inside a financial institution to interfere with a target's banking access. It is an abuse of the bank's internal systems and a misuse of trust placed in an employee.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The matter was escalated to the Commonwealth Bank CEO. The associate — the person who carried out the account closure — was subsequently fired. She will be blacklisted from working in any financial services position. Another person whose career is gone because of Grason Andrew Kira's network and the choices he asked her to make on his behalf.</p>
+                    <div class="border border-hot/25 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-4">Sequence of Events</div>
+                        <div class="space-y-2.5">
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">The Contact</span><span class="text-[0.65rem] text-paper/45">Grason Andrew Kira approaches his associate working at a Commonwealth Bank branch in Brisbane — a personal connection inside the institution.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">The Ask</span><span class="text-[0.65rem] text-paper/45">The associate is directed to use her internal access to shut down Adam Watson's Commonwealth Bank account.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">The Act</span><span class="text-[0.65rem] text-paper/45">The account is closed — Adam Watson loses access to his Commonwealth Bank account as a direct result of Grason's intervention through a bank insider.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-gold/70 w-28 shrink-0 pt-0.5">Escalation</span><span class="text-[0.65rem] text-paper/45">The matter is escalated to the CEO of Commonwealth Bank.</span></div>
+                            <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">The Outcome</span><span class="text-[0.65rem] text-paper/45">The associate is fired. She will be blacklisted from any future finance industry position. Another victim of Grason Andrew Kira's network.</span></div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">The Institution</div>
+                            <div class="font-display text-xl text-hot mb-2">COMMONWEALTH<br>BANK</div>
+                            <p class="text-[0.62rem] text-paper/40 leading-relaxed">Brisbane branch. Associate used internal access to close Adam Watson's account without authorisation.</p>
+                        </div>
+                        <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Escalated To</div>
+                            <div class="font-display text-xl text-hot mb-2">THE CEO</div>
+                            <p class="text-[0.62rem] text-paper/40 leading-relaxed">The Commonwealth Bank CEO was contacted regarding the unauthorised account closure and the internal conduct behind it.</p>
+                        </div>
+                        <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">The Consequence</div>
+                            <div class="font-display text-xl text-hot mb-2">FIRED &amp;<br>BLACKLISTED</div>
+                            <p class="text-[0.62rem] text-paper/40 leading-relaxed">The associate was fired and will be blacklisted from working in any finance position. Her career — destroyed by choosing to do a favour for Grason Andrew Kira.</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
             <!-- SIDEBAR -->
             <div class="space-y-4">
                 <div class="sticky top-24 space-y-4">
                     <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.03)">
-                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Who Is West Kira Sr.</div>
+                        <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Who Is Grason Andrew Kira</div>
                         <div class="space-y-2.5">
                             <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40">Owner of Kira &amp; Kira — Gold Coast furniture retail.</p></div>
                             <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40">Associate of Mick Gatto — invoked his name as a threat at the Broadbeach confrontation.</p></div>
@@ -3208,7 +3275,7 @@
                     </div>
                     <div class="border border-paper/[0.07] p-5" style="background:rgba(124,106,170,0.03)">
                         <div class="text-[0.5rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Peter Demchenko</div>
-                        <p class="text-[0.62rem] text-paper/35 leading-relaxed mb-3">Father of Aaliyah — Bodie Chalmers's girlfriend. Present at the Broadbeach disability centre confrontation alongside West Kira's father and the two corrupt QPS officers. His presence establishes the direct connection between the Chalmers network and the intimidation campaign against Adam Watson.</p>
+                        <p class="text-[0.62rem] text-paper/35 leading-relaxed mb-3">Father of Aaliyah — Bodie Chalmers's girlfriend. Present at the Broadbeach disability centre confrontation alongside Grason Andrew Kira and the two corrupt QPS officers. His presence establishes the direct connection between the Chalmers network and the intimidation campaign against Adam Watson.</p>
                         <div class="border-l-2 pl-3 py-1" style="border-color:rgba(193,68,14,0.5);background:rgba(193,68,14,0.04)">
                             <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1">Update — Firebombing</div>
                             <p class="text-[0.57rem] text-paper/40 leading-relaxed">Peter Demchenko's house has since been firebombed — by other parties he has had separate ongoing disputes with. His involvement in the intimidation of Adam Watson is one strand of a broader pattern of conflict in which Demchenko is embedded.</p>
