@@ -2961,6 +2961,43 @@
                     </div>
                 </div>
 
+                <!-- Notice of Orders — Adam Watson v West Kira -->
+                <div class="border border-sage/30 mt-5 mb-5 p-5" style="background:rgba(61,122,74,0.04)">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-sage">Court Order — Local Courts of New South Wales · 3 February 2026</span>
+                        <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-sage/40 text-sage/70 px-1.5 py-0.5">JUDGMENT OBTAINED</span>
+                    </div>
+                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">ADAM WATSON v WEST KIRA.<br><span class="text-sage">CASE NO. 2025/00341907 — $10,958.00 INCLUSIVE OF COSTS.</span></h4>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">On 3 February 2026, the Local Court of New South Wales made orders in the matter of <strong class="text-paper/65">Adam Watson v West Kira</strong> (Case No. 2025/00341907). West Kira, as First Defendant, was ordered to pay Adam Watson, as First Plaintiff, the sum of <strong class="text-paper/65">$10,958.00 inclusive of costs</strong>. This is a judgment on the record from the court — separate from and in addition to the criminal charges West Kira faces.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-sage/60 mb-2">Notice of Orders — 3 February 2026</div>
+                            <div class="border border-sage/20 overflow-hidden">
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/IMG-20260508-WA0007+(1).jpg" alt="Notice of Orders Made — Adam Watson v West Kira — Local Courts NSW" class="w-full" loading="lazy" style="max-width:400px" />
+                            </div>
+                            <div class="text-[0.4rem] tracking-[0.1em] uppercase text-paper/30 mt-1.5">Local Courts of New South Wales · Case No. 2025/00341907</div>
+                        </div>
+                        <div class="space-y-3">
+                            <div class="border border-sage/20 p-3" style="background:rgba(61,122,74,0.04)">
+                                <div class="text-[0.44rem] tracking-[0.15em] uppercase text-sage mb-1.5">Case Title</div>
+                                <div class="text-[0.6rem] text-paper/55 leading-relaxed">Adam Watson v West Kira · Local Courts of New South Wales</div>
+                            </div>
+                            <div class="border border-sage/20 p-3" style="background:rgba(61,122,74,0.04)">
+                                <div class="text-[0.44rem] tracking-[0.15em] uppercase text-sage mb-1.5">Case Number</div>
+                                <div class="font-mono text-[0.62rem] text-paper/65">2025/00341907</div>
+                            </div>
+                            <div class="border border-sage/20 p-3" style="background:rgba(61,122,74,0.04)">
+                                <div class="text-[0.44rem] tracking-[0.15em] uppercase text-sage mb-1.5">Judgment</div>
+                                <div class="text-[0.6rem] text-paper/55 leading-relaxed">West Kira (First Defendant) is to pay Adam Watson (First Plaintiff) the sum of <strong class="text-paper/70">$10,958.00 inclusive of costs</strong></div>
+                            </div>
+                            <div class="border border-sage/20 p-3" style="background:rgba(61,122,74,0.04)">
+                                <div class="text-[0.44rem] tracking-[0.15em] uppercase text-sage mb-1.5">Date of Orders</div>
+                                <div class="text-[0.6rem] text-paper/55 leading-relaxed">3 February 2026 · Issued by Registrar</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Irony callout -->
                 <div class="border border-violet/25 p-5" style="background:rgba(124,106,170,0.04)">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">The Irony — On the Record</div>
