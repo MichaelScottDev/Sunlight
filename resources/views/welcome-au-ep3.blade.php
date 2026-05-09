@@ -1368,17 +1368,86 @@
 
         <!-- Chapter 4: The Invoice Hostage -->
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.4)">
-            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Exit Obstruction · Invoice #021880</span></div>
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Exit Obstruction · Invoice #021880 · Document Fraud</span></div>
             <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">$588.72 FOR WORK DONE BEFORE THEY ARRIVED.<br><span class="text-gold">USED AS THE EXIT CONDITION.</span></h3>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">As the Jadhavs attempted to exit the tenancy, Coastal Property Agents issued Tax Invoice #021880, dated 11 March 2026, for $588.72 — described as "Light Replacements." The invoice was addressed to all three tenants. The owner indicated no replacement tenants would be approved until it was settled. The Jadhavs' break lease exit was held hostage to a debt that had nothing to do with them.</p>
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6">As the Jadhavs attempted to exit the tenancy, Coastal Property Agents issued Tax Invoice #021880, dated 11 March 2026, for $588.72 — described as "Light Replacements." The invoice was addressed to all three tenants. The owner indicated no replacement tenants would be approved until it was settled. The Jadhavs' break lease exit was held hostage to a debt that had nothing to do with them.</p>
+
+            <!-- SMOKING GUN banner -->
+            <div class="reveal mb-6 px-5 py-4" style="background:rgba(193,68,14,0.12);border:1px solid rgba(193,68,14,0.45)">
+                <div class="flex items-center gap-3 mb-2">
+                    <span class="font-display text-xs tracking-[0.25em] uppercase text-hot">The Smoking Gun</span>
+                    <div class="flex-1 h-px" style="background:rgba(193,68,14,0.3)"></div>
+                </div>
+                <p class="text-[0.72rem] leading-relaxed text-paper/70">ESL Electrical Services issued its invoice on <strong class="text-paper/90">11 November 2025</strong> — before the Jadhavs signed their lease. Katherine Kidd, on behalf of Coastal Property Agents, re-presented that same $588.72 charge under a Coastal invoice dated <strong class="text-hot">11 March 2026</strong> — four months later, addressed to all three tenants — and used it as a condition of approving their exit. The underlying work had nothing to do with the Jadhavs. The underlying invoicing was not Coastal's to issue. Katherine Kidd's own email confirms the Jadhavs bore zero liability. She demanded payment anyway.</p>
+            </div>
+
+            <!-- Side-by-side invoice comparison -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6 reveal">
+
+                <!-- ESL original -->
+                <div class="flex flex-col" style="border:1px solid rgba(245,234,212,0.12)">
+                    <div class="px-4 py-3 flex items-start justify-between gap-3" style="background:rgba(0,0,0,0.25)">
+                        <div>
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-paper/40 mb-0.5">Source invoice · Third-party contractor</div>
+                            <div class="font-display text-sm tracking-wide text-paper/80">ESL Electrical Services</div>
+                            <div class="text-[0.44rem] tracking-[0.16em] uppercase text-paper/35 mt-0.5">Date issued: 11 November 2025</div>
+                        </div>
+                        <div class="shrink-0 text-right">
+                            <div class="font-display text-xl text-paper/70">$588.72</div>
+                            <div class="text-[0.4rem] tracking-[0.14em] uppercase text-paper/30">Total</div>
+                        </div>
+                    </div>
+                    <div class="flex-1" style="min-height:420px;background:#1a1410">
+                        <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bemarine/esl_invoice.pdf" class="w-full h-full" style="min-height:420px;border:none;filter:brightness(0.92)" title="ESL Electrical Services invoice — 11 November 2025 — $588.72"></iframe>
+                    </div>
+                    <div class="px-4 py-2" style="background:rgba(0,0,0,0.3)">
+                        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bemarine/esl_invoice.pdf" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/35 hover:text-paper/60 transition-colors">Open full document ↗</a>
+                    </div>
+                </div>
+
+                <!-- Coastal re-issue -->
+                <div class="flex flex-col" style="border:1px solid rgba(193,68,14,0.4)">
+                    <div class="px-4 py-3 flex items-start justify-between gap-3" style="background:rgba(193,68,14,0.1)">
+                        <div>
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-0.5">Coastal re-issue · Katherine Kidd · Used as exit condition</div>
+                            <div class="font-display text-sm tracking-wide text-paper/80">Coastal Property Agents — Invoice #021880</div>
+                            <div class="text-[0.44rem] tracking-[0.16em] uppercase text-hot/70 mt-0.5">Date on invoice: 11 March 2026 &nbsp;·&nbsp; 4 months later</div>
+                        </div>
+                        <div class="shrink-0 text-right">
+                            <div class="font-display text-xl text-hot">$588.72</div>
+                            <div class="text-[0.4rem] tracking-[0.14em] uppercase text-paper/30">Same total</div>
+                        </div>
+                    </div>
+                    <div class="flex-1" style="min-height:420px;background:#1a1410">
+                        <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bemarine/coastal_invoice.pdf" class="w-full h-full" style="min-height:420px;border:none;filter:brightness(0.92)" title="Coastal Property Agents invoice #021880 — 11 March 2026 — $588.72"></iframe>
+                    </div>
+                    <div class="px-4 py-2" style="background:rgba(193,68,14,0.08)">
+                        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bemarine/coastal_invoice.pdf" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase text-hot/50 hover:text-hot/80 transition-colors">Open full document ↗</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- What the comparison proves -->
+            <div class="border border-paper/[0.08] p-5 mb-5 reveal" style="background:rgba(0,0,0,0.18)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">What These Two Documents Prove</div>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">ESL Electrical Services performed and invoiced the work on <span class="text-paper/70">11 November 2025</span> — weeks before the Jadhavs moved in under their December 2025 lease.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Coastal Property Agents re-presented the identical $588.72 amount under its own invoice number, dated <span class="text-hot">11 March 2026</span> — four months after the original work, and squarely in the window when the Jadhavs were seeking to exit.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Katherine Kidd addressed the Coastal invoice to all three tenants — including the Jadhavs — despite confirming in writing that they bore no liability for this work.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">The owner's approval of replacement tenants was withheld until this invoice was settled. The Jadhavs' ability to exit their tenancy was conditioned on paying a charge Katherine Kidd had already absolved them of in the same email.</p></div>
+                </div>
+            </div>
+
+            <!-- Katherine Kidd's own words -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 reveal">
                 <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.04)">
-                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-gold mb-2">Katherine Kidd — 15 April 2026</div>
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-gold mb-2">Katherine Kidd — 15 April 2026 — Her own written words</div>
                     <p class="text-[0.68rem] text-paper/55 leading-relaxed italic">"This happened before you moved in and Bemarine was the one that requested the electrician, so Bemarine and previous tenant should be the ones paying this bill."</p>
+                    <div class="text-[0.42rem] tracking-[0.12em] uppercase text-paper/25 mt-3">She knew. She said so. She demanded payment anyway.</div>
                 </div>
                 <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.06)">
-                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-hot mb-2">The Same Email</div>
-                    <p class="text-[0.68rem] text-paper/50 leading-relaxed">The agency simultaneously exculpated the Jadhavs and asked whether they could arrange a payment plan for the same invoice. Both positions held in the same document. No legal basis for attributing this cost to them has ever been provided.</p>
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-hot mb-2">The same email — both positions held simultaneously</div>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed">Katherine Kidd exculpated the Jadhavs and in the same document asked whether they could arrange a payment plan for the same invoice. She then withheld exit approval pending its settlement. No legal basis for attributing this cost to them has ever been provided. This is not an administrative error. It is a documented, written, contradictory act by a licensed property manager.</p>
                 </div>
             </div>
         </div>
