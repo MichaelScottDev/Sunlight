@@ -3208,6 +3208,35 @@
                 </div>
             </div>
 
+            <!-- PSLO weekend video blog -->
+            <div class="border border-gold/25 mb-5 reveal" style="background:rgba(201,138,16,0.04)">
+                <div class="px-5 py-4 flex items-start justify-between gap-4" style="border-bottom:1px solid rgba(201,138,16,0.2)">
+                    <div>
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-1">Video Blog · Posted 17 November 2024 · PSLO Team · Gold Coast</div>
+                        <div class="font-display text-sm tracking-wide text-paper/85">The PSLO team — on the weekend — checking a person's belongings under a bridge</div>
+                        <div class="text-[0.44rem] tracking-[0.16em] uppercase text-paper/35 mt-1.5">Timestamp 3:46 — the team appears · These are the same people I believe stole my tent</div>
+                    </div>
+                    <div class="shrink-0 text-right">
+                        <div class="text-[0.48rem] tracking-[0.14em] uppercase text-gold/50">17/11/24</div>
+                    </div>
+                </div>
+                <div class="px-5 pt-5 pb-3">
+                    <div class="ev-file ef-gold mb-4" onclick="openMV('video-pslo-weekend')">
+                        <div class="ev-icon ev-video">▶</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">weekend_tent_theft.mp4 — PSLO Team · Bridge · 17 November 2024</div>
+                            <div class="ev-desc">Video blog · Posted 17 Nov 2024 · PSLO team visible at 3m 46s — checking through a person's belongings under a bridge</div>
+                        </div>
+                        <span class="ev-cta">Watch →</span>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/65">At 3 minutes 46 seconds:</strong> the PSLO team can be seen attending a person's belongings under a bridge — going through the possessions of someone not present. This is the same conduct applied to Kosta's campsite: turning up when the person isn't there and treating what they left behind as abandoned.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/65">Who is the PSLO team?</strong> The Public Space Liaison Officers (PSLOs) are Gold Coast Council rangers operating under the Homeless Action Plan — the same team documented placing "Abandoned Property" stickers on Kosta's tent in December 2023 and January 2024. They operate as the Council's frontline enforcement arm against rough sleepers under Mayor Tom Tate.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/65">The weekend visit:</strong> this footage was captured on a weekend — outside standard Council operational hours. It illustrates that the PSLO team's activity was not a standard patrol. Attending someone's campsite or shelter when they are not present, on a weekend, to inspect their belongings, is not outreach. Kosta believes these are the same officers who took his tent when he wasn't there.</p></div>
+                    </div>
+                </div>
+            </div>
+
             <!-- Japanese tourist / bike incident -->
             <div class="border border-paper/[0.07] p-5 mb-5" style="background:rgba(0,0,0,0.14)">
                 <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">The Japanese Tourist — "I'm Going to Call and See If That Bike Was Stolen"</div>
@@ -4172,6 +4201,15 @@ var EVIDENCE = {
         desc:'Email correspondence with Rob McDonald, who was overseeing the PSLO rangers responsible for placing "Abandoned Property" stickers on Kosta Kondratenko\'s tent between December 2023 and January 2024. The tent was located out of sight, away from any public road, and was not abandoned — it was in active use. Rob McDonald was notified of these issues in writing. This file is 72MB due to the volume of correspondence and attachments.',
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/rob_mcdonald_email.pdf',
         filename:'rob_mcdonald_email.pdf'
+    },
+    'video-pslo-weekend': {
+        type:'video',
+        title:'VIDEO BLOG — PSLO TEAM CHECKING BELONGINGS UNDER A BRIDGE',
+        tag:'PSLO Team · Gold Coast · Weekend · 17 November 2024',
+        meta:'Video blog · Posted 17 November 2024 · PSLO team visible at 3m 46s · Belongings checked under bridge',
+        desc:'Video blog posted 17 November 2024. At 3 minutes 46 seconds, the PSLO team — the Gold Coast Council\'s Public Space Liaison Officers — can be seen attending a person\'s belongings under a bridge, going through their possessions when the person is not present. This is the same team documented placing "Abandoned Property" stickers on Kosta Kondratenko\'s tent between December 2023 and January 2024 — and the same team Kosta believes stole his tent on occasions when he was away from the campsite. The footage was captured on a weekend, outside normal Council operational hours. The PSLO team operates under the Gold Coast Homeless Action Plan, reporting ultimately to Mayor Tom Tate, and functions as the Council\'s primary enforcement mechanism against rough sleepers. Rob McDonald — whose email correspondence is documented separately — was overseeing the rangers responsible for the tent sticker operations.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/weekend_tent_theft.mp4',
+        filename:'weekend_tent_theft.mp4'
     },
     'pdf-lauren-forbes-email': {
         type:'pdf',
