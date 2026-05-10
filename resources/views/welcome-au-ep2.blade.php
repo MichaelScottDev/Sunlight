@@ -3026,6 +3026,38 @@
                     </div>
                 </div>
 
+                <!-- Lottery / email intercept incident -->
+                <div class="border-l-4 border-hot/50 pl-5 mt-6 mb-6" style="background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">New Incident</span>
+                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-gold/40 text-gold px-1.5 py-0.5">⬤ IN RECOVERY</span>
+                    </div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">$200,000 LOTTERY WIN.<br><span class="text-hot">BODIE INTERCEPTED THE EMAIL. GAVE AWAY THE BANK DETAILS.</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Adam Watson won $200,000 through Adrian Portelli's lottery. A notification email was sent requesting his bank deposit details so the winnings could be transferred. Bodie Chalmers — who had obtained access to Adam Watson's emails — intercepted that email and replied to it himself, providing his own bank deposit details in Adam's name. The $200,000 was directed to Bodie Chalmers's account.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-4">
+                        <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-1">The Win</div>
+                            <div class="font-display text-2xl text-gold mb-1">$200,000</div>
+                            <p class="text-[0.55rem] text-paper/38 leading-relaxed">Adam Watson gambling on Adrian Portelli's lottery. Legitimate win. Notification sent to his email account.</p>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-1">The Intercept</div>
+                            <div class="font-display text-base text-hot mb-1">Email Access</div>
+                            <p class="text-[0.55rem] text-paper/38 leading-relaxed">Bodie had gained access to Adam Watson's email account. He saw the lottery notification, replied to it with his own bank deposit details, and redirected the transfer.</p>
+                        </div>
+                        <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.18)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-paper/30 mb-1">Status</div>
+                            <div class="font-display text-base text-paper/60 mb-1">In Recovery</div>
+                            <p class="text-[0.55rem] text-paper/38 leading-relaxed">The $200,000 is currently in recovery. The intercept adds to the fraud charges Bodie Chalmers is already facing.</p>
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed"><strong class="text-paper/58">The access:</strong> Bodie Chalmers obtained access to Adam Watson's email account. The mechanism by which he did so is consistent with the broader pattern of covert surveillance documented across this chapter — Apple location access obtained without knowledge, tracking device on the fuel cap, and now email account access.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed"><strong class="text-paper/58">The reply:</strong> Rather than alert Adam Watson to the lottery notification, Bodie replied directly to the sender — impersonating Adam — and submitted his own bank deposit details. The transfer proceeded on the basis of those details.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed"><strong class="text-paper/58">Recovery underway:</strong> The $200,000 is currently being recovered. This incident is part of the broader fraud charges Bodie Chalmers faces — he is already looking at 3 years for defrauding Adam Watson across the pattern of conduct documented in this chapter.</p></div>
+                    </div>
+                </div>
+
                 <!-- Irony callout -->
                 <div class="border border-violet/25 p-5" style="background:rgba(124,106,170,0.04)">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">The Irony — On the Record</div>
@@ -3254,6 +3286,24 @@
                             <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">The Consequence</div>
                             <div class="font-display text-xl text-hot mb-2">FIRED &amp;<br>BLACKLISTED</div>
                             <p class="text-[0.62rem] text-paper/40 leading-relaxed">The associate was fired and will be blacklisted from working in any finance position. Her career — destroyed by choosing to do a favour for Grason Andrew Kira.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ATO Update -->
+                <div class="story-chapter reveal mt-10" style="border-left-color:rgba(201,138,16,0.5)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Update — Australian Taxation Office</span>
+                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-gold/25 text-gold/60 px-1.5 py-0.5">⬤ Active Investigation</span>
+                    </div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">KIRA'S DAD HAS BEEN CHARGED.<br><span class="text-gold">THE ATO IS NOW GOING THROUGH THE BOOKS OF KIRA & KIRA.</span></h3>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Following the charging of Kira's father, the Australian Taxation Office has opened an investigation into the records of Kira & Kira. A charge against a principal of a business alleged to be operating as a front for cocaine distribution does not stay contained — it opens the financial records of the entire operation to regulatory scrutiny. The ATO is now going through those books.</p>
+                    <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.04)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">Why This Matters</div>
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">A front operation that moves cocaine through furniture transactions will have financial records that do not match a legitimate retail business. Cash flows, invoice patterns, and declared income will be scrutinised against the alleged volume of drug movement.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">The ATO's access to business records is broad — tax obligations, GST, undeclared income, and unexplained cash are all within scope. A charge against a principal provides the trigger for a full examination of the entity's finances.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">This investigation is independent of the criminal charges — it runs on a separate track and can produce its own findings, penalties, and referrals regardless of the outcome of the criminal matter.</p></div>
                         </div>
                     </div>
                 </div>

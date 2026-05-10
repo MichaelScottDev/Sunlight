@@ -3573,8 +3573,24 @@ document.querySelectorAll('.reveal').forEach(function (el) { obs.observe(el); })
             <p class="font-serif italic text-paper/65 leading-relaxed" style="font-size:clamp(1rem,2vw,1.15rem)">"Adam Watson walked into my life at a moment when I had very little — and proceeded to show me more about how Australia actually works than a decade of conventional observation ever could."</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45">Thank you for representing me at court — for standing in a room with me and knowing exactly what to say, when to say it, and how to say it in a way that the system understood. You taught me how to navigate the courts and how to win — not through aggression, but through precision, preparation, and an understanding of process that most people never acquire.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45">Taking down a criminal syndicate with you — navigating the connections between organised crime, institutional failure, and the justice system — has been the most enlightening thing I have ever done. I look forward to our next adventure.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45">And thank you for offering me the opportunity to work on the Hancock Prospecting website — for bringing me into that world and trusting me with it. That was an act of generosity I will not forget.</p>
             <div class="flex items-center gap-3 mt-2"><div class="w-6 h-px bg-sage/40"></div><span class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/25">Kosta Kondratenko — Sunlight.Quest</span></div>
         </div>
+
+        <!-- Gina Rinehart -->
+        <div class="mt-8 border border-gold/20 p-6" style="background:rgba(201,138,16,0.04)">
+            <div class="flex items-start gap-5">
+                <div class="shrink-0">
+                    <div class="font-display text-3xl text-gold leading-none">$450</div>
+                    <div class="text-[0.44rem] tracking-[0.14em] uppercase text-gold/50 mt-0.5">Personal gift</div>
+                </div>
+                <div>
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">Thank You — Gina Rinehart</div>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed">When Gina Rinehart heard of my situation, she arranged a $450 payment. It arrived at a moment when I needed it. I am grateful for the gesture — it was not nothing, and it was not overlooked. Thank you, Gina.</p>
+                </div>
+            </div>
+        </div>
+
         <div class="clear-both mt-12 pt-8 border-t border-paper/[0.06]">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="border border-sage/20 p-6" style="background:rgba(61,122,74,0.03)">
