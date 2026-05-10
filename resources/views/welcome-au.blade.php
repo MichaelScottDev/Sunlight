@@ -2023,11 +2023,86 @@
                 </div>
             </div>
 
+            <!-- Email to Registrar — the document placed before the Judge -->
+            <div class="border border-hot/30 mb-6" style="background:rgba(193,68,14,0.05)">
+                <div class="px-5 py-4 flex items-start justify-between gap-4" style="border-bottom:1px solid rgba(193,68,14,0.2)">
+                    <div>
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-1">Email to Registrar · 17 October 2025 · D236/24 · The document placed before the Judge</div>
+                        <div class="font-display text-sm tracking-wide text-paper/80">Kondratenko → District Court Registry, Southport</div>
+                        <div class="text-[0.44rem] tracking-[0.16em] uppercase text-paper/35 mt-0.5">cc: dpp.southport@justice.qld.gov.au · adam@adamwatson.au · Attachments: both certificates</div>
+                    </div>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/contravene_move_on/email_both_copies_judge.pdf" target="_blank" rel="noopener" class="shrink-0 text-[0.44rem] tracking-[0.14em] uppercase text-hot/60 hover:text-hot transition-colors whitespace-nowrap">Open ↗</a>
+                </div>
+                <div style="min-height:500px;background:#111">
+                    <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/contravene_move_on/email_both_copies_judge.pdf" class="w-full" style="min-height:500px;height:500px;border:none;filter:brightness(0.93)" title="Email to District Court Registrar — 17 October 2025 — both certificates attached"></iframe>
+                </div>
+                <div class="px-5 py-3 text-[0.58rem] leading-relaxed text-paper/40" style="border-top:1px solid rgba(193,68,14,0.15)">
+                    Kosta wrote to the Registrar on 17 October 2025 — copied to the DPP and Adam Watson — explicitly requesting that <em>both</em> versions of the Certificate of Readiness be placed before the Judge. Both certificates were attached. On 23 October the Judge requested electronic copies. The Judge saw both documents. What followed at the 30 October mention is documented below.
+                </div>
+            </div>
+
+            <!-- Both certificates side by side -->
+            <div class="mb-3 reveal">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/25 mb-3">The Two Attachments — What the Judge Was Shown</div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-2">
+
+                    <!-- DPP's version -->
+                    <div class="flex flex-col" style="border:1px solid rgba(193,68,14,0.35)">
+                        <div class="px-4 py-3" style="background:rgba(193,68,14,0.1)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-0.5">DPP's version — Karyn Land</div>
+                            <div class="font-display text-sm tracking-wide text-paper/80">Certificate of Readiness — Respondent's Filing</div>
+                            <div class="mt-2 space-y-1">
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0">→</span><p class="text-[0.55rem] text-paper/50">Scope: procedural fairness only</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0">→</span><p class="text-[0.55rem] text-paper/50">No new evidence · No witnesses · No cross-examination</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0">→</span><p class="text-[0.55rem] text-paper/50">Estimated time: <strong class="text-paper/70">30 minutes</strong></p></div>
+                            </div>
+                        </div>
+                        <div style="flex:1;min-height:460px;background:#0e0b08">
+                            <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/contravene_move_on/certificate_of_readiness_dpp_version.pdf" class="w-full" style="min-height:460px;height:460px;border:none;filter:brightness(0.92)" title="DPP Certificate of Readiness — Karyn Land — 30 minutes — procedural fairness only"></iframe>
+                        </div>
+                        <div class="px-4 py-2" style="background:rgba(193,68,14,0.08)">
+                            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/contravene_move_on/certificate_of_readiness_dpp_version.pdf" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase text-hot/50 hover:text-hot/80 transition-colors">Open full document ↗</a>
+                        </div>
+                    </div>
+
+                    <!-- Kosta's version with DPP alterations -->
+                    <div class="flex flex-col" style="border:1px solid rgba(245,234,212,0.12)">
+                        <div class="px-4 py-3" style="background:rgba(0,0,0,0.22)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-paper/40 mb-0.5">Kosta's version — returned with DPP alterations crossed through</div>
+                            <div class="font-display text-sm tracking-wide text-paper/80">Certificate of Readiness — Appellant's Filing</div>
+                            <div class="mt-2 space-y-1">
+                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0">✓</span><p class="text-[0.55rem] text-paper/50">Scope: conviction + evidence + admissibility of BWC &amp; Coles CCTV</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0">✓</span><p class="text-[0.55rem] text-paper/50">Coles employee subpoenaed · cross-examination preserved</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0">✓</span><p class="text-[0.55rem] text-paper/50">Estimated time: <strong class="text-paper/70">4 hours (half day)</strong> — DPP crossed this out</p></div>
+                            </div>
+                        </div>
+                        <div style="flex:1;min-height:460px;background:#0e0b08">
+                            <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/contravene_move_on/certificate_of_readiness_alteration.pdf" class="w-full" style="min-height:460px;height:460px;border:none;filter:brightness(0.92)" title="Kosta's Certificate of Readiness — returned with DPP handwritten alterations"></iframe>
+                        </div>
+                        <div class="px-4 py-2" style="background:rgba(0,0,0,0.3)">
+                            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/contravene_move_on/certificate_of_readiness_alteration.pdf" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/35 hover:text-paper/60 transition-colors">Open full document ↗</a>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-[0.58rem] leading-relaxed text-paper/35 mt-1">The DPP's handwritten crosses through Kosta's substantive sections — the conviction ground, the evidence, the witness — are visible in the right-hand document. The registry refused to file it in its altered state. Kosta's request that the Judge see both versions meant these two documents were placed on the judicial record.</p>
+            </div>
+
+            <!-- Judicial signal — Karyn Land -->
+            <div class="border border-hot/25 p-5 mb-5 reveal" style="background:rgba(193,68,14,0.06)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">The Judicial Signal · 30 October 2025 · Courtroom 17 · His Honour Judge Rowan Jackson KC → Karyn Land</div>
+                <div class="border-l-4 border-hot/60 pl-4 mb-4" style="background:rgba(193,68,14,0.04);padding:0.85rem 0.85rem 0.85rem 1rem">
+                    <p class="text-[0.72rem] text-paper/70 leading-relaxed italic">"Based on the small penalty if convicted and the cost to the state, perhaps you could reconsider pursuing this."</p>
+                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 mt-2">— His Honour Judge Rowan Jackson KC · addressed directly to Karyn Land, DPP Southport · 30 October 2025</div>
+                </div>
+                <p class="text-[0.65rem] leading-relaxed text-paper/45 mb-3">The Judge had the full paper trail in front of him: Kosta's email to the Registrar, both competing certificates, and the DPP's handwritten alterations to a self-represented party's signed document. He addressed Karyn Land directly from the bench. The signal was unambiguous. The cost to the state against the penalty available made the prosecution disproportionate. He was not ordering discontinuance — he was giving the prosecutor the opportunity to make the right call.</p>
+                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Karyn Land pursued it anyway.</strong> The matter was remitted to the Magistrates Court. No mention was made of the District Court proceedings, the remittal order, or the Judge's bench comment when it was re-listed. The Magistrate proceeded as if the matter was fresh. It was Adam Watson — attending in person — who carried the judicial record into the lower court. Once the District Court history was before the Magistrate, the prosecution dropped the charge. The conviction was not reimposed.</p></div>
+            </div>
+
             <!-- Information gap -->
             <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.03)">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">The Information Gap — When It Was Remitted</div>
-                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">At the 30 October mention, the Judge reviewed the full paper trail — including the DPP's alterations and both competing versions. Addressing prosecutor Karyn Land directly, the Judge remarked that given the likely penalty and the cost to the state, the matter may not be worth pursuing. The matter was remitted back to the Magistrates Court.</p>
-                <p class="text-[0.68rem] text-paper/45 leading-relaxed">When the matter was re-listed in the Magistrates Court, no mention was made of the District Court proceedings, the remittal order, or the Judge's bench comment about proportionality. The Magistrate proceeded as if the matter was fresh. It was Adam Watson — attending with Kosta — who raised the District Court Judge's comment. Once that judicial record was introduced, the prosecution dropped the charge. The conviction was not reimposed. A District Court Judge's direction had to be carried into the lower court by the defendant himself.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A District Court Judge's direct bench comment to the prosecutor — "perhaps you could reconsider pursuing this" — did not travel with the remitted matter. The Magistrate who re-listed it had no record of the appeal, the competing certificates, the DPP's document alterations, or the Judge's remark about proportionality. The matter was procedurally invisible to the court it had been returned to.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">It was Adam Watson who raised the District Court Judge's comment before the Magistrate. Once that appellate history was placed on the record, the prosecution dropped the charge. The conviction was not reimposed. A judicial direction that should have transferred automatically had to be carried into the lower court by the defendant's own counsel.</p>
             </div>
 
             <div class="border-l-4 border-hot/50 pl-5 mb-5" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
