@@ -961,6 +961,64 @@
                         </div>
                     </div>
 
+                    <!-- Public Nuisance Notice to Appear — 22 June 2024 — DISPUTED VIOLENT CLASSIFICATION -->
+                    <div class="border border-hot/35 mb-6 reveal" style="background:rgba(193,68,14,0.05)">
+                        <div class="px-5 py-4 flex items-start justify-between gap-4" style="border-bottom:1px solid rgba(193,68,14,0.2)">
+                            <div>
+                                <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-1">Notice to Appear · Queensland Police Service · 22 June 2024</div>
+                                <div class="font-display text-sm tracking-wide text-paper/85">Public Nuisance — <span class="text-hot">Violent</span> <span class="text-paper/40 text-xs font-sans font-normal tracking-normal">(classification disputed)</span></div>
+                                <div class="flex flex-wrap gap-4 mt-2">
+                                    <div>
+                                        <div class="text-[0.4rem] tracking-[0.16em] uppercase text-paper/30">Notice No.</div>
+                                        <div class="font-mono text-[0.65rem] text-paper/70 font-semibold tracking-wider">3729238</div>
+                                    </div>
+                                    <div>
+                                        <div class="text-[0.4rem] tracking-[0.16em] uppercase text-paper/30">Occurrence No.</div>
+                                        <div class="font-mono text-[0.65rem] text-paper/70 font-semibold tracking-wider">QP2401059175</div>
+                                    </div>
+                                    <div>
+                                        <div class="text-[0.4rem] tracking-[0.16em] uppercase text-paper/30">Issuing Officer</div>
+                                        <div class="font-mono text-[0.65rem] text-paper/70 font-semibold tracking-wider">Constable B. Bruce · Reg. 39893 · Southport</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/Screenshot_20260506_113047_Photos.jpg" target="_blank" rel="noopener" class="shrink-0 text-[0.44rem] tracking-[0.14em] uppercase text-hot/60 hover:text-hot transition-colors whitespace-nowrap">Open ↗</a>
+                        </div>
+
+                        <!-- Ticket image -->
+                        <div class="p-4" style="background:rgba(0,0,0,0.2)">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/Screenshot_20260506_113047_Photos.jpg" alt="Public Nuisance Notice to Appear — Notice No. 3729238 — Occurrence QP2401059175 — 22 June 2024 — Southport" class="w-full max-w-lg mx-auto block border border-paper/[0.08]" loading="lazy" />
+                        </div>
+
+                        <!-- Dispute + verification -->
+                        <div class="px-5 py-4 space-y-3" style="border-top:1px solid rgba(193,68,14,0.15)">
+                            <div class="border-l-4 border-hot/60 pl-4 py-2" style="background:rgba(193,68,14,0.06)">
+                                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-1">Formal Dispute — "Violent" Classification</div>
+                                <p class="text-[0.65rem] text-paper/60 leading-relaxed">The charge is recorded as <strong class="text-paper/80">Public Nuisance – Violent</strong>. <strong class="text-paper/80">This classification is disputed.</strong> The incident at Hinze &amp; Scarborough Street, Southport on 22 June 2024 at 1640hrs did not involve violence. The "violent" designation affects the character of the charge and the potential consequences. Kosta Kondratenko disputes both the nature of the conduct and the application of the violent modifier.</p>
+                            </div>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.15)">
+                                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">Incident Details — For the Record</div>
+                                    <div class="space-y-1.5">
+                                        <div class="flex gap-2 items-start"><span class="text-paper/30 text-xs shrink-0">·</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Date: 22 June 2024 · Time: 1640hrs</p></div>
+                                        <div class="flex gap-2 items-start"><span class="text-paper/30 text-xs shrink-0">·</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Location: Hinze &amp; Scarborough St, Southport QLD 4215</p></div>
+                                        <div class="flex gap-2 items-start"><span class="text-paper/30 text-xs shrink-0">·</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Court: Southport Magistrates Court · 15 July 2024 · 8:30am</p></div>
+                                        <div class="flex gap-2 items-start"><span class="text-paper/30 text-xs shrink-0">·</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Notice served personally at 1720hrs same day</p></div>
+                                    </div>
+                                </div>
+                                <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.04)">
+                                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-2">QLD Police — Verification Reference</div>
+                                    <p class="text-[0.58rem] text-paper/45 leading-relaxed mb-2">Queensland Police Service can verify this notice using the reference numbers above:</p>
+                                    <div class="space-y-1">
+                                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0">→</span><p class="text-[0.58rem] text-paper/55 leading-relaxed font-mono">Notice No. <strong>3729238</strong></p></div>
+                                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0">→</span><p class="text-[0.58rem] text-paper/55 leading-relaxed font-mono">Occurrence <strong>QP2401059175</strong></p></div>
+                                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Issuing: Cst B. Bruce · Reg. 39893 · Southport Station</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Marc Barrow Evidence Vault -->
                     <div class="evidence-vault mt-6">
                         <div class="ev-header" onclick="toggleVault(this)">
@@ -969,7 +1027,7 @@
                                 <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Marc Barrow · CCC · Charge Sheet · Unlawful Eviction</span>
                             </div>
                             <div class="flex items-center gap-3">
-                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">5 files</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">6 files</span>
                                 <span class="ev-toggle">▼</span>
                             </div>
                         </div>
@@ -991,6 +1049,16 @@
                                     <div class="ev-desc">PDF · Crime and Corruption Commission · "Most serious and systemic cases only" · Matter referred back to QPS · Institutional failure documented</div>
                                 </div>
                                 <span class="ev-cta">View →</span>
+                            </div>
+                            <!-- Public Nuisance Notice to Appear — 22 June 2024 — violent classification disputed -->
+                            <div class="ev-file ef-hot" onclick="openMV('image-public-nuisance-nta')">
+                                <div class="ev-icon ev-img">📷</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">Screenshot_20260506_113047_Photos.jpg — Notice to Appear · No. 3729238 · Occ. QP2401059175</div>
+                                    <div class="ev-desc">Image · Public Nuisance – Violent · 22 Jun 2024 · Hinze &amp; Scarborough St, Southport · Cst B. Bruce Reg. 39893 · <strong>Violent classification disputed</strong></div>
+                                </div>
+                                <span class="redact-tag" style="color:#c1440e;border-color:rgba(193,68,14,0.4)">⚠ Disputed</span>
+                                <span class="ev-cta ml-2">View →</span>
                             </div>
                             <!-- Public Nuisance charge -->
                             <div class="ev-file ef-hot" onclick="openMV('pdf-public-nuisance-charge')">
@@ -4058,6 +4126,15 @@ var EVIDENCE = {
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/crime_commission_marc_barrow.pdf',
         filename:'crime_commission_marc_barrow.pdf',
         desc:'The Crime and Corruption Commission\'s response to the report filed about Marc Barrow\'s conduct. The CCC states they deal only with the most serious and systemic cases of corruption, and refers the matter back to the Queensland Police Service. This response was given despite the CCC having access to: a charge issued before the notice deadline expired; a property deliberately misclassified as a hostel in official documents; property removed without a warrant of possession; documented retaliation against a third party; and a sworn officer communicating that he would ignore the murder of a named person. The oversight body responsible for holding police accountable reviewed this material and sent it back to the institution it concerned. That is not oversight. That is institutional protection.'
+    },
+    'image-public-nuisance-nta': {
+        type:'image',
+        title:'NOTICE TO APPEAR — PUBLIC NUISANCE – VIOLENT (DISPUTED) — NO. 3729238',
+        tag:'Public Nuisance · Notice 3729238 · Occurrence QP2401059175 · Violent Classification Disputed · 22 June 2024',
+        meta:'Image · Queensland Police Service Notice to Appear · Cst B. Bruce Reg. 39893 · Southport · Served 22 Jun 2024',
+        desc:'Queensland Police Service Notice to Appear (PPRA 2000 s.382) issued 22 June 2024. Notice No. 3729238 · Occurrence No. QP2401059175. Offence: Public Nuisance – Violent. Offence time: 1640hrs. Location: Hinze & Scarborough St, Southport QLD 4215. Court date: 15 July 2024 at 8:30am, Southport Magistrates Court. Served personally at 1720hrs by Constable B. Bruce, Reg. No. 39893, Southport Station. THE "VIOLENT" CLASSIFICATION IS DISPUTED. The incident did not involve violence. The violent modifier materially changes the character of the charge and its consequences. Queensland Police Service can verify this matter using Notice No. 3729238 and Occurrence No. QP2401059175.',
+        src:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/Screenshot_20260506_113047_Photos.jpg',
+        filename:'Screenshot_20260506_113047_Photos.jpg'
     },
     'pdf-public-nuisance-charge': {
         type:'pdf',
