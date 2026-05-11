@@ -104,16 +104,8 @@
         <span class="hidden sm:block text-[0.52rem] tracking-[0.2em] uppercase text-paper/20 border-l border-paper/10 pl-4">Investigative Vlog Series</span>
     </div>
     <div class="flex items-center gap-3">
-        <div class="nav-dropdown hidden md:block">
-            <button class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-paper/30 px-3 py-1.5">Episodes ▾</button>
-            <div class="nav-dropdown-menu">
-                <span class="nav-group-label">All Episodes</span>
-                <a href="/" class="nav-accent-hot">← Episode 1 — The Beginning</a>
-                <a href="/episode-2" class="nav-accent-violet">← Episode 2 — The Network</a>
-                <a href="/episode-3" class="nav-accent-gold">← Episode 3 — The Compliance Machine</a>
-                <a href="/episode-4" class="nav-accent-sage" style="color:#3d7a4a">⬤ Episode 4 — The Accountant</a>
-            </div>
-        </div>
+        <a href="#sms" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors">Subscribe</a>
+        <a href="/episode-3" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-gold/50 px-3 py-1.5 transition-all">← Episode 3</a>
         <span class="text-[0.52rem] tracking-[0.18em] uppercase border px-3 py-1.5 blink" style="border-color:rgba(61,122,74,0.6);color:#3d7a4a">⬤ EP.04</span>
     </div>
 </nav>
