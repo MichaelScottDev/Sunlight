@@ -1862,6 +1862,82 @@
             </div>
         </div>
 
+        <!-- Irish Whiskey Peace Offering -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.5)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1 text-gold border-gold/40">New Incident — Peace Offering · Tent · Broadbeach</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">A CAN OF IRISH WHISKEY OUTSIDE THE TENT.<br><span class="text-gold">ADAM WARNED IT MAY BE POISONED.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">After the documented incidents involving the tent — the false denial on camera, the complaint about its location to Adam while claiming not to know where it was — Martin left a can of Irish Whiskey outside the tent. A peace offering, apparently. The can was consumed.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Adam Watson's response was direct: the drink may have been poisoned. That warning was noted. Whether Martin intended goodwill or something else is something only Martin knows. What is documented is the sequence: the confrontation, the denial caught on film, and then — a drink left outside the tent of the person he had just been caught lying to.</p>
+
+            <!-- Photo -->
+            <div class="mb-5 reveal" onclick="openMV('image-martin-whiskey')" style="cursor:pointer">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/irish_whiskey.jpg"
+                     alt="Irish Whiskey can — left outside tent by Martin"
+                     class="w-full object-cover border border-paper/[0.07]"
+                     style="max-height:400px;object-fit:contain;background:#0d0d0d"
+                     loading="lazy" />
+                <div class="text-[0.44rem] tracking-[0.12em] uppercase text-paper/20 mt-1.5 flex items-center gap-2">
+                    <span>Irish Whiskey · Left outside tent · Martin's peace offering</span>
+                    <span class="text-paper/15">· tap to enlarge</span>
+                </div>
+            </div>
+
+            <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-3">Context</div>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                    <div class="border border-gold/15 p-3" style="background:rgba(201,138,16,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-gold/55 mb-1">Before</div>
+                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">Confrontation filmed. Martin denied knowing where the tent was — while having previously complained about its exact location.</p>
+                    </div>
+                    <div class="border border-gold/15 p-3" style="background:rgba(201,138,16,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-gold/55 mb-1">The Offering</div>
+                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">A can of Irish Whiskey left outside the tent. No note. No explanation. Consumed.</p>
+                    </div>
+                    <div class="border border-gold/15 p-3" style="background:rgba(201,138,16,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-gold/55 mb-1">Adam's Warning</div>
+                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">Adam Watson warned that the drink may have been poisoned. The warning was taken seriously.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stalking — Car at Disability Centre -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Escalation — Broadbeach Library · Disability Centre · Stalker Behaviour</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">KNOCKING ON ADAM'S CAR WINDOW WHILE HE SLEPT.<br><span class="text-hot">THREATENING TO REPORT HIM TO THE DISABILITY CENTRE.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam Watson was sleeping in his car outside the disability centre at Broadbeach library. Martin located the car, approached, and knocked on Adam's window. His message: he was going to tell the disability centre that Adam was sleeping in his car outside.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">There is a word for locating someone's vehicle, approaching it while they sleep, and presenting a threat. That word is stalking. Martin found out where Adam's car was parked. He went there. He knocked on the window of a sleeping person. He delivered a warning. This is no longer someone who misrepresents situations or inserts himself uninvited into conversations. This is someone who tracks a person's location and shows up there to issue threats.</p>
+
+            <div class="border border-hot/25 p-5 mb-5" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">The Incident — Documented</div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">Location</div>
+                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Broadbeach Library disability centre — Adam Watson sleeping in his car outside.</p>
+                    </div>
+                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">Martin's Action</div>
+                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Located the vehicle. Approached. Knocked on the window while Adam was asleep. Delivered a threat.</p>
+                    </div>
+                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">The Threat</div>
+                        <p class="text-[0.6rem] text-paper/55 leading-relaxed italic">"I'm going to tell the disability centre that you're sleeping in your car outside."</p>
+                    </div>
+                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">What This Is</div>
+                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Not a coincidence. Not a chance encounter. Martin knew where Adam's car was, went there, and used that knowledge as leverage.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pattern escalation callout -->
+            <div class="border-l-4 border-hot/60 pl-5" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">This Is Now Stalker Behaviour</div>
+                <p class="text-[0.65rem] text-paper/50 leading-relaxed mb-2">The pattern has moved past insertion and misrepresentation. Attending someone's sleeping vehicle — having tracked their location — to issue a threat is the behaviour of a stalker. The disability centre angle was chosen because it might cause harm. The target was chosen because he was asleep and alone.</p>
+                <p class="text-[0.65rem] text-paper/50 leading-relaxed">This is escalation. Each step has been documented: the laundry request denied, the tent accusation and filmed denial, the third-party phone call, the whiskey left outside, and now this. The trajectory is not ambiguous.</p>
+            </div>
+        </div>
+
         <!-- Conclusion -->
         <div class="reveal mb-6 p-6 md:p-8" style="background:rgba(124,106,170,0.07);border:1px solid rgba(124,106,170,0.2)">
             <div class="text-[0.5rem] tracking-[0.22em] uppercase mb-4" style="color:#7c6aaa">Conclusion</div>
@@ -1904,6 +1980,14 @@ document.querySelectorAll('.reveal').forEach(function(el) { obs.observe(el); });
 
 // ── MEDIA VIEWER ──
 var EVIDENCE = {
+    'image-martin-whiskey': {
+        type: 'image',
+        title: 'IRISH WHISKEY — LEFT OUTSIDE TENT',
+        tag: 'Martin · Peace Offering · Broadbeach',
+        meta: 'Photo · Broadbeach Gold Coast · After filmed confrontation',
+        desc: 'A can of Irish Whiskey left outside the tent by Martin — following the filmed confrontation in which he denied knowing the tent\'s location while having previously complained about it specifically to Adam Watson. Adam warned the drink may have been poisoned.',
+        src: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/irish_whiskey.jpg'
+    },
     'video-police-assault': {
         type: 'video',
         title: 'VIDEO — SENT AFTER ASSAULT',
