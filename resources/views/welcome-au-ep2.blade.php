@@ -1841,8 +1841,8 @@
 
             <!-- TICA logo + headline -->
             <div class="flex flex-col sm:flex-row sm:items-center gap-5 mb-6">
-                <div class="shrink-0 border border-paper/[0.07] p-3" style="background:rgba(12,8,4,0.4)">
-                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tica_logo.png" alt="TICA — Tenancy Information Centre Australasia" class="h-10 w-auto opacity-80" />
+                <div class="shrink-0 border border-paper/[0.07] p-3" style="background:#ffffff">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tica_logo.png" alt="TICA — Tenancy Information Centre Australasia" class="h-10 w-auto" />
                 </div>
                 <div>
                     <h3 class="font-display text-3xl tracking-wide leading-tight mb-1">BLACKLISTED BY THE AGENT<br><span class="text-hot">WHO BROKE INTO HIS HOME.</span></h3>
@@ -1853,6 +1853,28 @@
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The same Changfa agent who disconnected Adam Watson's power, entered his property without authorisation, and is now facing a home invasion charge — used his position as a real estate agent to lodge Adam Watson's name on the TICA tenancy blacklist. TICA is a national database used by landlords and agents across Australia to screen rental applicants. A listing on TICA effectively blocks a person from accessing private rental accommodation.</p>
 
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Adam Watson attempted to appeal the TICA listing. He was informed that the appeal process must be conducted through the post — physical mail only. The appeal has not been resolved. His name remains on the TICA register. Despite TICA having received a copy of the QCAT order Q6970-25 — a formal tribunal decision issued on the basis of the police fingerprint evidence against the Changfa agent — TICA has not lifted the blacklist. Adam Watson is currently sleeping out of his car as a direct consequence.</p>
+
+            <!-- Appeal envelope -->
+            <div class="border border-paper/[0.08] mb-6 reveal" style="background:rgba(0,0,0,0.18)">
+                <div class="px-4 py-3 flex items-center justify-between gap-4" style="border-bottom:1px solid rgba(245,234,212,0.06)">
+                    <div>
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-paper/35 mb-0.5">Physical evidence · Adam Watson's TICA appeal</div>
+                        <div class="font-display text-sm tracking-wide text-paper/75">The envelope — sent by post to TICA Head Office</div>
+                        <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/30 mt-1">Addressed to: TICA Head Office · PO Box 120 · Concord NSW 2137 · Australia Post Prepaid tracked</div>
+                    </div>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/Screenshot_20260506_113608_Gallery.jpg" target="_blank" rel="noopener" class="shrink-0 text-[0.44rem] tracking-[0.14em] uppercase text-paper/30 hover:text-paper/60 transition-colors whitespace-nowrap">Open ↗</a>
+                </div>
+                <div class="p-4">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/Screenshot_20260506_113608_Gallery.jpg" alt="Australia Post prepaid envelope addressed to TICA Head Office PO Box 120 Concord NSW 2137 — Adam Watson's appeal against the TICA blacklist listing" class="w-full max-w-lg mx-auto block border border-paper/[0.06]" loading="lazy" />
+                </div>
+                <div class="px-4 py-3 flex flex-wrap items-center gap-4" style="border-top:1px solid rgba(245,234,212,0.06)">
+                    <div>
+                        <div class="text-[0.4rem] tracking-[0.14em] uppercase text-paper/25 mb-0.5">Tracking No.</div>
+                        <div class="font-mono text-[0.6rem] text-paper/55 tracking-wider">02 01021 44985 70006 40991</div>
+                    </div>
+                    <div class="flex-1 text-[0.58rem] text-paper/35 leading-relaxed">TICA's appeal process requires physical mail only — no online dispute, no in-person option. A person sleeping out of their car, whose listing was made by an agent now facing criminal charges, was required to appeal by post to a PO Box in Concord. This envelope is the proof the appeal was sent.</div>
+                </div>
+            </div>
 
             <!-- Impact stat bar -->
             <div class="grid grid-cols-3 gap-px bg-paper/[0.04] mb-6">
