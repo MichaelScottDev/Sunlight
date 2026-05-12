@@ -837,8 +837,8 @@
             <div class="mb-5 reveal">
                 <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/tassie.jpg"
                      alt="Tassie — Manager, YHA Murwillumbah"
-                     class="w-full object-cover border border-paper/[0.07]"
-                     style="max-height:420px;object-fit:cover;object-position:center top"
+                     class="w-full border border-paper/[0.07]"
+                     style="object-fit:contain;background:#0d0d0d"
                      loading="lazy" />
                 <div class="text-[0.44rem] tracking-[0.12em] uppercase text-paper/18 mt-1.5">Tassie — Manager, YHA Murwillumbah (Riverside Backpackers) · Murwillumbah NSW</div>
             </div>
@@ -889,8 +889,8 @@
                 <div class="mb-5 reveal">
                     <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/guesthouse_image.jpg"
                          alt="YHA Murwillumbah — Riverside Backpackers"
-                         class="w-full object-cover border border-paper/[0.06]"
-                         style="max-height:340px;object-fit:cover"
+                         class="w-full border border-paper/[0.06]"
+                         style="object-fit:contain;background:#0d0d0d"
                          loading="lazy" />
                     <div class="text-[0.44rem] tracking-[0.12em] uppercase text-paper/18 mt-1.5">YHA Murwillumbah — Riverside Backpackers · Tumbulgum Rd, Murwillumbah NSW</div>
                 </div>
