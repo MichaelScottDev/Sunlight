@@ -709,6 +709,189 @@
             <p class="text-[0.65rem] leading-relaxed text-paper/45">The maximum-restriction MSP was applied to a participant whose documented conduct — asking questions in writing, attending a scheduled appointment — is explicitly protected under the Workforce Australia Guidelines, Chapter 5.3.1.</p>
         </div>
 
+        <!-- ═══ SMOKING GUN — MOF SUSPENSION LETTER ═══ -->
+        <div class="reveal mt-12 mb-6 px-5 py-5" style="background:rgba(193,68,14,0.12);border:1px solid rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-3">
+                <span class="font-display text-xs tracking-[0.25em] uppercase text-hot">The Smoking Gun</span>
+                <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/30 border border-paper/15 px-2 py-0.5">MOF Suspension Letter · Services Australia · 2 August 2023</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide leading-tight mb-5">PAYMENT SUSPENDED FOR AN ACTION<br><span class="text-hot">THAT HAD NOT YET OCCURRED.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/70 mb-4">Services Australia issued a letter on 2 August 2023 stating that JobSeeker Payment had been stopped <strong class="text-paper/90">from 25 July 2023</strong> because the recipient "did not take suitable action in relation to a job opportunity on <strong class="text-hot">31 July 2023</strong>."</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/70 mb-5">31 July 2023 is <strong class="text-paper/90">six days after</strong> 25 July 2023. A payment cannot lawfully be suspended for failure to act on a date that had not yet arrived at the time of suspension. The stated reason is chronologically impossible.</p>
+
+            <!-- Date comparison tiles -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+                <div class="border-l-4 border-hot pl-4 py-3 pr-4" style="background:rgba(193,68,14,0.07)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1">Payment Suspended From</div>
+                    <div class="font-display text-2xl text-paper/80">25 July 2023</div>
+                    <div class="text-[0.55rem] text-paper/45 mt-1">The date payment was stopped — stated in the letter</div>
+                </div>
+                <div class="border-l-4 border-paper/20 pl-4 py-3 pr-4" style="background:rgba(245,234,212,0.03)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/35 mb-1">Stated Reason — Job Opportunity Not Pursued</div>
+                    <div class="font-display text-2xl text-paper/45">31 July 2023</div>
+                    <div class="text-[0.55rem] text-paper/28 mt-1 italic">Six days in the future at the time of the suspension</div>
+                </div>
+            </div>
+
+            <!-- PDF link -->
+            <div class="ev-file ef-hot mb-4" onclick="openMV('pdf-mof-suspension')" style="border:1px solid rgba(193,68,14,0.25);background:rgba(0,0,0,0.3)">
+                <div class="ev-icon ev-pdf">PDF</div>
+                <div class="ev-meta">
+                    <div class="ev-name">MOF suspension letter TCF_K269035727 — Services Australia · 2 August 2023</div>
+                    <div class="ev-desc">Payment stopped 25 July 2023 · Reason given: job opportunity 31 July 2023 · Reference: 280 870 747X · Addressee: Konstantin Kondratenko</div>
+                </div>
+                <div class="ev-cta">View Letter →</div>
+            </div>
+
+            <p class="text-[0.68rem] leading-relaxed text-paper/60">The letter instructs the recipient to call their Employment Services Provider "to discuss the reasons you did not meet this requirement." This framing presupposes a failure that — by the letter's own dates — had not yet occurred at the time the payment was stopped.</p>
+        </div>
+
+        <!-- What this means — Mutual Obligations + Coercive Tactic analysis -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Mutual Obligations · Coercive Compliance · Analysis</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-5 leading-tight">WHAT THIS LETTER MEANS.<br><span class="text-hot">A SYSTEM DESIGNED TO GENERATE COMPLIANCE, NOT TRUTH.</span></h3>
+
+            <div class="space-y-5 text-[0.72rem] leading-relaxed text-paper/50 mb-7">
+                <p><strong class="text-paper/75">Mutual Obligations</strong> — formally called Activity Test or Participation Requirements under the Social Security Act 1991 — are the conditions Centrelink attaches to JobSeeker Payment as a requirement of receiving it. For most recipients: apply for a specified number of jobs per fortnight, attend appointments, and take "suitable action" when your Employment Services Provider refers you to a specific opportunity. Fail any of these and the payment stops.</p>
+                <p>When a provider generates a job referral in the system, the participant is required to apply, attend, or otherwise engage within the required timeframe. Failure to do so triggers a Mutual Obligation failure — which produces an automated payment suspension. The suspension is not a fine, a warning, or a judicial finding. It is a financial withdrawal that continues until the participant calls the provider and satisfies whatever condition the provider decides is appropriate. The gatekeeper of your income and the complainant about your conduct are the same organisation.</p>
+                <p>The letter issued to Mr Kondratenko on 2 August 2023 follows this template exactly — with one fatal problem. The job opportunity referenced is dated 31 July 2023. The suspension is backdated to 25 July 2023. The stated reason postdates the stated punishment by six days. The system generated a compliant-looking administrative instrument for a reason that had not yet arisen.</p>
+            </div>
+
+            <!-- Coercive mechanism -->
+            <div class="border border-paper/[0.08] p-5 mb-6" style="background:rgba(0,0,0,0.18)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/28 mb-4">The Coercive Mechanism — Step by Step</div>
+                <div class="space-y-4">
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-lg text-hot shrink-0 w-6 leading-none mt-0.5">1</span>
+                        <div>
+                            <div class="text-[0.55rem] tracking-[0.1em] uppercase text-hot/65 mb-1">Suspension Creates Immediate Financial Crisis</div>
+                            <p class="text-[0.6rem] text-paper/42 leading-relaxed">Payment stops without warning. There is no income. The pressure to resolve this is immediate, personal, and real — regardless of whether the stated reason is accurate.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-lg text-hot shrink-0 w-6 leading-none mt-0.5">2</span>
+                        <div>
+                            <div class="text-[0.55rem] tracking-[0.1em] uppercase text-hot/65 mb-1">The Only Exit Is Through the Accuser</div>
+                            <p class="text-[0.6rem] text-paper/42 leading-relaxed">The letter instructs you to call your Employment Services Provider — the same organisation that generated the suspension — to "discuss the reasons" and "meet the requirement." There is no neutral third party. The complaint and the remedy are controlled by the same entity.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-lg text-hot shrink-0 w-6 leading-none mt-0.5">3</span>
+                        <div>
+                            <div class="text-[0.55rem] tracking-[0.1em] uppercase text-hot/65 mb-1">The Language Presupposes Guilt</div>
+                            <p class="text-[0.6rem] text-paper/42 leading-relaxed">"Discuss the reasons <em>you did not meet</em> this requirement" forecloses on any factual challenge. The participant is not invited to question whether the requirement was valid or whether the stated date is correct. They are invited to explain a failure that — by the letter's own dates — could not have occurred yet.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-lg text-hot shrink-0 w-6 leading-none mt-0.5">4</span>
+                        <div>
+                            <div class="text-[0.55rem] tracking-[0.1em] uppercase text-hot/65 mb-1">Non-Compliance Means Cancellation and Re-Claim</div>
+                            <p class="text-[0.6rem] text-paper/42 leading-relaxed">The letter is explicit: if you do not call and meet the provider's requirement, the payment may be cancelled — requiring a new claim from scratch. New claims take weeks. The financial cost of not complying is deliberately higher than the cost of complying without questioning anything.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-lg text-hot shrink-0 w-6 leading-none mt-0.5">5</span>
+                        <div>
+                            <div class="text-[0.55rem] tracking-[0.1em] uppercase text-hot/65 mb-1">Formal Review Does Not Restart Payment</div>
+                            <p class="text-[0.6rem] text-paper/42 leading-relaxed">A formal review exists — the letter notes a 13-week window. But the payment remains suspended during review. Financial distress continues throughout. Compliance offers immediate relief. A challenge offers eventual justice. Under financial pressure, most people choose relief.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-l-4 border-hot/60 pl-5" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">What the Date Contradiction Reveals</div>
+                <p class="text-[0.65rem] text-paper/55 leading-relaxed mb-3">A payment suspension issued for a reason that postdates the suspension is not administratively coherent under the Mutual Obligations framework. Either the system generated a document with an erroneous date that was never corrected — or the suspension was applied for a different reason, and the Mutual Obligation failure was attached retrospectively to provide a compliant-looking basis for an already-executed decision.</p>
+                <p class="text-[0.65rem] text-paper/55 leading-relaxed">In context: the suspension letter is dated 2 August 2023 and backdates the payment stop to 25 July 2023. The appointment at Tursa's Murwillumbah office — where a camera was held, the duress button was pressed, and police were called — occurred in early August 2023. The MSP letter from David Wiblen followed on 10 August 2023. The chronological sequence does not support the stated reason. It supports a different conclusion.</p>
+            </div>
+        </div>
+
+        <!-- Tassie — YHA Murwillumbah Collateral Damage -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.5)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Collateral Damage · YHA Murwillumbah · Tassie</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">TASSIE HAD NOTHING TO DO WITH ANY OF IT.<br><span class="text-gold">THEY CAME FOR HIM ANYWAY.</span></h3>
+
+            <!-- Tassie photo -->
+            <div class="mb-5 reveal">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/tassie.jpg"
+                     alt="Tassie — Manager, YHA Murwillumbah"
+                     class="w-full object-cover border border-paper/[0.07]"
+                     style="max-height:420px;object-fit:cover;object-position:center top"
+                     loading="lazy" />
+                <div class="text-[0.44rem] tracking-[0.12em] uppercase text-paper/18 mt-1.5">Tassie — Manager, YHA Murwillumbah (Riverside Backpackers) · Murwillumbah NSW</div>
+            </div>
+
+            <div class="space-y-5 text-[0.72rem] leading-relaxed text-paper/50 mb-6">
+                <p>Tassie manages the YHA hostel in Murwillumbah — Riverside Backpackers — where I was staying at the time of the Tursa incidents. He walks with a limp. On weekends he gives out ice cream to hostel guests. He runs dance events for elderly people in the local community. He had no involvement in anything that happened at Tursa. He was not a witness. He was not connected to any of the matters documented here. He was simply the person who had offered me accommodation while I was in the region, and I had been a model tenant — no issues with Tassie, no issues with other guests, throughout my stay.</p>
+                <p>After the Tursa manager called police and I was placed on the Managed Service Plan, what happened next reached Tassie directly. Someone appeared at his dancing event — a person who had never been seen there before, who was not part of his regular community. That person got directly in Tassie's face and screamed: <em class="text-paper/70">"Why are you letting homeless cunts stay at the hostel!"</em> The person delivered that message and left. They were never seen again at his events.</p>
+                <p>Separately, people made enquiries about Tassie's property — which was and still is listed for sale. The enquiries did not come through the real estate agent, which is the standard procedure for a listed property. Legitimate buyers contact the agent. These people came directly to Tassie. He flagged it as suspicious immediately. The combination of the confrontation at his dance school and the suspicious property enquiries was enough. He asked me to leave — explaining that the dance incident and the property enquiries had alarmed him, and that the enquiries hadn't come through the real estate agent, which wasn't right. I left.</p>
+            </div>
+
+            <!-- Incident breakdown -->
+            <div class="border border-gold/20 p-5 mb-6" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-4">What Happened — In Sequence</div>
+                <div class="space-y-3">
+                    <div class="flex gap-3 items-start">
+                        <div class="w-1.5 h-1.5 rounded-full bg-hot mt-2 shrink-0"></div>
+                        <div>
+                            <div class="text-[0.55rem] tracking-[0.1em] uppercase text-hot/70 mb-0.5">Dancing Event — Unknown Person Confronts Tassie</div>
+                            <p class="text-[0.62rem] text-paper/45 leading-relaxed">A person not previously seen at the event appeared and screamed directly at Tassie about the hostel accommodation. Targeted and specific. Not a regular. Never seen again at the events.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <div class="w-1.5 h-1.5 rounded-full bg-hot mt-2 shrink-0"></div>
+                        <div>
+                            <div class="text-[0.55rem] tracking-[0.1em] uppercase text-hot/70 mb-0.5">Property Enquiries — Not Through the Agent</div>
+                            <p class="text-[0.62rem] text-paper/45 leading-relaxed">Tassie's property is listed for sale. Legitimate enquiries go through the real estate agent — that is standard practice. These came directly to Tassie, bypassing the agent entirely. He identified them as suspicious immediately.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <div class="w-1.5 h-1.5 rounded-full bg-gold mt-2 shrink-0"></div>
+                        <div>
+                            <div class="text-[0.55rem] tracking-[0.1em] uppercase text-gold/70 mb-0.5">Displacement — Kosta Asked to Leave</div>
+                            <p class="text-[0.62rem] text-paper/45 leading-relaxed">Tassie asked me to leave. A model tenant, no issues, displaced — not because of anything he or I did, but because of the pressure that came from Tursa's actions radiating outward into his life and his business.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-l-4 border-gold/50 pl-5 mb-8" style="background:rgba(201,138,16,0.05);padding:1rem 1rem 1rem 1.25rem">
+                <p class="text-[0.65rem] text-paper/55 leading-relaxed">I had a genuinely good time at the YHA Murwillumbah. Tassie and the other tenants were welcoming throughout. There were no issues of any kind during my stay. Tassie is a good person — the confrontation at his dance school and the suspicious property enquiries were not his fault, and he should not have been pulled into any of this. He made the call that was right for him and his business, and I respect it.</p>
+            </div>
+
+            <!-- YHA recommendation -->
+            <div class="border border-paper/[0.08] p-6 reveal" style="background:rgba(201,138,16,0.03)">
+                <div class="text-[0.47rem] tracking-[0.22em] uppercase text-gold mb-4">If You're Visiting the Murwillumbah / Mt Warning Area</div>
+
+                <!-- Guesthouse photo -->
+                <div class="mb-5 reveal">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/guesthouse_image.jpg"
+                         alt="YHA Murwillumbah — Riverside Backpackers"
+                         class="w-full object-cover border border-paper/[0.06]"
+                         style="max-height:340px;object-fit:cover"
+                         loading="lazy" />
+                    <div class="text-[0.44rem] tracking-[0.12em] uppercase text-paper/18 mt-1.5">YHA Murwillumbah — Riverside Backpackers · Tumbulgum Rd, Murwillumbah NSW</div>
+                </div>
+
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-5">Riverside Backpackers is a well-run, genuinely welcoming hostel in Murwillumbah — base camp for Mt Warning and the Tweed Valley. Tassie runs it with real care. If you're passing through the Northern Rivers region and need a place to stay, check it out and consider booking.</p>
+
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <a href="https://mtwarning.wordpress.com/" target="_blank" rel="noopener"
+                       class="flex items-center gap-2 border border-gold/40 px-4 py-2.5 text-[0.55rem] tracking-[0.15em] uppercase text-gold/75 hover:text-gold hover:border-gold/70 transition-all">
+                        ⬡ &nbsp;Visit Website — mtwarning.wordpress.com
+                    </a>
+                    <a href="https://www.tripadvisor.com/Hotel_Review-g529003-d1163611-Reviews-Riverside_Backpackers_Murwillumbah-Murwillumbah_New_South_Wales.html" target="_blank" rel="noopener"
+                       class="flex items-center gap-2 border border-paper/20 px-4 py-2.5 text-[0.55rem] tracking-[0.15em] uppercase text-paper/45 hover:text-paper/70 hover:border-paper/35 transition-all">
+                        ★ &nbsp;Book on TripAdvisor
+                    </a>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 
@@ -1973,6 +2156,15 @@ document.querySelectorAll('.reveal').forEach(function(el) { obs.observe(el); });
 
 // ── MEDIA VIEWER ──
 var EVIDENCE = {
+    'pdf-mof-suspension': {
+        type: 'pdf',
+        title: 'MOF SUSPENSION LETTER — SERVICES AUSTRALIA',
+        tag: 'Mutual Obligation Failure · TCF_K269035727 · 2 August 2023',
+        meta: 'PDF · Services Australia · Ref: 280 870 747X · Addressee: Konstantin Kondratenko · 1 Tumbulgum Rd, Murwillumbah NSW 2484',
+        desc: 'Services Australia letter dated 2 August 2023 suspending JobSeeker Payment from 25 July 2023. Stated reason: "you did not take suitable action in relation to a job opportunity on 31 July 2023." The suspension date (25 July) predates the stated failure date (31 July) by six days — a chronological impossibility. The letter instructs the recipient to call Tursa Employment & Training on (02) 6672 6712 to discuss "the reasons you did not meet this requirement" and to have payment restarted.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/MOF+suspension+letter+TCF_K269035727+(2).pdf',
+        filename: 'MOF_suspension_letter_TCF_K269035727.pdf'
+    },
     'image-martin-whiskey': {
         type: 'image',
         title: 'IRISH WHISKEY — LEFT OUTSIDE TENT',

@@ -4366,6 +4366,57 @@
             </div>
         </div>
 
+        <!-- Robert Huang — Consent Order Interference + New Incidents -->
+        <div class="story-chapter reveal mb-10 mt-10" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Update — Robert Huang · Consent Order · Winding Up · Commonwealth Bank</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">ROBERT HUANG WENT BEHIND ADAM WATSON'S BACK.<br><span class="text-hot">THE JUDGE IS FURIOUS. $30M IN PROPERTIES GOING TO A FIRE SALE.</span></h3>
+
+            <div class="space-y-5 text-[0.72rem] leading-relaxed text-paper/50 mb-6">
+                <p>Robert Huang — the director of PSR Crown Investments Pty Ltd and technically the victim of the Winding Up application in this matter — called the Court following execution of the Consent Order and attempted to have Adam Watson removed from the parties receiving a payment under it. He also attempted to have Graham Gordon removed. He did this without Adam Watson's knowledge or consent.</p>
+                <p>The Registrar took a very dim view of this conduct. The Registrar has notified the Judge. The Judge is furious. As a direct consequence of Huang's actions, Adam Watson's companies are now going to be liquidated. Those companies hold approximately $30 million worth of properties — secured by high mortgages. A court-appointed liquidator will sell them, at a fire sale price. The people who lent Robert Huang money will lose a significant amount of what they are owed.</p>
+                <p>Robert Huang could have had something. The Consent Order gave him a real, enforceable outcome. He chose instead to go behind Adam Watson's back, to approach the Court unilaterally, and to attempt to strip payments from parties who had agreed to them. That decision has now produced a much worse result for everyone connected to those assets — including the lenders who had nothing to do with the dispute.</p>
+            </div>
+
+            <!-- Consequence breakdown -->
+            <div class="border border-hot/25 p-5 mb-6" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-4">The Consequence — What Going Behind Adam Watson's Back Has Cost</div>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">The Action</div>
+                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Called the Court. Attempted to remove Adam Watson and Graham Gordon from the Consent Order payment schedule. Done without notice or consent from either party.</p>
+                    </div>
+                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">The Response</div>
+                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Registrar notified the Judge. Judge furious. Adam Watson's companies now to be liquidated as a direct consequence of Huang's conduct behind his back.</p>
+                    </div>
+                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">The Cost</div>
+                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">~$30M in properties. High mortgages. Fire sale by court-appointed liquidator. Lenders exposed to significant losses. An outcome that could have been avoided.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trent Long / Crown Street / CBA -->
+            <div class="border-l-4 border-hot/55 pl-5 mb-6" style="background:rgba(193,68,14,0.05);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">Separate Matter — Trent Long · U1302/51 Crown Street, Wollongong · Commonwealth Bank</div>
+                <p class="text-[0.65rem] text-paper/55 leading-relaxed mb-3">Robert Huang has a separate dispute on with Trent Long — one of his tenants at Unit 1302, 51 Crown Street, Wollongong NSW. Robert had a Commonwealth Bank loan secured by mortgage against that property. He then borrowed $1.7 million from an Asian investor — separately, against the same property — without disclosing to the investor that the Commonwealth Bank already held a first mortgage over it, and without obtaining the Commonwealth Bank's approval.</p>
+                <p class="text-[0.65rem] text-paper/55 leading-relaxed mb-3">Trent Long notified the Commonwealth Bank. The Commonwealth Bank is now issuing a Notice to Complete the mortgage — a 28-day notice — on the basis that the mortgage contract expressly prohibits the borrower from lending against a property mortgaged to the Commonwealth Bank without the prior written approval of the first mortgagee. That approval was never sought. The $1.7 million was raised without it.</p>
+                <p class="text-[0.65rem] text-paper/55 leading-relaxed">The investor who provided the $1.7 million was not told the property was already encumbered by a Commonwealth Bank mortgage. That is a material fact in the context of any secured loan. The 28-day Notice to Complete places the loan into default. What follows — for the mortgage, for the $1.7 million, and for the investor who was not given a full picture — is now in motion.</p>
+            </div>
+
+            <div class="border border-paper/[0.07] p-5" style="background:rgba(0,0,0,0.18)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/28 mb-3">Robert Huang — Documented Conduct</div>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Contacted the Court unilaterally after Consent Order execution to remove parties from the payment schedule — without notice to or consent from Adam Watson.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Attempted to have both Adam Watson and Graham Gordon stripped from a Consent Order all parties had signed — a Consent Order that gave Huang a real outcome.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Borrowed $1.7M from an investor against a CBA-mortgaged property without disclosing the first mortgage and without CBA approval — in direct breach of the mortgage contract.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Result: ~$30M in properties facing fire sale by liquidator. Lenders exposed. An outcome caused entirely by his own actions.</p></div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 
