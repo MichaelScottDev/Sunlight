@@ -733,18 +733,36 @@
                 </div>
             </div>
 
-            <!-- PDF link -->
-            <div class="ev-file ef-hot mb-4" onclick="openMV('pdf-mof-suspension')" style="border:1px solid rgba(193,68,14,0.25);background:rgba(0,0,0,0.3)">
-                <div class="ev-icon ev-pdf">PDF</div>
-                <div class="ev-meta">
-                    <div class="ev-name">MOF suspension letter TCF_K269035727 — Services Australia · 2 August 2023</div>
-                    <div class="ev-desc">Payment stopped 25 July 2023 · Reason given: job opportunity 31 July 2023 · Reference: 280 870 747X · Addressee: Konstantin Kondratenko</div>
+            <!-- Embedded PDF — stands out -->
+            <div class="mb-5 reveal" style="border:2px solid rgba(193,68,14,0.6);box-shadow:0 0 40px rgba(193,68,14,0.15)">
+                <div class="flex items-center justify-between px-4 py-2.5" style="background:rgba(193,68,14,0.18);border-bottom:1px solid rgba(193,68,14,0.35)">
+                    <div class="flex items-center gap-3">
+                        <span class="font-display text-[0.7rem] tracking-[0.2em] uppercase text-hot">The Letter</span>
+                        <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/45">MOF Suspension · TCF_K269035727 · Services Australia · 2 Aug 2023</span>
+                    </div>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/MOF+suspension+letter+TCF_K269035727+(2).pdf"
+                       target="_blank" rel="noopener"
+                       class="text-[0.48rem] tracking-[0.15em] uppercase text-hot/60 hover:text-hot transition-colors border border-hot/30 hover:border-hot/60 px-2.5 py-1">
+                        ↗ Open
+                    </a>
                 </div>
-                <div class="ev-cta">View Letter →</div>
+                <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/MOF+suspension+letter+TCF_K269035727+(2).pdf"
+                        class="w-full"
+                        style="min-height:560px;height:560px;border:none;filter:brightness(0.92)"
+                        loading="lazy"
+                        title="MOF Suspension Letter — Services Australia · TCF_K269035727"></iframe>
+                <div class="px-4 py-2 flex items-center gap-3" style="background:rgba(193,68,14,0.08);border-top:1px solid rgba(193,68,14,0.25)">
+                    <span class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/55">Ref: 280 870 747X</span>
+                    <span class="text-paper/15">·</span>
+                    <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/30">Payment stopped 25 July 2023</span>
+                    <span class="text-paper/15">·</span>
+                    <span class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/55">Stated reason: job opportunity 31 July 2023</span>
+                </div>
             </div>
 
             <p class="text-[0.68rem] leading-relaxed text-paper/60">The letter instructs the recipient to call their Employment Services Provider "to discuss the reasons you did not meet this requirement." This framing presupposes a failure that — by the letter's own dates — had not yet occurred at the time the payment was stopped.</p>
         </div>
+
 
         <!-- What this means — Mutual Obligations + Coercive Tactic analysis -->
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.5)">
