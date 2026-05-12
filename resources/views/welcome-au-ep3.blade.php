@@ -1367,41 +1367,124 @@
             </div>
         </div>
 
-        <!-- LECC complaint callout -->
-        <div class="reveal mb-10 border-l-4 border-hot pl-6 py-2">
-            <div class="text-[0.48rem] tracking-[0.22em] uppercase text-hot mb-2">19 March 2026 — Formal Complaint Lodged with LECC</div>
-            <div class="font-display text-2xl tracking-wide text-paper/85 mb-3">LECC COMPLAINT EXT2026-0413</div>
-            <p class="text-[0.68rem] leading-relaxed text-paper/45 max-w-2xl">A formal complaint was lodged with the Law Enforcement Conduct Commission on 19 March 2026. Reference: <strong class="text-paper/65 font-mono">EXT2026-0413</strong>. The complaint names the attending officers, documents the assault, the antisemitic and homophobic slur, the unlawful seizure of prescribed medication, and identifies five investigative failures in the internal review conducted by SC Agnew and SC Grace. The video recorded by Adam Watson in the immediate aftermath of the assault is attached as primary evidence.</p>
+        <!-- ═══ VIDEO — ADAM'S FACE AFTER THE ASSAULT ═══ -->
+        <div class="reveal mb-10" style="border:2px solid rgba(193,68,14,0.7);box-shadow:0 0 60px rgba(193,68,14,0.2)">
+            <div class="px-4 py-3 flex items-center justify-between" style="background:rgba(193,68,14,0.22);border-bottom:1px solid rgba(193,68,14,0.4)">
+                <div class="flex items-center gap-3">
+                    <span class="font-display text-sm tracking-[0.2em] uppercase text-hot">Primary Evidence</span>
+                    <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/50">Adam Watson · Immediately After the Assault · 9 January 2026 · Coogee NSW</span>
+                </div>
+                <span class="text-[0.44rem] tracking-[0.18em] uppercase border border-hot/40 text-hot/70 px-2 py-1">Video</span>
+            </div>
+
+            <!-- Context banner -->
+            <div class="px-5 py-4" style="background:rgba(193,68,14,0.08);border-bottom:1px solid rgba(193,68,14,0.2)">
+                <p class="text-[0.7rem] leading-relaxed text-paper/75">This is Adam Watson's face — immediately after a <strong class="text-hot">6-on-1 police assault</strong> — asking for help. Six NSW Police officers attended his Coogee address after he called triple-zero to report an AVO breach. Officers told him the AVO did not exist. He was assaulted, called a <strong class="text-hot">"Jewish Faggot"</strong>, and had his prescribed diabetic medication ($878 Ozempic) seized without a receipt. He was not charged. This footage was recorded in the immediate aftermath and submitted as primary evidence to the Law Enforcement Conduct Commission.</p>
+            </div>
+
+            <!-- Video -->
+            <div style="background:#000">
+                <video controls
+                       class="w-full"
+                       style="max-height:520px;display:block"
+                       preload="metadata">
+                    <source src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lecc/adam-police-assault.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="px-4 py-2.5 flex flex-wrap items-center gap-4" style="background:rgba(193,68,14,0.1);border-top:1px solid rgba(193,68,14,0.25)">
+                <span class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/70">6 Officers · 1 Man · No Charge Filed</span>
+                <span class="text-paper/15">·</span>
+                <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/35">"Jewish Faggot" — Antisemitic & Homophobic Slur</span>
+                <span class="text-paper/15">·</span>
+                <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/35">$878 Ozempic Seized — No Receipt</span>
+                <span class="text-paper/15">·</span>
+                <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/35">LECC Complaint EXT2026-0413</span>
+            </div>
         </div>
 
-        <!-- Evidence vault -->
-        <div class="reveal">
-            <div class="text-[0.48rem] tracking-[0.24em] uppercase text-paper/20 mb-4">LECC Evidence — 6 Objects</div>
-            <div class="border border-paper/[0.07]" style="background:rgba(12,8,4,0.7)">
-
-                <div class="ev-file ef-hot" onclick="openMV('video-police-assault')">
-                    <div class="ev-icon ev-video">▶</div>
-                    <div class="ev-meta">
-                        <div class="ev-name">Video — Sent by Adam After the Assault</div>
-                        <div class="ev-desc">Primary evidence · Recorded immediately after incident · 9 Jan 2026 · Coogee NSW</div>
-                    </div>
-                    <span class="ev-cta text-hot">View ↗</span>
+        <!-- ═══ LECC COMPLAINT — EMBEDDED PDF + ISSUES CALLOUT ═══ -->
+        <div class="reveal mb-10" style="border:2px solid rgba(193,68,14,0.55);box-shadow:0 0 40px rgba(193,68,14,0.12)">
+            <div class="px-4 py-3 flex items-center justify-between" style="background:rgba(193,68,14,0.18);border-bottom:1px solid rgba(193,68,14,0.35)">
+                <div class="flex items-center gap-3">
+                    <span class="font-display text-sm tracking-[0.2em] uppercase text-hot">LECC Formal Complaint</span>
+                    <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/50">EXT2026-0413 · Filed 19 March 2026 · Adam Watson</span>
                 </div>
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lecc/LECC_Complaint_Adam_Watson_v2.docx.pdf"
+                   target="_blank" rel="noopener"
+                   class="text-[0.48rem] tracking-[0.15em] uppercase text-hot/60 hover:text-hot border border-hot/30 hover:border-hot/60 px-2.5 py-1 transition-colors">↗ Open</a>
+            </div>
+
+            <!-- Key issues callout — above the PDF -->
+            <div class="px-5 py-5" style="background:rgba(193,68,14,0.07);border-bottom:1px solid rgba(193,68,14,0.2)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-4">Five Investigative Failures Identified in the Complaint</div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 mb-5">
+                    <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.05)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/65 mb-1">Failure 01</div>
+                        <p class="text-[0.58rem] text-paper/55 leading-relaxed">No independent witnesses identified or contacted during the 16-day review.</p>
+                    </div>
+                    <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.05)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/65 mb-1">Failure 02</div>
+                        <p class="text-[0.58rem] text-paper/55 leading-relaxed">No medical records sought or reviewed — despite a documented physical assault.</p>
+                    </div>
+                    <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.05)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/65 mb-1">Failure 03</div>
+                        <p class="text-[0.58rem] text-paper/55 leading-relaxed">No Body Worn Camera footage reviewed — standard for any complaint involving officer conduct.</p>
+                    </div>
+                    <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.05)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/65 mb-1">Failure 04</div>
+                        <p class="text-[0.58rem] text-paper/55 leading-relaxed">No individual officer identified as responsible for the slur, the assault, or the seizure.</p>
+                    </div>
+                    <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.05)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/65 mb-1">Failure 05</div>
+                        <p class="text-[0.58rem] text-paper/55 leading-relaxed">Entire complaint — assault, slur, $878 medication seizure — closed in <strong class="text-hot">16 days</strong> as "no evidence identified."</p>
+                    </div>
+                    <div class="border border-hot/20 p-3 flex flex-col justify-center text-center" style="background:rgba(193,68,14,0.08)">
+                        <div class="font-display text-2xl text-hot mb-1">16</div>
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/40">Days. Closed. Dismissed.</div>
+                    </div>
+                </div>
+
+                <!-- What the complaint documents -->
+                <div class="border-l-4 border-hot/60 pl-4" style="background:rgba(193,68,14,0.05);padding:0.8rem 0.8rem 0.8rem 1rem">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">What the Complaint Documents</div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0">→</span><p class="text-[0.58rem] text-paper/50 leading-relaxed">The assault — 6 officers, 1 man, no charge filed</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0">→</span><p class="text-[0.58rem] text-paper/50 leading-relaxed">"Jewish Faggot" — antisemitic and homophobic slur, repeated, witnessed</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0">→</span><p class="text-[0.58rem] text-paper/50 leading-relaxed">$878 Ozempic seized — no receipt, never returned, no lawful authority cited</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0">→</span><p class="text-[0.58rem] text-paper/50 leading-relaxed">AVO denied to exist — officers did not check the system before making that statement</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0">→</span><p class="text-[0.58rem] text-paper/50 leading-relaxed">SC Agnew / SC Grace internal review — five identified failures in methodology</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0">→</span><p class="text-[0.58rem] text-paper/50 leading-relaxed">Complaint closed without any officer individually identified or held accountable</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Embedded PDF -->
+            <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lecc/LECC_Complaint_Adam_Watson_v2.docx.pdf"
+                    class="w-full"
+                    style="min-height:700px;height:700px;border:none;filter:brightness(0.93)"
+                    loading="lazy"
+                    title="LECC Formal Complaint EXT2026-0413 — Adam Watson"></iframe>
+
+            <div class="px-4 py-2.5 flex flex-wrap items-center gap-4" style="background:rgba(193,68,14,0.1);border-top:1px solid rgba(193,68,14,0.25)">
+                <span class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/70">LECC · EXT2026-0413</span>
+                <span class="text-paper/15">·</span>
+                <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/35">Filed 19 March 2026</span>
+                <span class="text-paper/15">·</span>
+                <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/35">No suppression order — public document</span>
+            </div>
+        </div>
+
+        <!-- Remaining evidence files -->
+        <div class="reveal">
+            <div class="text-[0.48rem] tracking-[0.24em] uppercase text-paper/20 mb-4">Additional Evidence — LECC Matter</div>
+            <div class="border border-paper/[0.07]" style="background:rgba(12,8,4,0.7)">
 
                 <div class="ev-file ef-hot" onclick="openMV('pdf-lecc-agnew')">
                     <div class="ev-icon ev-pdf" style="font-size:0.5rem;letter-spacing:0.04em">PDF</div>
                     <div class="ev-meta">
                         <div class="ev-name">SC Agnew — Investigation Closure Letter</div>
                         <div class="ev-desc">Internal review · Closed 25 Jan 2026 · "No evidence identified to substantiate"</div>
-                    </div>
-                    <span class="ev-cta text-hot">View ↗</span>
-                </div>
-
-                <div class="ev-file ef-hot" onclick="openMV('pdf-lecc-complaint')">
-                    <div class="ev-icon ev-pdf" style="font-size:0.5rem;letter-spacing:0.04em">PDF</div>
-                    <div class="ev-meta">
-                        <div class="ev-name">LECC Formal Complaint — EXT2026-0413</div>
-                        <div class="ev-desc">Adam Watson · Filed 19 March 2026 · Full submission to LECC</div>
                     </div>
                     <span class="ev-cta text-hot">View ↗</span>
                 </div>
