@@ -842,6 +842,42 @@
             </div>
         </div>
 
+        <!-- Chapter F: Affidavit of Service -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter F — Service of Process · Affidavit of Service</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">SERVED AT HIS HOME ADDRESS.<br><span class="text-hot">ACCEPTED BY HIS WIFE. SHERIFF DELANI SIBANDA.</span></h3>
+            <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"The Originating Application was not served on a registered office or a legal team. It was served at Sam Kennard's personal address — and accepted by his wife."</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">On 25 January 2024, Sheriff's Officer <strong class="text-paper/65">Delani Sibanda</strong> personally served the Originating Application — Federal Court proceedings QUD18/2024, Kondratenko v Kennards Storage Management — at Sam Kennard's home address. Service was accepted by his wife. The Affidavit of Service below is the formal court record of that act.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Served By</div>
+                    <div class="font-display text-base text-paper/75 mb-1">Sheriff Delani Sibanda</div>
+                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">Sheriff's Officer · Personal service · 25 January 2024</p>
+                </div>
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Served On</div>
+                    <div class="font-display text-base text-paper/75 mb-1">Sam Kennard's Home Address</div>
+                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">Accepted by his wife · Personal residence</p>
+                </div>
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Document Served</div>
+                    <div class="font-display text-base text-paper/75 mb-1">Originating Application</div>
+                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">QUD18/2024 · Federal Court of Australia · Queensland Registry</p>
+                </div>
+            </div>
+            <!-- Affidavit of Service — embedded inline -->
+            <div class="mb-2 flex items-center justify-between">
+                <div>
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-1">Affidavit of Service — Sheriff Delani Sibanda · 25 January 2024</div>
+                    <div class="text-[0.42rem] tracking-[0.12em] uppercase text-paper/25">QUD18/2024 · Kondratenko v Kennards Storage Management · Federal Court of Australia</div>
+                </div>
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/HOSPPLX18_2024_01_25_15_28_59_978+(1).pdf" target="_blank" rel="noopener" class="text-[0.48rem] tracking-[0.15em] uppercase text-hot/60 hover:text-hot border border-hot/30 hover:border-hot/60 px-2.5 py-1 transition-colors">↗ Open</a>
+            </div>
+            <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/HOSPPLX18_2024_01_25_15_28_59_978+(1).pdf"
+                    style="width:100%;height:520px;border:2px solid rgba(193,68,14,0.5);box-shadow:0 0 40px rgba(193,68,14,0.12);display:block;background:#0d0d0d;"
+                    title="Affidavit of Service — Sheriff Delani Sibanda · QUD18/2024"></iframe>
+        </div>
+
         <!-- Evidence Vault -->
         <div class="story-chapter reveal mb-6">
             <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Federal Court Evidence Vault — QUD18/2024</span></div>
@@ -853,7 +889,7 @@
                         <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Kondratenko v Kennards Storage Management · [2024] FCA 913</span>
                     </div>
                     <div class="flex items-center gap-3">
-                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">5 files</span>
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">6 files</span>
                         <span class="ev-toggle">▼</span>
                     </div>
                 </div>
@@ -887,6 +923,14 @@
                         <div class="ev-meta">
                             <div class="ev-name">Karyn Reardon Affidavit — Piper Alderman</div>
                             <div class="ev-desc">PDF · Sworn by Karyn Reardon · Senior Partner · Piper Alderman · Filed in support of summary judgment application</div>
+                        </div>
+                        <span class="ev-cta">View →</span>
+                    </div>
+                    <div class="ev-file ef-hot" onclick="openMV('kennards-affidavit-service')">
+                        <div class="ev-icon ev-pdf">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">Affidavit of Service — Sheriff Delani Sibanda</div>
+                            <div class="ev-desc">PDF · 25 January 2024 · Personal service at Sam Kennard's home address · Accepted by his wife · QUD18/2024</div>
                         </div>
                         <span class="ev-cta">View →</span>
                     </div>
@@ -1176,7 +1220,8 @@ var EVIDENCE = {
     'kennards-originating': { type:'pdf', title:'Originating Application — QUD18/2024', tag:'Federal Court · Filed 9 January 2024 · Self-represented', meta:'PDF · Originating Application · Queensland Registry · Kosta Kondratenko', desc:'The originating application filed in the Federal Court of Australia, Queensland Registry on 9 January 2024. Filed by Kosta Kondratenko, self-represented.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/originating_application.pdf', filename:'originating_application.pdf' },
     'kennards-genuine-steps': { type:'pdf', title:'Genuine Steps Statement', tag:'Federal Court · Filed with Originating Application', meta:'PDF · Genuine Steps Statement · QUD18/2024', desc:'The Genuine Steps Statement filed with the Originating Application, documenting pre-filing attempts to resolve the billing dispute with Kennards Self Storage before commencing Federal Court proceedings.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/genuine_steps.pdf', filename:'genuine_steps.pdf' },
     'kennards-karyn-reardon': { type:'pdf', title:'Karyn Reardon Affidavit — Piper Alderman', tag:'Piper Alderman · Senior Partner · Filed 12 April 2024', meta:'PDF · Sworn by Karyn Reardon · Filed in support of summary judgment application', desc:'Affidavit sworn by Karyn Reardon, senior partner at Piper Alderman (admitted 1994, partner since 2007), filed in support of Kennards\' application for summary judgment against the self-represented applicant.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/karyn_reardon_affidavit.pdf', filename:'karyn_reardon_affidavit.pdf' },
-    'kennards-kellie-robley': { type:'pdf', title:'Kellie Robley Affidavit — Operations Manager', tag:'Kennards Operations Manager · Filed 12 April 2024', meta:'PDF · Sworn by Kellie Robley · Admits automated billing error and PIN access disablement', desc:'Affidavit sworn by Kellie Robley, Operations Manager at Kennards. Paragraph 8 confirms the statement was automatically generated and erroneously omitted the $25 payment. Paragraph 16 admits the customer\'s PIN access was disabled by Kennards before the 42-day contractual default period had elapsed.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/kellie_robley_affidavit.pdf', filename:'kellie_robley_affidavit.pdf' }
+    'kennards-kellie-robley': { type:'pdf', title:'Kellie Robley Affidavit — Operations Manager', tag:'Kennards Operations Manager · Filed 12 April 2024', meta:'PDF · Sworn by Kellie Robley · Admits automated billing error and PIN access disablement', desc:'Affidavit sworn by Kellie Robley, Operations Manager at Kennards. Paragraph 8 confirms the statement was automatically generated and erroneously omitted the $25 payment. Paragraph 16 admits the customer\'s PIN access was disabled by Kennards before the 42-day contractual default period had elapsed.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/kellie_robley_affidavit.pdf', filename:'kellie_robley_affidavit.pdf' },
+    'kennards-affidavit-service': { type:'pdf', title:'Affidavit of Service — Sheriff Delani Sibanda', tag:'Sheriff\'s Officer · 25 January 2024 · QUD18/2024', meta:'PDF · Personal service at Sam Kennard\'s home address · Accepted by his wife', desc:'Affidavit of Service sworn by Sheriff\'s Officer Delani Sibanda confirming personal service of the Originating Application (QUD18/2024) at Sam Kennard\'s home address on 25 January 2024. Service was accepted by his wife.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/HOSPPLX18_2024_01_25_15_28_59_978+(1).pdf', filename:'affidavit_of_service_sibanda.pdf' }
 };
 var currentFile = null;
 
