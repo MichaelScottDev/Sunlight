@@ -557,6 +557,183 @@
             <p class="text-[0.68rem] text-paper/45 leading-relaxed">The customer's email of 27 November, raising the double charge with a receipt attached, was not responded to. This fact was subsequently admitted by Kennards' own lawyers in their Defence filed in the Federal Court.</p>
         </div>
 
+        <!-- ═══ SMOKING GUN ═══ -->
+        <div class="reveal mb-12">
+            <div class="mb-6 px-5 py-4 flex items-center gap-3" style="background:rgba(193,68,14,0.14);border:1px solid rgba(193,68,14,0.5)">
+                <span class="font-display text-xs tracking-[0.25em] uppercase text-hot">The Smoking Gun</span>
+                <span class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/35 border border-paper/15 px-2 py-0.5">Three Documents · Read Together · Agreement 500002187 · Unit J041</span>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/55 mb-8">Three documents. Read together, they prove the billing error was real, that Kennards was already aware of the payment, and that the amount being demanded in writing did not match the statement attached to that same demand. This is what a $25 dispute looked like in writing — before Kennards escalated it to police threats, access blockage, and a Federal Court proceeding.</p>
+
+            <!-- DOCUMENT 1 — Statement -->
+            <div class="reveal mb-8" style="border:2px solid rgba(193,68,14,0.6);box-shadow:0 0 40px rgba(193,68,14,0.12)">
+                <div class="px-4 py-3 flex items-center justify-between" style="background:rgba(193,68,14,0.2);border-bottom:1px solid rgba(193,68,14,0.35)">
+                    <div class="flex items-center gap-3">
+                        <span class="font-display text-sm tracking-[0.2em] uppercase text-hot">Document 1 — The Statement</span>
+                        <span class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/45">Agreement 500002187 · Unit J041 · Generated 27 Nov 2023 8:32AM</span>
+                    </div>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/smoking-gun-1-incorrect-statement.pdf" target="_blank" rel="noopener" class="text-[0.48rem] tracking-[0.15em] uppercase text-hot/60 hover:text-hot border border-hot/30 hover:border-hot/60 px-2.5 py-1 transition-colors">↗ Open</a>
+                </div>
+
+                <!-- Issues callout -->
+                <div class="px-5 py-5" style="background:rgba(193,68,14,0.07);border-bottom:1px solid rgba(193,68,14,0.2)">
+                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-4">Issues Identified — Statement 500002187</div>
+                    <div class="space-y-3">
+                        <div class="flex gap-3 items-start border border-hot/20 p-3" style="background:rgba(193,68,14,0.06)">
+                            <span class="font-display text-base text-hot shrink-0 w-6 leading-none mt-0.5">1</span>
+                            <div>
+                                <div class="text-[0.53rem] tracking-[0.1em] uppercase text-hot/75 mb-1">Statement Period: 00/00/00 to 00/00/00</div>
+                                <p class="text-[0.6rem] text-paper/55 leading-relaxed">The billing period is completely blank — "From 00/00/00 to 00/00/00." This is not a valid billing statement. A statement with no dates cannot establish when charges accrued, cannot be verified against a billing cycle, and cannot legally support a demand for payment. This is the document Kennards used to demand $235.40.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-3 items-start border border-hot/20 p-3" style="background:rgba(193,68,14,0.06)">
+                            <span class="font-display text-base text-hot shrink-0 w-6 leading-none mt-0.5">2</span>
+                            <div>
+                                <div class="text-[0.53rem] tracking-[0.1em] uppercase text-hot/75 mb-1">LockCut + NewLock — $25.00 Listed as Unpaid · 17/11/2023</div>
+                                <p class="text-[0.6rem] text-paper/55 leading-relaxed">The statement charges $25.00 for "LockCut + NewLock" dated 17 November 2023 with no corresponding payment entry. The Westpac receipt (Document 2) proves this exact $25.00 was paid by EFTPOS to Kennards Southport on that same date — 17 November 2023. Kennards' own sworn affidavit describes this as an "Incomplete Statement" produced by an automated system that failed to record the payment.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-3 items-start border border-hot/20 p-3" style="background:rgba(193,68,14,0.06)">
+                            <span class="font-display text-base text-hot shrink-0 w-6 leading-none mt-0.5">3</span>
+                            <div>
+                                <div class="text-[0.53rem] tracking-[0.1em] uppercase text-hot/75 mb-1">Security Call Out: $85 — Customer Was Quoted $65</div>
+                                <p class="text-[0.6rem] text-paper/55 leading-relaxed">The Security Call Out charge on 4 November 2023 is $85.00. The customer was verbally informed the security callout fee was $65. The $20 discrepancy was raised in writing on 27 November and again on 5 December. It was not addressed or explained by Kennards at any point.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-3 items-start border border-hot/20 p-3" style="background:rgba(193,68,14,0.06)">
+                            <span class="font-display text-base text-hot shrink-0 w-6 leading-none mt-0.5">4</span>
+                            <div>
+                                <div class="text-[0.53rem] tracking-[0.1em] uppercase text-hot/75 mb-1">Statement Balance ($128.90) Does Not Match Email Demand ($235.40)</div>
+                                <p class="text-[0.6rem] text-paper/55 leading-relaxed">The statement's line items produce a closing balance of <strong class="text-paper/80">$128.90</strong>. The automated email sent at 08:31:58 — with this same statement attached — demands payment of <strong class="text-hot">$235.40</strong>. A $106.50 discrepancy between the amount demanded in writing and the balance shown on the attached document. The customer is being asked to pay $235.40 on the basis of a statement that shows $128.90 owing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/smoking-gun-1-incorrect-statement.pdf"
+                        class="w-full" style="min-height:540px;height:540px;border:none;filter:brightness(0.92)" loading="lazy"
+                        title="Kennards Incorrect Statement — Agreement 500002187"></iframe>
+                <div class="px-4 py-2 flex flex-wrap gap-4" style="background:rgba(193,68,14,0.1);border-top:1px solid rgba(193,68,14,0.25)">
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/65">Agreement 500002187 · Unit J041</span>
+                    <span class="text-paper/15">·</span>
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/30">Period: 00/00/00 to 00/00/00</span>
+                    <span class="text-paper/15">·</span>
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/30">Generated 27/11/2023 · 8:32:00 AM</span>
+                    <span class="text-paper/15">·</span>
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/65">$25 LockCut shown unpaid — already paid</span>
+                </div>
+            </div>
+
+            <!-- DOCUMENT 2 — Westpac Receipt -->
+            <div class="reveal mb-8" style="border:2px solid rgba(61,122,74,0.55);box-shadow:0 0 30px rgba(61,122,74,0.1)">
+                <div class="px-4 py-3 flex items-center justify-between" style="background:rgba(61,122,74,0.15);border-bottom:1px solid rgba(61,122,74,0.3)">
+                    <div class="flex items-center gap-3">
+                        <span class="font-display text-sm tracking-[0.2em] uppercase" style="color:#3d7a4a">Document 2 — The Westpac Receipt</span>
+                        <span class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/45">$25.00 EFTPOS · Kennards Southport · 17 November 2023</span>
+                    </div>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/smoking-gun-2-westpac-receipt.pdf" target="_blank" rel="noopener" class="text-[0.48rem] tracking-[0.15em] uppercase hover:opacity-100 border px-2.5 py-1 transition-colors" style="color:rgba(61,122,74,0.7);border-color:rgba(61,122,74,0.35)">↗ Open</a>
+                </div>
+
+                <!-- What it proves -->
+                <div class="px-5 py-5" style="background:rgba(61,122,74,0.06);border-bottom:1px solid rgba(61,122,74,0.18)">
+                    <div class="text-[0.46rem] tracking-[0.22em] uppercase mb-4" style="color:#3d7a4a">What This Receipt Proves</div>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-4">
+                        <div class="border p-3" style="border-color:rgba(61,122,74,0.2);background:rgba(61,122,74,0.04)">
+                            <div class="text-[0.43rem] tracking-[0.14em] uppercase mb-1" style="color:rgba(61,122,74,0.7)">Transaction Date</div>
+                            <div class="font-display text-base text-paper/75">17 Nov 2023</div>
+                            <p class="text-[0.55rem] text-paper/40 leading-relaxed mt-1">Same date as the LockCut + NewLock charge on the statement. Payment and charge: same day.</p>
+                        </div>
+                        <div class="border p-3" style="border-color:rgba(61,122,74,0.2);background:rgba(61,122,74,0.04)">
+                            <div class="text-[0.43rem] tracking-[0.14em] uppercase mb-1" style="color:rgba(61,122,74,0.7)">Amount</div>
+                            <div class="font-display text-base text-paper/75">$25.00</div>
+                            <p class="text-[0.55rem] text-paper/40 leading-relaxed mt-1">Exact match. The statement charges $25.00 for LockCut. This receipt confirms $25.00 paid to Kennards Southport.</p>
+                        </div>
+                        <div class="border p-3" style="border-color:rgba(61,122,74,0.2);background:rgba(61,122,74,0.04)">
+                            <div class="text-[0.43rem] tracking-[0.14em] uppercase mb-1" style="color:rgba(61,122,74,0.7)">Merchant</div>
+                            <div class="font-display text-sm text-paper/75">Kennards Southport</div>
+                            <p class="text-[0.55rem] text-paper/40 leading-relaxed mt-1">1 Olympic Cct, Southport QLD 4215 — the same facility. Transaction ID: 98b3a030.</p>
+                        </div>
+                    </div>
+                    <div class="border-l-4 pl-4 py-2" style="border-color:rgba(61,122,74,0.5);background:rgba(61,122,74,0.04)">
+                        <p class="text-[0.6rem] text-paper/55 leading-relaxed">The receipt was attached to the customer's email to Kennards on 27 November 2023 — the same morning the statement arrived. Kennards did not respond to that email. Their Defence in the Federal Court subsequently admitted they had received it.</p>
+                    </div>
+                </div>
+
+                <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/smoking-gun-2-westpac-receipt.pdf"
+                        class="w-full" style="min-height:460px;height:460px;border:none;filter:brightness(0.92)" loading="lazy"
+                        title="Westpac Receipt — $25 EFTPOS Kennards Southport 17 Nov 2023"></iframe>
+                <div class="px-4 py-2 flex flex-wrap gap-4" style="background:rgba(61,122,74,0.1);border-top:1px solid rgba(61,122,74,0.2)">
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase" style="color:rgba(61,122,74,0.7)">EFTPOS · $25.00 · 17/11/2023</span>
+                    <span class="text-paper/15">·</span>
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/30">Kennards Self Storage Southport · 1 Olympic Cct QLD 4215</span>
+                    <span class="text-paper/15">·</span>
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/30">Tx ID: 98b3a030-6485-ee11-b857-00505698d631</span>
+                </div>
+            </div>
+
+            <!-- DOCUMENT 3 — Email with incorrect amount -->
+            <div class="reveal mb-6" style="border:2px solid rgba(201,138,16,0.55);box-shadow:0 0 30px rgba(201,138,16,0.1)">
+                <div class="px-4 py-3 flex items-center justify-between" style="background:rgba(201,138,16,0.15);border-bottom:1px solid rgba(201,138,16,0.3)">
+                    <div class="flex items-center gap-3">
+                        <span class="font-display text-sm tracking-[0.2em] uppercase text-gold">Document 3 — The Email Demand</span>
+                        <span class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/45">AgreeNo: 500002187 · 27 Nov 2023 08:31:58 · Demands $235.40 · Statement shows $128.90</span>
+                    </div>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/smoking-gun-3-email-incorrect-amount.pdf" target="_blank" rel="noopener" class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60 hover:text-gold border border-gold/30 hover:border-gold/60 px-2.5 py-1 transition-colors">↗ Open</a>
+                </div>
+
+                <!-- Issues callout -->
+                <div class="px-5 py-5" style="background:rgba(201,138,16,0.06);border-bottom:1px solid rgba(201,138,16,0.18)">
+                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-4">Issues Identified — The Email</div>
+                    <div class="space-y-3">
+                        <div class="flex gap-3 items-start border border-gold/20 p-3" style="background:rgba(201,138,16,0.05)">
+                            <span class="font-display text-base text-gold shrink-0 w-6 leading-none mt-0.5">1</span>
+                            <div>
+                                <div class="text-[0.53rem] tracking-[0.1em] uppercase text-gold/75 mb-1">Agreement Number Matches — 500002187</div>
+                                <p class="text-[0.6rem] text-paper/55 leading-relaxed">The email subject line reads: <em>"RE: Automated Credit Card Payment (Declined) | AgreeNo: 500002187 | Unit(s): J041"</em>. The attachment is named <em>StatementKESOU500002187.pdf</em>. This is the same statement — Agreement 500002187 — as Document 1. The two documents are directly linked. The email generated the statement; the statement was attached to the email.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-3 items-start border border-gold/20 p-3" style="background:rgba(201,138,16,0.05)">
+                            <span class="font-display text-base text-gold shrink-0 w-6 leading-none mt-0.5">2</span>
+                            <div>
+                                <div class="text-[0.53rem] tracking-[0.1em] uppercase text-gold/75 mb-1">Email Demands $235.40 — Statement Shows $128.90</div>
+                                <p class="text-[0.6rem] text-paper/55 leading-relaxed">The email body states: <em>"Your current account balance is $235.40."</em> The attached statement — the one Kennards produced to support that demand — shows a closing balance of <strong class="text-paper/80">$128.90</strong> on its face. A <strong class="text-gold">$106.50 discrepancy</strong> between what the automated system demanded and what the document it attached actually showed. The customer is being chased for $235.40 on the basis of paperwork that only justifies $128.90.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-3 items-start border border-gold/20 p-3" style="background:rgba(201,138,16,0.05)">
+                            <span class="font-display text-base text-gold shrink-0 w-6 leading-none mt-0.5">3</span>
+                            <div>
+                                <div class="text-[0.53rem] tracking-[0.1em] uppercase text-gold/75 mb-1">Email Sent 08:31:58 · Statement Generated 08:32:00 — Two Seconds Apart</div>
+                                <p class="text-[0.6rem] text-paper/55 leading-relaxed">The email timestamp is 08:31:58 on 27 November 2023. The statement footer reads "Generated on 27/11/2023 at 8:32:00 AM." The demand and the supporting document were produced in the same automated instant — two seconds apart. Neither was reviewed before being sent. The $25 fee already paid on 17 November was included in both without any human check.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/smoking-gun-3-email-incorrect-amount.pdf"
+                        class="w-full" style="min-height:560px;height:560px;border:none;filter:brightness(0.92)" loading="lazy"
+                        title="Kennards Email — Incorrect Amount · Agreement 500002187"></iframe>
+                <div class="px-4 py-2 flex flex-wrap gap-4" style="background:rgba(201,138,16,0.1);border-top:1px solid rgba(201,138,16,0.22)">
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-gold/70">AgreeNo: 500002187 · Sent 08:31:58 · 27/11/2023</span>
+                    <span class="text-paper/15">·</span>
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/30">Email demands $235.40</span>
+                    <span class="text-paper/15">·</span>
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-gold/70">Attached statement shows $128.90 — $106.50 gap</span>
+                </div>
+            </div>
+
+            <!-- Three-document summary -->
+            <div class="border border-hot/25 p-5" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-4">What the Three Documents Establish Together</div>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/50 leading-relaxed">The $25 LockCut fee was <strong class="text-paper/70">paid on 17 November 2023</strong> — proven by Westpac bank record, transaction ID 98b3a030, merchant Kennards Southport.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/50 leading-relaxed">Kennards' statement shows that same $25 charge dated 17 November as <strong class="text-paper/70">outstanding and unpaid</strong> — with no corresponding payment recorded.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/50 leading-relaxed">The statement has <strong class="text-paper/70">no valid billing period</strong> — the dates read 00/00/00 to 00/00/00. It is, on its face, an incomplete administrative document.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/50 leading-relaxed">The email demanding payment cites <strong class="text-paper/70">$235.40</strong> — but attaches a statement (same Agreement No.) showing a closing balance of <strong class="text-paper/70">$128.90</strong>. The documents are internally inconsistent.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/50 leading-relaxed">Kennards <strong class="text-paper/70">did not respond</strong> to the customer's email raising these issues — admitted in their own Federal Court Defence. Instead, they blocked access, threatened police, and engaged Piper Alderman.</p></div>
+                </div>
+            </div>
+        </div>
+
         <!-- Chapter B: The Response -->
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.55)">
             <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter B — The Response · 5 December 2023</span></div>
