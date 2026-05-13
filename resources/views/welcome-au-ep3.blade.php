@@ -2215,11 +2215,73 @@
             </div>
         </div>
 
+        <!-- $2,000 Fine — Martin dobbed in Adam to the Council Ranger -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.6)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Consequence · Council Ranger · $2,000 Fine</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">MARTIN DOBBED HIM IN TO THE COUNCIL RANGER.<br><span class="text-hot">CAUGHT ON CCTV. ADAM GOT A $2,000 FINE.</span></h3>
+            <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"He didn't just threaten to report Adam. He went and did it. The disability centre caught him on video talking to the Council Ranger — and told Adam."</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">After knocking on Adam Watson's car window and threatening to report him, Martin followed through. Adam subsequently received a <strong class="text-paper/70">$2,000 fine</strong> from a Council Ranger for sleeping in his car. Staff at the disability centre then came to Adam with information: they had caught Martin on CCTV talking to the Council Ranger — effectively dobbing Adam in.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">The fine did not arrive by chance. Martin identified the location. Martin made contact with the Ranger. The disability centre employees witnessed the exchange and reported it back to Adam. This is not a pattern of concern or misguided helpfulness. This is deliberate, targeted reporting — intended to result in a financial penalty against a homeless man sleeping in a car.</p>
+
+            <!-- Three-column breakdown -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The Fine</div>
+                    <div class="font-display text-2xl text-hot mb-1">$2,000</div>
+                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">Issued by Council Ranger for sleeping in a vehicle — following Martin's report. Issued against a homeless man with no alternative accommodation.</p>
+                </div>
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Caught on CCTV</div>
+                    <div class="font-display text-sm text-paper/70 mb-1">Disability Centre Footage</div>
+                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">Disability centre staff saw Martin on their CCTV talking directly to the Council Ranger. They told Adam. Martin had no business being involved in this interaction.</p>
+                </div>
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The Irony</div>
+                    <div class="font-display text-sm text-paper/70 mb-1">Martin Also Sleeps in His Car</div>
+                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">Martin himself lives in his vehicle — he approached Adam for laundry access from that same vehicle. He reported another person for doing exactly what he does.</p>
+                </div>
+            </div>
+
+            <!-- Irony callout -->
+            <div class="border border-hot/30 p-5 mb-5" style="background:rgba(193,68,14,0.06)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">The Irony Cannot Be Overstated</div>
+                <p class="text-[0.68rem] text-paper/55 leading-relaxed mb-3">Martin does not have a driver's licence. Martin lives in his vehicle. Martin approached Adam Watson — who was homeless — to ask for access to laundry facilities, from that same vehicle. Martin then reported Adam Watson to a Council Ranger for sleeping in a car.</p>
+                <p class="text-[0.68rem] text-paper/55 leading-relaxed">The person who reported Adam for sleeping in a vehicle is themselves sleeping in a vehicle. The person who sought help from Adam now sought to have Adam fined $2,000 for his accommodation situation. The disability centre staff who witnessed Martin speaking to the Ranger understood what they were seeing. They told Adam.</p>
+            </div>
+
+            <!-- Sequence -->
+            <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-3">The Sequence</div>
+                <div class="space-y-2">
+                    <div class="grid grid-cols-[80px_1fr] gap-3 items-start">
+                        <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 1</div>
+                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Martin locates Adam's car at the disability centre and knocks on the window while he sleeps. Threatens to report him.</p>
+                    </div>
+                    <div class="grid grid-cols-[80px_1fr] gap-3 items-start">
+                        <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 2</div>
+                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Martin approaches the Council Ranger and reports Adam Watson for sleeping in his vehicle. Disability centre CCTV captures the exchange.</p>
+                    </div>
+                    <div class="grid grid-cols-[80px_1fr] gap-3 items-start">
+                        <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 3</div>
+                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Adam Watson receives a $2,000 fine from the Council Ranger.</p>
+                    </div>
+                    <div class="grid grid-cols-[80px_1fr] gap-3 items-start">
+                        <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 4</div>
+                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Disability centre staff inform Adam that they caught Martin on CCTV talking to the Ranger. Martin's role is confirmed.</p>
+                    </div>
+                    <div class="grid grid-cols-[80px_1fr] gap-3 items-start">
+                        <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">The Irony</div>
+                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Martin himself sleeps in his car. He reported a homeless man for doing what he does himself.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Conclusion -->
         <div class="reveal mb-6 p-6 md:p-8" style="background:rgba(124,106,170,0.07);border:1px solid rgba(124,106,170,0.2)">
             <div class="text-[0.5rem] tracking-[0.22em] uppercase mb-4" style="color:#7c6aaa">Conclusion</div>
             <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight text-paper/80">NOT EVERY INTERACTION REQUIRES YOUR INVOLVEMENT.</h3>
-            <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Martin's actions across every documented incident demonstrate the same pattern: insertion without invitation, intervention without standing, and misrepresentation when confronted. The harm caused by each individual action — a coffee shop closure, a false implication, a court file requested with no right to it — might appear isolated. The pattern makes it something else.</p>
+            <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Martin's actions across every documented incident demonstrate the same pattern: insertion without invitation, intervention without standing, and misrepresentation when confronted. The harm caused by each individual action — a coffee shop closure, a false implication, a court file requested with no right to it, a $2,000 fine engineered by reporting a homeless man for sleeping in a car while doing the same himself — might appear isolated. The pattern makes it something else.</p>
             <p class="text-[0.68rem] text-paper/48 leading-relaxed">Sometimes the most harmful actions come from those who believe they are helping. Martin has not been asked to help. He has not been given permission to insert himself into matters that do not involve him. He continues anyway. That is the record.</p>
             <div class="flex items-center gap-3 mt-5">
                 <div class="w-8 h-px" style="background:rgba(124,106,170,0.4)"></div>
