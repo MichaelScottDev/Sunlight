@@ -205,7 +205,7 @@
             <div class="p-6 fade-up" style="animation-delay:0.2s">
                 <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Key Subject</div>
                 <div class="font-display text-xl tracking-wide text-paper/80 mb-1">HELLEN PERTEKES</div>
-                <div class="text-[0.52rem] text-paper/30 leading-relaxed">Director — Born to Shine Disability Services<br>Former Director — Books R Us Accounting</div>
+                <div class="text-[0.52rem] text-paper/30 leading-relaxed">Director — Born to Shine Disability Services<br>Principal — Books R Us Accounting</div>
             </div>
             <div class="p-6 fade-up" style="animation-delay:0.25s">
                 <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Alleged Amount — Medical Scam</div>
@@ -281,16 +281,23 @@
                 <div class="flex items-center gap-3 mb-4">
                     <span class="text-[0.5rem] tracking-[0.2em] uppercase text-sage border border-sage/40 px-2 py-1">The Firm</span>
                 </div>
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">BOOKS R US ACCOUNTING.<br><span class="text-sage">NOW OFFLINE. THE DOMAIN IS DOWN.</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"She ran a bookkeeping firm. Adam Watson trusted her with his taxes. The website is gone now. The damage it left behind is not."</p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Hellen Pertekes operated <strong class="text-paper/65">Books R Us Accounting</strong>, a bookkeeping and accounting firm that can no longer be found at its former domain — <span class="text-sage/70">books-r-us.com.au</span> — which is now down. Adam Watson engaged the firm to handle his tax affairs. He paid for the service. Returns were not lodged. The ATO, in the course of pursuing Adam Watson as the taxpayer of record, became the mechanism through which the failure to lodge was first surfaced as a formal matter.</p>
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">BOOKS R US ACCOUNTING.<br><span class="text-sage">THE FIRM ADAM WATSON TRUSTED WITH HIS TAXES.</span></h3>
+                <!-- Books R Us logo -->
+                <div class="flex items-center gap-4 mb-5">
+                    <a href="https://books-r-us.com.au/" target="_blank" rel="noopener noreferrer">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/Boos-r-us-accounting-logo-retina.jpg" alt="Books R Us Accounting" style="max-height:60px;width:auto;object-fit:contain;" />
+                    </a>
+                    <a href="https://books-r-us.com.au/" target="_blank" rel="noopener noreferrer" class="text-[0.6rem] text-sage/70 hover:text-sage underline underline-offset-2 tracking-wide">books-r-us.com.au</a>
+                </div>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Adam Watson contracted Hellen Pertekes — Principal at Books R Us Accounting — to handle his tax affairs. What followed led to Federal Court proceedings."</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Adam Watson contracted <strong class="text-paper/65">Hellen Pertekes</strong>, Principal at <strong class="text-paper/65">Books R Us Accounting</strong>, to manage his tax affairs. He paid for the service. Returns were not lodged. The ATO, in the course of pursuing Adam Watson as the taxpayer of record, became the mechanism through which the failure to lodge was first surfaced as a formal matter.</p>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
                     <div class="border border-sage/20 p-4" style="background:rgba(61,122,74,0.03)">
-                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-2">The Business (Former)</div>
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-2">The Business</div>
                         <div class="space-y-1.5">
                             <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Name:</strong> Books R Us Accounting</p></div>
-                            <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Domain:</strong> books-r-us.com.au — now down</p></div>
-                            <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Director:</strong> Hellen Pertekes</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Website:</strong> <a href="https://books-r-us.com.au/" target="_blank" class="text-sage/70 hover:text-sage underline underline-offset-2">books-r-us.com.au</a></p></div>
+                            <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Principal:</strong> Hellen Pertekes</p></div>
                             <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Service engaged:</strong> Tax returns — Adam Watson</p></div>
                         </div>
                     </div>
@@ -377,7 +384,7 @@
                     </div>
                 </div>
 
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"After Books R Us went offline, she opened an NDIS business. She is the Director. The clients are now disabled Australians accessing government-funded care — not taxpayers."</p>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"While Federal Court proceedings are active, Hellen Pertekes has opened an NDIS business. She is the Director. The clients are now disabled Australians accessing government-funded care — not taxpayers."</p>
                 <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">While the Federal Court proceedings are active and the ATO is pursuing her as a hostile witness, Hellen Pertekes has moved into an entirely different sector. She is now the Director of <strong class="text-paper/65">Born to Shine Disability Services</strong>, an NDIS provider operating at <span class="text-sage/70">borntoshinedisabilityservices.com.au</span>. The National Disability Insurance Scheme is a Commonwealth-funded program that directs public money to registered providers who deliver services to Australians with disability. Registration as an NDIS provider carries obligations, background checks, and ongoing compliance requirements.</p>
 
                 <div class="border border-sage/20 p-5 mb-5" style="background:rgba(61,122,74,0.03)">
@@ -390,7 +397,7 @@
                         </div>
                         <div class="space-y-1.5">
                             <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Funding:</strong> Commonwealth — NDIS participants' plans</p></div>
-                            <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Previous business:</strong> Books R Us Accounting — domain now down</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Previous business:</strong> Books R Us Accounting</p></div>
                             <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Concurrent proceedings:</strong> Active — Federal Court NSD2438/2025</p></div>
                         </div>
                     </div>
