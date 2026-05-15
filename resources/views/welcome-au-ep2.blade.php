@@ -2715,6 +2715,53 @@
             </div>
         </div>
 
+        <!-- Incident 14: Zach — Pig's Head / Pacific Fair / Complaint Withdrawn -->
+        <div class="story-chapter reveal mt-10" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Incident 14 — Zach · Pacific Fair · Pig's Head · Complaint Withdrawn</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">PUNCHED FOR TALKING TO A GIRL.<br><span class="text-hot">RETALIATED. PUNCHED AGAIN. POLICE COULDN'T HELP.</span></h3>
+            <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"RJ went to the police to report an assault. Zach admitted it — but told police exactly why. They had the CCTV. RJ withdrew the complaint."</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">RJ made a comment while trying to talk to a girl. Zach — a Muslim man — punched him. Rather than leave it there, RJ organised a retaliatory act: he went with <strong class="text-paper/65">Bodie Chalmers</strong> to Zach's home address and left a <strong class="text-paper/65">pig's head on his door</strong>. A deliberate religious provocation — pig products being forbidden under Islamic law — directed at a man who had punched him.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Zach saw RJ at <strong class="text-paper/65">Pacific Fair</strong> and punched him again. RJ went to the police to make a formal assault complaint. When police spoke to Zach, he admitted the assault without hesitation — but gave his reason: RJ had left a pig's head at his door. Zach also had <strong class="text-paper/65">CCTV footage</strong> of RJ and Bodie Chalmers at his address. Police informed RJ that if they were going to charge Zach for the assault, they would have to charge RJ for the pig's head incident as well. RJ withdrew his complaint.</p>
+
+            <!-- Four-cell breakdown -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">First Punch</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">RJ made a comment while trying to talk to a girl. Zach punched him in response.</p>
+                </div>
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The Retaliation</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">RJ and Bodie Chalmers went to Zach's home address and placed a pig's head on his door — a deliberate religious provocation against a Muslim man. Zach had CCTV capturing both of them.</p>
+                </div>
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Second Punch — Pacific Fair</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Zach encountered RJ at Pacific Fair and punched him again. RJ went to police and made a formal assault complaint.</p>
+                </div>
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The Police Response</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Zach admitted the assault — and explained the pig's head. He had the CCTV. Police told RJ: charging Zach means charging RJ too. RJ withdrew his complaint.</p>
+                </div>
+            </div>
+
+            <!-- Zach's admission callout -->
+            <div class="border-l-4 border-hot/60 pl-5 mb-5" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">Zach's Position to Police</div>
+                <p class="text-[0.65rem] text-paper/55 leading-relaxed italic mb-2">"Yes, I punched him — because he left a pig's head at my door."</p>
+                <p class="text-[0.65rem] text-paper/45 leading-relaxed">Zach did not deny the assault. He explained it. He had CCTV evidence of RJ and Bodie Chalmers at his property. The pig's head — a religiously targeted act against a Muslim man — was on the record. RJ came to the police as a victim. He left having withdrawn his own complaint.</p>
+            </div>
+
+            <!-- Consequence panel -->
+            <div class="border border-paper/[0.07] p-5" style="background:rgba(193,68,14,0.03)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Why the Complaint Was Withdrawn</div>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Charging Zach for assault required police to also charge RJ for the pig's head incident — a targeted religious provocation documented on Zach's own CCTV.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">RJ had arrived at the police station as the victim. The pig's head — placed at a Muslim man's home — made that position untenable.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Bodie Chalmers was also present at Zach's property — captured on the same CCTV. His involvement in the retaliation is on the record.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Complaint withdrawn. No charges proceeded. The sequence — provocation, escalation, police weaponisation, retreat — is the same pattern documented across RJ's other incidents.</p></div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 
