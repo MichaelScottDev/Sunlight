@@ -946,6 +946,53 @@
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed">This is what social stigmatisation looks like in practice. A person who was the subject of a charge the DPP ruled malicious, who was never convicted, who has no finding against him — denied service at a fast food outlet because of rumours spread by the person who fabricated the charge. This is what Bodie Chalmers and his accomplice Ebony's conduct costs people in daily life.</p>
                 </div>
 
+                <!-- Aaliyah — Broadbeach Library Carpark / Southport Police / Farshad Sarabi -->
+                <div class="story-chapter reveal mt-6 mb-6" style="border-left-color:rgba(193,68,14,0.5)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Aaliyah · Bodie's Girlfriend · Southport Police · False Harassment Claim</span></div>
+                    <h4 class="font-display text-xl tracking-wide mb-4 leading-tight">PRESENT WHEN BODIE YELLED "RUSSIAN!" AT ADAM.<br><span class="text-hot">AFTER HE WENT TO JAIL, SHE WENT TO THE POLICE.</span></h4>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Aaliyah was there in the Broadbeach library carpark when Bodie was screaming 'Russian!' at Adam. After Bodie went to jail, she walked into Southport Police Station and claimed she was being harassed. A female officer called Adam to say she was going to have him charged — then called Bodie in Corrective Services."</p>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Aaliyah — Bodie Chalmers's girlfriend — was present at the Broadbeach library carpark during the incident in which Bodie was yelling <em class="text-paper/65">"Russian!"</em> at Adam Watson. She witnessed what occurred. After Bodie Chalmers was remanded into custody, Aaliyah attended <strong class="text-paper/65">Southport Police Station</strong> and made a complaint claiming she was being harassed by Adam Watson.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">A female police officer called Adam Watson directly and informed him that Aaliyah was making a harassment complaint and that she was going to have him charged. That same female officer then called <strong class="text-paper/65">Bodie Chalmers in Corrective Services</strong> — who used the opportunity to make further allegations that he had been raped by Adam Watson.</p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-5">
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Broadbeach Library Carpark</div>
+                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">Aaliyah was present when Bodie Chalmers was yelling "Russian!" at Adam Watson. She witnessed the incident firsthand.</p>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Southport Police Station</div>
+                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">After Bodie went to jail, Aaliyah attended Southport Police Station claiming harassment. A female officer called Adam Watson to advise he would be charged.</p>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Call to Corrective Services</div>
+                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">The same female officer then called Bodie Chalmers in custody. He used the call to allege he had been raped by Adam Watson — allegations made from behind bars.</p>
+                        </div>
+                    </div>
+
+                    <!-- Conduct callout -->
+                    <div class="border-l-4 border-hot/60 pl-5 mb-5" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The Officer's Conduct</div>
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed mb-2">A police officer receiving a complaint is not ordinarily expected to then contact the incarcerated partner of the complainant — providing him with information that he then used to make fresh allegations from custody. The sequence — Aaliyah's complaint, the officer's call to Adam, the officer's call to Bodie in Corrective Services, and Bodie's fresh allegations — is a chain that a police officer's conduct helped facilitate.</p>
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">Adam Watson is engaging <strong class="text-paper/70">Farshad Sarabi</strong> as his lawyer to pursue a charge against police in relation to the conduct arising from Aaliyah's allegations and the officer's actions.</p>
+                    </div>
+
+                    <!-- Farshad Sarabi -->
+                    <div class="border border-gold/25 p-4" style="background:rgba(201,138,16,0.04)">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-2">Legal Representation — Farshad Sarabi</div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <div>
+                                <div class="font-display text-base text-paper/70 mb-1">Farshad Sarabi</div>
+                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Engaged by Adam Watson to pursue a charge against Queensland Police arising from the officer's conduct in connection with Aaliyah's harassment allegations and the subsequent call to Bodie Chalmers in Corrective Services.</p>
+                            </div>
+                            <div class="border border-gold/15 p-3" style="background:rgba(201,138,16,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-gold mb-1.5">Current Status</div>
+                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Active. Adam Watson is pursuing this matter through legal channels with Farshad Sarabi as counsel.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Tweed Heads pub incident -->
                 <div class="border-l-4 border-hot/40 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Tweed Heads — Pub Incident</div>
