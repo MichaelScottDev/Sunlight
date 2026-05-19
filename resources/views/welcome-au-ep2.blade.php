@@ -2264,6 +2264,24 @@
                 <p class="text-[0.68rem] text-paper/45 leading-relaxed">This is the mechanism of indemnity insurance fraud: make an allegation false enough to cause maximum institutional disruption but specific enough to trigger an insurance response. You don't need a conviction. You need a claim. The doctor's office was raided. A civil lawsuit ran against the insurance. The insurance became unrenewable. A private practice — built over decades — ceased to exist. The person who made the allegation has never been convicted of anything in connection with it.</p>
             </div>
 
+            <!-- What actually happened during the examination -->
+            <div class="border border-hot/30 p-5 mb-5" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">What Actually Happened — The Medical Examination</div>
+                <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">RJ CAME IN FOR A TESTICULAR EXAMINATION.<br><span class="text-hot">THE DOCTOR'S NOTES RECORD EXACTLY WHAT HAPPENED.</span></h4>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">RJ attended the clinic to have his testicles examined. During the course of the examination — a routine clinical inspection — RJ began leaking pre-ejaculatory fluid. The doctor noted this in his clinical records at the time. Those notes became the document that protected him: a contemporaneous clinical record made during the consultation, before any allegation existed, recording what had physically occurred during the examination.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">RJ then ran with a false allegation of unwanted contact. He claimed the examination was not consensual — that he had been subjected to contact he had not agreed to. The doctor's own medical notes — made in the ordinary course of a clinical consultation — established precisely what had taken place and in what order. The notes recorded the physiological response RJ exhibited during the examination. They directly contradicted the framing RJ subsequently advanced.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">The Clinical Record</div>
+                        <p class="text-[0.58rem] text-paper/45 leading-relaxed">The doctor made contemporaneous notes during the consultation recording what occurred. Those notes — made before any allegation was raised — documented RJ's physiological response during the examination.</p>
+                    </div>
+                    <div class="border border-sage/15 p-3" style="background:rgba(61,122,74,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.15em] uppercase text-sage mb-1.5">Why the Notes Protected Him</div>
+                        <p class="text-[0.58rem] text-paper/45 leading-relaxed">Contemporaneous clinical records carry significant evidentiary weight. Notes made at the time of a consultation — before any dispute arose — establish the factual sequence of events as recorded by the treating practitioner.</p>
+                    </div>
+                </div>
+            </div>
+
             <!-- Uttering charge callout -->
             <div class="border border-sage/25 p-5 mb-2" style="background:rgba(61,122,74,0.04)">
                 <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-3">Second Allegation — Uttering a Document · Defeated at First Appearance</div>
