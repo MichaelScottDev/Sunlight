@@ -715,6 +715,35 @@
                     <div class="border p-5" style="border-color:rgba(193,68,14,0.3);background:rgba(193,68,14,0.03)"><div class="font-display text-xl text-hot mb-1">OFFICER FIRED</div><div class="text-[0.6rem] tracking-[0.15em] uppercase text-hot/60 mb-3">Confirmed Outcome</div><p class="text-[0.65rem] text-paper/40 leading-relaxed">The QPS officer who accepted and actioned the false complaint from Bodie Chalmers and Ebony was subsequently dismissed from the service.</p></div>
                 </div>
 
+                <!-- Prosecutor Integrity — "Malicious Prosecution" on the record -->
+                <div class="border border-sage/30 p-5 mb-8" style="background:rgba(61,122,74,0.05)">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-sage">QLD Police Prosecutor — Integrity on the Record</span>
+                        <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-sage/40 text-sage/70 px-1.5 py-0.5">STATED IN COURT</span>
+                    </div>
+                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">"YOUR HONOUR, I AM WILLING TO STATE THAT THIS IS MALICIOUS PROSECUTION."<br><span class="text-sage">A QLD POLICE PROSECUTOR. ON THE RECORD. THEN BULLIED OUT OF THE JOB.</span></h4>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">A Queensland Police prosecutor — standing at the bar table — stated on the court record: <em class="text-paper/70">"Your Honour, I'm willing to state that this is malicious prosecution."</em> This is an extraordinary act. A member of the Queensland Police Service, in open court, voluntarily characterising a fellow officer's conduct as malicious prosecution. Prosecutors do not say this lightly. It is not a routine submission. It is the kind of statement that defines a career — and in this case, it did.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">For standing up for what was right, she was ruthlessly bullied by members of the Queensland Police Service. The institutional response to her integrity was not commendation. It was sustained internal pressure. She subsequently left Queensland Police and entered private practice.</p>
+                    <div class="border-l-4 border-sage/50 pl-4 mb-4" style="background:rgba(61,122,74,0.06);padding:0.85rem 1rem 0.85rem 1.25rem">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-sage mb-2">Sunlight.Quest — On Record</div>
+                        <p class="text-[0.65rem] text-paper/55 leading-relaxed">Sunlight.Quest commends her for standing up for what was right. Her statement — made in open court, in the face of institutional pressure — is the kind of conduct that a justice system depends on and rarely rewards. We are in the process of identifying who she is and intend to feature her properly. She deserves to be on the record for what she did.</p>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <div class="border border-sage/15 p-3" style="background:rgba(61,122,74,0.03)">
+                            <div class="text-[0.43rem] tracking-[0.15em] uppercase text-sage mb-1.5">What She Said</div>
+                            <p class="text-[0.58rem] text-paper/45 leading-relaxed italic">"Your Honour, I'm willing to state that this is malicious prosecution."</p>
+                        </div>
+                        <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">What Happened to Her</div>
+                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">Bullied by QLD Police members for speaking the truth. Left the service. Now in private practice.</p>
+                        </div>
+                        <div class="border border-sage/15 p-3" style="background:rgba(61,122,74,0.03)">
+                            <div class="text-[0.43rem] tracking-[0.15em] uppercase text-sage mb-1.5">Sunlight.Quest</div>
+                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">Commends her integrity. Identification in progress. Will be featured in full when confirmed.</p>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Criminal Injuries Compensation Loophole -->
                 <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE CHARGE WAS FAKE.<br><span class="text-hot">THE $165,000 WAS REAL.</span></h3>
                 <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"The DPP called it malicious prosecution. The officer was fired. And Bodie Chalmers walked out of the courthouse, saw Adam Watson, and laughed at him. Then he claimed $165,000 in Criminal Injuries Compensation — for a crime that never happened."</p>
@@ -764,13 +793,37 @@
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Prior to the first court mention of his case, Bodie Chalmers sent Adam Watson an <strong class="text-paper/60">unsolicited explicit image</strong> — an unsolicited photograph of his genitals. Adam Watson presented this to the Director of Public Prosecutions. The DPP's response was immediate and unambiguous: <span class="font-display text-paper/70">"That says it all. This is unwinnable."</span> It is one of the factors that informed the DPP's assessment that the prosecution was malicious.</p>
 
                     <!-- Grooming allegation — rebuttal -->
-                    <div class="border border-hot/20 p-4 mb-0" style="background:rgba(193,68,14,0.03)">
+                    <div class="border border-hot/20 p-4 mb-4" style="background:rgba(193,68,14,0.03)">
                         <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">False Allegation — "Adam Groomed Bodie at Age 17"</div>
                         <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Bodie Chalmers's mother has stated that Adam Watson knew Bodie when he was 17 years old and groomed him. <strong class="text-paper/60">This narrative is false.</strong></p>
                         <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Call records will establish that Adam Watson was not in the Gold Coast and had no phone interactions with Bodie Chalmers during the period when Bodie was 17. Metadata will prove this conclusively should the allegation ever progress to that point.</p>
                         <div class="border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.12)">
                             <div class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/25 mb-2">Current Status</div>
                             <p class="text-[0.62rem] text-paper/38 leading-relaxed">There are <strong class="text-paper/52">no open investigations against Adam Watson</strong> in relation to this allegation. The claim originates from Bodie Chalmers's mother and is consistent with the broader pattern of false allegations — including the one already ruled a malicious prosecution — being deployed to attach criminal character to Adam Watson where none exists.</p>
+                        </div>
+                    </div>
+
+                    <!-- Centrelink DV Payment — Bodie + Amanda Chalmers -->
+                    <div class="border border-hot/35 p-5" style="background:rgba(193,68,14,0.06)">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">Centrelink — Domestic Violence Payment · Bodie Chalmers &amp; Amanda Chalmers</span>
+                            <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-hot/40 text-hot/70 px-1.5 py-0.5">AFP REFERRAL</span>
+                        </div>
+                        <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">BODIE CHALMERS AND HIS MOTHER WENT TO CENTRELINK.<br><span class="text-hot">DOMESTIC VIOLENCE PAYMENT. FALSE STATEMENTS. REFERRED TO THE AFP.</span></h4>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">Bodie Chalmers and his mother <strong class="text-paper/70">Amanda Chalmers</strong> attended Centrelink and made statements against Adam Watson for the purpose of obtaining a domestic violence payment. The statements they made are the basis for those claims. This matter has been referred to the <strong class="text-paper/70">Australian Federal Police</strong>. Adam Watson is prepared for this court case and is ready to contest it.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Who Attended</div>
+                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Bodie Chalmers and his mother Amanda Chalmers. Statements made against Adam Watson for the purposes of a domestic violence payment.</p>
+                            </div>
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">AFP Referral</div>
+                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">This matter has been referred to the Australian Federal Police. It is an active matter with federal jurisdiction.</p>
+                            </div>
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Adam Watson's Position</div>
+                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Adam Watson is ready for this court case and is prepared to contest every element of the claims made against him.</p>
+                            </div>
                         </div>
                     </div>
                 </div>

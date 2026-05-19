@@ -924,6 +924,80 @@
                         <p class="text-[0.68rem] text-paper/50 leading-relaxed">Marc Barrow made a comment to Adam Watson that if RJ stabs Kosta to death, he will turn a blind eye. Adam Watson relayed this to Kosta. A sworn officer of Queensland Police stated to a third party that he would ignore the murder of a named individual by a named associate. This is not a figure of speech. It is a threat communicated via an intermediary, and it has been documented accordingly.</p>
                     </div>
 
+                    <!-- Plaintum & Empire Nightclub — aftermath -->
+                    <div class="story-chapter reveal mt-6" style="border-left-color:rgba(193,68,14,0.55)">
+                        <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Plaintum &amp; Empire Nightclub · Sale Blocked · Criminal Seizure · Death Threat</span></div>
+                        <h4 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE SALE WAS BLOCKED BY MARC BARROW.<br><span class="text-hot">WHAT CAME NEXT: $20M SEIZED. 12 ARRESTED. A DEATH THREAT.</span></h4>
+
+                        <!-- Nightclub photo -->
+                        <div class="mb-5">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/plaintum_empire.jpg" alt="Plaintum and Empire Nightclub" class="w-full object-contain border border-paper/[0.07]" style="background:#0d0d0d;max-height:480px" loading="lazy" />
+                            <div class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/20 mt-1.5">Plaintum &amp; Empire Nightclub · Surfers Paradise · Gold Coast</div>
+                        </div>
+
+                        <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">After Marc Barrow threatened to oppose the liquor licence application, the sale of the Plaintum and Empire nightclubs did not proceed to Adam Watson. Barrow's mechanism: he used the <strong class="text-paper/65">sexual assault charge sheet</strong> — the charge filed by the corrupt officer after Bodie Chalmers and his mother attended the police station — to insinuate that Adam Watson was not a fit and proper person to hold a liquor licence. A charge that the DPP subsequently ruled a malicious prosecution was weaponised to block a commercial transaction.</p>
+                        <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The capital behind Adam Watson's acquisition was <strong class="text-paper/65">$250,000 from Mrs. Rinehart</strong>. With the sale blocked, the venues were subsequently acquired by a criminal enterprise — and used to launder money.</p>
+
+                        <!-- Three-column: what happened -->
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                            <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                                <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">How the Sale Was Blocked</div>
+                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Marc Barrow used the QP-9 charge sheet — originating from Bodie Chalmers and his mother's station visit — to insinuate Adam Watson was not a fit and proper person for a liquor licence. The charge was later ruled malicious prosecution.</p>
+                            </div>
+                            <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                                <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">What It Was Sold Into</div>
+                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">The venues were subsequently purchased by a criminal enterprise and used to launder money. QLD Police seized the assets — including <strong class="text-paper/65">$20 million in liquid capital</strong> in one of the accounts used in the laundering operation. Twelve people were arrested.</p>
+                            </div>
+                            <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.04)">
+                                <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-2">The Capital Behind the Acquisition</div>
+                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">$250,000 from Mrs. Rinehart. The blocked sale meant that capital was not deployed. The venues went instead to buyers who used them as a money laundering vehicle.</p>
+                            </div>
+                        </div>
+
+                        <!-- Seizure stats -->
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-5">
+                            <div class="bg-ink px-5 py-5 text-center border border-paper/[0.06]">
+                                <div class="stat-number text-4xl text-hot mb-1">$20M</div>
+                                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Liquid capital seized</div>
+                                <div class="text-[0.5rem] text-paper/18 mt-1">From a single laundering account</div>
+                            </div>
+                            <div class="bg-ink px-5 py-5 text-center border border-paper/[0.06]">
+                                <div class="stat-number text-4xl text-hot mb-1">12</div>
+                                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">People arrested</div>
+                                <div class="text-[0.5rem] text-paper/18 mt-1">In relation to the money laundering operation</div>
+                            </div>
+                            <div class="bg-ink px-5 py-5 text-center border border-paper/[0.06]">
+                                <div class="stat-number text-4xl text-gold mb-1">$250K</div>
+                                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Blocked acquisition capital</div>
+                                <div class="text-[0.5rem] text-paper/18 mt-1">Mrs. Rinehart — sale never proceeded</div>
+                            </div>
+                        </div>
+
+                        <!-- Death threat / wiretap -->
+                        <div class="border border-hot/40 p-5 mb-5" style="background:rgba(193,68,14,0.07)">
+                            <div class="flex items-center gap-2 mb-3">
+                                <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">Death Threat — Against Marc Barrow · Wiretapped Line · Supreme Court Order</span>
+                                <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-hot/40 text-hot/70 px-1.5 py-0.5">ACTIVE MATTER</span>
+                            </div>
+                            <h5 class="font-display text-lg tracking-wide mb-3 leading-tight">ONE OF THE DAUGHTERS OF THE ARRESTED CALLED ADAM WATSON.<br><span class="text-hot">ACCUSED HIM OF BEING A PEDOPHILE. THREATENED MARC BARROW WOULD BE SHOT.</span></h5>
+                            <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Following the arrests, one of the daughters of those arrested called Adam Watson directly. She accused him of being a pedophile and threatened that Marc Barrow would be shot for his involvement in the seizure. This information has been forwarded to Marc Barrow.</p>
+                            <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">The daughter in question — a friend of Aaliyah, someone in a relationship with <strong class="text-paper/65">Bodie Chalmers</strong> — had a <strong class="text-paper/65">wiretap on her phone issued by the Supreme Court of Queensland</strong>. The call was therefore not made on an unmonitored line. A death threat against a member of law enforcement is treated as an extremely serious matter and is being dealt with accordingly.</p>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-3">
+                                <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                    <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">The Call</div>
+                                    <p class="text-[0.58rem] text-paper/45 leading-relaxed">A daughter of one of the 12 arrested called Adam Watson. Accused him of being a pedophile. Threatened that Marc Barrow would be shot. Information forwarded to Barrow.</p>
+                                </div>
+                                <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                    <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">The Wiretap</div>
+                                    <p class="text-[0.58rem] text-paper/45 leading-relaxed">The caller — Aaliyah's friend, connected to Bodie Chalmers — had a Supreme Court of Queensland wiretap on her phone. The threat was made on a monitored line. A death threat against law enforcement is treated with the utmost seriousness.</p>
+                                </div>
+                            </div>
+                            <div class="border-l-4 border-hot/50 pl-4" style="background:rgba(193,68,14,0.04);padding:0.75rem 1rem 0.75rem 1.25rem">
+                                <p class="text-[0.62rem] text-paper/50 leading-relaxed">For more on Bodie Chalmers and the network connected to this matter, see <strong class="text-paper/70"><a href="/au/ep2" class="text-hot hover:text-hot/80 underline underline-offset-2">Episode 2</a></strong>.</p>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Internal QPS complaint — female officer -->
                     <div class="border border-hot/40 p-5 mt-4" style="background:rgba(193,68,14,0.07)">
                         <div class="flex items-center gap-2 mb-3">
