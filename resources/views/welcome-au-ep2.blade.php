@@ -950,10 +950,31 @@
                 <div class="story-chapter reveal mt-6 mb-6" style="border-left-color:rgba(193,68,14,0.5)">
                     <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Aaliyah · Bodie's Girlfriend · Southport Police · False Harassment Claim</span></div>
                     <h4 class="font-display text-xl tracking-wide mb-4 leading-tight">PRESENT WHEN BODIE YELLED "RUSSIAN!" AT ADAM.<br><span class="text-hot">AFTER HE WENT TO JAIL, SHE WENT TO THE POLICE.</span></h4>
-                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Aaliyah was there in the Broadbeach library carpark when Bodie was screaming 'Russian!' at Adam. After Bodie went to jail, she walked into Southport Police Station and claimed she was being harassed. A female officer called Adam to say she was going to have him charged — then called Bodie in Corrective Services."</p>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Aaliyah was there in the Broadbeach library carpark when Bodie was screaming 'Russian!' at Adam. After Bodie went to jail, she walked into Southport Police Station and claimed she was being harassed. A female officer called Adam to say she was charging him with stalking and intimidation — and threatened to hold him in custody until trial. Then she called Bodie in Corrective Services."</p>
 
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Aaliyah — Bodie Chalmers's girlfriend — was present at the Broadbeach library carpark during the incident in which Bodie was yelling <em class="text-paper/65">"Russian!"</em> at Adam Watson. She witnessed what occurred. After Bodie Chalmers was remanded into custody, Aaliyah attended <strong class="text-paper/65">Southport Police Station</strong> and made a complaint claiming she was being harassed by Adam Watson.</p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">A female police officer called Adam Watson directly and informed him that Aaliyah was making a harassment complaint and that she was going to have him charged. That same female officer then called <strong class="text-paper/65">Bodie Chalmers in Corrective Services</strong> — who used the opportunity to make further allegations that he had been raped by Adam Watson.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">A female police officer called Adam Watson directly and informed him that Aaliyah was making a harassment complaint, that she was charging him with <strong class="text-paper/65">stalking and intimidation</strong>, and — in the same call — threatened that she would have him held in custody until his trial. That same female officer then called <strong class="text-paper/65">Bodie Chalmers in Corrective Services</strong> — who used the opportunity to make further allegations that he had been raped by Adam Watson.</p>
+
+                    <!-- Custody threat callout -->
+                    <div class="border border-hot/40 p-5 mb-5" style="background:rgba(193,68,14,0.07)">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">The Threat — Remand Until Trial</span>
+                            <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-hot/40 text-hot/70 px-1.5 py-0.5">UNLAWFUL PRESSURE</span>
+                        </div>
+                        <h5 class="font-display text-lg tracking-wide mb-3 leading-tight">"I WILL HAVE YOU HELD IN CUSTODY UNTIL YOUR TRIAL."<br><span class="text-hot">SAID ON THE PHONE. BEFORE ANY CHARGE WAS LAID.</span></h5>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The threat to hold Adam Watson in custody until trial — made during a phone call, before any charge had been formally laid — is not a statement of procedure. It is a threat. Remand in custody pending trial is a decision made by a court, not a promise a police officer makes on the phone to a person they are about to charge. The purpose of the statement was to cause fear and to pressure Adam Watson through the prospect of incarceration.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">The charges: stalking and intimidation. The same officer who would make that determination had just been contacted by Aaliyah — whose partner is the man Bodie Chalmers, currently in Corrective Services, who the same officer called and who then made rape allegations from custody. The threat to remand Adam until trial is inseparable from this context: it is pressure applied by someone whose conduct in this matter is itself now the subject of legal proceedings.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">What the Threat Was</div>
+                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Stalking and intimidation charges — and a direct statement that Adam Watson would be held in custody until trial. Made on a phone call. Before any charge was laid.</p>
+                            </div>
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Why This Is Significant</div>
+                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Remand is a judicial decision — not a police officer's to promise. The threat was made to cause fear and compliance. It is now part of the conduct that Farshad Sarabi is pursuing against QLD Police.</p>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-5">
                         <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
@@ -973,8 +994,8 @@
                     <!-- Conduct callout -->
                     <div class="border-l-4 border-hot/60 pl-5 mb-5" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
                         <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The Officer's Conduct</div>
-                        <p class="text-[0.65rem] text-paper/50 leading-relaxed mb-2">A police officer receiving a complaint is not ordinarily expected to then contact the incarcerated partner of the complainant — providing him with information that he then used to make fresh allegations from custody. The sequence — Aaliyah's complaint, the officer's call to Adam, the officer's call to Bodie in Corrective Services, and Bodie's fresh allegations — is a chain that a police officer's conduct helped facilitate.</p>
-                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">Adam Watson is engaging <strong class="text-paper/70">Farshad Sarabi</strong> as his lawyer to pursue a charge against police in relation to the conduct arising from Aaliyah's allegations and the officer's actions.</p>
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed mb-2">A police officer receiving a complaint is not ordinarily expected to threaten the subject of that complaint with remand until trial — before any charge is laid — and then contact the incarcerated partner of the complainant, providing information he used to make fresh allegations from custody. The sequence — Aaliyah's complaint, the officer's threat of remand, the stalking and intimidation charge warning, the call to Bodie in Corrective Services, and Bodie's fresh rape allegations — is a chain that a police officer's conduct drove at every step.</p>
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">Adam Watson is engaging <strong class="text-paper/70">Farshad Sarabi</strong> as his lawyer to pursue a charge against police in relation to the conduct arising from Aaliyah's allegations, the remand threat, and the officer's subsequent actions.</p>
                     </div>
 
                     <!-- Farshad Sarabi -->
@@ -983,7 +1004,7 @@
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                             <div>
                                 <div class="font-display text-base text-paper/70 mb-1">Farshad Sarabi</div>
-                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Engaged by Adam Watson to pursue a charge against Queensland Police arising from the officer's conduct in connection with Aaliyah's harassment allegations and the subsequent call to Bodie Chalmers in Corrective Services.</p>
+                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Engaged by Adam Watson to pursue a charge against Queensland Police arising from the officer's conduct: the stalking and intimidation charge threat, the unlawful remand threat made before any charge was laid, and the subsequent call to Bodie Chalmers in Corrective Services.</p>
                             </div>
                             <div class="border border-gold/15 p-3" style="background:rgba(201,138,16,0.03)">
                                 <div class="text-[0.43rem] tracking-[0.15em] uppercase text-gold mb-1.5">Current Status</div>
