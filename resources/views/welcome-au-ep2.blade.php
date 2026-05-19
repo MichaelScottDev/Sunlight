@@ -449,6 +449,53 @@
                     </div>
                 </div>
 
+                <!-- The Baby German Shepherd -->
+                <div class="story-chapter reveal mt-6" style="border-left-color:rgba(124,106,170,0.4)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">The Dog · What Adam Wanted · What Bodie Did</span></div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">HE BOUGHT A BABY GERMAN SHEPHERD.<br><span style="color:#7c6aaa">HE WANTED A HOME. BODIE CAME AND PUNCHED HIM.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Adam bought the dog as a companion. He wanted a relationship, a home, a life — with Bodie and the German Shepherd. Bodie came over and punched him in the same spot he'd hit him before. Then threatened to steal a car and blame it on Adam."</p>
+
+                    <!-- Dog photo -->
+                    <div class="reveal mb-6">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/german_shepherd.jpg"
+                             alt="Baby German Shepherd — Adam Watson's dog"
+                             class="w-full border border-paper/[0.07]"
+                             style="max-height:520px;object-fit:contain;background:#0d0d0d"
+                             loading="lazy" />
+                        <div class="flex items-center justify-between px-3 py-2 border border-t-0 border-paper/[0.07]" style="background:rgba(124,106,170,0.06)">
+                            <span class="text-[0.45rem] tracking-[0.18em] uppercase" style="color:#7c6aaa">Baby German Shepherd · Adam Watson's companion</span>
+                            <span class="text-[0.45rem] tracking-[0.14em] uppercase text-paper/25">Eventually had to be given away</span>
+                        </div>
+                    </div>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Adam Watson bought the baby German Shepherd as a companion. He wanted more than that: a relationship with Bodie Chalmers, a home they shared, a life that included the dog. That was what he was trying to build.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Bodie came to his home. He punched Adam Watson in the same spot he had punched him previously — a deliberate act, not a reaction. Then he made his threat: <em class="text-paper/70">"I'm going to steal a car and tell the cops it was because of you."</em> Bodie Chalmers, in the middle of an assault, was already framing how he would weaponise the police against the person he was hitting.</p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+                        <div class="border p-4" style="border-color:rgba(124,106,170,0.25);background:rgba(124,106,170,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">What Adam Wanted</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">A relationship. A home. A companion dog to share that life with Bodie Chalmers. He bought the German Shepherd with that in mind.</p>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">What Bodie Did</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">Came to Adam's home. Punched him in the same location as a previous assault. Threatened to steal a car and blame it on Adam to bring police involvement.</p>
+                        </div>
+                    </div>
+
+                    <!-- Bodie's threat verbatim -->
+                    <div class="border-l-4 border-hot/50 pl-5 mb-5" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Bodie Chalmers — Direct Threat</div>
+                        <p class="text-[0.68rem] text-paper/60 leading-relaxed italic mb-2">"I'm going to steal a car and tell the cops it was because of you!"</p>
+                        <p class="text-[0.62rem] text-paper/40 leading-relaxed">Said during the assault. Planning to fabricate a criminal act and attribute it to Adam Watson — using the police as the instrument — while in the middle of punching him. This is the same pattern as the false sexual assault allegation: violence paired with a pre-planned false report.</p>
+                    </div>
+
+                    <!-- Outcome -->
+                    <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.12)">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-paper/28 mb-2">Outcome</div>
+                        <p class="text-[0.62rem] text-paper/42 leading-relaxed">Adam Watson eventually had to give the German Shepherd away. The home he had wanted to build — with Bodie, with the dog — did not come to be. What he was left with was an assault, a threat, and the absence of the companion he had bought in the hope of something better.</p>
+                    </div>
+                </div>
+
                 <!-- Coogee Incident -->
                 <div class="story-chapter reveal mt-6" style="border-left-color:rgba(124,106,170,0.5)">
                     <div class="flex items-center gap-3 mb-4">
