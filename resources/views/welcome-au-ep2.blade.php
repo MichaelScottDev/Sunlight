@@ -1014,6 +1014,60 @@
                     </div>
                 </div>
 
+                <!-- NSW Police / Mental Health Act — the consequence of the Southport officer's call -->
+                <div class="story-chapter reveal mt-6 mb-6" style="border-left-color:rgba(193,68,14,0.6)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Escalation · NSW Police · Mental Health Act · Psych Ward</span></div>
+                    <h4 class="font-display text-xl tracking-wide mb-4 leading-tight">THE SOUTHPORT OFFICER CALLED NSW POLICE.<br><span class="text-hot">ADAM WATSON WAS TAKEN TO A PSYCH WARD UNDER THE MENTAL HEALTH ACT.</span></h4>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"The QLD officer — unhappy with Adam's tone — called NSW Police. NSW Police visited him at home and took him under the Mental Health Act. No exit date was announced. He was still trying to send messages to Bodie Chalmers while in the ward."</p>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Following the call in which the Southport QLD police officer threatened Adam Watson with stalking and intimidation charges and remand until trial, the officer — unhappy with Adam Watson's tone during that conversation — made a call to <strong class="text-paper/65">NSW Police</strong>. NSW Police attended Adam Watson's home address.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">He was taken under the <strong class="text-paper/65">Mental Health Act</strong> and transported to hospital, where he was placed in the <strong class="text-paper/65">Psychiatric Ward</strong>. No exit date was announced at the time of his admission. While incarcerated in the ward, Adam Watson was still attempting to send messages to Bodie Chalmers.</p>
+
+                    <!-- Sequence -->
+                    <div class="border border-hot/25 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">The Sequence — One Phone Call to the Next</div>
+                        <div class="space-y-2">
+                            <div class="grid grid-cols-[90px_1fr] gap-3 items-start">
+                                <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 1</div>
+                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Aaliyah attends Southport Police Station. Claims harassment. QLD female officer takes the complaint.</p>
+                            </div>
+                            <div class="grid grid-cols-[90px_1fr] gap-3 items-start">
+                                <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 2</div>
+                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Officer calls Adam Watson. Threatens stalking and intimidation charges. Threatens to hold him in custody until trial.</p>
+                            </div>
+                            <div class="grid grid-cols-[90px_1fr] gap-3 items-start">
+                                <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 3</div>
+                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Officer — unhappy with Adam Watson's tone — calls NSW Police. Refers the matter across state lines.</p>
+                            </div>
+                            <div class="grid grid-cols-[90px_1fr] gap-3 items-start">
+                                <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 4</div>
+                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">NSW Police attend Adam Watson's home. He is taken under the Mental Health Act and transported to hospital.</p>
+                            </div>
+                            <div class="grid grid-cols-[90px_1fr] gap-3 items-start border-t border-hot/10 pt-2">
+                                <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Outcome</div>
+                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Placed in the Psychiatric Ward. No exit date announced. While detained, Adam Watson was still attempting to contact Bodie Chalmers.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Two callouts -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+                        <div class="border border-hot/25 p-4" style="background:rgba(193,68,14,0.05)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The Mental Health Act as a Tool</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">A QLD police officer disagreeing with a person's tone on a phone call and using that as the basis for a cross-state referral that results in involuntary psychiatric detention is not a welfare intervention. It is the use of a welfare mechanism as a punitive instrument — removing a person from their home and placing them in a locked ward with no announced exit date.</p>
+                        </div>
+                        <div class="border border-hot/25 p-4" style="background:rgba(193,68,14,0.05)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Still Contacting Bodie from the Ward</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">While held in the Psychiatric Ward under the Mental Health Act, Adam Watson was still attempting to send messages to Bodie Chalmers — the man in Corrective Services whose allegations against Adam had contributed to the chain of events that led to this admission.</p>
+                        </div>
+                    </div>
+
+                    <div class="border-l-4 border-hot/50 pl-5" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">Part of the Conduct Farshad Sarabi Is Pursuing</div>
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">The chain from Aaliyah's complaint — through the QLD officer's threats, the cross-state referral, and the involuntary psychiatric admission — is part of the conduct that Adam Watson's lawyer Farshad Sarabi is pursuing against Queensland Police. A police officer's decision to refer a person interstate under the Mental Health Act because she did not like his tone is not a discretion that exists without scrutiny.</p>
+                    </div>
+                </div>
+
                 <!-- Tweed Heads pub incident -->
                 <div class="border-l-4 border-hot/40 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Tweed Heads — Pub Incident</div>
