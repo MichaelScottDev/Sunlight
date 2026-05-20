@@ -4,6 +4,10 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Sunlight.Quest — Episode 1: Gold Coast Uncovered</title>
+    <!-- Vidstack player -->
+    <link rel="stylesheet" href="https://cdn.vidstack.io/player/theme.css">
+    <link rel="stylesheet" href="https://cdn.vidstack.io/player/video.css">
+    <script src="https://cdn.vidstack.io/player" type="module"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -331,7 +335,17 @@
             </div>
             <div class="fade-up" style="animation-delay:0.25s">
                 <div class="flex items-center gap-3 mb-2"><span class="text-[0.52rem] tracking-[0.2em] uppercase text-hot/60">▶ Now Playing — Navigate via chapters below</span></div>
-                <div id="player" class="w-full aspect-video border border-hot/20" style="box-shadow:0 0 80px rgba(193,68,14,0.09),0 0 0 1px rgba(245,234,212,0.025)"></div>
+                <media-player
+                    id="player"
+                    title="Gold Coast Uncovered — Episode 1"
+                    src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/rj_confront.mp4"
+                    style="--media-brand:#c1440e;--media-focus-ring-color:rgba(193,68,14,0.45);--media-time-chapters-bg:rgba(193,68,14,0.5);width:100%;border:1px solid rgba(193,68,14,0.2);box-shadow:0 0 80px rgba(193,68,14,0.09)"
+                >
+                    <media-provider>
+                        <track id="ep1-chapters-track" kind="chapters" default />
+                    </media-provider>
+                    <media-video-layout></media-video-layout>
+                </media-player>
             </div>
             <!-- Chapter nav below video -->
             <div class="fade-up mt-5 border border-paper/[0.07]" style="animation-delay:0.35s;background:rgba(12,8,4,0.7)">
@@ -385,12 +399,12 @@
             <div class="px-5 py-4 border-b border-paper/[0.06] flex-1 overflow-y-auto">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">Episode Chapters</div>
                 <div class="space-y-0.5">
-                    <div onclick="seekToChapter(0)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">01</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Sandy Tulisi</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Rooming house fraud</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
-                    <div onclick="seekToChapter(1)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-violet/5 border border-transparent hover:border-violet/20 cursor-pointer transition-all group"><span class="font-display text-violet text-sm w-5 shrink-0">02</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Privacy Breach</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Aquatic centre leak</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-violet transition-colors shrink-0">▶</span></div>
-                    <div onclick="seekToChapter(2)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-gold/5 border border-transparent hover:border-gold/20 cursor-pointer transition-all group"><span class="font-display text-gold text-sm w-5 shrink-0">03</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Sky News</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Story that didn't run</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-gold transition-colors shrink-0">▶</span></div>
-                    <div onclick="seekToChapter(3)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">04</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Oracle East</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Stalked & assaulted</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
-                    <div onclick="seekToChapter(4)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">05</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">RJ — 7 Incidents</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Sex & Crime Squad</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
-                    <div onclick="seekToChapter(5)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-violet/5 border border-transparent hover:border-violet/20 cursor-pointer transition-all group"><span class="font-display text-violet text-sm w-5 shrink-0">06</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Adam's Story</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Coercive control & DPP</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-violet transition-colors shrink-0">▶</span></div>
+                    <div data-chap="0" onclick="seekToChapter(0)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">01</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Sandy Tulisi</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Rooming house fraud</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
+                    <div data-chap="1" onclick="seekToChapter(1)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-violet/5 border border-transparent hover:border-violet/20 cursor-pointer transition-all group"><span class="font-display text-violet text-sm w-5 shrink-0">02</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Privacy Breach</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Aquatic centre leak</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-violet transition-colors shrink-0">▶</span></div>
+                    <div data-chap="2" onclick="seekToChapter(2)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-gold/5 border border-transparent hover:border-gold/20 cursor-pointer transition-all group"><span class="font-display text-gold text-sm w-5 shrink-0">03</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Sky News</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Story that didn't run</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-gold transition-colors shrink-0">▶</span></div>
+                    <div data-chap="3" onclick="seekToChapter(3)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">04</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Oracle East</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Stalked & assaulted</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
+                    <div data-chap="4" onclick="seekToChapter(4)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">05</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">RJ — 7 Incidents</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Sex & Crime Squad</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
+                    <div data-chap="5" onclick="seekToChapter(5)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-violet/5 border border-transparent hover:border-violet/20 cursor-pointer transition-all group"><span class="font-display text-violet text-sm w-5 shrink-0">06</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Adam's Story</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Coercive control & DPP</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-violet transition-colors shrink-0">▶</span></div>
                 </div>
             </div>
             <div class="px-5 py-5">
@@ -4798,16 +4812,101 @@ function togglePanel() {
 }
 
 // ── VIDEO PLAYER ──
+// ── VIDSTACK CHAPTER TIMES (seconds) — update when final video is cut ──
+var EP1_CHAPTER_TIMES = [0, 90, 180, 270, 360, 450];
+
 function seekToChapter(index) {
     var p = window.vidstackPlayer;
-    if(!p) return;
+    if (!p) { document.getElementById('player').scrollIntoView({behavior:'smooth',block:'center'}); return; }
+    // Try VTT cue times first, fall back to manual times array
     var tracks = p.textTracks;
     var ct = null;
-    for(var i=0;i<tracks.length;i++){if(tracks[i].kind==='chapters'){ct=tracks[i];break;}}
-    if(ct&&ct.cues&&ct.cues.length>index){p.currentTime=ct.cues[index].startTime;}
-    else{var d=p.duration||0;if(d>0)p.currentTime=(d/6)*index;}
-    document.getElementById('player').scrollIntoView({behavior:'smooth',block:'center'});
+    for (var i = 0; i < tracks.length; i++) { if (tracks[i].kind === 'chapters') { ct = tracks[i]; break; } }
+    if (ct && ct.cues && ct.cues.length > index) {
+        p.currentTime = ct.cues[index].startTime;
+    } else {
+        p.currentTime = EP1_CHAPTER_TIMES[index] || 0;
+    }
+    p.play().catch(function(){});
+    document.getElementById('player').scrollIntoView({behavior:'smooth', block:'center'});
+    // Highlight active chapter in sidebar
+    document.querySelectorAll('[data-chap]').forEach(function(el, i) {
+        el.classList.toggle('!border-hot/40', i === index);
+        el.classList.toggle('!bg-hot/10', i === index);
+    });
 }
+
+
+// ── VIDSTACK PLAYER INIT ──
+(function() {
+    var VTT_CONTENT = [
+        'WEBVTT',
+        '',
+        '00:00:00.000 --> 00:01:30.000',
+        'Sandy Tulisi',
+        '',
+        '00:01:30.000 --> 00:03:00.000',
+        'Privacy Breach',
+        '',
+        '00:03:00.000 --> 00:04:30.000',
+        'Sky News',
+        '',
+        '00:04:30.000 --> 00:06:00.000',
+        'Oracle East',
+        '',
+        '00:06:00.000 --> 00:07:30.000',
+        'RJ — 7 Incidents',
+        '',
+        '00:07:30.000 --> 00:20:00.000',
+        "Adam's Story",
+    ].join('\n');
+
+    function initPlayer() {
+        var el = document.getElementById('player');
+        if (!el) return;
+        // Vidstack custom element — wait for it to be defined
+        if (typeof el.subscribe !== 'function') {
+            setTimeout(initPlayer, 200);
+            return;
+        }
+        window.vidstackPlayer = el;
+
+        // Inject blob VTT into the chapters track
+        var track = document.getElementById('ep1-chapters-track');
+        if (track) {
+            var blob = new Blob([VTT_CONTENT], {type: 'text/vtt'});
+            track.src = URL.createObjectURL(blob);
+        }
+
+        // Highlight chapter as video plays
+        el.subscribe(function(state) {
+            var time = state.currentTime;
+            var tracks = el.textTracks;
+            for (var i = 0; i < tracks.length; i++) {
+                if (tracks[i].kind === 'chapters') {
+                    var cues = tracks[i].cues;
+                    for (var j = 0; j < cues.length; j++) {
+                        if (time >= cues[j].startTime && time < cues[j].endTime) {
+                            document.querySelectorAll('[data-chap]').forEach(function(el2) {
+                                var idx = parseInt(el2.getAttribute('data-chap'), 10);
+                                el2.classList.toggle('!border-hot/40', idx === j);
+                                el2.classList.toggle('!bg-hot/10', idx === j);
+                            });
+                            break;
+                        }
+                    }
+                    break;
+                }
+            }
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initPlayer);
+    } else {
+        initPlayer();
+    }
+})();
 
 // ── SMS ──
 function handleSMS(e) {
