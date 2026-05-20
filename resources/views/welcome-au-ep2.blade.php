@@ -1114,9 +1114,51 @@
                         </div>
                     </div>
 
+                    <!-- Doctor's finding — clears Adam -->
+                    <div class="border border-sage/30 p-5 mb-5" style="background:rgba(61,122,74,0.05)">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-sage">Doctor's Assessment — Prince of Wales Hospital</span>
+                            <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-sage/40 text-sage/70 px-1.5 py-0.5">CLINICALLY CLEARED</span>
+                        </div>
+                        <h5 class="font-display text-lg tracking-wide mb-3 leading-tight">"THERE'S NOTHING WRONG WITH YOU."<br><span class="text-sage">THE DOCTOR CHECKED ADAM WATSON AND FOUND NO CLINICAL BASIS FOR HIS DETENTION.</span></h5>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The doctor who assessed Adam Watson at Prince of Wales Hospital examined him and stated plainly: <em class="text-paper/70">"There's nothing wrong with you."</em> The clinical assessment — the one that actually matters, conducted by a qualified practitioner at the receiving hospital — found no basis for the involuntary admission. No mental health crisis. No risk to self or others. Nothing that would justify a hold under the Mental Health Act.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">That finding is the clearest possible evidence that what occurred was not a welfare intervention. It was a removal. A QLD police officer made a cross-state referral, Adam Watson was taken from his home and placed in a locked ward, and the hospital's own doctor found nothing wrong with him. Adam Watson's position is direct: <strong class="text-paper/65">this is a stitch-up. And the people behind it are in Southport Police.</strong></p>
+                    </div>
+
+                    <!-- Attempted call to Southport — no answer -->
+                    <div class="border border-hot/25 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Attempt to Identify the Officer — Southport Police Station Did Not Answer</div>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Adam Watson attempted to call <strong class="text-paper/65">Southport Police Station</strong> to obtain the rank and serial number of the officer who accepted Aaliyah's complaint and made the cross-state referral under the Mental Health Act. <strong class="text-paper/65">No one answered.</strong></p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">A person who has just been involuntarily admitted to a psychiatric ward — on the basis of a police officer's cross-state referral — attempting to identify that officer through the official channel, and receiving no answer, is not an administrative failure. It is a closed door. The rank and serial number of a police officer who uses the Mental Health Act as a removal mechanism should be obtainable. It was not.</p>
+                    </div>
+
+                    <!-- "Yes Bodie scammed you but Aaliyah wasn't involved" -->
+                    <div class="border border-hot/35 p-5 mb-5" style="background:rgba(193,68,14,0.06)">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">The Officer's Comment — Exculpating Aaliyah</span>
+                        </div>
+                        <p class="font-display text-lg text-hot mb-3 leading-tight">"YES, BODIE SCAMMED YOU — BUT AALIYAH WASN'T INVOLVED."</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">During the call, the officer made a telling comment: she acknowledged that Bodie Chalmers had scammed Adam Watson, but drew a line at Aaliyah — asserting that Aaliyah was not involved. This is a position that does not survive scrutiny.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">The assumption that a criminal's partner is uninvolved is a persistent and often incorrect framing. In practice, partners are frequently present, aware, and participating — sometimes directly, sometimes as an infrastructure of logistics and knowledge that makes the conduct possible. The officer accepted a binary that the evidence does not support.</p>
+                        <div class="border-l-4 border-hot/50 pl-4 mb-4" style="background:rgba(193,68,14,0.05);padding:0.85rem 1rem 0.85rem 1.25rem">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">Aaliyah Was in the Car at Broadbeach</div>
+                            <p class="text-[0.65rem] text-paper/55 leading-relaxed">Aaliyah was present in the car when Bodie Chalmers drove to Broadbeach to stalk and intimidate Adam Watson — the incident in which Bodie was yelling <em>"Russian!"</em> at him in the library carpark. She was not a bystander who happened to be there. She was in the vehicle. She was present for the stalking and intimidation of Adam Watson. A partner who sits in the car during a targeted intimidation campaign is not uninvolved — she is a participant in the context that made it possible.</p>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">The Officer's Assumption</div>
+                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Bodie was the criminal. Aaliyah, as his partner, is treated as a separate and uninvolved party whose complaint is taken at face value.</p>
+                            </div>
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">What the Evidence Shows</div>
+                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Aaliyah was in the car during the Broadbeach stalking and intimidation incident. Her subsequent complaint — made after Bodie went to jail — fits a coordinated pattern, not an independent victim coming forward.</p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="border-l-4 border-hot/50 pl-5" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
                         <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">Part of the Conduct Farshad Sarabi Is Pursuing</div>
-                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">The chain from Aaliyah's complaint — through the QLD officer's threats, the cross-state referral, the involuntary psychiatric admission, the disclosure to Aaliyah that he was "locked up," and the subsequent leak to RJ that was weaponised against Adam at Hancock Prospecting — is part of the conduct that Adam Watson's lawyer Farshad Sarabi is pursuing against Queensland Police. A police officer's decision to refer a person interstate under the Mental Health Act because she did not like his tone is not a discretion that exists without scrutiny.</p>
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">The chain from Aaliyah's complaint — through the QLD officer's threats, the cross-state referral, the involuntary psychiatric admission at Prince of Wales Hospital, the doctor's finding of nothing clinically wrong, the unanswered call to identify the officer, the disclosure to Aaliyah that he was "locked up," and the subsequent leak to RJ weaponised at Hancock Prospecting — is part of the conduct that Adam Watson's lawyer Farshad Sarabi is pursuing against Queensland Police. A police officer's decision to refer a person interstate under the Mental Health Act because she did not like his tone, exculpate a criminal's partner who was present during a stalking incident, and then make the person's admission known to that partner's network — is not a discretion that exists without scrutiny.</p>
                     </div>
                 </div>
 
