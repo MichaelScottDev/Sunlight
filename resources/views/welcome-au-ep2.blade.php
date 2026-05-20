@@ -3435,38 +3435,78 @@
                     </div>
                 </div>
 
-                <!-- Notice of Orders — Adam Watson v West Kira -->
-                <div class="border border-sage/30 mt-5 mb-5 p-5" style="background:rgba(61,122,74,0.04)">
-                    <div class="flex items-center gap-2 mb-3">
-                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-sage">Court Order — Local Courts of New South Wales · 3 February 2026</span>
-                        <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-sage/40 text-sage/70 px-1.5 py-0.5">JUDGMENT OBTAINED</span>
-                    </div>
-                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">ADAM WATSON v WEST KIRA.<br><span class="text-sage">CASE NO. 2025/00341907 — $10,958.00 INCLUSIVE OF COSTS.</span></h4>
-                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">On 3 February 2026, the Local Court of New South Wales made orders in the matter of <strong class="text-paper/65">Adam Watson v West Kira</strong> (Case No. 2025/00341907). West Kira, as First Defendant, was ordered to pay Adam Watson, as First Plaintiff, the sum of <strong class="text-paper/65">$10,958.00 inclusive of costs</strong>. This is a judgment on the record from the court — separate from and in addition to the criminal charges West Kira faces.</p>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <div>
-                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-sage/60 mb-2">Notice of Orders — 3 February 2026</div>
-                            <div class="border border-sage/20 overflow-hidden">
-                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/IMG-20260508-WA0007+(1).jpg" alt="Notice of Orders Made — Adam Watson v West Kira — Local Courts NSW" class="w-full" loading="lazy" style="max-width:400px" />
-                            </div>
-                            <div class="text-[0.4rem] tracking-[0.1em] uppercase text-paper/30 mt-1.5">Local Courts of New South Wales · Case No. 2025/00341907</div>
+                <!-- Formal Judgment/Order — Adam Watson v West Kira — Form 43 UCPR 36.11 -->
+                <div class="border mt-5 mb-5" style="border-color:rgba(61,122,74,0.4);background:rgba(61,122,74,0.04)">
+                    <div class="px-5 py-3 border-b" style="border-color:rgba(61,122,74,0.2)">
+                        <div class="flex flex-wrap items-center gap-2">
+                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-sage">Judgment/Order — Local Court of NSW · Form 43 · UCPR 36.11</span>
+                            <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-sage/40 text-sage/70 px-1.5 py-0.5">SEALED · ISSUED 20 MAY 2026</span>
+                            <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-gold/40 text-gold/80 px-1.5 py-0.5">HIGHER AUTHORITY</span>
                         </div>
-                        <div class="space-y-3">
-                            <div class="border border-sage/20 p-3" style="background:rgba(61,122,74,0.04)">
-                                <div class="text-[0.44rem] tracking-[0.15em] uppercase text-sage mb-1.5">Case Title</div>
-                                <div class="text-[0.6rem] text-paper/55 leading-relaxed">Adam Watson v West Kira · Local Courts of New South Wales</div>
+                    </div>
+                    <div class="px-5 py-5">
+                        <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">ADAM WATSON v WEST KIRA.<br><span class="text-sage">CASE NO. 2025/00341907 — $10,958.00 INCLUSIVE OF COSTS.</span></h4>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-5">The <strong class="text-paper/70">formal Judgment/Order</strong> — Form 43, UCPR 36.11 — has now been issued by the Local Court of New South Wales, bearing the court's official seal and signed by Registrar A. Giles on 20 May 2026. This document supersedes the earlier Notice of Orders and carries the full weight of a sealed court judgment. West Kira, as First Defendant, is ordered to pay Adam Watson, as First Plaintiff, the sum of <strong class="text-paper/70">$10,958.00 inclusive of costs</strong> — entered 3 February 2026, sealed 20 May 2026.</p>
+
+                        <!-- Key details grid -->
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-5">
+                            <div class="border p-3" style="border-color:rgba(61,122,74,0.2);background:rgba(61,122,74,0.05)">
+                                <div class="text-[0.43rem] tracking-[0.14em] uppercase text-sage/60 mb-1">Court</div>
+                                <div class="text-[0.58rem] text-paper/60 leading-tight">Local Court of NSW<br>General Division<br>Sydney Registry</div>
                             </div>
-                            <div class="border border-sage/20 p-3" style="background:rgba(61,122,74,0.04)">
-                                <div class="text-[0.44rem] tracking-[0.15em] uppercase text-sage mb-1.5">Case Number</div>
-                                <div class="font-mono text-[0.62rem] text-paper/65">2025/00341907</div>
+                            <div class="border p-3" style="border-color:rgba(61,122,74,0.2);background:rgba(61,122,74,0.05)">
+                                <div class="text-[0.43rem] tracking-[0.14em] uppercase text-sage/60 mb-1">Case Number</div>
+                                <div class="font-mono text-[0.6rem] text-paper/65">2025/00341907</div>
                             </div>
-                            <div class="border border-sage/20 p-3" style="background:rgba(61,122,74,0.04)">
-                                <div class="text-[0.44rem] tracking-[0.15em] uppercase text-sage mb-1.5">Judgment</div>
-                                <div class="text-[0.6rem] text-paper/55 leading-relaxed">West Kira (First Defendant) is to pay Adam Watson (First Plaintiff) the sum of <strong class="text-paper/70">$10,958.00 inclusive of costs</strong></div>
+                            <div class="border p-3" style="border-color:rgba(61,122,74,0.2);background:rgba(61,122,74,0.05)">
+                                <div class="text-[0.43rem] tracking-[0.14em] uppercase text-sage/60 mb-1">Judgment Amount</div>
+                                <div class="font-display text-lg text-sage">$10,958</div>
+                                <div class="text-[0.43rem] text-paper/35">inclusive of costs</div>
                             </div>
-                            <div class="border border-sage/20 p-3" style="background:rgba(61,122,74,0.04)">
-                                <div class="text-[0.44rem] tracking-[0.15em] uppercase text-sage mb-1.5">Date of Orders</div>
-                                <div class="text-[0.6rem] text-paper/55 leading-relaxed">3 February 2026 · Issued by Registrar</div>
+                            <div class="border p-3" style="border-color:rgba(61,122,74,0.2);background:rgba(61,122,74,0.05)">
+                                <div class="text-[0.43rem] tracking-[0.14em] uppercase text-sage/60 mb-1">Sealed</div>
+                                <div class="text-[0.58rem] text-paper/60 leading-tight">20 May 2026<br>Registrar A. Giles<br>Document ID: D0002DF4D9</div>
+                            </div>
+                        </div>
+
+                        <!-- Why this is higher authority -->
+                        <div class="border-l-4 pl-4 mb-5" style="border-color:rgba(201,138,16,0.5);background:rgba(201,138,16,0.04);padding:0.85rem 1rem 0.85rem 1.1rem">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-1.5">Why This Document Carries Greater Authority</div>
+                            <p class="text-[0.6rem] text-paper/50 leading-relaxed">A <strong class="text-paper/65">Notice of Orders Made</strong> is an administrative notification — it records that orders were made but is not itself the court's formal instrument. A <strong class="text-paper/65">Judgment/Order (Form 43, UCPR 36.11)</strong> is the official sealed document of the court, issued through the Electronic Case Management System, bearing the Local Court of NSW seal, and signed by a Registrar. It is the document used to enforce the judgment — for garnishment, enforcement warrants, or registration against property. This document was issued today, 20 May 2026, and is now published here.</p>
+                        </div>
+
+                        <!-- Embedded PDF -->
+                        <div class="text-[0.44rem] tracking-[0.15em] uppercase text-sage/60 mb-2">Judgment/Order — Full Document · Form 43 · UCPR 36.11 · Sealed</div>
+                        <div class="border reveal" style="border-color:rgba(61,122,74,0.3)">
+                            <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/B20260520-15403861_Request+for+Copy+of+Judgment_14532404_202500341907_001.pdf"
+                                    class="w-full"
+                                    style="min-height:520px;height:520px;border:none;filter:brightness(0.93)"
+                                    loading="lazy"
+                                    title="Judgment/Order — Adam Watson v West Kira — Local Court NSW — Case 2025/00341907"></iframe>
+                        </div>
+                        <div class="text-[0.4rem] tracking-[0.1em] uppercase text-paper/25 mt-1.5">Local Court of NSW · Form 43 · UCPR 36.11 · Case 2025/00341907 · Sealed 20 May 2026 · Registrar A. Giles · Document ID D0002DF4D9</div>
+
+                        <!-- Evidence vault entry -->
+                        <div class="evidence-vault mt-4">
+                            <div class="ev-header" onclick="toggleVault(this)">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-[0.48rem] tracking-[0.22em] uppercase text-sage">📁 Judgment/Order — Adam Watson v West Kira</span>
+                                    <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Local Court NSW · Sealed · Form 43</span>
+                                </div>
+                                <div class="flex items-center gap-3">
+                                    <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                                    <span class="ev-toggle">▼</span>
+                                </div>
+                            </div>
+                            <div class="ev-body">
+                                <div class="ev-file ef-sage" onclick="openMV('pdf-west-kira-judgment')">
+                                    <div class="ev-icon ev-pdf">PDF</div>
+                                    <div class="ev-meta">
+                                        <div class="ev-name">Judgment_Order_WestKira_2025-00341907.pdf — Form 43 · UCPR 36.11 · Sealed</div>
+                                        <div class="ev-desc">Adam Watson v West Kira · Local Court of NSW · $10,958.00 incl. costs · Entered 3 Feb 2026 · Issued &amp; sealed 20 May 2026 · Registrar A. Giles</div>
+                                    </div>
+                                    <div class="ev-cta">View →</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -5506,6 +5546,16 @@ var EVIDENCE = {
         desc:'Statement of Claim stamped by the Local Court against West Kira for obtaining benefit by deception. The debt includes the cost of Adam Watson\'s glasses, deliberately destroyed by West Kira during the in-vehicle incident captured on recording. The debt has since been onsold to a third-party debt collector. A stamped Statement of Claim is a court document, not an allegation — the conduct and the debt are on the record.',
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/statement_of_claim_west_kira.pdf',
         filename:'statement_of_claim_west_kira.pdf'
+    },
+    'pdf-west-kira-judgment': {
+        type:'pdf',
+        title:'JUDGMENT/ORDER — ADAM WATSON v WEST KIRA · LOCAL COURT NSW',
+        tag:'Form 43 · UCPR 36.11 · Local Court of NSW · Sealed · 20 May 2026',
+        meta:'PDF · Judgment/Order · Form 43 UCPR 36.11 · Sealed · Registrar A. Giles · Document ID D0002DF4D9',
+        desc:'The formal Judgment/Order (Form 43, UCPR 36.11) in Adam Watson v West Kira, Case No. 2025/00341907. West Kira (First Defendant) is ordered to pay Adam Watson (First Plaintiff) $10,958.00 inclusive of costs. Judgment made and entered 3 February 2026. Issued and sealed by Registrar A. Giles on 20 May 2026. Bearing the official Local Court of NSW seal. This is the enforcement-ready court document — of higher authority than the earlier Notice of Orders Made.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/B20260520-15403861_Request+for+Copy+of+Judgment_14532404_202500341907_001.pdf',
+        filename:'Judgment_Order_WestKira_2025-00341907.pdf',
+        pages: 2
     },
     'video-wk-glasses': {
         type:'video',
