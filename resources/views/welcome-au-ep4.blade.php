@@ -1186,6 +1186,116 @@
             </div>
         </div>
 
+        <!-- Deal Terms — Nothing Up Front -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(61,122,74,0.6)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#3d7a4a;border-color:rgba(61,122,74,0.45)">Deal Structure · Vendor Finance · Lot-by-Lot Settlement</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">NOTHING UP FRONT.<br><span style="color:#3d7a4a">PAID AS EACH LOT SELLS.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">One of the most significant features of the Pioneer Lakes deal is the payment structure Adam Watson was able to negotiate directly with the Directors. Rather than requiring the standard deposit and balance-on-completion model — which would demand tens of millions of dollars before a single home is sold — the vendors agreed to a structure where the purchase price is paid progressively: <strong class="text-paper/70">nothing is owed up front, and the Directors are paid off as each of the 649 lots is sold.</strong></p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                <div class="border p-4 text-center" style="border-color:rgba(61,122,74,0.25);background:rgba(61,122,74,0.06)">
+                    <div class="font-display text-3xl mb-1" style="color:#3d7a4a">649</div>
+                    <div class="text-[0.47rem] tracking-[0.16em] uppercase text-paper/35">Lots · Pioneer Lakes</div>
+                </div>
+                <div class="border p-4 text-center" style="border-color:rgba(61,122,74,0.25);background:rgba(61,122,74,0.06)">
+                    <div class="font-display text-3xl mb-1" style="color:#3d7a4a">$0</div>
+                    <div class="text-[0.47rem] tracking-[0.16em] uppercase text-paper/35">Required Up Front</div>
+                </div>
+                <div class="border p-4 text-center" style="border-color:rgba(61,122,74,0.25);background:rgba(61,122,74,0.06)">
+                    <div class="font-display text-3xl mb-1" style="color:#3d7a4a">Per Lot</div>
+                    <div class="text-[0.47rem] tracking-[0.16em] uppercase text-paper/35">Payment Released at Each Sale</div>
+                </div>
+            </div>
+
+            <div class="border-l-4 pl-5" style="border-color:rgba(61,122,74,0.55);background:rgba(61,122,74,0.05);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase mb-2" style="color:#3d7a4a">Why This Matters</div>
+                <p class="text-[0.65rem] text-paper/55 leading-relaxed">In a conventional land acquisition of this scale, a developer would be required to find the full purchase price — or a substantial deposit against it — before taking control of the asset. This structure eliminates that barrier entirely. The Directors are paid from the proceeds of the project they are selling. Adam Watson retains the capital required to construct homes, rather than spending it acquiring the land. It is vendor finance at scale — and it required the Directors’ confidence in the buyer and the project to agree to it.</p>
+            </div>
+        </div>
+
+        <!-- Kira Steinhaus Interference -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.55)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Deal Interference · Kira Steinhaus · $3.5M Demand · Legal Challenge Pending</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">UNINVITED. UNCONTRACTED.<br><span class="text-hot">NOW DEMANDING $3.5 MILLION.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6">A routine meeting arranged by the builder’s agent became a case study in the kind of conduct that has given real estate agents their reputation. The developer, having watched it all unfold, summed it up plainly — and, as many in the industry would note, not without justification: <strong class="text-paper/65">real estate agents are very dishonest.</strong></p>
+
+            <!-- Photo + sequence grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+                <div>
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kira_steinhaus.png" alt="Kira Steinhaus" class="w-full border border-paper/[0.07]" style="object-fit:contain;background:#0d0d0d;max-height:380px" loading="lazy" />
+                    <div class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/20 mt-1.5">Kira Steinhaus · Now Threatening Legal Action · $3.5M Commission Demand</div>
+                </div>
+                <div class="space-y-3">
+                    <div class="text-[0.47rem] tracking-[0.18em] uppercase text-paper/30 mb-2">Sequence of Events</div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">01</span>
+                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">Brett — the builder’s agent — organised a meeting with Adam Watson and asked whether he could attend. Adam Watson said yes.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">02</span>
+                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">Brett refused to allow Adam Watson to attend the meeting, citing no stated reason.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">03</span>
+                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">Brett showed up to the meeting — where Gina Rinehart was present — accompanied by Kira Steinhaus. Nobody had invited her. Nobody knew she was coming.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">04</span>
+                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">During the meeting, Kira Steinhaus walked out. She returned shortly after and announced that they had found a buyer offering a higher price.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-gold/60">05</span>
+                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">Gina Rinehart called the builder directly and blasted him — for employing Brett, and for running a transparent cheap trick: walking out and coming back with a &ldquo;higher offer&rdquo; to pressure the room.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right" style="color:rgba(61,122,74,0.6)">06</span>
+                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">Brett has since been fired by the builder.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The cheap trick callout -->
+            <div class="border-l-4 pl-5 mb-6" style="border-color:rgba(193,68,14,0.5);background:rgba(193,68,14,0.05);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The Tactic — A Classic Cheap Trick</div>
+                <p class="text-[0.65rem] text-paper/55 leading-relaxed">Walking out of a negotiation and returning with a claim of a higher competing offer is one of the oldest pressure tactics in commercial real estate. The idea is to manufacture urgency and weaken the buyer’s position. It requires a willing participant to play the role of phantom buyer — or simply the audacity to claim one exists. Gina Rinehart, who has sat across many negotiating tables, was not impressed.</p>
+            </div>
+
+            <!-- $3.5M demand section -->
+            <div class="border mb-6" style="border-color:rgba(193,68,14,0.25);background:rgba(193,68,14,0.04)">
+                <div class="px-5 py-3 border-b" style="border-color:rgba(193,68,14,0.15)">
+                    <div class="text-[0.47rem] tracking-[0.22em] uppercase text-hot">Kira Steinhaus — Commission Demand · $3,500,000</div>
+                </div>
+                <div class="px-5 py-5">
+                    <p class="text-[0.68rem] text-paper/55 leading-relaxed mb-4">Kira Steinhaus is now claiming that Adam Watson owes her a spotter’s fee — essentially a commission for introducing him to the developer. She has communicated a demand of <strong class="text-paper/75">$3.5 million</strong>, and has taken that claim to the developer directly. The developer has passed the communication to Adam Watson.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">There are two fundamental problems with this claim. First, any fee arrangement of this kind would need to be negotiated with and agreed to by the builder’s agent — Brett — not unilaterally declared after the fact by someone who was never engaged, never contracted, and never invited to the meeting in the first place. Second, Kira Steinhaus was not introduced as a participant in the deal. She arrived uninvited alongside Brett, whose own conduct in the meeting was the subject of Gina Rinehart’s rebuke, and who has since been terminated by the builder.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed">There is a suspicion — not yet established as fact — that Kira Steinhaus and Brett had a personal relationship that extended beyond a professional one; a friends-with-benefits dynamic that may explain why she was brought to a meeting where her presence was neither requested nor appropriate. <strong class="text-paper/65">Adam Watson is ready for the civil challenge.</strong></p>
+                </div>
+            </div>
+
+            <!-- 3-col status grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <div class="border p-4" style="border-color:rgba(193,68,14,0.2);background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/60 mb-2">Kira’s Demand</div>
+                    <div class="font-display text-2xl text-hot mb-2">$3.5M</div>
+                    <p class="text-[0.58rem] text-paper/40 leading-relaxed">Commission claimed for an introduction she was never engaged to make, to a meeting she was never invited to attend.</p>
+                </div>
+                <div class="border p-4" style="border-color:rgba(201,138,16,0.2);background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.15em] uppercase text-gold/60 mb-2">Brett — Status</div>
+                    <div class="font-display text-xl text-gold mb-2">FIRED</div>
+                    <p class="text-[0.58rem] text-paper/40 leading-relaxed">The builder’s agent who orchestrated the meeting interference has been terminated by the builder following Gina Rinehart’s intervention.</p>
+                </div>
+                <div class="border p-4" style="border-color:rgba(61,122,74,0.2);background:rgba(61,122,74,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.15em] uppercase mb-2" style="color:rgba(61,122,74,0.7)">Adam Watson — Position</div>
+                    <div class="font-display text-xl mb-2" style="color:#3d7a4a">READY</div>
+                    <p class="text-[0.58rem] text-paper/40 leading-relaxed">Adam Watson is prepared for the civil challenge. The claim has no contractual basis and no legal foundation.</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 
