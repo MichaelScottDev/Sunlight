@@ -1016,12 +1016,12 @@
 
                 <!-- NSW Police / Mental Health Act — the consequence of the Southport officer's call -->
                 <div class="story-chapter reveal mt-6 mb-6" style="border-left-color:rgba(193,68,14,0.6)">
-                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Escalation · NSW Police · Mental Health Act · Psych Ward</span></div>
-                    <h4 class="font-display text-xl tracking-wide mb-4 leading-tight">THE SOUTHPORT OFFICER CALLED NSW POLICE.<br><span class="text-hot">ADAM WATSON WAS TAKEN TO A PSYCH WARD UNDER THE MENTAL HEALTH ACT.</span></h4>
-                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"The QLD officer — unhappy with Adam's tone — called NSW Police. NSW Police visited him at home and took him under the Mental Health Act. No exit date was announced. He was still trying to send messages to Bodie Chalmers while in the ward."</p>
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Escalation · NSW Police · Mental Health Act · Prince of Wales Hospital</span></div>
+                    <h4 class="font-display text-xl tracking-wide mb-4 leading-tight">THE SOUTHPORT OFFICER CALLED NSW POLICE.<br><span class="text-hot">ADAM WATSON WAS TAKEN TO PRINCE OF WALES HOSPITAL UNDER THE MENTAL HEALTH ACT.</span></h4>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"The QLD officer — unhappy with Adam's tone — called NSW Police. NSW Police visited him at home and took him under the Mental Health Act to Prince of Wales Hospital. No exit date was announced. He was still trying to send messages to Bodie Chalmers while in the ward. The officer told Aaliyah: 'Don't worry, he's locked up now.' RJ heard it from Aaliyah — and called Hancock Prospecting."</p>
 
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Following the call in which the Southport QLD police officer threatened Adam Watson with stalking and intimidation charges and remand until trial, the officer — unhappy with Adam Watson's tone during that conversation — made a call to <strong class="text-paper/65">NSW Police</strong>. NSW Police attended Adam Watson's home address.</p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">He was taken under the <strong class="text-paper/65">Mental Health Act</strong> and transported to hospital, where he was placed in the <strong class="text-paper/65">Psychiatric Ward</strong>. No exit date was announced at the time of his admission. While incarcerated in the ward, Adam Watson was still attempting to send messages to Bodie Chalmers.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">He was taken under the <strong class="text-paper/65">Mental Health Act</strong> and transported to <strong class="text-paper/65">Prince of Wales Hospital</strong>, where he was placed in the Psychiatric Ward. No exit date was announced at the time of his admission. While incarcerated in the ward, Adam Watson was still attempting to send messages to Bodie Chalmers.</p>
 
                     <!-- Sequence -->
                     <div class="border border-hot/25 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
@@ -1045,7 +1045,7 @@
                             </div>
                             <div class="grid grid-cols-[90px_1fr] gap-3 items-start border-t border-hot/10 pt-2">
                                 <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Outcome</div>
-                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Placed in the Psychiatric Ward. No exit date announced. While detained, Adam Watson was still attempting to contact Bodie Chalmers.</p>
+                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Placed in the Psychiatric Ward at Prince of Wales Hospital. No exit date announced. The officer tells Aaliyah: <em>"Don't worry, he's locked up now."</em> While detained, Adam Watson was still attempting to contact Bodie Chalmers.</p>
                             </div>
                         </div>
                     </div>
@@ -1062,9 +1062,61 @@
                         </div>
                     </div>
 
+                    <!-- "Don't worry he's locked up now" -->
+                    <div class="border border-hot/40 p-5 mb-5" style="background:rgba(193,68,14,0.07)">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">The Officer's Words to Aaliyah</span>
+                            <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-hot/40 text-hot/70 px-1.5 py-0.5">INFORMATION LEAK</span>
+                        </div>
+                        <p class="font-display text-xl text-hot mb-3 leading-tight">"DON'T WORRY. HE'S LOCKED UP NOW."</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">After Adam Watson was admitted to Prince of Wales Hospital, the police officer called Aaliyah and told her: <em class="text-paper/70">"Don't worry, he's locked up now."</em> This is not a welfare notification. It is a reassurance directed at the complainant — confirming that the person she complained about has been removed from the community and placed in a locked facility. It treats the psychiatric admission as a favourable outcome for Aaliyah, not as a medical intervention for Adam.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">Aaliyah then told RJ. RJ — who has a documented pattern of using information to cause institutional harm to Adam Watson — received confirmation from a police officer, via Aaliyah, that Adam Watson was locked in a psychiatric ward. He used that information immediately.</p>
+                    </div>
+
+                    <!-- RJ calls Hancock Prospecting -->
+                    <div class="border border-hot/30 p-5 mb-5" style="background:rgba(193,68,14,0.05)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">RJ Calls Hancock Prospecting</div>
+                        <h5 class="font-display text-lg tracking-wide mb-3 leading-tight">RJ HEARD IT FROM AALIYAH.<br><span class="text-hot">AND CALLED HANCOCK PROSPECTING TO TELL THEM ADAM IS IN THE PSYCH WARD.</span></h5>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">RJ — having been told by Aaliyah that Adam Watson was in the Psychiatric Ward at Prince of Wales Hospital — called <strong class="text-paper/65">Hancock Prospecting</strong> to inform them. The purpose was reputational damage: to use the fact of an involuntary psychiatric admission — initiated by a police officer's cross-state referral over a tone of voice — as a means of undermining Adam Watson's standing with Mrs. Rinehart's organisation.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">The chain is complete: police officer → Aaliyah → RJ → Hancock Prospecting. A psychiatric admission triggered by a tone-of-voice complaint was converted — within the same network — into a reputational weapon deployed against Adam Watson with one of the most significant corporate relationships in his life.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4">
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Source of Information</div>
+                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Police officer → Aaliyah ("Don't worry, he's locked up now") → RJ</p>
+                            </div>
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Where RJ Deployed It</div>
+                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Called Hancock Prospecting directly to disclose that Adam Watson was in a psychiatric ward.</p>
+                            </div>
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">The Intent</div>
+                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Reputational destruction. Use a forced psychiatric admission as evidence of instability to an organisation with which Adam has a significant relationship.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Punitive psychiatry analysis -->
+                    <div class="border border-paper/15 p-5 mb-5" style="background:rgba(0,0,0,0.18)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/35 mb-3">Punitive Psychiatry — How Police Play This</div>
+                        <h5 class="font-display text-lg tracking-wide mb-3 leading-tight text-paper/70">THE MENTAL HEALTH ACT WAS DESIGNED TO PROTECT PEOPLE.<br><span class="text-paper/45">IT IS ALSO A MECHANISM FOR REMOVAL WITHOUT CHARGE.</span></h5>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Punitive psychiatry — the use of mental health legislation as a tool of social control rather than clinical intervention — has a documented history. In its most overt form it was used by Soviet authorities to silence dissidents. In its everyday form in Australia, it operates through the gap between police discretion and clinical review: an officer can initiate an involuntary psychiatric hold, the person is removed from their home, and the hospital then makes its own determination. The hold happens before any clinical assessment. Removal is the first step, not the last.</p>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">What happened here follows that pattern precisely. A QLD police officer — who had no mental health training, no clinical basis, and whose motivating factor was displeasure at a person's tone — made a cross-state referral that resulted in Adam Watson being removed from his home, transported to Prince of Wales Hospital, placed in a locked Psychiatric Ward, and held with no announced exit date. No charge. No finding. No clinical crisis. A phone call with the wrong tone.</p>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">The officer then told the complainant he was "locked up now" — treating the outcome as a resolution of Aaliyah's complaint rather than as a medical event. The information then moved through the network: Aaliyah to RJ, RJ to Hancock Prospecting. By the time Adam Watson was in a hospital bed, the fact of his admission was already being weaponised against him externally.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <div class="border border-paper/10 p-3" style="background:rgba(245,234,212,0.02)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-paper/30 mb-1.5">What the MHA Is For</div>
+                                <p class="text-[0.58rem] text-paper/38 leading-relaxed">Involuntary assessment when a person presents a risk to themselves or others — a clinical determination, made by qualified practitioners, based on observed behaviour and mental state.</p>
+                            </div>
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">What It Was Used For Here</div>
+                                <p class="text-[0.58rem] text-paper/38 leading-relaxed">To remove a person from his home, at the request of a QLD police officer displeased with his tone, after a call in which that officer had threatened him with false charges and unlawful remand. The MHA was the mechanism. Removal was the goal.</p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="border-l-4 border-hot/50 pl-5" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
                         <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">Part of the Conduct Farshad Sarabi Is Pursuing</div>
-                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">The chain from Aaliyah's complaint — through the QLD officer's threats, the cross-state referral, and the involuntary psychiatric admission — is part of the conduct that Adam Watson's lawyer Farshad Sarabi is pursuing against Queensland Police. A police officer's decision to refer a person interstate under the Mental Health Act because she did not like his tone is not a discretion that exists without scrutiny.</p>
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">The chain from Aaliyah's complaint — through the QLD officer's threats, the cross-state referral, the involuntary psychiatric admission, the disclosure to Aaliyah that he was "locked up," and the subsequent leak to RJ that was weaponised against Adam at Hancock Prospecting — is part of the conduct that Adam Watson's lawyer Farshad Sarabi is pursuing against Queensland Police. A police officer's decision to refer a person interstate under the Mental Health Act because she did not like his tone is not a discretion that exists without scrutiny.</p>
                     </div>
                 </div>
 
