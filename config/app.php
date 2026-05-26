@@ -123,4 +123,7 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+
+    'site_password' => env('SITE_PASSWORD', ''),
+
 ];

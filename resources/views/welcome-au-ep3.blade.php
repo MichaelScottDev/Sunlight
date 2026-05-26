@@ -2358,6 +2358,55 @@
             </div>
         </div>
 
+        <!-- Martin Complains to Library Staff -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(124,106,170,0.6)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">New Incident · Broadbeach Library · Staff Complaint</span>
+                <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-gold/40 text-gold px-1.5 py-0.5">NEW</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">MARTIN COMPLAINED TO LIBRARY STAFF.<br><span style="color:#7c6aaa">SAID ADAM IS USING THE COMPUTERS TO CREATE MISCHIEF AND RUIN PEOPLE'S LIVES.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Martin has now taken his complaints to the staff of Broadbeach Library — the same library where Adam Watson uses the computers. His complaint, relayed back to Adam: that Adam is using the library computers to <strong class="text-paper/65">create mischief and ruin people's lives.</strong></p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6">This is the same library. This is the same Martin who located Adam's sleeping vehicle, knocked on the window, reported him to the Council Ranger, and has now threatened to sue over the published account of his own conduct. The complaint to library staff follows the same pattern: insert yourself, make a report to an authority, attempt to have someone else's access or standing reduced.</p>
+
+            <!-- What Martin told library staff -->
+            <div class="border-l-4 pl-5 mb-6" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Martin's Complaint to Library Staff</div>
+                <p class="text-[0.7rem] text-paper/65 leading-relaxed italic mb-1">"He is using the computers to create mischief and ruin people's lives."</p>
+                <div class="text-[0.43rem] tracking-[0.12em] uppercase text-paper/25 mt-2">Martin · Complaint made to Broadbeach Library staff · Relayed to Adam Watson</div>
+            </div>
+
+            <!-- What Adam is actually doing -->
+            <div class="border mb-6" style="border-color:rgba(124,106,170,0.2);background:rgba(124,106,170,0.03)">
+                <div class="px-5 py-3 border-b" style="border-color:rgba(124,106,170,0.12)">
+                    <div class="text-[0.47rem] tracking-[0.2em] uppercase" style="color:#7c6aaa">What Adam Watson Is Actually Doing at Those Computers</div>
+                </div>
+                <div class="px-5 py-4">
+                    <p class="text-[0.65rem] text-paper/50 leading-relaxed mb-3">Adam Watson is using the library computers to publish and maintain Sunlight.Quest — an investigative journalism site documenting documented misconduct, court-entered judgments, sealed legal instruments, CCTV-confirmed council ranger tip-offs, and the conduct of people who have committed fraud, made false sexual assault allegations, and manipulated legal processes.</p>
+                    <p class="text-[0.65rem] text-paper/50 leading-relaxed">That Martin characterises this as "creating mischief and ruining people's lives" is telling. The accounts published are documented. The court orders are real and publicly sealed. The irony is that Martin's own conduct — the ranger tip-off, the drink outside the tent, the legal threats — has earned him a chapter on the site he is now complaining about. The mischief, in Martin's framing, is being held accountable in writing.</p>
+                </div>
+            </div>
+
+            <!-- Pattern grid -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                <div class="border p-3 text-center" style="border-color:rgba(124,106,170,0.18);background:rgba(124,106,170,0.04)">
+                    <div class="text-[0.43rem] tracking-[0.12em] uppercase mb-1.5" style="color:rgba(124,106,170,0.6)">Authority 1</div>
+                    <div class="text-[0.62rem] text-paper/55 leading-tight">Council Ranger<br><span class="text-paper/30 text-[0.5rem]">Reported Adam for sleeping in his car</span></div>
+                </div>
+                <div class="border p-3 text-center" style="border-color:rgba(124,106,170,0.18);background:rgba(124,106,170,0.04)">
+                    <div class="text-[0.43rem] tracking-[0.12em] uppercase mb-1.5" style="color:rgba(124,106,170,0.6)">Authority 2</div>
+                    <div class="text-[0.62rem] text-paper/55 leading-tight">Legal Threat<br><span class="text-paper/30 text-[0.5rem]">Threatened to sue over the site</span></div>
+                </div>
+                <div class="border p-3 text-center" style="border-color:rgba(193,68,14,0.25);background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.43rem] tracking-[0.12em] uppercase mb-1.5 text-hot/60">Authority 3</div>
+                    <div class="text-[0.62rem] text-paper/55 leading-tight">Library Staff<br><span class="text-paper/30 text-[0.5rem]">Complained Adam is ruining lives with a computer</span></div>
+                </div>
+                <div class="border p-3 text-center" style="border-color:rgba(201,138,16,0.2);background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.43rem] tracking-[0.12em] uppercase mb-1.5 text-gold/60">Result</div>
+                    <div class="text-[0.62rem] text-paper/55 leading-tight">Another chapter<br><span class="text-paper/30 text-[0.5rem]">On the site he is trying to suppress</span></div>
+                </div>
+            </div>
+        </div>
+
         <!-- Conclusion -->
         <div class="reveal mb-6 p-6 md:p-8" style="background:rgba(124,106,170,0.07);border:1px solid rgba(124,106,170,0.2)">
             <div class="text-[0.5rem] tracking-[0.22em] uppercase mb-4" style="color:#7c6aaa">Conclusion</div>
