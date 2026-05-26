@@ -2277,6 +2277,87 @@
             </div>
         </div>
 
+        <!-- Martin Threatens to Sue — Confirms He Left the Drink -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.7)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Breaking · Martin Contacts Adam · Threatens Legal Action · Inadvertent Admission</span>
+                <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-gold/40 text-gold px-1.5 py-0.5">NEW</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">MARTIN READ THE SITE.<br><span class="text-hot">THREATENED TO SUE. CONFIRMED HE LEFT THE DRINK.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Martin has read Sunlight.Quest. Having done so, he messaged Adam Watson threatening legal action — specifically over the suggestion that the drink he left outside the tent may have been poisoned.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6">There is a problem with that threat. It is the threat itself.</p>
+
+            <!-- The admission callout -->
+            <div class="border-l-4 pl-5 mb-6" style="border-color:rgba(193,68,14,0.7);background:rgba(193,68,14,0.07);padding:1.1rem 1rem 1.1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The Logical Trap — He Has Confirmed It Was Him</div>
+                <p class="text-[0.65rem] text-paper/60 leading-relaxed mb-3">To threaten defamation proceedings over the suggestion that <em>the drink he left outside the tent</em> may have been poisoned, Martin must first accept the premise that he left the drink. A person who did not leave the drink has no standing to claim defamation over what was said about it. You cannot be defamed by a suggestion about an act you say you did not commit — because the suggestion does not refer to you.</p>
+                <p class="text-[0.65rem] text-paper/60 leading-relaxed">By identifying himself as the person who left the drink — the very identity that would be required for the defamation claim to attach to him — Martin has confirmed what was published. The SMS does not deny leaving the drink. It objects to the characterisation of it.</p>
+            </div>
+
+            <!-- Two-col: what he'd need to claim vs what he confirmed -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+                <div class="border p-4" style="border-color:rgba(245,234,212,0.1);background:rgba(0,0,0,0.15)">
+                    <div class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/30 mb-2">What a Defamation Claim Would Require Him to Assert</div>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start">
+                            <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
+                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">That the published statement referred to him</p>
+                        </div>
+                        <div class="flex gap-2 items-start">
+                            <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
+                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">That he was the person who left the drink</p>
+                        </div>
+                        <div class="flex gap-2 items-start">
+                            <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
+                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">That the suggestion it may have been poisoned is false and damaging to his reputation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="border p-4" style="border-color:rgba(193,68,14,0.25);background:rgba(193,68,14,0.05)">
+                    <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/70 mb-2">What His Threat Has Already Confirmed</div>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start">
+                            <span class="text-gold text-xs shrink-0 mt-0.5">✓</span>
+                            <p class="text-[0.58rem] text-paper/50 leading-relaxed">That he read the site and recognised himself as the person described</p>
+                        </div>
+                        <div class="flex gap-2 items-start">
+                            <span class="text-gold text-xs shrink-0 mt-0.5">✓</span>
+                            <p class="text-[0.58rem] text-paper/50 leading-relaxed">That he accepts he is the one who left the drink outside the tent</p>
+                        </div>
+                        <div class="flex gap-2 items-start">
+                            <span class="text-gold text-xs shrink-0 mt-0.5">✓</span>
+                            <p class="text-[0.58rem] text-paper/50 leading-relaxed">That his objection is to being suspected of poisoning it — not to having left it</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The Streisand effect note -->
+            <div class="border border-gold/25 p-5 mb-5" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-2">The Streisand Effect — In Real Time</div>
+                <p class="text-[0.65rem] text-paper/50 leading-relaxed">The original reporting noted that a drink had been left outside Adam's tent and that the suggestion was raised that it may have been poisoned. The identity of who left it was already documented in context. Martin's decision to contact Adam Watson and threaten legal action over that reporting has done one thing: confirmed, via SMS, that he is the person in question, that he left the drink, and that he is sufficiently troubled by the suggestion to contact the subject of the story and threaten litigation. The message does not exonerate him. It anchors him to the act.</p>
+            </div>
+
+            <!-- Status block -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <div class="border p-4" style="border-color:rgba(193,68,14,0.2);background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/60 mb-2">Martin's Action</div>
+                    <div class="font-display text-base text-hot mb-1">Threatened to Sue</div>
+                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">Via SMS to Adam Watson after reading Sunlight.Quest. Objects to the suggestion the drink may have been poisoned.</p>
+                </div>
+                <div class="border p-4" style="border-color:rgba(201,138,16,0.2);background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.15em] uppercase text-gold/60 mb-2">What the SMS Confirms</div>
+                    <div class="font-display text-base text-gold mb-1">He Left the Drink</div>
+                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">The threat only attaches if he is the person who left the drink. By making the threat he has confirmed the fact he apparently wishes to dispute.</p>
+                </div>
+                <div class="border p-4" style="border-color:rgba(61,122,74,0.2);background:rgba(61,122,74,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.15em] uppercase mb-2" style="color:rgba(61,122,74,0.7)">Adam Watson</div>
+                    <div class="font-display text-base mb-1" style="color:#3d7a4a">Documented</div>
+                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">The SMS has been noted. The site remains published. The reporting stands.</p>
+                </div>
+            </div>
+        </div>
+
         <!-- Conclusion -->
         <div class="reveal mb-6 p-6 md:p-8" style="background:rgba(124,106,170,0.07);border:1px solid rgba(124,106,170,0.2)">
             <div class="text-[0.5rem] tracking-[0.22em] uppercase mb-4" style="color:#7c6aaa">Conclusion</div>
