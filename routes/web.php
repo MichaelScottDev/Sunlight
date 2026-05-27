@@ -2,12 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 
-// Password gate — handles POST submissions from the site-gate view
-// (The SitePassword middleware intercepts the GET display; this handles the POST)
+// Password gate — the SitePassword middleware intercepts this POST, checks
+// the password, sets the session, and redirects. The route body below is an
+// unreachable fallback (middleware always returns a response first).
 Route::post('/site-access', function () {
-    // Handled entirely by SitePassword middleware — this is a fallback
     return redirect('/');
-})->withoutMiddleware(\App\Http\Middleware\SitePassword::class);
+});
 
 Route::get('/', function () {
     return view('welcome-au');
