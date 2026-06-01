@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\AdminLoginController;
 use Illuminate\Support\Facades\Route;
 
 // Password gate — the SitePassword middleware intercepts this POST, checks
@@ -32,3 +33,7 @@ Route::get('/new', function () {
 Route::get('/white-papers', function () {
     return view('white-papers');
 });
+
+Route::get('/admin/login',  [AdminLoginController::class, 'showLogin'])->name('admin.login');
+Route::post('/admin/login', [AdminLoginController::class, 'login']);
+Route::post('/admin/logout', [AdminLoginController::class, 'logout'])->name('admin.logout');
