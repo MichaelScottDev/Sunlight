@@ -1701,13 +1701,133 @@
                     </div>
                 </div>
 
-                <!-- CCC complaint — Tom Tate -->
-                <div class="border-l-4 border-hot/40 pl-5 mb-5" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
-                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">CCC Complaint — Tom Tate Corruption Report</div>
-                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">THE CCC RECEIVED A CORRUPTION REPORT ON TOM TATE.<br><span class="text-hot">AND DIDN'T EVEN REPLY.</span></h4>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A corruption report concerning Tom Tate was emailed to the Crime and Corruption Commission. The report did not include photographs. The CCC did not email back to request that photographs be added. They did not follow up in any form.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The minimum expectation when a corruption report is lodged with a government watchdog is that the watchdog reads it — and if the submission is incomplete, asks for what is missing. The CCC did neither. The silence is not merely a procedural shortcoming. It is evidence of an institution that is not taking the reports handed to it seriously.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">A body that exists to investigate corruption but does not respond to corruption reports is not a watchdog. It is a filing cabinet.</p>
+                <!-- CCC complaint — Tom Tate — FULL CHAPTER -->
+                <div class="story-chapter reveal mb-8" style="border-left-color:rgba(193,68,14,0.6)">
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Crime &amp; Corruption Commission · Tom Tate · Ref-1705827195 · 21 January 2024</span>
+                    </div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE CCC RECEIVED A CORRUPTION REPORT ON TOM TATE.<br><span class="text-hot">THE REPORT HAD MISSING EXHIBITS. THEY NEVER ASKED FOR THEM.</span></h3>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">On 21 January 2024, a formal corruption report was lodged with the Crime and Corruption Commission of Queensland — the body created under the <em>Crime and Corruption Act 2001</em> as Queensland's primary watchdog against corruption in public office. The subject: <strong class="text-paper/70">Tom Tate, Mayor of Gold Coast</strong>, and his direction of council staff to lock homeless people out of public toilets, cut off water access, and deploy rangers to hunt them down — including rangers conducting illegal warrantless vehicle searches on public land.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6">The CCC issued an automated confirmation — Ref-1705827195 — and promised a written assessment within 30 days. Neither a follow-up nor an assessment ever came.</p>
+
+                    <!-- The missing exhibits — core issue -->
+                    <div class="border-l-4 pl-5 mb-6" style="border-color:rgba(193,68,14,0.6);background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The Core Problem — Missing Exhibits, Zero Follow-Up</div>
+                        <p class="text-[0.65rem] text-paper/58 leading-relaxed mb-3">The Tom Tate Corruption Report was submitted with image exhibits that did not render in the final PDF — appearing instead as placeholder text in the form of <strong class="text-paper/70">[Exhibit E — Library Card Video]</strong> and similar references throughout the document. The images, videos, and supporting evidence were described but not visually present in the submitted file.</p>
+                        <p class="text-[0.65rem] text-paper/55 leading-relaxed">A functioning oversight body, upon receiving an incomplete corruption report, would do one of two things: contact the complainant to request the missing material, or note the gap in its assessment. The CCC did neither. No email. No call. No acknowledgement that the exhibits were missing. No request for resubmission. The 30-day assessment window that the CCC's own automated response committed to came and went without a word.</p>
+                    </div>
+
+                    <!-- Tom Tate's own words from the complaint -->
+                    <div class="border border-gold/25 p-5 mb-6" style="background:rgba(201,138,16,0.04)">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-3">The Irony — Tom Tate's Own Description of the CCC, Quoted in the Complaint Itself</div>
+                        <p class="text-[0.7rem] text-paper/65 leading-relaxed italic mb-2">"Tom Tate has been before your commission before and you can read his comments. He thinks you're toothless tigers."</p>
+                        <div class="text-[0.43rem] tracking-[0.12em] uppercase text-paper/25 mb-3">— Extracted from the Corruption Report lodged with the CCC · 21 January 2024</div>
+                        <p class="text-[0.62rem] text-paper/45 leading-relaxed">This line was written directly to the CCC in the body of the formal complaint. Tom Tate had previously appeared before the commission and, on the public record, characterised it as toothless. That characterisation was included in the complaint — not as an insult, but as relevant context: this is a Mayor who has assessed the oversight body responsible for investigating him and concluded it will not act. The CCC received that assessment of itself and then confirmed it by doing nothing. Tom Tate was right.</p>
+                    </div>
+
+                    <!-- What the complaint alleged -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                        <div class="border p-4" style="border-color:rgba(193,68,14,0.2);background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-2">Alleged Conduct</div>
+                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">Tom Tate directing council staff to lock out public toilets and water access, and deploying rangers to hunt down homeless people on the Gold Coast.</p>
+                        </div>
+                        <div class="border p-4" style="border-color:rgba(193,68,14,0.2);background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-2">Illegal Vehicle Searches</div>
+                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">Council rangers conducting warrantless vehicle searches without legal authority — video evidence included in the corruption report. Rangers have no power of search.</p>
+                        </div>
+                        <div class="border p-4" style="border-color:rgba(201,138,16,0.2);background:rgba(201,138,16,0.04)">
+                            <div class="text-[0.43rem] tracking-[0.14em] uppercase text-gold/60 mb-2">CCC Response</div>
+                            <div class="font-display text-xl text-gold mb-1">None</div>
+                            <p class="text-[0.55rem] text-paper/40 leading-relaxed">Automated confirmation only. No follow-up. No assessment. No request for missing exhibits. 30-day charter commitment: missed.</p>
+                        </div>
+                    </div>
+
+                    <!-- CCC by design vs. CCC in reality -->
+                    <div class="border mb-6" style="border-color:rgba(245,234,212,0.1);background:rgba(0,0,0,0.15)">
+                        <div class="px-5 py-3 border-b" style="border-color:rgba(245,234,212,0.07)">
+                            <div class="text-[0.47rem] tracking-[0.2em] uppercase text-paper/35">The CCC — Designed Purpose vs. On-the-Ground Reality</div>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 divide-y sm:divide-y-0 sm:divide-x" style="border-color:rgba(245,234,212,0.07)">
+                            <div class="px-5 py-4">
+                                <div class="text-[0.44rem] tracking-[0.14em] uppercase mb-3" style="color:rgba(61,122,74,0.7)">What the CCC Was Created to Be</div>
+                                <div class="space-y-2">
+                                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">An independent body to detect and investigate serious corruption in public office — including elected officials</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">A charter commitment to assess complaints within 30 days and provide written responses</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">A mechanism to hold local government — including mayors — accountable to the public interest</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">The place Queenslanders are told to go when they witness corruption that police and councils will not address themselves</p></div>
+                                </div>
+                            </div>
+                            <div class="px-5 py-4">
+                                <div class="text-[0.44rem] tracking-[0.14em] uppercase text-hot/60 mb-3">What It Delivered in Practice</div>
+                                <div class="space-y-2">
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">An automated email with a reference number, and silence thereafter</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">No follow-up on a report that visibly contained broken exhibit placeholders — exhibits that could have been requested and would have strengthened the file</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">A 30-day charter promise that was not met, not explained, and not apologised for</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Confirmation that the Mayor's own assessment of the body — "toothless tigers" — was accurate</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-5 py-3 border-t" style="border-color:rgba(245,234,212,0.07)">
+                            <p class="text-[0.6rem] text-paper/40 leading-relaxed">The CCC is not without resource. It is not without staff. It is not without legislative power. What it appears to lack is the institutional will to investigate the people who are most comfortable with its presence — because they have calculated, correctly, that it will not act. When a Mayor can appear before the CCC, publicly describe it as a toothless tiger, and then be the subject of a formal corruption complaint that receives no response, the institution has answered the question of its own effectiveness.</p>
+                        </div>
+                    </div>
+
+                    <!-- Embedded PDFs -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                        <div>
+                            <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/60 mb-2">CCC Lodgement Confirmation · Ref-1705827195 · 21 Jan 2024</div>
+                            <div class="border reveal" style="border-color:rgba(193,68,14,0.25)">
+                                <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tom_tate_corruption_report_ccc/ccc_Online+lodgement+form_Ref-1705827195.pdf"
+                                        class="w-full"
+                                        style="min-height:420px;height:420px;border:none;filter:brightness(0.93)"
+                                        loading="lazy"
+                                        title="CCC Online Lodgement Form — Ref-1705827195 — Tom Tate Corruption Complaint"></iframe>
+                            </div>
+                            <div class="text-[0.4rem] tracking-[0.1em] uppercase text-paper/20 mt-1.5">CCC Queensland · Automated Confirmation · Ref-1705827195 · 21 January 2024</div>
+                        </div>
+                        <div>
+                            <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/60 mb-2">Tom Tate Corruption Report · Full Document</div>
+                            <div class="border reveal" style="border-color:rgba(193,68,14,0.25)">
+                                <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tom_tate_corruption_report_ccc/Tom+Tate+Corruption+Report.pdf"
+                                        class="w-full"
+                                        style="min-height:420px;height:420px;border:none;filter:brightness(0.93)"
+                                        loading="lazy"
+                                        title="Tom Tate Corruption Report — Submitted to CCC Queensland"></iframe>
+                            </div>
+                            <div class="text-[0.4rem] tracking-[0.1em] uppercase text-paper/20 mt-1.5">Tom Tate Corruption Report · Submitted to CCC Queensland · Note: Image exhibits rendered as placeholders</div>
+                        </div>
+                    </div>
+
+                    <!-- Evidence vault -->
+                    <div class="evidence-vault mt-2">
+                        <div class="ev-header" onclick="toggleVault(this)">
+                            <div class="flex items-center gap-2">
+                                <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 CCC — Tom Tate Corruption Report · Lodgement Evidence</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">2 files</span>
+                                <span class="ev-toggle">▼</span>
+                            </div>
+                        </div>
+                        <div class="ev-body">
+                            <div class="ev-file ef-hot" onclick="openMV('pdf-ccc-lodgement')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">ccc_Online_lodgement_form_Ref-1705827195.pdf — CCC Lodgement Confirmation</div>
+                                    <div class="ev-desc">CCC Queensland automated lodgement confirmation · Ref-1705827195 · 21 January 2024 · Subject: Tom Tate, Mayor of Gold Coast · Queensland local government jurisdiction · 30-day assessment commitment made · Never fulfilled</div>
+                                </div>
+                                <div class="ev-cta">View →</div>
+                            </div>
+                            <div class="ev-file ef-hot" onclick="openMV('pdf-tom-tate-corruption-report')">
+                                <div class="ev-icon ev-pdf">PDF</div>
+                                <div class="ev-meta">
+                                    <div class="ev-name">Tom_Tate_Corruption_Report.pdf — Full Corruption Report</div>
+                                    <div class="ev-desc">Tom Tate Corruption Report submitted to CCC Queensland · Alleges: homeless lockouts, warrantless vehicle searches by council rangers, refusal to engage · Note: image exhibits appear as placeholders — CCC never requested the missing material</div>
+                                </div>
+                                <div class="ev-cta">View →</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Evidence vault -->
@@ -4204,6 +4324,25 @@ var EVIDENCE = {
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/qp_contravene_move_on_direction.pdf',
         filename:'qp_contravene_move_on_direction.pdf',
         desc:'The Queensland Police charge sheet for Contravene Banning Notice No. 385003, issued by Marc Barrow. In his statement, Barrow refers to the property as "SOLAC HOUSE" — the obscured RTA legal entity — rather than "BeHome", the trading name displayed on the building itself. This is not a clerical error. By using the RTA registration name rather than the name visible to anyone approaching the premises, Barrow creates plausible deniability: he can claim he documented what he was told without needing to acknowledge the BeHome branding right in front of him. The same split-identity tactic used by Sandy Tulisi to create legal ambiguity has been reproduced in an official police document.'
+    },
+    'pdf-ccc-lodgement': {
+        type:'pdf',
+        title:'CCC LODGEMENT CONFIRMATION — TOM TATE · REF-1705827195',
+        tag:'Crime and Corruption Commission Queensland · 21 January 2024 · Ref-1705827195',
+        meta:'PDF · CCC Online Lodgement Form · Automated confirmation · 30-day assessment commitment made · Never fulfilled',
+        desc:'CCC Queensland automated confirmation of corruption report lodged against Tom Tate, Mayor of Gold Coast (Case No. 1705827195). Subject: direction of council staff to lock out homeless people from public toilets and water; deployment of rangers conducting warrantless vehicle searches. Jurisdiction: Queensland local government councils. CCC committed to written assessment within 30 days. No assessment, no follow-up, and no request for the missing image exhibits ever arrived.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tom_tate_corruption_report_ccc/ccc_Online+lodgement+form_Ref-1705827195.pdf',
+        filename:'ccc_Online_lodgement_form_Ref-1705827195.pdf',
+        pages: 4
+    },
+    'pdf-tom-tate-corruption-report': {
+        type:'pdf',
+        title:'TOM TATE CORRUPTION REPORT — CCC QUEENSLAND SUBMISSION',
+        tag:'Tom Tate · Mayor of Gold Coast · CCC Queensland · Corruption Report · January 2024',
+        meta:'PDF · Tom Tate Corruption Report · Submitted to CCC · Image exhibits appear as placeholders — never followed up',
+        desc:'Full corruption report submitted to the Crime and Corruption Commission of Queensland on 21 January 2024 regarding Tom Tate, Mayor of Gold Coast. Allegations: direction of council staff to lock homeless people out of public toilets and water sources; deployment of council rangers to hunt down rough sleepers; rangers conducting illegal warrantless vehicle searches. Note: image and video exhibits throughout the report appear as placeholder text (e.g. [Exhibit E — Library Card Video]) because they did not render in the submitted PDF. The CCC never contacted the complainant to request the missing exhibit material.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tom_tate_corruption_report_ccc/Tom+Tate+Corruption+Report.pdf',
+        filename:'Tom_Tate_Corruption_Report.pdf'
     },
     'pdf-ccc-marc-barrow': {
         type:'pdf',
