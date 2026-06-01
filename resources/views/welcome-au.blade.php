@@ -5076,17 +5076,74 @@ function sqToggleAnon() {
     document.getElementById('sq-contact-fields').classList.toggle('open', !document.getElementById('sq-anon-chk').checked);
 }
 function sqSubmit() {
-    var summary = document.getElementById('sq-summary');
-    var subject = document.getElementById('sq-subject');
-    if (!summary.value.trim()) {
-        summary.classList.add('sq-error');
-        summary.focus();
+    var summaryEl = document.getElementById('sq-summary');
+    if (!summaryEl.value.trim()) {
+        summaryEl.classList.add('sq-error');
+        summaryEl.focus();
         return;
     }
-    summary.classList.remove('sq-error');
-    document.getElementById('sq-form-card').style.display = 'none';
-    document.getElementById('sq-form-footer').style.display = 'none';
-    document.getElementById('sq-success-state').style.display = 'block';
+    summaryEl.classList.remove('sq-error');
+
+    var btn = document.getElementById('sq-submit-btn');
+    var errEl = document.getElementById('sq-submit-error');
+    if (!errEl) {
+        errEl = document.createElement('div');
+        errEl.id = 'sq-submit-error';
+        errEl.style.cssText = 'color:#c1440e;font-size:0.72rem;margin-top:0.6rem;display:none;';
+        btn.parentNode.insertBefore(errEl, btn.nextSibling);
+    }
+    errEl.style.display = 'none';
+    btn.disabled = true;
+    btn.textContent = 'SENDING...';
+
+    var g = function(name) { var el = document.querySelector('[name="' + name + '"]'); return el ? el.value : null; };
+    var chk = function(name) { var el = document.querySelector('[name="' + name + '"]'); return el ? el.checked : false; };
+
+    var data = {
+        subject:             g('sq_subject'),
+        subject_other:       g('sq_subject_other'),
+        summary:             g('sq_summary'),
+        evidence_type:       g('sq_evidence_type'),
+        drive_link:          g('sq_drive_link'),
+        direct_url:          g('sq_direct_url'),
+        evidence_desc:       g('sq_evidence_desc'),
+        wants_pickup:        chk('sq_wants_pickup'),
+        pickup_suburb:       g('sq_pickup_suburb'),
+        pickup_timing:       g('sq_pickup_timing'),
+        pickup_notes:        g('sq_pickup_notes'),
+        relation_to_subject: g('sq_relation'),
+        has_corroboration:   chk('sq_has_corroboration'),
+        reported_before:     chk('sq_reported_before'),
+        safety_concern:      chk('sq_safety_concern'),
+        consents_publish:    chk('sq_consents_publish'),
+        is_anonymous:        chk('sq_anonymous'),
+        contact_name:        g('sq_contact_name'),
+        contact_phone:       g('sq_contact_phone'),
+        contact_email:       g('sq_contact_email'),
+        contact_pref:        g('sq_contact_pref'),
+        contact_notes:       g('sq_contact_notes'),
+    };
+
+    fetch('/api/tips', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(data)
+    })
+    .then(function(response) {
+        if (response.ok) {
+            document.getElementById('sq-form-card').style.display = 'none';
+            document.getElementById('sq-form-footer').style.display = 'none';
+            document.getElementById('sq-success-state').style.display = 'block';
+        } else {
+            throw new Error('Server error');
+        }
+    })
+    .catch(function() {
+        btn.disabled = false;
+        btn.textContent = 'SUBMIT TIP →';
+        errEl.textContent = 'Submission failed — please try again.';
+        errEl.style.display = 'block';
+    });
 }
 document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') closeTipModal();
