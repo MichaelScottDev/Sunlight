@@ -748,9 +748,78 @@
                                 <div class="text-[0.45rem] tracking-[0.2em] uppercase text-gold mb-2">Emma Jennings — Total Property Group &nbsp;·&nbsp; Jewel Apartments &nbsp;·&nbsp; On the Laptop Screen</div>
                                 <p class="text-[0.62rem] text-paper/45 leading-relaxed">The old website version visible on the laptop screen in this photograph includes content referencing <strong class="text-paper/65">Emma Jennings</strong> of <strong class="text-paper/65">Total Property Group</strong> — the real estate agency that handles sales of the <strong class="text-paper/65">Jewel Apartments</strong>. Hancock Prospecting sent a cease and desist letter to Emma Jennings after her persistent pestering in connection with those apartments. Emma Jennings was also involved with Bodie Chalmers in a scam against Adam Watson — a connection that was documented in the old version of this publication and is part of the broader pattern of conduct recorded here.</p>
                             </div>
-                            <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.14)">
-                                <div class="text-[0.45rem] tracking-[0.2em] uppercase text-paper/30 mb-2">The Old Version — Status &amp; Recovery</div>
-                                <p class="text-[0.62rem] text-paper/40 leading-relaxed">The old version of this website went offline and no backup was retained. Pages from that version were left at the firebombing crime scene. A formal request is being made for the full version of that website as it existed at the crime scene — the copy held as part of the arson investigation. Once obtained, it will be uploaded and published here in full.</p>
+                            <div class="border border-sage/25 p-4" style="background:rgba(61,122,74,0.05)">
+                                <div class="text-[0.45rem] tracking-[0.2em] uppercase text-sage mb-2">Update — The Original Website Has Now Been Obtained</div>
+                                <p class="text-[0.62rem] text-paper/45 leading-relaxed">The original version of this publication — the one left at the crime scene — has now been obtained. A screenshot capture of the full site as it existed before it went offline is published in full below. This is the website that triggered Bodie Chalmers after his associates began teasing him about the section titled <em class="text-paper/65">"The Loverboy That Claims He Was Touched."</em> Pages from this version were subsequently left at Adam Watson's mother's house — the home that was firebombed.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- The original website — full PDF embed -->
+                <div class="story-chapter reveal mt-8 mb-8" style="border-left-color:rgba(193,68,14,0.5)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#c1440e;border-color:rgba(193,68,14,0.4)">The Original Publication · "R J! Let There Be Light" · Full Screenshot Capture · August 2025</span>
+                    </div>
+                    <h3 class="font-display text-2xl tracking-wide mb-3 leading-tight">THE WEBSITE THAT TRIGGERED BODIE CHALMERS.<br><span class="text-hot">LEFT AT ADAM'S MOTHER'S FIREBOMBED HOUSE.</span></h3>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">This is the original publication — a predecessor to Sunlight.Quest — that circulated online before going offline. After its contents became widely known in Bodie Chalmers's social circle, his associates began teasing him about the section titled <strong class="text-paper/65">"Bodie Chalmers — The Loverboy That Claims He Was Touched."</strong> Bodie became so enraged by the ridicule that he organised the firebombing of Adam Watson's mother's house. Pages from this website were left at the crime scene by the perpetrators — a deliberate act designed to establish a link between this journalism and the violence.</p>
+
+                    <!-- What the site actually contained -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                        <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.15)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">The Trigger</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">The section titled <em>"The Loverboy That Claims He Was Touched"</em> documented Bodie Chalmers's pattern of false touching allegations. His associates teased him relentlessly about it. The ridicule drove the retaliation.</p>
+                        </div>
+                        <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.15)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-2">The Irony</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">Bodie Chalmers's response to being documented was to commit arson. The perpetrators then left the very pages that upset him at the crime scene — compounding the evidence trail rather than erasing it.</p>
+                        </div>
+                        <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.15)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase" style="color:#7c6aaa">The Publication</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">The site covered RJ (police informant), Aaron Barker (QPS), Marc Barrow (QPS), Bodie Chalmers, Lauren Forbes (Sky News), and structural failures in QLD Police and the Gold Coast Council homeless response.</p>
+                        </div>
+                    </div>
+
+                    <!-- Callout: specific Bodie section -->
+                    <div class="border-l-4 pl-5 mb-6" style="border-color:#c1440e;background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-2">The Section That Set Him Off</div>
+                        <p class="font-display text-xl tracking-wide leading-tight mb-2">BODIE CHALMERS — THE LOVERBOY THAT CLAIMS HE WAS TOUCHED</p>
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">Published under the subheading <em>"Scheming, Inbred Closeted Plastic Gangster of the Gold Coast."</em> The section documented: armed burglary charges, DV assaults on Adam Watson, the failed lie detector test (1/100 — "Deceptive"), card fraud ($27,000 scammed from Adam), the false sexual assault allegation, the birth certificate setup trap, the knife plan intercepted by police, ASIC fraud (added himself as 50% shareholder via forged signature), and "That Toilet Video" sent to Hancock Prospecting. All documented. All now confirmed.</p>
+                    </div>
+
+                    <!-- Full PDF embed -->
+                    <div class="border border-paper/[0.07] overflow-hidden mb-5" style="background:rgba(0,0,0,0.2)">
+                        <div class="flex items-center justify-between px-4 py-2.5 border-b border-paper/[0.06]" style="background:rgba(0,0,0,0.3)">
+                            <span class="text-[0.44rem] tracking-[0.2em] uppercase text-hot">Original Publication · Full Screenshot · "R J! Let There Be Light — Episode #1" · August 2025</span>
+                            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/screencapture-sunlight-quest-test-2025-08-09-13_00_06-compressed.pdf"
+                               target="_blank" rel="noopener"
+                               class="text-[0.44rem] tracking-[0.12em] uppercase border border-paper/20 text-paper/35 px-2 py-1 hover:border-hot/50 hover:text-hot transition-colors">
+                                Open PDF ↗
+                            </a>
+                        </div>
+                        <div style="height:780px">
+                            <iframe
+                                src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/screencapture-sunlight-quest-test-2025-08-09-13_00_06-compressed.pdf"
+                                style="width:100%;height:100%;border:none;display:block"
+                                title="Original publication — R J! Let There Be Light Episode 1 — Kosta Kondratenko"
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                        <div class="px-4 py-3 border-t border-paper/[0.05]" style="background:rgba(0,0,0,0.2)">
+                            <span class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/22">PDF · Screenshot capture · Original publication · August 2025 · 28 pages · This is the document left at the firebombing crime scene at Adam Watson's mother's home</span>
+                        </div>
+                    </div>
+
+                    <!-- Evidence vault entry -->
+                    <div class="evidence-vault border border-paper/[0.07] p-5" style="background:rgba(0,0,0,0.15)">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-4">Evidence — Original Publication</div>
+                        <div class="ev-file ef-hot" onclick="openMV('pdf','ORIGINAL PUBLICATION — R J! LET THERE BE LIGHT (EPISODE 1)','Full screenshot capture of the original Kosta Kondratenko website — predecessor to Sunlight.Quest — as it existed in August 2025','PDF · 28 pages · Screenshot capture · Left at the firebombing crime scene at Adam Watson\'s mother\'s house','screencapture-sunlight-quest-test-2025-08-09-13_00_06-compressed.pdf','The original publication that preceded Sunlight.Quest — titled \"R J! Let There Be Light — Episode 1.\" Sections covered: RJ (police informant, paedophile ring allegations), Aaron Barker (QPS), Marc Barrow (QPS), Bodie Chalmers (\"The Loverboy That Claims He Was Touched\"), Lauren Forbes (Sky News), Gold Coast Council homeless policy. This is the document that Bodie Chalmers\'s associates teased him about — triggering the firebombing of Adam Watson\'s mother\'s home. Pages were deliberately left at the crime scene.','pdf-original-publication')">
+                            <div class="ev-icon">📄</div>
+                            <div class="ev-body">
+                                <div class="ev-header">R J! Let There Be Light — Episode 1 · Original Publication · August 2025</div>
+                                <div class="ev-name">screencapture-sunlight-quest-test-2025-08-09-13_00_06-compressed.pdf</div>
+                                <div class="ev-desc">PDF · 28 pages · Full screenshot capture · Left at firebombing crime scene · Includes "Bodie Chalmers — The Loverboy That Claims He Was Touched" section</div>
                             </div>
                         </div>
                     </div>
@@ -5546,6 +5615,16 @@ var EVIDENCE = {
         desc:'Statement of Claim stamped by the Local Court against West Kira for obtaining benefit by deception. The debt includes the cost of Adam Watson\'s glasses, deliberately destroyed by West Kira during the in-vehicle incident captured on recording. The debt has since been onsold to a third-party debt collector. A stamped Statement of Claim is a court document, not an allegation — the conduct and the debt are on the record.',
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/statement_of_claim_west_kira.pdf',
         filename:'statement_of_claim_west_kira.pdf'
+    },
+    'pdf-original-publication': {
+        type:'pdf',
+        title:'ORIGINAL PUBLICATION — R J! LET THERE BE LIGHT (EPISODE 1)',
+        tag:'Kosta Kondratenko · Original Website · Predecessor to Sunlight.Quest · August 2025',
+        meta:'PDF · 28 pages · Full screenshot capture · Left at firebombing crime scene · Adam Watson\'s mother\'s house',
+        desc:'The original publication that preceded Sunlight.Quest — titled "R J! Let There Be Light — Episode 1." Sections covered: RJ (police informant, paedophile ring allegations), Aaron Barker (QPS), Marc Barrow (QPS), Bodie Chalmers ("The Loverboy That Claims He Was Touched"), Lauren Forbes (Sky News), Gold Coast Council homeless policy, and more. This is the document that Bodie Chalmers\'s associates teased him about — triggering the firebombing of Adam Watson\'s mother\'s home. Pages from this document were deliberately left at the crime scene.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/screencapture-sunlight-quest-test-2025-08-09-13_00_06-compressed.pdf',
+        filename:'RJ_Let_There_Be_Light_Episode1_Original_Publication.pdf',
+        pages: 28
     },
     'pdf-west-kira-judgment': {
         type:'pdf',
