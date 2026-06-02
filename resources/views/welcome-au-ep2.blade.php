@@ -3380,6 +3380,96 @@
                 </div>
             </div>
 
+            <!-- Examination Order -->
+            <div class="story-chapter reveal mt-8 mb-8" style="border-left-color:rgba(61,122,74,0.5)">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#3d7a4a;border-color:rgba(61,122,74,0.4)">Enforcement · Examination Order · Form 54 UCPR 38.3 · Local Court of NSW</span>
+                </div>
+                <h3 class="font-display text-2xl tracking-wide mb-3 leading-tight">SHOW UP. SHOW YOUR ASSETS.<br><span class="text-sage">OR YOU MAY BE ARRESTED.</span></h3>
+
+                <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Adam Watson has obtained an Examination Order from the Local Court of NSW — issued 1 June 2026 — requiring West Kira to attend court and disclose his full financial position so the judgment debt can be enforced. West Kira destroyed a man's glasses during a ride Adam gave him out of basic decency. Adam is determined to collect. Karma, as it turns out, runs on a court timetable.</p>
+
+                <!-- Key order details -->
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-px mb-6" style="background:rgba(245,234,212,0.06)">
+                    <div class="p-4" style="background:#0c0804">
+                        <div class="text-[0.42rem] tracking-[0.18em] uppercase text-sage mb-1.5">Court Date</div>
+                        <div class="font-display text-lg leading-tight text-paper/80">17 July 2026</div>
+                        <div class="text-[0.56rem] text-paper/35 mt-1">9:30 AM · Tweed Heads</div>
+                    </div>
+                    <div class="p-4" style="background:#0c0804">
+                        <div class="text-[0.42rem] tracking-[0.18em] uppercase text-sage mb-1.5">Court</div>
+                        <div class="font-display text-lg leading-tight text-paper/80">Local Court NSW</div>
+                        <div class="text-[0.56rem] text-paper/35 mt-1">General Division · Sydney Registry</div>
+                    </div>
+                    <div class="p-4" style="background:#0c0804">
+                        <div class="text-[0.42rem] tracking-[0.18em] uppercase text-sage mb-1.5">Case Number</div>
+                        <div class="font-display text-lg leading-tight text-paper/80">2025/00341907</div>
+                        <div class="text-[0.56rem] text-paper/35 mt-1">Watson v West Kira</div>
+                    </div>
+                    <div class="p-4" style="background:#0c0804">
+                        <div class="text-[0.42rem] tracking-[0.18em] uppercase text-hot mb-1.5">If He Doesn't Attend</div>
+                        <div class="font-display text-lg leading-tight text-hot">Arrested.</div>
+                        <div class="text-[0.56rem] text-paper/35 mt-1">Stated on the face of the Order</div>
+                    </div>
+                </div>
+
+                <!-- What it requires -->
+                <div class="border border-sage/20 p-5 mb-5" style="background:rgba(61,122,74,0.04)">
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-sage mb-3">What West Kira Must Produce at Court</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/50 leading-relaxed">Full bank statements for all accounts held in his name — last 6 months</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/50 leading-relaxed">Documents showing the current balance of all bank accounts held in his name</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/50 leading-relaxed">Title deeds or other documents showing any real property owned by him</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/50 leading-relaxed">Vehicle registration certificates or documents showing any motor vehicles owned by him</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/50 leading-relaxed">Income documents — payslips, Centrelink statements, or tax returns</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/50 leading-relaxed">Documents identifying the name and branch of every bank or financial institution at which he holds an account</p></div>
+                    </div>
+                </div>
+
+                <!-- Karma callout -->
+                <div class="border-l-4 pl-5 mb-5" style="border-color:rgba(61,122,74,0.5);background:rgba(61,122,74,0.04);padding:1rem 1rem 1rem 1.25rem">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-sage mb-2">On Record — Adam Watson</div>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed">"He got into my car. I gave him a ride. He broke my glasses. He is going to show up to court in Tweed Heads and show me what he owns — or he gets arrested. That's karma. I'm getting my glasses."</p>
+                </div>
+
+                <p class="text-[0.65rem] text-paper/40 leading-relaxed mb-5">West Kira is currently in custody on drug charges worth approximately $750,000 and facing charges over the recorded Mick Gatto call. He is also ordered to be in Tweed Heads at 9:30 AM on 17 July 2026 — fully disclosed, assets on the table — to satisfy a judgment obtained for deliberately destroying a passenger's glasses during a free ride. Adam Watson's address for the order is recorded as 98 Jabiru Avenue, Burleigh Waters QLD 4220. Every asset West Kira holds is now a subject of inquiry.</p>
+
+                <!-- Embedded PDF + evidence vault -->
+                <div class="border border-paper/[0.07] overflow-hidden mb-5" style="background:rgba(0,0,0,0.2)">
+                    <div class="flex items-center justify-between px-4 py-2.5 border-b border-paper/[0.06]" style="background:rgba(0,0,0,0.3)">
+                        <span class="text-[0.44rem] tracking-[0.2em] uppercase text-sage">Examination Order · Form 54 UCPR 38.3 · D0002DOIXL · Issued 1 June 2026 · Watson v West Kira · 2025/00341907</span>
+                        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/west_kira_examination_notice.pdf"
+                           target="_blank" rel="noopener"
+                           class="text-[0.44rem] tracking-[0.12em] uppercase border border-paper/20 text-paper/35 px-2 py-1 hover:border-sage/50 hover:text-sage transition-colors">
+                            Open PDF ↗
+                        </a>
+                    </div>
+                    <div style="height:680px">
+                        <iframe
+                            src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/west_kira_examination_notice.pdf"
+                            style="width:100%;height:100%;border:none;display:block"
+                            title="Examination Order — West Kira — Local Court of NSW — 17 July 2026"
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                    <div class="px-4 py-3 border-t border-paper/[0.05]" style="background:rgba(0,0,0,0.2)">
+                        <span class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/22">PDF · 2 pages · Form 54 (version 1) UCPR 38.3 · Attendance required 17 July 2026 · Non-attendance: may be arrested</span>
+                    </div>
+                </div>
+
+                <div class="evidence-vault border border-paper/[0.07] p-5" style="background:rgba(0,0,0,0.15)">
+                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-4">Evidence — Examination Order</div>
+                    <div class="ev-file ef-sage" onclick="openMV('pdf-wk-examination-order')">
+                        <div class="ev-icon ev-pdf">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">west_kira_examination_notice.pdf</div>
+                            <div class="ev-desc">PDF · 2 pages · Form 54 UCPR 38.3 · Examination Order · Issued 1 June 2026 · Attendance required 17 July 2026, 9:30 AM, Tweed Heads · Failure to attend: arrest</div>
+                        </div>
+                        <span class="ev-cta">View →</span>
+                    </div>
+                </div>
+            </div>
+
             <!-- Gay hate crime — West Kira & Bodie Chalmers -->
             <div class="story-chapter reveal mt-10" style="border-left-color:rgba(193,68,14,0.6)">
                 <div class="flex items-center gap-3 mb-4">
@@ -5625,6 +5715,16 @@ var EVIDENCE = {
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/screencapture-sunlight-quest-test-2025-08-09-13_00_06-compressed.pdf',
         filename:'RJ_Let_There_Be_Light_Episode1_Original_Publication.pdf',
         pages: 28
+    },
+    'pdf-wk-examination-order': {
+        type:'pdf',
+        title:'EXAMINATION ORDER — WEST KIRA · LOCAL COURT OF NSW',
+        tag:'Form 54 UCPR 38.3 · Watson v West Kira · Case 2025/00341907 · Issued 1 June 2026',
+        meta:'PDF · 2 pages · Form 54 (version 1) UCPR 38.3 · Document ID D0002DOIXL · Issued 1 June 2026 3:25 PM',
+        desc:'Examination Order issued by the Local Court of NSW requiring West Kira (98 Jabiru Avenue, Burleigh Waters QLD 4220) to attend Tweed Heads Local Court on 17 July 2026 at 9:30 AM. West Kira must produce full bank statements (6 months), current account balances, title deeds, vehicle registrations, income documents (payslips, Centrelink, tax returns), and details of all financial institutions. Judgment creditor: Adam Watson. Judgment debtor: West Kira. Non-attendance: may be arrested. This order follows the sealed Judgment/Order of 20 May 2026 for $10,958.00.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/west_kira_examination_notice.pdf',
+        filename:'west_kira_examination_notice.pdf',
+        pages: 2
     },
     'pdf-west-kira-judgment': {
         type:'pdf',
