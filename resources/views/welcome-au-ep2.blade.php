@@ -150,6 +150,54 @@
         .nav-dropdown-menu a.nav-accent-gold:hover{color:#c98a10}
         .nav-dropdown-menu a.nav-accent-violet:hover{color:#7c6aaa}
         .nav-dropdown-menu a.nav-accent-sage:hover{color:#3d7a4a}
+
+        /* ── TIP MODAL ── */
+        #sq-modal{display:none;position:fixed;inset:0;z-index:500;background:rgba(0,0,0,0.92);backdrop-filter:blur(6px);overflow-y:auto;padding:24px 16px 56px}
+        #sq-modal.open{display:block}
+        .sq-modal-inner{max-width:680px;margin:0 auto;position:relative}
+        .sq-modal-close-row{display:flex;justify-content:flex-end;margin-bottom:12px}
+        .sq-modal-close-btn{background:#111;border:1px solid #2a2a2a;color:rgba(245,234,212,0.4);font-family:'DM Mono',monospace;font-size:11px;letter-spacing:1px;padding:7px 16px;cursor:pointer;transition:color 0.13s,border-color 0.13s}
+        .sq-modal-close-btn:hover{color:rgba(245,234,212,0.85);border-color:#555}
+        .sq-logo-row{display:flex;align-items:center;gap:14px;margin-bottom:4px}
+        .sq-logo-bar{width:3px;height:36px;background:linear-gradient(180deg,#7c6aaa,#c1440e)}
+        .sq-logo-text{font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:3px;color:#f5ead4}
+        .sq-logo-sub{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(245,234,212,0.25);margin-top:2px}
+        .sq-conf-strip{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:rgba(124,106,170,0.6);border:1px solid rgba(124,106,170,0.15);padding:5px 10px;margin-bottom:14px;background:rgba(124,106,170,0.04)}
+        .sq-card{background:#0f0f0f;border:1px solid #1e1e1e;padding:22px 24px;margin-bottom:2px}
+        .sq-section{margin-bottom:20px}
+        .sq-section-label{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:rgba(245,234,212,0.3);margin-bottom:10px;display:flex;align-items:center;gap:8px}
+        .sq-badge{font-size:8px;letter-spacing:1px;padding:2px 6px;border-radius:2px}
+        .sq-badge-req{background:rgba(193,68,14,0.2);color:#c1440e;border:1px solid rgba(193,68,14,0.3)}
+        .sq-badge-opt{background:rgba(245,234,212,0.06);color:rgba(245,234,212,0.3);border:1px solid rgba(245,234,212,0.1)}
+        .sq-field{margin-bottom:8px}
+        .sq-field-hint{font-size:9px;letter-spacing:0.5px;color:rgba(245,234,212,0.2);margin-top:4px}
+        .sq-input,.sq-textarea,.sq-select{width:100%;background:rgba(245,234,212,0.03);border:1px solid rgba(245,234,212,0.1);color:#f5ead4;font-family:'DM Mono',monospace;font-size:12px;padding:9px 12px;outline:none;transition:border-color 0.15s;box-sizing:border-box}
+        .sq-input:focus,.sq-textarea:focus,.sq-select:focus{border-color:rgba(124,106,170,0.5)}
+        .sq-input.sq-error,.sq-textarea.sq-error{border-color:#c1440e}
+        .sq-textarea{resize:vertical;min-height:80px}
+        .sq-select{appearance:none;cursor:pointer}
+        .sq-select option,.sq-select optgroup{background:#111;color:#f5ead4}
+        .sq-header{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding-bottom:16px;border-bottom:1px solid #1e1e1e;margin-bottom:20px}
+        .sq-wordmark{font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:3px;color:#f5ead4;line-height:1}
+        .sq-tagline{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:rgba(124,106,170,0.7);margin-top:4px}
+        .sq-close{background:none;border:1px solid rgba(245,234,212,0.1);color:rgba(245,234,212,0.35);width:28px;height:28px;cursor:pointer;font-size:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:border-color 0.13s,color 0.13s}
+        .sq-close:hover{border-color:rgba(245,234,212,0.35);color:rgba(245,234,212,0.8)}
+        .sq-label{display:block;font-size:9.5px;letter-spacing:1.2px;text-transform:uppercase;color:rgba(245,234,212,0.4);margin-bottom:6px}
+        .sq-toggle-row{display:flex;align-items:center;justify-content:space-between;gap:10px}
+        .sq-toggle{background:rgba(245,234,212,0.06);border:1px solid rgba(245,234,212,0.12);color:rgba(245,234,212,0.35);font-family:'DM Mono',monospace;font-size:9px;letter-spacing:1.5px;padding:4px 10px;cursor:pointer;border-radius:3px;transition:background 0.13s,color 0.13s,border-color 0.13s;white-space:nowrap;flex-shrink:0}
+        .sq-collapsible{display:flex;align-items:center;justify-content:space-between;cursor:pointer;font-size:10px;letter-spacing:1.8px;text-transform:uppercase;color:rgba(245,234,212,0.5);padding:10px 0;border-top:1px solid #1e1e1e;user-select:none}
+        .sq-collapsible:hover{color:rgba(245,234,212,0.75)}
+        .sq-toggle-icon{font-size:14px;color:rgba(124,106,170,0.7)}
+        .sq-pill{display:inline-flex;align-items:center;gap:5px;font-size:10px;color:rgba(245,234,212,0.45);cursor:pointer;padding:4px 9px;border:1px solid rgba(245,234,212,0.1);border-radius:3px;transition:border-color 0.12s,color 0.12s}
+        .sq-pill input{accent-color:#7c6aaa;cursor:pointer}
+        .sq-pill:hover{border-color:rgba(124,106,170,0.4);color:rgba(245,234,212,0.7)}
+        .sq-footer{border-top:2px solid #7c6aaa;padding:16px 0 4px;display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:20px}
+        .sq-grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+        .sq-divider{border:none;border-top:1px solid #1e1e1e;margin:18px 0}
+        #sq-submit-btn:hover{background:#5d4f82 !important}
+        #sq-submit-btn:active{transform:scale(0.97)}
+        #sq-submit-btn:disabled{opacity:0.5;cursor:not-allowed}
+        @media(max-width:520px){.sq-grid2{grid-template-columns:1fr}.sq-footer{flex-direction:column;align-items:stretch}}
     </style>
 </head>
 <body class="bg-ink text-paper font-mono overflow-x-hidden" style="background-color:#0c0804;background-image:linear-gradient(160deg,rgba(139,60,14,0.07) 0%,transparent 40%,rgba(61,122,74,0.04) 100%)">
@@ -182,6 +230,7 @@
         <a href="#sms" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors">Subscribe</a>
         <a href="/" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-hot/50 px-3 py-1.5 transition-all">← Episode 1</a>
         <a href="/episode-3" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-gold/50 px-3 py-1.5 transition-all">Episode 3 →</a>
+        <button onclick="openTipModal()" class="hidden md:flex items-center gap-1.5 text-[0.55rem] tracking-[0.2em] uppercase border border-violet/50 hover:border-violet hover:bg-violet/10 px-3 py-1.5 transition-all" style="color:#7c6aaa;border-color:rgba(124,106,170,0.5)">⊕ Submit a Tip</button>
         <span class="text-[0.52rem] tracking-[0.18em] uppercase border px-3 py-1.5" style="border-color:rgba(124,106,170,0.6);color:#7c6aaa">⬤ EP.02</span>
     </div>
 </nav>
@@ -6246,6 +6295,330 @@ document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el);});
         </div>
     </div>
 </footer>
+
+<!-- ══════════════════════════════════════
+     SUBMIT A TIP MODAL
+══════════════════════════════════════ -->
+<div id="sq-modal" class="sq-modal" onclick="sqModalBackdropClick(event)">
+    <div class="sq-card" role="dialog" aria-modal="true" aria-labelledby="sq-modal-title">
+
+        <!-- Header -->
+        <div class="sq-header">
+            <div>
+                <div class="sq-wordmark">SUNLIGHT<span style="color:#7c6aaa">.QUEST</span></div>
+                <div id="sq-modal-title" class="sq-tagline">Submit a Tip — Episode 02</div>
+            </div>
+            <button class="sq-close" onclick="closeTipModal()" aria-label="Close">✕</button>
+        </div>
+
+        <!-- Success state -->
+        <div id="sq-success-state" style="display:none; padding:2.5rem 2rem; text-align:center;">
+            <div style="font-size:2rem; margin-bottom:1rem;">✓</div>
+            <div style="font-family:'Space Grotesk',sans-serif; font-size:1.1rem; color:#f5ead4; margin-bottom:0.5rem;">Tip Received</div>
+            <div style="font-size:0.75rem; color:#f5ead4; opacity:0.55; line-height:1.6;">Thank you. Your submission has been logged securely. If you provided contact details, we may follow up.</div>
+            <button onclick="closeTipModal()" style="margin-top:1.5rem; background:#7c6aaa; color:#fff; border:none; border-radius:6px; padding:0.6rem 1.6rem; font-size:0.78rem; letter-spacing:0.1em; cursor:pointer; text-transform:uppercase;">Close</button>
+        </div>
+
+        <!-- Form -->
+        <div id="sq-form-body">
+
+            <!-- Section 1: Subject -->
+            <div class="sq-section">
+                <div class="sq-section-label">01 — Subject</div>
+                <div style="margin-bottom:0.75rem;">
+                    <label class="sq-label" for="sq-subject">Who is this tip about?</label>
+                    <select id="sq-subject" class="sq-input">
+                        <option value="">— Select a subject —</option>
+                        <option value="Bodie Chalmers">Bodie Chalmers</option>
+                        <option value="West Kira">West Kira</option>
+                        <option value="Grason Andrew Kira">Grason Andrew Kira</option>
+                        <option value="Samira Khalaj">Samira Khalaj</option>
+                        <option value="Alex Vourliotis">Alex Vourliotis</option>
+                        <option value="Graham Gordon">Graham Gordon</option>
+                        <option value="Kane Singleton">Kane Singleton</option>
+                        <option value="Z Soielman">Z Soielman</option>
+                        <option value="Kira Steinhaus">Kira Steinhaus</option>
+                        <option value="other">Other / Multiple</option>
+                    </select>
+                </div>
+                <div id="sq-subject-other-wrap" style="display:none; margin-bottom:0.75rem;">
+                    <label class="sq-label" for="sq-subject-other">Please specify</label>
+                    <input id="sq-subject-other" class="sq-input" type="text" placeholder="Name or description">
+                </div>
+                <div>
+                    <label class="sq-label" for="sq-summary">Summary of what you know <span style="color:#c1440e">*</span></label>
+                    <textarea id="sq-summary" class="sq-input" rows="4" placeholder="Describe what you witnessed, know, or have heard. Be as specific as possible — dates, locations, amounts, names."></textarea>
+                </div>
+            </div>
+
+            <!-- Section 2: Evidence -->
+            <div class="sq-section">
+                <div class="sq-collapsible" onclick="sqToggle('sq-evidence-body', this)">
+                    <span>02 — Evidence <span style="font-size:0.62rem; opacity:0.4; font-weight:400;">(optional)</span></span>
+                    <span class="sq-toggle-icon">＋</span>
+                </div>
+                <div id="sq-evidence-body" style="display:none; padding-top:0.75rem;">
+                    <div style="margin-bottom:0.75rem;">
+                        <label class="sq-label">Evidence type</label>
+                        <div style="display:flex; flex-wrap:wrap; gap:0.5rem;">
+                            <label class="sq-pill"><input type="radio" name="sq-evidence-type" value="documents"> Documents</label>
+                            <label class="sq-pill"><input type="radio" name="sq-evidence-type" value="photos"> Photos / Video</label>
+                            <label class="sq-pill"><input type="radio" name="sq-evidence-type" value="recordings"> Recordings</label>
+                            <label class="sq-pill"><input type="radio" name="sq-evidence-type" value="financial"> Financial records</label>
+                            <label class="sq-pill"><input type="radio" name="sq-evidence-type" value="correspondence"> Correspondence</label>
+                            <label class="sq-pill"><input type="radio" name="sq-evidence-type" value="other"> Other</label>
+                        </div>
+                    </div>
+                    <div style="margin-bottom:0.75rem;">
+                        <label class="sq-label" for="sq-drive-link">Shared drive link (Google Drive, Dropbox, etc.)</label>
+                        <input id="sq-drive-link" class="sq-input" type="url" placeholder="https://drive.google.com/...">
+                    </div>
+                    <div style="margin-bottom:0.75rem;">
+                        <label class="sq-label" for="sq-direct-url">Direct URL to file or page</label>
+                        <input id="sq-direct-url" class="sq-input" type="url" placeholder="https://...">
+                    </div>
+                    <div>
+                        <label class="sq-label" for="sq-evidence-desc">Describe the evidence</label>
+                        <textarea id="sq-evidence-desc" class="sq-input" rows="3" placeholder="What does the evidence show? How did you obtain it?"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 3: Physical pickup -->
+            <div class="sq-section">
+                <div class="sq-collapsible" onclick="sqToggle('sq-pickup-body', this)">
+                    <span>03 — Physical Pickup <span style="font-size:0.62rem; opacity:0.4; font-weight:400;">(optional)</span></span>
+                    <span class="sq-toggle-icon">＋</span>
+                </div>
+                <div id="sq-pickup-body" style="display:none; padding-top:0.75rem;">
+                    <div class="sq-toggle-row" style="margin-bottom:0.75rem;">
+                        <span class="sq-label" style="margin-bottom:0;">I have physical documents that need to be collected</span>
+                        <button id="sq-pickup-toggle" class="sq-toggle" onclick="sqTogglePickup()" aria-pressed="false">OFF</button>
+                    </div>
+                    <div id="sq-pickup-details" style="display:none;">
+                        <div style="margin-bottom:0.75rem;">
+                            <label class="sq-label" for="sq-pickup-suburb">Your suburb / area</label>
+                            <input id="sq-pickup-suburb" class="sq-input" type="text" placeholder="e.g. Wollongong, Sydney CBD">
+                        </div>
+                        <div style="margin-bottom:0.75rem;">
+                            <label class="sq-label" for="sq-pickup-timing">Best time for pickup</label>
+                            <input id="sq-pickup-timing" class="sq-input" type="text" placeholder="e.g. weekday mornings, any time">
+                        </div>
+                        <div>
+                            <label class="sq-label" for="sq-pickup-notes">Additional notes</label>
+                            <textarea id="sq-pickup-notes" class="sq-input" rows="2" placeholder="Any special instructions or access requirements"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 4: Background -->
+            <div class="sq-section">
+                <div class="sq-collapsible" onclick="sqToggle('sq-background-body', this)">
+                    <span>04 — Your Background <span style="font-size:0.62rem; opacity:0.4; font-weight:400;">(optional)</span></span>
+                    <span class="sq-toggle-icon">＋</span>
+                </div>
+                <div id="sq-background-body" style="display:none; padding-top:0.75rem;">
+                    <div style="margin-bottom:0.75rem;">
+                        <label class="sq-label">Your relation to the subject</label>
+                        <select id="sq-relation" class="sq-input">
+                            <option value="">— Prefer not to say —</option>
+                            <option value="former_associate">Former associate / colleague</option>
+                            <option value="neighbour">Neighbour</option>
+                            <option value="family">Family member</option>
+                            <option value="victim">Direct victim</option>
+                            <option value="witness">Witness</option>
+                            <option value="professional">Professional (legal, financial, medical)</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="sq-toggle-row" style="margin-bottom:0.75rem;">
+                        <span class="sq-label" style="margin-bottom:0;">Others can corroborate what I know</span>
+                        <button id="sq-corroboration-toggle" class="sq-toggle" onclick="sqToggle2('sq-corroboration-toggle')" aria-pressed="false">NO</button>
+                    </div>
+                    <div class="sq-toggle-row" style="margin-bottom:0.75rem;">
+                        <span class="sq-label" style="margin-bottom:0;">I have reported this to police or another authority</span>
+                        <button id="sq-reported-toggle" class="sq-toggle" onclick="sqToggle2('sq-reported-toggle')" aria-pressed="false">NO</button>
+                    </div>
+                    <div class="sq-toggle-row" style="margin-bottom:0;">
+                        <span class="sq-label" style="margin-bottom:0;">I have safety concerns about submitting this</span>
+                        <button id="sq-safety-toggle" class="sq-toggle" onclick="sqToggle2('sq-safety-toggle')" aria-pressed="false">NO</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 5: Contact -->
+            <div class="sq-section" style="border-bottom:none; margin-bottom:0; padding-bottom:0;">
+                <div class="sq-toggle-row" style="margin-bottom:1rem;">
+                    <div>
+                        <div class="sq-section-label" style="margin-bottom:0.15rem;">05 — Contact Details</div>
+                        <div style="font-size:0.65rem; color:#f5ead4; opacity:0.4;">Leave blank to submit anonymously</div>
+                    </div>
+                    <button id="sq-anon-toggle" class="sq-toggle sq-toggle--active" onclick="sqToggleAnon()" aria-pressed="true" style="background:#7c6aaa;">ANON</button>
+                </div>
+                <div id="sq-contact-fields" style="display:none;">
+                    <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.65rem; margin-bottom:0.65rem;">
+                        <div>
+                            <label class="sq-label" for="sq-contact-name">Name</label>
+                            <input id="sq-contact-name" class="sq-input" type="text" placeholder="Your name">
+                        </div>
+                        <div>
+                            <label class="sq-label" for="sq-contact-phone">Phone</label>
+                            <input id="sq-contact-phone" class="sq-input" type="tel" placeholder="0400 000 000">
+                        </div>
+                    </div>
+                    <div style="margin-bottom:0.65rem;">
+                        <label class="sq-label" for="sq-contact-email">Email</label>
+                        <input id="sq-contact-email" class="sq-input" type="email" placeholder="your@email.com">
+                    </div>
+                    <div style="margin-bottom:0.65rem;">
+                        <label class="sq-label">Preferred contact method</label>
+                        <div style="display:flex; flex-wrap:wrap; gap:0.5rem;">
+                            <label class="sq-pill"><input type="radio" name="sq-contact-pref" value="email"> Email</label>
+                            <label class="sq-pill"><input type="radio" name="sq-contact-pref" value="phone"> Phone</label>
+                            <label class="sq-pill"><input type="radio" name="sq-contact-pref" value="signal"> Signal</label>
+                            <label class="sq-pill"><input type="radio" name="sq-contact-pref" value="no_followup"> No follow-up</label>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="sq-label" for="sq-contact-notes">Notes on how to reach you safely</label>
+                        <textarea id="sq-contact-notes" class="sq-input" rows="2" placeholder="e.g. Only call before 9am, use Signal not SMS"></textarea>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- /#sq-form-body -->
+
+        <!-- Footer / Submit -->
+        <div class="sq-footer" id="sq-form-footer">
+            <div style="font-size:0.6rem; color:#f5ead4; opacity:0.35; line-height:1.5; max-width:340px;">All submissions are encrypted and handled confidentially. Anonymous tips are accepted. We do not share sources.</div>
+            <button id="sq-submit-btn" onclick="sqSubmitEp2()" style="background:#7c6aaa; color:#fff; border:none; border-radius:6px; padding:0.65rem 1.8rem; font-size:0.75rem; letter-spacing:0.12em; text-transform:uppercase; cursor:pointer; font-family:'Space Grotesk',sans-serif; font-weight:600; white-space:nowrap;">SUBMIT TIP</button>
+        </div>
+        <div id="sq-error-msg" style="display:none; background:rgba(193,68,14,0.12); border:1px solid rgba(193,68,14,0.3); border-radius:6px; padding:0.6rem 0.85rem; margin:0 1.5rem 1rem; font-size:0.7rem; color:#c1440e;"></div>
+
+    </div><!-- /.sq-card -->
+</div><!-- /#sq-modal -->
+
+<script>
+function openTipModal(){
+    document.getElementById('sq-modal').classList.add('open');
+    document.body.style.overflow='hidden';
+}
+function closeTipModal(){
+    document.getElementById('sq-modal').classList.remove('open');
+    document.body.style.overflow='';
+}
+function sqModalBackdropClick(e){
+    if(e.target===document.getElementById('sq-modal')) closeTipModal();
+}
+function sqToggle(id, btn){
+    var el=document.getElementById(id);
+    var icon=btn?btn.querySelector('.sq-toggle-icon'):null;
+    if(el.style.display==='none'){
+        el.style.display='block';
+        if(icon) icon.textContent='－';
+    } else {
+        el.style.display='none';
+        if(icon) icon.textContent='＋';
+    }
+}
+function sqToggle2(btnId){
+    var btn=document.getElementById(btnId);
+    var active=btn.getAttribute('aria-pressed')==='true';
+    btn.setAttribute('aria-pressed',String(!active));
+    btn.textContent=active?'NO':'YES';
+    btn.style.background=active?'':'#7c6aaa';
+}
+function sqTogglePickup(){
+    var btn=document.getElementById('sq-pickup-toggle');
+    var active=btn.getAttribute('aria-pressed')==='true';
+    btn.setAttribute('aria-pressed',String(!active));
+    btn.textContent=active?'OFF':'ON';
+    btn.style.background=active?'':'#7c6aaa';
+    document.getElementById('sq-pickup-details').style.display=active?'none':'block';
+}
+function sqToggleAnon(){
+    var btn=document.getElementById('sq-anon-toggle');
+    var active=btn.getAttribute('aria-pressed')==='true';
+    btn.setAttribute('aria-pressed',String(!active));
+    btn.textContent=active?'NAMED':'ANON';
+    btn.style.background=active?'':'#7c6aaa';
+    document.getElementById('sq-contact-fields').style.display=active?'block':'none';
+}
+document.getElementById('sq-subject').addEventListener('change',function(){
+    document.getElementById('sq-subject-other-wrap').style.display=this.value==='other'?'block':'none';
+});
+async function sqSubmitEp2(){
+    var summary=(document.getElementById('sq-summary').value||'').trim();
+    if(!summary){
+        var em=document.getElementById('sq-error-msg');
+        em.textContent='Please provide a summary of what you know.';
+        em.style.display='block';
+        return;
+    }
+    document.getElementById('sq-error-msg').style.display='none';
+    var btn=document.getElementById('sq-submit-btn');
+    btn.disabled=true;
+    btn.textContent='SENDING...';
+    var isAnon=document.getElementById('sq-anon-toggle').getAttribute('aria-pressed')==='true';
+    var evType='';
+    var evRadio=document.querySelector('input[name="sq-evidence-type"]:checked');
+    if(evRadio) evType=evRadio.value;
+    var contactPref='';
+    var cpRadio=document.querySelector('input[name="sq-contact-pref"]:checked');
+    if(cpRadio) contactPref=cpRadio.value;
+    var payload={
+        subject: document.getElementById('sq-subject').value||'',
+        subject_other: document.getElementById('sq-subject-other').value||'',
+        summary: summary,
+        evidence_type: evType,
+        drive_link: document.getElementById('sq-drive-link').value||'',
+        direct_url: document.getElementById('sq-direct-url').value||'',
+        evidence_desc: document.getElementById('sq-evidence-desc').value||'',
+        wants_pickup: document.getElementById('sq-pickup-toggle').getAttribute('aria-pressed')==='true',
+        pickup_suburb: document.getElementById('sq-pickup-suburb').value||'',
+        pickup_timing: document.getElementById('sq-pickup-timing').value||'',
+        pickup_notes: document.getElementById('sq-pickup-notes').value||'',
+        relation_to_subject: document.getElementById('sq-relation').value||'',
+        has_corroboration: document.getElementById('sq-corroboration-toggle').getAttribute('aria-pressed')==='true',
+        reported_before: document.getElementById('sq-reported-toggle').getAttribute('aria-pressed')==='true',
+        safety_concern: document.getElementById('sq-safety-toggle').getAttribute('aria-pressed')==='true',
+        consents_publish: true,
+        is_anonymous: isAnon,
+        contact_name: isAnon?'':(document.getElementById('sq-contact-name').value||''),
+        contact_phone: isAnon?'':(document.getElementById('sq-contact-phone').value||''),
+        contact_email: isAnon?'':(document.getElementById('sq-contact-email').value||''),
+        contact_pref: isAnon?'':contactPref,
+        contact_notes: isAnon?'':(document.getElementById('sq-contact-notes').value||''),
+    };
+    try {
+        var res=await fetch('/api/tips',{
+            method:'POST',
+            headers:{'Content-Type':'application/json','Accept':'application/json'},
+            body:JSON.stringify(payload)
+        });
+        var data=await res.json();
+        if(res.ok && data.success){
+            document.getElementById('sq-form-body').style.display='none';
+            document.getElementById('sq-form-footer').style.display='none';
+            document.getElementById('sq-success-state').style.display='block';
+        } else {
+            var msg=(data&&data.message)?data.message:'Submission failed. Please try again.';
+            var em=document.getElementById('sq-error-msg');
+            em.textContent=msg;
+            em.style.display='block';
+            btn.disabled=false;
+            btn.textContent='SUBMIT TIP';
+        }
+    } catch(err) {
+        var em=document.getElementById('sq-error-msg');
+        em.textContent='Network error. Please check your connection and try again.';
+        em.style.display='block';
+        btn.disabled=false;
+        btn.textContent='SUBMIT TIP';
+    }
+}
+</script>
 
 </body>
 </html>
