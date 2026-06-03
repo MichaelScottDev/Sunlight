@@ -1464,6 +1464,94 @@
             </div>
         </div>
 
+        <!-- Z Soielman -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.6)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Z Soielman · Home Invasion · Fake ID · Armed Burglary Links · Remand · No Bail</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">SENT TO A FAKE ADDRESS.<br><span class="text-hot">KICKED THE DOOR IN ANYWAY.</span></h3>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6">Adam Watson gave Z Soielman a fake address. Soielman drove to it regardless — and when he arrived at a property that a real estate agent was actively trying to sell, he proceeded to harass and kick the door in. The real estate agent called police. They arrived without sirens. Soielman was charged with home invasion. He is now on remand. Bail has been refused.</p>
+
+            <!-- The "itchbay" video -->
+            <div class="border border-paper/[0.07] overflow-hidden mb-6" style="background:rgba(0,0,0,0.2)">
+                <div class="px-4 py-2.5 border-b border-paper/[0.06]" style="background:rgba(0,0,0,0.3)">
+                    <span class="text-[0.44rem] tracking-[0.2em] uppercase text-hot">"ITCHBAY" — Z Soielman · Pre-Home Invasion · Too Scared to Say It in Public</span>
+                </div>
+                <video controls class="w-full block" style="max-height:480px;background:#000" preload="metadata">
+                    <source src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/itchbay.mp4" type="video/mp4" />
+                </video>
+                <div class="px-4 py-3 border-t border-paper/[0.05]" style="background:rgba(0,0,0,0.2)">
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed">In this video, Z Soielman is about to go and do a home invasion — but he's using the word <strong class="text-paper/65">"itchbay"</strong> because he's too scared to say "bitch" in public. A man about to commit a home invasion who won't say a word out loud. The cognitive dissonance is remarkable.</p>
+                </div>
+            </div>
+
+            <!-- What happened -->
+            <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                <div class="text-[0.47rem] tracking-[0.2em] uppercase text-hot mb-4">Sequence of Events</div>
+                <div class="space-y-2.5">
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">01</span>
+                        <p class="text-[0.62rem] text-paper/50 leading-relaxed">Adam Watson gives Z Soielman a fake address.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">02</span>
+                        <p class="text-[0.62rem] text-paper/50 leading-relaxed">Soielman drives to the address — which is a property currently being listed for sale by a real estate agent.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">03</span>
+                        <p class="text-[0.62rem] text-paper/50 leading-relaxed">He harasses at the property and kicks the door in.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-gold/60">04</span>
+                        <p class="text-[0.62rem] text-paper/50 leading-relaxed">The real estate agent calls police. They arrive without sirens.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">05</span>
+                        <p class="text-[0.62rem] text-paper/50 leading-relaxed">Soielman is charged with home invasion. He is found to be carrying fake identification documents.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">06</span>
+                        <p class="text-[0.62rem] text-paper/50 leading-relaxed">Fingerprints are taken. Police begin linking him to a series of armed burglaries. His prints are being run through the DNA database.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">07</span>
+                        <p class="text-[0.62rem] text-paper/50 leading-relaxed">Soielman is placed on remand. Bail is refused. The database check is expected to return additional charges.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Status grid -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-px mb-6" style="background:rgba(245,234,212,0.06)">
+                <div class="p-4" style="background:#0c0804">
+                    <div class="text-[0.42rem] tracking-[0.18em] uppercase text-hot mb-1.5">Current Status</div>
+                    <div class="font-display text-lg leading-tight text-hot">Remand</div>
+                    <div class="text-[0.56rem] text-paper/35 mt-1">Bail refused</div>
+                </div>
+                <div class="p-4" style="background:#0c0804">
+                    <div class="text-[0.42rem] tracking-[0.18em] uppercase text-hot mb-1.5">Charge</div>
+                    <div class="font-display text-lg leading-tight text-paper/70">Home Invasion</div>
+                    <div class="text-[0.56rem] text-paper/35 mt-1">Property listed for sale</div>
+                </div>
+                <div class="p-4" style="background:#0c0804">
+                    <div class="text-[0.42rem] tracking-[0.18em] uppercase text-gold mb-1.5">Found On Him</div>
+                    <div class="font-display text-lg leading-tight text-gold">Fake IDs</div>
+                    <div class="text-[0.56rem] text-paper/35 mt-1">Multiple false documents</div>
+                </div>
+                <div class="p-4" style="background:#0c0804">
+                    <div class="text-[0.42rem] tracking-[0.18em] uppercase text-hot mb-1.5">Pending</div>
+                    <div class="font-display text-lg leading-tight text-paper/70">DNA + Prints</div>
+                    <div class="text-[0.56rem] text-paper/35 mt-1">Armed burglary links</div>
+                </div>
+            </div>
+
+            <!-- What's coming -->
+            <div class="border-l-4 pl-5" style="border-color:rgba(193,68,14,0.5);background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">What's Coming</div>
+                <p class="text-[0.65rem] text-paper/50 leading-relaxed">His fingerprints are being matched against unsolved armed burglaries. His DNA is being run through the database. He was caught with fake identification — which raises the question of how many other names he has operated under and what those names are attached to. The home invasion charge got him into custody. The database work is going to keep him there. The fake address was the trap. He walked into it.</p>
+            </div>
+        </div>
+
     </div>
 </section>
 
