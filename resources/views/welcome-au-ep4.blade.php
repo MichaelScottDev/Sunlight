@@ -1353,6 +1353,117 @@
             </div>
         </div>
 
+        <!-- Kane Singleton -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Bodie's Network · Harassment Campaign · Charges Laid · Muay Thai Fighter</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">KANE SINGLETON.<br><span class="text-hot">CHARGED. SPONSORS GONE. STILL FIGHTING.</span></h3>
+
+            <!-- Photo + intro -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-7">
+                <div>
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kane_singleton.jpg"
+                         alt="Kane Singleton — Muay Thai Fighter"
+                         class="w-full border border-paper/[0.07] object-cover"
+                         style="max-height:420px;object-position:top"
+                         loading="lazy" />
+                    <div class="flex items-center justify-between mt-1.5">
+                        <span class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/20">Kane Singleton · Muay Thai Fighter · Gold Coast</span>
+                        <a href="https://www.instagram.com/kanes1ngleton/" target="_blank" rel="noopener"
+                           class="text-[0.44rem] tracking-[0.12em] uppercase border border-paper/15 text-paper/30 px-2 py-0.5 hover:border-hot/40 hover:text-hot transition-colors">
+                            @kanes1ngleton ↗
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Kane Singleton is a Gold Coast Muay Thai fighter and a member of Bodie Chalmers's network. He was involved in the harassment campaign against Adam Watson during the period when Bodie Chalmers was actively running his false accusation narrative and manufacturing social stigma around Adam.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">The harassment was not passive. Kane Singleton has been charged with four separate offences in connection with his conduct toward Adam Watson.</p>
+
+                    <!-- Charges -->
+                    <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">Charges — Kane Singleton</div>
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-start">
+                                <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
+                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Stalking and intimidation of Adam Watson</p>
+                            </div>
+                            <div class="flex gap-2 items-start">
+                                <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
+                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Causing fear in a person — Adam Watson</p>
+                            </div>
+                            <div class="flex gap-2 items-start">
+                                <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
+                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Threatening to kill Adam Watson</p>
+                            </div>
+                            <div class="flex gap-2 items-start">
+                                <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
+                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Using a carriage service to send threatening messages and make threatening phone calls to Adam Watson</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sponsors gone -->
+            <div class="border border-paper/[0.08] p-5 mb-6" style="background:rgba(0,0,0,0.18)">
+                <div class="text-[0.47rem] tracking-[0.2em] uppercase text-paper/30 mb-3">Sponsors · Rinehart · The Economics of Muay Thai</div>
+                <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">RINEHART CALLED HIS SPONSORS.<br><span class="text-hot">THEY ALL PULLED.</span></h4>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">Gina Rinehart made calls to Kane Singleton's sponsors. Every one of them withdrew their support. For a professional fighter in Australia, that is not a minor inconvenience — it is a structural problem.</p>
+
+                <div class="border border-paper/[0.07] p-4 mb-4" style="background:rgba(0,0,0,0.15)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/25 mb-3">The Reality of Muay Thai in Australia — <a href="https://claude.ai/share/0f0d4d4a-667c-4840-9a5e-2afe6e37580b" target="_blank" rel="noopener" class="text-gold/60 hover:text-gold transition-colors underline underline-offset-2">Full Analysis ↗</a></div>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed mb-3">Muay Thai in Australia is not a large industry. A domestic fight might pay $200–$800 at a regional event, $1,000–$3,000 for a headline spot at a major card. Even fighters at the top of the domestic scene rarely make enough to live on from fighting alone — nearly all of them coach, work security, or have day jobs alongside competing.</p>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed mb-3">The sport lacks mainstream TV deals, broadcast revenue, and meaningful corporate sponsorship because the audience numbers aren't there. Gate sales and ticket revenue are essentially the entire economics at most events. The ceiling is low for structural reasons that have nothing to do with the quality of the athletes.</p>
+                    <div class="border-l-4 pl-4 mt-3" style="border-color:rgba(193,68,14,0.5);background:rgba(193,68,14,0.04);padding:0.75rem 1rem 0.75rem 1.25rem">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1.5">Without Sponsors — He's Gone</div>
+                        <p class="text-[0.62rem] text-paper/50 leading-relaxed">In a sport where gate revenue barely covers costs and fight purses at the domestic level don't sustain a career, sponsorship isn't supplementary income — it's the difference between being a professional and not being one. Kane Singleton lost all of his. That is the practical consequence of what happened.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fight embed -->
+            <div class="border border-paper/[0.07] overflow-hidden mb-6" style="background:rgba(0,0,0,0.2)">
+                <div class="px-4 py-2.5 border-b border-paper/[0.06]" style="background:rgba(0,0,0,0.3)">
+                    <span class="text-[0.44rem] tracking-[0.2em] uppercase text-hot">Kane Singleton vs Ryan McDonald · Muay Thai · Watch the Fight</span>
+                </div>
+                <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden">
+                    <iframe
+                        src="https://www.youtube.com/embed/GJ3AqMxHf7I"
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;border:none"
+                        title="Kane Singleton vs Ryan McDonald — Muay Thai"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        loading="lazy">
+                    </iframe>
+                </div>
+                <div class="px-4 py-3 border-t border-paper/[0.05]" style="background:rgba(0,0,0,0.2)">
+                    <span class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/22">Kane Singleton · Muay Thai · vs Ryan McDonald · Watch and congratulate him on his win</span>
+                </div>
+            </div>
+
+            <!-- Sunlight.Quest position -->
+            <div class="border border-sage/25 p-5" style="background:rgba(61,122,74,0.04)">
+                <div class="text-[0.47rem] tracking-[0.2em] uppercase text-sage mb-3">Sunlight.Quest — Position on Kane Singleton</div>
+                <p class="text-[0.68rem] text-paper/55 leading-relaxed mb-3">Kane Singleton was charged for his conduct. That is documented here because it is the record. But Sunlight.Quest is not in the business of piling on. He is a fighter. He trained hard enough to win. He has to navigate the consequences of choices made outside the ring — but the work inside it is his.</p>
+                <p class="text-[0.68rem] text-paper/55 leading-relaxed mb-4">His sponsors are gone. The industry is thin. That is a difficult position for anyone who has built their career around a sport that doesn't pay well without outside support. Sunlight.Quest encourages everyone to watch his fight, and to congratulate him on his win against Ryan McDonald.</p>
+                <div class="flex flex-wrap gap-3">
+                    <a href="https://www.youtube.com/watch?v=GJ3AqMxHf7I" target="_blank" rel="noopener"
+                       class="text-[0.52rem] tracking-[0.16em] uppercase border border-sage/35 text-sage/70 px-3 py-1.5 hover:border-sage hover:text-sage transition-colors">
+                        Watch the Fight ↗
+                    </a>
+                    <a href="https://www.instagram.com/kanes1ngleton/" target="_blank" rel="noopener"
+                       class="text-[0.52rem] tracking-[0.16em] uppercase border border-paper/15 text-paper/35 px-3 py-1.5 hover:border-paper/40 hover:text-paper/60 transition-colors">
+                        @kanes1ngleton on Instagram ↗
+                    </a>
+                    <a href="https://claude.ai/share/0f0d4d4a-667c-4840-9a5e-2afe6e37580b" target="_blank" rel="noopener"
+                       class="text-[0.52rem] tracking-[0.16em] uppercase border border-paper/15 text-paper/35 px-3 py-1.5 hover:border-paper/40 hover:text-paper/60 transition-colors">
+                        Muay Thai Economics — Full Analysis ↗
+                    </a>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 
