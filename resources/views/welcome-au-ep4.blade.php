@@ -1296,6 +1296,63 @@
             </div>
         </div>
 
+        <!-- Brett — Background Enquiries -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.5)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Brett · Background Enquiries · New Zealand · Bikies · Money Laundering · Personal Conduct</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">AFTER HE WAS FIRED,<br><span class="text-gold">ENQUIRIES WERE MADE.</span></h3>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6">Once Brett's role in the meeting interference became clear, enquiries were made about him. What came back was not a clean picture. Brett had approached Adam Watson personally — seeking help resolving problems he had with bikies he was associated with in New Zealand. That conversation opened a window into a more complicated background than his role as builder's agent had suggested.</p>
+
+            <!-- NZ money laundering -->
+            <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.47rem] tracking-[0.2em] uppercase text-gold mb-3">New Zealand · Social Housing · Money Laundering · Labour Party</div>
+                <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">LAUNDERED THROUGH SOCIAL HOUSING.<br><span class="text-gold">NEVER TURNED A PROFIT. LABOUR LOOKED AWAY.</span></h4>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">Brett was involved in a social housing project in New Zealand through which money was laundered. The project — connected to bikies he was associated with — was structured around social housing construction. It never turned a profit. The scheme used the social housing framework as a vehicle: legitimate-looking activity, government-adjacent, difficult to scrutinise from the outside.</p>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">The Labour Party in New Zealand turned a blind eye to what was happening. Whether that was a failure of oversight or something more deliberate is a question for investigators. What is documented is that the projects ran, they lost money on paper, and no one in a position to ask questions chose to ask them.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                <div class="border border-gold/15 p-4" style="background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.43rem] tracking-[0.16em] uppercase text-gold/60 mb-2">The Vehicle</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Social housing construction projects in New Zealand — government-adjacent, structured to appear legitimate, never delivering a return.</p>
+                </div>
+                <div class="border border-gold/15 p-4" style="background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.43rem] tracking-[0.16em] uppercase text-gold/60 mb-2">The Associates</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Bikies connected to New Zealand — the same associates Brett later approached Adam Watson seeking help to manage disputes with.</p>
+                </div>
+                <div class="border border-hot/15 p-4" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.43rem] tracking-[0.16em] uppercase text-hot/60 mb-2">The Oversight</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">The Labour Party in New Zealand turned a blind eye. The projects never turned a profit. Nobody asked why.</p>
+                </div>
+            </div>
+
+            <!-- Personal conduct — pressuring partner to sell home -->
+            <div class="border border-paper/[0.08] p-5 mb-5" style="background:rgba(0,0,0,0.15)">
+                <div class="text-[0.47rem] tracking-[0.2em] uppercase text-paper/30 mb-3">Personal Conduct · Brett's Relationship · Her Home · His Insecurity</div>
+                <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">"IT REMINDS ME OF THE OTHER MEN<br><span class="text-hot">SHE'S HAD IN THE HOUSE."</span></h4>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">Brett is currently pressuring a woman he is in a relationship with to sell her home. The reason he is giving her: the house reminds him of the other men she has had there, and he doesn't want their smell around.</p>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">The house is not his. It belongs to her. Brett has no legal standing over the property — no ownership, no lease, no claim. His argument for its sale is not financial, not practical, and not legal. It is purely territorial — a demand that another person dispose of their own asset to satisfy his insecurity about her past.</p>
+                <div class="border-l-4 pl-4" style="border-color:rgba(193,68,14,0.45);background:rgba(193,68,14,0.04);padding:0.85rem 1rem 0.85rem 1.25rem">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">The Irony</div>
+                    <p class="text-[0.65rem] text-paper/55 leading-relaxed italic">Brett is demanding the sale of a home he does not own, citing discomfort about another person's history in a property that is entirely hers. For a man who arrived uninvited — to a meeting he was not supposed to attend, with a woman nobody had engaged — the pattern of inserting himself where he has no standing is consistent.</p>
+                </div>
+            </div>
+
+            <!-- Summary -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div class="border border-gold/15 p-4" style="background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.44rem] tracking-[0.16em] uppercase text-gold/60 mb-2">Brett Approached Adam</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Seeking help with bikie-related disputes stemming from New Zealand associations — the same network connected to the social housing laundering operation.</p>
+                </div>
+                <div class="border border-hot/15 p-4" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.44rem] tracking-[0.16em] uppercase text-hot/60 mb-2">Pressuring His Partner</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Demanding she sell her own home — which he does not own — because he objects to the memory of her past. Coercive conduct dressed as a preference.</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 
