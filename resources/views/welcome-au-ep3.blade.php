@@ -188,7 +188,7 @@
                 <media-player
                     id="player-ep3"
                     title="Gold Coast Uncovered — Episode 3: The Compliance Machine"
-                    src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/ep3/episode3.mp4"
+                    src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/rj_confront.mp4"
                     style="--media-brand:#c98a10;--media-focus-ring-color:rgba(201,138,16,0.45);--media-time-chapters-bg:rgba(201,138,16,0.5);width:100%;border:1px solid rgba(201,138,16,0.2);box-shadow:0 0 80px rgba(201,138,16,0.09)"
                 >
                     <media-provider>
@@ -254,41 +254,41 @@
             <div class="px-5 py-4 border-b border-paper/[0.06] flex-1">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">Episode Chapters</div>
                 <div class="space-y-0.5">
-                    <a href="#tursa" class="flex items-center gap-3 p-2 hover:bg-paper/[0.03] transition-colors">
+                    <button data-chap-ep3="0" onclick="seekToChapterEp3(0)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
                         <span class="font-display text-[0.5rem]" style="color:#c98a10">01</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">Workforce Australia</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Tursa Employment &amp; Training · MSP</div>
                         </div>
-                    </a>
-                    <a href="#ai-narrative" class="flex items-center gap-3 p-2 hover:bg-paper/[0.03] transition-colors">
+                    </button>
+                    <button data-chap-ep3="4" onclick="seekToChapterEp3(4)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
                         <span class="font-display text-[0.5rem]" style="color:#7c6aaa">02</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">The AI Narrative</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Machine account · Pattern recognition</div>
                         </div>
-                    </a>
-                    <a href="#lecc" class="flex items-center gap-3 p-2 hover:bg-paper/[0.03] transition-colors">
+                    </button>
+                    <button data-chap-ep3="5" onclick="seekToChapterEp3(5)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
                         <span class="font-display text-[0.5rem] text-hot">03</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">LECC Complaint</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Coogee · SC Agnew · EXT2026-0413</div>
                         </div>
-                    </a>
-                    <a href="#jadhav" class="flex items-center gap-3 p-2 hover:bg-paper/[0.03] transition-colors">
+                    </button>
+                    <button data-chap-ep3="6" onclick="seekToChapterEp3(6)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
                         <span class="font-display text-[0.5rem]" style="color:#c98a10">04</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">Locked Out &amp; Still Paying</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Jadhav · Q8092-26 · Coastal Property</div>
                         </div>
-                    </a>
-                    <a href="#martin" class="flex items-center gap-3 p-2 hover:bg-paper/[0.03] transition-colors">
+                    </button>
+                    <button data-chap-ep3="7" onclick="seekToChapterEp3(7)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
                         <span class="font-display text-[0.5rem]" style="color:#7c6aaa">05</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">The Busybody</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Martin · Broadbeach · Serving Our People</div>
                         </div>
-                    </a>
+                    </button>
                 </div>
             </div>
             <div class="px-5 py-5">
