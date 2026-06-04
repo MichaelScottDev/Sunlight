@@ -1676,8 +1676,69 @@
                     </div>
                 </div>
 
-                <div class="border-l-4 pl-6 py-1" style="border-color:rgba(193,68,14,0.4)">
+                <div class="border-l-4 pl-6 py-1 mb-8" style="border-color:rgba(193,68,14,0.4)">
                     <p class="text-[0.68rem] text-paper/40 leading-relaxed">Vourliotis went to the one person in this investigation whose own conduct is documented in court records and on this site — and asked her to speak against the person who had exposed her. He sent what she said to two of the most prominent institutions in the Hancock Prospecting orbit. The recording was intended to close a door on Kosta's credibility. Instead it is one more data point in the file on Vourliotis — a man who arrived with a recording device, took a car, attempted to force entry into a housing commission flat, and chose a fraudulent landlord as his character witness.</p>
+                </div>
+
+                <!-- StarNow chapter -->
+                <div class="story-chapter reveal mt-6" style="border-left-color:rgba(193,68,14,0.4)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border border-hot/40 px-2 py-1 text-hot">Platform Accountability — StarNow</span></div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">HE'S STILL ON STARNOW.<br><span class="text-hot">CONVICTED. JAILED. LISTED.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"I had a StarNow profile when I was running Head Studios — a video production business. I was banned from the platform after I sent a mass SMS to a group of models inviting them to a nightclub. Alex Vourliotis was convicted and jailed for fraud. He is still on the platform."</p>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Alex Vourliotis maintains an active profile on StarNow — an actor and talent casting platform — at the following address:</p>
+                            <div class="border border-hot/20 p-4 mb-4" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1">StarNow Profile</div>
+                                <a href="https://www.starnow.com/u/alexvourliotis/" target="_blank" rel="noopener noreferrer" class="font-mono text-[0.68rem] text-hot hover:text-paper/80 transition-colors break-all">starnow.com/u/alexvourliotis/</a>
+                                <div class="text-[0.5rem] text-paper/28 mt-1.5">Profile active as of publication · Vourliotis convicted and jailed</div>
+                            </div>
+                            <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Adam Watson operated a StarNow profile when he was running Head Studios, a video production business. He was subsequently banned from the platform after he sent a mass SMS to a group of models inviting them to a nightclub — an administrative breach that led to his account being removed.</p>
+                            <p class="text-[0.68rem] text-paper/45 leading-relaxed">Alex Vourliotis has been convicted and jailed for fraud. His victim was a person he befriended, took a car from while that person slept, transferred the vehicle into his own name interstate, and financed against at Cash Converters. He remains active on a platform that connects actors with production companies and casting directors — where his profile picture, credits, and casting history are visible and searchable.</p>
+                        </div>
+                        <div class="border border-paper/[0.08] p-5" style="background:rgba(193,68,14,0.02)">
+                            <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">The Asymmetry</div>
+                            <div class="space-y-3">
+                                <div class="flex gap-3 items-start">
+                                    <div class="w-1.5 h-1.5 rounded-full bg-hot mt-1.5 shrink-0"></div>
+                                    <div>
+                                        <div class="text-[0.58rem] text-paper/55 mb-0.5">Adam Watson — banned</div>
+                                        <div class="text-[0.52rem] text-paper/35 leading-relaxed">Removed from StarNow for sending a mass SMS inviting models to a nightclub. An administrative matter. No victims. No criminal proceeding.</div>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3 items-start">
+                                    <div class="w-1.5 h-1.5 rounded-full bg-hot mt-1.5 shrink-0"></div>
+                                    <div>
+                                        <div class="text-[0.58rem] text-paper/55 mb-0.5">Alex Vourliotis — still listed</div>
+                                        <div class="text-[0.52rem] text-paper/35 leading-relaxed">Convicted and jailed for fraud targeting a person he met through a network connected to the platform. Active profile. No removal.</div>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3 items-start">
+                                    <div class="w-1.5 h-1.5 rounded-full bg-gold mt-1.5 shrink-0"></div>
+                                    <div>
+                                        <div class="text-[0.58rem] text-paper/55 mb-0.5">Terms of service applied selectively</div>
+                                        <div class="text-[0.52rem] text-paper/35 leading-relaxed">A platform that enforces its rules against mass SMS but takes no action on a jailed fraudster is applying its terms of service in a way that does not protect its members.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Statement request -->
+                    <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.03)">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-3">Statement Requested — StarNow</div>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Adam Watson is seeking a formal statement from StarNow regarding their policy on actors and talent who are charged with, or convicted of, criminal offences — and specifically whether a conviction and custodial sentence results in removal from the platform.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed">The questions are straightforward: Does StarNow's platform policy require or permit removal of a user who has been convicted and jailed? Were they aware of the conviction? If not — how is that information intended to reach them? And if aware — what is the stated reason for the profile remaining active?</p>
+                    </div>
+
+                    <!-- Corporate responsibility -->
+                    <div class="border border-paper/[0.08] p-5" style="background:rgba(245,234,212,0.015)">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/35 mb-3">Terms of Service &amp; Corporate Responsibility</div>
+                        <p class="text-[0.68rem] text-paper/40 leading-relaxed mb-3">Casting and talent platforms occupy a particular position when it comes to bad actors — in the literal sense. They are marketplaces of trust. A person using StarNow to hire talent for a production is relying on the platform to apply some baseline filter: that the profiles listed are people who can be safely engaged in a professional context. A platform that has expelled a member for sending a mass SMS to models but retains a member who has been convicted and jailed for fraud against a person he targetted through that social environment is not applying its trust infrastructure consistently.</p>
+                        <p class="text-[0.68rem] text-paper/40 leading-relaxed mb-3">This is not a hypothetical about the limits of platform responsibility. The criminal conduct in question — fraud, car theft, covert recording — took place in the same social ecosystem in which Vourliotis operated as a platform user. The victims were people connected to the same network. The platform is not incidental to the story.</p>
+                        <p class="text-[0.68rem] text-paper/40 leading-relaxed">Talent platforms, like all intermediary platforms, have terms of service that typically prohibit criminal conduct and allow for removal of users who breach those terms. Whether those terms are enforced — and against whom — is a question of corporate responsibility, not just policy. A platform that enables a convicted fraudster to continue presenting himself as a professional actor is making an active choice, not a passive omission.</p>
+                    </div>
                 </div>
             </div>
 
