@@ -1694,7 +1694,7 @@
                                 <a href="https://www.starnow.com/u/alexvourliotis/" target="_blank" rel="noopener noreferrer" class="font-mono text-[0.68rem] text-hot hover:text-paper/80 transition-colors break-all">starnow.com/u/alexvourliotis/</a>
                                 <div class="text-[0.5rem] text-paper/28 mt-1.5">Profile active as of publication · Vourliotis convicted and jailed</div>
                             </div>
-                            <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Adam Watson operated a StarNow profile when he was running Head Studios, a video production business. He was subsequently banned from the platform after he sent a mass SMS to a group of models inviting them to a nightclub — an administrative breach that led to his account being removed.</p>
+                            <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Kosta Kondratenko — founder of Sunlight.Quest — operated a StarNow profile when running Head Studios, a video production business. He was subsequently banned from the platform after sending a mass SMS to a group of models inviting them to a nightclub — an administrative breach that led to his account being removed.</p>
                             <p class="text-[0.68rem] text-paper/45 leading-relaxed">Alex Vourliotis has been convicted and jailed for fraud. His victim was a person he befriended, took a car from while that person slept, transferred the vehicle into his own name interstate, and financed against at Cash Converters. He remains active on a platform that connects actors with production companies and casting directors — where his profile picture, credits, and casting history are visible and searchable.</p>
                         </div>
                         <div class="border border-paper/[0.08] p-5" style="background:rgba(193,68,14,0.02)">
@@ -1703,7 +1703,7 @@
                                 <div class="flex gap-3 items-start">
                                     <div class="w-1.5 h-1.5 rounded-full bg-hot mt-1.5 shrink-0"></div>
                                     <div>
-                                        <div class="text-[0.58rem] text-paper/55 mb-0.5">Adam Watson — banned</div>
+                                        <div class="text-[0.58rem] text-paper/55 mb-0.5">Kosta Kondratenko — banned</div>
                                         <div class="text-[0.52rem] text-paper/35 leading-relaxed">Removed from StarNow for sending a mass SMS inviting models to a nightclub. An administrative matter. No victims. No criminal proceeding.</div>
                                     </div>
                                 </div>
@@ -1728,7 +1728,7 @@
                     <!-- Statement request -->
                     <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.03)">
                         <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-3">Statement Requested — StarNow</div>
-                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Adam Watson is seeking a formal statement from StarNow regarding their policy on actors and talent who are charged with, or convicted of, criminal offences — and specifically whether a conviction and custodial sentence results in removal from the platform.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Kosta Kondratenko is seeking a formal statement from StarNow regarding their policy on actors and talent who are charged with, or convicted of, criminal offences — and specifically whether a conviction and custodial sentence results in removal from the platform.</p>
                         <p class="text-[0.68rem] text-paper/45 leading-relaxed">The questions are straightforward: Does StarNow's platform policy require or permit removal of a user who has been convicted and jailed? Were they aware of the conviction? If not — how is that information intended to reach them? And if aware — what is the stated reason for the profile remaining active?</p>
                     </div>
 
