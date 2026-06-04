@@ -488,6 +488,61 @@
                     </div>
                 </div>
 
+                <!-- Tracker chapter -->
+                <div class="story-chapter reveal mt-6 mb-6" style="border-left-color:rgba(124,106,170,0.6)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">Surveillance · Coercive Control</span></div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE PHONE. THE CAR.<br><span style="color:#7c6aaa">THE OPEN FUEL CAP.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Coercive control does not require violence in every incident. It requires surveillance — the knowledge, or the suspicion, that you are always being watched. That is the mechanism. That is the point."</p>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Two tracking methods were deployed by Bodie Chalmers against Adam Watson. One was digital. One was physical. Both are textbook instruments of coercive control.</p>
+
+                    <!-- iPhone tracker -->
+                    <div class="border-l-4 pl-5 mb-6" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase mb-2" style="color:#7c6aaa">Track 01 — iPhone Location Sharing</div>
+                        <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">APPLE SHARE MY LOCATION.<br><span style="color:#7c6aaa">WITHOUT ASKING.</span></h4>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Bodie Chalmers obtained access to Adam Watson's iPhone location via Apple's Share My Location feature — without Adam's knowledge or consent. This was not a setting Adam configured. It was access that was enabled without him knowing it was there.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Adam only discovered it when he checked the Share My Location section of his iPhone and found Bodie's account listed as someone with access to his live location. When Adam pulled up the screen to show someone else — handing them the phone and opening the share location list — that person could see Bodie's account sitting there, and could see how frequently it had been checked. It was not occasional. The access had been regular and recent. Someone had been monitoring Adam's real-time location without his knowledge — and the phone records showed it.</p>
+                        <div class="border border-paper/[0.07] p-4 mt-3" style="background:rgba(0,0,0,0.3)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">What the Share My Location Screen Reveals</div>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Every account that has been granted access to your location — including access you did not knowingly authorise</p></div>
+                                <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">When that account last checked your location — visible on the screen to anyone you hand the phone to</p></div>
+                                <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">A pattern of access — whether checks were sporadic or systematic, conducted at night, during movements</p></div>
+                                <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Confirmation the access was active and ongoing — not an old, forgotten permission, but something being used</p></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Physical tracker -->
+                    <div class="border-l-4 pl-5 mb-6" style="border-color:rgba(193,68,14,0.5);background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase mb-2 text-hot">Track 02 — Physical Tracker · Fuel Cap</div>
+                        <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">A TRACKER UNDER THE FUEL CAP.<br><span class="text-hot">EXCEPT HE LEFT THE CAP OPEN.</span></h4>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">A physical tracking device was placed on Adam Watson's car, concealed under the fuel cap. The intention was that it would go unnoticed — a passive surveillance tool that would broadcast Adam's location without his knowledge, attached in a spot not checked in routine use.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Bodie left the fuel cap open.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed">The act of planting the device — conducted covertly, designed to be invisible — was immediately undone by leaving the fuel cap sitting open. An open fuel cap on a parked car is not a normal condition. It draws attention. It invites investigation. The tracker that was supposed to be invisible was instead flagged by the very act of placing it. The surveillance was discovered. The fuel cap was sitting open where Bodie had been.</p>
+                    </div>
+
+                    <!-- Coercive control framing -->
+                    <div class="border border-paper/[0.08] p-5" style="background:rgba(124,106,170,0.03)">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase mb-3" style="color:#7c6aaa">Coercive Control — The Infrastructure of Power</div>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Digital location surveillance and physical tracking devices are recognised instruments of coercive and controlling behaviour under Australian law. They are not incidental — they are the infrastructure. The purpose is not information. The purpose is power: the ability to know where someone is at all times, to appear when they do not expect it, to make them aware — or to keep them unaware — that their movements are being recorded.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4">
+                            <div class="border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.25)">
+                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">Mechanism</div>
+                                <div class="text-[0.6rem] text-paper/45 leading-relaxed">Continuous location surveillance removes the victim's ability to move freely without that movement being monitored and potentially used against them — whether they know it is happening or not</div>
+                            </div>
+                            <div class="border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.25)">
+                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">Chilling Effect</div>
+                                <div class="text-[0.6rem] text-paper/45 leading-relaxed">Once a person discovers surveillance, the harm is already done. The awareness that you were being tracked retroactively colours every movement made while it was active — every trip, every person you visited, every night you did not come home</div>
+                            </div>
+                            <div class="border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.25)">
+                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">NSW / QLD Law</div>
+                                <div class="text-[0.6rem] text-paper/45 leading-relaxed">Coercive control is a standalone criminal offence in NSW (2024) and Queensland (2023). Tracking a partner's location without consent is a specified example of coercive control behaviour under both frameworks</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Context: Adam was helping Bodie with armed burglary charges -->
                 <div class="border-l-4 pl-5 mt-6 mb-2" style="border-color:rgba(124,106,170,0.4);background:rgba(124,106,170,0.03);padding:1rem 1rem 1rem 1.25rem">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Context</div>
@@ -4348,6 +4403,76 @@
 
             </div><!-- end space-y-20 -->
         </div><!-- end grid -->
+    </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     GRAHAM GORDON — STALKING CHARGE
+══════════════════════════════════════ -->
+<section class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(193,68,14,0.07) 0%,transparent 50%)">
+    <div class="max-w-4xl mx-auto">
+
+        <div class="flex items-center gap-3 mb-3">
+            <div class="w-4 h-px bg-hot"></div>
+            <span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">Graham Gordon — Criminal Proceedings</span>
+        </div>
+        <h2 class="font-display leading-none tracking-wide mb-3" style="font-size:clamp(2.2rem,5.5vw,4rem)">CHARGED WITH<br><span class="text-hot">STALKING &amp; INTIMIDATION.</span></h2>
+        <p class="font-serif italic text-paper/45 text-lg leading-relaxed mb-12 max-w-2xl">As Adam Watson got closer to the scheme in Court — the address manipulation, the debt loading, the redirected levy notices — Gordon arranged for people to follow and pursue him. He has now been charged. The arrest documentation is being produced to the Civil trial.</p>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+
+            <!-- Charge -->
+            <div class="story-chapter reveal" style="border-left-color:rgba(193,68,14,0.6)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-2">The Charge</div>
+                <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">STALKING AND INTIMIDATION<br><span class="text-hot">OF ADAM WATSON.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Graham Gordon — Strata Committee Chairman, Oxford on Crown — has been charged with stalking and intimidation of Adam Watson. The charges arose directly from the period in which Adam Watson was advancing through the Court process and getting closer to exposing the mechanism of the scheme: the address redirection on the strata roll, the debt accumulation through CCA Legal, and the conduct of the committee.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45">Gordon arranged for people to pursue and follow Adam Watson during this period. It is a pattern that recurs across the documented cases on this website: when investigative pressure increases, the response is not to address the conduct — it is to escalate against the person applying that pressure.</p>
+            </div>
+
+            <!-- Arrest docs to Civil trial -->
+            <div class="story-chapter reveal" style="transition-delay:0.06s;border-left-color:rgba(201,138,16,0.5)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-2">What This Does to the Civil Case</div>
+                <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE ARREST DOCUMENTATION<br><span class="text-gold">GOES TO THE CIVIL TRIAL.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Adam Watson is producing the arrest documentation to the Civil trial. This is not a parallel proceeding that can be isolated from the strata dispute — it is directly relevant to the credibility of Graham Gordon as a party and witness. A Strata Committee Chairman who has been charged with stalking and intimidating the person he is pursuing through civil proceedings cannot claim that credibility is a separate question.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45">The civil proceedings are Gordon's attempt to use the Court system as a pressure mechanism. The arrest documentation is Adam Watson's answer: evidence that the person running those proceedings has been charged with a criminal offence specifically directed at suppressing his ability to participate in them.</p>
+            </div>
+        </div>
+
+        <!-- CCA Legal lawyer recusal -->
+        <div class="story-chapter reveal mb-6" style="border-left-color:rgba(201,138,16,0.6)">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="border border-gold/30 px-3 py-1.5" style="background:rgba(201,138,16,0.05)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold/70">CCA Legal</div>
+                    <div class="text-[0.58rem] text-paper/55 mt-0.5">Debt Recovery — Oxford on Crown</div>
+                </div>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">"THIS CASE HAS NO MERIT."<br><span class="text-gold">HER OWN WORDS. IN OPEN COURT.</span></h3>
+            <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"A lawyer from CCA Legal stood up in Court and publicly stated that the case had no merit. She said she was clearing out her desk and refused to pursue it. She recused herself from the proceedings — publicly, in Court, on the record."</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">A lawyer from CCA Legal — the firm that has been charging debt recovery costs against Adam Watson's lots at Oxford on Crown — has recused herself from the Court case. This did not happen quietly or behind closed doors. She stated, in open Court, that the case has no merit. She said she was clearing out her desk. She refused to pursue it further and withdrew.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The significance of this cannot be understated. CCA Legal is not a third party commenting on the case from the outside. CCA Legal is the firm whose charge entries make up the majority of the debt that is the subject of the NCAT proceedings. A lawyer from that firm, with access to the full file, has concluded — and stated publicly in Court — that the case cannot be ethically pursued. She has walked away from it.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">What She Said</div>
+                    <div class="text-[0.6rem] text-paper/45 leading-relaxed">The case has no merit. Stated publicly, in open Court, on the record — not privately withdrawn, not quietly reassigned.</div>
+                </div>
+                <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-2">What She Did</div>
+                    <div class="text-[0.6rem] text-paper/45 leading-relaxed">Cleared out her desk and refused to pursue the case. A recusal — public, in Court, with explicit reasons given from inside the firm running the proceedings.</div>
+                </div>
+                <div class="border border-paper/[0.1] p-4" style="background:rgba(245,234,212,0.02)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/35 mb-2">What It Means</div>
+                    <div class="text-[0.6rem] text-paper/45 leading-relaxed">In either case — the criminal stalking charge or the CCA Legal withdrawal — Graham Gordon's civil proceedings have lost their credibility from the inside out.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Combined effect -->
+        <div class="border border-paper/[0.08] p-6" style="background:rgba(193,68,14,0.03)">
+            <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">The Combined Effect</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-3">Graham Gordon faces a stalking and intimidation charge arising from conduct directed at Adam Watson during the very period Adam was advancing through Court. His own lawyers have publicly withdrawn from the proceedings, stating in open Court that the case has no merit. The arrest documentation is being produced to the Civil trial.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">A Civil case prosecuted by a person charged with stalking the defendant, abandoned by their own legal team in open Court, with arrest documentation being tendered against them — does not have a path forward. The civil proceedings that were supposed to be the weapon have become the record of the attempt to use them as one.</p>
+        </div>
+
     </div>
 </section>
 
