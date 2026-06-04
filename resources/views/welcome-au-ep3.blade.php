@@ -111,6 +111,9 @@
         #sq-submit-btn:disabled{opacity:0.5;cursor:not-allowed}
         @media(max-width:520px){.sq-footer{flex-direction:column;align-items:stretch}}
     </style>
+    <link rel="stylesheet" href="https://cdn.vidstack.io/player/theme.css">
+    <link rel="stylesheet" href="https://cdn.vidstack.io/player/video.css">
+    <script src="https://cdn.vidstack.io/player" type="module"></script>
 </head>
 <body class="bg-ink text-paper font-mono overflow-x-hidden" style="background-color:#0c0804;background-image:linear-gradient(160deg,rgba(201,138,16,0.07) 0%,transparent 40%,rgba(61,122,74,0.03) 100%)">
 
@@ -181,21 +184,18 @@
                 <p class="font-serif italic text-paper/40 mt-3 leading-relaxed max-w-lg" style="font-size:clamp(0.9rem,2vw,1.15rem)">Private employment providers, compliance mechanisms, and the cost of asking questions.</p>
             </div>
             <div class="fade-up" style="animation-delay:0.25s">
-                <div class="flex items-center gap-3 mb-2">
-                    <span class="text-[0.52rem] tracking-[0.2em] uppercase" style="color:rgba(201,138,16,0.6)">▶ Video — Coming Soon</span>
-                </div>
-                <div class="w-full aspect-video border" style="border-color:rgba(201,138,16,0.2);background:#060606;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden">
-                    <div class="scanlines" style="position:absolute;inset:0;opacity:0.5"></div>
-                    <div style="text-align:center;position:relative;z-index:2">
-                        <div style="width:60px;height:60px;border:2px solid rgba(201,138,16,0.4);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto">
-                            <span style="color:rgba(201,138,16,0.5);font-size:1.2rem;margin-left:3px">▶</span>
-                        </div>
-                        <div style="margin-top:0.75rem;font-size:0.48rem;letter-spacing:0.18em;text-transform:uppercase;color:rgba(245,234,212,0.2);font-family:'DM Mono',monospace">Episode 3 — Video Pending Upload</div>
-                    </div>
-                    <div style="position:absolute;bottom:0.75rem;left:0;right:0;text-align:center">
-                        <div style="font-size:0.44rem;letter-spacing:0.15em;text-transform:uppercase;color:rgba(201,138,16,0.25);font-family:'DM Mono',monospace">sunlight.quest · season 1 · ep.03</div>
-                    </div>
-                </div>
+                <div class="flex items-center gap-3 mb-2"><span class="text-[0.52rem] tracking-[0.2em] uppercase" style="color:rgba(201,138,16,0.6)">▶ Now Playing — Navigate via chapters below</span></div>
+                <media-player
+                    id="player-ep3"
+                    title="Gold Coast Uncovered — Episode 3: The Compliance Machine"
+                    src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/ep3/episode3.mp4"
+                    style="--media-brand:#c98a10;--media-focus-ring-color:rgba(201,138,16,0.45);--media-time-chapters-bg:rgba(201,138,16,0.5);width:100%;border:1px solid rgba(201,138,16,0.2);box-shadow:0 0 80px rgba(201,138,16,0.09)"
+                >
+                    <media-provider>
+                        <track id="ep3-chapters-track" kind="chapters" default />
+                    </media-provider>
+                    <media-video-layout></media-video-layout>
+                </media-player>
             </div>
             <!-- Chapter nav below video — add <a> entries here as sections are built -->
             <div class="fade-up mt-5 border border-paper/[0.07]" style="animation-delay:0.35s;background:rgba(12,8,4,0.7)">
@@ -203,38 +203,38 @@
                     <span class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/22">Episode 3 — Chapters</span>
                 </div>
                 <div class="flex flex-wrap gap-0">
-                    <a href="#tursa" class="flex items-center gap-2 px-4 py-3 hover:bg-paper/[0.03] transition-colors border-r border-paper/[0.06]">
+                    <a href="#tursa" data-chap-ep3="0" onclick="seekToChapterEp3(0)" class="flex items-center gap-2 px-4 py-3 border-r border-paper/[0.06] transition-all group" style="border:1px solid transparent" onmouseover="this.style.background='rgba(201,138,16,0.08)'" onmouseout="if(!this.style.borderColor||this.style.borderColor==='transparent')this.style.background=''">
                         <span class="font-display text-[0.62rem]" style="color:#c98a10">01</span>
                         <div>
-                            <div class="text-[0.6rem] text-paper/55 leading-none mb-0.5">Workforce Australia</div>
+                            <div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Workforce Australia</div>
                             <div class="text-[0.47rem] text-paper/22 tracking-wider">Tursa · MSP</div>
                         </div>
                     </a>
-                    <a href="#ai-narrative" class="flex items-center gap-2 px-4 py-3 hover:bg-paper/[0.03] transition-colors border-r border-paper/[0.06]">
-                        <span class="font-display text-[0.62rem]" style="color:#7c6aaa">02</span>
-                        <div>
-                            <div class="text-[0.6rem] text-paper/55 leading-none mb-0.5">AI Narrative</div>
-                            <div class="text-[0.47rem] text-paper/22 tracking-wider">The machine account</div>
-                        </div>
-                    </a>
-                    <a href="#lecc" class="flex items-center gap-2 px-4 py-3 hover:bg-paper/[0.03] transition-colors border-r border-paper/[0.06]">
+                    <a href="#lecc" data-chap-ep3="2" onclick="seekToChapterEp3(2)" class="flex items-center gap-2 px-4 py-3 border-r border-paper/[0.06] transition-all group" style="border:1px solid transparent" onmouseover="this.style.background='rgba(201,138,16,0.08)'" onmouseout="if(!this.style.borderColor||this.style.borderColor==='transparent')this.style.background=''">
                         <span class="font-display text-[0.62rem] text-hot">03</span>
                         <div>
-                            <div class="text-[0.6rem] text-paper/55 leading-none mb-0.5">LECC Complaint</div>
+                            <div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">LECC Complaint</div>
                             <div class="text-[0.47rem] text-paper/22 tracking-wider">Coogee · SC Agnew</div>
                         </div>
                     </a>
-                    <a href="#jadhav" class="flex items-center gap-2 px-4 py-3 hover:bg-paper/[0.03] transition-colors border-r border-paper/[0.06]">
+                    <a href="#jadhav" data-chap-ep3="6" onclick="seekToChapterEp3(6)" class="flex items-center gap-2 px-4 py-3 border-r border-paper/[0.06] transition-all group" style="border:1px solid transparent" onmouseover="this.style.background='rgba(201,138,16,0.08)'" onmouseout="if(!this.style.borderColor||this.style.borderColor==='transparent')this.style.background=''">
                         <span class="font-display text-[0.62rem]" style="color:#c98a10">04</span>
                         <div>
-                            <div class="text-[0.6rem] text-paper/55 leading-none mb-0.5">Locked Out</div>
+                            <div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Locked Out</div>
                             <div class="text-[0.47rem] text-paper/22 tracking-wider">Jadhav · Q8092-26</div>
                         </div>
                     </a>
-                    <a href="#martin" class="flex items-center gap-2 px-4 py-3 hover:bg-paper/[0.03] transition-colors">
+                    <a href="#ai-narrative" data-chap-ep3="4" onclick="seekToChapterEp3(4)" class="flex items-center gap-2 px-4 py-3 border-r border-paper/[0.06] transition-all group" style="border:1px solid transparent" onmouseover="this.style.background='rgba(201,138,16,0.08)'" onmouseout="if(!this.style.borderColor||this.style.borderColor==='transparent')this.style.background=''">
+                        <span class="font-display text-[0.62rem]" style="color:#7c6aaa">02</span>
+                        <div>
+                            <div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">AI Narrative</div>
+                            <div class="text-[0.47rem] text-paper/22 tracking-wider">The machine account</div>
+                        </div>
+                    </a>
+                    <a href="#martin" data-chap-ep3="7" onclick="seekToChapterEp3(7)" class="flex items-center gap-2 px-4 py-3 transition-all group" style="border:1px solid transparent" onmouseover="this.style.background='rgba(201,138,16,0.08)'" onmouseout="if(!this.style.borderColor||this.style.borderColor==='transparent')this.style.background=''">
                         <span class="font-display text-[0.62rem]" style="color:#7c6aaa">05</span>
                         <div>
-                            <div class="text-[0.6rem] text-paper/55 leading-none mb-0.5">The Busybody</div>
+                            <div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">The Busybody</div>
                             <div class="text-[0.47rem] text-paper/22 tracking-wider">Martin · Broadbeach</div>
                         </div>
                     </a>
@@ -2724,6 +2724,100 @@ function buildVideoViewer(e) {
 document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') { closeMV(); closeTipModal(); }
 });
+
+// ── VIDSTACK PLAYER EP3 INIT ──
+(function() {
+    var VTT_CONTENT = [
+        'WEBVTT',
+        '',
+        '00:00:00.000 --> 00:03:00.000',
+        'Workforce Australia',
+        '',
+        '00:03:00.000 --> 00:06:00.000',
+        'The Question That Could Never Be Answered',
+        '',
+        '00:06:00.000 --> 00:09:00.000',
+        'The 30-Minute Appointment',
+        '',
+        '00:09:00.000 --> 00:12:00.000',
+        'The MSP',
+        '',
+        '00:12:00.000 --> 00:15:00.000',
+        'AI Narrative',
+        '',
+        '00:15:00.000 --> 00:18:00.000',
+        'LECC Complaint',
+        '',
+        '00:18:00.000 --> 00:22:00.000',
+        'Locked Out — Jadhav',
+        '',
+        '00:22:00.000 --> 00:26:00.000',
+        'The Busybody — Martin',
+    ].join('\n');
+
+    function initPlayerEp3() {
+        var el = document.getElementById('player-ep3');
+        if (!el) return;
+        if (typeof el.subscribe !== 'function') {
+            setTimeout(initPlayerEp3, 200);
+            return;
+        }
+        window.vidstackPlayerEp3 = el;
+
+        var track = document.getElementById('ep3-chapters-track');
+        if (track) {
+            var blob = new Blob([VTT_CONTENT], {type: 'text/vtt'});
+            track.src = URL.createObjectURL(blob);
+        }
+
+        el.subscribe(function(state) {
+            var time = state.currentTime;
+            var tracks = el.textTracks;
+            for (var i = 0; i < tracks.length; i++) {
+                if (tracks[i].kind === 'chapters') {
+                    var cues = tracks[i].cues;
+                    for (var j = 0; j < cues.length; j++) {
+                        if (time >= cues[j].startTime && time < cues[j].endTime) {
+                            document.querySelectorAll('[data-chap-ep3]').forEach(function(el2) {
+                                var match = parseInt(el2.getAttribute('data-chap-ep3'),10) === j;
+                                el2.style.background = match ? 'rgba(201,138,16,0.1)' : '';
+                                el2.style.borderColor = match ? 'rgba(201,138,16,0.4)' : 'transparent';
+                            });
+                            break;
+                        }
+                    }
+                    break;
+                }
+            }
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initPlayerEp3);
+    } else {
+        initPlayerEp3();
+    }
+})();
+
+function seekToChapterEp3(index) {
+    var p = window.vidstackPlayerEp3;
+    if (!p) {
+        document.getElementById('player-ep3').scrollIntoView({behavior:'smooth',block:'center'});
+        return;
+    }
+    var tracks = p.textTracks;
+    var ct = null;
+    for (var i = 0; i < tracks.length; i++) { if (tracks[i].kind === 'chapters') { ct = tracks[i]; break; } }
+    if (ct && ct.cues && ct.cues.length > index) { p.currentTime = ct.cues[index].startTime; }
+    else { var d = p.duration || 0; if (d > 0) p.currentTime = (d / 8) * index; }
+    p.play().catch(function(){});
+    document.getElementById('player-ep3').scrollIntoView({behavior:'smooth',block:'center'});
+    document.querySelectorAll('[data-chap-ep3]').forEach(function(el) {
+        var match = parseInt(el.getAttribute('data-chap-ep3'),10) === index;
+        el.style.background = match ? 'rgba(201,138,16,0.1)' : '';
+        el.style.borderColor = match ? 'rgba(201,138,16,0.4)' : 'transparent';
+    });
+}
 </script>
 
 <!-- ══════════════════════════════════════
