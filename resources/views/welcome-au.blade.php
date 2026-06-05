@@ -1178,6 +1178,66 @@
                     </div>
                 </div>
 
+                <!-- Racial vilification message — police retribution -->
+                <div class="story-chapter reveal mt-8 mb-8" style="border-left-color:rgba(193,68,14,0.55)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Police Retribution · Private Message · Watchdog Investigation</span>
+                    </div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">A PRIVATE MESSAGE IN ANGER.<br><span class="text-hot">SUBPOENAED. LEAKED. WEAPONISED.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"I had been hearing Adam Watson describe RJ calling him a white cunt. I had an argument and in anger I sent messages — including one using the same term. I am not proud of it. I apologise for it, and I apologise here publicly. What happened next is the story."</p>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">After repeatedly hearing Adam Watson recount RJ using the term "white cunt" against him — as part of a pattern of targeted racial taunting — Kosta Kondratenko had an argument and, in anger, sent messages which included a racially vilifying term. He used the same language he had heard weaponised against Adam Watson. It was said in private. It was wrong. He has apologised to the person involved and apologises publicly here.</p>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">What followed was not a proportionate accountability process. It was a targeted operation.</p>
+
+                    <!-- The sequence -->
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-6">
+                        <div class="border-l-4 pl-5" style="border-color:rgba(193,68,14,0.5);background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                            <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-2">Step 1 — The Messages Were Subpoenaed</div>
+                            <p class="text-[0.68rem] text-paper/45 leading-relaxed">Queensland Police Service obtained Kosta Kondratenko's private messages through a subpoena. These were private communications — not public posts, not publications, not content directed at a community. They were messages sent in anger during a personal argument.</p>
+                        </div>
+                        <div class="border-l-4 pl-5" style="border-color:rgba(193,68,14,0.6);background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
+                            <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-2">Step 2 — Marc Barrow Obtained Them</div>
+                            <p class="text-[0.68rem] text-paper/45 leading-relaxed">Marc Barrow — the same officer who had already used his position to oppose Adam Watson's liquor licence application, told Adam he would ignore RJ murdering Kosta, and had been the subject of a CCC complaint — obtained access to the subpoenaed messages.</p>
+                        </div>
+                        <div class="border-l-4 pl-5" style="border-color:rgba(201,138,16,0.5);background:rgba(201,138,16,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                            <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-2">Step 3 — Leaked to Gina Rinehart</div>
+                            <p class="text-[0.68rem] text-paper/45 leading-relaxed">Gina Rinehart had called to make enquiries about Kosta Kondratenko. Marc Barrow leaked the contents of the subpoenaed messages to her — deliberately, to paint Kosta in the worst possible light with one of the most significant figures whose relationship to this investigation is already documented.</p>
+                        </div>
+                        <div class="border-l-4 pl-5" style="border-color:rgba(193,68,14,0.7);background:rgba(193,68,14,0.06);padding:1.1rem 1rem 1.1rem 1.25rem">
+                            <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-2">Step 4 — Officers Sent to Adam Watson's Home</div>
+                            <p class="text-[0.68rem] text-paper/45 leading-relaxed">Members of Queensland Police Service were then sent to Adam Watson's home — not to speak with him about any offence against him, but to apply pressure on him to support a charge of racial vilification against Kosta Kondratenko. The target of the alleged offence was not the one requesting police action. Police were driving it.</p>
+                        </div>
+                    </div>
+
+                    <!-- The threshold point -->
+                    <div class="border border-paper/[0.08] p-5 mb-5" style="background:rgba(245,234,212,0.02)">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/35 mb-3">The Legal Reality — Private Message · Threshold Not Met</div>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Racial vilification laws in Queensland — and across Australian jurisdictions — require that the conduct be public. A private message sent between individuals does not meet the threshold. It is not a publication. It is not incitement. It is not conduct directed at a person because of their race in a public context. Whatever the content of the message, the legal instrument being threatened — a racial vilification charge — was not available on the facts. Police and legal advisers involved would have known this.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed">The pressure applied to Adam Watson to support the charge was not a good-faith attempt to enforce the law. It was pressure applied to a third party to generate a complaint that could be used against Kosta Kondratenko — at a time when Kosta's CCC complaint, his website, and his reporting were creating sustained scrutiny of the people now orchestrating this response.</p>
+                    </div>
+
+                    <!-- Collateral damage: Adam loses client -->
+                    <div class="border-l-4 pl-5 mb-5" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase mb-2" style="color:#7c6aaa">Collateral — Adam Watson Loses a Client</div>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed">The commotion of police attending Adam Watson's address in connection with this pressure campaign was visible. A client of Adam Watson's — who witnessed or heard about the police attendance at his address — subsequently ceased engaging with him. The police action cost Adam Watson a client. This is not an incidental consequence. It is the kind of collateral damage that targeted use of police attendance is designed to produce: reputational contamination without a charge, without a conviction, and without any finding of wrongdoing.</p>
+                    </div>
+
+                    <!-- Retribution framing -->
+                    <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">The Context — CCC Complaint · Website · Retribution</div>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">This sequence — subpoena of private messages, disclosure to Gina Rinehart, pressure on Adam Watson to support a charge that does not meet the legal threshold, a client lost as a result of police attendance — occurred in direct temporal proximity to Kosta Kondratenko's Crime and Corruption Commission complaint against Marc Barrow and the publication of this website.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed">The pattern is consistent with the retaliation documented elsewhere in this chapter: the liquor licence opposition, the "turn a blind eye to the murder" comment, the CCC complaint referral back to QPS. A person who files a CCC complaint against a police officer and publishes a website documenting that officer's conduct should expect that the conduct will stop — not that it will escalate. This conduct is being examined by the relevant watchdog bodies.</p>
+                    </div>
+
+                    <!-- Public apology -->
+                    <div class="border border-paper/[0.1] p-5" style="background:rgba(245,234,212,0.015)">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/40 mb-3">Public Statement — Kosta Kondratenko</div>
+                        <p class="font-serif italic text-paper/60 text-base leading-relaxed mb-3">"I sent a message in anger that I should not have sent. The language I used was wrong. I had been hearing Adam describe being called a white cunt by RJ — repeatedly, as part of a pattern of targeted harassment — and I used the same language in a private argument. That does not excuse it. I have apologised personally and I apologise here publicly."</p>
+                        <p class="text-[0.68rem] text-paper/40 leading-relaxed">"What I will not accept is the framing of what followed as a legitimate law enforcement response. A private message in anger — particularly one that does not meet the public threshold of racial vilification law — does not justify subpoenaing those messages, leaking them to a third party to damage my reputation, pressuring the person I had the argument with to support a charge against me, or sending police to his address in a way that cost him a client. That is not accountability. That is retribution. And it is being looked into."</p>
+                    </div>
+                </div>
+
                 <!-- Chapter 06 -->
                 <div id="s-ch6" class="story-chapter reveal" style="transition-delay:0.3s;border-left-color:rgba(193,68,14,0.3)">
                     <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter 06</span><span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">The Confrontation</span></div>
