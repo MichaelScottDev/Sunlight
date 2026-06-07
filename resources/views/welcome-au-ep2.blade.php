@@ -2672,6 +2672,70 @@
             </div>
         </div>
 
+        <!-- Pump Nightclub Employment -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.6)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Current Employment — Licensed Venue</span>
+                <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/20 border border-paper/10 px-2 py-0.5">Pump Nightclub · Gold Coast</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">HE CURRENTLY WORKS AT<br><span class="text-hot">PUMP NIGHTCLUB.</span></h3>
+            <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-6">"Aggravated burglary. Car theft ring. Mob violence. False sexual assault allegations. Indecent exposure. Racial abuse. And he works at a licensed nightclub on the Gold Coast."</p>
+
+            <div class="grid grid-cols-1 lg:grid-cols-[200px_1fr] gap-8 mb-8 items-start">
+                <!-- Logo -->
+                <div class="border border-hot/15 p-5 text-center" style="background:rgba(193,68,14,0.03)">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pump_nightclub_transparent.png" alt="Pump Nightclub" class="w-full max-w-[160px] mx-auto block mb-3" loading="lazy" />
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">Current Employer</div>
+                    <div class="text-[0.6rem] text-paper/55">Pump Nightclub</div>
+                    <div class="text-[0.5rem] text-paper/30 mt-1">Gold Coast · Licensed Venue</div>
+                </div>
+
+                <!-- Main text -->
+                <div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">RJ currently works at Pump Nightclub on the Gold Coast. A person with documented charges for aggravated burglary, participation in an organised car theft ring, multiple counts of mob violence, a false sexual assault allegation, indecent exposure, and a pattern of racial harassment spanning 15 documented incidents against a single individual — is employed in a licensed hospitality venue.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Licensed venues in Queensland operate under a framework that is supposed to prevent exactly this. The Liquor Act 1992 (Qld) and the Office of Liquor and Gaming Regulation impose obligations on venue operators — including fitness and propriety requirements for staff working in licensed environments. A nightclub employing a person with this criminal pattern is not a neutral act. It is a decision made with or without knowledge of that record.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45">The question this raises is straightforward: was Pump Nightclub aware of RJ's criminal history when employing him, and if so, on what basis was that employment considered appropriate? If they were not aware — what is the process by which venues are expected to satisfy themselves of the suitability of staff in an environment where the public is served alcohol at night?</p>
+                </div>
+            </div>
+
+            <!-- Political/systemic implications -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-6">
+                <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">The Hospitality Problem</div>
+                    <p class="text-[0.65rem] text-paper/45 leading-relaxed mb-3">The Gold Coast hospitality industry operates under sustained political pressure to prevent violence in and around licensed venues. Significant public resources are spent on Safe Night Out precincts, ID scanners, and security licensing frameworks — all predicated on the idea that venues bear responsibility for the safety of their patrons and the broader precinct.</p>
+                    <p class="text-[0.65rem] text-paper/45 leading-relaxed">A person documented to have organised mob violence at Pacific Fair, directed a 6-on-1 ambush at Bridgestone Nerang, and been charged with multiple counts of aggravated burglary — working as staff at a nightclub — is a direct failure of that framework. Either the framework does not reach staff employment, or it is not being applied.</p>
+                </div>
+                <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-3">The Political Implication</div>
+                    <p class="text-[0.65rem] text-paper/45 leading-relaxed mb-3">Queensland's nightclub and entertainment industry has faced significant legislative pressure over the past decade — mandatory ID scanners, one-punch laws, lockout zones in Brisbane, and repeated reviews of the Safe Night Out Strategy. These measures exist in response to exactly the kind of person and behaviour documented across RJ's 15 incidents.</p>
+                    <p class="text-[0.65rem] text-paper/45 leading-relaxed">The political implication is uncomfortable: the policy architecture designed to make licensed venues safer is failing to prevent people with extensive criminal records from being employed within those venues. The scanner is at the door. The record is behind the bar.</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.2)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">Charges on Record</div>
+                    <div class="font-display text-2xl text-hot mb-1">15+</div>
+                    <div class="text-[0.55rem] text-paper/35 leading-relaxed">Documented incidents. Multiple charges. QPS appealing suspended sentence. Active investigations.</div>
+                </div>
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.2)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">Venue Type</div>
+                    <div class="font-display text-2xl text-gold mb-1">LICENSED</div>
+                    <div class="text-[0.55rem] text-paper/35 leading-relaxed">A nightclub. Late-night trading. Alcohol service. Patron vulnerability. Exactly the environment the Safe Night Out Strategy was designed to protect.</div>
+                </div>
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.2)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">Regulatory Question</div>
+                    <div class="font-display text-2xl mb-1" style="color:#7c6aaa">OPEN</div>
+                    <div class="text-[0.55rem] text-paper/35 leading-relaxed">Were they aware? Is OLGR aware now? Does the fitness framework cover staff, or only licensees? These questions are now on the record.</div>
+                </div>
+            </div>
+
+            <div class="border border-paper/[0.08] p-5" style="background:rgba(193,68,14,0.025)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">Statement Sought — Pump Nightclub · OLGR Queensland</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">Sunlight.Quest is seeking a response from Pump Nightclub regarding their employment of RJ and whether they were aware of his criminal history at the time of engagement. We are also noting this matter to the Office of Liquor and Gaming Regulation (OLGR) Queensland as a question of venue compliance with the spirit and intent of the Safe Night Out framework. This is not a private matter. A person with this documented record working in a licensed venue — on the same Gold Coast precinct where he has organised violence — is a matter of public interest.</p>
+            </div>
+        </div>
+
         <!-- Doctor false allegation — expanded chapter -->
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.55)">
             <div class="flex items-center gap-3 mb-4">
