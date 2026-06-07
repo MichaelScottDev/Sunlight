@@ -365,6 +365,52 @@
                 </div>
             </div>
 
+            <!-- Chapter 3B: The Contradiction — ATT Mediation vs District Court Record -->
+            <div class="story-chapter reveal" style="border-left-color:rgba(201,138,16,0.5)">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">The Contradiction</span>
+                    <span class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/25 border border-paper/10 px-2 py-0.5">Federal Court · District Court · ATT</span>
+                </div>
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">SHE SAID SHE WAS TOLD TO WALK AWAY.<br><span class="text-gold">THE COURT RECORD SAYS SOMETHING DIFFERENT.</span></h3>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"In the Federal Court, Hellen Pertekes stated she was instructed to email the Administrative Appeals Tribunal to discontinue Adam Watson's action. Adam found District Court paperwork that contradicts her account directly — ATO lawyers on the record calling him a liar and a cheat."</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">In the Federal Court proceedings, Hellen Pertekes stated that she was <strong class="text-paper/65">instructed to email the Administrative Appeals Tribunal</strong> to discontinue the action — an action that Adam Watson had initiated against the Australian Taxation Office following a mediation he pursued. Her account frames the discontinuation as an instruction she was following: she was told to pull the matter, and she did.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Adam Watson has since located <strong class="text-paper/65">District Court documentation</strong> that directly contradicts this account. In that paperwork, the ATO's own lawyers — on the record — referred to Adam Watson as <strong class="text-hot">"a liar and a cheat."</strong> This is not an informal characterisation. It is a statement made by legal representatives of the Commonwealth in a formal court filing. If the ATO's position was that Adam Watson was dishonest, then the question of why his accountant was separately instructed to withdraw his administrative appeal — the one mechanism through which he could have challenged that characterisation — becomes critical to the record.</p>
+
+                <!-- The Contradiction Box -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                    <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.03)">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-3">What Pertekes Said in Federal Court</div>
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">She was instructed to email the ATT to discontinue the action</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Adam Watson had initiated the mediation with the ATO</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Her account frames it as following an instruction</p></div>
+                        </div>
+                    </div>
+                    <div class="border border-hot/25 p-5" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-3">What the District Court Record Shows</div>
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">ATO lawyers called Adam Watson <strong class="text-paper/65">"a liar and a cheat"</strong> on the record</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">This directly contradicts Pertekes's Federal Court account</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Paperwork located by Adam Watson — not disclosed by any party</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Smoking gun -->
+                <div class="border border-gold/30 px-5 py-4 mb-5" style="background:rgba(201,138,16,0.06)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-2">The Smoking Gun</div>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed">The District Court documentation is not a peripheral document. It is the paper record that places the ATO's own legal position — characterising Adam Watson as dishonest — alongside a proceeding in which the mechanism for challenging that position was simultaneously being removed. If Pertekes was instructed to discontinue Adam Watson's ATT action, and the ATO's lawyers were simultaneously calling him a liar in a different court, the question of who gave that instruction, and why, is the core question of this entire matter. This documentation will form the evidentiary foundation of Adam Watson's case against the ATO.</p>
+                </div>
+
+                <!-- ATO abuse of authority -->
+                <div class="border border-hot/30 px-5 py-4" style="background:rgba(193,68,14,0.05)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The ATO and the Misuse of Institutional Authority</div>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The Australian Taxation Office occupies a position of structural authority that few Commonwealth agencies match. It holds the power to freeze assets, initiate proceedings, compel disclosure, and attach debt to a person's name with consequences that flow through every aspect of their financial life. That authority is granted on the assumption that it will be used to enforce legitimate tax obligations — not to pursue a taxpayer whose accountant deliberately withheld their returns, then withdrew the administrative appeal that could have corrected the record.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">When the ATO's own lawyers call a taxpayer "a liar and a cheat" in a formal court document, while that taxpayer's accountant is simultaneously — on their own account — being instructed to kill his administrative appeal, the question of institutional conduct is no longer abstract. It is a concrete question about whether the ATO's enforcement apparatus was used in a manner consistent with its legislative purpose, or whether it was deployed as a blunt instrument against a person who had been set up to fail.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed">The Inspector-General of Taxation exists precisely for situations like this. The Federal Court proceedings — NSD2438/2025 — are the vehicle. The District Court documentation is the contradiction that makes the whole account unstable. Adam Watson is not the person who needs to explain himself. The ATO does.</p>
+                </div>
+            </div>
+
             <!-- Chapter 4: Born to Shine NDIS -->
             <div class="story-chapter reveal" style="border-left-color:rgba(61,122,74,0.5)">
                 <div class="flex items-center gap-3 mb-4">
