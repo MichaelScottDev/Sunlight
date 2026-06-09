@@ -2057,6 +2057,105 @@
             </div>
         </div>
 
+        <!-- Pump Nightclub Employment -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.6)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Current Employment — Licensed Venue</span>
+                <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/20 border border-paper/10 px-2 py-0.5">Pump Nightclub · Gold Coast</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">HE CURRENTLY WORKS AT<br><span class="text-hot">PUMP NIGHTCLUB.</span></h3>
+            <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-6">"Aggravated burglary. Car theft ring. Mob violence. False sexual assault allegations. Indecent exposure. Racial abuse. And he works at a licensed nightclub on the Gold Coast."</p>
+
+            <div class="grid grid-cols-1 lg:grid-cols-[200px_1fr] gap-8 mb-8 items-start">
+                <!-- Logo -->
+                <div class="border border-hot/15 p-5 text-center" style="background:rgba(193,68,14,0.03)">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pump_nightclub_transparent.png" alt="Pump Nightclub" class="w-full max-w-[160px] mx-auto block mb-3" loading="lazy" />
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">Current Employer</div>
+                    <div class="text-[0.6rem] text-paper/55">Pump Nightclub</div>
+                    <div class="text-[0.5rem] text-paper/30 mt-1">Gold Coast · Licensed Venue</div>
+                </div>
+
+                <!-- Main text -->
+                <div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">RJ currently works at Pump Nightclub on the Gold Coast. A person with documented charges for aggravated burglary, participation in an organised car theft ring, multiple counts of mob violence, a false sexual assault allegation, indecent exposure, and a pattern of racial harassment spanning 15 documented incidents against a single individual — is employed in a licensed hospitality venue.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Licensed venues in Queensland operate under a framework that is supposed to prevent exactly this. The Liquor Act 1992 (Qld) and the Office of Liquor and Gaming Regulation impose obligations on venue operators — including fitness and propriety requirements for staff working in licensed environments. A nightclub employing a person with this criminal pattern is not a neutral act. It is a decision made with or without knowledge of that record.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45">The question this raises is straightforward: was Pump Nightclub aware of RJ's criminal history when employing him, and if so, on what basis was that employment considered appropriate? If they were not aware — what is the process by which venues are expected to satisfy themselves of the suitability of staff in an environment where the public is served alcohol at night?</p>
+                </div>
+            </div>
+
+            <!-- Political/systemic implications -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-6">
+                <div class="border border-hot/20 p-5" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">The Hospitality Problem</div>
+                    <p class="text-[0.65rem] text-paper/45 leading-relaxed mb-3">The Gold Coast hospitality industry operates under sustained political pressure to prevent violence in and around licensed venues. Significant public resources are spent on Safe Night Out precincts, ID scanners, and security licensing frameworks — all predicated on the idea that venues bear responsibility for the safety of their patrons and the broader precinct.</p>
+                    <p class="text-[0.65rem] text-paper/45 leading-relaxed">A person documented to have organised mob violence at Pacific Fair, directed a 6-on-1 ambush at Bridgestone Nerang, and been charged with multiple counts of aggravated burglary — working as staff at a nightclub — is a direct failure of that framework. Either the framework does not reach staff employment, or it is not being applied.</p>
+                </div>
+                <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-3">The Political Implication</div>
+                    <p class="text-[0.65rem] text-paper/45 leading-relaxed mb-3">Queensland's nightclub and entertainment industry has faced significant legislative pressure over the past decade — mandatory ID scanners, one-punch laws, lockout zones in Brisbane, and repeated reviews of the Safe Night Out Strategy. These measures exist in response to exactly the kind of person and behaviour documented across RJ's 15 incidents.</p>
+                    <p class="text-[0.65rem] text-paper/45 leading-relaxed">The political implication is uncomfortable: the policy architecture designed to make licensed venues safer is failing to prevent people with extensive criminal records from being employed within those venues. The scanner is at the door. The record is behind the bar.</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.2)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">Charges on Record</div>
+                    <div class="font-display text-2xl text-hot mb-1">15+</div>
+                    <div class="text-[0.55rem] text-paper/35 leading-relaxed">Documented incidents. Multiple charges. QPS appealing suspended sentence. Active investigations.</div>
+                </div>
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.2)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">Venue Type</div>
+                    <div class="font-display text-2xl text-gold mb-1">LICENSED</div>
+                    <div class="text-[0.55rem] text-paper/35 leading-relaxed">A nightclub. Late-night trading. Alcohol service. Patron vulnerability. Exactly the environment the Safe Night Out Strategy was designed to protect.</div>
+                </div>
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.2)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">Regulatory Question</div>
+                    <div class="font-display text-2xl mb-1" style="color:#7c6aaa">OPEN</div>
+                    <div class="text-[0.55rem] text-paper/35 leading-relaxed">Were they aware? Is OLGR aware now? Does the fitness framework cover staff, or only licensees? These questions are now on the record.</div>
+                </div>
+            </div>
+
+            <div class="border border-paper/[0.08] p-5 mb-5" style="background:rgba(193,68,14,0.025)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">Statement Sought — Pump Nightclub · OLGR Queensland</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">Sunlight.Quest is seeking a response from Pump Nightclub regarding their employment of RJ and whether they were aware of his criminal history at the time of engagement. We are also noting this matter to the Office of Liquor and Gaming Regulation (OLGR) Queensland as a question of venue compliance with the spirit and intent of the Safe Night Out framework. This is not a private matter. A person with this documented record working in a licensed venue — on the same Gold Coast precinct where he has organised violence — is a matter of public interest.</p>
+            </div>
+
+            <!-- Denial, taunt call, and building owner leverage -->
+            <div class="story-chapter reveal" style="border-left-color:rgba(124,106,170,0.6)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase mb-3" style="color:#7c6aaa">What Happened Next</div>
+                <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">"HE DOESN'T WORK HERE."<br><span style="color:#7c6aaa">THEN RJ CALLED TO TAUNT HIM.</span></h3>
+
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">After Adam Watson contacted Pump Nightclub directly — sending them RJ's own words, including his recorded comment calling Adam a <strong class="text-paper/65">"faggot"</strong> — Pump Nightclub's response was a denial: they stated that RJ was not in their employ. Adam had also made clear that he intended to put RJ's comment to the gay community, and that a picket outside Pump Nightclub was a foreseeable consequence of their employing someone who had made those remarks to a member of the public.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Later that same night, RJ called Adam Watson directly. He was not calling to apologise. He was calling to taunt him. RJ told Adam that the staff at Pump Nightclub consider him a joke. It was a display of confidence — the confidence of a man who had just been publicly backed by his employer through a denial of his employment, and who felt untouchable enough to ring the person who had lodged the complaint and rub it in.</p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                    <div class="border p-4" style="border-color:rgba(124,106,170,0.2);background:rgba(124,106,170,0.03)">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase mb-2" style="color:#7c6aaa">Pump Nightclub's Response to Adam's Message</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Adam sent RJ's recorded "faggot" comment directly to the venue</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Adam noted the gay community and picket implications of employing someone who made those remarks</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Pump Nightclub replied: RJ is not in their employ</p></div>
+                        </div>
+                    </div>
+                    <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">RJ's Call — Same Night</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">RJ called Adam Watson that evening, unprompted</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Told Adam the staff at Pump Nightclub think he is a joke</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">The call was not an apology — it was a taunt delivered from a position of confidence</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border border-gold/25 px-5 py-4" style="background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-3">The Building Owner — And Marc Barrow's Role</div>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Adam Watson knows the owner of the building from which Pump Nightclub operates. The connection is not abstract: Adam met the building owner during the process of purchasing Platinum and Empire Nightclub — a transaction that did not proceed because of Marc Barrow's direct intervention in that deal. The relationship exists. The conversation can happen.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Adam intends to raise the matter of RJ's employment — and Pump Nightclub's denial in the face of documented conduct — with the building owner directly. A venue that employs a person with RJ's record, denies that employment when confronted with his own words, and then allows that same person to ring the complainant and taunt them — is not a venue that reflects the obligations of a responsible tenant. The building owner has an interest in who operates under their roof and how they conduct themselves.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed">Marc Barrow's role in preventing the Platinum and Empire Nightclub transaction — which first brought Adam and the building owner together — is itself part of the broader record being assembled. The avenue being considered is raising the Pump Nightclub matter with both the building owner and Marc Barrow, with a view to a potential liquor licence suspension through OLGR. A venue that backs an employee with this criminal record, denies his employment when documented evidence is presented, and allows him to taunt complainants without consequence — is operating in a manner that sits poorly against the regulatory obligations of a Queensland liquor licence.</p>
+                </div>
+            </div>
+        </div>
+
         <!-- Doctor false allegation — expanded chapter -->
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.55)">
             <div class="flex items-center gap-3 mb-4">
@@ -3604,6 +3703,113 @@
 
             </div><!-- end space-y-20 -->
         </div><!-- end grid -->
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     GRAHAM GORDON — STALKING CHARGE
+══════════════════════════════════════ -->
+<section class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(193,68,14,0.07) 0%,transparent 50%)">
+    <div class="max-w-4xl mx-auto">
+
+        <div class="flex items-center gap-3 mb-3">
+            <div class="w-4 h-px bg-hot"></div>
+            <span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">Graham Gordon — Criminal Proceedings</span>
+        </div>
+        <h2 class="font-display leading-none tracking-wide mb-3" style="font-size:clamp(2.2rem,5.5vw,4rem)">CHARGED WITH<br><span class="text-hot">STALKING &amp; INTIMIDATION.</span></h2>
+        <p class="font-serif italic text-paper/45 text-lg leading-relaxed mb-12 max-w-2xl">As Adam Watson got closer to the scheme in Court — the address manipulation, the debt loading, the redirected levy notices — Gordon arranged for people to follow and pursue him. He has now been charged. The arrest documentation is being produced to the Civil trial.</p>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+
+            <!-- Charge -->
+            <div class="story-chapter reveal" style="border-left-color:rgba(193,68,14,0.6)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-2">The Charge</div>
+                <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">STALKING AND INTIMIDATION<br><span class="text-hot">OF ADAM WATSON.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Graham Gordon — Strata Committee Chairman, Oxford on Crown — has been charged with stalking and intimidation of Adam Watson. The charges arose directly from the period in which Adam Watson was advancing through the Court process and getting closer to exposing the mechanism of the scheme: the address redirection on the strata roll, the debt accumulation through CCA Legal, and the conduct of the committee.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45">Gordon arranged for people to pursue and follow Adam Watson during this period. It is a pattern that recurs across the documented cases on this website: when investigative pressure increases, the response is not to address the conduct — it is to escalate against the person applying that pressure.</p>
+            </div>
+
+            <!-- Arrest docs to Civil trial -->
+            <div class="story-chapter reveal" style="transition-delay:0.06s;border-left-color:rgba(201,138,16,0.5)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-2">What This Does to the Civil Case</div>
+                <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE ARREST DOCUMENTATION<br><span class="text-gold">GOES TO THE CIVIL TRIAL.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Adam Watson is producing the arrest documentation to the Civil trial. This is not a parallel proceeding that can be isolated from the strata dispute — it is directly relevant to the credibility of Graham Gordon as a party and witness. A Strata Committee Chairman who has been charged with stalking and intimidating the person he is pursuing through civil proceedings cannot claim that credibility is a separate question.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45">The civil proceedings are Gordon's attempt to use the Court system as a pressure mechanism. The arrest documentation is Adam Watson's answer: evidence that the person running those proceedings has been charged with a criminal offence specifically directed at suppressing his ability to participate in them.</p>
+            </div>
+        </div>
+
+        <!-- Armed home invasion -->
+        <div class="story-chapter reveal mb-6" style="border-left-color:rgba(193,68,14,0.9)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Armed Intimidation — Adam Watson's Residence</span>
+                <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/20 border border-paper/10 px-2 py-0.5">Directly Connected to Graham Gordon</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">HE SENT FOUR MEN TO ADAM WATSON'S HOUSE.<br><span class="text-hot">ONE HELD A GLOCK TO HIS HEAD.</span></h3>
+            <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-6">"Four men entered Adam Watson's home — sent by Graham Gordon. One of them held a firearm to Adam Watson's head and told him to back off from his investigation. They were arrested. They talked. Gordon was charged."</p>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Gordon arranged for four men to attend Adam Watson's address directly. The group comprised two Russians and two Canadians. They did not knock. They entered the house. When Adam Watson realised what was happening he called out for someone to contact police — specifying they should come without sirens. The instruction was not accidental: Adam understood immediately that the men were there to deliver a message, and that sirens would give them time to leave.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">One of the men produced a Glock and held it to Adam Watson's head. Adam Watson was so frightened that he urinated. One of the men placed his face close to Adam Watson — into the urine — as they delivered their message: <strong class="text-paper/65">back off from the investigation into Graham Gordon.</strong> The connection to the strata fraud investigation was stated directly. This was not a random act of violence. It was a targeted warning from a man who understood that Adam Watson was getting close to exposing what had been done.</p>
+
+            <div class="border border-hot/30 p-5 mb-5" style="background:rgba(193,68,14,0.06)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-4">How It Ended</div>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <div class="space-y-2">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">The Arrest</div>
+                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">Tear gas entered the residence through the window. All four men were arrested immediately on site. They did not escape.</p>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">They Cooperated</div>
+                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">All four men cooperated with police following their arrest. They identified Graham Gordon as the person who had sent them to Adam Watson's address.</p>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">The Charge</div>
+                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">Gordon has been charged. The armed intimidation charge — arising directly from the home invasion — sits alongside the stalking charge as part of the criminal record now being produced to the Civil trial.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border border-paper/[0.08] px-5 py-4" style="background:rgba(193,68,14,0.03)">
+                <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Context</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">This is the conduct of a man who, when he could no longer suppress Adam Watson through court proceedings and debt pressure, arranged for armed men to physically deliver a warning at his home. The message was explicit: the investigation was the reason they were there. Gordon named himself through the instruction he gave. When the four men were arrested and spoke to police, they closed the evidentiary gap between the instruction and the person who gave it. The arrest documentation now forms part of the Civil trial record.</p>
+            </div>
+        </div>
+
+        <!-- CCA Legal lawyer recusal -->
+        <div class="story-chapter reveal mb-6" style="border-left-color:rgba(201,138,16,0.6)">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="border border-gold/30 px-3 py-1.5" style="background:rgba(201,138,16,0.05)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold/70">CCA Legal</div>
+                    <div class="text-[0.58rem] text-paper/55 mt-0.5">Debt Recovery — Oxford on Crown</div>
+                </div>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">"THIS CASE HAS NO MERIT."<br><span class="text-gold">HER OWN WORDS. IN OPEN COURT.</span></h3>
+            <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"A lawyer from CCA Legal stood up in Court and publicly stated that the case had no merit. She said she was clearing out her desk and refused to pursue it. She recused herself from the proceedings — publicly, in Court, on the record."</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">A lawyer from CCA Legal — the firm that has been charging debt recovery costs against Adam Watson's lots at Oxford on Crown — has recused herself from the Court case. This did not happen quietly or behind closed doors. She stated, in open Court, that the case has no merit. She said she was clearing out her desk. She refused to pursue it further and withdrew.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The significance of this cannot be understated. CCA Legal is not a third party commenting on the case from the outside. CCA Legal is the firm whose charge entries make up the majority of the debt that is the subject of the NCAT proceedings. A lawyer from that firm, with access to the full file, has concluded — and stated publicly in Court — that the case cannot be ethically pursued. She has walked away from it.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">What She Said</div>
+                    <div class="text-[0.6rem] text-paper/45 leading-relaxed">The case has no merit. Stated publicly, in open Court, on the record — not privately withdrawn, not quietly reassigned.</div>
+                </div>
+                <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-2">What She Did</div>
+                    <div class="text-[0.6rem] text-paper/45 leading-relaxed">Cleared out her desk and refused to pursue the case. A recusal — public, in Court, with explicit reasons given from inside the firm running the proceedings.</div>
+                </div>
+                <div class="border border-paper/[0.1] p-4" style="background:rgba(245,234,212,0.02)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/35 mb-2">What It Means</div>
+                    <div class="text-[0.6rem] text-paper/45 leading-relaxed">In either case — the criminal stalking charge or the CCA Legal withdrawal — Graham Gordon's civil proceedings have lost their credibility from the inside out.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Combined effect -->
+        <div class="border border-paper/[0.08] p-6" style="background:rgba(193,68,14,0.03)">
+            <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">The Combined Effect</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-3">Graham Gordon faces a stalking and intimidation charge arising from conduct directed at Adam Watson during the very period Adam was advancing through Court. His own lawyers have publicly withdrawn from the proceedings, stating in open Court that the case has no merit. The arrest documentation is being produced to the Civil trial.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">A Civil case prosecuted by a person charged with stalking the defendant, abandoned by their own legal team in open Court, with arrest documentation being tendered against them — does not have a path forward. The civil proceedings that were supposed to be the weapon have become the record of the attempt to use them as one.</p>
+        </div>
+
     </div>
 </section>
 
