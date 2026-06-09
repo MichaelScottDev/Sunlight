@@ -559,6 +559,52 @@
                     </div>
                 </div>
 
+                <!-- NAB direct debit fraud -->
+                <div class="story-chapter reveal" style="border-left-color:rgba(193,68,14,0.5)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Bodie Chalmers — Banking Fraud</span>
+                        <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/20 border border-paper/10 px-2 py-0.5">NAB · Commonwealth Bank · Group Security</span>
+                    </div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">HE SET UP A DIRECT DEBIT FROM ADAM'S ACCOUNT<br><span class="text-hot">TO PAY HIS OWN RENT.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Bodie Chalmers set up a direct debit from Adam Watson's bank account to pay his landlord. Adam discovered it, notified NAB Group Security, and NAB's response was immediate. Then they cross-referenced with Commonwealth Bank. Both accounts were closed. He can no longer access his money."</p>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">While in the relationship with Adam Watson, Bodie Chalmers set up a direct debit from Adam's bank account — without his knowledge or consent — to pay his own rent to his landlord. Adam discovered the arrangement and contacted <strong class="text-paper/65">NAB Group Security</strong> directly to report the unauthorised transaction.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">NAB Group Security called Adam back. The response was not simply to close the direct debit. NAB had cross-referenced the matter with <strong class="text-paper/65">Commonwealth Bank Group Security</strong> — and confirmed to Adam over the phone that Bodie Chalmers's Commonwealth Bank account had also been closed. He can no longer access his money.</p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-5">
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">What Bodie Did</div>
+                            <div class="space-y-1.5">
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Set up direct debit from Adam Watson's account</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Used to pay his own landlord without Adam's knowledge</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">No authorisation sought or given</p></div>
+                            </div>
+                        </div>
+                        <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-2">NAB's Response</div>
+                            <div class="space-y-1.5">
+                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Adam reported to NAB Group Security</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">NAB cross-referenced with Commonwealth Bank Group Security</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">NAB called Adam back to confirm: both accounts closed</p></div>
+                            </div>
+                        </div>
+                        <div class="border border-sage/20 p-4" style="background:rgba(61,122,74,0.03)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-sage mb-2">The Outcome</div>
+                            <div class="space-y-1.5">
+                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Bodie Chalmers's Commonwealth Bank account closed</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Cannot access his money</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Confirmed to Adam directly over the phone by NAB</p></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border border-hot/25 px-5 py-4" style="background:rgba(193,68,14,0.05)">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The Pattern — "People Are Doing This All The Time"</div>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">During the call, NAB Group Security made a comment to Adam that contextualised what had happened: people are doing this all the time. Setting up unauthorised direct debits from another person's account — then moving on to the next victim. It is a pattern NAB Group Security encounters with regularity, not an isolated act of individual dishonesty.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">Bodie Chalmers was not trying to manage his finances creatively. He was doing what had apparently been done before, to other people, by other individuals in similar situations — exploiting access to a partner's financial accounts to offload personal expenses, counting on the relationship itself to delay or prevent discovery. Adam discovered it. He reported it. The banking system responded decisively — and, by cross-referencing between two major banks, ensured the consequences were not limited to a single account.</p>
+                    </div>
+                </div>
+
                 <!-- Officeworks wheelchair attack -->
                 <div class="story-chapter reveal" style="transition-delay:0.05s">
                     <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">They Don't Even Hide — Incident One — Attempted Murder</span></div>
