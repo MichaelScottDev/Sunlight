@@ -563,45 +563,60 @@
                 <div class="story-chapter reveal" style="border-left-color:rgba(193,68,14,0.5)">
                     <div class="flex items-center gap-3 mb-4">
                         <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Bodie Chalmers — Banking Fraud</span>
-                        <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/20 border border-paper/10 px-2 py-0.5">NAB · Commonwealth Bank · Group Security</span>
+                        <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/20 border border-paper/10 px-2 py-0.5">NAB · Commonwealth Bank · AFP · Major Fraud Squad</span>
                     </div>
-                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">HE SET UP A DIRECT DEBIT FROM ADAM'S ACCOUNT<br><span class="text-hot">TO PAY HIS OWN RENT.</span></h3>
-                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Bodie Chalmers set up a direct debit from Adam Watson's bank account to pay his landlord. Adam discovered it, notified NAB Group Security, and NAB's response was immediate. Then they cross-referenced with Commonwealth Bank. Both accounts were closed. He can no longer access his money."</p>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">HE SET UP A DIRECT DEBIT FROM ADAM'S ACCOUNT TO PAY HIS OWN RENT.<br><span class="text-hot">THE AFP IS NOW INVOLVED. THE MAJOR FRAUD SQUAD IS COMING.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Bodie Chalmers set up a direct debit from Adam Watson's NAB account to pay his landlord. Adam went into the branch to confront staff. NAB Group Security took it from there — referred to the AFP. Commonwealth Federal Prosecutions. Jail sentences. The landlord was a drug dealer in Bodie's network. All accounts closed. Major Fraud Squad is now investigating the source of the funds — everything will be seized."</p>
 
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">While in the relationship with Adam Watson, Bodie Chalmers set up a direct debit from Adam's bank account — without his knowledge or consent — to pay his own rent to his landlord. Adam discovered the arrangement and contacted <strong class="text-paper/65">NAB Group Security</strong> directly to report the unauthorised transaction.</p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">NAB Group Security called Adam back. The response was not simply to close the direct debit. NAB had cross-referenced the matter with <strong class="text-paper/65">Commonwealth Bank Group Security</strong> — and confirmed to Adam over the phone that Bodie Chalmers's Commonwealth Bank account had also been closed. He can no longer access his money.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">While in the relationship with Adam Watson, Bodie Chalmers set up a direct debit from Adam's <strong class="text-paper/65">NAB bank account</strong> — without his knowledge or consent — to pay rent to his own landlord. Adam discovered the transaction, went directly into a NAB branch, and confronted staff about why an unauthorised direct debit was leaving his account. The branch escalated the matter internally.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">NAB Group Security subsequently contacted Adam directly. The matter was treated with a seriousness that went well beyond the cancellation of a direct debit: it has been <strong class="text-paper/65">referred to the Australian Federal Police</strong>. NAB Group Security advised Adam that cases of this nature — the fraudulent setup of direct debits from victim accounts — are now being referred to <strong class="text-paper/65">Commonwealth Federal Prosecutions</strong>, and those prosecutions are resulting in <strong class="text-paper/65">tough custodial sentences</strong>. This is not a civil recovery matter. It is a criminal one.</p>
 
+                    <!-- The landlord connection -->
+                    <div class="border border-hot/25 p-5 mb-5" style="background:rgba(193,68,14,0.05)">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">The Landlord — Inside Bodie's Network</div>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The landlord to whom Bodie Chalmers was directing Adam's money was not a neutral third party. He was inside Bodie Chalmers's criminal network. He is a <strong class="text-paper/65">drug dealer</strong>. The direct debit was not merely an unauthorised redirection of rent — it was a payment flowing from a victim's account into a drug dealer's accounts through an intermediary who had obtained access to those accounts by deception.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">When the matter was raised with NAB Group Security and the AFP, the landlord's multiple accounts were investigated. Those accounts have now been closed. The closure extended beyond the direct recipient: the financial institutions identified and acted on the network connections.</p>
+                    </div>
+
+                    <!-- How the banks responded -->
                     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-5">
                         <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
                             <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">What Bodie Did</div>
                             <div class="space-y-1.5">
-                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Set up direct debit from Adam Watson's account</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Used to pay his own landlord without Adam's knowledge</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Set up direct debit from Adam Watson's NAB account</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Directed to his own landlord — a drug dealer in his network</p></div>
                                 <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">No authorisation sought or given</p></div>
                             </div>
                         </div>
                         <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
-                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-2">NAB's Response</div>
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-2">The Banking Response</div>
                             <div class="space-y-1.5">
-                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Adam reported to NAB Group Security</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">NAB cross-referenced with Commonwealth Bank Group Security</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">NAB called Adam back to confirm: both accounts closed</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Adam confronted NAB branch staff directly</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">NAB Group Security escalated — referred to AFP</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">NAB confirmed: contacted CBA Group Security — Bodie's accounts closed</p></div>
                             </div>
                         </div>
                         <div class="border border-sage/20 p-4" style="background:rgba(61,122,74,0.03)">
-                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-sage mb-2">The Outcome</div>
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-sage mb-2">Where It Is Now</div>
                             <div class="space-y-1.5">
-                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Bodie Chalmers's Commonwealth Bank account closed</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Cannot access his money</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Confirmed to Adam directly over the phone by NAB</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Referred to AFP — Commonwealth Federal Prosecutions</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Landlord's accounts closed — drug dealing network flagged</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Major Fraud Squad: investigating source of funds — seizure pending</p></div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="border border-hot/25 px-5 py-4" style="background:rgba(193,68,14,0.05)">
-                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The Pattern — "People Are Doing This All The Time"</div>
-                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">During the call, NAB Group Security made a comment to Adam that contextualised what had happened: people are doing this all the time. Setting up unauthorised direct debits from another person's account — then moving on to the next victim. It is a pattern NAB Group Security encounters with regularity, not an isolated act of individual dishonesty.</p>
-                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">Bodie Chalmers was not trying to manage his finances creatively. He was doing what had apparently been done before, to other people, by other individuals in similar situations — exploiting access to a partner's financial accounts to offload personal expenses, counting on the relationship itself to delay or prevent discovery. Adam discovered it. He reported it. The banking system responded decisively — and, by cross-referencing between two major banks, ensured the consequences were not limited to a single account.</p>
+                    <!-- Big Three banks / Major Fraud Squad -->
+                    <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.03)">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-3">How the Big Three Banks Operate — Criminal Network Closure</div>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Australia's major banks — NAB, Commonwealth Bank, and Westpac — operate Group Security functions that communicate directly with each other when criminal conduct is identified. This is not a public-facing process. When one major bank's Group Security identifies a fraud or criminal network pattern, they contact their counterparts at the other institutions. The result is the coordinated closure of accounts across the network — not just the account that was immediately identified.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">In this case, NAB Group Security confirmed to Adam Watson that they had contacted <strong class="text-paper/65">Commonwealth Bank Group Security</strong>. Bodie Chalmers's Commonwealth Bank accounts have been closed. He cannot access his money. The same process extended to the landlord's accounts — multiple accounts, across more than one institution, connected to a drug-dealing network, have been closed as a consequence of a single reported direct debit fraud.</p>
+                    </div>
+
+                    <div class="border border-hot/30 px-5 py-4" style="background:rgba(193,68,14,0.06)">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Major Fraud Squad — Source of Funds Investigation</div>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The Major Fraud Squad has been brought in to investigate the source of the funds moving through Bodie Chalmers's accounts and those of his landlord. This is not a routine financial crimes review. The Fraud Squad's involvement at this level — looking at the provenance of the money, not just the mechanics of the direct debit — signals that the investigation has expanded well beyond the initial unauthorised transaction.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">The outcome anticipated is seizure: all funds whose source cannot be legitimately accounted for will be confiscated. For a person whose landlord is a drug dealer, and whose own criminal history includes aggravated burglary and participation in an organised car theft ring, the question of where the money in those accounts came from is not an abstract one. The Fraud Squad will answer it. And when they do, the assets follow.</p>
                     </div>
                 </div>
 
@@ -2801,6 +2816,58 @@
 </section>
 
 
+
+
+<!-- ══════════════════════════════════════
+     PRINCE OF WALES HOSPITAL — QPS OFFICER UNDER INVESTIGATION
+══════════════════════════════════════ -->
+<section class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(193,68,14,0.07) 0%,transparent 50%)">
+    <div class="max-w-4xl mx-auto">
+
+        <div class="flex items-center gap-3 mb-3">
+            <div class="w-4 h-px bg-hot"></div>
+            <span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">QPS Officer — Under Investigation</span>
+        </div>
+        <h2 class="font-display leading-none tracking-wide mb-3" style="font-size:clamp(2.2rem,5.5vw,4rem)">ADAM WATSON WAS PUT IN THE<br><span class="text-hot">PRINCE OF WALES HOSPITAL.</span></h2>
+        <p class="font-serif italic text-paper/45 text-lg leading-relaxed mb-10 max-w-2xl">The Queensland Police Service officer responsible for putting Adam Watson in the Prince of Wales Hospital is now under investigation. The conduct that led to Adam's hospitalisation is being examined by the relevant oversight body.</p>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
+
+            <div class="story-chapter reveal" style="border-left-color:rgba(193,68,14,0.7)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-2">The Incident</div>
+                <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE PRINCE OF WALES HOSPITAL.<br><span class="text-hot">A QPS OFFICER. AN INVESTIGATION.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Adam Watson was admitted to the Prince of Wales Hospital — Randwick, New South Wales — as a direct result of conduct by a Queensland Police Service officer. The circumstances of his hospitalisation are part of the broader pattern of QPS conduct documented across this site: officers whose actions have resulted in formal investigations, dismissals, and referrals to oversight bodies.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45">The officer responsible for putting Adam Watson in the Prince of Wales Hospital is now under investigation. The relevant complaint and oversight process is active. This section will be updated as the investigation progresses and outcomes are confirmed.</p>
+            </div>
+
+            <div class="story-chapter reveal" style="transition-delay:0.06s;border-left-color:rgba(201,138,16,0.5)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-2">The Pattern</div>
+                <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">NOT THE FIRST.<br><span class="text-gold">NOT THE LAST TO BE INVESTIGATED.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">This is the documented pattern in Adam Watson's interactions with Queensland Police: the officer who accepted Bodie Chalmers's false sexual assault complaint was fired. The two officers who attended the Broadbeach disability centre confrontation with Grason Andrew Kira were stood down by the Attorney General. The officer who put Adam Watson in the Prince of Wales Hospital is now under investigation.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45">In each case, the officer's conduct was not a matter of dispute — it was confirmed by oversight processes, recordings, and formal findings. The investigation of the Prince of Wales Hospital officer follows the same track.</p>
+            </div>
+        </div>
+
+        <div class="border border-paper/[0.08] p-6" style="background:rgba(193,68,14,0.03)">
+            <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">Status — Active Investigation</div>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div class="space-y-1.5">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">Incident</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Adam Watson admitted to Prince of Wales Hospital, Randwick NSW, as a result of QPS officer conduct.</p>
+                </div>
+                <div class="space-y-1.5">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">Officer Status</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Under investigation by the relevant oversight body. Matter is active — this page will be updated when the outcome is confirmed.</p>
+                </div>
+                <div class="space-y-1.5">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">Context</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Consistent with documented pattern of QPS officer misconduct directed at Adam Watson — multiple officers fired, stood down, or under investigation across this timeline.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
 
 
 <!-- ══════════════════════════════════════

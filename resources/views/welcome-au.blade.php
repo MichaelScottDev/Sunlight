@@ -523,6 +523,27 @@
             <p class="font-serif italic text-paper/60 text-base leading-relaxed">"Most people fight to keep their police record hidden. I put mine on camera. The difference between me and the people documented on this site is simple: I have nothing to fear from transparency. They do."</p>
         </div>
 
+        <!-- Embedded police record -->
+        <div class="border border-gold/20 mb-6 overflow-hidden" style="background:rgba(201,138,16,0.02)">
+            <div class="flex items-center justify-between px-5 py-3 border-b border-gold/10" style="background:rgba(201,138,16,0.04)">
+                <div class="flex items-center gap-2">
+                    <span class="text-[0.48rem] tracking-[0.22em] uppercase text-gold">Queensland Person History · Full Police Record</span>
+                </div>
+                <div class="flex items-center gap-3">
+                    <span class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/30">All charges dropped or defeated · Zero convictions</span>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/qld_person_history+copy.pdf" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase text-gold border border-gold/30 px-2 py-0.5 hover:bg-gold/10 transition-colors">Open PDF ↗</a>
+                </div>
+            </div>
+            <iframe
+                src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/qld_person_history+copy.pdf"
+                width="100%"
+                height="860"
+                style="display:block;border:none;background:#fff"
+                title="Queensland Person History — Adam Watson Full Police Record"
+                loading="lazy"
+            ></iframe>
+        </div>
+
         <div class="evidence-vault">
             <div class="ev-header" onclick="toggleVault(this)">
                 <div class="flex items-center gap-2">
