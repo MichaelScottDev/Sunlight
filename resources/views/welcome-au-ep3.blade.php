@@ -82,38 +82,7 @@
         .pdf-ph-pages{display:flex;gap:0.5rem;justify-content:center;margin-bottom:1.5rem}
         .pdf-ph-page{width:64px;height:82px;border:1px solid rgba(245,234,212,0.08);background:rgba(245,234,212,0.02);display:flex;flex-direction:column;gap:4px;padding:6px;border-top:3px solid rgba(193,68,14,0.4)}
         .pdf-ph-line{height:2px;background:rgba(245,234,212,0.06);border-radius:1px}
-
-        /* ── TIP MODAL ── */
-        #sq-modal{display:none;position:fixed;inset:0;z-index:500;background:rgba(0,0,0,0.92);backdrop-filter:blur(6px);overflow-y:auto;padding:24px 16px 56px}
-        #sq-modal.open{display:block}
-        .sq-card{background:#0f0f0f;border:1px solid #1e1e1e;padding:22px 24px;margin-bottom:2px;max-width:680px;margin:0 auto}
-        .sq-header{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding-bottom:16px;border-bottom:1px solid #1e1e1e;margin-bottom:20px}
-        .sq-wordmark{font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:3px;color:#f5ead4;line-height:1}
-        .sq-tagline{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:rgba(201,138,16,0.7);margin-top:4px}
-        .sq-close{background:none;border:1px solid rgba(245,234,212,0.1);color:rgba(245,234,212,0.35);width:28px;height:28px;cursor:pointer;font-size:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:border-color 0.13s,color 0.13s}
-        .sq-close:hover{border-color:rgba(245,234,212,0.35);color:rgba(245,234,212,0.8)}
-        .sq-section{margin-bottom:20px}
-        .sq-section-label{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:rgba(245,234,212,0.3);margin-bottom:10px}
-        .sq-label{display:block;font-size:9.5px;letter-spacing:1.2px;text-transform:uppercase;color:rgba(245,234,212,0.4);margin-bottom:6px}
-        .sq-input{width:100%;background:rgba(245,234,212,0.03);border:1px solid rgba(245,234,212,0.1);color:#f5ead4;font-family:'DM Mono',monospace;font-size:12px;padding:9px 12px;outline:none;transition:border-color 0.15s;box-sizing:border-box}
-        .sq-input:focus{border-color:rgba(201,138,16,0.5)}
-        .sq-toggle-row{display:flex;align-items:center;justify-content:space-between;gap:10px}
-        .sq-toggle{background:rgba(245,234,212,0.06);border:1px solid rgba(245,234,212,0.12);color:rgba(245,234,212,0.35);font-family:'DM Mono',monospace;font-size:9px;letter-spacing:1.5px;padding:4px 10px;cursor:pointer;border-radius:3px;transition:background 0.13s,color 0.13s,border-color 0.13s;white-space:nowrap;flex-shrink:0}
-        .sq-collapsible{display:flex;align-items:center;justify-content:space-between;cursor:pointer;font-size:10px;letter-spacing:1.8px;text-transform:uppercase;color:rgba(245,234,212,0.5);padding:10px 0;border-top:1px solid #1e1e1e;user-select:none}
-        .sq-collapsible:hover{color:rgba(245,234,212,0.75)}
-        .sq-toggle-icon{font-size:14px;color:rgba(201,138,16,0.7)}
-        .sq-pill{display:inline-flex;align-items:center;gap:5px;font-size:10px;color:rgba(245,234,212,0.45);cursor:pointer;padding:4px 9px;border:1px solid rgba(245,234,212,0.1);border-radius:3px;transition:border-color 0.12s,color 0.12s}
-        .sq-pill input{accent-color:#c98a10;cursor:pointer}
-        .sq-pill:hover{border-color:rgba(201,138,16,0.4);color:rgba(245,234,212,0.7)}
-        .sq-footer{border-top:2px solid #c98a10;padding:16px 0 4px;display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:20px}
-        #sq-submit-btn:hover{background:#9a6a08 !important}
-        #sq-submit-btn:active{transform:scale(0.97)}
-        #sq-submit-btn:disabled{opacity:0.5;cursor:not-allowed}
-        @media(max-width:520px){.sq-footer{flex-direction:column;align-items:stretch}}
     </style>
-    <link rel="stylesheet" href="https://cdn.vidstack.io/player/theme.css">
-    <link rel="stylesheet" href="https://cdn.vidstack.io/player/video.css">
-    <script src="https://cdn.vidstack.io/player" type="module"></script>
 </head>
 <body class="bg-ink text-paper font-mono overflow-x-hidden" style="background-color:#0c0804;background-image:linear-gradient(160deg,rgba(201,138,16,0.07) 0%,transparent 40%,rgba(61,122,74,0.03) 100%)">
 
@@ -124,10 +93,16 @@
         <span class="hidden sm:block text-[0.52rem] tracking-[0.2em] uppercase text-paper/20 border-l border-paper/10 pl-4">Investigative Vlog Series</span>
     </div>
     <div class="flex items-center gap-3">
-        <a href="#sms" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors">Subscribe</a>
-        <a href="/episode-2" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-violet/50 px-3 py-1.5 transition-all">← Episode 2</a>
-        <a href="/episode-4" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-sage/50 px-3 py-1.5 transition-all">Episode 4 →</a>
-        <button onclick="openTipModal()" class="hidden md:flex items-center gap-1.5 text-[0.55rem] tracking-[0.2em] uppercase border px-3 py-1.5 transition-all" style="color:#c98a10;border-color:rgba(201,138,16,0.45);background:transparent;cursor:pointer;font-family:'DM Mono',monospace;" onmouseover="this.style.borderColor='rgba(201,138,16,0.85)';this.style.background='rgba(201,138,16,0.08)'" onmouseout="this.style.borderColor='rgba(201,138,16,0.45)';this.style.background='transparent'">⊕ Submit a Tip</button>
+        <div class="nav-dropdown hidden md:block">
+            <button class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-paper/30 px-3 py-1.5">Episodes ▾</button>
+            <div class="nav-dropdown-menu">
+                <span class="nav-group-label">All Episodes</span>
+                <a href="/" class="nav-accent-hot">← Episode 1 — The Beginning</a>
+                <a href="/episode-2" class="nav-accent-violet">← Episode 2 — The Network</a>
+                <a href="/episode-3" class="nav-accent-gold" style="color:#c98a10">⬤ Episode 3 — The Compliance Machine</a>
+                <a href="/episode-4" class="nav-accent-sage">→ Episode 4 — The Accountant</a>
+            </div>
+        </div>
         <span class="text-[0.52rem] tracking-[0.18em] uppercase border px-3 py-1.5" style="border-color:rgba(201,138,16,0.6);color:#c98a10">⬤ EP.03</span>
     </div>
 </nav>
@@ -184,18 +159,21 @@
                 <p class="font-serif italic text-paper/40 mt-3 leading-relaxed max-w-lg" style="font-size:clamp(0.9rem,2vw,1.15rem)">Private employment providers, compliance mechanisms, and the cost of asking questions.</p>
             </div>
             <div class="fade-up" style="animation-delay:0.25s">
-                <div class="flex items-center gap-3 mb-2"><span class="text-[0.52rem] tracking-[0.2em] uppercase" style="color:rgba(201,138,16,0.6)">▶ Now Playing — Navigate via chapters below</span></div>
-                <media-player
-                    id="player-ep3"
-                    title="Gold Coast Uncovered — Episode 3: The Compliance Machine"
-                    src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/rj_confront.mp4"
-                    style="--media-brand:#c98a10;--media-focus-ring-color:rgba(201,138,16,0.45);--media-time-chapters-bg:rgba(201,138,16,0.5);width:100%;border:1px solid rgba(201,138,16,0.2);box-shadow:0 0 80px rgba(201,138,16,0.09)"
-                >
-                    <media-provider>
-                        <track id="ep3-chapters-track" kind="chapters" default />
-                    </media-provider>
-                    <media-video-layout></media-video-layout>
-                </media-player>
+                <div class="flex items-center gap-3 mb-2">
+                    <span class="text-[0.52rem] tracking-[0.2em] uppercase" style="color:rgba(201,138,16,0.6)">▶ Video — Coming Soon</span>
+                </div>
+                <div class="w-full aspect-video border" style="border-color:rgba(201,138,16,0.2);background:#060606;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden">
+                    <div class="scanlines" style="position:absolute;inset:0;opacity:0.5"></div>
+                    <div style="text-align:center;position:relative;z-index:2">
+                        <div style="width:60px;height:60px;border:2px solid rgba(201,138,16,0.4);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto">
+                            <span style="color:rgba(201,138,16,0.5);font-size:1.2rem;margin-left:3px">▶</span>
+                        </div>
+                        <div style="margin-top:0.75rem;font-size:0.48rem;letter-spacing:0.18em;text-transform:uppercase;color:rgba(245,234,212,0.2);font-family:'DM Mono',monospace">Episode 3 — Video Pending Upload</div>
+                    </div>
+                    <div style="position:absolute;bottom:0.75rem;left:0;right:0;text-align:center">
+                        <div style="font-size:0.44rem;letter-spacing:0.15em;text-transform:uppercase;color:rgba(201,138,16,0.25);font-family:'DM Mono',monospace">sunlight.quest · season 1 · ep.03</div>
+                    </div>
+                </div>
             </div>
             <!-- Chapter nav below video — add <a> entries here as sections are built -->
             <div class="fade-up mt-5 border border-paper/[0.07]" style="animation-delay:0.35s;background:rgba(12,8,4,0.7)">
@@ -203,38 +181,38 @@
                     <span class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/22">Episode 3 — Chapters</span>
                 </div>
                 <div class="flex flex-wrap gap-0">
-                    <a href="#tursa" data-chap-ep3="0" onclick="seekToChapterEp3(0)" class="flex items-center gap-2 px-4 py-3 border-r border-paper/[0.06] transition-all group" style="border:1px solid transparent" onmouseover="this.style.background='rgba(201,138,16,0.08)'" onmouseout="if(!this.style.borderColor||this.style.borderColor==='transparent')this.style.background=''">
+                    <a href="#tursa" class="flex items-center gap-2 px-4 py-3 hover:bg-paper/[0.03] transition-colors border-r border-paper/[0.06]">
                         <span class="font-display text-[0.62rem]" style="color:#c98a10">01</span>
                         <div>
-                            <div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Workforce Australia</div>
+                            <div class="text-[0.6rem] text-paper/55 leading-none mb-0.5">Workforce Australia</div>
                             <div class="text-[0.47rem] text-paper/22 tracking-wider">Tursa · MSP</div>
                         </div>
                     </a>
-                    <a href="#lecc" data-chap-ep3="2" onclick="seekToChapterEp3(2)" class="flex items-center gap-2 px-4 py-3 border-r border-paper/[0.06] transition-all group" style="border:1px solid transparent" onmouseover="this.style.background='rgba(201,138,16,0.08)'" onmouseout="if(!this.style.borderColor||this.style.borderColor==='transparent')this.style.background=''">
-                        <span class="font-display text-[0.62rem] text-hot">03</span>
-                        <div>
-                            <div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">LECC Complaint</div>
-                            <div class="text-[0.47rem] text-paper/22 tracking-wider">Coogee · SC Agnew</div>
-                        </div>
-                    </a>
-                    <a href="#jadhav" data-chap-ep3="6" onclick="seekToChapterEp3(6)" class="flex items-center gap-2 px-4 py-3 border-r border-paper/[0.06] transition-all group" style="border:1px solid transparent" onmouseover="this.style.background='rgba(201,138,16,0.08)'" onmouseout="if(!this.style.borderColor||this.style.borderColor==='transparent')this.style.background=''">
-                        <span class="font-display text-[0.62rem]" style="color:#c98a10">04</span>
-                        <div>
-                            <div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Locked Out</div>
-                            <div class="text-[0.47rem] text-paper/22 tracking-wider">Jadhav · Q8092-26</div>
-                        </div>
-                    </a>
-                    <a href="#ai-narrative" data-chap-ep3="4" onclick="seekToChapterEp3(4)" class="flex items-center gap-2 px-4 py-3 border-r border-paper/[0.06] transition-all group" style="border:1px solid transparent" onmouseover="this.style.background='rgba(201,138,16,0.08)'" onmouseout="if(!this.style.borderColor||this.style.borderColor==='transparent')this.style.background=''">
+                    <a href="#ai-narrative" class="flex items-center gap-2 px-4 py-3 hover:bg-paper/[0.03] transition-colors border-r border-paper/[0.06]">
                         <span class="font-display text-[0.62rem]" style="color:#7c6aaa">02</span>
                         <div>
-                            <div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">AI Narrative</div>
+                            <div class="text-[0.6rem] text-paper/55 leading-none mb-0.5">AI Narrative</div>
                             <div class="text-[0.47rem] text-paper/22 tracking-wider">The machine account</div>
                         </div>
                     </a>
-                    <a href="#martin" data-chap-ep3="7" onclick="seekToChapterEp3(7)" class="flex items-center gap-2 px-4 py-3 transition-all group" style="border:1px solid transparent" onmouseover="this.style.background='rgba(201,138,16,0.08)'" onmouseout="if(!this.style.borderColor||this.style.borderColor==='transparent')this.style.background=''">
+                    <a href="#lecc" class="flex items-center gap-2 px-4 py-3 hover:bg-paper/[0.03] transition-colors border-r border-paper/[0.06]">
+                        <span class="font-display text-[0.62rem] text-hot">03</span>
+                        <div>
+                            <div class="text-[0.6rem] text-paper/55 leading-none mb-0.5">LECC Complaint</div>
+                            <div class="text-[0.47rem] text-paper/22 tracking-wider">Coogee · SC Agnew</div>
+                        </div>
+                    </a>
+                    <a href="#jadhav" class="flex items-center gap-2 px-4 py-3 hover:bg-paper/[0.03] transition-colors border-r border-paper/[0.06]">
+                        <span class="font-display text-[0.62rem]" style="color:#c98a10">04</span>
+                        <div>
+                            <div class="text-[0.6rem] text-paper/55 leading-none mb-0.5">Locked Out</div>
+                            <div class="text-[0.47rem] text-paper/22 tracking-wider">Jadhav · Q8092-26</div>
+                        </div>
+                    </a>
+                    <a href="#martin" class="flex items-center gap-2 px-4 py-3 hover:bg-paper/[0.03] transition-colors">
                         <span class="font-display text-[0.62rem]" style="color:#7c6aaa">05</span>
                         <div>
-                            <div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">The Busybody</div>
+                            <div class="text-[0.6rem] text-paper/55 leading-none mb-0.5">The Busybody</div>
                             <div class="text-[0.47rem] text-paper/22 tracking-wider">Martin · Broadbeach</div>
                         </div>
                     </a>
@@ -254,41 +232,41 @@
             <div class="px-5 py-4 border-b border-paper/[0.06] flex-1">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">Episode Chapters</div>
                 <div class="space-y-0.5">
-                    <button data-chap-ep3="0" onclick="seekToChapterEp3(0)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
+                    <a href="#tursa" class="flex items-center gap-3 p-2 hover:bg-paper/[0.03] transition-colors">
                         <span class="font-display text-[0.5rem]" style="color:#c98a10">01</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">Workforce Australia</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Tursa Employment &amp; Training · MSP</div>
                         </div>
-                    </button>
-                    <button data-chap-ep3="4" onclick="seekToChapterEp3(4)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
+                    </a>
+                    <a href="#ai-narrative" class="flex items-center gap-3 p-2 hover:bg-paper/[0.03] transition-colors">
                         <span class="font-display text-[0.5rem]" style="color:#7c6aaa">02</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">The AI Narrative</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Machine account · Pattern recognition</div>
                         </div>
-                    </button>
-                    <button data-chap-ep3="5" onclick="seekToChapterEp3(5)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
+                    </a>
+                    <a href="#lecc" class="flex items-center gap-3 p-2 hover:bg-paper/[0.03] transition-colors">
                         <span class="font-display text-[0.5rem] text-hot">03</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">LECC Complaint</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Coogee · SC Agnew · EXT2026-0413</div>
                         </div>
-                    </button>
-                    <button data-chap-ep3="6" onclick="seekToChapterEp3(6)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
+                    </a>
+                    <a href="#jadhav" class="flex items-center gap-3 p-2 hover:bg-paper/[0.03] transition-colors">
                         <span class="font-display text-[0.5rem]" style="color:#c98a10">04</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">Locked Out &amp; Still Paying</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Jadhav · Q8092-26 · Coastal Property</div>
                         </div>
-                    </button>
-                    <button data-chap-ep3="7" onclick="seekToChapterEp3(7)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
+                    </a>
+                    <a href="#martin" class="flex items-center gap-3 p-2 hover:bg-paper/[0.03] transition-colors">
                         <span class="font-display text-[0.5rem]" style="color:#7c6aaa">05</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">The Busybody</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Martin · Broadbeach · Serving Our People</div>
                         </div>
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="px-5 py-5">
@@ -736,207 +714,6 @@
         <div class="reveal border border-paper/[0.07] p-5 max-w-2xl" style="background:rgba(193,68,14,0.04)">
             <div class="text-[0.52rem] tracking-[0.2em] uppercase mb-2 text-hot">Finding</div>
             <p class="text-[0.65rem] leading-relaxed text-paper/45">The maximum-restriction MSP was applied to a participant whose documented conduct — asking questions in writing, attending a scheduled appointment — is explicitly protected under the Workforce Australia Guidelines, Chapter 5.3.1.</p>
-        </div>
-
-        <!-- ═══ SMOKING GUN — MOF SUSPENSION LETTER ═══ -->
-        <div class="reveal mt-12 mb-6 px-5 py-5" style="background:rgba(193,68,14,0.12);border:1px solid rgba(193,68,14,0.5)">
-            <div class="flex items-center gap-3 mb-3">
-                <span class="font-display text-xs tracking-[0.25em] uppercase text-hot">The Smoking Gun</span>
-                <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/30 border border-paper/15 px-2 py-0.5">MOF Suspension Letter · Services Australia · 2 August 2023</span>
-            </div>
-            <h3 class="font-display text-2xl md:text-3xl tracking-wide leading-tight mb-5">PAYMENT SUSPENDED FOR AN ACTION<br><span class="text-hot">THAT HAD NOT YET OCCURRED.</span></h3>
-            <p class="text-[0.72rem] leading-relaxed text-paper/70 mb-4">Services Australia issued a letter on 2 August 2023 stating that JobSeeker Payment had been stopped <strong class="text-paper/90">from 25 July 2023</strong> because the recipient "did not take suitable action in relation to a job opportunity on <strong class="text-hot">31 July 2023</strong>."</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/70 mb-5">31 July 2023 is <strong class="text-paper/90">six days after</strong> 25 July 2023. A payment cannot lawfully be suspended for failure to act on a date that had not yet arrived at the time of suspension. The stated reason is chronologically impossible.</p>
-
-            <!-- Date comparison tiles -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
-                <div class="border-l-4 border-hot pl-4 py-3 pr-4" style="background:rgba(193,68,14,0.07)">
-                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1">Payment Suspended From</div>
-                    <div class="font-display text-2xl text-paper/80">25 July 2023</div>
-                    <div class="text-[0.55rem] text-paper/45 mt-1">The date payment was stopped — stated in the letter</div>
-                </div>
-                <div class="border-l-4 border-paper/20 pl-4 py-3 pr-4" style="background:rgba(245,234,212,0.03)">
-                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/35 mb-1">Stated Reason — Job Opportunity Not Pursued</div>
-                    <div class="font-display text-2xl text-paper/45">31 July 2023</div>
-                    <div class="text-[0.55rem] text-paper/28 mt-1 italic">Six days in the future at the time of the suspension</div>
-                </div>
-            </div>
-
-            <!-- Embedded PDF — stands out -->
-            <div class="mb-5 reveal" style="border:2px solid rgba(193,68,14,0.6);box-shadow:0 0 40px rgba(193,68,14,0.15)">
-                <div class="flex items-center justify-between px-4 py-2.5" style="background:rgba(193,68,14,0.18);border-bottom:1px solid rgba(193,68,14,0.35)">
-                    <div class="flex items-center gap-3">
-                        <span class="font-display text-[0.7rem] tracking-[0.2em] uppercase text-hot">The Letter</span>
-                        <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/45">MOF Suspension · TCF_K269035727 · Services Australia · 2 Aug 2023</span>
-                    </div>
-                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/MOF+suspension+letter+TCF_K269035727+(2).pdf"
-                       target="_blank" rel="noopener"
-                       class="text-[0.48rem] tracking-[0.15em] uppercase text-hot/60 hover:text-hot transition-colors border border-hot/30 hover:border-hot/60 px-2.5 py-1">
-                        ↗ Open
-                    </a>
-                </div>
-                <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/MOF+suspension+letter+TCF_K269035727+(2).pdf"
-                        class="w-full"
-                        style="min-height:560px;height:560px;border:none;filter:brightness(0.92)"
-                        loading="lazy"
-                        title="MOF Suspension Letter — Services Australia · TCF_K269035727"></iframe>
-                <div class="px-4 py-2 flex items-center gap-3" style="background:rgba(193,68,14,0.08);border-top:1px solid rgba(193,68,14,0.25)">
-                    <span class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/55">Ref: 280 870 747X</span>
-                    <span class="text-paper/15">·</span>
-                    <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/30">Payment stopped 25 July 2023</span>
-                    <span class="text-paper/15">·</span>
-                    <span class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/55">Stated reason: job opportunity 31 July 2023</span>
-                </div>
-            </div>
-
-            <p class="text-[0.68rem] leading-relaxed text-paper/60">The letter instructs the recipient to call their Employment Services Provider "to discuss the reasons you did not meet this requirement." This framing presupposes a failure that — by the letter's own dates — had not yet occurred at the time the payment was stopped.</p>
-        </div>
-
-
-        <!-- What this means — Mutual Obligations + Coercive Tactic analysis -->
-        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.5)">
-            <div class="flex items-center gap-3 mb-4">
-                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Mutual Obligations · Coercive Compliance · Analysis</span>
-            </div>
-            <h3 class="font-display text-2xl tracking-wide mb-5 leading-tight">WHAT THIS LETTER MEANS.<br><span class="text-hot">A SYSTEM DESIGNED TO GENERATE COMPLIANCE, NOT TRUTH.</span></h3>
-
-            <div class="space-y-5 text-[0.72rem] leading-relaxed text-paper/50 mb-7">
-                <p><strong class="text-paper/75">Mutual Obligations</strong> — formally called Activity Test or Participation Requirements under the Social Security Act 1991 — are the conditions Centrelink attaches to JobSeeker Payment as a requirement of receiving it. For most recipients: apply for a specified number of jobs per fortnight, attend appointments, and take "suitable action" when your Employment Services Provider refers you to a specific opportunity. Fail any of these and the payment stops.</p>
-                <p>When a provider generates a job referral in the system, the participant is required to apply, attend, or otherwise engage within the required timeframe. Failure to do so triggers a Mutual Obligation failure — which produces an automated payment suspension. The suspension is not a fine, a warning, or a judicial finding. It is a financial withdrawal that continues until the participant calls the provider and satisfies whatever condition the provider decides is appropriate. The gatekeeper of your income and the complainant about your conduct are the same organisation.</p>
-                <p>The letter issued to Mr Kondratenko on 2 August 2023 follows this template exactly — with one fatal problem. The job opportunity referenced is dated 31 July 2023. The suspension is backdated to 25 July 2023. The stated reason postdates the stated punishment by six days. The system generated a compliant-looking administrative instrument for a reason that had not yet arisen.</p>
-            </div>
-
-            <!-- Coercive mechanism -->
-            <div class="border border-paper/[0.08] p-5 mb-6" style="background:rgba(0,0,0,0.18)">
-                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/28 mb-4">The Coercive Mechanism — Step by Step</div>
-                <div class="space-y-4">
-                    <div class="flex gap-3 items-start">
-                        <span class="font-display text-lg text-hot shrink-0 w-6 leading-none mt-0.5">1</span>
-                        <div>
-                            <div class="text-[0.55rem] tracking-[0.1em] uppercase text-hot/65 mb-1">Suspension Creates Immediate Financial Crisis</div>
-                            <p class="text-[0.6rem] text-paper/42 leading-relaxed">Payment stops without warning. There is no income. The pressure to resolve this is immediate, personal, and real — regardless of whether the stated reason is accurate.</p>
-                        </div>
-                    </div>
-                    <div class="flex gap-3 items-start">
-                        <span class="font-display text-lg text-hot shrink-0 w-6 leading-none mt-0.5">2</span>
-                        <div>
-                            <div class="text-[0.55rem] tracking-[0.1em] uppercase text-hot/65 mb-1">The Only Exit Is Through the Accuser</div>
-                            <p class="text-[0.6rem] text-paper/42 leading-relaxed">The letter instructs you to call your Employment Services Provider — the same organisation that generated the suspension — to "discuss the reasons" and "meet the requirement." There is no neutral third party. The complaint and the remedy are controlled by the same entity.</p>
-                        </div>
-                    </div>
-                    <div class="flex gap-3 items-start">
-                        <span class="font-display text-lg text-hot shrink-0 w-6 leading-none mt-0.5">3</span>
-                        <div>
-                            <div class="text-[0.55rem] tracking-[0.1em] uppercase text-hot/65 mb-1">The Language Presupposes Guilt</div>
-                            <p class="text-[0.6rem] text-paper/42 leading-relaxed">"Discuss the reasons <em>you did not meet</em> this requirement" forecloses on any factual challenge. The participant is not invited to question whether the requirement was valid or whether the stated date is correct. They are invited to explain a failure that — by the letter's own dates — could not have occurred yet.</p>
-                        </div>
-                    </div>
-                    <div class="flex gap-3 items-start">
-                        <span class="font-display text-lg text-hot shrink-0 w-6 leading-none mt-0.5">4</span>
-                        <div>
-                            <div class="text-[0.55rem] tracking-[0.1em] uppercase text-hot/65 mb-1">Non-Compliance Means Cancellation and Re-Claim</div>
-                            <p class="text-[0.6rem] text-paper/42 leading-relaxed">The letter is explicit: if you do not call and meet the provider's requirement, the payment may be cancelled — requiring a new claim from scratch. New claims take weeks. The financial cost of not complying is deliberately higher than the cost of complying without questioning anything.</p>
-                        </div>
-                    </div>
-                    <div class="flex gap-3 items-start">
-                        <span class="font-display text-lg text-hot shrink-0 w-6 leading-none mt-0.5">5</span>
-                        <div>
-                            <div class="text-[0.55rem] tracking-[0.1em] uppercase text-hot/65 mb-1">Formal Review Does Not Restart Payment</div>
-                            <p class="text-[0.6rem] text-paper/42 leading-relaxed">A formal review exists — the letter notes a 13-week window. But the payment remains suspended during review. Financial distress continues throughout. Compliance offers immediate relief. A challenge offers eventual justice. Under financial pressure, most people choose relief.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="border-l-4 border-hot/60 pl-5" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
-                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">What the Date Contradiction Reveals</div>
-                <p class="text-[0.65rem] text-paper/55 leading-relaxed mb-3">A payment suspension issued for a reason that postdates the suspension is not administratively coherent under the Mutual Obligations framework. Either the system generated a document with an erroneous date that was never corrected — or the suspension was applied for a different reason, and the Mutual Obligation failure was attached retrospectively to provide a compliant-looking basis for an already-executed decision.</p>
-                <p class="text-[0.65rem] text-paper/55 leading-relaxed">In context: the suspension letter is dated 2 August 2023 and backdates the payment stop to 25 July 2023. The appointment at Tursa's Murwillumbah office — where a camera was held, the duress button was pressed, and police were called — occurred in early August 2023. The MSP letter from David Wiblen followed on 10 August 2023. The chronological sequence does not support the stated reason. It supports a different conclusion.</p>
-            </div>
-        </div>
-
-        <!-- Tassie — YHA Murwillumbah Collateral Damage -->
-        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.5)">
-            <div class="flex items-center gap-3 mb-4">
-                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Collateral Damage · YHA Murwillumbah · Tassie</span>
-            </div>
-            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">TASSIE HAD NOTHING TO DO WITH ANY OF IT.<br><span class="text-gold">THEY CAME FOR HIM ANYWAY.</span></h3>
-
-            <!-- Tassie photo -->
-            <div class="mb-5 reveal">
-                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/tassie.jpg"
-                     alt="Tassie — Manager, YHA Murwillumbah"
-                     class="w-full border border-paper/[0.07]"
-                     style="object-fit:contain;background:#0d0d0d"
-                     loading="lazy" />
-                <div class="text-[0.44rem] tracking-[0.12em] uppercase text-paper/18 mt-1.5">Tassie — Manager, YHA Murwillumbah (Riverside Backpackers) · Murwillumbah NSW</div>
-            </div>
-
-            <div class="space-y-5 text-[0.72rem] leading-relaxed text-paper/50 mb-6">
-                <p>Tassie manages the YHA hostel in Murwillumbah — Riverside Backpackers — where I was staying at the time of the Tursa incidents. He walks with a limp. On weekends he gives out ice cream to hostel guests. He runs dance events for elderly people in the local community. He had no involvement in anything that happened at Tursa. He was not a witness. He was not connected to any of the matters documented here. He was simply the person who had offered me accommodation while I was in the region, and I had been a model tenant — no issues with Tassie, no issues with other guests, throughout my stay.</p>
-                <p>After the Tursa manager called police and I was placed on the Managed Service Plan, what happened next reached Tassie directly. Someone appeared at his dancing event — a person who had never been seen there before, who was not part of his regular community. That person got directly in Tassie's face and screamed: <em class="text-paper/70">"Why are you letting homeless cunts stay at the hostel!"</em> The person delivered that message and left. They were never seen again at his events.</p>
-                <p>Separately, people made enquiries about Tassie's property — which was and still is listed for sale. The enquiries did not come through the real estate agent, which is the standard procedure for a listed property. Legitimate buyers contact the agent. These people came directly to Tassie. He flagged it as suspicious immediately. The combination of the confrontation at his dance school and the suspicious property enquiries was enough. He asked me to leave — explaining that the dance incident and the property enquiries had alarmed him, and that the enquiries hadn't come through the real estate agent, which wasn't right. I left.</p>
-            </div>
-
-            <!-- Incident breakdown -->
-            <div class="border border-gold/20 p-5 mb-6" style="background:rgba(201,138,16,0.04)">
-                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-4">What Happened — In Sequence</div>
-                <div class="space-y-3">
-                    <div class="flex gap-3 items-start">
-                        <div class="w-1.5 h-1.5 rounded-full bg-hot mt-2 shrink-0"></div>
-                        <div>
-                            <div class="text-[0.55rem] tracking-[0.1em] uppercase text-hot/70 mb-0.5">Dancing Event — Unknown Person Confronts Tassie</div>
-                            <p class="text-[0.62rem] text-paper/45 leading-relaxed">A person not previously seen at the event appeared and screamed directly at Tassie about the hostel accommodation. Targeted and specific. Not a regular. Never seen again at the events.</p>
-                        </div>
-                    </div>
-                    <div class="flex gap-3 items-start">
-                        <div class="w-1.5 h-1.5 rounded-full bg-hot mt-2 shrink-0"></div>
-                        <div>
-                            <div class="text-[0.55rem] tracking-[0.1em] uppercase text-hot/70 mb-0.5">Property Enquiries — Not Through the Agent</div>
-                            <p class="text-[0.62rem] text-paper/45 leading-relaxed">Tassie's property is listed for sale. Legitimate enquiries go through the real estate agent — that is standard practice. These came directly to Tassie, bypassing the agent entirely. He identified them as suspicious immediately.</p>
-                        </div>
-                    </div>
-                    <div class="flex gap-3 items-start">
-                        <div class="w-1.5 h-1.5 rounded-full bg-gold mt-2 shrink-0"></div>
-                        <div>
-                            <div class="text-[0.55rem] tracking-[0.1em] uppercase text-gold/70 mb-0.5">Displacement — Kosta Asked to Leave</div>
-                            <p class="text-[0.62rem] text-paper/45 leading-relaxed">Tassie asked me to leave. A model tenant, no issues, displaced — not because of anything he or I did, but because of the pressure that came from Tursa's actions radiating outward into his life and his business.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="border-l-4 border-gold/50 pl-5 mb-8" style="background:rgba(201,138,16,0.05);padding:1rem 1rem 1rem 1.25rem">
-                <p class="text-[0.65rem] text-paper/55 leading-relaxed">I had a genuinely good time at the YHA Murwillumbah. Tassie and the other tenants were welcoming throughout. There were no issues of any kind during my stay. Tassie is a good person — the confrontation at his dance school and the suspicious property enquiries were not his fault, and he should not have been pulled into any of this. He made the call that was right for him and his business, and I respect it.</p>
-            </div>
-
-            <!-- YHA recommendation -->
-            <div class="border border-paper/[0.08] p-6 reveal" style="background:rgba(201,138,16,0.03)">
-                <div class="text-[0.47rem] tracking-[0.22em] uppercase text-gold mb-4">If You're Visiting the Murwillumbah / Mt Warning Area</div>
-
-                <!-- Guesthouse photo -->
-                <div class="mb-5 reveal">
-                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/guesthouse_image.jpg"
-                         alt="YHA Murwillumbah — Riverside Backpackers"
-                         class="w-full border border-paper/[0.06]"
-                         style="object-fit:contain;background:#0d0d0d"
-                         loading="lazy" />
-                    <div class="text-[0.44rem] tracking-[0.12em] uppercase text-paper/18 mt-1.5">YHA Murwillumbah — Riverside Backpackers · Tumbulgum Rd, Murwillumbah NSW</div>
-                </div>
-
-                <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-5">Riverside Backpackers is a well-run, genuinely welcoming hostel in Murwillumbah — base camp for Mt Warning and the Tweed Valley. Tassie runs it with real care. If you're passing through the Northern Rivers region and need a place to stay, check it out and consider booking.</p>
-
-                <div class="flex flex-col sm:flex-row gap-3">
-                    <a href="https://mtwarning.wordpress.com/" target="_blank" rel="noopener"
-                       class="flex items-center gap-2 border border-gold/40 px-4 py-2.5 text-[0.55rem] tracking-[0.15em] uppercase text-gold/75 hover:text-gold hover:border-gold/70 transition-all">
-                        ⬡ &nbsp;Visit Website — mtwarning.wordpress.com
-                    </a>
-                    <a href="https://www.tripadvisor.com/Hotel_Review-g529003-d1163611-Reviews-Riverside_Backpackers_Murwillumbah-Murwillumbah_New_South_Wales.html" target="_blank" rel="noopener"
-                       class="flex items-center gap-2 border border-paper/20 px-4 py-2.5 text-[0.55rem] tracking-[0.15em] uppercase text-paper/45 hover:text-paper/70 hover:border-paper/35 transition-all">
-                        ★ &nbsp;Book on TripAdvisor
-                    </a>
-                </div>
-            </div>
         </div>
 
     </div>
@@ -1396,124 +1173,41 @@
             </div>
         </div>
 
-        <!-- ═══ VIDEO — ADAM'S FACE AFTER THE ASSAULT ═══ -->
-        <div class="reveal mb-10" style="border:2px solid rgba(193,68,14,0.7);box-shadow:0 0 60px rgba(193,68,14,0.2)">
-            <div class="px-4 py-3 flex items-center justify-between" style="background:rgba(193,68,14,0.22);border-bottom:1px solid rgba(193,68,14,0.4)">
-                <div class="flex items-center gap-3">
-                    <span class="font-display text-sm tracking-[0.2em] uppercase text-hot">Primary Evidence</span>
-                    <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/50">Adam Watson · Immediately After the Assault · 9 January 2026 · Coogee NSW</span>
-                </div>
-                <span class="text-[0.44rem] tracking-[0.18em] uppercase border border-hot/40 text-hot/70 px-2 py-1">Video</span>
-            </div>
-
-            <!-- Context banner -->
-            <div class="px-5 py-4" style="background:rgba(193,68,14,0.08);border-bottom:1px solid rgba(193,68,14,0.2)">
-                <p class="text-[0.7rem] leading-relaxed text-paper/75">This is Adam Watson's face — immediately after a <strong class="text-hot">6-on-1 police assault</strong> — asking for help. Six NSW Police officers attended his Coogee address after he called triple-zero to report an AVO breach. Officers told him the AVO did not exist. He was assaulted, called a <strong class="text-hot">"Jewish Faggot"</strong>, and had his prescribed diabetic medication ($878 Ozempic) seized without a receipt. He was not charged. This footage was recorded in the immediate aftermath and submitted as primary evidence to the Law Enforcement Conduct Commission.</p>
-            </div>
-
-            <!-- Video -->
-            <div style="background:#000">
-                <video controls
-                       class="w-full"
-                       style="max-height:520px;display:block"
-                       preload="metadata">
-                    <source src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lecc/adam-police-assault.mp4" type="video/mp4">
-                </video>
-            </div>
-
-            <div class="px-4 py-2.5 flex flex-wrap items-center gap-4" style="background:rgba(193,68,14,0.1);border-top:1px solid rgba(193,68,14,0.25)">
-                <span class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/70">6 Officers · 1 Man · No Charge Filed</span>
-                <span class="text-paper/15">·</span>
-                <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/35">"Jewish Faggot" — Antisemitic & Homophobic Slur</span>
-                <span class="text-paper/15">·</span>
-                <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/35">$878 Ozempic Seized — No Receipt</span>
-                <span class="text-paper/15">·</span>
-                <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/35">LECC Complaint EXT2026-0413</span>
-            </div>
+        <!-- LECC complaint callout -->
+        <div class="reveal mb-10 border-l-4 border-hot pl-6 py-2">
+            <div class="text-[0.48rem] tracking-[0.22em] uppercase text-hot mb-2">19 March 2026 — Formal Complaint Lodged with LECC</div>
+            <div class="font-display text-2xl tracking-wide text-paper/85 mb-3">LECC COMPLAINT EXT2026-0413</div>
+            <p class="text-[0.68rem] leading-relaxed text-paper/45 max-w-2xl">A formal complaint was lodged with the Law Enforcement Conduct Commission on 19 March 2026. Reference: <strong class="text-paper/65 font-mono">EXT2026-0413</strong>. The complaint names the attending officers, documents the assault, the antisemitic and homophobic slur, the unlawful seizure of prescribed medication, and identifies five investigative failures in the internal review conducted by SC Agnew and SC Grace. The video recorded by Adam Watson in the immediate aftermath of the assault is attached as primary evidence.</p>
         </div>
 
-        <!-- ═══ LECC COMPLAINT — EMBEDDED PDF + ISSUES CALLOUT ═══ -->
-        <div class="reveal mb-10" style="border:2px solid rgba(193,68,14,0.55);box-shadow:0 0 40px rgba(193,68,14,0.12)">
-            <div class="px-4 py-3 flex items-center justify-between" style="background:rgba(193,68,14,0.18);border-bottom:1px solid rgba(193,68,14,0.35)">
-                <div class="flex items-center gap-3">
-                    <span class="font-display text-sm tracking-[0.2em] uppercase text-hot">LECC Formal Complaint</span>
-                    <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/50">EXT2026-0413 · Filed 19 March 2026 · Adam Watson</span>
-                </div>
-                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lecc/LECC_Complaint_Adam_Watson_v2.docx.pdf"
-                   target="_blank" rel="noopener"
-                   class="text-[0.48rem] tracking-[0.15em] uppercase text-hot/60 hover:text-hot border border-hot/30 hover:border-hot/60 px-2.5 py-1 transition-colors">↗ Open</a>
-            </div>
-
-            <!-- Key issues callout — above the PDF -->
-            <div class="px-5 py-5" style="background:rgba(193,68,14,0.07);border-bottom:1px solid rgba(193,68,14,0.2)">
-                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-4">Five Investigative Failures Identified in the Complaint</div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 mb-5">
-                    <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.05)">
-                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/65 mb-1">Failure 01</div>
-                        <p class="text-[0.58rem] text-paper/55 leading-relaxed">No independent witnesses identified or contacted during the 16-day review.</p>
-                    </div>
-                    <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.05)">
-                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/65 mb-1">Failure 02</div>
-                        <p class="text-[0.58rem] text-paper/55 leading-relaxed">No medical records sought or reviewed — despite a documented physical assault.</p>
-                    </div>
-                    <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.05)">
-                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/65 mb-1">Failure 03</div>
-                        <p class="text-[0.58rem] text-paper/55 leading-relaxed">No Body Worn Camera footage reviewed — standard for any complaint involving officer conduct.</p>
-                    </div>
-                    <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.05)">
-                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/65 mb-1">Failure 04</div>
-                        <p class="text-[0.58rem] text-paper/55 leading-relaxed">No individual officer identified as responsible for the slur, the assault, or the seizure.</p>
-                    </div>
-                    <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.05)">
-                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/65 mb-1">Failure 05</div>
-                        <p class="text-[0.58rem] text-paper/55 leading-relaxed">Entire complaint — assault, slur, $878 medication seizure — closed in <strong class="text-hot">16 days</strong> as "no evidence identified."</p>
-                    </div>
-                    <div class="border border-hot/20 p-3 flex flex-col justify-center text-center" style="background:rgba(193,68,14,0.08)">
-                        <div class="font-display text-2xl text-hot mb-1">16</div>
-                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/40">Days. Closed. Dismissed.</div>
-                    </div>
-                </div>
-
-                <!-- What the complaint documents -->
-                <div class="border-l-4 border-hot/60 pl-4" style="background:rgba(193,68,14,0.05);padding:0.8rem 0.8rem 0.8rem 1rem">
-                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">What the Complaint Documents</div>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
-                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0">→</span><p class="text-[0.58rem] text-paper/50 leading-relaxed">The assault — 6 officers, 1 man, no charge filed</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0">→</span><p class="text-[0.58rem] text-paper/50 leading-relaxed">"Jewish Faggot" — antisemitic and homophobic slur, repeated, witnessed</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0">→</span><p class="text-[0.58rem] text-paper/50 leading-relaxed">$878 Ozempic seized — no receipt, never returned, no lawful authority cited</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0">→</span><p class="text-[0.58rem] text-paper/50 leading-relaxed">AVO denied to exist — officers did not check the system before making that statement</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0">→</span><p class="text-[0.58rem] text-paper/50 leading-relaxed">SC Agnew / SC Grace internal review — five identified failures in methodology</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0">→</span><p class="text-[0.58rem] text-paper/50 leading-relaxed">Complaint closed without any officer individually identified or held accountable</p></div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Embedded PDF -->
-            <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lecc/LECC_Complaint_Adam_Watson_v2.docx.pdf"
-                    class="w-full"
-                    style="min-height:700px;height:700px;border:none;filter:brightness(0.93)"
-                    loading="lazy"
-                    title="LECC Formal Complaint EXT2026-0413 — Adam Watson"></iframe>
-
-            <div class="px-4 py-2.5 flex flex-wrap items-center gap-4" style="background:rgba(193,68,14,0.1);border-top:1px solid rgba(193,68,14,0.25)">
-                <span class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/70">LECC · EXT2026-0413</span>
-                <span class="text-paper/15">·</span>
-                <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/35">Filed 19 March 2026</span>
-                <span class="text-paper/15">·</span>
-                <span class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/35">No suppression order — public document</span>
-            </div>
-        </div>
-
-        <!-- Remaining evidence files -->
+        <!-- Evidence vault -->
         <div class="reveal">
-            <div class="text-[0.48rem] tracking-[0.24em] uppercase text-paper/20 mb-4">Additional Evidence — LECC Matter</div>
+            <div class="text-[0.48rem] tracking-[0.24em] uppercase text-paper/20 mb-4">LECC Evidence — 6 Objects</div>
             <div class="border border-paper/[0.07]" style="background:rgba(12,8,4,0.7)">
+
+                <div class="ev-file ef-hot" onclick="openMV('video-police-assault')">
+                    <div class="ev-icon ev-video">▶</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">Video — Sent by Adam After the Assault</div>
+                        <div class="ev-desc">Primary evidence · Recorded immediately after incident · 9 Jan 2026 · Coogee NSW</div>
+                    </div>
+                    <span class="ev-cta text-hot">View ↗</span>
+                </div>
 
                 <div class="ev-file ef-hot" onclick="openMV('pdf-lecc-agnew')">
                     <div class="ev-icon ev-pdf" style="font-size:0.5rem;letter-spacing:0.04em">PDF</div>
                     <div class="ev-meta">
                         <div class="ev-name">SC Agnew — Investigation Closure Letter</div>
                         <div class="ev-desc">Internal review · Closed 25 Jan 2026 · "No evidence identified to substantiate"</div>
+                    </div>
+                    <span class="ev-cta text-hot">View ↗</span>
+                </div>
+
+                <div class="ev-file ef-hot" onclick="openMV('pdf-lecc-complaint')">
+                    <div class="ev-icon ev-pdf" style="font-size:0.5rem;letter-spacing:0.04em">PDF</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">LECC Formal Complaint — EXT2026-0413</div>
+                        <div class="ev-desc">Adam Watson · Filed 19 March 2026 · Full submission to LECC</div>
                     </div>
                     <span class="ev-cta text-hot">View ↗</span>
                 </div>
@@ -2168,279 +1862,11 @@
             </div>
         </div>
 
-        <!-- Irish Whiskey Peace Offering -->
-        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.5)">
-            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1 text-gold border-gold/40">New Incident — Peace Offering · Tent · Broadbeach</span></div>
-            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">A CAN OF IRISH WHISKEY OUTSIDE THE TENT.<br><span class="text-gold">ADAM WARNED IT MAY BE POISONED.</span></h3>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">After the documented incidents involving the tent — the false denial on camera, the complaint about its location to Adam while claiming not to know where it was — Martin left a can of Irish Whiskey outside the tent. A peace offering, apparently. The can was consumed.</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Adam Watson's response was direct: the drink may have been poisoned. That warning was noted. Whether Martin intended goodwill or something else is something only Martin knows. What is documented is the sequence: the confrontation, the denial caught on film, and then — a drink left outside the tent of the person he had just been caught lying to.</p>
-
-            <!-- Photo -->
-            <div class="mb-5 reveal" onclick="openMV('image-martin-whiskey')" style="cursor:pointer">
-                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/irish_whiskey.jpg"
-                     alt="Irish Whiskey can — left outside tent by Martin"
-                     class="w-full object-cover border border-paper/[0.07]"
-                     style="max-height:400px;object-fit:contain;background:#0d0d0d"
-                     loading="lazy" />
-                <div class="text-[0.44rem] tracking-[0.12em] uppercase text-paper/20 mt-1.5 flex items-center gap-2">
-                    <span>Irish Whiskey · Left outside tent · Martin's peace offering</span>
-                    <span class="text-paper/15">· tap to enlarge</span>
-                </div>
-            </div>
-
-            <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.04)">
-                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-3">Context</div>
-                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                    <div class="border border-gold/15 p-3" style="background:rgba(201,138,16,0.03)">
-                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-gold/55 mb-1">Before</div>
-                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">Confrontation filmed. Martin denied knowing where the tent was — while having previously complained about its exact location.</p>
-                    </div>
-                    <div class="border border-gold/15 p-3" style="background:rgba(201,138,16,0.03)">
-                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-gold/55 mb-1">The Offering</div>
-                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">A can of Irish Whiskey left outside the tent. No note. No explanation. Consumed.</p>
-                    </div>
-                    <div class="border border-gold/15 p-3" style="background:rgba(201,138,16,0.03)">
-                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-gold/55 mb-1">Adam's Warning</div>
-                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">Adam Watson warned that the drink may have been poisoned. The warning was taken seriously.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Stalking — Car at Disability Centre -->
-        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.5)">
-            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Escalation — Broadbeach Library · Disability Centre · Stalker Behaviour</span></div>
-            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">KNOCKING ON ADAM'S CAR WINDOW WHILE HE SLEPT.<br><span class="text-hot">THREATENING TO REPORT HIM TO THE DISABILITY CENTRE.</span></h3>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam Watson was sleeping in his car outside the disability centre at Broadbeach library. Martin located the car, approached, and knocked on Adam's window. His message: he was going to tell the disability centre that Adam was sleeping in his car outside.</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">There is a word for locating someone's vehicle, approaching it while they sleep, and presenting a threat. That word is stalking. Martin found out where Adam's car was parked. He went there. He knocked on the window of a sleeping person. He delivered a warning. This is no longer someone who misrepresents situations or inserts himself uninvited into conversations. This is someone who tracks a person's location and shows up there to issue threats.</p>
-
-            <div class="border border-hot/25 p-5 mb-5" style="background:rgba(193,68,14,0.05)">
-                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">The Incident — Documented</div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">Location</div>
-                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Broadbeach Library disability centre — Adam Watson sleeping in his car outside.</p>
-                    </div>
-                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">Martin's Action</div>
-                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Located the vehicle. Approached. Knocked on the window while Adam was asleep. Delivered a threat.</p>
-                    </div>
-                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">The Threat</div>
-                        <p class="text-[0.6rem] text-paper/55 leading-relaxed italic">"I'm going to tell the disability centre that you're sleeping in your car outside."</p>
-                    </div>
-                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">What This Is</div>
-                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Not a coincidence. Not a chance encounter. Martin knew where Adam's car was, went there, and used that knowledge as leverage.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Pattern escalation callout -->
-            <div class="border-l-4 border-hot/60 pl-5" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
-                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">This Is Now Stalker Behaviour</div>
-                <p class="text-[0.65rem] text-paper/50 leading-relaxed mb-2">The pattern has moved past insertion and misrepresentation. Attending someone's sleeping vehicle — having tracked their location — to issue a threat is the behaviour of a stalker. The disability centre angle was chosen because it might cause harm. The target was chosen because he was asleep and alone.</p>
-                <p class="text-[0.65rem] text-paper/50 leading-relaxed">This is escalation. Each step has been documented: the laundry request denied, the tent accusation and filmed denial, the third-party phone call, the whiskey left outside, and now this. The trajectory is not ambiguous.</p>
-            </div>
-        </div>
-
-        <!-- $2,000 Fine — Martin dobbed in Adam to the Council Ranger -->
-        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.6)">
-            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Consequence · Council Ranger · $2,000 Fine</span></div>
-            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">MARTIN DOBBED HIM IN TO THE COUNCIL RANGER.<br><span class="text-hot">CAUGHT ON CCTV. ADAM GOT A $2,000 FINE.</span></h3>
-            <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"He didn't just threaten to report Adam. He went and did it. The disability centre caught him on video talking to the Council Ranger — and told Adam."</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">After knocking on Adam Watson's car window and threatening to report him, Martin followed through. Adam subsequently received a <strong class="text-paper/70">$2,000 fine</strong> from a Council Ranger for sleeping in his car. Staff at the disability centre then came to Adam with information: they had caught Martin on CCTV talking to the Council Ranger — effectively dobbing Adam in.</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">The fine did not arrive by chance. Martin identified the location. Martin made contact with the Ranger. The disability centre employees witnessed the exchange and reported it back to Adam. This is not a pattern of concern or misguided helpfulness. This is deliberate, targeted reporting — intended to result in a financial penalty against a homeless man sleeping in a car.</p>
-
-            <!-- Three-column breakdown -->
-            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
-                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
-                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The Fine</div>
-                    <div class="font-display text-2xl text-hot mb-1">$2,000</div>
-                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">Issued by Council Ranger for sleeping in a vehicle — following Martin's report. Issued against a homeless man with no alternative accommodation.</p>
-                </div>
-                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
-                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Caught on CCTV</div>
-                    <div class="font-display text-sm text-paper/70 mb-1">Disability Centre Footage</div>
-                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">Disability centre staff saw Martin on their CCTV talking directly to the Council Ranger. They told Adam. Martin had no business being involved in this interaction.</p>
-                </div>
-                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
-                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The Irony</div>
-                    <div class="font-display text-sm text-paper/70 mb-1">Martin Also Sleeps in His Car</div>
-                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">Martin himself lives in his vehicle — he approached Adam for laundry access from that same vehicle. He reported another person for doing exactly what he does.</p>
-                </div>
-            </div>
-
-            <!-- Irony callout -->
-            <div class="border border-hot/30 p-5 mb-5" style="background:rgba(193,68,14,0.06)">
-                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">The Irony Cannot Be Overstated</div>
-                <p class="text-[0.68rem] text-paper/55 leading-relaxed mb-3">Martin does not have a driver's licence. Martin lives in his vehicle. Martin approached Adam Watson — who was homeless — to ask for access to laundry facilities, from that same vehicle. Martin then reported Adam Watson to a Council Ranger for sleeping in a car.</p>
-                <p class="text-[0.68rem] text-paper/55 leading-relaxed">The person who reported Adam for sleeping in a vehicle is themselves sleeping in a vehicle. The person who sought help from Adam now sought to have Adam fined $2,000 for his accommodation situation. The disability centre staff who witnessed Martin speaking to the Ranger understood what they were seeing. They told Adam.</p>
-            </div>
-
-            <!-- Sequence -->
-            <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
-                <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-3">The Sequence</div>
-                <div class="space-y-2">
-                    <div class="grid grid-cols-[80px_1fr] gap-3 items-start">
-                        <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 1</div>
-                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Martin locates Adam's car at the disability centre and knocks on the window while he sleeps. Threatens to report him.</p>
-                    </div>
-                    <div class="grid grid-cols-[80px_1fr] gap-3 items-start">
-                        <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 2</div>
-                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Martin approaches the Council Ranger and reports Adam Watson for sleeping in his vehicle. Disability centre CCTV captures the exchange.</p>
-                    </div>
-                    <div class="grid grid-cols-[80px_1fr] gap-3 items-start">
-                        <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 3</div>
-                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Adam Watson receives a $2,000 fine from the Council Ranger.</p>
-                    </div>
-                    <div class="grid grid-cols-[80px_1fr] gap-3 items-start">
-                        <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 4</div>
-                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Disability centre staff inform Adam that they caught Martin on CCTV talking to the Ranger. Martin's role is confirmed.</p>
-                    </div>
-                    <div class="grid grid-cols-[80px_1fr] gap-3 items-start">
-                        <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">The Irony</div>
-                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Martin himself sleeps in his car. He reported a homeless man for doing what he does himself.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Martin Threatens to Sue — Confirms He Left the Drink -->
-        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.7)">
-            <div class="flex items-center gap-3 mb-4">
-                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Breaking · Martin Contacts Adam · Threatens Legal Action · Inadvertent Admission</span>
-                <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-gold/40 text-gold px-1.5 py-0.5">NEW</span>
-            </div>
-            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">MARTIN READ THE SITE.<br><span class="text-hot">THREATENED TO SUE. CONFIRMED HE LEFT THE DRINK.</span></h3>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Martin has read Sunlight.Quest. Having done so, he messaged Adam Watson threatening legal action — specifically over the suggestion that the drink he left outside the tent may have been poisoned.</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6">There is a problem with that threat. It is the threat itself.</p>
-
-            <!-- The admission callout -->
-            <div class="border-l-4 pl-5 mb-6" style="border-color:rgba(193,68,14,0.7);background:rgba(193,68,14,0.07);padding:1.1rem 1rem 1.1rem 1.25rem">
-                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The Logical Trap — He Has Confirmed It Was Him</div>
-                <p class="text-[0.65rem] text-paper/60 leading-relaxed mb-3">To threaten defamation proceedings over the suggestion that <em>the drink he left outside the tent</em> may have been poisoned, Martin must first accept the premise that he left the drink. A person who did not leave the drink has no standing to claim defamation over what was said about it. You cannot be defamed by a suggestion about an act you say you did not commit — because the suggestion does not refer to you.</p>
-                <p class="text-[0.65rem] text-paper/60 leading-relaxed">By identifying himself as the person who left the drink — the very identity that would be required for the defamation claim to attach to him — Martin has confirmed what was published. The SMS does not deny leaving the drink. It objects to the characterisation of it.</p>
-            </div>
-
-            <!-- Two-col: what he'd need to claim vs what he confirmed -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
-                <div class="border p-4" style="border-color:rgba(245,234,212,0.1);background:rgba(0,0,0,0.15)">
-                    <div class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/30 mb-2">What a Defamation Claim Would Require Him to Assert</div>
-                    <div class="space-y-2">
-                        <div class="flex gap-2 items-start">
-                            <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
-                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">That the published statement referred to him</p>
-                        </div>
-                        <div class="flex gap-2 items-start">
-                            <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
-                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">That he was the person who left the drink</p>
-                        </div>
-                        <div class="flex gap-2 items-start">
-                            <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
-                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">That the suggestion it may have been poisoned is false and damaging to his reputation</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="border p-4" style="border-color:rgba(193,68,14,0.25);background:rgba(193,68,14,0.05)">
-                    <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/70 mb-2">What His Threat Has Already Confirmed</div>
-                    <div class="space-y-2">
-                        <div class="flex gap-2 items-start">
-                            <span class="text-gold text-xs shrink-0 mt-0.5">✓</span>
-                            <p class="text-[0.58rem] text-paper/50 leading-relaxed">That he read the site and recognised himself as the person described</p>
-                        </div>
-                        <div class="flex gap-2 items-start">
-                            <span class="text-gold text-xs shrink-0 mt-0.5">✓</span>
-                            <p class="text-[0.58rem] text-paper/50 leading-relaxed">That he accepts he is the one who left the drink outside the tent</p>
-                        </div>
-                        <div class="flex gap-2 items-start">
-                            <span class="text-gold text-xs shrink-0 mt-0.5">✓</span>
-                            <p class="text-[0.58rem] text-paper/50 leading-relaxed">That his objection is to being suspected of poisoning it — not to having left it</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- The Streisand effect note -->
-            <div class="border border-gold/25 p-5 mb-5" style="background:rgba(201,138,16,0.04)">
-                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-2">The Streisand Effect — In Real Time</div>
-                <p class="text-[0.65rem] text-paper/50 leading-relaxed">The original reporting noted that a drink had been left outside Adam's tent and that the suggestion was raised that it may have been poisoned. The identity of who left it was already documented in context. Martin's decision to contact Adam Watson and threaten legal action over that reporting has done one thing: confirmed, via SMS, that he is the person in question, that he left the drink, and that he is sufficiently troubled by the suggestion to contact the subject of the story and threaten litigation. The message does not exonerate him. It anchors him to the act.</p>
-            </div>
-
-            <!-- Status block -->
-            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                <div class="border p-4" style="border-color:rgba(193,68,14,0.2);background:rgba(193,68,14,0.04)">
-                    <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/60 mb-2">Martin's Action</div>
-                    <div class="font-display text-base text-hot mb-1">Threatened to Sue</div>
-                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">Via SMS to Adam Watson after reading Sunlight.Quest. Objects to the suggestion the drink may have been poisoned.</p>
-                </div>
-                <div class="border p-4" style="border-color:rgba(201,138,16,0.2);background:rgba(201,138,16,0.04)">
-                    <div class="text-[0.44rem] tracking-[0.15em] uppercase text-gold/60 mb-2">What the SMS Confirms</div>
-                    <div class="font-display text-base text-gold mb-1">He Left the Drink</div>
-                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">The threat only attaches if he is the person who left the drink. By making the threat he has confirmed the fact he apparently wishes to dispute.</p>
-                </div>
-                <div class="border p-4" style="border-color:rgba(61,122,74,0.2);background:rgba(61,122,74,0.04)">
-                    <div class="text-[0.44rem] tracking-[0.15em] uppercase mb-2" style="color:rgba(61,122,74,0.7)">Adam Watson</div>
-                    <div class="font-display text-base mb-1" style="color:#3d7a4a">Documented</div>
-                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">The SMS has been noted. The site remains published. The reporting stands.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Martin Complains to Library Staff -->
-        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(124,106,170,0.6)">
-            <div class="flex items-center gap-3 mb-4">
-                <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">New Incident · Broadbeach Library · Staff Complaint</span>
-                <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-gold/40 text-gold px-1.5 py-0.5">NEW</span>
-            </div>
-            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">MARTIN COMPLAINED TO LIBRARY STAFF.<br><span style="color:#7c6aaa">SAID ADAM IS USING THE COMPUTERS TO CREATE MISCHIEF AND RUIN PEOPLE'S LIVES.</span></h3>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Martin has now taken his complaints to the staff of Broadbeach Library — the same library where Adam Watson uses the computers. His complaint, relayed back to Adam: that Adam is using the library computers to <strong class="text-paper/65">create mischief and ruin people's lives.</strong></p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6">This is the same library. This is the same Martin who located Adam's sleeping vehicle, knocked on the window, reported him to the Council Ranger, and has now threatened to sue over the published account of his own conduct. The complaint to library staff follows the same pattern: insert yourself, make a report to an authority, attempt to have someone else's access or standing reduced.</p>
-
-            <!-- What Martin told library staff -->
-            <div class="border-l-4 pl-5 mb-6" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
-                <div class="text-[0.46rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Martin's Complaint to Library Staff</div>
-                <p class="text-[0.7rem] text-paper/65 leading-relaxed italic mb-1">"He is using the computers to create mischief and ruin people's lives."</p>
-                <div class="text-[0.43rem] tracking-[0.12em] uppercase text-paper/25 mt-2">Martin · Complaint made to Broadbeach Library staff · Relayed to Adam Watson</div>
-            </div>
-
-            <!-- What Adam is actually doing -->
-            <div class="border mb-6" style="border-color:rgba(124,106,170,0.2);background:rgba(124,106,170,0.03)">
-                <div class="px-5 py-3 border-b" style="border-color:rgba(124,106,170,0.12)">
-                    <div class="text-[0.47rem] tracking-[0.2em] uppercase" style="color:#7c6aaa">What Adam Watson Is Actually Doing at Those Computers</div>
-                </div>
-                <div class="px-5 py-4">
-                    <p class="text-[0.65rem] text-paper/50 leading-relaxed mb-3">Adam Watson is using the library computers to publish and maintain Sunlight.Quest — an investigative journalism site documenting documented misconduct, court-entered judgments, sealed legal instruments, CCTV-confirmed council ranger tip-offs, and the conduct of people who have committed fraud, made false sexual assault allegations, and manipulated legal processes.</p>
-                    <p class="text-[0.65rem] text-paper/50 leading-relaxed">That Martin characterises this as "creating mischief and ruining people's lives" is telling. The accounts published are documented. The court orders are real and publicly sealed. The irony is that Martin's own conduct — the ranger tip-off, the drink outside the tent, the legal threats — has earned him a chapter on the site he is now complaining about. The mischief, in Martin's framing, is being held accountable in writing.</p>
-                </div>
-            </div>
-
-            <!-- Pattern grid -->
-            <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
-                <div class="border p-3 text-center" style="border-color:rgba(124,106,170,0.18);background:rgba(124,106,170,0.04)">
-                    <div class="text-[0.43rem] tracking-[0.12em] uppercase mb-1.5" style="color:rgba(124,106,170,0.6)">Authority 1</div>
-                    <div class="text-[0.62rem] text-paper/55 leading-tight">Council Ranger<br><span class="text-paper/30 text-[0.5rem]">Reported Adam for sleeping in his car</span></div>
-                </div>
-                <div class="border p-3 text-center" style="border-color:rgba(124,106,170,0.18);background:rgba(124,106,170,0.04)">
-                    <div class="text-[0.43rem] tracking-[0.12em] uppercase mb-1.5" style="color:rgba(124,106,170,0.6)">Authority 2</div>
-                    <div class="text-[0.62rem] text-paper/55 leading-tight">Legal Threat<br><span class="text-paper/30 text-[0.5rem]">Threatened to sue over the site</span></div>
-                </div>
-                <div class="border p-3 text-center" style="border-color:rgba(193,68,14,0.25);background:rgba(193,68,14,0.04)">
-                    <div class="text-[0.43rem] tracking-[0.12em] uppercase mb-1.5 text-hot/60">Authority 3</div>
-                    <div class="text-[0.62rem] text-paper/55 leading-tight">Library Staff<br><span class="text-paper/30 text-[0.5rem]">Complained Adam is ruining lives with a computer</span></div>
-                </div>
-                <div class="border p-3 text-center" style="border-color:rgba(201,138,16,0.2);background:rgba(201,138,16,0.03)">
-                    <div class="text-[0.43rem] tracking-[0.12em] uppercase mb-1.5 text-gold/60">Result</div>
-                    <div class="text-[0.62rem] text-paper/55 leading-tight">Another chapter<br><span class="text-paper/30 text-[0.5rem]">On the site he is trying to suppress</span></div>
-                </div>
-            </div>
-        </div>
-
         <!-- Conclusion -->
         <div class="reveal mb-6 p-6 md:p-8" style="background:rgba(124,106,170,0.07);border:1px solid rgba(124,106,170,0.2)">
             <div class="text-[0.5rem] tracking-[0.22em] uppercase mb-4" style="color:#7c6aaa">Conclusion</div>
             <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight text-paper/80">NOT EVERY INTERACTION REQUIRES YOUR INVOLVEMENT.</h3>
-            <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Martin's actions across every documented incident demonstrate the same pattern: insertion without invitation, intervention without standing, and misrepresentation when confronted. The harm caused by each individual action — a coffee shop closure, a false implication, a court file requested with no right to it, a $2,000 fine engineered by reporting a homeless man for sleeping in a car while doing the same himself — might appear isolated. The pattern makes it something else.</p>
+            <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Martin's actions across every documented incident demonstrate the same pattern: insertion without invitation, intervention without standing, and misrepresentation when confronted. The harm caused by each individual action — a coffee shop closure, a false implication, a court file requested with no right to it — might appear isolated. The pattern makes it something else.</p>
             <p class="text-[0.68rem] text-paper/48 leading-relaxed">Sometimes the most harmful actions come from those who believe they are helping. Martin has not been asked to help. He has not been given permission to insert himself into matters that do not involve him. He continues anyway. That is the record.</p>
             <div class="flex items-center gap-3 mt-5">
                 <div class="w-8 h-px" style="background:rgba(124,106,170,0.4)"></div>
@@ -2478,23 +1904,6 @@ document.querySelectorAll('.reveal').forEach(function(el) { obs.observe(el); });
 
 // ── MEDIA VIEWER ──
 var EVIDENCE = {
-    'pdf-mof-suspension': {
-        type: 'pdf',
-        title: 'MOF SUSPENSION LETTER — SERVICES AUSTRALIA',
-        tag: 'Mutual Obligation Failure · TCF_K269035727 · 2 August 2023',
-        meta: 'PDF · Services Australia · Ref: 280 870 747X · Addressee: Konstantin Kondratenko · 1 Tumbulgum Rd, Murwillumbah NSW 2484',
-        desc: 'Services Australia letter dated 2 August 2023 suspending JobSeeker Payment from 25 July 2023. Stated reason: "you did not take suitable action in relation to a job opportunity on 31 July 2023." The suspension date (25 July) predates the stated failure date (31 July) by six days — a chronological impossibility. The letter instructs the recipient to call Tursa Employment & Training on (02) 6672 6712 to discuss "the reasons you did not meet this requirement" and to have payment restarted.',
-        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tursa/MOF+suspension+letter+TCF_K269035727+(2).pdf',
-        filename: 'MOF_suspension_letter_TCF_K269035727.pdf'
-    },
-    'image-martin-whiskey': {
-        type: 'image',
-        title: 'IRISH WHISKEY — LEFT OUTSIDE TENT',
-        tag: 'Martin · Peace Offering · Broadbeach',
-        meta: 'Photo · Broadbeach Gold Coast · After filmed confrontation',
-        desc: 'A can of Irish Whiskey left outside the tent by Martin — following the filmed confrontation in which he denied knowing the tent\'s location while having previously complained about it specifically to Adam Watson. Adam warned the drink may have been poisoned.',
-        src: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/irish_whiskey.jpg'
-    },
     'video-police-assault': {
         type: 'video',
         title: 'VIDEO — SENT AFTER ASSAULT',
@@ -2722,430 +2131,8 @@ function buildVideoViewer(e) {
 }
 
 document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') { closeMV(); closeTipModal(); }
+    if (e.key === 'Escape') { closeMV(); }
 });
-
-// ── VIDSTACK PLAYER EP3 INIT ──
-(function() {
-    var VTT_CONTENT = [
-        'WEBVTT',
-        '',
-        '00:00:00.000 --> 00:03:00.000',
-        'Workforce Australia',
-        '',
-        '00:03:00.000 --> 00:06:00.000',
-        'The Question That Could Never Be Answered',
-        '',
-        '00:06:00.000 --> 00:09:00.000',
-        'The 30-Minute Appointment',
-        '',
-        '00:09:00.000 --> 00:12:00.000',
-        'The MSP',
-        '',
-        '00:12:00.000 --> 00:15:00.000',
-        'AI Narrative',
-        '',
-        '00:15:00.000 --> 00:18:00.000',
-        'LECC Complaint',
-        '',
-        '00:18:00.000 --> 00:22:00.000',
-        'Locked Out — Jadhav',
-        '',
-        '00:22:00.000 --> 00:26:00.000',
-        'The Busybody — Martin',
-    ].join('\n');
-
-    function initPlayerEp3() {
-        var el = document.getElementById('player-ep3');
-        if (!el) return;
-        if (typeof el.subscribe !== 'function') {
-            setTimeout(initPlayerEp3, 200);
-            return;
-        }
-        window.vidstackPlayerEp3 = el;
-
-        var track = document.getElementById('ep3-chapters-track');
-        if (track) {
-            var blob = new Blob([VTT_CONTENT], {type: 'text/vtt'});
-            track.src = URL.createObjectURL(blob);
-        }
-
-        el.subscribe(function(state) {
-            var time = state.currentTime;
-            var tracks = el.textTracks;
-            for (var i = 0; i < tracks.length; i++) {
-                if (tracks[i].kind === 'chapters') {
-                    var cues = tracks[i].cues;
-                    for (var j = 0; j < cues.length; j++) {
-                        if (time >= cues[j].startTime && time < cues[j].endTime) {
-                            document.querySelectorAll('[data-chap-ep3]').forEach(function(el2) {
-                                var match = parseInt(el2.getAttribute('data-chap-ep3'),10) === j;
-                                el2.style.background = match ? 'rgba(201,138,16,0.1)' : '';
-                                el2.style.borderColor = match ? 'rgba(201,138,16,0.4)' : 'transparent';
-                            });
-                            break;
-                        }
-                    }
-                    break;
-                }
-            }
-        });
-    }
-
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initPlayerEp3);
-    } else {
-        initPlayerEp3();
-    }
-})();
-
-function seekToChapterEp3(index) {
-    var p = window.vidstackPlayerEp3;
-    if (!p) {
-        document.getElementById('player-ep3').scrollIntoView({behavior:'smooth',block:'center'});
-        return;
-    }
-    var tracks = p.textTracks;
-    var ct = null;
-    for (var i = 0; i < tracks.length; i++) { if (tracks[i].kind === 'chapters') { ct = tracks[i]; break; } }
-    if (ct && ct.cues && ct.cues.length > index) { p.currentTime = ct.cues[index].startTime; }
-    else { var d = p.duration || 0; if (d > 0) p.currentTime = (d / 8) * index; }
-    p.play().catch(function(){});
-    document.getElementById('player-ep3').scrollIntoView({behavior:'smooth',block:'center'});
-    document.querySelectorAll('[data-chap-ep3]').forEach(function(el) {
-        var match = parseInt(el.getAttribute('data-chap-ep3'),10) === index;
-        el.style.background = match ? 'rgba(201,138,16,0.1)' : '';
-        el.style.borderColor = match ? 'rgba(201,138,16,0.4)' : 'transparent';
-    });
-}
-</script>
-
-<!-- ══════════════════════════════════════
-     SUBMIT A TIP MODAL
-══════════════════════════════════════ -->
-<div id="sq-modal" class="sq-modal" onclick="sqModalBackdropClick(event)">
-    <div class="sq-card" role="dialog" aria-modal="true" aria-labelledby="sq-modal-title">
-
-        <!-- Header -->
-        <div class="sq-header">
-            <div>
-                <div class="sq-wordmark">SUNLIGHT<span style="color:#c98a10">.QUEST</span></div>
-                <div id="sq-modal-title" class="sq-tagline">Submit a Tip — Episode 03</div>
-            </div>
-            <button class="sq-close" onclick="closeTipModal()" aria-label="Close">✕</button>
-        </div>
-
-        <!-- Success state -->
-        <div id="sq-success-state" style="display:none; padding:2.5rem 2rem; text-align:center;">
-            <div style="font-size:2rem; margin-bottom:1rem; color:#c98a10;">✓</div>
-            <div style="font-family:'Space Grotesk',sans-serif; font-size:1.1rem; color:#f5ead4; margin-bottom:0.5rem;">Tip Received</div>
-            <div style="font-size:0.75rem; color:#f5ead4; opacity:0.55; line-height:1.6;">Thank you. Your submission has been logged securely. If you provided contact details, we may follow up.</div>
-            <button onclick="closeTipModal()" style="margin-top:1.5rem; background:#c98a10; color:#fff; border:none; border-radius:6px; padding:0.6rem 1.6rem; font-size:0.78rem; letter-spacing:0.1em; cursor:pointer; text-transform:uppercase;">Close</button>
-        </div>
-
-        <!-- Form -->
-        <div id="sq-form-body">
-
-            <!-- Section 1: Subject -->
-            <div class="sq-section">
-                <div class="sq-section-label">01 — Subject</div>
-                <div style="margin-bottom:0.75rem;">
-                    <label class="sq-label" for="sq-subject">Who is this tip about?</label>
-                    <select id="sq-subject" class="sq-input">
-                        <option value="">— Select a subject —</option>
-                        <option value="Tursa Employment & Training">Tursa Employment &amp; Training</option>
-                        <option value="Luke Krauss">Luke Krauss</option>
-                        <option value="Bemarine Yamsuan">Bemarine Yamsuan</option>
-                        <option value="Tassie">Tassie (YHA Murwillumbah)</option>
-                        <option value="Martin">Martin (Broadbeach)</option>
-                        <option value="Raz">Raz</option>
-                        <option value="Rochelle">Rochelle</option>
-                        <option value="NSW Police">NSW Police</option>
-                        <option value="other">Other / Multiple</option>
-                    </select>
-                </div>
-                <div id="sq-subject-other-wrap" style="display:none; margin-bottom:0.75rem;">
-                    <label class="sq-label" for="sq-subject-other">Please specify</label>
-                    <input id="sq-subject-other" class="sq-input" type="text" placeholder="Name or description">
-                </div>
-                <div>
-                    <label class="sq-label" for="sq-summary">Summary of what you know <span style="color:#c1440e">*</span></label>
-                    <textarea id="sq-summary" class="sq-input" rows="4" placeholder="Describe what you witnessed, know, or have heard. Be as specific as possible — dates, locations, amounts, names."></textarea>
-                </div>
-            </div>
-
-            <!-- Section 2: Evidence -->
-            <div class="sq-section">
-                <div class="sq-collapsible" onclick="sqToggle('sq-evidence-body', this)">
-                    <span>02 — Evidence <span style="font-size:0.62rem; opacity:0.4; font-weight:400;">(optional)</span></span>
-                    <span class="sq-toggle-icon">＋</span>
-                </div>
-                <div id="sq-evidence-body" style="display:none; padding-top:0.75rem;">
-                    <div style="margin-bottom:0.75rem;">
-                        <label class="sq-label">Evidence type</label>
-                        <div style="display:flex; flex-wrap:wrap; gap:0.5rem;">
-                            <label class="sq-pill"><input type="radio" name="sq-evidence-type" value="documents"> Documents</label>
-                            <label class="sq-pill"><input type="radio" name="sq-evidence-type" value="photos"> Photos / Video</label>
-                            <label class="sq-pill"><input type="radio" name="sq-evidence-type" value="recordings"> Recordings</label>
-                            <label class="sq-pill"><input type="radio" name="sq-evidence-type" value="financial"> Financial records</label>
-                            <label class="sq-pill"><input type="radio" name="sq-evidence-type" value="correspondence"> Correspondence</label>
-                            <label class="sq-pill"><input type="radio" name="sq-evidence-type" value="other"> Other</label>
-                        </div>
-                    </div>
-                    <div style="margin-bottom:0.75rem;">
-                        <label class="sq-label" for="sq-drive-link">Shared drive link (Google Drive, Dropbox, etc.)</label>
-                        <input id="sq-drive-link" class="sq-input" type="url" placeholder="https://drive.google.com/...">
-                    </div>
-                    <div style="margin-bottom:0.75rem;">
-                        <label class="sq-label" for="sq-direct-url">Direct URL to file or page</label>
-                        <input id="sq-direct-url" class="sq-input" type="url" placeholder="https://...">
-                    </div>
-                    <div>
-                        <label class="sq-label" for="sq-evidence-desc">Describe the evidence</label>
-                        <textarea id="sq-evidence-desc" class="sq-input" rows="3" placeholder="What does the evidence show? How did you obtain it?"></textarea>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Section 3: Physical pickup -->
-            <div class="sq-section">
-                <div class="sq-collapsible" onclick="sqToggle('sq-pickup-body', this)">
-                    <span>03 — Physical Pickup <span style="font-size:0.62rem; opacity:0.4; font-weight:400;">(optional)</span></span>
-                    <span class="sq-toggle-icon">＋</span>
-                </div>
-                <div id="sq-pickup-body" style="display:none; padding-top:0.75rem;">
-                    <div class="sq-toggle-row" style="margin-bottom:0.75rem;">
-                        <span class="sq-label" style="margin-bottom:0;">I have physical documents that need to be collected</span>
-                        <button id="sq-pickup-toggle" class="sq-toggle" onclick="sqTogglePickup()" aria-pressed="false">OFF</button>
-                    </div>
-                    <div id="sq-pickup-details" style="display:none;">
-                        <div style="margin-bottom:0.75rem;">
-                            <label class="sq-label" for="sq-pickup-suburb">Your suburb / area</label>
-                            <input id="sq-pickup-suburb" class="sq-input" type="text" placeholder="e.g. Murwillumbah, Gold Coast">
-                        </div>
-                        <div style="margin-bottom:0.75rem;">
-                            <label class="sq-label" for="sq-pickup-timing">Best time for pickup</label>
-                            <input id="sq-pickup-timing" class="sq-input" type="text" placeholder="e.g. weekday mornings, any time">
-                        </div>
-                        <div>
-                            <label class="sq-label" for="sq-pickup-notes">Additional notes</label>
-                            <textarea id="sq-pickup-notes" class="sq-input" rows="2" placeholder="Any special instructions or access requirements"></textarea>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Section 4: Background -->
-            <div class="sq-section">
-                <div class="sq-collapsible" onclick="sqToggle('sq-background-body', this)">
-                    <span>04 — Your Background <span style="font-size:0.62rem; opacity:0.4; font-weight:400;">(optional)</span></span>
-                    <span class="sq-toggle-icon">＋</span>
-                </div>
-                <div id="sq-background-body" style="display:none; padding-top:0.75rem;">
-                    <div style="margin-bottom:0.75rem;">
-                        <label class="sq-label">Your relation to the subject</label>
-                        <select id="sq-relation" class="sq-input">
-                            <option value="">— Prefer not to say —</option>
-                            <option value="former_associate">Former associate / colleague</option>
-                            <option value="neighbour">Neighbour</option>
-                            <option value="family">Family member</option>
-                            <option value="victim">Direct victim</option>
-                            <option value="witness">Witness</option>
-                            <option value="professional">Professional (legal, financial, medical)</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-                    <div class="sq-toggle-row" style="margin-bottom:0.75rem;">
-                        <span class="sq-label" style="margin-bottom:0;">Others can corroborate what I know</span>
-                        <button id="sq-corroboration-toggle" class="sq-toggle" onclick="sqToggle2('sq-corroboration-toggle')" aria-pressed="false">NO</button>
-                    </div>
-                    <div class="sq-toggle-row" style="margin-bottom:0.75rem;">
-                        <span class="sq-label" style="margin-bottom:0;">I have reported this to police or another authority</span>
-                        <button id="sq-reported-toggle" class="sq-toggle" onclick="sqToggle2('sq-reported-toggle')" aria-pressed="false">NO</button>
-                    </div>
-                    <div class="sq-toggle-row" style="margin-bottom:0;">
-                        <span class="sq-label" style="margin-bottom:0;">I have safety concerns about submitting this</span>
-                        <button id="sq-safety-toggle" class="sq-toggle" onclick="sqToggle2('sq-safety-toggle')" aria-pressed="false">NO</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Section 5: Contact -->
-            <div class="sq-section" style="border-bottom:none; margin-bottom:0; padding-bottom:0;">
-                <div class="sq-toggle-row" style="margin-bottom:1rem;">
-                    <div>
-                        <div class="sq-section-label" style="margin-bottom:0.15rem;">05 — Contact Details</div>
-                        <div style="font-size:0.65rem; color:#f5ead4; opacity:0.4;">Leave blank to submit anonymously</div>
-                    </div>
-                    <button id="sq-anon-toggle" class="sq-toggle" onclick="sqToggleAnon()" aria-pressed="true" style="background:#c98a10; color:#fff; border-color:#c98a10;">ANON</button>
-                </div>
-                <div id="sq-contact-fields" style="display:none;">
-                    <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.65rem; margin-bottom:0.65rem;">
-                        <div>
-                            <label class="sq-label" for="sq-contact-name">Name</label>
-                            <input id="sq-contact-name" class="sq-input" type="text" placeholder="Your name">
-                        </div>
-                        <div>
-                            <label class="sq-label" for="sq-contact-phone">Phone</label>
-                            <input id="sq-contact-phone" class="sq-input" type="tel" placeholder="0400 000 000">
-                        </div>
-                    </div>
-                    <div style="margin-bottom:0.65rem;">
-                        <label class="sq-label" for="sq-contact-email">Email</label>
-                        <input id="sq-contact-email" class="sq-input" type="email" placeholder="your@email.com">
-                    </div>
-                    <div style="margin-bottom:0.65rem;">
-                        <label class="sq-label">Preferred contact method</label>
-                        <div style="display:flex; flex-wrap:wrap; gap:0.5rem;">
-                            <label class="sq-pill"><input type="radio" name="sq-contact-pref" value="email"> Email</label>
-                            <label class="sq-pill"><input type="radio" name="sq-contact-pref" value="phone"> Phone</label>
-                            <label class="sq-pill"><input type="radio" name="sq-contact-pref" value="signal"> Signal</label>
-                            <label class="sq-pill"><input type="radio" name="sq-contact-pref" value="no_followup"> No follow-up</label>
-                        </div>
-                    </div>
-                    <div>
-                        <label class="sq-label" for="sq-contact-notes">Notes on how to reach you safely</label>
-                        <textarea id="sq-contact-notes" class="sq-input" rows="2" placeholder="e.g. Only call before 9am, use Signal not SMS"></textarea>
-                    </div>
-                </div>
-            </div>
-
-        </div><!-- /#sq-form-body -->
-
-        <!-- Footer / Submit -->
-        <div class="sq-footer" id="sq-form-footer">
-            <div style="font-size:0.6rem; color:#f5ead4; opacity:0.35; line-height:1.5; max-width:340px;">All submissions are encrypted and handled confidentially. Anonymous tips are accepted. We do not share sources.</div>
-            <button id="sq-submit-btn" onclick="sqSubmitEp3()" style="background:#c98a10; color:#fff; border:none; border-radius:6px; padding:0.65rem 1.8rem; font-size:0.75rem; letter-spacing:0.12em; text-transform:uppercase; cursor:pointer; font-family:'Space Grotesk',sans-serif; font-weight:600; white-space:nowrap;">SUBMIT TIP</button>
-        </div>
-        <div id="sq-error-msg" style="display:none; background:rgba(193,68,14,0.12); border:1px solid rgba(193,68,14,0.3); border-radius:6px; padding:0.6rem 0.85rem; margin-top:0.75rem; font-size:0.7rem; color:#c1440e;"></div>
-
-    </div><!-- /.sq-card -->
-</div><!-- /#sq-modal -->
-
-<script>
-function openTipModal(){
-    document.getElementById('sq-modal').classList.add('open');
-    document.body.style.overflow='hidden';
-}
-function closeTipModal(){
-    document.getElementById('sq-modal').classList.remove('open');
-    document.body.style.overflow='';
-}
-function sqModalBackdropClick(e){
-    if(e.target===document.getElementById('sq-modal')) closeTipModal();
-}
-function sqToggle(id, btn){
-    var el=document.getElementById(id);
-    var icon=btn?btn.querySelector('.sq-toggle-icon'):null;
-    if(el.style.display==='none'){
-        el.style.display='block';
-        if(icon) icon.textContent='－';
-    } else {
-        el.style.display='none';
-        if(icon) icon.textContent='＋';
-    }
-}
-function sqToggle2(btnId){
-    var btn=document.getElementById(btnId);
-    var active=btn.getAttribute('aria-pressed')==='true';
-    btn.setAttribute('aria-pressed',String(!active));
-    btn.textContent=active?'NO':'YES';
-    btn.style.background=active?'':'#c98a10';
-    btn.style.color=active?'':'#fff';
-    btn.style.borderColor=active?'':'#c98a10';
-}
-function sqTogglePickup(){
-    var btn=document.getElementById('sq-pickup-toggle');
-    var active=btn.getAttribute('aria-pressed')==='true';
-    btn.setAttribute('aria-pressed',String(!active));
-    btn.textContent=active?'OFF':'ON';
-    btn.style.background=active?'':'#c98a10';
-    btn.style.color=active?'':'#fff';
-    btn.style.borderColor=active?'':'#c98a10';
-    document.getElementById('sq-pickup-details').style.display=active?'none':'block';
-}
-function sqToggleAnon(){
-    var btn=document.getElementById('sq-anon-toggle');
-    var active=btn.getAttribute('aria-pressed')==='true';
-    btn.setAttribute('aria-pressed',String(!active));
-    btn.textContent=active?'NAMED':'ANON';
-    if(!active){btn.style.background='#c98a10';btn.style.color='#fff';btn.style.borderColor='#c98a10';}
-    else{btn.style.background='rgba(245,234,212,0.06)';btn.style.color='rgba(245,234,212,0.35)';btn.style.borderColor='rgba(245,234,212,0.12)';}
-    document.getElementById('sq-contact-fields').style.display=active?'block':'none';
-}
-document.getElementById('sq-subject').addEventListener('change',function(){
-    document.getElementById('sq-subject-other-wrap').style.display=this.value==='other'?'block':'none';
-});
-async function sqSubmitEp3(){
-    var summary=(document.getElementById('sq-summary').value||'').trim();
-    if(!summary){
-        var em=document.getElementById('sq-error-msg');
-        em.textContent='Please provide a summary of what you know.';
-        em.style.display='block';
-        return;
-    }
-    document.getElementById('sq-error-msg').style.display='none';
-    var btn=document.getElementById('sq-submit-btn');
-    btn.disabled=true;
-    btn.textContent='SENDING...';
-    var isAnon=document.getElementById('sq-anon-toggle').getAttribute('aria-pressed')==='true';
-    var evType='';
-    var evRadio=document.querySelector('input[name="sq-evidence-type"]:checked');
-    if(evRadio) evType=evRadio.value;
-    var contactPref='';
-    var cpRadio=document.querySelector('input[name="sq-contact-pref"]:checked');
-    if(cpRadio) contactPref=cpRadio.value;
-    var payload={
-        subject: document.getElementById('sq-subject').value||'',
-        subject_other: document.getElementById('sq-subject-other').value||'',
-        summary: summary,
-        evidence_type: evType,
-        drive_link: document.getElementById('sq-drive-link').value||'',
-        direct_url: document.getElementById('sq-direct-url').value||'',
-        evidence_desc: document.getElementById('sq-evidence-desc').value||'',
-        wants_pickup: document.getElementById('sq-pickup-toggle').getAttribute('aria-pressed')==='true',
-        pickup_suburb: document.getElementById('sq-pickup-suburb').value||'',
-        pickup_timing: document.getElementById('sq-pickup-timing').value||'',
-        pickup_notes: document.getElementById('sq-pickup-notes').value||'',
-        relation_to_subject: document.getElementById('sq-relation').value||'',
-        has_corroboration: document.getElementById('sq-corroboration-toggle').getAttribute('aria-pressed')==='true',
-        reported_before: document.getElementById('sq-reported-toggle').getAttribute('aria-pressed')==='true',
-        safety_concern: document.getElementById('sq-safety-toggle').getAttribute('aria-pressed')==='true',
-        consents_publish: true,
-        is_anonymous: isAnon,
-        contact_name: isAnon?'':(document.getElementById('sq-contact-name').value||''),
-        contact_phone: isAnon?'':(document.getElementById('sq-contact-phone').value||''),
-        contact_email: isAnon?'':(document.getElementById('sq-contact-email').value||''),
-        contact_pref: isAnon?'':contactPref,
-        contact_notes: isAnon?'':(document.getElementById('sq-contact-notes').value||''),
-    };
-    try {
-        var res=await fetch('/api/tips',{
-            method:'POST',
-            headers:{'Content-Type':'application/json','Accept':'application/json'},
-            body:JSON.stringify(payload)
-        });
-        var data=await res.json();
-        if(res.ok && data.success){
-            document.getElementById('sq-form-body').style.display='none';
-            document.getElementById('sq-form-footer').style.display='none';
-            document.getElementById('sq-success-state').style.display='block';
-        } else {
-            var msg=(data&&data.message)?data.message:'Submission failed. Please try again.';
-            var em=document.getElementById('sq-error-msg');
-            em.textContent=msg;
-            em.style.display='block';
-            btn.disabled=false;
-            btn.textContent='SUBMIT TIP';
-        }
-    } catch(err) {
-        var em=document.getElementById('sq-error-msg');
-        em.textContent='Network error. Please check your connection and try again.';
-        em.style.display='block';
-        btn.disabled=false;
-        btn.textContent='SUBMIT TIP';
-    }
-}
 </script>
 </body>
 </html>

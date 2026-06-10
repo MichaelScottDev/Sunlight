@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Sunlight.Quest — Episode 2: The Network</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdn.vidstack.io/player/theme.css">
-    <link rel="stylesheet" href="https://cdn.vidstack.io/player/video.css">
-    <script src="https://cdn.vidstack.io/player" type="module"></script>
     <script>
         tailwind.config = {
             theme: {
@@ -150,54 +147,6 @@
         .nav-dropdown-menu a.nav-accent-gold:hover{color:#c98a10}
         .nav-dropdown-menu a.nav-accent-violet:hover{color:#7c6aaa}
         .nav-dropdown-menu a.nav-accent-sage:hover{color:#3d7a4a}
-
-        /* ── TIP MODAL ── */
-        #sq-modal{display:none;position:fixed;inset:0;z-index:500;background:rgba(0,0,0,0.92);backdrop-filter:blur(6px);overflow-y:auto;padding:24px 16px 56px}
-        #sq-modal.open{display:block}
-        .sq-modal-inner{max-width:680px;margin:0 auto;position:relative}
-        .sq-modal-close-row{display:flex;justify-content:flex-end;margin-bottom:12px}
-        .sq-modal-close-btn{background:#111;border:1px solid #2a2a2a;color:rgba(245,234,212,0.4);font-family:'DM Mono',monospace;font-size:11px;letter-spacing:1px;padding:7px 16px;cursor:pointer;transition:color 0.13s,border-color 0.13s}
-        .sq-modal-close-btn:hover{color:rgba(245,234,212,0.85);border-color:#555}
-        .sq-logo-row{display:flex;align-items:center;gap:14px;margin-bottom:4px}
-        .sq-logo-bar{width:3px;height:36px;background:linear-gradient(180deg,#7c6aaa,#c1440e)}
-        .sq-logo-text{font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:3px;color:#f5ead4}
-        .sq-logo-sub{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(245,234,212,0.25);margin-top:2px}
-        .sq-conf-strip{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:rgba(124,106,170,0.6);border:1px solid rgba(124,106,170,0.15);padding:5px 10px;margin-bottom:14px;background:rgba(124,106,170,0.04)}
-        .sq-card{background:#0f0f0f;border:1px solid #1e1e1e;padding:22px 24px;margin-bottom:2px}
-        .sq-section{margin-bottom:20px}
-        .sq-section-label{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:rgba(245,234,212,0.3);margin-bottom:10px;display:flex;align-items:center;gap:8px}
-        .sq-badge{font-size:8px;letter-spacing:1px;padding:2px 6px;border-radius:2px}
-        .sq-badge-req{background:rgba(193,68,14,0.2);color:#c1440e;border:1px solid rgba(193,68,14,0.3)}
-        .sq-badge-opt{background:rgba(245,234,212,0.06);color:rgba(245,234,212,0.3);border:1px solid rgba(245,234,212,0.1)}
-        .sq-field{margin-bottom:8px}
-        .sq-field-hint{font-size:9px;letter-spacing:0.5px;color:rgba(245,234,212,0.2);margin-top:4px}
-        .sq-input,.sq-textarea,.sq-select{width:100%;background:rgba(245,234,212,0.03);border:1px solid rgba(245,234,212,0.1);color:#f5ead4;font-family:'DM Mono',monospace;font-size:12px;padding:9px 12px;outline:none;transition:border-color 0.15s;box-sizing:border-box}
-        .sq-input:focus,.sq-textarea:focus,.sq-select:focus{border-color:rgba(124,106,170,0.5)}
-        .sq-input.sq-error,.sq-textarea.sq-error{border-color:#c1440e}
-        .sq-textarea{resize:vertical;min-height:80px}
-        .sq-select{appearance:none;cursor:pointer}
-        .sq-select option,.sq-select optgroup{background:#111;color:#f5ead4}
-        .sq-header{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding-bottom:16px;border-bottom:1px solid #1e1e1e;margin-bottom:20px}
-        .sq-wordmark{font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:3px;color:#f5ead4;line-height:1}
-        .sq-tagline{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:rgba(124,106,170,0.7);margin-top:4px}
-        .sq-close{background:none;border:1px solid rgba(245,234,212,0.1);color:rgba(245,234,212,0.35);width:28px;height:28px;cursor:pointer;font-size:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:border-color 0.13s,color 0.13s}
-        .sq-close:hover{border-color:rgba(245,234,212,0.35);color:rgba(245,234,212,0.8)}
-        .sq-label{display:block;font-size:9.5px;letter-spacing:1.2px;text-transform:uppercase;color:rgba(245,234,212,0.4);margin-bottom:6px}
-        .sq-toggle-row{display:flex;align-items:center;justify-content:space-between;gap:10px}
-        .sq-toggle{background:rgba(245,234,212,0.06);border:1px solid rgba(245,234,212,0.12);color:rgba(245,234,212,0.35);font-family:'DM Mono',monospace;font-size:9px;letter-spacing:1.5px;padding:4px 10px;cursor:pointer;border-radius:3px;transition:background 0.13s,color 0.13s,border-color 0.13s;white-space:nowrap;flex-shrink:0}
-        .sq-collapsible{display:flex;align-items:center;justify-content:space-between;cursor:pointer;font-size:10px;letter-spacing:1.8px;text-transform:uppercase;color:rgba(245,234,212,0.5);padding:10px 0;border-top:1px solid #1e1e1e;user-select:none}
-        .sq-collapsible:hover{color:rgba(245,234,212,0.75)}
-        .sq-toggle-icon{font-size:14px;color:rgba(124,106,170,0.7)}
-        .sq-pill{display:inline-flex;align-items:center;gap:5px;font-size:10px;color:rgba(245,234,212,0.45);cursor:pointer;padding:4px 9px;border:1px solid rgba(245,234,212,0.1);border-radius:3px;transition:border-color 0.12s,color 0.12s}
-        .sq-pill input{accent-color:#7c6aaa;cursor:pointer}
-        .sq-pill:hover{border-color:rgba(124,106,170,0.4);color:rgba(245,234,212,0.7)}
-        .sq-footer{border-top:2px solid #7c6aaa;padding:16px 0 4px;display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:20px}
-        .sq-grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-        .sq-divider{border:none;border-top:1px solid #1e1e1e;margin:18px 0}
-        #sq-submit-btn:hover{background:#5d4f82 !important}
-        #sq-submit-btn:active{transform:scale(0.97)}
-        #sq-submit-btn:disabled{opacity:0.5;cursor:not-allowed}
-        @media(max-width:520px){.sq-grid2{grid-template-columns:1fr}.sq-footer{flex-direction:column;align-items:stretch}}
     </style>
 </head>
 <body class="bg-ink text-paper font-mono overflow-x-hidden" style="background-color:#0c0804;background-image:linear-gradient(160deg,rgba(139,60,14,0.07) 0%,transparent 40%,rgba(61,122,74,0.04) 100%)">
@@ -230,7 +179,7 @@
         <a href="#sms" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors">Subscribe</a>
         <a href="/" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-hot/50 px-3 py-1.5 transition-all">← Episode 1</a>
         <a href="/episode-3" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-gold/50 px-3 py-1.5 transition-all">Episode 3 →</a>
-        <button onclick="openTipModal()" class="hidden md:flex items-center gap-1.5 text-[0.55rem] tracking-[0.2em] uppercase border border-violet/50 hover:border-violet hover:bg-violet/10 px-3 py-1.5 transition-all" style="color:#7c6aaa;border-color:rgba(124,106,170,0.5)">⊕ Submit a Tip</button>
+        <button onclick="togglePanel()" class="flex items-center gap-2 border border-hot/50 hover:border-hot hover:bg-hot/10 px-3 py-2 transition-all text-[0.55rem] tracking-[0.15em] uppercase text-hot">☰ All Files</button>
         <span class="text-[0.52rem] tracking-[0.18em] uppercase border px-3 py-1.5" style="border-color:rgba(124,106,170,0.6);color:#7c6aaa">⬤ EP.02</span>
     </div>
 </nav>
@@ -338,17 +287,18 @@
             </div>
             <div class="fade-up" style="animation-delay:0.25s">
                 <div class="flex items-center gap-3 mb-2"><span class="text-[0.52rem] tracking-[0.2em] uppercase" style="color:rgba(124,106,170,0.6)">▶ Now Playing — Navigate via chapters below</span></div>
-                <media-player
-                    id="player-ep2"
-                    title="Gold Coast Uncovered — Episode 2: The Network"
-                    src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/rj_confront.mp4"
-                    style="--media-brand:#7c6aaa;--media-focus-ring-color:rgba(124,106,170,0.45);--media-time-chapters-bg:rgba(124,106,170,0.5);width:100%;border:1px solid rgba(124,106,170,0.2);box-shadow:0 0 80px rgba(124,106,170,0.09)"
-                >
-                    <media-provider>
-                        <track id="ep2-chapters-track" kind="chapters" default />
-                    </media-provider>
-                    <media-video-layout></media-video-layout>
-                </media-player>
+                <div id="player-ep2" class="w-full aspect-video border" style="border-color:rgba(124,106,170,0.2);box-shadow:0 0 80px rgba(124,106,170,0.09),0 0 0 1px rgba(245,234,212,0.025);background:#060606;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden">
+                    <div class="scanlines" style="position:absolute;inset:0;opacity:0.5"></div>
+                    <div style="text-align:center;position:relative;z-index:2">
+                        <div style="width:60px;height:60px;border:2px solid rgba(124,106,170,0.4);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto;transition:all 0.3s" onmouseover="this.style.borderColor='#7c6aaa';this.style.background='rgba(124,106,170,0.12)'" onmouseout="this.style.borderColor='rgba(124,106,170,0.4)';this.style.background='transparent'">
+                            <span style="color:rgba(124,106,170,0.5);font-size:1.2rem;margin-left:3px">▶</span>
+                        </div>
+                        <div style="margin-top:0.75rem;font-size:0.48rem;letter-spacing:0.18em;text-transform:uppercase;color:rgba(245,234,212,0.2);font-family:'DM Mono',monospace">Episode 2 — Video Pending Upload</div>
+                    </div>
+                    <div style="position:absolute;bottom:0.75rem;left:0;right:0;text-align:center">
+                        <div style="font-size:0.44rem;letter-spacing:0.15em;text-transform:uppercase;color:rgba(124,106,170,0.25);font-family:'DM Mono',monospace">sunlight.quest · season 1 · ep.02</div>
+                    </div>
+                </div>
             </div>
             <!-- Chapter nav below video -->
             <div class="fade-up mt-5 border border-paper/[0.07]" style="animation-delay:0.35s;background:rgba(12,8,4,0.7)">
@@ -398,13 +348,13 @@
             <div class="px-5 py-4 border-b border-paper/[0.06] flex-1 overflow-y-auto">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">Episode Chapters</div>
                 <div class="space-y-0.5">
-                    <div data-chap-ep2="0" onclick="seekToChapterEp2(0)" class="flex items-center gap-3 py-2.5 px-3 border border-transparent cursor-pointer transition-all group" onmouseover="this.style.background='rgba(124,106,170,0.05)';this.style.borderColor='rgba(124,106,170,0.2)'" onmouseout="this.style.background='';this.style.borderColor='transparent'"><span class="font-display text-sm w-5 shrink-0" style="color:#7c6aaa">01</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Adam's Story</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Coercive control & DPP</div></div><span class="text-[0.52rem] text-paper/18 shrink-0" style="color:rgba(124,106,170,0.4)">▶</span></div>
-                    <div data-chap-ep2="1" onclick="seekToChapterEp2(1)" class="flex items-center gap-3 py-2.5 px-3 border border-transparent cursor-pointer transition-all group" onmouseover="this.style.background='rgba(124,106,170,0.05)';this.style.borderColor='rgba(124,106,170,0.2)'" onmouseout="this.style.background='';this.style.borderColor='transparent'"><span class="font-display text-sm w-5 shrink-0" style="color:#7c6aaa">02</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Samira</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Registrar recording</div></div><span class="text-[0.52rem] text-paper/18 shrink-0" style="color:rgba(124,106,170,0.4)">▶</span></div>
-                    <div data-chap-ep2="2" onclick="seekToChapterEp2(2)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">03</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">RJ — 15 Incidents</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Sex & Crime Squad</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
-                    <div data-chap-ep2="3" onclick="seekToChapterEp2(3)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">04</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Brazen Crime</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Vehicle attack & arson</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
-                    <div data-chap-ep2="5" onclick="seekToChapterEp2(5)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-sage/5 border border-transparent hover:border-sage/20 cursor-pointer transition-all group"><span class="font-display text-sage text-sm w-5 shrink-0">06</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Redress Scheme</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Verification gap & fraud</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-sage transition-colors shrink-0">▶</span></div>
-                    <div data-chap-ep2="6" onclick="seekToChapterEp2(6)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-gold/5 border border-transparent hover:border-gold/20 cursor-pointer transition-all group"><span class="font-display text-gold text-sm w-5 shrink-0">07</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Kira & Kira</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Cocaine in, furniture out</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-gold transition-colors shrink-0">▶</span></div>
-                    <div data-chap-ep2="7" onclick="seekToChapterEp2(7)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">08</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Tasmania</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Strata litigation</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapterEp2(0)" class="flex items-center gap-3 py-2.5 px-3 border border-transparent cursor-pointer transition-all group" onmouseover="this.style.background='rgba(124,106,170,0.05)';this.style.borderColor='rgba(124,106,170,0.2)'" onmouseout="this.style.background='';this.style.borderColor='transparent'"><span class="font-display text-sm w-5 shrink-0" style="color:#7c6aaa">01</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Adam's Story</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Coercive control & DPP</div></div><span class="text-[0.52rem] text-paper/18 shrink-0" style="color:rgba(124,106,170,0.4)">▶</span></div>
+                    <div onclick="seekToChapterEp2(1)" class="flex items-center gap-3 py-2.5 px-3 border border-transparent cursor-pointer transition-all group" onmouseover="this.style.background='rgba(124,106,170,0.05)';this.style.borderColor='rgba(124,106,170,0.2)'" onmouseout="this.style.background='';this.style.borderColor='transparent'"><span class="font-display text-sm w-5 shrink-0" style="color:#7c6aaa">02</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Samira</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Registrar recording</div></div><span class="text-[0.52rem] text-paper/18 shrink-0" style="color:rgba(124,106,170,0.4)">▶</span></div>
+                    <div onclick="seekToChapterEp2(2)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">03</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">RJ — 15 Incidents</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Sex & Crime Squad</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapterEp2(3)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">04</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Brazen Crime</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Vehicle attack & arson</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapterEp2(5)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-sage/5 border border-transparent hover:border-sage/20 cursor-pointer transition-all group"><span class="font-display text-sage text-sm w-5 shrink-0">06</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Redress Scheme</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Verification gap & fraud</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-sage transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapterEp2(6)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-gold/5 border border-transparent hover:border-gold/20 cursor-pointer transition-all group"><span class="font-display text-gold text-sm w-5 shrink-0">07</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Kira & Kira</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Cocaine in, furniture out</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-gold transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapterEp2(7)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">08</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Tasmania</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Strata litigation</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
                 </div>
             </div>
             <div class="px-5 py-5">
@@ -488,61 +438,6 @@
                     </div>
                 </div>
 
-                <!-- Tracker chapter -->
-                <div class="story-chapter reveal mt-6 mb-6" style="border-left-color:rgba(124,106,170,0.6)">
-                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">Surveillance · Coercive Control</span></div>
-                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE PHONE. THE CAR.<br><span style="color:#7c6aaa">THE OPEN FUEL CAP.</span></h3>
-                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Coercive control does not require violence in every incident. It requires surveillance — the knowledge, or the suspicion, that you are always being watched. That is the mechanism. That is the point."</p>
-
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Two tracking methods were deployed by Bodie Chalmers against Adam Watson. One was digital. One was physical. Both are textbook instruments of coercive control.</p>
-
-                    <!-- iPhone tracker -->
-                    <div class="border-l-4 pl-5 mb-6" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
-                        <div class="text-[0.46rem] tracking-[0.22em] uppercase mb-2" style="color:#7c6aaa">Track 01 — iPhone Location Sharing</div>
-                        <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">APPLE SHARE MY LOCATION.<br><span style="color:#7c6aaa">WITHOUT ASKING.</span></h4>
-                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Bodie Chalmers obtained access to Adam Watson's iPhone location via Apple's Share My Location feature — without Adam's knowledge or consent. This was not a setting Adam configured. It was access that was enabled without him knowing it was there.</p>
-                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Adam only discovered it when he checked the Share My Location section of his iPhone and found Bodie's account listed as someone with access to his live location. When Adam pulled up the screen to show someone else — handing them the phone and opening the share location list — that person could see Bodie's account sitting there, and could see how frequently it had been checked. It was not occasional. The access had been regular and recent. Someone had been monitoring Adam's real-time location without his knowledge — and the phone records showed it.</p>
-                        <div class="border border-paper/[0.07] p-4 mt-3" style="background:rgba(0,0,0,0.3)">
-                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">What the Share My Location Screen Reveals</div>
-                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                                <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Every account that has been granted access to your location — including access you did not knowingly authorise</p></div>
-                                <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">When that account last checked your location — visible on the screen to anyone you hand the phone to</p></div>
-                                <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">A pattern of access — whether checks were sporadic or systematic, conducted at night, during movements</p></div>
-                                <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Confirmation the access was active and ongoing — not an old, forgotten permission, but something being used</p></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Physical tracker -->
-                    <div class="border-l-4 pl-5 mb-6" style="border-color:rgba(193,68,14,0.5);background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
-                        <div class="text-[0.46rem] tracking-[0.22em] uppercase mb-2 text-hot">Track 02 — Physical Tracker · Fuel Cap</div>
-                        <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">A TRACKER UNDER THE FUEL CAP.<br><span class="text-hot">EXCEPT HE LEFT THE CAP OPEN.</span></h4>
-                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">A physical tracking device was placed on Adam Watson's car, concealed under the fuel cap. The intention was that it would go unnoticed — a passive surveillance tool that would broadcast Adam's location without his knowledge, attached in a spot not checked in routine use.</p>
-                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Bodie left the fuel cap open.</p>
-                        <p class="text-[0.68rem] text-paper/45 leading-relaxed">The act of planting the device — conducted covertly, designed to be invisible — was immediately undone by leaving the fuel cap sitting open. An open fuel cap on a parked car is not a normal condition. It draws attention. It invites investigation. The tracker that was supposed to be invisible was instead flagged by the very act of placing it. The surveillance was discovered. The fuel cap was sitting open where Bodie had been.</p>
-                    </div>
-
-                    <!-- Coercive control framing -->
-                    <div class="border border-paper/[0.08] p-5" style="background:rgba(124,106,170,0.03)">
-                        <div class="text-[0.46rem] tracking-[0.22em] uppercase mb-3" style="color:#7c6aaa">Coercive Control — The Infrastructure of Power</div>
-                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Digital location surveillance and physical tracking devices are recognised instruments of coercive and controlling behaviour under Australian law. They are not incidental — they are the infrastructure. The purpose is not information. The purpose is power: the ability to know where someone is at all times, to appear when they do not expect it, to make them aware — or to keep them unaware — that their movements are being recorded.</p>
-                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4">
-                            <div class="border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.25)">
-                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">Mechanism</div>
-                                <div class="text-[0.6rem] text-paper/45 leading-relaxed">Continuous location surveillance removes the victim's ability to move freely without that movement being monitored and potentially used against them — whether they know it is happening or not</div>
-                            </div>
-                            <div class="border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.25)">
-                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">Chilling Effect</div>
-                                <div class="text-[0.6rem] text-paper/45 leading-relaxed">Once a person discovers surveillance, the harm is already done. The awareness that you were being tracked retroactively colours every movement made while it was active — every trip, every person you visited, every night you did not come home</div>
-                            </div>
-                            <div class="border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.25)">
-                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">NSW / QLD Law</div>
-                                <div class="text-[0.6rem] text-paper/45 leading-relaxed">Coercive control is a standalone criminal offence in NSW (2024) and Queensland (2023). Tracking a partner's location without consent is a specified example of coercive control behaviour under both frameworks</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <!-- Context: Adam was helping Bodie with armed burglary charges -->
                 <div class="border-l-4 pl-5 mt-6 mb-2" style="border-color:rgba(124,106,170,0.4);background:rgba(124,106,170,0.03);padding:1rem 1rem 1rem 1.25rem">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Context</div>
@@ -552,53 +447,6 @@
                         <div class="px-3 py-2 border border-t-0 border-paper/[0.06]" style="background:rgba(0,0,0,0.3)">
                             <span class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/30">Adam Watson · Holding Bodie Chalmers's aggravated burglary brief · The man he was helping with his court cases</span>
                         </div>
-                    </div>
-                </div>
-
-                <!-- The Baby German Shepherd -->
-                <div class="story-chapter reveal mt-6" style="border-left-color:rgba(124,106,170,0.4)">
-                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">The Dog · What Adam Wanted · What Bodie Did</span></div>
-                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">HE BOUGHT A BABY GERMAN SHEPHERD.<br><span style="color:#7c6aaa">HE WANTED A HOME. BODIE CAME AND PUNCHED HIM.</span></h3>
-                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Adam bought the dog as a companion. He wanted a relationship, a home, a life — with Bodie and the German Shepherd. Bodie came over and punched him in the same spot he'd hit him before. Then threatened to steal a car and blame it on Adam."</p>
-
-                    <!-- Dog photo -->
-                    <div class="reveal mb-6">
-                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/german_shepherd.jpg"
-                             alt="Baby German Shepherd — Adam Watson's dog"
-                             class="w-full border border-paper/[0.07]"
-                             style="max-height:520px;object-fit:contain;background:#0d0d0d"
-                             loading="lazy" />
-                        <div class="flex items-center justify-between px-3 py-2 border border-t-0 border-paper/[0.07]" style="background:rgba(124,106,170,0.06)">
-                            <span class="text-[0.45rem] tracking-[0.18em] uppercase" style="color:#7c6aaa">Baby German Shepherd · Adam Watson's companion</span>
-                            <span class="text-[0.45rem] tracking-[0.14em] uppercase text-paper/25">Eventually had to be given away</span>
-                        </div>
-                    </div>
-
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Adam Watson bought the baby German Shepherd as a companion. He wanted more than that: a relationship with Bodie Chalmers, a home they shared, a life that included the dog. That was what he was trying to build.</p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Bodie came to his home. He punched Adam Watson in the same spot he had punched him previously — a deliberate act, not a reaction. Then he made his threat: <em class="text-paper/70">"I'm going to steal a car and tell the cops it was because of you."</em> Bodie Chalmers, in the middle of an assault, was already framing how he would weaponise the police against the person he was hitting.</p>
-
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
-                        <div class="border p-4" style="border-color:rgba(124,106,170,0.25);background:rgba(124,106,170,0.04)">
-                            <div class="text-[0.44rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">What Adam Wanted</div>
-                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">A relationship. A home. A companion dog to share that life with Bodie Chalmers. He bought the German Shepherd with that in mind.</p>
-                        </div>
-                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
-                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">What Bodie Did</div>
-                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">Came to Adam's home. Punched him in the same location as a previous assault. Threatened to steal a car and blame it on Adam to bring police involvement.</p>
-                        </div>
-                    </div>
-
-                    <!-- Bodie's threat verbatim -->
-                    <div class="border-l-4 border-hot/50 pl-5 mb-5" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
-                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Bodie Chalmers — Direct Threat</div>
-                        <p class="text-[0.68rem] text-paper/60 leading-relaxed italic mb-2">"I'm going to steal a car and tell the cops it was because of you!"</p>
-                        <p class="text-[0.62rem] text-paper/40 leading-relaxed">Said during the assault. Planning to fabricate a criminal act and attribute it to Adam Watson — using the police as the instrument — while in the middle of punching him. This is the same pattern as the false sexual assault allegation: violence paired with a pre-planned false report.</p>
-                    </div>
-
-                    <!-- Outcome -->
-                    <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.12)">
-                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-paper/28 mb-2">Outcome</div>
-                        <p class="text-[0.62rem] text-paper/42 leading-relaxed">Adam Watson eventually had to give the German Shepherd away. The home he had wanted to build — with Bodie, with the dog — did not come to be. What he was left with was an assault, a threat, and the absence of the companion he had bought in the hope of something better.</p>
                     </div>
                 </div>
 
@@ -708,6 +556,67 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                <!-- NAB direct debit fraud -->
+                <div class="story-chapter reveal" style="border-left-color:rgba(193,68,14,0.5)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Bodie Chalmers — Banking Fraud</span>
+                        <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/20 border border-paper/10 px-2 py-0.5">NAB · Commonwealth Bank · AFP · Major Fraud Squad</span>
+                    </div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">HE SET UP A DIRECT DEBIT FROM ADAM'S ACCOUNT TO PAY HIS OWN RENT.<br><span class="text-hot">THE AFP IS NOW INVOLVED. THE MAJOR FRAUD SQUAD IS COMING.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Bodie Chalmers set up a direct debit from Adam Watson's NAB account to pay his landlord. Adam went into the branch to confront staff. NAB Group Security took it from there — referred to the AFP. Commonwealth Federal Prosecutions. Jail sentences. The landlord was a drug dealer in Bodie's network. All accounts closed. Major Fraud Squad is now investigating the source of the funds — everything will be seized."</p>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">While in the relationship with Adam Watson, Bodie Chalmers set up a direct debit from Adam's <strong class="text-paper/65">NAB bank account</strong> — without his knowledge or consent — to pay rent to his own landlord. Adam discovered the transaction, went directly into a NAB branch, and confronted staff about why an unauthorised direct debit was leaving his account. The branch escalated the matter internally.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">NAB Group Security subsequently contacted Adam directly. The matter was treated with a seriousness that went well beyond the cancellation of a direct debit: it has been <strong class="text-paper/65">referred to the Australian Federal Police</strong>. NAB Group Security advised Adam that cases of this nature — the fraudulent setup of direct debits from victim accounts — are now being referred to <strong class="text-paper/65">Commonwealth Federal Prosecutions</strong>, and those prosecutions are resulting in <strong class="text-paper/65">tough custodial sentences</strong>. This is not a civil recovery matter. It is a criminal one.</p>
+
+                    <!-- The landlord connection -->
+                    <div class="border border-hot/25 p-5 mb-5" style="background:rgba(193,68,14,0.05)">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">The Landlord — Inside Bodie's Network</div>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The landlord to whom Bodie Chalmers was directing Adam's money was not a neutral third party. He was inside Bodie Chalmers's criminal network. He is a <strong class="text-paper/65">drug dealer</strong>. The direct debit was not merely an unauthorised redirection of rent — it was a payment flowing from a victim's account into a drug dealer's accounts through an intermediary who had obtained access to those accounts by deception.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">When the matter was raised with NAB Group Security and the AFP, the landlord's multiple accounts were investigated. Those accounts have now been closed. The closure extended beyond the direct recipient: the financial institutions identified and acted on the network connections.</p>
+                    </div>
+
+                    <!-- How the banks responded -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-5">
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">What Bodie Did</div>
+                            <div class="space-y-1.5">
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Set up direct debit from Adam Watson's NAB account</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Directed to his own landlord — a drug dealer in his network</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">No authorisation sought or given</p></div>
+                            </div>
+                        </div>
+                        <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-2">The Banking Response</div>
+                            <div class="space-y-1.5">
+                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Adam confronted NAB branch staff directly</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">NAB Group Security escalated — referred to AFP</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">NAB confirmed: contacted CBA Group Security — Bodie's accounts closed</p></div>
+                            </div>
+                        </div>
+                        <div class="border border-sage/20 p-4" style="background:rgba(61,122,74,0.03)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-sage mb-2">Where It Is Now</div>
+                            <div class="space-y-1.5">
+                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Referred to AFP — Commonwealth Federal Prosecutions</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Landlord's accounts closed — drug dealing network flagged</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Major Fraud Squad: investigating source of funds — seizure pending</p></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Big Three banks / Major Fraud Squad -->
+                    <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.03)">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-3">How the Big Three Banks Operate — Criminal Network Closure</div>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Australia's major banks — NAB, Commonwealth Bank, and Westpac — operate Group Security functions that communicate directly with each other when criminal conduct is identified. This is not a public-facing process. When one major bank's Group Security identifies a fraud or criminal network pattern, they contact their counterparts at the other institutions. The result is the coordinated closure of accounts across the network — not just the account that was immediately identified.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">In this case, NAB Group Security confirmed to Adam Watson that they had contacted <strong class="text-paper/65">Commonwealth Bank Group Security</strong>. Bodie Chalmers's Commonwealth Bank accounts have been closed. He cannot access his money. The same process extended to the landlord's accounts — multiple accounts, across more than one institution, connected to a drug-dealing network, have been closed as a consequence of a single reported direct debit fraud.</p>
+                    </div>
+
+                    <div class="border border-hot/30 px-5 py-4" style="background:rgba(193,68,14,0.06)">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Major Fraud Squad — Source of Funds Investigation</div>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The Major Fraud Squad has been brought in to investigate the source of the funds moving through Bodie Chalmers's accounts and those of his landlord. This is not a routine financial crimes review. The Fraud Squad's involvement at this level — looking at the provenance of the money, not just the mechanics of the direct debit — signals that the investigation has expanded well beyond the initial unauthorised transaction.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">The outcome anticipated is seizure: all funds whose source cannot be legitimately accounted for will be confiscated. For a person whose landlord is a drug dealer, and whose own criminal history includes aggravated burglary and participation in an organised car theft ring, the question of where the money in those accounts came from is not an abstract one. The Fraud Squad will answer it. And when they do, the assets follow.</p>
                     </div>
                 </div>
 
@@ -852,78 +761,9 @@
                                 <div class="text-[0.45rem] tracking-[0.2em] uppercase text-gold mb-2">Emma Jennings — Total Property Group &nbsp;·&nbsp; Jewel Apartments &nbsp;·&nbsp; On the Laptop Screen</div>
                                 <p class="text-[0.62rem] text-paper/45 leading-relaxed">The old website version visible on the laptop screen in this photograph includes content referencing <strong class="text-paper/65">Emma Jennings</strong> of <strong class="text-paper/65">Total Property Group</strong> — the real estate agency that handles sales of the <strong class="text-paper/65">Jewel Apartments</strong>. Hancock Prospecting sent a cease and desist letter to Emma Jennings after her persistent pestering in connection with those apartments. Emma Jennings was also involved with Bodie Chalmers in a scam against Adam Watson — a connection that was documented in the old version of this publication and is part of the broader pattern of conduct recorded here.</p>
                             </div>
-                            <div class="border border-sage/25 p-4" style="background:rgba(61,122,74,0.05)">
-                                <div class="text-[0.45rem] tracking-[0.2em] uppercase text-sage mb-2">Update — The Original Website Has Now Been Obtained</div>
-                                <p class="text-[0.62rem] text-paper/45 leading-relaxed">The original version of this publication — the one left at the crime scene — has now been obtained. A screenshot capture of the full site as it existed before it went offline is published in full below. This is the website that triggered Bodie Chalmers after his associates began teasing him about the section titled <em class="text-paper/65">"The Loverboy That Claims He Was Touched."</em> Pages from this version were subsequently left at Adam Watson's mother's house — the home that was firebombed.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- The original website — full PDF embed -->
-                <div class="story-chapter reveal mt-8 mb-8" style="border-left-color:rgba(193,68,14,0.5)">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#c1440e;border-color:rgba(193,68,14,0.4)">The Original Publication · "R J! Let There Be Light" · Full Screenshot Capture · August 2025</span>
-                    </div>
-                    <h3 class="font-display text-2xl tracking-wide mb-3 leading-tight">THE WEBSITE THAT TRIGGERED BODIE CHALMERS.<br><span class="text-hot">LEFT AT ADAM'S MOTHER'S FIREBOMBED HOUSE.</span></h3>
-
-                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">This is the original publication — a predecessor to Sunlight.Quest — that circulated online before going offline. After its contents became widely known in Bodie Chalmers's social circle, his associates began teasing him about the section titled <strong class="text-paper/65">"Bodie Chalmers — The Loverboy That Claims He Was Touched."</strong> Bodie became so enraged by the ridicule that he organised the firebombing of Adam Watson's mother's house. Pages from this website were left at the crime scene by the perpetrators — a deliberate act designed to establish a link between this journalism and the violence.</p>
-
-                    <!-- What the site actually contained -->
-                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
-                        <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.15)">
-                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">The Trigger</div>
-                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">The section titled <em>"The Loverboy That Claims He Was Touched"</em> documented Bodie Chalmers's pattern of false touching allegations. His associates teased him relentlessly about it. The ridicule drove the retaliation.</p>
-                        </div>
-                        <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.15)">
-                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-2">The Irony</div>
-                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">Bodie Chalmers's response to being documented was to commit arson. The perpetrators then left the very pages that upset him at the crime scene — compounding the evidence trail rather than erasing it.</p>
-                        </div>
-                        <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.15)">
-                            <div class="text-[0.44rem] tracking-[0.18em] uppercase" style="color:#7c6aaa">The Publication</div>
-                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">The site covered RJ (police informant), Aaron Barker (QPS), Marc Barrow (QPS), Bodie Chalmers, Lauren Forbes (Sky News), and structural failures in QLD Police and the Gold Coast Council homeless response.</p>
-                        </div>
-                    </div>
-
-                    <!-- Callout: specific Bodie section -->
-                    <div class="border-l-4 pl-5 mb-6" style="border-color:#c1440e;background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
-                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-2">The Section That Set Him Off</div>
-                        <p class="font-display text-xl tracking-wide leading-tight mb-2">BODIE CHALMERS — THE LOVERBOY THAT CLAIMS HE WAS TOUCHED</p>
-                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">Published under the subheading <em>"Scheming, Inbred Closeted Plastic Gangster of the Gold Coast."</em> The section documented: armed burglary charges, DV assaults on Adam Watson, the failed lie detector test (1/100 — "Deceptive"), card fraud ($27,000 scammed from Adam), the false sexual assault allegation, the birth certificate setup trap, the knife plan intercepted by police, ASIC fraud (added himself as 50% shareholder via forged signature), and "That Toilet Video" sent to Hancock Prospecting. All documented. All now confirmed.</p>
-                    </div>
-
-                    <!-- Full PDF embed -->
-                    <div class="border border-paper/[0.07] overflow-hidden mb-5" style="background:rgba(0,0,0,0.2)">
-                        <div class="flex items-center justify-between px-4 py-2.5 border-b border-paper/[0.06]" style="background:rgba(0,0,0,0.3)">
-                            <span class="text-[0.44rem] tracking-[0.2em] uppercase text-hot">Original Publication · Full Screenshot · "R J! Let There Be Light — Episode #1" · August 2025</span>
-                            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/screencapture-sunlight-quest-test-2025-08-09-13_00_06-compressed.pdf"
-                               target="_blank" rel="noopener"
-                               class="text-[0.44rem] tracking-[0.12em] uppercase border border-paper/20 text-paper/35 px-2 py-1 hover:border-hot/50 hover:text-hot transition-colors">
-                                Open PDF ↗
-                            </a>
-                        </div>
-                        <div style="height:780px">
-                            <iframe
-                                src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/screencapture-sunlight-quest-test-2025-08-09-13_00_06-compressed.pdf"
-                                style="width:100%;height:100%;border:none;display:block"
-                                title="Original publication — R J! Let There Be Light Episode 1 — Kosta Kondratenko"
-                                loading="lazy">
-                            </iframe>
-                        </div>
-                        <div class="px-4 py-3 border-t border-paper/[0.05]" style="background:rgba(0,0,0,0.2)">
-                            <span class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/22">PDF · Screenshot capture · Original publication · August 2025 · 28 pages · This is the document left at the firebombing crime scene at Adam Watson's mother's home</span>
-                        </div>
-                    </div>
-
-                    <!-- Evidence vault entry -->
-                    <div class="evidence-vault border border-paper/[0.07] p-5" style="background:rgba(0,0,0,0.15)">
-                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-4">Evidence — Original Publication</div>
-                        <div class="ev-file ef-hot" onclick="openMV('pdf','ORIGINAL PUBLICATION — R J! LET THERE BE LIGHT (EPISODE 1)','Full screenshot capture of the original Kosta Kondratenko website — predecessor to Sunlight.Quest — as it existed in August 2025','PDF · 28 pages · Screenshot capture · Left at the firebombing crime scene at Adam Watson\'s mother\'s house','screencapture-sunlight-quest-test-2025-08-09-13_00_06-compressed.pdf','The original publication that preceded Sunlight.Quest — titled \"R J! Let There Be Light — Episode 1.\" Sections covered: RJ (police informant, paedophile ring allegations), Aaron Barker (QPS), Marc Barrow (QPS), Bodie Chalmers (\"The Loverboy That Claims He Was Touched\"), Lauren Forbes (Sky News), Gold Coast Council homeless policy. This is the document that Bodie Chalmers\'s associates teased him about — triggering the firebombing of Adam Watson\'s mother\'s home. Pages were deliberately left at the crime scene.','pdf-original-publication')">
-                            <div class="ev-icon">📄</div>
-                            <div class="ev-body">
-                                <div class="ev-header">R J! Let There Be Light — Episode 1 · Original Publication · August 2025</div>
-                                <div class="ev-name">screencapture-sunlight-quest-test-2025-08-09-13_00_06-compressed.pdf</div>
-                                <div class="ev-desc">PDF · 28 pages · Full screenshot capture · Left at firebombing crime scene · Includes "Bodie Chalmers — The Loverboy That Claims He Was Touched" section</div>
+                            <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.14)">
+                                <div class="text-[0.45rem] tracking-[0.2em] uppercase text-paper/30 mb-2">The Old Version — Status &amp; Recovery</div>
+                                <p class="text-[0.62rem] text-paper/40 leading-relaxed">The old version of this website went offline and no backup was retained. Pages from that version were left at the firebombing crime scene. A formal request is being made for the full version of that website as it existed at the crime scene — the copy held as part of the arson investigation. Once obtained, it will be uploaded and published here in full.</p>
                             </div>
                         </div>
                     </div>
@@ -935,35 +775,6 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
                     <div class="border p-5" style="border-color:rgba(193,68,14,0.3);background:rgba(193,68,14,0.03)"><div class="font-display text-xl text-hot mb-1">DPP RULING</div><div class="text-[0.6rem] tracking-[0.15em] uppercase text-hot/60 mb-3">Malicious Prosecution</div><p class="text-[0.65rem] text-paper/40 leading-relaxed">The DPP assessed the charge at first mention and ruled the prosecution malicious. Charge dismissed. Bodie Chalmers and Ebony's statement was the basis for the charge.</p></div>
                     <div class="border p-5" style="border-color:rgba(193,68,14,0.3);background:rgba(193,68,14,0.03)"><div class="font-display text-xl text-hot mb-1">OFFICER FIRED</div><div class="text-[0.6rem] tracking-[0.15em] uppercase text-hot/60 mb-3">Confirmed Outcome</div><p class="text-[0.65rem] text-paper/40 leading-relaxed">The QPS officer who accepted and actioned the false complaint from Bodie Chalmers and Ebony was subsequently dismissed from the service.</p></div>
-                </div>
-
-                <!-- Prosecutor Integrity — "Malicious Prosecution" on the record -->
-                <div class="border border-sage/30 p-5 mb-8" style="background:rgba(61,122,74,0.05)">
-                    <div class="flex items-center gap-2 mb-3">
-                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-sage">QLD Police Prosecutor — Integrity on the Record</span>
-                        <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-sage/40 text-sage/70 px-1.5 py-0.5">STATED IN COURT</span>
-                    </div>
-                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">"YOUR HONOUR, I AM WILLING TO STATE THAT THIS IS MALICIOUS PROSECUTION."<br><span class="text-sage">A QLD POLICE PROSECUTOR. ON THE RECORD. THEN BULLIED OUT OF THE JOB.</span></h4>
-                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">A Queensland Police prosecutor — standing at the bar table — stated on the court record: <em class="text-paper/70">"Your Honour, I'm willing to state that this is malicious prosecution."</em> This is an extraordinary act. A member of the Queensland Police Service, in open court, voluntarily characterising a fellow officer's conduct as malicious prosecution. Prosecutors do not say this lightly. It is not a routine submission. It is the kind of statement that defines a career — and in this case, it did.</p>
-                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">For standing up for what was right, she was ruthlessly bullied by members of the Queensland Police Service. The institutional response to her integrity was not commendation. It was sustained internal pressure. She subsequently left Queensland Police and entered private practice.</p>
-                    <div class="border-l-4 border-sage/50 pl-4 mb-4" style="background:rgba(61,122,74,0.06);padding:0.85rem 1rem 0.85rem 1.25rem">
-                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-sage mb-2">Sunlight.Quest — On Record</div>
-                        <p class="text-[0.65rem] text-paper/55 leading-relaxed">Sunlight.Quest commends her for standing up for what was right. Her statement — made in open court, in the face of institutional pressure — is the kind of conduct that a justice system depends on and rarely rewards. We are in the process of identifying who she is and intend to feature her properly. She deserves to be on the record for what she did.</p>
-                    </div>
-                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                        <div class="border border-sage/15 p-3" style="background:rgba(61,122,74,0.03)">
-                            <div class="text-[0.43rem] tracking-[0.15em] uppercase text-sage mb-1.5">What She Said</div>
-                            <p class="text-[0.58rem] text-paper/45 leading-relaxed italic">"Your Honour, I'm willing to state that this is malicious prosecution."</p>
-                        </div>
-                        <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                            <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">What Happened to Her</div>
-                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">Bullied by QLD Police members for speaking the truth. Left the service. Now in private practice.</p>
-                        </div>
-                        <div class="border border-sage/15 p-3" style="background:rgba(61,122,74,0.03)">
-                            <div class="text-[0.43rem] tracking-[0.15em] uppercase text-sage mb-1.5">Sunlight.Quest</div>
-                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">Commends her integrity. Identification in progress. Will be featured in full when confirmed.</p>
-                        </div>
-                    </div>
                 </div>
 
                 <!-- Criminal Injuries Compensation Loophole -->
@@ -1015,37 +826,13 @@
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Prior to the first court mention of his case, Bodie Chalmers sent Adam Watson an <strong class="text-paper/60">unsolicited explicit image</strong> — an unsolicited photograph of his genitals. Adam Watson presented this to the Director of Public Prosecutions. The DPP's response was immediate and unambiguous: <span class="font-display text-paper/70">"That says it all. This is unwinnable."</span> It is one of the factors that informed the DPP's assessment that the prosecution was malicious.</p>
 
                     <!-- Grooming allegation — rebuttal -->
-                    <div class="border border-hot/20 p-4 mb-4" style="background:rgba(193,68,14,0.03)">
+                    <div class="border border-hot/20 p-4 mb-0" style="background:rgba(193,68,14,0.03)">
                         <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">False Allegation — "Adam Groomed Bodie at Age 17"</div>
                         <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Bodie Chalmers's mother has stated that Adam Watson knew Bodie when he was 17 years old and groomed him. <strong class="text-paper/60">This narrative is false.</strong></p>
                         <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Call records will establish that Adam Watson was not in the Gold Coast and had no phone interactions with Bodie Chalmers during the period when Bodie was 17. Metadata will prove this conclusively should the allegation ever progress to that point.</p>
                         <div class="border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.12)">
                             <div class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/25 mb-2">Current Status</div>
                             <p class="text-[0.62rem] text-paper/38 leading-relaxed">There are <strong class="text-paper/52">no open investigations against Adam Watson</strong> in relation to this allegation. The claim originates from Bodie Chalmers's mother and is consistent with the broader pattern of false allegations — including the one already ruled a malicious prosecution — being deployed to attach criminal character to Adam Watson where none exists.</p>
-                        </div>
-                    </div>
-
-                    <!-- Centrelink DV Payment — Bodie + Amanda Chalmers -->
-                    <div class="border border-hot/35 p-5" style="background:rgba(193,68,14,0.06)">
-                        <div class="flex items-center gap-2 mb-3">
-                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">Centrelink — Domestic Violence Payment · Bodie Chalmers &amp; Amanda Chalmers</span>
-                            <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-hot/40 text-hot/70 px-1.5 py-0.5">AFP REFERRAL</span>
-                        </div>
-                        <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">BODIE CHALMERS AND HIS MOTHER WENT TO CENTRELINK.<br><span class="text-hot">DOMESTIC VIOLENCE PAYMENT. FALSE STATEMENTS. REFERRED TO THE AFP.</span></h4>
-                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">Bodie Chalmers and his mother <strong class="text-paper/70">Amanda Chalmers</strong> attended Centrelink and made statements against Adam Watson for the purpose of obtaining a domestic violence payment. The statements they made are the basis for those claims. This matter has been referred to the <strong class="text-paper/70">Australian Federal Police</strong>. Adam Watson is prepared for this court case and is ready to contest it.</p>
-                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Who Attended</div>
-                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Bodie Chalmers and his mother Amanda Chalmers. Statements made against Adam Watson for the purposes of a domestic violence payment.</p>
-                            </div>
-                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">AFP Referral</div>
-                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">This matter has been referred to the Australian Federal Police. It is an active matter with federal jurisdiction.</p>
-                            </div>
-                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Adam Watson's Position</div>
-                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Adam Watson is ready for this court case and is prepared to contest every element of the claims made against him.</p>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -1121,222 +908,6 @@
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed">This is what social stigmatisation looks like in practice. A person who was the subject of a charge the DPP ruled malicious, who was never convicted, who has no finding against him — denied service at a fast food outlet because of rumours spread by the person who fabricated the charge. This is what Bodie Chalmers and his accomplice Ebony's conduct costs people in daily life.</p>
                 </div>
 
-                <!-- Aaliyah — Broadbeach Library Carpark / Southport Police / Farshad Sarabi -->
-                <div class="story-chapter reveal mt-6 mb-6" style="border-left-color:rgba(193,68,14,0.5)">
-                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Aaliyah · Bodie's Girlfriend · Southport Police · False Harassment Claim</span></div>
-                    <h4 class="font-display text-xl tracking-wide mb-4 leading-tight">PRESENT WHEN BODIE YELLED "RUSSIAN!" AT ADAM.<br><span class="text-hot">AFTER HE WENT TO JAIL, SHE WENT TO THE POLICE.</span></h4>
-                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Aaliyah was there in the Broadbeach library carpark when Bodie was screaming 'Russian!' at Adam. After Bodie went to jail, she walked into Southport Police Station and claimed she was being harassed. A female officer called Adam to say she was charging him with stalking and intimidation — and threatened to hold him in custody until trial. Then she called Bodie in Corrective Services."</p>
-
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Aaliyah — Bodie Chalmers's girlfriend — was present at the Broadbeach library carpark during the incident in which Bodie was yelling <em class="text-paper/65">"Russian!"</em> at Adam Watson. She witnessed what occurred. After Bodie Chalmers was remanded into custody, Aaliyah attended <strong class="text-paper/65">Southport Police Station</strong> and made a complaint claiming she was being harassed by Adam Watson.</p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">A female police officer called Adam Watson directly and informed him that Aaliyah was making a harassment complaint, that she was charging him with <strong class="text-paper/65">stalking and intimidation</strong>, and — in the same call — threatened that she would have him held in custody until his trial. That same female officer then called <strong class="text-paper/65">Bodie Chalmers in Corrective Services</strong> — who used the opportunity to make further allegations that he had been raped by Adam Watson.</p>
-
-                    <!-- Custody threat callout -->
-                    <div class="border border-hot/40 p-5 mb-5" style="background:rgba(193,68,14,0.07)">
-                        <div class="flex items-center gap-2 mb-3">
-                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">The Threat — Remand Until Trial</span>
-                            <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-hot/40 text-hot/70 px-1.5 py-0.5">UNLAWFUL PRESSURE</span>
-                        </div>
-                        <h5 class="font-display text-lg tracking-wide mb-3 leading-tight">"I WILL HAVE YOU HELD IN CUSTODY UNTIL YOUR TRIAL."<br><span class="text-hot">SAID ON THE PHONE. BEFORE ANY CHARGE WAS LAID.</span></h5>
-                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The threat to hold Adam Watson in custody until trial — made during a phone call, before any charge had been formally laid — is not a statement of procedure. It is a threat. Remand in custody pending trial is a decision made by a court, not a promise a police officer makes on the phone to a person they are about to charge. The purpose of the statement was to cause fear and to pressure Adam Watson through the prospect of incarceration.</p>
-                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">The charges: stalking and intimidation. The same officer who would make that determination had just been contacted by Aaliyah — whose partner is the man Bodie Chalmers, currently in Corrective Services, who the same officer called and who then made rape allegations from custody. The threat to remand Adam until trial is inseparable from this context: it is pressure applied by someone whose conduct in this matter is itself now the subject of legal proceedings.</p>
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">What the Threat Was</div>
-                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Stalking and intimidation charges — and a direct statement that Adam Watson would be held in custody until trial. Made on a phone call. Before any charge was laid.</p>
-                            </div>
-                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Why This Is Significant</div>
-                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Remand is a judicial decision — not a police officer's to promise. The threat was made to cause fear and compliance. It is now part of the conduct that Farshad Sarabi is pursuing against QLD Police.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-5">
-                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
-                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Broadbeach Library Carpark</div>
-                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">Aaliyah was present when Bodie Chalmers was yelling "Russian!" at Adam Watson. She witnessed the incident firsthand.</p>
-                        </div>
-                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
-                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Southport Police Station</div>
-                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">After Bodie went to jail, Aaliyah attended Southport Police Station claiming harassment. A female officer called Adam Watson to advise he would be charged.</p>
-                        </div>
-                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
-                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Call to Corrective Services</div>
-                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">The same female officer then called Bodie Chalmers in custody. He used the call to allege he had been raped by Adam Watson — allegations made from behind bars.</p>
-                        </div>
-                    </div>
-
-                    <!-- Conduct callout -->
-                    <div class="border-l-4 border-hot/60 pl-5 mb-5" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
-                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The Officer's Conduct</div>
-                        <p class="text-[0.65rem] text-paper/50 leading-relaxed mb-2">A police officer receiving a complaint is not ordinarily expected to threaten the subject of that complaint with remand until trial — before any charge is laid — and then contact the incarcerated partner of the complainant, providing information he used to make fresh allegations from custody. The sequence — Aaliyah's complaint, the officer's threat of remand, the stalking and intimidation charge warning, the call to Bodie in Corrective Services, and Bodie's fresh rape allegations — is a chain that a police officer's conduct drove at every step.</p>
-                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">Adam Watson is engaging <strong class="text-paper/70">Farshad Sarabi</strong> as his lawyer to pursue a charge against police in relation to the conduct arising from Aaliyah's allegations, the remand threat, and the officer's subsequent actions.</p>
-                    </div>
-
-                    <!-- Farshad Sarabi -->
-                    <div class="border border-gold/25 p-4" style="background:rgba(201,138,16,0.04)">
-                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-2">Legal Representation — Farshad Sarabi</div>
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                            <div>
-                                <div class="font-display text-base text-paper/70 mb-1">Farshad Sarabi</div>
-                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Engaged by Adam Watson to pursue a charge against Queensland Police arising from the officer's conduct: the stalking and intimidation charge threat, the unlawful remand threat made before any charge was laid, and the subsequent call to Bodie Chalmers in Corrective Services.</p>
-                            </div>
-                            <div class="border border-gold/15 p-3" style="background:rgba(201,138,16,0.03)">
-                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-gold mb-1.5">Current Status</div>
-                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Active. Adam Watson is pursuing this matter through legal channels with Farshad Sarabi as counsel.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- NSW Police / Mental Health Act — the consequence of the Southport officer's call -->
-                <div class="story-chapter reveal mt-6 mb-6" style="border-left-color:rgba(193,68,14,0.6)">
-                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Escalation · NSW Police · Mental Health Act · Prince of Wales Hospital</span></div>
-                    <h4 class="font-display text-xl tracking-wide mb-4 leading-tight">THE SOUTHPORT OFFICER CALLED NSW POLICE.<br><span class="text-hot">ADAM WATSON WAS TAKEN TO PRINCE OF WALES HOSPITAL UNDER THE MENTAL HEALTH ACT.</span></h4>
-                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"The QLD officer — unhappy with Adam's tone — called NSW Police. NSW Police visited him at home and took him under the Mental Health Act to Prince of Wales Hospital. No exit date was announced. He was still trying to send messages to Bodie Chalmers while in the ward. The officer told Aaliyah: 'Don't worry, he's locked up now.' RJ heard it from Aaliyah — and called Hancock Prospecting."</p>
-
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Following the call in which the Southport QLD police officer threatened Adam Watson with stalking and intimidation charges and remand until trial, the officer — unhappy with Adam Watson's tone during that conversation — made a call to <strong class="text-paper/65">NSW Police</strong>. NSW Police attended Adam Watson's home address.</p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">He was taken under the <strong class="text-paper/65">Mental Health Act</strong> and transported to <strong class="text-paper/65">Prince of Wales Hospital</strong>, where he was placed in the Psychiatric Ward. No exit date was announced at the time of his admission. While incarcerated in the ward, Adam Watson was still attempting to send messages to Bodie Chalmers.</p>
-
-                    <!-- Sequence -->
-                    <div class="border border-hot/25 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
-                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">The Sequence — One Phone Call to the Next</div>
-                        <div class="space-y-2">
-                            <div class="grid grid-cols-[90px_1fr] gap-3 items-start">
-                                <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 1</div>
-                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Aaliyah attends Southport Police Station. Claims harassment. QLD female officer takes the complaint.</p>
-                            </div>
-                            <div class="grid grid-cols-[90px_1fr] gap-3 items-start">
-                                <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 2</div>
-                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Officer calls Adam Watson. Threatens stalking and intimidation charges. Threatens to hold him in custody until trial.</p>
-                            </div>
-                            <div class="grid grid-cols-[90px_1fr] gap-3 items-start">
-                                <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 3</div>
-                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Officer — unhappy with Adam Watson's tone — calls NSW Police. Refers the matter across state lines.</p>
-                            </div>
-                            <div class="grid grid-cols-[90px_1fr] gap-3 items-start">
-                                <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 4</div>
-                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">NSW Police attend Adam Watson's home. He is taken under the Mental Health Act and transported to hospital.</p>
-                            </div>
-                            <div class="grid grid-cols-[90px_1fr] gap-3 items-start border-t border-hot/10 pt-2">
-                                <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Outcome</div>
-                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Placed in the Psychiatric Ward at Prince of Wales Hospital. No exit date announced. The officer tells Aaliyah: <em>"Don't worry, he's locked up now."</em> While detained, Adam Watson was still attempting to contact Bodie Chalmers.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Two callouts -->
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
-                        <div class="border border-hot/25 p-4" style="background:rgba(193,68,14,0.05)">
-                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The Mental Health Act as a Tool</div>
-                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">A QLD police officer disagreeing with a person's tone on a phone call and using that as the basis for a cross-state referral that results in involuntary psychiatric detention is not a welfare intervention. It is the use of a welfare mechanism as a punitive instrument — removing a person from their home and placing them in a locked ward with no announced exit date.</p>
-                        </div>
-                        <div class="border border-hot/25 p-4" style="background:rgba(193,68,14,0.05)">
-                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Still Contacting Bodie from the Ward</div>
-                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">While held in the Psychiatric Ward under the Mental Health Act, Adam Watson was still attempting to send messages to Bodie Chalmers — the man in Corrective Services whose allegations against Adam had contributed to the chain of events that led to this admission.</p>
-                        </div>
-                    </div>
-
-                    <!-- "Don't worry he's locked up now" -->
-                    <div class="border border-hot/40 p-5 mb-5" style="background:rgba(193,68,14,0.07)">
-                        <div class="flex items-center gap-2 mb-3">
-                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">The Officer's Words to Aaliyah</span>
-                            <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-hot/40 text-hot/70 px-1.5 py-0.5">INFORMATION LEAK</span>
-                        </div>
-                        <p class="font-display text-xl text-hot mb-3 leading-tight">"DON'T WORRY. HE'S LOCKED UP NOW."</p>
-                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">After Adam Watson was admitted to Prince of Wales Hospital, the police officer called Aaliyah and told her: <em class="text-paper/70">"Don't worry, he's locked up now."</em> This is not a welfare notification. It is a reassurance directed at the complainant — confirming that the person she complained about has been removed from the community and placed in a locked facility. It treats the psychiatric admission as a favourable outcome for Aaliyah, not as a medical intervention for Adam.</p>
-                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">Aaliyah then told RJ. RJ — who has a documented pattern of using information to cause institutional harm to Adam Watson — received confirmation from a police officer, via Aaliyah, that Adam Watson was locked in a psychiatric ward. He used that information immediately.</p>
-                    </div>
-
-                    <!-- RJ calls Hancock Prospecting -->
-                    <div class="border border-hot/30 p-5 mb-5" style="background:rgba(193,68,14,0.05)">
-                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">RJ Calls Hancock Prospecting</div>
-                        <h5 class="font-display text-lg tracking-wide mb-3 leading-tight">RJ HEARD IT FROM AALIYAH.<br><span class="text-hot">AND CALLED HANCOCK PROSPECTING TO TELL THEM ADAM IS IN THE PSYCH WARD.</span></h5>
-                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">RJ — having been told by Aaliyah that Adam Watson was in the Psychiatric Ward at Prince of Wales Hospital — called <strong class="text-paper/65">Hancock Prospecting</strong> to inform them. The purpose was reputational damage: to use the fact of an involuntary psychiatric admission — initiated by a police officer's cross-state referral over a tone of voice — as a means of undermining Adam Watson's standing with Mrs. Rinehart's organisation.</p>
-                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">The chain is complete: police officer → Aaliyah → RJ → Hancock Prospecting. A psychiatric admission triggered by a tone-of-voice complaint was converted — within the same network — into a reputational weapon deployed against Adam Watson with one of the most significant corporate relationships in his life.</p>
-                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4">
-                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Source of Information</div>
-                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Police officer → Aaliyah ("Don't worry, he's locked up now") → RJ</p>
-                            </div>
-                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Where RJ Deployed It</div>
-                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Called Hancock Prospecting directly to disclose that Adam Watson was in a psychiatric ward.</p>
-                            </div>
-                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">The Intent</div>
-                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Reputational destruction. Use a forced psychiatric admission as evidence of instability to an organisation with which Adam has a significant relationship.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Punitive psychiatry analysis -->
-                    <div class="border border-paper/15 p-5 mb-5" style="background:rgba(0,0,0,0.18)">
-                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/35 mb-3">Punitive Psychiatry — How Police Play This</div>
-                        <h5 class="font-display text-lg tracking-wide mb-3 leading-tight text-paper/70">THE MENTAL HEALTH ACT WAS DESIGNED TO PROTECT PEOPLE.<br><span class="text-paper/45">IT IS ALSO A MECHANISM FOR REMOVAL WITHOUT CHARGE.</span></h5>
-                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Punitive psychiatry — the use of mental health legislation as a tool of social control rather than clinical intervention — has a documented history. In its most overt form it was used by Soviet authorities to silence dissidents. In its everyday form in Australia, it operates through the gap between police discretion and clinical review: an officer can initiate an involuntary psychiatric hold, the person is removed from their home, and the hospital then makes its own determination. The hold happens before any clinical assessment. Removal is the first step, not the last.</p>
-                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">What happened here follows that pattern precisely. A QLD police officer — who had no mental health training, no clinical basis, and whose motivating factor was displeasure at a person's tone — made a cross-state referral that resulted in Adam Watson being removed from his home, transported to Prince of Wales Hospital, placed in a locked Psychiatric Ward, and held with no announced exit date. No charge. No finding. No clinical crisis. A phone call with the wrong tone.</p>
-                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">The officer then told the complainant he was "locked up now" — treating the outcome as a resolution of Aaliyah's complaint rather than as a medical event. The information then moved through the network: Aaliyah to RJ, RJ to Hancock Prospecting. By the time Adam Watson was in a hospital bed, the fact of his admission was already being weaponised against him externally.</p>
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                            <div class="border border-paper/10 p-3" style="background:rgba(245,234,212,0.02)">
-                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-paper/30 mb-1.5">What the MHA Is For</div>
-                                <p class="text-[0.58rem] text-paper/38 leading-relaxed">Involuntary assessment when a person presents a risk to themselves or others — a clinical determination, made by qualified practitioners, based on observed behaviour and mental state.</p>
-                            </div>
-                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">What It Was Used For Here</div>
-                                <p class="text-[0.58rem] text-paper/38 leading-relaxed">To remove a person from his home, at the request of a QLD police officer displeased with his tone, after a call in which that officer had threatened him with false charges and unlawful remand. The MHA was the mechanism. Removal was the goal.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Doctor's finding — clears Adam -->
-                    <div class="border border-sage/30 p-5 mb-5" style="background:rgba(61,122,74,0.05)">
-                        <div class="flex items-center gap-2 mb-3">
-                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-sage">Doctor's Assessment — Prince of Wales Hospital</span>
-                            <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-sage/40 text-sage/70 px-1.5 py-0.5">CLINICALLY CLEARED</span>
-                        </div>
-                        <h5 class="font-display text-lg tracking-wide mb-3 leading-tight">"THERE'S NOTHING WRONG WITH YOU."<br><span class="text-sage">THE DOCTOR CHECKED ADAM WATSON AND FOUND NO CLINICAL BASIS FOR HIS DETENTION.</span></h5>
-                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The doctor who assessed Adam Watson at Prince of Wales Hospital examined him and stated plainly: <em class="text-paper/70">"There's nothing wrong with you."</em> The clinical assessment — the one that actually matters, conducted by a qualified practitioner at the receiving hospital — found no basis for the involuntary admission. No mental health crisis. No risk to self or others. Nothing that would justify a hold under the Mental Health Act.</p>
-                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">That finding is the clearest possible evidence that what occurred was not a welfare intervention. It was a removal. A QLD police officer made a cross-state referral, Adam Watson was taken from his home and placed in a locked ward, and the hospital's own doctor found nothing wrong with him. Adam Watson's position is direct: <strong class="text-paper/65">this is a stitch-up. And the people behind it are in Southport Police.</strong></p>
-                    </div>
-
-                    <!-- Attempted call to Southport — no answer -->
-                    <div class="border border-hot/25 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
-                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Attempt to Identify the Officer — Southport Police Station Did Not Answer</div>
-                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Adam Watson attempted to call <strong class="text-paper/65">Southport Police Station</strong> to obtain the rank and serial number of the officer who accepted Aaliyah's complaint and made the cross-state referral under the Mental Health Act. <strong class="text-paper/65">No one answered.</strong></p>
-                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">A person who has just been involuntarily admitted to a psychiatric ward — on the basis of a police officer's cross-state referral — attempting to identify that officer through the official channel, and receiving no answer, is not an administrative failure. It is a closed door. The rank and serial number of a police officer who uses the Mental Health Act as a removal mechanism should be obtainable. It was not.</p>
-                    </div>
-
-                    <!-- "Yes Bodie scammed you but Aaliyah wasn't involved" -->
-                    <div class="border border-hot/35 p-5 mb-5" style="background:rgba(193,68,14,0.06)">
-                        <div class="flex items-center gap-2 mb-3">
-                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">The Officer's Comment — Exculpating Aaliyah</span>
-                        </div>
-                        <p class="font-display text-lg text-hot mb-3 leading-tight">"YES, BODIE SCAMMED YOU — BUT AALIYAH WASN'T INVOLVED."</p>
-                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">During the call, the officer made a telling comment: she acknowledged that Bodie Chalmers had scammed Adam Watson, but drew a line at Aaliyah — asserting that Aaliyah was not involved. This is a position that does not survive scrutiny.</p>
-                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">The assumption that a criminal's partner is uninvolved is a persistent and often incorrect framing. In practice, partners are frequently present, aware, and participating — sometimes directly, sometimes as an infrastructure of logistics and knowledge that makes the conduct possible. The officer accepted a binary that the evidence does not support.</p>
-                        <div class="border-l-4 border-hot/50 pl-4 mb-4" style="background:rgba(193,68,14,0.05);padding:0.85rem 1rem 0.85rem 1.25rem">
-                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">Aaliyah Was in the Car at Broadbeach</div>
-                            <p class="text-[0.65rem] text-paper/55 leading-relaxed">Aaliyah was present in the car when Bodie Chalmers drove to Broadbeach to stalk and intimidate Adam Watson — the incident in which Bodie was yelling <em>"Russian!"</em> at him in the library carpark. She was not a bystander who happened to be there. She was in the vehicle. She was present for the stalking and intimidation of Adam Watson. A partner who sits in the car during a targeted intimidation campaign is not uninvolved — she is a participant in the context that made it possible.</p>
-                        </div>
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">The Officer's Assumption</div>
-                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Bodie was the criminal. Aaliyah, as his partner, is treated as a separate and uninvolved party whose complaint is taken at face value.</p>
-                            </div>
-                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">What the Evidence Shows</div>
-                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Aaliyah was in the car during the Broadbeach stalking and intimidation incident. Her subsequent complaint — made after Bodie went to jail — fits a coordinated pattern, not an independent victim coming forward.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="border-l-4 border-hot/50 pl-5" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
-                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">Part of the Conduct Farshad Sarabi Is Pursuing</div>
-                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">The chain from Aaliyah's complaint — through the QLD officer's threats, the cross-state referral, the involuntary psychiatric admission at Prince of Wales Hospital, the doctor's finding of nothing clinically wrong, the unanswered call to identify the officer, the disclosure to Aaliyah that he was "locked up," and the subsequent leak to RJ weaponised at Hancock Prospecting — is part of the conduct that Adam Watson's lawyer Farshad Sarabi is pursuing against Queensland Police. A police officer's decision to refer a person interstate under the Mental Health Act because she did not like his tone, exculpate a criminal's partner who was present during a stalking incident, and then make the person's admission known to that partner's network — is not a discretion that exists without scrutiny.</p>
-                    </div>
-                </div>
-
                 <!-- Tweed Heads pub incident -->
                 <div class="border-l-4 border-hot/40 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Tweed Heads — Pub Incident</div>
@@ -1348,48 +919,6 @@
                         <p class="text-[0.62rem] text-paper/45 leading-relaxed">When Bodie Chalmers attended the police station and the arresting officer processed the incident, <strong class="text-paper/60">the officer did not check Bodie's outstanding warrants</strong>. Bodie had multiple warrants active at the time — meaning police were already looking for him in connection with other matters. A routine warrant check at the station would have seen him taken into custody on the spot. It did not happen. Bodie walked out. He was there voluntarily — snitching on the person who responded to his own false rumour campaign — and left without being detained for offences he was already wanted for.</p>
                     </div>
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed">Adam Watson is now assisting that person with legal representation arising from the charges that followed. The pattern is consistent: Bodie Chalmers instigates a situation using the false "paedophile" label he has been spreading, an altercation occurs, and he then uses the police to pursue the person who responded — while somehow avoiding the warrants that were outstanding in his own name.</p>
-                </div>
-
-                <!-- Joy ride / chest pain incident -->
-                <div class="border-l-4 pl-5 mt-6 mb-2" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
-                    <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Infidelity · Medical Emergency · Adam's Car</div>
-                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">TOOK ADAM'S CAR FOR A JOY RIDE WITH GIRLS.<br><span style="color:#7c6aaa">ADAM COLLAPSED. AMBULANCE CALLED.</span></h4>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Bodie Chalmers took Adam Watson's car without authorisation and used it to take a group of girls for a joy ride. He had no right to take the car. He had no right to bring other people into it. When Kosta was called to meet Adam Watson to follow this up, Adam began grabbing his chest and collapsed. An ambulance had to be called. First responders attended and treated Adam at the scene. He received medical attention and was soon fine — but what followed was the result of a confrontation that never should have happened, over conduct that had no justification.</p>
-
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-                        <div>
-                            <div class="border border-paper/[0.07] overflow-hidden" style="background:rgba(0,0,0,0.2)">
-                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/adam_chest_pain.jpg" alt="Adam Watson receiving medical treatment after collapsing — first responders attending with Mediquip equipment" class="w-full object-cover" loading="lazy" />
-                                <div class="px-3 py-2" style="border-top:1px solid rgba(245,234,212,0.06)">
-                                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25">First responders attending Adam Watson after he collapsed · Mediquip emergency equipment on scene</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="space-y-3">
-                            <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.18)">
-                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">What Bodie Did</div>
-                                <div class="space-y-1.5">
-                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Took Adam Watson's car without permission</p></div>
-                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Used the car to take girls for a joy ride — in Adam's vehicle, without Adam's knowledge or consent</p></div>
-                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">No right to take the car. No right to bring passengers. No shame.</p></div>
-                                </div>
-                            </div>
-                            <div class="border p-4" style="border-color:rgba(124,106,170,0.25);background:rgba(124,106,170,0.04)">
-                                <div class="text-[0.44rem] tracking-[0.18em] uppercase mb-2" style="color:#7c6aaa">What Followed</div>
-                                <div class="space-y-1.5">
-                                    <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Kosta called to meet Adam to follow up on what had happened</p></div>
-                                    <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Adam began grabbing his chest and collapsed at the scene</p></div>
-                                    <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Ambulance called — first responders attended with emergency equipment</p></div>
-                                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Adam received medical treatment and was soon fine</p></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="border-l-2 pl-3 py-1" style="border-color:rgba(124,106,170,0.4);background:rgba(124,106,170,0.03)">
-                        <div class="text-[0.44rem] tracking-[0.18em] uppercase mb-1" style="color:#7c6aaa">The Pattern</div>
-                        <p class="text-[0.62rem] text-paper/42 leading-relaxed">This incident is not isolated. It is consistent with a pattern of Bodie Chalmers cheating in an extremely blatant way — with absolutely no shame, and no consideration for the person he was in a relationship with. Taking a partner's car to ferry other girls around while they are unaware is not an oversight. It is the conduct of someone who does not recognise boundaries as applying to them. It is the same disposition that drove the coercive control, the tracking device, the lie detector, the false sexual assault allegation — the complete absence of accountability to anyone.</p>
-                    </div>
                 </div>
 
                 <!-- Yakuza van / custody update -->
@@ -1676,69 +1205,8 @@
                     </div>
                 </div>
 
-                <div class="border-l-4 pl-6 py-1 mb-8" style="border-color:rgba(193,68,14,0.4)">
+                <div class="border-l-4 pl-6 py-1" style="border-color:rgba(193,68,14,0.4)">
                     <p class="text-[0.68rem] text-paper/40 leading-relaxed">Vourliotis went to the one person in this investigation whose own conduct is documented in court records and on this site — and asked her to speak against the person who had exposed her. He sent what she said to two of the most prominent institutions in the Hancock Prospecting orbit. The recording was intended to close a door on Kosta's credibility. Instead it is one more data point in the file on Vourliotis — a man who arrived with a recording device, took a car, attempted to force entry into a housing commission flat, and chose a fraudulent landlord as his character witness.</p>
-                </div>
-
-                <!-- StarNow chapter -->
-                <div class="story-chapter reveal mt-6" style="border-left-color:rgba(193,68,14,0.4)">
-                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border border-hot/40 px-2 py-1 text-hot">Platform Accountability — StarNow</span></div>
-                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">HE'S STILL ON STARNOW.<br><span class="text-hot">CONVICTED. JAILED. LISTED.</span></h3>
-                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"I had a StarNow profile when I was running Head Studios — a video production business. I was banned from the platform after I sent a mass SMS to a group of models inviting them to a nightclub. Alex Vourliotis was convicted and jailed for fraud. He is still on the platform."</p>
-
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
-                        <div>
-                            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Alex Vourliotis maintains an active profile on StarNow — an actor and talent casting platform — at the following address:</p>
-                            <div class="border border-hot/20 p-4 mb-4" style="background:rgba(193,68,14,0.03)">
-                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1">StarNow Profile</div>
-                                <a href="https://www.starnow.com/u/alexvourliotis/" target="_blank" rel="noopener noreferrer" class="font-mono text-[0.68rem] text-hot hover:text-paper/80 transition-colors break-all">starnow.com/u/alexvourliotis/</a>
-                                <div class="text-[0.5rem] text-paper/28 mt-1.5">Profile active as of publication · Vourliotis convicted and jailed</div>
-                            </div>
-                            <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Kosta Kondratenko — founder of Sunlight.Quest — operated a StarNow profile when running Head Studios, a video production business. He was subsequently banned from the platform after sending a mass SMS to a group of models inviting them to a nightclub — an administrative breach that led to his account being removed.</p>
-                            <p class="text-[0.68rem] text-paper/45 leading-relaxed">Alex Vourliotis has been convicted and jailed for fraud. His victim was a person he befriended, took a car from while that person slept, transferred the vehicle into his own name interstate, and financed against at Cash Converters. He remains active on a platform that connects actors with production companies and casting directors — where his profile picture, credits, and casting history are visible and searchable.</p>
-                        </div>
-                        <div class="border border-paper/[0.08] p-5" style="background:rgba(193,68,14,0.02)">
-                            <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">The Asymmetry</div>
-                            <div class="space-y-3">
-                                <div class="flex gap-3 items-start">
-                                    <div class="w-1.5 h-1.5 rounded-full bg-hot mt-1.5 shrink-0"></div>
-                                    <div>
-                                        <div class="text-[0.58rem] text-paper/55 mb-0.5">Kosta Kondratenko — banned</div>
-                                        <div class="text-[0.52rem] text-paper/35 leading-relaxed">Removed from StarNow for sending a mass SMS inviting models to a nightclub. An administrative matter. No victims. No criminal proceeding.</div>
-                                    </div>
-                                </div>
-                                <div class="flex gap-3 items-start">
-                                    <div class="w-1.5 h-1.5 rounded-full bg-hot mt-1.5 shrink-0"></div>
-                                    <div>
-                                        <div class="text-[0.58rem] text-paper/55 mb-0.5">Alex Vourliotis — still listed</div>
-                                        <div class="text-[0.52rem] text-paper/35 leading-relaxed">Convicted and jailed for fraud targeting a person he met through a network connected to the platform. Active profile. No removal.</div>
-                                    </div>
-                                </div>
-                                <div class="flex gap-3 items-start">
-                                    <div class="w-1.5 h-1.5 rounded-full bg-gold mt-1.5 shrink-0"></div>
-                                    <div>
-                                        <div class="text-[0.58rem] text-paper/55 mb-0.5">Terms of service applied selectively</div>
-                                        <div class="text-[0.52rem] text-paper/35 leading-relaxed">A platform that enforces its rules against mass SMS but takes no action on a jailed fraudster is applying its terms of service in a way that does not protect its members.</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Statement request -->
-                    <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.03)">
-                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-3">Statement Requested — StarNow</div>
-                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Kosta Kondratenko is seeking a formal statement from StarNow regarding their policy on actors and talent who are charged with, or convicted of, criminal offences — and specifically whether a conviction and custodial sentence results in removal from the platform.</p>
-                        <p class="text-[0.68rem] text-paper/45 leading-relaxed">The questions are straightforward: Does StarNow's platform policy require or permit removal of a user who has been convicted and jailed? Were they aware of the conviction? If not — how is that information intended to reach them? And if aware — what is the stated reason for the profile remaining active?</p>
-                    </div>
-
-                    <!-- Corporate responsibility -->
-                    <div class="border border-paper/[0.08] p-5" style="background:rgba(245,234,212,0.015)">
-                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/35 mb-3">Terms of Service &amp; Corporate Responsibility</div>
-                        <p class="text-[0.68rem] text-paper/40 leading-relaxed mb-3">Casting and talent platforms occupy a particular position when it comes to bad actors — in the literal sense. They are marketplaces of trust. A person using StarNow to hire talent for a production is relying on the platform to apply some baseline filter: that the profiles listed are people who can be safely engaged in a professional context. A platform that has expelled a member for sending a mass SMS to models but retains a member who has been convicted and jailed for fraud against a person he targetted through that social environment is not applying its trust infrastructure consistently.</p>
-                        <p class="text-[0.68rem] text-paper/40 leading-relaxed mb-3">This is not a hypothetical about the limits of platform responsibility. The criminal conduct in question — fraud, car theft, covert recording — took place in the same social ecosystem in which Vourliotis operated as a platform user. The victims were people connected to the same network. The platform is not incidental to the story.</p>
-                        <p class="text-[0.68rem] text-paper/40 leading-relaxed">Talent platforms, like all intermediary platforms, have terms of service that typically prohibit criminal conduct and allow for removal of users who breach those terms. Whether those terms are enforced — and against whom — is a question of corporate responsibility, not just policy. A platform that enables a convicted fraudster to continue presenting himself as a professional actor is making an active choice, not a passive omission.</p>
-                    </div>
                 </div>
             </div>
 
@@ -2434,8 +1902,8 @@
 
             <!-- TICA logo + headline -->
             <div class="flex flex-col sm:flex-row sm:items-center gap-5 mb-6">
-                <div class="shrink-0 border border-paper/[0.07] p-3" style="background:#ffffff">
-                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tica_logo.png" alt="TICA — Tenancy Information Centre Australasia" class="h-10 w-auto" />
+                <div class="shrink-0 border border-paper/[0.07] p-3" style="background:rgba(12,8,4,0.4)">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tica_logo.png" alt="TICA — Tenancy Information Centre Australasia" class="h-10 w-auto opacity-80" />
                 </div>
                 <div>
                     <h3 class="font-display text-3xl tracking-wide leading-tight mb-1">BLACKLISTED BY THE AGENT<br><span class="text-hot">WHO BROKE INTO HIS HOME.</span></h3>
@@ -2446,28 +1914,6 @@
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The same Changfa agent who disconnected Adam Watson's power, entered his property without authorisation, and is now facing a home invasion charge — used his position as a real estate agent to lodge Adam Watson's name on the TICA tenancy blacklist. TICA is a national database used by landlords and agents across Australia to screen rental applicants. A listing on TICA effectively blocks a person from accessing private rental accommodation.</p>
 
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Adam Watson attempted to appeal the TICA listing. He was informed that the appeal process must be conducted through the post — physical mail only. The appeal has not been resolved. His name remains on the TICA register. Despite TICA having received a copy of the QCAT order Q6970-25 — a formal tribunal decision issued on the basis of the police fingerprint evidence against the Changfa agent — TICA has not lifted the blacklist. Adam Watson is currently sleeping out of his car as a direct consequence.</p>
-
-            <!-- Appeal envelope -->
-            <div class="border border-paper/[0.08] mb-6 reveal" style="background:rgba(0,0,0,0.18)">
-                <div class="px-4 py-3 flex items-center justify-between gap-4" style="border-bottom:1px solid rgba(245,234,212,0.06)">
-                    <div>
-                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-paper/35 mb-0.5">Physical evidence · Adam Watson's TICA appeal</div>
-                        <div class="font-display text-sm tracking-wide text-paper/75">The envelope — sent by post to TICA Head Office</div>
-                        <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/30 mt-1">Addressed to: TICA Head Office · PO Box 120 · Concord NSW 2137 · Australia Post Prepaid tracked</div>
-                    </div>
-                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/Screenshot_20260506_113608_Gallery.jpg" target="_blank" rel="noopener" class="shrink-0 text-[0.44rem] tracking-[0.14em] uppercase text-paper/30 hover:text-paper/60 transition-colors whitespace-nowrap">Open ↗</a>
-                </div>
-                <div class="p-4">
-                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/Screenshot_20260506_113608_Gallery.jpg" alt="Australia Post prepaid envelope addressed to TICA Head Office PO Box 120 Concord NSW 2137 — Adam Watson's appeal against the TICA blacklist listing" class="w-full max-w-lg mx-auto block border border-paper/[0.06]" loading="lazy" />
-                </div>
-                <div class="px-4 py-3 flex flex-wrap items-center gap-4" style="border-top:1px solid rgba(245,234,212,0.06)">
-                    <div>
-                        <div class="text-[0.4rem] tracking-[0.14em] uppercase text-paper/25 mb-0.5">Tracking No.</div>
-                        <div class="font-mono text-[0.6rem] text-paper/55 tracking-wider">02 01021 44985 70006 40991</div>
-                    </div>
-                    <div class="flex-1 text-[0.58rem] text-paper/35 leading-relaxed">TICA's appeal process requires physical mail only — no online dispute, no in-person option. A person sleeping out of their car, whose listing was made by an agent now facing criminal charges, was required to appeal by post to a PO Box in Concord. This envelope is the proof the appeal was sent.</div>
-                </div>
-            </div>
 
             <!-- Impact stat bar -->
             <div class="grid grid-cols-3 gap-px bg-paper/[0.04] mb-6">
@@ -2730,9 +2176,44 @@
                 </div>
             </div>
 
-            <div class="border border-paper/[0.08] p-5" style="background:rgba(193,68,14,0.025)">
+            <div class="border border-paper/[0.08] p-5 mb-5" style="background:rgba(193,68,14,0.025)">
                 <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">Statement Sought — Pump Nightclub · OLGR Queensland</div>
                 <p class="text-[0.68rem] text-paper/45 leading-relaxed">Sunlight.Quest is seeking a response from Pump Nightclub regarding their employment of RJ and whether they were aware of his criminal history at the time of engagement. We are also noting this matter to the Office of Liquor and Gaming Regulation (OLGR) Queensland as a question of venue compliance with the spirit and intent of the Safe Night Out framework. This is not a private matter. A person with this documented record working in a licensed venue — on the same Gold Coast precinct where he has organised violence — is a matter of public interest.</p>
+            </div>
+
+            <!-- Denial, taunt call, and building owner leverage -->
+            <div class="story-chapter reveal" style="border-left-color:rgba(124,106,170,0.6)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase mb-3" style="color:#7c6aaa">What Happened Next</div>
+                <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">"HE DOESN'T WORK HERE."<br><span style="color:#7c6aaa">THEN RJ CALLED TO TAUNT HIM.</span></h3>
+
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">After Adam Watson contacted Pump Nightclub directly — sending them RJ's own words, including his recorded comment calling Adam a <strong class="text-paper/65">"faggot"</strong> — Pump Nightclub's response was a denial: they stated that RJ was not in their employ. Adam had also made clear that he intended to put RJ's comment to the gay community, and that a picket outside Pump Nightclub was a foreseeable consequence of their employing someone who had made those remarks to a member of the public.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Later that same night, RJ called Adam Watson directly. He was not calling to apologise. He was calling to taunt him. RJ told Adam that the staff at Pump Nightclub consider him a joke. It was a display of confidence — the confidence of a man who had just been publicly backed by his employer through a denial of his employment, and who felt untouchable enough to ring the person who had lodged the complaint and rub it in.</p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                    <div class="border p-4" style="border-color:rgba(124,106,170,0.2);background:rgba(124,106,170,0.03)">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase mb-2" style="color:#7c6aaa">Pump Nightclub's Response to Adam's Message</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Adam sent RJ's recorded "faggot" comment directly to the venue</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Adam noted the gay community and picket implications of employing someone who made those remarks</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Pump Nightclub replied: RJ is not in their employ</p></div>
+                        </div>
+                    </div>
+                    <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">RJ's Call — Same Night</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">RJ called Adam Watson that evening, unprompted</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Told Adam the staff at Pump Nightclub think he is a joke</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">The call was not an apology — it was a taunt delivered from a position of confidence</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border border-gold/25 px-5 py-4" style="background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-3">The Building Owner — And Marc Barrow's Role</div>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Adam Watson knows the owner of the building from which Pump Nightclub operates. The connection is not abstract: Adam met the building owner during the process of purchasing Platinum and Empire Nightclub — a transaction that did not proceed because of Marc Barrow's direct intervention in that deal. The relationship exists. The conversation can happen.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Adam intends to raise the matter of RJ's employment — and Pump Nightclub's denial in the face of documented conduct — with the building owner directly. A venue that employs a person with RJ's record, denies that employment when confronted with his own words, and then allows that same person to ring the complainant and taunt them — is not a venue that reflects the obligations of a responsible tenant. The building owner has an interest in who operates under their roof and how they conduct themselves.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed">Marc Barrow's role in preventing the Platinum and Empire Nightclub transaction — which first brought Adam and the building owner together — is itself part of the broader record being assembled. The avenue being considered is raising the Pump Nightclub matter with both the building owner and Marc Barrow, with a view to a potential liquor licence suspension through OLGR. A venue that backs an employee with this criminal record, denies his employment when documented evidence is presented, and allows him to taunt complainants without consequence — is operating in a manner that sits poorly against the regulatory obligations of a Queensland liquor licence.</p>
+                </div>
             </div>
         </div>
 
@@ -2778,24 +2259,6 @@
                 <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">THE ALLEGATION DOESN'T NEED TO SUCCEED.<br><span class="text-hot">IT JUST NEEDS TO BE MADE.</span></h4>
                 <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Professional indemnity insurance for medical practitioners is underwritten based on risk. A sexual assault allegation — regardless of outcome — is recorded in underwriting assessments. An allegation that triggers a police investigation, an office raid, and civil proceedings against an insurer is not simply dismissed when charges are dropped or allegations proved false. The insurer's exposure calculus changes. Cover becomes unavailable, or available only at premiums that are commercially prohibitive for a sole practitioner.</p>
                 <p class="text-[0.68rem] text-paper/45 leading-relaxed">This is the mechanism of indemnity insurance fraud: make an allegation false enough to cause maximum institutional disruption but specific enough to trigger an insurance response. You don't need a conviction. You need a claim. The doctor's office was raided. A civil lawsuit ran against the insurance. The insurance became unrenewable. A private practice — built over decades — ceased to exist. The person who made the allegation has never been convicted of anything in connection with it.</p>
-            </div>
-
-            <!-- What actually happened during the examination -->
-            <div class="border border-hot/30 p-5 mb-5" style="background:rgba(193,68,14,0.05)">
-                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">What Actually Happened — The Medical Examination</div>
-                <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">RJ CAME IN FOR A TESTICULAR EXAMINATION.<br><span class="text-hot">THE DOCTOR'S NOTES RECORD EXACTLY WHAT HAPPENED.</span></h4>
-                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">RJ attended the clinic to have his testicles examined. During the course of the examination — a routine clinical inspection — RJ began leaking pre-ejaculatory fluid. The doctor noted this in his clinical records at the time. Those notes became the document that protected him: a contemporaneous clinical record made during the consultation, before any allegation existed, recording what had physically occurred during the examination.</p>
-                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">RJ then ran with a false allegation of unwanted contact. He claimed the examination was not consensual — that he had been subjected to contact he had not agreed to. The doctor's own medical notes — made in the ordinary course of a clinical consultation — established precisely what had taken place and in what order. The notes recorded the physiological response RJ exhibited during the examination. They directly contradicted the framing RJ subsequently advanced.</p>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                        <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">The Clinical Record</div>
-                        <p class="text-[0.58rem] text-paper/45 leading-relaxed">The doctor made contemporaneous notes during the consultation recording what occurred. Those notes — made before any allegation was raised — documented RJ's physiological response during the examination.</p>
-                    </div>
-                    <div class="border border-sage/15 p-3" style="background:rgba(61,122,74,0.03)">
-                        <div class="text-[0.43rem] tracking-[0.15em] uppercase text-sage mb-1.5">Why the Notes Protected Him</div>
-                        <p class="text-[0.58rem] text-paper/45 leading-relaxed">Contemporaneous clinical records carry significant evidentiary weight. Notes made at the time of a consultation — before any dispute arose — establish the factual sequence of events as recorded by the treating practitioner.</p>
-                    </div>
-                </div>
             </div>
 
             <!-- Uttering charge callout -->
@@ -3349,57 +2812,62 @@
             </div>
         </div>
 
-        <!-- Incident 14: Zach — Pig's Head / Pacific Fair / Complaint Withdrawn -->
-        <div class="story-chapter reveal mt-10" style="border-left-color:rgba(193,68,14,0.5)">
-            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Incident 14 — Zach · Pacific Fair · Pig's Head · Complaint Withdrawn</span></div>
-            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">PUNCHED FOR TALKING TO A GIRL.<br><span class="text-hot">RETALIATED. PUNCHED AGAIN. POLICE COULDN'T HELP.</span></h3>
-            <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"RJ went to the police to report an assault. Zach admitted it — but told police exactly why. They had the CCTV. RJ withdrew the complaint."</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">RJ made a comment while trying to talk to a girl. Zach — a Muslim man — punched him. Rather than leave it there, RJ organised a retaliatory act: he went with <strong class="text-paper/65">Bodie Chalmers</strong> to Zach's home address and left a <strong class="text-paper/65">pig's head on his door</strong>. A deliberate religious provocation — pig products being forbidden under Islamic law — directed at a man who had punched him.</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Zach saw RJ at <strong class="text-paper/65">Pacific Fair</strong> and punched him again. RJ went to the police to make a formal assault complaint. When police spoke to Zach, he admitted the assault without hesitation — but gave his reason: RJ had left a pig's head at his door. Zach also had <strong class="text-paper/65">CCTV footage</strong> of RJ and Bodie Chalmers at his address. Police informed RJ that if they were going to charge Zach for the assault, they would have to charge RJ for the pig's head incident as well. RJ withdrew his complaint.</p>
+    </div>
+</section>
 
-            <!-- Four-cell breakdown -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
-                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
-                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">First Punch</div>
-                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">RJ made a comment while trying to talk to a girl. Zach punched him in response.</p>
-                </div>
-                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
-                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The Retaliation</div>
-                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">RJ and Bodie Chalmers went to Zach's home address and placed a pig's head on his door — a deliberate religious provocation against a Muslim man. Zach had CCTV capturing both of them.</p>
-                </div>
-                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
-                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Second Punch — Pacific Fair</div>
-                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Zach encountered RJ at Pacific Fair and punched him again. RJ went to police and made a formal assault complaint.</p>
-                </div>
-                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
-                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The Police Response</div>
-                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Zach admitted the assault — and explained the pig's head. He had the CCTV. Police told RJ: charging Zach means charging RJ too. RJ withdrew his complaint.</p>
-                </div>
+
+
+
+<!-- ══════════════════════════════════════
+     PRINCE OF WALES HOSPITAL — QPS OFFICER UNDER INVESTIGATION
+══════════════════════════════════════ -->
+<section class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(193,68,14,0.07) 0%,transparent 50%)">
+    <div class="max-w-4xl mx-auto">
+
+        <div class="flex items-center gap-3 mb-3">
+            <div class="w-4 h-px bg-hot"></div>
+            <span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">QPS Officer — Under Investigation</span>
+        </div>
+        <h2 class="font-display leading-none tracking-wide mb-3" style="font-size:clamp(2.2rem,5.5vw,4rem)">ADAM WATSON WAS PUT IN THE<br><span class="text-hot">PRINCE OF WALES HOSPITAL.</span></h2>
+        <p class="font-serif italic text-paper/45 text-lg leading-relaxed mb-10 max-w-2xl">The Queensland Police Service officer responsible for putting Adam Watson in the Prince of Wales Hospital is now under investigation. The conduct that led to Adam's hospitalisation is being examined by the relevant oversight body.</p>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
+
+            <div class="story-chapter reveal" style="border-left-color:rgba(193,68,14,0.7)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-2">The Incident</div>
+                <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE PRINCE OF WALES HOSPITAL.<br><span class="text-hot">A QPS OFFICER. AN INVESTIGATION.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Adam Watson was admitted to the Prince of Wales Hospital — Randwick, New South Wales — as a direct result of conduct by a Queensland Police Service officer. The circumstances of his hospitalisation are part of the broader pattern of QPS conduct documented across this site: officers whose actions have resulted in formal investigations, dismissals, and referrals to oversight bodies.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45">The officer responsible for putting Adam Watson in the Prince of Wales Hospital is now under investigation. The relevant complaint and oversight process is active. This section will be updated as the investigation progresses and outcomes are confirmed.</p>
             </div>
 
-            <!-- Zach's admission callout -->
-            <div class="border-l-4 border-hot/60 pl-5 mb-5" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
-                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">Zach's Position to Police</div>
-                <p class="text-[0.65rem] text-paper/55 leading-relaxed italic mb-2">"Yes, I punched him — because he left a pig's head at my door."</p>
-                <p class="text-[0.65rem] text-paper/45 leading-relaxed">Zach did not deny the assault. He explained it. He had CCTV evidence of RJ and Bodie Chalmers at his property. The pig's head — a religiously targeted act against a Muslim man — was on the record. RJ came to the police as a victim. He left having withdrawn his own complaint.</p>
+            <div class="story-chapter reveal" style="transition-delay:0.06s;border-left-color:rgba(201,138,16,0.5)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-2">The Pattern</div>
+                <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">NOT THE FIRST.<br><span class="text-gold">NOT THE LAST TO BE INVESTIGATED.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">This is the documented pattern in Adam Watson's interactions with Queensland Police: the officer who accepted Bodie Chalmers's false sexual assault complaint was fired. The two officers who attended the Broadbeach disability centre confrontation with Grason Andrew Kira were stood down by the Attorney General. The officer who put Adam Watson in the Prince of Wales Hospital is now under investigation.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45">In each case, the officer's conduct was not a matter of dispute — it was confirmed by oversight processes, recordings, and formal findings. The investigation of the Prince of Wales Hospital officer follows the same track.</p>
             </div>
+        </div>
 
-            <!-- Consequence panel -->
-            <div class="border border-paper/[0.07] p-5" style="background:rgba(193,68,14,0.03)">
-                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Why the Complaint Was Withdrawn</div>
-                <div class="space-y-2">
-                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Charging Zach for assault required police to also charge RJ for the pig's head incident — a targeted religious provocation documented on Zach's own CCTV.</p></div>
-                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">RJ had arrived at the police station as the victim. The pig's head — placed at a Muslim man's home — made that position untenable.</p></div>
-                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Bodie Chalmers was also present at Zach's property — captured on the same CCTV. His involvement in the retaliation is on the record.</p></div>
-                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Complaint withdrawn. No charges proceeded. The sequence — provocation, escalation, police weaponisation, retreat — is the same pattern documented across RJ's other incidents.</p></div>
+        <div class="border border-paper/[0.08] p-6" style="background:rgba(193,68,14,0.03)">
+            <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">Status — Active Investigation</div>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div class="space-y-1.5">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">Incident</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Adam Watson admitted to Prince of Wales Hospital, Randwick NSW, as a result of QPS officer conduct.</p>
+                </div>
+                <div class="space-y-1.5">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">Officer Status</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Under investigation by the relevant oversight body. Matter is active — this page will be updated when the outcome is confirmed.</p>
+                </div>
+                <div class="space-y-1.5">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">Context</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Consistent with documented pattern of QPS officer misconduct directed at Adam Watson — multiple officers fired, stood down, or under investigation across this timeline.</p>
                 </div>
             </div>
         </div>
 
     </div>
 </section>
-
-
 
 
 <!-- ══════════════════════════════════════
@@ -3609,96 +3077,6 @@
                 </div>
             </div>
 
-            <!-- Examination Order -->
-            <div class="story-chapter reveal mt-8 mb-8" style="border-left-color:rgba(61,122,74,0.5)">
-                <div class="flex items-center gap-3 mb-4">
-                    <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#3d7a4a;border-color:rgba(61,122,74,0.4)">Enforcement · Examination Order · Form 54 UCPR 38.3 · Local Court of NSW</span>
-                </div>
-                <h3 class="font-display text-2xl tracking-wide mb-3 leading-tight">SHOW UP. SHOW YOUR ASSETS.<br><span class="text-sage">OR YOU MAY BE ARRESTED.</span></h3>
-
-                <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Adam Watson has obtained an Examination Order from the Local Court of NSW — issued 1 June 2026 — requiring West Kira to attend court and disclose his full financial position so the judgment debt can be enforced. West Kira destroyed a man's glasses during a ride Adam gave him out of basic decency. Adam is determined to collect. Karma, as it turns out, runs on a court timetable.</p>
-
-                <!-- Key order details -->
-                <div class="grid grid-cols-2 sm:grid-cols-4 gap-px mb-6" style="background:rgba(245,234,212,0.06)">
-                    <div class="p-4" style="background:#0c0804">
-                        <div class="text-[0.42rem] tracking-[0.18em] uppercase text-sage mb-1.5">Court Date</div>
-                        <div class="font-display text-lg leading-tight text-paper/80">17 July 2026</div>
-                        <div class="text-[0.56rem] text-paper/35 mt-1">9:30 AM · Tweed Heads</div>
-                    </div>
-                    <div class="p-4" style="background:#0c0804">
-                        <div class="text-[0.42rem] tracking-[0.18em] uppercase text-sage mb-1.5">Court</div>
-                        <div class="font-display text-lg leading-tight text-paper/80">Local Court NSW</div>
-                        <div class="text-[0.56rem] text-paper/35 mt-1">General Division · Sydney Registry</div>
-                    </div>
-                    <div class="p-4" style="background:#0c0804">
-                        <div class="text-[0.42rem] tracking-[0.18em] uppercase text-sage mb-1.5">Case Number</div>
-                        <div class="font-display text-lg leading-tight text-paper/80">2025/00341907</div>
-                        <div class="text-[0.56rem] text-paper/35 mt-1">Watson v West Kira</div>
-                    </div>
-                    <div class="p-4" style="background:#0c0804">
-                        <div class="text-[0.42rem] tracking-[0.18em] uppercase text-hot mb-1.5">If He Doesn't Attend</div>
-                        <div class="font-display text-lg leading-tight text-hot">Arrested.</div>
-                        <div class="text-[0.56rem] text-paper/35 mt-1">Stated on the face of the Order</div>
-                    </div>
-                </div>
-
-                <!-- What it requires -->
-                <div class="border border-sage/20 p-5 mb-5" style="background:rgba(61,122,74,0.04)">
-                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-sage mb-3">What West Kira Must Produce at Court</div>
-                    <div class="space-y-1.5">
-                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/50 leading-relaxed">Full bank statements for all accounts held in his name — last 6 months</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/50 leading-relaxed">Documents showing the current balance of all bank accounts held in his name</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/50 leading-relaxed">Title deeds or other documents showing any real property owned by him</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/50 leading-relaxed">Vehicle registration certificates or documents showing any motor vehicles owned by him</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/50 leading-relaxed">Income documents — payslips, Centrelink statements, or tax returns</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/50 leading-relaxed">Documents identifying the name and branch of every bank or financial institution at which he holds an account</p></div>
-                    </div>
-                </div>
-
-                <!-- Karma callout -->
-                <div class="border-l-4 pl-5 mb-5" style="border-color:rgba(61,122,74,0.5);background:rgba(61,122,74,0.04);padding:1rem 1rem 1rem 1.25rem">
-                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-sage mb-2">On Record — Adam Watson</div>
-                    <p class="font-serif italic text-paper/55 text-base leading-relaxed">"He got into my car. I gave him a ride. He broke my glasses. He is going to show up to court in Tweed Heads and show me what he owns — or he gets arrested. That's karma. I'm getting my glasses."</p>
-                </div>
-
-                <p class="text-[0.65rem] text-paper/40 leading-relaxed mb-5">West Kira is currently in custody on drug charges worth approximately $750,000 and facing charges over the recorded Mick Gatto call. He is also ordered to be in Tweed Heads at 9:30 AM on 17 July 2026 — fully disclosed, assets on the table — to satisfy a judgment obtained for deliberately destroying a passenger's glasses during a free ride. Adam Watson's address for the order is recorded as 98 Jabiru Avenue, Burleigh Waters QLD 4220. Every asset West Kira holds is now a subject of inquiry.</p>
-
-                <!-- Embedded PDF + evidence vault -->
-                <div class="border border-paper/[0.07] overflow-hidden mb-5" style="background:rgba(0,0,0,0.2)">
-                    <div class="flex items-center justify-between px-4 py-2.5 border-b border-paper/[0.06]" style="background:rgba(0,0,0,0.3)">
-                        <span class="text-[0.44rem] tracking-[0.2em] uppercase text-sage">Examination Order · Form 54 UCPR 38.3 · D0002DOIXL · Issued 1 June 2026 · Watson v West Kira · 2025/00341907</span>
-                        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/west_kira_examination_notice.pdf"
-                           target="_blank" rel="noopener"
-                           class="text-[0.44rem] tracking-[0.12em] uppercase border border-paper/20 text-paper/35 px-2 py-1 hover:border-sage/50 hover:text-sage transition-colors">
-                            Open PDF ↗
-                        </a>
-                    </div>
-                    <div style="height:680px">
-                        <iframe
-                            src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/west_kira_examination_notice.pdf"
-                            style="width:100%;height:100%;border:none;display:block"
-                            title="Examination Order — West Kira — Local Court of NSW — 17 July 2026"
-                            loading="lazy">
-                        </iframe>
-                    </div>
-                    <div class="px-4 py-3 border-t border-paper/[0.05]" style="background:rgba(0,0,0,0.2)">
-                        <span class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/22">PDF · 2 pages · Form 54 (version 1) UCPR 38.3 · Attendance required 17 July 2026 · Non-attendance: may be arrested</span>
-                    </div>
-                </div>
-
-                <div class="evidence-vault border border-paper/[0.07] p-5" style="background:rgba(0,0,0,0.15)">
-                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-4">Evidence — Examination Order</div>
-                    <div class="ev-file ef-sage" onclick="openMV('pdf-wk-examination-order')">
-                        <div class="ev-icon ev-pdf">PDF</div>
-                        <div class="ev-meta">
-                            <div class="ev-name">west_kira_examination_notice.pdf</div>
-                            <div class="ev-desc">PDF · 2 pages · Form 54 UCPR 38.3 · Examination Order · Issued 1 June 2026 · Attendance required 17 July 2026, 9:30 AM, Tweed Heads · Failure to attend: arrest</div>
-                        </div>
-                        <span class="ev-cta">View →</span>
-                    </div>
-                </div>
-            </div>
-
             <!-- Gay hate crime — West Kira & Bodie Chalmers -->
             <div class="story-chapter reveal mt-10" style="border-left-color:rgba(193,68,14,0.6)">
                 <div class="flex items-center gap-3 mb-4">
@@ -3823,112 +3201,40 @@
                     </div>
                 </div>
 
-                <!-- Formal Judgment/Order — Adam Watson v West Kira — Form 43 UCPR 36.11 -->
-                <div class="border mt-5 mb-5" style="border-color:rgba(61,122,74,0.4);background:rgba(61,122,74,0.04)">
-                    <div class="px-5 py-3 border-b" style="border-color:rgba(61,122,74,0.2)">
-                        <div class="flex flex-wrap items-center gap-2">
-                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-sage">Judgment/Order — Local Court of NSW · Form 43 · UCPR 36.11</span>
-                            <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-sage/40 text-sage/70 px-1.5 py-0.5">SEALED · ISSUED 20 MAY 2026</span>
-                            <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-gold/40 text-gold/80 px-1.5 py-0.5">HIGHER AUTHORITY</span>
-                        </div>
+                <!-- Notice of Orders — Adam Watson v West Kira -->
+                <div class="border border-sage/30 mt-5 mb-5 p-5" style="background:rgba(61,122,74,0.04)">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-sage">Court Order — Local Courts of New South Wales · 3 February 2026</span>
+                        <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-sage/40 text-sage/70 px-1.5 py-0.5">JUDGMENT OBTAINED</span>
                     </div>
-                    <div class="px-5 py-5">
-                        <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">ADAM WATSON v WEST KIRA.<br><span class="text-sage">CASE NO. 2025/00341907 — $10,958.00 INCLUSIVE OF COSTS.</span></h4>
-                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-5">The <strong class="text-paper/70">formal Judgment/Order</strong> — Form 43, UCPR 36.11 — has now been issued by the Local Court of New South Wales, bearing the court's official seal and signed by Registrar A. Giles on 20 May 2026. This document supersedes the earlier Notice of Orders and carries the full weight of a sealed court judgment. West Kira, as First Defendant, is ordered to pay Adam Watson, as First Plaintiff, the sum of <strong class="text-paper/70">$10,958.00 inclusive of costs</strong> — entered 3 February 2026, sealed 20 May 2026.</p>
-
-                        <!-- Key details grid -->
-                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-5">
-                            <div class="border p-3" style="border-color:rgba(61,122,74,0.2);background:rgba(61,122,74,0.05)">
-                                <div class="text-[0.43rem] tracking-[0.14em] uppercase text-sage/60 mb-1">Court</div>
-                                <div class="text-[0.58rem] text-paper/60 leading-tight">Local Court of NSW<br>General Division<br>Sydney Registry</div>
+                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">ADAM WATSON v WEST KIRA.<br><span class="text-sage">CASE NO. 2025/00341907 — $10,958.00 INCLUSIVE OF COSTS.</span></h4>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">On 3 February 2026, the Local Court of New South Wales made orders in the matter of <strong class="text-paper/65">Adam Watson v West Kira</strong> (Case No. 2025/00341907). West Kira, as First Defendant, was ordered to pay Adam Watson, as First Plaintiff, the sum of <strong class="text-paper/65">$10,958.00 inclusive of costs</strong>. This is a judgment on the record from the court — separate from and in addition to the criminal charges West Kira faces.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-sage/60 mb-2">Notice of Orders — 3 February 2026</div>
+                            <div class="border border-sage/20 overflow-hidden">
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/IMG-20260508-WA0007+(1).jpg" alt="Notice of Orders Made — Adam Watson v West Kira — Local Courts NSW" class="w-full" loading="lazy" style="max-width:400px" />
                             </div>
-                            <div class="border p-3" style="border-color:rgba(61,122,74,0.2);background:rgba(61,122,74,0.05)">
-                                <div class="text-[0.43rem] tracking-[0.14em] uppercase text-sage/60 mb-1">Case Number</div>
-                                <div class="font-mono text-[0.6rem] text-paper/65">2025/00341907</div>
-                            </div>
-                            <div class="border p-3" style="border-color:rgba(61,122,74,0.2);background:rgba(61,122,74,0.05)">
-                                <div class="text-[0.43rem] tracking-[0.14em] uppercase text-sage/60 mb-1">Judgment Amount</div>
-                                <div class="font-display text-lg text-sage">$10,958</div>
-                                <div class="text-[0.43rem] text-paper/35">inclusive of costs</div>
-                            </div>
-                            <div class="border p-3" style="border-color:rgba(61,122,74,0.2);background:rgba(61,122,74,0.05)">
-                                <div class="text-[0.43rem] tracking-[0.14em] uppercase text-sage/60 mb-1">Sealed</div>
-                                <div class="text-[0.58rem] text-paper/60 leading-tight">20 May 2026<br>Registrar A. Giles<br>Document ID: D0002DF4D9</div>
-                            </div>
+                            <div class="text-[0.4rem] tracking-[0.1em] uppercase text-paper/30 mt-1.5">Local Courts of New South Wales · Case No. 2025/00341907</div>
                         </div>
-
-                        <!-- Why this is higher authority -->
-                        <div class="border-l-4 pl-4 mb-5" style="border-color:rgba(201,138,16,0.5);background:rgba(201,138,16,0.04);padding:0.85rem 1rem 0.85rem 1.1rem">
-                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-1.5">Why This Document Carries Greater Authority</div>
-                            <p class="text-[0.6rem] text-paper/50 leading-relaxed">A <strong class="text-paper/65">Notice of Orders Made</strong> is an administrative notification — it records that orders were made but is not itself the court's formal instrument. A <strong class="text-paper/65">Judgment/Order (Form 43, UCPR 36.11)</strong> is the official sealed document of the court, issued through the Electronic Case Management System, bearing the Local Court of NSW seal, and signed by a Registrar. It is the document used to enforce the judgment — for garnishment, enforcement warrants, or registration against property. This document was issued today, 20 May 2026, and is now published here.</p>
-                        </div>
-
-                        <!-- Embedded PDF -->
-                        <div class="text-[0.44rem] tracking-[0.15em] uppercase text-sage/60 mb-2">Judgment/Order — Full Document · Form 43 · UCPR 36.11 · Sealed</div>
-                        <div class="border reveal" style="border-color:rgba(61,122,74,0.3)">
-                            <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/B20260520-15403861_Request+for+Copy+of+Judgment_14532404_202500341907_001.pdf"
-                                    class="w-full"
-                                    style="min-height:520px;height:520px;border:none;filter:brightness(0.93)"
-                                    loading="lazy"
-                                    title="Judgment/Order — Adam Watson v West Kira — Local Court NSW — Case 2025/00341907"></iframe>
-                        </div>
-                        <div class="text-[0.4rem] tracking-[0.1em] uppercase text-paper/25 mt-1.5">Local Court of NSW · Form 43 · UCPR 36.11 · Case 2025/00341907 · Sealed 20 May 2026 · Registrar A. Giles · Document ID D0002DF4D9</div>
-
-                        <!-- Evidence vault entry -->
-                        <div class="evidence-vault mt-4">
-                            <div class="ev-header" onclick="toggleVault(this)">
-                                <div class="flex items-center gap-2">
-                                    <span class="text-[0.48rem] tracking-[0.22em] uppercase text-sage">📁 Judgment/Order — Adam Watson v West Kira</span>
-                                    <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Local Court NSW · Sealed · Form 43</span>
-                                </div>
-                                <div class="flex items-center gap-3">
-                                    <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
-                                    <span class="ev-toggle">▼</span>
-                                </div>
+                        <div class="space-y-3">
+                            <div class="border border-sage/20 p-3" style="background:rgba(61,122,74,0.04)">
+                                <div class="text-[0.44rem] tracking-[0.15em] uppercase text-sage mb-1.5">Case Title</div>
+                                <div class="text-[0.6rem] text-paper/55 leading-relaxed">Adam Watson v West Kira · Local Courts of New South Wales</div>
                             </div>
-                            <div class="ev-body">
-                                <div class="ev-file ef-sage" onclick="openMV('pdf-west-kira-judgment')">
-                                    <div class="ev-icon ev-pdf">PDF</div>
-                                    <div class="ev-meta">
-                                        <div class="ev-name">Judgment_Order_WestKira_2025-00341907.pdf — Form 43 · UCPR 36.11 · Sealed</div>
-                                        <div class="ev-desc">Adam Watson v West Kira · Local Court of NSW · $10,958.00 incl. costs · Entered 3 Feb 2026 · Issued &amp; sealed 20 May 2026 · Registrar A. Giles</div>
-                                    </div>
-                                    <div class="ev-cta">View →</div>
-                                </div>
+                            <div class="border border-sage/20 p-3" style="background:rgba(61,122,74,0.04)">
+                                <div class="text-[0.44rem] tracking-[0.15em] uppercase text-sage mb-1.5">Case Number</div>
+                                <div class="font-mono text-[0.62rem] text-paper/65">2025/00341907</div>
+                            </div>
+                            <div class="border border-sage/20 p-3" style="background:rgba(61,122,74,0.04)">
+                                <div class="text-[0.44rem] tracking-[0.15em] uppercase text-sage mb-1.5">Judgment</div>
+                                <div class="text-[0.6rem] text-paper/55 leading-relaxed">West Kira (First Defendant) is to pay Adam Watson (First Plaintiff) the sum of <strong class="text-paper/70">$10,958.00 inclusive of costs</strong></div>
+                            </div>
+                            <div class="border border-sage/20 p-3" style="background:rgba(61,122,74,0.04)">
+                                <div class="text-[0.44rem] tracking-[0.15em] uppercase text-sage mb-1.5">Date of Orders</div>
+                                <div class="text-[0.6rem] text-paper/55 leading-relaxed">3 February 2026 · Issued by Registrar</div>
                             </div>
                         </div>
-                    </div>
-                </div>
-
-                <!-- Lottery / email intercept incident -->
-                <div class="border-l-4 border-hot/50 pl-5 mt-6 mb-6" style="background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
-                    <div class="flex items-center gap-2 mb-2">
-                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">New Incident</span>
-                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-gold/40 text-gold px-1.5 py-0.5">⬤ IN RECOVERY</span>
-                    </div>
-                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">$200,000 LOTTERY WIN.<br><span class="text-hot">BODIE INTERCEPTED THE EMAIL. GAVE AWAY THE BANK DETAILS.</span></h4>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Adam Watson won $200,000 through Adrian Portelli's lottery. A notification email was sent requesting his bank deposit details so the winnings could be transferred. Bodie Chalmers — who had obtained access to Adam Watson's emails — intercepted that email and replied to it himself, providing his own bank deposit details in Adam's name. The $200,000 was directed to Bodie Chalmers's account.</p>
-                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-4">
-                        <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
-                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-1">The Win</div>
-                            <div class="font-display text-2xl text-gold mb-1">$200,000</div>
-                            <p class="text-[0.55rem] text-paper/38 leading-relaxed">Adam Watson gambling on Adrian Portelli's lottery. Legitimate win. Notification sent to his email account.</p>
-                        </div>
-                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
-                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-1">The Intercept</div>
-                            <div class="font-display text-base text-hot mb-1">Email Access</div>
-                            <p class="text-[0.55rem] text-paper/38 leading-relaxed">Bodie had gained access to Adam Watson's email account. He saw the lottery notification, replied to it with his own bank deposit details, and redirected the transfer.</p>
-                        </div>
-                        <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.18)">
-                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-paper/30 mb-1">Status</div>
-                            <div class="font-display text-base text-paper/60 mb-1">In Recovery</div>
-                            <p class="text-[0.55rem] text-paper/38 leading-relaxed">The $200,000 is currently in recovery. The intercept adds to the fraud charges Bodie Chalmers is already facing.</p>
-                        </div>
-                    </div>
-                    <div class="space-y-2">
-                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed"><strong class="text-paper/58">The access:</strong> Bodie Chalmers obtained access to Adam Watson's email account. The mechanism by which he did so is consistent with the broader pattern of covert surveillance documented across this chapter — Apple location access obtained without knowledge, tracking device on the fuel cap, and now email account access.</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed"><strong class="text-paper/58">The reply:</strong> Rather than alert Adam Watson to the lottery notification, Bodie replied directly to the sender — impersonating Adam — and submitted his own bank deposit details. The transfer proceeded on the basis of those details.</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed"><strong class="text-paper/58">Recovery underway:</strong> The $200,000 is currently being recovered. This incident is part of the broader fraud charges Bodie Chalmers faces — he is already looking at 3 years for defrauding Adam Watson across the pattern of conduct documented in this chapter.</p></div>
                     </div>
                 </div>
 
@@ -4160,24 +3466,6 @@
                             <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">The Consequence</div>
                             <div class="font-display text-xl text-hot mb-2">FIRED &amp;<br>BLACKLISTED</div>
                             <p class="text-[0.62rem] text-paper/40 leading-relaxed">The associate was fired and will be blacklisted from working in any finance position. Her career — destroyed by choosing to do a favour for Grason Andrew Kira.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ATO Update -->
-                <div class="story-chapter reveal mt-10" style="border-left-color:rgba(201,138,16,0.5)">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Update — Australian Taxation Office</span>
-                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-gold/25 text-gold/60 px-1.5 py-0.5">⬤ Active Investigation</span>
-                    </div>
-                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">KIRA'S DAD HAS BEEN CHARGED.<br><span class="text-gold">THE ATO IS NOW GOING THROUGH THE BOOKS OF KIRA & KIRA.</span></h3>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Following the charging of Kira's father, the Australian Taxation Office has opened an investigation into the records of Kira & Kira. A charge against a principal of a business alleged to be operating as a front for cocaine distribution does not stay contained — it opens the financial records of the entire operation to regulatory scrutiny. The ATO is now going through those books.</p>
-                    <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.04)">
-                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">Why This Matters</div>
-                        <div class="space-y-2">
-                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">A front operation that moves cocaine through furniture transactions will have financial records that do not match a legitimate retail business. Cash flows, invoice patterns, and declared income will be scrutinised against the alleged volume of drug movement.</p></div>
-                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">The ATO's access to business records is broad — tax obligations, GST, undeclared income, and unexplained cash are all within scope. A charge against a principal provides the trigger for a full examination of the entity's finances.</p></div>
-                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">This investigation is independent of the criminal charges — it runs on a separate track and can produce its own findings, penalties, and referrals regardless of the outcome of the criminal matter.</p></div>
                         </div>
                     </div>
                 </div>
@@ -4531,6 +3819,7 @@
     </div>
 </section>
 
+
 <!-- ══════════════════════════════════════
      GRAHAM GORDON — STALKING CHARGE
 ══════════════════════════════════════ -->
@@ -4560,6 +3849,82 @@
                 <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE ARREST DOCUMENTATION<br><span class="text-gold">GOES TO THE CIVIL TRIAL.</span></h3>
                 <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Adam Watson is producing the arrest documentation to the Civil trial. This is not a parallel proceeding that can be isolated from the strata dispute — it is directly relevant to the credibility of Graham Gordon as a party and witness. A Strata Committee Chairman who has been charged with stalking and intimidating the person he is pursuing through civil proceedings cannot claim that credibility is a separate question.</p>
                 <p class="text-[0.72rem] leading-relaxed text-paper/45">The civil proceedings are Gordon's attempt to use the Court system as a pressure mechanism. The arrest documentation is Adam Watson's answer: evidence that the person running those proceedings has been charged with a criminal offence specifically directed at suppressing his ability to participate in them.</p>
+            </div>
+        </div>
+
+        <!-- Armed home invasion -->
+        <div class="story-chapter reveal mb-6" style="border-left-color:rgba(193,68,14,0.9)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Armed Home Invasion — Adam Watson's Residence</span>
+                <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/20 border border-paper/10 px-2 py-0.5">Directly Connected to Graham Gordon · All Four Charged</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">TWO RUSSIANS. TWO CANADIANS. A GUN TO HIS HEAD.<br><span class="text-hot">FLASHBANG THROUGH THE WINDOW. GORDON CHARGED.</span></h3>
+            <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-6">"Graham Gordon sent four men to Adam Watson's house to tell him to back off. Two Russians and two Canadians. One held a gun to Adam's head. Adam wet himself. The enforcer pushed his face into the urine. Then the flashbang came through the window. All four charged. All four testified against Gordon immediately. The charge sheet goes to Civil Court."</p>
+
+            <!-- Sequence of events -->
+            <div class="space-y-px mb-6" style="background:rgba(245,234,212,0.03)">
+                <div class="grid grid-cols-[56px_1fr] gap-4 p-4 border-l-2 border-hot/60" style="background:rgba(12,8,4,0.6)">
+                    <div class="text-center pt-0.5">
+                        <div class="text-[0.65rem] tracking-[0.08em] uppercase font-bold text-hot">01</div>
+                        <div class="text-[0.42rem] text-paper/30 mt-0.5">Entry</div>
+                    </div>
+                    <div>
+                        <div class="text-[0.65rem] font-display tracking-wide text-paper/80 mb-1">Four men enter Adam Watson's house</div>
+                        <div class="text-[0.58rem] leading-relaxed text-paper/45">Graham Gordon sends two Russians and two Canadians to Adam's address. They enter the house without invitation. Gordon's purpose is explicit: make Adam Watson back off from his investigation into the strata fraud.</div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-[56px_1fr] gap-4 p-4 border-l-2 border-hot/70" style="background:rgba(12,8,4,0.5)">
+                    <div class="text-center pt-0.5">
+                        <div class="text-[0.65rem] tracking-[0.08em] uppercase font-bold text-hot">02</div>
+                        <div class="text-[0.42rem] text-paper/30 mt-0.5">Warning</div>
+                    </div>
+                    <div>
+                        <div class="text-[0.65rem] font-display tracking-wide text-paper/80 mb-1">"Police — call police! Tell them to come with no sirens!"</div>
+                        <div class="text-[0.58rem] leading-relaxed text-paper/45">Realising what is happening, Adam Watson calls out — to whoever can hear — to contact police, and critically: <em>to come without sirens.</em> The instruction is deliberate. Sirens announce the arrival. No sirens means the men inside do not hear them coming. A neighbour hears Adam. The call is made. Police respond quickly.</div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-[56px_1fr] gap-4 p-4 border-l-2" style="background:rgba(193,68,14,0.12);border-color:rgba(193,68,14,0.8)">
+                    <div class="text-center pt-0.5">
+                        <div class="text-[0.65rem] tracking-[0.08em] uppercase font-bold text-hot">03</div>
+                        <div class="text-[0.42rem] text-paper/30 mt-0.5">The Gun</div>
+                    </div>
+                    <div>
+                        <div class="text-[0.65rem] font-display tracking-wide mb-1" style="color:rgba(245,234,212,0.9)">One of the men holds a gun to Adam Watson's head</div>
+                        <div class="text-[0.58rem] leading-relaxed text-paper/50">One of the four men produces a firearm and places it against Adam Watson's head. Adam Watson is so frightened that he urinates. The enforcer then grabs Adam Watson's head and pushes it into the urine on the floor. The message delivered verbally is the same as the one delivered physically: <strong class="text-paper/65">back off from the investigation into Graham Gordon.</strong></div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-[56px_1fr] gap-4 p-4 border-l-2 border-gold/60" style="background:rgba(12,8,4,0.5)">
+                    <div class="text-center pt-0.5">
+                        <div class="text-[0.65rem] tracking-[0.08em] uppercase font-bold text-gold">04</div>
+                        <div class="text-[0.42rem] text-paper/30 mt-0.5">Entry</div>
+                    </div>
+                    <div>
+                        <div class="text-[0.65rem] font-display tracking-wide text-paper/80 mb-1">Police flashbang through the window</div>
+                        <div class="text-[0.58rem] leading-relaxed text-paper/45">Police, who have arrived without sirens at Adam's request, deploy a flashbang through the window. The four men are disoriented immediately. All four are arrested on site. None escape.</div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-[56px_1fr] gap-4 p-4 border-l-2 border-sage/60" style="background:rgba(61,122,74,0.06)">
+                    <div class="text-center pt-0.5">
+                        <div class="text-[0.65rem] tracking-[0.08em] uppercase font-bold text-sage">05</div>
+                        <div class="text-[0.42rem] text-paper/30 mt-0.5">Ratted</div>
+                    </div>
+                    <div>
+                        <div class="text-[0.65rem] font-display tracking-wide text-paper/80 mb-1">All four immediately testify against Graham Gordon</div>
+                        <div class="text-[0.58rem] leading-relaxed text-paper/45">Immediately upon arrest, all four men cooperate with police. They identify Graham Gordon as the person who instructed them to attend Adam Watson's address and deliver the warning. Their testimony is the direct evidence linking Gordon to the incident. Gordon is charged.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Civil court consequence -->
+            <div class="border border-gold/25 p-5 mb-5" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-3">The Charge Sheet Goes to Civil Court</div>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The criminal charge sheet arising from the home invasion is being produced directly to the Civil Court proceedings. Graham Gordon is a party to civil litigation against Adam Watson. A person who has been criminally charged for sending armed men to the home of the person he is suing — to threaten that person with a firearm and physically assault him — cannot present himself to a Civil Court as a credible party.</p>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">The charge sheet does not merely undermine Gordon's credibility. It exposes the nature of the campaign: the civil proceedings were the legal instrument, and the armed home invasion was the backup plan when the legal instrument moved too slowly. Presenting both to the Civil Court places the full picture on the record — and makes it impossible to argue that the litigation was pursued in good faith.</p>
+            </div>
+
+            <div class="border border-paper/[0.08] px-5 py-4" style="background:rgba(193,68,14,0.03)">
+                <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The Composition of the Group</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">Two Russians and two Canadians. The group was not assembled from Adam Watson's immediate social circle or neighbourhood — these were not people with a prior grievance. They were sent. The composition of the group, the manner of entry, the specific verbal message delivered alongside the physical assault, and the fact that all four immediately identified Gordon when arrested — all point to a directed, paid, professional intimidation operation. This is not a dispute that got out of hand. It was organised.</p>
             </div>
         </div>
 
@@ -5244,57 +4609,6 @@
                 <div class="stat-number text-4xl text-paper/50 mb-1">0</div>
                 <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Suppression orders</div>
                 <div class="text-[0.5rem] text-paper/18 mt-1">Public record — no gag</div>
-            </div>
-        </div>
-
-        <!-- Robert Huang — Consent Order Interference + New Incidents -->
-        <div class="story-chapter reveal mb-10 mt-10" style="border-left-color:rgba(193,68,14,0.5)">
-            <div class="flex items-center gap-3 mb-4">
-                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Update — Robert Huang · Consent Order · Winding Up · Commonwealth Bank</span>
-            </div>
-            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">ROBERT HUANG WENT BEHIND ADAM WATSON'S BACK.<br><span class="text-hot">THE JUDGE IS FURIOUS. $30M IN PROPERTIES GOING TO A FIRE SALE.</span></h3>
-
-            <div class="space-y-5 text-[0.72rem] leading-relaxed text-paper/50 mb-6">
-                <p>Robert Huang — the director of PSR Crown Investments Pty Ltd and technically the victim of the Winding Up application in this matter — called the Court following execution of the Consent Order and attempted to have Adam Watson removed from the parties receiving a payment under it. He also attempted to have Graham Gordon removed. He did this without Adam Watson's knowledge or consent.</p>
-                <p>The Registrar took a very dim view of this conduct. The Registrar has notified the Judge. The Judge is furious. As a direct consequence of Huang's actions, Adam Watson's companies are now going to be liquidated. Those companies hold approximately $30 million worth of properties — secured by high mortgages. A court-appointed liquidator will sell them, at a fire sale price. The people who lent Robert Huang money will lose a significant amount of what they are owed.</p>
-                <p>Robert Huang could have had something. The Consent Order gave him a real, enforceable outcome. He chose instead to go behind Adam Watson's back, to approach the Court unilaterally, and to attempt to strip payments from parties who had agreed to them. That decision has now produced a much worse result for everyone connected to those assets — including the lenders who had nothing to do with the dispute.</p>
-            </div>
-
-            <!-- Consequence breakdown -->
-            <div class="border border-hot/25 p-5 mb-6" style="background:rgba(193,68,14,0.05)">
-                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-4">The Consequence — What Going Behind Adam Watson's Back Has Cost</div>
-                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">The Action</div>
-                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Called the Court. Attempted to remove Adam Watson and Graham Gordon from the Consent Order payment schedule. Done without notice or consent from either party.</p>
-                    </div>
-                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">The Response</div>
-                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Registrar notified the Judge. Judge furious. Adam Watson's companies now to be liquidated as a direct consequence of Huang's conduct behind his back.</p>
-                    </div>
-                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">The Cost</div>
-                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">~$30M in properties. High mortgages. Fire sale by court-appointed liquidator. Lenders exposed to significant losses. An outcome that could have been avoided.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Trent Long / Crown Street / CBA -->
-            <div class="border-l-4 border-hot/55 pl-5 mb-6" style="background:rgba(193,68,14,0.05);padding:1rem 1rem 1rem 1.25rem">
-                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">Separate Matter — Trent Long · U1302/51 Crown Street, Wollongong · Commonwealth Bank</div>
-                <p class="text-[0.65rem] text-paper/55 leading-relaxed mb-3">Robert Huang has a separate dispute on with Trent Long — one of his tenants at Unit 1302, 51 Crown Street, Wollongong NSW. Robert had a Commonwealth Bank loan secured by mortgage against that property. He then borrowed $1.7 million from an Asian investor — separately, against the same property — without disclosing to the investor that the Commonwealth Bank already held a first mortgage over it, and without obtaining the Commonwealth Bank's approval.</p>
-                <p class="text-[0.65rem] text-paper/55 leading-relaxed mb-3">Trent Long notified the Commonwealth Bank. The Commonwealth Bank is now issuing a Notice to Complete the mortgage — a 28-day notice — on the basis that the mortgage contract expressly prohibits the borrower from lending against a property mortgaged to the Commonwealth Bank without the prior written approval of the first mortgagee. That approval was never sought. The $1.7 million was raised without it.</p>
-                <p class="text-[0.65rem] text-paper/55 leading-relaxed">The investor who provided the $1.7 million was not told the property was already encumbered by a Commonwealth Bank mortgage. That is a material fact in the context of any secured loan. The 28-day Notice to Complete places the loan into default. What follows — for the mortgage, for the $1.7 million, and for the investor who was not given a full picture — is now in motion.</p>
-            </div>
-
-            <div class="border border-paper/[0.07] p-5" style="background:rgba(0,0,0,0.18)">
-                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/28 mb-3">Robert Huang — Documented Conduct</div>
-                <div class="space-y-2">
-                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Contacted the Court unilaterally after Consent Order execution to remove parties from the payment schedule — without notice to or consent from Adam Watson.</p></div>
-                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Attempted to have both Adam Watson and Graham Gordon stripped from a Consent Order all parties had signed — a Consent Order that gave Huang a real outcome.</p></div>
-                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Borrowed $1.7M from an investor against a CBA-mortgaged property without disclosing the first mortgage and without CBA approval — in direct breach of the mortgage contract.</p></div>
-                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Result: ~$30M in properties facing fire sale by liquidator. Lenders exposed. An outcome caused entirely by his own actions.</p></div>
-                </div>
             </div>
         </div>
 
@@ -6005,36 +5319,6 @@ var EVIDENCE = {
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/statement_of_claim_west_kira.pdf',
         filename:'statement_of_claim_west_kira.pdf'
     },
-    'pdf-original-publication': {
-        type:'pdf',
-        title:'ORIGINAL PUBLICATION — R J! LET THERE BE LIGHT (EPISODE 1)',
-        tag:'Kosta Kondratenko · Original Website · Predecessor to Sunlight.Quest · August 2025',
-        meta:'PDF · 28 pages · Full screenshot capture · Left at firebombing crime scene · Adam Watson\'s mother\'s house',
-        desc:'The original publication that preceded Sunlight.Quest — titled "R J! Let There Be Light — Episode 1." Sections covered: RJ (police informant, paedophile ring allegations), Aaron Barker (QPS), Marc Barrow (QPS), Bodie Chalmers ("The Loverboy That Claims He Was Touched"), Lauren Forbes (Sky News), Gold Coast Council homeless policy, and more. This is the document that Bodie Chalmers\'s associates teased him about — triggering the firebombing of Adam Watson\'s mother\'s home. Pages from this document were deliberately left at the crime scene.',
-        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/screencapture-sunlight-quest-test-2025-08-09-13_00_06-compressed.pdf',
-        filename:'RJ_Let_There_Be_Light_Episode1_Original_Publication.pdf',
-        pages: 28
-    },
-    'pdf-wk-examination-order': {
-        type:'pdf',
-        title:'EXAMINATION ORDER — WEST KIRA · LOCAL COURT OF NSW',
-        tag:'Form 54 UCPR 38.3 · Watson v West Kira · Case 2025/00341907 · Issued 1 June 2026',
-        meta:'PDF · 2 pages · Form 54 (version 1) UCPR 38.3 · Document ID D0002DOIXL · Issued 1 June 2026 3:25 PM',
-        desc:'Examination Order issued by the Local Court of NSW requiring West Kira (98 Jabiru Avenue, Burleigh Waters QLD 4220) to attend Tweed Heads Local Court on 17 July 2026 at 9:30 AM. West Kira must produce full bank statements (6 months), current account balances, title deeds, vehicle registrations, income documents (payslips, Centrelink, tax returns), and details of all financial institutions. Judgment creditor: Adam Watson. Judgment debtor: West Kira. Non-attendance: may be arrested. This order follows the sealed Judgment/Order of 20 May 2026 for $10,958.00.',
-        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/west_kira_examination_notice.pdf',
-        filename:'west_kira_examination_notice.pdf',
-        pages: 2
-    },
-    'pdf-west-kira-judgment': {
-        type:'pdf',
-        title:'JUDGMENT/ORDER — ADAM WATSON v WEST KIRA · LOCAL COURT NSW',
-        tag:'Form 43 · UCPR 36.11 · Local Court of NSW · Sealed · 20 May 2026',
-        meta:'PDF · Judgment/Order · Form 43 UCPR 36.11 · Sealed · Registrar A. Giles · Document ID D0002DF4D9',
-        desc:'The formal Judgment/Order (Form 43, UCPR 36.11) in Adam Watson v West Kira, Case No. 2025/00341907. West Kira (First Defendant) is ordered to pay Adam Watson (First Plaintiff) $10,958.00 inclusive of costs. Judgment made and entered 3 February 2026. Issued and sealed by Registrar A. Giles on 20 May 2026. Bearing the official Local Court of NSW seal. This is the enforcement-ready court document — of higher authority than the earlier Notice of Orders Made.',
-        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/B20260520-15403861_Request+for+Copy+of+Judgment_14532404_202500341907_001.pdf',
-        filename:'Judgment_Order_WestKira_2025-00341907.pdf',
-        pages: 2
-    },
     'video-wk-glasses': {
         type:'video',
         title:'WEST KIRA — GLASSES INCIDENT',
@@ -6407,89 +5691,8 @@ function seekToChapterEp2(index) {
     for(var i=0;i<tracks.length;i++){if(tracks[i].kind==='chapters'){ct=tracks[i];break;}}
     if(ct&&ct.cues&&ct.cues.length>index){p.currentTime=ct.cues[index].startTime;}
     else{var d=p.duration||0;if(d>0)p.currentTime=(d/8)*index;}
-    p.play().catch(function(){});
     document.getElementById('player-ep2').scrollIntoView({behavior:'smooth',block:'center'});
-    document.querySelectorAll('[data-chap-ep2]').forEach(function(el) {
-        var match = parseInt(el.getAttribute('data-chap-ep2'),10) === index;
-        el.style.background = match ? 'rgba(124,106,170,0.1)' : '';
-        el.style.borderColor = match ? 'rgba(124,106,170,0.4)' : 'transparent';
-    });
 }
-
-
-// ── VIDSTACK PLAYER EP2 INIT ──
-(function() {
-    var VTT_CONTENT = [
-        'WEBVTT',
-        '',
-        '00:00:00.000 --> 00:02:00.000',
-        "Adam's Story",
-        '',
-        '00:02:00.000 --> 00:04:00.000',
-        'Samira',
-        '',
-        '00:04:00.000 --> 00:07:00.000',
-        'RJ \u2014 15 Incidents',
-        '',
-        '00:07:00.000 --> 00:09:00.000',
-        'Brazen Crime',
-        '',
-        '00:09:00.000 --> 00:10:00.000',
-        'Transition',
-        '',
-        '00:10:00.000 --> 00:13:00.000',
-        'Redress Scheme',
-        '',
-        '00:13:00.000 --> 00:16:00.000',
-        'Kira & Kira',
-        '',
-        '00:16:00.000 --> 00:20:00.000',
-        'Tasmania',
-    ].join('\n');
-
-    function initPlayerEp2() {
-        var el = document.getElementById('player-ep2');
-        if (!el) return;
-        if (typeof el.subscribe !== 'function') {
-            setTimeout(initPlayerEp2, 200);
-            return;
-        }
-        window.vidstackPlayerEp2 = el;
-
-        var track = document.getElementById('ep2-chapters-track');
-        if (track) {
-            var blob = new Blob([VTT_CONTENT], {type: 'text/vtt'});
-            track.src = URL.createObjectURL(blob);
-        }
-
-        el.subscribe(function(state) {
-            var time = state.currentTime;
-            var tracks = el.textTracks;
-            for (var i = 0; i < tracks.length; i++) {
-                if (tracks[i].kind === 'chapters') {
-                    var cues = tracks[i].cues;
-                    for (var j = 0; j < cues.length; j++) {
-                        if (time >= cues[j].startTime && time < cues[j].endTime) {
-                            document.querySelectorAll('[data-chap-ep2]').forEach(function(el2) {
-                                var match = parseInt(el2.getAttribute('data-chap-ep2'),10) === j;
-                                el2.style.background = match ? 'rgba(124,106,170,0.1)' : '';
-                                el2.style.borderColor = match ? 'rgba(124,106,170,0.4)' : 'transparent';
-                            });
-                            break;
-                        }
-                    }
-                    break;
-                }
-            }
-        });
-    }
-
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initPlayerEp2);
-    } else {
-        initPlayerEp2();
-    }
-})();
 
 // ── SMS ──
 function handleSMS(e) {
@@ -6545,330 +5748,6 @@ document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el);});
         </div>
     </div>
 </footer>
-
-<!-- ══════════════════════════════════════
-     SUBMIT A TIP MODAL
-══════════════════════════════════════ -->
-<div id="sq-modal" class="sq-modal" onclick="sqModalBackdropClick(event)">
-    <div class="sq-card" role="dialog" aria-modal="true" aria-labelledby="sq-modal-title">
-
-        <!-- Header -->
-        <div class="sq-header">
-            <div>
-                <div class="sq-wordmark">SUNLIGHT<span style="color:#7c6aaa">.QUEST</span></div>
-                <div id="sq-modal-title" class="sq-tagline">Submit a Tip — Episode 02</div>
-            </div>
-            <button class="sq-close" onclick="closeTipModal()" aria-label="Close">✕</button>
-        </div>
-
-        <!-- Success state -->
-        <div id="sq-success-state" style="display:none; padding:2.5rem 2rem; text-align:center;">
-            <div style="font-size:2rem; margin-bottom:1rem;">✓</div>
-            <div style="font-family:'Space Grotesk',sans-serif; font-size:1.1rem; color:#f5ead4; margin-bottom:0.5rem;">Tip Received</div>
-            <div style="font-size:0.75rem; color:#f5ead4; opacity:0.55; line-height:1.6;">Thank you. Your submission has been logged securely. If you provided contact details, we may follow up.</div>
-            <button onclick="closeTipModal()" style="margin-top:1.5rem; background:#7c6aaa; color:#fff; border:none; border-radius:6px; padding:0.6rem 1.6rem; font-size:0.78rem; letter-spacing:0.1em; cursor:pointer; text-transform:uppercase;">Close</button>
-        </div>
-
-        <!-- Form -->
-        <div id="sq-form-body">
-
-            <!-- Section 1: Subject -->
-            <div class="sq-section">
-                <div class="sq-section-label">01 — Subject</div>
-                <div style="margin-bottom:0.75rem;">
-                    <label class="sq-label" for="sq-subject">Who is this tip about?</label>
-                    <select id="sq-subject" class="sq-input">
-                        <option value="">— Select a subject —</option>
-                        <option value="Bodie Chalmers">Bodie Chalmers</option>
-                        <option value="West Kira">West Kira</option>
-                        <option value="Grason Andrew Kira">Grason Andrew Kira</option>
-                        <option value="Samira Khalaj">Samira Khalaj</option>
-                        <option value="Alex Vourliotis">Alex Vourliotis</option>
-                        <option value="Graham Gordon">Graham Gordon</option>
-                        <option value="Kane Singleton">Kane Singleton</option>
-                        <option value="Z Soielman">Z Soielman</option>
-                        <option value="Kira Steinhaus">Kira Steinhaus</option>
-                        <option value="other">Other / Multiple</option>
-                    </select>
-                </div>
-                <div id="sq-subject-other-wrap" style="display:none; margin-bottom:0.75rem;">
-                    <label class="sq-label" for="sq-subject-other">Please specify</label>
-                    <input id="sq-subject-other" class="sq-input" type="text" placeholder="Name or description">
-                </div>
-                <div>
-                    <label class="sq-label" for="sq-summary">Summary of what you know <span style="color:#c1440e">*</span></label>
-                    <textarea id="sq-summary" class="sq-input" rows="4" placeholder="Describe what you witnessed, know, or have heard. Be as specific as possible — dates, locations, amounts, names."></textarea>
-                </div>
-            </div>
-
-            <!-- Section 2: Evidence -->
-            <div class="sq-section">
-                <div class="sq-collapsible" onclick="sqToggle('sq-evidence-body', this)">
-                    <span>02 — Evidence <span style="font-size:0.62rem; opacity:0.4; font-weight:400;">(optional)</span></span>
-                    <span class="sq-toggle-icon">＋</span>
-                </div>
-                <div id="sq-evidence-body" style="display:none; padding-top:0.75rem;">
-                    <div style="margin-bottom:0.75rem;">
-                        <label class="sq-label">Evidence type</label>
-                        <div style="display:flex; flex-wrap:wrap; gap:0.5rem;">
-                            <label class="sq-pill"><input type="radio" name="sq-evidence-type" value="documents"> Documents</label>
-                            <label class="sq-pill"><input type="radio" name="sq-evidence-type" value="photos"> Photos / Video</label>
-                            <label class="sq-pill"><input type="radio" name="sq-evidence-type" value="recordings"> Recordings</label>
-                            <label class="sq-pill"><input type="radio" name="sq-evidence-type" value="financial"> Financial records</label>
-                            <label class="sq-pill"><input type="radio" name="sq-evidence-type" value="correspondence"> Correspondence</label>
-                            <label class="sq-pill"><input type="radio" name="sq-evidence-type" value="other"> Other</label>
-                        </div>
-                    </div>
-                    <div style="margin-bottom:0.75rem;">
-                        <label class="sq-label" for="sq-drive-link">Shared drive link (Google Drive, Dropbox, etc.)</label>
-                        <input id="sq-drive-link" class="sq-input" type="url" placeholder="https://drive.google.com/...">
-                    </div>
-                    <div style="margin-bottom:0.75rem;">
-                        <label class="sq-label" for="sq-direct-url">Direct URL to file or page</label>
-                        <input id="sq-direct-url" class="sq-input" type="url" placeholder="https://...">
-                    </div>
-                    <div>
-                        <label class="sq-label" for="sq-evidence-desc">Describe the evidence</label>
-                        <textarea id="sq-evidence-desc" class="sq-input" rows="3" placeholder="What does the evidence show? How did you obtain it?"></textarea>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Section 3: Physical pickup -->
-            <div class="sq-section">
-                <div class="sq-collapsible" onclick="sqToggle('sq-pickup-body', this)">
-                    <span>03 — Physical Pickup <span style="font-size:0.62rem; opacity:0.4; font-weight:400;">(optional)</span></span>
-                    <span class="sq-toggle-icon">＋</span>
-                </div>
-                <div id="sq-pickup-body" style="display:none; padding-top:0.75rem;">
-                    <div class="sq-toggle-row" style="margin-bottom:0.75rem;">
-                        <span class="sq-label" style="margin-bottom:0;">I have physical documents that need to be collected</span>
-                        <button id="sq-pickup-toggle" class="sq-toggle" onclick="sqTogglePickup()" aria-pressed="false">OFF</button>
-                    </div>
-                    <div id="sq-pickup-details" style="display:none;">
-                        <div style="margin-bottom:0.75rem;">
-                            <label class="sq-label" for="sq-pickup-suburb">Your suburb / area</label>
-                            <input id="sq-pickup-suburb" class="sq-input" type="text" placeholder="e.g. Wollongong, Sydney CBD">
-                        </div>
-                        <div style="margin-bottom:0.75rem;">
-                            <label class="sq-label" for="sq-pickup-timing">Best time for pickup</label>
-                            <input id="sq-pickup-timing" class="sq-input" type="text" placeholder="e.g. weekday mornings, any time">
-                        </div>
-                        <div>
-                            <label class="sq-label" for="sq-pickup-notes">Additional notes</label>
-                            <textarea id="sq-pickup-notes" class="sq-input" rows="2" placeholder="Any special instructions or access requirements"></textarea>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Section 4: Background -->
-            <div class="sq-section">
-                <div class="sq-collapsible" onclick="sqToggle('sq-background-body', this)">
-                    <span>04 — Your Background <span style="font-size:0.62rem; opacity:0.4; font-weight:400;">(optional)</span></span>
-                    <span class="sq-toggle-icon">＋</span>
-                </div>
-                <div id="sq-background-body" style="display:none; padding-top:0.75rem;">
-                    <div style="margin-bottom:0.75rem;">
-                        <label class="sq-label">Your relation to the subject</label>
-                        <select id="sq-relation" class="sq-input">
-                            <option value="">— Prefer not to say —</option>
-                            <option value="former_associate">Former associate / colleague</option>
-                            <option value="neighbour">Neighbour</option>
-                            <option value="family">Family member</option>
-                            <option value="victim">Direct victim</option>
-                            <option value="witness">Witness</option>
-                            <option value="professional">Professional (legal, financial, medical)</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-                    <div class="sq-toggle-row" style="margin-bottom:0.75rem;">
-                        <span class="sq-label" style="margin-bottom:0;">Others can corroborate what I know</span>
-                        <button id="sq-corroboration-toggle" class="sq-toggle" onclick="sqToggle2('sq-corroboration-toggle')" aria-pressed="false">NO</button>
-                    </div>
-                    <div class="sq-toggle-row" style="margin-bottom:0.75rem;">
-                        <span class="sq-label" style="margin-bottom:0;">I have reported this to police or another authority</span>
-                        <button id="sq-reported-toggle" class="sq-toggle" onclick="sqToggle2('sq-reported-toggle')" aria-pressed="false">NO</button>
-                    </div>
-                    <div class="sq-toggle-row" style="margin-bottom:0;">
-                        <span class="sq-label" style="margin-bottom:0;">I have safety concerns about submitting this</span>
-                        <button id="sq-safety-toggle" class="sq-toggle" onclick="sqToggle2('sq-safety-toggle')" aria-pressed="false">NO</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Section 5: Contact -->
-            <div class="sq-section" style="border-bottom:none; margin-bottom:0; padding-bottom:0;">
-                <div class="sq-toggle-row" style="margin-bottom:1rem;">
-                    <div>
-                        <div class="sq-section-label" style="margin-bottom:0.15rem;">05 — Contact Details</div>
-                        <div style="font-size:0.65rem; color:#f5ead4; opacity:0.4;">Leave blank to submit anonymously</div>
-                    </div>
-                    <button id="sq-anon-toggle" class="sq-toggle sq-toggle--active" onclick="sqToggleAnon()" aria-pressed="true" style="background:#7c6aaa;">ANON</button>
-                </div>
-                <div id="sq-contact-fields" style="display:none;">
-                    <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.65rem; margin-bottom:0.65rem;">
-                        <div>
-                            <label class="sq-label" for="sq-contact-name">Name</label>
-                            <input id="sq-contact-name" class="sq-input" type="text" placeholder="Your name">
-                        </div>
-                        <div>
-                            <label class="sq-label" for="sq-contact-phone">Phone</label>
-                            <input id="sq-contact-phone" class="sq-input" type="tel" placeholder="0400 000 000">
-                        </div>
-                    </div>
-                    <div style="margin-bottom:0.65rem;">
-                        <label class="sq-label" for="sq-contact-email">Email</label>
-                        <input id="sq-contact-email" class="sq-input" type="email" placeholder="your@email.com">
-                    </div>
-                    <div style="margin-bottom:0.65rem;">
-                        <label class="sq-label">Preferred contact method</label>
-                        <div style="display:flex; flex-wrap:wrap; gap:0.5rem;">
-                            <label class="sq-pill"><input type="radio" name="sq-contact-pref" value="email"> Email</label>
-                            <label class="sq-pill"><input type="radio" name="sq-contact-pref" value="phone"> Phone</label>
-                            <label class="sq-pill"><input type="radio" name="sq-contact-pref" value="signal"> Signal</label>
-                            <label class="sq-pill"><input type="radio" name="sq-contact-pref" value="no_followup"> No follow-up</label>
-                        </div>
-                    </div>
-                    <div>
-                        <label class="sq-label" for="sq-contact-notes">Notes on how to reach you safely</label>
-                        <textarea id="sq-contact-notes" class="sq-input" rows="2" placeholder="e.g. Only call before 9am, use Signal not SMS"></textarea>
-                    </div>
-                </div>
-            </div>
-
-        </div><!-- /#sq-form-body -->
-
-        <!-- Footer / Submit -->
-        <div class="sq-footer" id="sq-form-footer">
-            <div style="font-size:0.6rem; color:#f5ead4; opacity:0.35; line-height:1.5; max-width:340px;">All submissions are encrypted and handled confidentially. Anonymous tips are accepted. We do not share sources.</div>
-            <button id="sq-submit-btn" onclick="sqSubmitEp2()" style="background:#7c6aaa; color:#fff; border:none; border-radius:6px; padding:0.65rem 1.8rem; font-size:0.75rem; letter-spacing:0.12em; text-transform:uppercase; cursor:pointer; font-family:'Space Grotesk',sans-serif; font-weight:600; white-space:nowrap;">SUBMIT TIP</button>
-        </div>
-        <div id="sq-error-msg" style="display:none; background:rgba(193,68,14,0.12); border:1px solid rgba(193,68,14,0.3); border-radius:6px; padding:0.6rem 0.85rem; margin:0 1.5rem 1rem; font-size:0.7rem; color:#c1440e;"></div>
-
-    </div><!-- /.sq-card -->
-</div><!-- /#sq-modal -->
-
-<script>
-function openTipModal(){
-    document.getElementById('sq-modal').classList.add('open');
-    document.body.style.overflow='hidden';
-}
-function closeTipModal(){
-    document.getElementById('sq-modal').classList.remove('open');
-    document.body.style.overflow='';
-}
-function sqModalBackdropClick(e){
-    if(e.target===document.getElementById('sq-modal')) closeTipModal();
-}
-function sqToggle(id, btn){
-    var el=document.getElementById(id);
-    var icon=btn?btn.querySelector('.sq-toggle-icon'):null;
-    if(el.style.display==='none'){
-        el.style.display='block';
-        if(icon) icon.textContent='－';
-    } else {
-        el.style.display='none';
-        if(icon) icon.textContent='＋';
-    }
-}
-function sqToggle2(btnId){
-    var btn=document.getElementById(btnId);
-    var active=btn.getAttribute('aria-pressed')==='true';
-    btn.setAttribute('aria-pressed',String(!active));
-    btn.textContent=active?'NO':'YES';
-    btn.style.background=active?'':'#7c6aaa';
-}
-function sqTogglePickup(){
-    var btn=document.getElementById('sq-pickup-toggle');
-    var active=btn.getAttribute('aria-pressed')==='true';
-    btn.setAttribute('aria-pressed',String(!active));
-    btn.textContent=active?'OFF':'ON';
-    btn.style.background=active?'':'#7c6aaa';
-    document.getElementById('sq-pickup-details').style.display=active?'none':'block';
-}
-function sqToggleAnon(){
-    var btn=document.getElementById('sq-anon-toggle');
-    var active=btn.getAttribute('aria-pressed')==='true';
-    btn.setAttribute('aria-pressed',String(!active));
-    btn.textContent=active?'NAMED':'ANON';
-    btn.style.background=active?'':'#7c6aaa';
-    document.getElementById('sq-contact-fields').style.display=active?'block':'none';
-}
-document.getElementById('sq-subject').addEventListener('change',function(){
-    document.getElementById('sq-subject-other-wrap').style.display=this.value==='other'?'block':'none';
-});
-async function sqSubmitEp2(){
-    var summary=(document.getElementById('sq-summary').value||'').trim();
-    if(!summary){
-        var em=document.getElementById('sq-error-msg');
-        em.textContent='Please provide a summary of what you know.';
-        em.style.display='block';
-        return;
-    }
-    document.getElementById('sq-error-msg').style.display='none';
-    var btn=document.getElementById('sq-submit-btn');
-    btn.disabled=true;
-    btn.textContent='SENDING...';
-    var isAnon=document.getElementById('sq-anon-toggle').getAttribute('aria-pressed')==='true';
-    var evType='';
-    var evRadio=document.querySelector('input[name="sq-evidence-type"]:checked');
-    if(evRadio) evType=evRadio.value;
-    var contactPref='';
-    var cpRadio=document.querySelector('input[name="sq-contact-pref"]:checked');
-    if(cpRadio) contactPref=cpRadio.value;
-    var payload={
-        subject: document.getElementById('sq-subject').value||'',
-        subject_other: document.getElementById('sq-subject-other').value||'',
-        summary: summary,
-        evidence_type: evType,
-        drive_link: document.getElementById('sq-drive-link').value||'',
-        direct_url: document.getElementById('sq-direct-url').value||'',
-        evidence_desc: document.getElementById('sq-evidence-desc').value||'',
-        wants_pickup: document.getElementById('sq-pickup-toggle').getAttribute('aria-pressed')==='true',
-        pickup_suburb: document.getElementById('sq-pickup-suburb').value||'',
-        pickup_timing: document.getElementById('sq-pickup-timing').value||'',
-        pickup_notes: document.getElementById('sq-pickup-notes').value||'',
-        relation_to_subject: document.getElementById('sq-relation').value||'',
-        has_corroboration: document.getElementById('sq-corroboration-toggle').getAttribute('aria-pressed')==='true',
-        reported_before: document.getElementById('sq-reported-toggle').getAttribute('aria-pressed')==='true',
-        safety_concern: document.getElementById('sq-safety-toggle').getAttribute('aria-pressed')==='true',
-        consents_publish: true,
-        is_anonymous: isAnon,
-        contact_name: isAnon?'':(document.getElementById('sq-contact-name').value||''),
-        contact_phone: isAnon?'':(document.getElementById('sq-contact-phone').value||''),
-        contact_email: isAnon?'':(document.getElementById('sq-contact-email').value||''),
-        contact_pref: isAnon?'':contactPref,
-        contact_notes: isAnon?'':(document.getElementById('sq-contact-notes').value||''),
-    };
-    try {
-        var res=await fetch('/api/tips',{
-            method:'POST',
-            headers:{'Content-Type':'application/json','Accept':'application/json'},
-            body:JSON.stringify(payload)
-        });
-        var data=await res.json();
-        if(res.ok && data.success){
-            document.getElementById('sq-form-body').style.display='none';
-            document.getElementById('sq-form-footer').style.display='none';
-            document.getElementById('sq-success-state').style.display='block';
-        } else {
-            var msg=(data&&data.message)?data.message:'Submission failed. Please try again.';
-            var em=document.getElementById('sq-error-msg');
-            em.textContent=msg;
-            em.style.display='block';
-            btn.disabled=false;
-            btn.textContent='SUBMIT TIP';
-        }
-    } catch(err) {
-        var em=document.getElementById('sq-error-msg');
-        em.textContent='Network error. Please check your connection and try again.';
-        em.style.display='block';
-        btn.disabled=false;
-        btn.textContent='SUBMIT TIP';
-    }
-}
-</script>
 
 </body>
 </html>

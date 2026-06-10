@@ -4,10 +4,6 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Sunlight.Quest — Episode 1: Gold Coast Uncovered</title>
-    <!-- Vidstack player -->
-    <link rel="stylesheet" href="https://cdn.vidstack.io/player/theme.css">
-    <link rel="stylesheet" href="https://cdn.vidstack.io/player/video.css">
-    <script src="https://cdn.vidstack.io/player" type="module"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -231,6 +227,7 @@
         <a href="#sms" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors">Subscribe</a>
         <button onclick="openTipModal()" class="hidden md:flex items-center gap-1.5 text-[0.55rem] tracking-[0.2em] uppercase border border-hot/50 hover:border-hot hover:bg-hot/10 px-3 py-1.5 text-hot transition-all">⊕ Submit a Tip</button>
         <a href="/episode-2" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-violet/50 px-3 py-1.5 transition-all" style="hover-color:#7c6aaa">Episode 2 →</a>
+        <button onclick="togglePanel()" class="flex items-center gap-2 border border-hot/50 hover:border-hot hover:bg-hot/10 px-3 py-2 transition-all text-[0.55rem] tracking-[0.15em] uppercase text-hot">☰ All Files</button>
         <span class="text-[0.52rem] tracking-[0.18em] uppercase text-gold border border-gold/60 px-3 py-1.5 blink">⬤ EP.01</span>
     </div>
 </nav>
@@ -335,17 +332,7 @@
             </div>
             <div class="fade-up" style="animation-delay:0.25s">
                 <div class="flex items-center gap-3 mb-2"><span class="text-[0.52rem] tracking-[0.2em] uppercase text-hot/60">▶ Now Playing — Navigate via chapters below</span></div>
-                <media-player
-                    id="player"
-                    title="Gold Coast Uncovered — Episode 1"
-                    src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/rj_confront.mp4"
-                    style="--media-brand:#c1440e;--media-focus-ring-color:rgba(193,68,14,0.45);--media-time-chapters-bg:rgba(193,68,14,0.5);width:100%;border:1px solid rgba(193,68,14,0.2);box-shadow:0 0 80px rgba(193,68,14,0.09)"
-                >
-                    <media-provider>
-                        <track id="ep1-chapters-track" kind="chapters" default />
-                    </media-provider>
-                    <media-video-layout></media-video-layout>
-                </media-player>
+                <div id="player" class="w-full aspect-video border border-hot/20" style="box-shadow:0 0 80px rgba(193,68,14,0.09),0 0 0 1px rgba(245,234,212,0.025)"></div>
             </div>
             <!-- Chapter nav below video -->
             <div class="fade-up mt-5 border border-paper/[0.07]" style="animation-delay:0.35s;background:rgba(12,8,4,0.7)">
@@ -399,12 +386,12 @@
             <div class="px-5 py-4 border-b border-paper/[0.06] flex-1 overflow-y-auto">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">Episode Chapters</div>
                 <div class="space-y-0.5">
-                    <div data-chap="0" onclick="seekToChapter(0)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">01</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Sandy Tulisi</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Rooming house fraud</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
-                    <div data-chap="1" onclick="seekToChapter(1)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-violet/5 border border-transparent hover:border-violet/20 cursor-pointer transition-all group"><span class="font-display text-violet text-sm w-5 shrink-0">02</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Privacy Breach</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Aquatic centre leak</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-violet transition-colors shrink-0">▶</span></div>
-                    <div data-chap="2" onclick="seekToChapter(2)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-gold/5 border border-transparent hover:border-gold/20 cursor-pointer transition-all group"><span class="font-display text-gold text-sm w-5 shrink-0">03</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Sky News</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Story that didn't run</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-gold transition-colors shrink-0">▶</span></div>
-                    <div data-chap="3" onclick="seekToChapter(3)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">04</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Oracle East</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Stalked & assaulted</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
-                    <div data-chap="4" onclick="seekToChapter(4)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">05</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">RJ — 7 Incidents</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Sex & Crime Squad</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
-                    <div data-chap="5" onclick="seekToChapter(5)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-violet/5 border border-transparent hover:border-violet/20 cursor-pointer transition-all group"><span class="font-display text-violet text-sm w-5 shrink-0">06</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Adam's Story</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Coercive control & DPP</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-violet transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapter(0)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">01</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Sandy Tulisi</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Rooming house fraud</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapter(1)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-violet/5 border border-transparent hover:border-violet/20 cursor-pointer transition-all group"><span class="font-display text-violet text-sm w-5 shrink-0">02</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Privacy Breach</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Aquatic centre leak</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-violet transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapter(2)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-gold/5 border border-transparent hover:border-gold/20 cursor-pointer transition-all group"><span class="font-display text-gold text-sm w-5 shrink-0">03</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Sky News</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Story that didn't run</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-gold transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapter(3)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">04</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Oracle East</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Stalked & assaulted</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapter(4)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-hot/5 border border-transparent hover:border-hot/20 cursor-pointer transition-all group"><span class="font-display text-hot text-sm w-5 shrink-0">05</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">RJ — 7 Incidents</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Sex & Crime Squad</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-hot transition-colors shrink-0">▶</span></div>
+                    <div onclick="seekToChapter(5)" class="flex items-center gap-3 py-2.5 px-3 hover:bg-violet/5 border border-transparent hover:border-violet/20 cursor-pointer transition-all group"><span class="font-display text-violet text-sm w-5 shrink-0">06</span><div class="flex-1 min-w-0"><div class="text-[0.65rem] text-paper/65 group-hover:text-paper transition-colors truncate">Adam's Story</div><div class="text-[0.52rem] text-paper/22 tracking-wider">Coercive control & DPP</div></div><span class="text-[0.52rem] text-paper/18 group-hover:text-violet transition-colors shrink-0">▶</span></div>
                 </div>
             </div>
             <div class="px-5 py-5">
@@ -534,6 +521,27 @@
 
         <div class="border-l-4 border-gold/50 pl-5 mb-8" style="background:rgba(201,138,16,0.04);padding:1rem 1rem 1rem 1.25rem">
             <p class="font-serif italic text-paper/60 text-base leading-relaxed">"Most people fight to keep their police record hidden. I put mine on camera. The difference between me and the people documented on this site is simple: I have nothing to fear from transparency. They do."</p>
+        </div>
+
+        <!-- Embedded police record -->
+        <div class="border border-gold/20 mb-6 overflow-hidden" style="background:rgba(201,138,16,0.02)">
+            <div class="flex items-center justify-between px-5 py-3 border-b border-gold/10" style="background:rgba(201,138,16,0.04)">
+                <div class="flex items-center gap-2">
+                    <span class="text-[0.48rem] tracking-[0.22em] uppercase text-gold">Queensland Person History · Full Police Record</span>
+                </div>
+                <div class="flex items-center gap-3">
+                    <span class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/30">All charges dropped or defeated · Zero convictions</span>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/qld_person_history+copy.pdf" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase text-gold border border-gold/30 px-2 py-0.5 hover:bg-gold/10 transition-colors">Open PDF ↗</a>
+                </div>
+            </div>
+            <iframe
+                src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/qld_person_history+copy.pdf"
+                width="100%"
+                height="860"
+                style="display:block;border:none;background:#fff"
+                title="Queensland Person History — Adam Watson Full Police Record"
+                loading="lazy"
+            ></iframe>
         </div>
 
         <div class="evidence-vault">
@@ -938,80 +946,6 @@
                         <p class="text-[0.68rem] text-paper/50 leading-relaxed">Marc Barrow made a comment to Adam Watson that if RJ stabs Kosta to death, he will turn a blind eye. Adam Watson relayed this to Kosta. A sworn officer of Queensland Police stated to a third party that he would ignore the murder of a named individual by a named associate. This is not a figure of speech. It is a threat communicated via an intermediary, and it has been documented accordingly.</p>
                     </div>
 
-                    <!-- Plaintum & Empire Nightclub — aftermath -->
-                    <div class="story-chapter reveal mt-6" style="border-left-color:rgba(193,68,14,0.55)">
-                        <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Plaintum &amp; Empire Nightclub · Sale Blocked · Criminal Seizure · Death Threat</span></div>
-                        <h4 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE SALE WAS BLOCKED BY MARC BARROW.<br><span class="text-hot">WHAT CAME NEXT: $20M SEIZED. 12 ARRESTED. A DEATH THREAT.</span></h4>
-
-                        <!-- Nightclub photo -->
-                        <div class="mb-5">
-                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/plaintum_empire.jpg" alt="Plaintum and Empire Nightclub" class="w-full object-contain border border-paper/[0.07]" style="background:#0d0d0d;max-height:480px" loading="lazy" />
-                            <div class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/20 mt-1.5">Plaintum &amp; Empire Nightclub · Surfers Paradise · Gold Coast</div>
-                        </div>
-
-                        <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">After Marc Barrow threatened to oppose the liquor licence application, the sale of the Plaintum and Empire nightclubs did not proceed to Adam Watson. Barrow's mechanism: he used the <strong class="text-paper/65">sexual assault charge sheet</strong> — the charge filed by the corrupt officer after Bodie Chalmers and his mother attended the police station — to insinuate that Adam Watson was not a fit and proper person to hold a liquor licence. A charge that the DPP subsequently ruled a malicious prosecution was weaponised to block a commercial transaction.</p>
-                        <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The capital behind Adam Watson's acquisition was <strong class="text-paper/65">$250,000 from Mrs. Rinehart</strong>. With the sale blocked, the venues were subsequently acquired by a criminal enterprise — and used to launder money.</p>
-
-                        <!-- Three-column: what happened -->
-                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
-                            <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
-                                <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">How the Sale Was Blocked</div>
-                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Marc Barrow used the QP-9 charge sheet — originating from Bodie Chalmers and his mother's station visit — to insinuate Adam Watson was not a fit and proper person for a liquor licence. The charge was later ruled malicious prosecution.</p>
-                            </div>
-                            <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
-                                <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">What It Was Sold Into</div>
-                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">The venues were subsequently purchased by a criminal enterprise and used to launder money. QLD Police seized the assets — including <strong class="text-paper/65">$20 million in liquid capital</strong> in one of the accounts used in the laundering operation. Twelve people were arrested.</p>
-                            </div>
-                            <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.04)">
-                                <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-2">The Capital Behind the Acquisition</div>
-                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">$250,000 from Mrs. Rinehart. The blocked sale meant that capital was not deployed. The venues went instead to buyers who used them as a money laundering vehicle.</p>
-                            </div>
-                        </div>
-
-                        <!-- Seizure stats -->
-                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-5">
-                            <div class="bg-ink px-5 py-5 text-center border border-paper/[0.06]">
-                                <div class="stat-number text-4xl text-hot mb-1">$20M</div>
-                                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Liquid capital seized</div>
-                                <div class="text-[0.5rem] text-paper/18 mt-1">From a single laundering account</div>
-                            </div>
-                            <div class="bg-ink px-5 py-5 text-center border border-paper/[0.06]">
-                                <div class="stat-number text-4xl text-hot mb-1">12</div>
-                                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">People arrested</div>
-                                <div class="text-[0.5rem] text-paper/18 mt-1">In relation to the money laundering operation</div>
-                            </div>
-                            <div class="bg-ink px-5 py-5 text-center border border-paper/[0.06]">
-                                <div class="stat-number text-4xl text-gold mb-1">$250K</div>
-                                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Blocked acquisition capital</div>
-                                <div class="text-[0.5rem] text-paper/18 mt-1">Mrs. Rinehart — sale never proceeded</div>
-                            </div>
-                        </div>
-
-                        <!-- Death threat / wiretap -->
-                        <div class="border border-hot/40 p-5 mb-5" style="background:rgba(193,68,14,0.07)">
-                            <div class="flex items-center gap-2 mb-3">
-                                <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">Death Threat — Against Marc Barrow · Wiretapped Line · Supreme Court Order</span>
-                                <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-hot/40 text-hot/70 px-1.5 py-0.5">ACTIVE MATTER</span>
-                            </div>
-                            <h5 class="font-display text-lg tracking-wide mb-3 leading-tight">ONE OF THE DAUGHTERS OF THE ARRESTED CALLED ADAM WATSON.<br><span class="text-hot">ACCUSED HIM OF BEING A PEDOPHILE. THREATENED MARC BARROW WOULD BE SHOT.</span></h5>
-                            <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Following the arrests, one of the daughters of those arrested called Adam Watson directly. She accused him of being a pedophile and threatened that Marc Barrow would be shot for his involvement in the seizure. This information has been forwarded to Marc Barrow.</p>
-                            <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">The daughter in question — a friend of Aaliyah, someone in a relationship with <strong class="text-paper/65">Bodie Chalmers</strong> — had a <strong class="text-paper/65">wiretap on her phone issued by the Supreme Court of Queensland</strong>. The call was therefore not made on an unmonitored line. A death threat against a member of law enforcement is treated as an extremely serious matter and is being dealt with accordingly.</p>
-                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-3">
-                                <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                                    <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">The Call</div>
-                                    <p class="text-[0.58rem] text-paper/45 leading-relaxed">A daughter of one of the 12 arrested called Adam Watson. Accused him of being a pedophile. Threatened that Marc Barrow would be shot. Information forwarded to Barrow.</p>
-                                </div>
-                                <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
-                                    <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">The Wiretap</div>
-                                    <p class="text-[0.58rem] text-paper/45 leading-relaxed">The caller — Aaliyah's friend, connected to Bodie Chalmers — had a Supreme Court of Queensland wiretap on her phone. The threat was made on a monitored line. A death threat against law enforcement is treated with the utmost seriousness.</p>
-                                </div>
-                            </div>
-                            <div class="border-l-4 border-hot/50 pl-4" style="background:rgba(193,68,14,0.04);padding:0.75rem 1rem 0.75rem 1.25rem">
-                                <p class="text-[0.62rem] text-paper/50 leading-relaxed">For more on Bodie Chalmers and the network connected to this matter, see <strong class="text-paper/70"><a href="/au/ep2" class="text-hot hover:text-hot/80 underline underline-offset-2">Episode 2</a></strong>.</p>
-                            </div>
-                        </div>
-                    </div>
-
                     <!-- Internal QPS complaint — female officer -->
                     <div class="border border-hot/40 p-5 mt-4" style="background:rgba(193,68,14,0.07)">
                         <div class="flex items-center gap-2 mb-3">
@@ -1048,64 +982,6 @@
                         </div>
                     </div>
 
-                    <!-- Public Nuisance Notice to Appear — 22 June 2024 — DISPUTED VIOLENT CLASSIFICATION -->
-                    <div class="border border-hot/35 mb-6 reveal" style="background:rgba(193,68,14,0.05)">
-                        <div class="px-5 py-4 flex items-start justify-between gap-4" style="border-bottom:1px solid rgba(193,68,14,0.2)">
-                            <div>
-                                <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-1">Notice to Appear · Queensland Police Service · 22 June 2024</div>
-                                <div class="font-display text-sm tracking-wide text-paper/85">Public Nuisance — <span class="text-hot">Violent</span> <span class="text-paper/40 text-xs font-sans font-normal tracking-normal">(classification disputed)</span></div>
-                                <div class="flex flex-wrap gap-4 mt-2">
-                                    <div>
-                                        <div class="text-[0.4rem] tracking-[0.16em] uppercase text-paper/30">Notice No.</div>
-                                        <div class="font-mono text-[0.65rem] text-paper/70 font-semibold tracking-wider">3729238</div>
-                                    </div>
-                                    <div>
-                                        <div class="text-[0.4rem] tracking-[0.16em] uppercase text-paper/30">Occurrence No.</div>
-                                        <div class="font-mono text-[0.65rem] text-paper/70 font-semibold tracking-wider">QP2401059175</div>
-                                    </div>
-                                    <div>
-                                        <div class="text-[0.4rem] tracking-[0.16em] uppercase text-paper/30">Issuing Officer</div>
-                                        <div class="font-mono text-[0.65rem] text-paper/70 font-semibold tracking-wider">Constable B. Bruce · Reg. 39893 · Southport</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/Screenshot_20260506_113047_Photos.jpg" target="_blank" rel="noopener" class="shrink-0 text-[0.44rem] tracking-[0.14em] uppercase text-hot/60 hover:text-hot transition-colors whitespace-nowrap">Open ↗</a>
-                        </div>
-
-                        <!-- Ticket image -->
-                        <div class="p-4" style="background:rgba(0,0,0,0.2)">
-                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/Screenshot_20260506_113047_Photos.jpg" alt="Public Nuisance Notice to Appear — Notice No. 3729238 — Occurrence QP2401059175 — 22 June 2024 — Southport" class="w-full max-w-lg mx-auto block border border-paper/[0.08]" loading="lazy" />
-                        </div>
-
-                        <!-- Dispute + verification -->
-                        <div class="px-5 py-4 space-y-3" style="border-top:1px solid rgba(193,68,14,0.15)">
-                            <div class="border-l-4 border-hot/60 pl-4 py-2" style="background:rgba(193,68,14,0.06)">
-                                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-1">Formal Dispute — "Violent" Classification</div>
-                                <p class="text-[0.65rem] text-paper/60 leading-relaxed">The charge is recorded as <strong class="text-paper/80">Public Nuisance – Violent</strong>. <strong class="text-paper/80">This classification is disputed.</strong> The incident at Hinze &amp; Scarborough Street, Southport on 22 June 2024 at 1640hrs did not involve violence. The "violent" designation affects the character of the charge and the potential consequences. Kosta Kondratenko disputes both the nature of the conduct and the application of the violent modifier.</p>
-                            </div>
-                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                                <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.15)">
-                                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">Incident Details — For the Record</div>
-                                    <div class="space-y-1.5">
-                                        <div class="flex gap-2 items-start"><span class="text-paper/30 text-xs shrink-0">·</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Date: 22 June 2024 · Time: 1640hrs</p></div>
-                                        <div class="flex gap-2 items-start"><span class="text-paper/30 text-xs shrink-0">·</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Location: Hinze &amp; Scarborough St, Southport QLD 4215</p></div>
-                                        <div class="flex gap-2 items-start"><span class="text-paper/30 text-xs shrink-0">·</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Court: Southport Magistrates Court · 15 July 2024 · 8:30am</p></div>
-                                        <div class="flex gap-2 items-start"><span class="text-paper/30 text-xs shrink-0">·</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Notice served personally at 1720hrs same day</p></div>
-                                    </div>
-                                </div>
-                                <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.04)">
-                                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-2">QLD Police — Verification Reference</div>
-                                    <p class="text-[0.58rem] text-paper/45 leading-relaxed mb-2">Queensland Police Service can verify this notice using the reference numbers above:</p>
-                                    <div class="space-y-1">
-                                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0">→</span><p class="text-[0.58rem] text-paper/55 leading-relaxed font-mono">Notice No. <strong>3729238</strong></p></div>
-                                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0">→</span><p class="text-[0.58rem] text-paper/55 leading-relaxed font-mono">Occurrence <strong>QP2401059175</strong></p></div>
-                                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Issuing: Cst B. Bruce · Reg. 39893 · Southport Station</p></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                     <!-- Marc Barrow Evidence Vault -->
                     <div class="evidence-vault mt-6">
                         <div class="ev-header" onclick="toggleVault(this)">
@@ -1114,7 +990,7 @@
                                 <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Marc Barrow · CCC · Charge Sheet · Unlawful Eviction</span>
                             </div>
                             <div class="flex items-center gap-3">
-                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">6 files</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">5 files</span>
                                 <span class="ev-toggle">▼</span>
                             </div>
                         </div>
@@ -1136,16 +1012,6 @@
                                     <div class="ev-desc">PDF · Crime and Corruption Commission · "Most serious and systemic cases only" · Matter referred back to QPS · Institutional failure documented</div>
                                 </div>
                                 <span class="ev-cta">View →</span>
-                            </div>
-                            <!-- Public Nuisance Notice to Appear — 22 June 2024 — violent classification disputed -->
-                            <div class="ev-file ef-hot" onclick="openMV('image-public-nuisance-nta')">
-                                <div class="ev-icon ev-img">📷</div>
-                                <div class="ev-meta">
-                                    <div class="ev-name">Screenshot_20260506_113047_Photos.jpg — Notice to Appear · No. 3729238 · Occ. QP2401059175</div>
-                                    <div class="ev-desc">Image · Public Nuisance – Violent · 22 Jun 2024 · Hinze &amp; Scarborough St, Southport · Cst B. Bruce Reg. 39893 · <strong>Violent classification disputed</strong></div>
-                                </div>
-                                <span class="redact-tag" style="color:#c1440e;border-color:rgba(193,68,14,0.4)">⚠ Disputed</span>
-                                <span class="ev-cta ml-2">View →</span>
                             </div>
                             <!-- Public Nuisance charge -->
                             <div class="ev-file ef-hot" onclick="openMV('pdf-public-nuisance-charge')">
@@ -1175,66 +1041,6 @@
                                 <span class="ev-cta">View →</span>
                             </div>
                         </div>
-                    </div>
-                </div>
-
-                <!-- Racial vilification message — police retribution -->
-                <div class="story-chapter reveal mt-8 mb-8" style="border-left-color:rgba(193,68,14,0.55)">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Police Retribution · Private Message · Watchdog Investigation</span>
-                    </div>
-                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">A PRIVATE MESSAGE IN ANGER.<br><span class="text-hot">SUBPOENAED. LEAKED. WEAPONISED.</span></h3>
-                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"I had been hearing Adam Watson describe RJ calling him a white cunt. I had an argument and in anger I sent messages — including one using the same term. I am not proud of it. I apologise for it, and I apologise here publicly. What happened next is the story."</p>
-
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">After repeatedly hearing Adam Watson recount RJ using the term "white cunt" against him — as part of a pattern of targeted racial taunting — Kosta Kondratenko had an argument and, in anger, sent messages which included a racially vilifying term. He used the same language he had heard weaponised against Adam Watson. It was said in private. It was wrong. He has apologised to the person involved and apologises publicly here.</p>
-
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">What followed was not a proportionate accountability process. It was a targeted operation.</p>
-
-                    <!-- The sequence -->
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-6">
-                        <div class="border-l-4 pl-5" style="border-color:rgba(193,68,14,0.5);background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
-                            <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-2">Step 1 — The Messages Were Subpoenaed</div>
-                            <p class="text-[0.68rem] text-paper/45 leading-relaxed">Queensland Police Service obtained Kosta Kondratenko's private messages through a subpoena. These were private communications — not public posts, not publications, not content directed at a community. They were messages sent in anger during a personal argument.</p>
-                        </div>
-                        <div class="border-l-4 pl-5" style="border-color:rgba(193,68,14,0.6);background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
-                            <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-2">Step 2 — Marc Barrow Obtained Them</div>
-                            <p class="text-[0.68rem] text-paper/45 leading-relaxed">Marc Barrow — the same officer who had already used his position to oppose Adam Watson's liquor licence application, told Adam he would ignore RJ murdering Kosta, and had been the subject of a CCC complaint — obtained access to the subpoenaed messages.</p>
-                        </div>
-                        <div class="border-l-4 pl-5" style="border-color:rgba(201,138,16,0.5);background:rgba(201,138,16,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
-                            <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-2">Step 3 — Leaked to Gina Rinehart</div>
-                            <p class="text-[0.68rem] text-paper/45 leading-relaxed">Gina Rinehart had called to make enquiries about Kosta Kondratenko. Marc Barrow leaked the contents of the subpoenaed messages to her — deliberately, to paint Kosta in the worst possible light with one of the most significant figures whose relationship to this investigation is already documented.</p>
-                        </div>
-                        <div class="border-l-4 pl-5" style="border-color:rgba(193,68,14,0.7);background:rgba(193,68,14,0.06);padding:1.1rem 1rem 1.1rem 1.25rem">
-                            <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-2">Step 4 — Officers Sent to Adam Watson's Home</div>
-                            <p class="text-[0.68rem] text-paper/45 leading-relaxed">Members of Queensland Police Service were then sent to Adam Watson's home — not to speak with him about any offence against him, but to apply pressure on him to support a charge of racial vilification against Kosta Kondratenko. The target of the alleged offence was not the one requesting police action. Police were driving it.</p>
-                        </div>
-                    </div>
-
-                    <!-- The threshold point -->
-                    <div class="border border-paper/[0.08] p-5 mb-5" style="background:rgba(245,234,212,0.02)">
-                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/35 mb-3">The Legal Reality — Private Message · Threshold Not Met</div>
-                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Racial vilification laws in Queensland — and across Australian jurisdictions — require that the conduct be public. A private message sent between individuals does not meet the threshold. It is not a publication. It is not incitement. It is not conduct directed at a person because of their race in a public context. Whatever the content of the message, the legal instrument being threatened — a racial vilification charge — was not available on the facts. Police and legal advisers involved would have known this.</p>
-                        <p class="text-[0.68rem] text-paper/45 leading-relaxed">The pressure applied to Adam Watson to support the charge was not a good-faith attempt to enforce the law. It was pressure applied to a third party to generate a complaint that could be used against Kosta Kondratenko — at a time when Kosta's CCC complaint, his website, and his reporting were creating sustained scrutiny of the people now orchestrating this response.</p>
-                    </div>
-
-                    <!-- Collateral damage: Adam loses client -->
-                    <div class="border-l-4 pl-5 mb-5" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
-                        <div class="text-[0.46rem] tracking-[0.22em] uppercase mb-2" style="color:#7c6aaa">Collateral — Adam Watson Loses a Client</div>
-                        <p class="text-[0.68rem] text-paper/45 leading-relaxed">The commotion of police attending Adam Watson's address in connection with this pressure campaign was visible. A client of Adam Watson's — who witnessed or heard about the police attendance at his address — subsequently ceased engaging with him. The police action cost Adam Watson a client. This is not an incidental consequence. It is the kind of collateral damage that targeted use of police attendance is designed to produce: reputational contamination without a charge, without a conviction, and without any finding of wrongdoing.</p>
-                    </div>
-
-                    <!-- Retribution framing -->
-                    <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.03)">
-                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">The Context — CCC Complaint · Website · Retribution</div>
-                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">This sequence — subpoena of private messages, disclosure to Gina Rinehart, pressure on Adam Watson to support a charge that does not meet the legal threshold, a client lost as a result of police attendance — occurred in direct temporal proximity to Kosta Kondratenko's Crime and Corruption Commission complaint against Marc Barrow and the publication of this website.</p>
-                        <p class="text-[0.68rem] text-paper/45 leading-relaxed">The pattern is consistent with the retaliation documented elsewhere in this chapter: the liquor licence opposition, the "turn a blind eye to the murder" comment, the CCC complaint referral back to QPS. A person who files a CCC complaint against a police officer and publishes a website documenting that officer's conduct should expect that the conduct will stop — not that it will escalate. This conduct is being examined by the relevant watchdog bodies.</p>
-                    </div>
-
-                    <!-- Public apology -->
-                    <div class="border border-paper/[0.1] p-5" style="background:rgba(245,234,212,0.015)">
-                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/40 mb-3">Public Statement — Kosta Kondratenko</div>
-                        <p class="font-serif italic text-paper/60 text-base leading-relaxed mb-3">"I sent a message in anger that I should not have sent. The language I used was wrong. I had been hearing Adam describe being called a white cunt by RJ — repeatedly, as part of a pattern of targeted harassment — and I used the same language in a private argument. That does not excuse it. I have apologised personally and I apologise here publicly."</p>
-                        <p class="text-[0.68rem] text-paper/40 leading-relaxed">"What I will not accept is the framing of what followed as a legitimate law enforcement response. A private message in anger — particularly one that does not meet the public threshold of racial vilification law — does not justify subpoenaing those messages, leaking them to a third party to damage my reputation, pressuring the person I had the argument with to support a charge against me, or sending police to his address in a way that cost him a client. That is not accountability. That is retribution. And it is being looked into."</p>
                     </div>
                 </div>
 
@@ -1761,133 +1567,13 @@
                     </div>
                 </div>
 
-                <!-- CCC complaint — Tom Tate — FULL CHAPTER -->
-                <div class="story-chapter reveal mb-8" style="border-left-color:rgba(193,68,14,0.6)">
-                    <div class="flex items-center gap-2 mb-4">
-                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Crime &amp; Corruption Commission · Tom Tate · Ref-1705827195 · 21 January 2024</span>
-                    </div>
-                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE CCC RECEIVED A CORRUPTION REPORT ON TOM TATE.<br><span class="text-hot">THE REPORT HAD MISSING EXHIBITS. THEY NEVER ASKED FOR THEM.</span></h3>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">On 21 January 2024, a formal corruption report was lodged with the Crime and Corruption Commission of Queensland — the body created under the <em>Crime and Corruption Act 2001</em> as Queensland's primary watchdog against corruption in public office. The subject: <strong class="text-paper/70">Tom Tate, Mayor of Gold Coast</strong>, and his direction of council staff to lock homeless people out of public toilets, cut off water access, and deploy rangers to hunt them down — including rangers conducting illegal warrantless vehicle searches on public land.</p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6">The CCC issued an automated confirmation — Ref-1705827195 — and promised a written assessment within 30 days. Neither a follow-up nor an assessment ever came.</p>
-
-                    <!-- The missing exhibits — core issue -->
-                    <div class="border-l-4 pl-5 mb-6" style="border-color:rgba(193,68,14,0.6);background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
-                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The Core Problem — Missing Exhibits, Zero Follow-Up</div>
-                        <p class="text-[0.65rem] text-paper/58 leading-relaxed mb-3">The Tom Tate Corruption Report was submitted with image exhibits that did not render in the final PDF — appearing instead as placeholder text in the form of <strong class="text-paper/70">[Exhibit E — Library Card Video]</strong> and similar references throughout the document. The images, videos, and supporting evidence were described but not visually present in the submitted file.</p>
-                        <p class="text-[0.65rem] text-paper/55 leading-relaxed">A functioning oversight body, upon receiving an incomplete corruption report, would do one of two things: contact the complainant to request the missing material, or note the gap in its assessment. The CCC did neither. No email. No call. No acknowledgement that the exhibits were missing. No request for resubmission. The 30-day assessment window that the CCC's own automated response committed to came and went without a word.</p>
-                    </div>
-
-                    <!-- Tom Tate's own words from the complaint -->
-                    <div class="border border-gold/25 p-5 mb-6" style="background:rgba(201,138,16,0.04)">
-                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-3">The Irony — Tom Tate's Own Description of the CCC, Quoted in the Complaint Itself</div>
-                        <p class="text-[0.7rem] text-paper/65 leading-relaxed italic mb-2">"Tom Tate has been before your commission before and you can read his comments. He thinks you're toothless tigers."</p>
-                        <div class="text-[0.43rem] tracking-[0.12em] uppercase text-paper/25 mb-3">— Extracted from the Corruption Report lodged with the CCC · 21 January 2024</div>
-                        <p class="text-[0.62rem] text-paper/45 leading-relaxed">This line was written directly to the CCC in the body of the formal complaint. Tom Tate had previously appeared before the commission and, on the public record, characterised it as toothless. That characterisation was included in the complaint — not as an insult, but as relevant context: this is a Mayor who has assessed the oversight body responsible for investigating him and concluded it will not act. The CCC received that assessment of itself and then confirmed it by doing nothing. Tom Tate was right.</p>
-                    </div>
-
-                    <!-- What the complaint alleged -->
-                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
-                        <div class="border p-4" style="border-color:rgba(193,68,14,0.2);background:rgba(193,68,14,0.04)">
-                            <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-2">Alleged Conduct</div>
-                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">Tom Tate directing council staff to lock out public toilets and water access, and deploying rangers to hunt down homeless people on the Gold Coast.</p>
-                        </div>
-                        <div class="border p-4" style="border-color:rgba(193,68,14,0.2);background:rgba(193,68,14,0.04)">
-                            <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-2">Illegal Vehicle Searches</div>
-                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">Council rangers conducting warrantless vehicle searches without legal authority — video evidence included in the corruption report. Rangers have no power of search.</p>
-                        </div>
-                        <div class="border p-4" style="border-color:rgba(201,138,16,0.2);background:rgba(201,138,16,0.04)">
-                            <div class="text-[0.43rem] tracking-[0.14em] uppercase text-gold/60 mb-2">CCC Response</div>
-                            <div class="font-display text-xl text-gold mb-1">None</div>
-                            <p class="text-[0.55rem] text-paper/40 leading-relaxed">Automated confirmation only. No follow-up. No assessment. No request for missing exhibits. 30-day charter commitment: missed.</p>
-                        </div>
-                    </div>
-
-                    <!-- CCC by design vs. CCC in reality -->
-                    <div class="border mb-6" style="border-color:rgba(245,234,212,0.1);background:rgba(0,0,0,0.15)">
-                        <div class="px-5 py-3 border-b" style="border-color:rgba(245,234,212,0.07)">
-                            <div class="text-[0.47rem] tracking-[0.2em] uppercase text-paper/35">The CCC — Designed Purpose vs. On-the-Ground Reality</div>
-                        </div>
-                        <div class="grid grid-cols-1 sm:grid-cols-2 divide-y sm:divide-y-0 sm:divide-x" style="border-color:rgba(245,234,212,0.07)">
-                            <div class="px-5 py-4">
-                                <div class="text-[0.44rem] tracking-[0.14em] uppercase mb-3" style="color:rgba(61,122,74,0.7)">What the CCC Was Created to Be</div>
-                                <div class="space-y-2">
-                                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">An independent body to detect and investigate serious corruption in public office — including elected officials</p></div>
-                                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">A charter commitment to assess complaints within 30 days and provide written responses</p></div>
-                                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">A mechanism to hold local government — including mayors — accountable to the public interest</p></div>
-                                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">The place Queenslanders are told to go when they witness corruption that police and councils will not address themselves</p></div>
-                                </div>
-                            </div>
-                            <div class="px-5 py-4">
-                                <div class="text-[0.44rem] tracking-[0.14em] uppercase text-hot/60 mb-3">What It Delivered in Practice</div>
-                                <div class="space-y-2">
-                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">An automated email with a reference number, and silence thereafter</p></div>
-                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">No follow-up on a report that visibly contained broken exhibit placeholders — exhibits that could have been requested and would have strengthened the file</p></div>
-                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">A 30-day charter promise that was not met, not explained, and not apologised for</p></div>
-                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">Confirmation that the Mayor's own assessment of the body — "toothless tigers" — was accurate</p></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="px-5 py-3 border-t" style="border-color:rgba(245,234,212,0.07)">
-                            <p class="text-[0.6rem] text-paper/40 leading-relaxed">The CCC is not without resource. It is not without staff. It is not without legislative power. What it appears to lack is the institutional will to investigate the people who are most comfortable with its presence — because they have calculated, correctly, that it will not act. When a Mayor can appear before the CCC, publicly describe it as a toothless tiger, and then be the subject of a formal corruption complaint that receives no response, the institution has answered the question of its own effectiveness.</p>
-                        </div>
-                    </div>
-
-                    <!-- Embedded PDFs -->
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
-                        <div>
-                            <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/60 mb-2">CCC Lodgement Confirmation · Ref-1705827195 · 21 Jan 2024</div>
-                            <div class="border reveal" style="border-color:rgba(193,68,14,0.25)">
-                                <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tom_tate_corruption_report_ccc/ccc_Online+lodgement+form_Ref-1705827195.pdf"
-                                        class="w-full"
-                                        style="min-height:420px;height:420px;border:none;filter:brightness(0.93)"
-                                        loading="lazy"
-                                        title="CCC Online Lodgement Form — Ref-1705827195 — Tom Tate Corruption Complaint"></iframe>
-                            </div>
-                            <div class="text-[0.4rem] tracking-[0.1em] uppercase text-paper/20 mt-1.5">CCC Queensland · Automated Confirmation · Ref-1705827195 · 21 January 2024</div>
-                        </div>
-                        <div>
-                            <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/60 mb-2">Tom Tate Corruption Report · Full Document</div>
-                            <div class="border reveal" style="border-color:rgba(193,68,14,0.25)">
-                                <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tom_tate_corruption_report_ccc/Tom+Tate+Corruption+Report.pdf"
-                                        class="w-full"
-                                        style="min-height:420px;height:420px;border:none;filter:brightness(0.93)"
-                                        loading="lazy"
-                                        title="Tom Tate Corruption Report — Submitted to CCC Queensland"></iframe>
-                            </div>
-                            <div class="text-[0.4rem] tracking-[0.1em] uppercase text-paper/20 mt-1.5">Tom Tate Corruption Report · Submitted to CCC Queensland · Note: Image exhibits rendered as placeholders</div>
-                        </div>
-                    </div>
-
-                    <!-- Evidence vault -->
-                    <div class="evidence-vault mt-2">
-                        <div class="ev-header" onclick="toggleVault(this)">
-                            <div class="flex items-center gap-2">
-                                <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 CCC — Tom Tate Corruption Report · Lodgement Evidence</span>
-                            </div>
-                            <div class="flex items-center gap-3">
-                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">2 files</span>
-                                <span class="ev-toggle">▼</span>
-                            </div>
-                        </div>
-                        <div class="ev-body">
-                            <div class="ev-file ef-hot" onclick="openMV('pdf-ccc-lodgement')">
-                                <div class="ev-icon ev-pdf">PDF</div>
-                                <div class="ev-meta">
-                                    <div class="ev-name">ccc_Online_lodgement_form_Ref-1705827195.pdf — CCC Lodgement Confirmation</div>
-                                    <div class="ev-desc">CCC Queensland automated lodgement confirmation · Ref-1705827195 · 21 January 2024 · Subject: Tom Tate, Mayor of Gold Coast · Queensland local government jurisdiction · 30-day assessment commitment made · Never fulfilled</div>
-                                </div>
-                                <div class="ev-cta">View →</div>
-                            </div>
-                            <div class="ev-file ef-hot" onclick="openMV('pdf-tom-tate-corruption-report')">
-                                <div class="ev-icon ev-pdf">PDF</div>
-                                <div class="ev-meta">
-                                    <div class="ev-name">Tom_Tate_Corruption_Report.pdf — Full Corruption Report</div>
-                                    <div class="ev-desc">Tom Tate Corruption Report submitted to CCC Queensland · Alleges: homeless lockouts, warrantless vehicle searches by council rangers, refusal to engage · Note: image exhibits appear as placeholders — CCC never requested the missing material</div>
-                                </div>
-                                <div class="ev-cta">View →</div>
-                            </div>
-                        </div>
-                    </div>
+                <!-- CCC complaint — Tom Tate -->
+                <div class="border-l-4 border-hot/40 pl-5 mb-5" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">CCC Complaint — Tom Tate Corruption Report</div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">THE CCC RECEIVED A CORRUPTION REPORT ON TOM TATE.<br><span class="text-hot">AND DIDN'T EVEN REPLY.</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A corruption report concerning Tom Tate was emailed to the Crime and Corruption Commission. The report did not include photographs. The CCC did not email back to request that photographs be added. They did not follow up in any form.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The minimum expectation when a corruption report is lodged with a government watchdog is that the watchdog reads it — and if the submission is incomplete, asks for what is missing. The CCC did neither. The silence is not merely a procedural shortcoming. It is evidence of an institution that is not taking the reports handed to it seriously.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">A body that exists to investigate corruption but does not respond to corruption reports is not a watchdog. It is a filing cabinet.</p>
                 </div>
 
                 <!-- Evidence vault -->
@@ -2358,86 +2044,11 @@
                 </div>
             </div>
 
-            <!-- Email to Registrar — the document placed before the Judge -->
-            <div class="border border-hot/30 mb-6" style="background:rgba(193,68,14,0.05)">
-                <div class="px-5 py-4 flex items-start justify-between gap-4" style="border-bottom:1px solid rgba(193,68,14,0.2)">
-                    <div>
-                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-1">Email to Registrar · 17 October 2025 · D236/24 · The document placed before the Judge</div>
-                        <div class="font-display text-sm tracking-wide text-paper/80">Kondratenko → District Court Registry, Southport</div>
-                        <div class="text-[0.44rem] tracking-[0.16em] uppercase text-paper/35 mt-0.5">cc: dpp.southport@justice.qld.gov.au · adam@adamwatson.au · Attachments: both certificates</div>
-                    </div>
-                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/contravene_move_on/email_both_copies_judge.pdf" target="_blank" rel="noopener" class="shrink-0 text-[0.44rem] tracking-[0.14em] uppercase text-hot/60 hover:text-hot transition-colors whitespace-nowrap">Open ↗</a>
-                </div>
-                <div style="min-height:500px;background:#111">
-                    <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/contravene_move_on/email_both_copies_judge.pdf" class="w-full" style="min-height:500px;height:500px;border:none;filter:brightness(0.93)" title="Email to District Court Registrar — 17 October 2025 — both certificates attached"></iframe>
-                </div>
-                <div class="px-5 py-3 text-[0.58rem] leading-relaxed text-paper/40" style="border-top:1px solid rgba(193,68,14,0.15)">
-                    Kosta wrote to the Registrar on 17 October 2025 — copied to the DPP and Adam Watson — explicitly requesting that <em>both</em> versions of the Certificate of Readiness be placed before the Judge. Both certificates were attached. On 23 October the Judge requested electronic copies. The Judge saw both documents. What followed at the 30 October mention is documented below.
-                </div>
-            </div>
-
-            <!-- Both certificates side by side -->
-            <div class="mb-3 reveal">
-                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/25 mb-3">The Two Attachments — What the Judge Was Shown</div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-2">
-
-                    <!-- DPP's version -->
-                    <div class="flex flex-col" style="border:1px solid rgba(193,68,14,0.35)">
-                        <div class="px-4 py-3" style="background:rgba(193,68,14,0.1)">
-                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-0.5">DPP's version — Karyn Land</div>
-                            <div class="font-display text-sm tracking-wide text-paper/80">Certificate of Readiness — Respondent's Filing</div>
-                            <div class="mt-2 space-y-1">
-                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0">→</span><p class="text-[0.55rem] text-paper/50">Scope: procedural fairness only</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0">→</span><p class="text-[0.55rem] text-paper/50">No new evidence · No witnesses · No cross-examination</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0">→</span><p class="text-[0.55rem] text-paper/50">Estimated time: <strong class="text-paper/70">30 minutes</strong></p></div>
-                            </div>
-                        </div>
-                        <div style="flex:1;min-height:460px;background:#0e0b08">
-                            <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/contravene_move_on/certificate_of_readiness_dpp_version.pdf" class="w-full" style="min-height:460px;height:460px;border:none;filter:brightness(0.92)" title="DPP Certificate of Readiness — Karyn Land — 30 minutes — procedural fairness only"></iframe>
-                        </div>
-                        <div class="px-4 py-2" style="background:rgba(193,68,14,0.08)">
-                            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/contravene_move_on/certificate_of_readiness_dpp_version.pdf" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase text-hot/50 hover:text-hot/80 transition-colors">Open full document ↗</a>
-                        </div>
-                    </div>
-
-                    <!-- Kosta's version with DPP alterations -->
-                    <div class="flex flex-col" style="border:1px solid rgba(245,234,212,0.12)">
-                        <div class="px-4 py-3" style="background:rgba(0,0,0,0.22)">
-                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-paper/40 mb-0.5">Kosta's version — returned with DPP alterations crossed through</div>
-                            <div class="font-display text-sm tracking-wide text-paper/80">Certificate of Readiness — Appellant's Filing</div>
-                            <div class="mt-2 space-y-1">
-                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0">✓</span><p class="text-[0.55rem] text-paper/50">Scope: conviction + evidence + admissibility of BWC &amp; Coles CCTV</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0">✓</span><p class="text-[0.55rem] text-paper/50">Coles employee subpoenaed · cross-examination preserved</p></div>
-                                <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0">✓</span><p class="text-[0.55rem] text-paper/50">Estimated time: <strong class="text-paper/70">4 hours (half day)</strong> — DPP crossed this out</p></div>
-                            </div>
-                        </div>
-                        <div style="flex:1;min-height:460px;background:#0e0b08">
-                            <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/contravene_move_on/certificate_of_readiness_alteration.pdf" class="w-full" style="min-height:460px;height:460px;border:none;filter:brightness(0.92)" title="Kosta's Certificate of Readiness — returned with DPP handwritten alterations"></iframe>
-                        </div>
-                        <div class="px-4 py-2" style="background:rgba(0,0,0,0.3)">
-                            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/contravene_move_on/certificate_of_readiness_alteration.pdf" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/35 hover:text-paper/60 transition-colors">Open full document ↗</a>
-                        </div>
-                    </div>
-                </div>
-                <p class="text-[0.58rem] leading-relaxed text-paper/35 mt-1">The DPP's handwritten crosses through Kosta's substantive sections — the conviction ground, the evidence, the witness — are visible in the right-hand document. The registry refused to file it in its altered state. Kosta's request that the Judge see both versions meant these two documents were placed on the judicial record.</p>
-            </div>
-
-            <!-- Judicial signal — Karyn Land -->
-            <div class="border border-hot/25 p-5 mb-5 reveal" style="background:rgba(193,68,14,0.06)">
-                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">The Judicial Signal · 30 October 2025 · Courtroom 17 · His Honour Judge Rowan Jackson KC → Karyn Land</div>
-                <div class="border-l-4 border-hot/60 pl-4 mb-4" style="background:rgba(193,68,14,0.04);padding:0.85rem 0.85rem 0.85rem 1rem">
-                    <p class="text-[0.72rem] text-paper/70 leading-relaxed italic">"Based on the small penalty if convicted and the cost to the state, perhaps you could reconsider pursuing this."</p>
-                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 mt-2">— His Honour Judge Rowan Jackson KC · addressed directly to Karyn Land, DPP Southport · 30 October 2025</div>
-                </div>
-                <p class="text-[0.65rem] leading-relaxed text-paper/45 mb-3">The Judge had the full paper trail in front of him: Kosta's email to the Registrar, both competing certificates, and the DPP's handwritten alterations to a self-represented party's signed document. He addressed Karyn Land directly from the bench. The signal was unambiguous. The cost to the state against the penalty available made the prosecution disproportionate. He was not ordering discontinuance — he was giving the prosecutor the opportunity to make the right call.</p>
-                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Karyn Land pursued it anyway.</strong> The matter was remitted to the Magistrates Court. No mention was made of the District Court proceedings, the remittal order, or the Judge's bench comment when it was re-listed. The Magistrate proceeded as if the matter was fresh. It was Adam Watson — attending in person — who carried the judicial record into the lower court. Once the District Court history was before the Magistrate, the prosecution dropped the charge. The conviction was not reimposed.</p></div>
-            </div>
-
             <!-- Information gap -->
             <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.03)">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">The Information Gap — When It Was Remitted</div>
-                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A District Court Judge's direct bench comment to the prosecutor — "perhaps you could reconsider pursuing this" — did not travel with the remitted matter. The Magistrate who re-listed it had no record of the appeal, the competing certificates, the DPP's document alterations, or the Judge's remark about proportionality. The matter was procedurally invisible to the court it had been returned to.</p>
-                <p class="text-[0.68rem] text-paper/45 leading-relaxed">It was Adam Watson who raised the District Court Judge's comment before the Magistrate. Once that appellate history was placed on the record, the prosecution dropped the charge. The conviction was not reimposed. A judicial direction that should have transferred automatically had to be carried into the lower court by the defendant's own counsel.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">At the 30 October mention, the Judge reviewed the full paper trail — including the DPP's alterations and both competing versions. Addressing prosecutor Karyn Land directly, the Judge remarked that given the likely penalty and the cost to the state, the matter may not be worth pursuing. The matter was remitted back to the Magistrates Court.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">When the matter was re-listed in the Magistrates Court, no mention was made of the District Court proceedings, the remittal order, or the Judge's bench comment about proportionality. The Magistrate proceeded as if the matter was fresh. It was Adam Watson — attending with Kosta — who raised the District Court Judge's comment. Once that judicial record was introduced, the prosecution dropped the charge. The conviction was not reimposed. A District Court Judge's direction had to be carried into the lower court by the defendant himself.</p>
             </div>
 
             <div class="border-l-4 border-hot/50 pl-5 mb-5" style="background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
@@ -3543,35 +3154,6 @@
                 </div>
             </div>
 
-            <!-- PSLO weekend video blog -->
-            <div class="border border-gold/25 mb-5 reveal" style="background:rgba(201,138,16,0.04)">
-                <div class="px-5 py-4 flex items-start justify-between gap-4" style="border-bottom:1px solid rgba(201,138,16,0.2)">
-                    <div>
-                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-1">Video Blog · Posted 17 November 2024 · PSLO Team · Gold Coast</div>
-                        <div class="font-display text-sm tracking-wide text-paper/85">The PSLO team — on the weekend — checking a person's belongings under a bridge</div>
-                        <div class="text-[0.44rem] tracking-[0.16em] uppercase text-paper/35 mt-1.5">Timestamp 3:46 — the team appears · These are the same people I believe stole my tent</div>
-                    </div>
-                    <div class="shrink-0 text-right">
-                        <div class="text-[0.48rem] tracking-[0.14em] uppercase text-gold/50">17/11/24</div>
-                    </div>
-                </div>
-                <div class="px-5 pt-5 pb-3">
-                    <div class="ev-file ef-gold mb-4" onclick="openMV('video-pslo-weekend')">
-                        <div class="ev-icon ev-video">▶</div>
-                        <div class="ev-meta">
-                            <div class="ev-name">weekend_tent_theft.mp4 — PSLO Team · Bridge · 17 November 2024</div>
-                            <div class="ev-desc">Video blog · Posted 17 Nov 2024 · PSLO team visible at 3m 46s — checking through a person's belongings under a bridge</div>
-                        </div>
-                        <span class="ev-cta">Watch →</span>
-                    </div>
-                    <div class="space-y-2">
-                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/65">At 3 minutes 46 seconds:</strong> the PSLO team can be seen attending a person's belongings under a bridge — going through the possessions of someone not present. This is the same conduct applied to Kosta's campsite: turning up when the person isn't there and treating what they left behind as abandoned.</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/65">Who is the PSLO team?</strong> The Public Space Liaison Officers (PSLOs) are Gold Coast Council rangers operating under the Homeless Action Plan — the same team documented placing "Abandoned Property" stickers on Kosta's tent in December 2023 and January 2024. They operate as the Council's frontline enforcement arm against rough sleepers under Mayor Tom Tate.</p></div>
-                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/65">The weekend visit:</strong> this footage was captured on a weekend — outside standard Council operational hours. It illustrates that the PSLO team's activity was not a standard patrol. Attending someone's campsite or shelter when they are not present, on a weekend, to inspect their belongings, is not outreach. Kosta believes these are the same officers who took his tent when he wasn't there.</p></div>
-                    </div>
-                </div>
-            </div>
-
             <!-- Japanese tourist / bike incident -->
             <div class="border border-paper/[0.07] p-5 mb-5" style="background:rgba(0,0,0,0.14)">
                 <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">The Japanese Tourist — "I'm Going to Call and See If That Bike Was Stolen"</div>
@@ -3908,24 +3490,8 @@ document.querySelectorAll('.reveal').forEach(function (el) { obs.observe(el); })
             <p class="font-serif italic text-paper/65 leading-relaxed" style="font-size:clamp(1rem,2vw,1.15rem)">"Adam Watson walked into my life at a moment when I had very little — and proceeded to show me more about how Australia actually works than a decade of conventional observation ever could."</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45">Thank you for representing me at court — for standing in a room with me and knowing exactly what to say, when to say it, and how to say it in a way that the system understood. You taught me how to navigate the courts and how to win — not through aggression, but through precision, preparation, and an understanding of process that most people never acquire.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45">Taking down a criminal syndicate with you — navigating the connections between organised crime, institutional failure, and the justice system — has been the most enlightening thing I have ever done. I look forward to our next adventure.</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/45">And thank you for offering me the opportunity to work on the Hancock Prospecting website — for bringing me into that world and trusting me with it. That was an act of generosity I will not forget.</p>
             <div class="flex items-center gap-3 mt-2"><div class="w-6 h-px bg-sage/40"></div><span class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/25">Kosta Kondratenko — Sunlight.Quest</span></div>
         </div>
-
-        <!-- Gina Rinehart -->
-        <div class="mt-8 border border-gold/20 p-6" style="background:rgba(201,138,16,0.04)">
-            <div class="flex items-start gap-5">
-                <div class="shrink-0">
-                    <div class="font-display text-3xl text-gold leading-none">$450</div>
-                    <div class="text-[0.44rem] tracking-[0.14em] uppercase text-gold/50 mt-0.5">Personal gift</div>
-                </div>
-                <div>
-                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">Thank You — Gina Rinehart</div>
-                    <p class="text-[0.68rem] text-paper/50 leading-relaxed">When Gina Rinehart heard of my situation, she arranged a $450 payment. It arrived at a moment when I needed it. I am grateful for the gesture — it was not nothing, and it was not overlooked. Thank you, Gina.</p>
-                </div>
-            </div>
-        </div>
-
         <div class="clear-both mt-12 pt-8 border-t border-paper/[0.06]">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="border border-sage/20 p-6" style="background:rgba(61,122,74,0.03)">
@@ -4385,25 +3951,6 @@ var EVIDENCE = {
         filename:'qp_contravene_move_on_direction.pdf',
         desc:'The Queensland Police charge sheet for Contravene Banning Notice No. 385003, issued by Marc Barrow. In his statement, Barrow refers to the property as "SOLAC HOUSE" — the obscured RTA legal entity — rather than "BeHome", the trading name displayed on the building itself. This is not a clerical error. By using the RTA registration name rather than the name visible to anyone approaching the premises, Barrow creates plausible deniability: he can claim he documented what he was told without needing to acknowledge the BeHome branding right in front of him. The same split-identity tactic used by Sandy Tulisi to create legal ambiguity has been reproduced in an official police document.'
     },
-    'pdf-ccc-lodgement': {
-        type:'pdf',
-        title:'CCC LODGEMENT CONFIRMATION — TOM TATE · REF-1705827195',
-        tag:'Crime and Corruption Commission Queensland · 21 January 2024 · Ref-1705827195',
-        meta:'PDF · CCC Online Lodgement Form · Automated confirmation · 30-day assessment commitment made · Never fulfilled',
-        desc:'CCC Queensland automated confirmation of corruption report lodged against Tom Tate, Mayor of Gold Coast (Case No. 1705827195). Subject: direction of council staff to lock out homeless people from public toilets and water; deployment of rangers conducting warrantless vehicle searches. Jurisdiction: Queensland local government councils. CCC committed to written assessment within 30 days. No assessment, no follow-up, and no request for the missing image exhibits ever arrived.',
-        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tom_tate_corruption_report_ccc/ccc_Online+lodgement+form_Ref-1705827195.pdf',
-        filename:'ccc_Online_lodgement_form_Ref-1705827195.pdf',
-        pages: 4
-    },
-    'pdf-tom-tate-corruption-report': {
-        type:'pdf',
-        title:'TOM TATE CORRUPTION REPORT — CCC QUEENSLAND SUBMISSION',
-        tag:'Tom Tate · Mayor of Gold Coast · CCC Queensland · Corruption Report · January 2024',
-        meta:'PDF · Tom Tate Corruption Report · Submitted to CCC · Image exhibits appear as placeholders — never followed up',
-        desc:'Full corruption report submitted to the Crime and Corruption Commission of Queensland on 21 January 2024 regarding Tom Tate, Mayor of Gold Coast. Allegations: direction of council staff to lock homeless people out of public toilets and water sources; deployment of council rangers to hunt down rough sleepers; rangers conducting illegal warrantless vehicle searches. Note: image and video exhibits throughout the report appear as placeholder text (e.g. [Exhibit E — Library Card Video]) because they did not render in the submitted PDF. The CCC never contacted the complainant to request the missing exhibit material.',
-        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tom_tate_corruption_report_ccc/Tom+Tate+Corruption+Report.pdf',
-        filename:'Tom_Tate_Corruption_Report.pdf'
-    },
     'pdf-ccc-marc-barrow': {
         type:'pdf',
         title:'CRIME AND CORRUPTION COMMISSION — RESPONSE TO MARC BARROW REPORT',
@@ -4412,15 +3959,6 @@ var EVIDENCE = {
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/sandy/crime_commission_marc_barrow.pdf',
         filename:'crime_commission_marc_barrow.pdf',
         desc:'The Crime and Corruption Commission\'s response to the report filed about Marc Barrow\'s conduct. The CCC states they deal only with the most serious and systemic cases of corruption, and refers the matter back to the Queensland Police Service. This response was given despite the CCC having access to: a charge issued before the notice deadline expired; a property deliberately misclassified as a hostel in official documents; property removed without a warrant of possession; documented retaliation against a third party; and a sworn officer communicating that he would ignore the murder of a named person. The oversight body responsible for holding police accountable reviewed this material and sent it back to the institution it concerned. That is not oversight. That is institutional protection.'
-    },
-    'image-public-nuisance-nta': {
-        type:'image',
-        title:'NOTICE TO APPEAR — PUBLIC NUISANCE – VIOLENT (DISPUTED) — NO. 3729238',
-        tag:'Public Nuisance · Notice 3729238 · Occurrence QP2401059175 · Violent Classification Disputed · 22 June 2024',
-        meta:'Image · Queensland Police Service Notice to Appear · Cst B. Bruce Reg. 39893 · Southport · Served 22 Jun 2024',
-        desc:'Queensland Police Service Notice to Appear (PPRA 2000 s.382) issued 22 June 2024. Notice No. 3729238 · Occurrence No. QP2401059175. Offence: Public Nuisance – Violent. Offence time: 1640hrs. Location: Hinze & Scarborough St, Southport QLD 4215. Court date: 15 July 2024 at 8:30am, Southport Magistrates Court. Served personally at 1720hrs by Constable B. Bruce, Reg. No. 39893, Southport Station. THE "VIOLENT" CLASSIFICATION IS DISPUTED. The incident did not involve violence. The violent modifier materially changes the character of the charge and its consequences. Queensland Police Service can verify this matter using Notice No. 3729238 and Occurrence No. QP2401059175.',
-        src:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/Screenshot_20260506_113047_Photos.jpg',
-        filename:'Screenshot_20260506_113047_Photos.jpg'
     },
     'pdf-public-nuisance-charge': {
         type:'pdf',
@@ -4580,15 +4118,6 @@ var EVIDENCE = {
         desc:'Email correspondence with Rob McDonald, who was overseeing the PSLO rangers responsible for placing "Abandoned Property" stickers on Kosta Kondratenko\'s tent between December 2023 and January 2024. The tent was located out of sight, away from any public road, and was not abandoned — it was in active use. Rob McDonald was notified of these issues in writing. This file is 72MB due to the volume of correspondence and attachments.',
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/rob_mcdonald_email.pdf',
         filename:'rob_mcdonald_email.pdf'
-    },
-    'video-pslo-weekend': {
-        type:'video',
-        title:'VIDEO BLOG — PSLO TEAM CHECKING BELONGINGS UNDER A BRIDGE',
-        tag:'PSLO Team · Gold Coast · Weekend · 17 November 2024',
-        meta:'Video blog · Posted 17 November 2024 · PSLO team visible at 3m 46s · Belongings checked under bridge',
-        desc:'Video blog posted 17 November 2024. At 3 minutes 46 seconds, the PSLO team — the Gold Coast Council\'s Public Space Liaison Officers — can be seen attending a person\'s belongings under a bridge, going through their possessions when the person is not present. This is the same team documented placing "Abandoned Property" stickers on Kosta Kondratenko\'s tent between December 2023 and January 2024 — and the same team Kosta believes stole his tent on occasions when he was away from the campsite. The footage was captured on a weekend, outside normal Council operational hours. The PSLO team operates under the Gold Coast Homeless Action Plan, reporting ultimately to Mayor Tom Tate, and functions as the Council\'s primary enforcement mechanism against rough sleepers. Rob McDonald — whose email correspondence is documented separately — was overseeing the rangers responsible for the tent sticker operations.',
-        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/weekend_tent_theft.mp4',
-        filename:'weekend_tent_theft.mp4'
     },
     'pdf-lauren-forbes-email': {
         type:'pdf',
@@ -5011,101 +4540,16 @@ function togglePanel() {
 }
 
 // ── VIDEO PLAYER ──
-// ── VIDSTACK CHAPTER TIMES (seconds) — update when final video is cut ──
-var EP1_CHAPTER_TIMES = [0, 90, 180, 270, 360, 450];
-
 function seekToChapter(index) {
     var p = window.vidstackPlayer;
-    if (!p) { document.getElementById('player').scrollIntoView({behavior:'smooth',block:'center'}); return; }
-    // Try VTT cue times first, fall back to manual times array
+    if(!p) return;
     var tracks = p.textTracks;
     var ct = null;
-    for (var i = 0; i < tracks.length; i++) { if (tracks[i].kind === 'chapters') { ct = tracks[i]; break; } }
-    if (ct && ct.cues && ct.cues.length > index) {
-        p.currentTime = ct.cues[index].startTime;
-    } else {
-        p.currentTime = EP1_CHAPTER_TIMES[index] || 0;
-    }
-    p.play().catch(function(){});
-    document.getElementById('player').scrollIntoView({behavior:'smooth', block:'center'});
-    // Highlight active chapter in sidebar
-    document.querySelectorAll('[data-chap]').forEach(function(el, i) {
-        el.classList.toggle('!border-hot/40', i === index);
-        el.classList.toggle('!bg-hot/10', i === index);
-    });
+    for(var i=0;i<tracks.length;i++){if(tracks[i].kind==='chapters'){ct=tracks[i];break;}}
+    if(ct&&ct.cues&&ct.cues.length>index){p.currentTime=ct.cues[index].startTime;}
+    else{var d=p.duration||0;if(d>0)p.currentTime=(d/6)*index;}
+    document.getElementById('player').scrollIntoView({behavior:'smooth',block:'center'});
 }
-
-
-// ── VIDSTACK PLAYER INIT ──
-(function() {
-    var VTT_CONTENT = [
-        'WEBVTT',
-        '',
-        '00:00:00.000 --> 00:01:30.000',
-        'Sandy Tulisi',
-        '',
-        '00:01:30.000 --> 00:03:00.000',
-        'Privacy Breach',
-        '',
-        '00:03:00.000 --> 00:04:30.000',
-        'Sky News',
-        '',
-        '00:04:30.000 --> 00:06:00.000',
-        'Oracle East',
-        '',
-        '00:06:00.000 --> 00:07:30.000',
-        'RJ — 7 Incidents',
-        '',
-        '00:07:30.000 --> 00:20:00.000',
-        "Adam's Story",
-    ].join('\n');
-
-    function initPlayer() {
-        var el = document.getElementById('player');
-        if (!el) return;
-        // Vidstack custom element — wait for it to be defined
-        if (typeof el.subscribe !== 'function') {
-            setTimeout(initPlayer, 200);
-            return;
-        }
-        window.vidstackPlayer = el;
-
-        // Inject blob VTT into the chapters track
-        var track = document.getElementById('ep1-chapters-track');
-        if (track) {
-            var blob = new Blob([VTT_CONTENT], {type: 'text/vtt'});
-            track.src = URL.createObjectURL(blob);
-        }
-
-        // Highlight chapter as video plays
-        el.subscribe(function(state) {
-            var time = state.currentTime;
-            var tracks = el.textTracks;
-            for (var i = 0; i < tracks.length; i++) {
-                if (tracks[i].kind === 'chapters') {
-                    var cues = tracks[i].cues;
-                    for (var j = 0; j < cues.length; j++) {
-                        if (time >= cues[j].startTime && time < cues[j].endTime) {
-                            document.querySelectorAll('[data-chap]').forEach(function(el2) {
-                                var idx = parseInt(el2.getAttribute('data-chap'), 10);
-                                el2.classList.toggle('!border-hot/40', idx === j);
-                                el2.classList.toggle('!bg-hot/10', idx === j);
-                            });
-                            break;
-                        }
-                    }
-                    break;
-                }
-            }
-        });
-    }
-
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initPlayer);
-    } else {
-        initPlayer();
-    }
-})();
 
 // ── SMS ──
 function handleSMS(e) {
@@ -5136,74 +4580,17 @@ function sqToggleAnon() {
     document.getElementById('sq-contact-fields').classList.toggle('open', !document.getElementById('sq-anon-chk').checked);
 }
 function sqSubmit() {
-    var summaryEl = document.getElementById('sq-summary');
-    if (!summaryEl.value.trim()) {
-        summaryEl.classList.add('sq-error');
-        summaryEl.focus();
+    var summary = document.getElementById('sq-summary');
+    var subject = document.getElementById('sq-subject');
+    if (!summary.value.trim()) {
+        summary.classList.add('sq-error');
+        summary.focus();
         return;
     }
-    summaryEl.classList.remove('sq-error');
-
-    var btn = document.getElementById('sq-submit-btn');
-    var errEl = document.getElementById('sq-submit-error');
-    if (!errEl) {
-        errEl = document.createElement('div');
-        errEl.id = 'sq-submit-error';
-        errEl.style.cssText = 'color:#c1440e;font-size:0.72rem;margin-top:0.6rem;display:none;';
-        btn.parentNode.insertBefore(errEl, btn.nextSibling);
-    }
-    errEl.style.display = 'none';
-    btn.disabled = true;
-    btn.textContent = 'SENDING...';
-
-    var g = function(name) { var el = document.querySelector('[name="' + name + '"]'); return el ? el.value : null; };
-    var chk = function(name) { var el = document.querySelector('[name="' + name + '"]'); return el ? el.checked : false; };
-
-    var data = {
-        subject:             g('sq_subject'),
-        subject_other:       g('sq_subject_other'),
-        summary:             g('sq_summary'),
-        evidence_type:       g('sq_evidence_type'),
-        drive_link:          g('sq_drive_link'),
-        direct_url:          g('sq_direct_url'),
-        evidence_desc:       g('sq_evidence_desc'),
-        wants_pickup:        chk('sq_wants_pickup'),
-        pickup_suburb:       g('sq_pickup_suburb'),
-        pickup_timing:       g('sq_pickup_timing'),
-        pickup_notes:        g('sq_pickup_notes'),
-        relation_to_subject: g('sq_relation'),
-        has_corroboration:   chk('sq_has_corroboration'),
-        reported_before:     chk('sq_reported_before'),
-        safety_concern:      chk('sq_safety_concern'),
-        consents_publish:    chk('sq_consents_publish'),
-        is_anonymous:        chk('sq_anonymous'),
-        contact_name:        g('sq_contact_name'),
-        contact_phone:       g('sq_contact_phone'),
-        contact_email:       g('sq_contact_email'),
-        contact_pref:        g('sq_contact_pref'),
-        contact_notes:       g('sq_contact_notes'),
-    };
-
-    fetch('/api/tips', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-        body: JSON.stringify(data)
-    })
-    .then(function(response) {
-        if (response.ok) {
-            document.getElementById('sq-form-card').style.display = 'none';
-            document.getElementById('sq-form-footer').style.display = 'none';
-            document.getElementById('sq-success-state').style.display = 'block';
-        } else {
-            throw new Error('Server error');
-        }
-    })
-    .catch(function() {
-        btn.disabled = false;
-        btn.textContent = 'SUBMIT TIP →';
-        errEl.textContent = 'Submission failed — please try again.';
-        errEl.style.display = 'block';
-    });
+    summary.classList.remove('sq-error');
+    document.getElementById('sq-form-card').style.display = 'none';
+    document.getElementById('sq-form-footer').style.display = 'none';
+    document.getElementById('sq-success-state').style.display = 'block';
 }
 document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') closeTipModal();
