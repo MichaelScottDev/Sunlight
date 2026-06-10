@@ -3855,36 +3855,76 @@
         <!-- Armed home invasion -->
         <div class="story-chapter reveal mb-6" style="border-left-color:rgba(193,68,14,0.9)">
             <div class="flex items-center gap-3 mb-4">
-                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Armed Intimidation — Adam Watson's Residence</span>
-                <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/20 border border-paper/10 px-2 py-0.5">Directly Connected to Graham Gordon</span>
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Armed Home Invasion — Adam Watson's Residence</span>
+                <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/20 border border-paper/10 px-2 py-0.5">Directly Connected to Graham Gordon · All Four Charged</span>
             </div>
-            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">HE SENT FOUR MEN TO ADAM WATSON'S HOUSE.<br><span class="text-hot">ONE HELD A GLOCK TO HIS HEAD.</span></h3>
-            <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-6">"Four men entered Adam Watson's home — sent by Graham Gordon. One of them held a firearm to Adam Watson's head and told him to back off from his investigation. They were arrested. They talked. Gordon was charged."</p>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">TWO RUSSIANS. TWO CANADIANS. A GUN TO HIS HEAD.<br><span class="text-hot">FLASHBANG THROUGH THE WINDOW. GORDON CHARGED.</span></h3>
+            <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-6">"Graham Gordon sent four men to Adam Watson's house to tell him to back off. Two Russians and two Canadians. One held a gun to Adam's head. Adam wet himself. The enforcer pushed his face into the urine. Then the flashbang came through the window. All four charged. All four testified against Gordon immediately. The charge sheet goes to Civil Court."</p>
 
-            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Gordon arranged for four men to attend Adam Watson's address directly. The group comprised two Russians and two Canadians. They did not knock. They entered the house. When Adam Watson realised what was happening he called out for someone to contact police — specifying they should come without sirens. The instruction was not accidental: Adam understood immediately that the men were there to deliver a message, and that sirens would give them time to leave.</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">One of the men produced a Glock and held it to Adam Watson's head. Adam Watson was so frightened that he urinated. One of the men placed his face close to Adam Watson — into the urine — as they delivered their message: <strong class="text-paper/65">back off from the investigation into Graham Gordon.</strong> The connection to the strata fraud investigation was stated directly. This was not a random act of violence. It was a targeted warning from a man who understood that Adam Watson was getting close to exposing what had been done.</p>
-
-            <div class="border border-hot/30 p-5 mb-5" style="background:rgba(193,68,14,0.06)">
-                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-4">How It Ended</div>
-                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                    <div class="space-y-2">
-                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">The Arrest</div>
-                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">Tear gas entered the residence through the window. All four men were arrested immediately on site. They did not escape.</p>
+            <!-- Sequence of events -->
+            <div class="space-y-px mb-6" style="background:rgba(245,234,212,0.03)">
+                <div class="grid grid-cols-[56px_1fr] gap-4 p-4 border-l-2 border-hot/60" style="background:rgba(12,8,4,0.6)">
+                    <div class="text-center pt-0.5">
+                        <div class="text-[0.65rem] tracking-[0.08em] uppercase font-bold text-hot">01</div>
+                        <div class="text-[0.42rem] text-paper/30 mt-0.5">Entry</div>
                     </div>
-                    <div class="space-y-2">
-                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">They Cooperated</div>
-                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">All four men cooperated with police following their arrest. They identified Graham Gordon as the person who had sent them to Adam Watson's address.</p>
+                    <div>
+                        <div class="text-[0.65rem] font-display tracking-wide text-paper/80 mb-1">Four men enter Adam Watson's house</div>
+                        <div class="text-[0.58rem] leading-relaxed text-paper/45">Graham Gordon sends two Russians and two Canadians to Adam's address. They enter the house without invitation. Gordon's purpose is explicit: make Adam Watson back off from his investigation into the strata fraud.</div>
                     </div>
-                    <div class="space-y-2">
-                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">The Charge</div>
-                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">Gordon has been charged. The armed intimidation charge — arising directly from the home invasion — sits alongside the stalking charge as part of the criminal record now being produced to the Civil trial.</p>
+                </div>
+                <div class="grid grid-cols-[56px_1fr] gap-4 p-4 border-l-2 border-hot/70" style="background:rgba(12,8,4,0.5)">
+                    <div class="text-center pt-0.5">
+                        <div class="text-[0.65rem] tracking-[0.08em] uppercase font-bold text-hot">02</div>
+                        <div class="text-[0.42rem] text-paper/30 mt-0.5">Warning</div>
+                    </div>
+                    <div>
+                        <div class="text-[0.65rem] font-display tracking-wide text-paper/80 mb-1">"Police — call police! Tell them to come with no sirens!"</div>
+                        <div class="text-[0.58rem] leading-relaxed text-paper/45">Realising what is happening, Adam Watson calls out — to whoever can hear — to contact police, and critically: <em>to come without sirens.</em> The instruction is deliberate. Sirens announce the arrival. No sirens means the men inside do not hear them coming. A neighbour hears Adam. The call is made. Police respond quickly.</div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-[56px_1fr] gap-4 p-4 border-l-2" style="background:rgba(193,68,14,0.12);border-color:rgba(193,68,14,0.8)">
+                    <div class="text-center pt-0.5">
+                        <div class="text-[0.65rem] tracking-[0.08em] uppercase font-bold text-hot">03</div>
+                        <div class="text-[0.42rem] text-paper/30 mt-0.5">The Gun</div>
+                    </div>
+                    <div>
+                        <div class="text-[0.65rem] font-display tracking-wide mb-1" style="color:rgba(245,234,212,0.9)">One of the men holds a gun to Adam Watson's head</div>
+                        <div class="text-[0.58rem] leading-relaxed text-paper/50">One of the four men produces a firearm and places it against Adam Watson's head. Adam Watson is so frightened that he urinates. The enforcer then grabs Adam Watson's head and pushes it into the urine on the floor. The message delivered verbally is the same as the one delivered physically: <strong class="text-paper/65">back off from the investigation into Graham Gordon.</strong></div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-[56px_1fr] gap-4 p-4 border-l-2 border-gold/60" style="background:rgba(12,8,4,0.5)">
+                    <div class="text-center pt-0.5">
+                        <div class="text-[0.65rem] tracking-[0.08em] uppercase font-bold text-gold">04</div>
+                        <div class="text-[0.42rem] text-paper/30 mt-0.5">Entry</div>
+                    </div>
+                    <div>
+                        <div class="text-[0.65rem] font-display tracking-wide text-paper/80 mb-1">Police flashbang through the window</div>
+                        <div class="text-[0.58rem] leading-relaxed text-paper/45">Police, who have arrived without sirens at Adam's request, deploy a flashbang through the window. The four men are disoriented immediately. All four are arrested on site. None escape.</div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-[56px_1fr] gap-4 p-4 border-l-2 border-sage/60" style="background:rgba(61,122,74,0.06)">
+                    <div class="text-center pt-0.5">
+                        <div class="text-[0.65rem] tracking-[0.08em] uppercase font-bold text-sage">05</div>
+                        <div class="text-[0.42rem] text-paper/30 mt-0.5">Ratted</div>
+                    </div>
+                    <div>
+                        <div class="text-[0.65rem] font-display tracking-wide text-paper/80 mb-1">All four immediately testify against Graham Gordon</div>
+                        <div class="text-[0.58rem] leading-relaxed text-paper/45">Immediately upon arrest, all four men cooperate with police. They identify Graham Gordon as the person who instructed them to attend Adam Watson's address and deliver the warning. Their testimony is the direct evidence linking Gordon to the incident. Gordon is charged.</div>
                     </div>
                 </div>
             </div>
 
+            <!-- Civil court consequence -->
+            <div class="border border-gold/25 p-5 mb-5" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-3">The Charge Sheet Goes to Civil Court</div>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The criminal charge sheet arising from the home invasion is being produced directly to the Civil Court proceedings. Graham Gordon is a party to civil litigation against Adam Watson. A person who has been criminally charged for sending armed men to the home of the person he is suing — to threaten that person with a firearm and physically assault him — cannot present himself to a Civil Court as a credible party.</p>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">The charge sheet does not merely undermine Gordon's credibility. It exposes the nature of the campaign: the civil proceedings were the legal instrument, and the armed home invasion was the backup plan when the legal instrument moved too slowly. Presenting both to the Civil Court places the full picture on the record — and makes it impossible to argue that the litigation was pursued in good faith.</p>
+            </div>
+
             <div class="border border-paper/[0.08] px-5 py-4" style="background:rgba(193,68,14,0.03)">
-                <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Context</div>
-                <p class="text-[0.68rem] text-paper/45 leading-relaxed">This is the conduct of a man who, when he could no longer suppress Adam Watson through court proceedings and debt pressure, arranged for armed men to physically deliver a warning at his home. The message was explicit: the investigation was the reason they were there. Gordon named himself through the instruction he gave. When the four men were arrested and spoke to police, they closed the evidentiary gap between the instruction and the person who gave it. The arrest documentation now forms part of the Civil trial record.</p>
+                <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The Composition of the Group</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">Two Russians and two Canadians. The group was not assembled from Adam Watson's immediate social circle or neighbourhood — these were not people with a prior grievance. They were sent. The composition of the group, the manner of entry, the specific verbal message delivered alongside the physical assault, and the fact that all four immediately identified Gordon when arrested — all point to a directed, paid, professional intimidation operation. This is not a dispute that got out of hand. It was organised.</p>
             </div>
         </div>
 
