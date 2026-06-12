@@ -30,6 +30,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.vidstack.io/player/theme.css">
+    <link rel="stylesheet" href="https://cdn.vidstack.io/player/video.css">
+    <script src="https://cdn.vidstack.io/player" type="module"></script>
     <style>
         body::after{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");pointer-events:none;z-index:9498}
         ::-webkit-scrollbar{width:3px}::-webkit-scrollbar-track{background:#0c0804}::-webkit-scrollbar-thumb{background:#c1440e}
@@ -287,18 +290,17 @@
             </div>
             <div class="fade-up" style="animation-delay:0.25s">
                 <div class="flex items-center gap-3 mb-2"><span class="text-[0.52rem] tracking-[0.2em] uppercase" style="color:rgba(124,106,170,0.6)">▶ Now Playing — Navigate via chapters below</span></div>
-                <div id="player-ep2" class="w-full aspect-video border" style="border-color:rgba(124,106,170,0.2);box-shadow:0 0 80px rgba(124,106,170,0.09),0 0 0 1px rgba(245,234,212,0.025);background:#060606;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden">
-                    <div class="scanlines" style="position:absolute;inset:0;opacity:0.5"></div>
-                    <div style="text-align:center;position:relative;z-index:2">
-                        <div style="width:60px;height:60px;border:2px solid rgba(124,106,170,0.4);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto;transition:all 0.3s" onmouseover="this.style.borderColor='#7c6aaa';this.style.background='rgba(124,106,170,0.12)'" onmouseout="this.style.borderColor='rgba(124,106,170,0.4)';this.style.background='transparent'">
-                            <span style="color:rgba(124,106,170,0.5);font-size:1.2rem;margin-left:3px">▶</span>
-                        </div>
-                        <div style="margin-top:0.75rem;font-size:0.48rem;letter-spacing:0.18em;text-transform:uppercase;color:rgba(245,234,212,0.2);font-family:'DM Mono',monospace">Episode 2 — Video Pending Upload</div>
-                    </div>
-                    <div style="position:absolute;bottom:0.75rem;left:0;right:0;text-align:center">
-                        <div style="font-size:0.44rem;letter-spacing:0.15em;text-transform:uppercase;color:rgba(124,106,170,0.25);font-family:'DM Mono',monospace">sunlight.quest · season 1 · ep.02</div>
-                    </div>
-                </div>
+                <media-player
+                    id="player-ep2"
+                    title="Gold Coast Uncovered — Episode 2: The Network"
+                    src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/rj_confront.mp4"
+                    style="--media-brand:#7c6aaa;--media-focus-ring-color:rgba(124,106,170,0.45);--media-time-chapters-bg:rgba(124,106,170,0.5);width:100%;border:1px solid rgba(124,106,170,0.2);box-shadow:0 0 80px rgba(124,106,170,0.09),0 0 0 1px rgba(245,234,212,0.025)"
+                >
+                    <media-provider>
+                        <track id="ep2-chapters-track" kind="chapters" default />
+                    </media-provider>
+                    <media-video-layout></media-video-layout>
+                </media-player>
             </div>
             <!-- Chapter nav below video -->
             <div class="fade-up mt-5 border border-paper/[0.07]" style="animation-delay:0.35s;background:rgba(12,8,4,0.7)">
@@ -5669,16 +5671,59 @@ function togglePanel() {
     document.body.style.overflow = open?'':'hidden';
 }
 
+// ── VIDSTACK PLAYER EP2 INIT ──
+(function() {
+    var VTT_CONTENT_EP2 = [
+        'WEBVTT',
+        '',
+        '00:00:00.000 --> 00:01:15.000',
+        "Adam's Story",
+        '',
+        '00:01:15.000 --> 00:02:30.000',
+        'Samira',
+        '',
+        '00:02:30.000 --> 00:03:45.000',
+        'RJ — 15 Incidents',
+        '',
+        '00:03:45.000 --> 00:05:00.000',
+        'Brazen Crime',
+        '',
+        '00:05:00.000 --> 00:06:15.000',
+        'Redress Scheme',
+        '',
+        '00:06:15.000 --> 00:07:30.000',
+        'Kira & Kira',
+        '',
+        '00:07:30.000 --> 00:10:00.000',
+        'Tasmania'
+    ].join('\n');
+
+    function initPlayerEp2() {
+        var el = document.getElementById('player-ep2');
+        if (!el) return;
+        if (typeof el.subscribe !== 'function') {
+            setTimeout(initPlayerEp2, 200);
+            return;
+        }
+        window.vidstackPlayerEp2 = el;
+        window.vidstackPlayer = el;
+        var track = document.getElementById('ep2-chapters-track');
+        if (track) {
+            var blob = new Blob([VTT_CONTENT_EP2], {type: 'text/vtt'});
+            track.src = URL.createObjectURL(blob);
+        }
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initPlayerEp2);
+    } else {
+        initPlayerEp2();
+    }
+})();
+
 // ── VIDEO PLAYER ──
 function seekToChapter(index) {
-    var p = window.vidstackPlayer;
-    if(!p) return;
-    var tracks = p.textTracks;
-    var ct = null;
-    for(var i=0;i<tracks.length;i++){if(tracks[i].kind==='chapters'){ct=tracks[i];break;}}
-    if(ct&&ct.cues&&ct.cues.length>index){p.currentTime=ct.cues[index].startTime;}
-    else{var d=p.duration||0;if(d>0)p.currentTime=(d/8)*index;}
-    document.getElementById('player-ep2').scrollIntoView({behavior:'smooth',block:'center'});
+    seekToChapterEp2(index);
 }
 function seekToChapterEp2(index) {
     var p = window.vidstackPlayerEp2;
@@ -5691,6 +5736,7 @@ function seekToChapterEp2(index) {
     for(var i=0;i<tracks.length;i++){if(tracks[i].kind==='chapters'){ct=tracks[i];break;}}
     if(ct&&ct.cues&&ct.cues.length>index){p.currentTime=ct.cues[index].startTime;}
     else{var d=p.duration||0;if(d>0)p.currentTime=(d/8)*index;}
+    p.play().catch(function(){});
     document.getElementById('player-ep2').scrollIntoView({behavior:'smooth',block:'center'});
 }
 

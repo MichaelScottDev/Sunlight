@@ -30,6 +30,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.vidstack.io/player/theme.css">
+    <link rel="stylesheet" href="https://cdn.vidstack.io/player/video.css">
+    <script src="https://cdn.vidstack.io/player" type="module"></script>
     <style>
         body::after{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");pointer-events:none;z-index:9498}
         ::-webkit-scrollbar{width:3px}::-webkit-scrollbar-track{background:#0c0804}::-webkit-scrollbar-thumb{background:#c1440e}
@@ -332,7 +335,17 @@
             </div>
             <div class="fade-up" style="animation-delay:0.25s">
                 <div class="flex items-center gap-3 mb-2"><span class="text-[0.52rem] tracking-[0.2em] uppercase text-hot/60">▶ Now Playing — Navigate via chapters below</span></div>
-                <div id="player" class="w-full aspect-video border border-hot/20" style="box-shadow:0 0 80px rgba(193,68,14,0.09),0 0 0 1px rgba(245,234,212,0.025)"></div>
+                <media-player
+                    id="player-ep1"
+                    title="Gold Coast Uncovered — Episode 1"
+                    src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/rj_confront.mp4"
+                    style="--media-brand:#c1440e;--media-focus-ring-color:rgba(193,68,14,0.45);--media-time-chapters-bg:rgba(193,68,14,0.5);width:100%;border:1px solid rgba(193,68,14,0.2);box-shadow:0 0 80px rgba(193,68,14,0.09),0 0 0 1px rgba(245,234,212,0.025)"
+                >
+                    <media-provider>
+                        <track id="ep1-chapters-track" kind="chapters" default />
+                    </media-provider>
+                    <media-video-layout></media-video-layout>
+                </media-player>
             </div>
             <!-- Chapter nav below video -->
             <div class="fade-up mt-5 border border-paper/[0.07]" style="animation-delay:0.35s;background:rgba(12,8,4,0.7)">
@@ -4539,16 +4552,63 @@ function togglePanel() {
     document.body.style.overflow = open?'':'hidden';
 }
 
+// ── VIDSTACK PLAYER EP1 INIT ──
+(function() {
+    var VTT_CONTENT_EP1 = [
+        'WEBVTT',
+        '',
+        '00:00:00.000 --> 00:01:40.000',
+        'Sandy Tulisi',
+        '',
+        '00:01:40.000 --> 00:03:20.000',
+        'Privacy Breach',
+        '',
+        '00:03:20.000 --> 00:05:00.000',
+        'Sky News',
+        '',
+        '00:05:00.000 --> 00:06:40.000',
+        'Oracle East',
+        '',
+        '00:06:40.000 --> 00:08:20.000',
+        'RJ — 7 Incidents',
+        '',
+        '00:08:20.000 --> 00:10:00.000',
+        "Adam's Story"
+    ].join('\n');
+
+    function initPlayerEp1() {
+        var el = document.getElementById('player-ep1');
+        if (!el) return;
+        if (typeof el.subscribe !== 'function') {
+            setTimeout(initPlayerEp1, 200);
+            return;
+        }
+        window.vidstackPlayer = el;
+        var track = document.getElementById('ep1-chapters-track');
+        if (track) {
+            var blob = new Blob([VTT_CONTENT_EP1], {type: 'text/vtt'});
+            track.src = URL.createObjectURL(blob);
+        }
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initPlayerEp1);
+    } else {
+        initPlayerEp1();
+    }
+})();
+
 // ── VIDEO PLAYER ──
 function seekToChapter(index) {
     var p = window.vidstackPlayer;
-    if(!p) return;
+    if(!p){document.getElementById('player-ep1').scrollIntoView({behavior:'smooth',block:'center'});return;}
     var tracks = p.textTracks;
     var ct = null;
     for(var i=0;i<tracks.length;i++){if(tracks[i].kind==='chapters'){ct=tracks[i];break;}}
     if(ct&&ct.cues&&ct.cues.length>index){p.currentTime=ct.cues[index].startTime;}
     else{var d=p.duration||0;if(d>0)p.currentTime=(d/6)*index;}
-    document.getElementById('player').scrollIntoView({behavior:'smooth',block:'center'});
+    p.play().catch(function(){});
+    document.getElementById('player-ep1').scrollIntoView({behavior:'smooth',block:'center'});
 }
 
 // ── SMS ──
