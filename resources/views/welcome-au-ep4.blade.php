@@ -114,6 +114,7 @@
                 <a href="/episode-4" class="nav-accent-sage" style="color:#3d7a4a">⬤ Episode 4 — The Accountant</a>
             </div>
         </div>
+        <a href="/episode-3" title="Go to Episode 3" aria-label="Go to Episode 3" class="flex md:hidden items-center gap-1 px-2.5 h-8 border font-display text-[0.6rem] tracking-widest" style="border-color:rgba(201,138,16,0.5);color:#c98a10">‹ EP3</a>
         <span class="text-[0.52rem] tracking-[0.18em] uppercase border px-3 py-1.5 blink" style="border-color:rgba(61,122,74,0.6);color:#3d7a4a">⬤ EP.04</span>
     </div>
 </nav>

@@ -128,6 +128,10 @@
         <a href="/episode-2" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-violet/50 px-3 py-1.5 transition-all">← Episode 2</a>
         <a href="/episode-4" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-sage/50 px-3 py-1.5 transition-all">Episode 4 →</a>
         <button onclick="openTipModal()" class="hidden md:flex items-center gap-1.5 text-[0.55rem] tracking-[0.2em] uppercase border px-3 py-1.5 transition-all" style="color:#c98a10;border-color:rgba(201,138,16,0.45);background:transparent;cursor:pointer;font-family:'DM Mono',monospace;" onmouseover="this.style.borderColor='rgba(201,138,16,0.85)';this.style.background='rgba(201,138,16,0.08)'" onmouseout="this.style.borderColor='rgba(201,138,16,0.45)';this.style.background='transparent'">⊕ Submit a Tip</button>
+        <div class="flex md:hidden items-center gap-1.5">
+            <a href="/episode-2" title="Go to Episode 2" aria-label="Go to Episode 2" class="flex items-center gap-1 px-2.5 h-8 border font-display text-[0.6rem] tracking-widest" style="border-color:rgba(124,106,170,0.5);color:#7c6aaa">‹ EP2</a>
+            <a href="/episode-4" title="Go to Episode 4" aria-label="Go to Episode 4" class="flex items-center gap-1 px-2.5 h-8 border font-display text-[0.6rem] tracking-widest" style="border-color:rgba(61,122,74,0.5);color:#3d7a4a">EP4 ›</a>
+        </div>
         <span class="text-[0.52rem] tracking-[0.18em] uppercase border px-3 py-1.5" style="border-color:rgba(201,138,16,0.6);color:#c98a10">⬤ EP.03</span>
     </div>
 </nav>
