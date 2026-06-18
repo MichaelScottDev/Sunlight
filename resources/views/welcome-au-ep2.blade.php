@@ -3013,7 +3013,7 @@
                 <div class="bg-ink px-5 py-5 text-center">
                     <div class="stat-number text-4xl text-hot mb-1">$10K</div>
                     <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Default judgement</div>
-                    <div class="text-[0.5rem] text-paper/18 mt-1">Debt sold — unpaid</div>
+                    <div class="text-[0.5rem] text-paper/18 mt-1">Bankruptcy Notice issued</div>
                 </div>
                 <div class="bg-ink px-5 py-5 text-center">
                     <div class="stat-number text-4xl text-gold mb-1">1</div>
@@ -3052,16 +3052,17 @@
                 </div>
 
             <div class="border border-paper/[0.07] p-5 mb-8" style="background:rgba(193,68,14,0.03)">
-                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Financial Record</div>
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Financial Record — Statement of Claim & Bankruptcy Notice</div>
                 <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">West Kira has a Statement of Claim stamped by the Local Court for obtaining benefit by deception — a debt that includes the cost of deliberately destroying Adam Watson's glasses during the in-vehicle incident. The debt has since been onsold to a third-party collector. A stamped Statement of Claim is not an allegation. It is a court document. The conduct is on the record.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The debt has now escalated further. A <strong class="text-hot">Bankruptcy Notice</strong> has been issued by the Federal Court of Australia to West Kira. This is not a warning letter — it is a formal Federal Court instrument. Failure to comply with a Bankruptcy Notice within the prescribed timeframe constitutes an act of bankruptcy and can result in a sequestration order being made against the debtor's estate. The debt went unpaid. The Local Court judgement went ignored. Now the Federal Court is involved.</p>
                 <div class="evidence-vault mt-3">
                     <div class="ev-header" onclick="toggleVault(this)">
                         <div class="flex items-center gap-2">
                             <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
-                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— West Kira · Statement of Claim · Local Court</span>
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— West Kira · Statement of Claim · Bankruptcy Notice · Local Court</span>
                         </div>
                         <div class="flex items-center gap-3">
-                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">2 files</span>
                             <span class="ev-toggle">▼</span>
                         </div>
                     </div>
@@ -3071,6 +3072,14 @@
                             <div class="ev-meta">
                                 <div class="ev-name">statement_of_claim_west_kira.pdf</div>
                                 <div class="ev-desc">PDF · Statement of Claim · Local Court · Stamped · Obtaining benefit by deception · Debt onsold · Includes glasses damage</div>
+                            </div>
+                            <span class="ev-cta">View →</span>
+                        </div>
+                        <div class="ev-file ef-hot" onclick="openMV('pdf-bankruptcy-west-kira')">
+                            <div class="ev-icon ev-pdf">PDF</div>
+                            <div class="ev-meta">
+                                <div class="ev-name">bankruptcy_notice_west_kira.pdf</div>
+                                <div class="ev-desc">PDF · Bankruptcy Notice · Federal Court of Australia · Unpaid debt escalated to bankruptcy proceedings</div>
                             </div>
                             <span class="ev-cta">View →</span>
                         </div>
@@ -5390,6 +5399,15 @@ var EVIDENCE = {
         desc:'Statement of Claim stamped by the Local Court against West Kira for obtaining benefit by deception. The debt includes the cost of Adam Watson\'s glasses, deliberately destroyed by West Kira during the in-vehicle incident captured on recording. The debt has since been onsold to a third-party debt collector. A stamped Statement of Claim is a court document, not an allegation — the conduct and the debt are on the record.',
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/statement_of_claim_west_kira.pdf',
         filename:'statement_of_claim_west_kira.pdf'
+    },
+    'pdf-bankruptcy-west-kira': {
+        type:'pdf',
+        title:'BANKRUPTCY NOTICE — WEST KIRA · FEDERAL COURT OF AUSTRALIA',
+        tag:'Federal Court · Bankruptcy Notice · Unpaid Default Judgement',
+        meta:'PDF · Bankruptcy Notice · Federal Court of Australia',
+        desc:'A Bankruptcy Notice issued by the Federal Court of Australia to West Kira. This notice follows the unpaid default judgement documented in the Statement of Claim. Having gone unsatisfied through the Local Court process — including after the debt was onsold to a third-party collector — the matter has now escalated to formal Federal Court bankruptcy proceedings. Failure to comply with a Bankruptcy Notice within the prescribed timeframe constitutes an act of bankruptcy and can result in a sequestration order being made against the debtor\'s estate. West Kira is now the subject of Federal Court action.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/bankruptcy_notice_west_kira.pdf',
+        filename:'bankruptcy_notice_west_kira.pdf'
     },
     'video-wk-glasses': {
         type:'video',
