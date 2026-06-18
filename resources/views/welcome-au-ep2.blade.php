@@ -3059,10 +3059,10 @@
                     <div class="ev-header" onclick="toggleVault(this)">
                         <div class="flex items-center gap-2">
                             <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📁 Evidence Files</span>
-                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— West Kira · Statement of Claim · Bankruptcy Notice · Local Court</span>
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— West Kira · Statement of Claim · Local Court</span>
                         </div>
                         <div class="flex items-center gap-3">
-                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">2 files</span>
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
                             <span class="ev-toggle">▼</span>
                         </div>
                     </div>
@@ -3075,14 +3075,27 @@
                             </div>
                             <span class="ev-cta">View →</span>
                         </div>
-                        <div class="ev-file ef-hot" onclick="openMV('pdf-bankruptcy-west-kira')">
-                            <div class="ev-icon ev-pdf">PDF</div>
-                            <div class="ev-meta">
-                                <div class="ev-name">bankruptcy_notice_west_kira.pdf</div>
-                                <div class="ev-desc">PDF · Bankruptcy Notice · Federal Court of Australia · Unpaid debt escalated to bankruptcy proceedings</div>
-                            </div>
-                            <span class="ev-cta">View →</span>
+                    </div>
+                </div>
+
+                <!-- Bankruptcy Notice — embedded PDF -->
+                <div class="mt-5 border border-hot/20 overflow-hidden">
+                    <div class="flex items-center justify-between px-4 py-2.5" style="background:rgba(193,68,14,0.07)">
+                        <div class="flex items-center gap-2">
+                            <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📄 Federal Court Document</span>
+                            <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/30">— Bankruptcy Notice · West Kira</span>
                         </div>
+                        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/bankruptcy_notice_west_kira.pdf" target="_blank" rel="noopener" class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/70 hover:text-hot transition-colors">Open PDF ↗</a>
+                    </div>
+                    <iframe
+                        src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/bankruptcy_notice_west_kira.pdf"
+                        class="w-full"
+                        style="height:720px;border:none;display:block;background:#fff"
+                        title="Bankruptcy Notice — West Kira · Federal Court of Australia"
+                        loading="lazy"
+                    ></iframe>
+                    <div class="px-4 py-2 border-t border-hot/15 text-center" style="background:rgba(0,0,0,0.25)">
+                        <span class="text-[0.43rem] tracking-[0.12em] uppercase text-paper/30">Bankruptcy Notice · Federal Court of Australia · West Kira · Unpaid Default Judgement</span>
                     </div>
                 </div>
             </div>
