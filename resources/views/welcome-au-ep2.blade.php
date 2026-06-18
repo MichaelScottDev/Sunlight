@@ -238,6 +238,10 @@
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-violet"></div>
             <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-violet mb-1">Ch.6 — Coercive Control</div><div class="font-display text-base tracking-wide group-hover:text-violet transition-colors leading-tight">When Love Becomes a Weapon</div></div>
         </button>
+        <button onclick="document.getElementById('services-nsw').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-gold/35 transition-all p-4 bg-paper/[0.02]">
+            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-gold"></div>
+            <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-1">Ch.6B — Services NSW</div><div class="font-display text-base tracking-wide group-hover:text-gold transition-colors leading-tight">12 Fines · $6,558 · Licence Fraud</div><div class="text-[0.62rem] text-paper/30 mt-1">Tweed Heads · WA licence · Court to find who</div></div>
+        </button>
         <button onclick="document.getElementById('brazen').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
             <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.7 — Brazen Crime</div><div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Vehicle Attack & Arson</div></div>
@@ -623,6 +627,54 @@
                         <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Major Fraud Squad — Source of Funds Investigation</div>
                         <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The Major Fraud Squad has been brought in to investigate the source of the funds moving through Bodie Chalmers's accounts and those of his landlord. This is not a routine financial crimes review. The Fraud Squad's involvement at this level — looking at the provenance of the money, not just the mechanics of the direct debit — signals that the investigation has expanded well beyond the initial unauthorised transaction.</p>
                         <p class="text-[0.68rem] text-paper/50 leading-relaxed">The outcome anticipated is seizure: all funds whose source cannot be legitimately accounted for will be confiscated. For a person whose landlord is a drug dealer, and whose own criminal history includes aggravated burglary and participation in an organised car theft ring, the question of where the money in those accounts came from is not an abstract one. The Fraud Squad will answer it. And when they do, the assets follow.</p>
+                    </div>
+                </div>
+
+                <!-- Services NSW speeding fines — identity / licence fraud -->
+                <div id="services-nsw" class="story-chapter reveal" style="border-left-color:rgba(201,138,16,0.4)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Bodie Chalmers Network — Identity Fraud</span>
+                        <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/20 border border-paper/10 px-2 py-0.5">Services NSW · Tweed Heads · WA Driver's Licence</span>
+                    </div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">12 SPEEDING FINES. $6,558.<br><span class="text-gold">SOMEONE IS NOMINATING ADAM'S LICENCE — AND HIDING BEHIND A COURT DATE.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Adam received a call from Services NSW. His Western Australian Driver's Licence was being nominated for twelve speeding fines totalling $6,558 — all in Tweed Heads. Services NSW could not tell him who was doing it. To find out, he will have to go to Court."</p>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Adam Watson received a call from Services NSW advising him that his Western Australian Driver's Licence had been nominated against twelve (12) separate speeding infringements. The fines were issued in Tweed Heads, New South Wales. The total amount being chased by Services NSW is <strong class="text-gold">$6,558</strong> — Fine No. <strong class="text-gold">474089725</strong>.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The Services NSW representative confirmed the location of the infringements — Tweed Heads — but refused to disclose the identity of the person nominating Adam's licence. Under the current process, that information is withheld until the matter proceeds before a Court. Adam Watson holds a Western Australian Driver's Licence and has no legitimate connection to twelve speeding incidents in Tweed Heads, NSW.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">This is a known method of targeted harassment within criminal networks: obtaining someone's licence details and nominating them against infringements creates a legal and financial burden that the target must then spend time and money to contest in Court — precisely the outcome sought. It is consistent with the pattern of identity exploitation documented across Bodie Chalmers's conduct: the Optus social engineering, the unauthorised NAB direct debit, and now the weaponisation of a licence nomination system.</p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-5">
+                        <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.04)">
+                            <div class="text-[0.43rem] tracking-[0.18em] uppercase text-gold mb-2">Fine Reference</div>
+                            <div class="font-display text-xl text-gold mb-1">474089725</div>
+                            <p class="text-[0.58rem] text-paper/40 leading-relaxed">Services NSW infringement reference. 12 separate speeding fines issued in Tweed Heads, NSW.</p>
+                        </div>
+                        <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.04)">
+                            <div class="text-[0.43rem] tracking-[0.18em] uppercase text-gold mb-2">Total Amount</div>
+                            <div class="font-display text-xl text-gold mb-1">$6,558</div>
+                            <p class="text-[0.58rem] text-paper/40 leading-relaxed">Services NSW is pursuing this total across 12 infringements against Adam Watson's WA Driver's Licence.</p>
+                        </div>
+                        <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.04)">
+                            <div class="text-[0.43rem] tracking-[0.18em] uppercase text-gold mb-2">Where</div>
+                            <div class="font-display text-xl text-gold mb-1">Tweed Heads</div>
+                            <p class="text-[0.58rem] text-paper/40 leading-relaxed">All 12 fines located in Tweed Heads, NSW. Adam holds a WA licence and has no connection to this location.</p>
+                        </div>
+                    </div>
+
+                    <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">Why Services NSW Won't Say Who</div>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Under the licence nomination process, a third party can nominate another person's licence against a speeding infringement — shifting legal liability onto the nominated party. Services NSW will not disclose the nominator's identity without a Court order. This creates a built-in shield: the harasser remains anonymous until the target is forced to appear before a magistrate.</p>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed">Adam Watson will be attending Court to compel the disclosure. The identity of the person nominating his Western Australian licence against twelve Tweed Heads speeding fines will then be on the public record — and will become part of this documented case.</p>
+                    </div>
+
+                    <div class="border border-paper/[0.08] p-5" style="background:rgba(0,0,0,0.18)">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-paper/30 mb-3">The Coercive Control Pattern</div>
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Optus social engineering</strong> — walked into a store and had Adam's number deactivated with no authorisation</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">NAB direct debit fraud</strong> — set up an unauthorised debit from Adam's account to pay his own rent</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Services NSW licence nomination</strong> — 12 fines, $6,558, Tweed Heads — Adam forced to attend Court to find out who</p></div>
+                        </div>
+                        <p class="text-[0.62rem] text-paper/35 leading-relaxed mt-3">Each incident exploits a system — telecommunications, banking, traffic enforcement — in a way that forces Adam Watson to spend time, money, and legal resources to undo. The individual acts are designed to look like administrative matters. Together they form a campaign.</p>
                     </div>
                 </div>
 
