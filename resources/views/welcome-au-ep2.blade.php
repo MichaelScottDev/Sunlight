@@ -242,6 +242,10 @@
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-gold"></div>
             <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-1">Ch.6B — Services NSW</div><div class="font-display text-base tracking-wide group-hover:text-gold transition-colors leading-tight">12 Fines · $6,558 · Licence Fraud</div><div class="text-[0.62rem] text-paper/30 mt-1">Tweed Heads · WA licence · Court to find who</div></div>
         </button>
+        <button onclick="document.getElementById('hope-rinehart').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
+            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
+            <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.6C — Hope Rinehart</div><div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">False Allegation · AVO Threat · Police</div><div class="text-[0.62rem] text-paper/30 mt-1">Bodie contacts Hope · Lawyer's letter</div></div>
+        </button>
         <button onclick="document.getElementById('brazen').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
             <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.7 — Brazen Crime</div><div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Vehicle Attack & Arson</div></div>
@@ -813,6 +817,71 @@
                     <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.04)">
                         <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">Status — Action Being Taken</div>
                         <p class="text-[0.65rem] text-paper/45 leading-relaxed">The identity of this CGU representative is currently being obtained. Once confirmed, the matter will be referred to CGU management so that appropriate action can be taken. A serving insurance professional making comments characterising documented journalism as "inciting hate" — at a crime scene, in front of witnesses — is a conduct matter for their employer. Their name, role, and the full context of the comments will be published here upon confirmation.</p>
+                    </div>
+                </div>
+
+                <!-- Hope Rinehart — Bodie's unsolicited contact -->
+                <div id="hope-rinehart" class="story-chapter reveal mt-8" style="border-left-color:rgba(193,68,14,0.6)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Bodie Chalmers — Hope Rinehart</span>
+                        <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/20 border border-paper/10 px-2 py-0.5">Lawyer's Letter · AVO Threat · Police Referral</span>
+                    </div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">HE TOLD HOPE RINEHART<br><span class="text-hot">THAT ADAM WATSON WAS A PAEDOPHILE. THEN ASKED HER TO HOOK UP WITH HIM.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Bodie Chalmers contacted Hope Rinehart — one of Australia's most high-profile women — to tell her Adam Watson was a paedophile and to ask her to hook up with him so Adam would get jealous. Hope got her lawyer to write a letter. Then she called the police."</p>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Bodie Chalmers contacted Hope Rinehart — daughter of Gina Rinehart — with two objectives. The first: to tell Hope that Adam Watson is a paedophile. The false allegation was made without evidence, without basis, and in contact with a person who had no connection to the matter. The second: to suggest that Hope should hook up with Bodie Chalmers personally, ostensibly so that Adam Watson would become jealous.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The false paedophile allegation is consistent with Bodie's documented pattern of making serious, unsubstantiated allegations against Adam Watson to third parties — the same pattern that resulted in the DPP ruling a prior sexual assault allegation as a malicious prosecution on its first court mention. The contact with Hope Rinehart was unsolicited, uninvited, and grotesque.</p>
+
+                    <div class="border border-hot/25 p-5 mb-5" style="background:rgba(193,68,14,0.05)">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">Hope Rinehart's Response</div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                            <div class="border border-hot/15 p-4" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">Step 1</div>
+                                <div class="font-display text-sm text-paper/70 mb-2">Lawyer's Letter</div>
+                                <p class="text-[0.6rem] text-paper/45 leading-relaxed">Hope Rinehart immediately retained legal counsel. Her lawyer wrote to Bodie Chalmers threatening to apply for an Apprehended Violence Order (AVO).</p>
+                            </div>
+                            <div class="border border-hot/15 p-4" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">Step 2</div>
+                                <div class="font-display text-sm text-paper/70 mb-2">Police Contacted</div>
+                                <p class="text-[0.6rem] text-paper/45 leading-relaxed">Hope Rinehart contacted police directly. This was not a passive response. This was an immediate escalation to law enforcement.</p>
+                            </div>
+                            <div class="border border-hot/15 p-4" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">Step 3</div>
+                                <div class="font-display text-sm text-paper/70 mb-2">Police Spoke to Bodie</div>
+                                <p class="text-[0.6rem] text-paper/45 leading-relaxed">When police reached out to Bodie Chalmers regarding his contact with Hope Rinehart, his response was: <em class="text-paper/65">"She just wants my big cock."</em></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- The response quote callout -->
+                    <div class="border-l-4 border-hot/60 pl-5 mb-5" style="background:rgba(193,68,14,0.07);padding:1.1rem 1rem 1.1rem 1.25rem">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">Bodie Chalmers — To Police · On Hope Rinehart's Complaint</div>
+                        <p class="font-display text-xl text-paper/80 leading-tight mb-3">"She just wants my big cock."</p>
+                        <p class="text-[0.63rem] text-paper/40 leading-relaxed">This is the response Bodie Chalmers gave to police when they contacted him in connection with Hope Rinehart's complaint. A lawyer's letter had been sent. Police had been called. His response to law enforcement regarding the matter was the above. It is on the record.</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+                        <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.14)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">What Bodie Told Hope</div>
+                            <div class="space-y-1.5">
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">That Adam Watson is a paedophile — a false allegation with no basis</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">That Hope should get Gina Rinehart to "get rid of" Adam Watson</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">That Hope should hook up with Bodie so Adam Watson would get jealous</p></div>
+                            </div>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">The Pattern — Third-Party Allegations</div>
+                            <div class="space-y-1.5">
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">DPP: sexual assault allegation to police against Adam — ruled malicious prosecution</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Services NSW: licence nominated for 12 speeding fines — Adam targeted</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Hope Rinehart: paedophile allegation made directly to a prominent third party</p></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border border-paper/[0.08] p-5" style="background:rgba(0,0,0,0.18)">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-paper/30 mb-2">Note on the Paedophile Allegation</div>
+                        <p class="text-[0.63rem] text-paper/40 leading-relaxed">The allegation that Adam Watson is a paedophile is false. It is made by a person whose prior allegation against Adam Watson — a sexual assault claim — was dismissed as a malicious prosecution by the DPP on its first court mention, and whose arresting officer was subsequently fired. Making the same category of serious false allegation to a third party — one of Australia's most high-profile private individuals — is a continuation of the same pattern. It is defamatory. It is on the record.</p>
                     </div>
                 </div>
 
