@@ -2975,7 +2975,7 @@
                         <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Mental Health Welfare Check · Post-Viral Video</span>
                     </div>
                     <div class="flex items-center gap-3">
-                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">2 files</span>
                         <span class="ev-toggle">▼</span>
                     </div>
                 </div>
@@ -2988,6 +2988,35 @@
                         </div>
                         <span class="ev-cta">Watch →</span>
                     </div>
+                    <div class="ev-file ef-hot" onclick="openMV('pdf-mental-health-transcript')">
+                        <div class="ev-icon ev-pdf">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">mental-health-check-transcript.pdf</div>
+                            <div class="ev-desc">PDF · Full transcript of police mental health welfare check visit · Verbatim record of questions put to Kosta Kondratenko</div>
+                        </div>
+                        <span class="ev-cta">View →</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Transcript — embedded PDF -->
+            <div class="mt-5 border border-hot/20 overflow-hidden">
+                <div class="flex items-center justify-between px-4 py-2.5" style="background:rgba(193,68,14,0.07)">
+                    <div class="flex items-center gap-2">
+                        <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📄 Transcript</span>
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/30">— Mental Health Welfare Check · Full Verbatim Record</span>
+                    </div>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/mental-health-check-transcript.pdf" target="_blank" rel="noopener" class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/70 hover:text-hot transition-colors">Open PDF ↗</a>
+                </div>
+                <iframe
+                    src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/mental-health-check-transcript.pdf"
+                    class="w-full"
+                    style="height:780px;border:none;display:block;background:#fff"
+                    title="Mental Health Welfare Check — Full Transcript · Kosta Kondratenko"
+                    loading="lazy"
+                ></iframe>
+                <div class="px-4 py-2 border-t border-hot/15 text-center" style="background:rgba(0,0,0,0.25)">
+                    <span class="text-[0.43rem] tracking-[0.12em] uppercase text-paper/30">Mental Health Welfare Check · Verbatim Transcript · Post-Viral Video · Hancock Prospecting Questions Embedded</span>
                 </div>
             </div>
         </div>
@@ -4168,6 +4197,15 @@ var EVIDENCE = {
         desc:'Police attended Kosta Kondratenko\'s tent location framed as a mental health welfare check following the viral video. During the visit, enquiries were made about an alleged email depicting Steven Miles in a coffin — denied. Hancock Prospecting\'s questions were embedded in the welfare check. This video is the record of that visit. A police welfare check is not a vehicle for a private corporation to conduct character research on a journalist.',
         url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/mental_health_check.mp4',
         filename:'mental_health_check.mp4'
+    },
+    'pdf-mental-health-transcript': {
+        type:'pdf',
+        title:'MENTAL HEALTH CHECK — FULL TRANSCRIPT',
+        tag:'Verbatim Transcript · Police Welfare Visit · Post-Viral Video',
+        meta:'PDF · Verbatim transcript · Mental health welfare check · HHOT visit',
+        desc:'Full verbatim transcript of the police mental health welfare check conducted at Kosta Kondratenko\'s tent following the viral video. Documents the questions put to Kosta — including allegations regarding emails and videos sent to Premier Steven Miles and Mayor Tom Tate — as well as the Hancock Prospecting enquiries embedded within the welfare visit. This transcript is the written record of what was said and asked during that interaction.',
+        url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/mental-health-check-transcript.pdf',
+        filename:'mental-health-check-transcript.pdf'
     },
     'pdf-qfes-email': {
         type:'pdf',
