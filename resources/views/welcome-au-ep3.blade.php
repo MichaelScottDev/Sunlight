@@ -2310,6 +2310,91 @@
             </div>
         </div>
 
+        <!-- Kosta Confronts Martin — Caution — Library Exclusion -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.6)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Kosta Kondratenko · The Confrontation · Mermaid Beach Police Station</span>
+                <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-hot/30 text-hot/70 px-1.5 py-0.5">SELF-REPORTED</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">"STOP CONTACTING ADAM."<br><span class="text-hot">MARTIN RAN TO THE POLICE. KOSTA RECEIVED A CAUTION.</span></h3>
+            <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"After months of Martin making Adam feel unsafe at the library, I confronted him directly. I put my finger in his face. I told him to stop. Martin then ran to the police station and alleged I had spat on him — which I deny and which is not true. I am self-leaking this caution because this is exactly what targeted harassment followed by a police run looks like — and people need to understand how these narratives get constructed."</p>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Martin's continued harassment of Adam Watson — including the phone calls from different numbers, the targeted interference, and the pattern of making Adam feel unsafe to visit Kosta at the library — reached a point that Kosta Kondratenko decided required a direct response. Kosta approached Martin at the library, put his finger in Martin's face and told him plainly: <strong class="text-paper/70">"Stop contacting Adam."</strong></p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Library security staff asked Kosta to leave for 24 hours — a standard response to a confrontation on library premises, which Kosta accepts. Martin's response was to leave for the police station, where he made an allegation that Kosta had spat on him. <strong class="text-hot">This allegation is false. Kosta denies it entirely.</strong> Kosta is prepared to upload the CCTV footage of the physical confrontation to this website if it becomes available — the footage will show what happened.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Police subsequently approached Kosta and took him to Mermaid Beach Police Station. Despite Kosta presenting to police the full history of Martin's conduct — the harassment of Adam, the pattern of interference, the stalking — police proceeded to issue a caution. A caution of this nature does not appear on Kosta's criminal record. He continues to pass Working with Children Checks. But this is being self-disclosed — in full, with context — because the targeted harassment of Kosta Kondratenko means the record must be set straight. This is precisely how people's lives can be damaged when they stand up for their friends: one confrontation, selectively presented, becomes the entire story.</p>
+
+            <!-- Caution photo -->
+            <div class="mb-6 reveal">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/martin/adult_caution_martin.jpg"
+                     alt="Adult Caution — Kosta Kondratenko · Mermaid Beach Police Station"
+                     class="w-full object-cover border border-hot/20"
+                     style="max-height:600px;object-fit:contain;background:#0d0d0d"
+                     loading="lazy" />
+                <div class="px-4 py-2.5 border border-t-0 border-hot/15" style="background:rgba(193,68,14,0.06)">
+                    <div class="text-[0.44rem] tracking-[0.14em] uppercase text-hot/70">Adult Caution · Mermaid Beach Police Station · Self-Disclosed by Kosta Kondratenko</div>
+                    <p class="text-[0.55rem] text-paper/35 leading-relaxed mt-1">This caution does not appear on Kosta's criminal record. He continues to pass Working with Children Checks. It is published here with the full story — because the narrative without this context would be worse.</p>
+                </div>
+            </div>
+
+            <!-- After the caution — Martin kept going -->
+            <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">After the Caution — Martin Did Not Stop</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Despite the caution being issued, Martin continued his targeted phone harassment of Adam Watson — messaging him from different numbers. When Kosta attended Mermaid Beach Police Station with the caution paperwork to report that Martin was still harassing his friend, the response was that Adam Watson would need to attend the station himself and that the matter was considered finalised. The additional comment made was: <em class="text-paper/65">"Maybe don't assault people."</em></p>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed">This is why getting the full record straight matters. The police interaction closed on that framing — a comment that presupposes the allegation Martin made was true. Martin had made a false allegation, run to police, received an outcome, and then continued the same conduct that prompted the confrontation in the first place. The caution is not the story. The caution is one moment inside a much longer story — and this site is the rest of it.</p>
+            </div>
+
+            <!-- Martin's false allegation / attempted to drag Adam in -->
+            <div class="border border-paper/[0.08] p-5 mb-5" style="background:rgba(0,0,0,0.18)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/30 mb-3">Martin Also Tried to Involve Adam Watson</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-2">Martin threatened to state that it was Adam Watson who had directed Kosta to take the video of him. Adam Watson expressed genuine concern that he would be charged as a result of this allegation. The attempt to draw a third party into the police complaint — to extend the legal consequences outward from Kosta to Adam — is consistent with the wider pattern: use systems and institutions to cause maximum disruption to the people around him.</p>
+            </div>
+
+            <!-- How it works — pattern analysis -->
+            <div class="border-l-4 pl-5" style="border-color:rgba(193,68,14,0.6);background:rgba(193,68,14,0.05);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">How People Like Martin Operate — The Playbook</div>
+                <p class="text-[0.65rem] text-paper/50 leading-relaxed mb-3">People like Martin don't announce themselves as threats. They arrive as ordinary community figures — concerned neighbours, helpful intermediaries, people who seem to care about others. They insert themselves into situations. They gather information. They use the vocabulary of concern while pursuing entirely personal agendas. And when anyone pushes back, they don't fight — they run. They run to police. They run to management. They run to any institution that will hear a complaint.</p>
+                <p class="text-[0.65rem] text-paper/50 leading-relaxed mb-3">The target is then forced to respond to the institution — which does not know the history, which sees only the complaint in front of it, and which applies standard procedure. A caution is issued. A fine is levied. A ban is put in place. The target looks worse in every record than they actually are. Martin walks away as the victim. The damage is done.</p>
+                <p class="text-[0.65rem] text-paper/50 leading-relaxed">Communities are destroyed this way. The charity coffee shop closed. Adam Watson was fined $2,000. Kosta Kondratenko received a caution and a 12-month library exclusion. Three outcomes, all from the same person. Each outcome individually defensible by the institution that applied it. Together: a campaign. The records don't capture that. This site does.</p>
+            </div>
+        </div>
+
+        <!-- 12-Month Gold Coast Library Exclusion -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.5)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Gold Coast Libraries · 12-Month Exclusion · All Branches</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">BANNED FROM EVERY GOLD COAST LIBRARY.<br><span class="text-gold">12 MONTHS. ONE CONFRONTATION MARTIN PROVOKED.</span></h3>
+            <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"I went to Southport library — away from Martin, specifically to avoid the situation. A library security guard approached me and handed me a 12-month exclusion from every Gold Coast Council library. One confrontation with the person who had been making my friend's life unsafe became grounds for banning me from every library in the city."</p>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">After the confrontation at Broadbeach library, Kosta attended Southport library — specifically going to a different branch to remove himself from the situation with Martin. A library security guard approached him there and served him with a 12-month exclusion notice covering all Gold Coast Council libraries. A single confrontation, which Kosta accepts responsibility for, resulted in a citywide ban affecting his ability to work, access resources, and use public infrastructure.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The framing applied by the library was that Kosta presented a risk to other patrons. That framing does not acknowledge the months of provocation, the pattern of targeted harassment, or the fact that Martin — who was making Adam feel unsafe at the library — continued to attend without restriction. One person's conduct was treated as an institutional threat. The other person's conduct was not.</p>
+
+            <!-- Exclusion notice image -->
+            <div class="mb-6 reveal">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/martin/gold_coast_library_exclusion.jpg"
+                     alt="Gold Coast Libraries — 12-Month Exclusion Notice · Kosta Kondratenko"
+                     class="w-full object-cover border border-gold/20"
+                     style="max-height:700px;object-fit:contain;background:#0d0d0d"
+                     loading="lazy" />
+                <div class="px-4 py-2.5 border border-t-0 border-gold/15" style="background:rgba(201,138,16,0.05)">
+                    <div class="text-[0.44rem] tracking-[0.14em] uppercase text-gold/70">12-Month Exclusion · All Gold Coast Council Libraries · Served at Southport Library</div>
+                </div>
+            </div>
+
+            <!-- Pacific Fair intelligence — Martin weaponising personal information -->
+            <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-3">Pacific Fair — Martin Weaponising Personal Information</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Martin had also spoken to security staff at Pacific Fair shopping centre about Kosta. Through those conversations, information was leaked back to Martin — specifically that Kosta sometimes eats food left on tables at Pacific Fair. Martin then weaponised that piece of personal information by sending a message about it to Adam Watson.</p>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed">This is the intelligence-gathering and deployment pattern that runs throughout Martin's conduct. He builds relationships with security staff at venues, extracts personal information about targets, and uses that information to damage them — through messages to mutual contacts, through institutions, through whatever mechanism is available. The Pacific Fair incident is another data point in a documented pattern.</p>
+            </div>
+
+            <div class="border border-paper/[0.08] p-5" style="background:rgba(0,0,0,0.18)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/30 mb-3">Why the Targeted Harassment of Kosta Kondratenko Requires This Record</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Kosta Kondratenko is moving into a public and political space. The pattern of targeted harassment — from Martin and from others — means that isolated moments, stripped of context, can be used to construct a narrative that bears no relationship to reality. A caution. A library ban. A piece of personal behaviour at a shopping centre that was gathered and weaponised.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">Each of these things, presented alone, could damage a person. Presented with the full story — the months of provocation, the false allegation, the continuation of harassment even after the caution — they tell a completely different story. This is why the full record is being set straight here. Not to complain. To document.</p>
+            </div>
+        </div>
+
         <!-- Martin Threatens to Sue — Confirms He Left the Drink -->
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.7)">
             <div class="flex items-center gap-3 mb-4">
