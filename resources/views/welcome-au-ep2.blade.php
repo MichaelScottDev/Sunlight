@@ -2044,6 +2044,36 @@
                     </div>
                 </div>
 
+                <!-- Shadow director / phoenix activity / continuing pattern -->
+                <div class="border border-hot/20 p-4 mb-4" style="background:rgba(193,68,14,0.05)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-3">Continuing the Pattern — Shadow Director · Phoenix Activity · Post-Disqualification Conduct</div>
+
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Despite being disqualified from managing corporations for five years, Dave Hodgson is communicating with Adam Watson from a <strong class="text-paper/65">CSEQ Global company email address</strong>. He does not appear in the team section of the CSEQ Global website. His face is not there. His name is not listed. Yet he is corresponding on behalf of the company in relation to a commercial transaction. This is the conduct profile of a <strong class="text-paper/65">shadow director</strong> — a person who exercises the functions of a director while not formally appearing as one, precisely because they are legally prohibited from doing so.</p>
+
+                    <div class="border border-paper/[0.08] p-4 mb-4" style="background:rgba(0,0,0,0.18)">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">What Is a Shadow Director?</div>
+                        <p class="text-[0.62rem] text-paper/42 leading-relaxed mb-2">Under the Corporations Act 2001 (Cth), a shadow director is a person whose instructions or wishes the directors of a company are accustomed to act upon — regardless of whether they hold a formal director title. Shadow directorship is a legal recognition that disqualified persons sometimes continue to exercise control from behind the scenes, using others as the formal face of the company.</p>
+                        <p class="text-[0.62rem] text-paper/42 leading-relaxed">Acting as a shadow director while under a court-ordered disqualification from managing corporations is a criminal offence under the Corporations Act. A person found to be doing so is not protected by the absence of a formal title — the substance of the conduct is what matters, not the label.</p>
+                    </div>
+
+                    <div class="border border-hot/15 p-4 mb-4" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">Phoenix Activity — The Related Criminal Charge</div>
+                        <p class="text-[0.62rem] text-paper/42 leading-relaxed mb-2">Dave Hodgson also faces a criminal charge in relation to <strong class="text-paper/55">phoenix activity</strong>. Phoenix activity is the practice of deliberately liquidating or winding up a company to avoid its debts and legal obligations — and then resuming the same business through a new company, leaving creditors, employees, and the tax office unpaid while the controllers walk away and start again under a different name.</p>
+                        <p class="text-[0.62rem] text-paper/42 leading-relaxed mb-2">It is one of the most damaging forms of corporate misconduct in Australia. The Australian Taxation Office and ASIC both treat it as a serious priority. It costs the Australian economy billions of dollars annually — in unpaid superannuation, outstanding tax debts, employee entitlements stripped away, and the destruction of businesses that dealt in good faith with companies that were already being wound down for reuse.</p>
+                        <p class="text-[0.62rem] text-paper/42 leading-relaxed">A person who has been: (1) banned by ASIC in 2015; (2) disqualified for five years by a Federal Court in 2025 for raising $109M without a licence; (3) reportedly convicted of a criminal offence; and (4) charged with phoenix activity — is now, apparently, participating in a commercial transaction from a company email address while absent from that company's public team page. The pattern is consistent across decades. It has not stopped.</p>
+                    </div>
+
+                    <div class="border-l-4 border-hot/40 pl-4" style="background:rgba(193,68,14,0.04);padding:0.75rem 0.75rem 0.75rem 1rem">
+                        <div class="text-[0.43rem] tracking-[0.16em] uppercase text-hot mb-1.5">Observable Indicators — Shadow Directorship</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Communicating with Adam Watson from a CSEQ Global company email address</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Not listed on the CSEQ Global website team section — no photo, no name, no title</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Making commercial communications and judgements (including on Adam's AVO) on the company's behalf</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Disqualified from managing corporations — the same function he appears to be performing</p></div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- People in glass houses -->
                 <div class="border-l-4 border-gold/50 pl-5" style="background:rgba(201,138,16,0.06);padding:1rem 1rem 1rem 1.25rem">
                     <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-2">People in Glass Houses — Mrs Rinehart's Observation Applied</div>
