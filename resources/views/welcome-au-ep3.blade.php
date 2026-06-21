@@ -2518,9 +2518,93 @@
                     <div class="text-[0.43rem] tracking-[0.12em] uppercase mb-1.5 text-hot/60">Authority 3</div>
                     <div class="text-[0.62rem] text-paper/55 leading-tight">Library Staff<br><span class="text-paper/30 text-[0.5rem]">Complained Adam is ruining lives with a computer</span></div>
                 </div>
-                <div class="border p-3 text-center" style="border-color:rgba(201,138,16,0.2);background:rgba(201,138,16,0.03)">
-                    <div class="text-[0.43rem] tracking-[0.12em] uppercase mb-1.5 text-gold/60">Result</div>
-                    <div class="text-[0.62rem] text-paper/55 leading-tight">Another chapter<br><span class="text-paper/30 text-[0.5rem]">On the site he is trying to suppress</span></div>
+                <div class="border p-3 text-center" style="border-color:rgba(193,68,14,0.3);background:rgba(193,68,14,0.05)">
+                    <div class="text-[0.43rem] tracking-[0.12em] uppercase mb-1.5 text-hot/60">Authority 4</div>
+                    <div class="text-[0.62rem] text-paper/55 leading-tight">Civil Court<br><span class="text-paper/30 text-[0.5rem]">Filed suit against Adam Watson · Process served</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Martin Files Civil Suit Against Adam Watson -->
+        <div id="martin-civil-suit" class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.8)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Breaking · Civil Proceedings · Process Server</span>
+                <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-hot/40 text-hot px-1.5 py-0.5">FILED</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">MARTIN HAS FILED A CIVIL SUIT.<br><span class="text-hot">ADAM WATSON SERVED. THREE GROUNDS. ALL DISPUTED.</span></h3>
+            <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Martin doesn't have a case against Kosta — Kosta doesn't have anything. So he's suing Adam Watson instead. The process server has contacted Adam. The affidavit has three grounds. Adam intends to fight every one of them."</p>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Martin has filed a civil suit against Adam Watson. A process server has made contact with Adam to deliver the grounds. The strategic logic of the suit is transparent from the affidavit: Martin has assessed that Kosta Kondratenko does not have sufficient assets to make a judgment worthwhile, so the civil action is directed at Adam Watson instead — on the basis that Adam allegedly directed Kosta's conduct.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">Adam Watson is awaiting the civil proceedings. He intends to fight. The three grounds filed are addressed below.</p>
+
+            <!-- Three grounds -->
+            <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-4">The Three Grounds — Martin's Affidavit</div>
+                <div class="space-y-4">
+                    <div class="border-l-2 border-hot/40 pl-4">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot/70 mb-1">Ground 1 — Directed Assault</div>
+                        <p class="text-[0.65rem] text-paper/55 leading-relaxed mb-2">Martin alleges that Adam Watson directed Kosta Kondratenko to physically confront and assault him. Adam Watson denies this. Kosta Kondratenko denies this. The confrontation arose from Kosta's personal decision to confront someone who had been making his friend feel unsafe at the library for months — not from any instruction by Adam Watson. People act to protect their friends. That is not conspiracy. That is loyalty.</p>
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-sage/60 mt-1">DENIED — Adam Watson</div>
+                    </div>
+                    <div class="border-l-2 border-hot/40 pl-4">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot/70 mb-1">Ground 2 — Directed Filming</div>
+                        <p class="text-[0.65rem] text-paper/55 leading-relaxed mb-2">Martin alleges that Adam Watson directed Kosta to make and publish the video of Martin that appears on Sunlight.Quest. This is denied. The filming decision was Kosta's own — documentation was undertaken as a personal act of record-keeping in response to Martin's conduct. Adam Watson did not instruct, commission, or direct the filming.</p>
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-sage/60 mt-1">DENIED — Adam Watson</div>
+                    </div>
+                    <div class="border-l-2 border-hot/40 pl-4">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot/70 mb-1">Ground 3 — Privacy Breach (The Drink)</div>
+                        <p class="text-[0.65rem] text-paper/55 leading-relaxed mb-2">Martin alleges that Adam Watson breached his privacy by publishing the comment that the drink Martin left outside Kosta's tent may have been poisoned. As documented in the preceding section, Martin's own threat to sue over this comment inadvertently confirmed via SMS that he is the person who left the drink. The comment was Adam's direct response — a genuine warning to Kosta about a drink left by a person who had previously shown hostile intent. It is not a privacy breach to comment on an act committed against your friend.</p>
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-sage/60 mt-1">DENIED — Adam Watson</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The police record -->
+            <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-3">The Police Record Martin Has Obtained</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Martin has included in his affidavit a police record obtained after attending the police station — the same station he ran to after the confrontation with Kosta, where he made the false spitting allegation. He has used the outcome of that police visit as documentary support for his civil claim.</p>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed">This is the same police visit documented on this site — where police issued Kosta a caution despite being presented with Martin's full history of conduct. The caution was self-disclosed by Kosta with full context. It does not establish that Adam Watson directed Kosta's actions. It establishes that Kosta confronted someone who had been harassing his friend. Martin obtaining that record and deploying it in civil proceedings is consistent with the broader pattern: use every institutional interaction as a weapon, regardless of the context in which it occurred.</p>
+            </div>
+
+            <!-- Adam's counter position -->
+            <div class="border border-hot/30 p-5 mb-5" style="background:rgba(193,68,14,0.06)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">Adam Watson's Position — Stored Messages, Documented Pattern</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Adam Watson has stored every harassing and obsessive text message Martin has sent him over the course of this conduct. Multiple numbers. Repeated contact. Messages after the caution was issued — the same conduct that prompted Kosta to attend Mermaid Beach Police Station and was met with the comment "maybe don't assault people." Those messages are now part of Adam Watson's case.</p>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed">A civil suit brought by a person who has been sending harassing messages to the defendant — documented, stored, timestamped — does not present cleanly to a Court. The messages will be tendered. The full history of Martin's conduct will be placed before the Court. This is not a case about a confrontation. It is a case about a pattern that will be evidenced in full.</p>
+            </div>
+
+            <!-- The psychology of this — obsessed stalker pattern -->
+            <div class="border border-paper/[0.08] p-6 mb-5" style="background:rgba(0,0,0,0.18)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/30 mb-3">The Psychological Profile — What This Pattern Looks Like</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The civil suit is the latest instrument in a pattern that has been documented across this entire section. It is worth naming what the pattern looks like when viewed in full, because the individual incidents — each one plausible in isolation — only reveal their character when read together.</p>
+                <div class="space-y-2 mb-4">
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Intrusion</strong> — inserts himself into situations where he has no standing or invitation</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Intelligence gathering</strong> — cultivates relationships with security staff, extracts private information about targets, weaponises it (Pacific Fair; disability centre; library)</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Institutional deployment</strong> — every piece of gathered intelligence is routed through an authority: police, council rangers, library staff, the Courts</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Obsessive contact</strong> — continued messaging from multiple numbers after all police and civil intervention; the contact does not stop when pushed back</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Victim positioning</strong> — at every escalation, Martin presents as the harmed party: the old man being picked on, the man whose drink was mischaracterised, the person suing for justice</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Escalating litigation</strong> — when informal pressure fails, the legal system becomes the next instrument: threats, then a filed suit, then process servers</p></div>
+                </div>
+                <p class="text-[0.65rem] text-paper/40 leading-relaxed mb-3">This is a well-documented pattern in obsessive harassment cases. The harasser does not see themselves as a harasser — they genuinely believe they are acting in the right, responding to grievances, pursuing justice. That self-narrative makes them persistent, because they are not cynically weaponising systems — they are sincerely using them. The sincerity is what makes it dangerous. Courts see one complaint. Librarians see one complaint. Rangers see one report. None of them see the full chronology. This site is the full chronology.</p>
+                <p class="text-[0.65rem] text-paper/40 leading-relaxed">The stored messages Adam Watson holds are the most direct evidence of what this looks like outside the formal complaint process: repeated, unsolicited, multi-number contact from someone the recipient has made clear they do not want to hear from. That is not how a grievance looks. That is how an obsession looks.</p>
+            </div>
+
+            <!-- Civil proceedings status -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">Status</div>
+                    <div class="font-display text-base text-hot mb-1">Proceedings Pending</div>
+                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">Adam Watson has been served. Civil proceedings are pending. He intends to contest all three grounds.</p>
+                </div>
+                <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-2">Adam's Evidence</div>
+                    <div class="font-display text-base text-gold mb-1">Stored Messages</div>
+                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">Every harassing text from Martin — multiple numbers, continued after the caution — has been retained. The messages will be tendered to the Court.</p>
+                </div>
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.14)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">This Site</div>
+                    <div class="font-display text-base text-paper/60 mb-1">Remains Published</div>
+                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">The full documented record of Martin's conduct remains on this site. The civil suit does not change the facts. It adds to them.</p>
                 </div>
             </div>
         </div>
