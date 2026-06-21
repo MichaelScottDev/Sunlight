@@ -246,6 +246,10 @@
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
             <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.6C — Hope Rinehart</div><div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">False Allegation · AVO Threat · Police</div><div class="text-[0.62rem] text-paper/30 mt-1">Bodie contacts Hope · Lawyer's letter</div></div>
         </button>
+        <button onclick="document.getElementById('bodie-reinvention').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-violet/35 transition-all p-4 bg-paper/[0.02]">
+            <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px]" style="background:#7c6aaa"></div>
+            <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase mb-1" style="color:#7c6aaa">Ch.6D — Reinvention</div><div class="font-display text-base tracking-wide transition-colors leading-tight" style="color:rgba(245,234,212,0.55)">Custody · Tattoo Removal · New Identity</div><div class="text-[0.62rem] text-paper/30 mt-1">Rehabilitation vs. record</div></div>
+        </button>
         <button onclick="document.getElementById('brazen').scrollIntoView({behavior:'smooth'});togglePanel()" class="panel-item w-full text-left group relative overflow-hidden border border-paper/[0.06] hover:border-hot/35 transition-all p-4 bg-paper/[0.02]">
             <div class="bar-accent-y absolute top-0 left-0 bottom-0 w-[2px] bg-hot"></div>
             <div class="pl-3"><div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">Ch.7 — Brazen Crime</div><div class="font-display text-base tracking-wide group-hover:text-hot transition-colors leading-tight">Vehicle Attack & Arson</div></div>
@@ -882,6 +886,51 @@
                     <div class="border border-paper/[0.08] p-5" style="background:rgba(0,0,0,0.18)">
                         <div class="text-[0.44rem] tracking-[0.2em] uppercase text-paper/30 mb-2">Note on the Paedophile Allegation</div>
                         <p class="text-[0.63rem] text-paper/40 leading-relaxed">The allegation that Adam Watson is a paedophile is false. It is made by a person whose prior allegation against Adam Watson — a sexual assault claim — was dismissed as a malicious prosecution by the DPP on its first court mention, and whose arresting officer was subsequently fired. Making the same category of serious false allegation to a third party — one of Australia's most high-profile private individuals — is a continuation of the same pattern. It is defamatory. It is on the record.</p>
+                    </div>
+                </div>
+
+                <!-- Bodie in jail — reinvention, tattoo removal -->
+                <div id="bodie-reinvention" class="story-chapter reveal mt-8" style="border-left-color:rgba(124,106,170,0.4)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">Bodie Chalmers — Custody · Reinvention</span>
+                        <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/20 border border-paper/10 px-2 py-0.5">Tattoo Removal · Identity Reset · Reintegration</span>
+                    </div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">ACTIVITIES IN JAIL.<br><span style="color:#7c6aaa">TATTOO REMOVAL. A NEW IDENTITY. A NEW BEGINNING.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Bodie Chalmers is now in custody. He is participating in jail activities and, by all accounts, working toward a reinvention. He wants his tattoos removed — a physical erasure of the markers that come with a certain kind of life. He wants to come back different. That impulse is understandable. What it means for the people he harmed is a separate question."</p>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Bodie Chalmers is currently in custody. While there, he has been participating in in-custody programs and activities — the standard rehabilitative framework offered to people serving time. He is also seeking to have his tattoos removed. The motivation, as understood, is reinvention: to emerge from custody without the visible markers that identify him with the life he has led, and to re-enter the community as someone unrecognisable from who he was.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Tattoo removal as identity reset is not new. It is common among people exiting criminal networks — gang affiliations, insignia, names associated with criminal histories — where the markings on the body tell a story the person no longer wants told. The desire to shed that visible history is, at its core, human. The question is never whether someone should be allowed to change. The question is what that change looks like in practice, and whether the people left behind by the old version have any role in the new one.</p>
+
+                    <div class="border p-5 mb-5" style="border-color:rgba(124,106,170,0.2);background:rgba(124,106,170,0.04)">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase mb-3" style="color:#7c6aaa">On Criminals Reinventing Themselves — A Genuine Tension</div>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Australia's criminal justice system is built — nominally, at least — on the premise of rehabilitation. The idea is that people can and should be reintegrated: that the community benefits more from someone functioning within it than from someone permanently excluded. Jail programs, education, trade training, tattoo removal subsidies in some states — all of it is designed around the belief that the person who comes out can be different from the person who went in.</p>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">That belief is worth holding. But reintegration is not automatic, and it is not the same as absolution. The person who returns to the community as a "new version" of themselves is still returning to a community where people remember the old version — and in some cases, are still living with its consequences. Adam Watson is still living with the consequences of Bodie Chalmers's conduct. The vehicles attack. The NAB direct debit fraud. The false sexual assault allegation — ruled a malicious prosecution — and the officer who accepted it, now fired. The Optus social engineering. The licence nominations. The contact with Hope Rinehart.</p>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed">Bodie removing his tattoos is not the same as those things being undone. The community that is being asked to welcome him back is the same community in which those things happened. Acceptance is earned incrementally, through conduct — not cosmetically, through ink removal. The activities in jail are a beginning. They are not, by themselves, a resolution.</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+                        <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.14)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">What Reinvention Looks Like</div>
+                            <div class="space-y-1.5">
+                                <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Participation in in-custody programs and activities</p></div>
+                                <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Tattoo removal — erasing visible markers of the previous life</p></div>
+                                <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">An intent to re-enter the community as a different person</p></div>
+                            </div>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">What Reinvention Does Not Erase</div>
+                            <div class="space-y-1.5">
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">The people still living with the consequences of the old conduct</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">The court records, the DPP ruling, the Major Fraud Squad investigation</p></div>
+                                <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">The obligation to make things right — which tattoo removal does not fulfil</p></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-l-4 pl-5" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.04);padding:1rem 1rem 1rem 1.25rem">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">The Position of This Publication</div>
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed mb-2">Sunlight.Quest does not oppose rehabilitation. It supports it. What it opposes is the idea that the process of personal reinvention — however genuine — extinguishes the public record of what came before. The record here is not a punishment. It is documentation. The tattoos can come off. The court filings do not. The accounts that were closed at NAB and CBA stay closed. The DPP ruling stays on record. And the people Bodie Chalmers harmed continue to tell their story — because documentation is how accountability works when institutions close cases.</p>
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">If the reinvention is real, it will show. That is the only measure that matters. And the community that receives him back will watch — because communities always watch, even when they say nothing.</p>
                     </div>
                 </div>
 
