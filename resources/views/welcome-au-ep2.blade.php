@@ -1973,6 +1973,74 @@
             <p class="text-[0.68rem] text-paper/45 leading-relaxed">Adam helped Samira get an AVO. She used the knowledge of how that system works to turn it against him. Her husband came back with a knife. Six officers attended and beat Adam instead of arresting the man with the knife — calling him a Jewish Faggot and denying him his medication. Her associate attacked her with an axe — and police want that man to say it was Adam's idea. She made antisemitic statements in open court and was charged for them. She is still free. She is still doing it. The property where this began has been listed for sale.</p>
         </div>
 
+        <!-- Samira escalation — AVO against Adam, coal deal, Abbas Zein, defamation -->
+        <div class="story-chapter reveal mt-12" style="border-left-color:rgba(193,68,14,0.8)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Breaking · Women's Refuge · AVO Against Adam · Coal Deal · Abbas Zein</span>
+                <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-hot/40 text-hot px-1.5 py-0.5">ESCALATION</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">SHE'S GOT AN AVO AGAINST ADAM.<br><span class="text-hot">FROM A WOMEN'S REFUGE. WITH A LAWYER WHO SHOULDN'T HAVE THOSE FILES.</span></h3>
+            <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Samira is at a women's refuge. She's taken out an interim AVO against Adam Watson — claiming he sent Socrates to get her. Her lawyer has accessed Adam's past cases, including his assault conviction, which he is appealing and pursuing malicious prosecution against QLD police for. The AVO has been leaked to a company involved in a coal deal Adam is buying into. Adam fears being framed. He is fighting every element of this."</p>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Samira Khalaj is currently at a women's refuge. From that position she has obtained an interim AVO against Adam Watson. The central allegation in the AVO is that Adam sent Socrates — a third party known to both — to locate or intimidate her. Adam Watson denies this. The AVO is interim: no hearing has been set, no evidence has been tested, and no findings of fact have been made. An interim AVO is an administrative instrument, not a judicial determination.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Adam Watson fears being framed — potentially for an offence that could carry a 25-year sentence. The escalation from antisemitic outbursts in open court, to a refuge, to a lawyer with access to sealed files, to a leaked AVO, follows a pattern that has been documented across every chapter of this section: each step uses the system against the person the system should be protecting.</p>
+
+            <!-- The lawyer and file access -->
+            <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">The Lawyer — Accessing Files She Shouldn't Have</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Samira has retained a lawyer who has accessed Adam Watson's past court cases — including his assault conviction, which Adam is currently appealing. Adam is also pursuing a malicious prosecution claim against Queensland Police in connection with that conviction. The lawyer's access to those files — described as access she was not authorised to have — is itself the subject of concern.</p>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed">That the assault conviction is under active appeal and subject to a malicious prosecution claim means it cannot be treated as settled fact. Using an actively-appealed conviction as supporting context in an AVO application — through a lawyer who may not have had legitimate access to the file — is a serious procedural concern that will be raised in the proceedings.</p>
+            </div>
+
+            <!-- AVO leaked to coal deal -->
+            <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-3">The AVO Leaked to a Coal Deal — The Director Who Can't Throw Stones</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">The interim AVO has been disclosed to a company involved in a coal transaction Adam Watson is pursuing. The person selling the coal deal has raised the AVO as a concern — despite the fact that no hearing has been set and no facts have been determined. An interim AVO with no hearing date is not a finding. It is a claim. Using it to affect a commercial transaction before any court determination is a misuse of an instrument that is meant to protect people, not damage their business dealings.</p>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">The director of the company involved has himself been barred from acting as a director. On the matter of the AVO disclosure, Mrs Rinehart's observation is apt: <em class="text-paper/65">people in glass houses shouldn't throw stones.</em> A person barred from the director role citing an unheard AVO as a reason for commercial concern is not in a position to occupy the moral high ground.</p>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed">The disclosure of the AVO to commercial parties — before any hearing, before any finding, before any determination of the claims within it — is itself the subject of ongoing consideration by Adam Watson and his advisors.</p>
+            </div>
+
+            <!-- Abbas Zein -->
+            <div class="border border-hot/25 p-5 mb-5" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">Abbas Zein — Contacted by Samira Through Her Lawyer</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Samira, through her lawyer, has made contact with Abbas Zein. Abbas Zein owes Adam Watson money. The contact — made possible by a lawyer's access to case files that were not meant to be accessible — is not coincidental. Reaching out to a person with a financial debt to Adam Watson, at a time when Samira is pursuing an AVO and making serious allegations, is a targeted act of commercial and legal pressure.</p>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed">Samira has been explicit in her intent: she wants to destroy Adam Watson's life. This is not an inference from conduct. It is a statement of purpose. The contact with Abbas Zein is consistent with that stated objective — locate the financial vulnerabilities, apply pressure at every point.</p>
+            </div>
+
+            <!-- Adam's response — defamation research -->
+            <div class="border border-paper/[0.08] p-5 mb-5" style="background:rgba(0,0,0,0.18)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/30 mb-3">Adam's Response — Defamation Proceedings Being Considered</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Adam Watson has been researching the basis for defamation proceedings against Samira Khalaj. In doing so he has engaged with the question of what the interim AVO actually prohibits — and has received advice correcting some initial assumptions about how NSW AVO conditions operate in practice.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">The key points from that process: an interim AVO imposes conditions on the <em>defendant</em> (Adam), not on Samira. Standard conditions include no stalking or intimidating the protected person. There is no default "no publishing" condition — publication can sometimes constitute harassment or intimidation, but only if the conditions explicitly provide for it. There is no condition preventing Samira from accessing court records; any restriction on court record access would require a separate suppression order, not an AVO. The AVO does not require Adam to act through a solicitor.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">What matters, practically, is what the specific conditions on the actual order say — and the interim order and any suppression order need to be reviewed by a solicitor together with Adam's criminal and CCA matters. That is the step being taken. The defamation question — whether Samira's conduct and statements give rise to a claim — is a separate matter being evaluated concurrently.</p>
+            </div>
+
+            <!-- AVO conditions note -->
+            <div class="border-l-4 border-gold/50 pl-5 mb-5" style="background:rgba(201,138,16,0.04);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-2">A Note on Interim AVOs — What They Are and Aren't</div>
+                <p class="text-[0.63rem] text-paper/45 leading-relaxed mb-2">An interim AVO is issued without a full hearing. It is a protective measure pending a determination, not a finding of fact. It does not mean the allegations within it have been assessed, tested, or proven. The person named as defendant in an interim AVO retains the presumption of innocence and the right to contest the application at a hearing.</p>
+                <p class="text-[0.63rem] text-paper/45 leading-relaxed">Using an unheard interim AVO to affect a person's commercial dealings, to reach their creditors, or to construct a public narrative of guilt before any hearing has been set — is a misuse of the instrument. It is being documented here because the pattern of misuse is as important as the instrument itself.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">AVO Status</div>
+                    <div class="font-display text-sm text-hot mb-1">Interim · No Hearing Set</div>
+                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">Interim AVO obtained by Samira against Adam. No hearing date. No facts determined. Adam contests all allegations.</p>
+                </div>
+                <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-2">Assault Conviction</div>
+                    <div class="font-display text-sm text-gold mb-1">Under Appeal</div>
+                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">Adam is appealing his assault conviction and pursuing malicious prosecution against QLD Police. The conviction is not settled.</p>
+                </div>
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.14)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">Defamation</div>
+                    <div class="font-display text-sm text-paper/60 mb-1">Being Researched</div>
+                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">Adam Watson is researching defamation proceedings against Samira Khalaj. Solicitor review of all matters is in progress.</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 
