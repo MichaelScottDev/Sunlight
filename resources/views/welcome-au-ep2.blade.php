@@ -1992,12 +1992,65 @@
                 <p class="text-[0.68rem] text-paper/48 leading-relaxed">That the assault conviction is under active appeal and subject to a malicious prosecution claim means it cannot be treated as settled fact. Using an actively-appealed conviction as supporting context in an AVO application — through a lawyer who may not have had legitimate access to the file — is a serious procedural concern that will be raised in the proceedings.</p>
             </div>
 
-            <!-- AVO leaked to coal deal -->
+            <!-- AVO leaked to coal deal — Dave Hodgson / CSEQ Global -->
             <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.04)">
-                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-3">The AVO Leaked to a Coal Deal — The Director Who Can't Throw Stones</div>
-                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">The interim AVO has been disclosed to a company involved in a coal transaction Adam Watson is pursuing. The person selling the coal deal has raised the AVO as a concern — despite the fact that no hearing has been set and no facts have been determined. An interim AVO with no hearing date is not a finding. It is a claim. Using it to affect a commercial transaction before any court determination is a misuse of an instrument that is meant to protect people, not damage their business dealings.</p>
-                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">The director of the company involved has himself been barred from acting as a director. On the matter of the AVO disclosure, Mrs Rinehart's observation is apt: <em class="text-paper/65">people in glass houses shouldn't throw stones.</em> A person barred from the director role citing an unheard AVO as a reason for commercial concern is not in a position to occupy the moral high ground.</p>
-                <p class="text-[0.68rem] text-paper/48 leading-relaxed">The disclosure of the AVO to commercial parties — before any hearing, before any finding, before any determination of the claims within it — is itself the subject of ongoing consideration by Adam Watson and his advisors.</p>
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-4">The AVO Leaked to a Coal Deal — Dave Hodgson · CSEQ Global · People in Glass Houses</div>
+
+                <!-- Hodgson identity card -->
+                <div class="border border-gold/15 mb-5 overflow-hidden" style="background:rgba(0,0,0,0.2)">
+                    <div class="flex gap-4 p-4 items-start">
+                        <div class="shrink-0">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/david_hodgson.jpg"
+                                 alt="Dave Hodgson — CSEQ Global · Disqualified Director"
+                                 class="border border-gold/20 object-cover object-top"
+                                 style="width:90px;height:110px;object-fit:cover"
+                                 loading="lazy" />
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex items-center gap-3 mb-2 flex-wrap">
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/cseq_global.jpg"
+                                     alt="CSEQ Global"
+                                     class="h-7 w-auto object-contain"
+                                     loading="lazy" />
+                                <span class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/30">·</span>
+                                <a href="https://cseqglobal.com/" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase text-gold/60 hover:text-gold transition-colors">cseqglobal.com ↗</a>
+                            </div>
+                            <div class="font-display text-lg text-paper/80 leading-tight mb-1">DAVE HODGSON</div>
+                            <div class="text-[0.46rem] tracking-[0.16em] uppercase text-hot mb-2">Disqualified from managing corporations · 5 years · ASIC · Federal Court · Sept 2025</div>
+                            <p class="text-[0.58rem] text-paper/40 leading-relaxed">Queensland businessman. Sole director of Macrolend and Great Southland. Raised ~$109M from investors without an AFSL. Claimed Kradle Software held $1.02B in intangible assets — balance sheet showed $11,810. Now at CSEQ Global — whose coal transaction Adam Watson is acquiring into. His comment on receiving the interim AVO: <em class="text-paper/55">"This doesn't look good."</em></p>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">The interim AVO — unheard, with no facts determined — was disclosed to Dave Hodgson in the context of a coal transaction at CSEQ Global that Adam Watson is pursuing. Hodgson's response on receiving it was: <strong class="text-paper/65">"This doesn't look good."</strong> The record of who Dave Hodgson is, and what the Federal Court has found about him, provides the full context for that comment.</p>
+
+                <!-- Federal Court findings -->
+                <div class="border border-hot/15 p-4 mb-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-3">What the Federal Court Found About Dave Hodgson — ASIC v Hodgson (2025)</div>
+                    <div class="space-y-2 mb-4">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Operated without an Australian Financial Services Licence (AFSL) <strong class="text-paper/60">2015–2023</strong> while raising <strong class="text-paper/60">~$109 million from investors</strong> through Macrolend and Great Southland</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Claimed Kradle Software had intangible assets of <strong class="text-paper/60">$1.02 billion</strong> — actual balance sheet: <strong class="text-hot">$11,810</strong></p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Justice Derrington: the $1 billion figure was <em>"no more than a figure plucked out of the air"</em> — she called it a <strong class="text-paper/60">"magic pudding" approach to valuation</strong> and found it <em>"entirely fanciful"</em></p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Misrepresented how investor funds would be used. Great Southland (Belize-registered) operated unlawfully in Australia while unregistered for over six years</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-hot">Second ASIC action</strong> — previously banned in 2015 for two years for false statements in investment disclosures (Exalt Global Funds)</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Justice Derrington: <em>"I cannot accept that he feels any remorse, beyond the fact that he became subject to ASIC's attention"</em> — called his AFSL compliance approach <em>"laissez-faire"</em></p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-hot">Disqualified from managing corporations for five years. Permanently restrained from financial services without an AFSL.</strong> Ordered to pay ASIC's costs.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Also reportedly a convicted felon</p></div>
+                    </div>
+                    <div class="flex flex-wrap gap-3 pt-2 border-t border-hot/10">
+                        <a href="https://www.abc.net.au/news/2025-09-23/dave-hodgson-queensland-businessman-asic/105806258" target="_blank" rel="noopener" class="text-[0.43rem] tracking-[0.12em] uppercase text-hot/60 hover:text-hot transition-colors">ABC News: "Magic Pudding" Report ↗</a>
+                        <span class="text-paper/15">·</span>
+                        <a href="https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-212mr-david-paul-hodgson-disqualified-for-unlicensed-financial-services-and-misleading-statements/" target="_blank" rel="noopener" class="text-[0.43rem] tracking-[0.12em] uppercase text-hot/60 hover:text-hot transition-colors">ASIC Media Release 25-212MR ↗</a>
+                    </div>
+                </div>
+
+                <!-- People in glass houses -->
+                <div class="border-l-4 border-gold/50 pl-5" style="background:rgba(201,138,16,0.06);padding:1rem 1rem 1rem 1.25rem">
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-2">People in Glass Houses — Mrs Rinehart's Observation Applied</div>
+                    <p class="text-[0.65rem] text-paper/52 leading-relaxed mb-3">Mrs Rinehart's observation is precise here: people in glass houses shouldn't throw stones. A person disqualified from managing corporations by a Federal Court — for raising $109 million from investors without a licence, for claiming a company worth $11,810 had $1.02 billion in intangible assets, for misleading investors about the use of their funds, with a prior 2015 ASIC ban for false statements, and who is also reportedly a convicted felon — is commenting on an unheard interim AVO filed by a woman who said "Gas all you Jews" in open court and was charged for it.</p>
+                    <p class="text-[0.65rem] text-paper/52 leading-relaxed mb-3">An interim AVO is not a conviction. It is not a finding of fact. It is a claim — filed, not yet heard, not yet tested. It says nothing about Adam Watson because no court has yet said anything about Adam Watson in connection with it. Dave Hodgson saying <em>"this doesn't look good"</em> about an unheard AVO, from his current position, is a comment that invites scrutiny of who is making it.</p>
+                    <p class="text-[0.65rem] text-paper/52 leading-relaxed">The AVO disclosure to commercial parties — before any hearing, before any finding, before any determination — is itself part of the ongoing record of how this matter has been conducted. It will remain on this site.</p>
+                </div>
             </div>
 
             <!-- Abbas Zein -->
