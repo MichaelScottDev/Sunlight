@@ -501,6 +501,25 @@
                 <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Refugee Convention</div>
                 <div class="text-[0.5rem] text-paper/18 mt-1">PM backs withdrawal</div>
             </div>
+            <!-- Item 5: National Press Club / Pauline Hanson / David Sharaz -->
+            <div class="story-chapter" style="border-left-color:rgba(193,68,14,0.4)">
+                <div class="flex items-center gap-3 mb-3">
+                    <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot border border-hot/40 px-2 py-1">Civil Damages</span>
+                    <span class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/20">National Press Club · David Sharaz</span>
+                </div>
+                <h3 class="font-display text-2xl tracking-wide mb-3 leading-tight">PAULINE HANSON'S SPEECH DISRUPTED.<br><span class="text-hot">NATIONAL PRESS CLUB PURSUING $40,000 IN DAMAGES.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The National Press Club — the venue that hosted Pauline Hanson's speech, which was interrupted by a GetUp board member — is now pursuing $40,000 in civil damages against <strong class="text-paper/65">David Sharaz</strong> for damage caused to the walls of the premises during the incident. The disruption, which attracted national media attention, has resulted in the Press Club seeking financial redress through civil proceedings for the physical damage to the venue.</p>
+                <div class="border border-hot/15 p-4" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The Record</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Pauline Hanson was mid-speech at the National Press Club when a GetUp board member disrupted proceedings</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">The disruption caused physical damage to the walls of the Press Club venue</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">The National Press Club is now pursuing David Sharaz for <strong class="text-hot">$40,000</strong> in civil damages</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Civil proceedings — not a criminal matter — the Press Club seeking compensation for the physical cost of the disruption</p></div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </div>
