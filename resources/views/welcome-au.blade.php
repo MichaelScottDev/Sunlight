@@ -484,7 +484,7 @@
             <div class="bg-ink px-6 py-6 text-center">
                 <div class="stat-number text-4xl text-sage mb-1">PM</div>
                 <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Albanese</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">4 positions confirmed</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">5 positions confirmed</div>
             </div>
             <div class="bg-ink px-6 py-6 text-center">
                 <div class="stat-number text-4xl text-gold mb-1">⚡</div>
@@ -501,7 +501,31 @@
                 <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Refugee Convention</div>
                 <div class="text-[0.5rem] text-paper/18 mt-1">PM backs withdrawal</div>
             </div>
-            <!-- Item 5: National Press Club / Pauline Hanson / David Sharaz -->
+            <!-- Item 5: Mike Burgess / AFP / Pauline Hanson security -->
+            <div class="story-chapter" style="border-left-color:rgba(193,68,14,0.4)">
+                <div class="flex items-center gap-3 mb-3">
+                    <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot border border-hot/40 px-2 py-1">Confirmed — Mike Burgess</span>
+                    <span class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/20">AFP · Pauline Hanson · Security Pulled</span>
+                </div>
+                <h3 class="font-display text-2xl tracking-wide mb-3 leading-tight">ALBANESE CALLED THE AFP.<br><span class="text-hot">PAULINE HANSON'S SECURITY PULLED ON PRIME MINISTERIAL ORDER.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Mike Burgess — the Director-General of the Australian Security Intelligence Organisation — has confirmed to Adam Watson that Prime Minister Anthony Albanese placed a direct call into the Australian Federal Police instructing them to pull security from Pauline Hanson. This is not a rumour or speculation. It is a confirmation from the head of Australia's domestic intelligence agency.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">A Prime Minister using a direct call to the AFP to remove security from a sitting Senator and Opposition leader is not a normal exercise of executive authority. AFP protection is allocated on threat assessments, not political preference. A Prime Ministerial instruction to withdraw that protection — from a political opponent — is an abuse of executive power and a matter of grave public interest.</p>
+                <div class="border border-hot/20 p-4 mb-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">What Has Been Confirmed</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Mike Burgess, Director-General of ASIO, confirmed this directly to Adam Watson</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Albanese placed a call into the AFP — the federal law enforcement agency responsible for protective security</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">The instruction: pull security from Pauline Hanson</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">AFP protective security is threat-assessed — not a political instrument of a sitting Prime Minister</p></div>
+                    </div>
+                </div>
+                <div class="border-l-4 border-hot/50 pl-5 py-1" style="background:rgba(193,68,14,0.05);padding:0.85rem 1rem 0.85rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-1">Why This Matters</div>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed">Using the AFP as an instrument of political pressure against an Opposition senator — withdrawing her security detail on direct Prime Ministerial instruction — is the conduct of a government that treats law enforcement as a personal resource. If confirmed publicly and on the record, it would be among the most serious abuses of executive power in recent Australian political history. It is on this record now.</p>
+                </div>
+            </div>
+
+            <!-- Item 6: National Press Club / Pauline Hanson / David Sharaz -->
             <div class="story-chapter" style="border-left-color:rgba(193,68,14,0.4)">
                 <div class="flex items-center gap-3 mb-3">
                     <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot border border-hot/40 px-2 py-1">Civil Damages</span>
