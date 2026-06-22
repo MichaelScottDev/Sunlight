@@ -2070,6 +2070,25 @@
                             <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Not listed on the CSEQ Global website team section — no photo, no name, no title</p></div>
                             <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Making commercial communications and judgements (including on Adam's AVO) on the company's behalf</p></div>
                             <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Disqualified from managing corporations — the same function he appears to be performing</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Email signature identifying himself as <strong class="text-paper/60">Founder</strong> — a title that signals ongoing operational authority, not passive association</p></div>
+                        </div>
+                    </div>
+
+                    <!-- Email screenshot — Founder signature vs absent from team page -->
+                    <div class="mt-4 border border-hot/20 overflow-hidden">
+                        <div class="flex items-center justify-between px-4 py-2.5" style="background:rgba(193,68,14,0.07)">
+                            <div class="flex items-center gap-2">
+                                <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot">📧 Evidence — Email From Dave Hodgson</span>
+                                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/30">— Signature: Founder, CSEQ Global · Sent to Adam Watson</span>
+                            </div>
+                        </div>
+                        <div class="p-4" style="background:rgba(0,0,0,0.22)">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/chat_founder_shadow.jpg" alt="Email from Dave Hodgson — Founder signature, CSEQ Global" class="w-full border border-paper/10 mb-3">
+                            <p class="text-[0.6rem] text-paper/42 leading-relaxed mb-2">This email, sent by Dave Hodgson to Adam Watson, shows his email signature identifying his position as <strong class="text-paper/60">Founder</strong> at CSEQ Global. A "Founder" is not a passive historical label — it is an active claim of ongoing authority and identity within the organisation. Founders direct strategy, set tone, and are understood internally and externally as the person the company represents.</p>
+                            <p class="text-[0.6rem] text-paper/42 leading-relaxed">Compare this with the CSEQ Global team page at <span class="text-paper/55">cseqglobal.com/team</span>: Dave Hodgson's name does not appear. His photograph is absent. He does not exist on the public-facing record of who runs the company. Yet here, in a direct communication to a commercial counterparty, he identifies himself as its Founder. The gap between what is shown publicly and what is communicated privately is precisely the shadow director pattern.</p>
+                        </div>
+                        <div class="px-4 py-2 border-t border-hot/15 text-center" style="background:rgba(0,0,0,0.25)">
+                            <span class="text-[0.43rem] tracking-[0.12em] uppercase text-paper/30">Dave Hodgson · Email Signature "Founder" · CSEQ Global · Absent from Public Team Page</span>
                         </div>
                     </div>
                 </div>
@@ -3280,9 +3299,9 @@
                     <div class="text-[0.5rem] text-paper/18 mt-1">Charged · Bail denied</div>
                 </div>
                 <div class="bg-ink px-5 py-5 text-center">
-                    <div class="stat-number text-4xl text-hot mb-1">$10K</div>
-                    <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Default judgement</div>
-                    <div class="text-[0.5rem] text-paper/18 mt-1">Bankruptcy Notice issued</div>
+                    <div class="stat-number text-4xl text-gold mb-1">$5M</div>
+                    <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Bail bond · Ankle monitor</div>
+                    <div class="text-[0.5rem] text-paper/18 mt-1">Definitely going to jail · Bankruptcy Notice issued</div>
                 </div>
                 <div class="bg-ink px-5 py-5 text-center">
                     <div class="stat-number text-4xl text-gold mb-1">1</div>
@@ -3300,22 +3319,35 @@
                 <div class="border border-hot/25 p-6 mb-8" style="background:rgba(193,68,14,0.04)">
                     <div class="flex items-center gap-3 mb-4">
                         <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Update — Drug Charges</span>
-                        <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/25 border border-paper/10 px-2 py-0.5">Bail Denied · Supreme Court Application Pending</span>
+                        <span class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/25 border border-paper/10 px-2 py-0.5">Bail Granted · Ankle Monitor · Going to Jail</span>
                     </div>
-                    <h4 class="font-display text-2xl tracking-wide mb-3 leading-tight">$750,000 IN DRUGS.<br><span class="text-hot">DENIED BAIL. SUPREME COURT.</span></h4>
-                    <p class="text-[0.68rem] leading-relaxed text-paper/45 mb-4">West Kira has since been charged following his arrest with drugs valued at approximately $750,000. He was denied bail. He has subsequently applied to the Supreme Court of Queensland for bail — an application that remains before the court.</p>
-                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                        <div class="border border-hot/15 p-4" style="background:rgba(193,68,14,0.03)">
-                            <div class="text-[0.48rem] tracking-[0.18em] uppercase text-hot mb-1">Charged</div>
-                            <p class="text-[0.62rem] text-paper/40 leading-relaxed">Drug offences — street value of seized drugs approximately $750,000.</p>
+                    <h4 class="font-display text-2xl tracking-wide mb-3 leading-tight">$750,000 IN DRUGS.<br><span class="text-hot">BAIL GRANTED. ANKLE MONITOR. DEFINITELY GOING TO JAIL.</span></h4>
+                    <p class="text-[0.68rem] leading-relaxed text-paper/45 mb-4">West Kira has since been granted bail — but it comes with an ankle monitor and a clear message from the court: he is <strong class="text-hot">definitely going to jail</strong> for the gay hate crime charges. The bail was secured by his mother, Simone Kira, who put up a <strong class="text-paper/65">$5 million bond</strong> in assets — specifically a house that was given to her. The circumstances surrounding that asset are notable: many of the other assets held by Simone and Grason Kira have since been seized by law enforcement.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-5">
+                        <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.04)">
+                            <div class="text-[0.48rem] tracking-[0.18em] uppercase text-gold mb-1">Bail Granted</div>
+                            <p class="text-[0.62rem] text-paper/40 leading-relaxed">Bail approved — with an ankle monitoring device. West Kira is out of custody but under electronic supervision.</p>
                         </div>
                         <div class="border border-hot/15 p-4" style="background:rgba(193,68,14,0.03)">
-                            <div class="text-[0.48rem] tracking-[0.18em] uppercase text-hot mb-1">Bail Denied</div>
-                            <p class="text-[0.62rem] text-paper/40 leading-relaxed">Bail refused at first instance. West Kira remains in custody pending the Supreme Court application.</p>
+                            <div class="text-[0.48rem] tracking-[0.18em] uppercase text-hot mb-1">Going to Jail</div>
+                            <p class="text-[0.62rem] text-paper/40 leading-relaxed">The court has been clear: West Kira is <strong class="text-hot">definitely going to jail</strong> for the gay hate crime charges. Bail is a temporary condition, not an acquittal.</p>
                         </div>
-                        <div class="border border-gold/15 p-4" style="background:rgba(201,138,16,0.03)">
-                            <div class="text-[0.48rem] tracking-[0.18em] uppercase text-gold mb-1">Supreme Court</div>
-                            <p class="text-[0.62rem] text-paper/40 leading-relaxed">Bail application filed in the Supreme Court of Queensland. Outcome pending.</p>
+                        <div class="border border-hot/15 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.48rem] tracking-[0.18em] uppercase text-hot mb-1">$5M Bond — Assets Seized</div>
+                            <p class="text-[0.62rem] text-paper/40 leading-relaxed">Mother Simone Kira posted a $5M bond using a house given to her. The majority of other Kira family assets have been seized by law enforcement.</p>
+                        </div>
+                    </div>
+
+                    <!-- Simone Kira -->
+                    <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.18)">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-3">Simone Kira — The Mother Who Secured His Bond</div>
+                        <div class="flex gap-4 items-start">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/simone_kira_2.jpg" alt="Simone Kira" class="w-28 shrink-0 border border-paper/10 object-cover" style="aspect-ratio:3/4;object-position:top">
+                            <div>
+                                <p class="text-[0.63rem] text-paper/42 leading-relaxed mb-2">Simone Kira, West Kira's mother, provided the $5 million surety to secure his release. The bond was backed by a house — an asset that was <em>given</em> to her. The origin and ownership history of that property is relevant context: it was not purchased through ordinary means at arm's length.</p>
+                                <p class="text-[0.63rem] text-paper/42 leading-relaxed mb-2">Separately, law enforcement has moved on the broader Kira family asset base. Many of the assets previously held by Simone and Grason Kira have since been seized. What remains — including the property used to secure bail — is a fraction of what was once available. The family's financial position has been substantially reduced by enforcement action.</p>
+                                <p class="text-[0.63rem] text-paper/42 leading-relaxed">A mother using a gifted house to bail out a son who has been told he is <em>definitely</em> going to jail is the final image in the Kira family's recent chapter. Bail is not freedom. It is a temporary condition pending an outcome that has already been described to the defendant.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
