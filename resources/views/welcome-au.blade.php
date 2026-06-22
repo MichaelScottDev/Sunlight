@@ -477,30 +477,6 @@
                 <p class="text-[0.72rem] leading-relaxed text-paper/45">Anthony Albanese has confirmed he agrees with Adam Watson's immigration position — that Australia needs to withdraw from the 1951 Refugee Convention. The confirmation represents a significant alignment between the Prime Minister and the position Adam Watson has advanced publicly.</p>
             </div>
 
-        </div>
-
-        <!-- Stat strip -->
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mt-12 mb-2 reveal">
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-4xl text-sage mb-1">PM</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Albanese</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">5 positions confirmed</div>
-            </div>
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-4xl text-gold mb-1">⚡</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Sovereign fuel</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">Adam Watson's policy</div>
-            </div>
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-4xl text-hot mb-1">30</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Days — Miles plan</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">Drop Adult Time Adult Crime</div>
-            </div>
-            <div class="bg-ink px-6 py-6 text-center">
-                <div class="stat-number text-4xl text-sage mb-1">↗</div>
-                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Refugee Convention</div>
-                <div class="text-[0.5rem] text-paper/18 mt-1">PM backs withdrawal</div>
-            </div>
             <!-- Item 5: Mike Burgess / AFP / Pauline Hanson security -->
             <div class="story-chapter" style="border-left-color:rgba(193,68,14,0.4)">
                 <div class="flex items-center gap-3 mb-3">
@@ -544,6 +520,30 @@
                 </div>
             </div>
 
+        </div>
+
+        <!-- Stat strip -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mt-12 mb-2 reveal">
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-sage mb-1">PM</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Albanese</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">5 positions confirmed</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-gold mb-1">⚡</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Sovereign fuel</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Adam Watson's policy</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-hot mb-1">30</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Days — Miles plan</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Drop Adult Time Adult Crime</div>
+            </div>
+            <div class="bg-ink px-6 py-6 text-center">
+                <div class="stat-number text-4xl text-sage mb-1">↗</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Refugee Convention</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">PM backs withdrawal</div>
+            </div>
         </div>
 
     </div>
