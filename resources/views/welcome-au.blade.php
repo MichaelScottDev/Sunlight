@@ -2746,6 +2746,46 @@
                 </div>
             </div>
         </div>
+
+        <!-- Thank You — James Packer & Alan Jones -->
+        <div class="story-chapter reveal mt-12" style="border-left-color:rgba(61,122,74,0.5)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-sage border border-sage/40 px-2 py-1">A Personal Thank You</span>
+                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/20">James Packer · Alan Jones · Sky News</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-5 leading-tight">JAMES PACKER. ALAN JONES.<br><span class="text-sage">THANK YOU FOR MAKING THE CALL.</span></h3>
+
+            <div class="flex gap-6 items-start mb-6">
+                <div class="shrink-0 border border-paper/[0.08] overflow-hidden" style="width:220px">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/james_packer_alan_jones.jpeg" alt="James Packer and Alan Jones" class="w-full object-cover object-top">
+                    <div class="border-t border-paper/[0.06] px-3 py-2" style="background:rgba(61,122,74,0.04)">
+                        <div class="text-[0.46rem] tracking-[0.15em] uppercase text-sage/60">James Packer · Alan Jones</div>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">James Packer and Alan Jones made a call to Sky News management to inform them of what Lauren Forbes did — specifically, the weaponisation of a Public Nuisance charge that was dropped at first mention, and the leaking of that charge sheet to Hancock Prospecting.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The Public Nuisance charge arose from an incident at the Kangaroo Point McDonald's. After investigators made first mention of the matter, Kosta requested CCTV footage of the incident. The charge was dropped. A dropped charge is not a conviction. It is not a finding of fact. It is a matter that was not pursued. Lauren Forbes obtained that charge sheet — a QP-9 — and transmitted it to Hancock Prospecting as a tool to discredit a journalism source.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50">That Packer and Jones chose to make that call — to hold Sky News to account for what one of their journalists did — is on the record here and is acknowledged with genuine gratitude.</p>
+                </div>
+            </div>
+
+            <div class="border border-sage/20 p-4 mb-5" style="background:rgba(61,122,74,0.03)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-sage mb-2">What Was Done On Our Behalf</div>
+                <div class="space-y-1.5">
+                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Called Sky News management directly to report Lauren Forbes's conduct</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Drew attention to the weaponisation of a dropped charge — specifically the Kangaroo Point McDonald's Public Nuisance matter, dropped at first mention after CCTV was requested</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Highlighted the leak of a non-public QP-9 charge sheet to Hancock Prospecting — a corporation with a documented interest in discrediting Kosta Kondratenko</p></div>
+                </div>
+            </div>
+
+            <!-- Lauren Forbes — Fair Work reinstatement -->
+            <div class="border border-hot/15 p-4" style="background:rgba(193,68,14,0.03)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">Update — Lauren Forbes · Fair Work Commission</div>
+                <p class="text-[0.63rem] text-paper/42 leading-relaxed mb-2">Since the intervention by Packer and Jones, Lauren Forbes has gone to the <strong class="text-paper/60">Fair Work Commission</strong> and was able to have her employment reinstated. She has since been seen on television — she is back at work.</p>
+                <p class="text-[0.63rem] text-paper/42 leading-relaxed">The Fair Work Commission determines reinstatement on procedural grounds — whether the dismissal was harsh, unjust, or unreasonable. It does not exonerate the conduct that preceded the dismissal. What Lauren Forbes did with a dropped charge sheet and who she sent it to remains on the record here, regardless of her employment status.</p>
+            </div>
+        </div>
+
     </div>
 </section>
 
