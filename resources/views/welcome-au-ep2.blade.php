@@ -3221,6 +3221,57 @@
             </div>
         </div>
 
+        <!-- Aaliyah — the setup at Southport Police Station -->
+        <div class="story-chapter reveal mb-8" style="border-left-color:rgba(193,68,14,0.6)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">The Setup — Southport Police Station</span>
+                <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/20">Aaliyah · Bodie Chalmers's Girlfriend</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-5 leading-tight">AALIYAH GOES TO SOUTHPORT POLICE.<br><span class="text-hot">PLAYING VICTIM. PROVIDING INFRASTRUCTURE.</span></h3>
+
+            <div class="flex gap-5 items-start mb-6">
+                <div class="shrink-0 border border-paper/[0.08] overflow-hidden" style="width:130px;aspect-ratio:3/4">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/IMG-20260623-WA0004.jpg" alt="Aaliyah — with Bodie Chalmers" class="w-full h-full object-cover object-top">
+                    <div class="border-t border-paper/[0.06] px-2 py-1.5" style="background:rgba(193,68,14,0.06)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/50">Aaliyah · with Bodie Chalmers</div>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-[0.7rem] leading-relaxed text-paper/48 mb-3">Aaliyah — Bodie Chalmers's Russian girlfriend — attended Southport Police Station and made allegations that she was the victim. She claimed she was being harassed by Adam Watson. She walked into a police station, while her boyfriend was in Corrective Services charged with making false allegations against Adam Watson, and presented herself as the innocent party in need of protection.</p>
+                    <p class="text-[0.7rem] leading-relaxed text-paper/48 mb-3">This was a setup. Aaliyah had been in the car with Bodie Chalmers near Broadbeach library — the same incident in which Bodie leaned out and yelled <strong class="text-paper/65">"Russian"</strong> at Kosta, as part of a harassment campaign. She was not a bystander. She was present. She was in the car. She then went to police and said she was being harassed.</p>
+                    <p class="text-[0.7rem] leading-relaxed text-paper/48">The female QPS officer took a statement from Bodie — who was, at this point, in Corrective Services, charged with making false allegations against Adam Watson. That officer subsequently formed the view that while Bodie had robbed and scammed Adam Watson, <strong class="text-paper/65">Aaliyah was the innocent party and was not involved in the scam</strong>. Adam Watson disputed this position directly. He considered it nonsense.</p>
+                </div>
+            </div>
+
+            <!-- The QPS decision and cross-state referral -->
+            <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">The QPS Response — Cross-State Referral · Mental Health Act</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">When Adam Watson challenged the officer's characterisation of Aaliyah as innocent and pushed back on the position being taken, the female QPS officer performed a <strong class="text-paper/62">cross-state referral</strong> — a mechanism that resulted in Adam Watson being admitted to the <strong class="text-paper/62">Prince of Wales Hospital in Randwick, New South Wales</strong>, under the Mental Health Act.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">A person who disputes a police officer's characterisation of a criminal's girlfriend as innocent — in the context of a documented harassment campaign, a boyfriend in Corrective Services for false allegations, and an active pattern of QPS misconduct — was sent to a psychiatric hospital for disagreeing. The officer is now under investigation.</p>
+            </div>
+
+            <!-- AFP / Psychologist -->
+            <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.03)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-3">AFP Takeover · Psychologist's Assessment</div>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">In matters like this — where a cross-state Mental Health Act referral is used and the circumstances raise questions about the appropriateness of the referral — the <strong class="text-paper/62">Australian Federal Police take over the matter</strong>. The AFP engaged and spoke directly with the psychologist who assessed Adam Watson.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed">The psychologist's assessment was clear: <strong class="text-paper/62">Adam Watson is normal</strong>. There was no basis under the Mental Health Act for his hospitalisation beyond the conduct of the QPS officer who initiated the referral. The AFP's involvement is itself a recognition that what occurred was not a standard welfare matter — it was an escalation of the misconduct pattern that runs through this entire file.</p>
+            </div>
+
+            <!-- Punitive psychiatry + girlfriend infrastructure -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.2)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">Punitive Psychiatry — The Pattern</div>
+                    <p class="text-[0.62rem] text-paper/42 leading-relaxed mb-2">Punitive psychiatry is the use of mental health mechanisms as a tool of control or silencing — not for therapeutic purposes, but to manage dissent, dispute, or inconvenient challenge. When a police officer refers someone to psychiatric assessment for <em>disagreeing</em> with her characterisation of a criminal's girlfriend, the mechanism is not functioning as designed. It is functioning as a weapon.</p>
+                    <p class="text-[0.62rem] text-paper/42 leading-relaxed">The psychologist's finding — that Adam Watson is normal — is the record. The referral itself is the conduct under investigation.</p>
+                </div>
+                <div class="border border-hot/15 p-4" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">The Girlfriend Problem — Infrastructure Providers</div>
+                    <p class="text-[0.62rem] text-paper/42 leading-relaxed mb-2">There is a consistent institutional tendency to view a criminal's partner as the innocent party — to treat the girlfriend as a bystander, a victim by proximity, separate from the operation. This assumption ignores the role that partners often play in providing the <strong class="text-paper/55">infrastructure</strong> of criminal conduct: the accounts, the addresses, the alibis, the police visits.</p>
+                    <p class="text-[0.62rem] text-paper/42 leading-relaxed">Aaliyah was in the car at Broadbeach library during the harassment. She then walked into Southport Police Station and filed a complaint as a victim. That is not being an innocent bystander. That is operational participation. The QPS officer's failure to recognise that distinction — and her decision to penalise Adam Watson for pointing it out — is what is under investigation.</p>
+                </div>
+            </div>
+        </div>
+
         <div class="border border-paper/[0.08] p-6" style="background:rgba(193,68,14,0.03)">
             <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">Status — Active Investigation</div>
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
