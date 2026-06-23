@@ -104,16 +104,8 @@
         <span class="hidden sm:block text-[0.52rem] tracking-[0.2em] uppercase text-paper/20 border-l border-paper/10 pl-4">Investigative Vlog Series</span>
     </div>
     <div class="flex items-center gap-3">
-        <div class="nav-dropdown hidden md:block">
-            <button class="text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-paper/30 px-3 py-1.5">Episodes ▾</button>
-            <div class="nav-dropdown-menu">
-                <span class="nav-group-label">All Episodes</span>
-                <a href="/" class="nav-accent-hot">← Episode 1 — The Beginning</a>
-                <a href="/episode-2" class="nav-accent-violet">← Episode 2 — The Network</a>
-                <a href="/episode-3" class="nav-accent-gold">← Episode 3 — The Compliance Machine</a>
-                <a href="/episode-4" class="nav-accent-sage" style="color:#3d7a4a">⬤ Episode 4 — The Accountant</a>
-            </div>
-        </div>
+        <a href="#sms" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors">Subscribe</a>
+        <a href="/episode-3" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-gold/50 px-3 py-1.5 transition-all">← Episode 3</a>
         <a href="/episode-3" title="Go to Episode 3" aria-label="Go to Episode 3" class="flex md:hidden items-center gap-1 px-2.5 h-8 border font-display text-[0.6rem] tracking-widest" style="border-color:rgba(201,138,16,0.5);color:#c98a10">‹ EP3</a>
         <span class="text-[0.52rem] tracking-[0.18em] uppercase border px-3 py-1.5 blink" style="border-color:rgba(61,122,74,0.6);color:#3d7a4a">⬤ EP.04</span>
     </div>
@@ -214,7 +206,7 @@
             <div class="p-6 fade-up" style="animation-delay:0.2s">
                 <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Key Subject</div>
                 <div class="font-display text-xl tracking-wide text-paper/80 mb-1">HELLEN PERTEKES</div>
-                <div class="text-[0.52rem] text-paper/30 leading-relaxed">Director — Born to Shine Disability Services<br>Former Director — Books R Us Accounting</div>
+                <div class="text-[0.52rem] text-paper/30 leading-relaxed">Director — Born to Shine Disability Services<br>Principal — Books R Us Accounting</div>
             </div>
             <div class="p-6 fade-up" style="animation-delay:0.25s">
                 <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Alleged Amount — Medical Scam</div>
@@ -290,16 +282,23 @@
                 <div class="flex items-center gap-3 mb-4">
                     <span class="text-[0.5rem] tracking-[0.2em] uppercase text-sage border border-sage/40 px-2 py-1">The Firm</span>
                 </div>
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">BOOKS R US ACCOUNTING.<br><span class="text-sage">NOW OFFLINE. THE DOMAIN IS DOWN.</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"She ran a bookkeeping firm. Adam Watson trusted her with his taxes. The website is gone now. The damage it left behind is not."</p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Hellen Pertekes operated <strong class="text-paper/65">Books R Us Accounting</strong>, a bookkeeping and accounting firm that can no longer be found at its former domain — <span class="text-sage/70">books-r-us.com.au</span> — which is now down. Adam Watson engaged the firm to handle his tax affairs. He paid for the service. Returns were not lodged. The ATO, in the course of pursuing Adam Watson as the taxpayer of record, became the mechanism through which the failure to lodge was first surfaced as a formal matter.</p>
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">BOOKS R US ACCOUNTING.<br><span class="text-sage">THE FIRM ADAM WATSON TRUSTED WITH HIS TAXES.</span></h3>
+                <!-- Books R Us logo -->
+                <div class="flex items-center gap-4 mb-5">
+                    <a href="https://books-r-us.com.au/" target="_blank" rel="noopener noreferrer">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/Boos-r-us-accounting-logo-retina.jpg" alt="Books R Us Accounting" style="max-height:60px;width:auto;object-fit:contain;" />
+                    </a>
+                    <a href="https://books-r-us.com.au/" target="_blank" rel="noopener noreferrer" class="text-[0.6rem] text-sage/70 hover:text-sage underline underline-offset-2 tracking-wide">books-r-us.com.au</a>
+                </div>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Adam Watson contracted Hellen Pertekes — Principal at Books R Us Accounting — to handle his tax affairs. What followed led to Federal Court proceedings."</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Adam Watson contracted <strong class="text-paper/65">Hellen Pertekes</strong>, Principal at <strong class="text-paper/65">Books R Us Accounting</strong>, to manage his tax affairs. He paid for the service. Returns were not lodged. The ATO, in the course of pursuing Adam Watson as the taxpayer of record, became the mechanism through which the failure to lodge was first surfaced as a formal matter.</p>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
                     <div class="border border-sage/20 p-4" style="background:rgba(61,122,74,0.03)">
-                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-2">The Business (Former)</div>
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-2">The Business</div>
                         <div class="space-y-1.5">
                             <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Name:</strong> Books R Us Accounting</p></div>
-                            <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Domain:</strong> books-r-us.com.au — now down</p></div>
-                            <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Director:</strong> Hellen Pertekes</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Website:</strong> <a href="https://books-r-us.com.au/" target="_blank" class="text-sage/70 hover:text-sage underline underline-offset-2">books-r-us.com.au</a></p></div>
+                            <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Principal:</strong> Hellen Pertekes</p></div>
                             <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Service engaged:</strong> Tax returns — Adam Watson</p></div>
                         </div>
                     </div>
@@ -367,6 +366,52 @@
                 </div>
             </div>
 
+            <!-- Chapter 3B: The Contradiction — ATT Mediation vs District Court Record -->
+            <div class="story-chapter reveal" style="border-left-color:rgba(201,138,16,0.5)">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">The Contradiction</span>
+                    <span class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/25 border border-paper/10 px-2 py-0.5">Federal Court · District Court · ATT</span>
+                </div>
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">SHE SAID SHE WAS TOLD TO WALK AWAY.<br><span class="text-gold">THE COURT RECORD SAYS SOMETHING DIFFERENT.</span></h3>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"In the Federal Court, Hellen Pertekes stated she was instructed to email the Administrative Appeals Tribunal to discontinue Adam Watson's action. Adam found District Court paperwork that contradicts her account directly — ATO lawyers on the record calling him a liar and a cheat."</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">In the Federal Court proceedings, Hellen Pertekes stated that she was <strong class="text-paper/65">instructed to email the Administrative Appeals Tribunal</strong> to discontinue the action — an action that Adam Watson had initiated against the Australian Taxation Office following a mediation he pursued. Her account frames the discontinuation as an instruction she was following: she was told to pull the matter, and she did.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Adam Watson has since located <strong class="text-paper/65">District Court documentation</strong> that directly contradicts this account. In that paperwork, the ATO's own lawyers — on the record — referred to Adam Watson as <strong class="text-hot">"a liar and a cheat."</strong> This is not an informal characterisation. It is a statement made by legal representatives of the Commonwealth in a formal court filing. If the ATO's position was that Adam Watson was dishonest, then the question of why his accountant was separately instructed to withdraw his administrative appeal — the one mechanism through which he could have challenged that characterisation — becomes critical to the record.</p>
+
+                <!-- The Contradiction Box -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                    <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.03)">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-3">What Pertekes Said in Federal Court</div>
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">She was instructed to email the ATT to discontinue the action</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Adam Watson had initiated the mediation with the ATO</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Her account frames it as following an instruction</p></div>
+                        </div>
+                    </div>
+                    <div class="border border-hot/25 p-5" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-3">What the District Court Record Shows</div>
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">ATO lawyers called Adam Watson <strong class="text-paper/65">"a liar and a cheat"</strong> on the record</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">This directly contradicts Pertekes's Federal Court account</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Paperwork located by Adam Watson — not disclosed by any party</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Smoking gun -->
+                <div class="border border-gold/30 px-5 py-4 mb-5" style="background:rgba(201,138,16,0.06)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-2">The Smoking Gun</div>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed">The District Court documentation is not a peripheral document. It is the paper record that places the ATO's own legal position — characterising Adam Watson as dishonest — alongside a proceeding in which the mechanism for challenging that position was simultaneously being removed. If Pertekes was instructed to discontinue Adam Watson's ATT action, and the ATO's lawyers were simultaneously calling him a liar in a different court, the question of who gave that instruction, and why, is the core question of this entire matter. This documentation will form the evidentiary foundation of Adam Watson's case against the ATO.</p>
+                </div>
+
+                <!-- ATO abuse of authority -->
+                <div class="border border-hot/30 px-5 py-4" style="background:rgba(193,68,14,0.05)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The ATO and the Misuse of Institutional Authority</div>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The Australian Taxation Office occupies a position of structural authority that few Commonwealth agencies match. It holds the power to freeze assets, initiate proceedings, compel disclosure, and attach debt to a person's name with consequences that flow through every aspect of their financial life. That authority is granted on the assumption that it will be used to enforce legitimate tax obligations — not to pursue a taxpayer whose accountant deliberately withheld their returns, then withdrew the administrative appeal that could have corrected the record.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">When the ATO's own lawyers call a taxpayer "a liar and a cheat" in a formal court document, while that taxpayer's accountant is simultaneously — on their own account — being instructed to kill his administrative appeal, the question of institutional conduct is no longer abstract. It is a concrete question about whether the ATO's enforcement apparatus was used in a manner consistent with its legislative purpose, or whether it was deployed as a blunt instrument against a person who had been set up to fail.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed">The Inspector-General of Taxation exists precisely for situations like this. The Federal Court proceedings — NSD2438/2025 — are the vehicle. The District Court documentation is the contradiction that makes the whole account unstable. Adam Watson is not the person who needs to explain himself. The ATO does.</p>
+                </div>
+            </div>
+
             <!-- Chapter 4: Born to Shine NDIS -->
             <div class="story-chapter reveal" style="border-left-color:rgba(61,122,74,0.5)">
                 <div class="flex items-center gap-3 mb-4">
@@ -386,7 +431,7 @@
                     </div>
                 </div>
 
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"After Books R Us went offline, she opened an NDIS business. She is the Director. The clients are now disabled Australians accessing government-funded care — not taxpayers."</p>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"While Federal Court proceedings are active, Hellen Pertekes has opened an NDIS business. She is the Director. The clients are now disabled Australians accessing government-funded care — not taxpayers."</p>
                 <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">While the Federal Court proceedings are active and the ATO is pursuing her as a hostile witness, Hellen Pertekes has moved into an entirely different sector. She is now the Director of <strong class="text-paper/65">Born to Shine Disability Services</strong>, an NDIS provider operating at <span class="text-sage/70">borntoshinedisabilityservices.com.au</span>. The National Disability Insurance Scheme is a Commonwealth-funded program that directs public money to registered providers who deliver services to Australians with disability. Registration as an NDIS provider carries obligations, background checks, and ongoing compliance requirements.</p>
 
                 <div class="border border-sage/20 p-5 mb-5" style="background:rgba(61,122,74,0.03)">
@@ -399,7 +444,7 @@
                         </div>
                         <div class="space-y-1.5">
                             <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Funding:</strong> Commonwealth — NDIS participants' plans</p></div>
-                            <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Previous business:</strong> Books R Us Accounting — domain now down</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Previous business:</strong> Books R Us Accounting</p></div>
                             <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Concurrent proceedings:</strong> Active — Federal Court NSD2438/2025</p></div>
                         </div>
                     </div>
@@ -438,6 +483,14 @@
                             <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.58rem] text-paper/45 leading-relaxed">No medical bills. No treatment. No illness.</p></div>
                         </div>
                     </div>
+                </div>
+
+                <!-- "I want to see you fail" -->
+                <div class="border border-hot/40 p-5 mt-5 mb-2" style="background:rgba(193,68,14,0.07)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-3">Direct Statement — Hellen Pertekes to Adam Watson</div>
+                    <p class="font-display text-xl tracking-wide text-paper/80 leading-tight mb-4">"I WANT TO SEE YOU FAIL.<br>AND I WANT TO SEE YOU EATING OUT OF A BIN."</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Hellen Pertekes called Adam Watson and told him directly: <em class="text-paper/70">"I want to see you fail. And I want to see you eating out of a bin."</em> This is the person who was entrusted with his tax affairs. The person who held access to his financial records. The person whose deliberate failure to lodge his returns — admitted to a staff member as intentional — is now the subject of Federal Court proceedings.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed">The statement removes any ambiguity about motivation. A person who had not acted deliberately would have no reason to make that call. A person who had simply made errors would not ring their former client to tell them they hoped to watch them eating out of a bin. The call is an admission of intent delivered in the language of contempt.</p>
                 </div>
 
                 <div class="border border-hot/30 px-5 py-4" style="background:rgba(193,68,14,0.06)">
@@ -566,6 +619,183 @@
             <p class="text-[0.68rem] text-paper/45 leading-relaxed">The customer's email of 27 November, raising the double charge with a receipt attached, was not responded to. This fact was subsequently admitted by Kennards' own lawyers in their Defence filed in the Federal Court.</p>
         </div>
 
+        <!-- ═══ SMOKING GUN ═══ -->
+        <div class="reveal mb-12">
+            <div class="mb-6 px-5 py-4 flex items-center gap-3" style="background:rgba(193,68,14,0.14);border:1px solid rgba(193,68,14,0.5)">
+                <span class="font-display text-xs tracking-[0.25em] uppercase text-hot">The Smoking Gun</span>
+                <span class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/35 border border-paper/15 px-2 py-0.5">Three Documents · Read Together · Agreement 500002187 · Unit J041</span>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/55 mb-8">Three documents. Read together, they prove the billing error was real, that Kennards was already aware of the payment, and that the amount being demanded in writing did not match the statement attached to that same demand. This is what a $25 dispute looked like in writing — before Kennards escalated it to police threats, access blockage, and a Federal Court proceeding.</p>
+
+            <!-- DOCUMENT 1 — Statement -->
+            <div class="reveal mb-8" style="border:2px solid rgba(193,68,14,0.6);box-shadow:0 0 40px rgba(193,68,14,0.12)">
+                <div class="px-4 py-3 flex items-center justify-between" style="background:rgba(193,68,14,0.2);border-bottom:1px solid rgba(193,68,14,0.35)">
+                    <div class="flex items-center gap-3">
+                        <span class="font-display text-sm tracking-[0.2em] uppercase text-hot">Document 1 — The Statement</span>
+                        <span class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/45">Agreement 500002187 · Unit J041 · Generated 27 Nov 2023 8:32AM</span>
+                    </div>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/smoking-gun-1-incorrect-statement.pdf" target="_blank" rel="noopener" class="text-[0.48rem] tracking-[0.15em] uppercase text-hot/60 hover:text-hot border border-hot/30 hover:border-hot/60 px-2.5 py-1 transition-colors">↗ Open</a>
+                </div>
+
+                <!-- Issues callout -->
+                <div class="px-5 py-5" style="background:rgba(193,68,14,0.07);border-bottom:1px solid rgba(193,68,14,0.2)">
+                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-4">Issues Identified — Statement 500002187</div>
+                    <div class="space-y-3">
+                        <div class="flex gap-3 items-start border border-hot/20 p-3" style="background:rgba(193,68,14,0.06)">
+                            <span class="font-display text-base text-hot shrink-0 w-6 leading-none mt-0.5">1</span>
+                            <div>
+                                <div class="text-[0.53rem] tracking-[0.1em] uppercase text-hot/75 mb-1">Statement Period: 00/00/00 to 00/00/00</div>
+                                <p class="text-[0.6rem] text-paper/55 leading-relaxed">The billing period is completely blank — "From 00/00/00 to 00/00/00." This is not a valid billing statement. A statement with no dates cannot establish when charges accrued, cannot be verified against a billing cycle, and cannot legally support a demand for payment. This is the document Kennards used to demand $235.40.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-3 items-start border border-hot/20 p-3" style="background:rgba(193,68,14,0.06)">
+                            <span class="font-display text-base text-hot shrink-0 w-6 leading-none mt-0.5">2</span>
+                            <div>
+                                <div class="text-[0.53rem] tracking-[0.1em] uppercase text-hot/75 mb-1">LockCut + NewLock — $25.00 Listed as Unpaid · 17/11/2023</div>
+                                <p class="text-[0.6rem] text-paper/55 leading-relaxed">The statement charges $25.00 for "LockCut + NewLock" dated 17 November 2023 with no corresponding payment entry. The Westpac receipt (Document 2) proves this exact $25.00 was paid by EFTPOS to Kennards Southport on that same date — 17 November 2023. Kennards' own sworn affidavit describes this as an "Incomplete Statement" produced by an automated system that failed to record the payment.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-3 items-start border border-hot/20 p-3" style="background:rgba(193,68,14,0.06)">
+                            <span class="font-display text-base text-hot shrink-0 w-6 leading-none mt-0.5">3</span>
+                            <div>
+                                <div class="text-[0.53rem] tracking-[0.1em] uppercase text-hot/75 mb-1">Security Call Out: $85 — Customer Was Quoted $65</div>
+                                <p class="text-[0.6rem] text-paper/55 leading-relaxed">The Security Call Out charge on 4 November 2023 is $85.00. The customer was verbally informed the security callout fee was $65. The $20 discrepancy was raised in writing on 27 November and again on 5 December. It was not addressed or explained by Kennards at any point.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-3 items-start border border-hot/20 p-3" style="background:rgba(193,68,14,0.06)">
+                            <span class="font-display text-base text-hot shrink-0 w-6 leading-none mt-0.5">4</span>
+                            <div>
+                                <div class="text-[0.53rem] tracking-[0.1em] uppercase text-hot/75 mb-1">Statement Balance ($128.90) Does Not Match Email Demand ($235.40)</div>
+                                <p class="text-[0.6rem] text-paper/55 leading-relaxed">The statement's line items produce a closing balance of <strong class="text-paper/80">$128.90</strong>. The automated email sent at 08:31:58 — with this same statement attached — demands payment of <strong class="text-hot">$235.40</strong>. A $106.50 discrepancy between the amount demanded in writing and the balance shown on the attached document. The customer is being asked to pay $235.40 on the basis of a statement that shows $128.90 owing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/smoking-gun-1-incorrect-statement.pdf"
+                        class="w-full" style="min-height:540px;height:540px;border:none;filter:brightness(0.92)" loading="lazy"
+                        title="Kennards Incorrect Statement — Agreement 500002187"></iframe>
+                <div class="px-4 py-2 flex flex-wrap gap-4" style="background:rgba(193,68,14,0.1);border-top:1px solid rgba(193,68,14,0.25)">
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/65">Agreement 500002187 · Unit J041</span>
+                    <span class="text-paper/15">·</span>
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/30">Period: 00/00/00 to 00/00/00</span>
+                    <span class="text-paper/15">·</span>
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/30">Generated 27/11/2023 · 8:32:00 AM</span>
+                    <span class="text-paper/15">·</span>
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/65">$25 LockCut shown unpaid — already paid</span>
+                </div>
+            </div>
+
+            <!-- DOCUMENT 2 — Westpac Receipt -->
+            <div class="reveal mb-8" style="border:2px solid rgba(61,122,74,0.55);box-shadow:0 0 30px rgba(61,122,74,0.1)">
+                <div class="px-4 py-3 flex items-center justify-between" style="background:rgba(61,122,74,0.15);border-bottom:1px solid rgba(61,122,74,0.3)">
+                    <div class="flex items-center gap-3">
+                        <span class="font-display text-sm tracking-[0.2em] uppercase" style="color:#3d7a4a">Document 2 — The Westpac Receipt</span>
+                        <span class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/45">$25.00 EFTPOS · Kennards Southport · 17 November 2023</span>
+                    </div>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/smoking-gun-2-westpac-receipt.pdf" target="_blank" rel="noopener" class="text-[0.48rem] tracking-[0.15em] uppercase hover:opacity-100 border px-2.5 py-1 transition-colors" style="color:rgba(61,122,74,0.7);border-color:rgba(61,122,74,0.35)">↗ Open</a>
+                </div>
+
+                <!-- What it proves -->
+                <div class="px-5 py-5" style="background:rgba(61,122,74,0.06);border-bottom:1px solid rgba(61,122,74,0.18)">
+                    <div class="text-[0.46rem] tracking-[0.22em] uppercase mb-4" style="color:#3d7a4a">What This Receipt Proves</div>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-4">
+                        <div class="border p-3" style="border-color:rgba(61,122,74,0.2);background:rgba(61,122,74,0.04)">
+                            <div class="text-[0.43rem] tracking-[0.14em] uppercase mb-1" style="color:rgba(61,122,74,0.7)">Transaction Date</div>
+                            <div class="font-display text-base text-paper/75">17 Nov 2023</div>
+                            <p class="text-[0.55rem] text-paper/40 leading-relaxed mt-1">Same date as the LockCut + NewLock charge on the statement. Payment and charge: same day.</p>
+                        </div>
+                        <div class="border p-3" style="border-color:rgba(61,122,74,0.2);background:rgba(61,122,74,0.04)">
+                            <div class="text-[0.43rem] tracking-[0.14em] uppercase mb-1" style="color:rgba(61,122,74,0.7)">Amount</div>
+                            <div class="font-display text-base text-paper/75">$25.00</div>
+                            <p class="text-[0.55rem] text-paper/40 leading-relaxed mt-1">Exact match. The statement charges $25.00 for LockCut. This receipt confirms $25.00 paid to Kennards Southport.</p>
+                        </div>
+                        <div class="border p-3" style="border-color:rgba(61,122,74,0.2);background:rgba(61,122,74,0.04)">
+                            <div class="text-[0.43rem] tracking-[0.14em] uppercase mb-1" style="color:rgba(61,122,74,0.7)">Merchant</div>
+                            <div class="font-display text-sm text-paper/75">Kennards Southport</div>
+                            <p class="text-[0.55rem] text-paper/40 leading-relaxed mt-1">1 Olympic Cct, Southport QLD 4215 — the same facility. Transaction ID: 98b3a030.</p>
+                        </div>
+                    </div>
+                    <div class="border-l-4 pl-4 py-2" style="border-color:rgba(61,122,74,0.5);background:rgba(61,122,74,0.04)">
+                        <p class="text-[0.6rem] text-paper/55 leading-relaxed">The receipt was attached to the customer's email to Kennards on 27 November 2023 — the same morning the statement arrived. Kennards did not respond to that email. Their Defence in the Federal Court subsequently admitted they had received it.</p>
+                    </div>
+                </div>
+
+                <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/smoking-gun-2-westpac-receipt.pdf"
+                        class="w-full" style="min-height:460px;height:460px;border:none;filter:brightness(0.92)" loading="lazy"
+                        title="Westpac Receipt — $25 EFTPOS Kennards Southport 17 Nov 2023"></iframe>
+                <div class="px-4 py-2 flex flex-wrap gap-4" style="background:rgba(61,122,74,0.1);border-top:1px solid rgba(61,122,74,0.2)">
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase" style="color:rgba(61,122,74,0.7)">EFTPOS · $25.00 · 17/11/2023</span>
+                    <span class="text-paper/15">·</span>
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/30">Kennards Self Storage Southport · 1 Olympic Cct QLD 4215</span>
+                    <span class="text-paper/15">·</span>
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/30">Tx ID: 98b3a030-6485-ee11-b857-00505698d631</span>
+                </div>
+            </div>
+
+            <!-- DOCUMENT 3 — Email with incorrect amount -->
+            <div class="reveal mb-6" style="border:2px solid rgba(201,138,16,0.55);box-shadow:0 0 30px rgba(201,138,16,0.1)">
+                <div class="px-4 py-3 flex items-center justify-between" style="background:rgba(201,138,16,0.15);border-bottom:1px solid rgba(201,138,16,0.3)">
+                    <div class="flex items-center gap-3">
+                        <span class="font-display text-sm tracking-[0.2em] uppercase text-gold">Document 3 — The Email Demand</span>
+                        <span class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/45">AgreeNo: 500002187 · 27 Nov 2023 08:31:58 · Demands $235.40 · Statement shows $128.90</span>
+                    </div>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/smoking-gun-3-email-incorrect-amount.pdf" target="_blank" rel="noopener" class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60 hover:text-gold border border-gold/30 hover:border-gold/60 px-2.5 py-1 transition-colors">↗ Open</a>
+                </div>
+
+                <!-- Issues callout -->
+                <div class="px-5 py-5" style="background:rgba(201,138,16,0.06);border-bottom:1px solid rgba(201,138,16,0.18)">
+                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-4">Issues Identified — The Email</div>
+                    <div class="space-y-3">
+                        <div class="flex gap-3 items-start border border-gold/20 p-3" style="background:rgba(201,138,16,0.05)">
+                            <span class="font-display text-base text-gold shrink-0 w-6 leading-none mt-0.5">1</span>
+                            <div>
+                                <div class="text-[0.53rem] tracking-[0.1em] uppercase text-gold/75 mb-1">Agreement Number Matches — 500002187</div>
+                                <p class="text-[0.6rem] text-paper/55 leading-relaxed">The email subject line reads: <em>"RE: Automated Credit Card Payment (Declined) | AgreeNo: 500002187 | Unit(s): J041"</em>. The attachment is named <em>StatementKESOU500002187.pdf</em>. This is the same statement — Agreement 500002187 — as Document 1. The two documents are directly linked. The email generated the statement; the statement was attached to the email.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-3 items-start border border-gold/20 p-3" style="background:rgba(201,138,16,0.05)">
+                            <span class="font-display text-base text-gold shrink-0 w-6 leading-none mt-0.5">2</span>
+                            <div>
+                                <div class="text-[0.53rem] tracking-[0.1em] uppercase text-gold/75 mb-1">Email Demands $235.40 — Statement Shows $128.90</div>
+                                <p class="text-[0.6rem] text-paper/55 leading-relaxed">The email body states: <em>"Your current account balance is $235.40."</em> The attached statement — the one Kennards produced to support that demand — shows a closing balance of <strong class="text-paper/80">$128.90</strong> on its face. A <strong class="text-gold">$106.50 discrepancy</strong> between what the automated system demanded and what the document it attached actually showed. The customer is being chased for $235.40 on the basis of paperwork that only justifies $128.90.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-3 items-start border border-gold/20 p-3" style="background:rgba(201,138,16,0.05)">
+                            <span class="font-display text-base text-gold shrink-0 w-6 leading-none mt-0.5">3</span>
+                            <div>
+                                <div class="text-[0.53rem] tracking-[0.1em] uppercase text-gold/75 mb-1">Email Sent 08:31:58 · Statement Generated 08:32:00 — Two Seconds Apart</div>
+                                <p class="text-[0.6rem] text-paper/55 leading-relaxed">The email timestamp is 08:31:58 on 27 November 2023. The statement footer reads "Generated on 27/11/2023 at 8:32:00 AM." The demand and the supporting document were produced in the same automated instant — two seconds apart. Neither was reviewed before being sent. The $25 fee already paid on 17 November was included in both without any human check.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/smoking-gun-3-email-incorrect-amount.pdf"
+                        class="w-full" style="min-height:560px;height:560px;border:none;filter:brightness(0.92)" loading="lazy"
+                        title="Kennards Email — Incorrect Amount · Agreement 500002187"></iframe>
+                <div class="px-4 py-2 flex flex-wrap gap-4" style="background:rgba(201,138,16,0.1);border-top:1px solid rgba(201,138,16,0.22)">
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-gold/70">AgreeNo: 500002187 · Sent 08:31:58 · 27/11/2023</span>
+                    <span class="text-paper/15">·</span>
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/30">Email demands $235.40</span>
+                    <span class="text-paper/15">·</span>
+                    <span class="text-[0.43rem] tracking-[0.14em] uppercase text-gold/70">Attached statement shows $128.90 — $106.50 gap</span>
+                </div>
+            </div>
+
+            <!-- Three-document summary -->
+            <div class="border border-hot/25 p-5" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-4">What the Three Documents Establish Together</div>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/50 leading-relaxed">The $25 LockCut fee was <strong class="text-paper/70">paid on 17 November 2023</strong> — proven by Westpac bank record, transaction ID 98b3a030, merchant Kennards Southport.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/50 leading-relaxed">Kennards' statement shows that same $25 charge dated 17 November as <strong class="text-paper/70">outstanding and unpaid</strong> — with no corresponding payment recorded.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/50 leading-relaxed">The statement has <strong class="text-paper/70">no valid billing period</strong> — the dates read 00/00/00 to 00/00/00. It is, on its face, an incomplete administrative document.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/50 leading-relaxed">The email demanding payment cites <strong class="text-paper/70">$235.40</strong> — but attaches a statement (same Agreement No.) showing a closing balance of <strong class="text-paper/70">$128.90</strong>. The documents are internally inconsistent.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/50 leading-relaxed">Kennards <strong class="text-paper/70">did not respond</strong> to the customer's email raising these issues — admitted in their own Federal Court Defence. Instead, they blocked access, threatened police, and engaged Piper Alderman.</p></div>
+                </div>
+            </div>
+        </div>
+
         <!-- Chapter B: The Response -->
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.55)">
             <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter B — The Response · 5 December 2023</span></div>
@@ -667,6 +897,42 @@
             </div>
         </div>
 
+        <!-- Chapter F: Affidavit of Service -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter F — Service of Process · Affidavit of Service</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">SERVED AT HIS HOME ADDRESS.<br><span class="text-hot">ACCEPTED BY HIS WIFE. SHERIFF DELANI SIBANDA.</span></h3>
+            <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"The Originating Application was not served on a registered office or a legal team. It was served at Sam Kennard's personal address — and accepted by his wife."</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">On 25 January 2024, Sheriff's Officer <strong class="text-paper/65">Delani Sibanda</strong> personally served the Originating Application — Federal Court proceedings QUD18/2024, Kondratenko v Kennards Storage Management — at Sam Kennard's home address. Service was accepted by his wife. The Affidavit of Service below is the formal court record of that act.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Served By</div>
+                    <div class="font-display text-base text-paper/75 mb-1">Sheriff Delani Sibanda</div>
+                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">Sheriff's Officer · Personal service · 25 January 2024</p>
+                </div>
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Served On</div>
+                    <div class="font-display text-base text-paper/75 mb-1">Sam Kennard's Home Address</div>
+                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">Accepted by his wife · Personal residence</p>
+                </div>
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Document Served</div>
+                    <div class="font-display text-base text-paper/75 mb-1">Originating Application</div>
+                    <p class="text-[0.55rem] text-paper/40 leading-relaxed">QUD18/2024 · Federal Court of Australia · Queensland Registry</p>
+                </div>
+            </div>
+            <!-- Affidavit of Service — embedded inline -->
+            <div class="mb-2 flex items-center justify-between">
+                <div>
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-1">Affidavit of Service — Sheriff Delani Sibanda · 25 January 2024</div>
+                    <div class="text-[0.42rem] tracking-[0.12em] uppercase text-paper/25">QUD18/2024 · Kondratenko v Kennards Storage Management · Federal Court of Australia</div>
+                </div>
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/HOSPPLX18_2024_01_25_15_28_59_978+(1).pdf" target="_blank" rel="noopener" class="text-[0.48rem] tracking-[0.15em] uppercase text-hot/60 hover:text-hot border border-hot/30 hover:border-hot/60 px-2.5 py-1 transition-colors">↗ Open</a>
+            </div>
+            <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/HOSPPLX18_2024_01_25_15_28_59_978+(1).pdf"
+                    style="width:100%;height:520px;border:2px solid rgba(193,68,14,0.5);box-shadow:0 0 40px rgba(193,68,14,0.12);display:block;background:#0d0d0d;"
+                    title="Affidavit of Service — Sheriff Delani Sibanda · QUD18/2024"></iframe>
+        </div>
+
         <!-- Evidence Vault -->
         <div class="story-chapter reveal mb-6">
             <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Federal Court Evidence Vault — QUD18/2024</span></div>
@@ -678,7 +944,7 @@
                         <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— Kondratenko v Kennards Storage Management · [2024] FCA 913</span>
                     </div>
                     <div class="flex items-center gap-3">
-                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">5 files</span>
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">6 files</span>
                         <span class="ev-toggle">▼</span>
                     </div>
                 </div>
@@ -715,6 +981,14 @@
                         </div>
                         <span class="ev-cta">View →</span>
                     </div>
+                    <div class="ev-file ef-hot" onclick="openMV('kennards-affidavit-service')">
+                        <div class="ev-icon ev-pdf">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">Affidavit of Service — Sheriff Delani Sibanda</div>
+                            <div class="ev-desc">PDF · 25 January 2024 · Personal service at Sam Kennard's home address · Accepted by his wife · QUD18/2024</div>
+                        </div>
+                        <span class="ev-cta">View →</span>
+                    </div>
                     <div class="ev-file ef-gold" onclick="openMV('kennards-kellie-robley')">
                         <div class="ev-icon ev-pdf">PDF</div>
                         <div class="ev-meta">
@@ -727,6 +1001,609 @@
                         <span class="text-[0.48rem] tracking-[0.15em] uppercase text-hot/50">All documents filed Federal Court of Australia — QUD18/2024 — Kondratenko v Kennards Storage Management Pty Ltd</span>
                     </div>
                 </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     PIONEER LAKES — NEW DEAL
+══════════════════════════════════════ -->
+<section class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(61,122,74,0.07) 0%,transparent 70%)">
+    <div class="max-w-4xl mx-auto">
+
+        <!-- Section Label -->
+        <div class="flex items-center gap-4 mb-10 reveal">
+            <div class="w-8 h-px bg-sage/50"></div>
+            <span class="text-[0.52rem] tracking-[0.25em] uppercase text-sage/70">New Development · Mackay, Queensland · 9 May 2026</span>
+        </div>
+
+        <!-- Headline Chapter -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(61,122,74,0.6)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#3d7a4a;border-color:rgba(61,122,74,0.45)">Pioneer Lakes Acquisition · Mackay · Press Release</span>
+            </div>
+            <h3 class="font-display text-3xl md:text-4xl tracking-wide mb-4 leading-tight">849 HOUSES. ONE DEVELOPER.<br><span style="color:#3d7a4a">A CITY THAT NEEDS 7,300.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam Watson is acquiring Pioneer Lakes — a 649-lot master-planned estate in Mackay — for $16,518,010, and making a series of commitments on social, community, and essential worker housing that Queensland's government will need to respond to.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6">The deal, structured as a full share acquisition, encompasses 649 undeveloped lots, five active development approvals, and a suite of existing contracts across Stage 6A/3 of the project. Mackay is understood to be short approximately 7,300 dwellings. Pioneer Lakes represents one of the most substantial private-sector responses to that deficit currently in motion.</p>
+
+            <!-- Key Stats -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6 reveal">
+                <div class="border p-4 text-center" style="border-color:rgba(61,122,74,0.25);background:rgba(61,122,74,0.05)">
+                    <div class="font-display text-2xl mb-1" style="color:#3d7a4a">849</div>
+                    <div class="text-[0.47rem] tracking-[0.16em] uppercase text-paper/35">Homes Planned · 12 Months</div>
+                </div>
+                <div class="border p-4 text-center" style="border-color:rgba(61,122,74,0.25);background:rgba(61,122,74,0.05)">
+                    <div class="font-display text-2xl mb-1" style="color:#3d7a4a">7,300</div>
+                    <div class="text-[0.47rem] tracking-[0.16em] uppercase text-paper/35">Mackay's Housing Shortfall</div>
+                </div>
+                <div class="border p-4 text-center" style="border-color:rgba(61,122,74,0.25);background:rgba(61,122,74,0.05)">
+                    <div class="font-display text-2xl mb-1" style="color:#3d7a4a">$16.5M</div>
+                    <div class="text-[0.47rem] tracking-[0.16em] uppercase text-paper/35">Pioneer Lakes Acquisition</div>
+                </div>
+                <div class="border p-4 text-center" style="border-color:rgba(61,122,74,0.25);background:rgba(61,122,74,0.05)">
+                    <div class="font-display text-2xl mb-1" style="color:#3d7a4a">$400M</div>
+                    <div class="text-[0.47rem] tracking-[0.16em] uppercase text-paper/35">Helensvale Project Pipeline</div>
+                </div>
+            </div>
+
+            <!-- Build Model -->
+            <div class="border-l-4 pl-5 mb-6" style="border-color:rgba(61,122,74,0.55);background:rgba(61,122,74,0.05);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase mb-2" style="color:#3d7a4a">The Model — Breaking Industry Convention</div>
+                <p class="text-[0.65rem] text-paper/55 leading-relaxed mb-2">Rather than selling land packages and waiting for buyers to commission builders — the standard approach that has defined Queensland's greenfield market for decades — Watson intends to construct homes before sale. Twenty concrete slabs per week, double-brick construction only, five standardised designs. Homes ready to occupy.</p>
+                <p class="text-[0.65rem] text-paper/60 leading-relaxed italic">"We won't be selling house and land packages where people have to wait for a house to be built. We'll be building them and selling them. The house is there. You move in."</p>
+                <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/30 mt-2">— Adam Watson, Developer, Pioneer Lakes</div>
+            </div>
+        </div>
+
+        <!-- Press Release Embed -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(61,122,74,0.5)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#3d7a4a;border-color:rgba(61,122,74,0.4)">Editorial — Sunlight.Quest · 9 May 2026</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">FULL PRESS RELEASE.<br><span style="color:#3d7a4a">PIONEER LAKES ACQUISITION — EDITORIAL.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The full editorial published by Sunlight.Quest on 9 May 2026, covering the acquisition structure, social housing commitments, infrastructure charges concessions from the Deputy Premier, the Helensvale pipeline, and the open questions Sunlight.Quest will continue tracking as the deal progresses.</p>
+            <div class="reveal mb-2" style="border:1px solid rgba(61,122,74,0.2)">
+                <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer-lakes-press-release.html"
+                        class="w-full"
+                        style="min-height:680px;height:680px;border:none;filter:brightness(0.94)"
+                        loading="lazy"
+                        title="Pioneer Lakes Press Release — Sunlight.Quest Editorial"></iframe>
+            </div>
+            <div class="text-[0.44rem] tracking-[0.12em] uppercase text-paper/18 mt-1.5">Pioneer Lakes Acquisition · Press Release · 9 May 2026 · Sunlight.Quest</div>
+        </div>
+
+        <!-- Social Housing Commitments -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(61,122,74,0.5)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#3d7a4a;border-color:rgba(61,122,74,0.4)">Community Housing · State Government Commitment</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">SIX COMMUNITY HOUSING COMMITMENTS.<br><span style="color:#3d7a4a">THE STATE GOVERNMENT WILL NEED TO RESPOND.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6">Watson has written to Queensland's Deputy Premier, Attorney General, Housing Minister, and the Local Member for Mackay with specific community housing commitments — and an invitation for the State Government to attend the project's next stage announcement. These commitments are stated, not yet contracted.</p>
+            <div class="space-y-2">
+                @foreach([
+                    ['01', 'Social Housing', 'Construction of social housing dwellings to be leased back to the Queensland State Government on long-term terms, or sold at a negotiated price.'],
+                    ['02', 'Domestic Violence Housing', 'Up to 10 purpose-built safe houses for domestic violence survivors included within the development programme.'],
+                    ['03', 'NDIS Housing', 'NDIS-compliant dwellings for residents with disability included within the build schedule.'],
+                    ['04', 'Youth & Homelessness Housing', 'Designated housing stream for young people experiencing homelessness or disadvantage in the Mackay region.'],
+                    ['05', 'Essential Worker Housing', 'Targeted housing for police, paramedics, doctors, and nurses to support workforce attraction and retention in regional Queensland.'],
+                    ['06', 'Juvenile Housing', 'Purpose-built accommodation for young people referred by Queensland Police Service who have no fixed address. QPS officers able to directly place at-risk youth into designated dwellings.'],
+                ] as [$num, $label, $desc])
+                <div class="flex gap-4 border p-4" style="border-color:rgba(61,122,74,0.18);background:rgba(61,122,74,0.04)">
+                    <div class="font-display text-xl shrink-0 w-8 text-right" style="color:rgba(61,122,74,0.5)">{{$num}}</div>
+                    <div>
+                        <div class="text-[0.55rem] tracking-[0.12em] uppercase mb-1" style="color:#3d7a4a">{{$label}}</div>
+                        <p class="text-[0.62rem] text-paper/45 leading-relaxed">{{$desc}}</p>
+                    </div>
+                </div>
+                @endforeach
+            </div>
+        </div>
+
+        <!-- Infrastructure Charges Concessions -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.5)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Infrastructure Charges · Deputy Premier Intervention · Queensland</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE DEPUTY PREMIER INTERVENED.<br><span class="text-gold">$36,000 REDUCED. HELENSVALE: FULL WAIVER PROPOSED.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Infrastructure charges — levied under Queensland's Planning Act 2016 — require developers to contribute to the cost of trunk infrastructure (roads, water, sewerage, stormwater) before construction begins. On the Gold Coast, these charges can reach $36,000 per lot or more. Across a 3,000-lot development, that represents over $100 million payable before a single slab is poured — one of the single biggest structural barriers to housing supply in Queensland.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-5">
+                <div class="border p-4" style="border-color:rgba(245,234,212,0.12);background:rgba(0,0,0,0.15)">
+                    <div class="text-[0.44rem] tracking-[0.15em] uppercase text-paper/30 mb-1">Standard Rate — QLD</div>
+                    <div class="font-display text-2xl text-paper/60 mb-1">$36,000</div>
+                    <p class="text-[0.58rem] text-paper/35 leading-relaxed">Per lot — payable before construction begins.</p>
+                </div>
+                <div class="border p-4" style="border-color:rgba(61,122,74,0.3);background:rgba(61,122,74,0.06)">
+                    <div class="text-[0.44rem] tracking-[0.15em] uppercase mb-1" style="color:#3d7a4a">Pioneer Lakes — Mackay</div>
+                    <div class="font-display text-2xl mb-1" style="color:#3d7a4a">$12,000</div>
+                    <p class="text-[0.58rem] text-paper/40 leading-relaxed">Per lot — deferred to completion. Significant cash-flow relief for a privately funded development.</p>
+                </div>
+                <div class="border p-4" style="border-color:rgba(201,138,16,0.3);background:rgba(201,138,16,0.05)">
+                    <div class="text-[0.44rem] tracking-[0.15em] uppercase text-gold/70 mb-1">Helensvale — Gold Coast</div>
+                    <div class="font-display text-2xl text-gold mb-1">$0</div>
+                    <p class="text-[0.58rem] text-paper/40 leading-relaxed">Full waiver proposed — Deputy Premier undertaking. Not yet confirmed in writing.</p>
+                </div>
+            </div>
+            <div class="text-[0.48rem] tracking-[0.15em] uppercase text-paper/22 border border-paper/[0.07] px-4 py-2" style="background:rgba(0,0,0,0.12)">Concessions stated but not yet confirmed in writing — Sunlight.Quest tracking.</div>
+        </div>
+
+        <!-- HOA Section — What Is a Heads of Agreement -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(61,122,74,0.55)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#3d7a4a;border-color:rgba(61,122,74,0.4)">Legal Document · Heads of Agreement · Pioneer Lakes Share Sale</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">HEADS OF AGREEMENT.<br><span style="color:#3d7a4a">GENERATED ENTIRELY THROUGH CLAUDE. NO SOLICITOR REQUIRED.</span></h3>
+
+            <!-- What is a HOA definition box -->
+            <div class="border mb-6 reveal" style="border-color:rgba(61,122,74,0.3);background:rgba(61,122,74,0.05)">
+                <div class="px-5 py-3 border-b" style="border-color:rgba(61,122,74,0.2)">
+                    <div class="text-[0.47rem] tracking-[0.22em] uppercase" style="color:#3d7a4a">Definition — What Is a Heads of Agreement?</div>
+                </div>
+                <div class="px-5 py-4">
+                    <p class="text-[0.68rem] text-paper/60 leading-relaxed mb-3">A <strong class="text-paper/80">Heads of Agreement (HOA)</strong> is a preliminary document that records the principal commercial terms agreed between parties before a formal, legally binding contract is executed. It is commonly used in property acquisitions, mergers, and major commercial transactions to establish a shared understanding of the deal — the price, structure, conditions, and timeline — while the formal agreement is being drafted.</p>
+                    <p class="text-[0.68rem] text-paper/55 leading-relaxed mb-3">In most HOAs, the commercial terms are not yet legally binding — they record intent, not obligation. However, specific clauses are typically carved out as immediately binding upon execution: exclusivity obligations (preventing the vendor from negotiating with other buyers), confidentiality, and governing law provisions. This gives the buyer protection during the due diligence and formal drafting period.</p>
+                    <p class="text-[0.68rem] text-paper/55 leading-relaxed">An HOA is not a substitute for a formal contract — the parties are not legally committed to complete until the Share Sale Agreement (or equivalent) is executed. It is, however, a serious signal of commercial intent, and the binding clauses carry real legal weight.</p>
+                </div>
+            </div>
+
+            <!-- Claude callout -->
+            <div class="border mb-6 reveal" style="border-color:rgba(201,138,16,0.35);background:rgba(201,138,16,0.05)">
+                <div class="px-5 py-3 border-b" style="border-color:rgba(201,138,16,0.2)">
+                    <div class="text-[0.47rem] tracking-[0.22em] uppercase text-gold">Note — How This Document Was Produced</div>
+                </div>
+                <div class="px-5 py-4">
+                    <p class="text-[0.68rem] text-paper/60 leading-relaxed mb-3">The Heads of Agreement for the Pioneer Lakes share acquisition — a $16.5 million transaction — was generated <strong class="text-paper/80">entirely through Claude</strong>, Anthropic's AI system, with no outside solicitor engaged for its drafting. The document covers share acquisition structure, purchase price mechanics, lot schedule, development approval conditions, exclusivity, confidentiality, conditions precedent, and execution formalities.</p>
+                    <p class="text-[0.68rem] text-paper/55 leading-relaxed">This is not a template. It is a bespoke legal document structured around the specific commercial terms of this transaction — the Pioneer Lakes lot schedule, the two urgently lapsing development approvals (DA0243 and DA-2010-185), the Gemini Homes on-hold lots, and the split buyer structure across three entities. A conventional solicitor engagement for a document of this complexity would typically involve several thousand dollars in legal fees and days of drafting time.</p>
+                </div>
+            </div>
+
+            <!-- HOA PDF -->
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The document below is the executed Heads of Agreement, with vendor and third-party identifying details redacted for publication. The commercial terms, deal structure, lot schedule, development approval schedule, and all binding clauses are unredacted.</p>
+
+            <div class="evidence-vault mt-2 mb-6">
+                <div class="ev-header" onclick="toggleVault(this)">
+                    <div class="flex items-center gap-2">
+                        <span class="text-[0.48rem] tracking-[0.22em] uppercase" style="color:#3d7a4a">📁 Legal Document — Pioneer Lakes Acquisition</span>
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">— HOA · Share Sale · $16,518,010 · Mackay QLD</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25">1 file</span>
+                        <span class="ev-toggle">▼</span>
+                    </div>
+                </div>
+                <div class="ev-body">
+                    <div class="ev-file ef-sage" onclick="openMV('pioneer-lakes-hoa')">
+                        <div class="ev-icon ev-pdf">PDF</div>
+                        <div class="ev-meta">
+                            <div class="ev-name">HOA_REDACTED.pdf — Heads of Agreement · Pioneer Lakes Share Sale</div>
+                            <div class="ev-desc">Share acquisition · $16,518,010 · Pioneer Lakes Pty Ltd (ACN 108 681 563) · 7 May 2026 · Generated via Claude</div>
+                        </div>
+                        <div class="ev-cta">View →</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deal Structure Summary -->
+            <div class="border p-5 reveal" style="border-color:rgba(61,122,74,0.2);background:rgba(61,122,74,0.04)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase mb-4" style="color:#3d7a4a">Deal Structure — At a Glance</div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="space-y-2">
+                        <div class="flex justify-between items-baseline border-b border-paper/[0.06] pb-1.5">
+                            <span class="text-[0.55rem] text-paper/40">Share Purchase Price</span>
+                            <span class="font-display text-base text-paper/70">$12,500,000</span>
+                        </div>
+                        <div class="flex justify-between items-baseline border-b border-paper/[0.06] pb-1.5">
+                            <span class="text-[0.55rem] text-paper/40">Lot Settlement Amount</span>
+                            <span class="font-display text-base text-paper/70">$4,018,010</span>
+                        </div>
+                        <div class="flex justify-between items-baseline border-b border-paper/[0.06] pb-1.5">
+                            <span class="text-[0.55rem] text-paper/40">Total Consideration</span>
+                            <span class="font-display text-lg" style="color:#3d7a4a">$16,518,010</span>
+                        </div>
+                        <div class="flex justify-between items-baseline border-b border-paper/[0.06] pb-1.5">
+                            <span class="text-[0.55rem] text-paper/40">Deposit (within 2 weeks of SSA)</span>
+                            <span class="font-display text-base text-paper/70">$2,000,000</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-[0.55rem] text-paper/40">Balance at Completion</span>
+                            <span class="font-display text-base text-paper/70">$14,518,010</span>
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex justify-between items-baseline border-b border-paper/[0.06] pb-1.5">
+                            <span class="text-[0.55rem] text-paper/40">Vendor (70%)</span>
+                            <span class="text-[0.6rem] text-paper/55">Jomist Developments Pty Ltd</span>
+                        </div>
+                        <div class="flex justify-between items-baseline border-b border-paper/[0.06] pb-1.5">
+                            <span class="text-[0.55rem] text-paper/40">Vendor (30%)</span>
+                            <span class="text-[0.6rem] text-paper/55">Grassland Properties Pty Ltd</span>
+                        </div>
+                        <div class="flex justify-between items-baseline border-b border-paper/[0.06] pb-1.5">
+                            <span class="text-[0.55rem] text-paper/40">Buyer — Adam Watson</span>
+                            <span class="text-[0.6rem] text-paper/55">30%</span>
+                        </div>
+                        <div class="flex justify-between items-baseline border-b border-paper/[0.06] pb-1.5">
+                            <span class="text-[0.55rem] text-paper/40">Buyer — GC Resources Pty Ltd</span>
+                            <span class="text-[0.6rem] text-paper/55">40%</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <span class="text-[0.55rem] text-paper/40">Buyer — Watson Corporate Pty Ltd</span>
+                            <span class="text-[0.6rem] text-paper/55">30%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4 pt-3 border-t border-paper/[0.06]">
+                    <div class="text-[0.46rem] tracking-[0.15em] uppercase text-paper/25 mb-1">Critical Date — Development Approvals</div>
+                    <p class="text-[0.58rem] text-paper/40 leading-relaxed">DA0243 (Stages 5–8) and DA-2010-185 (Industry) lapse <strong class="text-hot/70">5 August 2026</strong>. Extension applications being prepared by JFP Urban Consultants. Extension must be obtained prior to Completion. Time is of the essence.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deal Terms — Nothing Up Front -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(61,122,74,0.6)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#3d7a4a;border-color:rgba(61,122,74,0.45)">Deal Structure · Vendor Finance · Lot-by-Lot Settlement</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">NOTHING UP FRONT.<br><span style="color:#3d7a4a">PAID AS EACH LOT SELLS.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">One of the most significant features of the Pioneer Lakes deal is the payment structure Adam Watson was able to negotiate directly with the Directors. Rather than requiring the standard deposit and balance-on-completion model — which would demand tens of millions of dollars before a single home is sold — the vendors agreed to a structure where the purchase price is paid progressively: <strong class="text-paper/70">nothing is owed up front, and the Directors are paid off as each of the 649 lots is sold.</strong></p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                <div class="border p-4 text-center" style="border-color:rgba(61,122,74,0.25);background:rgba(61,122,74,0.06)">
+                    <div class="font-display text-3xl mb-1" style="color:#3d7a4a">649</div>
+                    <div class="text-[0.47rem] tracking-[0.16em] uppercase text-paper/35">Lots · Pioneer Lakes</div>
+                </div>
+                <div class="border p-4 text-center" style="border-color:rgba(61,122,74,0.25);background:rgba(61,122,74,0.06)">
+                    <div class="font-display text-3xl mb-1" style="color:#3d7a4a">$0</div>
+                    <div class="text-[0.47rem] tracking-[0.16em] uppercase text-paper/35">Required Up Front</div>
+                </div>
+                <div class="border p-4 text-center" style="border-color:rgba(61,122,74,0.25);background:rgba(61,122,74,0.06)">
+                    <div class="font-display text-3xl mb-1" style="color:#3d7a4a">Per Lot</div>
+                    <div class="text-[0.47rem] tracking-[0.16em] uppercase text-paper/35">Payment Released at Each Sale</div>
+                </div>
+            </div>
+
+            <div class="border-l-4 pl-5" style="border-color:rgba(61,122,74,0.55);background:rgba(61,122,74,0.05);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase mb-2" style="color:#3d7a4a">Why This Matters</div>
+                <p class="text-[0.65rem] text-paper/55 leading-relaxed">In a conventional land acquisition of this scale, a developer would be required to find the full purchase price — or a substantial deposit against it — before taking control of the asset. This structure eliminates that barrier entirely. The Directors are paid from the proceeds of the project they are selling. Adam Watson retains the capital required to construct homes, rather than spending it acquiring the land. It is vendor finance at scale — and it required the Directors’ confidence in the buyer and the project to agree to it.</p>
+            </div>
+        </div>
+
+        <!-- Kira Steinhaus Interference -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.55)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Deal Interference · Kira Steinhaus · $3.5M Demand · Legal Challenge Pending</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">UNINVITED. UNCONTRACTED.<br><span class="text-hot">NOW DEMANDING $3.5 MILLION.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6">A routine meeting arranged by the builder’s agent became a case study in the kind of conduct that has given real estate agents their reputation. The developer, having watched it all unfold, summed it up plainly — and, as many in the industry would note, not without justification: <strong class="text-paper/65">real estate agents are very dishonest.</strong></p>
+
+            <!-- Photo + sequence grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+                <div>
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kira_steinhaus.png" alt="Kira Steinhaus" class="w-full border border-paper/[0.07]" style="object-fit:contain;background:#0d0d0d;max-height:380px" loading="lazy" />
+                    <div class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/20 mt-1.5">Kira Steinhaus · Now Threatening Legal Action · $3.5M Commission Demand</div>
+                </div>
+                <div class="space-y-3">
+                    <div class="text-[0.47rem] tracking-[0.18em] uppercase text-paper/30 mb-2">Sequence of Events</div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">01</span>
+                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">Brett — the builder’s agent — organised a meeting with Adam Watson and asked whether he could attend. Adam Watson said yes.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">02</span>
+                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">Brett refused to allow Adam Watson to attend the meeting, citing no stated reason.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">03</span>
+                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">Brett showed up to the meeting — where Gina Rinehart was present — accompanied by Kira Steinhaus. Nobody had invited her. Nobody knew she was coming.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">04</span>
+                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">During the meeting, Kira Steinhaus walked out. She returned shortly after and announced that they had found a buyer offering a higher price.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-gold/60">05</span>
+                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">Gina Rinehart called the builder directly and blasted him — for employing Brett, and for running a transparent cheap trick: walking out and coming back with a &ldquo;higher offer&rdquo; to pressure the room.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right" style="color:rgba(61,122,74,0.6)">06</span>
+                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">Brett has since been fired by the builder.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The cheap trick callout -->
+            <div class="border-l-4 pl-5 mb-6" style="border-color:rgba(193,68,14,0.5);background:rgba(193,68,14,0.05);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The Tactic — A Classic Cheap Trick</div>
+                <p class="text-[0.65rem] text-paper/55 leading-relaxed">Walking out of a negotiation and returning with a claim of a higher competing offer is one of the oldest pressure tactics in commercial real estate. The idea is to manufacture urgency and weaken the buyer’s position. It requires a willing participant to play the role of phantom buyer — or simply the audacity to claim one exists. Gina Rinehart, who has sat across many negotiating tables, was not impressed.</p>
+            </div>
+
+            <!-- $3.5M demand section -->
+            <div class="border mb-6" style="border-color:rgba(193,68,14,0.25);background:rgba(193,68,14,0.04)">
+                <div class="px-5 py-3 border-b" style="border-color:rgba(193,68,14,0.15)">
+                    <div class="text-[0.47rem] tracking-[0.22em] uppercase text-hot">Kira Steinhaus — Commission Demand · $3,500,000</div>
+                </div>
+                <div class="px-5 py-5">
+                    <p class="text-[0.68rem] text-paper/55 leading-relaxed mb-4">Kira Steinhaus is now claiming that Adam Watson owes her a spotter’s fee — essentially a commission for introducing him to the developer. She has communicated a demand of <strong class="text-paper/75">$3.5 million</strong>, and has taken that claim to the developer directly. The developer has passed the communication to Adam Watson.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">There are two fundamental problems with this claim. First, any fee arrangement of this kind would need to be negotiated with and agreed to by the builder’s agent — Brett — not unilaterally declared after the fact by someone who was never engaged, never contracted, and never invited to the meeting in the first place. Second, Kira Steinhaus was not introduced as a participant in the deal. She arrived uninvited alongside Brett, whose own conduct in the meeting was the subject of Gina Rinehart’s rebuke, and who has since been terminated by the builder.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed">There is a suspicion — not yet established as fact — that Kira Steinhaus and Brett had a personal relationship that extended beyond a professional one; a friends-with-benefits dynamic that may explain why she was brought to a meeting where her presence was neither requested nor appropriate. <strong class="text-paper/65">Adam Watson is ready for the civil challenge.</strong></p>
+                </div>
+            </div>
+
+            <!-- 3-col status grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <div class="border p-4" style="border-color:rgba(193,68,14,0.2);background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.15em] uppercase text-hot/60 mb-2">Kira’s Demand</div>
+                    <div class="font-display text-2xl text-hot mb-2">$3.5M</div>
+                    <p class="text-[0.58rem] text-paper/40 leading-relaxed">Commission claimed for an introduction she was never engaged to make, to a meeting she was never invited to attend.</p>
+                </div>
+                <div class="border p-4" style="border-color:rgba(201,138,16,0.2);background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.15em] uppercase text-gold/60 mb-2">Brett — Status</div>
+                    <div class="font-display text-xl text-gold mb-2">FIRED</div>
+                    <p class="text-[0.58rem] text-paper/40 leading-relaxed">The builder’s agent who orchestrated the meeting interference has been terminated by the builder following Gina Rinehart’s intervention.</p>
+                </div>
+                <div class="border p-4" style="border-color:rgba(61,122,74,0.2);background:rgba(61,122,74,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.15em] uppercase mb-2" style="color:rgba(61,122,74,0.7)">Adam Watson — Position</div>
+                    <div class="font-display text-xl mb-2" style="color:#3d7a4a">READY</div>
+                    <p class="text-[0.58rem] text-paper/40 leading-relaxed">Adam Watson is prepared for the civil challenge. The claim has no contractual basis and no legal foundation.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Brett — Background Enquiries -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.5)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Brett · Background Enquiries · New Zealand · Bikies · Money Laundering · Personal Conduct</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">AFTER HE WAS FIRED,<br><span class="text-gold">ENQUIRIES WERE MADE.</span></h3>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6">Once Brett's role in the meeting interference became clear, enquiries were made about him. What came back was not a clean picture. Brett had approached Adam Watson personally — seeking help resolving problems he had with bikies he was associated with in New Zealand. That conversation opened a window into a more complicated background than his role as builder's agent had suggested.</p>
+
+            <!-- NZ money laundering -->
+            <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.47rem] tracking-[0.2em] uppercase text-gold mb-3">New Zealand · Social Housing · Money Laundering · Labour Party</div>
+                <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">LAUNDERED THROUGH SOCIAL HOUSING.<br><span class="text-gold">NEVER TURNED A PROFIT. LABOUR LOOKED AWAY.</span></h4>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">Brett was involved in a social housing project in New Zealand through which money was laundered. The project — connected to bikies he was associated with — was structured around social housing construction. It never turned a profit. The scheme used the social housing framework as a vehicle: legitimate-looking activity, government-adjacent, difficult to scrutinise from the outside.</p>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">The Labour Party in New Zealand turned a blind eye to what was happening. Whether that was a failure of oversight or something more deliberate is a question for investigators. What is documented is that the projects ran, they lost money on paper, and no one in a position to ask questions chose to ask them.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                <div class="border border-gold/15 p-4" style="background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.43rem] tracking-[0.16em] uppercase text-gold/60 mb-2">The Vehicle</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Social housing construction projects in New Zealand — government-adjacent, structured to appear legitimate, never delivering a return.</p>
+                </div>
+                <div class="border border-gold/15 p-4" style="background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.43rem] tracking-[0.16em] uppercase text-gold/60 mb-2">The Associates</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Bikies connected to New Zealand — the same associates Brett later approached Adam Watson seeking help to manage disputes with.</p>
+                </div>
+                <div class="border border-hot/15 p-4" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.43rem] tracking-[0.16em] uppercase text-hot/60 mb-2">The Oversight</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">The Labour Party in New Zealand turned a blind eye. The projects never turned a profit. Nobody asked why.</p>
+                </div>
+            </div>
+
+            <!-- Personal conduct — pressuring partner to sell home -->
+            <div class="border border-paper/[0.08] p-5 mb-5" style="background:rgba(0,0,0,0.15)">
+                <div class="text-[0.47rem] tracking-[0.2em] uppercase text-paper/30 mb-3">Personal Conduct · Brett's Relationship · Her Home · His Insecurity</div>
+                <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">"IT REMINDS ME OF THE OTHER MEN<br><span class="text-hot">SHE'S HAD IN THE HOUSE."</span></h4>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">Brett is currently pressuring a woman he is in a relationship with to sell her home. The reason he is giving her: the house reminds him of the other men she has had there, and he doesn't want their smell around.</p>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">The house is not his. It belongs to her. Brett has no legal standing over the property — no ownership, no lease, no claim. His argument for its sale is not financial, not practical, and not legal. It is purely territorial — a demand that another person dispose of their own asset to satisfy his insecurity about her past.</p>
+                <div class="border-l-4 pl-4" style="border-color:rgba(193,68,14,0.45);background:rgba(193,68,14,0.04);padding:0.85rem 1rem 0.85rem 1.25rem">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">The Irony</div>
+                    <p class="text-[0.65rem] text-paper/55 leading-relaxed italic">Brett is demanding the sale of a home he does not own, citing discomfort about another person's history in a property that is entirely hers. For a man who arrived uninvited — to a meeting he was not supposed to attend, with a woman nobody had engaged — the pattern of inserting himself where he has no standing is consistent.</p>
+                </div>
+            </div>
+
+            <!-- Summary -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div class="border border-gold/15 p-4" style="background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.44rem] tracking-[0.16em] uppercase text-gold/60 mb-2">Brett Approached Adam</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Seeking help with bikie-related disputes stemming from New Zealand associations — the same network connected to the social housing laundering operation.</p>
+                </div>
+                <div class="border border-hot/15 p-4" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.44rem] tracking-[0.16em] uppercase text-hot/60 mb-2">Pressuring His Partner</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Demanding she sell her own home — which he does not own — because he objects to the memory of her past. Coercive conduct dressed as a preference.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kane Singleton -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Bodie's Network · Harassment Campaign · Charges Laid · Muay Thai Fighter</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">KANE SINGLETON.<br><span class="text-hot">CHARGED. SPONSORS GONE. STILL FIGHTING.</span></h3>
+
+            <!-- Photo + intro -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-7">
+                <div>
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kane_singleton.jpg"
+                         alt="Kane Singleton — Muay Thai Fighter"
+                         class="w-full border border-paper/[0.07] object-cover"
+                         style="max-height:420px;object-position:top"
+                         loading="lazy" />
+                    <div class="flex items-center justify-between mt-1.5">
+                        <span class="text-[0.43rem] tracking-[0.14em] uppercase text-paper/20">Kane Singleton · Muay Thai Fighter · Gold Coast</span>
+                        <a href="https://www.instagram.com/kanes1ngleton/" target="_blank" rel="noopener"
+                           class="text-[0.44rem] tracking-[0.12em] uppercase border border-paper/15 text-paper/30 px-2 py-0.5 hover:border-hot/40 hover:text-hot transition-colors">
+                            @kanes1ngleton ↗
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Kane Singleton is a Gold Coast Muay Thai fighter and a member of Bodie Chalmers's network. He was involved in the harassment campaign against Adam Watson during the period when Bodie Chalmers was actively running his false accusation narrative and manufacturing social stigma around Adam.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">The harassment was not passive. Kane Singleton has been charged with four separate offences in connection with his conduct toward Adam Watson.</p>
+
+                    <!-- Charges -->
+                    <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">Charges — Kane Singleton</div>
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-start">
+                                <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
+                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Stalking and intimidation of Adam Watson</p>
+                            </div>
+                            <div class="flex gap-2 items-start">
+                                <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
+                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Causing fear in a person — Adam Watson</p>
+                            </div>
+                            <div class="flex gap-2 items-start">
+                                <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
+                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Threatening to kill Adam Watson</p>
+                            </div>
+                            <div class="flex gap-2 items-start">
+                                <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
+                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Using a carriage service to send threatening messages and make threatening phone calls to Adam Watson</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sponsors gone -->
+            <div class="border border-paper/[0.08] p-5 mb-6" style="background:rgba(0,0,0,0.18)">
+                <div class="text-[0.47rem] tracking-[0.2em] uppercase text-paper/30 mb-3">Sponsors · Rinehart · The Economics of Muay Thai</div>
+                <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">RINEHART CALLED HIS SPONSORS.<br><span class="text-hot">THEY ALL PULLED.</span></h4>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">Gina Rinehart made calls to Kane Singleton's sponsors. Every one of them withdrew their support. For a professional fighter in Australia, that is not a minor inconvenience — it is a structural problem.</p>
+
+                <div class="border border-paper/[0.07] p-4 mb-4" style="background:rgba(0,0,0,0.15)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/25 mb-3">The Reality of Muay Thai in Australia — <a href="https://claude.ai/share/0f0d4d4a-667c-4840-9a5e-2afe6e37580b" target="_blank" rel="noopener" class="text-gold/60 hover:text-gold transition-colors underline underline-offset-2">Full Analysis ↗</a></div>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed mb-3">Muay Thai in Australia is not a large industry. A domestic fight might pay $200–$800 at a regional event, $1,000–$3,000 for a headline spot at a major card. Even fighters at the top of the domestic scene rarely make enough to live on from fighting alone — nearly all of them coach, work security, or have day jobs alongside competing.</p>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed mb-3">The sport lacks mainstream TV deals, broadcast revenue, and meaningful corporate sponsorship because the audience numbers aren't there. Gate sales and ticket revenue are essentially the entire economics at most events. The ceiling is low for structural reasons that have nothing to do with the quality of the athletes.</p>
+                    <div class="border-l-4 pl-4 mt-3" style="border-color:rgba(193,68,14,0.5);background:rgba(193,68,14,0.04);padding:0.75rem 1rem 0.75rem 1.25rem">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1.5">Without Sponsors — He's Gone</div>
+                        <p class="text-[0.62rem] text-paper/50 leading-relaxed">In a sport where gate revenue barely covers costs and fight purses at the domestic level don't sustain a career, sponsorship isn't supplementary income — it's the difference between being a professional and not being one. Kane Singleton lost all of his. That is the practical consequence of what happened.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fight embed -->
+            <div class="border border-paper/[0.07] overflow-hidden mb-6" style="background:rgba(0,0,0,0.2)">
+                <div class="px-4 py-2.5 border-b border-paper/[0.06]" style="background:rgba(0,0,0,0.3)">
+                    <span class="text-[0.44rem] tracking-[0.2em] uppercase text-hot">Kane Singleton vs Ryan McDonald · Muay Thai · Watch the Fight</span>
+                </div>
+                <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden">
+                    <iframe
+                        src="https://www.youtube.com/embed/GJ3AqMxHf7I"
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;border:none"
+                        title="Kane Singleton vs Ryan McDonald — Muay Thai"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        loading="lazy">
+                    </iframe>
+                </div>
+                <div class="px-4 py-3 border-t border-paper/[0.05]" style="background:rgba(0,0,0,0.2)">
+                    <span class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/22">Kane Singleton · Muay Thai · vs Ryan McDonald · Watch and congratulate him on his win</span>
+                </div>
+            </div>
+
+            <!-- Sunlight.Quest position -->
+            <div class="border border-sage/25 p-5" style="background:rgba(61,122,74,0.04)">
+                <div class="text-[0.47rem] tracking-[0.2em] uppercase text-sage mb-3">Sunlight.Quest — Position on Kane Singleton</div>
+                <p class="text-[0.68rem] text-paper/55 leading-relaxed mb-3">Kane Singleton was charged for his conduct. That is documented here because it is the record. But Sunlight.Quest is not in the business of piling on. He is a fighter. He trained hard enough to win. He has to navigate the consequences of choices made outside the ring — but the work inside it is his.</p>
+                <p class="text-[0.68rem] text-paper/55 leading-relaxed mb-4">His sponsors are gone. The industry is thin. That is a difficult position for anyone who has built their career around a sport that doesn't pay well without outside support. Sunlight.Quest encourages everyone to watch his fight, and to congratulate him on his win against Ryan McDonald.</p>
+                <div class="flex flex-wrap gap-3">
+                    <a href="https://www.youtube.com/watch?v=GJ3AqMxHf7I" target="_blank" rel="noopener"
+                       class="text-[0.52rem] tracking-[0.16em] uppercase border border-sage/35 text-sage/70 px-3 py-1.5 hover:border-sage hover:text-sage transition-colors">
+                        Watch the Fight ↗
+                    </a>
+                    <a href="https://www.instagram.com/kanes1ngleton/" target="_blank" rel="noopener"
+                       class="text-[0.52rem] tracking-[0.16em] uppercase border border-paper/15 text-paper/35 px-3 py-1.5 hover:border-paper/40 hover:text-paper/60 transition-colors">
+                        @kanes1ngleton on Instagram ↗
+                    </a>
+                    <a href="https://claude.ai/share/0f0d4d4a-667c-4840-9a5e-2afe6e37580b" target="_blank" rel="noopener"
+                       class="text-[0.52rem] tracking-[0.16em] uppercase border border-paper/15 text-paper/35 px-3 py-1.5 hover:border-paper/40 hover:text-paper/60 transition-colors">
+                        Muay Thai Economics — Full Analysis ↗
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Z Soielman -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.6)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Z Soielman · Home Invasion · Fake ID · Armed Burglary Links · Remand · No Bail</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">SENT TO A FAKE ADDRESS.<br><span class="text-hot">KICKED THE DOOR IN ANYWAY.</span></h3>
+
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6">Adam Watson gave Z Soielman a fake address. Soielman drove to it regardless — and when he arrived at a property that a real estate agent was actively trying to sell, he proceeded to harass and kick the door in. The real estate agent called police. They arrived without sirens. Soielman was charged with home invasion. He is now on remand. Bail has been refused.</p>
+
+            <!-- The "itchbay" video -->
+            <div class="border border-paper/[0.07] overflow-hidden mb-6" style="background:rgba(0,0,0,0.2)">
+                <div class="px-4 py-2.5 border-b border-paper/[0.06]" style="background:rgba(0,0,0,0.3)">
+                    <span class="text-[0.44rem] tracking-[0.2em] uppercase text-hot">"ITCHBAY" — Z Soielman · Pre-Home Invasion · Too Scared to Say It in Public</span>
+                </div>
+                <video controls class="w-full block" style="max-height:480px;background:#000" preload="metadata">
+                    <source src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/itchbay.mp4" type="video/mp4" />
+                </video>
+                <div class="px-4 py-3 border-t border-paper/[0.05]" style="background:rgba(0,0,0,0.2)">
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed">In this video, Z Soielman is about to go and do a home invasion — but he's using the word <strong class="text-paper/65">"itchbay"</strong> because he's too scared to say "bitch" in public. A man about to commit a home invasion who won't say a word out loud. The cognitive dissonance is remarkable.</p>
+                </div>
+            </div>
+
+            <!-- What happened -->
+            <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                <div class="text-[0.47rem] tracking-[0.2em] uppercase text-hot mb-4">Sequence of Events</div>
+                <div class="space-y-2.5">
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">01</span>
+                        <p class="text-[0.62rem] text-paper/50 leading-relaxed">Adam Watson gives Z Soielman a fake address.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">02</span>
+                        <p class="text-[0.62rem] text-paper/50 leading-relaxed">Soielman drives to the address — which is a property currently being listed for sale by a real estate agent.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">03</span>
+                        <p class="text-[0.62rem] text-paper/50 leading-relaxed">He harasses at the property and kicks the door in.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-gold/60">04</span>
+                        <p class="text-[0.62rem] text-paper/50 leading-relaxed">The real estate agent calls police. They arrive without sirens.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">05</span>
+                        <p class="text-[0.62rem] text-paper/50 leading-relaxed">Soielman is charged with home invasion. He is found to be carrying fake identification documents.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">06</span>
+                        <p class="text-[0.62rem] text-paper/50 leading-relaxed">Fingerprints are taken. Police begin linking him to a series of armed burglaries. His prints are being run through the DNA database.</p>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <span class="font-display text-xs shrink-0 mt-0.5 w-5 text-right text-hot/60">07</span>
+                        <p class="text-[0.62rem] text-paper/50 leading-relaxed">Soielman is placed on remand. Bail is refused. The database check is expected to return additional charges.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Status grid -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-px mb-6" style="background:rgba(245,234,212,0.06)">
+                <div class="p-4" style="background:#0c0804">
+                    <div class="text-[0.42rem] tracking-[0.18em] uppercase text-hot mb-1.5">Current Status</div>
+                    <div class="font-display text-lg leading-tight text-hot">Remand</div>
+                    <div class="text-[0.56rem] text-paper/35 mt-1">Bail refused</div>
+                </div>
+                <div class="p-4" style="background:#0c0804">
+                    <div class="text-[0.42rem] tracking-[0.18em] uppercase text-hot mb-1.5">Charge</div>
+                    <div class="font-display text-lg leading-tight text-paper/70">Home Invasion</div>
+                    <div class="text-[0.56rem] text-paper/35 mt-1">Property listed for sale</div>
+                </div>
+                <div class="p-4" style="background:#0c0804">
+                    <div class="text-[0.42rem] tracking-[0.18em] uppercase text-gold mb-1.5">Found On Him</div>
+                    <div class="font-display text-lg leading-tight text-gold">Fake IDs</div>
+                    <div class="text-[0.56rem] text-paper/35 mt-1">Multiple false documents</div>
+                </div>
+                <div class="p-4" style="background:#0c0804">
+                    <div class="text-[0.42rem] tracking-[0.18em] uppercase text-hot mb-1.5">Pending</div>
+                    <div class="font-display text-lg leading-tight text-paper/70">DNA + Prints</div>
+                    <div class="text-[0.56rem] text-paper/35 mt-1">Armed burglary links</div>
+                </div>
+            </div>
+
+            <!-- What's coming -->
+            <div class="border-l-4 pl-5" style="border-color:rgba(193,68,14,0.5);background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">What's Coming</div>
+                <p class="text-[0.65rem] text-paper/50 leading-relaxed">His fingerprints are being matched against unsolved armed burglaries. His DNA is being run through the database. He was caught with fake identification — which raises the question of how many other names he has operated under and what those names are attached to. The home invasion charge got him into custody. The database work is going to keep him there. The fake address was the trap. He walked into it.</p>
             </div>
         </div>
 
@@ -751,11 +1628,21 @@
 function toggleVault(el) { el.classList.toggle('open'); el.nextElementSibling.classList.toggle('open'); }
 
 var EVIDENCE = {
+    'pioneer-lakes-hoa': {
+        type: 'pdf',
+        title: 'HEADS OF AGREEMENT — PIONEER LAKES SHARE SALE',
+        tag: 'Pioneer Lakes Pty Ltd · ACN 108 681 563 · 7 May 2026',
+        meta: 'PDF · Share acquisition · Total Consideration $16,518,010 · Generated via Claude · Vendor details redacted',
+        desc: 'Heads of Agreement for the acquisition of all issued shares in Pioneer Lakes Pty Ltd — a 649-lot master-planned residential estate adjoining Mirani Township, Mackay. Total consideration $16,518,010 comprising a $12,500,000 Share Purchase Price and $4,018,010 Lot Settlement Amount. Covers transaction structure, conditions precedent, lot schedule, development approvals (including two urgently lapsing DAs on 5 August 2026), exclusivity, and confidentiality. Generated entirely through Claude — no outside solicitor engaged.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/HOA_REDACTED.pdf',
+        filename: 'HOA_REDACTED.pdf'
+    },
     'kennards-judgment': { type:'pdf', title:'Kondratenko v Kennards Storage Management [2024] FCA 913', tag:'Federal Court · Justice Meagher · 15 August 2024', meta:'PDF · Summary judgment · QUD18/2024 · Queensland Registry', desc:'Justice Meagher accepted the applicant\'s evidence at its highest and granted summary judgment in favour of Kennards. The dismissal is procedural — not a factual finding that Kennards acted well.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/Kondratenko+v+Kennards+Storage+Management+%5B2024%5D+FCA+913.pdf', filename:'Kondratenko_v_Kennards_FCA_913.pdf' },
     'kennards-originating': { type:'pdf', title:'Originating Application — QUD18/2024', tag:'Federal Court · Filed 9 January 2024 · Self-represented', meta:'PDF · Originating Application · Queensland Registry · Kosta Kondratenko', desc:'The originating application filed in the Federal Court of Australia, Queensland Registry on 9 January 2024. Filed by Kosta Kondratenko, self-represented.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/originating_application.pdf', filename:'originating_application.pdf' },
     'kennards-genuine-steps': { type:'pdf', title:'Genuine Steps Statement', tag:'Federal Court · Filed with Originating Application', meta:'PDF · Genuine Steps Statement · QUD18/2024', desc:'The Genuine Steps Statement filed with the Originating Application, documenting pre-filing attempts to resolve the billing dispute with Kennards Self Storage before commencing Federal Court proceedings.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/genuine_steps.pdf', filename:'genuine_steps.pdf' },
     'kennards-karyn-reardon': { type:'pdf', title:'Karyn Reardon Affidavit — Piper Alderman', tag:'Piper Alderman · Senior Partner · Filed 12 April 2024', meta:'PDF · Sworn by Karyn Reardon · Filed in support of summary judgment application', desc:'Affidavit sworn by Karyn Reardon, senior partner at Piper Alderman (admitted 1994, partner since 2007), filed in support of Kennards\' application for summary judgment against the self-represented applicant.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/karyn_reardon_affidavit.pdf', filename:'karyn_reardon_affidavit.pdf' },
-    'kennards-kellie-robley': { type:'pdf', title:'Kellie Robley Affidavit — Operations Manager', tag:'Kennards Operations Manager · Filed 12 April 2024', meta:'PDF · Sworn by Kellie Robley · Admits automated billing error and PIN access disablement', desc:'Affidavit sworn by Kellie Robley, Operations Manager at Kennards. Paragraph 8 confirms the statement was automatically generated and erroneously omitted the $25 payment. Paragraph 16 admits the customer\'s PIN access was disabled by Kennards before the 42-day contractual default period had elapsed.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/kellie_robley_affidavit.pdf', filename:'kellie_robley_affidavit.pdf' }
+    'kennards-kellie-robley': { type:'pdf', title:'Kellie Robley Affidavit — Operations Manager', tag:'Kennards Operations Manager · Filed 12 April 2024', meta:'PDF · Sworn by Kellie Robley · Admits automated billing error and PIN access disablement', desc:'Affidavit sworn by Kellie Robley, Operations Manager at Kennards. Paragraph 8 confirms the statement was automatically generated and erroneously omitted the $25 payment. Paragraph 16 admits the customer\'s PIN access was disabled by Kennards before the 42-day contractual default period had elapsed.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/kellie_robley_affidavit.pdf', filename:'kellie_robley_affidavit.pdf' },
+    'kennards-affidavit-service': { type:'pdf', title:'Affidavit of Service — Sheriff Delani Sibanda', tag:'Sheriff\'s Officer · 25 January 2024 · QUD18/2024', meta:'PDF · Personal service at Sam Kennard\'s home address · Accepted by his wife', desc:'Affidavit of Service sworn by Sheriff\'s Officer Delani Sibanda confirming personal service of the Originating Application (QUD18/2024) at Sam Kennard\'s home address on 25 January 2024. Service was accepted by his wife.', url:'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kennards/HOSPPLX18_2024_01_25_15_28_59_978+(1).pdf', filename:'affidavit_of_service_sibanda.pdf' }
 };
 var currentFile = null;
 
