@@ -1411,6 +1411,43 @@
                 <div class="border-l-4 pl-6 py-1" style="border-color:rgba(193,68,14,0.4)">
                     <p class="text-[0.68rem] text-paper/40 leading-relaxed">Vourliotis went to the one person in this investigation whose own conduct is documented in court records and on this site — and asked her to speak against the person who had exposed her. He sent what she said to two of the most prominent institutions in the Hancock Prospecting orbit. The recording was intended to close a door on Kosta's credibility. Instead it is one more data point in the file on Vourliotis — a man who arrived with a recording device, took a car, attempted to force entry into a housing commission flat, and chose a fraudulent landlord as his character witness.</p>
                 </div>
+
+                <!-- StarNow chapter -->
+                <div class="story-chapter reveal mt-6" style="border-left-color:rgba(193,68,14,0.4)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border border-hot/40 px-2 py-1 text-hot">Platform Accountability — StarNow</span></div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">HE'S STILL ON STARNOW.<br><span class="text-hot">CONVICTED. JAILED. LISTED.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"I had a StarNow profile when I was running Head Studios — a video production business. I was banned from the platform after I sent a mass SMS to a group of models inviting them to a nightclub. Alex Vourliotis was convicted and jailed for fraud. He is still on the platform."</p>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Alex Vourliotis maintains an active profile on StarNow — an actor and talent casting platform — at the following address:</p>
+                            <div class="border border-hot/20 p-4 mb-4" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1">StarNow Profile</div>
+                                <a href="https://www.starnow.com/u/alexvourliotis/" target="_blank" rel="noopener noreferrer" class="font-mono text-[0.68rem] text-hot hover:text-paper/80 transition-colors break-all">starnow.com/u/alexvourliotis/</a>
+                                <div class="text-[0.5rem] text-paper/28 mt-1.5">Profile active as of publication · Vourliotis convicted and jailed</div>
+                            </div>
+                            <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Kosta Kondratenko — founder of Sunlight.Quest — operated a StarNow profile when running Head Studios, a video production business. He was subsequently banned from the platform after sending a mass SMS to a group of models inviting them to a nightclub — an administrative breach that led to his account being removed.</p>
+                            <p class="text-[0.68rem] text-paper/45 leading-relaxed">Alex Vourliotis has been convicted and jailed for fraud. His victim was a person he befriended, took a car from while that person slept, transferred the vehicle into his own name interstate, and financed against at Cash Converters. He remains active on a platform that connects actors with production companies and casting directors.</p>
+                        </div>
+                        <div class="border border-paper/[0.08] p-5" style="background:rgba(193,68,14,0.02)">
+                            <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-3">The Asymmetry</div>
+                            <div class="space-y-3">
+                                <div class="flex gap-3 items-start"><div class="w-1.5 h-1.5 rounded-full bg-hot mt-1.5 shrink-0"></div><div><div class="text-[0.58rem] text-paper/55 mb-0.5">Kosta Kondratenko — banned</div><div class="text-[0.52rem] text-paper/35 leading-relaxed">Removed for sending a mass SMS to models. Administrative. No victims. No criminal proceeding.</div></div></div>
+                                <div class="flex gap-3 items-start"><div class="w-1.5 h-1.5 rounded-full bg-hot mt-1.5 shrink-0"></div><div><div class="text-[0.58rem] text-paper/55 mb-0.5">Alex Vourliotis — still listed</div><div class="text-[0.52rem] text-paper/35 leading-relaxed">Convicted and jailed for fraud against a person connected to the platform's ecosystem. Active profile. No removal.</div></div></div>
+                                <div class="flex gap-3 items-start"><div class="w-1.5 h-1.5 rounded-full bg-gold mt-1.5 shrink-0"></div><div><div class="text-[0.58rem] text-paper/55 mb-0.5">Terms of service applied selectively</div><div class="text-[0.52rem] text-paper/35 leading-relaxed">Enforced against an SMS breach. Not enforced against a conviction and custodial sentence.</div></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.03)">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-3">Statement Requested — StarNow</div>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Kosta Kondratenko is seeking a formal statement from StarNow regarding their policy on actors and talent who are charged with, or convicted of, criminal offences — and specifically whether a conviction and custodial sentence results in removal from the platform.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed">Does StarNow's policy require or permit removal of a user who has been convicted and jailed? Were they aware of the conviction? If aware — what is the stated reason for the profile remaining active?</p>
+                    </div>
+                    <div class="border border-paper/[0.08] p-5" style="background:rgba(245,234,212,0.015)">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/35 mb-3">Terms of Service &amp; Corporate Responsibility</div>
+                        <p class="text-[0.68rem] text-paper/40 leading-relaxed mb-3">Casting and talent platforms are marketplaces of trust. A platform that expelled a member for sending a mass SMS but retains a member convicted and jailed for fraud against someone in that same social ecosystem is not applying its trust infrastructure consistently.</p>
+                        <p class="text-[0.68rem] text-paper/40 leading-relaxed">A platform that enables a convicted fraudster to continue presenting himself as a professional actor is making an active choice, not a passive omission. That choice is on this record.</p>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -3461,6 +3498,49 @@
                     ></iframe>
                     <div class="px-4 py-2 border-t border-hot/15 text-center" style="background:rgba(0,0,0,0.25)">
                         <span class="text-[0.43rem] tracking-[0.12em] uppercase text-paper/30">Bankruptcy Notice · Federal Court of Australia · West Kira · Unpaid Default Judgement</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Examination Order -->
+            <div class="story-chapter reveal mt-8 mb-8" style="border-left-color:rgba(61,122,74,0.5)">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#3d7a4a;border-color:rgba(61,122,74,0.4)">Enforcement · Examination Order · Form 54 UCPR 38.3 · Local Court of NSW</span>
+                </div>
+                <h3 class="font-display text-2xl tracking-wide mb-3 leading-tight">SHOW UP. SHOW YOUR ASSETS.<br><span class="text-sage">OR YOU MAY BE ARRESTED.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Adam Watson has obtained an Examination Order from the Local Court of NSW — issued 1 June 2026 — requiring West Kira to attend court and disclose his full financial position so the judgment debt can be enforced. West Kira destroyed a man's glasses during a ride Adam gave him out of basic decency. Adam is determined to collect. Karma, as it turns out, runs on a court timetable.</p>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-px mb-6" style="background:rgba(245,234,212,0.06)">
+                    <div class="p-4" style="background:#0c0804"><div class="text-[0.42rem] tracking-[0.18em] uppercase text-sage mb-1.5">Court Date</div><div class="font-display text-lg leading-tight text-paper/80">17 July 2026</div><div class="text-[0.56rem] text-paper/35 mt-1">9:30 AM · Tweed Heads</div></div>
+                    <div class="p-4" style="background:#0c0804"><div class="text-[0.42rem] tracking-[0.18em] uppercase text-sage mb-1.5">Court</div><div class="font-display text-lg leading-tight text-paper/80">Local Court NSW</div><div class="text-[0.56rem] text-paper/35 mt-1">General Division · Sydney Registry</div></div>
+                    <div class="p-4" style="background:#0c0804"><div class="text-[0.42rem] tracking-[0.18em] uppercase text-sage mb-1.5">Case Number</div><div class="font-display text-lg leading-tight text-paper/80">2025/00341907</div><div class="text-[0.56rem] text-paper/35 mt-1">Watson v West Kira</div></div>
+                    <div class="p-4" style="background:#0c0804"><div class="text-[0.42rem] tracking-[0.18em] uppercase text-hot mb-1.5">If He Doesn't Attend</div><div class="font-display text-lg leading-tight text-hot">Arrested.</div><div class="text-[0.56rem] text-paper/35 mt-1">Stated on the face of the Order</div></div>
+                </div>
+                <div class="border border-sage/20 p-5 mb-5" style="background:rgba(61,122,74,0.04)">
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-sage mb-3">What West Kira Must Produce at Court</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/50 leading-relaxed">Full bank statements for all accounts held in his name — last 6 months</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/50 leading-relaxed">Documents showing the current balance of all bank accounts held in his name</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/50 leading-relaxed">Title deeds or other documents showing any real property owned by him</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/50 leading-relaxed">Vehicle registration certificates or documents showing any motor vehicles owned by him</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/50 leading-relaxed">Income documents — payslips, Centrelink statements, or tax returns</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/50 leading-relaxed">Documents identifying the name and branch of every bank or financial institution at which he holds an account</p></div>
+                    </div>
+                </div>
+                <div class="border-l-4 pl-5 mb-5" style="border-color:rgba(61,122,74,0.5);background:rgba(61,122,74,0.04);padding:1rem 1rem 1rem 1.25rem">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-sage mb-2">On Record — Adam Watson</div>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed">"He got into my car. I gave him a ride. He broke my glasses. He is going to show up to court in Tweed Heads and show me what he owns — or he gets arrested. That's karma. I'm getting my glasses."</p>
+                </div>
+                <p class="text-[0.65rem] text-paper/40 leading-relaxed mb-5">West Kira is currently in custody on drug charges worth approximately $750,000 and facing charges over the recorded Mick Gatto call. He is also ordered to be in Tweed Heads at 9:30 AM on 17 July 2026 — fully disclosed, assets on the table — to satisfy a judgment obtained for deliberately destroying a passenger's glasses during a free ride.</p>
+                <div class="border border-paper/[0.07] overflow-hidden mb-5" style="background:rgba(0,0,0,0.2)">
+                    <div class="flex items-center justify-between px-4 py-2.5 border-b border-paper/[0.06]" style="background:rgba(0,0,0,0.3)">
+                        <span class="text-[0.44rem] tracking-[0.2em] uppercase text-sage">Examination Order · Form 54 UCPR 38.3 · D0002DOIXL · Issued 1 June 2026 · Watson v West Kira · 2025/00341907</span>
+                        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/west_kira_examination_notice.pdf" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.12em] uppercase border border-paper/20 text-paper/35 px-2 py-1 hover:border-sage/50 hover:text-sage transition-colors">Open PDF ↗</a>
+                    </div>
+                    <div style="height:680px">
+                        <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/west_kira_examination_notice.pdf" style="width:100%;height:100%;border:none;display:block" title="Examination Order — West Kira — Local Court of NSW — 17 July 2026" loading="lazy"></iframe>
+                    </div>
+                    <div class="px-4 py-3 border-t border-paper/[0.05]" style="background:rgba(0,0,0,0.2)">
+                        <span class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/22">PDF · 2 pages · Form 54 (version 1) UCPR 38.3 · Attendance required 17 July 2026 · Non-attendance: may be arrested</span>
                     </div>
                 </div>
             </div>
