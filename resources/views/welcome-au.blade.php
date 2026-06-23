@@ -544,6 +544,39 @@
                 <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Refugee Convention</div>
                 <div class="text-[0.5rem] text-paper/18 mt-1">PM backs withdrawal</div>
             </div>
+            <!-- Item 7: James Ashby / Faruqi / Mosque recording -->
+            <div class="story-chapter" style="border-left-color:rgba(193,68,14,0.4)">
+                <div class="flex items-center gap-3 mb-3">
+                    <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot border border-hot/40 px-2 py-1">Recording Exists — James Ashby</span>
+                    <span class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/20">Faruqi · Mosque · Cleric · Sharia</span>
+                </div>
+                <h3 class="font-display text-2xl tracking-wide mb-3 leading-tight">RECORDED IN A MOSQUE.<br><span class="text-hot">BEHEADINGS. BONDI. SHARIA. ALBANESE LOOKS AWAY.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">James Ashby has a recording made inside a mosque — capturing a cleric speaking in the presence of Senator Mehreen Faruqi. On that recording, the cleric states that white people should be beheaded and that the Jews <em>deserved everything they got</em> at the Bondi Beach massacre. Faruqi is recorded stating: <span class="font-display text-paper/65">"Sharia law will rule this country and all white people should be seen and not heard."</span></p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The recording is currently held by James Ashby. Anthony Albanese has been made aware of it — and has turned a blind eye. The conduct documented in the recording — a sitting senator, in a mosque, with a cleric endorsing sectarian violence and celebrating the murder of Jewish Australians — has not prompted any public response from the Prime Minister.</p>
+
+                <div class="border border-hot/20 p-4 mb-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">What Is on the Recording</div>
+                    <div class="space-y-1.5">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Cleric states that white people should be beheaded</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Cleric states that Jews deserved everything they got at the Bondi Beach massacre</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Senator Faruqi recorded stating: "Sharia law will rule this country and all white people should be seen and not heard"</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Recording held by James Ashby — not yet released publicly</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Albanese informed — no action taken, no public statement made</p></div>
+                    </div>
+                </div>
+
+                <div class="border border-paper/[0.08] p-4 mb-4" style="background:rgba(0,0,0,0.2)">
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/28 mb-2">Albanese's Pattern — Selective Blindness</div>
+                    <p class="text-[0.62rem] text-paper/40 leading-relaxed">Anthony Albanese's non-response to material of this gravity is consistent with a documented pattern of turning a blind eye to conduct within Australia's Muslim communities when political calculation makes intervention inconvenient. A Prime Minister who was made aware that a sitting senator was present at a mosque where the beheading of white Australians and the celebration of Jewish deaths was recorded — and said nothing publicly — has made a political choice. That choice is on the record.</p>
+                </div>
+
+                <!-- Ashby secret meetings with Albanese -->
+                <div class="border-l-4 border-gold/50 pl-5 py-1" style="background:rgba(201,138,16,0.06);padding:0.85rem 1rem 0.85rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-1">James Ashby — Secret Meetings with Albanese</div>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed">James Ashby — who holds the recording — has been conducting secret meetings with Anthony Albanese behind Pauline Hanson's back. Ashby is Hanson's chief of staff. The existence of back-channel contact between the Prime Minister's office and Hanson's most senior adviser — undisclosed to Hanson herself — is a significant political development in its own right. The recording, the meetings, and the Prime Minister's silence are all part of the same picture.</p>
+                </div>
+            </div>
+
         </div>
 
     </div>
