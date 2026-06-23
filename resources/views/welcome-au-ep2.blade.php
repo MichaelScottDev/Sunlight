@@ -1093,6 +1093,19 @@
                 <div class="border-l-4 border-hot/40 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Social Stigmatisation — Robina KFC</div>
                     <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">REFUSED SERVICE AT THE DRIVE-THROUGH.<br><span class="text-hot">BODIE CHALMERS'S RUMOURS REACH ROBINA KFC.</span></h4>
+
+                    <!-- Aaliyah identification -->
+                    <div class="flex gap-4 items-start mb-4 border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.18)">
+                        <div class="shrink-0 border border-paper/10 overflow-hidden" style="width:110px;aspect-ratio:3/4">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/IMG-20260623-WA0004.jpg" alt="Aaliyah — with Bodie Chalmers" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div class="pt-1">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-paper/30 mb-1">Identified — Bodie Chalmers's Girlfriend</div>
+                            <div class="font-display text-xl tracking-wide text-paper/80 leading-tight mb-2">AALIYAH</div>
+                            <p class="text-[0.6rem] text-paper/40 leading-relaxed">Bodie Chalmers's Russian girlfriend. Her father is Peter Demchenko, who attended the Broadbeach disability centre confrontation alongside Grason Andrew Kira and two QPS officers on their payroll. $38,000 was stolen from Aaliyah's bank account during Bodie's operation. Photographed here with Bodie Chalmers.</p>
+                        </div>
+                    </div>
+
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A friend of Bodie Chalmers's Russian girlfriend Aaliyah was working at the Robina KFC when Adam Watson went through the drive-through in an Uber. Adam was refused service — the result of the malicious rumours Bodie Chalmers had been spreading. The Uber driver suggested they go inside to get food. An incident ensued.</p>
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Adam Watson is currently working to identify the owner of the Robina KFC franchise with the intention of having the employee who refused him service terminated. The employee's decision to deny service based on unverified rumours from a known associate of the subject of a malicious prosecution finding is not a defensible position for a staff member to take.</p>
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed">This is what social stigmatisation looks like in practice. A person who was the subject of a charge the DPP ruled malicious, who was never convicted, who has no finding against him — denied service at a fast food outlet because of rumours spread by the person who fabricated the charge. This is what Bodie Chalmers and his accomplice Ebony's conduct costs people in daily life.</p>
