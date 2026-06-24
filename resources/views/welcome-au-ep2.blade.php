@@ -500,6 +500,108 @@
                     </div>
                 </div>
 
+                <!-- Tracker chapter -->
+                <div class="story-chapter reveal mt-6 mb-6" style="border-left-color:rgba(124,106,170,0.6)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">Surveillance · Coercive Control</span></div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE PHONE. THE CAR.<br><span style="color:#7c6aaa">THE OPEN FUEL CAP.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Coercive control does not require violence in every incident. It requires surveillance — the knowledge, or the suspicion, that you are always being watched. That is the mechanism. That is the point."</p>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Two tracking methods were deployed by Bodie Chalmers against Adam Watson. One was digital. One was physical. Both are textbook instruments of coercive control.</p>
+
+                    <!-- iPhone tracker -->
+                    <div class="border-l-4 pl-5 mb-6" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase mb-2" style="color:#7c6aaa">Track 01 — iPhone Location Sharing</div>
+                        <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">APPLE SHARE MY LOCATION.<br><span style="color:#7c6aaa">WITHOUT ASKING.</span></h4>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Bodie Chalmers obtained access to Adam Watson's iPhone location via Apple's Share My Location feature — without Adam's knowledge or consent. This was not a setting Adam configured. It was access that was enabled without him knowing it was there.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Adam only discovered it when he checked the Share My Location section of his iPhone and found Bodie's account listed as someone with access to his live location. When Adam pulled up the screen to show someone else — handing them the phone and opening the share location list — that person could see Bodie's account sitting there, and could see how frequently it had been checked. It was not occasional. The access had been regular and recent. Someone had been monitoring Adam's real-time location without his knowledge — and the phone records showed it.</p>
+                        <div class="border border-paper/[0.07] p-4 mt-3" style="background:rgba(0,0,0,0.3)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">What the Share My Location Screen Reveals</div>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Every account that has been granted access to your location — including access you did not knowingly authorise</p></div>
+                                <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">When that account last checked your location — visible on the screen to anyone you hand the phone to</p></div>
+                                <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">A pattern of access — whether checks were sporadic or systematic, conducted at night, during movements</p></div>
+                                <div class="flex gap-2 items-start"><span style="color:#7c6aaa" class="text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/40 leading-relaxed">Confirmation the access was active and ongoing — not an old, forgotten permission, but something being used</p></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Physical tracker -->
+                    <div class="border-l-4 pl-5 mb-6" style="border-color:rgba(193,68,14,0.5);background:rgba(193,68,14,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase mb-2 text-hot">Track 02 — Physical Tracker · Fuel Cap</div>
+                        <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">A TRACKER UNDER THE FUEL CAP.<br><span class="text-hot">EXCEPT HE LEFT THE CAP OPEN.</span></h4>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">A physical tracking device was placed on Adam Watson's car, concealed under the fuel cap. The intention was that it would go unnoticed — a passive surveillance tool that would broadcast Adam's location without his knowledge, attached in a spot not checked in routine use.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Bodie left the fuel cap open.</p>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed">The act of planting the device — conducted covertly, designed to be invisible — was immediately undone by leaving the fuel cap sitting open. An open fuel cap on a parked car is not a normal condition. It draws attention. It invites investigation. The tracker that was supposed to be invisible was instead flagged by the very act of placing it. The surveillance was discovered. The fuel cap was sitting open where Bodie had been.</p>
+                    </div>
+
+                    <!-- Coercive control framing -->
+                    <div class="border border-paper/[0.08] p-5" style="background:rgba(124,106,170,0.03)">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase mb-3" style="color:#7c6aaa">Coercive Control — The Infrastructure of Power</div>
+                        <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Digital location surveillance and physical tracking devices are recognised instruments of coercive and controlling behaviour under Australian law. They are not incidental — they are the infrastructure. The purpose is not information. The purpose is power: the ability to know where someone is at all times, to appear when they do not expect it, to make them aware — or to keep them unaware — that their movements are being recorded.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4">
+                            <div class="border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.25)">
+                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">Mechanism</div>
+                                <div class="text-[0.6rem] text-paper/45 leading-relaxed">Continuous location surveillance removes the victim's ability to move freely without that movement being monitored and potentially used against them — whether they know it is happening or not</div>
+                            </div>
+                            <div class="border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.25)">
+                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">Chilling Effect</div>
+                                <div class="text-[0.6rem] text-paper/45 leading-relaxed">Once a person discovers surveillance, the harm is already done. The awareness that you were being tracked retroactively colours every movement made while it was active — every trip, every person you visited, every night you did not come home</div>
+                            </div>
+                            <div class="border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.25)">
+                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-1">NSW / QLD Law</div>
+                                <div class="text-[0.6rem] text-paper/45 leading-relaxed">Coercive control is a standalone criminal offence in NSW (2024) and Queensland (2023). Tracking a partner's location without consent is a specified example of coercive control behaviour under both frameworks</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- The Baby German Shepherd -->
+                <div class="story-chapter reveal mt-6" style="border-left-color:rgba(124,106,170,0.4)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">The Dog · What Adam Wanted · What Bodie Did</span></div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">HE BOUGHT A BABY GERMAN SHEPHERD.<br><span style="color:#7c6aaa">HE WANTED A HOME. BODIE CAME AND PUNCHED HIM.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Adam bought the dog as a companion. He wanted a relationship, a home, a life — with Bodie and the German Shepherd. Bodie came over and punched him in the same spot he'd hit him before. Then threatened to steal a car and blame it on Adam."</p>
+
+                    <!-- Dog photo -->
+                    <div class="reveal mb-6">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/german_shepherd.jpg"
+                             alt="Baby German Shepherd — Adam Watson's dog"
+                             class="w-full border border-paper/[0.07]"
+                             style="max-height:520px;object-fit:contain;background:#0d0d0d"
+                             loading="lazy" />
+                        <div class="flex items-center justify-between px-3 py-2 border border-t-0 border-paper/[0.07]" style="background:rgba(124,106,170,0.06)">
+                            <span class="text-[0.45rem] tracking-[0.18em] uppercase" style="color:#7c6aaa">Baby German Shepherd · Adam Watson's companion</span>
+                            <span class="text-[0.45rem] tracking-[0.14em] uppercase text-paper/25">Eventually had to be given away</span>
+                        </div>
+                    </div>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Adam Watson bought the baby German Shepherd as a companion. He wanted more than that: a relationship with Bodie Chalmers, a home they shared, a life that included the dog. That was what he was trying to build.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Bodie came to his home. He punched Adam Watson in the same spot he had punched him previously — a deliberate act, not a reaction. Then he made his threat: <em class="text-paper/70">"I'm going to steal a car and tell the cops it was because of you."</em> Bodie Chalmers, in the middle of an assault, was already framing how he would weaponise the police against the person he was hitting.</p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+                        <div class="border p-4" style="border-color:rgba(124,106,170,0.25);background:rgba(124,106,170,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">What Adam Wanted</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">A relationship. A home. A companion dog to share that life with Bodie Chalmers. He bought the German Shepherd with that in mind.</p>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">What Bodie Did</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">Came to Adam's home. Punched him in the same location as a previous assault. Threatened to steal a car and blame it on Adam to bring police involvement.</p>
+                        </div>
+                    </div>
+
+                    <!-- Bodie's threat verbatim -->
+                    <div class="border-l-4 border-hot/50 pl-5 mb-5" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Bodie Chalmers — Direct Threat</div>
+                        <p class="text-[0.68rem] text-paper/60 leading-relaxed italic mb-2">"I'm going to steal a car and tell the cops it was because of you!"</p>
+                        <p class="text-[0.62rem] text-paper/40 leading-relaxed">Said during the assault. Planning to fabricate a criminal act and attribute it to Adam Watson — using the police as the instrument — while in the middle of punching him. This is the same pattern as the false sexual assault allegation: violence paired with a pre-planned false report.</p>
+                    </div>
+
+                    <!-- Outcome -->
+                    <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.12)">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-paper/28 mb-2">Outcome</div>
+                        <p class="text-[0.62rem] text-paper/42 leading-relaxed">Adam Watson eventually had to give the German Shepherd away. The home he had wanted to build — with Bodie, with the dog — did not come to be. What he was left with was an assault, a threat, and the absence of the companion he had bought in the hope of something better.</p>
+                    </div>
+                </div>
+
                 <!-- Context: Adam was helping Bodie with armed burglary charges -->
                 <div class="border-l-4 pl-5 mt-6 mb-2" style="border-color:rgba(124,106,170,0.4);background:rgba(124,106,170,0.03);padding:1rem 1rem 1rem 1.25rem">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Context</div>
@@ -930,6 +1032,75 @@
                     <div class="border border-paper/[0.08] p-5" style="background:rgba(0,0,0,0.18)">
                         <div class="text-[0.44rem] tracking-[0.2em] uppercase text-paper/30 mb-2">Note on the Paedophile Allegation</div>
                         <p class="text-[0.63rem] text-paper/40 leading-relaxed">The allegation that Adam Watson is a paedophile is false. It is made by a person whose prior allegation against Adam Watson — a sexual assault claim — was dismissed as a malicious prosecution by the DPP on its first court mention, and whose arresting officer was subsequently fired. Making the same category of serious false allegation to a third party — one of Australia's most high-profile private individuals — is a continuation of the same pattern. It is defamatory. It is on the record.</p>
+                    </div>
+                </div>
+
+                <!-- The original website — full PDF embed -->
+                <div class="story-chapter reveal mt-8 mb-8" style="border-left-color:rgba(193,68,14,0.5)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#c1440e;border-color:rgba(193,68,14,0.4)">The Original Publication · "R J! Let There Be Light" · Full Screenshot Capture · August 2025</span>
+                    </div>
+                    <h3 class="font-display text-2xl tracking-wide mb-3 leading-tight">THE WEBSITE THAT TRIGGERED BODIE CHALMERS.<br><span class="text-hot">LEFT AT ADAM'S MOTHER'S FIREBOMBED HOUSE.</span></h3>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">This is the original publication — a predecessor to Sunlight.Quest — that circulated online before going offline. After its contents became widely known in Bodie Chalmers's social circle, his associates began teasing him about the section titled <strong class="text-paper/65">"Bodie Chalmers — The Loverboy That Claims He Was Touched."</strong> Bodie became so enraged by the ridicule that he organised the firebombing of Adam Watson's mother's house. Pages from this website were left at the crime scene by the perpetrators — a deliberate act designed to establish a link between this journalism and the violence.</p>
+
+                    <!-- What the site actually contained -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                        <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.15)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">The Trigger</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">The section titled <em>"The Loverboy That Claims He Was Touched"</em> documented Bodie Chalmers's pattern of false touching allegations. His associates teased him relentlessly about it. The ridicule drove the retaliation.</p>
+                        </div>
+                        <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.15)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-2">The Irony</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">Bodie Chalmers's response to being documented was to commit arson. The perpetrators then left the very pages that upset him at the crime scene — compounding the evidence trail rather than erasing it.</p>
+                        </div>
+                        <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.15)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase" style="color:#7c6aaa">The Publication</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">The site covered RJ (police informant), Aaron Barker (QPS), Marc Barrow (QPS), Bodie Chalmers, Lauren Forbes (Sky News), and structural failures in QLD Police and the Gold Coast Council homeless response.</p>
+                        </div>
+                    </div>
+
+                    <!-- Callout: specific Bodie section -->
+                    <div class="border-l-4 pl-5 mb-6" style="border-color:#c1440e;background:rgba(193,68,14,0.04);padding:1rem 1rem 1rem 1.25rem">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-2">The Section That Set Him Off</div>
+                        <p class="font-display text-xl tracking-wide leading-tight mb-2">BODIE CHALMERS — THE LOVERBOY THAT CLAIMS HE WAS TOUCHED</p>
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">Published under the subheading <em>"Scheming, Inbred Closeted Plastic Gangster of the Gold Coast."</em> The section documented: armed burglary charges, DV assaults on Adam Watson, the failed lie detector test (1/100 — "Deceptive"), card fraud ($27,000 scammed from Adam), the false sexual assault allegation, the birth certificate setup trap, the knife plan intercepted by police, ASIC fraud (added himself as 50% shareholder via forged signature), and "That Toilet Video" sent to Hancock Prospecting. All documented. All now confirmed.</p>
+                    </div>
+
+                    <!-- Full PDF embed -->
+                    <div class="border border-paper/[0.07] overflow-hidden mb-5" style="background:rgba(0,0,0,0.2)">
+                        <div class="flex items-center justify-between px-4 py-2.5 border-b border-paper/[0.06]" style="background:rgba(0,0,0,0.3)">
+                            <span class="text-[0.44rem] tracking-[0.2em] uppercase text-hot">Original Publication · Full Screenshot · "R J! Let There Be Light — Episode #1" · August 2025</span>
+                            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/screencapture-sunlight-quest-test-2025-08-09-13_00_06-compressed.pdf"
+                               target="_blank" rel="noopener"
+                               class="text-[0.44rem] tracking-[0.12em] uppercase border border-paper/20 text-paper/35 px-2 py-1 hover:border-hot/50 hover:text-hot transition-colors">
+                                Open PDF ↗
+                            </a>
+                        </div>
+                        <div style="height:780px">
+                            <iframe
+                                src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/screencapture-sunlight-quest-test-2025-08-09-13_00_06-compressed.pdf"
+                                style="width:100%;height:100%;border:none;display:block"
+                                title="Original publication — R J! Let There Be Light Episode 1 — Kosta Kondratenko"
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                        <div class="px-4 py-3 border-t border-paper/[0.05]" style="background:rgba(0,0,0,0.2)">
+                            <span class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/22">PDF · Screenshot capture · Original publication · August 2025 · 28 pages · This is the document left at the firebombing crime scene at Adam Watson's mother's home</span>
+                        </div>
+                    </div>
+
+                    <!-- Evidence vault entry -->
+                    <div class="evidence-vault border border-paper/[0.07] p-5" style="background:rgba(0,0,0,0.15)">
+                        <div class="text-[0.46rem] tracking-[0.22em] uppercase text-hot mb-4">Evidence — Original Publication</div>
+                        <div class="ev-file ef-hot" onclick="openMV('pdf','ORIGINAL PUBLICATION — R J! LET THERE BE LIGHT (EPISODE 1)','Full screenshot capture of the original Kosta Kondratenko website — predecessor to Sunlight.Quest — as it existed in August 2025','PDF · 28 pages · Screenshot capture · Left at the firebombing crime scene at Adam Watson\'s mother\'s house','screencapture-sunlight-quest-test-2025-08-09-13_00_06-compressed.pdf','The original publication that preceded Sunlight.Quest — titled \"R J! Let There Be Light — Episode 1.\" Sections covered: RJ (police informant, paedophile ring allegations), Aaron Barker (QPS), Marc Barrow (QPS), Bodie Chalmers (\"The Loverboy That Claims He Was Touched\"), Lauren Forbes (Sky News), Gold Coast Council homeless policy. This is the document that Bodie Chalmers\'s associates teased him about — triggering the firebombing of Adam Watson\'s mother\'s home. Pages were deliberately left at the crime scene.','pdf-original-publication')">
+                            <div class="ev-icon">📄</div>
+                            <div class="ev-body">
+                                <div class="ev-header">R J! Let There Be Light — Episode 1 · Original Publication · August 2025</div>
+                                <div class="ev-name">screencapture-sunlight-quest-test-2025-08-09-13_00_06-compressed.pdf</div>
+                                <div class="ev-desc">PDF · 28 pages · Full screenshot capture · Left at firebombing crime scene · Includes "Bodie Chalmers — The Loverboy That Claims He Was Touched" section</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
