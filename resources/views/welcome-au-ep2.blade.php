@@ -1906,6 +1906,31 @@
                         <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1">Why This Is Significant</div>
                         <p class="text-[0.62rem] text-paper/45 leading-relaxed">This is not an allegation. This is a bank's formal finding — issued in writing, under Westpac's complaint resolution framework. Westpac confirmed that Adam Watson was a victim of a threat/penalty scam. Westpac confirmed the payments went to Bodie Chalmers. The bank is now pursuing the matter through formal scam investigation channels. This document places Bodie Chalmers's name — in writing, by a major financial institution — as the confirmed recipient of funds extorted from Adam Watson through threats.</p>
                     </div>
+
+                    <!-- Delivered to Southport Police Station -->
+                    <div class="border border-paper/[0.08] mt-6 p-5" style="background:rgba(12,8,4,0.6)">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/40">Action Taken · 24 June 2026</span>
+                            <span class="text-[0.42rem] tracking-[0.12em] uppercase border border-paper/15 text-paper/25 px-2 py-0.5">Southport Police Station</span>
+                        </div>
+                        <h5 class="font-display text-xl tracking-wide mb-4 leading-tight">ADAM WATSON DROPPED THIS OFF AT SOUTHPORT POLICE STATION.<br><span class="text-paper/45">HANDED TO THE SERGEANT. FOR THE FEMALE OFFICER.</span></h5>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">Adam Watson took the Westpac complaint outcome letter — with Bodie Chalmers named in it as the confirmed recipient of scam payments — and delivered it personally to the Sergeant at Southport Police Station. The instruction was clear: it is to be passed to the female officer who believed Aaliyah's story, who put Adam Watson in Prince of Wales Hospital under the Mental Health Act, and who told him, in her own words: <em class="text-paper/65">"People don't always tell the full truth."</em></p>
+
+                        <div class="border border-paper/[0.07] p-4 mb-5" style="background:rgba(193,68,14,0.05)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">Adam Watson's Message</div>
+                            <p class="font-serif italic text-paper/65 text-base leading-relaxed mb-1">"This is a fight you don't want."</p>
+                            <p class="text-[0.6rem] text-paper/40 leading-relaxed mt-3">The Westpac letter will be handed to the female officer who accepted Aaliyah's complaint, threatened Adam Watson with remand until trial, called Bodie Chalmers in Corrective Services, and set in motion the cross-state referral that resulted in Adam's involuntary admission to Prince of Wales Hospital under the Mental Health Act. You were told people don't always tell the full truth. Here is the bank's formal finding on who told the truth.</p>
+                        </div>
+
+                        <div class="border border-paper/[0.07] p-4 mb-4" style="background:rgba(61,122,74,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-sage mb-2">Attorney General — Notified</div>
+                            <p class="text-[0.62rem] text-paper/48 leading-relaxed">The Attorney General of Queensland has been notified of the female officer's actions — the threat of remand before any charge was laid, the cross-state referral under the Mental Health Act, and the call made to Bodie Chalmers in Corrective Services. The Westpac complaint outcome is now part of that record.</p>
+                        </div>
+
+                        <div class="border-l-2 border-paper/20 pl-3 py-1.5">
+                            <p class="text-[0.6rem] text-paper/40 leading-relaxed italic">You cannot allow people to ruin someone's life, reputation, and credibility — based on a story from a partner of the person you called in Corrective Services — and face no consequences for it. A formal bank finding naming the scammer, delivered in person to a police station, addressed to the officer who made the call, is how you begin to make that clear.</p>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Bodie Chalmers — psych ward performance -->
