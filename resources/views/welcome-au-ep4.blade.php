@@ -200,7 +200,7 @@
         </div>
     </div>
     <div class="relative z-10 flex-1 grid grid-cols-1 lg:grid-cols-[1fr_360px]">
-        <div class="flex flex-col justify-center px-5 md:px-10 py-8 lg:py-10">
+        <div class="flex flex-col justify-start px-5 md:px-10 py-8 lg:py-10">
             <div class="fade-up mb-5" style="animation-delay:0.1s">
                 <div class="flex items-center gap-3 mb-3">
                     <div class="w-5 h-px bg-sage"></div>
@@ -315,40 +315,6 @@
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Home invasion · Remand</div>
                         </div>
                     </button>
-                </div>
-            </div>
-            <div class="divide-y divide-paper/[0.05] overflow-y-auto">
-                <div class="p-6 fade-up">
-                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Case Reference</div>
-                    <div class="font-display text-xl tracking-wide text-paper/80 mb-1">NSD2438/2025</div>
-                    <div class="text-[0.52rem] text-paper/30 leading-relaxed">Federal Court of Australia · Commissioner of Taxation</div>
-                </div>
-                <div class="p-6 fade-up">
-                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Key Subject</div>
-                    <div class="font-display text-xl tracking-wide text-paper/80 mb-1">HELLEN PERTEKES</div>
-                    <div class="text-[0.52rem] text-paper/30 leading-relaxed">Director — Born to Shine Disability Services<br>Principal — Books R Us Accounting</div>
-                </div>
-                <div class="p-6 fade-up">
-                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Alleged Amount — Medical Scam</div>
-                    <div class="stat-number text-5xl text-hot mb-1">$20K</div>
-                    <div class="text-[0.52rem] text-paper/30 leading-relaxed">Obtained under false pretence — fabricated illness</div>
-                </div>
-                <div class="p-6 fade-up">
-                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Kennards — Case Reference</div>
-                    <div class="font-display text-xl tracking-wide text-paper/80 mb-1">QUD18/2024</div>
-                    <div class="text-[0.52rem] text-paper/30 leading-relaxed">$25 billing error → police threats → Federal Court<br>Judgment: [2024] FCA 913</div>
-                </div>
-                <div class="p-6 fade-up">
-                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Pioneer Lakes — Demand</div>
-                    <div class="stat-number text-5xl text-gold mb-1">$3.5M</div>
-                    <div class="text-[0.52rem] text-paper/30 leading-relaxed">Kira Steinhaus — uninvited · uncontracted<br>Commission demand · Legal challenge pending</div>
-                </div>
-                <div class="p-6 fade-up">
-                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Status</div>
-                    <div class="flex items-center gap-2">
-                        <span class="text-[0.44rem] tracking-[0.15em] uppercase border border-sage/50 text-sage px-2 py-0.5 blink">⬤ ACTIVE PROCEEDINGS</span>
-                    </div>
-                    <div class="text-[0.52rem] text-paper/30 mt-2 leading-relaxed">Hostile witness · ATO subpoena pending</div>
                 </div>
             </div>
         </div>
