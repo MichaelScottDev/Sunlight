@@ -1603,11 +1603,45 @@
                     <!-- James McDonald -->
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4 mt-3">James McDonald — an associate of Bodie Chalmers — had his teeth knocked out during the altercation. Following the incident, both Bodie Chalmers and James McDonald went to police and provided statements against the person they had the altercation with. They snitched. Bodie Chalmers — who had instigated the incident by spreading false rumours — walked into a police station to give a statement against the person who responded to those rumours.</p>
 
-                    <!-- Phone screenshot — Bodie in James McDonald's contacts -->
-                    <div class="border border-paper/[0.07] overflow-hidden mb-4" style="background:rgba(0,0,0,0.2);max-width:380px">
-                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/james_mcdonald.jpeg" alt="Screenshot from James McDonald's phone showing Bodie Chalmers as a contact" class="w-full object-cover" loading="lazy" />
-                        <div class="px-3 py-2" style="border-top:1px solid rgba(245,234,212,0.06)">
-                            <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25">Screenshot · James McDonald's phone · Bodie Chalmers listed as "Bodieeeee" · Jun 13</div>
+                    <!-- James McDonald profile -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                        <div class="space-y-3">
+                            <!-- Phone screenshot -->
+                            <div class="border border-paper/[0.07] overflow-hidden" style="background:rgba(0,0,0,0.2)">
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/james_mcdonald.jpeg" alt="Screenshot from James McDonald's phone showing Bodie Chalmers as a contact" class="w-full object-cover" loading="lazy" />
+                                <div class="px-3 py-2" style="border-top:1px solid rgba(245,234,212,0.06)">
+                                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25">Screenshot · James McDonald's phone · Bodie Chalmers listed as "Bodieeeee" · Jun 13</div>
+                                </div>
+                            </div>
+                            <!-- Drugs photo -->
+                            <div class="border border-paper/[0.07] overflow-hidden" style="background:rgba(0,0,0,0.2)">
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/james_drugs.jpg" alt="James McDonald with narcotics" class="w-full object-cover" loading="lazy" />
+                                <div class="px-3 py-2" style="border-top:1px solid rgba(245,234,212,0.06)">
+                                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25">James McDonald · Narcotics · Documented</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space-y-3">
+                            <!-- Housing commission / non-disclosure -->
+                            <div class="border border-gold/25 p-4" style="background:rgba(201,138,16,0.04)">
+                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-2">Housing Commission — Non-Declaration</div>
+                                <p class="text-[0.6rem] text-paper/45 leading-relaxed">James McDonald is living with his mother in housing commission and is not declaring it. Social housing is allocated and means-tested on the basis of declared income and circumstances. Failing to disclose who lives at a housing commission address — and the income of all occupants — is a breach of the conditions under which that housing is provided.</p>
+                            </div>
+                            <!-- Insurance fraud -->
+                            <div class="border border-hot/25 p-4" style="background:rgba(193,68,14,0.04)">
+                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">Insurance Fraud — $40,000</div>
+                                <p class="text-[0.6rem] text-paper/45 leading-relaxed">McDonald defrauded an insurance company of <strong class="text-paper/60">$40,000</strong> by claiming he injured his hand. The claim was accepted and paid out. This is the same person now pursuing fraud against the courts by forging Adam Watson's signature on a legal document.</p>
+                            </div>
+                            <!-- Skateboard / traffic fraud -->
+                            <div class="border border-hot/25 p-4" style="background:rgba(193,68,14,0.04)">
+                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">Skateboard Scam — Driver Blamed</div>
+                                <p class="text-[0.6rem] text-paper/45 leading-relaxed">McDonald was riding a skateboard and caused an accident. He claimed the driver was at fault. The insurer or court believed his account over the driver's. A person who defrauds insurers for hand injuries does not stop at one claim.</p>
+                            </div>
+                            <!-- Drug dealing -->
+                            <div class="border border-hot/35 p-4" style="background:rgba(193,68,14,0.06)">
+                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">Narcotics — Drug Dealing</div>
+                                <p class="text-[0.6rem] text-paper/45 leading-relaxed">James McDonald sells narcotics. The photograph above documents this. He is collecting insurance payouts, living undeclared in housing commission, and dealing drugs — while using the courts and police to pursue a man whose teeth he helped knock out through a false rumour campaign.</p>
+                            </div>
                         </div>
                     </div>
 
