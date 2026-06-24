@@ -1600,22 +1600,14 @@
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Tweed Heads — Pub Incident</div>
                     <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">BODIE FOLLOWS THE RUMOUR TO TWEED HEADS.<br><span class="text-hot">"YOU'RE FRIENDS WITH ADAM THE PAEDOPHILE."</span></h4>
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Adam had friends in Coogee whose family had since moved to Tweed Heads. While at a pub in Tweed Heads, Bodie Chalmers recognised these individuals as associates of Adam Watson. He opened with: <span class="font-display text-paper/65">"You're friends with Adam the paedophile."</span> An altercation followed. The rumours Bodie had been spreading caused that altercation — the false label he was circulating is what triggered the confrontation.</p>
-                    <!-- James McDonald photo + teeth -->
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4 mt-3">
-                        <div>
-                            <div class="border border-paper/[0.07] overflow-hidden" style="background:rgba(0,0,0,0.2)">
-                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/james_mcdonald.jpeg" alt="James McDonald" class="w-full object-cover object-top" style="max-height:260px" loading="lazy" />
-                                <div class="px-3 py-2" style="border-top:1px solid rgba(245,234,212,0.06)">
-                                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25">James McDonald · Associate of Bodie Chalmers · Had his teeth knocked out at the Tweed Heads pub</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="space-y-3">
-                            <p class="text-[0.68rem] text-paper/45 leading-relaxed">James McDonald — an associate of Bodie Chalmers — had his teeth knocked out during the altercation. Following the incident, both Bodie Chalmers and James McDonald went to police and provided statements against the person they had the altercation with. They snitched. Bodie Chalmers — who had instigated the incident by spreading false rumours — walked into a police station to give a statement against the person who responded to those rumours.</p>
-                            <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.04)">
-                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1.5">Debts Owed — Local Court</div>
-                                <p class="text-[0.58rem] text-paper/42 leading-relaxed">James McDonald owes Adam Watson money. A Local Court order has been made. The notice of orders is on the record.</p>
-                            </div>
+                    <!-- James McDonald -->
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4 mt-3">James McDonald — an associate of Bodie Chalmers — had his teeth knocked out during the altercation. Following the incident, both Bodie Chalmers and James McDonald went to police and provided statements against the person they had the altercation with. They snitched. Bodie Chalmers — who had instigated the incident by spreading false rumours — walked into a police station to give a statement against the person who responded to those rumours.</p>
+
+                    <!-- Phone screenshot — Bodie in James McDonald's contacts -->
+                    <div class="border border-paper/[0.07] overflow-hidden mb-4" style="background:rgba(0,0,0,0.2);max-width:380px">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/james_mcdonald.jpeg" alt="Screenshot from James McDonald's phone showing Bodie Chalmers as a contact" class="w-full object-cover" loading="lazy" />
+                        <div class="px-3 py-2" style="border-top:1px solid rgba(245,234,212,0.06)">
+                            <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25">Screenshot · James McDonald's phone · Bodie Chalmers listed as "Bodieeeee" · Jun 13</div>
                         </div>
                     </div>
 
