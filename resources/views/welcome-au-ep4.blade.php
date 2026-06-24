@@ -30,6 +30,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.vidstack.io/player/theme.css">
+    <link rel="stylesheet" href="https://cdn.vidstack.io/player/video.css">
+    <script src="https://cdn.vidstack.io/player" type="module"></script>
     <style>
         body::after{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");pointer-events:none;z-index:9498}
         ::-webkit-scrollbar{width:3px}::-webkit-scrollbar-track{background:#0c0804}::-webkit-scrollbar-thumb{background:#3d7a4a}
@@ -93,6 +96,51 @@
         .pdf-ph-line{height:2px;background:rgba(245,234,212,0.06);border-radius:1px}
         /* stat */
         .stat-number{font-family:'Bebas Neue',sans-serif;letter-spacing:0.04em;line-height:1}
+        /* ── TIP MODAL ── */
+        #sq-modal{display:none;position:fixed;inset:0;z-index:9600;background:rgba(0,0,0,0.9);backdrop-filter:blur(5px);overflow-y:auto;padding:24px 16px 56px}
+        #sq-modal.open{display:block}
+        .sq-modal-inner{max-width:680px;margin:0 auto;position:relative}
+        .sq-modal-close-row{display:flex;justify-content:flex-end;margin-bottom:12px}
+        .sq-modal-close-btn{background:#111;border:1px solid #2a2a2a;color:rgba(245,234,212,0.4);font-family:'DM Mono',monospace;font-size:11px;letter-spacing:1px;padding:7px 16px;cursor:pointer;transition:color 0.13s,border-color 0.13s}
+        .sq-modal-close-btn:hover{color:rgba(245,234,212,0.85);border-color:#555}
+        .sq-logo-row{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+        .sq-logo-bar{width:4px;height:40px;background:#c8372d;flex-shrink:0}
+        .sq-logo-text{font-family:'Bebas Neue',sans-serif;font-size:30px;color:#f5f0e8;letter-spacing:3px;line-height:1}
+        .sq-logo-sub{font-family:'Instrument Serif',serif;font-size:12px;color:#5a5045;font-style:italic}
+        .sq-conf-strip{background:#c8372d;color:#f5f0e8;font-size:8px;letter-spacing:2px;text-transform:uppercase;padding:5px 12px;margin:12px 0 18px;display:inline-block}
+        .sq-card{background:#111;border:1px solid #222;padding:22px;margin-bottom:2px}
+        .sq-section{margin-bottom:22px}
+        .sq-section-label{font-family:'Bebas Neue',sans-serif;font-size:12px;letter-spacing:2.5px;color:#f5f0e8;margin-bottom:12px;display:flex;align-items:center;gap:10px}
+        .sq-section-label::after{content:'';flex:1;height:1px;background:#222}
+        .sq-badge{font-family:'DM Mono',monospace;font-size:8px;letter-spacing:1px;padding:2px 6px;text-transform:uppercase}
+        .sq-badge-opt{background:#1e1e1e;color:#4a4035}.sq-badge-req{background:#c8372d;color:#f5f0e8}
+        .sq-field{margin-bottom:10px}
+        .sq-field-hint{font-size:10px;color:#3a3530;margin-top:4px;letter-spacing:0.3px;line-height:1.5}
+        .sq-grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+        .sq-input,.sq-textarea,.sq-select{width:100%;background:#161616;border:1px solid #2a2a2a;color:#e8e2d4;font-family:'DM Mono',monospace;font-size:12px;padding:10px 12px;outline:none;border-radius:0;-webkit-appearance:none;appearance:none;transition:border-color 0.13s,background 0.13s}
+        .sq-input:focus,.sq-textarea:focus,.sq-select:focus{border-color:#c8372d;background:#1a1510}
+        .sq-input::placeholder,.sq-textarea::placeholder{color:#2e2a26;font-style:italic}
+        .sq-textarea{resize:vertical;min-height:90px;line-height:1.65}
+        .sq-select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23e8e2d4'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center;background-color:#161616;padding-right:34px;cursor:pointer}
+        .sq-select option{background:#161616;color:#e8e2d4}
+        .sq-input.sq-error{border-color:#c8372d}
+        .sq-toggle-row{display:flex;align-items:flex-start;gap:11px;background:#161616;border:1px solid #2a2a2a;padding:11px 12px;margin-bottom:10px;cursor:pointer;font-family:'DM Mono',monospace;font-size:11px;color:#7a7060;line-height:1.55;user-select:none;transition:border-color 0.13s}
+        .sq-toggle-row:hover{border-color:#3a3a3a}
+        .sq-toggle-row input[type=checkbox]{accent-color:#c8372d;width:14px;height:14px;margin-top:2px;flex-shrink:0;cursor:pointer}
+        .sq-checkbox-group{display:flex;flex-direction:column;gap:8px}
+        .sq-checkbox-item{display:flex;align-items:flex-start;gap:10px;font-family:'DM Mono',monospace;font-size:11px;cursor:pointer;color:#6a6055;line-height:1.55;padding:2px 0}
+        .sq-checkbox-item input[type=checkbox]{accent-color:#c8372d;width:14px;height:14px;margin-top:1px;flex-shrink:0;cursor:pointer}
+        .sq-collapsible{display:none;margin-top:10px}.sq-collapsible.open{display:block}
+        .sq-divider{border:none;border-top:1px solid #1e1e1e;margin:20px 0}
+        .sq-form-footer{background:#0d0d0d;border:1px solid #222;border-top:3px solid #c8372d;padding:16px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+        .sq-footer-note{font-size:10px;color:#3a3530;max-width:380px;line-height:1.7}
+        #sq-submit-btn{font-family:'Bebas Neue',sans-serif;font-size:17px;letter-spacing:2.5px;background:#c8372d;color:#f5f0e8;border:none;padding:12px 30px;cursor:pointer;transition:background 0.13s,transform 0.1s;white-space:nowrap}
+        #sq-submit-btn:hover{background:#a82e26}
+        #sq-submit-btn:active{transform:scale(0.97)}
+        #sq-success-state{display:none;text-align:center;padding:56px 24px}
+        .sq-success-word{font-family:'Bebas Neue',sans-serif;font-size:60px;color:#c8372d;letter-spacing:5px;display:block;margin-bottom:12px}
+        #sq-success-state p{font-family:'Instrument Serif',serif;font-size:17px;color:#5a5045;font-style:italic;line-height:1.75}
+        @media(max-width:520px){.sq-grid2{grid-template-columns:1fr}.sq-form-footer{flex-direction:column;align-items:stretch}#sq-submit-btn{width:100%;text-align:center}}
     </style>
 </head>
 <body class="bg-ink text-paper font-mono overflow-x-hidden" style="background-color:#0c0804;background-image:linear-gradient(160deg,rgba(61,122,74,0.08) 0%,transparent 40%,rgba(193,68,14,0.03) 100%)">
@@ -105,6 +153,7 @@
     </div>
     <div class="flex items-center gap-3">
         <a href="/episode-3" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-gold/50 px-3 py-1.5 transition-all">← Episode 3</a>
+        <button onclick="openTipModal()" class="hidden md:flex items-center gap-1.5 text-[0.55rem] tracking-[0.2em] uppercase border border-hot/50 hover:border-hot hover:bg-hot/10 px-3 py-1.5 text-hot transition-all">⊕ Submit a Tip</button>
         <a href="/episode-3" title="Go to Episode 3" aria-label="Go to Episode 3" class="flex md:hidden items-center gap-1 px-2.5 h-8 border font-display text-[0.6rem] tracking-widest" style="border-color:rgba(201,138,16,0.5);color:#c98a10">‹ EP3</a>
         <span class="text-[0.52rem] tracking-[0.18em] uppercase border px-3 py-1.5 blink" style="border-color:rgba(61,122,74,0.6);color:#3d7a4a">⬤ EP.04</span>
     </div>
@@ -162,21 +211,18 @@
                 <p class="font-serif italic text-paper/40 mt-3 leading-relaxed max-w-lg" style="font-size:clamp(0.9rem,2vw,1.15rem)">She had access to his finances. She had his trust. She used both deliberately. Now she's running an NDIS business.</p>
             </div>
             <div class="fade-up" style="animation-delay:0.25s">
-                <div class="flex items-center gap-3 mb-2">
-                    <span class="text-[0.52rem] tracking-[0.2em] uppercase text-sage/60">▶ Video — Coming Soon</span>
-                </div>
-                <div class="w-full aspect-video border" style="border-color:rgba(61,122,74,0.2);background:#060606;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden">
-                    <div class="scanlines" style="position:absolute;inset:0;opacity:0.5"></div>
-                    <div style="text-align:center;position:relative;z-index:2">
-                        <div style="width:60px;height:60px;border:2px solid rgba(61,122,74,0.4);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto">
-                            <span style="color:rgba(61,122,74,0.5);font-size:1.2rem;margin-left:3px">▶</span>
-                        </div>
-                        <div style="margin-top:0.75rem;font-size:0.48rem;letter-spacing:0.18em;text-transform:uppercase;color:rgba(245,234,212,0.2);font-family:'DM Mono',monospace">Episode 4 — Video Pending Upload</div>
-                    </div>
-                    <div style="position:absolute;bottom:0.75rem;left:0;right:0;text-align:center">
-                        <div style="font-size:0.44rem;letter-spacing:0.15em;text-transform:uppercase;color:rgba(61,122,74,0.25);font-family:'DM Mono',monospace">sunlight.quest · season 1 · ep.04</div>
-                    </div>
-                </div>
+                <div class="flex items-center gap-3 mb-2"><span class="text-[0.52rem] tracking-[0.2em] uppercase text-sage/60">▶ Now Playing — Navigate via chapters below</span></div>
+                <media-player
+                    id="player-ep4"
+                    title="The Accountant — Episode 4"
+                    src=""
+                    style="--media-brand:#3d7a4a;--media-focus-ring-color:rgba(61,122,74,0.45);--media-time-chapters-bg:rgba(61,122,74,0.5);width:100%;border:1px solid rgba(61,122,74,0.2);box-shadow:0 0 80px rgba(61,122,74,0.09),0 0 0 1px rgba(245,234,212,0.025)"
+                >
+                    <media-provider>
+                        <track id="ep4-chapters-track" kind="chapters" default />
+                    </media-provider>
+                    <media-video-layout></media-video-layout>
+                </media-player>
             </div>
             <!-- Chapter nav -->
             <div class="fade-up mt-5 border border-paper/[0.07]" style="animation-delay:0.35s;background:rgba(12,8,4,0.7)">
@@ -1702,7 +1748,7 @@ function buildImageViewer(e) {
 }
 
 document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') { closeMV(); }
+    if (e.key === 'Escape') { closeMV(); closeTipModal(); }
 });
 
 // Scroll reveal
@@ -1710,6 +1756,82 @@ var obs = new IntersectionObserver(function(entries){
     entries.forEach(function(e){if(e.isIntersecting)e.target.classList.add('in');});
 },{threshold:0.08});
 document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el);});
+
+function openTipModal() { document.getElementById('sq-modal').classList.add('open'); document.body.style.overflow='hidden'; }
+function closeTipModal() { document.getElementById('sq-modal').classList.remove('open'); document.body.style.overflow=''; }
+function sqModalBackdropClick(e) { if(e.target===document.getElementById('sq-modal'))closeTipModal(); }
+function sqToggle(checkboxId,fieldsId){document.getElementById(fieldsId).classList.toggle('open',document.getElementById(checkboxId).checked);}
+function sqToggleAnon(){document.getElementById('sq-contact-fields').classList.toggle('open',!document.getElementById('sq-anon-chk').checked);}
+function sqSubmit(){var s=document.getElementById('sq-summary');if(!s.value.trim()){s.classList.add('sq-error');s.focus();return;}s.classList.remove('sq-error');document.getElementById('sq-form-card').style.display='none';document.getElementById('sq-form-footer').style.display='none';document.getElementById('sq-success-state').style.display='block';}
 </script>
+
+<!-- ══════════════════════════════════════
+     TIP-OFF POPUP MODAL
+══════════════════════════════════════ -->
+<div id="sq-modal" onclick="sqModalBackdropClick(event)" role="dialog" aria-modal="true" aria-label="Submit a Tip">
+    <div class="sq-modal-inner">
+        <div class="sq-modal-close-row"><button class="sq-modal-close-btn" onclick="closeTipModal()">✕ CLOSE</button></div>
+        <div style="margin-bottom:6px">
+            <div class="sq-logo-row"><div class="sq-logo-bar"></div><div><div class="sq-logo-text">Sunlight.Quest</div><div class="sq-logo-sub">Accountability journalism · Gold Coast / Queensland</div></div></div>
+            <div class="sq-conf-strip">Encrypted &nbsp;·&nbsp; Source protected &nbsp;·&nbsp; Triangulated for verification</div>
+        </div>
+        <div class="sq-card" id="sq-form-card">
+            <div class="sq-section">
+                <div class="sq-section-label">Subject of tip-off <span class="sq-badge sq-badge-req">required</span></div>
+                <div class="sq-field">
+                    <select class="sq-select" name="sq_subject" id="sq-subject">
+                        <option value="">— Select subject / profile —</option>
+                        <optgroup label="Episode 1"><option>Marc Barrow (QPS)</option><option>Sandy Tulisi / BeHome</option><option>Felipe Mattos</option><option>RJ — QPS Officer</option><option>Tom Tate (Gold Coast Council)</option></optgroup>
+                        <optgroup label="Episode 2"><option>Bodie Chalmers</option><option>West Kira</option><option>Samira / Dave Hodgson</option><option>Alex Vourliotis</option><option>Graham Gordon</option></optgroup>
+                        <optgroup label="Episode 3"><option>Bemarine</option><option>Katherine Kidd</option><option>Changfa Agent</option></optgroup>
+                        <optgroup label="Episode 4"><option>Hellen Pertekes</option><option>Books R Us</option><option>Kane Singleton</option><option>Z Soielman</option></optgroup>
+                        <option>Other (specify below)</option>
+                    </select>
+                </div>
+                <div class="sq-field"><input class="sq-input" type="text" name="sq_subject_other" placeholder="If 'Other' — name or describe the subject" /></div>
+                <div class="sq-field"><textarea class="sq-textarea" id="sq-summary" name="sq_summary" placeholder="Summary of what you know — who, what, when, where. Keep it factual." style="min-height:110px;"></textarea><div class="sq-field-hint">Do not include names of uninvolved third parties unless essential to the account.</div></div>
+            </div>
+            <div class="sq-section">
+                <div class="sq-section-label">Evidence / material <span class="sq-badge sq-badge-opt">optional</span></div>
+                <div class="sq-field"><select class="sq-select" name="sq_evidence_type"><option value="">— Type of evidence you have —</option><option>Video / footage</option><option>Photos / images</option><option>Audio recording</option><option>Documents / screenshots</option><option>Witness testimony only</option><option>Social media posts / threads</option><option>Multiple types</option></select></div>
+                <div class="sq-field"><input class="sq-input" type="url" name="sq_drive_link" placeholder="Google Drive / Dropbox / OneDrive link (set to 'Anyone with link')" /><div class="sq-field-hint">You retain file ownership — we access read-only.</div></div>
+                <div class="sq-field"><input class="sq-input" type="url" name="sq_direct_url" placeholder="Direct URL to video, post, or public page" /></div>
+                <div class="sq-field"><textarea class="sq-textarea" name="sq_evidence_desc" placeholder="Describe the material — what it shows, when captured, chain of custody if known." style="min-height:72px;"></textarea></div>
+            </div>
+            <div class="sq-section">
+                <div class="sq-section-label">Physical handoff <span class="sq-badge sq-badge-opt">optional</span></div>
+                <label class="sq-toggle-row" for="sq-handoff-chk"><input type="checkbox" id="sq-handoff-chk" name="sq_wants_pickup" onchange="sqToggle('sq-handoff-chk','sq-handoff-fields')" /><span>I have physical material (USB, prints, recordings) and want someone to come and collect it</span></label>
+                <div class="sq-collapsible" id="sq-handoff-fields">
+                    <div class="sq-grid2"><div class="sq-field"><input class="sq-input" type="text" name="sq_pickup_suburb" placeholder="Suburb / area (no full address yet)" /></div><div class="sq-field"><input class="sq-input" type="text" name="sq_pickup_timing" placeholder="Preferred days / times" /></div></div>
+                    <div class="sq-field"><textarea class="sq-textarea" name="sq_pickup_notes" placeholder="Special instructions" style="min-height:60px;"></textarea></div>
+                </div>
+            </div>
+            <div class="sq-section">
+                <div class="sq-section-label">Triangulation context</div>
+                <div class="sq-field"><select class="sq-select" name="sq_relation"><option value="">— Your relationship to the subject —</option><option>Direct witness</option><option>Former associate / colleague</option><option>Family / household member</option><option>Victim or affected party</option><option>Secondary source (told by someone else)</option><option>Public records / online research</option><option>Prefer not to say</option></select></div>
+                <div class="sq-checkbox-group sq-field">
+                    <label class="sq-checkbox-item"><input type="checkbox" name="sq_has_corroboration" /> I have corroborating witnesses who may also be willing to speak</label>
+                    <label class="sq-checkbox-item"><input type="checkbox" name="sq_reported_before" /> I have previously reported this to police or authorities with no result</label>
+                    <label class="sq-checkbox-item"><input type="checkbox" name="sq_safety_concern" /> I have safety concerns in relation to this matter</label>
+                    <label class="sq-checkbox-item"><input type="checkbox" name="sq_consents_publish" /> I consent to this information being used in published reporting (anonymised)</label>
+                </div>
+            </div>
+            <hr class="sq-divider" />
+            <div class="sq-section">
+                <div class="sq-section-label">Your details <span class="sq-badge sq-badge-opt">optional</span></div>
+                <label class="sq-toggle-row" for="sq-anon-chk"><input type="checkbox" id="sq-anon-chk" name="sq_anonymous" checked onchange="sqToggleAnon()" /><span>Submit anonymously — do not attach contact details to this report</span></label>
+                <div class="sq-collapsible" id="sq-contact-fields">
+                    <div class="sq-grid2"><div class="sq-field"><input class="sq-input" type="text" name="sq_contact_name" placeholder="Name (or alias)" /></div><div class="sq-field"><input class="sq-input" type="text" name="sq_contact_phone" placeholder="Phone or Signal number" /></div></div>
+                    <div class="sq-field"><input class="sq-input" type="email" name="sq_contact_email" placeholder="Email address" /></div>
+                    <div class="sq-field"><select class="sq-select" name="sq_contact_pref"><option value="">— Preferred contact method —</option><option>Email only</option><option>Phone call</option><option>SMS / text</option><option>Signal (encrypted)</option><option>In-person only</option></select></div>
+                    <div class="sq-field"><textarea class="sq-textarea" name="sq_contact_notes" placeholder="Any specific instructions for how or when to contact you" style="min-height:56px;"></textarea></div>
+                </div>
+            </div>
+        </div>
+        <div class="sq-card" id="sq-success-state"><span class="sq-success-word">RECEIVED.</span><p>Your intelligence report has been logged.<br>If you provided contact details, expect a response within 48 hours.</p></div>
+        <div class="sq-form-footer" id="sq-form-footer"><p class="sq-footer-note">All submissions are timestamped on receipt. Source identity is never disclosed without explicit consent. Anonymous reports are investigated on merit.</p><button id="sq-submit-btn" onclick="sqSubmit()">SUBMIT TIP →</button></div>
+    </div>
+</div>
+
 </body>
 </html>

@@ -3661,20 +3661,20 @@ document.querySelectorAll('.reveal').forEach(function (el) { obs.observe(el); })
         <div class="flex items-center gap-3 mb-3 reveal">
             <span class="text-[0.48rem] tracking-[0.22em] uppercase border px-2 py-1 text-gold border-gold/40">Profile — Adam Watson</span>
         </div>
-        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-3 leading-tight reveal">ADAM WATSON.<br><span class="text-gold">THE MAN BEHIND THE STORY.</span></h2>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-6 leading-tight reveal">ADAM WATSON.<br><span class="text-gold">THE MAN BEHIND THE STORY.</span></h2>
 
-        <div class="float-right ml-8 mb-6 w-48 md:w-72 shrink-0 reveal">
-            <div class="border border-paper/[0.08] overflow-hidden">
-                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/adam_watson_portrait.jpg" alt="Adam Watson" class="w-full object-cover object-top" style="height:320px;filter:grayscale(10%) contrast(1.05)" loading="lazy" />
-                <div class="border-t border-paper/[0.06] px-3 py-2 bg-paper/[0.02]">
-                    <div class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/30">Adam Watson</div>
-                    <div class="text-[0.48rem] text-paper/18 mt-0.5">Candidate — Seat of Kingsford Smith</div>
+        <div class="flex flex-col md:flex-row gap-8 items-start mb-10 reveal">
+            <p class="font-serif italic text-paper/50 text-lg leading-relaxed flex-1">"Adam Watson has lived more of Australia's real history than most journalists will ever document. He was there for the mining boom's foundations — and he is now determined to shape what comes next."</p>
+            <div class="w-full md:w-64 shrink-0">
+                <div class="border border-paper/[0.08] overflow-hidden">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/adam_watson_portrait.jpg" alt="Adam Watson" class="w-full object-cover object-top" style="height:280px;filter:grayscale(10%) contrast(1.05)" loading="lazy" />
+                    <div class="border-t border-paper/[0.06] px-3 py-2 bg-paper/[0.02]">
+                        <div class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/30">Adam Watson</div>
+                        <div class="text-[0.48rem] text-paper/18 mt-0.5">Candidate — Seat of Kingsford Smith</div>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-6 reveal">"Adam Watson has lived more of Australia's real history than most journalists will ever document. He was there for the mining boom's foundations — and he is now determined to shape what comes next."</p>
-        <div class="clear-both"></div>
 
         <!-- Lang Hancock -->
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.35)">
