@@ -1600,12 +1600,74 @@
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Tweed Heads — Pub Incident</div>
                     <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">BODIE FOLLOWS THE RUMOUR TO TWEED HEADS.<br><span class="text-hot">"YOU'RE FRIENDS WITH ADAM THE PAEDOPHILE."</span></h4>
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Adam had friends in Coogee whose family had since moved to Tweed Heads. While at a pub in Tweed Heads, Bodie Chalmers recognised these individuals as associates of Adam Watson. He opened with: <span class="font-display text-paper/65">"You're friends with Adam the paedophile."</span> An altercation followed. The rumours Bodie had been spreading caused that altercation — the false label he was circulating is what triggered the confrontation.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">James McDonald — an associate of Bodie Chalmers — had his teeth smashed out during the altercation. Following the incident, both Bodie Chalmers and James McDonald went to police and provided statements against the person they had the altercation with. They snitched. Bodie Chalmers — who had instigated the incident by spreading false rumours — walked into a police station to give a statement against the person who responded to those rumours.</p>
-                    <div class="border border-gold/20 p-4 mb-3" style="background:rgba(201,138,16,0.04)">
+                    <!-- James McDonald photo + teeth -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4 mt-3">
+                        <div>
+                            <div class="border border-paper/[0.07] overflow-hidden" style="background:rgba(0,0,0,0.2)">
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/james_mcdonald.jpeg" alt="James McDonald" class="w-full object-cover object-top" style="max-height:260px" loading="lazy" />
+                                <div class="px-3 py-2" style="border-top:1px solid rgba(245,234,212,0.06)">
+                                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25">James McDonald · Associate of Bodie Chalmers · Had his teeth knocked out at the Tweed Heads pub</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space-y-3">
+                            <p class="text-[0.68rem] text-paper/45 leading-relaxed">James McDonald — an associate of Bodie Chalmers — had his teeth knocked out during the altercation. Following the incident, both Bodie Chalmers and James McDonald went to police and provided statements against the person they had the altercation with. They snitched. Bodie Chalmers — who had instigated the incident by spreading false rumours — walked into a police station to give a statement against the person who responded to those rumours.</p>
+                            <div class="border border-hot/20 p-3" style="background:rgba(193,68,14,0.04)">
+                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1.5">Debts Owed — Local Court</div>
+                                <p class="text-[0.58rem] text-paper/42 leading-relaxed">James McDonald owes Adam Watson money. A Local Court order has been made. The notice of orders is on the record.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border border-gold/20 p-4 mb-4" style="background:rgba(201,138,16,0.04)">
                         <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">The Warrant Miss — Bodie Gets Away</div>
                         <p class="text-[0.62rem] text-paper/45 leading-relaxed">When Bodie Chalmers attended the police station and the arresting officer processed the incident, <strong class="text-paper/60">the officer did not check Bodie's outstanding warrants</strong>. Bodie had multiple warrants active at the time — meaning police were already looking for him in connection with other matters. A routine warrant check at the station would have seen him taken into custody on the spot. It did not happen. Bodie walked out. He was there voluntarily — snitching on the person who responded to his own false rumour campaign — and left without being detained for offences he was already wanted for.</p>
                     </div>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">Adam Watson is now assisting that person with legal representation arising from the charges that followed. The pattern is consistent: Bodie Chalmers instigates a situation using the false "paedophile" label he has been spreading, an altercation occurs, and he then uses the police to pursue the person who responded — while somehow avoiding the warrants that were outstanding in his own name.</p>
+
+                    <!-- James McDonald — signature forgery / DPP referral -->
+                    <div class="border border-hot/40 p-5 mb-4" style="background:rgba(193,68,14,0.07)">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">James McDonald — Document Fraud</span>
+                            <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-hot/50 text-hot px-1.5 py-0.5 blink">⬤ DPP REFERRAL</span>
+                        </div>
+                        <h5 class="font-display text-lg tracking-wide mb-3 leading-tight">FORGED ADAM WATSON'S SIGNATURE ON A NOTICE OF DISCONTINUANCE.<br><span class="text-hot">REFERRED TO THE DIRECTOR OF PUBLIC PROSECUTIONS — UTTERING A DOCUMENT.</span></h5>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">After Adam Watson obtained a judgment against James McDonald in the Local Court, McDonald attempted to forge Adam Watson's signature on a <strong class="text-paper/65">Notice of Discontinuance</strong> — a legal document that, if accepted, would have extinguished Adam's judgment against him. He was attempting to use a fraudulent document to wipe a court debt that had been properly established against him.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">This has been referred to the <strong class="text-paper/65">Director of Public Prosecutions</strong> for <strong class="text-paper/65">uttering a document</strong> — a serious criminal offence under Queensland law. Uttering a forged document is not a technical paperwork error. It is the deliberate use of a fraudulent document as genuine, with the intent to defraud. In the context of court proceedings, it is an attempt to pervert the course of justice.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-4">
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">The Forgery</div>
+                                <p class="text-[0.58rem] text-paper/42 leading-relaxed">Adam Watson's signature forged on a Notice of Discontinuance — a document that would have withdrawn his court judgment against James McDonald.</p>
+                            </div>
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">The Offence</div>
+                                <p class="text-[0.58rem] text-paper/42 leading-relaxed">Uttering a forged document — presenting a fraudulent document as genuine to a court or legal proceeding. A criminal offence with a maximum sentence of <strong class="text-paper/58">7 years' imprisonment</strong> in Queensland.</p>
+                            </div>
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Current Status</div>
+                                <p class="text-[0.58rem] text-paper/42 leading-relaxed">Referred to the Director of Public Prosecutions. The matter is now with the DPP for determination of charges.</p>
+                            </div>
+                        </div>
+                        <div class="border-l-2 border-hot/50 pl-3 py-1" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1">Why This Is Serious</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">Forging a signature on a court document — a Notice of Discontinuance — is not civil misconduct. It is a criminal act directed at the administration of justice. A person who goes to a police station to snitch after losing teeth in an altercation he helped cause, and then attempts to forge his way out of the resulting court debt, is following an entirely consistent pattern: using legal instruments as weapons when it suits, and fraudulently subverting them when it doesn't.</p>
+                        </div>
+                    </div>
+
+                    <!-- Local Court Notice — debts owed -->
+                    <div class="border border-paper/[0.07] overflow-hidden mb-4" style="background:rgba(0,0,0,0.2)">
+                        <div class="flex items-center justify-between px-4 py-2.5 border-b border-paper/[0.06]" style="background:rgba(0,0,0,0.3)">
+                            <span class="text-[0.44rem] tracking-[0.2em] uppercase text-hot">Local Court · Notice of Orders Made · Debts Owed — James McDonald</span>
+                            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/Results+letter++Notice+of+orders+made+(1).pdf" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.12em] uppercase border border-paper/20 text-paper/35 px-2 py-1 hover:border-hot/50 hover:text-hot transition-colors">Open PDF ↗</a>
+                        </div>
+                        <div style="height:500px">
+                            <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/Results+letter++Notice+of+orders+made+(1).pdf" style="width:100%;height:100%;border:none;display:block" title="Local Court — Notice of Orders Made — James McDonald debt" loading="lazy"></iframe>
+                        </div>
+                        <div class="px-4 py-3 border-t border-paper/[0.05]" style="background:rgba(0,0,0,0.2)">
+                            <span class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/22">Local Court · Notice of Orders Made · Debt owed by James McDonald to Adam Watson · Court-stamped</span>
+                        </div>
+                    </div>
+
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">Adam Watson is now assisting that person with legal representation arising from the charges that followed. The pattern is consistent: Bodie Chalmers instigates a situation using the false "paedophile" label he has been spreading, an altercation occurs, and he then uses the police to pursue the person who responded — while somehow avoiding the warrants that were outstanding in his own name. James McDonald goes further: he loses teeth, goes to police, then tries to forge his way out of the debt that followed.</p>
                 </div>
 
                 <!-- Joy ride / chest pain incident -->
