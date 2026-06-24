@@ -231,27 +231,27 @@
                     <span class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/22">Episode 4 — Chapters</span>
                 </div>
                 <div class="flex flex-wrap gap-0">
-                    <a href="#hellen-pertekes" class="flex items-center gap-2 px-4 py-3 hover:bg-sage/8 border-r border-paper/[0.06] transition-all group">
+                    <a href="#hellen-pertekes" data-chap-ep4="0" onclick="seekToChapterEp4(0)" class="flex items-center gap-2 px-4 py-3 hover:bg-sage/8 border-r border-paper/[0.06] transition-all group" style="border:1px solid transparent">
                         <span class="font-display text-[0.62rem] text-sage">01</span>
                         <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Hellen Pertekes</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Books R Us · ATO · NSD2438/2025</div></div>
                     </a>
-                    <a href="#kennards" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
+                    <a href="#kennards" data-chap-ep4="1" onclick="seekToChapterEp4(1)" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group" style="border:1px solid transparent">
                         <span class="font-display text-[0.62rem] text-hot">02</span>
                         <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Kennards</div><div class="text-[0.47rem] text-paper/22 tracking-wider">$25 dispute · Federal Court</div></div>
                     </a>
-                    <a href="#pioneer-lakes" class="flex items-center gap-2 px-4 py-3 hover:bg-sage/8 border-r border-paper/[0.06] transition-all group">
+                    <a href="#pioneer-lakes" data-chap-ep4="2" onclick="seekToChapterEp4(2)" class="flex items-center gap-2 px-4 py-3 hover:bg-sage/8 border-r border-paper/[0.06] transition-all group" style="border:1px solid transparent">
                         <span class="font-display text-[0.62rem] text-sage">03</span>
                         <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Pioneer Lakes</div><div class="text-[0.47rem] text-paper/22 tracking-wider">New deal · Mackay</div></div>
                     </a>
-                    <a href="#kira-steinhaus" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
+                    <a href="#kira-steinhaus" data-chap-ep4="3" onclick="seekToChapterEp4(3)" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group" style="border:1px solid transparent">
                         <span class="font-display text-[0.62rem] text-hot">04</span>
                         <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Kira Steinhaus</div><div class="text-[0.47rem] text-paper/22 tracking-wider">$3.5M demand · uninvited</div></div>
                     </a>
-                    <a href="#kane-singleton" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
+                    <a href="#kane-singleton" data-chap-ep4="4" onclick="seekToChapterEp4(4)" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group" style="border:1px solid transparent">
                         <span class="font-display text-[0.62rem] text-hot">05</span>
                         <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Kane Singleton</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Muay Thai · Charges laid</div></div>
                     </a>
-                    <a href="#z-soielman" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 transition-all group">
+                    <a href="#z-soielman" data-chap-ep4="5" onclick="seekToChapterEp4(5)" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 transition-all group" style="border:1px solid transparent">
                         <span class="font-display text-[0.62rem] text-hot">06</span>
                         <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Z Soielman</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Home invasion · Remand</div></div>
                     </a>
@@ -259,85 +259,96 @@
             </div>
         </div>
 
-        <!-- Right sidebar — case stats -->
-        <div class="hidden lg:flex flex-col border-l border-paper/[0.06] divide-y divide-paper/[0.05] overflow-y-auto">
-            <div class="p-6 fade-up" style="animation-delay:0.15s">
-                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Case Reference</div>
-                <div class="font-display text-xl tracking-wide text-paper/80 mb-1">NSD2438/2025</div>
-                <div class="text-[0.52rem] text-paper/30 leading-relaxed">Federal Court of Australia · Commissioner of Taxation</div>
-            </div>
-            <div class="p-6 fade-up" style="animation-delay:0.2s">
-                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Key Subject</div>
-                <div class="font-display text-xl tracking-wide text-paper/80 mb-1">HELLEN PERTEKES</div>
-                <div class="text-[0.52rem] text-paper/30 leading-relaxed">Director — Born to Shine Disability Services<br>Principal — Books R Us Accounting</div>
-            </div>
-            <div class="p-6 fade-up" style="animation-delay:0.25s">
-                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Alleged Amount — Medical Scam</div>
-                <div class="stat-number text-5xl text-hot mb-1">$20K</div>
-                <div class="text-[0.52rem] text-paper/30 leading-relaxed">Obtained under false pretence — fabricated illness</div>
-            </div>
-            <div class="p-6 fade-up" style="animation-delay:0.3s">
-                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Kennards — Case Reference</div>
-                <div class="font-display text-xl tracking-wide text-paper/80 mb-1">QUD18/2024</div>
-                <div class="text-[0.52rem] text-paper/30 leading-relaxed">$25 billing error → police threats → Federal Court<br>Judgment: [2024] FCA 913</div>
-            </div>
-            <div class="p-6 fade-up" style="animation-delay:0.35s">
-                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Pioneer Lakes — Demand</div>
-                <div class="stat-number text-5xl text-gold mb-1">$3.5M</div>
-                <div class="text-[0.52rem] text-paper/30 leading-relaxed">Kira Steinhaus — uninvited · uncontracted<br>Commission demand · Legal challenge pending</div>
-            </div>
-            <div class="p-6 fade-up" style="animation-delay:0.4s">
-                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Status</div>
-                <div class="flex items-center gap-2">
-                    <span class="text-[0.44rem] tracking-[0.15em] uppercase border border-sage/50 text-sage px-2 py-0.5 blink">⬤ ACTIVE PROCEEDINGS</span>
+        <!-- Right sidebar — episode summary + seekable chapters -->
+        <div class="hidden lg:flex flex-col border-l border-paper/[0.06]" style="background:rgba(12,8,4,0.6)">
+            <div class="px-6 py-6 border-b border-paper/[0.06] fade-up" style="animation-delay:0.15s">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">This Episode</div>
+                <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">The accountant who had access to Adam Watson's finances and used his trust deliberately — now running an NDIS business. Plus a $25 billing dispute that escalated to the Federal Court, a $3.5M uninvited commission demand at Pioneer Lakes, and two violent associates now before the courts.</p>
+                <div class="grid grid-cols-3 gap-2 text-center">
+                    <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl text-sage">ATO</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Tax Fraud</div></div>
+                    <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl text-hot">FCA</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Federal Court</div></div>
+                    <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl" style="color:#c98a10">NDIS</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Business</div></div>
                 </div>
-                <div class="text-[0.52rem] text-paper/30 mt-2 leading-relaxed">Hostile witness · ATO subpoena pending</div>
             </div>
-            <div class="px-5 py-4 fade-up" style="animation-delay:0.45s">
+            <div class="px-5 py-4 border-b border-paper/[0.06]">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">Episode Chapters</div>
                 <div class="space-y-0.5">
-                    <a href="#hellen-pertekes" class="w-full flex items-center gap-3 p-2 transition-colors text-left no-underline" style="background:none;border:1px solid transparent;display:flex" onmouseover="this.style.background='rgba(61,122,74,0.07)'" onmouseout="this.style.background=''">
+                    <button data-chap-ep4="0" onclick="seekToChapterEp4(0)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(61,122,74,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
                         <span class="font-display text-[0.5rem] text-sage">01</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">Hellen Pertekes</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Books R Us · ATO · NSD2438/2025</div>
                         </div>
-                    </a>
-                    <a href="#kennards" class="w-full flex items-center gap-3 p-2 transition-colors text-left no-underline" style="background:none;border:1px solid transparent;display:flex" onmouseover="this.style.background='rgba(193,68,14,0.07)'" onmouseout="this.style.background=''">
+                    </button>
+                    <button data-chap-ep4="1" onclick="seekToChapterEp4(1)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(193,68,14,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
                         <span class="font-display text-[0.5rem] text-hot">02</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">Kennards</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">$25 dispute · Federal Court</div>
                         </div>
-                    </a>
-                    <a href="#pioneer-lakes" class="w-full flex items-center gap-3 p-2 transition-colors text-left no-underline" style="background:none;border:1px solid transparent;display:flex" onmouseover="this.style.background='rgba(61,122,74,0.07)'" onmouseout="this.style.background=''">
+                    </button>
+                    <button data-chap-ep4="2" onclick="seekToChapterEp4(2)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(61,122,74,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
                         <span class="font-display text-[0.5rem] text-sage">03</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">Pioneer Lakes</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">New deal · Mackay</div>
                         </div>
-                    </a>
-                    <a href="#kira-steinhaus" class="w-full flex items-center gap-3 p-2 transition-colors text-left no-underline" style="background:none;border:1px solid transparent;display:flex" onmouseover="this.style.background='rgba(193,68,14,0.07)'" onmouseout="this.style.background=''">
+                    </button>
+                    <button data-chap-ep4="3" onclick="seekToChapterEp4(3)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(193,68,14,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
                         <span class="font-display text-[0.5rem] text-hot">04</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">Kira Steinhaus</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">$3.5M demand · uninvited</div>
                         </div>
-                    </a>
-                    <a href="#kane-singleton" class="w-full flex items-center gap-3 p-2 transition-colors text-left no-underline" style="background:none;border:1px solid transparent;display:flex" onmouseover="this.style.background='rgba(193,68,14,0.07)'" onmouseout="this.style.background=''">
+                    </button>
+                    <button data-chap-ep4="4" onclick="seekToChapterEp4(4)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(193,68,14,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
                         <span class="font-display text-[0.5rem] text-hot">05</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">Kane Singleton</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Muay Thai · Charges laid</div>
                         </div>
-                    </a>
-                    <a href="#z-soielman" class="w-full flex items-center gap-3 p-2 transition-colors text-left no-underline" style="background:none;border:1px solid transparent;display:flex" onmouseover="this.style.background='rgba(193,68,14,0.07)'" onmouseout="this.style.background=''">
+                    </button>
+                    <button data-chap-ep4="5" onclick="seekToChapterEp4(5)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(193,68,14,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
                         <span class="font-display text-[0.5rem] text-hot">06</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">Z Soielman</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Home invasion · Remand</div>
                         </div>
-                    </a>
+                    </button>
+                </div>
+            </div>
+            <div class="divide-y divide-paper/[0.05] overflow-y-auto">
+                <div class="p-6 fade-up">
+                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Case Reference</div>
+                    <div class="font-display text-xl tracking-wide text-paper/80 mb-1">NSD2438/2025</div>
+                    <div class="text-[0.52rem] text-paper/30 leading-relaxed">Federal Court of Australia · Commissioner of Taxation</div>
+                </div>
+                <div class="p-6 fade-up">
+                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Key Subject</div>
+                    <div class="font-display text-xl tracking-wide text-paper/80 mb-1">HELLEN PERTEKES</div>
+                    <div class="text-[0.52rem] text-paper/30 leading-relaxed">Director — Born to Shine Disability Services<br>Principal — Books R Us Accounting</div>
+                </div>
+                <div class="p-6 fade-up">
+                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Alleged Amount — Medical Scam</div>
+                    <div class="stat-number text-5xl text-hot mb-1">$20K</div>
+                    <div class="text-[0.52rem] text-paper/30 leading-relaxed">Obtained under false pretence — fabricated illness</div>
+                </div>
+                <div class="p-6 fade-up">
+                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Kennards — Case Reference</div>
+                    <div class="font-display text-xl tracking-wide text-paper/80 mb-1">QUD18/2024</div>
+                    <div class="text-[0.52rem] text-paper/30 leading-relaxed">$25 billing error → police threats → Federal Court<br>Judgment: [2024] FCA 913</div>
+                </div>
+                <div class="p-6 fade-up">
+                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Pioneer Lakes — Demand</div>
+                    <div class="stat-number text-5xl text-gold mb-1">$3.5M</div>
+                    <div class="text-[0.52rem] text-paper/30 leading-relaxed">Kira Steinhaus — uninvited · uncontracted<br>Commission demand · Legal challenge pending</div>
+                </div>
+                <div class="p-6 fade-up">
+                    <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Status</div>
+                    <div class="flex items-center gap-2">
+                        <span class="text-[0.44rem] tracking-[0.15em] uppercase border border-sage/50 text-sage px-2 py-0.5 blink">⬤ ACTIVE PROCEEDINGS</span>
+                    </div>
+                    <div class="text-[0.52rem] text-paper/30 mt-2 leading-relaxed">Hostile witness · ATO subpoena pending</div>
                 </div>
             </div>
         </div>
@@ -1838,6 +1849,95 @@ function sqModalBackdropClick(e) { if(e.target===document.getElementById('sq-mod
 function sqToggle(checkboxId,fieldsId){document.getElementById(fieldsId).classList.toggle('open',document.getElementById(checkboxId).checked);}
 function sqToggleAnon(){document.getElementById('sq-contact-fields').classList.toggle('open',!document.getElementById('sq-anon-chk').checked);}
 function sqSubmit(){var s=document.getElementById('sq-summary');if(!s.value.trim()){s.classList.add('sq-error');s.focus();return;}s.classList.remove('sq-error');document.getElementById('sq-form-card').style.display='none';document.getElementById('sq-form-footer').style.display='none';document.getElementById('sq-success-state').style.display='block';}
+
+// ── VIDSTACK PLAYER EP4 INIT ──
+(function() {
+    var VTT_CONTENT = [
+        'WEBVTT',
+        '',
+        '00:00:00.000 --> 00:04:00.000',
+        'Hellen Pertekes',
+        '',
+        '00:04:00.000 --> 00:09:00.000',
+        'Kennards',
+        '',
+        '00:09:00.000 --> 00:13:00.000',
+        'Pioneer Lakes',
+        '',
+        '00:13:00.000 --> 00:17:00.000',
+        'Kira Steinhaus',
+        '',
+        '00:17:00.000 --> 00:21:00.000',
+        'Kane Singleton',
+        '',
+        '00:21:00.000 --> 00:26:00.000',
+        'Z Soielman',
+    ].join('\n');
+
+    function initPlayerEp4() {
+        var el = document.getElementById('player-ep4');
+        if (!el) return;
+        if (typeof el.subscribe !== 'function') {
+            setTimeout(initPlayerEp4, 200);
+            return;
+        }
+        window.vidstackPlayerEp4 = el;
+
+        var track = document.getElementById('ep4-chapters-track');
+        if (track) {
+            var blob = new Blob([VTT_CONTENT], {type: 'text/vtt'});
+            track.src = URL.createObjectURL(blob);
+        }
+
+        el.subscribe(function(state) {
+            var time = state.currentTime;
+            var tracks = el.textTracks;
+            for (var i = 0; i < tracks.length; i++) {
+                if (tracks[i].kind === 'chapters') {
+                    var cues = tracks[i].cues;
+                    for (var j = 0; j < cues.length; j++) {
+                        if (time >= cues[j].startTime && time < cues[j].endTime) {
+                            document.querySelectorAll('[data-chap-ep4]').forEach(function(el2) {
+                                var match = parseInt(el2.getAttribute('data-chap-ep4'),10) === j;
+                                el2.style.background = match ? 'rgba(61,122,74,0.1)' : '';
+                                el2.style.borderColor = match ? 'rgba(61,122,74,0.4)' : 'transparent';
+                            });
+                            break;
+                        }
+                    }
+                    break;
+                }
+            }
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initPlayerEp4);
+    } else {
+        initPlayerEp4();
+    }
+})();
+
+function seekToChapterEp4(index) {
+    var p = window.vidstackPlayerEp4;
+    if (!p) {
+        var pl = document.getElementById('player-ep4');
+        if (pl) pl.scrollIntoView({behavior:'smooth',block:'center'});
+        return;
+    }
+    var tracks = p.textTracks;
+    var ct = null;
+    for (var i = 0; i < tracks.length; i++) { if (tracks[i].kind === 'chapters') { ct = tracks[i]; break; } }
+    if (ct && ct.cues && ct.cues.length > index) { p.currentTime = ct.cues[index].startTime; }
+    else { var d = p.duration || 0; if (d > 0) p.currentTime = (d / 6) * index; }
+    p.play().catch(function(){});
+    document.getElementById('player-ep4').scrollIntoView({behavior:'smooth',block:'center'});
+    document.querySelectorAll('[data-chap-ep4]').forEach(function(el) {
+        var match = parseInt(el.getAttribute('data-chap-ep4'),10) === index;
+        el.style.background = match ? 'rgba(61,122,74,0.1)' : '';
+        el.style.borderColor = match ? 'rgba(61,122,74,0.4)' : 'transparent';
+    });
+}
 </script>
 
 <!-- ══════════════════════════════════════
