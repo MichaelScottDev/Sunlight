@@ -1168,6 +1168,48 @@
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed">Adam Watson is now assisting that person with legal representation arising from the charges that followed. The pattern is consistent: Bodie Chalmers instigates a situation using the false "paedophile" label he has been spreading, an altercation occurs, and he then uses the police to pursue the person who responded — while somehow avoiding the warrants that were outstanding in his own name.</p>
                 </div>
 
+                <!-- Joy ride / chest pain incident -->
+                <div class="border-l-4 pl-5 mt-6 mb-2" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.04);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">Infidelity · Medical Emergency · Adam's Car</div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">TOOK ADAM'S CAR FOR A JOY RIDE WITH GIRLS.<br><span style="color:#7c6aaa">ADAM COLLAPSED. AMBULANCE CALLED.</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Bodie Chalmers took Adam Watson's car without authorisation and used it to take a group of girls for a joy ride. He had no right to take the car. He had no right to bring other people into it. When Kosta was called to meet Adam Watson to follow this up, Adam began grabbing his chest and collapsed. An ambulance had to be called. First responders attended and treated Adam at the scene. He received medical attention and was soon fine — but what followed was the result of a confrontation that never should have happened, over conduct that had no justification.</p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+                        <div>
+                            <div class="border border-paper/[0.07] overflow-hidden" style="background:rgba(0,0,0,0.2)">
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pslo/adam_chest_pain.jpg" alt="Adam Watson receiving medical treatment after collapsing — first responders attending with Mediquip equipment" class="w-full object-cover" loading="lazy" />
+                                <div class="px-3 py-2" style="border-top:1px solid rgba(245,234,212,0.06)">
+                                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25">First responders attending Adam Watson after he collapsed · Mediquip emergency equipment on scene</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space-y-3">
+                            <div class="border border-paper/[0.07] p-4" style="background:rgba(0,0,0,0.18)">
+                                <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">What Bodie Did</div>
+                                <div class="space-y-1.5">
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Took Adam Watson's car without permission</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Used the car to take girls for a joy ride — in Adam's vehicle, without Adam's knowledge or consent</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">No right to take the car. No right to bring passengers. No shame.</p></div>
+                                </div>
+                            </div>
+                            <div class="border p-4" style="border-color:rgba(124,106,170,0.25);background:rgba(124,106,170,0.04)">
+                                <div class="text-[0.44rem] tracking-[0.18em] uppercase mb-2" style="color:#7c6aaa">What Followed</div>
+                                <div class="space-y-1.5">
+                                    <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Kosta called to meet Adam to follow up on what had happened</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Adam began grabbing his chest and collapsed at the scene</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-xs shrink-0 mt-0.5" style="color:#7c6aaa">→</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Ambulance called — first responders attended with emergency equipment</p></div>
+                                    <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">✓</span><p class="text-[0.58rem] text-paper/42 leading-relaxed">Adam received medical treatment and was soon fine</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-l-2 pl-3 py-1" style="border-color:rgba(124,106,170,0.4);background:rgba(124,106,170,0.03)">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase mb-1" style="color:#7c6aaa">The Pattern</div>
+                        <p class="text-[0.62rem] text-paper/42 leading-relaxed">This incident is not isolated. It is consistent with a pattern of Bodie Chalmers cheating in an extremely blatant way — with absolutely no shame, and no consideration for the person he was in a relationship with. Taking a partner's car to ferry other girls around while they are unaware is not an oversight. It is the conduct of someone who does not recognise boundaries as applying to them. It is the same disposition that drove the coercive control, the tracking device, the lie detector, the false sexual assault allegation — the complete absence of accountability to anyone.</p>
+                    </div>
+                </div>
+
                 <!-- Yakuza van / custody update -->
                 <div class="border-l-4 border-hot/50 pl-5 mt-6 mb-2" style="background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
                     <div class="flex items-center gap-2 mb-2">

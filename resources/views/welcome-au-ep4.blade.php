@@ -293,6 +293,53 @@
                 </div>
                 <div class="text-[0.52rem] text-paper/30 mt-2 leading-relaxed">Hostile witness · ATO subpoena pending</div>
             </div>
+            <div class="px-5 py-4 fade-up" style="animation-delay:0.45s">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">Episode Chapters</div>
+                <div class="space-y-0.5">
+                    <a href="#hellen-pertekes" class="w-full flex items-center gap-3 p-2 transition-colors text-left no-underline" style="background:none;border:1px solid transparent;display:flex" onmouseover="this.style.background='rgba(61,122,74,0.07)'" onmouseout="this.style.background=''">
+                        <span class="font-display text-[0.5rem] text-sage">01</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">Hellen Pertekes</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Books R Us · ATO · NSD2438/2025</div>
+                        </div>
+                    </a>
+                    <a href="#kennards" class="w-full flex items-center gap-3 p-2 transition-colors text-left no-underline" style="background:none;border:1px solid transparent;display:flex" onmouseover="this.style.background='rgba(193,68,14,0.07)'" onmouseout="this.style.background=''">
+                        <span class="font-display text-[0.5rem] text-hot">02</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">Kennards</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">$25 dispute · Federal Court</div>
+                        </div>
+                    </a>
+                    <a href="#pioneer-lakes" class="w-full flex items-center gap-3 p-2 transition-colors text-left no-underline" style="background:none;border:1px solid transparent;display:flex" onmouseover="this.style.background='rgba(61,122,74,0.07)'" onmouseout="this.style.background=''">
+                        <span class="font-display text-[0.5rem] text-sage">03</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">Pioneer Lakes</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">New deal · Mackay</div>
+                        </div>
+                    </a>
+                    <a href="#kira-steinhaus" class="w-full flex items-center gap-3 p-2 transition-colors text-left no-underline" style="background:none;border:1px solid transparent;display:flex" onmouseover="this.style.background='rgba(193,68,14,0.07)'" onmouseout="this.style.background=''">
+                        <span class="font-display text-[0.5rem] text-hot">04</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">Kira Steinhaus</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">$3.5M demand · uninvited</div>
+                        </div>
+                    </a>
+                    <a href="#kane-singleton" class="w-full flex items-center gap-3 p-2 transition-colors text-left no-underline" style="background:none;border:1px solid transparent;display:flex" onmouseover="this.style.background='rgba(193,68,14,0.07)'" onmouseout="this.style.background=''">
+                        <span class="font-display text-[0.5rem] text-hot">05</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">Kane Singleton</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Muay Thai · Charges laid</div>
+                        </div>
+                    </a>
+                    <a href="#z-soielman" class="w-full flex items-center gap-3 p-2 transition-colors text-left no-underline" style="background:none;border:1px solid transparent;display:flex" onmouseover="this.style.background='rgba(193,68,14,0.07)'" onmouseout="this.style.background=''">
+                        <span class="font-display text-[0.5rem] text-hot">06</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">Z Soielman</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Home invasion · Remand</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
