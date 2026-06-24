@@ -216,7 +216,8 @@
                     id="player-ep4"
                     title="The Accountant — Episode 4"
                     src=""
-                    style="--media-brand:#3d7a4a;--media-focus-ring-color:rgba(61,122,74,0.45);--media-time-chapters-bg:rgba(61,122,74,0.5);width:100%;border:1px solid rgba(61,122,74,0.2);box-shadow:0 0 80px rgba(61,122,74,0.09),0 0 0 1px rgba(245,234,212,0.025)"
+                    poster="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/hellen_pertekes.jpeg"
+                    style="--media-brand:#3d7a4a;--media-focus-ring-color:rgba(61,122,74,0.45);--media-time-chapters-bg:rgba(61,122,74,0.5);width:100%;border:1px solid rgba(61,122,74,0.2);box-shadow:0 0 80px rgba(61,122,74,0.09),0 0 0 1px rgba(245,234,212,0.025);aspect-ratio:16/9"
                 >
                     <media-provider>
                         <track id="ep4-chapters-track" kind="chapters" default />
@@ -230,19 +231,28 @@
                     <span class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/22">Episode 4 — Chapters</span>
                 </div>
                 <div class="flex flex-wrap gap-0">
-                    <a href="#hellen-pertekes" class="flex items-center gap-2 px-4 py-3 hover:bg-paper/[0.03] transition-colors border-r border-paper/[0.06]">
+                    <a href="#hellen-pertekes" class="flex items-center gap-2 px-4 py-3 hover:bg-sage/8 border-r border-paper/[0.06] transition-all group">
                         <span class="font-display text-[0.62rem] text-sage">01</span>
-                        <div>
-                            <div class="text-[0.6rem] text-paper/55 leading-none mb-0.5">Hellen Pertekes</div>
-                            <div class="text-[0.47rem] text-paper/22 tracking-wider">Books R Us · ATO · NSD2438/2025</div>
-                        </div>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Hellen Pertekes</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Books R Us · ATO · NSD2438/2025</div></div>
+                    </a>
+                    <a href="#kennards" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
+                        <span class="font-display text-[0.62rem] text-hot">02</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Kennards</div><div class="text-[0.47rem] text-paper/22 tracking-wider">$25 dispute · Federal Court</div></div>
+                    </a>
+                    <a href="#pioneer-lakes" class="flex items-center gap-2 px-4 py-3 hover:bg-sage/8 border-r border-paper/[0.06] transition-all group">
+                        <span class="font-display text-[0.62rem] text-sage">03</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Pioneer Lakes</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Kira Steinhaus · $3.5M demand</div></div>
+                    </a>
+                    <a href="#kane-singleton" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 transition-all group">
+                        <span class="font-display text-[0.62rem] text-hot">04</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Kane Singleton</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Muay Thai · Charges laid</div></div>
                     </a>
                 </div>
             </div>
         </div>
 
         <!-- Right sidebar — case stats -->
-        <div class="hidden lg:flex flex-col border-l border-paper/[0.06] divide-y divide-paper/[0.05]">
+        <div class="hidden lg:flex flex-col border-l border-paper/[0.06] divide-y divide-paper/[0.05] overflow-y-auto">
             <div class="p-6 fade-up" style="animation-delay:0.15s">
                 <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Case Reference</div>
                 <div class="font-display text-xl tracking-wide text-paper/80 mb-1">NSD2438/2025</div>
@@ -259,6 +269,16 @@
                 <div class="text-[0.52rem] text-paper/30 leading-relaxed">Obtained under false pretence — fabricated illness</div>
             </div>
             <div class="p-6 fade-up" style="animation-delay:0.3s">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Kennards — Case Reference</div>
+                <div class="font-display text-xl tracking-wide text-paper/80 mb-1">QUD18/2024</div>
+                <div class="text-[0.52rem] text-paper/30 leading-relaxed">$25 billing error → police threats → Federal Court<br>Judgment: [2024] FCA 913</div>
+            </div>
+            <div class="p-6 fade-up" style="animation-delay:0.35s">
+                <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Pioneer Lakes — Demand</div>
+                <div class="stat-number text-5xl text-gold mb-1">$3.5M</div>
+                <div class="text-[0.52rem] text-paper/30 leading-relaxed">Kira Steinhaus — uninvited · uncontracted<br>Commission demand · Legal challenge pending</div>
+            </div>
+            <div class="p-6 fade-up" style="animation-delay:0.4s">
                 <div class="text-[0.46rem] tracking-[0.22em] uppercase text-sage mb-3">Status</div>
                 <div class="flex items-center gap-2">
                     <span class="text-[0.44rem] tracking-[0.15em] uppercase border border-sage/50 text-sage px-2 py-0.5 blink">⬤ ACTIVE PROCEEDINGS</span>
@@ -620,7 +640,7 @@
 <!-- ══════════════════════════════════════
      KENNARDS SELF STORAGE
 ══════════════════════════════════════ -->
-<section class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(193,68,14,0.05) 0%,transparent 60%)">
+<section id="kennards" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(193,68,14,0.05) 0%,transparent 60%)">
     <div class="max-w-4xl mx-auto">
 
         <div class="flex items-center gap-3 mb-3 reveal">
@@ -1056,7 +1076,7 @@
 <!-- ══════════════════════════════════════
      PIONEER LAKES — NEW DEAL
 ══════════════════════════════════════ -->
-<section class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(61,122,74,0.07) 0%,transparent 70%)">
+<section id="pioneer-lakes" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(61,122,74,0.07) 0%,transparent 70%)">
     <div class="max-w-4xl mx-auto">
 
         <!-- Section Label -->
@@ -1454,7 +1474,7 @@
         </div>
 
         <!-- Kane Singleton -->
-        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.5)">
+        <div id="kane-singleton" class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.5)">
             <div class="flex items-center gap-3 mb-4">
                 <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Bodie's Network · Harassment Campaign · Charges Laid · Muay Thai Fighter</span>
             </div>
