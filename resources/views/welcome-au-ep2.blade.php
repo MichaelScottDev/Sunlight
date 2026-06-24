@@ -1182,6 +1182,35 @@
                     <div class="border p-5" style="border-color:rgba(193,68,14,0.3);background:rgba(193,68,14,0.03)"><div class="font-display text-xl text-hot mb-1">OFFICER FIRED</div><div class="text-[0.6rem] tracking-[0.15em] uppercase text-hot/60 mb-3">Confirmed Outcome</div><p class="text-[0.65rem] text-paper/40 leading-relaxed">The QPS officer who accepted and actioned the false complaint from Bodie Chalmers and Ebony was subsequently dismissed from the service.</p></div>
                 </div>
 
+                <!-- Prosecutor Integrity — "Malicious Prosecution" on the record -->
+                <div class="border border-sage/30 p-5 mb-8" style="background:rgba(61,122,74,0.05)">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-sage">QLD Police Prosecutor — Integrity on the Record</span>
+                        <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-sage/40 text-sage/70 px-1.5 py-0.5">STATED IN COURT</span>
+                    </div>
+                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">"YOUR HONOUR, I AM WILLING TO STATE THAT THIS IS MALICIOUS PROSECUTION."<br><span class="text-sage">A QLD POLICE PROSECUTOR. ON THE RECORD. THEN BULLIED OUT OF THE JOB.</span></h4>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">A Queensland Police prosecutor — standing at the bar table — stated on the court record: <em class="text-paper/70">"Your Honour, I'm willing to state that this is malicious prosecution."</em> This is an extraordinary act. A member of the Queensland Police Service, in open court, voluntarily characterising a fellow officer's conduct as malicious prosecution. Prosecutors do not say this lightly. It is not a routine submission. It is the kind of statement that defines a career — and in this case, it did.</p>
+                    <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">For standing up for what was right, she was ruthlessly bullied by members of the Queensland Police Service. The institutional response to her integrity was not commendation. It was sustained internal pressure. She subsequently left Queensland Police and entered private practice.</p>
+                    <div class="border-l-4 border-sage/50 pl-4 mb-4" style="background:rgba(61,122,74,0.06);padding:0.85rem 1rem 0.85rem 1.25rem">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-sage mb-2">Sunlight.Quest — On Record</div>
+                        <p class="text-[0.65rem] text-paper/55 leading-relaxed">Sunlight.Quest commends her for standing up for what was right. Her statement — made in open court, in the face of institutional pressure — is the kind of conduct that a justice system depends on and rarely rewards. We are in the process of identifying who she is and intend to feature her properly. She deserves to be on the record for what she did.</p>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <div class="border border-sage/15 p-3" style="background:rgba(61,122,74,0.03)">
+                            <div class="text-[0.43rem] tracking-[0.15em] uppercase text-sage mb-1.5">What She Said</div>
+                            <p class="text-[0.58rem] text-paper/45 leading-relaxed italic">"Your Honour, I'm willing to state that this is malicious prosecution."</p>
+                        </div>
+                        <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">What Happened to Her</div>
+                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">Bullied by QLD Police members for speaking the truth. Left the service. Now in private practice.</p>
+                        </div>
+                        <div class="border border-sage/15 p-3" style="background:rgba(61,122,74,0.03)">
+                            <div class="text-[0.43rem] tracking-[0.15em] uppercase text-sage mb-1.5">Sunlight.Quest</div>
+                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">Commends her integrity. Identification in progress. Will be featured in full when confirmed.</p>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Criminal Injuries Compensation Loophole -->
                 <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE CHARGE WAS FAKE.<br><span class="text-hot">THE $165,000 WAS REAL.</span></h3>
                 <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"The DPP called it malicious prosecution. The officer was fired. And Bodie Chalmers walked out of the courthouse, saw Adam Watson, and laughed at him. Then he claimed $165,000 in Criminal Injuries Compensation — for a crime that never happened."</p>
@@ -1238,6 +1267,30 @@
                         <div class="border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.12)">
                             <div class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/25 mb-2">Current Status</div>
                             <p class="text-[0.62rem] text-paper/38 leading-relaxed">There are <strong class="text-paper/52">no open investigations against Adam Watson</strong> in relation to this allegation. The claim originates from Bodie Chalmers's mother and is consistent with the broader pattern of false allegations — including the one already ruled a malicious prosecution — being deployed to attach criminal character to Adam Watson where none exists.</p>
+                        </div>
+                    </div>
+
+                    <!-- Centrelink DV Payment — Bodie + Amanda Chalmers -->
+                    <div class="border border-hot/35 p-5" style="background:rgba(193,68,14,0.06)">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">Centrelink — Domestic Violence Payment · Bodie Chalmers &amp; Amanda Chalmers</span>
+                            <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-hot/40 text-hot/70 px-1.5 py-0.5">AFP REFERRAL</span>
+                        </div>
+                        <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">BODIE CHALMERS AND HIS MOTHER WENT TO CENTRELINK.<br><span class="text-hot">DOMESTIC VIOLENCE PAYMENT. FALSE STATEMENTS. REFERRED TO THE AFP.</span></h4>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">Bodie Chalmers and his mother <strong class="text-paper/70">Amanda Chalmers</strong> attended Centrelink and made statements against Adam Watson for the purpose of obtaining a domestic violence payment. The statements they made are the basis for those claims. This matter has been referred to the <strong class="text-paper/70">Australian Federal Police</strong>. Adam Watson is prepared for this court case and is ready to contest it.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Who Attended</div>
+                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Bodie Chalmers and his mother Amanda Chalmers. Statements made against Adam Watson for the purposes of a domestic violence payment.</p>
+                            </div>
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">AFP Referral</div>
+                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">This matter has been referred to the Australian Federal Police. It is an active matter with federal jurisdiction.</p>
+                            </div>
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Adam Watson's Position</div>
+                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Adam Watson is ready for this court case and is prepared to contest every element of the claims made against him.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1324,6 +1377,222 @@
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A friend of Bodie Chalmers's Russian girlfriend Aaliyah was working at the Robina KFC when Adam Watson went through the drive-through in an Uber. Adam was refused service — the result of the malicious rumours Bodie Chalmers had been spreading. The Uber driver suggested they go inside to get food. An incident ensued.</p>
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Adam Watson is currently working to identify the owner of the Robina KFC franchise with the intention of having the employee who refused him service terminated. The employee's decision to deny service based on unverified rumours from a known associate of the subject of a malicious prosecution finding is not a defensible position for a staff member to take.</p>
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed">This is what social stigmatisation looks like in practice. A person who was the subject of a charge the DPP ruled malicious, who was never convicted, who has no finding against him — denied service at a fast food outlet because of rumours spread by the person who fabricated the charge. This is what Bodie Chalmers and his accomplice Ebony's conduct costs people in daily life.</p>
+                </div>
+
+                <!-- Aaliyah — Broadbeach Library Carpark / Southport Police / Farshad Sarabi -->
+                <div class="story-chapter reveal mt-6 mb-6" style="border-left-color:rgba(193,68,14,0.5)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Aaliyah · Bodie's Girlfriend · Southport Police · False Harassment Claim</span></div>
+                    <h4 class="font-display text-xl tracking-wide mb-4 leading-tight">PRESENT WHEN BODIE YELLED "RUSSIAN!" AT ADAM.<br><span class="text-hot">AFTER HE WENT TO JAIL, SHE WENT TO THE POLICE.</span></h4>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Aaliyah was there in the Broadbeach library carpark when Bodie was screaming 'Russian!' at Adam. After Bodie went to jail, she walked into Southport Police Station and claimed she was being harassed. A female officer called Adam to say she was charging him with stalking and intimidation — and threatened to hold him in custody until trial. Then she called Bodie in Corrective Services."</p>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Aaliyah — Bodie Chalmers's girlfriend — was present at the Broadbeach library carpark during the incident in which Bodie was yelling <em class="text-paper/65">"Russian!"</em> at Adam Watson. She witnessed what occurred. After Bodie Chalmers was remanded into custody, Aaliyah attended <strong class="text-paper/65">Southport Police Station</strong> and made a complaint claiming she was being harassed by Adam Watson.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">A female police officer called Adam Watson directly and informed him that Aaliyah was making a harassment complaint, that she was charging him with <strong class="text-paper/65">stalking and intimidation</strong>, and — in the same call — threatened that she would have him held in custody until his trial. That same female officer then called <strong class="text-paper/65">Bodie Chalmers in Corrective Services</strong> — who used the opportunity to make further allegations that he had been raped by Adam Watson.</p>
+
+                    <!-- Custody threat callout -->
+                    <div class="border border-hot/40 p-5 mb-5" style="background:rgba(193,68,14,0.07)">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">The Threat — Remand Until Trial</span>
+                            <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-hot/40 text-hot/70 px-1.5 py-0.5">UNLAWFUL PRESSURE</span>
+                        </div>
+                        <h5 class="font-display text-lg tracking-wide mb-3 leading-tight">"I WILL HAVE YOU HELD IN CUSTODY UNTIL YOUR TRIAL."<br><span class="text-hot">SAID ON THE PHONE. BEFORE ANY CHARGE WAS LAID.</span></h5>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The threat to hold Adam Watson in custody until trial — made during a phone call, before any charge had been formally laid — is not a statement of procedure. It is a threat. Remand in custody pending trial is a decision made by a court, not a promise a police officer makes on the phone to a person they are about to charge. The purpose of the statement was to cause fear and to pressure Adam Watson through the prospect of incarceration.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">The charges: stalking and intimidation. The same officer who would make that determination had just been contacted by Aaliyah — whose partner is the man Bodie Chalmers, currently in Corrective Services, who the same officer called and who then made rape allegations from custody. The threat to remand Adam until trial is inseparable from this context: it is pressure applied by someone whose conduct in this matter is itself now the subject of legal proceedings.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">What the Threat Was</div>
+                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Stalking and intimidation charges — and a direct statement that Adam Watson would be held in custody until trial. Made on a phone call. Before any charge was laid.</p>
+                            </div>
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Why This Is Significant</div>
+                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Remand is a judicial decision — not a police officer's to promise. The threat was made to cause fear and compliance. It is now part of the conduct that Farshad Sarabi is pursuing against QLD Police.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-5">
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Broadbeach Library Carpark</div>
+                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">Aaliyah was present when Bodie Chalmers was yelling "Russian!" at Adam Watson. She witnessed the incident firsthand.</p>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Southport Police Station</div>
+                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">After Bodie went to jail, Aaliyah attended Southport Police Station claiming harassment. A female officer called Adam Watson to advise he would be charged.</p>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Call to Corrective Services</div>
+                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">The same female officer then called Bodie Chalmers in custody. He used the call to allege he had been raped by Adam Watson — allegations made from behind bars.</p>
+                        </div>
+                    </div>
+
+                    <!-- Conduct callout -->
+                    <div class="border-l-4 border-hot/60 pl-5 mb-5" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The Officer's Conduct</div>
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed mb-2">A police officer receiving a complaint is not ordinarily expected to threaten the subject of that complaint with remand until trial — before any charge is laid — and then contact the incarcerated partner of the complainant, providing information he used to make fresh allegations from custody. The sequence — Aaliyah's complaint, the officer's threat of remand, the stalking and intimidation charge warning, the call to Bodie in Corrective Services, and Bodie's fresh rape allegations — is a chain that a police officer's conduct drove at every step.</p>
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">Adam Watson is engaging <strong class="text-paper/70">Farshad Sarabi</strong> as his lawyer to pursue a charge against police in relation to the conduct arising from Aaliyah's allegations, the remand threat, and the officer's subsequent actions.</p>
+                    </div>
+
+                    <!-- Farshad Sarabi -->
+                    <div class="border border-gold/25 p-4" style="background:rgba(201,138,16,0.04)">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-2">Legal Representation — Farshad Sarabi</div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <div>
+                                <div class="font-display text-base text-paper/70 mb-1">Farshad Sarabi</div>
+                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Engaged by Adam Watson to pursue a charge against Queensland Police arising from the officer's conduct: the stalking and intimidation charge threat, the unlawful remand threat made before any charge was laid, and the subsequent call to Bodie Chalmers in Corrective Services.</p>
+                            </div>
+                            <div class="border border-gold/15 p-3" style="background:rgba(201,138,16,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-gold mb-1.5">Current Status</div>
+                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Active. Adam Watson is pursuing this matter through legal channels with Farshad Sarabi as counsel.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NSW Police / Mental Health Act — the consequence of the Southport officer's call -->
+                <div class="story-chapter reveal mt-6 mb-6" style="border-left-color:rgba(193,68,14,0.6)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Escalation · NSW Police · Mental Health Act · Prince of Wales Hospital</span></div>
+                    <h4 class="font-display text-xl tracking-wide mb-4 leading-tight">THE SOUTHPORT OFFICER CALLED NSW POLICE.<br><span class="text-hot">ADAM WATSON WAS TAKEN TO PRINCE OF WALES HOSPITAL UNDER THE MENTAL HEALTH ACT.</span></h4>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"The QLD officer — unhappy with Adam's tone — called NSW Police. NSW Police visited him at home and took him under the Mental Health Act to Prince of Wales Hospital. No exit date was announced. He was still trying to send messages to Bodie Chalmers while in the ward. The officer told Aaliyah: 'Don't worry, he's locked up now.' RJ heard it from Aaliyah — and called Hancock Prospecting."</p>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Following the call in which the Southport QLD police officer threatened Adam Watson with stalking and intimidation charges and remand until trial, the officer — unhappy with Adam Watson's tone during that conversation — made a call to <strong class="text-paper/65">NSW Police</strong>. NSW Police attended Adam Watson's home address.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">He was taken under the <strong class="text-paper/65">Mental Health Act</strong> and transported to <strong class="text-paper/65">Prince of Wales Hospital</strong>, where he was placed in the Psychiatric Ward. No exit date was announced at the time of his admission. While incarcerated in the ward, Adam Watson was still attempting to send messages to Bodie Chalmers.</p>
+
+                    <!-- Sequence -->
+                    <div class="border border-hot/25 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">The Sequence — One Phone Call to the Next</div>
+                        <div class="space-y-2">
+                            <div class="grid grid-cols-[90px_1fr] gap-3 items-start">
+                                <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 1</div>
+                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Aaliyah attends Southport Police Station. Claims harassment. QLD female officer takes the complaint.</p>
+                            </div>
+                            <div class="grid grid-cols-[90px_1fr] gap-3 items-start">
+                                <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 2</div>
+                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Officer calls Adam Watson. Threatens stalking and intimidation charges. Threatens to hold him in custody until trial.</p>
+                            </div>
+                            <div class="grid grid-cols-[90px_1fr] gap-3 items-start">
+                                <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 3</div>
+                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Officer — unhappy with Adam Watson's tone — calls NSW Police. Refers the matter across state lines.</p>
+                            </div>
+                            <div class="grid grid-cols-[90px_1fr] gap-3 items-start">
+                                <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Step 4</div>
+                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">NSW Police attend Adam Watson's home. He is taken under the Mental Health Act and transported to hospital.</p>
+                            </div>
+                            <div class="grid grid-cols-[90px_1fr] gap-3 items-start border-t border-hot/10 pt-2">
+                                <div class="text-[0.44rem] tracking-[0.12em] uppercase text-hot/60">Outcome</div>
+                                <p class="text-[0.6rem] text-paper/50 leading-relaxed">Placed in the Psychiatric Ward at Prince of Wales Hospital. No exit date announced. The officer tells Aaliyah: <em>"Don't worry, he's locked up now."</em> While detained, Adam Watson was still attempting to contact Bodie Chalmers.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Two callouts -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+                        <div class="border border-hot/25 p-4" style="background:rgba(193,68,14,0.05)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The Mental Health Act as a Tool</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">A QLD police officer disagreeing with a person's tone on a phone call and using that as the basis for a cross-state referral that results in involuntary psychiatric detention is not a welfare intervention. It is the use of a welfare mechanism as a punitive instrument — removing a person from their home and placing them in a locked ward with no announced exit date.</p>
+                        </div>
+                        <div class="border border-hot/25 p-4" style="background:rgba(193,68,14,0.05)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Still Contacting Bodie from the Ward</div>
+                            <p class="text-[0.6rem] text-paper/45 leading-relaxed">While held in the Psychiatric Ward under the Mental Health Act, Adam Watson was still attempting to send messages to Bodie Chalmers — the man in Corrective Services whose allegations against Adam had contributed to the chain of events that led to this admission.</p>
+                        </div>
+                    </div>
+
+                    <!-- "Don't worry he's locked up now" -->
+                    <div class="border border-hot/40 p-5 mb-5" style="background:rgba(193,68,14,0.07)">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">The Officer's Words to Aaliyah</span>
+                            <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-hot/40 text-hot/70 px-1.5 py-0.5">INFORMATION LEAK</span>
+                        </div>
+                        <p class="font-display text-xl text-hot mb-3 leading-tight">"DON'T WORRY. HE'S LOCKED UP NOW."</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">After Adam Watson was admitted to Prince of Wales Hospital, the police officer called Aaliyah and told her: <em class="text-paper/70">"Don't worry, he's locked up now."</em> This is not a welfare notification. It is a reassurance directed at the complainant — confirming that the person she complained about has been removed from the community and placed in a locked facility. It treats the psychiatric admission as a favourable outcome for Aaliyah, not as a medical intervention for Adam.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">Aaliyah then told RJ. RJ — who has a documented pattern of using information to cause institutional harm to Adam Watson — received confirmation from a police officer, via Aaliyah, that Adam Watson was locked in a psychiatric ward. He used that information immediately.</p>
+                    </div>
+
+                    <!-- RJ calls Hancock Prospecting -->
+                    <div class="border border-hot/30 p-5 mb-5" style="background:rgba(193,68,14,0.05)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">RJ Calls Hancock Prospecting</div>
+                        <h5 class="font-display text-lg tracking-wide mb-3 leading-tight">RJ HEARD IT FROM AALIYAH.<br><span class="text-hot">AND CALLED HANCOCK PROSPECTING TO TELL THEM ADAM IS IN THE PSYCH WARD.</span></h5>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">RJ — having been told by Aaliyah that Adam Watson was in the Psychiatric Ward at Prince of Wales Hospital — called <strong class="text-paper/65">Hancock Prospecting</strong> to inform them. The purpose was reputational damage: to use the fact of an involuntary psychiatric admission — initiated by a police officer's cross-state referral over a tone of voice — as a means of undermining Adam Watson's standing with Mrs. Rinehart's organisation.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">The chain is complete: police officer → Aaliyah → RJ → Hancock Prospecting. A psychiatric admission triggered by a tone-of-voice complaint was converted — within the same network — into a reputational weapon deployed against Adam Watson with one of the most significant corporate relationships in his life.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4">
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Source of Information</div>
+                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Police officer → Aaliyah ("Don't worry, he's locked up now") → RJ</p>
+                            </div>
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Where RJ Deployed It</div>
+                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Called Hancock Prospecting directly to disclose that Adam Watson was in a psychiatric ward.</p>
+                            </div>
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">The Intent</div>
+                                <p class="text-[0.58rem] text-paper/40 leading-relaxed">Reputational destruction. Use a forced psychiatric admission as evidence of instability to an organisation with which Adam has a significant relationship.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Punitive psychiatry analysis -->
+                    <div class="border border-paper/15 p-5 mb-5" style="background:rgba(0,0,0,0.18)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/35 mb-3">Punitive Psychiatry — How Police Play This</div>
+                        <h5 class="font-display text-lg tracking-wide mb-3 leading-tight text-paper/70">THE MENTAL HEALTH ACT WAS DESIGNED TO PROTECT PEOPLE.<br><span class="text-paper/45">IT IS ALSO A MECHANISM FOR REMOVAL WITHOUT CHARGE.</span></h5>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Punitive psychiatry — the use of mental health legislation as a tool of social control rather than clinical intervention — has a documented history. In its most overt form it was used by Soviet authorities to silence dissidents. In its everyday form in Australia, it operates through the gap between police discretion and clinical review: an officer can initiate an involuntary psychiatric hold, the person is removed from their home, and the hospital then makes its own determination. The hold happens before any clinical assessment. Removal is the first step, not the last.</p>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">What happened here follows that pattern precisely. A QLD police officer — who had no mental health training, no clinical basis, and whose motivating factor was displeasure at a person's tone — made a cross-state referral that resulted in Adam Watson being removed from his home, transported to Prince of Wales Hospital, placed in a locked Psychiatric Ward, and held with no announced exit date. No charge. No finding. No clinical crisis. A phone call with the wrong tone.</p>
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">The officer then told the complainant he was "locked up now" — treating the outcome as a resolution of Aaliyah's complaint rather than as a medical event. The information then moved through the network: Aaliyah to RJ, RJ to Hancock Prospecting. By the time Adam Watson was in a hospital bed, the fact of his admission was already being weaponised against him externally.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <div class="border border-paper/10 p-3" style="background:rgba(245,234,212,0.02)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-paper/30 mb-1.5">What the MHA Is For</div>
+                                <p class="text-[0.58rem] text-paper/38 leading-relaxed">Involuntary assessment when a person presents a risk to themselves or others — a clinical determination, made by qualified practitioners, based on observed behaviour and mental state.</p>
+                            </div>
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">What It Was Used For Here</div>
+                                <p class="text-[0.58rem] text-paper/38 leading-relaxed">To remove a person from his home, at the request of a QLD police officer displeased with his tone, after a call in which that officer had threatened him with false charges and unlawful remand. The MHA was the mechanism. Removal was the goal.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Doctor's finding — clears Adam -->
+                    <div class="border border-sage/30 p-5 mb-5" style="background:rgba(61,122,74,0.05)">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-sage">Doctor's Assessment — Prince of Wales Hospital</span>
+                            <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-sage/40 text-sage/70 px-1.5 py-0.5">CLINICALLY CLEARED</span>
+                        </div>
+                        <h5 class="font-display text-lg tracking-wide mb-3 leading-tight">"THERE'S NOTHING WRONG WITH YOU."<br><span class="text-sage">THE DOCTOR CHECKED ADAM WATSON AND FOUND NO CLINICAL BASIS FOR HIS DETENTION.</span></h5>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">The doctor who assessed Adam Watson at Prince of Wales Hospital examined him and stated plainly: <em class="text-paper/70">"There's nothing wrong with you."</em> The clinical assessment — the one that actually matters, conducted by a qualified practitioner at the receiving hospital — found no basis for the involuntary admission. No mental health crisis. No risk to self or others. Nothing that would justify a hold under the Mental Health Act.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">That finding is the clearest possible evidence that what occurred was not a welfare intervention. It was a removal. A QLD police officer made a cross-state referral, Adam Watson was taken from his home and placed in a locked ward, and the hospital's own doctor found nothing wrong with him. Adam Watson's position is direct: <strong class="text-paper/65">this is a stitch-up. And the people behind it are in Southport Police.</strong></p>
+                    </div>
+
+                    <!-- Attempted call to Southport — no answer -->
+                    <div class="border border-hot/25 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Attempt to Identify the Officer — Southport Police Station Did Not Answer</div>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Adam Watson attempted to call <strong class="text-paper/65">Southport Police Station</strong> to obtain the rank and serial number of the officer who accepted Aaliyah's complaint and made the cross-state referral under the Mental Health Act. <strong class="text-paper/65">No one answered.</strong></p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">A person who has just been involuntarily admitted to a psychiatric ward — on the basis of a police officer's cross-state referral — attempting to identify that officer through the official channel, and receiving no answer, is not an administrative failure. It is a closed door. The rank and serial number of a police officer who uses the Mental Health Act as a removal mechanism should be obtainable. It was not.</p>
+                    </div>
+
+                    <!-- "Yes Bodie scammed you but Aaliyah wasn't involved" -->
+                    <div class="border border-hot/35 p-5 mb-5" style="background:rgba(193,68,14,0.06)">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">The Officer's Comment — Exculpating Aaliyah</span>
+                        </div>
+                        <p class="font-display text-lg text-hot mb-3 leading-tight">"YES, BODIE SCAMMED YOU — BUT AALIYAH WASN'T INVOLVED."</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">During the call, the officer made a telling comment: she acknowledged that Bodie Chalmers had scammed Adam Watson, but drew a line at Aaliyah — asserting that Aaliyah was not involved. This is a position that does not survive scrutiny.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">The assumption that a criminal's partner is uninvolved is a persistent and often incorrect framing. In practice, partners are frequently present, aware, and participating — sometimes directly, sometimes as an infrastructure of logistics and knowledge that makes the conduct possible. The officer accepted a binary that the evidence does not support.</p>
+                        <div class="border-l-4 border-hot/50 pl-4 mb-4" style="background:rgba(193,68,14,0.05);padding:0.85rem 1rem 0.85rem 1.25rem">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">Aaliyah Was in the Car at Broadbeach</div>
+                            <p class="text-[0.65rem] text-paper/55 leading-relaxed">Aaliyah was present in the car when Bodie Chalmers drove to Broadbeach to stalk and intimidate Adam Watson — the incident in which Bodie was yelling <em>"Russian!"</em> at him in the library carpark. She was not a bystander who happened to be there. She was in the vehicle. She was present for the stalking and intimidation of Adam Watson. A partner who sits in the car during a targeted intimidation campaign is not uninvolved — she is a participant in the context that made it possible.</p>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">The Officer's Assumption</div>
+                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Bodie was the criminal. Aaliyah, as his partner, is treated as a separate and uninvolved party whose complaint is taken at face value.</p>
+                            </div>
+                            <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">What the Evidence Shows</div>
+                                <p class="text-[0.58rem] text-paper/45 leading-relaxed">Aaliyah was in the car during the Broadbeach stalking and intimidation incident. Her subsequent complaint — made after Bodie went to jail — fits a coordinated pattern, not an independent victim coming forward.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-l-4 border-hot/50 pl-5" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">Part of the Conduct Farshad Sarabi Is Pursuing</div>
+                        <p class="text-[0.65rem] text-paper/50 leading-relaxed">The chain from Aaliyah's complaint — through the QLD officer's threats, the cross-state referral, the involuntary psychiatric admission at Prince of Wales Hospital, the doctor's finding of nothing clinically wrong, the unanswered call to identify the officer, the disclosure to Aaliyah that he was "locked up," and the subsequent leak to RJ weaponised at Hancock Prospecting — is part of the conduct that Adam Watson's lawyer Farshad Sarabi is pursuing against Queensland Police. A police officer's decision to refer a person interstate under the Mental Health Act because she did not like his tone, exculpate a criminal's partner who was present during a stalking incident, and then make the person's admission known to that partner's network — is not a discretion that exists without scrutiny.</p>
+                    </div>
                 </div>
 
                 <!-- Tweed Heads pub incident -->
@@ -2928,6 +3197,24 @@
                 <p class="text-[0.68rem] text-paper/45 leading-relaxed">This is the mechanism of indemnity insurance fraud: make an allegation false enough to cause maximum institutional disruption but specific enough to trigger an insurance response. You don't need a conviction. You need a claim. The doctor's office was raided. A civil lawsuit ran against the insurance. The insurance became unrenewable. A private practice — built over decades — ceased to exist. The person who made the allegation has never been convicted of anything in connection with it.</p>
             </div>
 
+            <!-- What actually happened during the examination -->
+            <div class="border border-hot/30 p-5 mb-5" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">What Actually Happened — The Medical Examination</div>
+                <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">RJ CAME IN FOR A TESTICULAR EXAMINATION.<br><span class="text-hot">THE DOCTOR'S NOTES RECORD EXACTLY WHAT HAPPENED.</span></h4>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">RJ attended the clinic to have his testicles examined. During the course of the examination — a routine clinical inspection — RJ began leaking pre-ejaculatory fluid. The doctor noted this in his clinical records at the time. Those notes became the document that protected him: a contemporaneous clinical record made during the consultation, before any allegation existed, recording what had physically occurred during the examination.</p>
+                <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">RJ then ran with a false allegation of unwanted contact. He claimed the examination was not consensual — that he had been subjected to contact he had not agreed to. The doctor's own medical notes — made in the ordinary course of a clinical consultation — established precisely what had taken place and in what order. The notes recorded the physiological response RJ exhibited during the examination. They directly contradicted the framing RJ subsequently advanced.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">The Clinical Record</div>
+                        <p class="text-[0.58rem] text-paper/45 leading-relaxed">The doctor made contemporaneous notes during the consultation recording what occurred. Those notes — made before any allegation was raised — documented RJ's physiological response during the examination.</p>
+                    </div>
+                    <div class="border border-sage/15 p-3" style="background:rgba(61,122,74,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.15em] uppercase text-sage mb-1.5">Why the Notes Protected Him</div>
+                        <p class="text-[0.58rem] text-paper/45 leading-relaxed">Contemporaneous clinical records carry significant evidentiary weight. Notes made at the time of a consultation — before any dispute arose — establish the factual sequence of events as recorded by the treating practitioner.</p>
+                    </div>
+                </div>
+            </div>
+
             <!-- Uttering charge callout -->
             <div class="border border-sage/25 p-5 mb-2" style="background:rgba(61,122,74,0.04)">
                 <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-3">Second Allegation — Uttering a Document · Defeated at First Appearance</div>
@@ -2999,6 +3286,53 @@
                         <span class="text-[0.48rem] tracking-[0.15em] uppercase text-gold/60">All footage provided to QPS — redacted versions available here</span>
                         <button class="mv-dl-btn mv-dl-gold text-[0.48rem]" onclick="downloadZip('rj_evidence_bundle.zip')">⬇ ZIP Bundle</button>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Incident 14: Zach — Pig's Head / Pacific Fair / Complaint Withdrawn -->
+        <div class="story-chapter reveal mt-10" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Incident 14 — Zach · Pacific Fair · Pig's Head · Complaint Withdrawn</span></div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">PUNCHED FOR TALKING TO A GIRL.<br><span class="text-hot">RETALIATED. PUNCHED AGAIN. POLICE COULDN'T HELP.</span></h3>
+            <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"RJ went to the police to report an assault. Zach admitted it — but told police exactly why. They had the CCTV. RJ withdrew the complaint."</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">RJ made a comment while trying to talk to a girl. Zach — a Muslim man — punched him. Rather than leave it there, RJ organised a retaliatory act: he went with <strong class="text-paper/65">Bodie Chalmers</strong> to Zach's home address and left a <strong class="text-paper/65">pig's head on his door</strong>. A deliberate religious provocation — pig products being forbidden under Islamic law — directed at a man who had punched him.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Zach saw RJ at <strong class="text-paper/65">Pacific Fair</strong> and punched him again. RJ went to the police to make a formal assault complaint. When police spoke to Zach, he admitted the assault without hesitation — but gave his reason: RJ had left a pig's head at his door. Zach also had <strong class="text-paper/65">CCTV footage</strong> of RJ and Bodie Chalmers at his address. Police informed RJ that if they were going to charge Zach for the assault, they would have to charge RJ for the pig's head incident as well. RJ withdrew his complaint.</p>
+
+            <!-- Four-cell breakdown -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">First Punch</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">RJ made a comment while trying to talk to a girl. Zach punched him in response.</p>
+                </div>
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The Retaliation</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">RJ and Bodie Chalmers went to Zach's home address and placed a pig's head on his door — a deliberate religious provocation against a Muslim man. Zach had CCTV capturing both of them.</p>
+                </div>
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Second Punch — Pacific Fair</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Zach encountered RJ at Pacific Fair and punched him again. RJ went to police and made a formal assault complaint.</p>
+                </div>
+                <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">The Police Response</div>
+                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">Zach admitted the assault — and explained the pig's head. He had the CCTV. Police told RJ: charging Zach means charging RJ too. RJ withdrew his complaint.</p>
+                </div>
+            </div>
+
+            <!-- Zach's admission callout -->
+            <div class="border-l-4 border-hot/60 pl-5 mb-5" style="background:rgba(193,68,14,0.06);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">Zach's Position to Police</div>
+                <p class="text-[0.65rem] text-paper/55 leading-relaxed italic mb-2">"Yes, I punched him — because he left a pig's head at my door."</p>
+                <p class="text-[0.65rem] text-paper/45 leading-relaxed">Zach did not deny the assault. He explained it. He had CCTV evidence of RJ and Bodie Chalmers at his property. The pig's head — a religiously targeted act against a Muslim man — was on the record. RJ came to the police as a victim. He left having withdrawn his own complaint.</p>
+            </div>
+
+            <!-- Consequence panel -->
+            <div class="border border-paper/[0.07] p-5" style="background:rgba(193,68,14,0.03)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Why the Complaint Was Withdrawn</div>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Charging Zach for assault required police to also charge RJ for the pig's head incident — a targeted religious provocation documented on Zach's own CCTV.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">RJ had arrived at the police station as the victim. The pig's head — placed at a Muslim man's home — made that position untenable.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Bodie Chalmers was also present at Zach's property — captured on the same CCTV. His involvement in the retaliation is on the record.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">Complaint withdrawn. No charges proceeded. The sequence — provocation, escalation, police weaponisation, retreat — is the same pattern documented across RJ's other incidents.</p></div>
                 </div>
             </div>
         </div>
@@ -4034,6 +4368,38 @@
                     </div>
                 </div>
 
+                <!-- Lottery / email intercept incident -->
+                <div class="border-l-4 border-hot/50 pl-5 mt-6 mb-6" style="background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">New Incident</span>
+                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-gold/40 text-gold px-1.5 py-0.5">⬤ IN RECOVERY</span>
+                    </div>
+                    <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">$200,000 LOTTERY WIN.<br><span class="text-hot">BODIE INTERCEPTED THE EMAIL. GAVE AWAY THE BANK DETAILS.</span></h4>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Adam Watson won $200,000 through Adrian Portelli's lottery. A notification email was sent requesting his bank deposit details so the winnings could be transferred. Bodie Chalmers — who had obtained access to Adam Watson's emails — intercepted that email and replied to it himself, providing his own bank deposit details in Adam's name. The $200,000 was directed to Bodie Chalmers's account.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-4">
+                        <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-1">The Win</div>
+                            <div class="font-display text-2xl text-gold mb-1">$200,000</div>
+                            <p class="text-[0.55rem] text-paper/38 leading-relaxed">Adam Watson gambling on Adrian Portelli's lottery. Legitimate win. Notification sent to his email account.</p>
+                        </div>
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-1">The Intercept</div>
+                            <div class="font-display text-base text-hot mb-1">Email Access</div>
+                            <p class="text-[0.55rem] text-paper/38 leading-relaxed">Bodie had gained access to Adam Watson's email account. He saw the lottery notification, replied to it with his own bank deposit details, and redirected the transfer.</p>
+                        </div>
+                        <div class="border border-paper/[0.08] p-4" style="background:rgba(0,0,0,0.18)">
+                            <div class="text-[0.44rem] tracking-[0.2em] uppercase text-paper/30 mb-1">Status</div>
+                            <div class="font-display text-base text-paper/60 mb-1">In Recovery</div>
+                            <p class="text-[0.55rem] text-paper/38 leading-relaxed">The $200,000 is currently in recovery. The intercept adds to the fraud charges Bodie Chalmers is already facing.</p>
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed"><strong class="text-paper/58">The access:</strong> Bodie Chalmers obtained access to Adam Watson's email account. The mechanism by which he did so is consistent with the broader pattern of covert surveillance documented across this chapter — Apple location access obtained without knowledge, tracking device on the fuel cap, and now email account access.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed"><strong class="text-paper/58">The reply:</strong> Rather than alert Adam Watson to the lottery notification, Bodie replied directly to the sender — impersonating Adam — and submitted his own bank deposit details. The transfer proceeded on the basis of those details.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed"><strong class="text-paper/58">Recovery underway:</strong> The $200,000 is currently being recovered. This incident is part of the broader fraud charges Bodie Chalmers faces — he is already looking at 3 years for defrauding Adam Watson across the pattern of conduct documented in this chapter.</p></div>
+                    </div>
+                </div>
+
                 <!-- Irony callout -->
                 <div class="border border-violet/25 p-5" style="background:rgba(124,106,170,0.04)">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">The Irony — On the Record</div>
@@ -4262,6 +4628,24 @@
                             <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-1">The Consequence</div>
                             <div class="font-display text-xl text-hot mb-2">FIRED &amp;<br>BLACKLISTED</div>
                             <p class="text-[0.62rem] text-paper/40 leading-relaxed">The associate was fired and will be blacklisted from working in any finance position. Her career — destroyed by choosing to do a favour for Grason Andrew Kira.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ATO Update -->
+                <div class="story-chapter reveal mt-10" style="border-left-color:rgba(201,138,16,0.5)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Update — Australian Taxation Office</span>
+                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-gold/25 text-gold/60 px-1.5 py-0.5">⬤ Active Investigation</span>
+                    </div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">KIRA'S DAD HAS BEEN CHARGED.<br><span class="text-gold">THE ATO IS NOW GOING THROUGH THE BOOKS OF KIRA & KIRA.</span></h3>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Following the charging of Kira's father, the Australian Taxation Office has opened an investigation into the records of Kira & Kira. A charge against a principal of a business alleged to be operating as a front for cocaine distribution does not stay contained — it opens the financial records of the entire operation to regulatory scrutiny. The ATO is now going through those books.</p>
+                    <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.04)">
+                        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">Why This Matters</div>
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">A front operation that moves cocaine through furniture transactions will have financial records that do not match a legitimate retail business. Cash flows, invoice patterns, and declared income will be scrutinised against the alleged volume of drug movement.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">The ATO's access to business records is broad — tax obligations, GST, undeclared income, and unexplained cash are all within scope. A charge against a principal provides the trigger for a full examination of the entity's finances.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed">This investigation is independent of the criminal charges — it runs on a separate track and can produce its own findings, penalties, and referrals regardless of the outcome of the criminal matter.</p></div>
                         </div>
                     </div>
                 </div>
@@ -5405,6 +5789,57 @@
                 <div class="stat-number text-4xl text-paper/50 mb-1">0</div>
                 <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Suppression orders</div>
                 <div class="text-[0.5rem] text-paper/18 mt-1">Public record — no gag</div>
+            </div>
+        </div>
+
+        <!-- Robert Huang — Consent Order Interference + New Incidents -->
+        <div class="story-chapter reveal mb-10 mt-10" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Update — Robert Huang · Consent Order · Winding Up · Commonwealth Bank</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">ROBERT HUANG WENT BEHIND ADAM WATSON'S BACK.<br><span class="text-hot">THE JUDGE IS FURIOUS. $30M IN PROPERTIES GOING TO A FIRE SALE.</span></h3>
+
+            <div class="space-y-5 text-[0.72rem] leading-relaxed text-paper/50 mb-6">
+                <p>Robert Huang — the director of PSR Crown Investments Pty Ltd and technically the victim of the Winding Up application in this matter — called the Court following execution of the Consent Order and attempted to have Adam Watson removed from the parties receiving a payment under it. He also attempted to have Graham Gordon removed. He did this without Adam Watson's knowledge or consent.</p>
+                <p>The Registrar took a very dim view of this conduct. The Registrar has notified the Judge. The Judge is furious. As a direct consequence of Huang's actions, Adam Watson's companies are now going to be liquidated. Those companies hold approximately $30 million worth of properties — secured by high mortgages. A court-appointed liquidator will sell them, at a fire sale price. The people who lent Robert Huang money will lose a significant amount of what they are owed.</p>
+                <p>Robert Huang could have had something. The Consent Order gave him a real, enforceable outcome. He chose instead to go behind Adam Watson's back, to approach the Court unilaterally, and to attempt to strip payments from parties who had agreed to them. That decision has now produced a much worse result for everyone connected to those assets — including the lenders who had nothing to do with the dispute.</p>
+            </div>
+
+            <!-- Consequence breakdown -->
+            <div class="border border-hot/25 p-5 mb-6" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-4">The Consequence — What Going Behind Adam Watson's Back Has Cost</div>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">The Action</div>
+                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Called the Court. Attempted to remove Adam Watson and Graham Gordon from the Consent Order payment schedule. Done without notice or consent from either party.</p>
+                    </div>
+                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">The Response</div>
+                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">Registrar notified the Judge. Judge furious. Adam Watson's companies now to be liquidated as a direct consequence of Huang's conduct behind his back.</p>
+                    </div>
+                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">The Cost</div>
+                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">~$30M in properties. High mortgages. Fire sale by court-appointed liquidator. Lenders exposed to significant losses. An outcome that could have been avoided.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trent Long / Crown Street / CBA -->
+            <div class="border-l-4 border-hot/55 pl-5 mb-6" style="background:rgba(193,68,14,0.05);padding:1rem 1rem 1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">Separate Matter — Trent Long · U1302/51 Crown Street, Wollongong · Commonwealth Bank</div>
+                <p class="text-[0.65rem] text-paper/55 leading-relaxed mb-3">Robert Huang has a separate dispute on with Trent Long — one of his tenants at Unit 1302, 51 Crown Street, Wollongong NSW. Robert had a Commonwealth Bank loan secured by mortgage against that property. He then borrowed $1.7 million from an Asian investor — separately, against the same property — without disclosing to the investor that the Commonwealth Bank already held a first mortgage over it, and without obtaining the Commonwealth Bank's approval.</p>
+                <p class="text-[0.65rem] text-paper/55 leading-relaxed mb-3">Trent Long notified the Commonwealth Bank. The Commonwealth Bank is now issuing a Notice to Complete the mortgage — a 28-day notice — on the basis that the mortgage contract expressly prohibits the borrower from lending against a property mortgaged to the Commonwealth Bank without the prior written approval of the first mortgagee. That approval was never sought. The $1.7 million was raised without it.</p>
+                <p class="text-[0.65rem] text-paper/55 leading-relaxed">The investor who provided the $1.7 million was not told the property was already encumbered by a Commonwealth Bank mortgage. That is a material fact in the context of any secured loan. The 28-day Notice to Complete places the loan into default. What follows — for the mortgage, for the $1.7 million, and for the investor who was not given a full picture — is now in motion.</p>
+            </div>
+
+            <div class="border border-paper/[0.07] p-5" style="background:rgba(0,0,0,0.18)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/28 mb-3">Robert Huang — Documented Conduct</div>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Contacted the Court unilaterally after Consent Order execution to remove parties from the payment schedule — without notice to or consent from Adam Watson.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Attempted to have both Adam Watson and Graham Gordon stripped from a Consent Order all parties had signed — a Consent Order that gave Huang a real outcome.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Borrowed $1.7M from an investor against a CBA-mortgaged property without disclosing the first mortgage and without CBA approval — in direct breach of the mortgage contract.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/42 leading-relaxed">Result: ~$30M in properties facing fire sale by liquidator. Lenders exposed. An outcome caused entirely by his own actions.</p></div>
+                </div>
             </div>
         </div>
 
