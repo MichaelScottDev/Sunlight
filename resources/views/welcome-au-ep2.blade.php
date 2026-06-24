@@ -1806,6 +1806,108 @@
                     </div>
                 </div>
 
+                <!-- Westpac complaint outcome — threat/penalty scam — Bodie named as recipient -->
+                <div class="story-chapter reveal mt-8 border-l-4 border-hot/60 pl-5" style="background:rgba(193,68,14,0.05);padding:1.3rem 1rem 1.3rem 1.25rem">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Westpac Bank · Complaint CS144260094 · 24 June 2026</span>
+                        <span class="text-[0.44rem] tracking-[0.15em] uppercase border border-paper/15 text-paper/30 px-2 py-0.5 blink">⬤ BANK CONFIRMED</span>
+                    </div>
+                    <h4 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">THREAT SCAM — FROM INSIDE CUSTODY.<br><span class="text-hot">WESTPAC CONFIRMED THE PAYMENTS WENT TO BODIE CHALMERS.</span></h4>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"On 1 April 2026 — while Bodie Chalmers was in custody — Adam Watson was threatened: pay money or information would be leaked about him. He became so distressed from the scam he was hospitalised and sedated. He paid. Westpac has now formally confirmed the payments went to B Chalmers and Bodie Chalmers."</p>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">On 1 April 2026, Adam Watson received a threat: pay money or information about him would be leaked. The threat was untrue. It was a threat/penalty scam — and it worked. Adam was so distressed by the experience that he was hospitalised and sedated for the trauma. He transferred the money. He closed his Westpac accounts out of fear that the extortion would continue. Closing those accounts cut off his Centrelink payments — preventing him from accessing funds for diabetic medication.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">Westpac investigated. Their finding, in the bank's own words: <strong class="text-paper/65">"We acknowledge that you are a victim in this matter."</strong> They cross-referenced the names, dates, times, and amounts Adam provided against their own records — and found the transactions. Every payment matched. Every payment went to the same recipient: <strong class="text-hot">B Chalmers. Bodie Chalmers.</strong></p>
+
+                    <!-- Key findings grid -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                        <div class="border border-hot/25 p-4" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">Total Confirmed by Westpac</div>
+                            <div class="font-display text-4xl text-hot mb-1">$820</div>
+                            <p class="text-[0.58rem] text-paper/38 leading-relaxed">6 separate transactions confirmed — all to B Chalmers / Bodie Chalmers</p>
+                        </div>
+                        <div class="border border-hot/25 p-4" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">Adam's Condition</div>
+                            <div class="font-display text-base text-paper/75 mb-1">HOSPITALISED · SEDATED</div>
+                            <p class="text-[0.58rem] text-paper/38 leading-relaxed">Adam became so distressed from the scam he was hospitalised and sedated for the trauma experienced</p>
+                        </div>
+                        <div class="border border-hot/25 p-4" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">Centrelink Cut Off</div>
+                            <div class="font-display text-base text-paper/75 mb-1">DIABETIC MEDICATION</div>
+                            <p class="text-[0.58rem] text-paper/38 leading-relaxed">Closed accounts through fear extortion would continue — blocked from receiving Centrelink payments for medication</p>
+                        </div>
+                    </div>
+
+                    <!-- Transaction log -->
+                    <div class="border border-paper/[0.08] mb-6" style="background:rgba(0,0,0,0.3)">
+                        <div class="border-b border-paper/[0.07] px-4 py-2.5 flex items-center gap-3">
+                            <span class="text-[0.46rem] tracking-[0.2em] uppercase text-hot">Westpac Transaction Log — Payments to Bodie Chalmers</span>
+                            <span class="text-[0.4rem] tracking-[0.12em] uppercase text-paper/25">Account ending 104 · Now closed</span>
+                        </div>
+                        <div class="divide-y divide-paper/[0.05]">
+                            <div class="grid grid-cols-3 px-4 py-2">
+                                <span class="text-[0.5rem] tracking-[0.12em] uppercase text-paper/25">Date &amp; Time</span>
+                                <span class="text-[0.5rem] tracking-[0.12em] uppercase text-paper/25">Recipient</span>
+                                <span class="text-[0.5rem] tracking-[0.12em] uppercase text-paper/25 text-right">Amount</span>
+                            </div>
+                            @foreach([
+                                ['10 Apr 2026 · 10:01', 'B Chalmers', '$360.00'],
+                                ['10 Apr 2026 · 14:51', 'B Chalmers', '$25.00'],
+                                ['19 Apr 2026 · 20:55', 'Bodie Chalmers', '$5.00'],
+                                ['24 Apr 2026 · 13:45', 'Bodie Chalmers', '$330.00'],
+                                ['24 Apr 2026 · 13:52', 'Bodie Chalmers', '$50.00'],
+                                ['15 May 2026 · 16:12', 'Bodie Chalmers', '$50.00'],
+                            ] as $row)
+                            <div class="grid grid-cols-3 px-4 py-2.5">
+                                <span class="text-[0.55rem] text-paper/50 font-mono">{{ $row[0] }}</span>
+                                <span class="text-[0.55rem] text-hot font-mono">{{ $row[1] }}</span>
+                                <span class="text-[0.55rem] text-paper/70 font-mono text-right">{{ $row[2] }}</span>
+                            </div>
+                            @endforeach
+                            <div class="grid grid-cols-3 px-4 py-2.5 border-t border-paper/[0.1]" style="background:rgba(193,68,14,0.06)">
+                                <span class="text-[0.5rem] tracking-[0.12em] uppercase text-hot col-span-2">Total confirmed by Westpac</span>
+                                <span class="text-[0.65rem] text-hot font-display text-right">$820.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Westpac findings callout -->
+                    <div class="border-l-2 border-hot/40 pl-4 py-2 mb-6" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">Westpac's Finding — Verbatim</div>
+                        <p class="text-[0.65rem] text-paper/60 leading-relaxed italic mb-2">"We acknowledge that you are a victim in this matter, and we are deeply conscious of both the seriousness of the matter and of the loss you have incurred."</p>
+                        <p class="text-[0.65rem] text-paper/60 leading-relaxed italic mb-2">"We note the below transactions which match the information held on your profile, sent to B Chalmers and Bodie Chalmers. Which you shared were the recipient of your payments."</p>
+                        <p class="text-[0.65rem] text-paper/60 leading-relaxed italic">"The loss has been suffered at the hands of a third party to whom you had voluntarily transferred funds to."</p>
+                        <p class="text-[0.5rem] text-paper/28 mt-2">— Nicole Garmon, Complaint Manager · Westpac Banking Corporation · Complaint CS144260094 · 24 June 2026</p>
+                    </div>
+
+                    <!-- Compassionate offer -->
+                    <div class="border border-paper/[0.08] p-4 mb-6" style="background:rgba(12,8,4,0.5)">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-sage mb-2">Westpac Outcome — Compassionate Offer</div>
+                        <p class="text-[0.65rem] text-paper/55 leading-relaxed">Westpac offered to return <strong class="text-paper/70">$820.00</strong> to Adam Watson on compassionate grounds — acknowledging his long standing tenure and his status as a victim. The bank confirmed it cannot recover the funds as significant time has passed since the transactions, but has opened a formal scam investigation case (ref. CS144260094) to pursue recovery through other financial institutions involved. The scam investigation may take up to 6 weeks. Adam has signed the acceptance of this outcome.</p>
+                    </div>
+
+                    <!-- PDF embed -->
+                    <div class="border border-paper/[0.08] mb-4">
+                        <div class="border-b border-paper/[0.07] px-4 py-2.5 flex items-center justify-between" style="background:rgba(0,0,0,0.25)">
+                            <div class="flex items-center gap-3">
+                                <span class="text-[0.44rem] text-hot">PDF</span>
+                                <span class="text-[0.46rem] tracking-[0.18em] uppercase text-paper/55">Westpac · Complaint Outcome Letter · CS144260094</span>
+                            </div>
+                            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bodie_chalmers/complaint_outcome.pdf" target="_blank" class="text-[0.44rem] tracking-[0.12em] uppercase text-sage/60 hover:text-sage border border-sage/20 hover:border-sage/40 px-2 py-0.5 transition-colors">Open ↗</a>
+                        </div>
+                        <iframe
+                            src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bodie_chalmers/complaint_outcome.pdf"
+                            class="w-full"
+                            style="height:520px;border:none;background:#1a1612"
+                            title="Westpac complaint outcome — CS144260094 — payments to Bodie Chalmers confirmed"
+                        ></iframe>
+                    </div>
+
+                    <div class="border-l-2 border-hot/50 pl-3 py-1.5" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1">Why This Is Significant</div>
+                        <p class="text-[0.62rem] text-paper/45 leading-relaxed">This is not an allegation. This is a bank's formal finding — issued in writing, under Westpac's complaint resolution framework. Westpac confirmed that Adam Watson was a victim of a threat/penalty scam. Westpac confirmed the payments went to Bodie Chalmers. The bank is now pursuing the matter through formal scam investigation channels. This document places Bodie Chalmers's name — in writing, by a major financial institution — as the confirmed recipient of funds extorted from Adam Watson through threats.</p>
+                    </div>
+                </div>
+
                 <!-- Bodie Chalmers — psych ward performance -->
                 <div class="border-l-4 border-gold/50 pl-5 mb-5 mt-5" style="background:rgba(201,138,16,0.05);padding:1.2rem 1rem 1.2rem 1.25rem">
                     <div class="flex items-center gap-3 mb-3">
