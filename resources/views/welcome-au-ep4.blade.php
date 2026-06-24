@@ -215,7 +215,7 @@
                 <media-player
                     id="player-ep4"
                     title="The Accountant — Episode 4"
-                    src=""
+                    src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/rj_confront.mp4"
                     poster="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/hellen_pertekes.jpeg"
                     style="--media-brand:#3d7a4a;--media-focus-ring-color:rgba(61,122,74,0.45);--media-time-chapters-bg:rgba(61,122,74,0.5);width:100%;border:1px solid rgba(61,122,74,0.2);box-shadow:0 0 80px rgba(61,122,74,0.09),0 0 0 1px rgba(245,234,212,0.025);aspect-ratio:16/9"
                 >
@@ -241,11 +241,19 @@
                     </a>
                     <a href="#pioneer-lakes" class="flex items-center gap-2 px-4 py-3 hover:bg-sage/8 border-r border-paper/[0.06] transition-all group">
                         <span class="font-display text-[0.62rem] text-sage">03</span>
-                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Pioneer Lakes</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Kira Steinhaus · $3.5M demand</div></div>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Pioneer Lakes</div><div class="text-[0.47rem] text-paper/22 tracking-wider">New deal · Mackay</div></div>
                     </a>
-                    <a href="#kane-singleton" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 transition-all group">
+                    <a href="#kira-steinhaus" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
                         <span class="font-display text-[0.62rem] text-hot">04</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Kira Steinhaus</div><div class="text-[0.47rem] text-paper/22 tracking-wider">$3.5M demand · uninvited</div></div>
+                    </a>
+                    <a href="#kane-singleton" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 border-r border-paper/[0.06] transition-all group">
+                        <span class="font-display text-[0.62rem] text-hot">05</span>
                         <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Kane Singleton</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Muay Thai · Charges laid</div></div>
+                    </a>
+                    <a href="#z-soielman" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 transition-all group">
+                        <span class="font-display text-[0.62rem] text-hot">06</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Z Soielman</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Home invasion · Remand</div></div>
                     </a>
                 </div>
             </div>
@@ -1336,7 +1344,7 @@
         </div>
 
         <!-- Kira Steinhaus Interference -->
-        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.55)">
+        <div id="kira-steinhaus" class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.55)">
             <div class="flex items-center gap-3 mb-4">
                 <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Deal Interference · Kira Steinhaus · $3.5M Demand · Legal Challenge Pending</span>
             </div>
@@ -1585,7 +1593,7 @@
         </div>
 
         <!-- Z Soielman -->
-        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.6)">
+        <div id="z-soielman" class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.6)">
             <div class="flex items-center gap-3 mb-4">
                 <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Z Soielman · Home Invasion · Fake ID · Armed Burglary Links · Remand · No Bail</span>
             </div>
