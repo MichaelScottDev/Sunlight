@@ -1730,18 +1730,40 @@
                         </div>
                     </div>
 
-                    <!-- Local Court Notice — debts owed -->
+                    <!-- Judgement Order — James McDonald -->
                     <div class="border border-paper/[0.07] overflow-hidden mb-4" style="background:rgba(0,0,0,0.2)">
                         <div class="flex items-center justify-between px-4 py-2.5 border-b border-paper/[0.06]" style="background:rgba(0,0,0,0.3)">
-                            <span class="text-[0.44rem] tracking-[0.2em] uppercase text-hot">Local Court · Notice of Orders Made · Debts Owed — James McDonald</span>
-                            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/Results+letter++Notice+of+orders+made+(1).pdf" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.12em] uppercase border border-paper/20 text-paper/35 px-2 py-1 hover:border-hot/50 hover:text-hot transition-colors">Open PDF ↗</a>
+                            <span class="text-[0.44rem] tracking-[0.2em] uppercase text-hot">Judgement Order · Local Court · Debt Owed — James McDonald</span>
+                            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/james_mcdonald/judgement_order_james_mcdonald.jpeg" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.12em] uppercase border border-paper/20 text-paper/35 px-2 py-1 hover:border-hot/50 hover:text-hot transition-colors">Open ↗</a>
                         </div>
-                        <div style="height:500px">
-                            <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/Results+letter++Notice+of+orders+made+(1).pdf" style="width:100%;height:100%;border:none;display:block" title="Local Court — Notice of Orders Made — James McDonald debt" loading="lazy"></iframe>
-                        </div>
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/james_mcdonald/judgement_order_james_mcdonald.jpeg" alt="Judgement Order — James McDonald — debt owed to Adam Watson — Local Court" class="w-full" loading="lazy" />
                         <div class="px-4 py-3 border-t border-paper/[0.05]" style="background:rgba(0,0,0,0.2)">
-                            <span class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/22">Local Court · Notice of Orders Made · Debt owed by James McDonald to Adam Watson · Court-stamped</span>
+                            <span class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/22">Judgement Order · Local Court · James McDonald — debt owed to Adam Watson · Court-stamped</span>
                         </div>
+                    </div>
+
+                    <!-- $50K trust / process server / suicide threat -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-4">
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">Known Assets</div>
+                            <div class="font-display text-3xl text-hot mb-1">$50K</div>
+                            <p class="text-[0.58rem] text-paper/40 leading-relaxed">James McDonald has $50,000 held in a trust. Adam Watson is pursuing this as part of enforcement of the judgement.</p>
+                        </div>
+                        <div class="border border-paper/[0.08] p-4" style="background:rgba(12,8,4,0.4)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">Service of Documents</div>
+                            <div class="font-display text-base text-paper/70 mb-1">PROCESS SERVER · $205</div>
+                            <p class="text-[0.58rem] text-paper/38 leading-relaxed">McDonald told Adam that if he tries to serve documents at his house he'll hit him with a brick. Adam will engage a process server at $205 — a small price to avoid the issue entirely.</p>
+                        </div>
+                        <div class="border border-paper/[0.08] p-4" style="background:rgba(12,8,4,0.4)">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-paper/30 mb-2">Suicide Threat</div>
+                            <div class="font-display text-base text-paper/70 mb-1">NOT A DETERRENT</div>
+                            <p class="text-[0.58rem] text-paper/38 leading-relaxed">James McDonald has threatened suicide. This has not deterred Adam Watson from pursuing enforcement of the judgement through the proper legal channels.</p>
+                        </div>
+                    </div>
+
+                    <div class="border-l-2 border-hot/40 pl-3 py-1.5 mb-4" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1">The Position</div>
+                        <p class="text-[0.62rem] text-paper/42 leading-relaxed">A Judgement Order is not a request. Threatening to hit someone with a brick for serving legal documents is not a legal defence. Threatening self-harm does not extinguish a court-issued debt. The judgement stands, the $50,000 in trust is a known asset, and the enforcement proceeds — through a process server if necessary — regardless.</p>
                     </div>
 
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed">Adam Watson is now assisting that person with legal representation arising from the charges that followed. The pattern is consistent: Bodie Chalmers instigates a situation using the false "paedophile" label he has been spreading, an altercation occurs, and he then uses the police to pursue the person who responded — while somehow avoiding the warrants that were outstanding in his own name. James McDonald goes further: he loses teeth, goes to police, then tries to forge his way out of the debt that followed.</p>
