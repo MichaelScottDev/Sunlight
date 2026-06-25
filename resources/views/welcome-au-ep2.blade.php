@@ -1405,8 +1405,19 @@
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">Social Stigmatisation — Robina KFC</div>
                     <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">REFUSED SERVICE AT THE DRIVE-THROUGH.<br><span class="text-hot">BODIE CHALMERS'S RUMOURS REACH ROBINA KFC.</span></h4>
 
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A staff member working at the Robina KFC refused service to Adam Watson when he went through the drive-through in an Uber — the result of the malicious rumours Bodie Chalmers had been spreading. The Uber driver suggested they go inside to get food. An incident ensued.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Adam Watson is currently working to identify the owner of the Robina KFC franchise with the intention of having the employee who refused him service terminated. The employee's decision to deny service based on unverified rumours from a known associate of the subject of a malicious prosecution finding is not a defensible position for a staff member to take.</p>
+                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">This is what social stigmatisation looks like in practice. A person who was the subject of a charge the DPP ruled malicious, who was never convicted, who has no finding against him — denied service at a fast food outlet because of rumours spread by the person whose false complaint produced the charge — the one the DPP ruled a malicious prosecution. This is what Bodie Chalmers and his accomplice Ebony's conduct costs people in daily life.</p>
+                </div>
+
+                <!-- Aaliyah — Broadbeach Library Carpark / Southport Police / Farshad Sarabi -->
+                <div class="story-chapter reveal mt-6 mb-6" style="border-left-color:rgba(193,68,14,0.5)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Aaliyah · Bodie's Girlfriend · Southport Police · False Harassment Claim</span></div>
+                    <h4 class="font-display text-xl tracking-wide mb-4 leading-tight">SHE YELLED "RUSSIAN!" AT KOSTA IN THE CARPARK.<br><span class="text-hot">AFTER BODIE WENT TO JAIL, SHE WENT TO THE POLICE.</span></h4>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Aaliyah was there in the Broadbeach library carpark — and she yelled 'Russian!' at me, because I'm Russian. She also told Adam the police wouldn't believe me because I live in a tent, and that they were planning to frame me by leaving a knife at my tent. After Bodie went to jail, she walked into Southport Police Station and claimed she was being harassed. A female officer called Adam to say she was charging him with stalking and intimidation — and threatened to hold him in custody until trial. Then she called Bodie in Corrective Services."</p>
+
                     <!-- Aaliyah identification -->
-                    <div class="flex gap-4 items-start mb-4 border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.18)">
+                    <div class="flex gap-4 items-start mb-5 border border-paper/[0.07] p-3" style="background:rgba(0,0,0,0.18)">
                         <div class="shrink-0 border border-paper/10 overflow-hidden" style="width:110px;aspect-ratio:3/4">
                             <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/IMG-20260623-WA0004.jpg" alt="Aaliyah — with Bodie Chalmers" class="w-full h-full object-cover object-top">
                         </div>
@@ -1417,18 +1428,15 @@
                         </div>
                     </div>
 
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">A friend of Bodie Chalmers's Russian girlfriend Aaliyah was working at the Robina KFC when Adam Watson went through the drive-through in an Uber. Adam was refused service — the result of the malicious rumours Bodie Chalmers had been spreading. The Uber driver suggested they go inside to get food. An incident ensued.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-3">Adam Watson is currently working to identify the owner of the Robina KFC franchise with the intention of having the employee who refused him service terminated. The employee's decision to deny service based on unverified rumours from a known associate of the subject of a malicious prosecution finding is not a defensible position for a staff member to take.</p>
-                    <p class="text-[0.68rem] text-paper/45 leading-relaxed">This is what social stigmatisation looks like in practice. A person who was the subject of a charge the DPP ruled malicious, who was never convicted, who has no finding against him — denied service at a fast food outlet because of rumours spread by the person whose false complaint produced the charge — the one the DPP ruled a malicious prosecution. This is what Bodie Chalmers and his accomplice Ebony's conduct costs people in daily life.</p>
-                </div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Aaliyah — Bodie Chalmers's girlfriend — was present at the Broadbeach library carpark, where she yelled <em class="text-paper/65">"Russian!"</em> at <strong class="text-paper/65">Kosta Kondratenko</strong>, Sunlight.Quest's founder, who is Russian. After Bodie Chalmers was remanded into custody, Aaliyah attended <strong class="text-paper/65">Southport Police Station</strong> and made a complaint claiming she was being harassed by Adam Watson.</p>
 
-                <!-- Aaliyah — Broadbeach Library Carpark / Southport Police / Farshad Sarabi -->
-                <div class="story-chapter reveal mt-6 mb-6" style="border-left-color:rgba(193,68,14,0.5)">
-                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Aaliyah · Bodie's Girlfriend · Southport Police · False Harassment Claim</span></div>
-                    <h4 class="font-display text-xl tracking-wide mb-4 leading-tight">PRESENT WHEN BODIE YELLED "RUSSIAN!" AT ADAM.<br><span class="text-hot">AFTER HE WENT TO JAIL, SHE WENT TO THE POLICE.</span></h4>
-                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Aaliyah was there in the Broadbeach library carpark when Bodie was screaming 'Russian!' at Adam. After Bodie went to jail, she walked into Southport Police Station and claimed she was being harassed. A female officer called Adam to say she was charging him with stalking and intimidation — and threatened to hold him in custody until trial. Then she called Bodie in Corrective Services."</p>
-
-                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Aaliyah — Bodie Chalmers's girlfriend — was present at the Broadbeach library carpark during the incident in which Bodie was yelling <em class="text-paper/65">"Russian!"</em> at Adam Watson. She witnessed what occurred. After Bodie Chalmers was remanded into custody, Aaliyah attended <strong class="text-paper/65">Southport Police Station</strong> and made a complaint claiming she was being harassed by Adam Watson.</p>
+                    <!-- The tent / knife frame comment -->
+                    <div class="border border-hot/30 p-5 mb-5" style="background:rgba(193,68,14,0.05)">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">What Aaliyah Told Adam Watson</div>
+                        <h5 class="font-display text-lg tracking-wide mb-3 leading-tight">"THE POLICE WON'T BELIEVE HIM — HE LIVES IN A TENT."<br><span class="text-hot">"WE'LL LEAVE A KNIFE AT HIS TENT."</span></h5>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Aaliyah told Adam Watson directly that the police would not believe Kosta Kondratenko because he lives in a tent — and that there was a plan to frame him by leaving a knife at his tent. The statement is two things at once: an admission that his homelessness was being treated as a tool to discredit him, and disclosure of an intention to plant evidence to manufacture a criminal allegation against him.</p>
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">A person's housing status is not a measure of their credibility. The plan to exploit it — and to go further by planting a weapon at the place he sleeps — is the same instrument documented throughout this investigation: where the truth will not produce a charge, fabricate the circumstances that will. That Aaliyah disclosed this to Adam Watson means it is now part of the record.</p>
+                    </div>
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">A female police officer called Adam Watson directly and informed him that Aaliyah was making a harassment complaint, that she was charging him with <strong class="text-paper/65">stalking and intimidation</strong>, and — in the same call — threatened that she would have him held in custody until his trial. That same female officer then called <strong class="text-paper/65">Bodie Chalmers in Corrective Services</strong> — who used the opportunity to make further allegations that he had been raped by Adam Watson.</p>
 
                     <!-- Custody threat callout -->
@@ -1455,7 +1463,7 @@
                     <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-5">
                         <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
                             <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Broadbeach Library Carpark</div>
-                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">Aaliyah was present when Bodie Chalmers was yelling "Russian!" at Adam Watson. She witnessed the incident firsthand.</p>
+                            <p class="text-[0.58rem] text-paper/45 leading-relaxed">Aaliyah yelled "Russian!" at Kosta Kondratenko — Sunlight.Quest's founder, who is Russian — in the carpark.</p>
                         </div>
                         <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.04)">
                             <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">Southport Police Station</div>
@@ -1618,7 +1626,7 @@
                         <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">The assumption that a criminal's partner is uninvolved is a persistent and often incorrect framing. In practice, partners are frequently present, aware, and participating — sometimes directly, sometimes as an infrastructure of logistics and knowledge that makes the conduct possible. The officer accepted a binary that the evidence does not support.</p>
                         <div class="border-l-4 border-hot/50 pl-4 mb-4" style="background:rgba(193,68,14,0.05);padding:0.85rem 1rem 0.85rem 1.25rem">
                             <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-2">Aaliyah Was in the Car at Broadbeach</div>
-                            <p class="text-[0.65rem] text-paper/55 leading-relaxed">Aaliyah was present in the car when Bodie Chalmers drove to Broadbeach to stalk and intimidate Adam Watson — the incident in which Bodie was yelling <em>"Russian!"</em> at him in the library carpark. She was not a bystander who happened to be there. She was in the vehicle. She was present for the stalking and intimidation of Adam Watson. A partner who sits in the car during a targeted intimidation campaign is not uninvolved — she is a participant in the context that made it possible.</p>
+                            <p class="text-[0.65rem] text-paper/55 leading-relaxed">Aaliyah was present in the car when Bodie Chalmers drove to Broadbeach to stalk and intimidate Adam Watson — and in the library carpark it was Aaliyah herself who yelled <em>"Russian!"</em> at Kosta Kondratenko, Sunlight.Quest's founder, who is Russian. She was not a bystander who happened to be there. She was in the vehicle, and she directed a slur at a person present. A partner who actively participates in a targeted intimidation campaign is not uninvolved — she is a participant in the conduct itself.</p>
                         </div>
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                             <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
