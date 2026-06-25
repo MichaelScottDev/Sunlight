@@ -1295,17 +1295,17 @@
                     </div>
                 </div>
 
-                <!-- EMF Brisbane / QP-9 Gym Attack -->
-                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE QP-9 GOES TO THE GYM.<br><span class="text-hot">EMF BRISBANE. THE CHANGEROOM ATTACK.</span></h3>
-                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Bodie Chalmers got hold of the QP-9 — the police charge sheet for the sexual assault that the malicious officer had placed on Adam Watson. Queensland Police did not want to confirm how he obtained it. He walked into EMF Brisbane, the gym Adam trains at, handed the charge sheet to the front counter, and told staff he had been raped. The gym banned Adam Watson on the spot."</p>
+                <!-- EMF Robina / QP-9 Gym Attack -->
+                <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE QP-9 GOES TO THE GYM.<br><span class="text-hot">EMF PERFORMANCE CENTRE — ROBINA TOWN CENTRE. THE CHANGEROOM ATTACK.</span></h3>
+                <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Bodie Chalmers got hold of the QP-9 — the police charge sheet for the sexual assault that the malicious officer had placed on Adam Watson. Queensland Police did not want to confirm how he obtained it. He walked into EMF Performance Centre at Robina Town Centre, the gym Adam trains at, handed the charge sheet to the front counter, and told staff he had been raped. The gym banned Adam Watson on the spot."</p>
                 <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">A QP-9 is not a public document. It is an internal Queensland Police charge sheet. That Bodie Chalmers was in possession of one — specifically the charge sheet relating to Adam Watson — raises the same question as the Sky News QP-9 disclosure: who in Queensland Police gave it to him, and why. Queensland Police declined to confirm the source when the matter was raised.</p>
-                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">EMF Brisbane banned Adam Watson based on the charge sheet. The ban stood. Adam was still being charged membership fees despite being barred from entering the premises.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">EMF Performance Centre at Robina Town Centre banned Adam Watson based on the charge sheet. The ban stood. Adam was still being charged membership fees despite being barred from entering the premises. He kept making the payments — traumatised, excluded, paying for a facility he could not access because Bodie Chalmers had weaponised a police document to have him removed.</p>
 
                 <div class="border border-hot/20 p-5 mb-6" style="background:rgba(193,68,14,0.03)">
                     <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-4">The Changeroom Attack — Sequence of Events</div>
                     <div class="space-y-2.5">
                         <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Step 01</span><span class="text-[0.65rem] text-paper/45">Bodie Chalmers circulates the rumour — through his network — that Adam Watson raped him. The charge sheet is used as the basis for the claim.</span></div>
-                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Step 02</span><span class="text-[0.65rem] text-paper/45">Five associates of Bodie Chalmers — who had heard the rumour — confront Adam Watson in the change rooms at EMF Brisbane.</span></div>
+                        <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Step 02</span><span class="text-[0.65rem] text-paper/45">Five associates of Bodie Chalmers — who had heard the rumour — confront Adam Watson in the change rooms at EMF Performance Centre, Robina Town Centre.</span></div>
                         <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Step 03</span><span class="text-[0.65rem] text-paper/45">They assault Adam — holding him down and punching him.</span></div>
                         <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-gold/70 w-28 shrink-0 pt-0.5">Intervenes</span><span class="text-[0.65rem] text-paper/45">An elderly man enters the change rooms, sees what is happening, and physically pulls the attackers off Adam Watson.</span></div>
                         <div class="flex gap-3 items-start"><span class="text-[0.55rem] text-hot/60 w-28 shrink-0 pt-0.5">Step 04</span><span class="text-[0.65rem] text-paper/45">Police are called. Two of the five attackers are charged. The elderly man who intervened to stop the assault is also charged.</span></div>
@@ -1319,7 +1319,7 @@
                     <div class="bg-ink px-5 py-5 text-center border border-paper/[0.06]">
                         <div class="stat-number text-4xl text-hot mb-1">5</div>
                         <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Attackers</div>
-                        <div class="text-[0.5rem] text-paper/18 mt-1">Change rooms — EMF Brisbane</div>
+                        <div class="text-[0.5rem] text-paper/18 mt-1">Change rooms — EMF Robina Town Centre</div>
                     </div>
                     <div class="bg-ink px-5 py-5 text-center border border-paper/[0.06]">
                         <div class="stat-number text-4xl text-gold mb-1">2</div>
@@ -1333,14 +1333,29 @@
                     </div>
                 </div>
 
+                <!-- Robina Town Centre manager disclosure -->
+                <div class="border border-gold/25 p-5 mb-6" style="background:rgba(201,138,16,0.04)">
+                    <div class="flex items-center gap-3 mb-3">
+                        <span class="text-[0.46rem] tracking-[0.2em] uppercase text-gold">Disclosed by the EMF Manager · Robina Town Centre</span>
+                    </div>
+                    <h4 class="font-display text-xl tracking-wide mb-4 leading-tight">THE SHOPPING CENTRE CALLED THE GYM.<br><span class="text-gold">"PURSUE ACTION AGAINST THOSE BOYS AND YOUR LEASE IS TERMINATED."</span></h4>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">After the assault on Adam Watson in the EMF Performance Centre change rooms, the centre manager of Robina Town Centre contacted the manager of EMF Performance Centre directly. The message was unambiguous: if EMF pursued any action against the young men who carried out the assault on Adam Watson inside their facility, the lease for EMF Performance Centre at Robina Town Centre would be terminated.</p>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">The EMF manager informed Adam Watson of this conversation. Adam thanks him for doing so. What the centre manager of Robina Town Centre communicated — an explicit threat to the commercial tenancy of a gym in exchange for inaction over a violent assault on a member of the public on their premises — is not a private matter. It is the shopping centre intervening to protect the attackers from consequences.</p>
+                    <div class="border-l-2 border-gold/40 pl-3 py-1.5" style="background:rgba(201,138,16,0.04)">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-1">What This Means</div>
+                        <p class="text-[0.6rem] text-paper/42 leading-relaxed">A shopping centre used its leverage over a commercial tenant to suppress accountability for a violent assault that occurred inside that tenant's premises. The gym manager, to his credit, chose to disclose the call rather than comply in silence. That disclosure is now part of the documented record of this event.</p>
+                    </div>
+                </div>
+
+                <!-- Civil action and counter-claim -->
                 <div class="border border-paper/[0.07] p-6 mb-6">
                     <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-4">Civil Action — What Adam Watson Is Pursuing</div>
-                    <div class="space-y-3">
+                    <div class="space-y-4">
                         <div class="flex gap-3 items-start">
                             <span class="text-hot text-xs shrink-0 mt-0.5">→</span>
                             <div>
-                                <div class="text-[0.62rem] text-paper/55 mb-0.5">EMF Brisbane — Membership Fees During Ban</div>
-                                <p class="text-[0.6rem] text-paper/35 leading-relaxed">EMF Brisbane banned Adam Watson based on a charge sheet provided by Bodie Chalmers — a charge that had been ruled a malicious prosecution and dismissed. Despite the ban preventing Adam from accessing the facility, the gym continued to charge him membership fees. Adam Watson is pursuing civil action against EMF Brisbane for fees charged during a period he was barred from the premises.</p>
+                                <div class="text-[0.62rem] text-paper/55 mb-0.5">EMF Performance Centre Robina — Counter-Claim $450,000</div>
+                                <p class="text-[0.6rem] text-paper/35 leading-relaxed">EMF Performance Centre at Robina Town Centre accepted a non-public police charge sheet provided by Bodie Chalmers — a charge that was subsequently ruled a malicious prosecution and dismissed — and used it to ban Adam Watson from a facility he was actively paying for. Adam was excluded from the premises for the entire duration of the ban while membership fees continued to be charged to his account. He kept making the payments. He was traumatised by the assault that occurred on EMF's premises and has been experiencing nightmares as a direct result of what happened inside that change room. Adam Watson is pursuing a counter-claim of <strong class="text-paper/60">$450,000</strong> against EMF Performance Centre for trauma, recurring nightmares, and the ongoing charging of fees during a period of enforced exclusion caused by a document the gym should never have acted upon. This is the reason public liability insurance exists.</p>
                             </div>
                         </div>
                         <div class="flex gap-3 items-start">
@@ -1353,8 +1368,36 @@
                     </div>
                 </div>
 
+                <!-- eCollect debt notice — the irony -->
+                <div class="border border-hot/30 p-5 mb-6" style="background:rgba(193,68,14,0.04)">
+                    <div class="flex items-center gap-3 mb-3">
+                        <span class="text-[0.46rem] tracking-[0.2em] uppercase text-hot">eCollect · Ref EMFIT2649 · 25 June 2026</span>
+                        <span class="text-[0.42rem] tracking-[0.12em] uppercase border border-hot/30 text-hot px-2 py-0.5">Debt Collection Notice</span>
+                    </div>
+                    <h4 class="font-display text-xl tracking-wide mb-4 leading-tight">EMF SENT A DEBT COLLECTOR.<br><span class="text-hot">FOR $1,892.50. WHILE FACING A $450,000 COUNTER-CLAIM.</span></h4>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">On 25 June 2026, Adam Watson received a Balance Statement from eCollect — a debt collection agency acting on behalf of EMF Fitness — claiming <strong class="text-paper/65">$1,892.50</strong> in unpaid membership fees. Reference EMFIT2649. The email states the matter must be finalised immediately and threatens referral to lawyers EC Legal, with additional court filing fees, process serving charges, and solicitor's costs.</p>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-5">This is the gym that: accepted a fabricated police charge sheet as grounds to ban their own paying member, allowed a violent group assault to occur on their premises, was telephoned by the Robina Town Centre manager with instructions not to pursue the attackers under threat of lease termination — and is now pursuing <strong class="text-paper/65">$1,892.50</strong> through a debt collection agency against the man they excluded. Adam Watson's counter-claim is <strong class="text-hot">$450,000</strong>.</p>
+
+                    <!-- Image embed -->
+                    <div class="border border-paper/[0.08]">
+                        <div class="border-b border-paper/[0.07] px-4 py-2.5 flex items-center justify-between" style="background:rgba(0,0,0,0.25)">
+                            <div class="flex items-center gap-3">
+                                <span class="text-[0.44rem] text-hot">IMG</span>
+                                <span class="text-[0.46rem] tracking-[0.18em] uppercase text-paper/55">eCollect Balance Statement · EMF Fitness · $1,892.50 · Ref EMFIT2649</span>
+                            </div>
+                            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bodie_chalmers/balance_emf.jpg" target="_blank" class="text-[0.44rem] tracking-[0.12em] uppercase text-sage/60 hover:text-sage border border-sage/20 hover:border-sage/40 px-2 py-0.5 transition-colors">Open ↗</a>
+                        </div>
+                        <img
+                            src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bodie_chalmers/balance_emf.jpg"
+                            alt="eCollect balance statement — EMF Fitness claiming $1,892.50 from Adam Watson — ref EMFIT2649 — 25 June 2026"
+                            class="w-full"
+                            loading="lazy"
+                        />
+                    </div>
+                </div>
+
                 <div class="border-l-4 pl-6 py-1" style="border-color:rgba(193,68,14,0.4)">
-                    <p class="text-[0.68rem] text-paper/40 leading-relaxed">The QP-9 charge sheet is a non-public police document. Its disclosure to Bodie Chalmers — who used it to have a man banned from a gym, spread a rape rumour through a network that resulted in a violent attack, and collect $165,000 in compensation — is the most concrete example in this investigation of what happens when internal police documents reach the wrong hands. The question of who disclosed it has not been answered.</p>
+                    <p class="text-[0.68rem] text-paper/40 leading-relaxed">The QP-9 charge sheet is a non-public police document. Its disclosure to Bodie Chalmers — who used it to have a man banned from a gym, spread a rape rumour through a network that resulted in a violent attack on EMF's own premises, and collect $165,000 in compensation — is the most concrete example in this investigation of what happens when internal police documents reach the wrong hands. The question of who disclosed it has not been answered.</p>
                 </div>
 
                 <!-- Robina KFC -->
