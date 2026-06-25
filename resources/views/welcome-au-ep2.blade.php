@@ -2196,6 +2196,33 @@
                     <p class="text-[0.68rem] text-paper/40 leading-relaxed">Vourliotis went to the one person in this investigation whose own conduct is documented in court records and on this site — and asked her to speak against the person who had exposed her. He sent what she said to two of the most prominent institutions in the Hancock Prospecting orbit. The recording was intended to close a door on Kosta's credibility. Instead it is one more data point in the file on Vourliotis — a man who arrived with a recording device, took a car, attempted to force entry into a housing commission flat, and chose a fraudulent landlord as his character witness.</p>
                 </div>
 
+                <!-- The "nutjob" message / social stigmatisation strategy -->
+                <div class="border border-hot/30 p-5 mt-6" style="background:rgba(193,68,14,0.04)">
+                    <div class="flex items-center gap-3 mb-3">
+                        <span class="text-[0.46rem] tracking-[0.2em] uppercase text-hot">The Message to Hancock Prospecting</span>
+                        <span class="text-[0.42rem] tracking-[0.12em] uppercase border border-hot/30 text-hot px-2 py-0.5">Social Stigmatisation Strategy</span>
+                    </div>
+                    <h4 class="font-display text-xl md:text-2xl tracking-wide mb-4 leading-tight">"WHY IS ADAM WATSON<br><span class="text-hot">HANGING OUT WITH THIS NUTJOB?"</span></h4>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">When Vourliotis transmitted the Sandy Tulisi recording to Hancock Prospecting, he attached words to the effect of: <em class="text-paper/70">"Why is Adam Watson hanging out with this nutjob?"</em> The recording was not the point. The framing was. The objective was to plant a question in the mind of one of Adam Watson's most significant corporate relationships — to make Adam's association with Kosta Kondratenko appear to be evidence of poor judgement, and to make Kosta appear unstable.</p>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-5">This is a textbook social-stigmatisation play: you do not attack the substance of what a person has documented — you attack the person's credibility by association. "Nutjob" is not a rebuttal to the bond fraud, the false rent notices, or the unlawful eviction documented on this site. It is an attempt to make those findings unhearable by attaching a label to the person who surfaced them. It is the same instrument deployed against Adam Watson throughout this investigation — the rape rumour at the gym, the "Russian" slur in the carpark, the psychiatric admission weaponised to Hancock Prospecting — recycled here through a different sender.</p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+                        <div class="border border-hot/20 p-4" style="background:rgba(193,68,14,0.03)">
+                            <div class="text-[0.46rem] tracking-[0.18em] uppercase text-hot mb-2">The Strategy</div>
+                            <p class="text-[0.6rem] text-paper/40 leading-relaxed">Discredit the messenger to neutralise the message. Frame association with Kosta as a liability. Deliver it to a corporate relationship that matters to Adam. Label, don't rebut.</p>
+                        </div>
+                        <div class="border border-gold/25 p-4" style="background:rgba(201,138,16,0.04)">
+                            <div class="text-[0.46rem] tracking-[0.18em] uppercase text-gold mb-2">The Irony</div>
+                            <p class="text-[0.6rem] text-paper/40 leading-relaxed">The person calling someone a "nutjob" to a major corporation was — at that very moment — defrauding Adam Watson. He was subsequently convicted and jailed for that fraud. The man building a credibility file on others was the one with a criminal conviction.</p>
+                        </div>
+                    </div>
+
+                    <div class="border-l-2 border-gold/40 pl-3 py-1.5" style="background:rgba(201,138,16,0.04)">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-1">Where It Lands</div>
+                        <p class="text-[0.62rem] text-paper/42 leading-relaxed">There is a profound irony in the choice of word. The man asking why Adam Watson would associate with a "nutjob" had attached himself to Adam by waiting in a van outside a crisis centre, arrived at their first meeting wearing a concealed recording device, stole a car from a man who had fallen asleep beside him, attempted to force entry into a housing commission flat, and was — by the time he sent the message — already a person under active criminal investigation. He was convicted and jailed. The label he tried to attach to Kosta Kondratenko describes nobody in this story except the sender. A character file assembled by a convicted fraudster is not character evidence. It is a confession of method.</p>
+                    </div>
+                </div>
+
                 <!-- StarNow chapter -->
                 <div class="story-chapter reveal mt-6" style="border-left-color:rgba(193,68,14,0.4)">
                     <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border border-hot/40 px-2 py-1 text-hot">Platform Accountability — StarNow</span></div>
