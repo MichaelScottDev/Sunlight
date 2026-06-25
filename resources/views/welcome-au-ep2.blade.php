@@ -4299,6 +4299,21 @@
             <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Adam gave him a ride. He repaid that by destroying Adam's glasses. It was recorded. That's the kind of person we're dealing with — and that's before we get to his father, Grason Andrew Kira."</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6 mt-4">West Kira is a known associate of Bodie Chalmers. During a ride provided by Adam Watson — an act of basic human decency — West Kira deliberately broke Adam's glasses. The incident was captured on recording. It is a small act, but it is characteristic: a pattern of casual entitlement, destruction without consequence, and the assumption that proximity to power insulates you from accountability.</p>
 
+            <!-- Insulin pen — near-fatal -->
+            <div class="border border-hot/40 p-6 mb-8" style="background:rgba(193,68,14,0.06)">
+                <div class="flex items-center gap-3 mb-3">
+                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Near-Fatal — Insulin Pen Snapped</span>
+                    <span class="text-[0.44rem] tracking-[0.14em] uppercase border border-hot/40 text-hot px-2 py-0.5 blink">⬤ COULD HAVE KILLED HIM</span>
+                </div>
+                <h4 class="font-display text-2xl tracking-wide mb-3 leading-tight">HE SNAPPED ADAM'S INSULIN PEN.<br><span class="text-hot">ADAM WAS DYING. PARAMEDICS GOT THERE JUST IN TIME.</span></h4>
+                <p class="text-[0.68rem] leading-relaxed text-paper/48 mb-4">While Adam Watson was staying with Bodie Chalmers and West Kira, he needed his diabetic medication. West Kira <strong class="text-paper/65">deliberately snapped Adam Watson's insulin injection pen</strong> — the device a Type 1 diabetic depends on to stay alive. Without insulin, Adam's condition deteriorated rapidly. He was dying. He called paramedics, who arrived and administered insulin directly into his arm — reaching him just in time.</p>
+                <p class="text-[0.68rem] leading-relaxed text-paper/48 mb-4">When the paramedic saw the broken insulin pen, Adam Watson covered for West Kira. He protected the person who had just put his life in danger. That instinct — to shield the very people harming him — runs through this entire investigation. But the fact remains: snapping a diabetic's insulin pen is not a prank. It is conduct capable of causing death.</p>
+                <div class="border-l-2 border-hot/50 pl-3 py-1.5" style="background:rgba(193,68,14,0.05)">
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot mb-1">What It Shows</div>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed">Breaking the glasses was characteristic. Snapping the insulin pen is the same disposition taken to its logical end — destruction without regard for consequence, even when the consequence is a person's life. Adam survived because the paramedics were fast. He covered for West Kira anyway. It shows you exactly what these people are like.</p>
+                </div>
+            </div>
+
             <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mb-8">
                 <div class="bg-ink px-5 py-5 text-center">
                     <div class="stat-number text-4xl text-hot mb-1">$750K</div>
