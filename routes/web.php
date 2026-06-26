@@ -24,6 +24,10 @@ Route::get('/episode-4', function () {
     return view('welcome-au-ep4');
 });
 
+Route::get('/episode-5', function () {
+    return view('welcome-au-ep5');
+});
+
 Route::get('/new', function () {
     return view('new');
 });

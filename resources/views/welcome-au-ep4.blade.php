@@ -154,6 +154,7 @@
     <div class="flex items-center gap-3">
         <a href="/episode-3" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-gold/50 px-3 py-1.5 transition-all">← Episode 3</a>
         <button onclick="openTipModal()" class="hidden md:flex items-center gap-1.5 text-[0.55rem] tracking-[0.2em] uppercase border border-hot/50 hover:border-hot hover:bg-hot/10 px-3 py-1.5 text-hot transition-all">⊕ Submit a Tip</button>
+        <a href="/episode-5" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase border px-3 py-1.5 transition-all" style="border-color:rgba(201,138,16,0.45);color:#c98a10" onmouseover="this.style.borderColor='#c98a10';this.style.background='rgba(201,138,16,0.08)'" onmouseout="this.style.borderColor='rgba(201,138,16,0.45)';this.style.background=''">Episode 5 →</a>
         <a href="/episode-3" title="Go to Episode 3" aria-label="Go to Episode 3" class="flex md:hidden items-center gap-1 px-2.5 h-8 border font-display text-[0.6rem] tracking-widest" style="border-color:rgba(201,138,16,0.5);color:#c98a10">‹ EP3</a>
         <span class="text-[0.52rem] tracking-[0.18em] uppercase border px-3 py-1.5 blink" style="border-color:rgba(61,122,74,0.6);color:#3d7a4a">⬤ EP.04</span>
     </div>
@@ -1717,6 +1718,7 @@
         <a href="/episode-2" class="text-[0.52rem] tracking-[0.14em] uppercase text-paper/15 hover:text-paper/40 transition-colors">Episode 2</a>
         <a href="/episode-3" class="text-[0.52rem] tracking-[0.14em] uppercase text-paper/15 hover:text-paper/40 transition-colors">Episode 3</a>
         <a href="/episode-4" class="text-[0.52rem] tracking-[0.14em] uppercase text-sage/40 hover:text-sage transition-colors">Episode 4</a>
+        <a href="/episode-5" class="text-[0.52rem] tracking-[0.14em] uppercase text-gold/35 hover:text-gold transition-colors">Episode 5</a>
     </div>
 </footer>
 
