@@ -1278,6 +1278,31 @@
                         </div>
                         <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">BODIE CHALMERS AND HIS MOTHER WENT TO CENTRELINK.<br><span class="text-hot">DOMESTIC VIOLENCE PAYMENT. FALSE STATEMENTS. REFERRED TO THE AFP.</span></h4>
                         <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">Bodie Chalmers and his mother <strong class="text-paper/70">Amanda Chalmers</strong> attended Centrelink and made statements against Adam Watson for the purpose of obtaining a domestic violence payment. The statements they made are the basis for those claims. This matter has been referred to the <strong class="text-paper/70">Australian Federal Police</strong>. Adam Watson is prepared for this court case and is ready to contest it.</p>
+
+                        <!-- AFP Subpoenas — transcript + phone records -->
+                        <div class="border border-hot/30 p-5 mb-5" style="background:rgba(193,68,14,0.06)">
+                            <div class="flex items-center gap-2 mb-3">
+                                <span class="text-[0.46rem] tracking-[0.2em] uppercase text-hot">AFP Action — Subpoenas Issued</span>
+                                <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-hot/40 text-hot/70 px-1.5 py-0.5">EXECUTED</span>
+                            </div>
+                            <h5 class="font-display text-lg tracking-wide mb-3 leading-tight">THE AFP HAS SUBPOENAED THE TRANSCRIPT.<br><span class="text-hot">AND THE PHONE RECORDS. BECAUSE BODIE CLAIMED THEY WERE IN A RELATIONSHIP FOR A YEAR.</span></h5>
+                            <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">The Australian Federal Police have already subpoenaed the transcript of the sexual assault court mention — the hearing at which Queensland Police's own prosecutor dropped the charge on first mention, describing it as a clear malicious prosecution. The AFP has also subpoenaed the phone records of both Bodie Chalmers and Adam Watson.</p>
+                            <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">The reason: in the Centrelink papers, Bodie Chalmers made the claim that he had been in a relationship with Adam Watson for a full year. The phone records will prove they were not even talking during that period. There was no relationship. The phone records will establish the complete absence of contact — directly contradicting the claim Bodie Chalmers made to Centrelink to obtain a domestic violence payment.</p>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                    <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Subpoena #1 — Court Transcript</div>
+                                    <p class="text-[0.58rem] text-paper/45 leading-relaxed">The AFP has subpoenaed the transcript of the sexual assault court mention — the hearing at which QLD Police's own prosecutor dropped the charge, stating it was very clearly malicious prosecution.</p>
+                                </div>
+                                <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                                    <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Subpoena #2 — Phone Records</div>
+                                    <p class="text-[0.58rem] text-paper/45 leading-relaxed">Phone records for both parties have been subpoenaed. Bodie Chalmers claimed a year-long relationship in his Centrelink application. The records will show they had no contact during that period.</p>
+                                </div>
+                            </div>
+                            <div class="border-l-2 border-hot/40 pl-3 py-1.5 mt-4" style="background:rgba(193,68,14,0.04)">
+                                <p class="text-[0.6rem] text-paper/42 leading-relaxed italic">A false claim made to a government agency to obtain a financial payment — supported by a fabricated relationship timeline — is fraud. The phone records will speak for themselves.</p>
+                            </div>
+                        </div>
+
                         <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
                             <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
                                 <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Who Attended</div>
