@@ -664,6 +664,37 @@
                     </div>
                 </div>
 
+                <!-- Jai — Bodie obtained money by impersonating Adam's approval -->
+                <div class="story-chapter reveal mt-8 mb-6" style="border-left-color:rgba(124,106,170,0.6)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">Bodie Chalmers — Money by Deception · Jai</span></div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">"ADAM SAID HE'LL PAY YOU BACK."<br><span style="color:#7c6aaa">A PROMISE BODIE NEVER HAD THE RIGHT TO MAKE.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Bodie contacted Jai asking him for money. He promised that if Jai paid him, Adam would pay Jai back — making it look like he had Adam's approval. He didn't. Jai paid him anyway."</p>
+
+                    <!-- Jai photo -->
+                    <div class="reveal mb-5">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/jai_photo.jpeg" alt="Jai — pictured on the right" class="w-full border border-paper/[0.07]" style="max-height:480px;object-fit:contain;background:#0d0d0d" loading="lazy" />
+                        <div class="flex items-center justify-between px-3 py-2 border border-t-0 border-paper/[0.07]" style="background:rgba(124,106,170,0.06)">
+                            <span class="text-[0.45rem] tracking-[0.18em] uppercase" style="color:#7c6aaa">Jai · the man on the right</span>
+                            <span class="text-[0.45rem] tracking-[0.14em] uppercase text-paper/25">Approached by Bodie Chalmers for money</span>
+                        </div>
+                    </div>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Bodie Chalmers contacted Jai and asked him to pay him money. To secure it, Bodie promised Jai that if he paid, <strong class="text-paper/65">Adam Watson would pay him back</strong> — presenting the arrangement as though it had Adam's approval. It did not. Adam had given no such approval. The promise was a fabrication used to extract the money.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Jai paid. The receipt below documents one of the transfers. There were further receipts for <strong class="text-paper/65">$660</strong>, <strong class="text-paper/65">$360</strong>, and <strong class="text-paper/65">$80</strong>.</p>
+
+                    <!-- Receipt -->
+                    <div class="reveal mb-5">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/jai_b_chalmers_1.jpeg" alt="Receipt — Jai's payment to B Chalmers" class="w-full border border-paper/[0.07]" style="max-height:560px;object-fit:contain;background:#0d0d0d" loading="lazy" />
+                        <div class="flex items-center justify-between px-3 py-2 border border-t-0 border-paper/[0.07]" style="background:rgba(124,106,170,0.06)">
+                            <span class="text-[0.45rem] tracking-[0.18em] uppercase" style="color:#7c6aaa">Receipt · Jai → B Chalmers</span>
+                            <span class="text-[0.45rem] tracking-[0.14em] uppercase text-paper/25">Further receipts: $660 · $360 · $80</span>
+                        </div>
+                    </div>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Bodie Chalmers obtained Jai's phone number from <strong class="text-paper/65">Socrates Zidane Abdul Rahmahn</strong> — the same Socrates referenced elsewhere in this episode.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45">The consequence fell on Jai. He needed the money to buy things for his mother and to pay the power bill, and after paying Bodie he had nothing left. Adam Watson had to send Jai the money to cover what Bodie had taken — which left Adam, in turn, with nothing.</p>
+                </div>
+
                 <!-- Optus $2,500 bill — Bodie Chalmers -->
                 <div class="story-chapter reveal" style="border-left-color:rgba(201,138,16,0.3)">
                     <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Bodie Chalmers — Optus Security Breach</span></div>
