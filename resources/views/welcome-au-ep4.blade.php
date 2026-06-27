@@ -1816,7 +1816,84 @@ function closeTipModal() { document.getElementById('sq-modal').classList.remove(
 function sqModalBackdropClick(e) { if(e.target===document.getElementById('sq-modal'))closeTipModal(); }
 function sqToggle(checkboxId,fieldsId){document.getElementById(fieldsId).classList.toggle('open',document.getElementById(checkboxId).checked);}
 function sqToggleAnon(){document.getElementById('sq-contact-fields').classList.toggle('open',!document.getElementById('sq-anon-chk').checked);}
-function sqSubmit(){var s=document.getElementById('sq-summary');if(!s.value.trim()){s.classList.add('sq-error');s.focus();return;}s.classList.remove('sq-error');document.getElementById('sq-form-card').style.display='none';document.getElementById('sq-form-footer').style.display='none';document.getElementById('sq-success-state').style.display='block';}
+function sqShowError(msg) {
+    var footer = document.getElementById('sq-form-footer');
+    var err = document.getElementById('sq-submit-error');
+    if (!err) {
+        err = document.createElement('p');
+        err.id = 'sq-submit-error';
+        err.style.cssText = 'width:100%;margin:0 0 4px;color:#c8372d;font-size:0.62rem;letter-spacing:0.04em;line-height:1.5';
+        footer.insertBefore(err, footer.firstChild);
+    }
+    err.textContent = msg;
+    err.style.display = 'block';
+}
+function sqSubmit() {
+    var summary = document.getElementById('sq-summary');
+    if (!summary.value.trim()) {
+        summary.classList.add('sq-error');
+        summary.focus();
+        return;
+    }
+    summary.classList.remove('sq-error');
+
+    var card = document.getElementById('sq-form-card');
+    var val = function(name) { var el = card.querySelector('[name="' + name + '"]'); return el ? el.value : ''; };
+    var chk = function(name) { var el = card.querySelector('[name="' + name + '"]'); return el ? el.checked : false; };
+
+    var payload = {
+        subject:             val('sq_subject'),
+        subject_other:       val('sq_subject_other'),
+        summary:             summary.value.trim(),
+        evidence_type:       val('sq_evidence_type'),
+        drive_link:          val('sq_drive_link'),
+        direct_url:          val('sq_direct_url'),
+        evidence_desc:       val('sq_evidence_desc'),
+        wants_pickup:        chk('sq_wants_pickup'),
+        pickup_suburb:       val('sq_pickup_suburb'),
+        pickup_timing:       val('sq_pickup_timing'),
+        pickup_notes:        val('sq_pickup_notes'),
+        relation_to_subject: val('sq_relation'),
+        has_corroboration:   chk('sq_has_corroboration'),
+        reported_before:     chk('sq_reported_before'),
+        safety_concern:      chk('sq_safety_concern'),
+        consents_publish:    chk('sq_consents_publish'),
+        is_anonymous:        chk('sq_anonymous'),
+        contact_name:        val('sq_contact_name'),
+        contact_phone:       val('sq_contact_phone'),
+        contact_email:       val('sq_contact_email'),
+        contact_pref:        val('sq_contact_pref'),
+        contact_notes:       val('sq_contact_notes')
+    };
+
+    var btn = document.getElementById('sq-submit-btn');
+    var oldLabel = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = 'SENDING…';
+
+    fetch('/api/tips', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(payload)
+    })
+    .then(function(res) { return res.json().catch(function(){ return {}; }).then(function(data){ return { ok: res.ok, data: data }; }); })
+    .then(function(r) {
+        if (r.ok && r.data && r.data.success) {
+            document.getElementById('sq-form-card').style.display = 'none';
+            document.getElementById('sq-form-footer').style.display = 'none';
+            document.getElementById('sq-success-state').style.display = 'block';
+        } else {
+            btn.disabled = false;
+            btn.textContent = oldLabel;
+            sqShowError((r.data && r.data.message) ? r.data.message : 'Submission failed — please try again.');
+        }
+    })
+    .catch(function() {
+        btn.disabled = false;
+        btn.textContent = oldLabel;
+        sqShowError('Network error — your tip was not sent. Please check your connection and try again.');
+    });
+}
 
 // ── VIDSTACK PLAYER EP4 INIT ──
 (function() {

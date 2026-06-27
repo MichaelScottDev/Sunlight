@@ -200,43 +200,49 @@
                 <h1 class="font-display leading-[0.88] tracking-wide" style="font-size:clamp(2.8rem,7vw,5.5rem)">THE ORDER<br><span class="text-gold">THEY AGREED TO.</span></h1>
                 <p class="font-serif italic text-paper/40 mt-3 leading-relaxed max-w-lg" style="font-size:clamp(0.9rem,2vw,1.15rem)">A NSW government agency consented to a tribunal order to make a social-housing home habitable. Nearly a year later the repairs still aren't done, the property — a registered life-support address — has lost power, and the rent has been pushed to $520 a week.</p>
             </div>
-            <!-- Mould hero image -->
+            <!-- Video player with chapters -->
             <div class="fade-up mb-5" style="animation-delay:0.2s">
-                <div class="relative border overflow-hidden" style="border-color:rgba(201,138,16,0.25);max-height:380px">
-                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/mould_photo_1.jpg" alt="Mould at the premises" class="w-full object-cover object-center" style="max-height:380px" loading="eager" />
-                    <div class="absolute bottom-0 left-0 right-0 px-4 py-3" style="background:linear-gradient(transparent,rgba(12,8,4,0.9))">
-                        <div class="text-[0.48rem] tracking-[0.18em] uppercase text-gold/70">Hero Evidence — Mould at the Premises · South Coogee, NSW</div>
-                        <div class="text-[0.55rem] text-paper/40 mt-0.5">Mould on wall and ceiling surfaces — present despite a consent order requiring remediation by 1 November 2025</div>
-                    </div>
-                </div>
+                <div class="flex items-center gap-3 mb-2"><span class="text-[0.52rem] tracking-[0.2em] uppercase text-gold/60">▶ Now Playing — Navigate via chapters below</span></div>
+                <media-player
+                    id="player-ep5"
+                    title="The Order They Agreed To — Episode 5"
+                    src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/rj_confront.mp4"
+                    poster="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/mould_photo_1.jpg"
+                    style="--media-brand:#c98a10;--media-focus-ring-color:rgba(201,138,16,0.45);--media-time-chapters-bg:rgba(201,138,16,0.5);width:100%;border:1px solid rgba(201,138,16,0.2);box-shadow:0 0 80px rgba(201,138,16,0.09),0 0 0 1px rgba(245,234,212,0.025);aspect-ratio:16/9"
+                >
+                    <media-provider>
+                        <track id="ep5-chapters-track" kind="chapters" default />
+                    </media-provider>
+                    <media-video-layout></media-video-layout>
+                </media-player>
             </div>
             <!-- Chapter nav -->
             <div class="fade-up border border-paper/[0.07]" style="animation-delay:0.35s;background:rgba(12,8,4,0.7)">
                 <div class="px-4 py-2 border-b border-paper/[0.06]">
-                    <span class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/22">Episode 5 — Sections</span>
+                    <span class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/22">Episode 5 — Chapters</span>
                 </div>
                 <div class="flex flex-wrap gap-0">
-                    <a href="#the-promise" class="flex items-center gap-2 px-4 py-3 hover:bg-gold/8 transition-all group" style="border:1px solid transparent">
+                    <a href="#the-promise" data-chap-ep5="0" onclick="seekToChapterEp5(0)" class="flex items-center gap-2 px-4 py-3 hover:bg-gold/8 transition-all group" style="border:1px solid transparent">
                         <span class="font-display text-[0.62rem] text-gold">01</span>
-                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">The Promise</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Consent order · Aug 2025</div></div>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">NCAT — Dept of Housing</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Consent order · LAHC · Aug 2025</div></div>
                     </a>
-                    <a href="#nine-months" class="flex items-center gap-2 px-4 py-3 hover:bg-gold/8 transition-all group" style="border:1px solid transparent">
+                    <a href="#nine-months" data-chap-ep5="1" onclick="seekToChapterEp5(1)" class="flex items-center gap-2 px-4 py-3 hover:bg-gold/8 transition-all group" style="border:1px solid transparent">
                         <span class="font-display text-[0.62rem] text-gold">02</span>
                         <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Nine Months</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Adjournment · No repairs</div></div>
                     </a>
-                    <a href="#lights-out" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 transition-all group" style="border:1px solid transparent">
+                    <a href="#lights-out" data-chap-ep5="2" onclick="seekToChapterEp5(2)" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 transition-all group" style="border:1px solid transparent">
                         <span class="font-display text-[0.62rem] text-hot">03</span>
                         <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Lights Out</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Life-support address · Ausgrid</div></div>
                     </a>
-                    <a href="#rent-to-520" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 transition-all group" style="border:1px solid transparent">
+                    <a href="#rent-to-520" data-chap-ep5="3" onclick="seekToChapterEp5(3)" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 transition-all group" style="border:1px solid transparent">
                         <span class="font-display text-[0.62rem] text-hot">04</span>
                         <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">$520 a Week</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Centrelink seized · No notice</div></div>
                     </a>
-                    <a href="#accountability" class="flex items-center gap-2 px-4 py-3 hover:bg-gold/8 transition-all group" style="border:1px solid transparent">
+                    <a href="#accountability" data-chap-ep5="4" onclick="seekToChapterEp5(4)" class="flex items-center gap-2 px-4 py-3 hover:bg-gold/8 transition-all group" style="border:1px solid transparent">
                         <span class="font-display text-[0.62rem] text-gold">05</span>
                         <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Accountability</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Rose Jackson · Referrals</div></div>
                     </a>
-                    <a href="#evidence-vault" class="flex items-center gap-2 px-4 py-3 hover:bg-gold/8 transition-all group" style="border:1px solid transparent">
+                    <a href="#evidence-vault" data-chap-ep5="5" onclick="seekToChapterEp5(5)" class="flex items-center gap-2 px-4 py-3 hover:bg-gold/8 transition-all group" style="border:1px solid transparent">
                         <span class="font-display text-[0.62rem] text-gold">06</span>
                         <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Evidence</div><div class="text-[0.47rem] text-paper/22 tracking-wider">8 documents · NCAT orders</div></div>
                     </a>
@@ -253,6 +259,53 @@
                     <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl text-gold">NCAT</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Tribunal</div></div>
                     <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl text-hot">$520</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Weekly rent</div></div>
                     <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl text-gold">NSW</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Housing Corp</div></div>
+                </div>
+            </div>
+            <div class="px-5 py-4 border-b border-paper/[0.06]">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">Episode Chapters</div>
+                <div class="space-y-0.5">
+                    <button data-chap-ep5="0" onclick="seekToChapterEp5(0)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
+                        <span class="font-display text-[0.5rem] text-gold">01</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">NCAT — Dept of Housing</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Consent order · LAHC · Aug 2025</div>
+                        </div>
+                    </button>
+                    <button data-chap-ep5="1" onclick="seekToChapterEp5(1)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
+                        <span class="font-display text-[0.5rem] text-gold">02</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">Nine Months</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Adjournment · No repairs</div>
+                        </div>
+                    </button>
+                    <button data-chap-ep5="2" onclick="seekToChapterEp5(2)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(193,68,14,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
+                        <span class="font-display text-[0.5rem] text-hot">03</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">Lights Out</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Life-support address · Ausgrid</div>
+                        </div>
+                    </button>
+                    <button data-chap-ep5="3" onclick="seekToChapterEp5(3)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(193,68,14,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
+                        <span class="font-display text-[0.5rem] text-hot">04</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">$520 a Week</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Centrelink seized · No notice</div>
+                        </div>
+                    </button>
+                    <button data-chap-ep5="4" onclick="seekToChapterEp5(4)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
+                        <span class="font-display text-[0.5rem] text-gold">05</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">Accountability</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Rose Jackson · Referrals</div>
+                        </div>
+                    </button>
+                    <button data-chap-ep5="5" onclick="seekToChapterEp5(5)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
+                        <span class="font-display text-[0.5rem] text-gold">06</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">Evidence</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">8 documents · NCAT orders</div>
+                        </div>
+                    </button>
                 </div>
             </div>
             <div class="px-5 py-4 border-b border-paper/[0.06]">
@@ -1020,20 +1073,172 @@ function sqModalBackdropClick(e) { if(e.target===document.getElementById('sq-mod
 function sqToggle(chkId, colId) { var open=document.getElementById(chkId).checked; document.getElementById(colId).classList.toggle('open',open); }
 function sqToggleAnon() { var anon=document.getElementById('sq-anon-chk').checked; document.getElementById('sq-contact-fields').classList.toggle('open',!anon); }
 
+function sqShowError(msg) {
+    var footer = document.getElementById('sq-form-footer');
+    var err = document.getElementById('sq-submit-error');
+    if (!err) {
+        err = document.createElement('p');
+        err.id = 'sq-submit-error';
+        err.style.cssText = 'width:100%;margin:0 0 4px;color:#c8372d;font-size:0.62rem;letter-spacing:0.04em;line-height:1.5';
+        footer.insertBefore(err, footer.firstChild);
+    }
+    err.textContent = msg;
+    err.style.display = 'block';
+}
 function sqSubmit() {
-    var subj = document.getElementById('sq-subject').value;
-    var summ = document.getElementById('sq-summary').value.trim();
-    if (!subj || !summ) {
-        if (!subj) document.getElementById('sq-subject').style.borderColor='#c98a10';
-        if (!summ) { document.getElementById('sq-summary').style.borderColor='#c98a10'; document.getElementById('sq-summary').focus(); }
+    var summary = document.getElementById('sq-summary');
+    if (!summary.value.trim()) {
+        summary.style.borderColor='#c98a10';
+        summary.focus();
         return;
     }
-    var form = document.getElementById('sq-form-card');
-    var footer = document.getElementById('sq-form-footer');
-    var success = document.getElementById('sq-success-state');
-    form.style.display='none';
-    footer.style.display='none';
-    success.style.display='block';
+    summary.style.borderColor='';
+
+    var card = document.getElementById('sq-form-card');
+    var val = function(name) { var el = card.querySelector('[name="' + name + '"]'); return el ? el.value : ''; };
+    var chk = function(name) { var el = card.querySelector('[name="' + name + '"]'); return el ? el.checked : false; };
+
+    var payload = {
+        subject:             val('sq_subject'),
+        subject_other:       val('sq_subject_other'),
+        summary:             summary.value.trim(),
+        evidence_type:       val('sq_evidence_type'),
+        drive_link:          val('sq_drive_link'),
+        direct_url:          val('sq_direct_url'),
+        evidence_desc:       val('sq_evidence_desc'),
+        wants_pickup:        chk('sq_wants_pickup'),
+        pickup_suburb:       val('sq_pickup_suburb'),
+        pickup_timing:       val('sq_pickup_timing'),
+        pickup_notes:        val('sq_pickup_notes'),
+        relation_to_subject: val('sq_relation'),
+        has_corroboration:   chk('sq_has_corroboration'),
+        reported_before:     chk('sq_reported_before'),
+        safety_concern:      chk('sq_safety_concern'),
+        consents_publish:    chk('sq_consents_publish'),
+        is_anonymous:        chk('sq_anonymous'),
+        contact_name:        val('sq_contact_name'),
+        contact_phone:       val('sq_contact_phone'),
+        contact_email:       val('sq_contact_email'),
+        contact_pref:        val('sq_contact_pref'),
+        contact_notes:       val('sq_contact_notes')
+    };
+
+    var btn = document.getElementById('sq-submit-btn');
+    var oldLabel = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = 'SENDING…';
+
+    fetch('/api/tips', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(payload)
+    })
+    .then(function(res) { return res.json().catch(function(){ return {}; }).then(function(data){ return { ok: res.ok, data: data }; }); })
+    .then(function(r) {
+        if (r.ok && r.data && r.data.success) {
+            document.getElementById('sq-form-card').style.display = 'none';
+            document.getElementById('sq-form-footer').style.display = 'none';
+            document.getElementById('sq-success-state').style.display = 'block';
+        } else {
+            btn.disabled = false;
+            btn.textContent = oldLabel;
+            sqShowError((r.data && r.data.message) ? r.data.message : 'Submission failed — please try again.');
+        }
+    })
+    .catch(function() {
+        btn.disabled = false;
+        btn.textContent = oldLabel;
+        sqShowError('Network error — your tip was not sent. Please check your connection and try again.');
+    });
+}
+
+// ── VIDSTACK PLAYER EP5 INIT ──
+(function() {
+    var VTT_CONTENT = [
+        'WEBVTT',
+        '',
+        '00:00:00.000 --> 00:05:00.000',
+        'NCAT — Dept of Housing',
+        '',
+        '00:05:00.000 --> 00:09:00.000',
+        'Nine Months',
+        '',
+        '00:09:00.000 --> 00:13:00.000',
+        'Lights Out',
+        '',
+        '00:13:00.000 --> 00:17:00.000',
+        '$520 a Week',
+        '',
+        '00:17:00.000 --> 00:21:00.000',
+        'Accountability',
+        '',
+        '00:21:00.000 --> 00:26:00.000',
+        'Evidence',
+    ].join('\n');
+
+    function initPlayerEp5() {
+        var el = document.getElementById('player-ep5');
+        if (!el) return;
+        if (typeof el.subscribe !== 'function') {
+            setTimeout(initPlayerEp5, 200);
+            return;
+        }
+        window.vidstackPlayerEp5 = el;
+
+        var track = document.getElementById('ep5-chapters-track');
+        if (track) {
+            var blob = new Blob([VTT_CONTENT], {type: 'text/vtt'});
+            track.src = URL.createObjectURL(blob);
+        }
+
+        el.subscribe(function(state) {
+            var time = state.currentTime;
+            var tracks = el.textTracks;
+            for (var i = 0; i < tracks.length; i++) {
+                if (tracks[i].kind === 'chapters') {
+                    var cues = tracks[i].cues;
+                    for (var j = 0; j < cues.length; j++) {
+                        if (time >= cues[j].startTime && time < cues[j].endTime) {
+                            document.querySelectorAll('[data-chap-ep5]').forEach(function(el2) {
+                                var match = parseInt(el2.getAttribute('data-chap-ep5'),10) === j;
+                                el2.style.background = match ? 'rgba(201,138,16,0.1)' : '';
+                                el2.style.borderColor = match ? 'rgba(201,138,16,0.4)' : 'transparent';
+                            });
+                            break;
+                        }
+                    }
+                    break;
+                }
+            }
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initPlayerEp5);
+    } else {
+        initPlayerEp5();
+    }
+})();
+
+function seekToChapterEp5(index) {
+    var p = window.vidstackPlayerEp5;
+    if (!p) {
+        var pl = document.getElementById('player-ep5');
+        if (pl) pl.scrollIntoView({behavior:'smooth',block:'center'});
+        return;
+    }
+    var tracks = p.textTracks;
+    var ct = null;
+    for (var i = 0; i < tracks.length; i++) { if (tracks[i].kind === 'chapters') { ct = tracks[i]; break; } }
+    if (ct && ct.cues && ct.cues.length > index) { p.currentTime = ct.cues[index].startTime; }
+    else { var d = p.duration || 0; if (d > 0) p.currentTime = (d / 6) * index; }
+    p.play().catch(function(){});
+    document.getElementById('player-ep5').scrollIntoView({behavior:'smooth',block:'center'});
+    document.querySelectorAll('[data-chap-ep5]').forEach(function(el) {
+        var match = parseInt(el.getAttribute('data-chap-ep5'),10) === index;
+        el.style.background = match ? 'rgba(201,138,16,0.1)' : '';
+        el.style.borderColor = match ? 'rgba(201,138,16,0.4)' : 'transparent';
+    });
 }
 </script>
 
