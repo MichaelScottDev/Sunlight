@@ -475,6 +475,21 @@
                 <p class="text-[0.72rem] leading-relaxed text-paper/45">Anthony Albanese has confirmed he agrees with Adam Watson's immigration position — that Australia needs to withdraw from the 1951 Refugee Convention. The confirmation represents a significant alignment between the Prime Minister and the position Adam Watson has advanced publicly.</p>
             </div>
 
+            <!-- Item: Mehreen Faruqi / underworld figures / recording -->
+            <div class="story-chapter" style="border-left-color:rgba(193,68,14,0.4)">
+                <div class="flex items-center gap-3 mb-3">
+                    <span class="text-[0.48rem] tracking-[0.22em] uppercase text-hot border border-hot/40 px-2 py-1">Recording Provided</span>
+                    <span class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/20">Mehreen Faruqi · Immigration Policy</span>
+                </div>
+                <h3 class="font-display text-2xl tracking-wide mb-3 leading-tight">FARUQI ORGANISED TWO UNDERWORLD FIGURES.<br><span class="text-hot">TO FIND ADAM WATSON AND BREAK HIS LEGS.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Upon discovering Adam Watson's immigration policy — set out in full in Episode 2, <a href="/episode-2" class="text-sage underline decoration-sage/40 hover:decoration-sage transition-colors">available here</a> — Mehreen Faruqi is alleged to have organised two underworld figures to find Adam Watson and break his legs, telling them that he hates brown people and is racist.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The two figures did not carry out the request. Instead, they <strong class="text-paper/65">recorded Faruqi</strong> making it — and provided the tape directly to Adam Watson. Sunlight.Quest appreciates their decision to do so.</p>
+                <div class="border-l-4 border-hot/50 pl-5 py-1" style="background:rgba(193,68,14,0.05);padding:0.85rem 1rem 0.85rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-1">The Recording</div>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed">The two figures recorded the solicitation and handed the tape to Adam Watson. Soliciting violence against a person over their published political views — and casting it in racial terms — is a matter of grave public interest. It is on this record now.</p>
+                </div>
+            </div>
+
             <!-- Item 5: Mike Burgess / AFP / Pauline Hanson security -->
             <div class="story-chapter" style="border-left-color:rgba(193,68,14,0.4)">
                 <div class="flex items-center gap-3 mb-3">
