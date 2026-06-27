@@ -463,6 +463,13 @@
                 </div>
                 <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5 mt-4">Adam Watson entered a relationship with Bodie Chalmers that escalated into a pattern of coercive and controlling behaviour. Access was obtained to Apple's location sharing on Adam's iPhone without his knowledge. A tracking device was placed on his fuel cap. A private eye-biometric lie detection test was commissioned — scored 1 out of 100, rated "Deceptive" — by a certified EyeDetect® examiner at 50 Cavill Avenue, Surfers Paradise.</p>
 
+                <!-- Reputation in the city -->
+                <div class="story-chapter reveal mt-6 mb-6" style="border-left-color:rgba(124,106,170,0.6)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">Reputation · What People Say</span></div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">After Adam Watson showed this website to someone in the city who knows of Bodie Chalmers, the response was immediate recognition. The person said Bodie is <strong class="text-paper/65">known for coming to parties and stealing other people's girls</strong> — a pattern of behaviour that, by this account, precedes anything documented here and is well understood by those who have crossed paths with him socially.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45">The same person recounted that Bodie Chalmers was once <strong class="text-paper/65">bashed by a footballer whose girlfriend he had stolen</strong> — an account consistent with the conduct described throughout this chapter, and with his pattern of provoking the very confrontations he later sought to weaponise.</p>
+                </div>
+
                 <!-- EVIDENCE VAULT: Bodie Chalmers -->
                 <div class="evidence-vault">
                     <div class="ev-header" onclick="toggleVault(this)">
