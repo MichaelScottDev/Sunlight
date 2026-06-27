@@ -566,6 +566,21 @@
                 </div>
             </div>
 
+            <!-- Item 8: King Charles III / Starmer resignation -->
+            <div class="story-chapter" style="border-left-color:rgba(124,106,170,0.4)">
+                <div class="flex items-center gap-3 mb-3">
+                    <span class="text-[0.48rem] tracking-[0.22em] uppercase px-2 py-1" style="color:#7c6aaa;border:1px solid rgba(124,106,170,0.4)">United Kingdom</span>
+                    <span class="text-[0.45rem] tracking-[0.15em] uppercase text-paper/20">King Charles III · Keir Starmer · Henry Nowak</span>
+                </div>
+                <h3 class="font-display text-2xl tracking-wide mb-3 leading-tight">THE KING WALKED IN.<br><span style="color:#7c6aaa">STARMER RESIGNED — OR HE WOULD BE FIRED.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Prime Minister <strong class="text-paper/65">Keir Starmer</strong> has resigned. He did so after <strong class="text-paper/65">King Charles III</strong> walked in and told him to resign — or he would be fired. The King's intervention was direct and personal: stand down, or be removed.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The King acted after viewing the bodycam footage of <strong class="text-paper/65">UK police handcuffing a stabbed man, Henry Nowak</strong>. Having seen officers restrain a stabbing victim rather than aid him, the King regards the conduct as a <strong class="text-paper/65">national disgrace</strong>.</p>
+                <div class="border-l-4 pl-5 py-1" style="border-color:rgba(124,106,170,0.5);background:rgba(124,106,170,0.06);padding:0.85rem 1rem 0.85rem 1.25rem">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase mb-1" style="color:#7c6aaa">The King's Position</div>
+                    <p class="text-[0.62rem] text-paper/45 leading-relaxed">A stabbed man handcuffed by the police sworn to protect him — captured on the officers' own bodycams — was, in the King's view, a national disgrace. The Sovereign's response was to require the resignation of the Prime Minister. It is on this record now.</p>
+                </div>
+            </div>
+
         </div>
 
         <!-- Stat strip -->
