@@ -1935,6 +1935,12 @@
                             <p class="text-[0.6rem] text-paper/38 leading-relaxed">Anyone convicted on his testimony gains a clear avenue to challenge that conviction — the witness is a documented 1/100.</p>
                         </div>
                     </div>
+                    <div class="border-l-4 border-gold/60 pl-5 py-3 mt-5 mb-1" style="background:rgba(201,138,16,0.05)">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-2">Why the Deal Is Dead on Arrival</div>
+                        <p class="text-[0.66rem] text-paper/50 leading-relaxed mb-3">This is the part Bodie Chalmers cannot get around. He will <strong class="text-paper/70">want</strong> to snitch on the Yakuza — turning informant is his only realistic route to leniency on 96 charges. But the 1/100 result makes him useless as a witness. Any prosecution of the Yakuza built on his evidence would collapse under cross-examination, and every conviction obtained on his word would be <strong class="text-paper/70">worthless</strong> — open to challenge the moment the certified "Deceptive" result is produced in court.</p>
+                        <p class="text-[0.66rem] text-paper/50 leading-relaxed mb-3">For that reason, <strong class="text-paper/70">Queensland Police and the Attorney-General, Deb Frecklington, could never accept such a deal.</strong> There is no point trading leniency for testimony that cannot stand up. A cooperating witness is only worth something if his word can secure a conviction — and Bodie Chalmers has, by his own examination, destroyed his own word. To the QPS he is now useless: he has nothing left to offer them.</p>
+                        <p class="text-[0.66rem] text-paper/45 leading-relaxed italic">Observers have remarked that Adam Watson was <strong class="text-paper/65">very smart</strong> to get Bodie Chalmers to sit that test. In doing so, Adam locked in — on a certified, forensic record — the single fact that forecloses any future informant deal: a witness rated 1 out of 100 can never be the witness who puts the Yakuza away.</p>
+                    </div>
                     <button onclick="openMV('pdf-bodie-lie')" class="mt-4 inline-flex items-center gap-2 text-[0.52rem] tracking-[0.18em] uppercase border border-gold/40 hover:border-gold hover:bg-gold/10 px-3 py-2 text-gold transition-all">⊕ View the EyeDetect® Examination — Scored 1/100</button>
                 </div>
 
