@@ -695,6 +695,31 @@
                     <p class="text-[0.72rem] leading-relaxed text-paper/45">The consequence fell on Jai. He needed the money to buy things for his mother and to pay the power bill, and after paying Bodie he had nothing left. Adam Watson had to send Jai the money to cover what Bodie had taken — which left Adam, in turn, with nothing.</p>
                 </div>
 
+                <!-- Zach — knife intimidation over a TikTok like -->
+                <div class="story-chapter reveal mt-8 mb-6" style="border-left-color:rgba(124,106,170,0.6)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">Bodie Chalmers — Network · Zach</span><span class="text-[0.44rem] tracking-[0.15em] uppercase border border-paper/15 text-paper/30 px-2 py-0.5 blink">⬤ VIDEO PENDING</span></div>
+                    <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">A KNIFE TO THE THROAT.<br><span style="color:#7c6aaa">OVER A LIKE ON TIKTOK.</span></h3>
+                    <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"Zach and his friend Max forced Adam to delete his TikTok account after they found he had liked a photo of a guy with his shirt off. Zach held a knife to Adam's throat. Bodie Chalmers recorded the whole thing."</p>
+
+                    <!-- Zach photo -->
+                    <div class="reveal mb-5">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/zach_muslim.jpeg" alt="Zach" class="w-full border border-paper/[0.07]" style="max-height:480px;object-fit:contain;background:#0d0d0d" loading="lazy" />
+                        <div class="flex items-center justify-between px-3 py-2 border border-t-0 border-paper/[0.07]" style="background:rgba(124,106,170,0.06)">
+                            <span class="text-[0.45rem] tracking-[0.18em] uppercase" style="color:#7c6aaa">Zach · in Bodie Chalmers's network</span>
+                            <span class="text-[0.45rem] tracking-[0.14em] uppercase text-paper/25">Pictured gambling</span>
+                        </div>
+                    </div>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Zach, a member of Bodie Chalmers's network, and his friend Max forced Adam Watson to delete his TikTok account. The trigger: they discovered Adam had <strong class="text-paper/65">liked a photo on TikTok of a man with his shirt off</strong>. In the course of that intimidation, Zach <strong class="text-paper/65">held a knife to Adam Watson's throat</strong>.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The entire intimidation was <strong class="text-paper/65">recorded by Bodie Chalmers</strong>. Sunlight.Quest is waiting on that video, and it will be uploaded here once it becomes available.</p>
+
+                    <div class="border border-gold/20 p-4 mb-2" style="background:rgba(201,138,16,0.04)">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-2">The Hypocrisy</div>
+                        <p class="text-[0.65rem] text-paper/48 leading-relaxed mb-2">The contradictions here are not subtle. <strong class="text-paper/65">Bodie Chalmers</strong> filmed an act of homophobic intimidation against Adam Watson — the same Bodie Chalmers who was, at the time, in a relationship with Adam himself.</p>
+                        <p class="text-[0.65rem] text-paper/48 leading-relaxed">And <strong class="text-paper/65">Zach</strong> presented his conduct as acting on conservative Muslim beliefs — punishing a man over a single "like" — while, in the very photo above, he is clearly seen <strong class="text-paper/65">gambling</strong>. A man enforcing his religious values at knifepoint, pictured breaching them in the same frame.</p>
+                    </div>
+                </div>
+
                 <!-- Optus $2,500 bill — Bodie Chalmers -->
                 <div class="story-chapter reveal" style="border-left-color:rgba(201,138,16,0.3)">
                     <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Bodie Chalmers — Optus Security Breach</span></div>
