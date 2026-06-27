@@ -1904,6 +1904,40 @@
                     </div>
                 </div>
 
+                <!-- Yakuza informant deal / EyeDetect credibility problem -->
+                <div class="border border-gold/35 mt-6 mb-2 p-5" style="background:rgba(201,138,16,0.05)">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-gold">Update — Proposed Cooperation Deal</span>
+                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-gold/50 text-gold px-1.5 py-0.5 blink">⬤ CREDIBILITY PROBLEM</span>
+                    </div>
+                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">NOW HE WANTS TO TURN INFORMANT.<br><span class="text-gold">BUT HE SCORED 1 OUT OF 100 ON A CERTIFIED LIE DETECTOR.</span></h4>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">The latest development: Bodie Chalmers is now looking to cut a deal with police — to turn informant and give evidence against the Yakuza in exchange for leniency on his own 96 charges. Having double-crossed the organised crime network that fronted him the product, he is now seeking to trade his cooperation against them for his own benefit.</p>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">There is a fundamental problem with that plan, and it is one Bodie Chalmers created himself. On <strong class="text-paper/65">20 May 2025</strong>, Bodie Chalmers sat a certified <strong class="text-paper/65">EyeDetect®</strong> biometric lie detection examination and scored <strong class="text-gold">1 out of 100</strong> — rated "Deceptive" throughout the entire test by a qualified, certified examiner. That result is a documented, forensic record of his credibility as a witness.</p>
+                    <div class="border border-gold/20 p-4 mb-4" style="background:rgba(201,138,16,0.04)">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-2">Why This Unravels Any Prosecution Built On His Word</div>
+                        <p class="text-[0.65rem] text-paper/48 leading-relaxed mb-2">A witness whose credibility is the prosecution's case must withstand cross-examination. A certified, scored deception result rated 1/100 is exactly the kind of material defence counsel exists to find. Once it is on the table, every conviction that rests on Bodie Chalmers's testimony becomes vulnerable to challenge.</p>
+                        <p class="text-[0.65rem] text-paper/45 leading-relaxed italic">The man who built his life on lies cannot now be the witness who puts others away on his word. Anyone convicted on the strength of his testimony will have a clear avenue to have that conviction reopened — because the witness against them is a documented, certified 1-out-of-100.</p>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
+                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-gold mb-1">The Offer</div>
+                            <div class="font-display text-base text-gold mb-1">TURN INFORMANT</div>
+                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">Looking to cut a deal with police — give evidence against the Yakuza in exchange for leniency on 96 charges.</p>
+                        </div>
+                        <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
+                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-gold mb-1">The Problem</div>
+                            <div class="font-display text-base text-gold mb-1">SCORED 1/100</div>
+                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">Certified EyeDetect® examination, 20 May 2025 — rated "Deceptive" throughout. A forensic record of his unreliability as a witness.</p>
+                        </div>
+                        <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
+                            <div class="text-[0.45rem] tracking-[0.15em] uppercase text-gold mb-1">The Consequence</div>
+                            <div class="font-display text-base text-gold mb-1">CONVICTIONS AT RISK</div>
+                            <p class="text-[0.6rem] text-paper/38 leading-relaxed">Anyone convicted on his testimony gains a clear avenue to challenge that conviction — the witness is a documented 1/100.</p>
+                        </div>
+                    </div>
+                    <button onclick="openMV('pdf-bodie-lie')" class="mt-4 inline-flex items-center gap-2 text-[0.52rem] tracking-[0.18em] uppercase border border-gold/40 hover:border-gold hover:bg-gold/10 px-3 py-2 text-gold transition-all">⊕ View the EyeDetect® Examination — Scored 1/100</button>
+                </div>
+
                 <!-- Westpac complaint outcome — threat/penalty scam — Bodie named as recipient -->
                 <div class="story-chapter reveal mt-8 border-l-4 border-hot/60 pl-5" style="background:rgba(193,68,14,0.05);padding:1.3rem 1rem 1.3rem 1.25rem">
                     <div class="flex items-center gap-3 mb-4">
