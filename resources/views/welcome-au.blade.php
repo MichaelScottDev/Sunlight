@@ -3514,6 +3514,68 @@
 
 
 <!-- ══════════════════════════════════════
+     AUSTRALIA FAIR — HANCOCK PROSPECTING RUMOUR
+══════════════════════════════════════ -->
+<section id="australia-fair" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(201,138,16,0.05) 0%,transparent 60%)">
+    <div class="max-w-4xl mx-auto">
+
+        <div class="flex items-center gap-3 mb-3 reveal">
+            <span class="text-[0.48rem] tracking-[0.22em] uppercase border px-2 py-1 text-gold border-gold/40">Southport — Australia Fair · Unverified Rumour</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-3 leading-tight reveal">A RUMOUR AT AUSTRALIA FAIR.<br><span class="text-gold">A NEW OWNER. AND A CLEAN-UP.</span></h2>
+        <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-8 reveal">"The word going around Southport is that Hancock Prospecting has bought Australia Fair from a Chinese billionaire — and that they're now evicting the trouble tenants and amping up security so shoppers feel safe again."</p>
+
+        <!-- Australia Fair photo -->
+        <div class="reveal mb-6">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/australia_fair.jpeg"
+                 alt="Australia Fair shopping centre — Southport"
+                 class="w-full border border-paper/[0.07]"
+                 style="max-height:520px;object-fit:contain;background:#0d0d0d"
+                 loading="lazy" />
+            <div class="flex items-center justify-between px-3 py-2 border border-t-0 border-paper/[0.07]" style="background:rgba(201,138,16,0.06)">
+                <span class="text-[0.45rem] tracking-[0.18em] uppercase text-gold">Australia Fair · Southport, Gold Coast</span>
+                <span class="text-[0.45rem] tracking-[0.14em] uppercase text-paper/25">Rumoured new owner · Unverified</span>
+            </div>
+        </div>
+
+        <!-- Rumour disclaimer -->
+        <div class="border border-gold/25 p-4 mb-6 reveal" style="background:rgba(201,138,16,0.04)">
+            <div class="flex gap-2 items-start">
+                <span class="text-gold text-xs shrink-0 mt-0.5">⚠</span>
+                <p class="text-[0.62rem] text-paper/40 leading-relaxed italic">This is an unverified rumour. It is reported here as it was relayed — by an Optus employee — and has not been confirmed by Hancock Prospecting, by the centre's management, or by any public record. It is documented as a rumour circulating in Southport, not as a statement of established fact.</p>
+            </div>
+        </div>
+
+        <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4 reveal">According to the account, the claim was made by an <strong class="text-paper/70">Optus employee</strong>: that <strong class="text-paper/70">Hancock Prospecting</strong> — Gina Rinehart's company — has purchased <strong class="text-paper/70">Australia Fair</strong> in Southport from a <strong class="text-paper/70">Chinese billionaire</strong> who previously owned the centre. The employee tied the rumour to a visible change on the ground: that the new ownership is now moving to evict what were described as "trouble tenants."</p>
+        <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6 reveal">The same account holds that the new ownership is <strong class="text-paper/70">amping up security</strong> across the centre — the stated purpose being to make sure shoppers are safe. On this telling, the eviction of trouble tenants and the increase in security are two halves of the same clean-up: a deliberate reset of who uses the centre and how it feels to walk through it.</p>
+
+        <!-- Hancock Prospecting wordmark -->
+        <div class="border border-paper/[0.08] p-6 mb-6 reveal flex flex-col items-center text-center" style="background:rgba(0,0,0,0.18)">
+            <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/30 mb-3">Rumoured Purchaser</div>
+            <div class="font-display tracking-[0.18em] text-2xl md:text-3xl text-gold leading-none mb-2">HANCOCK PROSPECTING</div>
+            <div class="text-[0.5rem] tracking-[0.22em] uppercase text-paper/25">Gina Rinehart · Resources &amp; Property</div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-2 reveal">
+            <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.03)">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-1">The Sale</div>
+                <p class="text-[0.6rem] text-paper/40 leading-relaxed">Rumoured purchase of Australia Fair by Hancock Prospecting from a Chinese billionaire. Unconfirmed.</p>
+            </div>
+            <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.03)">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-1">The Tenants</div>
+                <p class="text-[0.6rem] text-paper/40 leading-relaxed">New ownership said to be evicting "trouble tenants" as part of a clean-up of the centre.</p>
+            </div>
+            <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.03)">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-1">The Security</div>
+                <p class="text-[0.6rem] text-paper/40 leading-relaxed">Security reportedly being increased across the centre — the stated aim being to keep shoppers safe.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
      EPISODE 2 LINK
 ══════════════════════════════════════ -->
 <section class="py-24 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(124,106,170,0.06) 0%,rgba(12,8,4,0) 100%)">
