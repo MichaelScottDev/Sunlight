@@ -4538,6 +4538,19 @@
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The call was made by West Kira and Grason Andrew Kira to Mick Gatto — an approach that combined a solicitation to murder with the offering of a sum of money. Gatto's response was unambiguous. He recorded the inbound call and provided it directly to police. West Kira and Grason Andrew Kira are now facing charges as a result of that recorded call being in police possession.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-6">This is the same Mick Gatto who, at the Broadbeach disability centre confrontation, warned Grason Andrew Kira directly — in front of two corrupt QPS officers and a psychologist — not to interfere with Adam Watson. Grason Andrew Kira ignored that warning. He then compounded it by making a recorded call soliciting violence against the same person Gatto had already publicly stated was under his protection.</p>
 
+            <!-- Mick Gatto photo -->
+            <div class="reveal mb-6">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/mick_gatto.jpg"
+                     alt="Mick Gatto"
+                     class="w-full border border-paper/[0.07]"
+                     style="max-height:520px;object-fit:contain;background:#0d0d0d"
+                     loading="lazy" />
+                <div class="flex items-center justify-between px-3 py-2 border border-t-0 border-paper/[0.07]" style="background:rgba(61,122,74,0.06)">
+                    <span class="text-[0.45rem] tracking-[0.18em] uppercase text-sage">Mick Gatto · Recorded the inbound call and handed it to police</span>
+                    <span class="text-[0.45rem] tracking-[0.14em] uppercase text-paper/25">"Anything Mr. Watson touches turns to stone."</span>
+                </div>
+            </div>
+
             <div class="border border-hot/20 p-6 mb-6" style="background:rgba(193,68,14,0.04)">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-4">Sequence of Events — The Call</div>
                 <div class="space-y-2.5">
