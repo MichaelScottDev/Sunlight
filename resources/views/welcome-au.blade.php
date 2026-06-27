@@ -3549,10 +3549,14 @@
         <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4 reveal">According to the account, the claim was made by an <strong class="text-paper/70">Optus employee</strong>: that <strong class="text-paper/70">Hancock Prospecting</strong> — Gina Rinehart's company — has purchased <strong class="text-paper/70">Australia Fair</strong> in Southport from a <strong class="text-paper/70">Chinese billionaire</strong> who previously owned the centre. The employee tied the rumour to a visible change on the ground: that the new ownership is now moving to evict what were described as "trouble tenants."</p>
         <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6 reveal">The same account holds that the new ownership is <strong class="text-paper/70">amping up security</strong> across the centre — the stated purpose being to make sure shoppers are safe. On this telling, the eviction of trouble tenants and the increase in security are two halves of the same clean-up: a deliberate reset of who uses the centre and how it feels to walk through it.</p>
 
-        <!-- Hancock Prospecting wordmark -->
+        <!-- Hancock Prospecting logo -->
         <div class="border border-paper/[0.08] p-6 mb-6 reveal flex flex-col items-center text-center" style="background:rgba(0,0,0,0.18)">
-            <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/30 mb-3">Rumoured Purchaser</div>
-            <div class="font-display tracking-[0.18em] text-2xl md:text-3xl text-gold leading-none mb-2">HANCOCK PROSPECTING</div>
+            <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/30 mb-4">Rumoured Purchaser</div>
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/hancock_prospecting_logo_full.jpg"
+                 alt="Hancock Prospecting"
+                 class="w-full max-w-[320px] mb-4"
+                 style="object-fit:contain;background:#fff"
+                 loading="lazy" />
             <div class="text-[0.5rem] tracking-[0.22em] uppercase text-paper/25">Gina Rinehart · Resources &amp; Property</div>
         </div>
 
@@ -4826,18 +4830,83 @@ function sqToggle(checkboxId, fieldsId) {
 function sqToggleAnon() {
     document.getElementById('sq-contact-fields').classList.toggle('open', !document.getElementById('sq-anon-chk').checked);
 }
+function sqShowError(msg) {
+    var footer = document.getElementById('sq-form-footer');
+    var err = document.getElementById('sq-submit-error');
+    if (!err) {
+        err = document.createElement('p');
+        err.id = 'sq-submit-error';
+        err.style.cssText = 'width:100%;margin:0 0 4px;color:#c8372d;font-size:0.62rem;letter-spacing:0.04em;line-height:1.5';
+        footer.insertBefore(err, footer.firstChild);
+    }
+    err.textContent = msg;
+    err.style.display = 'block';
+}
 function sqSubmit() {
     var summary = document.getElementById('sq-summary');
-    var subject = document.getElementById('sq-subject');
     if (!summary.value.trim()) {
         summary.classList.add('sq-error');
         summary.focus();
         return;
     }
     summary.classList.remove('sq-error');
-    document.getElementById('sq-form-card').style.display = 'none';
-    document.getElementById('sq-form-footer').style.display = 'none';
-    document.getElementById('sq-success-state').style.display = 'block';
+
+    var card = document.getElementById('sq-form-card');
+    var val = function(name) { var el = card.querySelector('[name="' + name + '"]'); return el ? el.value : ''; };
+    var chk = function(name) { var el = card.querySelector('[name="' + name + '"]'); return el ? el.checked : false; };
+
+    var payload = {
+        subject:             val('sq_subject'),
+        subject_other:       val('sq_subject_other'),
+        summary:             summary.value.trim(),
+        evidence_type:       val('sq_evidence_type'),
+        drive_link:          val('sq_drive_link'),
+        direct_url:          val('sq_direct_url'),
+        evidence_desc:       val('sq_evidence_desc'),
+        wants_pickup:        chk('sq_wants_pickup'),
+        pickup_suburb:       val('sq_pickup_suburb'),
+        pickup_timing:       val('sq_pickup_timing'),
+        pickup_notes:        val('sq_pickup_notes'),
+        relation_to_subject: val('sq_relation'),
+        has_corroboration:   chk('sq_has_corroboration'),
+        reported_before:     chk('sq_reported_before'),
+        safety_concern:      chk('sq_safety_concern'),
+        consents_publish:    chk('sq_consents_publish'),
+        is_anonymous:        chk('sq_anonymous'),
+        contact_name:        val('sq_contact_name'),
+        contact_phone:       val('sq_contact_phone'),
+        contact_email:       val('sq_contact_email'),
+        contact_pref:        val('sq_contact_pref'),
+        contact_notes:       val('sq_contact_notes')
+    };
+
+    var btn = document.getElementById('sq-submit-btn');
+    var oldLabel = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = 'SENDING…';
+
+    fetch('/api/tips', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(payload)
+    })
+    .then(function(res) { return res.json().catch(function(){ return {}; }).then(function(data){ return { ok: res.ok, data: data }; }); })
+    .then(function(r) {
+        if (r.ok && r.data && r.data.success) {
+            document.getElementById('sq-form-card').style.display = 'none';
+            document.getElementById('sq-form-footer').style.display = 'none';
+            document.getElementById('sq-success-state').style.display = 'block';
+        } else {
+            btn.disabled = false;
+            btn.textContent = oldLabel;
+            sqShowError((r.data && r.data.message) ? r.data.message : 'Submission failed — please try again.');
+        }
+    })
+    .catch(function() {
+        btn.disabled = false;
+        btn.textContent = oldLabel;
+        sqShowError('Network error — your tip was not sent. Please check your connection and try again.');
+    });
 }
 document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') closeTipModal();
