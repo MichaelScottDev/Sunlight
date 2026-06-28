@@ -470,6 +470,13 @@
                     <p class="text-[0.72rem] leading-relaxed text-paper/45">The same person recounted that Bodie Chalmers was once <strong class="text-paper/65">bashed by a footballer whose girlfriend he had stolen</strong> — an account consistent with the conduct described throughout this chapter, and with his pattern of provoking the very confrontations he later sought to weaponise.</p>
                 </div>
 
+                <!-- Bodie's reaction to the website -->
+                <div class="story-chapter reveal mt-6 mb-6" style="border-left-color:rgba(124,106,170,0.6)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">Update · His Reaction to the Website</span></div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Since this website went up, Bodie Chalmers has said that he is going to <strong class="text-paper/65">kill himself</strong> because everyone is making fun of him over what is documented here. At the same time, he is <strong class="text-paper/65">desperately trying to have children with a woman</strong> — in his own framing, to prove to everyone that he is not gay.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45">The two statements sit side by side: a man who was, by his own conduct, in a relationship with Adam Watson, now seeking to publicly disprove that fact by fathering a child — while threatening self-harm over the reaction to a record of things he did.</p>
+                </div>
+
                 <!-- EVIDENCE VAULT: Bodie Chalmers -->
                 <div class="evidence-vault">
                     <div class="ev-header" onclick="toggleVault(this)">
