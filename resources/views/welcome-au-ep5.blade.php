@@ -618,6 +618,10 @@
             <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">NOT $145. <span class="text-hot">$1,040 — IN A SINGLE WEEK.</span></h3>
             <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The tenant is paid weekly. Instead of taking the standard ~$145 for the week, the agency took <strong class="text-hot">$1,040 in one week</strong> — two weeks' worth at once. As at <strong class="text-paper/65">28 June 2026</strong>, that means he loses his payment last week and this week. For <strong class="text-paper/65">two weeks the tenant will have no money at all</strong>.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">There is no benign reading of this. It was done as <strong class="text-paper/65">retaliation</strong>. A <strong class="text-paper/65">Centrelink assistant saw what had happened</strong> and stepped in — attempting to get Housing NSW to back down and reverse the seizure.</p>
+            <div class="flex items-center gap-3 border border-paper/[0.07] p-3 mb-4" style="background:#fff">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/centrelink_logo.png" alt="Centrelink" class="max-w-[150px]" style="object-fit:contain" loading="lazy" />
+                <span class="text-[0.5rem] tracking-[0.12em] uppercase text-ink/60 leading-relaxed">The $1,040 was taken directly from the tenant's Centrelink payment</span>
+            </div>
             <div class="border-l-4 border-hot/60 pl-4 py-2" style="background:rgba(193,68,14,0.05)">
                 <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-1">The Glaring Issue</div>
                 <p class="text-[0.7rem] leading-relaxed text-paper/55 italic">Housing NSW is able to penalise a person by reaching in and taking their <strong class="text-paper/70">full Centrelink payment</strong> — the entire income of someone in social housing — and leaving them with nothing to live on. That a government housing agency can zero out a vulnerable person's only income, and do it as retaliation, is a structural failure. <strong class="text-paper/70">Rose Jackson</strong>, the Minister for Housing, is aware of this.</p>
@@ -637,6 +641,18 @@
 
         <div class="border border-gold/20 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.04)">
             <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-4">The Minister — Rose Jackson</div>
+            <div class="flex flex-col sm:flex-row gap-5 items-start mb-4">
+                <div class="shrink-0 w-32 border border-paper/[0.07] overflow-hidden" style="aspect-ratio:3/4">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rose_jackson.jpeg" alt="Rose Jackson — NSW Minister for Housing" class="w-full h-full object-cover object-top" loading="lazy" />
+                </div>
+                <div class="flex-1">
+                    <div class="border border-paper/[0.07] p-4 mb-3 flex items-center justify-center" style="background:#fff">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/homes-nsw-logo.png" alt="Homes NSW" class="w-full max-w-[200px]" style="object-fit:contain" loading="lazy" />
+                    </div>
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold/70">Rose Jackson · Minister for Housing</div>
+                    <div class="text-[0.5rem] text-paper/35 mt-0.5 leading-relaxed">The NSW Land and Housing Corporation now sits within Homes NSW — within her portfolio.</div>
+                </div>
+            </div>
             <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">The Minister responsible is <strong class="text-paper/70">Rose Jackson</strong>, the Minister for Housing. The NSW Land and Housing Corporation now sits within <strong class="text-paper/70">Homes NSW</strong>, which is within her portfolio. Under the most basic convention of responsible government, the conduct of that agency is the Minister's to answer for.</p>
             <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">She does not personally schedule a plumber — but she is the person the public is entitled to hold to account when the agency she is responsible for ignores a court order and leaves a life-support home in the dark. The tenant has written to her office.</p>
             <div class="border border-gold/15 p-3" style="background:rgba(201,138,16,0.03)">

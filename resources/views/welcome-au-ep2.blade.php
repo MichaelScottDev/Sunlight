@@ -730,6 +730,9 @@
                 <!-- Optus $2,500 bill — Bodie Chalmers -->
                 <div class="story-chapter reveal" style="border-left-color:rgba(201,138,16,0.3)">
                     <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Bodie Chalmers — Optus Security Breach</span></div>
+                    <div class="border border-paper/[0.07] p-4 mb-5 inline-flex items-center justify-center" style="background:#fff">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/optus_logo.png" alt="Optus" class="w-full max-w-[160px]" style="object-fit:contain" loading="lazy" />
+                    </div>
                     <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">THE $2,500 BILL<br><span class="text-gold">FOR OPTUS'S OWN FAILURE.</span></h3>
                     <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"Bodie Chalmers walked into an Optus store and had Adam's phone number turned off. No authorisation. No verification. Just social pressure on an employee. And it worked."</p>
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">Bodie Chalmers deactivated Adam's Optus service by threatening to expose an employee's sexuality unless they complied. The employee complied. Adam's phone was turned off. The matter was raised with the Prime Minister's office, referred to the Telecommunications Industry Ombudsman, and the Optus CEO was notified. Adam is now being billed $2,500 for the disconnection — despite the breach being caused entirely by Bodie Chalmers exploiting Optus's own failure.</p>
