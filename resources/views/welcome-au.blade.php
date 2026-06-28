@@ -3532,6 +3532,67 @@
                 </div>
             </div>
 
+            <!-- Tent Advice Note / Human Rights Notice -->
+            <div class="story-chapter reveal mb-8" style="border-left-color:rgba(61,122,74,0.5)">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-sage border border-sage/40 px-2 py-1">The Note on the Tent · Reference 1718464</span>
+                    <span class="text-[0.44rem] tracking-[0.15em] uppercase border border-paper/15 text-paper/30 px-2 py-0.5 blink">⬤ NO RESPONSE FROM COUNCIL</span>
+                </div>
+                <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">THEY LEFT A NOTICE ON MY HOME.<br><span class="text-sage">SO I PUT THE COUNCIL ON NOTICE BACK.</span></h3>
+                <p class="font-serif italic text-paper/55 text-base leading-relaxed mb-5">"On 24 June 2026 a City of Gold Coast officer left an Advice Note against my tent at Albert Waterways Park — 48 hours to remove my home or have it 'seized, confiscated, removed or impounded'. The tent is the only shelter I have."</p>
+
+                <!-- Photos -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+                    <div>
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tent_notice/tent_1+(1).jpg" alt="The tent at Albert Waterways Park with the Council Advice Note placed against it" class="w-full border border-paper/[0.07]" style="height:260px;object-fit:cover" loading="lazy" />
+                        <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/30 mt-1.5">The tent · Advice Note left against it · Albert Waterways Park, Mermaid Waters</div>
+                    </div>
+                    <div>
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tent_notice/gc_letter+(1).jpg" alt="City of Gold Coast Advice Note, Reference 1718464, dated 24 June 2026" class="w-full border border-paper/[0.07]" style="height:260px;object-fit:cover;object-position:top" loading="lazy" />
+                        <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/30 mt-1.5">The Advice Note · Reference 1718464 · Issued 24 June 2026 by officer "Darren"</div>
+                    </div>
+                </div>
+
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The Advice Note — "Storage of goods in a public place", Reference 1718464 — listed my <strong class="text-paper/65">tent and bedding</strong> as goods that "may be deemed unclaimed and/or abandoned and seized, confiscated, removed or impounded" within 48 hours. It is the same process that begins every clearing of a rough sleeper from public land.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">On <strong class="text-paper/65">25 June 2026</strong> I responded with a formal letter to the City of Gold Coast's CEO, Mr Tim Baker — copied to the General Counsel, City Laws Compliance, the local Councillor, and the Queensland Human Rights Commission — to be treated as an internal human rights complaint under the <em>Human Rights Act 2019</em> (Qld). It puts the Council on notice and demands undertakings.</p>
+
+                <!-- Points the notice raises -->
+                <div class="border border-sage/20 p-5 mb-6" style="background:rgba(61,122,74,0.04)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-3">The Points the Notice Raises</div>
+                    <div class="space-y-2">
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/45 leading-relaxed">The tent and bedding are not abandoned goods — they are my <strong class="text-paper/60">home and only shelter</strong>. I am a disadvantaged person sheltering under a tree on public land, harming no one.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/45 leading-relaxed">The Council is a <strong class="text-paper/60">public entity under the Human Rights Act 2019 (Qld)</strong>. Section 58(1) makes it unlawful to act incompatibly with human rights, and requires proper consideration of them.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/45 leading-relaxed">Seizing my home would engage the right to protection from <strong class="text-paper/60">cruel, inhuman or degrading treatment (s 17)</strong>, the <strong class="text-paper/60">right to property (s 24)</strong>, and the right not to have my <strong class="text-paper/60">home arbitrarily interfered with (s 25(a))</strong>.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/45 leading-relaxed">This is settled: in <em class="text-paper/60">Bobeldyk v Moreton Bay City Council</em> [2026] QSC 27 (6 March 2026), the Supreme Court found a council that seized rough sleepers' tents — without proper human rights consideration, reasonable time, or alternative accommodation — acted <strong class="text-paper/60">unlawfully</strong>. The tents were the occupants' homes. The earlier <em class="text-paper/60">Tipler</em> [2025] QSC 194 injunction restrained that council entirely. <strong class="text-paper/60">Moreton Bay ran this very process. Moreton Bay lost.</strong></p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/45 leading-relaxed">If the Council acts, I will apply to the <strong class="text-paper/60">Supreme Court for an urgent injunction</strong> and pursue damages — and I am not the only person being targeted, so I reserve the right to pursue that relief collectively.</p></div>
+                        <div class="flex gap-2 items-start"><span class="text-sage text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/45 leading-relaxed">I demanded written <strong class="text-paper/60">undertakings by 5:00pm Friday 27 June 2026</strong>: no seizure without proper s 58 consideration and a genuine referral to accommodation; disclosure of what human rights consideration was given; and preservation/return of anything already taken.</p></div>
+                    </div>
+                </div>
+
+                <!-- Embedded notice -->
+                <div class="mb-3">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-[0.46rem] tracking-[0.2em] uppercase text-sage/70">Human Rights Notice — Full Letter</span>
+                        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tent_notice/Kondratenko_HumanRights_Notice_GCCC+(1)+(1).pdf" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase text-sage border border-sage/30 px-2 py-0.5 hover:bg-sage/10 transition-colors">Open PDF ↗</a>
+                    </div>
+                    <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tent_notice/Kondratenko_HumanRights_Notice_GCCC+(1)+(1).pdf" class="w-full border border-paper/[0.07]" style="height:520px;background:#0d0d0d" title="Human Rights Notice to City of Gold Coast — Reference 1718464"></iframe>
+                </div>
+
+                <!-- Document list -->
+                <div class="flex flex-wrap gap-2 mb-6">
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tent_notice/email_confirmation.pdf" target="_blank" rel="noopener" class="text-[0.46rem] tracking-[0.14em] uppercase text-paper/45 border border-paper/15 px-2.5 py-1 hover:border-sage/50 hover:text-sage transition-colors">📧 Email Confirmation ↗</a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tent_notice/Kondratenko_HumanRights_Notice_GCCC+(1)+(1).pdf" target="_blank" rel="noopener" class="text-[0.46rem] tracking-[0.14em] uppercase text-paper/45 border border-paper/15 px-2.5 py-1 hover:border-sage/50 hover:text-sage transition-colors">📄 Human Rights Notice ↗</a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tent_notice/gc_letter+(1).jpg" target="_blank" rel="noopener" class="text-[0.46rem] tracking-[0.14em] uppercase text-paper/45 border border-paper/15 px-2.5 py-1 hover:border-sage/50 hover:text-sage transition-colors">🖼 Advice Note ↗</a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/tent_notice/tent_1+(1).jpg" target="_blank" rel="noopener" class="text-[0.46rem] tracking-[0.14em] uppercase text-paper/45 border border-paper/15 px-2.5 py-1 hover:border-sage/50 hover:text-sage transition-colors">🖼 Tent Photo ↗</a>
+                </div>
+
+                <!-- Status -->
+                <div class="border-l-4 border-sage/60 pl-5 py-3" style="background:rgba(61,122,74,0.05)">
+                    <div class="text-[0.48rem] tracking-[0.2em] uppercase text-sage mb-1">Status — As at 28 June 2026, 8:45pm</div>
+                    <p class="text-[0.7rem] leading-relaxed text-paper/55">The undertakings were demanded by 5:00pm on Friday 27 June. That deadline has passed. As at <strong class="text-paper/70">28 June 2026, 8:45pm</strong>, there has been <strong class="text-paper/70">no response from the Council</strong> — and the tent <strong class="text-paper/70">has not been touched</strong>. The 48-hour seizure window in the Advice Note has come and gone without the Council acting on it. The letter, and the law it sets out, are on the record.</p>
+                </div>
+            </div>
+
             <div class="border border-paper/[0.08] p-5" style="background:rgba(0,0,0,0.14)">
                 <div class="text-[0.48rem] tracking-[0.2em] uppercase text-paper/30 mb-3">The Responsibility of Media</div>
                 <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Legacy media has retreated from the street. Newsroom budgets have been cut. Local reporters no longer cover the full spectrum of what happens in communities — what happens at 2am outside a service station, what happens in the car parks, what happens when a group of young men decide to wait for someone at a tyre shop. Those stories don't fit neatly into the production cycle. They don't generate ad revenue. And when footage exists, a platform takedown can remove it before a journalist even sees it.</p>
