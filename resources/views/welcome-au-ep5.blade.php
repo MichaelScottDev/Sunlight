@@ -609,6 +609,20 @@
                 <p class="text-[0.72rem] leading-relaxed text-paper/60 italic">An agency that was ordered to cap rent at $77.95 because its repairs were overdue billed $520 — with the repairs still overdue — and took the entire amount from his Centrelink payment on a single day's notice.</p>
             </div>
         </div>
+
+        <div class="border border-hot/25 p-6 mt-8 reveal" style="background:rgba(193,68,14,0.06)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">Update — $1,040 Taken in One Week</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5 blink">⬤ RETALIATION</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">NOT $145. <span class="text-hot">$1,040 — IN A SINGLE WEEK.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The tenant is paid weekly. Instead of taking the standard ~$145 for the week, the agency took <strong class="text-hot">$1,040 in one week</strong> — two weeks' worth at once. As at <strong class="text-paper/65">28 June 2026</strong>, that means he loses his payment last week and this week. For <strong class="text-paper/65">two weeks the tenant will have no money at all</strong>.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">There is no benign reading of this. It was done as <strong class="text-paper/65">retaliation</strong>. A <strong class="text-paper/65">Centrelink assistant saw what had happened</strong> and stepped in — attempting to get Housing NSW to back down and reverse the seizure.</p>
+            <div class="border-l-4 border-hot/60 pl-4 py-2" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-1">The Glaring Issue</div>
+                <p class="text-[0.7rem] leading-relaxed text-paper/55 italic">Housing NSW is able to penalise a person by reaching in and taking their <strong class="text-paper/70">full Centrelink payment</strong> — the entire income of someone in social housing — and leaving them with nothing to live on. That a government housing agency can zero out a vulnerable person's only income, and do it as retaliation, is a structural failure. <strong class="text-paper/70">Rose Jackson</strong>, the Minister for Housing, is aware of this.</p>
+            </div>
+        </div>
     </div>
 
 
@@ -628,6 +642,21 @@
             <div class="border border-gold/15 p-3" style="background:rgba(201,138,16,0.03)">
                 <div class="text-[0.43rem] tracking-[0.15em] uppercase text-gold mb-1.5">The Position of This Masthead</div>
                 <p class="text-[0.58rem] text-paper/45 leading-relaxed">When a private citizen ignores a court, there are consequences. When a state housing agency ignores a tribunal it <em>agreed</em> to be bound by, the file simply gets another adjournment. There is no one whose job it is to make the order bite. He is owed an answer, and so is the public.</p>
+            </div>
+        </div>
+
+        <!-- Illegal access / Robert Huang court documents / false rent-fraud allegation -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">Update — Illegal Entry &amp; a False Fraud Allegation</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5 blink">⬤ WILL COLLAPSE IN COURT</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">THEY ENTERED A PROPERTY ILLEGALLY.<br><span class="text-hot">THEN BUILT A FRAUD CLAIM ON WHAT THEY FOUND.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam Watson had left some court documents at a friend's house. NSW Housing <strong class="text-paper/65">accessed that property illegally</strong> and, while there, found the court documents — which related to <strong class="text-paper/65">Robert Huang</strong>. On the strength of that, the agency recorded Adam Watson's friend as having committed <strong class="text-paper/65">rent fraud</strong>.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The allegation is false. The court documents do <strong class="text-paper/65">not belong to the friend</strong> — they are Adam Watson's, relating to the Robert Huang matter, and were simply left there. The friend committed no fraud.</p>
+            <div class="border-l-4 border-hot/60 pl-4 py-2" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-1">Why This Backfires</div>
+                <p class="text-[0.7rem] leading-relaxed text-paper/55 italic">By putting a rent-fraud allegation on the record, NSW Housing now has to prove it — and they cannot. The documents are not the friend's, and there is no fraud to back up. The allegation will collapse in court, and the agency will have compounded an illegal entry with a false accusation it cannot sustain.</p>
             </div>
         </div>
 
