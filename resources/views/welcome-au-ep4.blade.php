@@ -157,6 +157,7 @@
         <a href="/episode-5" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase border px-3 py-1.5 transition-all" style="border-color:rgba(201,138,16,0.45);color:#c98a10" onmouseover="this.style.borderColor='#c98a10';this.style.background='rgba(201,138,16,0.08)'" onmouseout="this.style.borderColor='rgba(201,138,16,0.45)';this.style.background=''">Episode 5 →</a>
         <a href="/episode-3" title="Go to Episode 3" aria-label="Go to Episode 3" class="flex md:hidden items-center gap-1 px-2.5 h-8 border font-display text-[0.6rem] tracking-widest" style="border-color:rgba(201,138,16,0.5);color:#c98a10">‹ EP3</a>
         <span class="text-[0.52rem] tracking-[0.18em] uppercase border px-3 py-1.5 blink" style="border-color:rgba(61,122,74,0.6);color:#3d7a4a">⬤ EP.04</span>
+        <a href="/episode-5" title="Go to Episode 5" aria-label="Go to Episode 5" class="flex md:hidden items-center gap-1 px-2.5 h-8 border font-display text-[0.6rem] tracking-widest" style="border-color:rgba(201,138,16,0.5);color:#c98a10">EP5 ›</a>
     </div>
 </nav>
 
@@ -1705,6 +1706,19 @@
             </div>
         </div>
 
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     EPISODE 5 LINK
+══════════════════════════════════════ -->
+<section class="py-24 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(201,138,16,0.06) 0%,rgba(12,8,4,0) 100%)">
+    <div class="max-w-3xl mx-auto text-center">
+        <div class="flex items-center justify-center gap-3 mb-6"><div class="w-12 h-px" style="background:#c98a10"></div><span class="text-[0.5rem] tracking-[0.3em] uppercase" style="color:#c98a10">End of Episode 4</span><div class="w-12 h-px" style="background:#c98a10"></div></div>
+        <h2 class="font-display leading-none tracking-wide mb-5" style="font-size:clamp(2.8rem,7vw,5rem)">THE ORDER THEY AGREED TO.<br><span style="color:#c98a10">EPISODE 5.</span></h2>
+        <p class="font-serif italic text-paper/40 text-lg leading-relaxed mb-10 max-w-xl mx-auto">A NSW government agency consented to a tribunal order to make a social-housing home habitable — then left the repairs undone, the power off, and the rent pushed to $520 a week.</p>
+        <a href="/episode-5" class="inline-block font-display tracking-widest text-xl px-12 py-5 transition-all hover:bg-gold/10" style="color:#c98a10;border:1px solid rgba(201,138,16,0.5)">CONTINUE TO EPISODE 5 →</a>
     </div>
 </section>
 
