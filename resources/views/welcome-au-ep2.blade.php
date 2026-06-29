@@ -3148,6 +3148,13 @@
                     </div>
                 </div>
 
+                <!-- The business partner — $4M and a director trap -->
+                <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">The Business Partner — $4 Million and a Director Trap</div>
+                    <p class="text-[0.66rem] text-paper/48 leading-relaxed mb-3">There is a human cost to all of this, and it has a face. Dave Hodgson's business partner sank <strong class="text-paper/65">$4 million of his own capital</strong> into these companies — and Hodgson convinced him to become a <strong class="text-paper/65">Director of all of them</strong>. As a director, that partner carried the legal exposure and personal liability while the structures were run the way they were run.</p>
+                    <p class="text-[0.66rem] text-paper/48 leading-relaxed">He has been hoodwinked. His capital is gone, the directorships left him holding the risk, and at <strong class="text-paper/65">70 years old</strong> he now has to go back to work. That is what sits underneath the corporate language of disqualification, shadow directorship, and phoenix activity: a man near the end of his working life, $4 million down, starting over because he trusted the wrong person.</p>
+                </div>
+
                 <!-- People in glass houses -->
                 <div class="border-l-4 border-gold/50 pl-5" style="background:rgba(201,138,16,0.06);padding:1rem 1rem 1rem 1.25rem">
                     <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-2">People in Glass Houses — Mrs Rinehart's Observation Applied</div>
