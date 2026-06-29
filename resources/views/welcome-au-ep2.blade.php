@@ -2607,6 +2607,16 @@
             </div>
         </div>
 
+        <!-- Raz — suspected theft of contractors' lock box (Episode 5) -->
+        <div class="story-chapter reveal mb-10" style="border-left-color:rgba(201,138,16,0.5)">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-[0.45rem] tracking-[0.2em] uppercase px-2 py-1 border border-gold/30 text-gold" style="background:rgba(201,138,16,0.07)">Suspected · Raz &nbsp;·&nbsp; Cross-Reference: Episode 5</span>
+            </div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE CONTRACTORS' LOCK BOX.<br><span class="text-gold">STOLEN — AND ADAM SUSPECTS RAZ.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">At the social-housing property at the centre of <a href="/episode-5" class="text-gold underline decoration-gold/40 hover:decoration-gold transition-colors">Episode 5</a>, a lock box was placed outside the house so contractors could access the property to carry out the long-overdue repairs. The lock box was stolen. Adam Watson suspects it was taken by <strong class="text-paper/65">Raz</strong> — Samira Khalaj's husband.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45">If that suspicion is right, the theft fits the pattern documented throughout this section: gas-pipeline tampering, brake-cutting, smeared substances, and false reports — conduct designed to obstruct, endanger, and harass. Stealing the contractors' lock box would obstruct the very repairs a tribunal had already ordered, dragging the same campaign of interference into the Episode 5 matter.</p>
+        </div>
+
         <!-- Medical evidence callout -->
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.3)">
             <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE JAW THAT WAS JUST "SORE."<br><span class="text-hot">A DOCTOR'S NOTE DOESN'T MAKE IT TRUE.</span></h3>

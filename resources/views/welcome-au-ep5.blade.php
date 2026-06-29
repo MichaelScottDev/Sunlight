@@ -754,6 +754,20 @@
             <p class="text-[0.72rem] leading-relaxed text-paper/50">Meanwhile, <strong class="text-paper/70">Homes NSW has attempted to contact Adam Watson</strong>. He has declined — stating that he will <strong class="text-paper/70">only speak to Rose Jackson directly</strong>. The accountability he is seeking is ministerial, not administrative.</p>
         </div>
 
+        <!-- After Kellie Sloane — Homes NSW attends; lock box stolen -->
+        <div class="border border-sage/25 p-6 mb-8 reveal" style="background:rgba(61,122,74,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-sage">Update — Suddenly, Action</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-sage/50 text-sage px-1.5 py-0.5">⬤ POWER RESTORED · LOCKS CHANGED</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">ONCE THE OPPOSITION LEADER WAS INVOLVED,<br><span class="text-sage">THE CONTRACTORS FINALLY CAME.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">After <strong class="text-paper/70">Kellie Sloane</strong> took the matter up, the pace changed. <strong class="text-paper/70">Homes NSW attended the property</strong> to fix the power and change the locks — the very work that had sat undone, through adjournment after adjournment, while a court order went ignored. The timing speaks for itself: nine months of "we're inspecting", then movement within days of the Opposition Leader getting involved.</p>
+            <div class="border-l-4 border-gold/60 pl-4 py-2" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-1">The Stolen Lock Box</div>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">A <strong class="text-paper/65">lock box</strong> had been placed outside the house so contractors could access the property. It was <strong class="text-paper/65">stolen</strong>. Adam Watson suspects it was taken by <strong class="text-paper/65">Raz</strong> — the husband of <strong class="text-paper/65">Samira Khalaj</strong>, whose documented campaign of harassment, gas-pipeline tampering, and false allegations is set out in <a href="/episode-2#samira" class="text-gold underline decoration-gold/40 hover:decoration-gold transition-colors">Episode 2</a>. The theft of the contractors' lock box would, on that suspicion, be one more act of interference from the same quarter — obstructing the very repairs this episode has been demanding.</p>
+            </div>
+        </div>
+
         <div class="border-l-4 border-gold/60 pl-5 py-3 reveal" style="background:rgba(201,138,16,0.04)">
             <h4 class="font-display text-2xl tracking-wide mb-2 leading-tight">THE QUESTION THE DOCUMENTS LEAVE ON THE TABLE.</h4>
             <p class="text-[0.72rem] leading-relaxed text-paper/55">Strip away every contested claim and one fact remains, sealed and signed: a NSW government agency told a tribunal it would fix this by November. It is now winter again. The work is not done, the power has failed, and the rent has gone up nearly seven-fold. The only open question is who, if anyone, will be held responsible — and whether <em>"we're inspecting"</em> is still an acceptable answer from a government to a court.</p>
