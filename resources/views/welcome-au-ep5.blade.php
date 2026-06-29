@@ -737,6 +737,23 @@
             </div>
         </div>
 
+        <!-- Kellie Sloane — Opposition Leader -->
+        <div class="border border-gold/30 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold">Update — The Opposition Leader Steps In</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-gold/50 text-gold px-1.5 py-0.5 blink">⬤ TO BE TABLED IN PARLIAMENT</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">KELLIE SLOANE HAS TAKEN THIS UP.<br><span class="text-gold">AND SHE IS TABLING IT IN PARLIAMENT.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The NSW Opposition Leader, <strong class="text-paper/70">Kellie Sloane</strong>, has contacted Adam Watson directly after being informed of the conduct of Homes NSW and its responsible Minister, <strong class="text-paper/70">Rose Jackson</strong>. Adam Watson describes her as <strong class="text-paper/70">a very honourable person</strong>.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">She has told him she is going to <strong class="text-paper/70">table this conduct in Parliament</strong>.</p>
+            <div class="border-l-4 border-gold/60 pl-4 py-2 mb-4" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-1">What "Tabling It" Means</div>
+                <p class="text-[0.65rem] text-paper/48 leading-relaxed">To <em>table</em> a document is to formally lay it before the Parliament so that it becomes part of the official parliamentary record. Once tabled, the documents and the conduct they describe are on the public record of the House — they can be referred to in debate, reported under parliamentary privilege, and used to question the Minister directly. It moves this matter out of an agency's complaints inbox and into the chamber where Ministers are held to account.</p>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Kellie Sloane is pressing for <strong class="text-paper/70">Rose Jackson to resign</strong>, on the basis that she is an incompetent Minister whose agency has ignored a tribunal order, cut power to a life-support home, and seized a vulnerable tenant's full Centrelink payment.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">Meanwhile, <strong class="text-paper/70">Homes NSW has attempted to contact Adam Watson</strong>. He has declined — stating that he will <strong class="text-paper/70">only speak to Rose Jackson directly</strong>. The accountability he is seeking is ministerial, not administrative.</p>
+        </div>
+
         <div class="border-l-4 border-gold/60 pl-5 py-3 reveal" style="background:rgba(201,138,16,0.04)">
             <h4 class="font-display text-2xl tracking-wide mb-2 leading-tight">THE QUESTION THE DOCUMENTS LEAVE ON THE TABLE.</h4>
             <p class="text-[0.72rem] leading-relaxed text-paper/55">Strip away every contested claim and one fact remains, sealed and signed: a NSW government agency told a tribunal it would fix this by November. It is now winter again. The work is not done, the power has failed, and the rent has gone up nearly seven-fold. The only open question is who, if anyone, will be held responsible — and whether <em>"we're inspecting"</em> is still an acceptable answer from a government to a court.</p>

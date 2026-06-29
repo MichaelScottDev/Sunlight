@@ -2144,6 +2144,22 @@
                     </div>
                 </div>
 
+                <!-- Westpac returned the scam money to Bodie's CommBank account -->
+                <div class="story-chapter reveal mt-5 mb-5" style="border-left-color:rgba(193,68,14,0.6)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Westpac · Update — The Money Went Back to the Scammer</span>
+                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5 blink">⬤ TRADING HALT SOUGHT</span>
+                    </div>
+                    <h4 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">WESTPAC PAID THE SCAMMER BACK.<br><span class="text-hot">THE VICTIM'S MONEY RETURNED TO BODIE CHALMERS.</span></h4>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">In a development that compounds everything documented above, Westpac has <strong class="text-paper/65">mistakenly returned Bodie Chalmers's money to his Commonwealth Bank account</strong> — the very funds extorted from Adam Watson. That Commonwealth Bank account is <strong class="text-paper/65">blocked</strong> — frozen as part of the Group Security action described in this episode — yet the money was pushed back into it regardless.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Read plainly: a major bank that had formally acknowledged, in writing, that Adam Watson was the victim of a scam and that the payments went to Bodie Chalmers has now <strong class="text-paper/65">paid the perpetrator</strong>. The institution returned the proceeds of an extortion to the person it confirmed received them — not to the victim it confirmed was harmed.</p>
+                    <div class="border border-hot/20 p-4 mb-2" style="background:rgba(193,68,14,0.04)">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">Why This Is So Serious</div>
+                        <p class="text-[0.65rem] text-paper/48 leading-relaxed mb-2">A bank reimbursing the <strong class="text-paper/65">perpetrator</strong> of a confirmed scam — instead of the victim — is not a harmless clerical slip. It puts money back into the hands of a person the bank itself identified as the recipient of extorted funds, and it does so into an account that had been blocked precisely because of criminal-conduct concerns. Paying the scammer back is the exact opposite of what a bank's fraud, scam-recovery, and anti-money-laundering obligations require — and it actively undoes the cross-institutional account freezes that were the one piece of accountability the victim had secured.</p>
+                        <p class="text-[0.65rem] text-paper/45 leading-relaxed italic">Adam Watson has stated that he intends to work to have <strong class="text-paper/60">Westpac placed into a trading halt</strong> for enabling scammers — a formal suspension of trading in the bank's shares on the ASX while the conduct is examined. For a bank to be paying the perpetrator back, into a frozen account, is in his view conduct that warrants exactly that level of scrutiny.</p>
+                    </div>
+                </div>
+
                 <!-- Bodie Chalmers — psych ward performance -->
                 <div class="border-l-4 border-gold/50 pl-5 mb-5 mt-5" style="background:rgba(201,138,16,0.05);padding:1.2rem 1rem 1.2rem 1.25rem">
                     <div class="flex items-center gap-3 mb-3">
