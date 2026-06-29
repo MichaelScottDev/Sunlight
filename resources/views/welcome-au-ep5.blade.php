@@ -649,8 +649,12 @@
                     <div class="border border-paper/[0.07] p-4 mb-3 flex items-center justify-center" style="background:#fff">
                         <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/homes-nsw-logo.png" alt="Homes NSW" class="w-full max-w-[200px]" style="object-fit:contain" loading="lazy" />
                     </div>
+                    <div class="border border-paper/[0.07] p-3 mb-3 flex items-center gap-3" style="background:#fff">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/labout_party_logo.svg" alt="Australian Labor Party" class="max-w-[120px]" style="object-fit:contain" loading="lazy" />
+                        <span class="text-[0.5rem] tracking-[0.12em] uppercase text-ink/55 leading-snug">Rose Jackson — Australian Labor Party</span>
+                    </div>
                     <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold/70">Rose Jackson · Minister for Housing</div>
-                    <div class="text-[0.5rem] text-paper/35 mt-0.5 leading-relaxed">The NSW Land and Housing Corporation now sits within Homes NSW — within her portfolio.</div>
+                    <div class="text-[0.5rem] text-paper/35 mt-0.5 leading-relaxed">Labor Minister. The NSW Land and Housing Corporation now sits within Homes NSW — within her portfolio.</div>
                 </div>
             </div>
             <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">The Minister responsible is <strong class="text-paper/70">Rose Jackson</strong>, the Minister for Housing. The NSW Land and Housing Corporation now sits within <strong class="text-paper/70">Homes NSW</strong>, which is within her portfolio. Under the most basic convention of responsible government, the conduct of that agency is the Minister's to answer for.</p>
@@ -744,6 +748,18 @@
                 <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-gold/50 text-gold px-1.5 py-0.5 blink">⬤ TO BE TABLED IN PARLIAMENT</span>
             </div>
             <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">KELLIE SLOANE HAS TAKEN THIS UP.<br><span class="text-gold">AND SHE IS TABLING IT IN PARLIAMENT.</span></h3>
+            <div class="flex flex-col sm:flex-row gap-5 items-start mb-4">
+                <div class="shrink-0 w-32 border border-paper/[0.07] overflow-hidden" style="aspect-ratio:3/4">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kellie_sloan.jpg" alt="Kellie Sloane — NSW Opposition Leader" class="w-full h-full object-cover object-top" loading="lazy" />
+                </div>
+                <div class="flex-1">
+                    <div class="border border-paper/[0.07] p-4 mb-3 flex items-center justify-center" style="background:#fff">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/liberal_party_logo.svg" alt="Liberal Party of Australia" class="w-full max-w-[180px]" style="object-fit:contain" loading="lazy" />
+                    </div>
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold/70">Kellie Sloane · NSW Opposition Leader</div>
+                    <div class="text-[0.5rem] text-paper/35 mt-0.5 leading-relaxed">Liberal Party — holding the Labor Government's Housing Minister to account.</div>
+                </div>
+            </div>
             <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The NSW Opposition Leader, <strong class="text-paper/70">Kellie Sloane</strong>, has contacted Adam Watson directly after being informed of the conduct of Homes NSW and its responsible Minister, <strong class="text-paper/70">Rose Jackson</strong>. Adam Watson describes her as <strong class="text-paper/70">a very honourable person</strong>.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">She has told him she is going to <strong class="text-paper/70">table this conduct in Parliament</strong>.</p>
             <div class="border-l-4 border-gold/60 pl-4 py-2 mb-4" style="background:rgba(201,138,16,0.04)">
