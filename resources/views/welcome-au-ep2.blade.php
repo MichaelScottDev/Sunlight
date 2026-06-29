@@ -4883,6 +4883,15 @@
                     </div>
                     <h4 class="font-display text-lg tracking-wide mb-3 leading-tight">$200,000 LOTTERY WIN.<br><span class="text-hot">BODIE INTERCEPTED THE EMAIL. GAVE AWAY THE BANK DETAILS.</span></h4>
                     <p class="text-[0.68rem] text-paper/45 leading-relaxed mb-4">Adam Watson won $200,000 through Adrian Portelli's lottery. A notification email was sent requesting his bank deposit details so the winnings could be transferred. Bodie Chalmers — who had obtained access to Adam Watson's emails — intercepted that email and replied to it himself, providing his own bank deposit details in Adam's name. The $200,000 was directed to Bodie Chalmers's account.</p>
+                    <div class="flex gap-4 items-start mb-4">
+                        <div class="shrink-0 w-28 border border-paper/[0.07] overflow-hidden" style="aspect-ratio:1/1">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/adrian_portelli.jpg" alt="Adrian Portelli — LMCT+ lottery founder" class="w-full h-full object-cover object-top" loading="lazy" />
+                        </div>
+                        <div class="pt-1">
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold/70 mb-1">Adrian Portelli</div>
+                            <p class="text-[0.58rem] text-paper/40 leading-relaxed">The lottery through which Adam Watson legitimately won the $200,000. Adrian Portelli's competition was the source of the winnings Bodie Chalmers then intercepted and redirected — Portelli himself is not implicated in the fraud.</p>
+                        </div>
+                    </div>
                     <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-4">
                         <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
                             <div class="text-[0.44rem] tracking-[0.2em] uppercase text-gold mb-1">The Win</div>
