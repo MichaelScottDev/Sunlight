@@ -3180,6 +3180,41 @@
                     <p class="text-[0.66rem] text-paper/48 leading-relaxed">He has been hoodwinked. His capital is gone, the directorships left him holding the risk, and at <strong class="text-paper/65">70 years old</strong> he now has to go back to work. That is what sits underneath the corporate language of disqualification, shadow directorship, and phoenix activity: a man near the end of his working life, $4 million down, starting over because he trusted the wrong person.</p>
                 </div>
 
+                <!-- Church as cover — Empower Church Caloundra -->
+                <div class="border border-gold/20 p-5 mb-5" style="background:rgba(201,138,16,0.03)">
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-3">The Church as Cover — Empower Church Caloundra</div>
+                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">FINED BY ASIC.<br><span class="text-gold">PREACHING FROM THE PULPIT.</span></h4>
+                    <p class="text-[0.66rem] text-paper/48 leading-relaxed mb-3">Dave Hodgson's sermons are listed on the website of <strong class="text-paper/65">Empower Church Caloundra</strong>, where he appears as a speaker. The same man a Federal Court disqualified from managing corporations — banned by ASIC in 2015, penalised again in 2025 — presents himself from the pulpit as a devout and good Christian.</p>
+                    <p class="text-[0.66rem] text-paper/48 leading-relaxed mb-3">It is a familiar pattern: the church as a cover. A profile of faith and community standing is precisely the kind of reputational armour that makes investors lower their guard. The devout presentation and the conduct ASIC penalised are not two separate stories — read together, the piety is part of how the conduct was made to look respectable.</p>
+                    <div>
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-[0.46rem] tracking-[0.18em] uppercase text-gold/70">Dave Hodgson — Sermon · Empower Church Caloundra</span>
+                            <a href="https://empowerchurch.org.au/speakers/dave-hodgson" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase text-gold border border-gold/30 px-2 py-0.5 hover:bg-gold/10 transition-colors">Speaker Page ↗</a>
+                        </div>
+                        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border:1px solid rgba(245,234,212,0.07)">
+                            <iframe src="https://www.youtube.com/embed/FlOhulfdYjU" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" title="Dave Hodgson sermon — Empower Church Caloundra" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Adam's email — the certification invoice challenge -->
+                <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">Adam Watson's Email — The Invoice That Would Settle It</div>
+                    <p class="text-[0.66rem] text-paper/48 leading-relaxed mb-3">Adam Watson admonished Dave Hodgson directly in an email. The issue is straightforward. Dave Hodgson has claimed he has an <strong class="text-paper/65">invention</strong> — and that all that stands between it and working is <strong class="text-paper/65">certification</strong>. CSEQ Global describes itself as the vehicle for "the unique global decarbonization technology and process known as Cseq", positioned against wind and solar as a route to the Paris Agreement targets.</p>
+                    <div class="border-l-4 border-gold/40 pl-4 py-2 mb-3" style="background:rgba(201,138,16,0.04)">
+                        <p class="text-[0.62rem] text-paper/45 leading-relaxed italic">"Cseq Global was established to deliver the unique global decarbonization technology and process known as Cseq… in an effort to eliminate carbon emissions, wind and solar have been the focus of investment in alternative energy. However, they depend entirely on ideal weather conditions, they require a stable grid network and they cannot be relied upon for sustainable base load power generation without significant battery storage infrastructure. As a result, the future investment requirement for wind and solar renewable energy is enormous if the world is to reach Paris Agreement Climate Change targets by 2030, 2035 and 2050."</p>
+                        <p class="text-[0.5rem] text-paper/30 mt-1">— CSEQ Global, About page</p>
+                    </div>
+                    <p class="text-[0.66rem] text-paper/48 leading-relaxed mb-3">Adam Watson's position is simple: just provide the <strong class="text-paper/65">invoice from the certification company</strong>. If certification is genuinely the only thing standing between this invention and a working, world-changing technology, then producing the certifier's invoice to settle the matter should be no obstacle at all. Adam Watson is asking for exactly that — the invoice — to settle. After all, if that is what is stopping his incredible carbon invention, he would have no issue providing it.</p>
+                    <p class="text-[0.66rem] text-paper/48 leading-relaxed mb-3">But there is a complication. Dave Hodgson wants money <strong class="text-paper/65">not just for certification</strong> — he also wants money to <strong class="text-paper/65">pay off ASIC</strong>, because the Judge awarded costs against him. That is a very different request from "fund the certification of an invention."</p>
+                    <p class="text-[0.66rem] text-paper/48 leading-relaxed mb-3">It looks like misleading conduct continuing, despite his insistence that it is not. If this invention is going to be worth <strong class="text-paper/65">billions</strong> once certified, the logical move is obvious: pay the certification company's invoice, prove the concept works, and then <strong class="text-paper/65">float it on the stock exchange or sell it</strong> on the strength of that certification. The reluctance to do the one simple thing that would prove it is itself the tell.</p>
+                    <p class="text-[0.66rem] text-paper/48 leading-relaxed">And in either case — even if the invention is entirely real — he is still <strong class="text-paper/65">operating a company as a shadow director while disqualified</strong>, which is a criminal offence under the Corporations Act that can carry a term of imprisonment. The merits of the technology do not cure that.</p>
+                    <div class="border border-gold/15 p-3 mt-3" style="background:rgba(201,138,16,0.03)">
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold mb-1.5">The Assets Behind It</div>
+                        <p class="text-[0.6rem] text-paper/45 leading-relaxed">Beyond the invention question, Dave Hodgson's companies still own <strong class="text-paper/60">real assets</strong> — commodities — which <strong class="text-paper/60">Mrs Rinehart and her investors are pursuing</strong>. Whatever the status of the technology, those underlying commodity assets are real, and they are the subject of active commercial interest.</p>
+                    </div>
+                </div>
+
                 <!-- People in glass houses -->
                 <div class="border-l-4 border-gold/50 pl-5" style="background:rgba(201,138,16,0.06);padding:1rem 1rem 1rem 1.25rem">
                     <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-2">People in Glass Houses — Mrs Rinehart's Observation Applied</div>
