@@ -2160,6 +2160,24 @@
                     </div>
                 </div>
 
+                <!-- Westpac returns $9,800 from the landlord — another network member falls -->
+                <div class="story-chapter reveal mt-5 mb-5" style="border-left-color:rgba(61,122,74,0.55)">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-[0.5rem] tracking-[0.2em] uppercase text-sage border border-sage/40 px-2 py-1">Westpac · Update — $9,800 Recovered</span>
+                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-sage/50 text-sage px-1.5 py-0.5">⬤ ANOTHER ONE FALLS</span>
+                    </div>
+                    <h4 class="font-display text-2xl tracking-wide mb-4 leading-tight">$9,800 BACK — FROM THE LANDLORD.<br><span class="text-sage">"HE WON'T BE TOO HAPPY, WILL HE."</span></h4>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Westpac has now informed Adam Watson that it is returning <strong class="text-paper/65">$9,800</strong> to him — recovered from <strong class="text-paper/65">Bodie Chalmers's landlord</strong>, the drug dealer in his network to whom Adam's funds had been directed. On being told, Adam Watson's response was characteristically dry: <em class="text-paper/70">"He won't be too happy, will he."</em></p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45">It is one more thread pulled out of the same cloth. The landlord's accounts were frozen; now money is being clawed back out of them and returned to the victim. With each recovery, <strong class="text-paper/65">another member of Bodie Chalmers's network falls</strong> — the people who facilitated, banked, or benefited from the conduct find that the institutions they relied on are now working against them.</p>
+                </div>
+
+                <!-- Nobody deals with you when you are like this -->
+                <div class="border-l-4 border-gold/50 pl-5 mb-5" style="background:rgba(201,138,16,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-2">The Quiet Consequence — Nobody Will Deal With You</div>
+                    <p class="text-[0.66rem] text-paper/50 leading-relaxed mb-3">There is a consequence that arrives before any court does, and it is the most lasting one. When you conduct yourself the way Bodie Chalmers has — scamming the people closest to you, intercepting their money, lying to banks, using a partner's accounts as your own — word travels, and people simply <strong class="text-paper/65">stop dealing with you</strong>.</p>
+                    <p class="text-[0.66rem] text-paper/50 leading-relaxed">Employers don't hire you. Businesses won't take you on. Banks close your accounts and decline to open new ones. Landlords won't rent to you. Even the people in your own network distance themselves once they realise that being near you is how they end up frozen, investigated, or charged. A reputation for this kind of conduct is not a temporary setback — it is a door that quietly closes, everywhere, all at once, and does not reopen.</p>
+                </div>
+
                 <!-- Bodie Chalmers — psych ward performance -->
                 <div class="border-l-4 border-gold/50 pl-5 mb-5 mt-5" style="background:rgba(201,138,16,0.05);padding:1.2rem 1rem 1.2rem 1.25rem">
                     <div class="flex items-center gap-3 mb-3">
