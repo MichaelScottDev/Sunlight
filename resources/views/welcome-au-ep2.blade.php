@@ -2178,6 +2178,13 @@
                     <p class="text-[0.66rem] text-paper/50 leading-relaxed">Employers don't hire you. Businesses won't take you on. Banks close your accounts and decline to open new ones. Landlords won't rent to you. Even the people in your own network distance themselves once they realise that being near you is how they end up frozen, investigated, or charged. A reputation for this kind of conduct is not a temporary setback — it is a door that quietly closes, everywhere, all at once, and does not reopen.</p>
                 </div>
 
+                <!-- The one door that stays open — CFMEU -->
+                <div class="border-l-4 border-hot/50 pl-5 mb-5" style="background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The One Door That Stays Open</div>
+                    <p class="text-[0.66rem] text-paper/50 leading-relaxed mb-3">There is, Adam Watson says, one exception — one place where conduct like Bodie Chalmers's is not a disqualifier but a qualification. Adam Watson says someone like Bodie Chalmers will <strong class="text-paper/65">become a powerful CFMEU member</strong>.</p>
+                    <p class="text-[0.66rem] text-paper/50 leading-relaxed">It is the same point made in <a href="/episode-5" class="text-gold underline decoration-gold/40 hover:decoration-gold transition-colors">Episode 5</a>: where the CFMEU controls who works on government contracts, the very traits that close every other door — the intimidation, the willingness to scam, the indifference to consequence — become the traits that open this one.</p>
+                </div>
+
                 <!-- Bodie Chalmers — psych ward performance -->
                 <div class="border-l-4 border-gold/50 pl-5 mb-5 mt-5" style="background:rgba(201,138,16,0.05);padding:1.2rem 1rem 1.2rem 1.25rem">
                     <div class="flex items-center gap-3 mb-3">
