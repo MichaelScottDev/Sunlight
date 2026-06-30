@@ -663,6 +663,10 @@
                 <div class="text-[0.43rem] tracking-[0.15em] uppercase text-gold mb-1.5">The Position of This Masthead</div>
                 <p class="text-[0.58rem] text-paper/45 leading-relaxed">When a private citizen ignores a court, there are consequences. When a state housing agency ignores a tribunal it <em>agreed</em> to be bound by, the file simply gets another adjournment. There is no one whose job it is to make the order bite. He is owed an answer, and so is the public.</p>
             </div>
+            <div class="border-l-4 border-hot/50 pl-4 py-2 mt-4" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-1">The Excuse — Already Blaming the Contractors</div>
+                <p class="text-[0.62rem] text-paper/48 leading-relaxed">Rose Jackson is already reaching for the standard defence — blaming the <strong class="text-paper/65">contractors</strong> and <strong class="text-paper/65">scheduling availability</strong>. But this has been going on for <strong class="text-paper/65">two years</strong>. No one is going to take seriously the suggestion that a tradesperson's calendar is the reason a consent order has gone unmet, the power has failed at a life-support address, and the rent has been pushed to $520 — for two years. Contractor availability does not explain two years of inaction. It is the explanation a Minister offers when she has no other.</p>
+            </div>
         </div>
 
         <!-- Illegal access / Robert Huang court documents / false rent-fraud allegation -->
