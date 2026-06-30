@@ -669,6 +669,18 @@
             </div>
         </div>
 
+        <!-- Why it really takes this long — CFMEU / Mick Gatto -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.04)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Adam Watson — Why It Really Takes This Long</div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">THE REAL REASON A SMALL JOB<br><span class="text-hot">TAKES TWO YEARS.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam Watson says the delay is not really about any one tradesperson's calendar. It is about who is permitted to work on government contracts in the first place. In his account, the <strong class="text-paper/70">CFMEU controls who works on government contracts</strong> — and once a small repair has to pass through that gate, even a minor change drags out for months or years. The contractor "availability" Rose Jackson points to is downstream of who is allowed to hold the contract at all.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam Watson goes further: he says <strong class="text-paper/70">Labor allows Mick Gatto to control all the contracts</strong> — the same Mick Gatto documented in <a href="/episode-2" class="text-gold underline decoration-gold/40 hover:decoration-gold transition-colors">Episode 2</a>. On this account, the control of the contracting pipeline is exactly why a consent order to fix a single home can sit unmet for two years.</p>
+            <div class="border-l-4 border-hot/60 pl-4 py-2" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-1">Adam Watson's Position</div>
+                <p class="text-[0.66rem] text-paper/55 leading-relaxed">Adam Watson states that if the <strong class="text-paper/70">Liberals get into Victoria, Mick Gatto will go to jail for 20 years</strong> — and that right now he is probably moving all of his assets ahead of that. Labor, in Adam Watson's view, is allowing it to go on. The two-year wait on a single social-housing repair is, on his account, what that arrangement looks like from the inside of one affected home.</p>
+            </div>
+        </div>
+
         <!-- Illegal access / Robert Huang court documents / false rent-fraud allegation -->
         <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
             <div class="flex items-center gap-2 mb-3">
