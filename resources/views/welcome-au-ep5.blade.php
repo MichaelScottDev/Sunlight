@@ -800,6 +800,26 @@
             </div>
         </div>
 
+        <!-- The call from Rose Jackson -->
+        <div class="border border-gold/30 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold">The Call — Rose Jackson to Adam Watson</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-gold/50 text-gold px-1.5 py-0.5">⬤ MINISTER ENGAGED</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">"GIVE ME THE PROOF,<br><span class="text-gold">AND SHE'S OUT."</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Rose Jackson called Adam Watson directly. On that call, the Minister said that if Adam Watson provides her with <strong class="text-paper/70">proof that Samira Khalaj owns a property</strong>, Homes NSW will act: they will <strong class="text-paper/70">remove her from public housing, ban her, strip her rent subsidy, and back-date the rent for nine years</strong>. The agency would take her to Court, Centrelink would take her to Court, and they would <strong class="text-paper/70">pursue her assets — the house</strong>.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam Watson's position is one of basic fairness: <em class="text-paper/70">if people live in public housing and they work, they should pay like everybody else.</em> Public housing is for people who need it — not for people quietly sitting on assets while a single mother with a child and no money waits on the list.</p>
+            <div class="border border-gold/15 p-4 mb-4" style="background:rgba(201,138,16,0.03)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-2">What Is Being Asked For</div>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/48 leading-relaxed"><strong class="text-paper/60">Proof of property ownership.</strong> Samira Khalaj's unit would be worth approximately <strong class="text-paper/65">$1.3 million</strong> — and Adam Watson has it on good authority that it is <strong class="text-paper/65">completely paid off</strong>.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/48 leading-relaxed"><strong class="text-paper/60">What car she owns.</strong> Rose Jackson has also asked Adam Watson what car Samira Khalaj drives — because she would then have to prove how she paid for it. As Adam Watson puts it: <em class="text-paper/70">"Why should you live in public housing if you have a Porsche? You could give it to some woman that has a kid and no money."</em></p></div>
+                </div>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-3">On the tenancy itself, Rose Jackson has stated she wants an <strong class="text-paper/70">affidavit from Robert Huang</strong> confirming that the tenant <strong class="text-paper/70">does not work for Robert Huang</strong>, together with <strong class="text-paper/70">tax returns</strong> showing that the money is Adam Watson's, that Adam Watson works for Robert Huang, and that he pays tax.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">Adam Watson holds <strong class="text-paper/70">power of attorney</strong> over the tenant. The tenant had received an inheritance of nearly <strong class="text-paper/70">$900,000</strong> and squandered the entire amount — context for why Adam Watson administers his affairs, and why the money moving through the tenancy traces back to Adam Watson rather than to the tenant himself.</p>
+        </div>
+
         <div class="border-l-4 border-gold/60 pl-5 py-3 reveal" style="background:rgba(201,138,16,0.04)">
             <h4 class="font-display text-2xl tracking-wide mb-2 leading-tight">THE QUESTION THE DOCUMENTS LEAVE ON THE TABLE.</h4>
             <p class="text-[0.72rem] leading-relaxed text-paper/55">Strip away every contested claim and one fact remains, sealed and signed: a NSW government agency told a tribunal it would fix this by November. It is now winter again. The work is not done, the power has failed, and the rent has gone up nearly seven-fold. The only open question is who, if anyone, will be held responsible — and whether <em>"we're inspecting"</em> is still an acceptable answer from a government to a court.</p>
