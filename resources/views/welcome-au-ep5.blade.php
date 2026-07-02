@@ -843,6 +843,40 @@
             <p class="text-[0.72rem] leading-relaxed text-paper/50">A consent order ignored for two years, a life-support home left without power, rent pushed to $520, a full Centrelink payment seized, and a Minister asking a tenant's advocate to prove who bought the jumpers — it is exactly the kind of story that does not survive contact with daylight. Put to the Premier and both sides of the House on air, the questions answer themselves.</p>
         </div>
 
+        <!-- How the tenant has had to live -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">How He Has Had to Live</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5">⬤ UNDER ROSE JACKSON'S WATCH</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">PILLOWS. PANS. CLOTHES.<br><span class="text-hot">ALL THROWN OUT — COVERED IN MOULD.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">This is what two years of an unmet consent order looks like from inside the home. The tenant has had to <strong class="text-paper/65">throw out his pillows, his pans, and his clothes</strong> because mould keeps growing on them. Not once — as an ongoing condition of daily life. This is how he has had to live. And it has all happened <strong class="text-paper/65">under Rose Jackson's watch</strong>.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4"><strong class="text-paper/70">Kellie Sloane</strong> is aware of exactly this — and she has <strong class="text-paper/70">called Premier Chris Minns</strong> about it.</p>
+            <div class="border-l-4 border-gold/60 pl-4 py-2" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-1">Adam Watson on the Tribunal</div>
+                <p class="text-[0.66rem] text-paper/50 leading-relaxed">Adam Watson has called NCAT a <strong class="text-paper/65">"toothless tiger."</strong> A tribunal can make an order by consent, watch it be ignored for two years, and do nothing to make it bite — while a man throws his mouldy bedding and cookware into the bin. An order that cannot be enforced is not much of an order at all.</p>
+            </div>
+        </div>
+
+        <!-- iCare / Gallagher Bassett — claim denied -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.04)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Insurance Denial — icare · Claim CN701338-01</div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">THE GOVERNMENT'S OWN INSURER<br><span class="text-hot">SAID: PROVE IT.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">On 17 September 2025, Gallagher Bassett — acting as the agent for <strong class="text-paper/70">icare (Insurance for NSW)</strong> — wrote to Adam Watson to confirm that his claim against the <strong class="text-paper/70">NSW Land and Housing Corporation</strong> for damage to personal property was <strong class="text-paper/70">denied</strong>. The stated reason: he had "not served any evidence to support [the] allegation of negligence against LAHC", and "the onus is on you to provide supportive evidence and proof of loss."</p>
+            <div class="border border-hot/20 p-4 mb-4" style="background:rgba(193,68,14,0.04)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The Concern — Read Against the NCAT Win</div>
+                <p class="text-[0.65rem] text-paper/48 leading-relaxed mb-2">The demand for "proof of negligence" does not sit easily beside the record. The very same government agency — <strong class="text-paper/65">LAHC — consented at NCAT</strong> to an order to remediate mould and complete repairs, an acknowledgment on the tribunal record that the property required exactly that work. A tenant whose pillows, pans and clothes are being thrown out because of mould the agency was ordered to fix is then told, by that agency's own insurer, that he must prove negligence or receive nothing.</p>
+                <p class="text-[0.65rem] text-paper/45 leading-relaxed italic">One arm of the State consents to fix the mould; another arm of the State denies the tenant any compensation for what that mould destroyed — for want of "evidence" the first arm has effectively already put on the record. That is the concern this letter raises.</p>
+            </div>
+            <div>
+                <div class="flex items-center justify-between mb-2">
+                    <span class="text-[0.46rem] tracking-[0.18em] uppercase text-hot/70">icare / Gallagher Bassett — Letter of Outcome · CN701338-01 · 17 Sep 2025</span>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rose_jackson/icare_letter_redacted.pdf" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase text-hot border border-hot/30 px-2 py-0.5 hover:bg-hot/10 transition-colors">Open PDF ↗</a>
+                </div>
+                <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rose_jackson/icare_letter_redacted.pdf" class="w-full border border-paper/[0.07]" style="height:520px;background:#0d0d0d" title="icare / Gallagher Bassett letter — claim CN701338-01 denied"></iframe>
+            </div>
+        </div>
+
         <div class="border-l-4 border-gold/60 pl-5 py-3 reveal" style="background:rgba(201,138,16,0.04)">
             <h4 class="font-display text-2xl tracking-wide mb-2 leading-tight">THE QUESTION THE DOCUMENTS LEAVE ON THE TABLE.</h4>
             <p class="text-[0.72rem] leading-relaxed text-paper/55">Strip away every contested claim and one fact remains, sealed and signed: a NSW government agency told a tribunal it would fix this by November. It is now winter again. The work is not done, the power has failed, and the rent has gone up nearly seven-fold. The only open question is who, if anyone, will be held responsible — and whether <em>"we're inspecting"</em> is still an acceptable answer from a government to a court.</p>
