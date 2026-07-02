@@ -832,8 +832,8 @@
             </div>
             <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">STRAIGHT TO BEN FORDHAM.<br><span class="text-gold">GET TO THE BOTTOM OF THIS MESS.</span></h3>
             <div class="flex flex-col sm:flex-row gap-5 items-start mb-4">
-                <div class="shrink-0 w-32 border border-paper/[0.07] overflow-hidden" style="aspect-ratio:3/4">
-                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/shelf_company/ben_fordham_2gb.jpg" alt="Ben Fordham — 2GB" class="w-full h-full object-cover object-top" loading="lazy" />
+                <div class="shrink-0 w-full sm:w-64 border border-paper/[0.07]" style="background:#0d0d0d">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/shelf_company/ben_fordham_2gb.jpg" alt="Ben Fordham — 2GB" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
                 </div>
                 <div class="flex-1">
                     <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-3">Adam Watson is bringing the entire NCAT tenant matter set out in this episode to the attention of <strong class="text-paper/70">Ben Fordham</strong> at 2GB. Fordham is positioned to contact <strong class="text-paper/70">Rose Jackson</strong>, <strong class="text-paper/70">Kellie Sloane</strong>, and Premier <strong class="text-paper/70">Chris Minns</strong> directly — and to get to the bottom of this mess.</p>
