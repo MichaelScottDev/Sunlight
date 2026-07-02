@@ -597,6 +597,17 @@
                     <p class="text-[0.68rem] text-paper/50 leading-relaxed">A person who was simultaneously failing to lodge a client's tax returns — and has since admitted to a staff member that this was intentional — also obtained $20,000 from that same client under a fabricated medical emergency. The two acts of dishonesty were concurrent. They were directed at the same person. And the professional relationship that made both possible was one built on trust: she was his accountant, she had access to his financial information, and he had no reason at the time to question her.</p>
                 </div>
 
+                <!-- ATO aware she lied; now claiming sickness to avoid Court -->
+                <div class="border border-sage/25 p-5 mt-5 mb-2" style="background:rgba(61,122,74,0.05)">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-[0.46rem] tracking-[0.2em] uppercase text-sage">Update — The ATO Now Knows She Lied</span>
+                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-sage/50 text-sage px-1.5 py-0.5">⬤ SAME PATTERN</span>
+                    </div>
+                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">"TOO SICK FOR COURT."<br><span class="text-sage">THE SAME MOVE SHE PULLED FOR $20,000.</span></h4>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">The Australian Taxation Office has made comments indicating it is now aware that <strong class="text-paper/65">Hellen Pertekes lied</strong>. With that recognition on the record, Pertekes is now trying to get out of going to Court by claiming she is <strong class="text-paper/65">sick</strong>.</p>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed">It is the same pattern she used on Adam Watson. A fabricated illness was the mechanism of the <strong class="text-paper/65">$20,000 medical scam</strong> documented above — a claimed sickness that her own doctor confirmed did not exist. Now, facing a court that needs her testimony, the illness reappears. The tactic that once extracted money is now being deployed to avoid accountability — and a person whose credibility is already in question does not repair it by producing the very same excuse a second time.</p>
+                </div>
+
                 <!-- "I want to see you fail" -->
                 <div class="border border-hot/40 p-5 mt-5 mb-2" style="background:rgba(193,68,14,0.07)">
                     <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-3">Direct Statement — Hellen Pertekes to Adam Watson</div>

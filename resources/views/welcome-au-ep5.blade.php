@@ -818,6 +818,29 @@
             </div>
             <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-3">On the tenancy itself, Rose Jackson has stated she wants an <strong class="text-paper/70">affidavit from Robert Huang</strong> confirming that the tenant <strong class="text-paper/70">does not work for Robert Huang</strong>, together with <strong class="text-paper/70">tax returns</strong> showing that the money is Adam Watson's, that Adam Watson works for Robert Huang, and that he pays tax.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/50">Adam Watson holds <strong class="text-paper/70">power of attorney</strong> over the tenant. The tenant had received an inheritance of nearly <strong class="text-paper/70">$900,000</strong> and squandered the entire amount — context for why Adam Watson administers his affairs, and why the money moving through the tenancy traces back to Adam Watson rather than to the tenant himself.</p>
+            <div class="border-l-4 border-hot/50 pl-4 py-2 mt-4" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-1">The Jumpers — and a $1.25 Refund</div>
+                <p class="text-[0.66rem] text-paper/50 leading-relaxed">Housing is now asking Adam Watson to <strong class="text-paper/65">prove that he was the one who bought the tenant all the nice jumpers</strong> — that is where they are starting, using the clothing as evidence in the money trail. And in a gesture that says everything about the posture on the other side, out of spite they refunded Adam Watson only <strong class="text-paper/65">$1.25</strong> of his rent assistance.</p>
+            </div>
+        </div>
+
+        <!-- Escalation to Ben Fordham -->
+        <div class="border border-gold/30 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold">Escalation — Taking It to the Airwaves</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-gold/50 text-gold px-1.5 py-0.5">⬤ 2GB · BEN FORDHAM</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">STRAIGHT TO BEN FORDHAM.<br><span class="text-gold">GET TO THE BOTTOM OF THIS MESS.</span></h3>
+            <div class="flex flex-col sm:flex-row gap-5 items-start mb-4">
+                <div class="shrink-0 w-32 border border-paper/[0.07] overflow-hidden" style="aspect-ratio:3/4">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/shelf_company/ben_fordham_2gb.jpg" alt="Ben Fordham — 2GB" class="w-full h-full object-cover object-top" loading="lazy" />
+                </div>
+                <div class="flex-1">
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-3">Adam Watson is bringing the entire NCAT tenant matter set out in this episode to the attention of <strong class="text-paper/70">Ben Fordham</strong> at 2GB. Fordham is positioned to contact <strong class="text-paper/70">Rose Jackson</strong>, <strong class="text-paper/70">Kellie Sloane</strong>, and Premier <strong class="text-paper/70">Chris Minns</strong> directly — and to get to the bottom of this mess.</p>
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold/70">Ben Fordham · 2GB</div>
+                </div>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">A consent order ignored for two years, a life-support home left without power, rent pushed to $520, a full Centrelink payment seized, and a Minister asking a tenant's advocate to prove who bought the jumpers — it is exactly the kind of story that does not survive contact with daylight. Put to the Premier and both sides of the House on air, the questions answer themselves.</p>
         </div>
 
         <div class="border-l-4 border-gold/60 pl-5 py-3 reveal" style="background:rgba(201,138,16,0.04)">
