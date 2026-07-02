@@ -3197,6 +3197,12 @@
                     </div>
                 </div>
 
+                <!-- Character — got a woman pregnant, kicked her out -->
+                <div class="border-l-4 border-hot/50 pl-4 py-2 mb-5" style="background:rgba(193,68,14,0.05)">
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-1">The Conduct Behind the Piety</div>
+                    <p class="text-[0.64rem] text-paper/48 leading-relaxed">It has been communicated by a reputable source that Dave Hodgson <strong class="text-paper/65">got a woman pregnant and then kicked her out onto the street</strong>. It is a private matter, but it speaks to the same gap this section keeps returning to — between the devout, community-minded figure presented from the pulpit and the conduct of the man himself.</p>
+                </div>
+
                 <!-- Adam's email — the certification invoice challenge -->
                 <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
                     <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">Adam Watson's Email — The Invoice That Would Settle It</div>
@@ -6386,6 +6392,13 @@
                 <p>Robert Huang — the director of PSR Crown Investments Pty Ltd and technically the victim of the Winding Up application in this matter — called the Court following execution of the Consent Order and attempted to have Adam Watson removed from the parties receiving a payment under it. He also attempted to have Graham Gordon removed. He did this without Adam Watson's knowledge or consent.</p>
                 <p>The Registrar took a very dim view of this conduct. The Registrar has notified the Judge. The Judge is furious. As a direct consequence of Huang's actions, Adam Watson's companies are now going to be liquidated. Those companies hold approximately $30 million worth of properties — secured by high mortgages. A court-appointed liquidator will sell them, at a fire sale price. The people who lent Robert Huang money will lose a significant amount of what they are owed.</p>
                 <p>Robert Huang could have had something. The Consent Order gave him a real, enforceable outcome. He chose instead to go behind Adam Watson's back, to approach the Court unilaterally, and to attempt to strip payments from parties who had agreed to them. That decision has now produced a much worse result for everyone connected to those assets — including the lenders who had nothing to do with the dispute.</p>
+            </div>
+
+            <!-- Robert Huang's daughter — the sign and the rescue -->
+            <div class="border-l-4 border-hot/50 pl-5 mb-6" style="background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The Human Toll — Robert Huang's Daughter</div>
+                <p class="text-[0.66rem] text-paper/50 leading-relaxed mb-3">There is a devastating human dimension to Robert Huang's conduct. His own daughter wore a sign reading <em class="text-paper/70">"My dad is a scammer"</em> and went to take her own life from one of his buildings. She was <strong class="text-paper/65">saved by a tenant of the property</strong> — a man who is himself in a civil case against Robert Huang.</p>
+                <p class="text-[0.62rem] text-paper/42 leading-relaxed">That the person who stopped her is one of Huang's own litigation opponents is its own kind of indictment: the tenant fighting him in court is the one who acted to save his daughter's life.</p>
             </div>
 
             <!-- Consequence breakdown -->
