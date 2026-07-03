@@ -4964,7 +4964,12 @@
                         <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-1">The Concept — Vindictive Harm</div>
                         <p class="text-[0.64rem] text-paper/48 leading-relaxed">This is what vindictive harm looks like in practice. A false criminal label, placed on a legal instrument, can freeze a person's largest asset, poison a sale, and brand them to every professional who searches the title — all before a single fact is tested. It can ruin a person's life. And undoing it is not free: it took a solicitor, a lapsing notice, and a quarter of a million dollars in cost and consequence to reverse something that was untrue from the outset. The person targeted pays — in money, time, and reputation — for someone else's malice.</p>
                     </div>
-                    <p class="text-[0.66rem] text-paper/45 leading-relaxed">The lapsing notice to remove the caveat was carried out by Adam Watson's solicitor, <strong class="text-paper/60">Stephen Alexander</strong>.</p>
+                    <div class="flex items-center gap-4 mt-2">
+                        <div class="shrink-0 w-28 border border-paper/[0.07]" style="background:#0d0d0d">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/stephen_alexander_logo.jpeg" alt="Stephen Alexander" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
+                        </div>
+                        <p class="text-[0.66rem] text-paper/45 leading-relaxed">The lapsing notice to remove the caveat was carried out by Adam Watson's solicitor, <strong class="text-paper/60">Stephen Alexander</strong>.</p>
+                    </div>
                 </div>
 
                 <!-- Notice of Orders — Adam Watson v West Kira -->
