@@ -877,6 +877,61 @@
             </div>
         </div>
 
+        <!-- Kellie Sloane — ICAC referral, letters to Homes NSW -->
+        <div class="border border-gold/30 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold">Kellie Sloane — Take It to Court · Refer It to ICAC</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-gold/50 text-gold px-1.5 py-0.5">⬤ ICAC REFERRAL</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">"THE ONLY WAY TO DEAL WITH THESE PEOPLE<br><span class="text-gold">IS TO TAKE IT TO COURT."</span></h3>
+            <div class="flex flex-col sm:flex-row gap-5 items-start mb-4">
+                <div class="shrink-0 w-32 border border-paper/[0.07] overflow-hidden" style="aspect-ratio:3/4">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/adam_watson_portrait.jpg" alt="Adam Watson" class="w-full h-full object-cover object-top" loading="lazy" />
+                </div>
+                <div class="flex-1">
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-3"><strong class="text-paper/70">Kellie Sloane</strong> has been in direct contact with Adam Watson about this situation. She has suggested <strong class="text-paper/70">taking NSW Housing to Court</strong>, and she is interested in the icare letter as part of her <strong class="text-paper/70">referral to ICAC</strong> — the Independent Commission Against Corruption.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-3">Her point on the insurance denial is sharp: it is a <strong class="text-paper/70">criminal offence to tell icare things that are not true</strong>. She finds it appalling that the agency won't deal with the matter, and her conclusion is blunt — the only way to deal with these people is to take it to Court, because <strong class="text-paper/70">then the bureaucrats have to go to Court too</strong>, under oath, where "we're inspecting" is not an answer.</p>
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold/70">Adam Watson · in contact with Kellie Sloane's office</div>
+                </div>
+                <div class="shrink-0 w-32 border border-paper/[0.07] p-3 flex items-center justify-center" style="background:#fff">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/icac_logo.jpeg" alt="ICAC — Independent Commission Against Corruption" class="w-full" style="object-fit:contain" loading="lazy" />
+                </div>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam Watson has said that <strong class="text-paper/70">Kellie Sloane is an honourable person</strong>. Her Vaucluse electorate office has written to Homes NSW on the tenant's behalf — the letters are below.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div>
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-[0.44rem] tracking-[0.16em] uppercase text-gold/70">Kellie Sloane MP Office — Letter</span>
+                        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/kellie_sloane_mp_office_letter.pdf" target="_blank" rel="noopener" class="text-[0.42rem] tracking-[0.12em] uppercase text-gold border border-gold/30 px-2 py-0.5 hover:bg-gold/10 transition-colors">Open ↗</a>
+                    </div>
+                    <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/kellie_sloane_mp_office_letter.pdf" class="w-full border border-paper/[0.07]" style="height:420px;background:#0d0d0d" title="Kellie Sloane MP office letter"></iframe>
+                </div>
+                <div>
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-[0.44rem] tracking-[0.16em] uppercase text-gold/70">Letter to Homes NSW</span>
+                        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/letter_to_homes.pdf" target="_blank" rel="noopener" class="text-[0.42rem] tracking-[0.12em] uppercase text-gold border border-gold/30 px-2 py-0.5 hover:bg-gold/10 transition-colors">Open ↗</a>
+                    </div>
+                    <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/letter_to_homes.pdf" class="w-full border border-paper/[0.07]" style="height:420px;background:#0d0d0d" title="Letter to Homes NSW"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dr Hilton Shapiro — Diabetes referral -->
+        <div class="border border-sage/25 p-6 mb-8 reveal" style="background:rgba(61,122,74,0.05)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-3">The Medical Referral — Dr Hilton Shapiro</div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">A DOCTOR WHO FEELS<br><span class="text-sage">VERY STRONGLY ABOUT THIS.</span></h3>
+            <div class="flex flex-col sm:flex-row gap-5 items-start">
+                <div class="shrink-0 w-32 border border-paper/[0.07] overflow-hidden" style="aspect-ratio:3/4">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rose_jackson/dr_hilton_shapiro.jpg" alt="Dr Hilton Shapiro" class="w-full h-full object-cover object-top" loading="lazy" />
+                </div>
+                <div class="flex-1">
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-3"><strong class="text-paper/70">Dr Hilton Shapiro</strong>, from Mascot, has been made aware of what LAHC has done — and he feels very strongly about it. He has <strong class="text-paper/70">referred this matter to Diabetes Australia / the Diabetes Council</strong>.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50">The medical dimension is not incidental. The tenant is diabetic and depends on his <strong class="text-paper/70">weekly payments</strong> to fund his diabetic medication — the same payments Housing NSW seized in full. A government agency that leaves a diabetic in a mould-ridden, powerless home and then strips his weekly income is a health matter, and a doctor has now put it in front of the body that exists to advocate for exactly these patients.</p>
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-sage/70 mt-2">Dr Hilton Shapiro · Mascot, NSW</div>
+                </div>
+            </div>
+        </div>
+
         <div class="border-l-4 border-gold/60 pl-5 py-3 reveal" style="background:rgba(201,138,16,0.04)">
             <h4 class="font-display text-2xl tracking-wide mb-2 leading-tight">THE QUESTION THE DOCUMENTS LEAVE ON THE TABLE.</h4>
             <p class="text-[0.72rem] leading-relaxed text-paper/55">Strip away every contested claim and one fact remains, sealed and signed: a NSW government agency told a tribunal it would fix this by November. It is now winter again. The work is not done, the power has failed, and the rent has gone up nearly seven-fold. The only open question is who, if anyone, will be held responsible — and whether <em>"we're inspecting"</em> is still an acceptable answer from a government to a court.</p>
