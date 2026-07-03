@@ -725,6 +725,18 @@
                         <p class="text-[0.65rem] text-paper/48 leading-relaxed mb-2">The contradictions here are not subtle. <strong class="text-paper/65">Bodie Chalmers</strong> filmed an act of homophobic intimidation against Adam Watson — the same Bodie Chalmers who was, at the time, in a relationship with Adam himself.</p>
                         <p class="text-[0.65rem] text-paper/48 leading-relaxed">And <strong class="text-paper/65">Zach</strong> presented his conduct as acting on conservative Muslim beliefs — punishing a man over a single "like" — while, in the very photo above, he is clearly seen <strong class="text-paper/65">gambling</strong>. A man enforcing his religious values at knifepoint, pictured breaching them in the same frame.</p>
                     </div>
+
+                    <!-- Consequence economy — Zach recognised and fired -->
+                    <div class="border border-sage/25 p-5 mt-4" style="background:rgba(61,122,74,0.05)">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-[0.48rem] tracking-[0.2em] uppercase text-sage">The Consequence Economy — At Work</span>
+                            <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-sage/50 text-sage px-1.5 py-0.5">⬤ ZACH FIRED</span>
+                        </div>
+                        <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">A YOUNG MAN RECOGNISED HIM.<br><span class="text-sage">AND ZACH LOST HIS JOB.</span></h4>
+                        <p class="text-[0.66rem] text-paper/50 leading-relaxed mb-3">A young man saw this website and <strong class="text-paper/65">recognised Zach</strong>. Persuaded of the account's legitimacy by the <strong class="text-paper/65">Westpac letter</strong> documented in this episode, he told his father — who works in a bank. His father was quite distraught. The son recognised Zach because Zach worked as a <strong class="text-paper/65">supervisor on a construction site</strong> that the bank's staff sometimes visit. Enquiries were made. <strong class="text-paper/65">Zach has been fired.</strong></p>
+                        <p class="text-[0.66rem] text-paper/50 leading-relaxed mb-3">This is the consequence economy at work. Conduct that once carried no cost — a knife held to a man's throat over a TikTok like — now travels, is recognised, and lands where it should: on the person who did it. <strong class="text-paper/65">Sunlight.Quest is proud to have made consequences happen.</strong> The record does not stay on the page; it moves through the real world and reaches the people who thought they had gotten away with it.</p>
+                        <p class="text-[0.62rem] text-paper/45 leading-relaxed italic">And a sincere thank you to that young man — for recognising what he saw, for believing the record, and for taking action. That is exactly how this works.</p>
+                    </div>
                 </div>
 
                 <!-- Optus $2,500 bill — Bodie Chalmers -->
