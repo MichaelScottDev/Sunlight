@@ -4359,6 +4359,26 @@
 
             </div>
 
+            <!-- Dr Md Tariqul Islam — false allegation / indemnity insurance scam -->
+            <div class="border border-hot/25 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Collateral Damage — Dr Md Tariqul Islam</div>
+                <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">A FALSE ALLEGATION.<br><span class="text-hot">AND A DOCTOR WHO CAN NO LONGER PRACTISE ON HIS OWN.</span></h4>
+                <div class="flex flex-col sm:flex-row gap-5 items-start mb-4">
+                    <div class="shrink-0 w-32 border border-paper/[0.07] overflow-hidden" style="aspect-ratio:3/4">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/dr_islam.jpeg" alt="Dr Md Tariqul Islam" class="w-full h-full object-cover object-top" loading="lazy" />
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">RJ made a <strong class="text-paper/65">false allegation</strong> against Dr Md Tariqul Islam. As a direct consequence of an <strong class="text-paper/65">indemnity insurance scam</strong> that RJ ran, Dr Islam has <strong class="text-paper/65">lost his ability to practise on his own</strong> — the professional indemnity cover a doctor must hold to run an independent practice was compromised, and he can no longer operate solo.</p>
+                        <div class="border border-paper/[0.07] p-3 mb-2 flex items-center justify-center" style="background:#fff">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/help_medical.png" alt="Help Medical" class="w-full max-w-[180px]" style="object-fit:contain" loading="lazy" />
+                        </div>
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-hot/70">Dr Md Tariqul Islam · now practising at Help Medical</div>
+                        <a href="https://helpmedical.au/dr-md-tariqul-islam/" target="_blank" rel="noopener" class="inline-block mt-2 text-[0.44rem] tracking-[0.14em] uppercase text-hot border border-hot/30 px-2 py-0.5 hover:bg-hot/10 transition-colors">View Practice Profile ↗</a>
+                    </div>
+                </div>
+                <p class="text-[0.66rem] text-paper/45 leading-relaxed">A doctor's capacity to practise independently rests on his indemnity cover and an unblemished record. RJ's false allegation and the insurance scam attached to it stripped Dr Islam of the first and threatened the second — the same pattern of manufactured harm that runs through every part of this section, this time landing on a medical professional who now works within a practice rather than on his own.</p>
+            </div>
+
             <div class="border border-paper/[0.07] p-5" style="background:rgba(193,68,14,0.03)">
                 <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-2">On the Pattern</div>
                 <p class="text-[0.68rem] text-paper/45 leading-relaxed">Violence and unwanted intimacy are not opposites in this context. They are expressions of the same dynamic: a refusal to accept that another person is not available to be controlled. The person who organises ambushes is the same person exposing himself in a chemist and calling from private numbers to ask for a bed. The through-line is not affection and it is not hostility. It is a belief that Adam Watson's space — physical, social, domestic — is available to RJ on his terms. It is not. The record is here.</p>
@@ -4909,6 +4929,22 @@
                             <div class="text-[0.6rem] text-paper/50 leading-relaxed">Supreme Court defence requires ~$50,000 in legal costs. He is in jail. He cannot fund it. The caveat is unlikely to survive a formal challenge.</div>
                         </div>
                     </div>
+                </div>
+
+                <!-- Caveat update — $250,000, false "sexual assault" notation, vindictive harm -->
+                <div class="border border-hot/30 p-5 mb-5 mt-5" style="background:rgba(193,68,14,0.06)">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-[0.48rem] tracking-[0.2em] uppercase text-hot">Update — What It Actually Cost · The False Notation</span>
+                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5 blink">⬤ VINDICTIVE HARM</span>
+                    </div>
+                    <h4 class="font-display text-2xl tracking-wide mb-3 leading-tight">$250,000 TO CLEAR A CAVEAT.<br><span class="text-hot">AND A LIE ON THE TITLE: "CONVICTED OF SEXUAL ASSAULT."</span></h4>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Getting the caveat removed has now cost Adam Watson a total of <strong class="text-paper/65">$250,000</strong>. This was not West Kira acting alone — <strong class="text-paper/65">Bodie Chalmers, his mother, and West Kira</strong> are all bound up in the conduct that put it there and kept it there.</p>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">The mechanism of the harm is chilling. When the selling agent enquired as to why the property could not be sold, he was told by the <strong class="text-paper/65">Land and Titles Office of NSW</strong> that the caveat stated Adam Watson was <strong class="text-hot">"Convicted of sexual assault."</strong> That is false. Adam Watson has no such conviction. A fabricated criminal notation was attached to his title — the very document a buyer, an agent, and a bank all rely on — and it was blocking the sale of his home.</p>
+                    <div class="border-l-4 border-hot/60 pl-4 py-2 mb-3" style="background:rgba(193,68,14,0.05)">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-1">The Concept — Vindictive Harm</div>
+                        <p class="text-[0.64rem] text-paper/48 leading-relaxed">This is what vindictive harm looks like in practice. A false criminal label, placed on a legal instrument, can freeze a person's largest asset, poison a sale, and brand them to every professional who searches the title — all before a single fact is tested. It can ruin a person's life. And undoing it is not free: it took a solicitor, a lapsing notice, and a quarter of a million dollars in cost and consequence to reverse something that was untrue from the outset. The person targeted pays — in money, time, and reputation — for someone else's malice.</p>
+                    </div>
+                    <p class="text-[0.66rem] text-paper/45 leading-relaxed">The lapsing notice to remove the caveat was carried out by Adam Watson's solicitor, <strong class="text-paper/60">Stephen Alexander</strong>.</p>
                 </div>
 
                 <!-- Notice of Orders — Adam Watson v West Kira -->
