@@ -902,16 +902,16 @@
                 <div>
                     <div class="flex items-center justify-between mb-2">
                         <span class="text-[0.44rem] tracking-[0.16em] uppercase text-gold/70">Kellie Sloane MP Office — Letter</span>
-                        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/kellie_sloane_mp_office_letter.pdf" target="_blank" rel="noopener" class="text-[0.42rem] tracking-[0.12em] uppercase text-gold border border-gold/30 px-2 py-0.5 hover:bg-gold/10 transition-colors">Open ↗</a>
+                        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/REDACTED_kellie_sloane_mp_office_letter.pdf" target="_blank" rel="noopener" class="text-[0.42rem] tracking-[0.12em] uppercase text-gold border border-gold/30 px-2 py-0.5 hover:bg-gold/10 transition-colors">Open ↗</a>
                     </div>
-                    <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/kellie_sloane_mp_office_letter.pdf" class="w-full border border-paper/[0.07]" style="height:420px;background:#0d0d0d" title="Kellie Sloane MP office letter"></iframe>
+                    <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/REDACTED_kellie_sloane_mp_office_letter.pdf" class="w-full border border-paper/[0.07]" style="height:420px;background:#0d0d0d" title="Kellie Sloane MP office letter"></iframe>
                 </div>
                 <div>
                     <div class="flex items-center justify-between mb-2">
                         <span class="text-[0.44rem] tracking-[0.16em] uppercase text-gold/70">Letter to Homes NSW</span>
-                        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/letter_to_homes.pdf" target="_blank" rel="noopener" class="text-[0.42rem] tracking-[0.12em] uppercase text-gold border border-gold/30 px-2 py-0.5 hover:bg-gold/10 transition-colors">Open ↗</a>
+                        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/REDACTED_letter_to_homes+(1).pdf" target="_blank" rel="noopener" class="text-[0.42rem] tracking-[0.12em] uppercase text-gold border border-gold/30 px-2 py-0.5 hover:bg-gold/10 transition-colors">Open ↗</a>
                     </div>
-                    <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/letter_to_homes.pdf" class="w-full border border-paper/[0.07]" style="height:420px;background:#0d0d0d" title="Letter to Homes NSW"></iframe>
+                    <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/REDACTED_letter_to_homes+(1).pdf" class="w-full border border-paper/[0.07]" style="height:420px;background:#0d0d0d" title="Letter to Homes NSW"></iframe>
                 </div>
             </div>
         </div>
