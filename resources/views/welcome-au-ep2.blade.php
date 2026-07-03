@@ -3221,6 +3221,26 @@
                     </div>
                 </div>
 
+                <!-- CSeq — independent AI analysis / due diligence -->
+                <div class="border border-hot/20 p-5 mb-5" style="background:rgba(193,68,14,0.04)">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-[0.46rem] tracking-[0.2em] uppercase text-hot">Independent Analysis — The CSeq Technology</span>
+                        <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-paper/15 text-paper/30 px-1.5 py-0.5">AI DUE DILIGENCE</span>
+                    </div>
+                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">THE SCIENCE DOESN'T CLOSE.<br><span class="text-hot">AND AI FOUND IT IN MINUTES.</span></h4>
+                    <p class="text-[0.66rem] text-paper/48 leading-relaxed mb-3">The CSeq "technology" page was put to an independent AI analysis (<a href="https://claude.ai/share/613cfac4-d1d9-4b36-9ce6-e6d8dde0e292" target="_blank" rel="noopener" class="text-gold underline decoration-gold/40 hover:decoration-gold transition-colors">full analysis here</a>). The verdict was blunt: it does not look legit, and the problems are not superficial.</p>
+                    <div class="border border-hot/15 p-4 mb-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.44rem] tracking-[0.2em] uppercase text-hot mb-2">What the Analysis Found</div>
+                        <div class="space-y-1.5">
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">The physics doesn't close.</strong> The process claims to take CO₂ and water and yield hydrogen, sequestered carbon, valuable carbonates <em>and</em> surplus electricity in a closed loop — that is a free lunch. A closed loop that nets surplus electricity is a perpetual-motion machine. CO₂ is the low-energy end state of carbon; you cannot get net energy back out of it.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Basic errors in the core claim.</strong> "CO₂ as a catalyst" — but CO₂ is consumed (it becomes carbonate), so it is a reactant, not a catalyst. The energy to liberate hydrogen gas is fixed by thermodynamics regardless of pathway. Stable carbonate sequestration needs an alkalinity source the page never identifies.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">The people.</strong> The Scientific Advisor is the figure behind "Unique Water" — a bicarbonate water sold with extraordinary, under-evidenced health claims that skeptics called a scam. The company sits inside a group that also promotes "Resonance Frequency" gold-divining — a known pseudoscience.</p></div>
+                            <div class="flex gap-2 items-start"><span class="text-hot text-xs shrink-0 mt-0.5">→</span><p class="text-[0.6rem] text-paper/45 leading-relaxed"><strong class="text-paper/60">Moving-target verification.</strong> The "3rd-party verification" date keeps sliding (August 2025 in cached versions, now June 2026) while decarbonisation licenses are already being sold — taking money before any independent validation exists. A favourable "Siemens" mention appears with no independently confirmed partnership.</p></div>
+                        </div>
+                    </div>
+                    <p class="text-[0.66rem] text-paper/45 leading-relaxed">The wider point is about method. What once took an analyst days — checking the thermodynamics, tracing the advisors' histories, mapping the corporate group, catching a verification date quietly moving — an AI triangulated in minutes. <strong class="text-paper/60">AI is streamlining due diligence</strong>: it reads the claims against the science and the public record at once, and surfaces the free-energy pitch hiding behind the corporate language.</p>
+                </div>
+
                 <!-- People in glass houses -->
                 <div class="border-l-4 border-gold/50 pl-5" style="background:rgba(201,138,16,0.06);padding:1rem 1rem 1rem 1.25rem">
                     <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-2">People in Glass Houses — Mrs Rinehart's Observation Applied</div>

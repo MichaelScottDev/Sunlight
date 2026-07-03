@@ -2572,6 +2572,22 @@
                 <p class="text-[0.68rem] text-paper/48 leading-relaxed">A civil suit brought by a person who has been sending harassing messages to the defendant — documented, stored, timestamped — does not present cleanly to a Court. The messages will be tendered. The full history of Martin's conduct will be placed before the Court. This is not a case about a confrontation. It is a case about a pattern that will be evidenced in full.</p>
             </div>
 
+            <!-- Update — new legal manoeuvre: sue the company, $850k, serve by email -->
+            <div class="border border-hot/30 p-5 mb-5" style="background:rgba(193,68,14,0.06)">
+                <div class="flex items-center gap-2 mb-3">
+                    <span class="text-[0.46rem] tracking-[0.22em] uppercase text-hot">Update — The Latest Manoeuvre</span>
+                    <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-hot/50 text-hot px-1.5 py-0.5">⬤ $850,000 CLAIM</span>
+                </div>
+                <h4 class="font-display text-2xl tracking-wide mb-3 leading-tight">SUE THE COMPANY.<br><span class="text-hot">SERVE BY EMAIL. ASK FOR $850,000.</span></h4>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Martin's lawyers have now gone to Court seeking approval to <strong class="text-paper/65">sue Adam Watson's company</strong>, and for permission to <strong class="text-paper/65">serve the court documents on him by email</strong>. The amount claimed: <strong class="text-paper/65">$850,000</strong>.</p>
+                <div class="border-l-4 border-hot/60 pl-4 py-2 mb-3" style="background:rgba(193,68,14,0.05)">
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-1">The Strategy — Why Sue the Company</div>
+                    <p class="text-[0.64rem] text-paper/48 leading-relaxed">Suing the company rather than Adam Watson personally is a deliberate tactic. A company cannot represent itself in Court the way an individual can — it must be represented by a lawyer. By naming the company, Martin's side forces Adam to <strong class="text-paper/60">engage and pay lawyers</strong> instead of appearing for himself, driving up his costs regardless of the merits. The pressure is financial: make the defence expensive enough that fighting it hurts.</p>
+                </div>
+                <p class="text-[0.66rem] text-paper/48 leading-relaxed mb-3"><strong class="text-paper/60">For the record:</strong> I — Kosta Kondratenko — deny that Adam Watson sent me to assault Martin. What happened came from my own decision to stand up for a friend who had been made to feel unsafe for months. Friends stick up for each other. That is not a conspiracy directed by anyone; it is loyalty, and I will say so plainly wherever it needs to be said.</p>
+                <p class="text-[0.64rem] text-paper/45 leading-relaxed">It is also worth noting, given the reliance on the Australian courts to apply this pressure, that <strong class="text-paper/60">Martin is not an Australian citizen</strong>.</p>
+            </div>
+
             <!-- The psychology of this — obsessed stalker pattern -->
             <div class="border border-paper/[0.08] p-6 mb-5" style="background:rgba(0,0,0,0.18)">
                 <div class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/30 mb-3">The Psychological Profile — What This Pattern Looks Like</div>
