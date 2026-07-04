@@ -1054,6 +1054,99 @@
         </div>
     </div>
 
+    <!-- ── SECTION: RBK / RHYS BRIFFA ── -->
+    <div id="rbk">
+        <div class="flex items-center gap-3 mb-4 reveal">
+            <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">New Character — RBK</span>
+            <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Rhys Briffa · Mt Druitt · Feels Like Extortion</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-4 leading-tight reveal">RBK.<br><span class="text-hot">STREET IMAGE ONLINE. POLICE ON SPEED DIAL.</span></h2>
+        <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-8 reveal">"Adam engaged a rapper for some videos. What came back were strange text messages, a girlfriend demanding money outside a business associate's building, and threats to call the police — all while still asking for feedback on the video. The whole thing has started to feel like extortion."</p>
+
+        <!-- Photo -->
+        <div class="reveal mb-8">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rhys_briffa.png" alt="Rhys Briffa — RBK" class="w-full border border-paper/[0.07]" style="max-height:520px;object-fit:contain;background:#0c0804" loading="lazy" />
+            <div class="flex items-center justify-between px-3 py-2 border border-t-0 border-paper/[0.07]" style="background:rgba(193,68,14,0.06)">
+                <span class="text-[0.45rem] tracking-[0.18em] uppercase text-hot">RBK · real name Rhys Briffa</span>
+                <span class="text-[0.45rem] tracking-[0.14em] uppercase text-paper/25">Rapper · Mt Druitt, NSW</span>
+            </div>
+        </div>
+
+        <!-- How it started -->
+        <div class="story-chapter reveal mb-8">
+            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">How It Started</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The rapper goes by <strong class="text-paper/70">RBK</strong>; his real name is <strong class="text-paper/70">Rhys Briffa</strong>. Adam Watson found him on TikTok, watched his videos, and wanted some made for his <strong class="text-paper/70">political campaign</strong>. In the course of chatting, Adam was — as he tends to be — honest: he shared that he likes bad boys, and that he is bi-curious.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">Rhys reciprocated the candour. He confided that he has <strong class="text-paper/70">always known he is bisexual</strong>, and told Adam he would leave his girlfriend for him — or, in his words, that she <em class="text-paper/70">"doesn't have to know."</em> Adam declined. He said he could not do that. Rhys has a <strong class="text-paper/70">child</strong> and lives in <strong class="text-paper/70">Mt Druitt</strong>.</p>
+        </div>
+
+        <!-- The girlfriend / Robert Huang / $1,000 -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">The Girlfriend · The $1,000</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5 blink">⬤ LOOKS LIKE EXTORTION</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">SHE TURNED UP AT A BUSINESS ASSOCIATE'S BUILDING.<br><span class="text-hot">AND IT COST ADAM HIS CONTRACTS.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam had a meeting with Rhys. The next day, Rhys's <strong class="text-paper/65">girlfriend came looking for Adam</strong> — near <strong class="text-paper/65">Robert Huang's building</strong>. She began making accusations that Adam was trying to steal Rhys from her. <strong class="text-paper/65">Robert Huang gave her $1,000 to go away.</strong> From that point, the whole thing began to look like extortion.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">It got worse. Rhys's girlfriend called Robert Huang an <strong class="text-hot">"asian cunt."</strong> That conduct — an uninvited partner turning up at Adam's business relationships and hurling racial abuse at one of them — <strong class="text-paper/65">made Adam lose his contracts</strong>. A partner showing up unannounced at the people you do business with, and abusing them, does not stay contained to the personal sphere. It detonates the professional one.</p>
+        </div>
+
+        <!-- The messages -->
+        <div class="story-chapter reveal mb-8">
+            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">The Messages — In His Own Words</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Rhys's messages to Adam are a study in contradiction. In one, he casts Adam as the aggressor, denies wanting the money he had already taken, and — remarkably — <strong class="text-paper/65">boasts that his lawyer just got him off a 10-year sentence</strong>:</p>
+            <div class="border-l-4 border-hot/60 pl-4 py-3 mb-4" style="background:rgba(193,68,14,0.05)">
+                <p class="text-[0.68rem] text-paper/60 leading-relaxed italic">"Your just a creep cuz so do what you want I tried to say I'll do the video now you don't want to you kept offering me money's saying you like me asking me if I was bye sexual and shit so you definitely wanted more then a video now I don't want to be a part of this creepy shit you wanna get upset once again you never said I have to pay you back<br><br>You clearly stated you will give me what ever I want all I have to do is ask and you sent money to me when I asked you can take what you want to court but my lawayer is very good he just got me off a 10 year sentence so I will see in court Adam"</p>
+                <p class="text-[0.5rem] text-paper/30 mt-2">— Rhys Briffa (RBK), to Adam Watson</p>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Then, having taken the money, he threatens to call the police — while in the very same breath asking for feedback on the video:</p>
+            <div class="border-l-4 border-hot/60 pl-4 py-3" style="background:rgba(193,68,14,0.05)">
+                <p class="text-[0.68rem] text-paper/60 leading-relaxed italic">"Stop call my phone please otherwise I will call police and tell them your harassing me you said tell me ideas on a video so let me know when you got some"</p>
+                <p class="text-[0.5rem] text-paper/30 mt-2">— Rhys Briffa (RBK), to Adam Watson</p>
+            </div>
+        </div>
+
+        <!-- Commentary: bite the hand / snitch / chit chat -->
+        <div class="border border-gold/25 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.04)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">The Behaviour — Bite the Hand, Then Call the Cops</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The pattern is its own story. The moment there was any disagreement, Rhys moved <strong class="text-paper/65">straight to threatening the police</strong> — while still wanting feedback on the video he was being paid to make. This is how you break a relationship and bite the hand that feeds you in the same message. A person is given an opportunity — paid work, a platform, someone who believed in him — and responds by taking the money, threatening the person who gave it, and reaching for law enforcement at the first sign of friction.</p>
+            <div class="flex flex-col sm:flex-row gap-5 items-start">
+                <div class="shrink-0 w-40 border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/chit_chat.png" alt="RBK — Chit Chat" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
+                </div>
+                <div class="flex-1">
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50">There is a particular irony to guys like RBK — a hard street image broadcast to the internet, right up until the first disagreement, when the phone comes out to dial triple-zero. His own song goes <em class="text-paper/70">"chit chat, this, that — I don't want to talk about it."</em> But the moment it suits him, he'll talk about it — to the police. Chit chat, this, that — <strong class="text-paper/65">straight to a statement.</strong> The street image says one thing; the conduct says <strong class="text-paper/65">snitch.</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sympathy play -->
+        <div class="story-chapter reveal mb-8">
+            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">The Sympathy Play</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Alongside the threats, Rhys has been flooding Adam's messages with lines like <em class="text-paper/70">"I have to feed my daughter!"</em> — the sympathy play, deployed on repeat. It is worth looking at that claim honestly. This is a man who has the <strong class="text-paper/65">time to make videos</strong>, who is <strong class="text-paper/65">wearing nice clothes</strong> in them, and who maintains a whole online persona — but whose stated priority, the instant money is on the table, is suddenly his child.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">People like this invoke their kids as a lever, not as a compass. If feeding your daughter were genuinely the priority, it would show in the choices — not just in the messages sent to a man you are simultaneously threatening with the police. The child is real. The concern, deployed this way, is a tactic.</p>
+        </div>
+
+        <!-- Instagram + sponsors -->
+        <div class="border border-paper/[0.08] p-6 mb-4 reveal" style="background:rgba(12,8,4,0.4)">
+            <div class="flex items-center justify-between mb-4">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/40">His Platform &amp; Sponsors</div>
+                <a href="https://www.instagram.com/rbkofficialfromda26/" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase text-gold border border-gold/30 px-2 py-0.5 hover:bg-gold/10 transition-colors">@rbkofficialfromda26 ↗</a>
+            </div>
+            <p class="text-[0.66rem] text-paper/45 leading-relaxed mb-4">For the record, RBK promotes the following partners and sponsors on his Instagram channel:</p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <div class="border border-paper/[0.07] p-4 flex items-center justify-center" style="background:#fff;min-height:110px">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/wollongong_kebabs.webp" alt="Wollongong Kebabs" class="w-full max-w-[150px]" style="object-fit:contain" loading="lazy" />
+                </div>
+                <div class="border border-paper/[0.07] p-4 flex items-center justify-center" style="background:#fff;min-height:110px">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/tattoo_salon_studio.png" alt="Tattoo Salon Studio" class="w-full max-w-[150px]" style="object-fit:contain" loading="lazy" />
+                </div>
+                <div class="border border-paper/[0.07] p-4 flex items-center justify-center" style="background:#fff;min-height:110px">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/brunch_cartel.jpeg" alt="Brunch Cartel" class="w-full max-w-[150px]" style="object-fit:contain" loading="lazy" />
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div><!-- end main content -->
 
 
