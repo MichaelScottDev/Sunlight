@@ -1611,6 +1611,17 @@
                     <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-3">Felipe Mattos is the person responsible for photographing and distributing the surveillance board. He is a freelance photographer who contracts his work out independently — he had been approached by this publication for photography work. He is not a permanent employee of the Aquatic Centre. The Gold Coast Council, in correspondence, stated that the name of the staff member involved had not been provided to this publication. That email is in the evidence vault below.</p>
                     <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">Regardless of whether the Council chose to provide the name: my photograph was taken from their CCTV, placed on a board by their staff, and distributed by someone working in their building. The Council's obligation to investigate did not depend on me identifying the person. They had the CCTV logs. They had the staff records. They had the building. They dropped the investigation anyway. When the Crisafulli administration took over and applied pressure, Felipe Mattos and his entire team were fired. The Council had been covering for them.</p>
 
+                    <div class="border border-paper/[0.07] p-4 mb-4 flex flex-col sm:flex-row items-center gap-4" style="background:rgba(12,8,4,0.3)">
+                        <div class="shrink-0 border border-paper/[0.07] p-3 flex items-center justify-center" style="background:#fff">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/aquatic/farr_real_estate_logo.png" alt="Farr Real Estate" class="w-full max-w-[180px]" style="object-fit:contain" loading="lazy" />
+                        </div>
+                        <div class="flex-1">
+                            <div class="text-[0.46rem] tracking-[0.2em] uppercase mb-1" style="color:#7c6aaa">Where He Is Now</div>
+                            <p class="text-[0.62rem] text-paper/45 leading-relaxed mb-2">Felipe Mattos now works at <strong class="text-paper/60">Farr Real Estate</strong>.</p>
+                            <a href="https://www.platinumre.com.au/agent-profile?agent_id=38860" target="_blank" rel="noopener" class="inline-block text-[0.44rem] tracking-[0.14em] uppercase px-2 py-0.5 transition-colors" style="color:#7c6aaa;border:1px solid rgba(124,106,170,0.3)">View Agent Profile ↗</a>
+                        </div>
+                    </div>
+
                     <div class="border p-4" style="border-color:rgba(124,106,170,0.2);background:rgba(12,8,4,0.25)">
                         <div class="text-[0.46rem] tracking-[0.2em] uppercase mb-3" style="color:#7c6aaa">Additional Allegations — On the Record</div>
                         <div class="space-y-2.5">

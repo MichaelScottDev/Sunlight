@@ -447,6 +447,13 @@
                 <h3 class="font-display text-3xl tracking-wide mb-4 leading-tight">TREATED AS A HOSTILE WITNESS.<br><span class="text-gold">THE ATO IS MOVING TO SUBPOENA HER.</span></h3>
                 <p class="font-serif italic text-paper/55 text-lg leading-relaxed mb-5">"In the Federal Court proceedings, Hellen Pertekes was treated as a hostile witness. She is not cooperating. The ATO has indicated they intend to subpoena her directly."</p>
                 <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The Federal Court proceedings — reference <strong class="text-paper/65">NSD2438/2025</strong> — are the formal vehicle through which Adam Watson's case against the Commissioner of Taxation is being heard. In the course of those proceedings, Hellen Pertekes has been treated as a hostile witness: a designation that reflects her posture toward the proceeding and the parties who need her cooperation to establish the facts. She has not cooperated voluntarily. The Australian Taxation Office is now moving to subpoena her, which would compel her attendance and testimony regardless of her cooperation.</p>
+
+                <div class="border border-hot/25 p-5 mb-5" style="background:rgba(193,68,14,0.05)">
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">Update — She Deleted Everything · The Director ID</div>
+                    <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">SHE WIPED HIM FROM HER RECORDS.<br><span class="text-hot">INCLUDING HIS DIRECTOR ID.</span></h4>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-3">Hellen Pertekes has now <strong class="text-paper/65">confirmed that she deleted everything relating to Adam Watson</strong> — including his <strong class="text-paper/65">Director Identification Number (Director ID)</strong>.</p>
+                    <p class="text-[0.68rem] text-paper/48 leading-relaxed">The consequence is concrete and current: without that record, Adam Watson has been <strong class="text-paper/65">unable to obtain his Director ID</strong> — which has stopped him from <strong class="text-paper/65">verifying his identity on a share transfer document</strong>. An accountant deleting a client's core corporate identifiers is not housekeeping; it is the removal of the very records a director needs to act, and it is actively blocking a live transaction.</p>
+                </div>
                 <div class="border border-gold/20 p-5" style="background:rgba(201,138,16,0.03)">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">Case Summary</div>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
