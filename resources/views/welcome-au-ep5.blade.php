@@ -1058,7 +1058,7 @@
     <div id="rbk">
         <div class="flex items-center gap-3 mb-4 reveal">
             <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">New Character — RBK</span>
-            <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Rhys Briffa · Mt Druitt · Feels Like Extortion</span>
+            <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Rhys Briffa · Wollongong · Feels Like Extortion</span>
         </div>
         <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-4 leading-tight reveal">RBK.<br><span class="text-hot">STREET IMAGE ONLINE. POLICE ON SPEED DIAL.</span></h2>
         <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-8 reveal">"Adam engaged a rapper for some videos. What came back were strange text messages, a girlfriend demanding money outside a business associate's building, and threats to call the police — all while still asking for feedback on the video. The whole thing has started to feel like extortion."</p>
@@ -1068,7 +1068,7 @@
             <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rhys_briffa.png" alt="Rhys Briffa — RBK" class="w-full border border-paper/[0.07]" style="max-height:520px;object-fit:contain;background:#0c0804" loading="lazy" />
             <div class="flex items-center justify-between px-3 py-2 border border-t-0 border-paper/[0.07]" style="background:rgba(193,68,14,0.06)">
                 <span class="text-[0.45rem] tracking-[0.18em] uppercase text-hot">RBK · real name Rhys Briffa</span>
-                <span class="text-[0.45rem] tracking-[0.14em] uppercase text-paper/25">Rapper · Mt Druitt, NSW</span>
+                <span class="text-[0.45rem] tracking-[0.14em] uppercase text-paper/25">Rapper · Wollongong, NSW</span>
             </div>
         </div>
 
@@ -1076,7 +1076,7 @@
         <div class="story-chapter reveal mb-8">
             <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">How It Started</div>
             <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The rapper goes by <strong class="text-paper/70">RBK</strong>; his real name is <strong class="text-paper/70">Rhys Briffa</strong>. Adam Watson found him on TikTok, watched his videos, and wanted some made for his <strong class="text-paper/70">political campaign</strong>. In the course of chatting, Adam was — as he tends to be — honest: he shared that he likes bad boys, and that he is bi-curious.</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50">Rhys reciprocated the candour. He confided that he has <strong class="text-paper/70">always known he is bisexual</strong>, and told Adam he would leave his girlfriend for him — or, in his words, that she <em class="text-paper/70">"doesn't have to know."</em> Adam declined. He said he could not do that. Rhys has a <strong class="text-paper/70">child</strong> and lives in <strong class="text-paper/70">Mt Druitt</strong>.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">Rhys reciprocated the candour. He confided that he has <strong class="text-paper/70">always known he is bisexual</strong>, and told Adam he would leave his girlfriend for him — or, in his words, that she <em class="text-paper/70">"doesn't have to know."</em> Adam declined. He said he could not do that. Rhys has a <strong class="text-paper/70">child</strong> and lives in <strong class="text-paper/70">Wollongong</strong>.</p>
         </div>
 
         <!-- The girlfriend / Robert Huang / $1,000 -->
@@ -1085,9 +1085,10 @@
                 <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">The Girlfriend · The $1,000</span>
                 <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5 blink">⬤ LOOKS LIKE EXTORTION</span>
             </div>
-            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">SHE TURNED UP AT A BUSINESS ASSOCIATE'S BUILDING.<br><span class="text-hot">AND IT COST ADAM HIS CONTRACTS.</span></h3>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam had a meeting with Rhys. The next day, Rhys's <strong class="text-paper/65">girlfriend came looking for Adam</strong> — near <strong class="text-paper/65">Robert Huang's building</strong>. She began making accusations that Adam was trying to steal Rhys from her. <strong class="text-paper/65">Robert Huang gave her $1,000 to go away.</strong> From that point, the whole thing began to look like extortion.</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50">It got worse. Rhys's girlfriend called Robert Huang an <strong class="text-hot">"asian cunt."</strong> That conduct — an uninvited partner turning up at Adam's business relationships and hurling racial abuse at one of them — <strong class="text-paper/65">made Adam lose his contracts</strong>. A partner showing up unannounced at the people you do business with, and abusing them, does not stay contained to the personal sphere. It detonates the professional one.</p>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">SHE TURNED UP AT ADAM'S OWN BUILDING.<br><span class="text-hot">HE TRIED TO HELP — AND GOT SPAT IN THE FACE.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam had a meeting with Rhys. The next day, Rhys's <strong class="text-paper/65">girlfriend came looking for Adam</strong> — at <strong class="text-paper/65">Adam's own building</strong>, a <strong class="text-paper/65">$415 million project</strong> of which Adam Watson is the <strong class="text-paper/65">sole director and sole shareholder</strong>. She began making accusations that Adam was trying to steal Rhys from her. <strong class="text-paper/65">Robert Huang gave her $1,000 to go away.</strong> From that point, the whole thing began to look like extortion.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">It escalated. Rhys's girlfriend called Robert Huang an <strong class="text-hot">"asian cunt."</strong> To be clear, Adam did <strong class="text-paper/65">not</strong> lose any contracts over this — but that is not the point. A partner turning up unannounced at the people you do business with, hurling racial abuse, is <strong class="text-paper/65">creating unnecessary drama</strong> that has no place anywhere near a serious commercial project.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">And this is the part that stings: Adam <strong class="text-paper/65">tried to help this guy</strong> — paid work, a platform, genuine belief in him — and all he got in return was <strong class="text-paper/65">spat in the face</strong>.</p>
         </div>
 
         <!-- The messages -->
@@ -1097,6 +1098,17 @@
             <div class="border-l-4 border-hot/60 pl-4 py-3 mb-4" style="background:rgba(193,68,14,0.05)">
                 <p class="text-[0.68rem] text-paper/60 leading-relaxed italic">"Your just a creep cuz so do what you want I tried to say I'll do the video now you don't want to you kept offering me money's saying you like me asking me if I was bye sexual and shit so you definitely wanted more then a video now I don't want to be a part of this creepy shit you wanna get upset once again you never said I have to pay you back<br><br>You clearly stated you will give me what ever I want all I have to do is ask and you sent money to me when I asked you can take what you want to court but my lawayer is very good he just got me off a 10 year sentence so I will see in court Adam"</p>
                 <p class="text-[0.5rem] text-paper/30 mt-2">— Rhys Briffa (RBK), to Adam Watson</p>
+            </div>
+            <div class="border border-gold/25 p-5 mb-4" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-3">Adam's Answer — "See You in Court"</div>
+                <div class="flex flex-col sm:flex-row gap-4 items-start">
+                    <div class="shrink-0 w-28 border border-paper/[0.07]" style="background:#0c0804">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/stephen_alexander_logo.jpeg" alt="Stephen Alexander — Alexander Lawyers" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">Rhys wants to talk about lawyers and court. Adam is happy to oblige. Adam says <strong class="text-paper/65">Stephen Alexander of Alexander Lawyers</strong> is on speed dial — a solicitor who charges <strong class="text-paper/65">$9,000 an appearance</strong>. A boast about "seeing you in court" only frightens someone who cannot afford to be in the room. Adam can.</p>
+                    </div>
+                </div>
             </div>
             <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Then, having taken the money, he threatens to call the police — while in the very same breath asking for feedback on the video:</p>
             <div class="border-l-4 border-hot/60 pl-4 py-3" style="background:rgba(193,68,14,0.05)">
