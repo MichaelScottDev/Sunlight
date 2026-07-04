@@ -1612,7 +1612,7 @@
                     <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">Regardless of whether the Council chose to provide the name: my photograph was taken from their CCTV, placed on a board by their staff, and distributed by someone working in their building. The Council's obligation to investigate did not depend on me identifying the person. They had the CCTV logs. They had the staff records. They had the building. They dropped the investigation anyway. When the Crisafulli administration took over and applied pressure, Felipe Mattos and his entire team were fired. The Council had been covering for them.</p>
 
                     <div class="border border-paper/[0.07] p-4 mb-4 flex flex-col sm:flex-row items-center gap-4" style="background:rgba(12,8,4,0.3)">
-                        <div class="shrink-0 border border-paper/[0.07] p-3 flex items-center justify-center" style="background:#fff">
+                        <div class="shrink-0 border border-paper/[0.07] p-3 flex items-center justify-center" style="background:#0c0804">
                             <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/aquatic/farr_real_estate_logo.png" alt="Farr Real Estate" class="w-full max-w-[180px]" style="object-fit:contain" loading="lazy" />
                         </div>
                         <div class="flex-1">
