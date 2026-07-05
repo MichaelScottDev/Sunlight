@@ -7883,14 +7883,39 @@ function sqSubmit() {
 document.addEventListener('keydown',function(e){if(e.key==='Escape')closeTipModal();});
 </script>
 
-<!-- Floating CTA — Bodie Chalmers public appeal -->
-<div id="bodie-cta" style="position:fixed;left:16px;right:16px;bottom:16px;z-index:9500;max-width:580px;margin:0 auto;background:#140b0b;border:1px solid rgba(193,68,14,0.5);box-shadow:0 10px 40px rgba(0,0,0,0.6);padding:14px 16px;display:flex;align-items:center;gap:12px">
-    <div style="flex:1;min-width:0">
-        <div style="font-size:0.5rem;letter-spacing:0.2em;text-transform:uppercase;color:#c1440e;margin-bottom:4px">Public Appeal</div>
-        <p style="font-size:0.72rem;line-height:1.45;color:rgba(245,234,212,0.78);margin:0">If you have information about <strong style="color:rgba(245,234,212,0.95)">Bodie Chalmers</strong> or his whereabouts, please contact <strong style="color:rgba(245,234,212,0.95)">Crime Stoppers</strong> on 1800 333 000 — or leave it below.</p>
+<!-- Floating CTA — Bodie Chalmers $2,000 Reward -->
+<div id="bodie-cta" style="position:fixed;left:16px;right:16px;bottom:16px;z-index:9500;max-width:580px;margin:0 auto;background:#F3F0E8;border:1px solid #cfc9bc;border-radius:8px;box-shadow:0 -8px 40px rgba(10,12,16,.28);padding:16px 20px;display:flex;align-items:center;gap:16px;font-family:'Inter',system-ui,sans-serif">
+    
+    <!-- REWARD BADGE -->
+    <div style="flex-shrink:0;text-align:center;min-width:70px;position:relative">
+        <div style="font-family:'Archivo',system-ui,sans-serif;font-weight:900;font-size:32px;line-height:0.9;color:#15181E;letter-spacing:-0.02em">
+            $2<em style="font-style:normal;color:#C9852A">,</em>000
+        </div>
+        <div style="font-family:'Space Mono',ui-monospace,monospace;font-size:9px;letter-spacing:0.22em;text-transform:uppercase;color:#6B7480;margin-top:2px">Reward</div>
+        <!-- REWARD STAMP -->
+        <div style="position:absolute;top:-20px;left:50%;transform:translateX(-50%) rotate(-8deg);font-family:'Archivo',system-ui,sans-serif;font-weight:900;font-size:10px;letter-spacing:0.18em;color:#CE4238;border:2px solid #CE4238;border-radius:5px;padding:3px 10px;background:#F3F0E8;text-transform:uppercase;box-shadow:0 2px 8px rgba(206,66,56,.15);white-space:nowrap">Reward</div>
     </div>
-    <button onclick="openTipModal()" style="flex-shrink:0;background:#c1440e;color:#fff;border:none;padding:12px 18px;font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:0.62rem;letter-spacing:0.14em;text-transform:uppercase;cursor:pointer;white-space:nowrap">⊕ Submit a Tip</button>
-    <button onclick="document.getElementById('bodie-cta').style.display='none'" aria-label="Dismiss" style="flex-shrink:0;background:none;border:none;color:rgba(245,234,212,0.35);font-size:1rem;cursor:pointer;line-height:1;padding:2px 4px">✕</button>
+
+    <!-- COPY -->
+    <div style="flex:1;min-width:0;border-left:2px solid #E8A63C;padding-left:16px">
+        <div style="font-family:'Archivo',system-ui,sans-serif;font-weight:700;font-size:15px;color:#1a1e25;line-height:1.2">
+            Know where <strong style="font-weight:900">Bodie Chalmers</strong> is hiding?
+        </div>
+        <div style="font-size:11.5px;color:#5b626c;margin-top:4px;line-height:1.4">
+            📍 Labrador / Harbourtown · Physical address required · Driven to for verification · <strong style="color:#C9852A;font-weight:600">Instant PayID</strong> on confirmation
+        </div>
+        <div style="font-size:10px;color:#8a929e;margin-top:3px">
+            📞 <strong style="color:#15181E;font-weight:600">1800 333 000</strong> — Crime Stoppers
+        </div>
+    </div>
+
+    <!-- BUTTONS -->
+    <div style="display:flex;flex-direction:column;align-items:flex-end;gap:6px;flex-shrink:0">
+        <button onclick="openTipModal()" style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:13px;letter-spacing:0.01em;border:0;border-radius:9px;cursor:pointer;padding:10px 20px;white-space:nowrap;background:#15181E;color:#F3F0E8;transition:transform 0.12s ease, background 0.2s" onmouseover="this.style.background='#23282f'" onmouseout="this.style.background='#15181E'" onmousedown="this.style.transform='translateY(1px)'" onmouseup="this.style.transform='none'">
+            Submit a tip →
+        </button>
+        <button onclick="document.getElementById('bodie-cta').style.display='none'" aria-label="Dismiss" style="background:none;border:none;cursor:pointer;color:#6B7480;opacity:0.6;font-size:16px;line-height:1;padding:4px 8px;border-radius:6px;transition:opacity 0.15s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.6'">✕</button>
+    </div>
 </div>
 
 </body>
