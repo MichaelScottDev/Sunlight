@@ -7879,5 +7879,15 @@ function sqSubmit() {
 document.addEventListener('keydown',function(e){if(e.key==='Escape')closeTipModal();});
 </script>
 
+<!-- Floating CTA — Bodie Chalmers public appeal -->
+<div id="bodie-cta" style="position:fixed;left:16px;right:16px;bottom:16px;z-index:9500;max-width:580px;margin:0 auto;background:#140b0b;border:1px solid rgba(193,68,14,0.5);box-shadow:0 10px 40px rgba(0,0,0,0.6);padding:14px 16px;display:flex;align-items:center;gap:12px">
+    <div style="flex:1;min-width:0">
+        <div style="font-size:0.5rem;letter-spacing:0.2em;text-transform:uppercase;color:#c1440e;margin-bottom:4px">Public Appeal</div>
+        <p style="font-size:0.72rem;line-height:1.45;color:rgba(245,234,212,0.78);margin:0">If you have information about <strong style="color:rgba(245,234,212,0.95)">Bodie Chalmers</strong> or his whereabouts, please contact <strong style="color:rgba(245,234,212,0.95)">Crime Stoppers</strong> on 1800 333 000 — or leave it below.</p>
+    </div>
+    <button onclick="openTipModal()" style="flex-shrink:0;background:#c1440e;color:#fff;border:none;padding:12px 18px;font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:0.62rem;letter-spacing:0.14em;text-transform:uppercase;cursor:pointer;white-space:nowrap">⊕ Submit a Tip</button>
+    <button onclick="document.getElementById('bodie-cta').style.display='none'" aria-label="Dismiss" style="flex-shrink:0;background:none;border:none;color:rgba(245,234,212,0.35);font-size:1rem;cursor:pointer;line-height:1;padding:2px 4px">✕</button>
+</div>
+
 </body>
 </html>
