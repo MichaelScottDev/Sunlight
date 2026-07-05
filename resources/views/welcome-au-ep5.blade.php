@@ -1115,6 +1115,22 @@
                 <p class="text-[0.68rem] text-paper/60 leading-relaxed italic">"Stop call my phone please otherwise I will call police and tell them your harassing me you said tell me ideas on a video so let me know when you got some"</p>
                 <p class="text-[0.5rem] text-paper/30 mt-2">— Rhys Briffa (RBK), to Adam Watson</p>
             </div>
+
+            <div class="mt-6">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">The Screenshots — The Exchange in Full</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">The messages are below. At one point, apropos of nothing, Rhys <strong class="text-paper/65">randomly sent a calculator</strong> — the kind of non-sequitur that tells you the conversation had stopped being about a video some time ago.</p>
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/sceenshot_whatsapp_1.png" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/sceenshot_whatsapp_1.png" alt="RBK message screenshot" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_1.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_1.jpeg" alt="RBK message screenshot" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_2.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_2.jpeg" alt="RBK message screenshot" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_3.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_3.jpeg" alt="RBK message screenshot" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_4.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_4.jpeg" alt="RBK message screenshot" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_5.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_5.jpeg" alt="RBK message screenshot" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_6.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_6.jpeg" alt="RBK message screenshot" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_whatsapp_2.png" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_whatsapp_2.png" alt="RBK message screenshot" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_whatsapp_3.png" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_whatsapp_3.png" alt="RBK message screenshot" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                </div>
+            </div>
         </div>
 
         <!-- Commentary: bite the hand / snitch / chit chat -->
@@ -1136,6 +1152,28 @@
             <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">The Sympathy Play</div>
             <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Alongside the threats, Rhys has been flooding Adam's messages with lines like <em class="text-paper/70">"I have to feed my daughter!"</em> — the sympathy play, deployed on repeat. It is worth looking at that claim honestly. This is a man who has the <strong class="text-paper/65">time to make videos</strong>, who is <strong class="text-paper/65">wearing nice clothes</strong> in them, and who maintains a whole online persona — but whose stated priority, the instant money is on the table, is suddenly his child.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/50">People like this invoke their kids as a lever, not as a compass. If feeding your daughter were genuinely the priority, it would show in the choices — not just in the messages sent to a man you are simultaneously threatening with the police. The child is real. The concern, deployed this way, is a tactic.</p>
+        </div>
+
+        <!-- 373 Crown Street recording / entrapment concern -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Recorded Call — 373 Crown Street</div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">"LET'S KEEP THIS BETWEEN US<br><span class="text-hot">AND I'LL GIVE YOU WHAT YOU WANT."</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Rhys called <strong class="text-paper/65">373 Crown Street</strong> — a property Adam Watson owns — and the call was recorded. On that recording:</p>
+            <div class="border-l-4 border-hot/60 pl-4 py-3 mb-4" style="background:rgba(193,68,14,0.05)">
+                <p class="text-[0.68rem] text-paper/60 leading-relaxed italic mb-2"><span class="text-hot">RBK:</span> "Let's keep this between us and I'll give you what you want. If you're alone with me, what do you want to do with me?"</p>
+                <p class="text-[0.68rem] text-paper/60 leading-relaxed italic mb-2"><span class="text-hot">Adam:</span> "Are you bisexual?"</p>
+                <p class="text-[0.68rem] text-paper/60 leading-relaxed italic mb-2"><span class="text-hot">RBK:</span> "Yes."</p>
+                <p class="text-[0.68rem] text-paper/60 leading-relaxed italic mb-2"><span class="text-hot">RBK:</span> "Why do you like me so much?"</p>
+                <p class="text-[0.68rem] text-paper/60 leading-relaxed italic"><span class="text-hot">Adam:</span> "Because you've got tattoos and you're a bad boy."</p>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">Read in the cold light of the threats that followed, that exchange raises an obvious concern: <strong class="text-paper/65">setup and entrapment</strong>. "Let's keep this between us… if you're alone with me, what do you want to do with me?" — a person steering a conversation toward a private, compromising admission, on a call to a property he could later name, is exactly the shape a setup takes. With certain characters you meet through the internet and off the street, the friendly overture and the leading questions are not always what they seem. A recorded invitation to "keep it between us" can just as easily be the opening move of a shakedown as a genuine one.</p>
+        </div>
+
+        <!-- The entitlement / the freak slur / the opportunity -->
+        <div class="border border-gold/25 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.04)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">The Entitlement — And the Opportunity He Burned</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam is genuinely upset that Rhys is now calling him a <strong class="text-paper/65">"freak."</strong> It matters, because stigmatising someone — reaching for the words that mark a person as deviant or dangerous — is one of the most corrosive things you can do to them. It is a label engineered to make a person untouchable, and it is deployed here by someone who, moments earlier, was asking on a recorded line what Adam wanted to do with him.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">There is a sadness underneath the entitlement. Adam gave Rhys an <strong class="text-paper/65">opportunity most people never get</strong> — paid creative work, a platform, someone who believed in him. He threw it away with both hands. One day his father is going to look back on all of this — on how his son treated the person who tried to lift him up — and understand exactly what was squandered. Entitlement always looks like strength in the moment. It reads as tragedy in hindsight.</p>
         </div>
 
         <!-- Instagram + sponsors -->

@@ -477,6 +477,27 @@
                     <p class="text-[0.72rem] leading-relaxed text-paper/45">The two statements sit side by side: a man who was, by his own conduct, in a relationship with Adam Watson, now seeking to publicly disprove that fact by fathering a child — while threatening self-harm over the reaction to a record of things he did.</p>
                 </div>
 
+                <!-- Bodie Chalmers — latest updates -->
+                <div class="story-chapter reveal mt-6 mb-6" style="border-left-color:rgba(124,106,170,0.6)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">Update · The Breakdown, the Numbers, the Network</span></div>
+
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase mb-2" style="color:#7c6aaa">The Nervous Breakdown</div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-3">Bodie Chalmers has had a nervous breakdown, saying <em class="text-paper/60">"my life is ruined, everyone's picking on me because of the website."</em> The irony is total: he now wants Adam Watson to get <strong class="text-paper/65">Bodie's own mother</strong> to call Bodie, so that Bodie can talk to her about getting Adam to take the website down. This is the same Bodie Chalmers linked to the firebombing of Adam's mother's house — now asking Adam to broker a conversation with <em>his</em> mother about making the record disappear. A man connected to the burning down of one mother's home wants the other side's help reaching his own.</p>
+
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase mb-2 mt-4" style="color:#7c6aaa">Driving Unlicensed — In His Girlfriend's Car</div>
+                    <div class="reveal mb-3">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/bodie_chalmers/honda_jazz.jpeg" alt="Honda Jazz — the car Bodie Chalmers is driving unlicensed" class="w-full border border-paper/[0.07]" style="max-height:360px;object-fit:contain;background:#0c0804" loading="lazy" />
+                        <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 mt-1.5">The Honda Jazz · Bodie's new girlfriend's car · Driven unlicensed</div>
+                    </div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-3">Bodie Chalmers is driving <strong class="text-paper/65">without a licence</strong> — in his new girlfriend's Honda Jazz — and the police are, in effect, allowing him to. Unlicensed driving is precisely the conduct the traffic and <strong class="text-paper/65">hoon laws</strong> exist to address: those laws hand police strong powers, including vehicle impoundment, to take unlicensed and dangerous drivers off the road. When those powers simply aren't used against a known offender, the framework built to protect the public is quietly exploited — the rules stay on the books while the person they were written for keeps driving.</p>
+
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase mb-2 mt-4" style="color:#7c6aaa">The Numbers — And the Playbook</div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-3">Bodie Chalmers ripped Adam Watson off for <strong class="text-paper/65">$9,950</strong>. To date, Westpac has recovered only <strong class="text-paper/65">$820</strong> of it. And Adam is not the only one — Bodie has ripped off <strong class="text-paper/65">many people on the Gold Coast</strong>. The playbook is always the same: if you call him out, he calls <em>you</em> a paedophile and cries wolf to the police — weaponising a false, serious allegation to flip from perpetrator to victim the moment he is confronted.</p>
+
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase mb-2 mt-4" style="color:#7c6aaa">The Landlord — Heat He Brought on Himself</div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45">Bodie is now telling everyone that his <strong class="text-paper/65">landlord is a sex trafficker</strong>, and his own account paints that landlord as deep in serious crime. Whatever the truth of those claims, the effect is the same: by naming and provoking the network he chose to live inside, Bodie Chalmers has drawn scrutiny onto himself and everyone around him. This is heat he brought on himself — the direct consequence of his own conduct, his own mouth, and the company he keeps.</p>
+                </div>
+
                 <!-- EVIDENCE VAULT: Bodie Chalmers -->
                 <div class="evidence-vault">
                     <div class="ev-header" onclick="toggleVault(this)">
@@ -736,6 +757,7 @@
                         <p class="text-[0.66rem] text-paper/50 leading-relaxed mb-3">A young man saw this website and <strong class="text-paper/65">recognised Zach</strong>. Persuaded of the account's legitimacy by the <strong class="text-paper/65">Westpac letter</strong> documented in this episode, he told his father — who works in a bank. His father was quite distraught. The son recognised Zach because Zach worked as a <strong class="text-paper/65">supervisor on a construction site</strong> that the bank's staff sometimes visit. Enquiries were made. <strong class="text-paper/65">Zach has been fired.</strong></p>
                         <p class="text-[0.66rem] text-paper/50 leading-relaxed mb-3">This is the consequence economy at work. Conduct that once carried no cost — a knife held to a man's throat over a TikTok like — now travels, is recognised, and lands where it should: on the person who did it. <strong class="text-paper/65">Sunlight.Quest is proud to have made consequences happen.</strong> The record does not stay on the page; it moves through the real world and reaches the people who thought they had gotten away with it.</p>
                         <p class="text-[0.62rem] text-paper/45 leading-relaxed italic">And a sincere thank you to that young man — for recognising what he saw, for believing the record, and for taking action. That is exactly how this works.</p>
+                        <p class="text-[0.62rem] text-paper/45 leading-relaxed mt-3">It hasn't stopped at the job. Zach is now being <strong class="text-paper/60">heckled in the street</strong> — random young kids calling out <em class="text-paper/60">"you're a scumbag"</em> as he passes. The record has reached the pavement. Conduct that was once invisible now follows him in public, from people who have never met him but know exactly who he is.</p>
                     </div>
                 </div>
 
