@@ -502,6 +502,18 @@
                     </div>
                 </div>
 
+                <!-- Bodie's hypocrisy — runs to the police -->
+                <div class="story-chapter reveal mt-6 mb-6" style="border-left-color:rgba(124,106,170,0.6)">
+                    <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase border px-2 py-1" style="color:#7c6aaa;border-color:rgba(124,106,170,0.4)">The Hypocrisy · Straight to the Police</span></div>
+                    <h4 class="font-display text-xl md:text-2xl tracking-wide mb-3 leading-tight">GANG AMBUSHES AND FIREBOMBING.<br><span style="color:#7c6aaa">BUT HE'S THE ONE CALLING THE POLICE.</span></h4>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">The moment there is any accountability, Bodie Chalmers's instinct is the same as it always is: run to the police. When he learned people were being asked for information about his whereabouts, he immediately declared it <em class="text-paper/60">"illegal"</em> and said he was going to the police — as documented in the exchange below.</p>
+                    <div class="reveal mb-4" style="max-width:420px">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/alex_vourloutis_1.jpeg" alt="Text exchange — Bodie Chalmers says he is going to the police" class="w-full border border-paper/[0.07]" style="object-fit:contain;background:#0c0804" loading="lazy" />
+                        <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 mt-1.5">Bodie Chalmers · "well obviously I am [going to the police]" · contact since blocked</div>
+                    </div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45">The hypocrisy could not be starker. This is a man tied to organised <strong class="text-paper/65">gang attacks</strong>, to the <strong class="text-paper/65">firebombing of Adam's mother's house</strong>, and to a $45 million debt to an organised-crime network — who treats the police as a weapon to deploy against the people he has wronged the instant he feels any pressure himself. You cannot orchestrate this much harm and then present yourself as a victim in need of protection. The record is what it is.</p>
+                </div>
+
                 <!-- EVIDENCE VAULT: Bodie Chalmers -->
                 <div class="evidence-vault">
                     <div class="ev-header" onclick="toggleVault(this)">
@@ -3141,6 +3153,7 @@
                 </div>
 
                 <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">The interim AVO — unheard, with no facts determined — was disclosed to Dave Hodgson in the context of a coal transaction at CSEQ Global that Adam Watson is pursuing. Hodgson's response on receiving it was: <strong class="text-paper/65">"This doesn't look good."</strong> The record of who Dave Hodgson is, and what the Federal Court has found about him, provides the full context for that comment.</p>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">For the record of how these introductions are made: Adam Watson was introduced to Dave Hodgson by <strong class="text-paper/65">Brett</strong> — who has since been <strong class="text-paper/65">fired</strong>.</p>
 
                 <!-- Federal Court findings -->
                 <div class="border border-hot/15 p-4 mb-4" style="background:rgba(193,68,14,0.04)">
@@ -5720,6 +5733,21 @@
             </div>
         </div>
 
+        <!-- CCAust / Stephen Ecob -->
+        <div class="story-chapter reveal mb-6" style="border-left-color:rgba(201,138,16,0.5)">
+            <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-3">Who Represents Him — CCAust (Collection Corporation of Australia)</div>
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">THE DEBT-RECOVERY MACHINE BEHIND THE STRATA.<br><span class="text-gold">AND A FOUNDER WHO WON'T SHOW HIS FACE.</span></h3>
+            <div class="flex flex-col sm:flex-row gap-5 items-start">
+                <div class="shrink-0 w-40 border border-paper/[0.07] p-4 flex items-center justify-center" style="background:#fff">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/CCALogo.jpg" alt="CCAust — Collection Corporation of Australia" class="w-full" style="object-fit:contain" loading="lazy" />
+                </div>
+                <div class="flex-1">
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-3">Graham Gordon's strata companies are represented by <strong class="text-paper/65">CCAust — the Collection Corporation of Australia</strong> — the debt-recovery lawyers (CCA Legal) whose demand letters, statements of claim, and winding-up filings drove the debt loaded onto Adam Watson's lots.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45">Its founder, <strong class="text-paper/65">Stephen Ecob</strong>, <strong class="text-paper/65">won't show his face on his own LinkedIn profile</strong> — the company logo sits where a headshot would be. For a man whose business is pursuing other people in their own names, the reluctance to attach his own face to his own is its own small tell.</p>
+                </div>
+            </div>
+        </div>
+
         <!-- Armed home invasion -->
         <div class="story-chapter reveal mb-6" style="border-left-color:rgba(193,68,14,0.9)">
             <div class="flex items-center gap-3 mb-4">
@@ -6498,6 +6526,27 @@
                 <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The Human Toll — Robert Huang's Daughter</div>
                 <p class="text-[0.66rem] text-paper/50 leading-relaxed mb-3">There is a devastating human dimension to Robert Huang's conduct. His own daughter wore a sign reading <em class="text-paper/70">"My dad is a scammer"</em> and went to take her own life from one of his buildings. She was <strong class="text-paper/65">saved by a tenant of the property</strong> — a man who is himself in a civil case against Robert Huang.</p>
                 <p class="text-[0.62rem] text-paper/42 leading-relaxed">That the person who stopped her is one of Huang's own litigation opponents is its own kind of indictment: the tenant fighting him in court is the one who acted to save his daughter's life.</p>
+            </div>
+
+            <!-- $50M judgement / 373 Crown Street transfer -->
+            <div class="border border-hot/30 p-6 mb-6" style="background:rgba(193,68,14,0.06)">
+                <div class="flex items-center gap-2 mb-3">
+                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">The Judgement — And What It Cost Him</span>
+                    <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5 blink">⬤ BANKRUPTCY ON THE HORIZON</span>
+                </div>
+                <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">A $50 MILLION JUDGEMENT.<br><span class="text-hot">AND A $450 MILLION PROJECT — GONE.</span></h3>
+                <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The consequence of Robert Huang going behind Adam Watson's back has now crystallised. The Court has handed down a <strong class="text-paper/65">$50 million judgement</strong> against Robert Huang, and <strong class="text-paper/65">bankruptcy is on the horizon</strong>. The unilateral move that made the Judge furious has ended where that kind of conduct tends to: with the numbers turning against the person who made it.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">And the flagship asset has changed hands. <strong class="text-paper/65">373 Crown Street — a $450 million construction project</strong> — has been <strong class="text-paper/65">transferred to Adam Watson</strong>. The previous entity, <strong class="text-paper/65">Oxford</strong>, has been removed from the project.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
+                    <div class="reveal">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/373_crown_street_building.webp" alt="373 Crown Street — the building acquired by Adam Watson" class="w-full border border-paper/[0.07]" style="max-height:340px;object-fit:cover" loading="lazy" />
+                        <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 mt-1.5">373 Crown Street · $450M project · Now Adam Watson's</div>
+                    </div>
+                    <div class="border border-paper/[0.07] p-5 flex flex-col items-center justify-center text-center" style="background:#fff">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/oxford_logo.jpeg" alt="Oxford" class="w-full max-w-[200px] mb-3" style="object-fit:contain" loading="lazy" />
+                        <div class="text-[0.44rem] tracking-[0.18em] uppercase text-ink/50">Oxford · The entity removed from the project</div>
+                    </div>
+                </div>
             </div>
 
             <!-- Consequence breakdown -->
