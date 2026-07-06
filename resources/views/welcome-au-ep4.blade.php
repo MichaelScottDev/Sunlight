@@ -1466,6 +1466,34 @@
                     <p class="text-[0.58rem] text-paper/40 leading-relaxed">Adam Watson is prepared for the civil challenge. The claim has no contractual basis and no legal foundation.</p>
                 </div>
             </div>
+
+            <!-- MyHaus / Matters Magazine call-out -->
+            <div class="border border-gold/20 p-6 mt-8" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">The Image vs The Conduct — MyHaus &amp; Matters Magazine</div>
+                <div class="flex flex-col sm:flex-row gap-5 items-start mb-5">
+                    <div class="shrink-0 w-40 border border-paper/[0.07] p-4 flex items-center justify-center" style="background:#fff">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/my_haus.png" alt="MyHaus" class="w-full" style="object-fit:contain" loading="lazy" />
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-3">Kira Steinhaus is the <strong class="text-paper/65">principal of MyHaus</strong>. She is also featured in <strong class="text-paper/65">Matters Magazine</strong>, introduced in the most flattering possible terms:</p>
+                        <div class="border-l-4 border-gold/50 pl-4 py-2" style="background:rgba(201,138,16,0.05)">
+                            <p class="text-[0.7rem] text-paper/60 leading-relaxed italic">"At its helm is the visionary principal, Kira Steinhaus, a stalwart advocate for environmentally conscious property development."</p>
+                            <a href="https://mattersmagazine.com.au/articles/kira-steinhaus-paves-a-sustainable-path-in-property-development" target="_blank" rel="noopener" class="inline-block mt-2 text-[0.44rem] tracking-[0.14em] uppercase text-gold border border-gold/30 px-2 py-0.5 hover:bg-gold/10 transition-colors">Read the article ↗</a>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-[0.7rem] leading-relaxed text-paper/50 mb-5">Set that portrait against the conduct documented above: arriving uninvited to a meeting she was never asked to attend, then demanding <strong class="text-paper/65">$3.5 million</strong> for an introduction she was never engaged to make. "Visionary principal" and "stalwart advocate" is the language of the newsstand. The uninvited seven-figure shakedown — and the cheap tricks that go with it — is the language of the record.</p>
+                <div class="flex flex-col sm:flex-row gap-5 items-start">
+                    <div class="shrink-0 w-40 border border-paper/[0.07]" style="background:#0c0804">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/matters_magazine.webp" alt="Matters Magazine cover" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
+                    </div>
+                    <div class="flex-1">
+                        <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-2">A Word on the Publication</div>
+                        <p class="text-[0.66rem] leading-relaxed text-paper/48 mb-3">It is worth understanding what Matters Magazine actually is. It is a free, advertiser-funded, content-for-access title — a <strong class="text-paper/60">pay-to-play</strong> instrument where being featured is sold as prestige and the cover subject is effectively a customer. There is no adversarial function: it <strong class="text-paper/60">manufactures credibility rather than testing it</strong>. The same issue's redemption-arc cover has been flagged as glossing over an ASIC-banned operator with no mention of the ban — the accountability record on the public register, the laundered version on the newsstand.</p>
+                        <a href="https://claude.ai/chat/2c49c431-ca32-4d5a-b34c-951699b0877f" target="_blank" rel="noopener" class="inline-block text-[0.44rem] tracking-[0.14em] uppercase text-gold border border-gold/30 px-2 py-0.5 hover:bg-gold/10 transition-colors">Full analysis of the publication ↗</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Brett — Background Enquiries -->
