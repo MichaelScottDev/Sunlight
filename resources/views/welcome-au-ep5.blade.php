@@ -4,6 +4,18 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Sunlight.Quest — Episode 5: The Order They Agreed To</title>
+    <!-- Social share preview — RBK (Rhys Briffa) as the thumbnail -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Sunlight.Quest"/>
+    <meta property="og:title" content="Sunlight.Quest — Episode 5: The Order They Agreed To"/>
+    <meta property="og:description" content="Housing, accountability, and the characters who cross this record — including RBK."/>
+    <meta property="og:url" content="https://sunlight.quest/episode-5"/>
+    <meta property="og:image" content="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rhys_briffa.png"/>
+    <meta property="og:image:alt" content="RBK — Rhys Briffa"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Sunlight.Quest — Episode 5: The Order They Agreed To"/>
+    <meta name="twitter:description" content="Housing, accountability, and the characters who cross this record — including RBK."/>
+    <meta name="twitter:image" content="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rhys_briffa.png"/>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
