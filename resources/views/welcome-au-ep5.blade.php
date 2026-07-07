@@ -205,28 +205,22 @@
         <div class="flex flex-col justify-start px-5 md:px-10 py-8 lg:py-10">
             <div class="fade-up mb-5" style="animation-delay:0.1s">
                 <div class="flex items-center gap-3 mb-3">
-                    <div class="w-5 h-px bg-gold"></div>
-                    <span class="text-[0.55rem] tracking-[0.28em] uppercase text-gold">NSW Land &amp; Housing Corporation · Homes NSW · NCAT · Rose Jackson</span>
-                    <span class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/22 border border-paper/10 px-2 py-0.5">2025/00005577</span>
+                    <div class="w-5 h-px bg-hot"></div>
+                    <span class="text-[0.55rem] tracking-[0.28em] uppercase text-hot">RBK · Rhys Briffa · Wollongong</span>
+                    <span class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/22 border border-paper/10 px-2 py-0.5">Feels Like Extortion</span>
                 </div>
-                <h1 class="font-display leading-[0.88] tracking-wide" style="font-size:clamp(2.8rem,7vw,5.5rem)">THE ORDER<br><span class="text-gold">THEY AGREED TO.</span></h1>
-                <p class="font-serif italic text-paper/40 mt-3 leading-relaxed max-w-lg" style="font-size:clamp(0.9rem,2vw,1.15rem)">A NSW government agency consented to a tribunal order to make a social-housing home habitable. Nearly a year later the repairs still aren't done, the property — a registered life-support address — has lost power, and the rent has been pushed to $520 a week.</p>
+                <h1 class="font-display leading-[0.88] tracking-wide" style="font-size:clamp(2.8rem,7vw,5.5rem)">STREET IMAGE ONLINE.<br><span class="text-hot">POLICE ON SPEED DIAL.</span></h1>
+                <p class="font-serif italic text-paper/40 mt-3 leading-relaxed max-w-lg" style="font-size:clamp(0.9rem,2vw,1.15rem)">Adam engaged a rapper for some videos. What came back were strange messages, a girlfriend demanding money, and threats to call the police — all while still asking for feedback on the video. The whole thing has started to feel like extortion.</p>
             </div>
-            <!-- Video player with chapters -->
+            <!-- RBK photo (video coming soon) -->
             <div class="fade-up mb-5" style="animation-delay:0.2s">
-                <div class="flex items-center gap-3 mb-2"><span class="text-[0.52rem] tracking-[0.2em] uppercase text-gold/60">▶ Now Playing — Navigate via chapters below</span></div>
-                <media-player
-                    id="player-ep5"
-                    title="The Order They Agreed To — Episode 5"
-                    src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/rj_confront.mp4"
-                    poster="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/mould_photo_1.jpg"
-                    style="--media-brand:#c98a10;--media-focus-ring-color:rgba(201,138,16,0.45);--media-time-chapters-bg:rgba(201,138,16,0.5);width:100%;border:1px solid rgba(201,138,16,0.2);box-shadow:0 0 80px rgba(201,138,16,0.09),0 0 0 1px rgba(245,234,212,0.025);aspect-ratio:16/9"
-                >
-                    <media-provider>
-                        <track id="ep5-chapters-track" kind="chapters" default />
-                    </media-provider>
-                    <media-video-layout></media-video-layout>
-                </media-player>
+                <div class="relative border overflow-hidden" style="border-color:rgba(193,68,14,0.25)">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rhys_briffa.png" alt="RBK — Rhys Briffa" class="w-full object-cover object-top" style="max-height:460px;background:#0c0804" loading="eager" />
+                    <div class="absolute bottom-0 left-0 right-0 px-4 py-3" style="background:linear-gradient(transparent,rgba(12,8,4,0.92))">
+                        <div class="text-[0.48rem] tracking-[0.18em] uppercase text-hot/80">RBK · Rhys Briffa</div>
+                        <div class="text-[0.55rem] text-paper/40 mt-0.5">Video coming soon</div>
+                    </div>
+                </div>
             </div>
             <!-- Chapter nav -->
             <div class="fade-up border border-paper/[0.07]" style="animation-delay:0.35s;background:rgba(12,8,4,0.7)">
