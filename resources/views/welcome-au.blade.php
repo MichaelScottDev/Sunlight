@@ -326,11 +326,11 @@
             <div class="fade-up mb-5" style="animation-delay:0.1s">
                 <div class="flex items-center gap-3 mb-3">
                     <div class="w-5 h-px bg-hot"></div>
-                    <span class="text-[0.55rem] tracking-[0.28em] uppercase text-hot">Classified Briefing</span>
-                    <span class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/22 border border-paper/10 px-2 py-0.5">Gold Coast Division</span>
+                    <span class="text-[0.55rem] tracking-[0.28em] uppercase text-hot">RJ · Criminal Pattern</span>
+                    <span class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/22 border border-paper/10 px-2 py-0.5">Sex &amp; Crime Squad · Active</span>
                 </div>
-                <h1 class="font-display leading-[0.88] tracking-wide" style="font-size:clamp(2.8rem,7vw,5.5rem)">GOLD COAST<br><span class="text-hot">UNCOVERED</span></h1>
-                <p class="font-serif italic text-paper/40 mt-3 leading-relaxed max-w-lg" style="font-size:clamp(0.9rem,2vw,1.15rem)">Organised crime, homelessness, and political corruption — who's really running the Gold Coast?</p>
+                <h1 class="font-display leading-[0.88] tracking-wide" style="font-size:clamp(2.8rem,7vw,5.5rem)">THE LAPTOP RJ HANDED OVER.<br><span class="text-hot">A SEX &amp; CRIME SQUAD CASE.</span></h1>
+                <p class="font-serif italic text-paper/40 mt-3 leading-relaxed max-w-lg" style="font-size:clamp(0.9rem,2vw,1.15rem)">Car theft rings, aggravated burglary, mob violence, a false allegation against a doctor. Then RJ gave Adam Watson a laptop — Adam surrendered it to Southport Police, and it is now the subject of an active Queensland Police <strong class="text-paper/60">Sex &amp; Crime Squad investigation</strong>.</p>
             </div>
             <div class="fade-up" style="animation-delay:0.25s">
                 <div class="flex items-center gap-3 mb-2"><span class="text-[0.52rem] tracking-[0.2em] uppercase text-hot/60">▶ Now Playing — Navigate via chapters below</span></div>
