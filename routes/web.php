@@ -25,7 +25,18 @@ Route::get('/episode-4', function () {
 });
 
 Route::get('/episode-5', function () {
-    return view('welcome-au-ep5');
+    if (session('ep5_unlocked')) {
+        return view('welcome-au-ep5');
+    }
+    return view('episode-5-locked');
+});
+
+Route::post('/episode-5/access', function (\Illuminate\Http\Request $request) {
+    if ($request->input('password') === 'f2z9l6sgl2') {
+        session(['ep5_unlocked' => true]);
+        return redirect('/episode-5');
+    }
+    return redirect('/episode-5')->with('ep5_error', true);
 });
 
 Route::get('/new', function () {
