@@ -481,6 +481,20 @@
             <p class="text-[0.72rem] leading-relaxed text-paper/50">There is a sadness underneath the entitlement. Adam gave Rhys an <strong class="text-paper/65">opportunity most people never get</strong> — paid creative work, a platform, someone who believed in him. He threw it away with both hands. One day his father is going to look back on all of this — on how his son treated the person who tried to lift him up — and understand exactly what was squandered. Entitlement always looks like strength in the moment. It reads as tragedy in hindsight.</p>
         </div>
 
+        <!-- The threat — nothing to hide -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">The Threat</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5">A Threat That Isn't One</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">"I'LL TELL EVERYONE ADAM LIKES<br><span class="text-hot">BAD BOYS WITH TATTOOS."</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Rhys's latest message threatens to <strong class="text-paper/65">"tell everyone Adam likes bad boys with tattoos."</strong> It is offered as leverage. It is nothing of the kind. Adam said exactly that himself — <strong class="text-paper/65">on the record, in his own words, on the recorded call above</strong>: <em class="text-paper/70">"Because you've got tattoos and you're a bad boy."</em></p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">You cannot expose a man who has already said it plainly. Adam is <strong class="text-paper/65">bi-curious and open about it</strong>; he has never hidden it, never denied it, and does not intend to start. A threat only works when the target is ashamed. There is <strong class="text-paper/65">nothing here to be ashamed of</strong> — which is precisely why the threat lands as what it really is: another attempt at pressure from someone who has run out of anything else to pull.</p>
+            <div class="border border-paper/[0.07] max-w-md" style="background:#0c0804">
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/rbk_reveal_threat.png" target="_blank" rel="noopener" class="block"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/rbk_reveal_threat.png" alt="RBK threat message — 'tell everyone Adam likes bad boys with tattoos'" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+            </div>
+        </div>
+
         <!-- Instagram + sponsors -->
         <div class="border border-paper/[0.08] p-6 mb-4 reveal" style="background:rgba(12,8,4,0.4)">
             <div class="flex items-center justify-between mb-4">
@@ -1199,6 +1213,51 @@
                     </div>
                     <span class="ev-cta">Open →</span>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── SECTION: ADNAN ALIJA / ALIJA CONCRETE ── -->
+    <div id="alija" class="mt-16">
+        <div class="flex items-center gap-3 mb-4 reveal">
+            <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">New Character — Adnan Alija</span>
+            <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Alija Concrete · The Slur · The Judgment</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-4 leading-tight reveal">"I'M NOT PAYING YOU<br><span class="text-hot">BECAUSE YOU'RE A FAGGOT."</span></h2>
+        <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-8 reveal max-w-3xl">Adnan Alija is the founder of <strong class="text-paper/65">Alija Concrete</strong>. What follows separates two things carefully: the allegations, which are described as allegations, and the court record, which speaks for itself.</p>
+
+        <!-- Founder / logo -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-stretch mb-8 reveal">
+            <div class="border border-paper/[0.07]" style="background:#0c0804">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/alija_founder.png" alt="Adnan Alija — founder of Alija Concrete" class="w-full h-auto block" style="max-height:420px;object-fit:contain" loading="lazy" />
+                <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 mt-1.5 px-2 pb-2">Adnan Alija · Founder, Alija Concrete</div>
+            </div>
+            <div class="border border-paper/[0.07] p-6 flex flex-col items-center justify-center text-center" style="background:#fff">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/alija_concrete_logo.png" alt="Alija Concrete" class="w-full max-w-[240px] mb-4" style="object-fit:contain" loading="lazy" />
+                <a href="https://www.instagram.com/alijaconcrete/" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase text-ink/60 border border-ink/20 px-2 py-0.5 hover:bg-ink/5 transition-colors">@alijaconcrete ↗</a>
+            </div>
+        </div>
+
+        <!-- The allegations -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Allegations</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">It is <strong class="text-paper/65">alleged</strong> that while his girlfriend — who was brought to Australia from overseas — was <strong class="text-paper/65">pregnant</strong>, Adnan Alija entered into a sexual relationship with Adam Watson and a friend of Adam's, both of whom are Muslim. That is an allegation, and it is presented as one.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">What sits alongside it is harder to reconcile. Alija Concrete <strong class="text-paper/65">engaged Adam Watson for work and never paid.</strong> The <strong class="text-paper/65">alleged stated reason</strong> for not paying was as blunt as it was ugly: <em class="text-paper/70">"I'm not paying you because you're a faggot."</em> A private relationship on one hand; a homophobic slur weaponised to avoid a debt on the other. The contradiction is the story.</p>
+        </div>
+
+        <!-- The judgment / on the record -->
+        <div class="border border-gold/25 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.04)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">On the Record — The Judgment</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam Watson took the unpaid debt to court and <strong class="text-paper/65">obtained a judgment</strong> against Adnan Alija. That is not an allegation — it is a matter of record.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The judgment has since done what judgments do. Adnan Alija was <strong class="text-paper/65">recently knocked back for a bank loan because of it</strong> — a recorded judgment debt is exactly the kind of thing a lender declines on. With the loan blocked, he <strong class="text-paper/65">reached out to Adam</strong>, now asking to pay the debt — in exchange for a <strong class="text-paper/65">Notice of Discontinuance.</strong></p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">It is worth sitting with that reversal. The man who allegedly refused to pay because of who Adam is now needs Adam's signature to move on with his own finances. The slur was free when there was nothing at stake. The moment the judgment stood between him and a bank, the position changed.</p>
+            <div class="border border-paper/[0.07] mt-5 p-4 flex items-center gap-4" style="background:rgba(12,8,4,0.5)">
+                <div class="shrink-0 w-12 h-14 flex items-center justify-center border border-gold/30 text-[0.5rem] tracking-[0.12em] text-gold" style="background:rgba(201,138,16,0.06)">PDF</div>
+                <div class="flex-1">
+                    <div class="text-[0.6rem] text-paper/60 mb-0.5">Form 33 — Notice of Discontinuance · Watson v Alija Concrete</div>
+                    <div class="text-[0.5rem] text-paper/30">Court document · The instrument Adnan Alija has requested in exchange for paying the judgment debt</div>
+                </div>
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/Form+33+-+Notice+of+Discontinuance+-+Watson+v+Alija+Concrete+(003).pdf" target="_blank" rel="noopener" class="shrink-0 text-[0.5rem] tracking-[0.14em] uppercase text-gold border border-gold/40 px-3 py-1.5 hover:bg-gold/10 transition-colors">View →</a>
             </div>
         </div>
     </div>

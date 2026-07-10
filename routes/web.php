@@ -39,6 +39,12 @@ Route::post('/episode-5/access', function (\Illuminate\Http\Request $request) {
     return redirect('/episode-5')->with('ep5_error', true);
 });
 
+// Unlisted preview permalink — serves Episode 5 content directly, bypassing the
+// password gate, so it can be previewed away from the main site. Not linked anywhere.
+Route::get('/preview/ep5-uTVroHn9W-li', function () {
+    return view('welcome-au-ep5');
+});
+
 Route::get('/new', function () {
     return view('new');
 });

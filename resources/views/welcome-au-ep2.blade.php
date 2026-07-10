@@ -5645,6 +5645,17 @@
                 <p>Robert Huang could have had something. The Consent Order gave him a real, enforceable outcome. He chose instead to go behind Adam Watson's back, to approach the Court unilaterally, and to attempt to strip payments from parties who had agreed to them. That decision has now produced a much worse result for everyone connected to those assets — including the lenders who had nothing to do with the dispute.</p>
             </div>
 
+            <!-- The appreciation — a dormitory -->
+            <div class="border border-gold/25 p-6 mb-6" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">How He Showed His Appreciation — A Dormitory</div>
+                <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">There is a smaller episode that captures the relationship better than any court filing. Adam Watson helped Robert Huang with his work — real assistance, the kind that mattered to the projects Huang was running. When it came time for Robert Huang to <strong class="text-paper/65">"show his appreciation,"</strong> the gesture he settled on was to <strong class="text-paper/65">book Adam into a dormitory.</strong></p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">A shared dormitory bunk — for a man who is the sole director and sole shareholder of hundreds of millions of dollars in projects, and who had just done Robert Huang a favour. It is a small thing, and it tells you everything about how Huang values the people who help him. The booking, and Huang's own explanation of it, are below.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/robert_huang_dorm_booking.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/robert_huang_dorm_booking.jpeg" alt="Robert Huang — dormitory booking for Adam Watson" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/robert_huang_dorm_explanation.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/robert_huang_dorm_explanation.jpeg" alt="Robert Huang — explanation of the dormitory booking" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                </div>
+            </div>
+
             <!-- Robert Huang's daughter — the sign and the rescue -->
             <div class="border-l-4 border-hot/50 pl-5 mb-6" style="background:rgba(193,68,14,0.05);padding:1.1rem 1rem 1.1rem 1.25rem">
                 <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The Human Toll — Robert Huang's Daughter</div>
