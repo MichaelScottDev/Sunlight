@@ -1262,6 +1262,85 @@
         </div>
     </div>
 
+    <!-- ── SECTION: SOUTHPORT OFFICEWORKS ── -->
+    <div id="officeworks" class="mt-16">
+        <div class="flex items-center gap-3 mb-4 reveal">
+            <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">New Incident — Southport Officeworks</span>
+            <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Two Charges · A $20 Item · $10 Held</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-4 leading-tight reveal">TWO CHARGES<br><span class="text-hot">OVER A $20 PAIR OF HEADPHONES.</span></h2>
+        <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-8 reveal max-w-3xl">Queensland Police brought <strong class="text-paper/65">two charges</strong> against Kosta Kondratenko over an incident at <strong class="text-paper/65">Officeworks Southport</strong>. This is his account of what happened, and why. The matter is <strong class="text-paper/65">listed for mention</strong> — it has not been to trial, and nothing here is a finding of any court. Should police elect to proceed to a full trial, the outcome will be reported at the end.</p>
+
+        <!-- The documents -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8 reveal">
+            <div class="border border-paper/[0.07]" style="background:#0c0804">
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/officeworks/undertaking_to_bail.jpeg" target="_blank" rel="noopener" class="block"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/officeworks/undertaking_to_bail.jpeg" alt="Undertaking to bail — Southport Officeworks charges" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 px-3 py-2 border-t border-paper/[0.06]">Undertaking to Bail · Two charges</div>
+            </div>
+            <div class="border border-paper/[0.07]" style="background:#0c0804">
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/officeworks/20_dollar_headphones.jpeg" target="_blank" rel="noopener" class="block"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/officeworks/20_dollar_headphones.jpeg" alt="Field Property Receipt — $20 headphones seized by QLD Police" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 px-3 py-2 border-t border-paper/[0.06]">Field Property Receipt · The item seized — a $20 pair of headphones</div>
+            </div>
+        </div>
+
+        <!-- What actually happened -->
+        <div class="story-chapter reveal mb-8">
+            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">What Actually Happened</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">It started at the self-service machines. Adam Watson was trying to print, and the machine <strong class="text-paper/65">wouldn't scan.</strong> Adam complained to Kosta about the scanning issue. Kosta went into Officeworks and told a staff member what had happened. The response was <em class="text-paper/70">"Well, that's all right"</em> — and Kosta explained that, no, it is <strong class="text-paper/65">not all right.</strong></p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Kosta asked to speak to the person who had aggravated Adam. The manager <strong class="text-paper/65">would not allow it</strong> — he said only that he would handle it himself, and refused to let Kosta speak to the person who had caused the problem in the first place.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">At that point, on Kosta's account, <strong class="text-paper/65">all he did was point a finger.</strong> He walked out. Then he came back in and <strong class="text-paper/65">took a pair of headphones.</strong> The logic was one the staff had themselves supplied: the machine had taken Adam's money and not given it back, and a worker had said Adam would get that money back <strong class="text-paper/65">in 14 days.</strong> So Kosta said he would take the <strong class="text-paper/65">$20 headphones for 14 days</strong> — and when the money came back, they could have their headphones back. If the machine can hold a customer's money for 14 days, the reasoning went, the customer can hold a $20 item for the same 14 days.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">The staff called the police. Kosta was <strong class="text-paper/65">arrested within 10 minutes.</strong> The officer did not appear to have the full story. Kosta explained the issue — the held money, the 14-day promise, the refusal to let him speak to anyone — and the officer <strong class="text-paper/65">proceeded with the arrest without any attempt to resolve the underlying issue whatsoever.</strong></p>
+        </div>
+
+        <!-- Why the headphones — the $10 held -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Why It Happened — The $10 Officeworks Kept</div>
+            <div class="grid grid-cols-1 sm:grid-cols-[150px_1fr] gap-5 items-start">
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/adam_watson_portrait.jpg" alt="Adam Watson" class="w-full h-auto block" style="object-fit:cover" loading="lazy" />
+                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06]">Adam Watson</div>
+                </div>
+                <div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">This did not happen over nothing. Officeworks <strong class="text-paper/65">took $10 from Adam Watson for his printing and did not return it.</strong> The receipt showing Officeworks holding that money is below. The headphones were never about $20 worth of headphones — they were a stand-in for money the store had taken and would not give back.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50">There is also a piece of property that has never been accounted for. Since the police <strong class="text-paper/65">removed the item from Kosta's bag</strong>, his <strong class="text-paper/65">charger has gone missing</strong> — and its value is considerably higher than the $20 headphones that generated the charges. The Field Property Receipt above records what was taken; the charger is not coming back.</p>
+                </div>
+            </div>
+            <div class="border border-paper/[0.07] max-w-md mt-5" style="background:#0c0804">
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/officeworks/officeworks_holding_money.jpeg" target="_blank" rel="noopener" class="block"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/officeworks/officeworks_holding_money.jpeg" alt="Receipt — Officeworks holding Adam Watson's $10" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 px-3 py-2 border-t border-paper/[0.06]">Proof · Officeworks holding Adam Watson's $10</div>
+            </div>
+        </div>
+
+        <!-- The culture -->
+        <div class="border border-gold/25 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.04)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">The Culture at Southport Officeworks</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The incident does not sit in isolation. It goes to the <strong class="text-paper/65">culture of the staff at Officeworks Southport</strong>, who — on Adam Watson's repeated experience — <strong class="text-paper/65">never help him with the self-service printers.</strong> Adam has also complained that the printing is <strong class="text-paper/65">set to colour by default</strong>. He believes this is a <strong class="text-paper/65">deliberate attempt to extract money</strong> from customers — charging colour rates even when the pages are plainly black and white.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">It is not only customers who describe it that way. An Officeworks staff member at <strong class="text-paper/65">Robina</strong> has said she <strong class="text-paper/65">never rosters herself onto shifts at the Southport store</strong> because of the culture and the people there — and that, in her view, the staff seem <strong class="text-paper/65">trained to be unhelpful.</strong></p>
+        </div>
+
+        <!-- Wesfarmers / Rob Scott -->
+        <div class="border border-paper/[0.08] p-6 mb-8 reveal" style="background:rgba(12,8,4,0.4)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/40 mb-4">Escalated — The Owner of Officeworks</div>
+            <div class="grid grid-cols-1 sm:grid-cols-[150px_1fr] gap-5 items-start">
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/officeworks/rob_scott_ceo.jpg" alt="Rob Scott — CEO, Wesfarmers" class="w-full h-auto block" style="object-fit:cover" loading="lazy" />
+                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06]">Rob Scott · CEO, Wesfarmers</div>
+                </div>
+                <div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Officeworks is owned by <strong class="text-paper/65">Wesfarmers</strong>. Its CEO, <strong class="text-paper/65">Rob Scott</strong>, has been contacted about the culture of the staff at the Southport store. He has indicated he will <strong class="text-paper/65">look at the complaint numbers</strong> for that location to determine whether this is a valid, recurring concern rather than a one-off.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50">That is the right response to a complaint of this kind: check whether the data backs it up. If the volume of complaints against Officeworks Southport is elevated, it tells its own story — and it would corroborate exactly what a Robina staff member has already said out loud about that store.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- The bigger issue -->
+        <div class="border border-hot/25 p-6 mb-4 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Bigger Issue — Procedure and Held Money</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Strip the personalities out of it and two questions remain. The first is about <strong class="text-paper/65">police procedure.</strong> When someone is standing in a store openly explaining that they have taken a $20 item because the store is holding their associate's money, the proportionate response is to <strong class="text-paper/65">offer to let them simply pay for the item</strong>, or, at the very least, to <strong class="text-paper/65">listen to the underlying issue</strong> before reaching for handcuffs. Neither happened. The officer proceeded to arrest without attempting to resolve anything.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">The second is bigger, and it is the real question this case raises: <strong class="text-paper/65">what right does a store like Officeworks have to take a customer's money and hold it — for 14 days or at all — without giving it back?</strong> A self-service machine that takes payment and fails to deliver the service has not completed a sale; it has taken money. The clean fix is obvious: <strong class="text-paper/65">charge only the amount the customer agrees to pay before printing</strong> — the exact page count, in the correct colour mode — so the machine never holds money it has no service to justify. Get that right and incidents like this one do not begin.</p>
+        </div>
+    </div>
+
 </div><!-- end main content -->
 
 
