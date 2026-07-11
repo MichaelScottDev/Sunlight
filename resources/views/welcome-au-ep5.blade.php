@@ -1269,9 +1269,20 @@
             <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Two Charges · A $20 Item · $10 Held</span>
         </div>
         <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-4 leading-tight reveal">TWO CHARGES<br><span class="text-hot">OVER A $20 PAIR OF HEADPHONES.</span></h2>
-        <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-8 reveal max-w-3xl">Queensland Police brought <strong class="text-paper/65">two charges</strong> against Kosta Kondratenko over an incident at <strong class="text-paper/65">Officeworks Southport</strong>. This is his account of what happened, and why. The matter is <strong class="text-paper/65">listed for mention</strong> — it has not been to trial, and nothing here is a finding of any court. Should police elect to proceed to a full trial, the outcome will be reported at the end.</p>
+        <div class="flex flex-col sm:flex-row gap-5 items-start mb-8 reveal">
+            <div class="shrink-0 border border-paper/[0.07] p-5 flex items-center justify-center" style="background:#fff;width:200px;min-height:96px">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/officeworks_logo.png" alt="Officeworks" class="w-full max-w-[150px]" style="object-fit:contain" loading="lazy" />
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 max-w-3xl">Queensland Police brought <strong class="text-paper/65">two charges</strong> against Kosta Kondratenko over an incident at <strong class="text-paper/65">Officeworks Southport</strong>. This is his account of what happened, and why. The matter is <strong class="text-paper/65">listed for mention</strong> — it has not been to trial, and nothing here is a finding of any court. Should police elect to proceed to a full trial, the outcome will be reported at the end.</p>
+        </div>
 
         <!-- The documents -->
+        <div class="flex items-center gap-3 mb-3 reveal">
+            <div class="shrink-0 border border-paper/[0.1] p-2.5 flex items-center justify-center" style="background:#fff;width:120px;min-height:60px">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/qld_police_logo.png" alt="Queensland Police Service" class="w-full max-w-[96px]" style="object-fit:contain" loading="lazy" />
+            </div>
+            <div class="text-[0.5rem] tracking-[0.16em] uppercase text-paper/30 leading-relaxed">Queensland Police · Two charges laid<br>Item seized · Field Property Receipt issued</div>
+        </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8 reveal">
             <div class="border border-paper/[0.07]" style="background:#0c0804">
                 <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/officeworks/undertaking_to_bail.jpeg" target="_blank" rel="noopener" class="block"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/officeworks/undertaking_to_bail.jpeg" alt="Undertaking to bail — Southport Officeworks charges" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
@@ -1328,7 +1339,10 @@
                 </div>
                 <div>
                     <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Officeworks is owned by <strong class="text-paper/65">Wesfarmers</strong>. Its CEO, <strong class="text-paper/65">Rob Scott</strong>, has been contacted about the culture of the staff at the Southport store. He has indicated he will <strong class="text-paper/65">look at the complaint numbers</strong> for that location to determine whether this is a valid, recurring concern rather than a one-off.</p>
-                    <p class="text-[0.72rem] leading-relaxed text-paper/50">That is the right response to a complaint of this kind: check whether the data backs it up. If the volume of complaints against Officeworks Southport is elevated, it tells its own story — and it would corroborate exactly what a Robina staff member has already said out loud about that store.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">That is the right response to a complaint of this kind: check whether the data backs it up. If the volume of complaints against Officeworks Southport is elevated, it tells its own story — and it would corroborate exactly what a Robina staff member has already said out loud about that store.</p>
+                    <div class="border border-paper/[0.07] p-5 flex items-center justify-center" style="background:#fff;min-height:96px">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/Wesfarmers-brand.svg.webp" alt="Wesfarmers" class="w-full max-w-[220px]" style="object-fit:contain" loading="lazy" />
+                    </div>
                 </div>
             </div>
         </div>

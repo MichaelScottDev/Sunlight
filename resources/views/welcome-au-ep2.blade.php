@@ -1312,6 +1312,12 @@
                         <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-sage/40 text-sage/70 px-1.5 py-0.5">STATED IN COURT</span>
                     </div>
                     <h4 class="font-display text-xl tracking-wide mb-3 leading-tight">"YOUR HONOUR, I AM WILLING TO STATE THAT THIS IS MALICIOUS PROSECUTION."<br><span class="text-sage">A QLD POLICE PROSECUTOR. ON THE RECORD. THEN BULLIED OUT OF THE JOB.</span></h4>
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="shrink-0 border border-sage/25 p-2.5 flex items-center justify-center" style="background:#fff;width:120px;min-height:60px">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/qld_police_logo.png" alt="Queensland Police Service" class="w-full max-w-[96px]" style="object-fit:contain" loading="lazy" />
+                        </div>
+                        <div class="text-[0.5rem] tracking-[0.16em] uppercase text-paper/30 leading-relaxed">Queensland Police Service · Police prosecutor<br>Statement made in open court, on the record</div>
+                    </div>
                     <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">A Queensland Police prosecutor — standing at the bar table — stated on the court record: <em class="text-paper/70">"Your Honour, I'm willing to state that this is malicious prosecution."</em> This is an extraordinary act. A member of the Queensland Police Service, in open court, voluntarily characterising a fellow officer's conduct as malicious prosecution. Prosecutors do not say this lightly. It is not a routine submission. It is the kind of statement that defines a career — and in this case, it did.</p>
                     <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">For standing up for what was right, she was ruthlessly bullied by members of the Queensland Police Service. The institutional response to her integrity was not commendation. It was sustained internal pressure. She subsequently left Queensland Police and entered private practice.</p>
                     <div class="border-l-4 border-sage/50 pl-4 mb-4" style="background:rgba(61,122,74,0.06);padding:0.85rem 1rem 0.85rem 1.25rem">

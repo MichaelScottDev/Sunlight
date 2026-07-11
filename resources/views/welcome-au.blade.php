@@ -1527,6 +1527,9 @@
                 <p class="text-[0.72rem] leading-relaxed text-paper/50">I am actively fighting to have all documents about me released — police files, internal notes, everything. This record is the starting point. Read it. Judge the charges. Then look at what happened to them.</p>
             </div>
             <div class="space-y-3">
+                <div class="border border-gold/20 p-5 flex items-center justify-center" style="background:#fff;min-height:96px">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/qld_police_logo.png" alt="Queensland Police Service" class="w-full max-w-[200px]" style="object-fit:contain" loading="lazy" />
+                </div>
                 <div class="border border-gold/20 p-4" style="background:rgba(201,138,16,0.03)">
                     <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-2">On the Record</div>
                     <div class="space-y-1.5">
@@ -2914,7 +2917,13 @@
             <span class="text-[0.55rem] tracking-[0.3em] uppercase text-hot">Pacific Fair · Coles · Body Worn Camera</span>
         </div>
         <h2 class="font-display leading-none tracking-wide mb-3 reveal" style="font-size:clamp(2.4rem,6vw,4rem)">A YAKULT BOTTLE.<br><span class="text-hot">$550,000 TO THE TAXPAYER.</span></h2>
-        <p class="font-serif italic text-paper/45 text-lg leading-relaxed mb-10 reveal max-w-2xl">"I never stole anything from Coles. There has never been a call to police claiming I stole — not once in my life. A Coles employee made a false allegation. The police took it without asking for CCTV, without asking for proof, without asking why it hadn't been lodged. This is what followed."</p>
+        <p class="font-serif italic text-paper/45 text-lg leading-relaxed mb-6 reveal max-w-2xl">"I never stole anything from Coles. There has never been a call to police claiming I stole — not once in my life. A Coles employee made a false allegation. The police took it without asking for CCTV, without asking for proof, without asking why it hadn't been lodged. This is what followed."</p>
+        <div class="flex items-center gap-4 mb-10 reveal">
+            <div class="shrink-0 border border-paper/[0.1] p-3 flex items-center justify-center" style="background:#fff;width:150px;min-height:72px">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/qld_police_logo.png" alt="Queensland Police Service" class="w-full max-w-[120px]" style="object-fit:contain" loading="lazy" />
+            </div>
+            <div class="text-[0.5rem] tracking-[0.16em] uppercase text-paper/30 leading-relaxed">Contravene Move On Direction · Coles, Pacific Fair<br>District Court D236/24 · Body Worn Camera disclosure</div>
+        </div>
 
         <!-- How it started -->
         <div class="story-chapter reveal mb-8" style="border-left-color:rgba(193,68,14,0.3)">
