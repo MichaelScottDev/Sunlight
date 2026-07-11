@@ -4872,6 +4872,23 @@
             </div>
         </div>
 
+        <!-- PDC Law / Lorri Field — Graham Gordon's representation -->
+        <div class="story-chapter reveal mb-6" style="border-left-color:rgba(201,138,16,0.5)">
+            <div class="text-[0.46rem] tracking-[0.22em] uppercase text-gold mb-3">Who Represents Graham Gordon — PDC Law</div>
+            <div class="flex flex-col sm:flex-row gap-5 items-start">
+                <div class="shrink-0 w-40 border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/lorri_field_lawyer.png" alt="Lorri Field — PDC Law" class="w-full h-auto block" style="object-fit:cover" loading="lazy" />
+                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06]">Lorri Field · PDC Law</div>
+                </div>
+                <div class="flex-1">
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-4">Separate from the CCAust debt-recovery machine acting for the strata companies, <strong class="text-paper/65">Graham Gordon</strong> is himself represented by <strong class="text-paper/65">Lorri Field of PDC Law</strong>.</p>
+                    <div class="border border-paper/[0.07] p-5 flex items-center justify-center" style="background:#fff;min-height:110px">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/pdc_law.png" alt="PDC Law" class="w-full max-w-[220px]" style="object-fit:contain" loading="lazy" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Armed home invasion -->
         <div class="story-chapter reveal mb-6" style="border-left-color:rgba(193,68,14,0.9)">
             <div class="flex items-center gap-3 mb-4">

@@ -1014,6 +1014,23 @@
             </div>
         </div>
 
+        <!-- Who represented Kennards -->
+        <div class="border border-paper/[0.08] p-6 mb-10 reveal" style="background:rgba(12,8,4,0.4)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/40 mb-4">Who Represented Kennards — Piper Alderman</div>
+            <div class="grid grid-cols-1 sm:grid-cols-[150px_1fr] gap-5 items-start">
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/Karyn-Reardon-partner.jpg" alt="Karyn Reardon — Partner, Piper Alderman" class="w-full h-auto block" style="object-fit:cover" loading="lazy" />
+                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06]">Karyn Reardon · Partner (admitted 1994)</div>
+                </div>
+                <div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Kennards Self Storage was represented by <strong class="text-paper/65">Piper Alderman</strong>. The lawyer on the matter was senior partner <strong class="text-paper/65">Karyn Reardon</strong>, who swore the affidavit filed in support of Kennards' summary judgment application in the Federal Court.</p>
+                    <div class="border border-paper/[0.07] p-5 flex items-center justify-center" style="background:#fff;min-height:110px">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/piperalderman_logo.webp" alt="Piper Alderman" class="w-full max-w-[220px]" style="object-fit:contain" loading="lazy" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Chapter F: Affidavit of Service -->
         <div class="story-chapter reveal mb-10" style="border-left-color:rgba(193,68,14,0.5)">
             <div class="flex items-center gap-3 mb-4"><span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Chapter F — Service of Process · Affidavit of Service</span></div>
