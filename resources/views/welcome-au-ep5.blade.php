@@ -514,6 +514,70 @@
                 </div>
             </div>
         </div>
+
+        <!-- The accomplice — Myagi -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">The Accomplice — Myagi</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5">Pressure to Take It Down</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">RBK'S FRIEND CAME TO SILENCE THE STORY —<br><span class="text-hot">NOT TO ANSWER FOR IT.</span></h3>
+            <div class="grid grid-cols-1 sm:grid-cols-[150px_1fr] gap-5 items-start mb-5">
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/myiagi_profile.png" alt="Myagi — @myagi_anonimus" class="w-full h-auto block" style="object-fit:cover" loading="lazy" />
+                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06]">Myagi · @myagi_anonimus · Wollongong</div>
+                </div>
+                <div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">RBK's friend — a Wollongong rapper who goes by <strong class="text-paper/65">Myagi</strong> (<a href="https://www.instagram.com/myagi_anonimus/" target="_blank" rel="noopener" class="text-hot underline">@myagi_anonimus</a>) — inserted himself into the matter. Not to address what his friend had done, but to <strong class="text-paper/65">pressure Adam Watson into taking the RBK material off Sunlight.Quest.</strong></p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50">His stated reason is the tell. He argues the section should come down because it is a <strong class="text-paper/65">detriment to the businesses mentioned</strong> — the sponsors, the venues — while carefully stepping around the one fact that created the problem: <strong class="text-paper/65">his friend ran a scam.</strong> The businesses were not named to hurt them; they were named because RBK attaches himself to them. If there is a detriment here, its author is the person who behaved this way — not the person who documented it.</p>
+                </div>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">He then adopted an uptight, arrogant tone — as though Adam Watson were someone to be talked down to. It is worth remembering who Adam actually is: a <strong class="text-paper/65">genuine developer</strong>, the sole director and sole shareholder of the building at the centre of this episode. Coming in hot at a man of that standing, on behalf of a friend who scammed him, is a way of <strong class="text-paper/65">starting off on the wrong foot</strong> — and staying there. The messages are below.</p>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rbk_1.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rbk_1.jpeg" alt="Myagi message to Adam Watson (1 of 3)" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rbk_2.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rbk_2.jpeg" alt="Myagi message to Adam Watson (2 of 3)" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rbk_3.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rbk_3.jpeg" alt="Myagi message to Adam Watson (3 of 3)" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+            </div>
+            <div class="mt-6 border border-gold/25 p-5" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-3">The Affiliation — And What He's Really Covering</div>
+                <div class="flex flex-col sm:flex-row gap-5 items-start">
+                    <div class="shrink-0 w-full sm:w-56 border border-paper/[0.07]" style="background:#0c0804">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/myiagi_rbk_promote.png" alt="Myagi's Instagram promoting RBK — R.B.K Chit Chat" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">This is not a neutral bystander. Myagi's own Instagram <strong class="text-paper/65">promotes RBK directly</strong> — his page carries RBK's <em class="text-paper/70">"Chit Chat"</em> release, the very track quoted earlier in this section. The two are affiliated.</p>
+                        <p class="text-[0.72rem] leading-relaxed text-paper/50">Which is what makes the intervention what it is. <strong class="text-paper/65">RBK is a police informant</strong> — the pattern documented across this section is the pattern of someone who reaches for the police the moment a situation stops going his way. Myagi is not defending an innocent man; he is <strong class="text-paper/65">running cover for a snitch</strong> and dressing it up as concern for local businesses. That does not launder. The record stays.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RBK's girlfriend — the pedophile smear -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Girlfriend's Message — The Pedophile Smear</div>
+            <div class="grid grid-cols-1 sm:grid-cols-[150px_1fr] gap-5 items-start mb-5">
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rbk_girlfriend.png" alt="RBK's girlfriend — from his Instagram" class="w-full h-auto block" style="object-fit:cover" loading="lazy" />
+                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06]">RBK's girlfriend · From his Instagram</div>
+                </div>
+                <div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">RBK's girlfriend also sent Adam Watson a message. Its purpose was to <strong class="text-paper/65">imply that Adam is a pedophile</strong>. It is worth naming that move for what it is, because it is so common it is almost a signature.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">At the gutter end of any dispute, <strong class="text-paper/65">"pedophile" is the first reflex</strong> — reached for the instant a person has nothing real to say. It is thrown not because it is true, but because it is the ugliest word to hand. And there is a poverty of imagination underneath it: an inability to sit with the simple possibility that someone might just be <strong class="text-paper/65">kind</strong> — that Adam extended genuine help, paid work, and belief, with no sinister motive at all. People who have only ever operated in bad faith cannot picture good faith, so they rename it as the worst thing they can think of.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50">For the record: the implication is <strong class="text-paper/65">false</strong>. There is no allegation, no complaint, no substance behind it — only the word, deployed exactly the way people like this always deploy it.</p>
+                </div>
+            </div>
+            <div class="border border-paper/[0.07] max-w-md" style="background:#0c0804">
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/girlfriend_message.png" target="_blank" rel="noopener" class="block"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/girlfriend_message.png" alt="Message from RBK's girlfriend to Adam Watson" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 px-3 py-2 border-t border-paper/[0.06]">The message · RBK's girlfriend to Adam Watson</div>
+            </div>
+        </div>
+
+        <!-- The tattoo shop — full circle -->
+        <div class="border border-gold/25 p-6 mb-4 reveal" style="background:rgba(201,138,16,0.04)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">The Tattoo Shop — Full Circle</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">One of the venues attached to RBK — the tattoo studio listed among his sponsors above — has its own story running underneath this one. <strong class="text-paper/65">Many of its people have quit.</strong> And rather than sit with why, the shop is said to have <strong class="text-paper/65">gone to the underworld for retribution</strong> over the exposure.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">That is a category error. <strong class="text-paper/65">You cannot run to the underworld to complain that someone exposed a snitch.</strong> It does not work that way — that world's own code has no sympathy for informants, and an appeal made on a snitch's behalf has a way of coming back on the person who made it. It has come <strong class="text-paper/65">full circle.</strong> There is a great deal more to this that sits in the background and cannot be set down here — but the shape of it is simple: the people trying to bury this story keep arriving at the same door, and the door keeps opening the wrong way for them.</p>
+        </div>
     </div>
 
     <!-- ── SECTION 01: THE PROMISE ── -->
