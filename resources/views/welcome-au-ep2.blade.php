@@ -4321,6 +4321,23 @@
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The Centre Manager — employed by the company contracted to manage Pacific Fair — was directed to stand the guards down and then issue a threat to the pharmacy operator: provide Adam Watson's home address, or face lease termination. It did not work. The chemist's lease runs directly through Wesfarmers, Priceline's parent company. The Centre Manager had no standing to terminate it. The address was not handed over.</p>
                     <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-5">The consequences were swift and total. The head of Wesfarmers contacted the owner of Pacific Fair directly. The owner was appalled. He personally called Jason — the Priceline pharmacist — and apologised for what had been done to him. He then stood down the entire company that had been managing Pacific Fair. Not just the Centre Manager. The whole management company — terminated.</p>
 
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5 reveal">
+                        <div class="border border-hot/25 p-4" style="background:rgba(193,68,14,0.04)">
+                            <div class="flex gap-4 items-start">
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/nekta_vitetzakis.jpeg" alt="Nekta Vitetzakis — Pacific Fair Centre Manager" class="w-24 shrink-0 border border-paper/10 object-cover" style="aspect-ratio:3/4;object-position:top" loading="lazy" />
+                                <div>
+                                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-hot mb-1.5">The Centre Manager</div>
+                                    <div class="font-display text-base text-paper/75 mb-1">Nekta Vitetzakis</div>
+                                    <p class="text-[0.6rem] text-paper/45 leading-relaxed">The Pacific Fair Centre Manager who stood the security guards down and threatened Jason's lease — acting inside Grason Andrew Kira's network in the attempt to extract Adam Watson's home address.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border border-paper/[0.07] p-5 flex flex-col items-center justify-center text-center" style="background:#fff">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/priceline_logo.png" alt="Priceline" class="w-full max-w-[200px] mb-3" style="object-fit:contain" loading="lazy" />
+                            <div class="text-[0.44rem] tracking-[0.18em] uppercase text-ink/50">Priceline · Pacific Fair · Jason the pharmacist</div>
+                        </div>
+                    </div>
+
                     <div class="border border-paper/[0.07] p-5 mb-5">
                         <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-4">Intimidation Sequence — The Priceline Attempt</div>
                         <div class="space-y-2.5">
@@ -4351,6 +4368,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <p class="text-[0.72rem] leading-relaxed text-paper/45 mt-5">There is a coda to the Priceline story that has nothing to do with Grason Andrew Kira. Jason — the pharmacist who refused to hand over the address — is looking to <strong class="text-paper/65">exit the lease and close up shop anyway</strong>, worn down by relentless <strong class="text-paper/65">shoplifting</strong> at the Pacific Fair store. The man who held the line on a customer's privacy is being pushed out of business by a different, quieter kind of theft.</p>
                 </div>
 
                 <!-- The Confrontation -->
