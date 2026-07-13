@@ -4324,10 +4324,10 @@
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5 reveal">
                         <div class="border border-hot/25 p-4" style="background:rgba(193,68,14,0.04)">
                             <div class="flex gap-4 items-start">
-                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/nekta_vitetzakis.jpeg" alt="Nekta Vitetzakis — Pacific Fair Centre Manager" class="w-24 shrink-0 border border-paper/10 object-cover" style="aspect-ratio:3/4;object-position:top" loading="lazy" />
+                                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/neketa_centre_manager.jpeg" alt="Nekta Vitetzakis — Pacific Fair Centre Manager" class="w-24 shrink-0 border border-paper/10 object-cover" style="aspect-ratio:3/4;object-position:top" loading="lazy" />
                                 <div>
                                     <div class="text-[0.46rem] tracking-[0.18em] uppercase text-hot mb-1.5">The Centre Manager</div>
-                                    <div class="font-display text-base text-paper/75 mb-1">Nekta Vitetzakis</div>
+                                    <a href="https://www.linkedin.com/in/nekta-vitetzakis-94377057/" target="_blank" rel="noopener" class="font-display text-base text-paper/75 hover:text-hot transition-colors mb-1 inline-block">Nekta Vitetzakis <span class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/30">LinkedIn ↗</span></a>
                                     <p class="text-[0.6rem] text-paper/45 leading-relaxed">The Pacific Fair Centre Manager who stood the security guards down and threatened Jason's lease — acting inside Grason Andrew Kira's network in the attempt to extract Adam Watson's home address.</p>
                                 </div>
                             </div>
