@@ -618,6 +618,15 @@
                     <p class="text-[0.7rem] text-paper/60 leading-relaxed italic">"...so what's it got to do with me?"</p>
                     <p class="text-[0.5rem] text-paper/30 mt-2">— Skivz, to Adam Watson (recorded)</p>
                 </div>
+                <div class="mt-4 border border-hot/20" style="background:rgba(0,0,0,0.3)">
+                    <video controls preload="metadata" class="w-full" style="max-height:520px;display:block">
+                        <source src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/skivz_video.mp4" type="video/mp4">
+                    </video>
+                    <div class="px-4 py-3 border-t border-hot/15">
+                        <div class="text-[0.48rem] tracking-[0.18em] uppercase text-hot/60 mb-1">Recording · Adam Watson &amp; Skivz</div>
+                        <p class="text-[0.55rem] text-paper/30 leading-relaxed">The recorded call in which Skivz — asked about the child being placed around RBK's videos — answers "what's it got to do with me?"</p>
+                    </div>
+                </div>
                 <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
                     <div class="border border-paper/[0.07]" style="background:#0c0804">
                         <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/skiv_son_affiliated.jpg" alt="Behind the scenes on an RBK video shoot — a child on the camera, face redacted" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
