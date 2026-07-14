@@ -619,8 +619,8 @@
                     <p class="text-[0.5rem] text-paper/30 mt-2">— Skivz, to Adam Watson (recorded)</p>
                 </div>
                 <div class="mt-4 border border-paper/[0.07] max-w-md" style="background:#0c0804">
-                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/skiv_son_affiliated.jpg" alt="Behind the scenes on an RBK video shoot — a child on the camera, face redacted" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
-                    <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 px-3 py-2 border-t border-paper/[0.06] leading-relaxed">Behind the scenes on an RBK shoot — a child working the camera. The affiliation is the point; the child's face has been redacted to protect the minor.</div>
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/donjay_school.jpg" alt="Skivz's content featuring his child — name and face redacted" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
+                    <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 px-3 py-2 border-t border-paper/[0.06] leading-relaxed">Skivz puts his child front-and-centre in his own content — the same child whose presence around RBK's videos he waved off with "what's it got to do with me." Name and face redacted to protect the minor.</div>
                 </div>
             </div>
             <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">On the law, and on affiliation: filming for someone, or promoting them, does not by itself make you a party to their conduct — <strong class="text-paper/65">association is not liability</strong>. But it is not nothing, either. Endorsement carries weight — it is the entire reason a brand pays for it — and where a promotion helps push a misleading arrangement, consumer-protection law can reach the promoter, not only the principal. That is the legal edge of it, and it is worth knowing.</p>
