@@ -578,6 +578,55 @@
             <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">One of the venues attached to RBK — the tattoo studio listed among his sponsors above — has its own story running underneath this one. <strong class="text-paper/65">Many of its people have quit.</strong> And rather than sit with why, the shop is said to have <strong class="text-paper/65">gone to the underworld for retribution</strong> over the exposure.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/50">That is a category error. <strong class="text-paper/65">You cannot run to the underworld to complain that someone exposed a snitch.</strong> It does not work that way — that world's own code has no sympathy for informants, and an appeal made on a snitch's behalf has a way of coming back on the person who made it. It has come <strong class="text-paper/65">full circle.</strong> There is a great deal more to this that sits in the background and cannot be set down here — but the shape of it is simple: the people trying to bury this story keep arriving at the same door, and the door keeps opening the wrong way for them.</p>
         </div>
+
+        <!-- Skivz — RBK's video guy -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">The Video Guy — Skivz</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5">"What's It Got To Do With Me?"</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">THE MAN BEHIND RBK'S CAMERA —<br><span class="text-hot">AND A SLOGAN THAT DOESN'T SURVIVE CONTACT.</span></h3>
+            <div class="grid grid-cols-1 sm:grid-cols-[160px_1fr] gap-5 items-start mb-5">
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/skivz_instagram.png" alt="Skivz — @skivz" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
+                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06]">Skivz · @skivz · Wollongong</div>
+                </div>
+                <div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">RBK's videos are made by a man who goes by <strong class="text-paper/65">Skivz</strong> — RBK named him directly as the person who films his content. On Instagram (<a href="https://www.instagram.com/skivz/" target="_blank" rel="noopener" class="text-hot underline">@skivz</a>) he carries a following in the tens of thousands and brands himself around <em class="text-paper/70">"Dad Life,"</em> fitness, and discipline.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50">He is closely tied to <strong class="text-paper/65">Donz Active</strong> — a Wollongong fitness and clothing label he promotes, tagged into its posts under the banners <em class="text-paper/70">"No Excuses,"</em> <em class="text-paper/70">"Discipline · Mindset,"</em> and the one that matters most here: <em class="text-paper/70">"Lead By Example."</em></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                <a href="https://www.instagram.com/p/DZzRSrcGVPf/?img_index=1" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/skivz_photo.png" alt="Skivz (circled) promoting Donz Active" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                <div class="border border-paper/[0.07] p-6 flex flex-col items-center justify-center text-center" style="background:#fff">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/donz_active.png" alt="Donz Active" class="w-full max-w-[200px] mb-3" style="object-fit:contain" loading="lazy" />
+                    <a href="https://www.instagram.com/donz_active/" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase text-ink/60 border border-ink/20 px-2 py-0.5 hover:bg-ink/5 transition-colors">@donz_active ↗</a>
+                </div>
+            </div>
+            <div class="border border-gold/25 p-5 mb-5" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-3">The Slogan — "Lead By Example"</div>
+                <div class="flex flex-col sm:flex-row gap-5 items-start">
+                    <div class="shrink-0 w-full sm:w-64 border border-paper/[0.07]" style="background:#0c0804">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/donz_active_instagram.png" alt="Donz Active — 'No Excuses. Lead By Example'" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Donz Active markets itself on <em class="text-paper/70">"Building A Stronger Community,"</em> <em class="text-paper/70">"Fitness · Discipline · Mindset,"</em> and <em class="text-paper/70">"No Excuses. Lead By Example."</em> They are good words. The only real test of words like that is what happens when they meet something inconvenient.</p>
+                        <p class="text-[0.72rem] leading-relaxed text-paper/50">Adam Watson raised with Skivz that a <strong class="text-paper/65">young child in his family</strong> was being placed in and around RBK's videos — RBK being the person documented across this section for what looks, on the evidence, like a scam. The conversation was recorded. Skivz's answer speaks for itself.</p>
+                    </div>
+                </div>
+                <div class="border-l-4 border-hot/60 pl-4 py-3 mt-4" style="background:rgba(193,68,14,0.05)">
+                    <p class="text-[0.7rem] text-paper/60 leading-relaxed italic">"...so what's it got to do with me?"</p>
+                    <p class="text-[0.5rem] text-paper/30 mt-2">— Skivz, to Adam Watson (recorded)</p>
+                </div>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">On the law, and on affiliation: filming for someone, or promoting them, does not by itself make you a party to their conduct — <strong class="text-paper/65">association is not liability</strong>. But it is not nothing, either. Endorsement carries weight — it is the entire reason a brand pays for it — and where a promotion helps push a misleading arrangement, consumer-protection law can reach the promoter, not only the principal. That is the legal edge of it, and it is worth knowing.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6">The simpler point needs no lawyer. A label built on <em class="text-paper/70">"Discipline, Mindset, Lead By Example,"</em> fronted by a man who brands himself on <em class="text-paper/70">"Dad Life,"</em> is either a set of values or a marketing costume. Told that a child was being drawn into the orbit of someone accused of a scam, <strong class="text-paper/65">"what's it got to do with me"</strong> is the answer of the costume — not the example.</p>
+            <div class="border border-paper/[0.08] p-5" style="background:rgba(12,8,4,0.4)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/35 mb-3">For the Record — What the Payment Actually Was</div>
+                <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The money Adam Watson paid RBK was <strong class="text-paper/65">payment for a video for Adam's political campaign</strong> — the policy platform set out in <a href="/episode-2" class="text-gold underline">Episode 2 (Adam's policies)</a>. It was a straightforward commercial engagement for legitimate work, not the arrangement RBK and his circle have since tried to paint. The "scammer" line runs in exactly one direction — and it is not the one they are pointing.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/50">Adam Watson is <strong class="text-paper/65">threatening legal action for defamation</strong> over the false characterisations being spread about him.</p>
+            </div>
+        </div>
     </div>
 
     <!-- ── SECTION 01: THE PROMISE ── -->
