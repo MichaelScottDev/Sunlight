@@ -363,7 +363,7 @@
     <div id="rbk">
         <div class="flex items-center gap-3 mb-4 reveal">
             <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">New Character — RBK</span>
-            <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Rhys Briffa · Wollongong · Feels Like Extortion</span>
+            <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Rhys Briffa · Wollongong · Romance Scam · Extortion</span>
         </div>
         <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-4 leading-tight reveal">RBK.<br><span class="text-hot">STREET IMAGE ONLINE. POLICE ON SPEED DIAL.</span></h2>
         <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-8 reveal">"Adam engaged a rapper for some videos. What came back were strange text messages, a girlfriend demanding money outside a business associate's building, and threats to call the police — all while still asking for feedback on the video. The whole thing has started to feel like extortion."</p>
@@ -382,6 +382,12 @@
             <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">How It Started</div>
             <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The rapper goes by <strong class="text-paper/70">RBK</strong>; his real name is <strong class="text-paper/70">Rhys Briffa</strong>. Adam Watson found him on TikTok, watched his videos, and wanted some made for his <strong class="text-paper/70">political campaign</strong>. In the course of chatting, Adam was — as he tends to be — honest: he shared that he likes bad boys, and that he is bi-curious.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/50">Rhys reciprocated the candour. He confided that he has <strong class="text-paper/70">always known he is bisexual</strong>, and told Adam he would leave his girlfriend for him — or, in his words, that she <em class="text-paper/70">"doesn't have to know."</em> Adam declined. He said he could not do that. Rhys has a <strong class="text-paper/70">child</strong> and lives in <strong class="text-paper/70">Wollongong</strong>.</p>
+        </div>
+
+        <!-- What this is — romance scam framing -->
+        <div class="border-l-4 border-hot/60 pl-4 py-3 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">What This Is — A Romance Scam</div>
+            <p class="text-[0.7rem] leading-relaxed text-paper/55">Read as a whole, the pattern has the hallmarks of a <strong class="text-paper/70">romance scam</strong>: feigned attraction and talk of leaving a partner, used to manufacture closeness — followed by money changing hands, then denial, threats, and the police. The romance is the lure; the money is the point. That is the thread running through everything below.</p>
         </div>
 
         <!-- The girlfriend / Robert Huang / $1,000 -->
@@ -650,6 +656,26 @@
                     <div class="grid grid-cols-2 gap-3 max-w-lg">
                         <div class="border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/r_biffa_video_receipt_1_blurred.jpg" alt="Receipt — Adam Watson payment to R B BRIFFA (RBK), $1,000, Osko" class="w-full h-auto block" loading="lazy" /><div class="text-[0.42rem] tracking-[0.12em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06]">Payment to R B BRIFFA &middot; &minus;$1,000 &middot; Osko &middot; Rcpt N270861246937</div></div>
                         <div class="border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/r_biffa_video_receipt_2_blurred.jpg" alt="Receipt — Adam Watson payment to R B BRIFFA (RBK), $195, Osko" class="w-full h-auto block" loading="lazy" /><div class="text-[0.42rem] tracking-[0.12em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06]">Payment to R B BRIFFA &middot; &minus;$195 &middot; Osko &middot; Rcpt N270861226986</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reported to eSafety Commissioner -->
+            <div class="border border-hot/25 p-6 mt-8" style="background:rgba(193,68,14,0.05)">
+                <div class="flex items-center gap-2 mb-3">
+                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">Reported — eSafety Commissioner</span>
+                    <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5">Ref CYR-2026-C7G5R0</span>
+                </div>
+                <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">A CHILD, USED AS PROMOTION<br><span class="text-hot">FOR A ROMANCE SCAM. NOW REPORTED.</span></h3>
+                <div class="grid grid-cols-1 sm:grid-cols-[1fr_360px] gap-5 items-start">
+                    <div>
+                        <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">A formal complaint has been lodged with Australia's <strong class="text-paper/65">eSafety Commissioner</strong> about these Instagram accounts — <a href="https://www.instagram.com/rbkofficialfromda26/" target="_blank" rel="noopener" class="text-hot underline">@rbkofficialfromda26</a>, <a href="https://www.instagram.com/skivz/" target="_blank" rel="noopener" class="text-hot underline">@skivz</a> and <a href="https://www.instagram.com/donz_active/" target="_blank" rel="noopener" class="text-hot underline">@donz_active</a> — and about the conduct set out across this section.</p>
+                        <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The heart of the complaint is a child. <strong class="text-paper/65">Skivz promotes his young son through his platform</strong> while placing him in and around content tied to <strong class="text-paper/65">RBK</strong> — conduct that, taken as a whole, has the hallmarks of a <strong class="text-paper/65">romance scam</strong> run against Adam Watson. A child is not a prop for that. Whatever the adults are doing to one another, drawing a minor into it is its own harm — and it is exactly the kind of thing that belongs in front of a regulator.</p>
+                        <p class="text-[0.72rem] leading-relaxed text-paper/50">The report has been acknowledged under reference <strong class="text-paper/65">CYR-2026-C7G5R0</strong>. The confirmation is shown alongside.</p>
+                    </div>
+                    <div class="border border-paper/[0.07]" style="background:#0c0804">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/esafety_confirmation.png" alt="eSafety Commissioner report confirmation — reference CYR-2026-C7G5R0" class="w-full h-auto block" loading="lazy" />
+                        <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-3 py-2 border-t border-paper/[0.06]">eSafety Commissioner · Report confirmation · Ref CYR-2026-C7G5R0</div>
                     </div>
                 </div>
             </div>
