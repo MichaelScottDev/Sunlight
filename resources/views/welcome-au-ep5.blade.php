@@ -501,6 +501,22 @@
             </div>
         </div>
 
+        <!-- How it ends — police and court threats -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">How It Ends — Police &amp; Court</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5">"Now I Have To Leave Wollongong"</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">THE SAME MOVE, EVERY TIME:<br><span class="text-hot">STRAIGHT TO THE POLICE.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Once the record went up, Rhys's response was the one it has always been. He declared that Adam had <em class="text-paper/70">"fucked his life"</em> and that <strong class="text-paper/65">"now I have to leave Wollongong,"</strong> then reached straight for the two levers he pulls whenever a situation stops going his way: <strong class="text-paper/65">the police and the courts</strong>. <em class="text-paper/70">"I'm going to the police."</em> <em class="text-paper/70">"Have fun in court."</em> <em class="text-paper/70">"See what the cops have to say."</em></p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The tell is in the same breath. He threatens the police while <strong class="text-paper/65">conceding he took the money</strong> — his own excuse for not returning it is that Adam <em class="text-paper/70">"didn't have a pay id."</em> Adam's reply cuts to it: <em class="text-paper/70">"Tell him how you took $560 from me for the stuff that you didn't do."</em> Someone genuinely wronged does not have to rehearse which half of the story to show the police. Rhys does.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6">It is the same pattern set out at the top of this section — a hard image broadcast online, and triple-zero on speed dial the instant there is friction. Adam Watson's position has not moved: go to the police, go to court. The record is the record, and it stays up.</p>
+            <div class="grid grid-cols-2 gap-3 max-w-lg">
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/step_kids_at_risk_rbk_1.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/step_kids_at_risk_rbk_1.jpeg" alt="RBK message — 'Now I have to leave Wollongong', threatening police and court" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/police_threat_deflection.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/police_threat_deflection.jpeg" alt="RBK message — threatening to involve police while conceding he took the money" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+            </div>
+        </div>
+
         <!-- Instagram + sponsors -->
         <div class="border border-paper/[0.08] p-6 mb-4 reveal" style="background:rgba(12,8,4,0.4)">
             <div class="flex items-center justify-between mb-4">
@@ -583,6 +599,7 @@
             <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Smear, Taken to Adam's Client</div>
             <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">MYAGI WENT TO 373 CROWN STREET<br><span class="text-hot">TO POISON A BUSINESS RELATIONSHIP.</span></h3>
             <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The smear did not stay online. <strong class="text-paper/65">Myagi went to 373 Crown Street</strong> — the property at the centre of Adam Watson's work — to speak to <strong class="text-paper/65">Robert Huang</strong>, Adam's client, and tell him that Adam is a <strong class="text-paper/65">pedophile who paid RBK for sexual favours</strong>. Both halves of that are false, and both are engineered to do maximum damage: attach the ugliest possible label, and reframe legitimate campaign work as something sordid.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">He did not stop at the smear. In the same conversation, Myagi is reported to have told Robert Huang that he was going to <strong class="text-paper/65">throw Adam Watson out of the building</strong>, and made further <strong class="text-paper/65">threats</strong> — moving from character assassination to open intimidation, and aiming it squarely at the one commercial relationship most central to Adam's work.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">This is where a smear stops being talk and becomes a <strong class="text-paper/65">deliberate attempt to destroy a livelihood</strong>. Walking into a person's business relationship to brand him a pedophile — over a disputed payment for a video — is not a grievance aired. It is a targeted effort to make a client cut ties, using the worst word available as the lever.</p>
             <p class="text-[0.72rem] leading-relaxed text-paper/50">For the record, again: the payment to RBK was for a <strong class="text-paper/65">political campaign video</strong> — the receipts and the policy platform are documented above and in <a href="/episode-2" class="text-gold underline">Episode 2</a>. There were no "sexual favours." The pedophile claim is a fabrication. Carrying a fabrication like that to a person's client is exactly the conduct <strong class="text-paper/65">defamation law exists to answer</strong> — and Adam Watson is pursuing it.</p>
         </div>
