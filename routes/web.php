@@ -25,13 +25,24 @@ Route::get('/episode-4', function () {
 });
 
 Route::get('/episode-5', function () {
-    return view('welcome-au-ep5');
+    if (session('ep5_unlocked')) {
+        return view('welcome-au-ep5');
+    }
+    return view('episode-5-locked');
 });
 
-// Legacy preview permalink — kept as a redirect so any shared link still works,
-// now that Episode 5 is live at /episode-5.
+Route::post('/episode-5/access', function (\Illuminate\Http\Request $request) {
+    if ($request->input('password') === 'f2z9l6sgl2') {
+        session(['ep5_unlocked' => true]);
+        return redirect('/episode-5');
+    }
+    return redirect('/episode-5')->with('ep5_error', true);
+});
+
+// Unlisted preview permalink — serves Episode 5 content directly, bypassing the
+// password gate, so it can be previewed away from the main site.
 Route::get('/preview/ep5-uTVroHn9W-li', function () {
-    return redirect('/episode-5');
+    return view('welcome-au-ep5');
 });
 
 Route::get('/new', function () {
