@@ -578,6 +578,35 @@
             </div>
         </div>
 
+        <!-- The smear, taken to Adam's client -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Smear, Taken to Adam's Client</div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">MYAGI WENT TO 373 CROWN STREET<br><span class="text-hot">TO POISON A BUSINESS RELATIONSHIP.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The smear did not stay online. <strong class="text-paper/65">Myagi went to 373 Crown Street</strong> — the property at the centre of Adam Watson's work — to speak to <strong class="text-paper/65">Robert Huang</strong>, Adam's client, and tell him that Adam is a <strong class="text-paper/65">pedophile who paid RBK for sexual favours</strong>. Both halves of that are false, and both are engineered to do maximum damage: attach the ugliest possible label, and reframe legitimate campaign work as something sordid.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">This is where a smear stops being talk and becomes a <strong class="text-paper/65">deliberate attempt to destroy a livelihood</strong>. Walking into a person's business relationship to brand him a pedophile — over a disputed payment for a video — is not a grievance aired. It is a targeted effort to make a client cut ties, using the worst word available as the lever.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">For the record, again: the payment to RBK was for a <strong class="text-paper/65">political campaign video</strong> — the receipts and the policy platform are documented above and in <a href="/episode-2" class="text-gold underline">Episode 2</a>. There were no "sexual favours." The pedophile claim is a fabrication. Carrying a fabrication like that to a person's client is exactly the conduct <strong class="text-paper/65">defamation law exists to answer</strong> — and Adam Watson is pursuing it.</p>
+        </div>
+
+        <!-- The card — unauthorised use -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">The Card</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5">"You Have To Accept The Verification"</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">HIS CARD, ON THEIR PHONE.<br><span class="text-hot">AND A MACBOOK ON THE WAY OUT.</span></h3>
+            <div class="grid grid-cols-1 sm:grid-cols-[1fr_300px] gap-5 items-start">
+                <div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">While the smears were flying, something quieter was happening with the money. RBK is said to have taken <strong class="text-paper/65">Adam Watson's card details from his phone without permission</strong> and loaded the card onto a device. What follows is a study in how this kind of scam actually runs.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4"><strong class="text-paper/65">RBK's girlfriend</strong> messaged Adam to get the card working: <em class="text-paper/70">"Rhys said to message him so he can do the card thing for you,"</em> <em class="text-paper/70">"you have to accept the verification,"</em> <em class="text-paper/70">"he just put it back on phone needs the code."</em> Then, when Adam did not play along: <em class="text-paper/70">"That's completely fine adam, can I give you a call? ... I would feel more comfortable then you sending a photo"</em> — followed by <em class="text-paper/70">"I'll drive to jbhifi now."</em> A JB Hi-Fi order for a <strong class="text-paper/65">MacBook</strong> was placed.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50">Look at the shape of it. The constant <strong class="text-paper/65">seeking of "verification" and reassurance</strong> — <em class="text-paper/70">is this one ok?</em>, <em class="text-paper/70">you have to accept it</em> — while the person whose card it actually is stays silent, is the signature of a scam that needs the victim's own hand to complete it. A genuine transaction does not require this much coaxing. The chasing <em class="text-paper/70">is</em> the tell.</p>
+                </div>
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/credit_card_verification_cover_up.jpeg" alt="Messages coordinating verification of a card loaded onto a device" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
+                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06]">Coordinating the card "verification" · Adam's card, last 4 digits only</div>
+                </div>
+            </div>
+        </div>
+
         <!-- The tattoo shop — full circle -->
         <div class="border border-gold/25 p-6 mb-4 reveal" style="background:rgba(201,138,16,0.04)">
             <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">The Tattoo Shop — Full Circle</div>
