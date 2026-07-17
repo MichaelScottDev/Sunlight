@@ -304,6 +304,66 @@
 
 
 <!-- ══════════════════════════════════════
+     SECTION — id="pacific-fair" (Policing & public safety)
+══════════════════════════════════════ -->
+<section id="pacific-fair" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(193,68,14,0.05) 0%,transparent 55%)">
+    <div class="max-w-4xl mx-auto">
+        <div class="flex items-center gap-3 mb-3 reveal">
+            <div class="w-5 h-px bg-hot"></div>
+            <span class="text-[0.55rem] tracking-[0.28em] uppercase text-hot">Pacific Fair · 17 July 2026 · Policing &amp; Public Safety</span>
+        </div>
+        <h2 class="font-display leading-[0.9] tracking-wide mb-4 reveal" style="font-size:clamp(2.4rem,6vw,4.5rem)">"HAVE YOU CONSIDERED<br><span class="text-hot">TAKING THE VIDEO DOWN?"</span></h2>
+        <p class="font-serif italic text-paper/45 text-lg leading-relaxed mb-8 reveal max-w-2xl">"I was the one approached. I was recording because I felt unsafe. And the advice from the responding officer was that I should take my video down."</p>
+
+        <!-- What happened -->
+        <div class="story-chapter reveal mb-8" style="border-left-color:rgba(193,68,14,0.4)">
+            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">What Happened</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">On <strong class="text-paper/65">17 July 2026</strong>, at <strong class="text-paper/65">Pacific Fair</strong>, a man who had seen the Episode 1 video approached Kosta Kondratenko. Kosta did not engage him or speak to him. It was not the first time. In an earlier encounter, the same man had been <strong class="text-paper/65">aggressive toward a Pacific Fair security guard</strong> — the guard had asked the man's friend to stop vaping and leave — squaring up and saying <em class="text-paper/70">"do you want to have a crack?"</em> When Kosta called the behaviour out, the response was <em class="text-paper/70">"why are you getting involved?"</em></p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">This time he grew aggressive again. When Kosta <strong class="text-paper/65">took out a camera to record</strong>, the man escalated — more heated, more threatening — which is its own small tell: the people most comfortable throwing their weight around are the ones who least want a lens on it. A second man joined in, calling Kosta a <em class="text-paper/70">"bitch."</em> Kosta recorded the threats made against him and <strong class="text-paper/65">did not raise a hand.</strong> He was the one who had been approached.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">The footage has been provided to <strong class="text-paper/65">Pacific Fair security and management</strong>, who have been contacted about the incident. Where it belongs is with them and with police — not in a public identification hunt.</p>
+        </div>
+
+        <!-- The police comment -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Problem — What the Officer Said</div>
+            <div class="border-l-4 border-hot/60 pl-4 py-3 mb-4" style="background:rgba(193,68,14,0.05)">
+                <p class="text-[0.7rem] text-paper/60 leading-relaxed italic">"Well, maybe — have you considered taking the video down? If someone wants to crack me, I'd put it down."</p>
+                <p class="text-[0.5rem] text-paper/30 mt-2">— Responding QLD Police officer, Pacific Fair, 17 July 2026</p>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Read that back. A person is approached and intimidated in a public place, calls it out, records it for their own safety — and the officer's instinct is to suggest <strong class="text-paper/65">the victim remove lawful content.</strong> The video that supposedly "set this off" had <strong class="text-paper/65">nothing to do with this man.</strong> He was already in conflict with the centre's own security — over his friend and a vape — long before any camera appeared. The idea that a seven-month-old video is the cause, and that taking it down is the fix, gets the responsibility exactly backwards.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">Policing that leans on <em class="text-paper/70">"just take it down"</em> asks the lawful party to shrink so the aggressive one is not inconvenienced. It is the same instinct, in a softer voice, as telling someone they brought it on themselves. Queensland Police can do better than treating a citizen's camera as the problem in the room.</p>
+        </div>
+
+        <!-- Staff safety / banning -->
+        <div class="border border-gold/25 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.04)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">The Real Issue — Staff Safety and a Broken Threshold</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Strip the personalities out and a genuine public-safety problem remains. It was a <strong class="text-paper/65">security guard who was threatened first</strong> — doing his job, asking someone to stop vaping. Centre staff are on the front line of this every day, and the tools they have are thin. Kosta was asked by a guard to <strong class="text-paper/65">leave and come back in 30 minutes</strong>; when he returned to the upstairs area, the man was <strong class="text-paper/65">still there.</strong></p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">When Kosta raised the need for a <strong class="text-paper/65">ban</strong> with another guard, the answer laid the problem bare: the threshold is so high that, in effect, <strong class="text-paper/65">someone has to be assaulted first</strong> — the guard's words were that the person would have to do something bad, like throw a punch, before a ban could be actioned. That protects the aggressor and exposes everyone else. Shopping centres need <strong class="text-paper/65">more security, and clearer power to remove people who threaten staff and patrons</strong> — before the punch, not after it.</p>
+            <p class="text-[0.62rem] leading-relaxed text-paper/40">In fairness, and for completeness: a separate claim circulated that a guard had made a remark about a young patron. Kosta asked the centre for the footage to check it. No footage existed, and the claim could not be substantiated.</p>
+        </div>
+
+        <!-- Episode 1 tie -->
+        <div class="story-chapter reveal mb-8" style="border-left-color:rgba(193,68,14,0.5)">
+            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">Why This Matters — The Pattern from Episode 1</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">This is not the first time a Queensland officer has reached for the same move. In <a href="/" class="text-gold underline">Episode 1</a>, after a <strong class="text-paper/65">6-on-1 assault</strong> connected to Bodie Chalmers, the officer nominally responsible — <strong class="text-paper/65">Aaron Barker</strong>, of the CBI Task Force Latro North — was recorded making comments to the effect that Kosta <em class="text-paper/70">"deserved to get bashed"</em> for making a video. He was stood down. The through-line is unmistakable: when the response to violence is to blame the person who documented it, the culture is protecting the wrong people.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">That culture has to change. The job of police, and of centre security, is to stand with the staff and patrons who are threatened — not to lecture the person holding the camera about what is and is not acceptable to post. A lawful video made seven months ago is not a licence for anyone to start a fight, and it is not the reason one started.</p>
+        </div>
+
+        <!-- Closing -->
+        <div class="border border-paper/[0.08] p-6 reveal" style="background:rgba(12,8,4,0.4)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/35 mb-3">On the Record</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Thank you to the <strong class="text-paper/65">Pacific Fair security guards</strong>, who were understanding throughout — it was one of their own who was threatened first — and to the two young men who <strong class="text-paper/65">sat with Kosta</strong> and were unfailingly polite. Decency was not in short supply on the day; it just was not coming from the people who started it.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Expect a narrative to be spun in which Kosta is the aggressor. He was not. He was approached, he recorded threats made against himself, and he did not raise a hand. Do not take the counter-story at face value.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">And if the man — or his father — wishes to <strong class="text-paper/65">apologise for his behaviour</strong>, the door is open. A letter sent in good faith is welcome via the tip line below.</p>
+            <div class="mt-5">
+                <button onclick="openTipModal()" class="inline-flex items-center gap-2 text-[0.55rem] tracking-[0.2em] uppercase border px-4 py-2 transition-all" style="color:#c98a10;border-color:rgba(201,138,16,0.45);background:transparent;cursor:pointer;font-family:'DM Mono',monospace;" onmouseover="this.style.borderColor='rgba(201,138,16,0.85)';this.style.background='rgba(201,138,16,0.08)'" onmouseout="this.style.borderColor='rgba(201,138,16,0.45)';this.style.background='transparent'">⊕ Submit a Tip / Send a Letter</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
      SECTION — id="tursa"
 ══════════════════════════════════════ -->
 <section id="tursa" class="py-20 px-5 md:px-10 border-t border-paper/[0.05]" style="background:linear-gradient(180deg,rgba(201,138,16,0.04) 0%,transparent 50%)">
