@@ -180,11 +180,11 @@
             <div class="fade-up mb-5" style="animation-delay:0.1s">
                 <div class="flex items-center gap-3 mb-3">
                     <div class="w-5 h-px" style="background:#c98a10"></div>
-                    <span class="text-[0.55rem] tracking-[0.28em] uppercase" style="color:#c98a10">Workforce Australia Investigation</span>
-                    <span class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/22 border border-paper/10 px-2 py-0.5">Murwillumbah NSW</span>
+                    <span class="text-[0.55rem] tracking-[0.28em] uppercase" style="color:#c98a10">Policing &amp; Public Safety</span>
+                    <span class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/22 border border-paper/10 px-2 py-0.5">Pacific Fair · 17 Jul 2026</span>
                 </div>
-                <h1 class="font-display leading-[0.88] tracking-wide" style="font-size:clamp(2.8rem,7vw,5.5rem)">THE COMPLIANCE<br><span style="color:#c98a10">MACHINE.</span></h1>
-                <p class="font-serif italic text-paper/40 mt-3 leading-relaxed max-w-lg" style="font-size:clamp(0.9rem,2vw,1.15rem)">Private employment providers, compliance mechanisms, and the cost of asking questions.</p>
+                <h1 class="font-display leading-[0.88] tracking-wide" style="font-size:clamp(2.8rem,7vw,5.5rem)">HAVE YOU CONSIDERED<br><span style="color:#c98a10">TAKING THE VIDEO DOWN?</span></h1>
+                <p class="font-serif italic text-paper/40 mt-3 leading-relaxed max-w-lg" style="font-size:clamp(0.9rem,2vw,1.15rem)">A citizen is approached and intimidated at a shopping centre, records it for his own safety — and the responding officer's advice is to take the video down. This is that story, and the policing culture behind it.</p>
             </div>
             <div class="fade-up" style="animation-delay:0.25s">
                 <div class="flex items-center gap-3 mb-2"><span class="text-[0.52rem] tracking-[0.2em] uppercase" style="color:rgba(201,138,16,0.6)">▶ Now Playing — Navigate via chapters below</span></div>
@@ -247,7 +247,7 @@
         <div class="lg:border-l border-paper/[0.06] flex flex-col" style="background:rgba(12,8,4,0.6)">
             <div class="px-6 py-6 border-b border-paper/[0.06]">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">This Episode</div>
-                <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Documenting my experience with Tursa Employment & Training in Murwillumbah — a private Workforce Australia provider. In-person application requirements, payment suspension anomalies, and the Managed Service Plan that followed a camera.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">This episode opens at Pacific Fair — an intimidation incident, a questionable police response, and the safety of shopping-centre staff — then continues the Gold Coast investigations, including Tursa Employment & Training, a private Workforce Australia provider, and the Managed Service Plan that followed a camera.</p>
                 <div class="grid grid-cols-3 gap-2 text-center">
                     <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl" style="color:#c98a10">TCF</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Framework</div></div>
                     <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl text-hot">MSP</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Restriction</div></div>
@@ -312,7 +312,7 @@
             <div class="w-5 h-px bg-hot"></div>
             <span class="text-[0.55rem] tracking-[0.28em] uppercase text-hot">Pacific Fair · 17 July 2026 · Policing &amp; Public Safety</span>
         </div>
-        <h2 class="font-display leading-[0.9] tracking-wide mb-4 reveal" style="font-size:clamp(2.4rem,6vw,4.5rem)">"HAVE YOU CONSIDERED<br><span class="text-hot">TAKING THE VIDEO DOWN?"</span></h2>
+        <h2 class="font-display leading-[0.9] tracking-wide mb-4 reveal" style="font-size:clamp(2.4rem,6vw,4.5rem)">APPROACHED. RECORDING.<br><span class="text-hot">AND SOMEHOW THE PROBLEM.</span></h2>
         <p class="font-serif italic text-paper/45 text-lg leading-relaxed mb-8 reveal max-w-2xl">"I was the one approached. I was recording because I felt unsafe. And the advice from the responding officer was that I should take my video down."</p>
 
         <!-- What happened -->
@@ -320,7 +320,19 @@
             <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">What Happened</div>
             <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">On <strong class="text-paper/65">17 July 2026</strong>, at <strong class="text-paper/65">Pacific Fair</strong>, a man who had seen the Episode 1 video approached Kosta Kondratenko. Kosta did not engage him or speak to him. It was not the first time. In an earlier encounter, the same man had been <strong class="text-paper/65">aggressive toward a Pacific Fair security guard</strong> — the guard had asked the man's friend to stop vaping and leave — squaring up and saying <em class="text-paper/70">"do you want to have a crack?"</em> When Kosta called the behaviour out, the response was <em class="text-paper/70">"why are you getting involved?"</em></p>
             <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">This time he grew aggressive again. When Kosta <strong class="text-paper/65">took out a camera to record</strong>, the man escalated — more heated, more threatening — which is its own small tell: the people most comfortable throwing their weight around are the ones who least want a lens on it. A second man joined in, calling Kosta a <em class="text-paper/70">"bitch."</em> Kosta recorded the threats made against him and <strong class="text-paper/65">did not raise a hand.</strong> He was the one who had been approached.</p>
-            <p class="text-[0.72rem] leading-relaxed text-paper/50">The footage has been provided to <strong class="text-paper/65">Pacific Fair security and management</strong>, who have been contacted about the incident. Where it belongs is with them and with police — not in a public identification hunt.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">The footage has been provided to <strong class="text-paper/65">Pacific Fair security and management</strong>, who have been contacted about the incident. Where it belongs is with them and with police — not in a public identification hunt.</p>
+            <!-- PLACEHOLDER: two blurred photos of the individuals. When provided, replace each inner box below with: <img src="[BLURRED PHOTO URL]" alt="Individual involved — face blurred" class="w-full h-auto block" style="object-fit:cover" loading="lazy" /> -->
+            <div class="grid grid-cols-2 gap-3 max-w-md">
+                <div class="border border-paper/[0.1] flex flex-col items-center justify-center text-center" style="background:#0c0804;aspect-ratio:3/4;padding:1rem">
+                    <div class="text-[0.55rem] tracking-[0.16em] uppercase text-paper/30">Blurred photo 1</div>
+                    <div class="text-[0.48rem] text-paper/18 mt-1 tracking-wider">pending upload</div>
+                </div>
+                <div class="border border-paper/[0.1] flex flex-col items-center justify-center text-center" style="background:#0c0804;aspect-ratio:3/4;padding:1rem">
+                    <div class="text-[0.55rem] tracking-[0.16em] uppercase text-paper/30">Blurred photo 2</div>
+                    <div class="text-[0.48rem] text-paper/18 mt-1 tracking-wider">pending upload</div>
+                </div>
+            </div>
+            <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 mt-2 max-w-md">The two individuals involved · faces blurred</div>
         </div>
 
         <!-- The police comment -->
