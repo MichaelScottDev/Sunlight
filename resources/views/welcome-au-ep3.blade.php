@@ -206,36 +206,43 @@
                     <span class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/22">Episode 3 — Chapters</span>
                 </div>
                 <div class="flex flex-wrap gap-0">
+                    <a href="#pacific-fair" onclick="document.getElementById('pacific-fair').scrollIntoView({behavior:'smooth',block:'start'});return false;" class="flex items-center gap-2 px-4 py-3 border-r border-paper/[0.06] transition-all group" style="border:1px solid transparent" onmouseover="this.style.background='rgba(193,68,14,0.08)'" onmouseout="if(!this.style.borderColor||this.style.borderColor==='transparent')this.style.background=''">
+                        <span class="font-display text-[0.62rem] text-hot">01</span>
+                        <div>
+                            <div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Take the Video Down?</div>
+                            <div class="text-[0.47rem] text-paper/22 tracking-wider">Pacific Fair · Police</div>
+                        </div>
+                    </a>
                     <a href="#tursa" data-chap-ep3="0" onclick="seekToChapterEp3(0)" class="flex items-center gap-2 px-4 py-3 border-r border-paper/[0.06] transition-all group" style="border:1px solid transparent" onmouseover="this.style.background='rgba(201,138,16,0.08)'" onmouseout="if(!this.style.borderColor||this.style.borderColor==='transparent')this.style.background=''">
-                        <span class="font-display text-[0.62rem]" style="color:#c98a10">01</span>
+                        <span class="font-display text-[0.62rem]" style="color:#c98a10">02</span>
                         <div>
                             <div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Workforce Australia</div>
                             <div class="text-[0.47rem] text-paper/22 tracking-wider">Tursa · MSP</div>
                         </div>
                     </a>
+                    <a href="#ai-narrative" data-chap-ep3="4" onclick="seekToChapterEp3(4)" class="flex items-center gap-2 px-4 py-3 border-r border-paper/[0.06] transition-all group" style="border:1px solid transparent" onmouseover="this.style.background='rgba(201,138,16,0.08)'" onmouseout="if(!this.style.borderColor||this.style.borderColor==='transparent')this.style.background=''">
+                        <span class="font-display text-[0.62rem]" style="color:#7c6aaa">03</span>
+                        <div>
+                            <div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">AI Narrative</div>
+                            <div class="text-[0.47rem] text-paper/22 tracking-wider">The machine account</div>
+                        </div>
+                    </a>
                     <a href="#lecc" data-chap-ep3="2" onclick="seekToChapterEp3(2)" class="flex items-center gap-2 px-4 py-3 border-r border-paper/[0.06] transition-all group" style="border:1px solid transparent" onmouseover="this.style.background='rgba(201,138,16,0.08)'" onmouseout="if(!this.style.borderColor||this.style.borderColor==='transparent')this.style.background=''">
-                        <span class="font-display text-[0.62rem] text-hot">03</span>
+                        <span class="font-display text-[0.62rem] text-hot">04</span>
                         <div>
                             <div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">LECC Complaint</div>
                             <div class="text-[0.47rem] text-paper/22 tracking-wider">Coogee · SC Agnew</div>
                         </div>
                     </a>
                     <a href="#jadhav" data-chap-ep3="6" onclick="seekToChapterEp3(6)" class="flex items-center gap-2 px-4 py-3 border-r border-paper/[0.06] transition-all group" style="border:1px solid transparent" onmouseover="this.style.background='rgba(201,138,16,0.08)'" onmouseout="if(!this.style.borderColor||this.style.borderColor==='transparent')this.style.background=''">
-                        <span class="font-display text-[0.62rem]" style="color:#c98a10">04</span>
+                        <span class="font-display text-[0.62rem]" style="color:#c98a10">05</span>
                         <div>
                             <div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Locked Out</div>
                             <div class="text-[0.47rem] text-paper/22 tracking-wider">Jadhav · Q8092-26</div>
                         </div>
                     </a>
-                    <a href="#ai-narrative" data-chap-ep3="4" onclick="seekToChapterEp3(4)" class="flex items-center gap-2 px-4 py-3 border-r border-paper/[0.06] transition-all group" style="border:1px solid transparent" onmouseover="this.style.background='rgba(201,138,16,0.08)'" onmouseout="if(!this.style.borderColor||this.style.borderColor==='transparent')this.style.background=''">
-                        <span class="font-display text-[0.62rem]" style="color:#7c6aaa">02</span>
-                        <div>
-                            <div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">AI Narrative</div>
-                            <div class="text-[0.47rem] text-paper/22 tracking-wider">The machine account</div>
-                        </div>
-                    </a>
                     <a href="#martin" data-chap-ep3="7" onclick="seekToChapterEp3(7)" class="flex items-center gap-2 px-4 py-3 transition-all group" style="border:1px solid transparent" onmouseover="this.style.background='rgba(201,138,16,0.08)'" onmouseout="if(!this.style.borderColor||this.style.borderColor==='transparent')this.style.background=''">
-                        <span class="font-display text-[0.62rem]" style="color:#7c6aaa">05</span>
+                        <span class="font-display text-[0.62rem]" style="color:#7c6aaa">06</span>
                         <div>
                             <div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">The Busybody</div>
                             <div class="text-[0.47rem] text-paper/22 tracking-wider">Martin · Broadbeach</div>
@@ -257,36 +264,43 @@
             <div class="px-5 py-4 border-b border-paper/[0.06] flex-1">
                 <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">Episode Chapters</div>
                 <div class="space-y-0.5">
+                    <button onclick="document.getElementById('pacific-fair').scrollIntoView({behavior:'smooth',block:'start'});" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(193,68,14,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
+                        <span class="font-display text-[0.5rem] text-hot">01</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">Have You Considered Taking the Video Down?</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Pacific Fair · Policing &amp; staff safety</div>
+                        </div>
+                    </button>
                     <button data-chap-ep3="0" onclick="seekToChapterEp3(0)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
-                        <span class="font-display text-[0.5rem]" style="color:#c98a10">01</span>
+                        <span class="font-display text-[0.5rem]" style="color:#c98a10">02</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">Workforce Australia</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Tursa Employment &amp; Training · MSP</div>
                         </div>
                     </button>
                     <button data-chap-ep3="4" onclick="seekToChapterEp3(4)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
-                        <span class="font-display text-[0.5rem]" style="color:#7c6aaa">02</span>
+                        <span class="font-display text-[0.5rem]" style="color:#7c6aaa">03</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">The AI Narrative</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Machine account · Pattern recognition</div>
                         </div>
                     </button>
                     <button data-chap-ep3="5" onclick="seekToChapterEp3(5)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
-                        <span class="font-display text-[0.5rem] text-hot">03</span>
+                        <span class="font-display text-[0.5rem] text-hot">04</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">LECC Complaint</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Coogee · SC Agnew · EXT2026-0413</div>
                         </div>
                     </button>
                     <button data-chap-ep3="6" onclick="seekToChapterEp3(6)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
-                        <span class="font-display text-[0.5rem]" style="color:#c98a10">04</span>
+                        <span class="font-display text-[0.5rem]" style="color:#c98a10">05</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">Locked Out &amp; Still Paying</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Jadhav · Q8092-26 · Coastal Property</div>
                         </div>
                     </button>
                     <button data-chap-ep3="7" onclick="seekToChapterEp3(7)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
-                        <span class="font-display text-[0.5rem]" style="color:#7c6aaa">05</span>
+                        <span class="font-display text-[0.5rem]" style="color:#7c6aaa">06</span>
                         <div>
                             <div class="text-[0.58rem] text-paper/55">The Busybody</div>
                             <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Martin · Broadbeach · Serving Our People</div>
