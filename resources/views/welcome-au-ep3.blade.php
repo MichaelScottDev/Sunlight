@@ -191,7 +191,7 @@
                 <media-player
                     id="player-ep3"
                     title="Gold Coast Uncovered — Episode 3: The Compliance Machine"
-                    src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/r+j/rj_confront.mp4"
+                    src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/rj_associate_intimidate.mp4"
                     style="--media-brand:#c98a10;--media-focus-ring-color:rgba(201,138,16,0.45);--media-time-chapters-bg:rgba(201,138,16,0.5);width:100%;border:1px solid rgba(201,138,16,0.2);box-shadow:0 0 80px rgba(201,138,16,0.09)"
                 >
                     <media-provider>
