@@ -385,6 +385,80 @@
             <p class="text-[0.72rem] leading-relaxed text-paper/50">That culture has to change. The job of police, and of centre security, is to stand with the staff and patrons who are threatened — not to lecture the person holding the camera about what is and is not acceptable to post. A lawful video made seven months ago is not a licence for anyone to start a fight, and it is not the reason one started.</p>
         </div>
 
+        <!-- The follow-up — formal notice -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">The Follow-Up — Formal Notice</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5">18 July 2026 · 14 Days to Respond</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">A DUTY-OF-CARE NOTICE —<br><span class="text-hot">SERVED AT THE MOST SENIOR LEVEL.</span></h3>
+            <div class="grid grid-cols-1 sm:grid-cols-[150px_1fr] gap-5 items-start mb-5">
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/adam_watson_portrait.jpg" alt="Adam Watson" class="w-full h-auto block" style="object-fit:cover" loading="lazy" />
+                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06]">Adam Watson · Consultant</div>
+                </div>
+                <div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The day after the incident, <strong class="text-paper/65">Adam Watson</strong> — acting as a consultant assisting Kosta Kondratenko, and in his own right — sent a <strong class="text-paper/65">formal Notice of Intended Proceedings</strong> to the top of Pacific Fair's management, and copied it to state officials. The subject line did not soften it: <em class="text-paper/70">"Formal notice — failure of duty of care, violent incident at Pacific Fair, 17 July 2026 (make sure you notify your insurer)."</em></p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50">The notice sets out the incident, the inadequate response — a single security officer on scene while members of the public stepped in — and the fact that a <strong class="text-paper/65">known aggressor who had already threatened a Pacific Fair guard remains un-excluded.</strong> It frames this squarely as a <strong class="text-paper/65">failure of the centre's own systems</strong>, invoking the sharpened legal scrutiny on centre operators since the <strong class="text-paper/65">Westfield Bondi Junction attack</strong> of April 2024 — and warns the incident could readily have ended in a stabbing or a death.</p>
+                </div>
+            </div>
+
+            <div class="border border-paper/[0.08] p-5 mb-5" style="background:rgba(12,8,4,0.4)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/35 mb-3">What the Notice Demands — Within 14 Days</div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2">
+                    <div class="flex gap-2 items-start"><span class="text-hot text-[0.7rem] shrink-0 mt-0.5 font-display">1</span><p class="text-[0.62rem] text-paper/45 leading-relaxed">Exclude / ban the individual from Pacific Fair</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-[0.7rem] shrink-0 mt-0.5 font-display">2</span><p class="text-[0.62rem] text-paper/45 leading-relaxed">Preserve and provide the CCTV — 17 July and the earlier guard incident</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-[0.7rem] shrink-0 mt-0.5 font-display">3</span><p class="text-[0.62rem] text-paper/45 leading-relaxed">Provide its incident-response and control-room escalation procedures</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-[0.7rem] shrink-0 mt-0.5 font-display">4</span><p class="text-[0.62rem] text-paper/45 leading-relaxed">Confirm the protective steps it will take</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-[0.7rem] shrink-0 mt-0.5 font-display">5</span><p class="text-[0.62rem] text-paper/45 leading-relaxed">Notify its public liability insurer of the potential claim</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-hot text-[0.7rem] shrink-0 mt-0.5 font-display">6</span><p class="text-[0.62rem] text-paper/45 leading-relaxed">Respond in writing within fourteen (14) days</p></div>
+                </div>
+                <p class="text-[0.62rem] text-paper/40 leading-relaxed mt-4">Absent a satisfactory response, the notice flags escalation: notifying the centre's owners — the <strong class="text-paper/55">Australian Core Retail Trust</strong> and its majority investors <strong class="text-paper/55">UniSuper and Cbus Property</strong> — raising the matter with the Queensland Attorney-General and the Commissioner of the QPS, and commencing proceedings in the Federal Circuit Court against the owners and The GPT Group. It also places on record the conduct of a former centre manager tied to the Grason Kira network — <a href="/episode-2" class="text-gold underline">see Episode 2</a>.</p>
+            </div>
+
+            <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/35 mb-3">Who Was Looped In</div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 mb-5">
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/russell_proutt_gpt.jpg" alt="Russell Proutt — CEO, The GPT Group" class="w-full block" style="aspect-ratio:1/1;object-fit:cover;object-position:top" loading="lazy" />
+                    <div class="px-2 py-1.5 border-t border-paper/[0.06]"><div class="text-[0.52rem] text-paper/55 leading-tight">Russell Proutt</div><div class="text-[0.4rem] tracking-[0.1em] uppercase text-paper/25 mt-0.5">CEO &amp; MD · The GPT Group</div></div>
+                </div>
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/shane_beveridge_centre_manager_pacific_fair.jpeg" alt="Shaine Beveridge — Centre General Manager, Pacific Fair" class="w-full block" style="aspect-ratio:1/1;object-fit:cover;object-position:top" loading="lazy" />
+                    <div class="px-2 py-1.5 border-t border-paper/[0.06]"><div class="text-[0.52rem] text-paper/55 leading-tight">Shaine Beveridge</div><div class="text-[0.4rem] tracking-[0.1em] uppercase text-paper/25 mt-0.5">Centre GM · Pacific Fair</div></div>
+                </div>
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/chris_kakoufas.jpg" alt="Chris Kakoufas — Cbus Property" class="w-full block" style="aspect-ratio:1/1;object-fit:cover;object-position:top" loading="lazy" />
+                    <div class="px-2 py-1.5 border-t border-paper/[0.06]"><div class="text-[0.52rem] text-paper/55 leading-tight">Chris Kakoufas</div><div class="text-[0.4rem] tracking-[0.1em] uppercase text-paper/25 mt-0.5">Cbus Property · Owner</div></div>
+                </div>
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/deb_frecklington.webp" alt="Deb Frecklington — Queensland Attorney-General" class="w-full block" style="aspect-ratio:1/1;object-fit:cover;object-position:top" loading="lazy" />
+                    <div class="px-2 py-1.5 border-t border-paper/[0.06]"><div class="text-[0.52rem] text-paper/55 leading-tight">Hon. Deb Frecklington</div><div class="text-[0.4rem] tracking-[0.1em] uppercase text-paper/25 mt-0.5">QLD Attorney-General</div></div>
+                </div>
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/daniel_purdie_police_minister.webp" alt="Daniel Purdie — Queensland Police Minister" class="w-full block" style="aspect-ratio:1/1;object-fit:cover;object-position:top" loading="lazy" />
+                    <div class="px-2 py-1.5 border-t border-paper/[0.06]"><div class="text-[0.52rem] text-paper/55 leading-tight">Daniel Purdie</div><div class="text-[0.4rem] tracking-[0.1em] uppercase text-paper/25 mt-0.5">QLD Police Minister</div></div>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-4 mb-5">
+                <div class="shrink-0 border border-paper/[0.07] p-4 flex items-center justify-center" style="background:#fff;min-height:70px;width:160px">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/gpt_group.svg" alt="The GPT Group" class="w-full max-w-[120px]" style="object-fit:contain" loading="lazy" />
+                </div>
+                <div class="text-[0.5rem] tracking-[0.16em] uppercase text-paper/30 leading-relaxed">The GPT Group · Manager of Pacific Fair<br>Notice addressed to its CEO &amp; Managing Director</div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/adam_watson_email.pdf" target="_blank" rel="noopener" class="border border-paper/[0.07] p-4 flex items-center gap-3 transition-colors" style="background:rgba(12,8,4,0.5)" onmouseover="this.style.background='rgba(193,68,14,0.06)'" onmouseout="this.style.background='rgba(12,8,4,0.5)'">
+                    <div class="shrink-0 w-10 h-12 flex items-center justify-center border border-hot/30 text-[0.45rem] tracking-[0.1em] text-hot" style="background:rgba(193,68,14,0.06)">PDF</div>
+                    <div><div class="text-[0.58rem] text-paper/60">The Email — Adam Watson, 18 July 2026</div><div class="text-[0.46rem] text-paper/30 mt-0.5">Formal notice to GPT / Pacific Fair, cc state officials</div></div>
+                </a>
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/Pacific_Fair_Notice_Adam_Watson.pdf" target="_blank" rel="noopener" class="border border-paper/[0.07] p-4 flex items-center gap-3 transition-colors" style="background:rgba(12,8,4,0.5)" onmouseover="this.style.background='rgba(193,68,14,0.06)'" onmouseout="this.style.background='rgba(12,8,4,0.5)'">
+                    <div class="shrink-0 w-10 h-12 flex items-center justify-center border border-hot/30 text-[0.45rem] tracking-[0.1em] text-hot" style="background:rgba(193,68,14,0.06)">PDF</div>
+                    <div><div class="text-[0.58rem] text-paper/60">The Attached Notice — Notice of Intended Proceedings</div><div class="text-[0.46rem] text-paper/30 mt-0.5">Duty of care · CCTV preservation · 6 actions requested</div></div>
+                </a>
+            </div>
+        </div>
+
         <!-- Closing -->
         <div class="border border-paper/[0.08] p-6 reveal" style="background:rgba(12,8,4,0.4)">
             <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/35 mb-3">On the Record</div>
