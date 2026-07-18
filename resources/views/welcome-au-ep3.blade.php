@@ -338,6 +338,12 @@
         <!-- The police comment -->
         <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
             <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Problem — What the Officer Said</div>
+            <div class="flex items-center gap-3 mb-4">
+                <div class="shrink-0 border border-paper/[0.1] p-2.5 flex items-center justify-center" style="background:#fff;width:120px;min-height:60px">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/qld_police_logo.png" alt="Queensland Police Service" class="w-full max-w-[96px]" style="object-fit:contain" loading="lazy" />
+                </div>
+                <div class="text-[0.5rem] tracking-[0.16em] uppercase text-paper/30 leading-relaxed">Queensland Police Service · The responding officer<br>who wanded Kosta and suggested the video come down</div>
+            </div>
             <div class="border-l-4 border-hot/60 pl-4 py-3 mb-4" style="background:rgba(193,68,14,0.05)">
                 <p class="text-[0.7rem] text-paper/60 leading-relaxed italic">"Well, maybe — have you considered taking the video down? If someone wants to crack me, I'd put it down."</p>
                 <p class="text-[0.5rem] text-paper/30 mt-2">— Responding QLD Police officer, Pacific Fair, 17 July 2026</p>
@@ -349,6 +355,12 @@
         <!-- Staff safety / banning -->
         <div class="border border-gold/25 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.04)">
             <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">The Real Issue — Staff Safety and a Broken Threshold</div>
+            <div class="flex items-center gap-3 mb-4">
+                <div class="shrink-0 border border-paper/[0.1] p-2.5 flex items-center justify-center" style="background:#fff;width:120px;min-height:60px">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pacific_fair_logo.png" alt="Pacific Fair" class="w-full max-w-[96px]" style="object-fit:contain" loading="lazy" />
+                </div>
+                <div class="text-[0.5rem] tracking-[0.16em] uppercase text-paper/30 leading-relaxed">Pacific Fair · The centre with the power to ban —<br>told Kosta to leave 30 minutes; the man was still there</div>
+            </div>
             <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Strip the personalities out and a genuine public-safety problem remains. It was a <strong class="text-paper/65">security guard who was threatened first</strong> — doing his job, asking someone to stop vaping. Centre staff are on the front line of this every day, and the tools they have are thin. Kosta was asked by a guard to <strong class="text-paper/65">leave and come back in 30 minutes</strong>; when he returned to the upstairs area, the man was <strong class="text-paper/65">still there.</strong></p>
             <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">When Kosta raised the need for a <strong class="text-paper/65">ban</strong> with another guard, the answer laid the problem bare: the threshold is so high that, in effect, <strong class="text-paper/65">someone has to be assaulted first</strong> — the guard's words were that the person would have to do something bad, like throw a punch, before a ban could be actioned. That protects the aggressor and exposes everyone else. Shopping centres need <strong class="text-paper/65">more security, and clearer power to remove people who threaten staff and patrons</strong> — before the punch, not after it.</p>
             <p class="text-[0.62rem] leading-relaxed text-paper/40">In fairness, and for completeness: a separate claim circulated that a guard had made a remark about a young patron. Kosta asked the centre for the footage to check it. No footage existed, and the claim could not be substantiated.</p>
