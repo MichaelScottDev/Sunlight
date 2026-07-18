@@ -324,12 +324,10 @@
             <!-- PLACEHOLDER: two blurred photos of the individuals. When provided, replace each inner box below with: <img src="[BLURRED PHOTO URL]" alt="Individual involved — face blurred" class="w-full h-auto block" style="object-fit:cover" loading="lazy" /> -->
             <div class="grid grid-cols-2 gap-3 max-w-md">
                 <div class="border border-paper/[0.1] flex flex-col items-center justify-center text-center" style="background:#0c0804;aspect-ratio:3/4;padding:1rem">
-                    <div class="text-[0.55rem] tracking-[0.16em] uppercase text-paper/30">Blurred photo 1</div>
-                    <div class="text-[0.48rem] text-paper/18 mt-1 tracking-wider">pending upload</div>
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/rj_associate_intimidate_thumbnail.png" alt="Individual involved — face blurred" class="w-full h-auto block" style="object-fit:cover" loading="lazy" />
                 </div>
                 <div class="border border-paper/[0.1] flex flex-col items-center justify-center text-center" style="background:#0c0804;aspect-ratio:3/4;padding:1rem">
-                    <div class="text-[0.55rem] tracking-[0.16em] uppercase text-paper/30">Blurred photo 2</div>
-                    <div class="text-[0.48rem] text-paper/18 mt-1 tracking-wider">pending upload</div>
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/associate_of_associate.png" alt="Individual involved — face blurred" class="w-full h-auto block" style="object-fit:cover" loading="lazy" />
                 </div>
             </div>
             <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 mt-2 max-w-md">The two individuals involved · faces blurred</div>
