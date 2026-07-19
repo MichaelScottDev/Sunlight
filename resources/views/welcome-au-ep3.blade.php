@@ -481,13 +481,13 @@
             <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">On Adam's account, the call carried a further note — that <em class="text-paper/70">"some of the most powerful people in Australia have been calling."</em> <strong class="text-paper/65">Gina Rinehart</strong> is reported to have personally taken an interest, and <strong class="text-paper/65">Kerry Stokes</strong> is being looped into the matter. When people at that altitude are paying attention to a shopping centre's duty of care, the incentive to quietly fix the problem — rather than litigate it — changes entirely.</p>
             <!-- PLACEHOLDER: replace each inner box with <img src="[S3 URL]" alt="..." class="w-full block" style="aspect-ratio:1/1;object-fit:cover;object-position:top" loading="lazy" /> when photos are uploaded. -->
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                <div class="border border-paper/[0.1] flex flex-col items-center justify-center text-center" style="background:#0c0804;aspect-ratio:1/1;padding:0.75rem">
-                    <div class="text-[0.5rem] tracking-[0.12em] uppercase text-paper/35 leading-tight">Gina Rinehart</div>
-                    <div class="text-[0.44rem] text-paper/18 mt-1 tracking-wider">photo pending</div>
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/gina_rinehart.webp" alt="Gina Rinehart" class="w-full block" style="aspect-ratio:1/1;object-fit:cover;object-position:top" loading="lazy" />
+                    <div class="px-2 py-1.5 border-t border-paper/[0.06]"><div class="text-[0.52rem] text-paper/55 leading-tight">Gina Rinehart</div><div class="text-[0.4rem] tracking-[0.1em] uppercase text-paper/25 mt-0.5">Reported · Personal interest</div></div>
                 </div>
-                <div class="border border-paper/[0.1] flex flex-col items-center justify-center text-center" style="background:#0c0804;aspect-ratio:1/1;padding:0.75rem">
-                    <div class="text-[0.5rem] tracking-[0.12em] uppercase text-paper/35 leading-tight">Kerry Stokes</div>
-                    <div class="text-[0.44rem] text-paper/18 mt-1 tracking-wider">photo pending</div>
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/kerry_stokes.webp" alt="Kerry Stokes" class="w-full block" style="aspect-ratio:1/1;object-fit:cover;object-position:top" loading="lazy" />
+                    <div class="px-2 py-1.5 border-t border-paper/[0.06]"><div class="text-[0.52rem] text-paper/55 leading-tight">Kerry Stokes</div><div class="text-[0.4rem] tracking-[0.1em] uppercase text-paper/25 mt-0.5">Being looped in</div></div>
                 </div>
             </div>
         </div>
