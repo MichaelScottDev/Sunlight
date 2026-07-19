@@ -459,6 +459,39 @@
             </div>
         </div>
 
+        <!-- The update — a call from the top -->
+        <div class="border border-gold/25 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.04)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold">The Update — A Call From the Top</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-gold/50 text-gold px-1.5 py-0.5">Full Investigation · Ban Incoming</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">THE CEO OF CBUS PROPERTY<br><span style="color:#c98a10">PICKED UP THE PHONE.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The notice landed where it was aimed. On Adam Watson's account, the <strong class="text-paper/65">CEO of Cbus Property</strong> — one of the centre's major owners — telephoned him directly. The theme of the call kept returning to one thing: a chief executive <strong class="text-paper/65">answers to a board</strong>, and pressure applied at that level travels. As Adam puts it, these are people with <strong class="text-paper/65">large lifestyles</strong> and a great deal to protect.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">On his account, the CEO asked whether Adam intended to <em class="text-paper/70">"ruin his life"</em> by putting pressure on the board. Adam's reply: <em class="text-paper/70">"you'd better ruin somebody else's life."</em> When the CEO remarked that Adam had <em class="text-paper/70">"really slapped this like a salami,"</em> Adam answered: <em class="text-paper/70">"no — it's a cyclone"</em> — his own nickname, and a fair description of how he works.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The concerns Adam says were raised are telling in themselves: that the <strong class="text-paper/65">Attorney-General had been looped in</strong>, and that executives worry about <strong class="text-paper/65">emails like this following them onto their next résumé.</strong> Adam's answer to all of it is the heart of this whole episode: <strong class="text-paper/65">you cannot be bullied like this your entire life.</strong> He has had to sit downstairs because it makes him uncomfortable that the man is <strong class="text-paper/65">still permitted in the centre with no ban.</strong></p>
+            <div class="border-l-4 border-gold/50 pl-4 py-3 mb-4" style="background:rgba(201,138,16,0.05)">
+                <p class="text-[0.7rem] text-paper/60 leading-relaxed">The outcome is movement. Cbus Property is now <strong class="text-paper/70">launching a full investigation</strong>, and — on personal assurances given to Adam Watson — the individual <strong class="text-paper/70">will be banned.</strong> The CEO undertook to come in <strong class="text-paper/70">on a Sunday</strong> to begin it.</p>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">Adam framed the exercise with a nod to <strong class="text-paper/65">Lang Hancock</strong> — <em class="text-paper/70">"this is a Lang Hancock move"</em> — leverage applied at the very top until the system that should have acted, finally acts.</p>
+        </div>
+
+        <!-- Now watching — Gina Rinehart / Kerry Stokes -->
+        <div class="border border-paper/[0.08] p-6 mb-8 reveal" style="background:rgba(12,8,4,0.4)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/40 mb-4">The People Now Watching This</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">On Adam's account, the call carried a further note — that <em class="text-paper/70">"some of the most powerful people in Australia have been calling."</em> <strong class="text-paper/65">Gina Rinehart</strong> is reported to have personally taken an interest, and <strong class="text-paper/65">Kerry Stokes</strong> is being looped into the matter. When people at that altitude are paying attention to a shopping centre's duty of care, the incentive to quietly fix the problem — rather than litigate it — changes entirely.</p>
+            <!-- PLACEHOLDER: replace each inner box with <img src="[S3 URL]" alt="..." class="w-full block" style="aspect-ratio:1/1;object-fit:cover;object-position:top" loading="lazy" /> when photos are uploaded. -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                <div class="border border-paper/[0.1] flex flex-col items-center justify-center text-center" style="background:#0c0804;aspect-ratio:1/1;padding:0.75rem">
+                    <div class="text-[0.5rem] tracking-[0.12em] uppercase text-paper/35 leading-tight">Gina Rinehart</div>
+                    <div class="text-[0.44rem] text-paper/18 mt-1 tracking-wider">photo pending</div>
+                </div>
+                <div class="border border-paper/[0.1] flex flex-col items-center justify-center text-center" style="background:#0c0804;aspect-ratio:1/1;padding:0.75rem">
+                    <div class="text-[0.5rem] tracking-[0.12em] uppercase text-paper/35 leading-tight">Kerry Stokes</div>
+                    <div class="text-[0.44rem] text-paper/18 mt-1 tracking-wider">photo pending</div>
+                </div>
+            </div>
+        </div>
+
         <!-- Closing -->
         <div class="border border-paper/[0.08] p-6 reveal" style="background:rgba(12,8,4,0.4)">
             <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/35 mb-3">On the Record</div>
