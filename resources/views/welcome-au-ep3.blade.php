@@ -509,6 +509,29 @@
             </div>
         </div>
 
+        <!-- The consequence economy — the CEO's Sunday response -->
+        <div class="p-6 mb-8 reveal" style="background:rgba(61,122,74,0.06);border:2px solid rgba(61,122,74,0.4)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase" style="color:#3d7a4a">The Consequence Economy</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border px-1.5 py-0.5" style="color:#3d7a4a;border-color:rgba(61,122,74,0.5)">Replied Sunday · 10:49 AM</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">A CEO WHO ANSWERED<br><span style="color:#3d7a4a">ON A SUNDAY MORNING.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">This is what Sunlight.Quest calls the <strong class="text-paper/65">consequence economy</strong>. The principle is simple: when conduct is documented and placed in front of the right people — publicly, on the record, at the very top — <strong class="text-paper/65">inaction starts to cost more than action.</strong> Silence becomes a liability; a fourteen-day clock and a public page change the maths. Accountability stops being something an institution can quietly wait out.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The proof is in the timestamps. Adam Watson's escalation to <strong class="text-paper/65">Chris Kakoufas — Chief Executive Officer of Cbus Property</strong> — was sent <strong class="text-paper/65">Saturday 18 July, 8:55 PM.</strong> The reply came back <strong class="text-paper/65">Sunday 19 July, 10:49 AM.</strong> The chief executive of a multi-billion-dollar property group, on a weekend, personally acknowledging the matter, confirming the company was gathering the facts and engaging the centre management team, and undertaking to consider next steps. Executives at that altitude do not answer a member of the public's weekend email unless the matter is being taken very seriously.</p>
+            <div class="border-l-4 pl-4 py-3 mb-5" style="border-color:rgba(61,122,74,0.6);background:rgba(61,122,74,0.05)">
+                <p class="text-[0.7rem] text-paper/60 leading-relaxed italic">"I appreciate the seriousness of the matters you have outlined... We are currently working to gather further information on the circumstances surrounding the incident... engaging with the relevant parties, including the centre management team. Once we have a clearer understanding of the facts, we will consider the appropriate next steps."</p>
+                <p class="text-[0.5rem] text-paper/30 mt-2">— Chris Kakoufas, CEO, Cbus Property · Sunday 19 July 2026, 10:49 AM</p>
+            </div>
+            <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/35 mb-3">The Response — Read It Here (Redacted)</div>
+            <div class="border border-paper/[0.08]" style="background:#0c0804">
+                <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/Chris_Kakoufas_Response_REDACTED.pdf" width="100%" height="620" style="border:0;display:block" title="Chris Kakoufas — response, 19 July 2026 (redacted)" loading="lazy"></iframe>
+            </div>
+            <div class="flex items-center justify-between flex-wrap gap-2 mt-2">
+                <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25">Cbus Property CEO response · Sunday 19 July 2026 · Personal details redacted</div>
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/Chris_Kakoufas_Response_REDACTED.pdf" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase px-2 py-0.5 border" style="color:#3d7a4a;border-color:rgba(61,122,74,0.4)">Open the full response (PDF) ↗</a>
+            </div>
+        </div>
+
         <!-- Closing -->
         <div class="border border-paper/[0.08] p-6 reveal" style="background:rgba(12,8,4,0.4)">
             <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/35 mb-3">On the Record</div>
