@@ -447,16 +447,33 @@
                 <div class="text-[0.5rem] tracking-[0.16em] uppercase text-paper/30 leading-relaxed">The GPT Group · Manager of Pacific Fair<br>Notice addressed to its CEO &amp; Managing Director</div>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <!-- Embedded report (redacted) -->
+            <div class="mb-5">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/35 mb-3">The Notice — Read It Here (Redacted)</div>
+                <div class="border border-paper/[0.08]" style="background:#0c0804">
+                    <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/Pacific_Fair_Notice_Adam_Watson_REDACTED+(1).pdf" width="100%" height="720" style="border:0;display:block" title="Pacific Fair — Notice of Intended Proceedings (redacted)" loading="lazy"></iframe>
+                </div>
+                <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 mt-2">Notice of Intended Proceedings · Personal details redacted</div>
+            </div>
+
+            <!-- Documents -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
                 <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/adam_watson_email.pdf" target="_blank" rel="noopener" class="border border-paper/[0.07] p-4 flex items-center gap-3 transition-colors" style="background:rgba(12,8,4,0.5)" onmouseover="this.style.background='rgba(193,68,14,0.06)'" onmouseout="this.style.background='rgba(12,8,4,0.5)'">
                     <div class="shrink-0 w-10 h-12 flex items-center justify-center border border-hot/30 text-[0.45rem] tracking-[0.1em] text-hot" style="background:rgba(193,68,14,0.06)">PDF</div>
-                    <div><div class="text-[0.58rem] text-paper/60">The Email — Adam Watson, 18 July 2026</div><div class="text-[0.46rem] text-paper/30 mt-0.5">Formal notice to GPT / Pacific Fair, cc state officials</div></div>
+                    <div><div class="text-[0.58rem] text-paper/60">The Cover Email — to GPT (Russell Proutt)</div><div class="text-[0.46rem] text-paper/30 mt-0.5">18 July · cc Pacific Fair, Cbus &amp; state officials</div></div>
                 </a>
-                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/Pacific_Fair_Notice_Adam_Watson.pdf" target="_blank" rel="noopener" class="border border-paper/[0.07] p-4 flex items-center gap-3 transition-colors" style="background:rgba(12,8,4,0.5)" onmouseover="this.style.background='rgba(193,68,14,0.06)'" onmouseout="this.style.background='rgba(12,8,4,0.5)'">
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/Pacific_Fair_Notice_Adam_Watson_REDACTED+(1).pdf" target="_blank" rel="noopener" class="border border-paper/[0.07] p-4 flex items-center gap-3 transition-colors" style="background:rgba(12,8,4,0.5)" onmouseover="this.style.background='rgba(193,68,14,0.06)'" onmouseout="this.style.background='rgba(12,8,4,0.5)'">
                     <div class="shrink-0 w-10 h-12 flex items-center justify-center border border-hot/30 text-[0.45rem] tracking-[0.1em] text-hot" style="background:rgba(193,68,14,0.06)">PDF</div>
-                    <div><div class="text-[0.58rem] text-paper/60">The Attached Notice — Notice of Intended Proceedings</div><div class="text-[0.46rem] text-paper/30 mt-0.5">Duty of care · CCTV preservation · 6 actions requested</div></div>
+                    <div><div class="text-[0.58rem] text-paper/60">The Notice (Redacted) — Intended Proceedings</div><div class="text-[0.46rem] text-paper/30 mt-0.5">Duty of care · CCTV preservation · 6 actions requested</div></div>
+                </a>
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rj/chris_kakoufas_personal_email.pdf" target="_blank" rel="noopener" class="border border-paper/[0.07] p-4 flex items-center gap-3 transition-colors" style="background:rgba(12,8,4,0.5)" onmouseover="this.style.background='rgba(193,68,14,0.06)'" onmouseout="this.style.background='rgba(12,8,4,0.5)'">
+                    <div class="shrink-0 w-10 h-12 flex items-center justify-center border border-hot/30 text-[0.45rem] tracking-[0.1em] text-hot" style="background:rgba(193,68,14,0.06)">PDF</div>
+                    <div><div class="text-[0.58rem] text-paper/60">The Escalation — to Chris Kakoufas (Cbus)</div><div class="text-[0.46rem] text-paper/30 mt-0.5">Building owner put on notice · class action flagged</div></div>
                 </a>
             </div>
+
+            <!-- AI acknowledgment -->
+            <p class="text-[0.58rem] leading-relaxed text-paper/35 italic mt-4">These documents were prepared with the assistance of AI — levelling the field so that one private citizen could hold a multi-billion-dollar operator to the same standard of care it owes the public. Our thanks to the technology that made that possible.</p>
         </div>
 
         <!-- The update — a call from the top -->
