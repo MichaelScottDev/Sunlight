@@ -532,6 +532,42 @@
             </div>
         </div>
 
+        <!-- The consequences land — Russell Proutt / GPT update -->
+        <div class="border border-gold/30 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold">The Consequences Land — GPT's Update</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-gold/50 text-gold px-1.5 py-0.5">Russell Proutt · Follow-up Call</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">FROM A NOTICE<br><span style="color:#c98a10">TO REAL ACTION.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">On Adam Watson's account, <strong class="text-paper/65">Russell Proutt of The GPT Group</strong> called with an update — the consequence economy working exactly as intended. The individual had, in the meantime, <strong class="text-paper/65">spotted Adam and Kosta again</strong>, made comments, and drew others over to make enquiries — intimidation, with his group in tow. Rather than let it slide, the machinery moved.</p>
+            <div class="space-y-3">
+                <div class="border-l-4 border-gold/50 pl-4 py-2" style="background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-gold mb-1">Facial Recognition · Three-Year Exclusion</div>
+                    <p class="text-[0.66rem] text-paper/50 leading-relaxed">GPT used <strong class="text-paper/65">facial recognition</strong> to identify the individuals; the material was <strong class="text-paper/65">provided to Queensland Police</strong>, and a <strong class="text-paper/65">three-year exclusion notice</strong> will be served on them.</p>
+                </div>
+                <div class="border-l-4 border-gold/50 pl-4 py-2" style="background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-gold mb-1">The Management Company — Terminated</div>
+                    <p class="text-[0.66rem] text-paper/50 leading-relaxed">The centre-management company sub-contracted by GPT to run Pacific Fair has had its <strong class="text-paper/65">contract terminated</strong>. A specialist <strong class="text-paper/65">crowd-control company</strong> is being brought in — with <strong class="text-paper/65">golf buggies for rapid response</strong> across the centre.</p>
+                </div>
+                <div class="border-l-4 border-gold/50 pl-4 py-2" style="background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-gold mb-1">Bondi, Insurance &amp; QBE</div>
+                    <p class="text-[0.66rem] text-paper/50 leading-relaxed">Proutt is taking the <strong class="text-paper/65">Bondi Junction duty-of-care and insurance exposure very seriously</strong> — GPT's insurer, <strong class="text-paper/65">QBE</strong>, will be watching the centre's response closely.</p>
+                </div>
+                <div class="border-l-4 border-gold/50 pl-4 py-2" style="background:rgba(201,138,16,0.04)">
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-gold mb-1">More Powers for Security</div>
+                    <p class="text-[0.66rem] text-paper/50 leading-relaxed">On Adam's account, Proutt is pushing for <strong class="text-paper/65">stronger powers for centre security</strong> — the ability to <strong class="text-paper/65">restrain a person until police arrive</strong>, and, more controversially, for guards to be <strong class="text-paper/65">armed</strong>. These are his stated positions and they will provoke debate — but they signal how seriously the centre now takes the gap this incident exposed.</p>
+                </div>
+                <div class="border-l-4 border-hot/50 pl-4 py-2" style="background:rgba(193,68,14,0.05)">
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase text-hot mb-1">The Bans Widen</div>
+                    <p class="text-[0.66rem] text-paper/50 leading-relaxed">The exclusion will not stop at Pacific Fair. <strong class="text-paper/65">Gina Rinehart is reported to be moving to have both individuals banned from Australia Fair, Southport</strong>, and enquiries are being made to have them <strong class="text-paper/65">banned from Robina</strong> as well.</p>
+                </div>
+                <div class="border-l-4 pl-4 py-2" style="border-color:rgba(61,122,74,0.6);background:rgba(61,122,74,0.05)">
+                    <div class="text-[0.46rem] tracking-[0.18em] uppercase mb-1" style="color:#3d7a4a">A Commendation</div>
+                    <p class="text-[0.66rem] text-paper/50 leading-relaxed">And the note that says the most: Adam Watson received a <strong class="text-paper/65">commendation from the Attorney-General, the Hon. Deb Frecklington</strong> — something Proutt was reported to be genuinely impressed by.</p>
+                </div>
+            </div>
+        </div>
+
         <!-- Closing -->
         <div class="border border-paper/[0.08] p-6 reveal" style="background:rgba(12,8,4,0.4)">
             <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/35 mb-3">On the Record</div>
