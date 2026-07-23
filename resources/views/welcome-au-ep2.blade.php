@@ -5726,6 +5726,27 @@
                 </div>
             </div>
 
+            <!-- Court-record items: insolvency + further judgments -->
+            <div class="border border-hot/25 p-5 mb-6" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">On the Court Record — Insolvency &amp; Further Judgments</div>
+                <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The $50 million judgement is not the whole of it. The public court record shows finances that have come apart across multiple jurisdictions — a man who is, on that record, <strong class="text-paper/65">trading insolvent.</strong></p>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">Sequestration Order</div>
+                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">A sequestration order in the <strong class="text-paper/65">Federal Court of Australia, Tasmania</strong> — <strong class="text-paper/65">TAD6/2026</strong> — the formal step into bankruptcy.</p>
+                    </div>
+                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">$4M Judgment — GCAP</div>
+                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">A <strong class="text-paper/65">$4 million judgment from GCAP Pty Ltd</strong>, against Robert Huang personally and against his company <strong class="text-paper/65">PSR Crown Investments Pty Ltd.</strong></p>
+                    </div>
+                    <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                        <div class="text-[0.43rem] tracking-[0.14em] uppercase text-hot/60 mb-1">$3.9M Judgment — QLD</div>
+                        <p class="text-[0.6rem] text-paper/50 leading-relaxed">A further <strong class="text-paper/65">$3.9 million judgment</strong> from GCap Pty Ltd in Queensland — <strong class="text-paper/65">CA 5739/25.</strong></p>
+                    </div>
+                </div>
+                <p class="text-[0.62rem] text-paper/40 leading-relaxed mt-4">The judgments and the sequestration order are matters of public record in the courts named above — the formal machinery of insolvency now moving against a man who, not long ago, was the registered owner of a $450 million project.</p>
+            </div>
+
             <!-- Consequence breakdown -->
             <div class="border border-hot/25 p-5 mb-6" style="background:rgba(193,68,14,0.05)">
                 <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-4">The Consequence — What Going Behind Adam Watson's Back Has Cost</div>
