@@ -34,6 +34,23 @@ Route::get('/preview/ep5-uTVroHn9W-li', function () {
     return redirect('/episode-5');
 });
 
+// Confidential, password-gated incident report for Queensland Police.
+// Not linked anywhere, noindex, off the public site. Unguessable slug.
+Route::get('/report/cLEd3aUOklc', function () {
+    if (session('incident_unlocked')) {
+        return view('incident-report');
+    }
+    return view('incident-locked');
+});
+
+Route::post('/report/cLEd3aUOklc/access', function (\Illuminate\Http\Request $request) {
+    if ($request->input('password') === '5dbe93cc') {
+        session(['incident_unlocked' => true]);
+        return redirect('/report/cLEd3aUOklc');
+    }
+    return redirect('/report/cLEd3aUOklc')->with('incident_error', true);
+});
+
 Route::get('/new', function () {
     return view('new');
 });
