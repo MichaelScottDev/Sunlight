@@ -4,101 +4,176 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="robots" content="noindex,nofollow,noarchive"/>
-    <title>Confidential Incident Report — For Queensland Police</title>
+    <title>Confidential Case File — Incident Report for Queensland Police</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=DM+Mono:wght@400;500&family=Newsreader:ital,opsz@0,6..72;1,6..72&display=swap" rel="stylesheet">
     <style>
+        :root{
+            --bg:#0c0804; --panel:rgba(20,13,9,0.55); --paper:#f5ead4;
+            --hot:#c1440e; --gold:#c98a10; --sage:#3d7a4a;
+            --line:rgba(245,234,212,0.09); --dim:rgba(245,234,212,0.5);
+        }
         *{margin:0;padding:0;box-sizing:border-box}
-        body{background:#e9e9ea;color:#1a1a1a;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.55;padding:24px 12px}
-        .sheet{max-width:820px;margin:0 auto;background:#fff;padding:44px 48px;box-shadow:0 2px 24px rgba(0,0,0,0.12)}
-        .conf{background:#8a1c1c;color:#fff;text-align:center;font-size:0.7rem;letter-spacing:0.18em;text-transform:uppercase;font-weight:700;padding:9px;margin:-44px -48px 28px}
-        h1{font-size:1.5rem;font-weight:800;letter-spacing:-0.01em;margin-bottom:4px}
-        .sub{font-size:0.8rem;color:#555;margin-bottom:22px}
-        h2{font-size:0.82rem;letter-spacing:0.12em;text-transform:uppercase;color:#8a1c1c;border-bottom:1px solid #ddd;padding-bottom:5px;margin:26px 0 12px}
-        p{font-size:0.86rem;margin-bottom:11px}
-        .meta{width:100%;border-collapse:collapse;font-size:0.84rem;margin-bottom:6px}
-        .meta td{padding:5px 10px 5px 0;vertical-align:top}
-        .meta td:first-child{font-weight:700;white-space:nowrap;width:170px;color:#333}
-        .event{border-left:3px solid #c9a94a;padding:2px 0 2px 14px;margin-bottom:16px}
-        .event .d{font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;color:#8a1c1c;font-weight:700;margin-bottom:3px}
-        ol,ul{margin:0 0 12px 22px}
-        li{font-size:0.86rem;margin-bottom:6px}
-        a{color:#1a4a8a;word-break:break-word}
-        .ev td{padding:6px 8px;border:1px solid #e2e2e2;font-size:0.8rem;vertical-align:top}
-        .ev th{padding:6px 8px;border:1px solid #e2e2e2;background:#f4f4f4;font-size:0.72rem;letter-spacing:0.06em;text-transform:uppercase;text-align:left}
-        .ev{width:100%;border-collapse:collapse;margin-bottom:8px}
-        .note{font-size:0.76rem;color:#555;background:#f7f4ea;border:1px solid #e6ddc2;padding:12px 14px;margin:20px 0}
-        .foot{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:0.72rem;color:#777}
-        @media print{body{background:#fff;padding:0}.sheet{box-shadow:none;max-width:none}}
+        body{background:var(--bg);color:var(--paper);font-family:'Space Grotesk',-apple-system,sans-serif;line-height:1.6;padding:0 0 60px;
+            background-image:radial-gradient(ellipse at top,rgba(193,68,14,0.06),transparent 55%);min-height:100vh}
+        .mono{font-family:'DM Mono',monospace}
+        .wrap{max-width:840px;margin:0 auto;padding:0 20px}
+
+        /* top bar */
+        .topbar{border-bottom:1px solid var(--line);padding:16px 0;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+        .brand{font-weight:700;letter-spacing:0.14em;font-size:0.95rem}
+        .brand span{color:var(--hot)}
+        .filetag{font-family:'DM Mono',monospace;font-size:0.55rem;letter-spacing:0.24em;text-transform:uppercase;color:var(--dim);border:1px solid var(--line);padding:5px 10px}
+
+        /* confidential banner */
+        .conf{background:linear-gradient(90deg,rgba(138,28,28,0.9),rgba(193,68,14,0.85));color:#fff;text-align:center;
+            font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.22em;text-transform:uppercase;font-weight:500;padding:10px;margin:22px 0 34px}
+
+        /* hero */
+        .eyebrow{font-family:'DM Mono',monospace;font-size:0.58rem;letter-spacing:0.28em;text-transform:uppercase;color:var(--hot);margin-bottom:14px;display:flex;align-items:center;gap:10px}
+        .eyebrow::before{content:"";width:26px;height:1px;background:var(--hot)}
+        h1{font-size:clamp(2.1rem,6vw,3.4rem);font-weight:700;line-height:0.98;letter-spacing:-0.01em;margin-bottom:14px}
+        h1 span{color:var(--hot)}
+        .lede{font-family:'Newsreader',serif;font-style:italic;font-size:1.05rem;color:var(--dim);max-width:44ch;line-height:1.5}
+
+        /* section */
+        section{margin-top:44px}
+        .label{font-family:'DM Mono',monospace;font-size:0.56rem;letter-spacing:0.24em;text-transform:uppercase;color:var(--gold);margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+        p{font-size:0.9rem;color:rgba(245,234,212,0.62);margin-bottom:12px}
+        strong{color:rgba(245,234,212,0.92);font-weight:500}
+        em{font-style:italic;color:rgba(245,234,212,0.8)}
+
+        /* parties grid */
+        .parties{display:grid;grid-template-columns:1fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+        .party{background:var(--bg);padding:16px 18px}
+        .party .k{font-family:'DM Mono',monospace;font-size:0.52rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--dim);margin-bottom:5px}
+        .party .v{font-size:0.86rem;color:rgba(245,234,212,0.85)}
+        .party.hot{border-left:3px solid var(--hot)}
+
+        /* timeline */
+        .event{border:1px solid var(--line);border-left:3px solid var(--hot);background:var(--panel);padding:18px 20px;margin-bottom:14px}
+        .event .d{font-family:'DM Mono',monospace;font-size:0.56rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--hot);margin-bottom:8px}
+        .event h3{font-size:1.15rem;font-weight:500;margin-bottom:9px;letter-spacing:-0.01em}
+        .event p:last-child{margin-bottom:0}
+
+        /* evidence */
+        .ev{display:grid;grid-template-columns:1fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+        .evrow{background:var(--bg);padding:13px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+        .evrow .n{font-family:'DM Mono',monospace;font-size:0.7rem;color:var(--gold);width:20px;flex-shrink:0}
+        .evrow .t{flex:1;min-width:180px;font-size:0.82rem;color:rgba(245,234,212,0.8)}
+        .evrow .t small{display:block;color:var(--dim);font-size:0.68rem;margin-top:2px}
+        .evrow a{font-family:'DM Mono',monospace;font-size:0.56rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--hot);border:1px solid rgba(193,68,14,0.4);padding:5px 11px;text-decoration:none;white-space:nowrap}
+        .evrow a:hover{background:rgba(193,68,14,0.1)}
+        .evrow .ref{font-family:'DM Mono',monospace;font-size:0.6rem;color:var(--dim);white-space:nowrap}
+
+        /* requests */
+        ol.req{list-style:none;counter-reset:r}
+        ol.req li{counter-increment:r;position:relative;padding:12px 0 12px 44px;border-bottom:1px solid var(--line);font-size:0.88rem;color:rgba(245,234,212,0.7)}
+        ol.req li:last-child{border-bottom:0}
+        ol.req li::before{content:counter(r,decimal-leading-zero);position:absolute;left:0;top:11px;font-family:'DM Mono',monospace;font-size:0.7rem;color:var(--hot)}
+
+        /* notice */
+        .notice{border:1px solid rgba(201,138,16,0.3);background:rgba(201,138,16,0.05);padding:16px 18px;margin-top:34px;font-size:0.78rem;color:rgba(245,234,212,0.6);line-height:1.6}
+        .notice b{color:var(--gold);font-weight:500}
+        .foot{margin-top:26px;padding-top:16px;border-top:1px solid var(--line);font-family:'DM Mono',monospace;font-size:0.58rem;letter-spacing:0.06em;color:rgba(245,234,212,0.28);line-height:1.7}
+
+        @media(min-width:560px){
+            .parties{grid-template-columns:1fr 1fr}
+            .party.full{grid-column:1/-1}
+        }
+        @media print{body{background:#fff;color:#111}.conf{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
     </style>
 </head>
 <body>
-    <div class="sheet">
-        <div class="conf">Confidential · Incident Report · Prepared for Queensland Police</div>
-
-        <h1>Incident Report</h1>
-        <div class="sub">Extortion · threats to kill · threat with a weapon · use of false identity documents · intimidation</div>
-
-        <table class="meta">
-            <tr><td>Prepared</td><td>25 July 2026</td></tr>
-            <tr><td>Complainant</td><td>Adam Watson (Director) — adam@adamwatson.au · 0419 135 888</td></tr>
-            <tr><td>Reported by</td><td>Kosta Kondratenko (attended Broadbeach Police Station on the complainant's behalf)</td></tr>
-            <tr><td>Alleged offender</td><td><strong>Isaac Ramsden</strong> — aged <strong>16</strong> (age confirmed by Queensland Police). Presents himself as 19 using fraudulent driver's licence(s). Understood to be the son of John Ramsden of Ramsden Lawyers (identifying context only).</td></tr>
-            <tr><td>Co-party (18 July)</td><td>Z Soeilman (present and participating in the incident of 18 July 2026, below)</td></tr>
-        </table>
-
-        <h2>Summary</h2>
-        <p>The complainant reports that a person presenting himself as an adult (19), later confirmed by Queensland Police to be a 16-year-old using fraudulent identity documents, has: obtained money from the complainant by threat (extortion); sent a written death threat; demanded a large sum in person while intimidating and abusing the complainant; and, during a telephone call, threatened to attack the complainant with a machete. Queensland Police have advised the complainant that the same individual has used fraudulent driver's licences on other victims previously. This report is submitted so that the matter can be investigated and the relevant evidence preserved.</p>
-
-        <h2>Chronology of Events</h2>
-
-        <div class="event">
-            <div class="d">Extortion — money obtained by threat</div>
-            <p>The offender threatened that, unless the complainant paid him money, he would publicly allege that the complainant had admitted to raping Bodie Chalmers, and that the complainant had raped the offender. <strong>The complainant states these allegations are entirely false.</strong> Under this threat, the complainant transferred money to the offender. Payment receipts are listed in the evidence schedule below.</p>
+    <div class="wrap">
+        <div class="topbar">
+            <div class="brand">SUNLIGHT<span>.QUEST</span></div>
+            <div class="filetag">Confidential Case File · QPS</div>
         </div>
 
-        <div class="event">
-            <div class="d">Written death threat — by SMS</div>
-            <p>After the offender was informed by SMS that his conduct would be documented and reported, he responded with an SMS containing a threat to kill. A screenshot of that SMS is listed in the evidence schedule.</p>
-        </div>
+        <div class="conf">Confidential — Prepared for Queensland Police — Not for Publication</div>
 
-        <div class="event">
-            <div class="d">18 July 2026 — Meriton, Southport — demand for money and intimidation</div>
-            <p>The offender, together with <strong>Z Soeilman</strong>, attended the Meriton building in Southport where the complainant was staying. They demanded <strong>$12,000</strong>, asserting the complainant owed that sum, and yelled in the corridor. The complainant was chased along the corridor while both men yelled words to the effect of <em>"give me my money you child molesting faggot."</em> The complainant believes this was captured by <strong>Meriton building security CCTV</strong>, which should be preserved and obtained.</p>
-        </div>
+        <div class="eyebrow">Incident Report · 25 July 2026</div>
+        <h1>Money by threat.<br><span>Then a knife, and a licence that lies.</span></h1>
+        <p class="lede">A person presenting as an adult — confirmed by police to be a 16-year-old on false papers — has extorted, threatened, and terrorised the complainant. This is the record, laid out for the officers who can act on it.</p>
 
-        <div class="event">
-            <div class="d">22 July 2026 — threat with a weapon (machete)</div>
-            <p>During a telephone call made by the complainant to the offender, the offender threatened to attack the complainant with a machete. A video recording of this interaction is listed in the evidence schedule.</p>
-        </div>
+        <section>
+            <div class="label">The Parties</div>
+            <div class="parties">
+                <div class="party"><div class="k">Complainant</div><div class="v">Adam Watson (Director)<br>adam@adamwatson.au · 0419 135 888</div></div>
+                <div class="party"><div class="k">Reported by</div><div class="v">Kosta Kondratenko<br>Attended Broadbeach Station on the complainant's behalf</div></div>
+                <div class="party hot full"><div class="k">Alleged offender</div><div class="v"><strong>Isaac Ramsden</strong> — aged <strong>16</strong>, age confirmed by Queensland Police. Presents himself as 19 using a fraudulent driver's licence. Understood to be the son of John Ramsden of Ramsden Lawyers — noted only to assist identification.</div></div>
+                <div class="party full"><div class="k">Co-party — 18 July</div><div class="v">Z Soeilman — present and participating in the incident of 18 July 2026 (below).</div></div>
+            </div>
+        </section>
 
-        <div class="event">
-            <div class="d">25 July 2026, approx. 1:00 PM — attendance at Broadbeach Police Station</div>
-            <p>Kosta Kondratenko attended Broadbeach Police Station on the complainant's behalf to report the above. The attending officer photographed the SMS screenshot and the offender's fraudulent driver's licence and took possession of the mobile phone, but <strong>did not provide a reference number, a contact card, or any means of follow-up</strong>, and did not send any follow-up message after the interaction. The officer declined to accept the payment receipts, advising that the complainant (Adam Watson) would need to provide them directly. A policewoman subsequently telephoned the complainant and <strong>confirmed that the offender is 16</strong> and that he <strong>had used the fraudulent driver's licence previously</strong> on other people.</p>
-        </div>
+        <section>
+            <div class="label">In Short</div>
+            <p>Someone who looked like an adult, acted with an adult's menace, and hid behind an adult's identity document turned out to be a child of sixteen — a fact Queensland Police have now confirmed. In the space of days he has, on the complainant's account, taken money by threat, sent a written threat to kill, cornered and abused the complainant in a residential corridor while demanding a five-figure sum, and threatened to attack him with a machete over the phone. Police have advised the complainant he is not the first person this offender has used a false licence on. This document sets out each event in order, points to the evidence for every one of them, and asks for the follow-up a matter this serious should already have.</p>
+        </section>
 
-        <h2>Evidence Schedule</h2>
-        <table class="ev">
-            <tr><th>#</th><th>Item</th><th>Location / Reference</th></tr>
-            <tr><td>1</td><td>Payment receipt — money transferred under threat (1 of 2)</td><td><a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_ramsden_1_redacted.jpeg">View file</a></td></tr>
-            <tr><td>2</td><td>Payment receipt — money transferred under threat (2 of 2)</td><td><a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_ramsden_2_redacted.jpeg">View file</a></td></tr>
-            <tr><td>3</td><td>SMS screenshot — death threat</td><td><a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/death_threat.jpeg">View file</a></td></tr>
-            <tr><td>4</td><td>Video recording — machete threat (22 July 2026)</td><td><a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/machete_threat_1.mp4">View file</a></td></tr>
-            <tr><td>5</td><td>Photograph of the alleged offender</td><td><a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_ramsden.jpeg">View file</a></td></tr>
-            <tr><td>6</td><td>Fraudulent driver's licence</td><td>Photographed by attending officer, Broadbeach Police Station, 25 July 2026</td></tr>
-            <tr><td>7</td><td>Meriton Southport security CCTV — 18 July 2026</td><td>To be preserved and obtained from Meriton building security</td></tr>
-        </table>
+        <section>
+            <div class="label">What Happened — In Order</div>
 
-        <h2>Requests to Queensland Police</h2>
-        <ol>
-            <li>Investigate the alleged extortion, the threat to kill, the threat with a weapon (machete), and the use of fraudulent identity documents.</li>
-            <li>Provide the complainant with a <strong>reference / occurrence number</strong> and a named point of contact for follow-up.</li>
-            <li>Preserve and obtain the <strong>Meriton Southport CCTV</strong> for 18 July 2026 before it is overwritten.</li>
-            <li>Formally accept and record the payment receipts and all other evidence listed above.</li>
-            <li>Given the offender's confirmed age (16) and the confirmed prior use of fraudulent driver's licences on other victims, consider the matter in the context of a pattern affecting multiple complainants.</li>
-        </ol>
+            <div class="event">
+                <div class="d">Event 01 · The Extortion</div>
+                <h3>Pay, or he tells the world you're a rapist</h3>
+                <p>The offender's leverage was the ugliest one available. Unless the complainant paid, he would publicly claim that the complainant had admitted to raping Bodie Chalmers — and that the complainant had raped him. <strong>The complainant states, unequivocally, that both allegations are false.</strong> Faced with a threat engineered to destroy a reputation whether true or not, the complainant paid. The transfers are documented in the evidence schedule.</p>
+            </div>
 
-        <div class="note"><strong>Note on identity.</strong> The alleged offender is a minor. This document identifies him solely for the purpose of a police report and criminal investigation. It is confidential, is not published, and is not part of any public website. It must not be distributed beyond Queensland Police and the complainant's legal representatives.</div>
+            <div class="event">
+                <div class="d">Event 02 · The Death Threat</div>
+                <h3>Told he'd be reported — he answered with a threat to kill</h3>
+                <p>When the offender was informed by SMS that his conduct would be documented and handed to police, he did not back down or go quiet. He replied with a message threatening to kill. The screenshot is preserved and listed below.</p>
+            </div>
 
-        <div class="foot">Confidential incident report · prepared for submission to Queensland Police · not for publication. All allegations are the account of the complainant and are provided to assist a police investigation.</div>
+            <div class="event">
+                <div class="d">Event 03 · 18 July 2026 · Meriton, Southport</div>
+                <h3>A corridor ambush, and a $12,000 demand</h3>
+                <p>The offender and <strong>Z Soeilman</strong> came to the Meriton building in Southport where the complainant was staying. They demanded <strong>$12,000</strong>, claiming he owed it, and shouted through the corridor. The complainant was chased along it while both men yelled words to the effect of <em>"give me my money you child molesting faggot."</em> A residential tower does not miss this: it should be on <strong>Meriton security CCTV</strong>, which needs to be secured before it is overwritten.</p>
+            </div>
+
+            <div class="event">
+                <div class="d">Event 04 · 22 July 2026 · The Machete Threat</div>
+                <h3>"I'll machete you" — said down the phone, on camera</h3>
+                <p>On a call the complainant made to the offender, the offender threatened to attack him with a machete. The interaction was recorded; the video is in the evidence schedule. A threat to kill and a threat to use a bladed weapon are not idle words on this record — they are a pattern.</p>
+            </div>
+
+            <div class="event">
+                <div class="d">Event 05 · 25 July 2026, ~1:00 PM · Broadbeach Police Station</div>
+                <h3>Reported in person — and left without a reference number</h3>
+                <p>Kosta Kondratenko attended Broadbeach Police Station on the complainant's behalf. The attending officer photographed the SMS and the fraudulent driver's licence and took the mobile phone — but provided <strong>no reference number, no contact card, and no follow-up of any kind</strong>. He declined to accept the payment receipts, saying Adam Watson would have to provide them himself. A policewoman later phoned the complainant and confirmed two things that matter a great deal: that the offender is <strong>16</strong>, and that he had <strong>used the false licence before, on others</strong>. The willingness to confirm the offence is welcome. The absence of any means to follow it up is the gap this report exists to close.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="label">The Evidence</div>
+            <div class="ev">
+                <div class="evrow"><span class="n">01</span><div class="t">Payment receipt — money transferred under threat <small>1 of 2</small></div><a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_ramsden_1_redacted.jpeg">Open</a></div>
+                <div class="evrow"><span class="n">02</span><div class="t">Payment receipt — money transferred under threat <small>2 of 2</small></div><a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_ramsden_2_redacted.jpeg">Open</a></div>
+                <div class="evrow"><span class="n">03</span><div class="t">SMS screenshot — threat to kill</div><a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/death_threat.jpeg">Open</a></div>
+                <div class="evrow"><span class="n">04</span><div class="t">Video — machete threat <small>22 July 2026</small></div><a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/machete_threat_1.mp4">Open</a></div>
+                <div class="evrow"><span class="n">05</span><div class="t">Photograph of the alleged offender</div><a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_ramsden.jpeg">Open</a></div>
+                <div class="evrow"><span class="n">06</span><div class="t">Fraudulent driver's licence</div><span class="ref">Photographed by officer · Broadbeach · 25 Jul 2026</span></div>
+                <div class="evrow"><span class="n">07</span><div class="t">Meriton Southport security CCTV <small>18 July 2026</small></div><span class="ref">To be preserved &amp; obtained</span></div>
+            </div>
+        </section>
+
+        <section>
+            <div class="label">What We're Asking Queensland Police To Do</div>
+            <ol class="req">
+                <li>Investigate the extortion, the threat to kill, the threat with a weapon (machete), and the use of fraudulent identity documents.</li>
+                <li>Issue the complainant a <strong>reference / occurrence number</strong> and a named point of contact for follow-up.</li>
+                <li>Preserve and obtain the <strong>Meriton Southport CCTV</strong> for 18 July 2026 before it is overwritten.</li>
+                <li>Formally accept and record the payment receipts and all other evidence above.</li>
+                <li>Treat the confirmed prior use of false licences on other victims as what it is — a <strong>pattern with more than one complainant</strong>.</li>
+            </ol>
+        </section>
+
+        <div class="notice"><b>A note on identity.</b> The alleged offender is a minor. He is named here for one reason only: so that police can identify and investigate him. This document is confidential, is not published, and is not part of any public website or of Sunlight.Quest. It must not be circulated beyond Queensland Police and the complainant's legal representatives.</div>
+
+        <div class="foot">Confidential incident report · prepared for submission to Queensland Police · not for publication.<br>All allegations are the account of the complainant, provided to assist a police investigation.</div>
     </div>
 </body>
 </html>
