@@ -51,6 +51,12 @@ Route::post('/report/cLEd3aUOklc/access', function (\Illuminate\Http\Request $re
     return redirect('/report/cLEd3aUOklc')->with('incident_error', true);
 });
 
+// Standalone Comment / essay — a general, non-identifying piece on
+// extortion by fabricated accusation. Names no one; describes no case.
+Route::get('/comment/the-shakedown', function () {
+    return view('comment-shakedown');
+});
+
 Route::get('/new', function () {
     return view('new');
 });
