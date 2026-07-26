@@ -395,7 +395,7 @@
     </div>
 </section>
 
-!-- ══════════════════════════════════════
+<!-- ══════════════════════════════════════
      SHOWER PHOTOS SECTION — ISAAC RAMSDEN
 ══════════════════════════════════════ -->
 <section class="max-w-4xl mx-auto px-5 md:px-10 py-16 space-y-8 reveal">
