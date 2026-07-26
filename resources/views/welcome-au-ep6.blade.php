@@ -395,6 +395,65 @@
     </div>
 </section>
 
+!-- ══════════════════════════════════════
+     SHOWER PHOTOS SECTION — ISAAC RAMSDEN
+══════════════════════════════════════ -->
+<section class="max-w-4xl mx-auto px-5 md:px-10 py-16 space-y-8 reveal">
+    <!-- Headline -->
+    <h2 class="font-display text-4xl md:text-5xl tracking-wide leading-tight text-hot">
+        Sending Photos From the Shower
+    </h2>
+
+    <!-- Subheadline -->
+    <p class="font-serif italic text-paper/50 text-lg leading-relaxed">
+        "But I'm Not Gay, You're Weird!"
+    </p>
+
+    <!-- Description -->
+    <div class="border-l-4 border-hot/60 pl-4 py-3 space-y-3" style="background:rgba(193,68,14,0.05)">
+        <p class="text-[0.72rem] leading-relaxed text-paper/55">
+            It's always the same game – once you get the money turn around and say that you were never gay in the first place and then dare the person that paid you to call the cops – and threaten to make stories.
+        </p>
+        <p class="text-[0.72rem] leading-relaxed text-paper/55">
+            By the way with all the kill car money he's making why does he even need to go down the gay angle in the first place? Something tells me it's a line of work chosen by people for a certain reason – plenty of ways to make a buck on the street.
+        </p>
+    </div>
+
+    <!-- Screenshot Grid — 10 images -->
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div class="border border-paper/[0.07] bg-ink/50">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM2.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
+        </div>
+        <div class="border border-paper/[0.07] bg-ink/50">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM3.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
+        </div>
+        <div class="border border-paper/[0.07] bg-ink/50">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.47.28+PM_8.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
+        </div>
+        <div class="border border-paper/[0.07] bg-ink/50">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.38.05+PM.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
+        </div>
+        <div class="border border-paper/[0.07] bg-ink/50">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.40.08+PM.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
+        </div>
+        <div class="border border-paper/[0.07] bg-ink/50">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.42.12+PM.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
+        </div>
+        <div class="border border-paper/[0.07] bg-ink/50">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.45.46+PM.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
+        </div>
+        <div class="border border-paper/[0.07] bg-ink/50">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
+        </div>
+        <div class="border border-paper/[0.07] bg-ink/50">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM_4.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
+        </div>
+        <div class="border border-paper/[0.07] bg-ink/50">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM_6.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
+        </div>
+    </div>
+</section>
+
 <!-- ══════════════════════════════════════
      EPISODE 6 CONTENT
 ══════════════════════════════════════ -->
