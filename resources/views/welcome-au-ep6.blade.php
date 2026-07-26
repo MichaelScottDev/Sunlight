@@ -206,8 +206,8 @@
             <div class="fade-up mb-5" style="animation-delay:0.1s">
                 <div class="flex items-center gap-3 mb-3">
                     <div class="w-5 h-px bg-hot"></div>
-                    <span class="text-[0.55rem] tracking-[0.28em] uppercase text-hot">RBK · Rhys Briffa · Wollongong</span>
-                    <span class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/22 border border-paper/10 px-2 py-0.5">Feels Like Extortion</span>
+                    <span class="text-[0.55rem] tracking-[0.28em] uppercase text-hot">ISAAC J RAMSDEN · Gold Coast</span>
+                    <span class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/22 border border-paper/10 px-2 py-0.5">JAIL BAITER</span>
                 </div>
                 <h1 class="font-display leading-[0.88] tracking-wide" style="font-size:clamp(2.8rem,7vw,5.5rem)">Kill Cars, Fake Licenses, Machetes Followed by Extortion.<br><span class="text-hot">The 16 Year Old Boy Dilemma</span></h1>
                 <p class="font-serif italic text-paper/40 mt-3 leading-relaxed max-w-lg" style="font-size:clamp(0.9rem,2vw,1.15rem)">Who does Sam Ibrahim (the brother of John Ibrahim the King of the Cross - book here) - get when he needs a few kill cars. Oh and that license is FAKE (QLD Transport is not going to be happy knowing you're playing with their business model).</p>
@@ -217,8 +217,8 @@
                 <div class="relative border overflow-hidden" style="border-color:rgba(193,68,14,0.25)">
                     <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_16_dillema.jpeg" alt="RBK — Rhys Briffa" class="w-full object-contain block" style="height:460px;background:#0c0804" loading="eager" />
                     <div class="absolute bottom-0 left-0 right-0 px-4 py-3" style="background:linear-gradient(transparent,rgba(12,8,4,0.92))">
-                        <div class="text-[0.48rem] tracking-[0.18em] uppercase text-hot/80">RBK · Rhys Briffa</div>
-                        <div class="text-[0.55rem] text-paper/40 mt-0.5">Video coming soon</div>
+                        <div class="text-[0.48rem] tracking-[0.18em] uppercase text-hot/80">ISAAC J RAMSDEN</div>
+                        <div class="text-[0.55rem] text-paper/40 mt-0.5">In the flesh</div>
                     </div>
                 </div>
             </div>
