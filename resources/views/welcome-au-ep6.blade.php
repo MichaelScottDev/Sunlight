@@ -228,6 +228,53 @@
 </section>
 
     <!-- ══════════════════════════════════════
+     FAKE LICENSE SECTION — THE SMOKING GUN
+══════════════════════════════════════ -->
+<section class="max-w-4xl mx-auto px-5 md:px-10 py-16 space-y-8 reveal">
+    <!-- Headline -->
+    <h2 class="font-display text-4xl md:text-5xl tracking-wide leading-tight text-hot">
+        The Fake License
+    </h2>
+
+    <!-- Subheadline -->
+    <p class="font-serif italic text-paper/50 text-lg leading-relaxed">
+        The Smoking Gun That Looped in the Attorney General of QLD
+    </p>
+
+    <!-- Description -->
+    <div class="border-l-4 border-hot/60 pl-4 py-3 space-y-3" style="background:rgba(193,68,14,0.05)">
+        <p class="text-[0.72rem] leading-relaxed text-paper/55">
+            Isaac knew Adam liked him – and he tried to set him up by sending him a driver's license showing he was 19 when he was really 16 – a fact confirmed by a sworn member at Broadbeach police station when I shared the details of the scam with him and the fake driver's license.
+        </p>
+        <p class="text-[0.72rem] leading-relaxed text-paper/55">
+            Things like this lead to entrapment – Adam Watson has political aspirations and if a rendezvous was to happen Isaac could turn around and say he was forced and traumatized – and Adam could go to jail for life.
+        </p>
+        <p class="text-[0.72rem] leading-relaxed text-paper/55">
+            This is exactly what happened with <a href="/episode-2" class="text-gold underline hover:text-hot transition-colors">Bodie Chalmers</a> – someone he mentions in the machete threat video below that is profiled extensively in <a href="/episode-2" class="text-gold underline hover:text-hot transition-colors">Episode 2</a> of this publication – who was able to weaponize a police officer to lay sexual assault charges on Adam Watson that were subsequently dropped on first mention – unsurprisingly it made Adam Watson suicidal.
+        </p>
+        <p class="text-[0.72rem] leading-relaxed text-paper/55">
+            This is the smoking gun of the investigation – and it was brought to the attention of the Attorney General <strong class="text-paper/70">Deb Frecklington</strong> who confirmed that a full investigation will be launched with QLD Transport – the government doesn't like their apps fiddled with so you've just gained yourself a powerful enemy Isaac.
+        </p>
+    </div>
+
+    <!-- Image Grid — 2 images -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div class="border border-paper/[0.07] bg-ink/50">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/fake_license_msg.jpeg" alt="Fake driver's license message from Isaac Ramsden" class="w-full h-auto block" loading="lazy" />
+            <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-3 py-2 border-t border-paper/[0.06] text-center">
+                Fake license message · Isaac Ramsden
+            </div>
+        </div>
+        <div class="border border-paper/[0.07] bg-ink/50">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_ramsden.jpeg" alt="Isaac Ramsden" class="w-full h-auto block" loading="lazy" />
+            <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-3 py-2 border-t border-paper/[0.06] text-center">
+                Isaac Ramsden
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- ══════════════════════════════════════
      RECEIPTS SECTION — EXTORTION EVIDENCE
 ══════════════════════════════════════ -->
 <section class="max-w-4xl mx-auto px-5 md:px-10 py-16 space-y-8 reveal">
