@@ -350,6 +350,52 @@
 </section>
 
 <!-- ══════════════════════════════════════
+     KILL CAR AFFILIATION — ISAAC RAMSDEN
+══════════════════════════════════════ -->
+<section class="max-w-4xl mx-auto px-5 md:px-10 py-16 space-y-8 reveal">
+    <!-- Headline -->
+    <h2 class="font-display text-4xl md:text-5xl tracking-wide leading-tight text-hot">
+        The Kill Car Affiliation – Fadi &amp; Sam Ibrahim's Boy (and Z Soeilman's/Bodie Chalmer's Friend)
+    </h2>
+
+    <!-- Subheadline -->
+    <p class="font-serif italic text-paper/50 text-lg leading-relaxed">
+        On the Payroll. Confirmed.
+    </p>
+
+    <!-- Description -->
+    <div class="border-l-4 border-hot/60 pl-4 py-3 space-y-3" style="background:rgba(193,68,14,0.05)">
+        <p class="text-[0.72rem] leading-relaxed text-paper/55">
+            You know what kill cars are right? They're cars used to kill. Isaac organizes these for local gangs and some well known underworld identities – now Sam and Fadi are well known in the press. But here's another identity that Sunlight.Quest made famous – <a href="/episode-4" class="text-gold underline hover:text-hot transition-colors">Z Soeilman who this publication made famous in Episode 4</a> (just scroll to the bottom).
+        </p>
+        <p class="text-[0.72rem] leading-relaxed text-paper/55">
+            And of course <a href="/episode-2" class="text-gold underline hover:text-hot transition-colors">Bodie Chalmers – the key highlight of our section on Episode 2</a> of Sunlight.Quest.
+        </p>
+    </div>
+
+    <!-- Special Friends — Image Grid -->
+    <div>
+        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-4 border-b border-paper/[0.06] pb-2">
+            Special Friends
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+            <div class="border border-paper/[0.07] bg-ink/50">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/fadi_ibrahim.png" alt="Fadi Ibrahim" class="w-full h-auto block" loading="lazy" />
+                <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06] text-center">Fadi Ibrahim</div>
+            </div>
+            <div class="border border-paper/[0.07] bg-ink/50">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/sam_ibrahim.jpg" alt="Sam Ibrahim" class="w-full h-auto block" loading="lazy" />
+                <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06] text-center">Sam Ibrahim</div>
+            </div>
+            <div class="border border-paper/[0.07] bg-ink/50">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/bodie_chalmers.png" alt="Bodie Chalmers" class="w-full h-auto block" loading="lazy" />
+                <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06] text-center">Bodie Chalmers</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════════════════════════════
      EPISODE 6 CONTENT
 ══════════════════════════════════════ -->
 <div class="max-w-4xl mx-auto px-5 md:px-10 py-16 space-y-16">
