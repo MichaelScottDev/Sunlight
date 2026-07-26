@@ -28,6 +28,10 @@ Route::get('/episode-5', function () {
     return view('welcome-au-ep5');
 });
 
+Route::get('/episode-6', function () {
+    return view('welcome-au-ep6');
+});
+
 // Legacy preview permalink — kept as a redirect so any shared link still works,
 // now that Episode 5 is public at /episode-5.
 Route::get('/preview/ep5-uTVroHn9W-li', function () {
