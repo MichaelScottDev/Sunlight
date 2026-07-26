@@ -227,6 +227,50 @@
     </div>
 </section>
 
+    <!-- ══════════════════════════════════════
+     RECEIPTS SECTION — EXTORTION EVIDENCE
+══════════════════════════════════════ -->
+<section class="max-w-4xl mx-auto px-5 md:px-10 py-16 space-y-8 reveal">
+    <!-- Headline -->
+    <h2 class="font-display text-4xl md:text-5xl tracking-wide leading-tight text-hot">
+        Receipts of the Extortion
+    </h2>
+
+    <!-- Subheadline -->
+    <p class="font-serif italic text-paper/50 text-lg leading-relaxed">
+        Adam Watson Paid Not To Have His Life Ruined
+    </p>
+
+    <!-- Image Grid for Receipts -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+        <!-- Replace src with actual receipt image URLs -->
+        <div class="border border-paper/[0.07] bg-ink/50">
+            <img src="receipt-1.jpg" alt="Receipt 1" class="w-full h-auto block" loading="lazy" />
+        </div>
+        <div class="border border-paper/[0.07] bg-ink/50">
+            <img src="receipt-2.jpg" alt="Receipt 2" class="w-full h-auto block" loading="lazy" />
+        </div>
+        <div class="border border-paper/[0.07] bg-ink/50">
+            <img src="receipt-3.jpg" alt="Receipt 3" class="w-full h-auto block" loading="lazy" />
+        </div>
+        <!-- Add more as needed – the grid adapts to 2 columns on mobile, 3 on desktop -->
+        <!-- Example extra:
+        <div class="border border-paper/[0.07] bg-ink/50">
+            <img src="receipt-4.jpg" alt="Receipt 4" class="w-full h-auto block" loading="lazy" />
+        </div>
+        -->
+    </div>
+
+    <!-- Description -->
+    <div class="border-l-4 border-hot/60 pl-4 py-3" style="background:rgba(193,68,14,0.05)">
+        <p class="text-[0.72rem] leading-relaxed text-paper/55">
+            Take a look at the receipts above – keep paying or I'll tell everyone you raped me.
+            The police wouldn't know about his real age and he could play the sympathetic victim.
+            Nice try – and these dirty tricks are exactly what this publication aims to expose.
+        </p>
+    </div>
+</section>
+
 
 <!-- ══════════════════════════════════════
      EPISODE 6 CONTENT
