@@ -209,8 +209,8 @@
                     <span class="text-[0.55rem] tracking-[0.28em] uppercase text-hot">RBK · Rhys Briffa · Wollongong</span>
                     <span class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/22 border border-paper/10 px-2 py-0.5">Feels Like Extortion</span>
                 </div>
-                <h1 class="font-display leading-[0.88] tracking-wide" style="font-size:clamp(2.8rem,7vw,5.5rem)">STREET IMAGE ONLINE.<br><span class="text-hot">POLICE ON SPEED DIAL.</span></h1>
-                <p class="font-serif italic text-paper/40 mt-3 leading-relaxed max-w-lg" style="font-size:clamp(0.9rem,2vw,1.15rem)">Adam engaged a rapper for some videos. What came back were strange messages, a girlfriend demanding money, and threats to call the police — all while still asking for feedback on the video. The whole thing has started to feel like extortion.</p>
+                <h1 class="font-display leading-[0.88] tracking-wide" style="font-size:clamp(2.8rem,7vw,5.5rem)">Kill Cars, Fake Licenses, Machetes Followed by Extortion.<br><span class="text-hot">(The 16 Year Old Boy Dilemma)</span></h1>
+                <p class="font-serif italic text-paper/40 mt-3 leading-relaxed max-w-lg" style="font-size:clamp(0.9rem,2vw,1.15rem)">Who does Sam Ibrahim (the brother of John Ibrahim the King of the Cross - book here) - get when he needs a few kill cars. Oh by the way - that license is fake. Oh and that license is FAKE vv (QLD Transport is not going to be happy knowing you're playing with their business model).</p>
             </div>
             <!-- RBK photo (video coming soon) -->
             <div class="fade-up mb-5" style="animation-delay:0.2s">
