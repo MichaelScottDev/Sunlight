@@ -245,13 +245,13 @@
     <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
         <!-- Replace src with actual receipt image URLs -->
         <div class="border border-paper/[0.07] bg-ink/50">
-            <img src="receipt-1.jpg" alt="Receipt 1" class="w-full h-auto block" loading="lazy" />
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_ramsden_1.jpeg" alt="Receipt 1" class="w-full h-auto block" loading="lazy" />
         </div>
         <div class="border border-paper/[0.07] bg-ink/50">
-            <img src="receipt-2.jpg" alt="Receipt 2" class="w-full h-auto block" loading="lazy" />
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_ramsden_2.jpeg" alt="Receipt 2" class="w-full h-auto block" loading="lazy" />
         </div>
         <div class="border border-paper/[0.07] bg-ink/50">
-            <img src="receipt-3.jpg" alt="Receipt 3" class="w-full h-auto block" loading="lazy" />
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/i_ramsden_commbank.jpeg" alt="Receipt 3" class="w-full h-auto block" loading="lazy" />
         </div>
         <!-- Add more as needed – the grid adapts to 2 columns on mobile, 3 on desktop -->
         <!-- Example extra:
