@@ -317,6 +317,37 @@
     </div>
 </section>
 
+<!-- ══════════════════════════════════════
+     MACHETE THREATS SECTION — ISAAC RAMSDEN
+══════════════════════════════════════ -->
+<section class="max-w-4xl mx-auto px-5 md:px-10 py-16 space-y-8 reveal">
+    <!-- Headline -->
+    <h2 class="font-display text-4xl md:text-5xl tracking-wide leading-tight text-hot">
+        Machete threats.. over the phone. Genius of the Year Award.
+    </h2>
+
+    <!-- Subheadline -->
+    <p class="font-serif italic text-paper/50 text-lg leading-relaxed">
+        Isaac loves to incriminate himself. You'd think his lawyer dad would have taught him better than that.
+    </p>
+
+    <!-- Description -->
+    <p class="text-[0.72rem] leading-relaxed text-paper/55 border-l-4 border-hot/60 pl-4 py-3" style="background:rgba(193,68,14,0.05)">
+        The video speaks for itself – I wanted to thank Isaac for absolving Adam Watson of doing anything bad to Bodie Chalmers who he had a relationship with – which you can see in <a href="/episode-2" class="text-gold underline hover:text-hot transition-colors">Episode 2</a> of this publication.
+    </p>
+
+    <!-- Video Embed -->
+    <div class="border border-hot/20" style="background:rgba(0,0,0,0.3)">
+        <video controls preload="metadata" class="w-full" style="max-height:520px;display:block">
+            <source src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/machete_threat_1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="px-4 py-3 border-t border-hot/15">
+            <div class="text-[0.48rem] tracking-[0.18em] uppercase text-hot/60 mb-1">Recording · Machete threat over the phone</div>
+            <p class="text-[0.55rem] text-paper/30 leading-relaxed">Isaac Ramsden incriminates himself on a recorded call.</p>
+        </div>
+    </div>
+</section>
 
 <!-- ══════════════════════════════════════
      EPISODE 6 CONTENT
