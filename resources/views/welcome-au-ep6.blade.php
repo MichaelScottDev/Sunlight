@@ -215,7 +215,7 @@
             <!-- RBK photo (video coming soon) -->
             <div class="fade-up mb-5" style="animation-delay:0.2s">
                 <div class="relative border overflow-hidden" style="border-color:rgba(193,68,14,0.25)">
-                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_ramsden.jpeg" alt="RBK — Rhys Briffa" class="w-full object-contain block" style="height:460px;background:#0c0804" loading="eager" />
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_16_dillema.jpeg" alt="RBK — Rhys Briffa" class="w-full object-contain block" style="height:460px;background:#0c0804" loading="eager" />
                     <div class="absolute bottom-0 left-0 right-0 px-4 py-3" style="background:linear-gradient(transparent,rgba(12,8,4,0.92))">
                         <div class="text-[0.48rem] tracking-[0.18em] uppercase text-hot/80">RBK · Rhys Briffa</div>
                         <div class="text-[0.55rem] text-paper/40 mt-0.5">Video coming soon</div>
