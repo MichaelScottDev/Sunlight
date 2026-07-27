@@ -10,12 +10,12 @@
     <meta property="og:title" content="Sunlight.Quest — Episode 6: RBK"/>
     <meta property="og:description" content="The rapper RBK — real name Rhys Briffa. Strange messages, a girlfriend demanding money, and threats to call the police. It started to feel like extortion."/>
     <meta property="og:url" content="https://sunlight.quest/episode-6"/>
-    <meta property="og:image" content="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rhys_briffa.png"/>
-    <meta property="og:image:alt" content="RBK — Rhys Briffa"/>
+    <meta property="og:image" content="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_16_dillema.jpeg"/>
+    <meta property="og:image:alt" content="Isaac J Ramsden"/>
     <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:title" content="Sunlight.Quest — Episode 6: RBK"/>
+    <meta name="twitter:title" content="Sunlight.Quest — Episode 6: Isaac J Ramsden"/>
     <meta name="twitter:description" content="The rapper RBK — real name Rhys Briffa. Strange messages, a girlfriend demanding money, and threats to call the police. It started to feel like extortion."/>
-    <meta name="twitter:image" content="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rhys_briffa.png"/>
+    <meta name="twitter:image" content="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_16_dillema.jpeg"/>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
