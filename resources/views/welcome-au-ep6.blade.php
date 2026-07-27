@@ -319,69 +319,69 @@
 </section>
 
 
-<!-- ══════════════════════════════════════
-     RAMSDEN LAWYERS — THE DAD, THE BIG FIRM
-══════════════════════════════════════ -->
-<section class="max-w-4xl mx-auto px-5 md:px-10 py-16 space-y-8 reveal">
+<!-- ══════════════════════════════════════════════════════════════
+         SPLIT COPY / IMAGE BLOCK  —  MIRRORED  (image left · text right)
+         RAMSDEN LAWYERS  —  NO TIMER
+         ══════════════════════════════════════════════════════════════ -->
+    <section class="overflow-hidden bg-ink sm:grid sm:grid-cols-2">
 
-    <!-- Headline -->
-    <h2 class="font-display text-4xl md:text-5xl tracking-wide leading-tight text-paper">
-        The Dad, the Big Legal Firm
-    </h2>
+        <!-- text column: sits first in the DOM but is pushed to the right on desktop -->
+        <div class="p-8 md:p-12 lg:px-16 lg:py-24 sm:order-2">
+            <div class="mx-auto max-w-xl">
 
-    <!-- Subheadline -->
-    <p class="font-serif italic text-paper/50 text-lg leading-relaxed">
-        Keep Your License Secure When you Have Your Consultation at Ramsden Lawyers
-    </p>
+                <!-- Main headline -->
+                <h2 class="font-display h-display text-5xl uppercase text-paper md:text-6xl">
+                    The Dad, the Big Legal Firm
+                </h2>
+                <p class="mt-3 font-quote text-2xl italic text-gold md:text-3xl">
+                    Keep Your License Secure When you Have Your Consultation at Ramsden Lawyers
+                </p>
 
-    <!-- Image: John Ramsden -->
-    <div class="border border-paper/[0.07] bg-ink/50 max-w-2xl">
-        <img
-            src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/john_ramsden_lawyer_identify.png"
-            alt="John Ramsden — Ramsden Lawyers"
-            class="w-full h-auto block"
-            loading="lazy"
-        />
-        <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-3 py-2 border-t border-paper/[0.06]">
-            John Ramsden · Ramsden Lawyers · Gold Coast
+                <!-- Description paragraphs -->
+                <div class="mt-6 space-y-4 font-serif text-base leading-relaxed text-paper/85 md:text-lg">
+                    <p>
+                        Isaac's dad is a big lawyer in the Gold Coast (all though I haven't heard of him until now). Here's where it gets more interesting – the PayID that Adam was paying into is linked to Isaac's mother. So how deep does this little conspiracy go?
+                    </p>
+                    <p>
+                        In fact... let's go even one step further... how closely are the partners and senior counsels involved in this?
+                    </p>
+                    <p>
+                        By the way is it just me or does Isaac's dad have that glazed over blue steele lack of soul look... he's not even looking at the camera in his photo on the website. Anyway as they say the rot starts from the top.
+                    </p>
+                    <p>
+                        Every real estate agent that uses these people in the Gold Coast, and every client needs to check their credit rating and driving record – to see that no fines and no loans have been taken out under your name – because this kid has been trained very well – he's in with very dangerous people – and he knows the law very well.
+                    </p>
+                    <p>
+                        There's a lot of partners and counsel and I don't want to name them all – you can check them out on the website.
+                    </p>
+                </div>
+
+                <!-- ── Call to action: Visit the Ramsden Lawyers team page ── -->
+                <a href="https://ramsdenlaw.com.au/our-team/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="mt-8 inline-flex items-center gap-3 bg-red px-6 py-3 font-mono text-sm uppercase tracking-widest text-paper transition-colors hover:bg-red-deep focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"
+                         class="h-4 w-4" aria-hidden="true">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                        <polyline points="15 3 21 3 21 9"/>
+                        <line x1="10" y1="14" x2="21" y2="3"/>
+                    </svg>
+                    View the Ramsden Lawyers team
+                </a>
+
+            </div>
         </div>
-    </div>
 
-    <!-- Description / Commentary -->
-    <div
-        class="border-l-4 border-hot/60 pl-4 py-3 space-y-4"
-        style="background:rgba(193,68,14,0.05)"
-    >
-        <p class="text-[0.72rem] leading-relaxed text-paper/55">
-            Isaac's dad is a big lawyer in the Gold Coast (all though I haven't heard of him until now). Here's where it gets more interesting – the PayID that Adam was paying into is linked to Isaac's mother. So how deep does this little conspiracy go?
-        </p>
+        <!-- image column: mirrored to the left on desktop -->
+        <img
+            alt="John Ramsden — Ramsden Lawyers"
+            src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/john_ramsden_lawyer_identify.png"
+            class="h-56 w-full object-cover sm:order-1 sm:h-full"
+        />
 
-        <p class="text-[0.72rem] leading-relaxed text-paper/55">
-            In fact... let's go even one step further... how closely are the partners and senior counsels involved in this?
-        </p>
-
-        <p class="text-[0.72rem] leading-relaxed text-paper/55">
-            By the way is it just me or does Isaac's dad have that glazed over blue steele lack of soul look... he's not even looking at the camera in his photo on the website. Anyway as they say the rot starts from the top.
-        </p>
-
-        <p class="text-[0.72rem] leading-relaxed text-paper/55">
-            Every real estate agent that uses these people in the Gold Coast, and every client needs to check their credit rating and driving record – to see that no fines and no loans have been taken out under your name – because this kid has been trained very well – he's in with very dangerous people – and he knows the law very well.
-        </p>
-
-        <p class="text-[0.72rem] leading-relaxed text-paper/55">
-            There's a lot of partners and counsel and I don't want to name them all – you can check them out on the website:
-            <a
-                href="https://ramsdenlaw.com.au/our-team/"
-                target="_blank"
-                rel="noopener"
-                class="text-hot underline hover:text-gold transition-colors"
-            >
-                https://ramsdenlaw.com.au/our-team/
-            </a>
-        </p>
-    </div>
-
-</section>
+    </section>
 
 <!-- ══════════════════════════════════════
      MACHETE THREATS SECTION — ISAAC RAMSDEN
