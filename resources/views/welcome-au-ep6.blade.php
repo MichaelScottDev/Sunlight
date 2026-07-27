@@ -536,7 +536,127 @@
     class="h-56 w-full object-cover sm:h-full"
   />
  
+</section
+
+    <!-- ══════════════════════════════════════════════════════════════
+     SPLIT COPY / IMAGE BLOCK  —  MIRRORED  (image left · text right)
+     THE 2 MINUTE SILENCE IS THE TELL  +  TIMER
+     ══════════════════════════════════════════════════════════════ -->
+<section class="overflow-hidden bg-ink sm:grid sm:grid-cols-2">
+  <!-- text column: sits first in the DOM but is pushed to the right on desktop -->
+  <div class="p-8 md:p-12 lg:px-16 lg:py-24 sm:order-2">
+    <div class="mx-auto max-w-xl">
+      <!-- Main headline -->
+      <h2 class="font-display h-display text-5xl uppercase text-paper md:text-6xl">
+        The 2 Minute Silence Is the Tell
+      </h2>
+      <p class="mt-3 font-quote text-2xl italic text-gold md:text-3xl">
+        Request for Comment Gets the Silent Treatment
+      </p>
+
+      <!-- Description paragraphs -->
+      <div class="mt-6 space-y-4 font-serif text-base leading-relaxed text-paper/85 md:text-lg">
+        <p>
+          When Sunlight.Quest (that's me) called the office to get their comment on Isaac's activities I spoke to a secretary that just went quiet with shock for 2 minutes when I described to her the situation. Then the phone hung up. I called her back and she told me we got "disconnected".
+        </p>
+        <p>
+          Cool – I confirmed with her that she received the email that I sent to the reception email address where I cc'd John Ramsden (I got his email from RocketReach – jramsden@ramsdenlaw.com.au) – there was silence on the phone when I said why I called and there's silence in the response – Mrs. Rinehart quite correctly said if he was innocent he'd want to get on the front foot on this so the silence tells you.
+        </p>
+      </div>
+
+      <!-- ── Call to action: View the PDF email ────────────────────── -->
+      <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/john_ramsden_email.pdf"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="mt-8 inline-flex items-center gap-3 bg-red px-6 py-3 font-mono text-sm uppercase tracking-widest text-paper transition-colors hover:bg-red-deep focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"
+             class="h-4 w-4" aria-hidden="true">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+          <polyline points="14 2 14 8 20 8"/>
+          <line x1="16" y1="13" x2="8" y2="13"/>
+          <line x1="16" y1="17" x2="8" y2="17"/>
+          <polyline points="10 9 9 9 8 9"/>
+        </svg>
+        View the email sent to John Ramsden (PDF)
+      </a>
+
+      <!-- ── TIMER: No Response Now For... ─────────────────────────── -->
+      <div class="mt-10 border-t border-line pt-8">
+        <p class="kicker font-mono text-xs uppercase text-gold">No Response Now For...</p>
+
+        <!-- Timer digits -->
+        <div class="mt-3 flex items-start gap-5 font-mono text-paper">
+          <div class="text-center">
+            <span id="t-days" class="block text-4xl leading-none md:text-5xl">00</span>
+            <span class="mt-1 block text-[10px] uppercase tracking-widest text-muted">Days</span>
+          </div>
+          <span class="text-4xl leading-none text-line md:text-5xl">:</span>
+          <div class="text-center">
+            <span id="t-hrs" class="block text-4xl leading-none md:text-5xl">00</span>
+            <span class="mt-1 block text-[10px] uppercase tracking-widest text-muted">Hrs</span>
+          </div>
+          <span class="text-4xl leading-none text-line md:text-5xl">:</span>
+          <div class="text-center">
+            <span id="t-min" class="block text-4xl leading-none md:text-5xl">00</span>
+            <span class="mt-1 block text-[10px] uppercase tracking-widest text-muted">Min</span>
+          </div>
+          <span class="text-4xl leading-none text-line md:text-5xl">:</span>
+          <div class="text-center">
+            <span id="t-sec" class="block text-4xl leading-none text-gold md:text-5xl">00</span>
+            <span class="mt-1 block text-[10px] uppercase tracking-widest text-muted">Sec</span>
+          </div>
+        </div>
+
+        <!-- Timer underline — the "laying low" line -->
+        <p class="mt-3 font-mono text-xs italic text-muted">
+          NO getting on the front foot, just laying low hoping the story goes away
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- image column: mirrored to the left on desktop -->
+  <img
+    alt="Ramsden Lawyers office – silence response"
+    src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/ramsden_lawyers_silence.png"
+    class="h-56 w-full object-cover sm:order-1 sm:h-full"
+  />
 </section>
+
+<!-- ── Timer script (counts up from 27 Jul 2026, 9:27 AM) ─────────── -->
+<script>
+  (function () {
+    var start = new Date(2026, 6, 27, 9, 27, 0).getTime();
+
+    var elDays = document.getElementById('t-days');
+    var elHrs  = document.getElementById('t-hrs');
+    var elMin  = document.getElementById('t-min');
+    var elSec  = document.getElementById('t-sec');
+
+    function pad(n) { return String(n).padStart(2, '0'); }
+
+    function tick() {
+      var now  = Date.now();
+      var diff = now - start;          // positive if the competition has started
+      if (diff < 0) diff = 0;          // clamp so we never show negative
+
+      var totalSec = Math.floor(diff / 1000);
+      var days = Math.floor(totalSec / 86400);
+      var hrs  = Math.floor((totalSec % 86400) / 3600);
+      var min  = Math.floor((totalSec % 3600) / 60);
+      var sec  = totalSec % 60;
+
+      elDays.textContent = pad(days);
+      elHrs.textContent  = pad(hrs);
+      elMin.textContent  = pad(min);
+      elSec.textContent  = pad(sec);
+    }
+
+    tick();
+    setInterval(tick, 1000);
+  })();
+</script>
 
 </div><!-- end main content -->
 
