@@ -378,7 +378,7 @@
         <img
             alt="John Ramsden — Ramsden Lawyers"
             src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/john_ramsden_managing_partner.png"
-            class="h-56 w-full object-cover sm:order-1 sm:h-full"
+            class="h-56 w-full object-contain sm:order-1 sm:h-full"
         />
 
     </section>
@@ -415,50 +415,92 @@
     </div>
 </section>
 
-<!-- ══════════════════════════════════════
-     KILL CAR AFFILIATION — ISAAC RAMSDEN
-══════════════════════════════════════ -->
-<section class="max-w-4xl mx-auto px-5 md:px-10 py-16 space-y-8 reveal">
-    <!-- Headline -->
-    <h2 class="font-display text-4xl md:text-5xl tracking-wide leading-tight text-hot">
-        The Kill Car Affiliation – Fadi &amp; Sam Ibrahim's Boy (and Z Soeilman's/Bodie Chalmer's Friend)
-    </h2>
+<!-- ══════════════════════════════════════════════════════════════
+     TEAM BLOCK  —  KILL CAR AFFILIATION (Special Friends)
+═════════════════════════════════════════════════════════════════ -->
+<section class="bg-ink px-6 py-20 md:py-28 lg:px-8">
+  <div class="mx-auto max-w-6xl">
 
-    <!-- Subheadline -->
-    <p class="font-serif italic text-paper/50 text-lg leading-relaxed">
-        On the Payroll. Confirmed.
-    </p>
-
-    <!-- Description -->
-    <div class="border-l-4 border-hot/60 pl-4 py-3 space-y-3" style="background:rgba(193,68,14,0.05)">
-        <p class="text-[0.72rem] leading-relaxed text-paper/55">
-            You know what kill cars are right? They're cars used to kill. Isaac organizes these for local gangs and some well known underworld identities – now Sam and Fadi are well known in the press. But here's another identity that Sunlight.Quest made famous – <a href="/episode-4" class="text-gold underline hover:text-hot transition-colors">Z Soeilman who this publication made famous in Episode 4</a> (just scroll to the bottom).
+    <!-- header: overheadline · headline · subheadline · description -->
+    <div class="max-w-2xl">
+      <p class="font-mono kicker text-xs uppercase text-gold">On the Payroll. Confirmed.</p>
+      <h2 class="mt-4 font-display h-display text-6xl uppercase text-paper md:text-7xl">The Kill Car Affiliation</h2>
+      <p class="mt-3 font-quote text-2xl italic text-gold md:text-3xl">Fadi &amp; Sam Ibrahim's Boy (and Z Soeilman's/Bodie Chalmer's Friend)</p>
+      <div class="mt-6 space-y-4 font-serif text-lg leading-relaxed text-muted">
+        <p>
+          You know what kill cars are right? They're cars used to kill. Isaac organizes these for local gangs and some well known underworld identities – now Sam and Fadi are well known in the press. But here's another identity that Sunlight.Quest made famous – Z Soeilman who this publication made famous in Episode 4 (just scroll to the bottom).
         </p>
-        <p class="text-[0.72rem] leading-relaxed text-paper/55">
-            And of course <a href="/episode-2" class="text-gold underline hover:text-hot transition-colors">Bodie Chalmers – the key highlight of our section on Episode 2</a> of Sunlight.Quest.
+        <p>
+          And of course Bodie Chalmers – the key highlight of our section on Episode 2 of Sunlight.Quest.
         </p>
+      </div>
     </div>
 
-    <!-- Special Friends — Image Grid -->
-    <div>
-        <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-4 border-b border-paper/[0.06] pb-2">
-            Special Friends
-        </div>
-        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
-            <div class="border border-paper/[0.07] bg-ink/50">
-                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/fadi_ibrahim.png" alt="Fadi Ibrahim" class="w-full h-auto block" loading="lazy" />
-                <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06] text-center">Fadi Ibrahim</div>
-            </div>
-            <div class="border border-paper/[0.07] bg-ink/50">
-                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/sam_ibrahim.jpg" alt="Sam Ibrahim" class="w-full h-auto block" loading="lazy" />
-                <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06] text-center">Sam Ibrahim</div>
-            </div>
-            <div class="border border-paper/[0.07] bg-ink/50">
-                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/bodie_chalmers.png" alt="Bodie Chalmers" class="w-full h-auto block" loading="lazy" />
-                <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06] text-center">Bodie Chalmers</div>
-            </div>
-        </div>
+    <!-- grid of Special Friends -->
+    <div class="mt-14 grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
+
+      <!-- Fadi Ibrahim -->
+      <div class="member">
+        <img
+          src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/fadi_ibrahim.png"
+          alt="Fadi Ibrahim"
+          class="aspect-[4/3] w-full rounded-2xl object-cover border border-line bg-surface"
+        />
+        <h3 class="mt-5 font-serif text-xl font-semibold text-paper">Fadi Ibrahim</h3>
+        <a
+          href="https://www.abc.net.au/news/2017-09-18/ibrahim-fadi-michael-extradited-dubai-mdma-drugs-kings-cross/8955478"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Read more about Fadi Ibrahim"
+          class="mt-3 inline-flex items-center gap-2 font-mono text-sm uppercase tracking-wide text-gold transition hover:gap-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded"
+        >
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22a2 2 0 0 1-2-2V9"/><path d="M4 22h16a2 2 0 0 0 2-2V4a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v16a2 2 0 0 1-2 2"/><path d="M14 7h4M14 11h4M14 15h4"/><rect x="6" y="7" width="4" height="8" rx="1"/></svg>
+          Read the article <span aria-hidden="true">&rarr;</span>
+        </a>
+      </div>
+
+      <!-- Sam Ibrahim -->
+      <div class="member">
+        <img
+          src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/sam_ibrahim.jpg"
+          alt="Sam Ibrahim"
+          class="aspect-[4/3] w-full rounded-2xl object-cover border border-line bg-surface"
+        />
+        <h3 class="mt-5 font-serif text-xl font-semibold text-paper">Sam Ibrahim</h3>
+        <a
+          href="https://www.smh.com.au/national/nsw/sam-ibrahim-sentenced-to-nine-years-jail-over-gun-supply-charges-20180216-p4z0mr.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Read more about Sam Ibrahim"
+          class="mt-3 inline-flex items-center gap-2 font-mono text-sm uppercase tracking-wide text-gold transition hover:gap-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded"
+        >
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22a2 2 0 0 1-2-2V9"/><path d="M4 22h16a2 2 0 0 0 2-2V4a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v16a2 2 0 0 1-2 2"/><path d="M14 7h4M14 11h4M14 15h4"/><rect x="6" y="7" width="4" height="8" rx="1"/></svg>
+          Read the article <span aria-hidden="true">&rarr;</span>
+        </a>
+      </div>
+
+      <!-- Bodie Chalmers -->
+      <div class="member">
+        <img
+          src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/bodie_chalmers.png"
+          alt="Bodie Chalmers"
+          class="aspect-[4/3] w-full rounded-2xl object-cover border border-line bg-surface"
+        />
+        <h3 class="mt-5 font-serif text-xl font-semibold text-paper">Bodie Chalmers</h3>
+        <a
+          href="https://sunlight.quest/episode-2"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Read Episode 2 about Bodie Chalmers"
+          class="mt-3 inline-flex items-center gap-2 font-mono text-sm uppercase tracking-wide text-gold transition hover:gap-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded"
+        >
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22a2 2 0 0 1-2-2V9"/><path d="M4 22h16a2 2 0 0 0 2-2V4a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v16a2 2 0 0 1-2 2"/><path d="M14 7h4M14 11h4M14 15h4"/><rect x="6" y="7" width="4" height="8" rx="1"/></svg>
+          Read Episode 2 <span aria-hidden="true">&rarr;</span>
+        </a>
+      </div>
+
     </div>
+  </div>
 </section>
 
 <!-- ══════════════════════════════════════
