@@ -513,7 +513,7 @@
 
 <!-- ══════════════════════════════════════════════════════════════
      VARIANT A — FOUR-COLUMN PHOTO TILES
-     SENDING PHOTOS FROM THE SHOWER
+     SENDING PHOTOS FROM THE SHOWER (FULL IMAGE VIEW)
      ══════════════════════════════════════════════════════════════ -->
 <section class="bg-ink px-6 py-20 md:py-28 lg:px-8">
   <div class="mx-auto max-w-6xl">
@@ -545,7 +545,7 @@
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM2.jpeg"
           alt="SMS message exchange 1"
-          class="aspect-[3/4] w-full rounded-xl object-cover"
+          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
         <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 1</figcaption>
@@ -556,7 +556,7 @@
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM3.jpeg"
           alt="SMS message exchange 2"
-          class="aspect-[3/4] w-full rounded-xl object-cover"
+          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
         <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 2</figcaption>
@@ -567,7 +567,7 @@
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.47.28+PM_8.jpeg"
           alt="SMS message exchange 3"
-          class="aspect-[3/4] w-full rounded-xl object-cover"
+          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
         <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 3</figcaption>
@@ -578,7 +578,7 @@
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.38.05+PM.jpeg"
           alt="SMS message exchange 4"
-          class="aspect-[3/4] w-full rounded-xl object-cover"
+          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
         <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 4</figcaption>
@@ -589,7 +589,7 @@
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.40.08+PM.jpeg"
           alt="SMS message exchange 5"
-          class="aspect-[3/4] w-full rounded-xl object-cover"
+          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
         <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 5</figcaption>
@@ -600,7 +600,7 @@
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.42.12+PM.jpeg"
           alt="SMS message exchange 6"
-          class="aspect-[3/4] w-full rounded-xl object-cover"
+          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
         <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 6</figcaption>
@@ -611,7 +611,7 @@
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.45.46+PM.jpeg"
           alt="SMS message exchange 7"
-          class="aspect-[3/4] w-full rounded-xl object-cover"
+          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
         <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 7</figcaption>
@@ -622,7 +622,7 @@
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM.jpeg"
           alt="SMS message exchange 8"
-          class="aspect-[3/4] w-full rounded-xl object-cover"
+          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
         <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 8</figcaption>
@@ -633,7 +633,7 @@
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM_4.jpeg"
           alt="SMS message exchange 9"
-          class="aspect-[3/4] w-full rounded-xl object-cover"
+          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
         <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 9</figcaption>
@@ -644,7 +644,7 @@
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM_6.jpeg"
           alt="SMS message exchange 10"
-          class="aspect-[3/4] w-full rounded-xl object-cover"
+          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
         <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 10</figcaption>
