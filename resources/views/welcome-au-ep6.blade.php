@@ -511,63 +511,147 @@
   </div>
 </section>
 
-<!-- ══════════════════════════════════════
-     SHOWER PHOTOS SECTION — ISAAC RAMSDEN
-══════════════════════════════════════ -->
-<section class="max-w-4xl mx-auto px-5 md:px-10 py-16 space-y-8 reveal">
-    <!-- Headline -->
-    <h2 class="font-display text-4xl md:text-5xl tracking-wide leading-tight text-hot">
+<!-- ══════════════════════════════════════════════════════════════
+     VARIANT A — FOUR-COLUMN PHOTO TILES
+     SENDING PHOTOS FROM THE SHOWER
+     ══════════════════════════════════════════════════════════════ -->
+<section class="bg-ink px-6 py-20 md:py-28 lg:px-8">
+  <div class="mx-auto max-w-6xl">
+
+    <!-- header -->
+    <div class="max-w-2xl">
+      <p class="font-mono kicker text-xs uppercase text-gold">SMS Exchange</p>
+      <h2 class="mt-4 font-display h-display text-5xl uppercase text-paper md:text-6xl">
         Sending Photos From the Shower
-    </h2>
-
-    <!-- Subheadline -->
-    <p class="font-serif italic text-paper/50 text-lg leading-relaxed">
+      </h2>
+      <p class="mt-3 font-quote text-2xl italic text-gold md:text-3xl">
         "But I'm Not Gay, You're Weird!"
-    </p>
-
-    <!-- Description -->
-    <div class="border-l-4 border-hot/60 pl-4 py-3 space-y-3" style="background:rgba(193,68,14,0.05)">
-        <p class="text-[0.72rem] leading-relaxed text-paper/55">
-            It's always the same game – once you get the money turn around and say that you were never gay in the first place and then dare the person that paid you to call the cops – and threaten to make stories.
+      </p>
+      <div class="mt-6 space-y-4 font-serif text-lg leading-relaxed text-muted">
+        <p>
+          It's always the same game – once you get the money turn around and say that you were never gay in the first place and then dare the person that paid you to call the cops – and threaten to make stories.
         </p>
-        <p class="text-[0.72rem] leading-relaxed text-paper/55">
-            By the way with all the kill car money he's making why does he even need to go down the gay angle in the first place? Something tells me it's a line of work chosen by people for a certain reason – plenty of ways to make a buck on the street.
+        <p>
+          By the way with all the kill car money he's making why does he even need to go down the gay angle in the first place? Something tells me it's a line of work chosen by people for a certain reason – plenty of ways to make a buck on the street.
         </p>
+      </div>
     </div>
 
-    <!-- Screenshot Grid — 10 images -->
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        <div class="border border-paper/[0.07] bg-ink/50">
-            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM2.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
-        </div>
-        <div class="border border-paper/[0.07] bg-ink/50">
-            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM3.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
-        </div>
-        <div class="border border-paper/[0.07] bg-ink/50">
-            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.47.28+PM_8.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
-        </div>
-        <div class="border border-paper/[0.07] bg-ink/50">
-            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.38.05+PM.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
-        </div>
-        <div class="border border-paper/[0.07] bg-ink/50">
-            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.40.08+PM.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
-        </div>
-        <div class="border border-paper/[0.07] bg-ink/50">
-            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.42.12+PM.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
-        </div>
-        <div class="border border-paper/[0.07] bg-ink/50">
-            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.45.46+PM.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
-        </div>
-        <div class="border border-paper/[0.07] bg-ink/50">
-            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
-        </div>
-        <div class="border border-paper/[0.07] bg-ink/50">
-            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM_4.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
-        </div>
-        <div class="border border-paper/[0.07] bg-ink/50">
-            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM_6.jpeg" alt="WhatsApp message screenshot" class="w-full h-auto block" loading="lazy" />
-        </div>
+    <!-- grid -->
+    <div class="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+
+      <!-- ── tile 1 ── -->
+      <figure class="tile">
+        <img
+          src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM2.jpeg"
+          alt="SMS message exchange 1"
+          class="aspect-[3/4] w-full rounded-xl object-cover"
+          loading="lazy"
+        />
+        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 1</figcaption>
+      </figure>
+
+      <!-- ── tile 2 ── -->
+      <figure class="tile">
+        <img
+          src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM3.jpeg"
+          alt="SMS message exchange 2"
+          class="aspect-[3/4] w-full rounded-xl object-cover"
+          loading="lazy"
+        />
+        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 2</figcaption>
+      </figure>
+
+      <!-- ── tile 3 ── -->
+      <figure class="tile">
+        <img
+          src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.47.28+PM_8.jpeg"
+          alt="SMS message exchange 3"
+          class="aspect-[3/4] w-full rounded-xl object-cover"
+          loading="lazy"
+        />
+        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 3</figcaption>
+      </figure>
+
+      <!-- ── tile 4 ── -->
+      <figure class="tile">
+        <img
+          src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.38.05+PM.jpeg"
+          alt="SMS message exchange 4"
+          class="aspect-[3/4] w-full rounded-xl object-cover"
+          loading="lazy"
+        />
+        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 4</figcaption>
+      </figure>
+
+      <!-- ── tile 5 ── -->
+      <figure class="tile">
+        <img
+          src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.40.08+PM.jpeg"
+          alt="SMS message exchange 5"
+          class="aspect-[3/4] w-full rounded-xl object-cover"
+          loading="lazy"
+        />
+        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 5</figcaption>
+      </figure>
+
+      <!-- ── tile 6 ── -->
+      <figure class="tile">
+        <img
+          src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.42.12+PM.jpeg"
+          alt="SMS message exchange 6"
+          class="aspect-[3/4] w-full rounded-xl object-cover"
+          loading="lazy"
+        />
+        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 6</figcaption>
+      </figure>
+
+      <!-- ── tile 7 ── -->
+      <figure class="tile">
+        <img
+          src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.45.46+PM.jpeg"
+          alt="SMS message exchange 7"
+          class="aspect-[3/4] w-full rounded-xl object-cover"
+          loading="lazy"
+        />
+        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 7</figcaption>
+      </figure>
+
+      <!-- ── tile 8 ── -->
+      <figure class="tile">
+        <img
+          src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM.jpeg"
+          alt="SMS message exchange 8"
+          class="aspect-[3/4] w-full rounded-xl object-cover"
+          loading="lazy"
+        />
+        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 8</figcaption>
+      </figure>
+
+      <!-- ── tile 9 ── -->
+      <figure class="tile">
+        <img
+          src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM_4.jpeg"
+          alt="SMS message exchange 9"
+          class="aspect-[3/4] w-full rounded-xl object-cover"
+          loading="lazy"
+        />
+        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 9</figcaption>
+      </figure>
+
+      <!-- ── tile 10 ── -->
+      <figure class="tile">
+        <img
+          src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM_6.jpeg"
+          alt="SMS message exchange 10"
+          class="aspect-[3/4] w-full rounded-xl object-cover"
+          loading="lazy"
+        />
+        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 10</figcaption>
+      </figure>
+
     </div>
+  </div>
 </section>
 
 <!-- ══════════════════════════════════════════════════════════════
