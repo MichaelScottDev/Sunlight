@@ -501,7 +501,42 @@
     </div>
 </section>
 
-
+<!-- ══════════════════════════════════════════════════════════════
+     SPLIT COPY / IMAGE BLOCK  (text left · image right)
+     ══════════════════════════════════════════════════════════════ -->
+<section class="overflow-hidden bg-ink sm:grid sm:grid-cols-2">
+ 
+  <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+    <div class="mx-auto max-w-xl">
+ 
+      <h2 class="font-display h-display text-5xl uppercase text-paper md:text-6xl">
+        The ASIO Connection
+      </h2>
+ 
+      <p class="mt-3 font-quote text-2xl italic text-gold md:text-3xl">
+        Facial Paternity Recognition Test
+      </p>
+ 
+      <p class="mt-6 font-serif text-base leading-relaxed text-paper/85 md:text-lg">
+        A team inside ASIO has matched Isaac&rsquo;s face to his father&rsquo;s. Along with
+        facial recognition technology &mdash; which everyone knows about &mdash; ASIO and other
+        leading intelligence agencies also have paternity facial recognition technology.
+      </p>
+ 
+      <p class="mt-4 font-serif text-base leading-relaxed text-muted md:text-lg">
+        So if you have a long lost son ASIO might be able to find him (or a long lost dad).
+      </p>
+ 
+    </div>
+  </div>
+ 
+  <img
+    alt="ASIO facial paternity recognition conversion"
+    src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/adult_male_asio_conversion.png"
+    class="h-56 w-full object-cover sm:h-full"
+  />
+ 
+</section>
 
 </div><!-- end main content -->
 
