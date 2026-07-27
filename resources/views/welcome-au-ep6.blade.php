@@ -512,8 +512,8 @@
 </section>
 
 <!-- ══════════════════════════════════════════════════════════════
-     VARIANT A — FOUR-COLUMN PHOTO TILES
-     SENDING PHOTOS FROM THE SHOWER (FULL IMAGE VIEW)
+     VARIANT A — FOUR-COLUMN PHOTO TILES (TIGHTER SPACING, WIDER IMAGES)
+     SENDING PHOTOS FROM THE SHOWER
      ══════════════════════════════════════════════════════════════ -->
 <section class="bg-ink px-6 py-20 md:py-28 lg:px-8">
   <div class="mx-auto max-w-6xl">
@@ -537,18 +537,18 @@
       </div>
     </div>
 
-    <!-- grid -->
-    <div class="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+    <!-- grid – reduced gap from 6 to 4, tighter tiles -->
+    <div class="mt-14 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
 
       <!-- ── tile 1 ── -->
       <figure class="tile">
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM2.jpeg"
           alt="SMS message exchange 1"
-          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
+          class="aspect-[4/5] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
-        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 1</figcaption>
+        <figcaption class="mt-1 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 1</figcaption>
       </figure>
 
       <!-- ── tile 2 ── -->
@@ -556,10 +556,10 @@
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM3.jpeg"
           alt="SMS message exchange 2"
-          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
+          class="aspect-[4/5] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
-        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 2</figcaption>
+        <figcaption class="mt-1 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 2</figcaption>
       </figure>
 
       <!-- ── tile 3 ── -->
@@ -567,10 +567,10 @@
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.47.28+PM_8.jpeg"
           alt="SMS message exchange 3"
-          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
+          class="aspect-[4/5] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
-        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 3</figcaption>
+        <figcaption class="mt-1 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 3</figcaption>
       </figure>
 
       <!-- ── tile 4 ── -->
@@ -578,10 +578,10 @@
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.38.05+PM.jpeg"
           alt="SMS message exchange 4"
-          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
+          class="aspect-[4/5] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
-        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 4</figcaption>
+        <figcaption class="mt-1 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 4</figcaption>
       </figure>
 
       <!-- ── tile 5 ── -->
@@ -589,10 +589,10 @@
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.40.08+PM.jpeg"
           alt="SMS message exchange 5"
-          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
+          class="aspect-[4/5] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
-        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 5</figcaption>
+        <figcaption class="mt-1 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 5</figcaption>
       </figure>
 
       <!-- ── tile 6 ── -->
@@ -600,10 +600,10 @@
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.42.12+PM.jpeg"
           alt="SMS message exchange 6"
-          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
+          class="aspect-[4/5] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
-        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 6</figcaption>
+        <figcaption class="mt-1 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 6</figcaption>
       </figure>
 
       <!-- ── tile 7 ── -->
@@ -611,10 +611,10 @@
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.45.46+PM.jpeg"
           alt="SMS message exchange 7"
-          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
+          class="aspect-[4/5] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
-        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 7</figcaption>
+        <figcaption class="mt-1 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 7</figcaption>
       </figure>
 
       <!-- ── tile 8 ── -->
@@ -622,10 +622,10 @@
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM.jpeg"
           alt="SMS message exchange 8"
-          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
+          class="aspect-[4/5] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
-        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 8</figcaption>
+        <figcaption class="mt-1 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 8</figcaption>
       </figure>
 
       <!-- ── tile 9 ── -->
@@ -633,10 +633,10 @@
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM_4.jpeg"
           alt="SMS message exchange 9"
-          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
+          class="aspect-[4/5] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
-        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 9</figcaption>
+        <figcaption class="mt-1 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 9</figcaption>
       </figure>
 
       <!-- ── tile 10 ── -->
@@ -644,10 +644,10 @@
         <img
           src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/message_dump/WhatsApp+Image+2026-07-26+at+7.46.26+PM_6.jpeg"
           alt="SMS message exchange 10"
-          class="aspect-[3/4] w-full rounded-xl object-contain bg-surface"
+          class="aspect-[4/5] w-full rounded-xl object-contain bg-surface"
           loading="lazy"
         />
-        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 10</figcaption>
+        <figcaption class="mt-1 font-mono text-xs leading-relaxed text-muted">SMS Exchange · 10</figcaption>
       </figure>
 
     </div>
