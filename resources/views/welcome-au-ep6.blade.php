@@ -377,7 +377,7 @@
         <!-- image column: mirrored to the left on desktop -->
         <img
             alt="John Ramsden — Ramsden Lawyers"
-            src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/john_ramsden_lawyer_identify.png"
+            src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/john_ramsden_managing_partner.png"
             class="h-56 w-full object-cover sm:order-1 sm:h-full"
         />
 
