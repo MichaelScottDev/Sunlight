@@ -282,7 +282,7 @@
   </div>
 </section>
 
-    <!-- ══════════════════════════════════════
+   <!-- ══════════════════════════════════════
      RECEIPTS SECTION — EXTORTION EVIDENCE
 ══════════════════════════════════════ -->
 <section class="max-w-4xl mx-auto px-5 md:px-10 py-16 space-y-8 reveal">
@@ -296,33 +296,41 @@
         Adam Watson Paid Not To Have His Life Ruined
     </p>
 
-    <!-- Image Grid for Receipts -->
-    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
-        <!-- Replace src with actual receipt image URLs -->
-        <div class="border border-paper/[0.07] bg-ink/50">
-            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_ramsden_1.jpeg" alt="Receipt 1" class="w-full h-auto block" loading="lazy" />
-        </div>
-        <div class="border border-paper/[0.07] bg-ink/50">
-            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_ramsden_2.jpeg" alt="Receipt 2" class="w-full h-auto block" loading="lazy" />
-        </div>
-        <div class="border border-paper/[0.07] bg-ink/50">
-            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/i_ramsden_commbank.jpeg" alt="Receipt 3" class="w-full h-auto block" loading="lazy" />
-        </div>
-        <!-- Add more as needed – the grid adapts to 2 columns on mobile, 3 on desktop -->
-        <!-- Example extra:
-        <div class="border border-paper/[0.07] bg-ink/50">
-            <img src="receipt-4.jpg" alt="Receipt 4" class="w-full h-auto block" loading="lazy" />
-        </div>
-        -->
-    </div>
-
     <!-- Description -->
     <div class="border-l-4 border-hot/60 pl-4 py-3" style="background:rgba(193,68,14,0.05)">
         <p class="text-[0.72rem] leading-relaxed text-paper/55">
-            Take a look at the receipts above – keep paying or I'll tell everyone you raped me.
+            Take a look at these receipts – keep paying or I'll tell everyone you raped me.
             The police wouldn't know about his real age and he could play the sympathetic victim.
             Nice try – and these dirty tricks are exactly what this publication aims to expose.
         </p>
+    </div>
+
+    <!-- Image Grid — 3 receipts -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div class="border border-paper/[0.07] bg-ink/50">
+            <img
+                src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_ramsden_1.jpeg"
+                alt="Receipt 1 — Isaac Ramsden"
+                class="w-full h-auto block rounded"
+                loading="lazy"
+            />
+        </div>
+        <div class="border border-paper/[0.07] bg-ink/50">
+            <img
+                src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_ramsden_2.jpeg"
+                alt="Receipt 2 — Isaac Ramsden"
+                class="w-full h-auto block rounded"
+                loading="lazy"
+            />
+        </div>
+        <div class="border border-paper/[0.07] bg-ink/50">
+            <img
+                src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/i_ramsden_commbank.jpeg"
+                alt="Receipt 3 — CommBank transfer"
+                class="w-full h-auto block rounded"
+                loading="lazy"
+            />
+        </div>
     </div>
 </section>
 
