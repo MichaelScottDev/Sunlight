@@ -282,56 +282,58 @@
   </div>
 </section>
 
-   <!-- ══════════════════════════════════════
-     RECEIPTS SECTION — EXTORTION EVIDENCE
-══════════════════════════════════════ -->
-<section class="max-w-4xl mx-auto px-5 md:px-10 py-16 space-y-8 reveal">
-    <!-- Headline -->
-    <h2 class="font-display text-4xl md:text-5xl tracking-wide leading-tight text-hot">
-        Receipts of the Extortion
-    </h2>
+ <!-- ══════════════════════════════════════════════════════════════
+     FOUR-COLUMN PHOTO TILES  —  RECEIPTS OF THE EXTORTION
+     Grid: 3 across on desktop → 2 on tablet → 1 on mobile.
+     ══════════════════════════════════════════════════════════════ -->
+<section class="bg-ink px-6 py-20 md:py-28 lg:px-8">
+  <div class="mx-auto max-w-6xl">
 
-    <!-- Subheadline -->
-    <p class="font-serif italic text-paper/50 text-lg leading-relaxed">
-        Adam Watson Paid Not To Have His Life Ruined
-    </p>
-
-    <!-- Description -->
-    <div class="border-l-4 border-hot/60 pl-4 py-3" style="background:rgba(193,68,14,0.05)">
-        <p class="text-[0.72rem] leading-relaxed text-paper/55">
-            Take a look at these receipts – keep paying or I'll tell everyone you raped me.
-            The police wouldn't know about his real age and he could play the sympathetic victim.
-            Nice try – and these dirty tricks are exactly what this publication aims to expose.
-        </p>
+    <!-- header -->
+    <div class="max-w-2xl">
+      <p class="font-mono kicker text-xs uppercase text-gold">Evidence</p>
+      <h2 class="mt-4 font-display h-display text-5xl uppercase text-paper md:text-6xl">Receipts of the Extortion</h2>
+      <p class="mt-3 font-quote text-2xl italic text-gold md:text-3xl">Adam Watson Paid Not To Have His Life Ruined</p>
+      <p class="mt-6 font-serif text-lg leading-relaxed text-muted">
+        Take a look at these receipts – keep paying or I'll tell everyone you raped me. The police wouldn't know about his real age and he could play the sympathetic victim. Nice try – and these dirty tricks are exactly what this publication aims to expose.
+      </p>
     </div>
 
-    <!-- Image Grid — 3 receipts -->
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-        <div class="border border-paper/[0.07] bg-ink/50">
-            <img
-                src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_ramsden_1.jpeg"
-                alt="Receipt 1 — Isaac Ramsden"
-                class="w-full h-auto block rounded"
-                loading="lazy"
-            />
-        </div>
-        <div class="border border-paper/[0.07] bg-ink/50">
-            <img
-                src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_ramsden_2.jpeg"
-                alt="Receipt 2 — Isaac Ramsden"
-                class="w-full h-auto block rounded"
-                loading="lazy"
-            />
-        </div>
-        <div class="border border-paper/[0.07] bg-ink/50">
-            <img
-                src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/i_ramsden_commbank.jpeg"
-                alt="Receipt 3 — CommBank transfer"
-                class="w-full h-auto block rounded"
-                loading="lazy"
-            />
-        </div>
+    <!-- grid: 3 items → lg:grid-cols-3 (desktop), sm:grid-cols-2 (tablet), 1 (mobile) -->
+    <div class="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+      <!-- ── Tile 1: Isaac Ramsden photo 1 ── -->
+      <figure class="tile">
+        <img
+          src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_ramsden_1.jpeg"
+          alt="Isaac Ramsden"
+          class="aspect-[3/4] w-full rounded-xl border border-line bg-surface object-cover"
+        />
+        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">Isaac Ramsden</figcaption>
+      </figure>
+
+      <!-- ── Tile 2: Isaac Ramsden photo 2 ── -->
+      <figure class="tile">
+        <img
+          src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_ramsden_2.jpeg"
+          alt="Isaac Ramsden"
+          class="aspect-[3/4] w-full rounded-xl border border-line bg-surface object-cover"
+        />
+        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">Isaac Ramsden</figcaption>
+      </figure>
+
+      <!-- ── Tile 3: Commonwealth Bank receipt ── -->
+      <figure class="tile">
+        <img
+          src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/i_ramsden_commbank.jpeg"
+          alt="Commonwealth Bank receipt — Isaac Ramsden"
+          class="aspect-[3/4] w-full rounded-xl border border-line bg-surface object-cover"
+        />
+        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">Commonwealth Bank receipt</figcaption>
+      </figure>
+
     </div>
+  </div>
 </section>
 
 
