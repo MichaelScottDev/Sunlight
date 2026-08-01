@@ -5028,6 +5028,181 @@
     </div>
 </section>
 
+    <!-- ══════════════════════════════════════════════════════════════
+     CONVERSATION + INVOICES + SOURCE BLOCK
+     ══════════════════════════════════════════════════════════════ -->
+<section class="bg-ink px-6 py-20 md:py-28 lg:px-8">
+  <div class="mx-auto max-w-3xl">
+
+    <!-- headline + subheadline -->
+    <header>
+      <h2 class="font-display h-display text-4xl uppercase text-red md:text-6xl">
+        Robert calls me a shit cunt that ruins people&rsquo;s lives
+      </h2>
+      <p class="mt-4 font-quote text-xl italic text-gold md:text-2xl">
+        Which is completely fine — as long as he pays his debts (and returns the deposits
+        from the Australians that purchased his apartments).
+      </p>
+    </header>
+
+    <!-- ── PHONE CONVERSATION EXCERPT ── -->
+    <div class="mt-14">
+      <p class="font-mono kicker text-xs uppercase text-gold">Excerpt of phone conversation</p>
+
+      <!-- participants -->
+      <div class="mt-5 flex items-center gap-6 border-b border-line pb-5">
+        <div class="flex items-center gap-3">
+          <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/robert_huang.jpeg" alt="Robert Huang" class="h-10 w-10 rounded-full border border-line object-cover">
+          <span class="font-mono text-xs uppercase tracking-wide text-muted">Robert Huang</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/adam_watson_portrait.jpg" alt="Adam Watson" class="h-10 w-10 rounded-full border border-gold/40 object-cover">
+          <span class="font-mono text-xs uppercase tracking-wide text-gold">Adam Watson</span>
+        </div>
+      </div>
+
+      <!-- transcript (left = Huang, right = Watson) -->
+      <div class="mt-6 space-y-4">
+
+        <!-- Huang -->
+        <div class="flex justify-start gap-3">
+          <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/robert_huang.jpeg" alt="Robert Huang" class="h-8 w-8 shrink-0 self-end rounded-full border border-line object-cover">
+          <div class="max-w-[78%] rounded-2xl rounded-bl-sm border border-line bg-surface px-4 py-3">
+            <p class="mb-1 font-mono text-[10px] uppercase tracking-wide text-muted">Robert Huang</p>
+            <p class="font-serif text-paper">You never did the work!</p>
+          </div>
+        </div>
+
+        <!-- Adam -->
+        <div class="flex justify-end gap-3">
+          <div class="max-w-[78%] rounded-2xl rounded-br-sm border border-gold/40 bg-gold/10 px-4 py-3">
+            <p class="mb-1 font-mono text-[10px] uppercase tracking-wide text-gold">Adam Watson</p>
+            <p class="font-serif text-paper">What are you talking about? I did the work and sent the invoices.</p>
+          </div>
+          <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/adam_watson_portrait.jpg" alt="Adam Watson" class="h-8 w-8 shrink-0 self-end rounded-full border border-gold/40 object-cover">
+        </div>
+
+        <!-- Huang -->
+        <div class="flex justify-start gap-3">
+          <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/robert_huang.jpeg" alt="Robert Huang" class="h-8 w-8 shrink-0 self-end rounded-full border border-line object-cover">
+          <div class="max-w-[78%] rounded-2xl rounded-bl-sm border border-line bg-surface px-4 py-3">
+            <p class="mb-1 font-mono text-[10px] uppercase tracking-wide text-muted">Robert Huang</p>
+            <p class="font-serif text-paper">You spend more time with that cunt that makes videos and destroys people&rsquo;s lives!</p>
+          </div>
+        </div>
+
+        <!-- Adam -->
+        <div class="flex justify-end gap-3">
+          <div class="max-w-[78%] rounded-2xl rounded-br-sm border border-gold/40 bg-gold/10 px-4 py-3">
+            <p class="mb-1 font-mono text-[10px] uppercase tracking-wide text-gold">Adam Watson</p>
+            <p class="font-serif text-paper">Well he&rsquo;ll expose you with Andrew Cavill!</p>
+          </div>
+          <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/adam_watson_portrait.jpg" alt="Adam Watson" class="h-8 w-8 shrink-0 self-end rounded-full border border-gold/40 object-cover">
+        </div>
+
+        <!-- Huang -->
+        <div class="flex justify-start gap-3">
+          <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/robert_huang.jpeg" alt="Robert Huang" class="h-8 w-8 shrink-0 self-end rounded-full border border-line object-cover">
+          <div class="max-w-[78%] rounded-2xl rounded-bl-sm border border-line bg-surface px-4 py-3">
+            <p class="mb-1 font-mono text-[10px] uppercase tracking-wide text-muted">Robert Huang</p>
+            <p class="font-serif text-paper">I&rsquo;m sick! I&rsquo;m sick!</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── EDITOR'S RESPONSE ── -->
+    <div class="mt-12 border-l-2 border-red bg-surface/60 py-5 pl-6 pr-5">
+      <p class="font-serif text-lg leading-relaxed text-paper">
+        Robert Huang — I may be a shit cunt but I don&rsquo;t owe any money. You talk big for
+        someone that has a number of invoices outstanding. You say I ruin people&rsquo;s lives
+        with my Sunlight.Quest content — this is very polite — just wait until I start debt
+        collection&hellip; you should know when I ran Head Studios video production, all my
+        debts were paid! Every dog gets their day, Mr. Huang!
+      </p>
+    </div>
+
+    <!-- ── OUTSTANDING INVOICES ── -->
+    <div class="mt-14">
+      <h3 class="font-display h-display text-3xl uppercase text-paper md:text-4xl">Outstanding invoices</h3>
+      <p class="mt-2 font-serif text-muted">The documents behind the claim — totals as billed incl. GST. Open each to read in full.</p>
+
+      <ul class="mt-6 divide-y divide-line border-y border-line">
+
+        <li>
+          <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/robert_huang/AW-2026-0015_redacted.pdf" class="group flex items-center gap-4 py-4 transition hover:bg-surface/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+            <span class="shrink-0 rounded bg-red-deep px-2 py-1 font-mono text-[10px] font-medium uppercase tracking-wider text-paper">PDF</span>
+            <span class="min-w-0 flex-1">
+              <span class="block font-serif font-semibold text-paper">AW-2026-0015 — Supreme Court &amp; NCAT matters</span>
+              <span class="font-mono text-xs text-muted">Adam Watson · issued to Robert Huang</span>
+            </span>
+            <span class="font-mono text-sm text-paper">$5,284.40</span>
+            <span class="font-mono text-xs uppercase text-gold transition group-hover:translate-x-1">Open &rarr;</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/robert_huang/AW-2026-0016_redacted.pdf" class="group flex items-center gap-4 py-4 transition hover:bg-surface/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+            <span class="shrink-0 rounded bg-red-deep px-2 py-1 font-mono text-[10px] font-medium uppercase tracking-wider text-paper">PDF</span>
+            <span class="min-w-0 flex-1">
+              <span class="block font-serif font-semibold text-paper">AW-2026-0016 — QLD Court of Appeal appearances</span>
+              <span class="font-mono text-xs text-muted">Adam Watson · issued to Robert Huang</span>
+            </span>
+            <span class="font-mono text-sm text-paper">$18,865.00</span>
+            <span class="font-mono text-xs uppercase text-gold transition group-hover:translate-x-1">Open &rarr;</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/robert_huang/GCRC-2026-0001_redacted.pdf" class="group flex items-center gap-4 py-4 transition hover:bg-surface/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+            <span class="shrink-0 rounded bg-red-deep px-2 py-1 font-mono text-[10px] font-medium uppercase tracking-wider text-paper">PDF</span>
+            <span class="min-w-0 flex-1">
+              <span class="block font-serif font-semibold text-paper">GCRC-2026-0001 — Multiple matters</span>
+              <span class="font-mono text-xs text-muted">Gold Coast Resources Corp · issued to Robert Huang</span>
+            </span>
+            <span class="font-mono text-sm text-paper">$17,085.20</span>
+            <span class="font-mono text-xs uppercase text-gold transition group-hover:translate-x-1">Open &rarr;</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/robert_huang/GCRC-2026-0002_redacted.pdf" class="group flex items-center gap-4 py-4 transition hover:bg-surface/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+            <span class="shrink-0 rounded bg-red-deep px-2 py-1 font-mono text-[10px] font-medium uppercase tracking-wider text-paper">PDF</span>
+            <span class="min-w-0 flex-1">
+              <span class="block font-serif font-semibold text-paper">GCRC-2026-0002 — All matters</span>
+              <span class="font-mono text-xs text-muted">Gold Coast Resources Corp · issued to PSR Crown Investment Pty Ltd</span>
+            </span>
+            <span class="font-mono text-sm text-paper">$143,825.00</span>
+            <span class="font-mono text-xs uppercase text-gold transition group-hover:translate-x-1">Open &rarr;</span>
+          </a>
+        </li>
+
+      </ul>
+
+      <!-- total -->
+      <div class="mt-4 flex items-center justify-between border-t border-gold/40 pt-4">
+        <span class="font-mono text-xs uppercase tracking-wider text-gold">Total outstanding · incl. GST</span>
+        <span class="font-display text-3xl text-paper">$185,059.60</span>
+      </div>
+    </div>
+
+    <!-- ── ABC SOURCE LINK ── -->
+    <a href="https://www.abc.net.au/news/2024-03-26/wollongong-crown-apartment-buyer-nightmare/103554178"
+       target="_blank" rel="noopener noreferrer"
+       class="group mt-14 flex flex-col gap-3 rounded-lg border border-line bg-surface p-5 transition hover:border-gold focus:outline-none focus-visible:ring-2 focus-visible:ring-gold sm:flex-row sm:items-center sm:gap-5">
+      <span class="flex h-11 shrink-0 items-center rounded bg-paper px-3">
+        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/abc_logo.avif" alt="ABC News" class="h-6 w-auto">
+      </span>
+      <span class="min-w-0 flex-1">
+        <span class="block font-serif font-semibold text-paper">Apartment buyer stuck in &lsquo;nightmare&rsquo; as development delayed again</span>
+        <span class="mt-0.5 block font-mono text-xs text-muted">abc.net.au · 26 March 2024</span>
+      </span>
+      <span class="font-mono text-xs uppercase text-gold transition group-hover:translate-x-1">Read &rarr;</span>
+    </a>
+
+  </div>
+</section>
 
 <!-- ══════════════════════════
      GROUND 4 — DEBT LOADING
