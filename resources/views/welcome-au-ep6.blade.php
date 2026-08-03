@@ -821,6 +821,928 @@
   })();
 </script>
 
+     <!-- ══════════════════════════════════════════════════════════════
+    SECTION 1 · TWO-ROW HEADER  (title row · summary row)
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 py-16 md:py-20 lg:px-8">
+        <div class="mx-auto max-w-4xl">
+            <div class="border-b border-line pb-8">
+                <p class="font-mono kicker text-xs uppercase text-gold">Exhibit · Pioneer Lakes</p>
+                <h2 class="font-display h-display text-5xl uppercase text-paper md:text-7xl">
+                    The Mind Poisoning Begins
+                </h2>
+            </div>
+            <p class="mt-8 max-w-3xl font-serif text-lg leading-relaxed text-muted md:text-xl">
+                When no defence is available because everything is true — the only retaliation is rumour spreading.
+                This is the story of how a single phone call poisoned a company, drained millions from a bank
+                account, and drove a man to the edge.
+            </p>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════
+    SECTION 2 · TWO-ROW QUOTE BLOCK  (rumour + retaliation)
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 py-12 md:py-16 lg:px-8">
+        <div class="mx-auto max-w-6xl">
+
+            <!-- ── ROW 1 ── -->
+            <div class="grid grid-cols-1 items-center gap-10 border-t border-line pt-12 lg:grid-cols-12 lg:gap-16">
+
+                <!-- prose -->
+                <div class="max-w-xl font-serif text-base leading-relaxed text-muted md:text-lg lg:col-span-7">
+                    <p class="font-mono text-xs uppercase tracking-wider text-gold">01 · The rumour that won't die</p>
+                    <p class="mt-4">
+                        The oldest rumour in Adam Watson's life — the one that just doesn't die — is that
+                        he raped Bodie Chalmers. The police officer who pressed the sexual assault charge
+                        had it dropped at first mention. But political enemies have weaponised this charge
+                        sheet to destroy Adam Watson's life, again and again.
+                    </p>
+                    <p class="mt-6">
+                        Bodie Chalmers — a person facing very serious charges and a potential 20+ years
+                        in prison — is in Isaac's crew with Z Soeilman. After seeing this website,
+                        John Ramsden did research into Adam Watson, learned of his big development
+                        project at Pioneer Lakes Village in Mackay, and called the office.
+                    </p>
+                    <p class="mt-6">
+                        He spoke to Ursula McKenzie — the vindictive accountant — and told her the rumour:
+                        that Adam is in a relationship with his son (despite the fact Adam only spoke to
+                        him twice) and that he raped Bodie Chalmers. After hearing this unsubstantiated
+                        rumour, Ursula McKenzie proceeded to spread it and poison the entire company.
+                    </p>
+                </div>
+
+                <!-- quote callout -->
+                <figure class="border-l-2 border-red bg-surface/60 py-6 pl-6 pr-5 lg:col-span-5">
+                    <blockquote class="font-quote text-2xl italic leading-snug text-paper md:text-3xl">
+                        “The boys won't want to work with a pedophile!”
+                    </blockquote>
+                    <figcaption class="mt-5 border-t border-line pt-4 font-mono text-xs uppercase tracking-wide text-gold">
+                        Ursula McKenzie
+                        <span class="mt-1 block normal-case tracking-normal text-muted">Referring to the contractors · Pioneer Lakes</span>
+                    </figcaption>
+                </figure>
+
+            </div>
+
+            <!-- ── ROW 2 (reversed) ── -->
+            <div class="mt-12 grid grid-cols-1 items-center gap-10 border-t border-line pt-12 lg:mt-16 lg:grid-cols-12 lg:gap-16">
+
+                <!-- quote callout — sits first on desktop, second on mobile -->
+                <figure class="order-2 border-l-2 border-gold bg-surface/60 py-6 pl-6 pr-5 lg:order-1 lg:col-span-5">
+                    <blockquote class="font-quote text-2xl italic leading-snug text-paper md:text-3xl">
+                        “Hey, at least you can get 16 year old boys! They're hard to get!”
+                    </blockquote>
+                    <figcaption class="mt-5 border-t border-line pt-4 font-mono text-xs uppercase tracking-wide text-gold">
+                        Engineer
+                        <span class="mt-1 block normal-case tracking-normal text-muted">Pioneer Lakes project · calling Adam Watson directly</span>
+                    </figcaption>
+                </figure>
+
+                <!-- prose -->
+                <div class="order-1 max-w-xl font-serif text-base leading-relaxed text-muted md:text-lg lg:order-2 lg:col-span-7">
+                    <p class="font-mono text-xs uppercase tracking-wider text-gold">02 · The retaliation</p>
+                    <p class="mt-4">
+                        This is what you would call vindictive. Anyone can call a company and tell the
+                        receptionist or accountant a rumour. But when you have a corporate culture where
+                        the accountant begins calling around connections and spreading it throughout an
+                        organisation — especially when it's unsubstantiated — you have to start looking
+                        at a better question.
+                    </p>
+                    <p class="mt-6">
+                        There is literally a website — this one — that talks about Bodie Chalmers' actions.
+                        And you have an Attorney General Deb Frecklington who, from my understanding,
+                        has written a letter absolving Adam Watson of this terrible accusation.
+                    </p>
+                    <p class="mt-6">
+                        Somehow Ursula McKenzie was able to get Hellen Pertekes' phone number — the
+                        accountant listed in Episode 4 of this publication — to spread this malicious
+                        rumour in Adam Watson's network. To her defence, Hellen Pertekes did defend
+                        Adam Watson, though her medical scam attempt from that episode is noted.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════
+    SECTION 3 · SPLIT FEATURE  (developers + drained accounts)
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 py-20 md:py-28 lg:px-8">
+        <div class="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2 md:gap-16">
+
+            <!-- ── LEFT: Mike Botica image ── -->
+            <div class="order-1 md:order-none rounded-xl border border-line bg-surface overflow-hidden flex items-center justify-center">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/mike_botica.png" alt="Mike Botica" class="w-full h-auto object-contain">
+                <div class="p-4 text-center border-t border-line w-full">
+                    <p class="font-mono text-xs uppercase tracking-widest text-muted">Mr. NoFace</p>
+                    <a href="https://www.linkedin.com/in/mike-botica-036a6278/" target="_blank" rel="noopener noreferrer" class="inline-block mt-1 font-mono text-[10px] uppercase text-gold hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+                        LinkedIn Profile &rarr;
+                    </a>
+                </div>
+            </div>
+
+            <!-- ── RIGHT: heading + features ── -->
+            <div class="order-2">
+
+                <h2 class="font-display h-display text-5xl uppercase text-paper md:text-6xl">
+                    The Developers Allowing This To Go On
+                </h2>
+
+                <p class="mt-6 max-w-md font-serif text-lg leading-relaxed text-paper/85 md:text-xl">
+                    Draining the bank accounts and the Mackay lawyer connection.
+                </p>
+
+                <hr class="my-10 border-line" />
+
+                <!-- feature 1 -->
+                <div class="feature mb-10 flex gap-5">
+                    <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-gold/40 bg-gold/10">
+                        <svg class="h-5 w-5 text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                            <path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2Z" />
+                            <path d="M9 13h6" />
+                            <path d="M9 17h6" />
+                        </svg>
+                    </span>
+                    <div>
+                        <h3 class="font-serif text-xl font-semibold text-paper">Mike Botica &amp; John drained the account</h3>
+                        <p class="mt-2 max-w-md font-serif text-base leading-relaxed text-muted">
+                            After Adam Watson transferred the company over to his name — after the other
+                            owners signed the Heads of Agreement and all relevant paperwork — Mike and
+                            his partner John drained the company bank account just before Adam could get
+                            access. More than $4 million worth.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- feature 2 -->
+                <div class="feature mb-10 flex gap-5">
+                    <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-gold/40 bg-gold/10">
+                        <svg class="h-5 w-5 text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M12 16v-4" />
+                            <path d="M12 8h.01" />
+                        </svg>
+                    </span>
+                    <div>
+                        <h3 class="font-serif text-xl font-semibold text-paper">Commonwealth Bank liability</h3>
+                        <p class="mt-2 max-w-md font-serif text-base leading-relaxed text-muted">
+                            The Commonwealth Bank is potentially liable to be sued for allowing this to
+                            happen. They have special software now to ensure that when a company changes
+                            Directors, the old owners can't drain the account. They'll be looped in when
+                            this goes to the Federal Circuit Court.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- feature 3 -->
+                <div class="feature flex gap-5">
+                    <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-gold/40 bg-gold/10">
+                        <svg class="h-5 w-5 text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            <path d="m9 12 2 2 4-4" />
+                        </svg>
+                    </span>
+                    <div>
+                        <h3 class="font-serif text-xl font-semibold text-paper">Illegal — and very concerning</h3>
+                        <p class="mt-2 max-w-md font-serif text-base leading-relaxed text-muted">
+                            It's actually illegal too. The old directors draining a company account after
+                            transfer is fraud. The Federal Circuit Court was created for exactly this
+                            kind of setup.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════
+    SECTION 4 · PDF EMBED  (Form 484 + McKays lawyers)
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 py-20 md:py-28 lg:px-8">
+        <div class="mx-auto max-w-6xl">
+
+            <div class="max-w-3xl">
+                <p class="font-mono kicker text-xs uppercase text-gold">The smoking gun</p>
+                <h2 class="mt-4 font-display h-display text-5xl uppercase text-paper md:text-7xl">
+                    On to the Paperwork
+                </h2>
+                <p class="mt-4 font-quote text-2xl italic text-gold md:text-3xl">
+                    The smoking gun of this whole 'fraudulent director' debacle.
+                </p>
+            </div>
+
+            <div class="mt-14 grid grid-cols-1 gap-12 lg:mt-20 lg:grid-cols-12 lg:gap-16">
+
+                <!-- ── LEFT: notes ── -->
+                <div class="lg:col-span-5">
+
+                    <dl class="divide-y divide-line border-y border-line">
+                        <div class="flex items-baseline justify-between gap-6 py-3">
+                            <dt class="font-mono text-[10px] uppercase tracking-wider text-muted">From</dt>
+                            <dd class="text-right font-serif text-paper">McKays lawyers</dd>
+                        </div>
+                        <div class="flex items-baseline justify-between gap-6 py-3">
+                            <dt class="font-mono text-[10px] uppercase tracking-wider text-muted">Engaged by</dt>
+                            <dd class="text-right font-serif text-paper">Michael Joe Botica · Stephen Brian Coleman</dd>
+                        </div>
+                        <div class="flex items-baseline justify-between gap-6 py-3">
+                            <dt class="font-mono text-[10px] uppercase tracking-wider text-muted">Allegation</dt>
+                            <dd class="text-right font-serif text-paper">Fraudulent Form 484 lodged with ASIC</dd>
+                        </div>
+                    </dl>
+
+                    <div class="mt-8 font-serif text-base leading-relaxed text-muted md:text-lg">
+                        <p>
+                            Below is the letter from McKays lawyers — engaged on behalf of the old
+                            Directors of Pioneer Lakes — making the allegations that Adam Watson had
+                            lodged a fraudulent Form 484 (Change to company details).
+                        </p>
+                        <p class="mt-6">
+                            But this publication has obtained a copy of the <strong>actual Form 484</strong>
+                            that Adam Watson lodged with ASIC — provided below for your perusal with
+                            some personal information redacted.
+                        </p>
+                        <p class="mt-6">
+                            <strong>Page 18 is the Smoking Gun — a Signature from Michael Joe Botica.</strong>
+                        </p>
+                        <p class="mt-6">
+                            McKays lawyers wouldn't knowingly be enabling financial fraud, would they?
+                            Maybe I'm missing something. While McKays lawyers are engaged to write
+                            legal letters and make baseless accusations, Mike refuses to speak to me
+                            or even make any comment — and never brings this up to Adam Watson.
+                            A tactical smoke bomb.
+                        </p>
+                    </div>
+
+                    <div class="mt-8 flex flex-wrap gap-3">
+                        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/change_to_company_details_REDACTED.pdf" download class="inline-flex items-center gap-2 rounded border border-line px-4 py-2 font-mono text-xs uppercase tracking-wider text-muted transition hover:border-paper hover:text-paper focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+                            Download Form 484
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- ── RIGHT: PDF embed ── -->
+                <div class="lg:col-span-7">
+                    <figure class="lg:sticky lg:top-8">
+
+                        <div class="flex items-center gap-3 rounded-t-lg border border-b-0 border-line bg-surface-2 px-4 py-3">
+                            <span class="shrink-0 rounded bg-red-deep px-2 py-1 font-mono text-[10px] font-medium uppercase tracking-wider text-paper">PDF</span>
+                            <span class="min-w-0 flex-1 truncate font-mono text-xs text-muted">change_to_company_details_REDACTED.pdf</span>
+                            <span class="shrink-0 font-mono text-[10px] uppercase tracking-wider text-muted">redacted</span>
+                        </div>
+
+                        <div class="overflow-hidden rounded-b-lg border border-line bg-surface">
+                            <object data="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/change_to_company_details_REDACTED.pdf#view=FitH" type="application/pdf" class="block h-[70vh] min-h-[420px] w-full lg:h-[760px]" aria-label="Embedded PDF of Form 484">
+                                <div class="flex h-full flex-col items-center justify-center gap-4 px-6 py-16 text-center">
+                                    <p class="font-serif text-muted">This browser can't display the document inline.</p>
+                                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/change_to_company_details_REDACTED.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded border border-gold px-4 py-2 font-mono text-xs uppercase tracking-wider text-gold transition hover:bg-gold hover:text-ink">
+                                        Open the PDF &rarr;
+                                    </a>
+                                </div>
+                            </object>
+                        </div>
+
+                        <figcaption class="mt-3 font-mono text-xs text-muted">
+                            Form 484 lodged with ASIC — personal information redacted. Page 18 is the Smoking Gun: a Signature from Michael Joe Botica.
+                        </figcaption>
+
+                    </figure>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════
+    SECTION 5 · MCKAYS LETTER EMBED (fraudulent allegation)
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 py-16 md:py-20 lg:px-8">
+        <div class="mx-auto max-w-4xl">
+            <div class="border-t border-line pt-12">
+                <p class="font-mono kicker text-xs uppercase text-gold">Exhibit · McKays letter</p>
+                <h3 class="mt-4 font-display h-display text-4xl uppercase text-paper md:text-5xl">
+                    Fraudulent? Fraudulent How?
+                </h3>
+                <p class="mt-4 font-quote text-xl italic text-gold md:text-2xl">
+                    The letter from McKays solicitor Lloyd Stranger accusing the Form 484 of being lodged fraudulently — based on accusations from Ursula McKenzie, the vindictive accountant.
+                </p>
+            </div>
+
+            <div class="mt-8 rounded-lg border border-line bg-surface p-4">
+                <div class="flex items-center gap-3 rounded-t-lg border border-b-0 border-line bg-surface-2 px-4 py-3">
+                    <span class="shrink-0 rounded bg-red-deep px-2 py-1 font-mono text-[10px] font-medium uppercase tracking-wider text-paper">PDF</span>
+                    <span class="min-w-0 flex-1 truncate font-mono text-xs text-muted">mckays_letter_fraudulent_form_484_REDACTED.pdf</span>
+                    <span class="shrink-0 font-mono text-[10px] uppercase tracking-wider text-muted">redacted</span>
+                </div>
+                <div class="overflow-hidden rounded-b-lg border border-line bg-surface">
+                    <object data="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/mckays_letter_fraudulent_form_484_REDACTED.pdf#view=FitH" type="application/pdf" class="block h-[70vh] min-h-[420px] w-full lg:h-[760px]" aria-label="Embedded PDF of McKays letter">
+                        <div class="flex h-full flex-col items-center justify-center gap-4 px-6 py-16 text-center">
+                            <p class="font-serif text-muted">This browser can't display the document inline.</p>
+                            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/mckays_letter_fraudulent_form_484_REDACTED.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded border border-gold px-4 py-2 font-mono text-xs uppercase tracking-wider text-gold transition hover:bg-gold hover:text-ink">
+                                Open the PDF &rarr;
+                            </a>
+                        </div>
+                    </object>
+                </div>
+                <figcaption class="mt-3 font-mono text-xs text-muted">
+                    Letter from McKays solicitor Lloyd Stranger, 28 July 2026. Allegations of fraudulent lodgement based on accusations from Ursula McKenzie.
+                </figcaption>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════
+    SECTION 6 · SECOND LETTER EMBED (no mention of fraud)
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 py-16 md:py-20 lg:px-8">
+        <div class="mx-auto max-w-4xl">
+            <div class="border-t border-line pt-12">
+                <p class="font-mono kicker text-xs uppercase text-gold">Exhibit · follow-up letter</p>
+                <h3 class="mt-4 font-display h-display text-4xl uppercase text-paper md:text-5xl">
+                    The Letter Attached to the Email That Implied Fraudulence
+                </h3>
+                <p class="mt-4 font-quote text-xl italic text-gold md:text-2xl">
+                    No mention of the fraudulent Form 484.
+                </p>
+                <p class="mt-4 font-serif text-base leading-relaxed text-muted md:text-lg">
+                    Allegations are made in the subject line of the email above, but not in the attached letter.
+                    This is something I'll have to get comment on from McKays on behalf of their client.
+                    If you're reading this, guys — can you confirm the signature of Mike Botica is his real
+                    signature on the Form 484 that was lodged with ASIC?
+                </p>
+            </div>
+
+            <div class="mt-8 rounded-lg border border-line bg-surface p-4">
+                <div class="flex items-center gap-3 rounded-t-lg border border-b-0 border-line bg-surface-2 px-4 py-3">
+                    <span class="shrink-0 rounded bg-red-deep px-2 py-1 font-mono text-[10px] font-medium uppercase tracking-wider text-paper">PDF</span>
+                    <span class="min-w-0 flex-1 truncate font-mono text-xs text-muted">Letter to Buyer - Form 484 for Signing (005).pdf</span>
+                </div>
+                <div class="overflow-hidden rounded-b-lg border border-line bg-surface">
+                    <object data="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/Letter+to+Buyer+-+Form+484+for+Signing+(005).pdf#view=FitH" type="application/pdf" class="block h-[70vh] min-h-[420px] w-full lg:h-[760px]" aria-label="Embedded PDF of letter to buyer">
+                        <div class="flex h-full flex-col items-center justify-center gap-4 px-6 py-16 text-center">
+                            <p class="font-serif text-muted">This browser can't display the document inline.</p>
+                            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/Letter+to+Buyer+-+Form+484+for+Signing+(005).pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded border border-gold px-4 py-2 font-mono text-xs uppercase tracking-wider text-gold transition hover:bg-gold hover:text-ink">
+                                Open the PDF &rarr;
+                            </a>
+                        </div>
+                    </object>
+                </div>
+                <figcaption class="mt-3 font-mono text-xs text-muted">
+                    Letter from McKays to Adam Watson, 30 July 2026. Encloses Form 362 and Form 484 for execution — but makes no mention of fraud.
+                </figcaption>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════
+    SECTION 7 · ASIC DOCUMENT VERIFICATION
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 py-16 md:py-20 lg:px-8">
+        <div class="mx-auto max-w-4xl">
+            <div class="border-t border-line pt-12">
+                <p class="font-mono kicker text-xs uppercase text-gold">Verified · ASIC extract</p>
+                <h3 class="mt-4 font-display h-display text-4xl uppercase text-paper md:text-5xl">
+                    ASIC Document Verifying Adam Watson as Director
+                </h3>
+                <p class="mt-4 font-quote text-xl italic text-gold md:text-2xl">
+                    Just as it should be — done ethically and correctly.
+                </p>
+            </div>
+
+            <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2">
+                <div class="font-serif text-base leading-relaxed text-muted md:text-lg">
+                    <p>
+                        The ASIC extract below confirms that Adam Watson was appointed as Director
+                        and Secretary of Pioneer Lakes Pty Ltd on 3 July 2026. The previous directors —
+                        Michael Joe Botica, Stephen Brian Coleman, and John Leslie O'Toole — all ceased
+                        on the same date.
+                    </p>
+                    <p class="mt-4">
+                        This is the official record. It was lodged correctly, ethically, and in full
+                        compliance with the Corporations Act. The allegations of a "fraudulent" Form 484
+                        are contradicted by the very document that ASIC itself issued.
+                    </p>
+                    <div class="mt-6">
+                        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/Pioneer+Lakes+Pty+Ltd+-+ASIC+-+27-07-2026.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded border border-gold px-4 py-2 font-mono text-xs uppercase tracking-wider text-gold transition hover:bg-gold hover:text-ink focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+                            Open ASIC extract
+                            <span class="transition group-hover:translate-x-1">&rarr;</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="rounded-lg border border-line bg-surface p-4">
+                    <div class="flex items-center gap-3 rounded-t-lg border border-b-0 border-line bg-surface-2 px-4 py-3">
+                        <span class="shrink-0 rounded bg-red-deep px-2 py-1 font-mono text-[10px] font-medium uppercase tracking-wider text-paper">PDF</span>
+                        <span class="min-w-0 flex-1 truncate font-mono text-xs text-muted">Pioneer Lakes Pty Ltd - ASIC - 27-07-2026.pdf</span>
+                    </div>
+                    <div class="overflow-hidden rounded-b-lg border border-line bg-surface">
+                        <object data="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/Pioneer+Lakes+Pty+Ltd+-+ASIC+-+27-07-2026.pdf#view=FitH" type="application/pdf" class="block h-[400px] w-full" aria-label="Embedded ASIC extract">
+                            <div class="flex h-full flex-col items-center justify-center gap-4 px-6 py-16 text-center">
+                                <p class="font-serif text-muted">This browser can't display the document inline.</p>
+                                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/Pioneer+Lakes+Pty+Ltd+-+ASIC+-+27-07-2026.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded border border-gold px-4 py-2 font-mono text-xs uppercase tracking-wider text-gold transition hover:bg-gold hover:text-ink">
+                                    Open the PDF &rarr;
+                                </a>
+                            </div>
+                        </object>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════
+    SECTION 8 · THE SILENCE IS ALWAYS THE TELL...
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 py-20 md:py-28 lg:px-8">
+        <div class="mx-auto max-w-6xl">
+
+            <!-- header -->
+            <div class="max-w-2xl">
+                <p class="font-mono kicker text-xs uppercase text-gold">The Silence</p>
+                <h2 class="mt-4 font-display h-display text-5xl uppercase text-paper md:text-6xl">
+                    The Silence Is Always the Tell...
+                </h2>
+                <p class="mt-3 font-quote text-2xl italic text-gold md:text-3xl">
+                    Mike the Developer Is Eerily Quiet....
+                </p>
+                <div class="mt-6 space-y-4 font-serif text-lg leading-relaxed text-muted">
+                    <p>
+                        Just like John Ramsden on this page (Isaac's dad) - whose office has gone into silence mode when I asked them to comment on this story (aka it's true otherwise they'd get on the front foot and send a Cease and Desist).
+                    </p>
+                    <p>
+                        If you believed your company had been stolen from you - wouldn't you be jumping up and down and contacting the associate of the person who you're communicating with to blast him? But no phone calls... no SMS messages. The silence is always the tell.
+                    </p>
+                    <p>
+                        By the way the strange thing is when Mike speaks to Adam he never makes the allegation to his face - welcome to the slimy world of corporate fraud.
+                    </p>
+                </div>
+            </div>
+
+            <!-- grid – tighter gap, no forced aspect ratio -->
+            <div class="mt-14 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+
+                <!-- ── tile 1 ── -->
+                <figure class="tile">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/sms_messages/WhatsApp+Image+2026-08-03+at+10.27.14+PM+(2).jpeg" alt="SMS message exchange" class="w-full rounded-xl object-contain bg-surface" loading="lazy" />
+                    <figcaption class="mt-1 font-mono text-xs leading-relaxed text-muted">SMS message</figcaption>
+                </figure>
+
+                <!-- ── tile 2 ── -->
+                <figure class="tile">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/sms_messages/WhatsApp+Image+2026-08-03+at+10.27.14+PM+(3).jpeg" alt="SMS message exchange" class="w-full rounded-xl object-contain bg-surface" loading="lazy" />
+                    <figcaption class="mt-1 font-mono text-xs leading-relaxed text-muted">SMS message</figcaption>
+                </figure>
+
+                <!-- ── tile 3 ── -->
+                <figure class="tile">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/sms_messages/WhatsApp+Image+2026-08-03+at+10.27.14+PM.jpeg" alt="SMS message exchange" class="w-full rounded-xl object-contain bg-surface" loading="lazy" />
+                    <figcaption class="mt-1 font-mono text-xs leading-relaxed text-muted">SMS message</figcaption>
+                </figure>
+
+                <!-- ── tile 4 ── -->
+                <figure class="tile">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/sms_messages/WhatsApp+Image+2026-08-03+at+10.27.13+PM+(1).jpeg" alt="SMS message exchange" class="w-full rounded-xl object-contain bg-surface" loading="lazy" />
+                    <figcaption class="mt-1 font-mono text-xs leading-relaxed text-muted">SMS message</figcaption>
+                </figure>
+
+                <!-- ── tile 5 ── -->
+                <figure class="tile">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/sms_messages/WhatsApp+Image+2026-08-03+at+10.27.13+PM+(2).jpeg" alt="SMS message exchange" class="w-full rounded-xl object-contain bg-surface" loading="lazy" />
+                    <figcaption class="mt-1 font-mono text-xs leading-relaxed text-muted">SMS message</figcaption>
+                </figure>
+
+                <!-- ── tile 6 ── -->
+                <figure class="tile">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/sms_messages/WhatsApp+Image+2026-08-03+at+10.27.13+PM.jpeg" alt="SMS message exchange" class="w-full rounded-xl object-contain bg-surface" loading="lazy" />
+                    <figcaption class="mt-1 font-mono text-xs leading-relaxed text-muted">SMS message</figcaption>
+                </figure>
+
+                <!-- ── tile 7 ── -->
+                <figure class="tile">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/sms_messages/WhatsApp+Image+2026-08-03+at+10.27.14+PM+(1).jpeg" alt="SMS message exchange" class="w-full rounded-xl object-contain bg-surface" loading="lazy" />
+                    <figcaption class="mt-1 font-mono text-xs leading-relaxed text-muted">SMS message</figcaption>
+                </figure>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════
+    SECTION 9 · PARTIES BLOCK (Federal Court Documents Being Lodged)
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 py-20 md:py-28 lg:px-8">
+        <div class="mx-auto max-w-6xl">
+
+            <!-- Header -->
+            <div class="max-w-3xl">
+                <p class="font-mono kicker text-xs uppercase text-gold">Federal Circuit Court · QUD0000/2026</p>
+                <h2 class="mt-4 font-display h-display text-5xl uppercase text-paper md:text-7xl">Federal Court Documents Being Lodged</h2>
+                <p class="mt-4 font-quote text-2xl italic text-gold md:text-3xl">Parties Looped Into the Proceedings - and then the Judge will decide</p>
+                <p class="mt-6 font-serif text-base leading-relaxed text-muted md:text-lg">Commonwealth Bank has a responsibility to not allow $4 million to be drained from an account by a former Director - and stigmatizing someone by saying they stole a company and locking his account based on false allegations is going to add a couple more million to Mr. Watson's account - in a way he should thank these group of crooks for a big pay day.</p>
+            </div>
+
+            <!-- Filter Rail -->
+            <div class="mt-12 border-y border-line py-4">
+                <div class="flex flex-wrap items-center gap-x-6 gap-y-4">
+                    <p class="font-mono text-[10px] uppercase tracking-wider text-muted">Trace a party</p>
+                    <div class="flex flex-wrap gap-2">
+                        <button type="button" data-filter="all" aria-pressed="true" class="rounded-full border border-gold bg-gold px-3 py-1 font-mono text-[11px] uppercase tracking-wider text-ink transition focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+                            All parties
+                        </button>
+                        <button type="button" data-filter="pl" aria-pressed="false" class="rounded-full border border-line px-3 py-1 font-mono text-[11px] uppercase tracking-wider text-muted transition hover:border-paper hover:text-paper focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+                            Pioneer Lakes
+                        </button>
+                        <button type="button" data-filter="mck" aria-pressed="false" class="rounded-full border border-line px-3 py-1 font-mono text-[11px] uppercase tracking-wider text-muted transition hover:border-paper hover:text-paper focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+                            McKays
+                        </button>
+                        <button type="button" data-filter="cba" aria-pressed="false" class="rounded-full border border-line px-3 py-1 font-mono text-[11px] uppercase tracking-wider text-muted transition hover:border-paper hover:text-paper focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+                            Commonwealth Bank
+                        </button>
+                    </div>
+                </div>
+
+                <!-- role key -->
+                <div class="mt-4 flex flex-wrap items-center gap-x-6 gap-y-2 font-mono text-[10px] uppercase tracking-wider text-muted">
+                    <span class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-gold"></span> Applicant</span>
+                    <span class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-red"></span> Respondent</span>
+                    <span class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-muted"></span> Interested party / Witness</span>
+                </div>
+            </div>
+
+            <!-- Corporate Parties -->
+            <div class="mt-12">
+                <h3 class="font-display h-display text-3xl uppercase text-paper md:text-4xl">Corporate parties</h3>
+
+                <div class="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+
+                    <!-- Pioneer Lakes -->
+                    <article data-entities="pl" class="flex flex-col rounded-lg border border-line bg-surface p-5">
+                        <div class="flex items-start justify-between gap-4">
+                            <span class="flex h-14 w-14 shrink-0 items-center justify-center rounded border border-line bg-surface-2 font-display text-2xl text-muted">PL</span>
+                            <span class="shrink-0 rounded-full border border-red/50 px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-red">First respondent</span>
+                        </div>
+                        <h4 class="mt-4 font-serif text-lg font-semibold leading-snug text-paper">Pioneer Lakes Pty Ltd</h4>
+                        <p class="mt-1 font-mono text-xs text-muted">ACN 000 000 000</p>
+
+                        <div class="mt-5 border-t border-line pt-4">
+                            <p class="font-mono text-[10px] uppercase tracking-wider text-muted">Officers on the record</p>
+                            <ul class="mt-3 space-y-3">
+                                <li data-entities="pl" class="flex items-center gap-3">
+                                    <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-line bg-surface-2">
+                                        <svg class="h-4 w-4 text-line" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></svg>
+                                    </span>
+                                    <span class="min-w-0">
+                                        <span class="block truncate font-serif text-paper">Mike Botica</span>
+                                        <span class="block font-mono text-[10px] uppercase tracking-wider text-muted">Director (previous)</span>
+                                    </span>
+                                </li>
+                                <li data-entities="pl" class="flex items-center gap-3">
+                                    <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-line bg-surface-2">
+                                        <svg class="h-4 w-4 text-line" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></svg>
+                                    </span>
+                                    <span class="min-w-0">
+                                        <span class="block truncate font-serif text-paper">Ursula McKenzie</span>
+                                        <span class="block font-mono text-[10px] uppercase tracking-wider text-muted">Accountant</span>
+                                    </span>
+                                </li>
+                                <li data-entities="pl" class="flex items-center gap-3">
+                                    <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-gold/40 bg-surface-2">
+                                        <svg class="h-4 w-4 text-line" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></svg>
+                                    </span>
+                                    <span class="min-w-0">
+                                        <span class="block truncate font-serif text-paper">Adam Watson</span>
+                                        <span class="block font-mono text-[10px] uppercase tracking-wider text-gold">Director (current)</span>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- McKays -->
+                    <article data-entities="mck" class="flex flex-col rounded-lg border border-line bg-surface p-5">
+                        <div class="flex items-start justify-between gap-4">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/mckays_solicitors_logo.jpeg" alt="McKays Solicitors" class="h-14 w-auto rounded border border-line object-contain bg-white p-1">
+                            <span class="shrink-0 rounded-full border border-line px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-muted">Legal rep</span>
+                        </div>
+                        <h4 class="mt-4 font-serif text-lg font-semibold leading-snug text-paper">McKays Solicitors</h4>
+                        <p class="mt-1 font-mono text-xs text-muted">Engaged by Botica & Coleman</p>
+
+                        <div class="mt-5 border-t border-line pt-4">
+                            <p class="font-mono text-[10px] uppercase tracking-wider text-muted">Officers on the record</p>
+                            <ul class="mt-3 space-y-3">
+                                <li data-entities="mck" class="flex items-center gap-3">
+                                    <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-line bg-surface-2">
+                                        <svg class="h-4 w-4 text-line" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></svg>
+                                    </span>
+                                    <span class="min-w-0">
+                                        <span class="block truncate font-serif text-paper">Lloyd Stranger</span>
+                                        <span class="block font-mono text-[10px] uppercase tracking-wider text-muted">Solicitor</span>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Commonwealth Bank -->
+                    <article data-entities="cba" class="flex flex-col rounded-lg border border-line bg-surface p-5">
+                        <div class="flex items-start justify-between gap-4">
+                            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/commonwealth_bank.jpeg" alt="Commonwealth Bank" class="h-14 w-auto rounded border border-line object-contain bg-white p-1">
+                            <span class="shrink-0 rounded-full border border-line px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-muted">Interested party</span>
+                        </div>
+                        <h4 class="mt-4 font-serif text-lg font-semibold leading-snug text-paper">Commonwealth Bank of Australia</h4>
+                        <p class="mt-1 font-mono text-xs text-muted">Bondi Junction branch</p>
+
+                        <div class="mt-5 border-t border-line pt-4">
+                            <p class="font-mono text-[10px] uppercase tracking-wider text-muted">Officers on the record</p>
+                            <ul class="mt-3 space-y-3">
+                                <li data-entities="cba" class="flex items-center gap-3">
+                                    <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-line bg-surface-2">
+                                        <svg class="h-4 w-4 text-line" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></svg>
+                                    </span>
+                                    <span class="min-w-0">
+                                        <span class="block truncate font-serif text-paper">Branch Manager</span>
+                                        <span class="block font-mono text-[10px] uppercase tracking-wider text-muted">Employee (Bondi Junction)</span>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+            <!-- Individual Parties -->
+            <div class="mt-14">
+                <h3 class="font-display h-display text-3xl uppercase text-paper md:text-4xl">Joined in their own right</h3>
+                <p class="mt-2 font-serif text-muted">Named personally on the originating application.</p>
+
+                <ul class="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+
+                    <li data-entities="pl">
+                        <div class="flex h-full flex-col items-start rounded-lg border border-line bg-surface p-4">
+                            <span class="flex h-12 w-12 items-center justify-center rounded-full border border-line bg-surface-2">
+                                <svg class="h-6 w-6 text-line" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></svg>
+                            </span>
+                            <p class="mt-3 font-serif font-semibold text-paper">Mike Botica</p>
+                            <p class="mt-0.5 font-mono text-[10px] uppercase tracking-wider text-red">Respondent</p>
+                            <div class="mt-3 flex flex-wrap gap-1.5">
+                                <span class="rounded border border-line px-1.5 py-0.5 font-mono text-[10px] uppercase tracking-wider text-muted">Pioneer Lakes</span>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li data-entities="pl">
+                        <div class="flex h-full flex-col items-start rounded-lg border border-line bg-surface p-4">
+                            <span class="flex h-12 w-12 items-center justify-center rounded-full border border-line bg-surface-2">
+                                <svg class="h-6 w-6 text-line" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></svg>
+                            </span>
+                            <p class="mt-3 font-serif font-semibold text-paper">Ursula McKenzie</p>
+                            <p class="mt-0.5 font-mono text-[10px] uppercase tracking-wider text-muted">Witness</p>
+                            <div class="mt-3 flex flex-wrap gap-1.5">
+                                <span class="rounded border border-line px-1.5 py-0.5 font-mono text-[10px] uppercase tracking-wider text-muted">Pioneer Lakes</span>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li data-entities="pl">
+                        <div class="flex h-full flex-col items-start rounded-lg border border-gold/40 bg-surface p-4">
+                            <span class="flex h-12 w-12 items-center justify-center rounded-full border border-gold/40 bg-surface-2">
+                                <svg class="h-6 w-6 text-line" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></svg>
+                            </span>
+                            <p class="mt-3 font-serif font-semibold text-paper">Adam Watson</p>
+                            <p class="mt-0.5 font-mono text-[10px] uppercase tracking-wider text-gold">Applicant</p>
+                            <div class="mt-3 flex flex-wrap gap-1.5">
+                                <span class="rounded border border-line px-1.5 py-0.5 font-mono text-[10px] uppercase tracking-wider text-muted">Pioneer Lakes</span>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li data-entities="mck">
+                        <div class="flex h-full flex-col items-start rounded-lg border border-line bg-surface p-4">
+                            <span class="flex h-12 w-12 items-center justify-center rounded-full border border-line bg-surface-2">
+                                <svg class="h-6 w-6 text-line" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></svg>
+                            </span>
+                            <p class="mt-3 font-serif font-semibold text-paper">Lloyd Stranger</p>
+                            <p class="mt-0.5 font-mono text-[10px] uppercase tracking-wider text-muted">Solicitor</p>
+                            <div class="mt-3 flex flex-wrap gap-1.5">
+                                <span class="rounded border border-line px-1.5 py-0.5 font-mono text-[10px] uppercase tracking-wider text-muted">McKays</span>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- Source Line -->
+            <p class="mt-10 border-t border-line pt-6 font-mono text-xs leading-relaxed text-muted">
+                Party details taken from the originating application and current ASIC company extracts. Full list of parties per Form 484 and McKays letter. Corrections to <a href="mailto:tips@sunlight.quest" class="text-gold underline underline-offset-4">tips@sunlight.quest</a>.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════
+    SECTION 10 · QUOTE BLOCK  (Adam Watson's quote)
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 pb-8 md:pb-12 lg:px-8">
+        <div class="mx-auto max-w-4xl">
+            <figure class="rounded-xl border-l-2 border-gold bg-surface px-8 py-8 shadow-xl shadow-black/30">
+                <blockquote class="font-quote text-lg italic leading-relaxed text-paper md:text-xl">
+                    &ldquo;Sending emails from lawyers — but this was never said to me. This allegation
+                    was never made to my face. A very serious dangerous snake.&rdquo;
+                </blockquote>
+                <figcaption class="mt-4 flex items-center gap-3 font-mono text-xs uppercase tracking-wide text-muted">
+                    <span class="h-px w-8 bg-gold"></span> Adam Watson · on the McKays lawyers letter
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════
+    SECTION 11 · AUDIO EXHIBIT  (suicide audio file)
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 py-20 md:py-28 lg:px-8">
+        <div class="mx-auto max-w-3xl">
+
+            <header>
+                <p class="font-mono kicker text-xs uppercase text-gold">Exhibit · audio recording</p>
+                <h2 class="mt-4 font-display h-display text-4xl uppercase text-paper md:text-6xl">
+                    The Result of Financial Scammers Like This
+                </h2>
+                <p class="mt-4 font-quote text-xl italic text-gold md:text-2xl">
+                    An audio file left to me by Adam Watson.
+                </p>
+            </header>
+
+            <figure class="mt-12 rounded-lg border border-line bg-surface p-5 sm:p-6">
+
+                <div class="flex flex-wrap items-start justify-between gap-4 border-b border-line pb-4">
+                    <div class="min-w-0">
+                        <figcaption class="font-serif text-lg font-semibold text-paper">
+                            Recording — Adam Watson
+                        </figcaption>
+                        <p class="mt-1 font-mono text-xs text-muted">
+                            Personal recording · OGG · 4.2 MB
+                        </p>
+                    </div>
+                    <span class="shrink-0 rounded bg-red-deep px-2 py-1 font-mono text-[10px] font-medium uppercase tracking-wider text-paper">Audio</span>
+                </div>
+
+                <div class="mt-5">
+                    <audio controls preload="metadata" class="w-full">
+                        <source src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/suicide_voice_note.ogg" type="audio/ogg" />
+                        <p class="font-serif text-muted">
+                            Your browser can't play audio here.
+                            <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/suicide_voice_note.ogg" class="text-gold underline underline-offset-4">Download the recording</a> instead.
+                        </p>
+                    </audio>
+                </div>
+
+                <dl class="mt-5 grid grid-cols-1 gap-x-8 gap-y-3 border-t border-line pt-5 sm:grid-cols-3">
+                    <div>
+                        <dt class="font-mono text-[10px] uppercase tracking-wider text-muted">Recorded by</dt>
+                        <dd class="mt-1 font-serif text-paper">Adam Watson</dd>
+                    </div>
+                    <div>
+                        <dt class="font-mono text-[10px] uppercase tracking-wider text-muted">Context</dt>
+                        <dd class="mt-1 font-serif text-paper">Personal statement</dd>
+                    </div>
+                    <div>
+                        <dt class="font-mono text-[10px] uppercase tracking-wider text-muted">Filed as</dt>
+                        <dd class="mt-1 font-serif text-paper">Exhibit to this publication</dd>
+                    </div>
+                </dl>
+
+                <details class="group mt-5 border-t border-line pt-5">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-mono text-xs uppercase tracking-wider text-gold focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+                        <span>Read the transcript</span>
+                        <span class="transition group-open:rotate-90">&rarr;</span>
+                    </summary>
+                    <div class="mt-4 space-y-3 font-serif leading-relaxed text-muted">
+                        <p><span class="font-mono text-xs uppercase text-paper">00:00 · Adam Watson</span><br />[Transcript of the audio recording will appear here.]</p>
+                    </div>
+                </details>
+
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/suicide_voice_note.ogg" download class="group mt-5 inline-flex items-center gap-2 border-t-0 font-mono text-xs uppercase tracking-wider text-gold focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+                    Download the original file
+                    <span class="transition group-hover:translate-x-1">&rarr;</span>
+                </a>
+
+            </figure>
+
+            <p class="mt-6 font-serif text-sm leading-relaxed text-muted">
+                This audio was left to me by Adam Watson. It speaks for itself.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════
+    SECTION 12 · QUOTE BLOCK  (Commonwealth Bank employee)
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 pb-8 md:pb-12 lg:px-8">
+        <div class="mx-auto max-w-4xl">
+            <figure class="rounded-xl border-l-2 border-red bg-surface/60 px-8 py-8 shadow-xl shadow-black/30">
+                <blockquote class="font-quote text-lg italic leading-relaxed text-paper md:text-xl">
+                    &ldquo;Get out! Get out! You're a fraudster! Get out or we'll call the police!&rdquo;
+                </blockquote>
+                <figcaption class="mt-4 flex items-center gap-3 font-mono text-xs uppercase tracking-wide text-muted">
+                    <span class="h-px w-8 bg-red"></span> Commonwealth Bank Employee · Bondi Junction branch
+                    <span class="mt-1 block normal-case tracking-normal text-muted/60">to Adam Watson, 3 August 2026</span>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════
+    SECTION 13 · CLOSING NARRATIVE  (Commonwealth Bank closure)
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 pb-24 pt-12 md:pb-32 lg:px-8">
+        <div class="mx-auto max-w-4xl">
+            <div class="border-t border-line pt-12">
+                <h3 class="font-display h-display text-3xl uppercase text-paper md:text-4xl">
+                    Commonwealth Bank Closes the Pioneer Lakes Bank Account
+                </h3>
+                <p class="mt-4 font-mono text-xs uppercase tracking-wider text-gold">Based on accusations from Ursula McKenzie</p>
+            </div>
+
+            <div class="mt-8 font-serif text-base leading-relaxed text-muted md:text-lg space-y-6">
+                <p>
+                    On the 3rd August, 2026, Adam Watson attempted to access the Pioneer Lakes bank
+                    account — after noticing he couldn't access it on his app. When he went into the
+                    Bondi Junction Commonwealth Bank branch, he was accused of being a fraudster by
+                    the Commonwealth Bank employee, and told to leave the premises or they would call
+                    the police — in front of everybody.
+                </p>
+                <p>
+                    He was already suicidal because of having his bank accounts drained. And on top
+                    of this, the Commonwealth Bank employee is now further stigmatizing him based on
+                    a story they heard from a vindictive accountant who was poisoned by James Ramsden —
+                    whose kid Isaac (the start of this story) attempted to entrap Adam Watson with a
+                    fake ID.
+                </p>
+                <p>
+                    So now Commonwealth Bank is looped into proceedings. Setups like this are actually
+                    very simple to see through. Allowing a person who is no longer a Director to drain
+                    a bank account after it was transferred correctly — and then on top of that closing
+                    said bank account based on this person's employee's account and stigmatizing a
+                    person — is exactly what the Federal Circuit Court was created for.
+                </p>
+                <p>
+                    Do you see now why lawyers make all the money in this country? Or at least good
+                    lawyers. The Commonwealth legal team are going to run a mile from this — and
+                    hopefully they update their procedures accordingly. They've already ponied up a
+                    lot in previous matters.
+                </p>
+            </div>
+
+            <!-- call-to-action -->
+            <div class="mt-12 text-center">
+                <a href="#" class="inline-flex items-center justify-center gap-2 rounded-md bg-gold px-10 py-4 font-mono text-sm font-medium uppercase tracking-wider text-ink transition hover:bg-gold/80 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-ink">
+                    Explore the full archive <span aria-hidden="true">&rarr;</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════
+    JAVASCRIPT · PARTIES BLOCK FILTERING
+    ══════════════════════════════════════════════════════════════ -->
+    <script>
+        (function() {
+            var rail = document.querySelectorAll('[data-filter]');
+            var nodes = document.querySelectorAll('[data-entities]');
+
+            function apply(key) {
+                nodes.forEach(function(node) {
+                    var keys = (node.getAttribute('data-entities') || '').split(/\s+/);
+                    var match = key === 'all' || keys.indexOf(key) !== -1;
+                    node.classList.toggle('is-dim', !match);
+                });
+            }
+
+            rail.forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    rail.forEach(function(other) {
+                        var on = other === btn;
+                        other.setAttribute('aria-pressed', String(on));
+                        other.classList.toggle('border-gold', on);
+                        other.classList.toggle('bg-gold', on);
+                        other.classList.toggle('text-ink', on);
+                        other.classList.toggle('border-line', !on);
+                        other.classList.toggle('text-muted', !on);
+                    });
+                    apply(btn.getAttribute('data-filter'));
+                });
+            });
+        })();
+    </script>
+
 </div><!-- end main content -->
 
 
