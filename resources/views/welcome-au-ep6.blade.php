@@ -1743,6 +1743,82 @@
         })();
     </script>
 
+    <!-- ══════════════════════════════════════════════════════════════
+    SECTION 14 · DOCUMENTS COMPLETED AND READY FOR THE FEDERAL COURT
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 py-16 md:py-24 lg:px-8">
+        <div class="mx-auto max-w-6xl">
+
+            <div class="max-w-3xl">
+                <p class="font-mono kicker text-xs uppercase text-gold">Federal Court · QUD0000/2026</p>
+                <h2 class="mt-4 font-display h-display text-5xl uppercase text-paper md:text-7xl">
+                    Documents Completed and Ready For the Federal Court
+                </h2>
+                <p class="mt-4 font-quote text-2xl italic text-gold md:text-3xl">
+                    The Affidavit and the Originating Application Is Below
+                </p>
+                <div class="mt-6 space-y-4 font-serif text-lg leading-relaxed text-muted">
+                    <p>
+                        Ready to be lodged tomorrow from the date I write this (4/8/26) — now the only thing left is for Mackays to comment on this situation; they'll get looped into the Federal Court case along with the Commonwealth Bank when it's time. I hope he stops the chorus of calling Adam Watson a pedophile while he's at it.
+                    </p>
+                </div>
+            </div>
+
+            <!-- two-column grid for the two PDFs -->
+            <div class="mt-14 grid grid-cols-1 gap-8 lg:grid-cols-2">
+
+                <!-- ── Affidavit ── -->
+                <div>
+                    <div class="rounded-lg border border-line bg-surface p-4">
+                        <div class="flex items-center gap-3 rounded-t-lg border border-b-0 border-line bg-surface-2 px-4 py-3">
+                            <span class="shrink-0 rounded bg-red-deep px-2 py-1 font-mono text-[10px] font-medium uppercase tracking-wider text-paper">PDF</span>
+                            <span class="min-w-0 flex-1 truncate font-mono text-xs text-muted">03_Affidavit_Adam_Watson_with_Annexures_Form59 (1).pdf</span>
+                            <span class="shrink-0 font-mono text-[10px] uppercase tracking-wider text-muted">affidavit</span>
+                        </div>
+                        <div class="overflow-hidden rounded-b-lg border border-line bg-surface">
+                            <object data="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/03_Affidavit_Adam_Watson_with_Annexures_Form59+(1).pdf#view=FitH" type="application/pdf" class="block h-[60vh] min-h-[400px] w-full" aria-label="Embedded PDF of Affidavit of Adam Watson">
+                                <div class="flex h-full flex-col items-center justify-center gap-4 px-6 py-16 text-center">
+                                    <p class="font-serif text-muted">This browser can't display the document inline.</p>
+                                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/03_Affidavit_Adam_Watson_with_Annexures_Form59+(1).pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded border border-gold px-4 py-2 font-mono text-xs uppercase tracking-wider text-gold transition hover:bg-gold hover:text-ink">
+                                        Open the PDF &rarr;
+                                    </a>
+                                </div>
+                            </object>
+                        </div>
+                        <figcaption class="mt-3 font-mono text-xs text-muted">
+                            The Affidavit from Adam Watson of His Experience — with all the annexures, ready to be stamped.
+                        </figcaption>
+                    </div>
+                </div>
+
+                <!-- ── Originating Application ── -->
+                <div>
+                    <div class="rounded-lg border border-line bg-surface p-4">
+                        <div class="flex items-center gap-3 rounded-t-lg border border-b-0 border-line bg-surface-2 px-4 py-3">
+                            <span class="shrink-0 rounded bg-red-deep px-2 py-1 font-mono text-[10px] font-medium uppercase tracking-wider text-paper">PDF</span>
+                            <span class="min-w-0 flex-1 truncate font-mono text-xs text-muted">01_Originating_Application_Form15 (1).pdf</span>
+                            <span class="shrink-0 font-mono text-[10px] uppercase tracking-wider text-muted">application</span>
+                        </div>
+                        <div class="overflow-hidden rounded-b-lg border border-line bg-surface">
+                            <object data="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/01_Originating_Application_Form15+(1).pdf#view=FitH" type="application/pdf" class="block h-[60vh] min-h-[400px] w-full" aria-label="Embedded PDF of Originating Application">
+                                <div class="flex h-full flex-col items-center justify-center gap-4 px-6 py-16 text-center">
+                                    <p class="font-serif text-muted">This browser can't display the document inline.</p>
+                                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/01_Originating_Application_Form15+(1).pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded border border-gold px-4 py-2 font-mono text-xs uppercase tracking-wider text-gold transition hover:bg-gold hover:text-ink">
+                                        Open the PDF &rarr;
+                                    </a>
+                                </div>
+                            </object>
+                        </div>
+                        <figcaption class="mt-3 font-mono text-xs text-muted">
+                            The Originating Application — with all documents included.
+                        </figcaption>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 </div><!-- end main content -->
 
 
