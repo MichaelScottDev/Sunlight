@@ -885,6 +885,121 @@
 
             </div>
 
+            <!-- ══════════════════════════════════════════════════════════════
+    SECTION 2 · TWO-ROW QUOTE BLOCK  (rumour + retaliation)
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 py-12 md:py-16 lg:px-8">
+        <div class="mx-auto max-w-6xl">
+
+            <!-- ── ROW 1 ── -->
+            <div class="grid grid-cols-1 items-center gap-10 border-t border-line pt-12 lg:grid-cols-12 lg:gap-16">
+
+                <!-- prose -->
+                <div class="max-w-xl font-serif text-base leading-relaxed text-muted md:text-lg lg:col-span-7">
+                    <p class="font-mono text-xs uppercase tracking-wider text-gold">01 · The rumour that won't die</p>
+                    <p class="mt-4">
+                        The oldest rumour in Adam Watson's life — the one that just doesn't die — is that
+                        he raped Bodie Chalmers. The police officer who pressed the sexual assault charge
+                        had it dropped at first mention. But political enemies have weaponised this charge
+                        sheet to destroy Adam Watson's life, again and again.
+                    </p>
+                    <p class="mt-6">
+                        Bodie Chalmers — a person facing very serious charges and a potential 20+ years
+                        in prison — is in Isaac's crew with Z Soeilman. After seeing this website,
+                        John Ramsden did research into Adam Watson, learned of his big development
+                        project at Pioneer Lakes Village in Mackay, and called the office.
+                    </p>
+                    <p class="mt-6">
+                        He spoke to Ursula McKenzie — the vindictive accountant — and told her the rumour:
+                        that Adam is in a relationship with his son (despite the fact Adam only spoke to
+                        him twice) and that he raped Bodie Chalmers. After hearing this unsubstantiated
+                        rumour, Ursula McKenzie proceeded to spread it and poison the entire company.
+                    </p>
+                </div>
+
+                <!-- quote callout -->
+                <figure class="border-l-2 border-red bg-surface/60 py-6 pl-6 pr-5 lg:col-span-5">
+                    <blockquote class="font-quote text-2xl italic leading-snug text-paper md:text-3xl">
+                        “The boys won't want to work with a pedophile!”
+                    </blockquote>
+                    <figcaption class="mt-5 border-t border-line pt-4 font-mono text-xs uppercase tracking-wide text-gold">
+                        Ursula McKenzie
+                        <span class="mt-1 block normal-case tracking-normal text-muted">Referring to the contractors · Pioneer Lakes</span>
+                    </figcaption>
+                </figure>
+
+            </div>
+
+            <!-- ══════════════════════════════════════════════════════════════
+            NEW SECTION · "ADAM RAPED BODIE CHALMERS!" — placed between ROW 1 and ROW 2
+            ══════════════════════════════════════════════════════════════ -->
+            <div class="mt-16 border-t border-line pt-12">
+                <div class="max-w-3xl">
+                    <p class="font-mono kicker text-xs uppercase text-gold">The Lie Detector</p>
+                    <h2 class="mt-4 font-display h-display text-5xl uppercase text-paper md:text-7xl">
+                        "Adam Raped Bodie Chalmers!"
+                    </h2>
+                    <p class="mt-4 font-quote text-2xl italic text-gold md:text-3xl">
+                        The Rumour that Just Won't Go Away
+                    </p>
+                </div>
+
+                <!-- two‑column: photo + text -->
+                <div class="mt-12 grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-16">
+
+                    <!-- left: Bodie Chalmers photo -->
+                    <figure>
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/bodie_chalmers.png" alt="Bodie Chalmers" class="w-full rounded-xl border border-line object-cover aspect-[3/4]" />
+                        <figcaption class="mt-3 font-mono text-xs leading-relaxed text-muted">
+                            The little shit talker who spends time ruining people's lives by snitching bullshit to the police (he's a day trader now it seems — and he bashed me with 5 boys at Oracle East and brought Aaron Barker the copper down who said I deserved it because he was pressed about my viral video that got hot in the city)
+                        </figcaption>
+                    </figure>
+
+                    <!-- right: text -->
+                    <div class="font-serif text-base leading-relaxed text-muted md:text-lg space-y-6">
+                        <p>
+                            The Bodie Chalmers affair — and this incessant bullsh*t rumour simply won't go away. And now it's coming out of the mouths of John Ramsden from Ramsden Lawyers to Ursula McKenzie and now it's reached Lloyd Stranger from McKays Solicitor who is repeating it out of his mouth.
+                        </p>
+                        <p>
+                            You would think these morons — being lawyers — would understand how the Justice System works — so let's recap this as it's mentioned in Episode 2 of this publication. Firstly — the matter related to the QP-9 charge sheet with the sexual assault allegations that Bodie Chalmers has weaponised on the street to put Adam's life and reputation in jeopardy was dropped at first mention at Southport Courthouse — with the QLD Police Prosecutor herself willing to stand up and state for the Judge that this is malicious prosecution — and the Attorney General is aware of this and stands behind Adam Watson — the same Attorney General that is aware of the fake driver's licenses and kill cars that John Ramsden's son is organising.
+                        </p>
+                        <p>
+                            The document that demolishes this whole argument is the EyeDetect lie detector test that Adam Watson had commissioned to test if Bodie Chalmers had been unfaithful — which yours truly had prepared questions for and which is available below for your perusal — an EyeDetect score that gave Bodie Chalmers a credibility score of 1/100 — a feat if anything.
+                        </p>
+                        <p>
+                            I would be asking for a retraction for the comments made by John Ramsden the head of Ramsden Lawyers and Lloyd Stranger from McKays lawyer immediately (or a statement they never said it). This whole situation opens them up to a defamation claim and not to mention clients who will not stand behind a firm whose representatives knowingly slander and destroy people's reputations on flimsy evidence.
+                        </p>
+                        <p class="font-display text-2xl uppercase text-red">
+                            The fish rots from the head!
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- ── Lie detector test embed ── -->
+                <div class="mt-12 rounded-lg border border-line bg-surface p-4">
+                    <div class="flex items-center gap-3 rounded-t-lg border border-b-0 border-line bg-surface-2 px-4 py-3">
+                        <span class="shrink-0 rounded bg-red-deep px-2 py-1 font-mono text-[10px] font-medium uppercase tracking-wider text-paper">PDF</span>
+                        <span class="min-w-0 flex-1 truncate font-mono text-xs text-muted">2025.05.20-lie-detector-test-australia.pdf</span>
+                        <span class="shrink-0 font-mono text-[10px] uppercase tracking-wider text-muted">lie detector</span>
+                    </div>
+                    <div class="overflow-hidden rounded-b-lg border border-line bg-surface">
+                        <object data="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/2025.05.20-lie-detector-test-australia.pdf#view=FitH" type="application/pdf" class="block h-[70vh] min-h-[420px] w-full" aria-label="Embedded PDF of lie detector test">
+                            <div class="flex h-full flex-col items-center justify-center gap-4 px-6 py-16 text-center">
+                                <p class="font-serif text-muted">This browser can't display the document inline.</p>
+                                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/2025.05.20-lie-detector-test-australia.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded border border-gold px-4 py-2 font-mono text-xs uppercase tracking-wider text-gold transition hover:bg-gold hover:text-ink">
+                                    Open the PDF &rarr;
+                                </a>
+                            </div>
+                        </object>
+                    </div>
+                    <figcaption class="mt-3 font-mono text-xs text-muted">
+                        Read it and weep — 1/100 Credibility Score — if you listen to what this guy says and carry it around town every educated person can see you're a little vindictive prick and they don't want to be around you.
+                    </figcaption>
+                </div>
+
+            </div>
+
             <!-- ── ROW 2 (reversed) ── -->
             <div class="mt-12 grid grid-cols-1 items-center gap-10 border-t border-line pt-12 lg:mt-16 lg:grid-cols-12 lg:gap-16">
 
