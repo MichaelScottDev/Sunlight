@@ -1053,7 +1053,7 @@
             <div class="order-1 md:order-none rounded-xl border border-line bg-surface overflow-hidden">
     <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/mike_botica.png" 
          alt="Mike Botica" 
-         class="w-full aspect-[3/4] object-contain bg-surface" />
+         class="w-full aspect-[3/4] bg-surface" style="object-fit:contain;" />
     <div class="p-4 text-center border-t border-line">
         <p class="font-mono text-base uppercase tracking-widest text-paper">Mr. NoFace</p>
         <a href="https://www.linkedin.com/in/mike-botica-036a6278/" target="_blank" rel="noopener noreferrer" class="inline-block mt-2 font-mono text-xs uppercase text-gold hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
