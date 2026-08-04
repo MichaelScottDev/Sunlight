@@ -12,6 +12,7 @@
     <meta property="og:url" content="https://sunlight.quest/episode-6"/>
     <meta property="og:image" content="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/isaac_16_dillema.jpeg"/>
     <meta property="og:image:alt" content="Isaac J Ramsden"/>
+    
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:title" content="Sunlight.Quest — Episode 6: Isaac J Ramsden"/>
     <meta name="twitter:description" content="The rapper RBK — real name Rhys Briffa. Strange messages, a girlfriend demanding money, and threats to call the police. It started to feel like extortion."/>
@@ -1049,15 +1050,17 @@
         <div class="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2 md:gap-16">
 
             <!-- ── LEFT: Mike Botica image ── -->
-            <div class="order-1 md:order-none rounded-xl border border-line bg-surface overflow-hidden flex items-center justify-center">
-                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/mike_botica.png" alt="Mike Botica" class="w-full h-auto object-contain">
-                <div class="p-4 text-center border-t border-line w-full">
-                    <p class="font-mono text-xs uppercase tracking-widest text-muted">Mr. NoFace</p>
-                    <a href="https://www.linkedin.com/in/mike-botica-036a6278/" target="_blank" rel="noopener noreferrer" class="inline-block mt-1 font-mono text-[10px] uppercase text-gold hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
-                        LinkedIn Profile &rarr;
-                    </a>
-                </div>
-            </div>
+            <div class="order-1 md:order-none rounded-xl border border-line bg-surface overflow-hidden">
+    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/mike_botica.png" 
+         alt="Mike Botica" 
+         class="w-full aspect-[3/4] object-cover bg-surface" />
+    <div class="p-4 text-center border-t border-line">
+        <p class="font-mono text-base uppercase tracking-widest text-paper">Mr. NoFace</p>
+        <a href="https://www.linkedin.com/in/mike-botica-036a6278/" target="_blank" rel="noopener noreferrer" class="inline-block mt-2 font-mono text-xs uppercase text-gold hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+            LinkedIn Profile &rarr;
+        </a>
+    </div>
+</div>
 
             <!-- ── RIGHT: heading + features ── -->
             <div class="order-2">
