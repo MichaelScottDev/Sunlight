@@ -1238,7 +1238,7 @@
     </section>
 
     <!-- ══════════════════════════════════════════════════════════════
-    SECTION 5 · MCKAYS LETTER EMBED (fraudulent allegation)
+    SECTION 5 · MCKAYS LETTER EMBED (with Lloyd Stranger photo)
     ══════════════════════════════════════════════════════════════ -->
     <section class="bg-ink px-6 py-16 md:py-20 lg:px-8">
         <div class="mx-auto max-w-4xl">
@@ -1250,6 +1250,16 @@
                 <p class="mt-4 font-quote text-xl italic text-gold md:text-2xl">
                     The letter from McKays solicitor Lloyd Stranger accusing the Form 484 of being lodged fraudulently — based on accusations from Ursula McKenzie, the vindictive accountant.
                 </p>
+            </div>
+
+            <!-- Lloyd Stranger profile -->
+            <div class="mt-6 flex items-center gap-4 rounded-lg border border-line bg-surface p-4">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/lloyd_stranger.webp" alt="Lloyd Stranger" class="h-20 w-20 rounded-full object-cover border border-line" />
+                <div>
+                    <p class="font-serif text-lg font-semibold text-paper">Lloyd Stranger</p>
+                    <p class="font-mono text-xs text-muted">Solicitor · McKays Lawyers</p>
+                    <p class="mt-1 font-serif text-sm text-muted">Repeated the allegation that Adam Watson raped Bodie Chalmers — without any evidence, and despite the charge being dropped.</p>
+                </div>
             </div>
 
             <div class="mt-8 rounded-lg border border-line bg-surface p-4">
@@ -1933,6 +1943,315 @@
                     </div>
                 </div>
 
+            </div>
+        </div>
+    </section>
+
+            <!-- ══════════════════════════════════════════════════════════════
+    SECTION 11 · THE POLICE ARE AFTER ME... (MOVED AFTER PARTIES BLOCK)
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 py-20 md:py-28 lg:px-8">
+        <div class="mx-auto max-w-6xl">
+            <div class="max-w-3xl">
+                <p class="font-mono kicker text-xs uppercase text-gold">Police · Overreach</p>
+                <h2 class="mt-4 font-display h-display text-5xl uppercase text-paper md:text-7xl">
+                    "The Police Are After Me, I'm Going to Climb In Though the Window"
+                </h2>
+                <p class="mt-4 font-quote text-2xl italic text-gold md:text-3xl">
+                    The Expediated Arrest Warrant - And the Jurisdictional Over reach
+                </p>
+            </div>
+
+            <div class="mt-14 grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16">
+                <div class="space-y-6 font-serif text-base leading-relaxed text-muted md:text-lg">
+                    <p>
+                        Adam Watson came to his home in NSW — after getting a call from a police officer from QLD —
+                        who accused him of stealing the company and referred the matter to NSW Police. Michael Botica
+                        and his crew running to the police making allegations that a company was stolen while not
+                        sending SMS messages might be able to weaponise the corrupt police they may have in their
+                        pocket to do a NSW referral (we all know about QLD Police history — the patronage stage,
+                        soft police state etc.) — the problem they have is — even if Adam Watson stole the company
+                        (which he didn't) — it's not a matter for the police — it's Commonwealth jurisdiction —
+                        QLD Police should keep their focus on people who throw up on the pavement and things of
+                        this nature.
+                    </p>
+                    <p>
+                        Of course it's not really about jurisdiction — corrupt QLD police can lock you up on remand
+                        for 2 years while you await trial — blocking you from lodging a civil defense of the
+                        allegations that Michael Botica made through his lawyers — firstly Mackay (and now Thomsons
+                        below). However this didn't stop NSW police from taking the referral and coming around
+                        Adam Watson's house and sniffing around making insinuations to his neighbour
+                        <span class="text-paper">"Did Adam Watson steal a company?"</span>
+                    </p>
+                    <p>
+                        Yes Mr. Sherlock — you've soled the crime. Go home.
+                    </p>
+                    <p>
+                        An arrest warrant was placed on his door — and he had to climb in through the window to get
+                        in as Samira Khalaj (who is featured in Episode 2 of this publication) was calling out about
+                        him being a criminal while engaged in an argument with someone else.
+                    </p>
+                    <p>
+                        I'm still waiting on getting the photo of that arrest warrant which I'll place on the website —
+                        he had to evade police while lodging and responding to the new lawyers that Mike Botica engaged.
+                    </p>
+                    <p>
+                        Jurisdictionally the QLD police and NSW police have no power over 'company theft' — it's a
+                        Commonwealth issue.
+                    </p>
+                    <p>
+                        And this is how people get destroyed — and we welcome you to the murky world of corporate crime.
+                    </p>
+                </div>
+
+                <div class="space-y-6">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/qld_police_logo.png" alt="QLD Police Logo" class="w-48 h-auto rounded-xl border border-line bg-white p-2" />
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/ChatGPT+Image+Aug+5%2C+2026%2C+02_41_07+PM+(2).png" alt="Adam Watson climbing through window while police nearby" class="w-full rounded-xl border border-line" />
+                    <figcaption class="font-mono text-xs text-muted">Adam Watson climbing in through the window at the back of his house while police are near their police car with a warrant placed on his door with his face on there.</figcaption>
+                </div>
+            </div>
+
+            <div class="mt-12 rounded-lg border-l-2 border-red bg-surface px-8 py-6 shadow-xl shadow-black/30">
+                <blockquote class="font-quote text-xl italic leading-relaxed text-paper md:text-2xl">
+                    &ldquo;I might as well kill myself. They're going to lock me up!&rdquo;
+                </blockquote>
+                <figcaption class="mt-3 font-mono text-xs uppercase tracking-wide text-muted">
+                    Adam Watson while discussing legal strategy after seeing the arrest warrant
+                </figcaption>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════
+    SECTION 12 · THE SNEAKY LAWYER SWITCH (MOVED AFTER POLICE)
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 py-20 md:py-28 lg:px-8">
+        <div class="mx-auto max-w-6xl">
+            <div class="max-w-3xl">
+                <p class="font-mono kicker text-xs uppercase text-gold">Legal Ambush</p>
+                <h2 class="mt-4 font-display h-display text-5xl uppercase text-paper md:text-7xl">
+                    The Sneaky Lawyer Switch
+                </h2>
+                <p class="mt-4 font-quote text-2xl italic text-gold md:text-3xl">
+                    The 6:30PM Urgency Thomson Ambush
+                </p>
+            </div>
+
+            <div class="mt-14 grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16">
+                <div class="space-y-6 font-serif text-base leading-relaxed text-muted md:text-lg">
+                    <p>
+                        So it seems McKays lawyers is out — I was going to get a statement from them on this whole
+                        situation however it seems Michael Botica (and others) — have engaged a new legal firm
+                        (Thomsons) without warning.
+                    </p>
+                    <p>
+                        Let me explain what a legal ambush is — the first email received from Thomson's lawyer was
+                        at <span class="text-paper">6:13pm on 4/8/26</span> — with a Certificate of Urgency and then
+                        at 6:17pm with a Draft Originating Application followed by an email from Associate Wheatley
+                        (from the Court) to Adam Watson at <span class="text-paper">6:31PM</span> stating the matter
+                        is listed for hearing and telling Adam Watson he has to attend the hearing at
+                        <span class="text-paper">2:15PM the next day</span> (that's today).
+                    </p>
+                    <p>
+                        Even implying he has to hand up all kinds of documents with only 24 hours notice. So now
+                        Adam has his documents getting lodged in the Federal Court while Mike Botica is pursuing
+                        Federal Court action on his own — with his own Federal Court matter with a Certificate of
+                        Urgency and the Originating Application along with the letter from Thomsons is available
+                        below... oh and the appointment for [time] that Adam Watson tried to organise and invite
+                        Mike and the McKays lawyer Lloyd Stranger too that was not reciprocated.
+                    </p>
+                    <p>
+                        In legal parlance the question would be made — are you coming into the situation with good
+                        faith to resolve things — or are you throwing smoke bombs?
+                    </p>
+                    <p>
+                        By the way we have a housing crisis and stock shortage (that's why houses are expensive
+                        because there's not enough) — the Mackay's Pioneer Lakes development with 649 lots approved
+                        only works because of Adam Watson's connections to the government — all these smoke bombs
+                        thrown by Michael Botica only prolong development, cut off circulation to contractors —
+                        major investors can withstand these type of smoke bomb attacks but it's important you learn
+                        how people play.
+                    </p>
+                </div>
+
+                <div class="space-y-6">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/thomsons_lawyers+(1).jpeg" alt="Thomsons Lawyers Logo" class="w-48 h-auto rounded-xl border border-line bg-white p-2" />
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/scott_guthrie.jpeg" alt="Scott Guthrie - Thomson Lawyer" class="w-full rounded-xl border border-line" />
+                    <figcaption class="font-mono text-xs text-muted">Scott Guthrie — Thomsons Lawyers</figcaption>
+                </div>
+            </div>
+
+            <!-- Three PDFs in a grid -->
+            <div class="mt-14 grid grid-cols-1 gap-6 md:grid-cols-3">
+                <div class="rounded-lg border border-line bg-surface p-4">
+                    <div class="flex items-center gap-3 rounded-t-lg border border-b-0 border-line bg-surface-2 px-4 py-3">
+                        <span class="shrink-0 rounded bg-red-deep px-2 py-1 font-mono text-[10px] font-medium uppercase tracking-wider text-paper">PDF</span>
+                        <span class="min-w-0 flex-1 truncate font-mono text-xs text-muted">certificate_of_urgency.pdf</span>
+                    </div>
+                    <div class="overflow-hidden rounded-b-lg border border-line bg-surface">
+                        <object data="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/certificate_of_urgency_lodged_pioneer_REDACTED.pdf#view=FitH" type="application/pdf" class="block h-[50vh] min-h-[300px] w-full" aria-label="Embedded PDF of Certificate of Urgency">
+                            <div class="flex h-full flex-col items-center justify-center gap-4 px-6 py-16 text-center">
+                                <p class="font-serif text-muted">This browser can't display the document inline.</p>
+                                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/certificate_of_urgency_lodged_pioneer_REDACTED.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded border border-gold px-4 py-2 font-mono text-xs uppercase tracking-wider text-gold transition hover:bg-gold hover:text-ink">
+                                    Open PDF &rarr;
+                                </a>
+                            </div>
+                        </object>
+                    </div>
+                    <figcaption class="mt-2 font-mono text-xs text-muted">Certificate of Urgency</figcaption>
+                </div>
+
+                <div class="rounded-lg border border-line bg-surface p-4">
+                    <div class="flex items-center gap-3 rounded-t-lg border border-b-0 border-line bg-surface-2 px-4 py-3">
+                        <span class="shrink-0 rounded bg-red-deep px-2 py-1 font-mono text-[10px] font-medium uppercase tracking-wider text-paper">PDF</span>
+                        <span class="min-w-0 flex-1 truncate font-mono text-xs text-muted">expedited_application.pdf</span>
+                    </div>
+                    <div class="overflow-hidden rounded-b-lg border border-line bg-surface">
+                        <object data="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/Certificate_of_Urgency_96936623_1__REDACTED.pdf#view=FitH" type="application/pdf" class="block h-[50vh] min-h-[300px] w-full" aria-label="Embedded PDF of Expedited Application">
+                            <div class="flex h-full flex-col items-center justify-center gap-4 px-6 py-16 text-center">
+                                <p class="font-serif text-muted">This browser can't display the document inline.</p>
+                                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/Certificate_of_Urgency_96936623_1__REDACTED.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded border border-gold px-4 py-2 font-mono text-xs uppercase tracking-wider text-gold transition hover:bg-gold hover:text-ink">
+                                    Open PDF &rarr;
+                                </a>
+                            </div>
+                        </object>
+                    </div>
+                    <figcaption class="mt-2 font-mono text-xs text-muted">Expedited Application</figcaption>
+                </div>
+
+                <div class="rounded-lg border border-line bg-surface p-4">
+                    <div class="flex items-center gap-3 rounded-t-lg border border-b-0 border-line bg-surface-2 px-4 py-3">
+                        <span class="shrink-0 rounded bg-red-deep px-2 py-1 font-mono text-[10px] font-medium uppercase tracking-wider text-paper">PDF</span>
+                        <span class="min-w-0 flex-1 truncate font-mono text-xs text-muted">originating_application.pdf</span>
+                    </div>
+                    <div class="overflow-hidden rounded-b-lg border border-line bg-surface">
+                        <object data="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/Draft_Originating_Application_96934923_1__REDACTED.pdf#view=FitH" type="application/pdf" class="block h-[50vh] min-h-[300px] w-full" aria-label="Embedded PDF of Originating Application">
+                            <div class="flex h-full flex-col items-center justify-center gap-4 px-6 py-16 text-center">
+                                <p class="font-serif text-muted">This browser can't display the document inline.</p>
+                                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/Draft_Originating_Application_96934923_1__REDACTED.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded border border-gold px-4 py-2 font-mono text-xs uppercase tracking-wider text-gold transition hover:bg-gold hover:text-ink">
+                                    Open PDF &rarr;
+                                </a>
+                            </div>
+                        </object>
+                    </div>
+                    <figcaption class="mt-2 font-mono text-xs text-muted">Originating Application</figcaption>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════
+    SECTION 13 · QUOTE BLOCK (Adam Watson's quote)
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 pb-8 md:pb-12 lg:px-8">
+        <div class="mx-auto max-w-4xl">
+            <figure class="rounded-xl border-l-2 border-gold bg-surface px-8 py-8 shadow-xl shadow-black/30">
+                <blockquote class="font-quote text-lg italic leading-relaxed text-paper md:text-xl">
+                    &ldquo;Sending emails from lawyers — but this was never said to me. This allegation
+                    was never made to my face. A very serious dangerous snake.&rdquo;
+                </blockquote>
+                <figcaption class="mt-4 flex items-center gap-3 font-mono text-xs uppercase tracking-wide text-muted">
+                    <span class="h-px w-8 bg-gold"></span> Adam Watson · on the McKays lawyers letter
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════
+    SECTION 14 · AUDIO EXHIBIT (suicide audio file)
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 py-20 md:py-28 lg:px-8">
+        <div class="mx-auto max-w-3xl">
+            <header>
+                <p class="font-mono kicker text-xs uppercase text-gold">Exhibit · audio recording</p>
+                <h2 class="mt-4 font-display h-display text-4xl uppercase text-paper md:text-6xl">
+                    The Result of Financial Scammers Like This
+                </h2>
+                <p class="mt-4 font-quote text-xl italic text-gold md:text-2xl">
+                    An audio file left to me by Adam Watson.
+                </p>
+            </header>
+
+            <figure class="mt-12 rounded-lg border border-line bg-surface p-5 sm:p-6">
+                <div class="flex flex-wrap items-start justify-between gap-4 border-b border-line pb-4">
+                    <div class="min-w-0">
+                        <figcaption class="font-serif text-lg font-semibold text-paper">Recording — Adam Watson</figcaption>
+                        <p class="mt-1 font-mono text-xs text-muted">Personal recording · OGG · 4.2 MB</p>
+                    </div>
+                    <span class="shrink-0 rounded bg-red-deep px-2 py-1 font-mono text-[10px] font-medium uppercase tracking-wider text-paper">Audio</span>
+                </div>
+                <div class="mt-5">
+                    <audio controls preload="metadata" class="w-full">
+                        <source src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/suicide_voice_note.ogg" type="audio/ogg" />
+                        <p class="font-serif text-muted">Your browser can't play audio here. <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/suicide_voice_note.ogg" class="text-gold underline underline-offset-4">Download the recording</a> instead.</p>
+                    </audio>
+                </div>
+                <dl class="mt-5 grid grid-cols-1 gap-x-8 gap-y-3 border-t border-line pt-5 sm:grid-cols-3">
+                    <div><dt class="font-mono text-[10px] uppercase tracking-wider text-muted">Recorded by</dt><dd class="mt-1 font-serif text-paper">Adam Watson</dd></div>
+                    <div><dt class="font-mono text-[10px] uppercase tracking-wider text-muted">Context</dt><dd class="mt-1 font-serif text-paper">Personal statement</dd></div>
+                    <div><dt class="font-mono text-[10px] uppercase tracking-wider text-muted">Filed as</dt><dd class="mt-1 font-serif text-paper">Exhibit to this publication</dd></div>
+                </dl>
+                <details class="group mt-5 border-t border-line pt-5">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-mono text-xs uppercase tracking-wider text-gold focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+                        <span>Read the transcript</span>
+                        <span class="transition group-open:rotate-90">&rarr;</span>
+                    </summary>
+                    <div class="mt-4 space-y-3 font-serif leading-relaxed text-muted">
+                        <p><span class="font-mono text-xs uppercase text-paper">00:00 · Adam Watson</span><br />[Transcript of the audio recording will appear here.]</p>
+                    </div>
+                </details>
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/suicide_voice_note.ogg" download class="group mt-5 inline-flex items-center gap-2 border-t-0 font-mono text-xs uppercase tracking-wider text-gold focus:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+                    Download the original file
+                    <span class="transition group-hover:translate-x-1">&rarr;</span>
+                </a>
+            </figure>
+            <p class="mt-6 font-serif text-sm leading-relaxed text-muted">This audio was left to me by Adam Watson. It speaks for itself.</p>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════
+    SECTION 15 · QUOTE BLOCK (Commonwealth Bank employee)
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 pb-8 md:pb-12 lg:px-8">
+        <div class="mx-auto max-w-4xl">
+            <figure class="rounded-xl border-l-2 border-red bg-surface/60 px-8 py-8 shadow-xl shadow-black/30">
+                <blockquote class="font-quote text-lg italic leading-relaxed text-paper md:text-xl">
+                    &ldquo;Get out! Get out! You're a fraudster! Get out or we'll call the police!&rdquo;
+                </blockquote>
+                <figcaption class="mt-4 flex items-center gap-3 font-mono text-xs uppercase tracking-wide text-muted">
+                    <span class="h-px w-8 bg-red"></span> Commonwealth Bank Employee · Bondi Junction branch
+                    <span class="mt-1 block normal-case tracking-normal text-muted/60">to Adam Watson, 3 August 2026</span>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════
+    SECTION 16 · CLOSING NARRATIVE (Commonwealth Bank closure)
+    ══════════════════════════════════════════════════════════════ -->
+    <section class="bg-ink px-6 pb-24 pt-12 md:pb-32 lg:px-8">
+        <div class="mx-auto max-w-4xl">
+            <div class="border-t border-line pt-12">
+                <div class="flex items-center gap-4 mb-4">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/commonwealth_bank.jpeg" alt="Commonwealth Bank" class="h-12 w-auto rounded border border-line object-contain bg-white p-1" />
+                    <h3 class="font-display h-display text-3xl uppercase text-paper md:text-4xl">
+                        Commonwealth Bank Closes the Pioneer Lakes Bank Account
+                    </h3>
+                </div>
+                <p class="mt-2 font-mono text-xs uppercase tracking-wider text-gold">Based on accusations from Ursula McKenzie</p>
+            </div>
+
+            <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2">
+                <div class="font-serif text-base leading-relaxed text-muted md:text-lg space-y-6">
+                    <p>On the 3rd August, 2026, Adam Watson attempted to access the Pioneer Lakes bank account — after noticing he couldn't access it on his app. When he went into the Bondi Junction Commonwealth Bank branch, he was accused of being a fraudster by the Commonwealth Bank employee, and told to leave the premises or they would call the police — in front of everybody.</p>
+                    <p>He was already suicidal because of having his bank accounts drained. And on top of this, the Commonwealth Bank employee is now further stigmatizing him based on a story they heard from a vindictive accountant who was poisoned by James Ramsden — whose kid Isaac (the start of this story) attempted to entrap Adam Watson with a fake ID.</p>
+                    <p>So now Commonwealth Bank is looped into proceedings. Setups like this are actually very simple to see through. Allowing a person who is no longer a Director to drain a bank account after it was transferred correctly — and then on top of that closing said bank account based on this person's employee's account and stigmatizing a person — is exactly what the Federal Circuit Court was created for.</p>
+                    <p>Do you see now why lawyers make all the money in this country? Or at least good lawyers. The Commonwealth legal team are going to run a mile from this — and hopefully they update their procedures accordingly. They've already ponied up a lot in previous matters.</p>
+                </div>
+                <div>
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/ChatGPT+Image+Aug+5%2C+2026%2C+03_54_19+PM+(1).png" alt="Commonwealth Bank closes account" class="w-full rounded-xl border border-line" />
+                    <figcaption class="mt-3 font-mono text-xs text-muted">Commonwealth Bank employee confronting Adam Watson at the Bondi Junction branch.</figcaption>
+                </div>
             </div>
         </div>
     </section>
