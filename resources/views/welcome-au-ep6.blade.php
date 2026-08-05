@@ -1788,52 +1788,31 @@
     </section>
 
     <!-- ══════════════════════════════════════════════════════════════
-    SECTION 13 · CLOSING NARRATIVE  (Commonwealth Bank closure)
+    SECTION 16 · CLOSING NARRATIVE (Commonwealth Bank closure)
     ══════════════════════════════════════════════════════════════ -->
     <section class="bg-ink px-6 pb-24 pt-12 md:pb-32 lg:px-8">
         <div class="mx-auto max-w-4xl">
             <div class="border-t border-line pt-12">
-                <h3 class="font-display h-display text-3xl uppercase text-paper md:text-4xl">
-                    Commonwealth Bank Closes the Pioneer Lakes Bank Account
-                </h3>
-                <p class="mt-4 font-mono text-xs uppercase tracking-wider text-gold">Based on accusations from Ursula McKenzie</p>
+                <div class="flex items-center gap-4 mb-4">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/commonwealth_bank.jpeg" alt="Commonwealth Bank" class="h-12 w-auto rounded border border-line object-contain bg-white p-1" />
+                    <h3 class="font-display h-display text-3xl uppercase text-paper md:text-4xl">
+                        Commonwealth Bank Closes the Pioneer Lakes Bank Account
+                    </h3>
+                </div>
+                <p class="mt-2 font-mono text-xs uppercase tracking-wider text-gold">Based on accusations from Ursula McKenzie</p>
             </div>
 
-            <div class="mt-8 font-serif text-base leading-relaxed text-muted md:text-lg space-y-6">
-                <p>
-                    On the 3rd August, 2026, Adam Watson attempted to access the Pioneer Lakes bank
-                    account — after noticing he couldn't access it on his app. When he went into the
-                    Bondi Junction Commonwealth Bank branch, he was accused of being a fraudster by
-                    the Commonwealth Bank employee, and told to leave the premises or they would call
-                    the police — in front of everybody.
-                </p>
-                <p>
-                    He was already suicidal because of having his bank accounts drained. And on top
-                    of this, the Commonwealth Bank employee is now further stigmatizing him based on
-                    a story they heard from a vindictive accountant who was poisoned by James Ramsden —
-                    whose kid Isaac (the start of this story) attempted to entrap Adam Watson with a
-                    fake ID.
-                </p>
-                <p>
-                    So now Commonwealth Bank is looped into proceedings. Setups like this are actually
-                    very simple to see through. Allowing a person who is no longer a Director to drain
-                    a bank account after it was transferred correctly — and then on top of that closing
-                    said bank account based on this person's employee's account and stigmatizing a
-                    person — is exactly what the Federal Circuit Court was created for.
-                </p>
-                <p>
-                    Do you see now why lawyers make all the money in this country? Or at least good
-                    lawyers. The Commonwealth legal team are going to run a mile from this — and
-                    hopefully they update their procedures accordingly. They've already ponied up a
-                    lot in previous matters.
-                </p>
-            </div>
-
-            <!-- call-to-action -->
-            <div class="mt-12 text-center">
-                <a href="#" class="inline-flex items-center justify-center gap-2 rounded-md bg-gold px-10 py-4 font-mono text-sm font-medium uppercase tracking-wider text-ink transition hover:bg-gold/80 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-ink">
-                    Explore the full archive <span aria-hidden="true">&rarr;</span>
-                </a>
+            <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2">
+                <div class="font-serif text-base leading-relaxed text-muted md:text-lg space-y-6">
+                    <p>On the 3rd August, 2026, Adam Watson attempted to access the Pioneer Lakes bank account — after noticing he couldn't access it on his app. When he went into the Bondi Junction Commonwealth Bank branch, he was accused of being a fraudster by the Commonwealth Bank employee, and told to leave the premises or they would call the police — in front of everybody.</p>
+                    <p>He was already suicidal because of having his bank accounts drained. And on top of this, the Commonwealth Bank employee is now further stigmatizing him based on a story they heard from a vindictive accountant who was poisoned by James Ramsden — whose kid Isaac (the start of this story) attempted to entrap Adam Watson with a fake ID.</p>
+                    <p>So now Commonwealth Bank is looped into proceedings. Setups like this are actually very simple to see through. Allowing a person who is no longer a Director to drain a bank account after it was transferred correctly — and then on top of that closing said bank account based on this person's employee's account and stigmatizing a person — is exactly what the Federal Circuit Court was created for.</p>
+                    <p>Do you see now why lawyers make all the money in this country? Or at least good lawyers. The Commonwealth legal team are going to run a mile from this — and hopefully they update their procedures accordingly. They've already ponied up a lot in previous matters.</p>
+                </div>
+                <div>
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/ChatGPT+Image+Aug+5%2C+2026%2C+03_54_19+PM+(1).png" alt="Commonwealth Bank closes account" class="w-full rounded-xl border border-line" />
+                    <figcaption class="mt-3 font-mono text-xs text-muted">Commonwealth Bank employee confronting Adam Watson at the Bondi Junction branch.</figcaption>
+                </div>
             </div>
         </div>
     </section>
@@ -2226,35 +2205,7 @@
         </div>
     </section>
 
-    <!-- ══════════════════════════════════════════════════════════════
-    SECTION 16 · CLOSING NARRATIVE (Commonwealth Bank closure)
-    ══════════════════════════════════════════════════════════════ -->
-    <section class="bg-ink px-6 pb-24 pt-12 md:pb-32 lg:px-8">
-        <div class="mx-auto max-w-4xl">
-            <div class="border-t border-line pt-12">
-                <div class="flex items-center gap-4 mb-4">
-                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/commonwealth_bank.jpeg" alt="Commonwealth Bank" class="h-12 w-auto rounded border border-line object-contain bg-white p-1" />
-                    <h3 class="font-display h-display text-3xl uppercase text-paper md:text-4xl">
-                        Commonwealth Bank Closes the Pioneer Lakes Bank Account
-                    </h3>
-                </div>
-                <p class="mt-2 font-mono text-xs uppercase tracking-wider text-gold">Based on accusations from Ursula McKenzie</p>
-            </div>
-
-            <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2">
-                <div class="font-serif text-base leading-relaxed text-muted md:text-lg space-y-6">
-                    <p>On the 3rd August, 2026, Adam Watson attempted to access the Pioneer Lakes bank account — after noticing he couldn't access it on his app. When he went into the Bondi Junction Commonwealth Bank branch, he was accused of being a fraudster by the Commonwealth Bank employee, and told to leave the premises or they would call the police — in front of everybody.</p>
-                    <p>He was already suicidal because of having his bank accounts drained. And on top of this, the Commonwealth Bank employee is now further stigmatizing him based on a story they heard from a vindictive accountant who was poisoned by James Ramsden — whose kid Isaac (the start of this story) attempted to entrap Adam Watson with a fake ID.</p>
-                    <p>So now Commonwealth Bank is looped into proceedings. Setups like this are actually very simple to see through. Allowing a person who is no longer a Director to drain a bank account after it was transferred correctly — and then on top of that closing said bank account based on this person's employee's account and stigmatizing a person — is exactly what the Federal Circuit Court was created for.</p>
-                    <p>Do you see now why lawyers make all the money in this country? Or at least good lawyers. The Commonwealth legal team are going to run a mile from this — and hopefully they update their procedures accordingly. They've already ponied up a lot in previous matters.</p>
-                </div>
-                <div>
-                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/ChatGPT+Image+Aug+5%2C+2026%2C+03_54_19+PM+(1).png" alt="Commonwealth Bank closes account" class="w-full rounded-xl border border-line" />
-                    <figcaption class="mt-3 font-mono text-xs text-muted">Commonwealth Bank employee confronting Adam Watson at the Bondi Junction branch.</figcaption>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
 </div><!-- end main content -->
 
