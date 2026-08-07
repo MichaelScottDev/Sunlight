@@ -1460,6 +1460,83 @@
         </div>
     </section>
 
+            <!-- ══════════════════════════════════════════════════════════════
+     SECTION · DELETING EVIDENCE
+══════════════════════════════════════════════════════════════ -->
+<section class="bg-ink px-6 py-16 md:py-20 lg:px-8">
+  <div class="mx-auto max-w-6xl">
+    <div class="border-t border-line pt-12">
+      <p class="font-mono kicker text-xs uppercase text-gold">06 · The Paper Trail</p>
+      <h2 class="mt-4 font-display h-display text-5xl uppercase text-paper md:text-7xl">
+        Deleting Evidence.. And Leaving a Paper Trail
+      </h2>
+      <p class="mt-3 font-quote text-2xl italic text-gold md:text-3xl">
+        McKays Lawyers Cut Ties, and Leave Themselves Open to Defamation
+      </p>
+    </div>
+
+    <div class="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-16">
+      <!-- Left: body copy -->
+      <div class="lg:col-span-7 space-y-6 font-serif text-base leading-relaxed text-muted md:text-lg">
+        <p>
+          Just like with Ramsden Lawyers I called to ask McKays if they could make a comment on this episode as they feature in it. I sent the email which you can download here and very soon after the email Lloyd Stanger voided the digital signature documents on Foxit eSign for the document he sent trying to get Adam to sign the company back over to his client.
+        </p>
+        <p>
+          So he definitely read it — including the part where I mentioned him saying defamatory comments about Adam Watson. And like many of Michael Botica's contractors — it's quite clear McKays is jumping ship and abandoning Mr. Noface.
+        </p>
+
+        <!-- CTA -->
+        <div class="pt-2">
+          <a
+            href="[EMAIL_DOWNLOAD_LINK_HERE]"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 rounded border border-line bg-surface px-5 py-3 font-mono text-xs uppercase tracking-wide text-gold transition-colors hover:border-gold hover:bg-surface-2"
+          >
+            Read the email sent ↗
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: image placeholder -->
+      <div class="lg:col-span-5">
+        <figure class="rounded-lg border border-line bg-surface overflow-hidden">
+          <div class="bg-surface-2 aspect-[4/3] flex items-center justify-center">
+            <!-- REPLACE THIS SRC -->
+            <img
+              src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/afsa_move/PLACEHOLDER_mckays_void.png"
+              alt="McKays voided the digital signature documents"
+              class="w-full h-full object-cover"
+              loading="lazy"
+            />
+          </div>
+          <figcaption class="border-t border-line px-4 py-3 font-mono text-xs uppercase tracking-wider text-muted">
+            3 hours after email receipt McKays void the contract they sent and jump ship
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <!-- Big Cheque -->
+    <div class="mt-14">
+      <figure class="rounded-lg border border-line bg-surface overflow-hidden">
+        <div class="bg-surface-2">
+          <!-- REPLACE THIS SRC -->
+          <img
+            src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/afsa_move/PLACEHOLDER_big_cheque.png"
+            alt="The big cheque"
+            class="w-full h-auto object-contain max-h-[480px] mx-auto"
+            loading="lazy"
+          />
+        </div>
+        <figcaption class="border-t border-line px-5 py-4 font-serif text-base text-muted md:text-lg">
+          The big cheque doesn't wash away your sins — just improve your corporate culture to not make it okay for lawyers to drag people's names through the mud and insinuate a man cleared of sexual assault is a pedophile.
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
     <!-- ══════════════════════════════════════════════════════════════
     SECTION 9 · PARTIES BLOCK (Federal Court Documents Being Lodged)
     ══════════════════════════════════════════════════════════════ -->
