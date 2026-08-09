@@ -564,21 +564,6 @@
       </div>
     </div>
 
-    <!-- Watson quote (kept here for narrative flow) -->
-    <div class="mt-10 space-y-6 font-serif text-lg leading-relaxed text-muted md:text-xl">
-      <figure class="border-l-2 border-gold bg-surface/60 py-6 pl-6 pr-5">
-        <blockquote class="font-quote text-xl italic leading-snug text-paper md:text-2xl">
-          "When I ran last time — he (Albo) made sure my votes went missing. He was open about it too. He said 'What are you going to do about it?' What can I do? But I told him — if you f*** me politically again I'll strike you like a big taipan snake. And you won't get up again!"
-        </blockquote>
-        <figcaption class="mt-5 border-t border-line pt-4 font-mono text-xs uppercase tracking-wide text-gold">
-          Adam Watson
-        </figcaption>
-      </figure>
-      <p>
-        A Prime Minister admitting to vote tampering on Mr. Watson's previous run for the Kingsford Smith seat (he loves that Kingsford Smith seat) — when he ran under Clive Palmer's United Australia Party.
-      </p>
-    </div>
-
     <div class="mt-10 rounded-lg border border-line bg-surface overflow-hidden">
       <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/afsa_move/putin_article.png" alt="Putin article reference" class="w-full h-auto object-cover" loading="lazy" />
       <p class="border-t border-line px-4 py-3 font-mono text-[10px] uppercase tracking-widest text-muted/60 text-center">
@@ -596,25 +581,41 @@
          style="background:linear-gradient(180deg,rgba(61,122,74,0.07) 0%,rgba(201,138,16,0.04) 55%,transparent 100%)">
   <div class="mx-auto max-w-6xl">
 
-    <!-- 1 · QUOTE WITH PORTRAIT — NOW THE TAIPAN QUOTE -->
-    <figure class="grid grid-cols-1 items-center gap-8 sm:grid-cols-12 sm:gap-10">
-      <div class="sm:col-span-4 lg:col-span-3">
-        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/afsa_move/adam_head.jpg" alt="Adam Watson" class="aspect-[3/4] w-full max-w-[220px] rounded-lg border border-sage/30 object-cover sm:max-w-none" loading="lazy" />
-      </div>
-      <div class="sm:col-span-8 lg:col-span-9">
-        <div class="flex items-center gap-3">
-          <span class="h-px w-6 bg-sage"></span>
-          <p class="font-mono kicker text-[0.6rem] uppercase text-sage">Independent candidate</p>
-        </div>
-        <blockquote class="mt-4 font-quote text-2xl italic leading-snug text-paper md:text-4xl">
-          “When I ran last time — he (Albo) made sure my votes went missing. He was open about it too. He said ‘What are you going to do about it?’ What can I do? But I told him — if you f*** me politically again I’ll strike you like a big taipan snake. And you won’t get up again!”
-        </blockquote>
-        <figcaption class="mt-5 border-t border-line pt-4 font-mono text-xs uppercase tracking-wider text-sage">
-          Adam Watson
-          <span class="mt-1 block normal-case tracking-normal text-muted">Independent · legal consultant · Ex-ASIO Negotiator</span>
-        </figcaption>
-      </div>
-    </figure>
+    <!-- 1 · QUOTE WITH PORTRAIT — refined editorial treatment -->
+<figure class="grid grid-cols-1 items-start gap-8 sm:grid-cols-12 sm:gap-12 lg:gap-16">
+  <!-- Portrait -->
+  <div class="sm:col-span-4 lg:col-span-3">
+    <img 
+      src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/afsa_move/adam_head.jpg" 
+      alt="Adam Watson" 
+      class="aspect-[3/4] w-full max-w-[240px] rounded-lg border border-sage/25 object-cover shadow-sm sm:max-w-none"
+      loading="lazy"
+    />
+  </div>
+
+  <!-- Quote -->
+  <div class="sm:col-span-8 lg:col-span-9 flex flex-col justify-center">
+    <div class="flex items-center gap-3 mb-5">
+      <span class="h-px w-5 bg-sage/70"></span>
+      <p class="font-mono text-[0.58rem] uppercase tracking-[0.22em] text-sage">
+        Independent Candidate
+      </p>
+    </div>
+
+    <blockquote class="font-quote text-[1.35rem] sm:text-[1.55rem] md:text-[1.75rem] lg:text-[1.9rem] italic leading-[1.35] text-paper/90 max-w-3xl">
+      “When I ran last time — he (Albo) made sure my votes went missing. He was open about it too. He said ‘What are you going to do about it?’ What can I do? But I told him — if you f*** me politically again I’ll strike you like a big taipan snake. And you won’t get up again!”
+    </blockquote>
+
+    <div class="mt-7 pt-5 border-t border-line/60">
+      <p class="font-mono text-[0.7rem] uppercase tracking-[0.18em] text-sage">
+        Adam Watson
+      </p>
+      <p class="mt-1.5 font-mono text-[0.62rem] tracking-wide text-muted/80">
+        Independent · legal consultant · Ex-ASIO Negotiator
+      </p>
+    </div>
+  </div>
+</figure>
 
     <!-- 2 · THE POLICIES -->
     <div class="mt-16 border-t border-line pt-12 md:mt-20">
