@@ -107,7 +107,7 @@
         It all started with a simple debt... Cheng Deng owed Adam Watson some money and Mr. Watson took Cheng Deng to Civil Court to get it back — and he got a sequestration Order. Yours truly helped him lodge documents to do so.
       </p>
       <p>
-        Little did he know Cheng Deng was part of an Asian conspiracy to step on the white man's face which roped in corrupt police and prosecutors conspiring to step on the white man's face.
+        Little did he know Cheng Deng was part of an Asian conspiracy to step on the white man's face which roped in corrupt police and prosecutors (and even the Prime Minister) conspiring to step on the white man's face.
       </p>
       <p>
         By the way Cheng Deng is also into all kinds of shifty schemes — like for example he brings people in from China to open Asian restaurants with immigrant labour and then sells it to people who are here illegally — the shops are sold unofficially and then when it all goes belly up (they break every employment law there is and make their dim sims lawlessly) they just transfer the company to this guy named Paul Matters and when people come after him he says he's on housing commission, that he's on the pension and he's got nothing. ASIO is watching this bloke but he is useful for the Russian Federation as he has supplied information for Putin for me to build diplomatic links and take control of the nation.
