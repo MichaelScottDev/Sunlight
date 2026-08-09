@@ -329,7 +329,7 @@
           </p>
         </div>
         <div class="flex items-center gap-4 shrink-0">
-          <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/afsa_move/cdpp_logo.png" alt="Commonwealth Director of Public Prosecutions" class="h-16 w-auto rounded border border-line bg-white/90 p-2 md:h-20" loading="lazy" />
+          <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/afsa_move/cdpp_logo.png" alt="Commonwealth Director of Public Prosecutions" class="h-16 w-auto rounded border border-line p-2 md:h-20" loading="lazy" />
           <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/afsa_move/queensland_law_society.png" alt="Queensland Law Society" class="h-16 w-auto rounded border border-line bg-white/90 p-2 md:h-20" loading="lazy" />
         </div>
       </div>
