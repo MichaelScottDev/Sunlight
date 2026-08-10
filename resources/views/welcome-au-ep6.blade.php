@@ -889,51 +889,6 @@
             </div>
 
             <!-- ══════════════════════════════════════════════════════════════
-    SECTION 2 · TWO-ROW QUOTE BLOCK  (rumour + retaliation)
-    ══════════════════════════════════════════════════════════════ -->
-    <section class="bg-ink px-6 py-12 md:py-16 lg:px-8">
-        <div class="mx-auto max-w-6xl">
-
-            <!-- ── ROW 1 ── -->
-            <div class="grid grid-cols-1 items-center gap-10 border-t border-line pt-12 lg:grid-cols-12 lg:gap-16">
-
-                <!-- prose -->
-                <div class="max-w-xl font-serif text-base leading-relaxed text-muted md:text-lg lg:col-span-7">
-                    <p class="font-mono text-xs uppercase tracking-wider text-gold">01 · The rumour that won't die</p>
-                    <p class="mt-4">
-                        The oldest rumour in Adam Watson's life — the one that just doesn't die — is that
-                        he raped Bodie Chalmers. The police officer who pressed the sexual assault charge
-                        had it dropped at first mention. But political enemies have weaponised this charge
-                        sheet to destroy Adam Watson's life, again and again.
-                    </p>
-                    <p class="mt-6">
-                        Bodie Chalmers — a person facing very serious charges and a potential 20+ years
-                        in prison — is in Isaac's crew with Z Soeilman. After seeing this website,
-                        John Ramsden did research into Adam Watson, learned of his big development
-                        project at Pioneer Lakes Village in Mackay, and called the office.
-                    </p>
-                    <p class="mt-6">
-                        He spoke to Ursula McKenzie — the vindictive accountant — and told her the rumour:
-                        that Adam is in a relationship with his son (despite the fact Adam only spoke to
-                        him twice) and that he raped Bodie Chalmers. After hearing this unsubstantiated
-                        rumour, Ursula McKenzie proceeded to spread it and poison the entire company.
-                    </p>
-                </div>
-
-                <!-- quote callout -->
-                <figure class="border-l-2 border-red bg-surface/60 py-6 pl-6 pr-5 lg:col-span-5">
-                    <blockquote class="font-quote text-2xl italic leading-snug text-paper md:text-3xl">
-                        “The boys won't want to work with a pedophile!”
-                    </blockquote>
-                    <figcaption class="mt-5 border-t border-line pt-4 font-mono text-xs uppercase tracking-wide text-gold">
-                        Ursula McKenzie
-                        <span class="mt-1 block normal-case tracking-normal text-muted">Referring to the contractors · Pioneer Lakes</span>
-                    </figcaption>
-                </figure>
-
-            </div>
-
-            <!-- ══════════════════════════════════════════════════════════════
             NEW SECTION · "ADAM RAPED BODIE CHALMERS!" — placed between ROW 1 and ROW 2
             ══════════════════════════════════════════════════════════════ -->
             <div class="mt-16 border-t border-line pt-12">
@@ -1490,7 +1445,7 @@
         <!-- CTA -->
         <div class="pt-2">
           <a
-            href="[EMAIL_DOWNLOAD_LINK_HERE]"
+            href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/mckays_request_for_comment.pdf"
             target="_blank"
             rel="noopener noreferrer"
             class="inline-flex items-center gap-2 rounded border border-line bg-surface px-5 py-3 font-mono text-xs uppercase tracking-wide text-gold transition-colors hover:border-gold hover:bg-surface-2"
@@ -1506,7 +1461,7 @@
           <div class="bg-surface-2 aspect-[4/3] flex items-center justify-center">
             <!-- REPLACE THIS SRC -->
             <img
-              src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/afsa_move/PLACEHOLDER_mckays_void.png"
+              src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/agreement_voided.png"
               alt="McKays voided the digital signature documents"
               class="w-full h-full object-cover"
               loading="lazy"
@@ -1525,7 +1480,7 @@
         <div class="bg-surface-2">
           <!-- REPLACE THIS SRC -->
           <img
-            src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/afsa_move/PLACEHOLDER_big_cheque.png"
+            src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/pioneer_lakes/washing_away_sins+(1).png"
             alt="The big cheque"
             class="w-full h-auto object-contain max-h-[480px] mx-auto"
             loading="lazy"
