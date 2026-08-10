@@ -2284,6 +2284,473 @@
         </div>
     </section>
 
+            <!-- ══════════════════════════════════════════════════════════════
+     SECTION 1 · THE CALL FROM TRAVIS
+══════════════════════════════════════════════════════════════ -->
+<section class="bg-ink px-6 py-16 md:py-20 lg:px-8 pt-28">
+  <div class="mx-auto max-w-4xl">
+    <div class="border-b border-line pb-8">
+      <p class="font-mono kicker text-xs uppercase text-gold">Exhibit · Private Number · 12:34pm · 10/8/26</p>
+      <h1 class="font-display h-display text-5xl uppercase text-paper md:text-7xl mt-3">
+        “It’s been going around legal circles…”
+      </h1>
+      <p class="mt-3 font-quote text-2xl italic text-gold md:text-3xl">
+        Travis refuses to give his last name
+      </p>
+    </div>
+
+    <div class="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-12 items-start">
+      <div class="sm:col-span-4">
+        <figure class="rounded-lg border border-line bg-surface overflow-hidden">
+          <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/part_2/travis_lastname.svg" alt="Travis — Complete Corporate Services" class="w-full h-auto object-cover" loading="lazy" />
+          <figcaption class="border-t border-line px-4 py-3 font-mono text-xs uppercase tracking-wider text-muted">
+            Travis · Refuses last name · Refuses email
+          </figcaption>
+        </figure>
+      </div>
+      <div class="sm:col-span-8 space-y-5 font-serif text-lg leading-relaxed text-muted md:text-xl">
+        <p>
+          Yours sincerely gets a call at 12:34pm on 10/8/26 from a private number. A man named Travis from Complete Corporate Services wants to talk about this episode of Sunlight.Quest.
+        </p>
+        <p>
+          He confirms CCS has been engaged by John Ramsden and asks me to consider taking the website down — saying that it’s just a friendly call and honing in on the fact that Isaac — featured at the top of this page — is 16.
+        </p>
+        <div class="flex items-center gap-4 pt-2">
+          <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/part_2/complete_corporate_services.webp" alt="Complete Corporate Services" class="h-12 w-auto rounded border border-line bg-white/90 p-1.5" loading="lazy" />
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-12 rounded-lg border border-line bg-surface overflow-hidden">
+      <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/part_2/incoming_call_1.jpeg" alt="Incoming call from private number — Travis" class="w-full h-auto object-cover" loading="lazy" />
+      <p class="border-t border-line px-4 py-3 font-mono text-[10px] uppercase tracking-widest text-muted/60 text-center">
+        Exhibit · Incoming call · Private number · 12:34pm 10/8/26
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     SECTION 2 · KOSTA ON ADULT CRIME
+══════════════════════════════════════════════════════════════ -->
+<section class="bg-ink px-6 py-12 md:py-16 lg:px-8">
+  <div class="mx-auto max-w-4xl">
+    <figure class="border-l-2 border-gold bg-surface/60 py-7 pl-7 pr-6">
+      <blockquote class="font-quote text-xl italic leading-snug text-paper md:text-2xl">
+        “And what about Vyleen White? She was killed by a 17 year old. Is that just a kid? Who’s in power right now? David Crisafulli! Adult time, adult crime! People have had enough of people kids terrorising people and then crying victim because you showed their son’s face!”
+      </blockquote>
+      <figcaption class="mt-5 border-t border-line pt-4 font-mono text-xs uppercase tracking-wide text-gold">
+        Kosta Kondratenko
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     SECTION 3 · THE REACTION (+ LSC logo moved here)
+══════════════════════════════════════════════════════════════ -->
+<section class="bg-ink px-6 py-12 md:py-16 lg:px-8">
+  <div class="mx-auto max-w-4xl">
+    <div class="border-t border-line pt-12">
+      <p class="font-mono kicker text-xs uppercase text-gold">The Reaction</p>
+      <h2 class="mt-3 font-display h-display text-4xl uppercase text-paper md:text-5xl">
+        It’s gone around a circle of lawyers
+      </h2>
+    </div>
+
+    <div class="mt-8 space-y-6 font-serif text-lg leading-relaxed text-muted md:text-xl">
+      <p>
+        Apparently this website has gone around a circle of some lawyers and now these legal firms are not doing business with John Ramsden. Z Soeilman — a person in Isaac’s gang who has been extorting Adam — is saying that it’s my fault because of this website. Maybe John Ramsden believes that too.
+      </p>
+      <p>
+        The bigger question is why were these other legal firms doing business with Ramsden Lawyers in the first place — and why can John Ramsden even hold on to his practising certificate when typing his name into Google shows an ASIC press release on John Ramsden’s character as a lawyer. The bigger issue is the oversight of the Legal Services Commissioner not taking action on lawyers that engage in behaviour like this.
+      </p>
+    </div>
+
+    <!-- Legal Services Commissioner — moved here -->
+    <div class="mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-5 rounded-lg border border-line bg-surface p-5">
+      <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/part_2/lsc-logo.png" alt="Legal Services Commissioner" class="h-14 w-auto rounded border border-line bg-white p-2 shrink-0" loading="lazy" />
+      <div>
+        <p class="font-mono text-xs uppercase tracking-wider text-gold">Legal Services Commissioner</p>
+        <p class="mt-1 font-serif text-sm text-muted">
+          Looped into email about John Ramsden’s actions.
+        </p>
+      </div>
+    </div>
+
+    <!-- Video -->
+    <div class="mt-12 rounded-lg border border-line bg-surface overflow-hidden">
+      <div class="border-b border-line px-4 py-3">
+        <p class="font-mono text-xs uppercase tracking-wider text-gold">Exhibit · Intimidation Footage</p>
+        <p class="mt-1 font-serif text-sm text-paper">Z Soeilman intimidating Adam Watson</p>
+      </div>
+      <video 
+        controls 
+        playsinline 
+        preload="metadata"
+        class="w-full bg-black" 
+        style="max-height:640px;"
+      >
+        <source src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/itchbay.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p class="border-t border-line px-4 py-2 font-mono text-[10px] text-muted/60 text-center">
+        If the video appears black, the source file may still be processing on S3 or have restricted access.
+      </p>
+    </div>
+
+    <!-- Adam on Travis -->
+    <div class="mt-12">
+      <figure class="border-l-2 border-hot bg-surface/60 py-6 pl-6 pr-5">
+        <blockquote class="font-quote text-xl italic leading-snug text-paper md:text-2xl">
+          “Well he’s not giving you his last name. What does that say to you? He’s a coward. And it shows the type of people John Ramsden associates with.”
+        </blockquote>
+        <figcaption class="mt-5 border-t border-line pt-4 font-mono text-xs uppercase tracking-wide text-gold">
+          Adam Watson <span class="text-muted normal-case tracking-normal">· on the Travis affair</span>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     SECTION 4 · ASIC (white background on logo)
+══════════════════════════════════════════════════════════════ -->
+<section class="bg-ink px-6 py-16 md:py-20 lg:px-8">
+  <div class="mx-auto max-w-4xl">
+    <div class="border-t border-line pt-12">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
+        <div>
+          <p class="font-mono kicker text-xs uppercase text-gold">Official Record</p>
+          <h2 class="mt-3 font-display h-display text-4xl uppercase text-paper md:text-5xl">ASIC</h2>
+        </div>
+        <div class="bg-white rounded border border-line p-3">
+          <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/part_2/asic-newsroom-logo.svg" alt="ASIC Newsroom" class="h-10 w-auto" loading="lazy" />
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-10 space-y-6 font-serif text-lg leading-relaxed text-muted md:text-xl">
+      <blockquote class="border-l-2 border-gold pl-6 py-2 font-quote text-xl italic text-paper">
+        “Mr Ramsden acted as a solicitor for the Members Alliance group and has been charged with aiding Mr Marlborough, Mr MacVicar and Mr Young in their alleged directors duties offences. He faces eight counts of aiding, abetting, counselling or procuring the commission of an offence in contravention of the Corporations Act.”
+      </blockquote>
+      <p>
+        The ASIC press release linked below shows Mr Ramsden being charged for aiding and abetting the directors of a cold-calling boiler-room company on the Gold Coast called Members Alliance Group. I don’t know what the outcome of those charges were, but it’s not a good look.
+      </p>
+      <a href="https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2021-releases/21-242mr-lawyer-and-former-company-officers-associated-with-members-alliance-and-benchmark-groups-facing-72-criminal-charges/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded border border-line bg-surface px-4 py-2.5 font-mono text-xs uppercase tracking-wide text-gold transition-colors hover:border-gold hover:bg-surface-2">
+        View ASIC Press Release ↗
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     SECTION 5 · MEMBERS ALLIANCE GROUP
+══════════════════════════════════════════════════════════════ -->
+<section class="bg-ink px-6 py-12 md:py-16 lg:px-8">
+  <div class="mx-auto max-w-4xl">
+    <div class="border-t border-line pt-12">
+      <p class="font-mono kicker text-xs uppercase text-gold">The Firm John Ramsden Assisted</p>
+      <h2 class="mt-3 font-display h-display text-4xl uppercase text-paper md:text-5xl">
+        Members Alliance Group
+      </h2>
+    </div>
+
+    <div class="mt-8 space-y-6 font-serif text-lg leading-relaxed text-muted md:text-xl">
+      <p>
+        Members Alliance Group has been featured on news.com.au (first result I found on Google). Here is the article.
+      </p>
+    </div>
+
+    <div class="mt-8 rounded-lg border border-line bg-surface overflow-hidden">
+      <div class="border-b border-line px-4 py-3 flex items-center gap-4">
+        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/part_2/news_com_logo.png" alt="news.com.au" class="h-6 w-auto" loading="lazy" />
+        <p class="font-mono text-xs uppercase tracking-wider text-muted">news.com.au</p>
+      </div>
+      <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/part_2/directors_live_luxury.png" alt="Directors of alleged cold-call investment scam company live the high life" class="w-full h-auto object-cover" loading="lazy" />
+      <div class="border-t border-line px-4 py-3 text-center">
+        <a href="https://www.news.com.au/finance/money/investing/directors-of-alleged-cold-call-investment-scam-company-live-the-high-life-while-affected-parties-struggle/news-story/245ec369bfa929fb35d284580c0590d3" target="_blank" rel="noopener noreferrer" class="font-mono text-[10px] uppercase tracking-widest text-muted hover:text-gold transition-colors">
+          Read full article on news.com.au ↗
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     SECTION 6 · AWARDS (collage full-width + linked + looped-in notes)
+══════════════════════════════════════════════════════════════ -->
+<section class="bg-ink px-6 py-16 md:py-20 lg:px-8">
+  <div class="mx-auto max-w-4xl">
+    <div class="border-t border-line pt-12">
+      <p class="font-mono kicker text-xs uppercase text-gold">A Note on the Failed Legal Ethical Standards</p>
+      <h2 class="mt-3 font-display h-display text-4xl uppercase text-paper md:text-5xl">
+        Doyles and Lawyers Weekly<br>Gave Ramsden Lawyers Awards
+      </h2>
+    </div>
+
+    <div class="mt-8 space-y-6 font-serif text-lg leading-relaxed text-muted md:text-xl">
+      <p>
+        I wonder what Lawyers Weekly and Doyles would say about all the awards they’ve given Ramsden Law — and what these awards even mean — and whether they’re even awarded fairly or how the recipients of these awards are selected.
+      </p>
+      <p>
+        Is it a pay-to-play scheme? If you’re accused of fraud do they take the awards back or what? Because it sounds like some bullshit to me.
+      </p>
+    </div>
+
+    <!-- Full-width Awards Collage — linked to Ramsden Law site -->
+    <a href="https://ramsdenlaw.com.au/our-story" target="_blank" rel="noopener noreferrer" class="mt-10 block group">
+      <figure class="rounded-lg border border-line bg-surface overflow-hidden transition group-hover:border-gold/50">
+        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/part_2/legal_awards_ramsden.png" alt="Legal awards given to Ramsden Lawyers — click to visit Ramsden Law Our Story" class="w-full h-auto object-cover" loading="lazy" />
+        <figcaption class="border-t border-line px-4 py-3 font-mono text-[10px] uppercase tracking-widest text-muted text-center group-hover:text-gold transition-colors">
+          Awards collage · Click to view on ramsdenlaw.com.au/our-story ↗
+        </figcaption>
+      </figure>
+    </a>
+
+    <!-- Doyles + Lawyers Weekly with looped-in notes -->
+    <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div class="rounded-lg border border-line bg-surface p-6 flex flex-col items-center text-center">
+        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/part_2/doyles_logo.png" alt="Doyles Guide" class="h-16 w-auto mb-4" loading="lazy" />
+        <p class="font-mono text-xs uppercase tracking-wider text-gold">Doyles Guide</p>
+        <p class="mt-2 font-serif text-sm text-muted">
+          Looped in for comment.
+        </p>
+      </div>
+      <div class="rounded-lg border border-line bg-surface p-6 flex flex-col items-center text-center">
+        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/part_2/lawyers_weekly_award_logo_1.jpg" alt="Lawyers Weekly" class="h-16 w-auto mb-4" loading="lazy" />
+        <p class="font-mono text-xs uppercase tracking-wider text-gold">Lawyers Weekly</p>
+        <p class="mt-2 font-serif text-sm text-muted">
+          Looped in for comment.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     SECTION 7 · ADAM WATSON — BLACKMAIL VICTIM
+══════════════════════════════════════════════════════════════ -->
+<section class="bg-ink px-6 py-16 md:py-20 lg:px-8">
+  <div class="mx-auto max-w-4xl">
+    <div class="border-t border-line pt-12">
+      <div class="flex flex-col sm:flex-row sm:items-start gap-8">
+        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/afsa_move/adam_head.jpg" alt="Adam Watson" class="w-28 h-28 sm:w-36 sm:h-36 rounded-lg border border-sage/30 object-cover shrink-0" loading="lazy" />
+        <div>
+          <p class="font-mono kicker text-xs uppercase text-gold">Blackmail Victim</p>
+          <h2 class="mt-2 font-display h-display text-4xl uppercase text-paper md:text-5xl">Adam Watson</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-10 space-y-6 font-serif text-lg leading-relaxed text-muted md:text-xl">
+      <p>
+        The worst thing about John Ramsden engaging Complete Corporate Services to intimidate me on the phone from private numbers is that it shows a complete lack of accountability. His son still hasn’t stopped his offending behaviour of borrowing money he can’t pay back — and Adam Watson actually likes Isaac and is now being put in a position to pay back people that Isaac owes money to — so if anything John Ramsden should be saying thank you for stopping his son from getting bashed by people he owes money to.
+      </p>
+      <p>
+        As far as Travis’ comments over the phone about Isaac being “only 16 years old” — well he might be 16 years old but that hasn’t stopped him from continuing to borrow money and not pay it back — and Z Soeilman — his accomplice who went into Meriton with Isaac where Adam was staying to further threaten him to get more money out of him — is still on tape.
+      </p>
+      <p class="font-mono text-sm text-gold uppercase tracking-wider pt-2">And he’s still doing it — here are the receipts:</p>
+    </div>
+
+    <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <figure class="rounded-lg border border-line bg-surface overflow-hidden">
+        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/part_2/i_ramsden_payment_1_redacted.jpeg" alt="Payment receipt 1" class="w-full h-auto object-cover" loading="lazy" />
+      </figure>
+      <figure class="rounded-lg border border-line bg-surface overflow-hidden">
+        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/part_2/i_ramsden_payment_2_redacted.jpeg" alt="Payment receipt 2" class="w-full h-auto object-cover" loading="lazy" />
+      </figure>
+      <figure class="rounded-lg border border-line bg-surface overflow-hidden">
+        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/part_2/i_ramsden_payment_3_redacted.jpeg" alt="Payment receipt 3" class="w-full h-auto object-cover" loading="lazy" />
+      </figure>
+      <figure class="rounded-lg border border-line bg-surface overflow-hidden">
+        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/isaac_ramsden/part_2/i_ramsden_payment_4_redacted.jpeg" alt="Payment receipt 4" class="w-full h-auto object-cover" loading="lazy" />
+      </figure>
+    </div>
+    <p class="mt-3 font-mono text-[10px] uppercase tracking-widest text-muted/60 text-center">
+      Exhibit · Continuing payment demands (redacted)
+    </p>
+
+    <div class="mt-14">
+      <figure class="border-l-2 border-hot bg-surface/60 py-6 pl-6 pr-5">
+        <div class="flex items-start gap-5">
+          <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/afsa_move/adam_head.jpg" alt="Adam Watson" class="w-14 h-14 rounded-full border border-hot/40 object-cover shrink-0" loading="lazy" />
+          <div>
+            <blockquote class="font-quote text-xl italic leading-snug text-paper md:text-2xl">
+              “They said if I don’t pay they’ll go to the police and have me charged!”
+            </blockquote>
+            <figcaption class="mt-4 font-mono text-xs uppercase tracking-wide text-gold">
+              Adam Watson
+              <span class="mt-1 block normal-case tracking-normal text-muted">Victim of false accusation charge</span>
+            </figcaption>
+          </div>
+        </div>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     POLICIES + CONTACT
+══════════════════════════════════════════════════════════════ -->
+<section id="policies"
+         class="border-t border-line px-6 py-20 md:py-28 lg:px-8"
+         style="background:linear-gradient(180deg,rgba(61,122,74,0.07) 0%,rgba(201,138,16,0.04) 55%,transparent 100%)">
+  <div class="mx-auto max-w-6xl">
+
+    <figure class="grid grid-cols-1 items-start gap-8 sm:grid-cols-12 sm:gap-12 lg:gap-16">
+      <div class="sm:col-span-4 lg:col-span-3">
+        <img 
+          src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/afsa_move/adam_head.jpg" 
+          alt="Adam Watson" 
+          class="aspect-[3/4] w-full max-w-[240px] rounded-lg border border-sage/25 object-cover shadow-sm sm:max-w-none"
+          loading="lazy"
+        />
+      </div>
+      <div class="sm:col-span-8 lg:col-span-9 flex flex-col justify-center">
+        <div class="flex items-center gap-3 mb-5">
+          <span class="h-px w-5 bg-sage/70"></span>
+          <p class="font-mono text-[0.58rem] uppercase tracking-[0.22em] text-sage">
+            Independent Candidate
+          </p>
+        </div>
+        <blockquote class="font-quote text-[1.35rem] sm:text-[1.55rem] md:text-[1.75rem] lg:text-[1.9rem] italic leading-[1.35] text-paper/90 max-w-3xl">
+          “When I ran last time — he (Albo) made sure my votes went missing. He was open about it too. He said ‘What are you going to do about it?’ What can I do? But I told him — if you f*** me politically again I’ll strike you like a big taipan snake. And you won’t get up again!”
+        </blockquote>
+        <div class="mt-7 pt-5 border-t border-line/60">
+          <p class="font-mono text-[0.7rem] uppercase tracking-[0.18em] text-sage">Adam Watson</p>
+          <p class="mt-1.5 font-mono text-[0.62rem] tracking-wide text-muted/80">
+            Independent · legal consultant · Ex-ASIO Negotiator
+          </p>
+        </div>
+      </div>
+    </figure>
+
+    <div class="mt-16 border-t border-line pt-12 md:mt-20">
+      <div class="flex flex-col justify-between gap-4 md:flex-row md:items-end">
+        <div>
+          <h2 class="font-display h-display text-5xl uppercase text-paper md:text-7xl">
+            Get Mr. Watson’s Policies Below
+          </h2>
+          <p class="mt-4 max-w-2xl font-quote text-2xl italic text-gold md:text-3xl">
+            Fully detailed — five working documents, published in full.
+          </p>
+        </div>
+        <div class="shrink-0 border border-sage/30 px-5 py-4 text-center" style="background:rgba(61,122,74,0.06)">
+          <div class="font-mono text-[0.5rem] uppercase tracking-[0.22em] text-sage">Policy platform</div>
+          <div class="font-display text-4xl text-sage">5</div>
+          <div class="font-mono text-[0.5rem] uppercase tracking-widest text-muted">Policy areas</div>
+        </div>
+      </div>
+
+      <p class="mt-8 max-w-3xl font-serif leading-relaxed text-muted md:text-lg">
+        Each policy is a working document rather than a campaign slogan, and each is open to challenge. If something in them is wrong, the fastest way to fix it is to say so.
+      </p>
+
+      <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/adamwatson/adam-watson-fuel-policy.html" target="_blank" rel="noopener noreferrer" class="group block rounded-lg border border-line p-6 transition hover:border-gold/50" style="background:rgba(201,138,16,0.03)">
+          <div class="flex items-center justify-between">
+            <span class="font-mono text-[0.5rem] uppercase tracking-[0.22em] text-gold">Policy 01</span>
+            <span class="rounded border border-gold/20 px-2 py-0.5 font-mono text-[0.55rem] uppercase tracking-widest text-gold/60 group-hover:border-gold/60">View →</span>
+          </div>
+          <h3 class="mt-4 font-display text-3xl uppercase tracking-wide text-paper/80 group-hover:text-paper">Fuel</h3>
+          <p class="mt-3 font-serif text-sm leading-relaxed text-muted">Price transparency, competition policy, and the mechanisms that keep Australians paying more at the pump than they should.</p>
+        </a>
+        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/adamwatson/adam-watson-defence-policy.html" target="_blank" rel="noopener noreferrer" class="group block rounded-lg border border-line p-6 transition hover:border-hot/50" style="background:rgba(193,68,14,0.03)">
+          <div class="flex items-center justify-between">
+            <span class="font-mono text-[0.5rem] uppercase tracking-[0.22em] text-hot">Policy 02</span>
+            <span class="rounded border border-hot/20 px-2 py-0.5 font-mono text-[0.55rem] uppercase tracking-widest text-hot/60 group-hover:border-hot/60">View →</span>
+          </div>
+          <h3 class="mt-4 font-display text-3xl uppercase tracking-wide text-paper/80 group-hover:text-paper">Defence</h3>
+          <p class="mt-3 font-serif text-sm leading-relaxed text-muted">National security, capability investment, and what an independent voice looks like when defence policy isn’t written by lobbyists.</p>
+        </a>
+        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/adamwatson/adam-watson-immigration-policy.html" target="_blank" rel="noopener noreferrer" class="group block rounded-lg border border-line p-6 transition hover:border-violet/50" style="background:rgba(124,106,170,0.03)">
+          <div class="flex items-center justify-between">
+            <span class="font-mono text-[0.5rem] uppercase tracking-[0.22em] text-violet">Policy 03</span>
+            <span class="rounded border border-violet/20 px-2 py-0.5 font-mono text-[0.55rem] uppercase tracking-widest text-violet/60 group-hover:border-violet/60">View →</span>
+          </div>
+          <h3 class="mt-4 font-display text-3xl uppercase tracking-wide text-paper/80 group-hover:text-paper">Immigration</h3>
+          <p class="mt-3 font-serif text-sm leading-relaxed text-muted">Integrity, capacity, and a frank account of what the current system costs communities that have no political voice to push back.</p>
+        </a>
+        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/adamwatson/adam-watson-jobs-policy.html" target="_blank" rel="noopener noreferrer" class="group block rounded-lg border border-line p-6 transition hover:border-sage/50" style="background:rgba(61,122,74,0.03)">
+          <div class="flex items-center justify-between">
+            <span class="font-mono text-[0.5rem] uppercase tracking-[0.22em] text-sage">Policy 04</span>
+            <span class="rounded border border-sage/20 px-2 py-0.5 font-mono text-[0.55rem] uppercase tracking-widest text-sage/60 group-hover:border-sage/60">View →</span>
+          </div>
+          <h3 class="mt-4 font-display text-3xl uppercase tracking-wide text-paper/80 group-hover:text-paper">Jobs</h3>
+          <p class="mt-3 font-serif text-sm leading-relaxed text-muted">Employment, local industry, and economic frameworks that work for people who actually need them — not the ones who already have access.</p>
+        </a>
+        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/adamwatson/adam-watson-energy-policy.html" target="_blank" rel="noopener noreferrer" class="group block rounded-lg border border-line p-6 transition hover:border-gold/50" style="background:rgba(201,138,16,0.03)">
+          <div class="flex items-center justify-between">
+            <span class="font-mono text-[0.5rem] uppercase tracking-[0.22em] text-gold">Policy 05</span>
+            <span class="rounded border border-gold/20 px-2 py-0.5 font-mono text-[0.55rem] uppercase tracking-widest text-gold/60 group-hover:border-gold/60">View →</span>
+          </div>
+          <h3 class="mt-4 font-display text-3xl uppercase tracking-wide text-paper/80 group-hover:text-paper">Energy</h3>
+          <p class="mt-3 font-serif text-sm leading-relaxed text-muted">The transition, the grid, household costs, and why energy policy designed in isolation from working people’s bills is policy designed to fail.</p>
+        </a>
+        <div class="flex flex-col justify-between rounded-lg border border-sage/25 p-6" style="background:rgba(61,122,74,0.06)">
+          <div>
+            <span class="font-mono text-[0.5rem] uppercase tracking-[0.22em] text-sage">Full platform</span>
+            <p class="mt-4 font-display text-2xl leading-tight tracking-wide text-paper/75">Independent.<br>No donor.<br>No faction.</p>
+            <p class="mt-3 font-serif text-sm leading-relaxed text-muted">All five policies are live, and each links straight to the working document.</p>
+          </div>
+          <div class="mt-6 border-t border-sage/20 pt-4">
+            <p class="font-mono text-[0.5rem] uppercase tracking-widest text-sage/70">Sunlight.Quest</p>
+            <p class="mt-0.5 font-mono text-[0.5rem] text-muted">The Ramsden Matter</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-16 border-t border-line pt-12 md:mt-20">
+      <h2 class="font-display h-display text-4xl uppercase text-paper md:text-6xl">Get in Contact</h2>
+      <p class="mt-4 max-w-2xl font-quote text-xl italic text-gold md:text-2xl">
+        Two people, two inboxes — legal enquiries to Adam, everything editorial to Kosta.
+      </p>
+
+      <div class="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2">
+        <div class="flex flex-col rounded-lg border border-sage/30 bg-surface p-6">
+          <div class="flex items-center gap-4">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/afsa_move/adam_head.jpg" alt="Adam Watson" class="h-16 w-16 shrink-0 rounded-full border border-sage/40 object-cover" loading="lazy" />
+            <div class="min-w-0">
+              <p class="font-display text-3xl uppercase leading-none tracking-wide text-paper">Adam Watson</p>
+              <p class="mt-1.5 font-mono text-[0.6rem] uppercase tracking-widest text-sage">Legal consultant · Independent candidate · Ex-ASIO Negotiator</p>
+            </div>
+          </div>
+          <p class="mt-5 font-serif leading-relaxed text-muted">
+            Working on various strata disputes, helping local kids with criminal matters, negotiating deals and buying into a property development company in Mackay.
+          </p>
+          <a href="mailto:adam@adamwatson.au" class="group mt-6 inline-flex items-center justify-between gap-3 rounded border border-sage/40 px-4 py-3 font-mono text-xs uppercase tracking-widest text-sage transition hover:bg-sage hover:text-ink">
+            adam@adamwatson.au
+            <span class="transition group-hover:translate-x-1">→</span>
+          </a>
+        </div>
+
+        <div class="flex flex-col rounded-lg border border-gold/30 bg-surface p-6">
+          <div class="flex items-center gap-4">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/afsa_move/kosta_head.jpg" alt="Kosta Kondratenko" class="h-16 w-16 shrink-0 rounded-full border border-gold/40 object-cover" loading="lazy" />
+            <div class="min-w-0">
+              <p class="font-display text-3xl uppercase leading-none tracking-wide text-paper">Kosta Kondratenko</p>
+              <p class="mt-1.5 font-mono text-[0.6rem] uppercase tracking-widest text-gold">Adam’s assistant · Journalist, Sunlight.Quest</p>
+            </div>
+          </div>
+          <p class="mt-5 font-serif leading-relaxed text-muted">
+            Adam’s assistant and journalist for Sunlight.Quest — dishing you up the latest dirt and political intrigue, reporting on said cases.
+          </p>
+          <a href="mailto:kostakondratenko77@yahoo.com" class="group mt-6 inline-flex items-center justify-between gap-3 rounded border border-gold/40 px-4 py-3 font-mono text-xs uppercase tracking-widest text-gold transition hover:bg-gold hover:text-ink">
+            kostakondratenko77@yahoo.com
+            <span class="transition group-hover:translate-x-1">→</span>
+          </a>
+        </div>
+      </div>
+
+      <p class="mt-8 border-t border-line pt-6 font-mono text-xs leading-relaxed text-muted">
+        An initial enquiry doesn’t create a retainer and nothing on this page is legal advice for your situation. If you’re near a filing or limitation date, say so in the first line — those get read first.
+      </p>
+    </div>
+  </div>
+</section>
+
     
 
 </div><!-- end main content -->
