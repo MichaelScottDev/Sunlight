@@ -1,0 +1,2002 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sunlight.Quest — Episode 5: The Order They Agreed To</title>
+    <!-- Social share preview — RBK (Rhys Briffa) as the thumbnail -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Sunlight.Quest"/>
+    <meta property="og:title" content="Sunlight.Quest — Episode 5: The Order They Agreed To"/>
+    <meta property="og:description" content="Housing, accountability, and the characters who cross this record — including RBK."/>
+    <meta property="og:url" content="https://sunlight.quest/episode-5"/>
+    <meta property="og:image" content="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rhys_briffa.png"/>
+    <meta property="og:image:alt" content="RBK — Rhys Briffa"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Sunlight.Quest — Episode 5: The Order They Agreed To"/>
+    <meta name="twitter:description" content="Housing, accountability, and the characters who cross this record — including RBK."/>
+    <meta name="twitter:image" content="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rhys_briffa.png"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        display: ['"Bebas Neue"', 'sans-serif'],
+                        mono:    ['"DM Mono"', 'monospace'],
+                        serif:   ['"Instrument Serif"', 'serif'],
+                    },
+                    colors: {
+                        ink:    '#0c0804',
+                        paper:  '#f5ead4',
+                        hot:    '#c1440e',
+                        dim:    '#7a2d08',
+                        gold:   '#c98a10',
+                        sage:   '#3d7a4a',
+                        violet: '#7c6aaa',
+                    },
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.vidstack.io/player/theme.css">
+    <link rel="stylesheet" href="https://cdn.vidstack.io/player/video.css">
+    <script src="https://cdn.vidstack.io/player" type="module"></script>
+    <style>
+        body::after{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");pointer-events:none;z-index:9498}
+        ::-webkit-scrollbar{width:3px}::-webkit-scrollbar-track{background:#0c0804}::-webkit-scrollbar-thumb{background:#c98a10}
+        @keyframes blink{0%,100%{opacity:1}50%{opacity:0.25}}.blink{animation:blink 2s step-end infinite}
+        @keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}.fade-up{animation:fadeUp 0.65s ease both}
+        .reveal{opacity:0;transform:translateY(24px);transition:opacity 0.55s ease,transform 0.55s ease}.reveal.in{opacity:1;transform:translateY(0)}
+        .scanlines{background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.03) 2px,rgba(0,0,0,0.03) 4px);pointer-events:none}
+        .nav-dropdown{position:relative}
+        .nav-dropdown-menu{display:none;position:absolute;top:calc(100% + 8px);right:0;background:rgba(12,8,4,0.97);backdrop-filter:blur(12px);border:1px solid rgba(245,234,212,0.08);min-width:220px;z-index:100;box-shadow:0 24px 48px rgba(0,0,0,0.7)}
+        .nav-dropdown:hover .nav-dropdown-menu,.nav-dropdown-menu:hover{display:block}
+        .nav-dropdown-menu a{display:block;padding:0.55rem 1rem;font-size:0.55rem;letter-spacing:0.18em;text-transform:uppercase;color:rgba(245,234,212,0.4);transition:color 0.2s,background 0.2s;border-bottom:1px solid rgba(245,234,212,0.04);text-decoration:none}
+        .nav-dropdown-menu a:last-child{border-bottom:none}
+        .nav-dropdown-menu a:hover{color:rgba(245,234,212,0.9);background:rgba(245,234,212,0.03)}
+        .nav-dropdown-menu .nav-group-label{display:block;padding:0.6rem 1rem 0.3rem;font-size:0.45rem;letter-spacing:0.25em;text-transform:uppercase;color:rgba(245,234,212,0.18);border-bottom:1px solid rgba(245,234,212,0.06);pointer-events:none}
+        .nav-dropdown-menu a.nav-accent-gold:hover{color:#c98a10}
+        .story-chapter{border-left:2px solid rgba(245,234,212,0.08);padding-left:1.5rem;transition:border-color 0.3s ease}.story-chapter:hover{border-left-color:rgba(201,138,16,0.4)}
+        .evidence-vault{border:1px solid rgba(245,234,212,0.07);margin-top:1rem}
+        .ev-header{display:flex;align-items:center;justify-content:space-between;padding:0.6rem 0.9rem;background:rgba(245,234,212,0.025);cursor:pointer;user-select:none;border-bottom:1px solid rgba(245,234,212,0.05)}
+        .ev-header:hover{background:rgba(245,234,212,0.04)}
+        .ev-toggle{font-size:0.55rem;color:rgba(245,234,212,0.25);transition:transform 0.25s}.ev-header.open .ev-toggle{transform:rotate(180deg)}
+        .ev-body{display:none}.ev-body.open{display:block}
+        .ev-file{display:flex;align-items:center;gap:0.65rem;padding:0.65rem 0.9rem;border-bottom:1px solid rgba(245,234,212,0.04);transition:background 0.2s;cursor:pointer;position:relative;overflow:hidden}
+        .ev-file:last-child{border-bottom:none}
+        .ev-file:hover{background:rgba(245,234,212,0.03)}
+        .ev-file::before{content:'';position:absolute;left:0;top:0;bottom:0;width:2px;transform:scaleY(0);transform-origin:bottom;transition:transform 0.3s}
+        .ev-file:hover::before{transform:scaleY(1)}
+        .ef-gold::before{background:#c98a10}.ef-hot::before{background:#c1440e}.ef-sage::before{background:#3d7a4a}
+        .ev-icon{width:30px;height:30px;display:flex;align-items:center;justify-content:center;border:1px solid rgba(245,234,212,0.07);font-size:0.65rem;flex-shrink:0;letter-spacing:0.04em}
+        .ev-pdf{background:rgba(201,138,16,0.08);color:#c98a10}
+        .ev-img{background:rgba(61,122,74,0.08);color:#3d7a4a}
+        .ev-meta{flex:1;min-width:0}
+        .ev-name{font-size:0.63rem;color:rgba(245,234,212,0.62);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+        .ev-desc{font-size:0.49rem;letter-spacing:0.12em;text-transform:uppercase;margin-top:0.12rem;color:rgba(245,234,212,0.22)}
+        .ev-cta{font-size:0.47rem;letter-spacing:0.18em;text-transform:uppercase;opacity:0.3;transition:opacity 0.2s;white-space:nowrap;flex-shrink:0}
+        .ev-file:hover .ev-cta{opacity:1}
+        #mv-wrap{display:none;position:fixed;inset:0;z-index:9500;background:rgba(4,4,4,0.97);backdrop-filter:blur(16px);flex-direction:column}
+        #mv-wrap.active{display:flex}
+        .mv-head{display:flex;align-items:center;justify-content:space-between;padding:0.9rem 1.5rem;border-bottom:1px solid rgba(245,234,212,0.06);flex-shrink:0}
+        .mv-body{flex:1;display:flex;flex-direction:column;align-items:center;padding:1.5rem;overflow-y:auto;overflow-x:hidden}
+        .mv-foot{padding:0.65rem 1.5rem;border-top:1px solid rgba(245,234,212,0.06);display:flex;align-items:center;gap:0.75rem;flex-shrink:0;flex-wrap:wrap}
+        .mv-close-btn{background:rgba(245,234,212,0.04);border:1px solid rgba(245,234,212,0.1);color:rgba(245,234,212,0.4);font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;padding:0.45rem 0.75rem;cursor:pointer;transition:all 0.2s}
+        .mv-close-btn:hover{border-color:rgba(245,234,212,0.3);color:rgba(245,234,212,0.9)}
+        .mv-dl-btn{display:inline-flex;align-items:center;gap:0.4rem;border:1px solid rgba(245,234,212,0.12);padding:0.45rem 0.9rem;font-size:0.52rem;letter-spacing:0.15em;text-transform:uppercase;color:rgba(245,234,212,0.4);transition:all 0.2s;cursor:pointer;background:none}
+        .mv-dl-btn:hover{border-color:rgba(245,234,212,0.35);color:rgba(245,234,212,0.85)}
+        .mv-dl-gold{border-color:rgba(201,138,16,0.35);color:#c98a10}.mv-dl-gold:hover{border-color:#c98a10;background:rgba(201,138,16,0.08)}
+        .stat-number{font-family:'Bebas Neue',sans-serif;letter-spacing:0.04em;line-height:1}
+        /* timeline */
+        .tl-item{display:grid;grid-template-columns:100px 1fr;gap:0;position:relative}
+        .tl-item::before{content:'';position:absolute;left:99px;top:0;bottom:0;width:1px;background:rgba(201,138,16,0.15)}
+        .tl-date{font-family:'DM Mono',monospace;font-size:0.55rem;color:rgba(245,234,212,0.3);padding:0.85rem 1rem 0.85rem 0;text-align:right;letter-spacing:0.05em;line-height:1.4}
+        .tl-body{padding:0.85rem 0 0.85rem 1.25rem;border-bottom:1px solid rgba(245,234,212,0.04)}
+        .tl-dot{position:absolute;left:94px;top:1.05rem;width:10px;height:10px;border-radius:50%;background:#0c0804;border:2px solid rgba(201,138,16,0.4);z-index:1}
+        .tl-dot.tl-hot{border-color:rgba(193,68,14,0.6);background:rgba(193,68,14,0.1)}
+        .tl-dot.tl-gold{border-color:rgba(201,138,16,0.7);background:rgba(201,138,16,0.12)}
+        /* TIP MODAL */
+        #sq-modal{display:none;position:fixed;inset:0;z-index:9600;background:rgba(0,0,0,0.9);backdrop-filter:blur(5px);overflow-y:auto;padding:24px 16px 56px}
+        #sq-modal.open{display:block}
+        .sq-modal-inner{max-width:680px;margin:0 auto;position:relative}
+        .sq-modal-close-row{display:flex;justify-content:flex-end;margin-bottom:12px}
+        .sq-modal-close-btn{background:#111;border:1px solid #2a2a2a;color:rgba(245,234,212,0.4);font-family:'DM Mono',monospace;font-size:11px;letter-spacing:1px;padding:7px 16px;cursor:pointer;transition:color 0.13s,border-color 0.13s}
+        .sq-modal-close-btn:hover{color:rgba(245,234,212,0.85);border-color:#555}
+        .sq-logo-row{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+        .sq-logo-bar{width:4px;height:40px;background:#c98a10;flex-shrink:0}
+        .sq-logo-text{font-family:'Bebas Neue',sans-serif;font-size:30px;color:#f5f0e8;letter-spacing:3px;line-height:1}
+        .sq-logo-sub{font-family:'Instrument Serif',serif;font-size:12px;color:#5a5045;font-style:italic}
+        .sq-conf-strip{background:#c98a10;color:#0c0804;font-size:8px;letter-spacing:2px;text-transform:uppercase;padding:5px 12px;margin:12px 0 18px;display:inline-block}
+        .sq-card{background:#111;border:1px solid #222;padding:22px;margin-bottom:2px}
+        .sq-section{margin-bottom:22px}
+        .sq-section-label{font-family:'Bebas Neue',sans-serif;font-size:12px;letter-spacing:2.5px;color:#f5f0e8;margin-bottom:12px;display:flex;align-items:center;gap:10px}
+        .sq-section-label::after{content:'';flex:1;height:1px;background:#222}
+        .sq-badge{font-family:'DM Mono',monospace;font-size:8px;letter-spacing:1px;padding:2px 6px;text-transform:uppercase}
+        .sq-badge-opt{background:#1e1e1e;color:#4a4035}.sq-badge-req{background:#c98a10;color:#0c0804}
+        .sq-field{margin-bottom:10px}
+        .sq-field-hint{font-size:10px;color:#3a3530;margin-top:4px;letter-spacing:0.3px;line-height:1.5}
+        .sq-grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+        .sq-input,.sq-textarea,.sq-select{width:100%;background:#161616;border:1px solid #2a2a2a;color:#e8e2d4;font-family:'DM Mono',monospace;font-size:12px;padding:10px 12px;outline:none;border-radius:0;-webkit-appearance:none;appearance:none;transition:border-color 0.13s,background 0.13s}
+        .sq-input:focus,.sq-textarea:focus,.sq-select:focus{border-color:#c98a10;background:#1a1510}
+        .sq-input::placeholder,.sq-textarea::placeholder{color:#2e2a26;font-style:italic}
+        .sq-textarea{resize:vertical;min-height:90px;line-height:1.65}
+        .sq-select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23e8e2d4'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center;background-color:#161616;padding-right:34px;cursor:pointer}
+        .sq-select option{background:#161616;color:#e8e2d4}
+        .sq-toggle-row{display:flex;align-items:flex-start;gap:11px;background:#161616;border:1px solid #2a2a2a;padding:11px 12px;margin-bottom:10px;cursor:pointer;font-family:'DM Mono',monospace;font-size:11px;color:#7a7060;line-height:1.55;user-select:none;transition:border-color 0.13s}
+        .sq-toggle-row:hover{border-color:#3a3a3a}
+        .sq-toggle-row input[type=checkbox]{accent-color:#c98a10;width:14px;height:14px;margin-top:2px;flex-shrink:0;cursor:pointer}
+        .sq-checkbox-group{display:flex;flex-direction:column;gap:8px}
+        .sq-checkbox-item{display:flex;align-items:flex-start;gap:10px;font-family:'DM Mono',monospace;font-size:11px;cursor:pointer;color:#6a6055;line-height:1.55;padding:2px 0}
+        .sq-checkbox-item input[type=checkbox]{accent-color:#c98a10;width:14px;height:14px;margin-top:1px;flex-shrink:0;cursor:pointer}
+        .sq-collapsible{display:none;margin-top:10px}.sq-collapsible.open{display:block}
+        .sq-divider{border:none;border-top:1px solid #1e1e1e;margin:20px 0}
+        .sq-form-footer{background:#0d0d0d;border:1px solid #222;border-top:3px solid #c98a10;padding:16px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+        .sq-footer-note{font-size:10px;color:#3a3530;max-width:380px;line-height:1.7}
+        #sq-submit-btn{font-family:'Bebas Neue',sans-serif;font-size:17px;letter-spacing:2.5px;background:#c98a10;color:#0c0804;border:none;padding:12px 30px;cursor:pointer;transition:background 0.13s,transform 0.1s;white-space:nowrap}
+        #sq-submit-btn:hover{background:#a8720d}
+        #sq-submit-btn:active{transform:scale(0.97)}
+        #sq-success-state{display:none;text-align:center;padding:56px 24px}
+        .sq-success-word{font-family:'Bebas Neue',sans-serif;font-size:60px;color:#c98a10;letter-spacing:5px;display:block;margin-bottom:12px}
+        #sq-success-state p{font-family:'Instrument Serif',serif;font-size:17px;color:#5a5045;font-style:italic;line-height:1.75}
+        @media(max-width:520px){.sq-grid2{grid-template-columns:1fr}.sq-form-footer{flex-direction:column;align-items:stretch}#sq-submit-btn{width:100%;text-align:center}}
+    </style>
+</head>
+<body class="bg-ink text-paper font-mono overflow-x-hidden" style="background-color:#0c0804;background-image:linear-gradient(160deg,rgba(201,138,16,0.07) 0%,transparent 40%,rgba(193,68,14,0.03) 100%)">
+
+<!-- ══ NAV ══ -->
+<nav class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-5 py-3 bg-ink/95 backdrop-blur-md border-b border-paper/[0.06]">
+    <div class="flex items-center gap-4">
+        <a href="/" class="font-display text-2xl tracking-widest">SUNLIGHT<span class="text-hot">.QUEST</span></a>
+        <span class="hidden sm:block text-[0.52rem] tracking-[0.2em] uppercase text-paper/20 border-l border-paper/10 pl-4">Investigative Vlog Series</span>
+    </div>
+    <div class="flex items-center gap-3">
+        <a href="/episode-4" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-gold/50 px-3 py-1.5 transition-all">← Episode 4</a>
+        <button onclick="openTipModal()" class="hidden md:flex items-center gap-1.5 text-[0.55rem] tracking-[0.2em] uppercase border border-gold/50 hover:border-gold hover:bg-gold/10 px-3 py-1.5 text-gold transition-all">⊕ Submit a Tip</button>
+        <a href="/episode-4" title="Go to Episode 4" aria-label="Go to Episode 4" class="flex md:hidden items-center gap-1 px-2.5 h-8 border font-display text-[0.6rem] tracking-widest" style="border-color:rgba(201,138,16,0.5);color:#c98a10">‹ EP4</a>
+        <span class="text-[0.52rem] tracking-[0.18em] uppercase border px-3 py-1.5 blink" style="border-color:rgba(201,138,16,0.6);color:#c98a10">⬤ EP.05</span>
+        <a href="/episode-6" class="hidden md:block text-[0.55rem] tracking-[0.2em] uppercase text-paper/35 hover:text-paper transition-colors border border-paper/15 hover:border-gold/50 px-3 py-1.5 transition-all">Episode 6 →</a>
+        <a href="/episode-6" title="Go to Episode 6" aria-label="Go to Episode 6" class="flex md:hidden items-center gap-1 px-2.5 h-8 border font-display text-[0.6rem] tracking-widest" style="border-color:rgba(201,138,16,0.5);color:#c98a10">EP6 ›</a>
+    </div>
+</nav>
+
+<!-- ══ AU STRIPE ══ -->
+<div style="position:fixed;top:56px;left:0;right:0;z-index:49;height:2px;background:linear-gradient(90deg,#c98a10 0%,#c1440e 35%,#c98a10 65%,#3d7a4a 100%);opacity:0.55;pointer-events:none"></div>
+
+<!-- ══ MEDIA VIEWER OVERLAY ══ -->
+<div id="mv-wrap">
+    <div class="mv-head">
+        <div>
+            <div id="mv-tag" class="text-[0.48rem] tracking-[0.22em] uppercase text-gold mb-0.5">Evidence File</div>
+            <div id="mv-title" class="font-display text-lg tracking-widest">DOCUMENT</div>
+        </div>
+        <button class="mv-close-btn" onclick="closeMV()">✕ Close</button>
+    </div>
+    <div class="mv-body" id="mv-body"></div>
+    <div class="mv-foot">
+        <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20" id="mv-meta"></span>
+        <div class="flex-1"></div>
+        <button class="mv-dl-btn mv-dl-gold" id="mv-dl-btn" onclick="downloadFile()">⬇ Download File</button>
+        <button class="mv-close-btn" onclick="closeMV()">✕ Close</button>
+    </div>
+</div>
+
+
+<!-- ══════════════════════════════════════
+     EPISODE 5 HERO
+══════════════════════════════════════ -->
+<section class="relative min-h-screen flex flex-col pt-14">
+    <div class="absolute inset-0 z-0">
+        <div class="absolute inset-0 bg-gradient-to-b from-ink/60 via-ink/80 to-ink"></div>
+        <div class="scanlines absolute inset-0"></div>
+    </div>
+    <div class="relative z-10 flex items-center justify-between px-5 md:px-10 py-3 border-b border-paper/[0.05]">
+        <div class="flex items-center gap-4">
+            <span class="font-display text-[0.62rem] tracking-[0.14em] text-gold">EP.05</span>
+            <div class="w-px h-4 bg-paper/10"></div>
+            <span class="text-[0.55rem] tracking-[0.22em] uppercase text-paper/30">Season 1 — The Order They Agreed To</span>
+        </div>
+        <div class="hidden sm:flex items-center gap-3 text-[0.52rem] tracking-[0.18em] uppercase text-paper/22">
+            <span>Published</span><div class="w-px h-3 bg-paper/10"></div><span class="text-gold">26 Jun 2026</span>
+        </div>
+    </div>
+    <div class="relative z-10 flex-1 grid grid-cols-1 lg:grid-cols-[1fr_360px]">
+        <div class="flex flex-col justify-start px-5 md:px-10 py-8 lg:py-10">
+            <div class="fade-up mb-5" style="animation-delay:0.1s">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-5 h-px bg-hot"></div>
+                    <span class="text-[0.55rem] tracking-[0.28em] uppercase text-hot">RBK · Rhys Briffa · Wollongong</span>
+                    <span class="text-[0.5rem] tracking-[0.14em] uppercase text-paper/22 border border-paper/10 px-2 py-0.5">Feels Like Extortion</span>
+                </div>
+                <h1 class="font-display leading-[0.88] tracking-wide" style="font-size:clamp(2.8rem,7vw,5.5rem)">STREET IMAGE ONLINE.<br><span class="text-hot">POLICE ON SPEED DIAL.</span></h1>
+                <p class="font-serif italic text-paper/40 mt-3 leading-relaxed max-w-lg" style="font-size:clamp(0.9rem,2vw,1.15rem)">Adam engaged a rapper for some videos. What came back were strange messages, a girlfriend demanding money, and threats to call the police — all while still asking for feedback on the video. The whole thing has started to feel like extortion.</p>
+            </div>
+            <!-- RBK photo (video coming soon) -->
+            <div class="fade-up mb-5" style="animation-delay:0.2s">
+                <div class="relative border overflow-hidden" style="border-color:rgba(193,68,14,0.25)">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rhys_briffa.png" alt="RBK — Rhys Briffa" class="w-full object-contain block" style="height:460px;background:#0c0804" loading="eager" />
+                    <div class="absolute bottom-0 left-0 right-0 px-4 py-3" style="background:linear-gradient(transparent,rgba(12,8,4,0.92))">
+                        <div class="text-[0.48rem] tracking-[0.18em] uppercase text-hot/80">RBK · Rhys Briffa</div>
+                        <div class="text-[0.55rem] text-paper/40 mt-0.5">Video coming soon</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Chapter nav -->
+            <div class="fade-up border border-paper/[0.07]" style="animation-delay:0.35s;background:rgba(12,8,4,0.7)">
+                <div class="px-4 py-2 border-b border-paper/[0.06]">
+                    <span class="text-[0.46rem] tracking-[0.22em] uppercase text-paper/22">Episode 5 — Chapters</span>
+                </div>
+                <div class="flex flex-wrap gap-0">
+                    <a href="#the-promise" data-chap-ep5="0" onclick="seekToChapterEp5(0)" class="flex items-center gap-2 px-4 py-3 hover:bg-gold/8 transition-all group" style="border:1px solid transparent">
+                        <span class="font-display text-[0.62rem] text-gold">01</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">NCAT — Dept of Housing</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Consent order · LAHC · Aug 2025</div></div>
+                    </a>
+                    <a href="#nine-months" data-chap-ep5="1" onclick="seekToChapterEp5(1)" class="flex items-center gap-2 px-4 py-3 hover:bg-gold/8 transition-all group" style="border:1px solid transparent">
+                        <span class="font-display text-[0.62rem] text-gold">02</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Nine Months</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Adjournment · No repairs</div></div>
+                    </a>
+                    <a href="#lights-out" data-chap-ep5="2" onclick="seekToChapterEp5(2)" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 transition-all group" style="border:1px solid transparent">
+                        <span class="font-display text-[0.62rem] text-hot">03</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Lights Out</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Life-support address · Ausgrid</div></div>
+                    </a>
+                    <a href="#rent-to-520" data-chap-ep5="3" onclick="seekToChapterEp5(3)" class="flex items-center gap-2 px-4 py-3 hover:bg-hot/8 transition-all group" style="border:1px solid transparent">
+                        <span class="font-display text-[0.62rem] text-hot">04</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">$520 a Week</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Centrelink seized · No notice</div></div>
+                    </a>
+                    <a href="#accountability" data-chap-ep5="4" onclick="seekToChapterEp5(4)" class="flex items-center gap-2 px-4 py-3 hover:bg-gold/8 transition-all group" style="border:1px solid transparent">
+                        <span class="font-display text-[0.62rem] text-gold">05</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Accountability</div><div class="text-[0.47rem] text-paper/22 tracking-wider">Rose Jackson · Referrals</div></div>
+                    </a>
+                    <a href="#evidence-vault" data-chap-ep5="5" onclick="seekToChapterEp5(5)" class="flex items-center gap-2 px-4 py-3 hover:bg-gold/8 transition-all group" style="border:1px solid transparent">
+                        <span class="font-display text-[0.62rem] text-gold">06</span>
+                        <div><div class="text-[0.6rem] text-paper/55 group-hover:text-paper transition-colors leading-none mb-0.5">Evidence</div><div class="text-[0.47rem] text-paper/22 tracking-wider">8 documents · NCAT orders</div></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right sidebar -->
+        <div class="hidden lg:flex flex-col border-l border-paper/[0.06]" style="background:rgba(12,8,4,0.6)">
+            <div class="px-6 py-6 border-b border-paper/[0.06] fade-up" style="animation-delay:0.15s">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">This Episode</div>
+                <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">The NSW Land and Housing Corporation consented to a tribunal order — mould remediation, repairs, rent capped at $77.95 — by 1 November 2025. The deadline passed. The repairs weren't done. Then the power failed at a life-support address. Then the rent went to $520. This is what happens when an order has no enforcer.</p>
+                <div class="grid grid-cols-3 gap-2 text-center">
+                    <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl text-gold">NCAT</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Tribunal</div></div>
+                    <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl text-hot">$520</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Weekly rent</div></div>
+                    <div class="border border-paper/[0.07] py-2 px-1"><div class="font-display text-2xl text-gold">NSW</div><div class="text-[0.48rem] tracking-[0.14em] uppercase text-paper/22">Housing Corp</div></div>
+                </div>
+            </div>
+            <div class="px-5 py-4 border-b border-paper/[0.06]">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">Episode Chapters</div>
+                <div class="space-y-0.5">
+                    <button data-chap-ep5="0" onclick="seekToChapterEp5(0)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
+                        <span class="font-display text-[0.5rem] text-gold">01</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">NCAT — Dept of Housing</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Consent order · LAHC · Aug 2025</div>
+                        </div>
+                    </button>
+                    <button data-chap-ep5="1" onclick="seekToChapterEp5(1)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
+                        <span class="font-display text-[0.5rem] text-gold">02</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">Nine Months</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Adjournment · No repairs</div>
+                        </div>
+                    </button>
+                    <button data-chap-ep5="2" onclick="seekToChapterEp5(2)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(193,68,14,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
+                        <span class="font-display text-[0.5rem] text-hot">03</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">Lights Out</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Life-support address · Ausgrid</div>
+                        </div>
+                    </button>
+                    <button data-chap-ep5="3" onclick="seekToChapterEp5(3)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(193,68,14,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
+                        <span class="font-display text-[0.5rem] text-hot">04</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">$520 a Week</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Centrelink seized · No notice</div>
+                        </div>
+                    </button>
+                    <button data-chap-ep5="4" onclick="seekToChapterEp5(4)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
+                        <span class="font-display text-[0.5rem] text-gold">05</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">Accountability</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">Rose Jackson · Referrals</div>
+                        </div>
+                    </button>
+                    <button data-chap-ep5="5" onclick="seekToChapterEp5(5)" class="w-full flex items-center gap-3 p-2 transition-colors text-left" style="background:none;border:1px solid transparent;cursor:pointer" onmouseover="this.style.background='rgba(201,138,16,0.07)'" onmouseout="if(this.style.borderColor==='transparent')this.style.background=''">
+                        <span class="font-display text-[0.5rem] text-gold">06</span>
+                        <div>
+                            <div class="text-[0.58rem] text-paper/55">Evidence</div>
+                            <div class="text-[0.44rem] text-paper/25 tracking-wider uppercase">8 documents · NCAT orders</div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="px-5 py-4 border-b border-paper/[0.06]">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">Key Numbers</div>
+                <div class="space-y-2">
+                    <div class="flex justify-between items-center py-1.5 border-b border-paper/[0.04]">
+                        <span class="text-[0.55rem] text-paper/35">Rent cap (ordered)</span>
+                        <span class="font-display text-base text-gold">$77.95/wk</span>
+                    </div>
+                    <div class="flex justify-between items-center py-1.5 border-b border-paper/[0.04]">
+                        <span class="text-[0.55rem] text-paper/35">Standard subsidy</span>
+                        <span class="font-display text-base text-paper/50">~$145/wk</span>
+                    </div>
+                    <div class="flex justify-between items-center py-1.5 border-b border-paper/[0.04]">
+                        <span class="text-[0.55rem] text-paper/35">Amount billed</span>
+                        <span class="font-display text-base text-hot">$520/wk</span>
+                    </div>
+                    <div class="flex justify-between items-center py-1.5 border-b border-paper/[0.04]">
+                        <span class="text-[0.55rem] text-paper/35">Compensation ordered</span>
+                        <span class="font-display text-base text-gold">$291.80</span>
+                    </div>
+                    <div class="flex justify-between items-center py-1.5">
+                        <span class="text-[0.55rem] text-paper/35">Repair deadline</span>
+                        <span class="font-display text-base text-hot">Missed</span>
+                    </div>
+                </div>
+            </div>
+            <div class="px-5 py-4">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/22 mb-3">Category</div>
+                <div class="flex flex-wrap gap-1.5">
+                    <span class="text-[0.45rem] tracking-[0.14em] uppercase border border-gold/30 text-gold/70 px-2 py-1">NSW Housing</span>
+                    <span class="text-[0.45rem] tracking-[0.14em] uppercase border border-gold/30 text-gold/70 px-2 py-1">NCAT</span>
+                    <span class="text-[0.45rem] tracking-[0.14em] uppercase border border-gold/30 text-gold/70 px-2 py-1">Homes NSW</span>
+                    <span class="text-[0.45rem] tracking-[0.14em] uppercase border border-gold/30 text-gold/70 px-2 py-1">Rose Jackson</span>
+                    <span class="text-[0.45rem] tracking-[0.14em] uppercase border border-gold/30 text-gold/70 px-2 py-1">Accountability</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     EPISODE 5 CONTENT
+══════════════════════════════════════ -->
+<div class="max-w-4xl mx-auto px-5 md:px-10 py-16 space-y-16">
+
+    <!-- ── SECTION: RBK / RHYS BRIFFA ── -->
+    <div id="rbk">
+        <div class="flex items-center gap-3 mb-4 reveal">
+            <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">New Character — RBK</span>
+            <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Rhys Briffa · Wollongong · Romance Scam · Extortion</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-4 leading-tight reveal">RBK.<br><span class="text-hot">STREET IMAGE ONLINE. POLICE ON SPEED DIAL.</span></h2>
+        <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-8 reveal">"Adam engaged a rapper for some videos. What came back were strange text messages, a girlfriend demanding money outside a business associate's building, and threats to call the police — all while still asking for feedback on the video. The whole thing has started to feel like extortion."</p>
+
+        <!-- Photo -->
+        <div class="reveal mb-8">
+            <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rhys_briffa.png" alt="Rhys Briffa — RBK" class="w-full border border-paper/[0.07]" style="max-height:520px;object-fit:contain;background:#0c0804" loading="lazy" />
+            <div class="flex items-center justify-between px-3 py-2 border border-t-0 border-paper/[0.07]" style="background:rgba(193,68,14,0.06)">
+                <span class="text-[0.45rem] tracking-[0.18em] uppercase text-hot">RBK · real name Rhys Briffa</span>
+                <span class="text-[0.45rem] tracking-[0.14em] uppercase text-paper/25">Rapper · Wollongong, NSW</span>
+            </div>
+        </div>
+
+        <!-- How it started -->
+        <div class="story-chapter reveal mb-8">
+            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">How It Started</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The rapper goes by <strong class="text-paper/70">RBK</strong>; his real name is <strong class="text-paper/70">Rhys Briffa</strong>. Adam Watson found him on TikTok, watched his videos, and wanted some made for his <strong class="text-paper/70">political campaign</strong>. In the course of chatting, Adam was — as he tends to be — honest: he shared that he likes bad boys, and that he is bi-curious.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">Rhys reciprocated the candour. He confided that he has <strong class="text-paper/70">always known he is bisexual</strong>, and told Adam he would leave his girlfriend for him — or, in his words, that she <em class="text-paper/70">"doesn't have to know."</em> Adam declined. He said he could not do that. Rhys has a <strong class="text-paper/70">child</strong> and lives in <strong class="text-paper/70">Wollongong</strong>.</p>
+        </div>
+
+        <!-- What this is — romance scam framing -->
+        <div class="border-l-4 border-hot/60 pl-4 py-3 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">What This Is — A Romance Scam</div>
+            <p class="text-[0.7rem] leading-relaxed text-paper/55">Read as a whole, the pattern has the hallmarks of a <strong class="text-paper/70">romance scam</strong>: feigned attraction and talk of leaving a partner, used to manufacture closeness — followed by money changing hands, then denial, threats, and the police. The romance is the lure; the money is the point. That is the thread running through everything below.</p>
+        </div>
+
+        <!-- The girlfriend / Robert Huang / $1,000 -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">The Girlfriend · The $1,000</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5 blink">⬤ LOOKS LIKE EXTORTION</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">SHE TURNED UP AT ADAM'S OWN BUILDING.<br><span class="text-hot">HE TRIED TO HELP — AND GOT SPAT IN THE FACE.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam had a meeting with Rhys. The next day, Rhys's <strong class="text-paper/65">girlfriend came looking for Adam</strong> — at <strong class="text-paper/65">Adam's own building</strong>, a <strong class="text-paper/65">$415 million project</strong> of which Adam Watson is the <strong class="text-paper/65">sole director and sole shareholder</strong>. She began making accusations that Adam was trying to steal Rhys from her. <strong class="text-paper/65">Robert Huang gave her $1,000 to go away.</strong> From that point, the whole thing began to look like extortion.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">It escalated. Rhys's girlfriend called Robert Huang an <strong class="text-hot">"asian cunt."</strong> To be clear, Adam did <strong class="text-paper/65">not</strong> lose any contracts over this — but that is not the point. A partner turning up unannounced at the people you do business with, hurling racial abuse, is <strong class="text-paper/65">creating unnecessary drama</strong> that has no place anywhere near a serious commercial project.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">And this is the part that stings: Adam <strong class="text-paper/65">tried to help this guy</strong> — paid work, a platform, genuine belief in him — and all he got in return was <strong class="text-paper/65">spat in the face</strong>.</p>
+        </div>
+
+        <!-- The messages -->
+        <div class="story-chapter reveal mb-8">
+            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-3">The Messages — In His Own Words</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Rhys's messages to Adam are a study in contradiction. In one, he casts Adam as the aggressor, denies wanting the money he had already taken, and — remarkably — <strong class="text-paper/65">boasts that his lawyer just got him off a 10-year sentence</strong>:</p>
+            <div class="border-l-4 border-hot/60 pl-4 py-3 mb-4" style="background:rgba(193,68,14,0.05)">
+                <p class="text-[0.68rem] text-paper/60 leading-relaxed italic">"Your just a creep cuz so do what you want I tried to say I'll do the video now you don't want to you kept offering me money's saying you like me asking me if I was bye sexual and shit so you definitely wanted more then a video now I don't want to be a part of this creepy shit you wanna get upset once again you never said I have to pay you back<br><br>You clearly stated you will give me what ever I want all I have to do is ask and you sent money to me when I asked you can take what you want to court but my lawayer is very good he just got me off a 10 year sentence so I will see in court Adam"</p>
+                <p class="text-[0.5rem] text-paper/30 mt-2">— Rhys Briffa (RBK), to Adam Watson</p>
+            </div>
+            <div class="border border-gold/25 p-5 mb-4" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-3">Adam's Answer — "See You in Court"</div>
+                <div class="flex flex-col sm:flex-row gap-4 items-start">
+                    <div class="shrink-0 w-28 border border-paper/[0.07]" style="background:#0c0804">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/stephen_alexander_logo.jpeg" alt="Stephen Alexander — Alexander Lawyers" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-[0.68rem] text-paper/50 leading-relaxed">Rhys wants to talk about lawyers and court. Adam is happy to oblige. Adam says <strong class="text-paper/65">Stephen Alexander of Alexander Lawyers</strong> is on speed dial — a solicitor who charges <strong class="text-paper/65">$9,000 an appearance</strong>. A boast about "seeing you in court" only frightens someone who cannot afford to be in the room. Adam can.</p>
+                    </div>
+                </div>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Then, having taken the money, he threatens to call the police — while in the very same breath asking for feedback on the video:</p>
+            <div class="border-l-4 border-hot/60 pl-4 py-3" style="background:rgba(193,68,14,0.05)">
+                <p class="text-[0.68rem] text-paper/60 leading-relaxed italic">"Stop call my phone please otherwise I will call police and tell them your harassing me you said tell me ideas on a video so let me know when you got some"</p>
+                <p class="text-[0.5rem] text-paper/30 mt-2">— Rhys Briffa (RBK), to Adam Watson</p>
+            </div>
+
+            <div class="mt-6">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-3">The Screenshots — The Exchange in Full</div>
+                <p class="text-[0.68rem] text-paper/48 leading-relaxed mb-4">The messages are below. At one point, apropos of nothing, Rhys <strong class="text-paper/65">randomly sent a calculator</strong> — the kind of non-sequitur that tells you the conversation had stopped being about a video some time ago.</p>
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/sceenshot_whatsapp_1.png" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/sceenshot_whatsapp_1.png" alt="RBK message screenshot" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_1.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_1.jpeg" alt="RBK message screenshot" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_2.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_2.jpeg" alt="RBK message screenshot" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_3.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_3.jpeg" alt="RBK message screenshot" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_4.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_4.jpeg" alt="RBK message screenshot" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_5.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_5.jpeg" alt="RBK message screenshot" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_6.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_6.jpeg" alt="RBK message screenshot" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_whatsapp_2.png" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_whatsapp_2.png" alt="RBK message screenshot" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_whatsapp_3.png" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/screenshots/screenshot_whatsapp_3.png" alt="RBK message screenshot" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Commentary: bite the hand / snitch / chit chat -->
+        <div class="border border-gold/25 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.04)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">The Behaviour — Bite the Hand, Then Call the Cops</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The pattern is its own story. The moment there was any disagreement, Rhys moved <strong class="text-paper/65">straight to threatening the police</strong> — while still wanting feedback on the video he was being paid to make. This is how you break a relationship and bite the hand that feeds you in the same message. A person is given an opportunity — paid work, a platform, someone who believed in him — and responds by taking the money, threatening the person who gave it, and reaching for law enforcement at the first sign of friction.</p>
+            <div class="flex flex-col sm:flex-row gap-5 items-start">
+                <div class="shrink-0 w-40 border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/chit_chat.png" alt="RBK — Chit Chat" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
+                </div>
+                <div class="flex-1">
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50">There is a particular irony to guys like RBK — a hard street image broadcast to the internet, right up until the first disagreement, when the phone comes out to dial triple-zero. His own song goes <em class="text-paper/70">"chit chat, this, that — I don't want to talk about it."</em> But the moment it suits him, he'll talk about it — to the police. Chit chat, this, that — <strong class="text-paper/65">straight to a statement.</strong> The street image says one thing; the conduct says <strong class="text-paper/65">snitch.</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sympathy play -->
+        <div class="story-chapter reveal mb-8">
+            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">The Sympathy Play</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Alongside the threats, Rhys has been flooding Adam's messages with lines like <em class="text-paper/70">"I have to feed my daughter!"</em> — the sympathy play, deployed on repeat. It is worth looking at that claim honestly. This is a man who has the <strong class="text-paper/65">time to make videos</strong>, who is <strong class="text-paper/65">wearing nice clothes</strong> in them, and who maintains a whole online persona — but whose stated priority, the instant money is on the table, is suddenly his child.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">People like this invoke their kids as a lever, not as a compass. If feeding your daughter were genuinely the priority, it would show in the choices — not just in the messages sent to a man you are simultaneously threatening with the police. The child is real. The concern, deployed this way, is a tactic.</p>
+        </div>
+
+        <!-- 373 Crown Street recording / entrapment concern -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Recorded Call — 373 Crown Street</div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">"LET'S KEEP THIS BETWEEN US<br><span class="text-hot">AND I'LL GIVE YOU WHAT YOU WANT."</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Rhys called <strong class="text-paper/65">373 Crown Street</strong> — a property Adam Watson owns — and the call was recorded. On that recording:</p>
+            <div class="border-l-4 border-hot/60 pl-4 py-3 mb-4" style="background:rgba(193,68,14,0.05)">
+                <p class="text-[0.68rem] text-paper/60 leading-relaxed italic mb-2"><span class="text-hot">RBK:</span> "Let's keep this between us and I'll give you what you want. If you're alone with me, what do you want to do with me?"</p>
+                <p class="text-[0.68rem] text-paper/60 leading-relaxed italic mb-2"><span class="text-hot">Adam:</span> "Are you bisexual?"</p>
+                <p class="text-[0.68rem] text-paper/60 leading-relaxed italic mb-2"><span class="text-hot">RBK:</span> "Yes."</p>
+                <p class="text-[0.68rem] text-paper/60 leading-relaxed italic mb-2"><span class="text-hot">RBK:</span> "Why do you like me so much?"</p>
+                <p class="text-[0.68rem] text-paper/60 leading-relaxed italic"><span class="text-hot">Adam:</span> "Because you've got tattoos and you're a bad boy."</p>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">Read in the cold light of the threats that followed, that exchange raises an obvious concern: <strong class="text-paper/65">setup and entrapment</strong>. "Let's keep this between us… if you're alone with me, what do you want to do with me?" — a person steering a conversation toward a private, compromising admission, on a call to a property he could later name, is exactly the shape a setup takes. With certain characters you meet through the internet and off the street, the friendly overture and the leading questions are not always what they seem. A recorded invitation to "keep it between us" can just as easily be the opening move of a shakedown as a genuine one.</p>
+        </div>
+
+        <!-- The entitlement / the freak slur / the opportunity -->
+        <div class="border border-gold/25 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.04)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">The Entitlement — And the Opportunity He Burned</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam is genuinely upset that Rhys is now calling him a <strong class="text-paper/65">"freak."</strong> It matters, because stigmatising someone — reaching for the words that mark a person as deviant or dangerous — is one of the most corrosive things you can do to them. It is a label engineered to make a person untouchable, and it is deployed here by someone who, moments earlier, was asking on a recorded line what Adam wanted to do with him.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">There is a sadness underneath the entitlement. Adam gave Rhys an <strong class="text-paper/65">opportunity most people never get</strong> — paid creative work, a platform, someone who believed in him. He threw it away with both hands. One day his father is going to look back on all of this — on how his son treated the person who tried to lift him up — and understand exactly what was squandered. Entitlement always looks like strength in the moment. It reads as tragedy in hindsight.</p>
+        </div>
+
+        <!-- The threat — nothing to hide -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">The Threat</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5">A Threat That Isn't One</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">"I'LL TELL EVERYONE ADAM LIKES<br><span class="text-hot">BAD BOYS WITH TATTOOS."</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Rhys's latest message threatens to <strong class="text-paper/65">"tell everyone Adam likes bad boys with tattoos."</strong> It is offered as leverage. It is nothing of the kind. Adam said exactly that himself — <strong class="text-paper/65">on the record, in his own words, on the recorded call above</strong>: <em class="text-paper/70">"Because you've got tattoos and you're a bad boy."</em></p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">You cannot expose a man who has already said it plainly. Adam is <strong class="text-paper/65">bi-curious and open about it</strong>; he has never hidden it, never denied it, and does not intend to start. A threat only works when the target is ashamed. There is <strong class="text-paper/65">nothing here to be ashamed of</strong> — which is precisely why the threat lands as what it really is: another attempt at pressure from someone who has run out of anything else to pull.</p>
+            <div class="border border-paper/[0.07] max-w-md" style="background:#0c0804">
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/rbk_reveal_threat.png" target="_blank" rel="noopener" class="block"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/rbk_reveal_threat.png" alt="RBK threat message — 'tell everyone Adam likes bad boys with tattoos'" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+            </div>
+        </div>
+
+        <!-- How it ends — police and court threats -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">How It Ends — Police &amp; Court</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5">"Now I Have To Leave Wollongong"</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">THE SAME MOVE, EVERY TIME:<br><span class="text-hot">STRAIGHT TO THE POLICE.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Once the record went up, Rhys's response was the one it has always been. He declared that Adam had <em class="text-paper/70">"fucked his life"</em> and that <strong class="text-paper/65">"now I have to leave Wollongong,"</strong> then reached straight for the two levers he pulls whenever a situation stops going his way: <strong class="text-paper/65">the police and the courts</strong>. <em class="text-paper/70">"I'm going to the police."</em> <em class="text-paper/70">"Have fun in court."</em> <em class="text-paper/70">"See what the cops have to say."</em></p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The tell is in the same breath. He threatens the police while <strong class="text-paper/65">conceding he took the money</strong> — his own excuse for not returning it is that Adam <em class="text-paper/70">"didn't have a pay id."</em> Adam's reply cuts to it: <em class="text-paper/70">"Tell him how you took $560 from me for the stuff that you didn't do."</em> Someone genuinely wronged does not have to rehearse which half of the story to show the police. Rhys does.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6">It is the same pattern set out at the top of this section — a hard image broadcast online, and triple-zero on speed dial the instant there is friction. Adam Watson's position has not moved: go to the police, go to court. The record is the record, and it stays up.</p>
+            <div class="grid grid-cols-2 gap-3 max-w-lg">
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/step_kids_at_risk_rbk_1.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/step_kids_at_risk_rbk_1.jpeg" alt="RBK message — 'Now I have to leave Wollongong', threatening police and court" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/police_threat_deflection.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/police_threat_deflection.jpeg" alt="RBK message — threatening to involve police while conceding he took the money" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+            </div>
+        </div>
+
+        <!-- Instagram + sponsors -->
+        <div class="border border-paper/[0.08] p-6 mb-4 reveal" style="background:rgba(12,8,4,0.4)">
+            <div class="flex items-center justify-between mb-4">
+                <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/40">His Platform &amp; Sponsors</div>
+                <a href="https://www.instagram.com/rbkofficialfromda26/" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase text-gold border border-gold/30 px-2 py-0.5 hover:bg-gold/10 transition-colors">@rbkofficialfromda26 ↗</a>
+            </div>
+            <p class="text-[0.66rem] text-paper/45 leading-relaxed mb-4">For the record, RBK promotes the following partners and sponsors on his Instagram channel:</p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <div class="border border-paper/[0.07] p-4 flex items-center justify-center" style="background:#fff;min-height:110px">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/wollongong_kebabs.webp" alt="Wollongong Kebabs" class="w-full max-w-[150px]" style="object-fit:contain" loading="lazy" />
+                </div>
+                <div class="border border-paper/[0.07] p-4 flex items-center justify-center" style="background:#fff;min-height:110px">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/tattoo_salon_studio.png" alt="Tattoo Salon Studio" class="w-full max-w-[150px]" style="object-fit:contain" loading="lazy" />
+                </div>
+                <div class="border border-paper/[0.07] p-4 flex items-center justify-center" style="background:#fff;min-height:110px">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/brunch_cartel.jpeg" alt="Brunch Cartel" class="w-full max-w-[150px]" style="object-fit:contain" loading="lazy" />
+                </div>
+            </div>
+        </div>
+
+        <!-- The accomplice — Myagi -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">The Accomplice — Myagi</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5">Pressure to Take It Down</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">RBK'S FRIEND CAME TO SILENCE THE STORY —<br><span class="text-hot">NOT TO ANSWER FOR IT.</span></h3>
+            <div class="grid grid-cols-1 sm:grid-cols-[150px_1fr] gap-5 items-start mb-5">
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/myiagi_profile.png" alt="Myagi — @myagi_anonimus" class="w-full h-auto block" style="object-fit:cover" loading="lazy" />
+                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06]">Myagi · @myagi_anonimus · Wollongong</div>
+                </div>
+                <div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">RBK's friend — a Wollongong rapper who goes by <strong class="text-paper/65">Myagi</strong> (<a href="https://www.instagram.com/myagi_anonimus/" target="_blank" rel="noopener" class="text-hot underline">@myagi_anonimus</a>) — inserted himself into the matter. Not to address what his friend had done, but to <strong class="text-paper/65">pressure Adam Watson into taking the RBK material off Sunlight.Quest.</strong></p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50">His stated reason is the tell. He argues the section should come down because it is a <strong class="text-paper/65">detriment to the businesses mentioned</strong> — the sponsors, the venues — while carefully stepping around the one fact that created the problem: <strong class="text-paper/65">his friend ran a scam.</strong> The businesses were not named to hurt them; they were named because RBK attaches himself to them. If there is a detriment here, its author is the person who behaved this way — not the person who documented it.</p>
+                </div>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">He then adopted an uptight, arrogant tone — as though Adam Watson were someone to be talked down to. It is worth remembering who Adam actually is: a <strong class="text-paper/65">genuine developer</strong>, the sole director and sole shareholder of the building at the centre of this episode. Coming in hot at a man of that standing, on behalf of a friend who scammed him, is a way of <strong class="text-paper/65">starting off on the wrong foot</strong> — and staying there. The messages are below.</p>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rbk_1.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rbk_1.jpeg" alt="Myagi message to Adam Watson (1 of 3)" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rbk_2.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rbk_2.jpeg" alt="Myagi message to Adam Watson (2 of 3)" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rbk_3.jpeg" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rbk_3.jpeg" alt="Myagi message to Adam Watson (3 of 3)" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+            </div>
+            <div class="mt-6 border border-gold/25 p-5" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-3">The Affiliation — And What He's Really Covering</div>
+                <div class="flex flex-col sm:flex-row gap-5 items-start">
+                    <div class="shrink-0 w-full sm:w-56 border border-paper/[0.07]" style="background:#0c0804">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/myiagi_rbk_promote.png" alt="Myagi's Instagram promoting RBK — R.B.K Chit Chat" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">This is not a neutral bystander. Myagi's own Instagram <strong class="text-paper/65">promotes RBK directly</strong> — his page carries RBK's <em class="text-paper/70">"Chit Chat"</em> release, the very track quoted earlier in this section. The two are affiliated.</p>
+                        <p class="text-[0.72rem] leading-relaxed text-paper/50">Which is what makes the intervention what it is. <strong class="text-paper/65">RBK is a police informant</strong> — the pattern documented across this section is the pattern of someone who reaches for the police the moment a situation stops going his way. Myagi is not defending an innocent man; he is <strong class="text-paper/65">running cover for a snitch</strong> and dressing it up as concern for local businesses. That does not launder. The record stays.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RBK's girlfriend — the pedophile smear -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Girlfriend's Message — The Pedophile Smear</div>
+            <div class="grid grid-cols-1 sm:grid-cols-[150px_1fr] gap-5 items-start mb-5">
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/rbk_girlfriend.png" alt="RBK's girlfriend — from his Instagram" class="w-full h-auto block" style="object-fit:cover" loading="lazy" />
+                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06]">RBK's girlfriend · From his Instagram</div>
+                </div>
+                <div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">RBK's girlfriend also sent Adam Watson a message. Its purpose was to <strong class="text-paper/65">imply that Adam is a pedophile</strong>. It is worth naming that move for what it is, because it is so common it is almost a signature.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">At the gutter end of any dispute, <strong class="text-paper/65">"pedophile" is the first reflex</strong> — reached for the instant a person has nothing real to say. It is thrown not because it is true, but because it is the ugliest word to hand. And there is a poverty of imagination underneath it: an inability to sit with the simple possibility that someone might just be <strong class="text-paper/65">kind</strong> — that Adam extended genuine help, paid work, and belief, with no sinister motive at all. People who have only ever operated in bad faith cannot picture good faith, so they rename it as the worst thing they can think of.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50">For the record: the implication is <strong class="text-paper/65">false</strong>. There is no allegation, no complaint, no substance behind it — only the word, deployed exactly the way people like this always deploy it.</p>
+                </div>
+            </div>
+            <div class="border border-paper/[0.07] max-w-md" style="background:#0c0804">
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/girlfriend_message.png" target="_blank" rel="noopener" class="block"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/girlfriend_message.png" alt="Message from RBK's girlfriend to Adam Watson" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 px-3 py-2 border-t border-paper/[0.06]">The message · RBK's girlfriend to Adam Watson</div>
+            </div>
+        </div>
+
+        <!-- The smear, taken to Adam's client -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Smear, Taken to Adam's Client</div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">MYAGI WENT TO 373 CROWN STREET<br><span class="text-hot">TO POISON A BUSINESS RELATIONSHIP.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The smear did not stay online. <strong class="text-paper/65">Myagi went to 373 Crown Street</strong> — the property at the centre of Adam Watson's work — to speak to <strong class="text-paper/65">Robert Huang</strong>, Adam's client, and tell him that Adam is a <strong class="text-paper/65">pedophile who paid RBK for sexual favours</strong>. Both halves of that are false, and both are engineered to do maximum damage: attach the ugliest possible label, and reframe legitimate campaign work as something sordid.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">He did not stop at the smear. In the same conversation, Myagi is reported to have told Robert Huang that he was going to <strong class="text-paper/65">throw Adam Watson out of the building</strong>, and made further <strong class="text-paper/65">threats</strong> — moving from character assassination to open intimidation, and aiming it squarely at the one commercial relationship most central to Adam's work.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">This is where a smear stops being talk and becomes a <strong class="text-paper/65">deliberate attempt to destroy a livelihood</strong>. Walking into a person's business relationship to brand him a pedophile — over a disputed payment for a video — is not a grievance aired. It is a targeted effort to make a client cut ties, using the worst word available as the lever.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">For the record, again: the payment to RBK was for a <strong class="text-paper/65">political campaign video</strong> — the receipts and the policy platform are documented above and in <a href="/episode-2" class="text-gold underline">Episode 2</a>. There were no "sexual favours." The pedophile claim is a fabrication. Carrying a fabrication like that to a person's client is exactly the conduct <strong class="text-paper/65">defamation law exists to answer</strong> — and Adam Watson is pursuing it.</p>
+        </div>
+
+        <!-- The card — unauthorised use -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">The Card</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5">"You Have To Accept The Verification"</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">HIS CARD, ON THEIR PHONE.<br><span class="text-hot">AND A MACBOOK ON THE WAY OUT.</span></h3>
+            <div class="grid grid-cols-1 sm:grid-cols-[1fr_300px] gap-5 items-start">
+                <div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">While the smears were flying, something quieter was happening with the money. RBK is said to have taken <strong class="text-paper/65">Adam Watson's card details from his phone without permission</strong> and loaded the card onto a device. What follows is a study in how this kind of scam actually runs.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4"><strong class="text-paper/65">RBK's girlfriend</strong> messaged Adam to get the card working: <em class="text-paper/70">"Rhys said to message him so he can do the card thing for you,"</em> <em class="text-paper/70">"you have to accept the verification,"</em> <em class="text-paper/70">"he just put it back on phone needs the code."</em> Then, when Adam did not play along: <em class="text-paper/70">"That's completely fine adam, can I give you a call? ... I would feel more comfortable then you sending a photo"</em> — followed by <em class="text-paper/70">"I'll drive to jbhifi now."</em> A JB Hi-Fi order for a <strong class="text-paper/65">MacBook</strong> was placed.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50">Look at the shape of it. The constant <strong class="text-paper/65">seeking of "verification" and reassurance</strong> — <em class="text-paper/70">is this one ok?</em>, <em class="text-paper/70">you have to accept it</em> — while the person whose card it actually is stays silent, is the signature of a scam that needs the victim's own hand to complete it. A genuine transaction does not require this much coaxing. The chasing <em class="text-paper/70">is</em> the tell.</p>
+                </div>
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/credit_card_verification_cover_up.jpeg" alt="Messages coordinating verification of a card loaded onto a device" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
+                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06]">Coordinating the card "verification" · Adam's card, last 4 digits only</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The tattoo shop — full circle -->
+        <div class="border border-gold/25 p-6 mb-4 reveal" style="background:rgba(201,138,16,0.04)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">The Tattoo Shop — Full Circle</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">One of the venues attached to RBK — the tattoo studio listed among his sponsors above — has its own story running underneath this one. <strong class="text-paper/65">Many of its people have quit.</strong> And rather than sit with why, the shop is said to have <strong class="text-paper/65">gone to the underworld for retribution</strong> over the exposure.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">That is a category error. <strong class="text-paper/65">You cannot run to the underworld to complain that someone exposed a snitch.</strong> It does not work that way — that world's own code has no sympathy for informants, and an appeal made on a snitch's behalf has a way of coming back on the person who made it. It has come <strong class="text-paper/65">full circle.</strong> There is a great deal more to this that sits in the background and cannot be set down here — but the shape of it is simple: the people trying to bury this story keep arriving at the same door, and the door keeps opening the wrong way for them.</p>
+        </div>
+
+        <!-- Skivz — RBK's video guy -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">The Video Guy — Skivz</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5">"What's It Got To Do With Me?"</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">THE MAN BEHIND RBK'S CAMERA —<br><span class="text-hot">AND A SLOGAN THAT DOESN'T SURVIVE CONTACT.</span></h3>
+            <div class="grid grid-cols-1 sm:grid-cols-[160px_1fr] gap-5 items-start mb-5">
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/skivz_instagram.png" alt="Skivz — @skivz" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
+                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06]">Skivz · @skivz · Wollongong</div>
+                </div>
+                <div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">RBK's videos are made by a man who goes by <strong class="text-paper/65">Skivz</strong> — RBK named him directly as the person who films his content. On Instagram (<a href="https://www.instagram.com/skivz/" target="_blank" rel="noopener" class="text-hot underline">@skivz</a>) he carries a following in the tens of thousands and brands himself around <em class="text-paper/70">"Dad Life,"</em> fitness, and discipline.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50">He is closely tied to <strong class="text-paper/65">Donz Active</strong> — a Wollongong fitness and clothing label he promotes, tagged into its posts under the banners <em class="text-paper/70">"No Excuses,"</em> <em class="text-paper/70">"Discipline · Mindset,"</em> and the one that matters most here: <em class="text-paper/70">"Lead By Example."</em></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                <a href="https://www.instagram.com/p/DZzRSrcGVPf/?img_index=1" target="_blank" rel="noopener" class="block border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/skivz_photo.png" alt="Skivz (circled) promoting Donz Active" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                <div class="border border-paper/[0.07] p-6 flex flex-col items-center justify-center text-center" style="background:#fff">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/donz_active.png" alt="Donz Active" class="w-full max-w-[200px] mb-3" style="object-fit:contain" loading="lazy" />
+                    <a href="https://www.instagram.com/donz_active/" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase text-ink/60 border border-ink/20 px-2 py-0.5 hover:bg-ink/5 transition-colors">@donz_active ↗</a>
+                </div>
+            </div>
+            <div class="border border-gold/25 p-5 mb-5" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-3">The Slogan — "Lead By Example"</div>
+                <div class="flex flex-col sm:flex-row gap-5 items-start">
+                    <div class="shrink-0 w-full sm:w-64 border border-paper/[0.07]" style="background:#0c0804">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/donz_active_instagram.png" alt="Donz Active — 'No Excuses. Lead By Example'" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Donz Active markets itself on <em class="text-paper/70">"Building A Stronger Community,"</em> <em class="text-paper/70">"Fitness · Discipline · Mindset,"</em> and <em class="text-paper/70">"No Excuses. Lead By Example."</em> They are good words. The only real test of words like that is what happens when they meet something inconvenient.</p>
+                        <p class="text-[0.72rem] leading-relaxed text-paper/50">Adam Watson raised with Skivz that a <strong class="text-paper/65">young child in his family</strong> was being placed in and around RBK's videos — RBK being the person documented across this section for what looks, on the evidence, like a scam. The conversation was recorded. Skivz's answer speaks for itself.</p>
+                    </div>
+                </div>
+                <div class="border-l-4 border-hot/60 pl-4 py-3 mt-4" style="background:rgba(193,68,14,0.05)">
+                    <p class="text-[0.7rem] text-paper/60 leading-relaxed italic">"...so what's it got to do with me?"</p>
+                    <p class="text-[0.5rem] text-paper/30 mt-2">— Skivz, to Adam Watson (recorded)</p>
+                </div>
+                <div class="mt-4 border border-hot/20" style="background:rgba(0,0,0,0.3)">
+                    <video controls preload="metadata" class="w-full" style="max-height:520px;display:block">
+                        <source src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/skivz_video.mp4" type="video/mp4">
+                    </video>
+                    <div class="px-4 py-3 border-t border-hot/15">
+                        <div class="text-[0.48rem] tracking-[0.18em] uppercase text-hot/60 mb-1">Recording · Adam Watson &amp; Skivz</div>
+                        <p class="text-[0.55rem] text-paper/30 leading-relaxed">The recorded call in which Skivz — asked about the child being placed around RBK's videos — answers "what's it got to do with me?"</p>
+                    </div>
+                </div>
+                <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div class="border border-paper/[0.07]" style="background:#0c0804">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/skiv_son_affiliated.jpg" alt="Behind the scenes on an RBK video shoot — a child on the camera, face redacted" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
+                        <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 px-3 py-2 border-t border-paper/[0.06] leading-relaxed">Behind the scenes on an RBK shoot — a child working the camera. Face redacted to protect the minor.</div>
+                    </div>
+                    <div class="border border-paper/[0.07]" style="background:#0c0804">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/donjay_school.jpg" alt="Skivz's content featuring his child — name and face redacted" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
+                        <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 px-3 py-2 border-t border-paper/[0.06] leading-relaxed">Skivz puts his child front-and-centre in his own content — the same child whose presence around RBK's videos he waved off with "what's it got to do with me." Name and face redacted to protect the minor.</div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">On the law, and on affiliation: filming for someone, or promoting them, does not by itself make you a party to their conduct — <strong class="text-paper/65">association is not liability</strong>. But it is not nothing, either. Endorsement carries weight — it is the entire reason a brand pays for it — and where a promotion helps push a misleading arrangement, consumer-protection law can reach the promoter, not only the principal. That is the legal edge of it, and it is worth knowing.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-6">The simpler point needs no lawyer. A label built on <em class="text-paper/70">"Discipline, Mindset, Lead By Example,"</em> fronted by a man who brands himself on <em class="text-paper/70">"Dad Life,"</em> is either a set of values or a marketing costume. Told that a child was being drawn into the orbit of someone accused of a scam, <strong class="text-paper/65">"what's it got to do with me"</strong> is the answer of the costume — not the example.</p>
+            <div class="border border-paper/[0.08] p-5" style="background:rgba(12,8,4,0.4)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/35 mb-3">For the Record — What the Payment Actually Was</div>
+                <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The money Adam Watson paid RBK was <strong class="text-paper/65">payment for a video for Adam's political campaign</strong> — the policy platform set out in <a href="/episode-2" class="text-gold underline">Episode 2 (Adam's policies)</a>. It was a straightforward commercial engagement for legitimate work, not the arrangement RBK and his circle have since tried to paint. The "scammer" line runs in exactly one direction — and it is not the one they are pointing.</p>
+                <p class="text-[0.72rem] leading-relaxed text-paper/50">Adam Watson is <strong class="text-paper/65">threatening legal action for defamation</strong> over the false characterisations being spread about him.</p>
+                <div class="mt-5">
+                    <div class="text-[0.46rem] tracking-[0.2em] uppercase text-paper/35 mb-3">The Receipts — Adam Watson &rarr; RBK (Shown to Skivz)</div>
+                    <p class="text-[0.68rem] leading-relaxed text-paper/45 mb-3">The two Osko transfers Adam sent RBK for the campaign video &mdash; <strong class="text-paper/60">$1,000</strong> and <strong class="text-paper/60">$195</strong>, <strong class="text-paper/60">$1,195 in total</strong>. These are the receipts Adam put in front of Skivz. The payee's PayID mobile number has been redacted &mdash; a private number is not ours to publish.</p>
+                    <div class="grid grid-cols-2 gap-3 max-w-lg">
+                        <div class="border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/r_biffa_video_receipt_1_blurred.jpg" alt="Receipt — Adam Watson payment to R B BRIFFA (RBK), $1,000, Osko" class="w-full h-auto block" loading="lazy" /><div class="text-[0.42rem] tracking-[0.12em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06]">Payment to R B BRIFFA &middot; &minus;$1,000 &middot; Osko &middot; Rcpt N270861246937</div></div>
+                        <div class="border border-paper/[0.07]" style="background:#0c0804"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/west_kira/r_biffa_video_receipt_2_blurred.jpg" alt="Receipt — Adam Watson payment to R B BRIFFA (RBK), $195, Osko" class="w-full h-auto block" loading="lazy" /><div class="text-[0.42rem] tracking-[0.12em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06]">Payment to R B BRIFFA &middot; &minus;$195 &middot; Osko &middot; Rcpt N270861226986</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reported to eSafety Commissioner -->
+            <div class="border border-hot/25 p-6 mt-8" style="background:rgba(193,68,14,0.05)">
+                <div class="flex items-center gap-2 mb-3">
+                    <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">Reported — eSafety Commissioner</span>
+                    <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5">Ref CYR-2026-C7G5R0</span>
+                </div>
+                <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">A CHILD, USED AS PROMOTION<br><span class="text-hot">FOR A ROMANCE SCAM. NOW REPORTED.</span></h3>
+                <div class="grid grid-cols-1 sm:grid-cols-[1fr_360px] gap-5 items-start">
+                    <div>
+                        <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">A formal complaint has been lodged with Australia's <strong class="text-paper/65">eSafety Commissioner</strong> about these Instagram accounts — <a href="https://www.instagram.com/rbkofficialfromda26/" target="_blank" rel="noopener" class="text-hot underline">@rbkofficialfromda26</a>, <a href="https://www.instagram.com/skivz/" target="_blank" rel="noopener" class="text-hot underline">@skivz</a> and <a href="https://www.instagram.com/donz_active/" target="_blank" rel="noopener" class="text-hot underline">@donz_active</a> — and about the conduct set out across this section.</p>
+                        <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The heart of the complaint is a child. <strong class="text-paper/65">Skivz promotes his young son through his platform</strong> while placing him in and around content tied to <strong class="text-paper/65">RBK</strong> — conduct that, taken as a whole, has the hallmarks of a <strong class="text-paper/65">romance scam</strong> run against Adam Watson. A child is not a prop for that. Whatever the adults are doing to one another, drawing a minor into it is its own harm — and it is exactly the kind of thing that belongs in front of a regulator.</p>
+                        <p class="text-[0.72rem] leading-relaxed text-paper/50">The report has been acknowledged under reference <strong class="text-paper/65">CYR-2026-C7G5R0</strong>. The confirmation is shown alongside.</p>
+                    </div>
+                    <div class="border border-paper/[0.07]" style="background:#0c0804">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rbk/esafety_confirmation.png" alt="eSafety Commissioner report confirmation — reference CYR-2026-C7G5R0" class="w-full h-auto block" loading="lazy" />
+                        <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-3 py-2 border-t border-paper/[0.06]">eSafety Commissioner · Report confirmation · Ref CYR-2026-C7G5R0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── SECTION 01: THE PROMISE ── -->
+    <div id="the-promise">
+        <div class="flex items-center gap-3 mb-4 reveal">
+            <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Section 01 — The Consent Order</span>
+            <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Case 2025/00005577 · 1 August 2025</span>
+        </div>
+
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-4 leading-tight reveal">A PROMISE THE<br><span class="text-gold">GOVERNMENT MADE TO A COURT.</span></h2>
+        <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-8 reveal">"In August 2025, the NSW Land and Housing Corporation did not lose a case. It agreed to one."</p>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-paper/[0.04] mb-10 reveal">
+            <div class="bg-ink px-5 py-5 text-center">
+                <div class="stat-number text-4xl text-gold mb-1">1 Aug</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Consent order</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">2025</div>
+            </div>
+            <div class="bg-ink px-5 py-5 text-center">
+                <div class="stat-number text-4xl text-gold mb-1">$77.95</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Rent cap / week</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Until repairs done</div>
+            </div>
+            <div class="bg-ink px-5 py-5 text-center">
+                <div class="stat-number text-4xl text-hot mb-1">1 Nov</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Repair deadline</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">2025 — passed. Not done.</div>
+            </div>
+            <div class="bg-ink px-5 py-5 text-center">
+                <div class="stat-number text-4xl text-gold mb-1">$291</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Compensation</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Ordered at tribunal</div>
+            </div>
+        </div>
+
+        <div class="story-chapter reveal mt-8">
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">By consent, the NSW Civil and Administrative Tribunal recorded that the agency — the state body that houses some of the most vulnerable people in New South Wales — would, by <strong class="text-paper/70">1 November 2025</strong>, treat and remediate the mould throughout a South Coogee social-housing unit, repaint the internal walls, fix a leaking lounge-room ceiling, and complete a short list of other repairs.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Until that work was done, the Tribunal capped the rent at <strong class="text-gold">$77.95 a week</strong>, and ordered the agency to pay the tenant <strong class="text-paper/70">$291.80</strong> in compensation. The tenant was given leave to come back if the work wasn't finished.</p>
+            <div class="border-l-4 border-gold/60 pl-4 py-2 mb-5" style="background:rgba(201,138,16,0.05)">
+                <p class="text-[0.72rem] leading-relaxed text-paper/60 italic">That is not an allegation. It is a sealed order of a tribunal, made by consent, and you can read it in the evidence vault below.</p>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">The deadline came and went. The work was not done.</p>
+        </div>
+    </div>
+
+
+    <!-- ── SECTION 02: NINE MONTHS ── -->
+    <div id="nine-months">
+        <div class="flex items-center gap-3 mb-4 reveal">
+            <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Section 02 — The Adjournment Sequence</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-4 leading-tight reveal">NINE MONTHS OF<br><span class="text-gold">"WE'LL GET TO IT."</span></h2>
+
+        <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-8 reveal">What the documents show next is a slow, documented drift — the sound of an order with no one to enforce it.</p>
+
+        <!-- Timeline -->
+        <div class="border border-paper/[0.07] mb-8 reveal" style="background:rgba(12,8,4,0.5)">
+            <div class="px-5 py-3 border-b border-paper/[0.06]">
+                <span class="text-[0.48rem] tracking-[0.22em] uppercase text-gold/60">Documented Timeline — Case 2025/00005577 · 2026/00090755</span>
+            </div>
+            <div class="relative">
+                <div class="tl-item">
+                    <div class="tl-date">6 Feb 2025</div>
+                    <div class="tl-dot tl-gold"></div>
+                    <div class="tl-body">
+                        <div class="text-[0.62rem] text-paper/65 mb-0.5">Rent reduction put in place</div>
+                        <div class="text-[0.55rem] text-paper/35 leading-relaxed">A rent reduction is put in place over the condition of the property.</div>
+                    </div>
+                </div>
+                <div class="tl-item">
+                    <div class="tl-date">1 Aug 2025</div>
+                    <div class="tl-dot tl-gold"></div>
+                    <div class="tl-body">
+                        <div class="text-[0.62rem] text-paper/65 mb-0.5">Consent order made</div>
+                        <div class="text-[0.55rem] text-paper/35 leading-relaxed">By consent, NCAT orders LAHC to remediate mould and complete repairs by 1 November 2025; rent capped at $77.95/week until done; $291.80 compensation ordered.</div>
+                    </div>
+                </div>
+                <div class="tl-item">
+                    <div class="tl-date">1 Nov 2025</div>
+                    <div class="tl-dot tl-hot"></div>
+                    <div class="tl-body">
+                        <div class="text-[0.62rem] text-hot mb-0.5">Repair deadline passes</div>
+                        <div class="text-[0.55rem] text-paper/35 leading-relaxed">The deadline passes. The work is not done.</div>
+                    </div>
+                </div>
+                <div class="tl-item">
+                    <div class="tl-date">4 Mar 2026</div>
+                    <div class="tl-dot tl-gold"></div>
+                    <div class="tl-body">
+                        <div class="text-[0.62rem] text-paper/65 mb-0.5">Fresh application lodged</div>
+                        <div class="text-[0.55rem] text-paper/35 leading-relaxed">Tenant lodges a fresh application to enforce the order (Case 2026/00090755).</div>
+                    </div>
+                </div>
+                <div class="tl-item">
+                    <div class="tl-date">15 Apr 2026</div>
+                    <div class="tl-dot tl-hot"></div>
+                    <div class="tl-body">
+                        <div class="text-[0.62rem] text-hot mb-0.5">Landlord fails to appear</div>
+                        <div class="text-[0.55rem] text-paper/35 leading-relaxed">The landlord doesn't turn up at all. The Tribunal sets the matter down for conciliation.</div>
+                    </div>
+                </div>
+                <div class="tl-item">
+                    <div class="tl-date">1 May 2026</div>
+                    <div class="tl-dot tl-hot"></div>
+                    <div class="tl-body">
+                        <div class="text-[0.62rem] text-hot mb-0.5">"The landlord is inspecting"</div>
+                        <div class="text-[0.55rem] text-paper/35 leading-relaxed">Adjourned because the respondent landlord is inspecting. Six months after it promised a court the work would be finished, the agency is still sending someone to look at it.</div>
+                    </div>
+                </div>
+                <div class="tl-item">
+                    <div class="tl-date">17 Jun 2026</div>
+                    <div class="tl-dot tl-hot"></div>
+                    <div class="tl-body">
+                        <div class="text-[0.62rem] text-hot mb-0.5">Power fails</div>
+                        <div class="text-[0.55rem] text-paper/35 leading-relaxed">The unit loses power. The property is a registered life-support address. Ausgrid had previously flagged a faulty main switchboard and directed it be replaced.</div>
+                    </div>
+                </div>
+                <div class="tl-item">
+                    <div class="tl-date">18 Jun 2026</div>
+                    <div class="tl-dot tl-gold"></div>
+                    <div class="tl-body">
+                        <div class="text-[0.62rem] text-paper/65 mb-0.5">Another adjournment</div>
+                        <div class="text-[0.55rem] text-paper/35 leading-relaxed">Matter adjourned again, by consent.</div>
+                    </div>
+                </div>
+                <div class="tl-item">
+                    <div class="tl-date">26 Jun 2026</div>
+                    <div class="tl-dot tl-hot"></div>
+                    <div class="tl-body">
+                        <div class="text-[0.62rem] text-hot mb-0.5">Rent billed at $520 — urgent application lodged</div>
+                        <div class="text-[0.55rem] text-paper/35 leading-relaxed">Rent billed at $520/week and the full amount taken from Centrelink. Urgent NCAT application lodged. Demand letter sent to the Minister.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="story-chapter reveal">
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">In March 2026, the tenant did exactly what the order allowed and lodged a fresh application. In April, at the first listing, <strong class="text-paper/70">the landlord didn't turn up at all</strong>; the Tribunal noted the tenant was entitled to bring his claim for the ongoing defects and set the matter down for conciliation.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">By <strong class="text-paper/70">1 May 2026</strong>, the file records an adjournment for a reason that says everything: <em class="text-gold/70">the respondent landlord is inspecting.</em> Six months after it had promised a court the work would be finished, the agency was still sending someone to look at it. In June, the matter was adjourned yet again.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">Each step is on the record. Each step is another month a family lived with mould the agency had been ordered to remove.</p>
+        </div>
+    </div>
+
+
+    <!-- ── SECTION 03: LIGHTS OUT ── -->
+    <div id="lights-out">
+        <div class="flex items-center gap-3 mb-4 reveal">
+            <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Section 03 — Life-Support Address</span>
+            <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Ausgrid Ref. 66693 · 17 June 2026</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-4 leading-tight reveal">THEN THE<br><span class="text-hot">LIGHTS WENT OUT.</span></h2>
+
+        <div class="border border-hot/30 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="flex items-center gap-2 mb-4">
+                <span class="text-[0.46rem] tracking-[0.2em] uppercase text-hot">Critical — Life Support Address</span>
+                <span class="text-[0.42rem] tracking-[0.14em] uppercase border border-hot/40 text-hot/70 px-1.5 py-0.5 blink">POWER FAILURE</span>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">17 June 2026</div>
+                    <p class="text-[0.58rem] text-paper/45 leading-relaxed">Power fails at the premises. Not a billing issue — a physical supply failure at a registered life-support address.</p>
+                </div>
+                <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Ausgrid Note — Ref. 66693</div>
+                    <p class="text-[0.58rem] text-paper/45 leading-relaxed">Ausgrid previously flagged a faulty main switchboard serving the block, directed the housing electrician to replace it, noting life-support customers in the affected units.</p>
+                </div>
+                <div class="border border-hot/15 p-3" style="background:rgba(193,68,14,0.03)">
+                    <div class="text-[0.43rem] tracking-[0.15em] uppercase text-hot mb-1.5">Never Replaced</div>
+                    <p class="text-[0.58rem] text-paper/45 leading-relaxed">The responsibility to carry out the permanent repair sat with the landlord's electrician. According to the tenant, it was never done, and the supply failed.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="story-chapter reveal mb-8">
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">The property is a <strong class="text-paper/70">registered life-support address</strong>. We know this because of a note left by Ausgrid, the electricity distributor, for the housing electrician (Ausgrid reference 66693, reproduced in the evidence vault below). It records that the main switchboard serving the block has a faulty contact, directs that it be <strong class="text-paper/70">replaced</strong>, and notes that the affected units — including this one — were temporarily re-routed <em>"due to life support customers."</em> The responsibility to carry out the permanent repair sat with the landlord's electrician. According to the tenant, it was never done, and the supply failed.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">A household member is diabetic. The mould the agency was ordered to remove a year ago was, the tenant says, simply <strong class="text-paper/70">painted over</strong> rather than treated — and it has bled back through the paint, as the photographs show.</p>
+        </div>
+
+        <!-- Mould photo gallery -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 reveal mb-6">
+            <div class="border border-paper/[0.08] overflow-hidden cursor-pointer group" onclick="openMV('mould-1')" title="View mould photo 1">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/mould_photo_1.jpg" alt="Mould photo 1" class="w-full object-cover group-hover:opacity-90 transition-opacity" style="height:160px;object-fit:cover" loading="lazy" />
+                <div class="px-2.5 py-2" style="background:rgba(12,8,4,0.7)">
+                    <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25">Exhibit 1 of 3 · Click to expand</div>
+                </div>
+            </div>
+            <div class="border border-paper/[0.08] overflow-hidden cursor-pointer group" onclick="openMV('mould-2')" title="View mould photo 2">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/mould_photo_2.jpg" alt="Mould photo 2" class="w-full object-cover group-hover:opacity-90 transition-opacity" style="height:160px;object-fit:cover" loading="lazy" />
+                <div class="px-2.5 py-2" style="background:rgba(12,8,4,0.7)">
+                    <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25">Exhibit 2 of 3 · Click to expand</div>
+                </div>
+            </div>
+            <div class="border border-paper/[0.08] overflow-hidden cursor-pointer group" onclick="openMV('mould-3')" title="View mould photo 3">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/mould_photo_3.jpg" alt="Mould photo 3" class="w-full object-cover group-hover:opacity-90 transition-opacity" style="height:160px;object-fit:cover" loading="lazy" />
+                <div class="px-2.5 py-2" style="background:rgba(12,8,4,0.7)">
+                    <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25">Exhibit 3 of 3 · Click to expand</div>
+                </div>
+            </div>
+        </div>
+        <div class="text-[0.52rem] text-paper/22 tracking-wide reveal mb-2">Mould on painted wall and ceiling surfaces — present despite a consent order requiring remediation by 1 November 2025. The tenant says the mould was painted over rather than treated and has bled back through.</div>
+    </div>
+
+
+    <!-- ── SECTION 04: RENT TO $520 ── -->
+    <div id="rent-to-520">
+        <div class="flex items-center gap-3 mb-4 reveal">
+            <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">Section 04 — The Rent</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-4 leading-tight reveal">AND THE RENT<br><span class="text-hot">WENT TO $520.</span></h2>
+
+        <p class="font-serif italic text-paper/50 text-lg leading-relaxed mb-8 reveal">"Here is the part that should stop a Minister in her tracks."</p>
+
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-4">The Rent Sequence — What Happened</div>
+            <div class="space-y-3">
+                <div class="flex gap-3 items-start">
+                    <span class="text-[0.55rem] text-gold/60 w-28 shrink-0 pt-0.5">Ordered cap</span>
+                    <span class="text-[0.65rem] text-paper/45">Tribunal order: rent capped at $77.95/week precisely <em>because</em> the repairs were outstanding.</span>
+                </div>
+                <div class="flex gap-3 items-start">
+                    <span class="text-[0.55rem] text-gold/60 w-28 shrink-0 pt-0.5">Standard rate</span>
+                    <span class="text-[0.65rem] text-paper/45">The ordinary subsidised charge for the tenancy: around $137 plus $8 for water — roughly $145/week.</span>
+                </div>
+                <div class="flex gap-3 items-start">
+                    <span class="text-[0.55rem] text-hot/70 w-28 shrink-0 pt-0.5">Billed 26 Jun</span>
+                    <span class="text-[0.65rem] text-paper/45">With the repairs still outstanding and the tribunal order still in force, the agency billed the tenant <strong class="text-hot">$520 a week</strong> on a single day's notice.</span>
+                </div>
+                <div class="flex gap-3 items-start">
+                    <span class="text-[0.55rem] text-hot/70 w-28 shrink-0 pt-0.5">Centrelink seized</span>
+                    <span class="text-[0.65rem] text-paper/45">The entire $520 amount was taken from his Centrelink payment. The tenant says this left the household with no income at all. Centrelink suspended payments to protect him.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8 reveal">
+            <div class="bg-ink px-5 py-5 text-center border border-paper/[0.06]">
+                <div class="stat-number text-4xl text-gold mb-1">$77.95</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Tribunal cap</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">Per week — court ordered</div>
+            </div>
+            <div class="bg-ink px-5 py-5 text-center border border-paper/[0.06]">
+                <div class="stat-number text-4xl text-paper/40 mb-1">~$145</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Standard subsidy</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">$137 + $8 water</div>
+            </div>
+            <div class="bg-ink px-5 py-5 text-center border border-paper/[0.06]">
+                <div class="stat-number text-4xl text-hot mb-1">$520</div>
+                <div class="text-[0.52rem] tracking-[0.15em] uppercase text-paper/28">Billed on 26 Jun</div>
+                <div class="text-[0.5rem] text-paper/18 mt-1">One day's notice. Full Centrelink seized.</div>
+            </div>
+        </div>
+
+        <div class="story-chapter reveal">
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-5">Whichever figure you use, the contrast is the same: an agency that pleaded poverty of performance to justify a rent cap was, months later, taking nearly everything a tenant had.</p>
+            <div class="border-l-4 border-hot/60 pl-4 py-2" style="background:rgba(193,68,14,0.05)">
+                <p class="text-[0.72rem] leading-relaxed text-paper/60 italic">An agency that was ordered to cap rent at $77.95 because its repairs were overdue billed $520 — with the repairs still overdue — and took the entire amount from his Centrelink payment on a single day's notice.</p>
+            </div>
+        </div>
+
+        <div class="border border-hot/25 p-6 mt-8 reveal" style="background:rgba(193,68,14,0.06)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">Update — $1,040 Taken in One Week</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5 blink">⬤ RETALIATION</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">NOT $145. <span class="text-hot">$1,040 — IN A SINGLE WEEK.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The tenant is paid weekly. Instead of taking the standard ~$145 for the week, the agency took <strong class="text-hot">$1,040 in one week</strong> — two weeks' worth at once. As at <strong class="text-paper/65">28 June 2026</strong>, that means he loses his payment last week and this week. For <strong class="text-paper/65">two weeks the tenant will have no money at all</strong>.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">There is no benign reading of this. It was done as <strong class="text-paper/65">retaliation</strong>. A <strong class="text-paper/65">Centrelink assistant saw what had happened</strong> and stepped in — attempting to get Housing NSW to back down and reverse the seizure.</p>
+            <div class="flex items-center gap-3 border border-paper/[0.07] p-3 mb-4" style="background:#fff">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/centrelink_logo.png" alt="Centrelink" class="max-w-[150px]" style="object-fit:contain" loading="lazy" />
+                <span class="text-[0.5rem] tracking-[0.12em] uppercase text-ink/60 leading-relaxed">The $1,040 was taken directly from the tenant's Centrelink payment</span>
+            </div>
+            <div class="border-l-4 border-hot/60 pl-4 py-2" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-1">The Glaring Issue</div>
+                <p class="text-[0.7rem] leading-relaxed text-paper/55 italic">Housing NSW is able to penalise a person by reaching in and taking their <strong class="text-paper/70">full Centrelink payment</strong> — the entire income of someone in social housing — and leaving them with nothing to live on. That a government housing agency can zero out a vulnerable person's only income, and do it as retaliation, is a structural failure. <strong class="text-paper/70">Rose Jackson</strong>, the Minister for Housing, is aware of this.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ── SECTION 05: ACCOUNTABILITY ── -->
+    <div id="accountability">
+        <div class="flex items-center gap-3 mb-4 reveal">
+            <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Section 05 — Accountability</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-4 leading-tight reveal">SO WHO IS<br><span class="text-gold">ACCOUNTABLE?</span></h2>
+
+        <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-8 reveal">This is where the consequence economy is supposed to do its job — and doesn't.</p>
+
+        <div class="border border-gold/20 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.04)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-4">The Minister — Rose Jackson</div>
+            <div class="flex flex-col sm:flex-row gap-5 items-start mb-4">
+                <div class="shrink-0 w-32 border border-paper/[0.07] overflow-hidden" style="aspect-ratio:3/4">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rose_jackson.jpeg" alt="Rose Jackson — NSW Minister for Housing" class="w-full h-full object-cover object-top" loading="lazy" />
+                </div>
+                <div class="flex-1">
+                    <div class="border border-paper/[0.07] p-4 mb-3 flex items-center justify-center" style="background:#fff">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/homes-nsw-logo.png" alt="Homes NSW" class="w-full max-w-[200px]" style="object-fit:contain" loading="lazy" />
+                    </div>
+                    <div class="border border-paper/[0.07] p-3 mb-3 flex items-center gap-3" style="background:#fff">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/labout_party_logo.svg" alt="Australian Labor Party" class="max-w-[120px]" style="object-fit:contain" loading="lazy" />
+                        <span class="text-[0.5rem] tracking-[0.12em] uppercase text-ink/55 leading-snug">Rose Jackson — Australian Labor Party</span>
+                    </div>
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold/70">Rose Jackson · Minister for Housing</div>
+                    <div class="text-[0.5rem] text-paper/35 mt-0.5 leading-relaxed">Labor Minister. The NSW Land and Housing Corporation now sits within Homes NSW — within her portfolio.</div>
+                </div>
+            </div>
+            <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">The Minister responsible is <strong class="text-paper/70">Rose Jackson</strong>, the Minister for Housing. The NSW Land and Housing Corporation now sits within <strong class="text-paper/70">Homes NSW</strong>, which is within her portfolio. Under the most basic convention of responsible government, the conduct of that agency is the Minister's to answer for.</p>
+            <p class="text-[0.68rem] text-paper/50 leading-relaxed mb-4">She does not personally schedule a plumber — but she is the person the public is entitled to hold to account when the agency she is responsible for ignores a court order and leaves a life-support home in the dark. The tenant has written to her office.</p>
+            <div class="border border-gold/15 p-3" style="background:rgba(201,138,16,0.03)">
+                <div class="text-[0.43rem] tracking-[0.15em] uppercase text-gold mb-1.5">The Position of This Masthead</div>
+                <p class="text-[0.58rem] text-paper/45 leading-relaxed">When a private citizen ignores a court, there are consequences. When a state housing agency ignores a tribunal it <em>agreed</em> to be bound by, the file simply gets another adjournment. There is no one whose job it is to make the order bite. He is owed an answer, and so is the public.</p>
+            </div>
+            <div class="border-l-4 border-hot/50 pl-4 py-2 mt-4" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-1">The Excuse — Already Blaming the Contractors</div>
+                <p class="text-[0.62rem] text-paper/48 leading-relaxed">Rose Jackson is already reaching for the standard defence — blaming the <strong class="text-paper/65">contractors</strong> and <strong class="text-paper/65">scheduling availability</strong>. But this has been going on for <strong class="text-paper/65">two years</strong>. No one is going to take seriously the suggestion that a tradesperson's calendar is the reason a consent order has gone unmet, the power has failed at a life-support address, and the rent has been pushed to $520 — for two years. Contractor availability does not explain two years of inaction. It is the explanation a Minister offers when she has no other.</p>
+            </div>
+        </div>
+
+        <!-- Why it really takes this long — CFMEU / Mick Gatto -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.04)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Adam Watson — Why It Really Takes This Long</div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">THE REAL REASON A SMALL JOB<br><span class="text-hot">TAKES TWO YEARS.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam Watson says the delay is not really about any one tradesperson's calendar. It is about who is permitted to work on government contracts in the first place. In his account, the <strong class="text-paper/70">CFMEU controls who works on government contracts</strong> — and once a small repair has to pass through that gate, even a minor change drags out for months or years. The contractor "availability" Rose Jackson points to is downstream of who is allowed to hold the contract at all.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam Watson goes further: he says <strong class="text-paper/70">Labor allows Mick Gatto to control all the contracts</strong> — the same Mick Gatto documented in <a href="/episode-2" class="text-gold underline decoration-gold/40 hover:decoration-gold transition-colors">Episode 2</a>. On this account, the control of the contracting pipeline is exactly why a consent order to fix a single home can sit unmet for two years.</p>
+            <div class="border-l-4 border-hot/60 pl-4 py-2" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-1">Adam Watson's Position</div>
+                <p class="text-[0.66rem] text-paper/55 leading-relaxed">Adam Watson states that if the <strong class="text-paper/70">Liberals get into Victoria, Mick Gatto will go to jail for 20 years</strong> — and that right now he is probably moving all of his assets ahead of that. Labor, in Adam Watson's view, is allowing it to go on. The two-year wait on a single social-housing repair is, on his account, what that arrangement looks like from the inside of one affected home.</p>
+            </div>
+        </div>
+
+        <!-- Illegal access / Robert Huang court documents / false rent-fraud allegation -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">Update — Illegal Entry &amp; a False Fraud Allegation</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5 blink">⬤ WILL COLLAPSE IN COURT</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">THEY ENTERED A PROPERTY ILLEGALLY.<br><span class="text-hot">THEN BUILT A FRAUD CLAIM ON WHAT THEY FOUND.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam Watson had left some court documents at a friend's house. NSW Housing <strong class="text-paper/65">accessed that property illegally</strong> and, while there, found the court documents — which related to <strong class="text-paper/65">Robert Huang</strong>. On the strength of that, the agency recorded Adam Watson's friend as having committed <strong class="text-paper/65">rent fraud</strong>.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The allegation is false. The court documents do <strong class="text-paper/65">not belong to the friend</strong> — they are Adam Watson's, relating to the Robert Huang matter, and were simply left there. The friend committed no fraud.</p>
+            <div class="border-l-4 border-hot/60 pl-4 py-2" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.48rem] tracking-[0.2em] uppercase text-hot mb-1">Why This Backfires</div>
+                <p class="text-[0.7rem] leading-relaxed text-paper/55 italic">By putting a rent-fraud allegation on the record, NSW Housing now has to prove it — and they cannot. The documents are not the friend's, and there is no fraud to back up. The allegation will collapse in court, and the agency will have compounded an illegal entry with a false accusation it cannot sustain.</p>
+            </div>
+        </div>
+
+        <!-- Referrals -->
+        <div class="mb-8 reveal">
+            <h3 class="font-display text-2xl tracking-wide mb-4 leading-tight">WHERE THIS GOES NEXT — <span class="text-gold">THE REFERRALS.</span></h3>
+            <div class="space-y-2">
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(12,8,4,0.4)">
+                    <div class="flex items-start gap-3">
+                        <span class="text-gold font-display text-sm shrink-0 mt-0.5">→</span>
+                        <div>
+                            <div class="text-[0.6rem] text-paper/65 mb-1">The Tribunal itself</div>
+                            <p class="text-[0.58rem] text-paper/35 leading-relaxed">A fresh urgent application has been lodged (Case 2026/00090755), seeking emergency orders to restore power, remediate the mould, and freeze and refund the rent.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(12,8,4,0.4)">
+                    <div class="flex items-start gap-3">
+                        <span class="text-gold font-display text-sm shrink-0 mt-0.5">→</span>
+                        <div>
+                            <div class="text-[0.6rem] text-paper/65 mb-1">The NSW Ombudsman</div>
+                            <p class="text-[0.58rem] text-paper/35 leading-relaxed">The proper body for maladministration — an agency failing, over a sustained period, to do what it was ordered to do.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(12,8,4,0.4)">
+                    <div class="flex items-start gap-3">
+                        <span class="text-gold font-display text-sm shrink-0 mt-0.5">→</span>
+                        <div>
+                            <div class="text-[0.6rem] text-paper/65 mb-1">The Independent Commission Against Corruption</div>
+                            <p class="text-[0.58rem] text-paper/35 leading-relaxed">Relevant only to the extent any conduct amounts to corrupt conduct rather than incompetence — a higher and different bar, raised here so the public can judge where the line falls.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(12,8,4,0.4)">
+                    <div class="flex items-start gap-3">
+                        <span class="text-gold font-display text-sm shrink-0 mt-0.5">→</span>
+                        <div>
+                            <div class="text-[0.6rem] text-paper/65 mb-1">The Housing Appeals Committee</div>
+                            <p class="text-[0.58rem] text-paper/35 leading-relaxed">The avenue for challenging a rent-subsidy or rebate decision, which the Tribunal cannot itself review.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(12,8,4,0.4)">
+                    <div class="flex items-start gap-3">
+                        <span class="text-gold font-display text-sm shrink-0 mt-0.5">→</span>
+                        <div>
+                            <div class="text-[0.6rem] text-paper/65 mb-1">The District Court of NSW</div>
+                            <p class="text-[0.58rem] text-paper/35 leading-relaxed">The tenant has foreshadowed a separate claim for damage to his possessions and for the alleged handling of a government-insurer claim — a matter that exceeds the Tribunal's monetary limit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-paper/[0.07] p-4" style="background:rgba(12,8,4,0.4)">
+                    <div class="flex items-start gap-3">
+                        <span class="text-gold font-display text-sm shrink-0 mt-0.5">→</span>
+                        <div>
+                            <div class="text-[0.6rem] text-paper/65 mb-1">The Parliament</div>
+                            <p class="text-[0.58rem] text-paper/35 leading-relaxed">The tenant has indicated he will ask members of the crossbench and the Opposition to raise the matter in the House.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kellie Sloane — Opposition Leader -->
+        <div class="border border-gold/30 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold">Update — The Opposition Leader Steps In</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-gold/50 text-gold px-1.5 py-0.5 blink">⬤ TO BE TABLED IN PARLIAMENT</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">KELLIE SLOANE HAS TAKEN THIS UP.<br><span class="text-gold">AND SHE IS TABLING IT IN PARLIAMENT.</span></h3>
+            <div class="flex flex-col sm:flex-row gap-5 items-start mb-4">
+                <div class="shrink-0 w-32 border border-paper/[0.07] overflow-hidden" style="aspect-ratio:3/4">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/kellie_sloan.jpg" alt="Kellie Sloane — NSW Opposition Leader" class="w-full h-full object-cover object-top" loading="lazy" />
+                </div>
+                <div class="flex-1">
+                    <div class="border border-paper/[0.07] p-4 mb-3 flex items-center justify-center" style="background:#fff">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/liberal_party_logo.svg" alt="Liberal Party of Australia" class="w-full max-w-[180px]" style="object-fit:contain" loading="lazy" />
+                    </div>
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold/70">Kellie Sloane · NSW Opposition Leader</div>
+                    <div class="text-[0.5rem] text-paper/35 mt-0.5 leading-relaxed">Liberal Party — holding the Labor Government's Housing Minister to account.</div>
+                </div>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The NSW Opposition Leader, <strong class="text-paper/70">Kellie Sloane</strong>, has contacted Adam Watson directly after being informed of the conduct of Homes NSW and its responsible Minister, <strong class="text-paper/70">Rose Jackson</strong>. Adam Watson describes her as <strong class="text-paper/70">a very honourable person</strong>.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">She has told him she is going to <strong class="text-paper/70">table this conduct in Parliament</strong>.</p>
+            <div class="border-l-4 border-gold/60 pl-4 py-2 mb-4" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-1">What "Tabling It" Means</div>
+                <p class="text-[0.65rem] text-paper/48 leading-relaxed">To <em>table</em> a document is to formally lay it before the Parliament so that it becomes part of the official parliamentary record. Once tabled, the documents and the conduct they describe are on the public record of the House — they can be referred to in debate, reported under parliamentary privilege, and used to question the Minister directly. It moves this matter out of an agency's complaints inbox and into the chamber where Ministers are held to account.</p>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Kellie Sloane is pressing for <strong class="text-paper/70">Rose Jackson to resign</strong>, on the basis that she is an incompetent Minister whose agency has ignored a tribunal order, cut power to a life-support home, and seized a vulnerable tenant's full Centrelink payment.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">Meanwhile, <strong class="text-paper/70">Homes NSW has attempted to contact Adam Watson</strong>. He has declined — stating that he will <strong class="text-paper/70">only speak to Rose Jackson directly</strong>. The accountability he is seeking is ministerial, not administrative.</p>
+        </div>
+
+        <!-- After Kellie Sloane — Homes NSW attends; lock box stolen -->
+        <div class="border border-sage/25 p-6 mb-8 reveal" style="background:rgba(61,122,74,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-sage">Update — Suddenly, Action</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-sage/50 text-sage px-1.5 py-0.5">⬤ POWER RESTORED · LOCKS CHANGED</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">ONCE THE OPPOSITION LEADER WAS INVOLVED,<br><span class="text-sage">THE CONTRACTORS FINALLY CAME.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">After <strong class="text-paper/70">Kellie Sloane</strong> took the matter up, the pace changed. <strong class="text-paper/70">Homes NSW attended the property</strong> to fix the power and change the locks — the very work that had sat undone, through adjournment after adjournment, while a court order went ignored. The timing speaks for itself: nine months of "we're inspecting", then movement within days of the Opposition Leader getting involved.</p>
+            <div class="border-l-4 border-gold/60 pl-4 py-2" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-1">The Stolen Lock Box</div>
+                <p class="text-[0.68rem] text-paper/50 leading-relaxed">A <strong class="text-paper/65">lock box</strong> had been placed outside the house so contractors could access the property. It was <strong class="text-paper/65">stolen</strong>. Adam Watson suspects it was taken by <strong class="text-paper/65">Raz</strong> — the husband of <strong class="text-paper/65">Samira Khalaj</strong>, whose documented campaign of harassment, gas-pipeline tampering, and false allegations is set out in <a href="/episode-2#samira" class="text-gold underline decoration-gold/40 hover:decoration-gold transition-colors">Episode 2</a>. The theft of the contractors' lock box would, on that suspicion, be one more act of interference from the same quarter — obstructing the very repairs this episode has been demanding.</p>
+            </div>
+        </div>
+
+        <!-- The call from Rose Jackson -->
+        <div class="border border-gold/30 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold">The Call — Rose Jackson to Adam Watson</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-gold/50 text-gold px-1.5 py-0.5">⬤ MINISTER ENGAGED</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">"GIVE ME THE PROOF,<br><span class="text-gold">AND SHE'S OUT."</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Rose Jackson called Adam Watson directly. On that call, the Minister said that if Adam Watson provides her with <strong class="text-paper/70">proof that Samira Khalaj owns a property</strong>, Homes NSW will act: they will <strong class="text-paper/70">remove her from public housing, ban her, strip her rent subsidy, and back-date the rent for nine years</strong>. The agency would take her to Court, Centrelink would take her to Court, and they would <strong class="text-paper/70">pursue her assets — the house</strong>.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam Watson's position is one of basic fairness: <em class="text-paper/70">if people live in public housing and they work, they should pay like everybody else.</em> Public housing is for people who need it — not for people quietly sitting on assets while a single mother with a child and no money waits on the list.</p>
+            <div class="border border-gold/15 p-4 mb-4" style="background:rgba(201,138,16,0.03)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-2">What Is Being Asked For</div>
+                <div class="space-y-2">
+                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/48 leading-relaxed"><strong class="text-paper/60">Proof of property ownership.</strong> Samira Khalaj's unit would be worth approximately <strong class="text-paper/65">$1.3 million</strong> — and Adam Watson has it on good authority that it is <strong class="text-paper/65">completely paid off</strong>.</p></div>
+                    <div class="flex gap-2 items-start"><span class="text-gold text-xs shrink-0 mt-0.5">→</span><p class="text-[0.62rem] text-paper/48 leading-relaxed"><strong class="text-paper/60">What car she owns.</strong> Rose Jackson has also asked Adam Watson what car Samira Khalaj drives — because she would then have to prove how she paid for it. As Adam Watson puts it: <em class="text-paper/70">"Why should you live in public housing if you have a Porsche? You could give it to some woman that has a kid and no money."</em></p></div>
+                </div>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-3">On the tenancy itself, Rose Jackson has stated she wants an <strong class="text-paper/70">affidavit from Robert Huang</strong> confirming that the tenant <strong class="text-paper/70">does not work for Robert Huang</strong>, together with <strong class="text-paper/70">tax returns</strong> showing that the money is Adam Watson's, that Adam Watson works for Robert Huang, and that he pays tax.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">Adam Watson holds <strong class="text-paper/70">power of attorney</strong> over the tenant. The tenant had received an inheritance of nearly <strong class="text-paper/70">$900,000</strong> and squandered the entire amount — context for why Adam Watson administers his affairs, and why the money moving through the tenancy traces back to Adam Watson rather than to the tenant himself.</p>
+            <div class="border-l-4 border-hot/50 pl-4 py-2 mt-4" style="background:rgba(193,68,14,0.05)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-1">The Jumpers — and a $1.25 Refund</div>
+                <p class="text-[0.66rem] text-paper/50 leading-relaxed">Housing is now asking Adam Watson to <strong class="text-paper/65">prove that he was the one who bought the tenant all the nice jumpers</strong> — that is where they are starting, using the clothing as evidence in the money trail. And in a gesture that says everything about the posture on the other side, out of spite they refunded Adam Watson only <strong class="text-paper/65">$1.25</strong> of his rent assistance.</p>
+            </div>
+        </div>
+
+        <!-- Escalation to Ben Fordham -->
+        <div class="border border-gold/30 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold">Escalation — Taking It to the Airwaves</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-gold/50 text-gold px-1.5 py-0.5">⬤ 2GB · BEN FORDHAM</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">STRAIGHT TO BEN FORDHAM.<br><span class="text-gold">GET TO THE BOTTOM OF THIS MESS.</span></h3>
+            <div class="flex flex-col sm:flex-row gap-5 items-start mb-4">
+                <div class="shrink-0 w-full sm:w-64 border border-paper/[0.07]" style="background:#0d0d0d">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/shelf_company/ben_fordham_2gb.jpg" alt="Ben Fordham — 2GB" class="w-full h-auto block" style="object-fit:contain" loading="lazy" />
+                </div>
+                <div class="flex-1">
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-3">Adam Watson is bringing the entire NCAT tenant matter set out in this episode to the attention of <strong class="text-paper/70">Ben Fordham</strong> at 2GB. Fordham is positioned to contact <strong class="text-paper/70">Rose Jackson</strong>, <strong class="text-paper/70">Kellie Sloane</strong>, and Premier <strong class="text-paper/70">Chris Minns</strong> directly — and to get to the bottom of this mess.</p>
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold/70">Ben Fordham · 2GB</div>
+                </div>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">A consent order ignored for two years, a life-support home left without power, rent pushed to $520, a full Centrelink payment seized, and a Minister asking a tenant's advocate to prove who bought the jumpers — it is exactly the kind of story that does not survive contact with daylight. Put to the Premier and both sides of the House on air, the questions answer themselves.</p>
+        </div>
+
+        <!-- How the tenant has had to live -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot">How He Has Had to Live</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-hot/50 text-hot px-1.5 py-0.5">⬤ UNDER ROSE JACKSON'S WATCH</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">PILLOWS. PANS. CLOTHES.<br><span class="text-hot">ALL THROWN OUT — COVERED IN MOULD.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">This is what two years of an unmet consent order looks like from inside the home. The tenant has had to <strong class="text-paper/65">throw out his pillows, his pans, and his clothes</strong> because mould keeps growing on them. Not once — as an ongoing condition of daily life. This is how he has had to live. And it has all happened <strong class="text-paper/65">under Rose Jackson's watch</strong>.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4"><strong class="text-paper/70">Kellie Sloane</strong> is aware of exactly this — and she has <strong class="text-paper/70">called Premier Chris Minns</strong> about it.</p>
+            <div class="border-l-4 border-gold/60 pl-4 py-2" style="background:rgba(201,138,16,0.04)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-gold mb-1">Adam Watson on the Tribunal</div>
+                <p class="text-[0.66rem] text-paper/50 leading-relaxed">Adam Watson has called NCAT a <strong class="text-paper/65">"toothless tiger."</strong> A tribunal can make an order by consent, watch it be ignored for two years, and do nothing to make it bite — while a man throws his mouldy bedding and cookware into the bin. An order that cannot be enforced is not much of an order at all.</p>
+            </div>
+        </div>
+
+        <!-- iCare / Gallagher Bassett — claim denied -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.04)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Insurance Denial — icare · Claim CN701338-01</div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">THE GOVERNMENT'S OWN INSURER<br><span class="text-hot">SAID: PROVE IT.</span></h3>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">On 17 September 2025, Gallagher Bassett — acting as the agent for <strong class="text-paper/70">icare (Insurance for NSW)</strong> — wrote to Adam Watson to confirm that his claim against the <strong class="text-paper/70">NSW Land and Housing Corporation</strong> for damage to personal property was <strong class="text-paper/70">denied</strong>. The stated reason: he had "not served any evidence to support [the] allegation of negligence against LAHC", and "the onus is on you to provide supportive evidence and proof of loss."</p>
+            <div class="border border-hot/20 p-4 mb-4" style="background:rgba(193,68,14,0.04)">
+                <div class="text-[0.46rem] tracking-[0.2em] uppercase text-hot mb-2">The Concern — Read Against the NCAT Win</div>
+                <p class="text-[0.65rem] text-paper/48 leading-relaxed mb-2">The demand for "proof of negligence" does not sit easily beside the record. The very same government agency — <strong class="text-paper/65">LAHC — consented at NCAT</strong> to an order to remediate mould and complete repairs, an acknowledgment on the tribunal record that the property required exactly that work. A tenant whose pillows, pans and clothes are being thrown out because of mould the agency was ordered to fix is then told, by that agency's own insurer, that he must prove negligence or receive nothing.</p>
+                <p class="text-[0.65rem] text-paper/45 leading-relaxed italic">One arm of the State consents to fix the mould; another arm of the State denies the tenant any compensation for what that mould destroyed — for want of "evidence" the first arm has effectively already put on the record. That is the concern this letter raises.</p>
+            </div>
+            <div>
+                <div class="flex items-center justify-between mb-2">
+                    <span class="text-[0.46rem] tracking-[0.18em] uppercase text-hot/70">icare / Gallagher Bassett — Letter of Outcome · CN701338-01 · 17 Sep 2025</span>
+                    <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rose_jackson/icare_letter_redacted.pdf" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase text-hot border border-hot/30 px-2 py-0.5 hover:bg-hot/10 transition-colors">Open PDF ↗</a>
+                </div>
+                <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rose_jackson/icare_letter_redacted.pdf" class="w-full border border-paper/[0.07]" style="height:520px;background:#0d0d0d" title="icare / Gallagher Bassett letter — claim CN701338-01 denied"></iframe>
+            </div>
+        </div>
+
+        <!-- Kellie Sloane — ICAC referral, letters to Homes NSW -->
+        <div class="border border-gold/30 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.05)">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold">Kellie Sloane — Take It to Court · Refer It to ICAC</span>
+                <span class="text-[0.42rem] tracking-[0.15em] uppercase border border-gold/50 text-gold px-1.5 py-0.5">⬤ ICAC REFERRAL</span>
+            </div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">"THE ONLY WAY TO DEAL WITH THESE PEOPLE<br><span class="text-gold">IS TO TAKE IT TO COURT."</span></h3>
+            <div class="flex flex-col sm:flex-row gap-5 items-start mb-4">
+                <div class="shrink-0 w-32 border border-paper/[0.07] overflow-hidden" style="aspect-ratio:3/4">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/adam_watson_portrait.jpg" alt="Adam Watson" class="w-full h-full object-cover object-top" loading="lazy" />
+                </div>
+                <div class="flex-1">
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-3"><strong class="text-paper/70">Kellie Sloane</strong> has been in direct contact with Adam Watson about this situation. She has suggested <strong class="text-paper/70">taking NSW Housing to Court</strong>, and she is interested in the icare letter as part of her <strong class="text-paper/70">referral to ICAC</strong> — the Independent Commission Against Corruption.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-3">Her point on the insurance denial is sharp: it is a <strong class="text-paper/70">criminal offence to tell icare things that are not true</strong>. She finds it appalling that the agency won't deal with the matter, and her conclusion is blunt — the only way to deal with these people is to take it to Court, because <strong class="text-paper/70">then the bureaucrats have to go to Court too</strong>, under oath, where "we're inspecting" is not an answer.</p>
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-gold/70">Adam Watson · in contact with Kellie Sloane's office</div>
+                </div>
+                <div class="shrink-0 w-32 border border-paper/[0.07] p-3 flex items-center justify-center" style="background:#fff">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/icac_logo.jpeg" alt="ICAC — Independent Commission Against Corruption" class="w-full" style="object-fit:contain" loading="lazy" />
+                </div>
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam Watson has said that <strong class="text-paper/70">Kellie Sloane is an honourable person</strong>. Her Vaucluse electorate office has written to Homes NSW on the tenant's behalf — the letters are below.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div>
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-[0.44rem] tracking-[0.16em] uppercase text-gold/70">Kellie Sloane MP Office — Letter</span>
+                        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/REDACTED_kellie_sloane_mp_office_letter.pdf" target="_blank" rel="noopener" class="text-[0.42rem] tracking-[0.12em] uppercase text-gold border border-gold/30 px-2 py-0.5 hover:bg-gold/10 transition-colors">Open ↗</a>
+                    </div>
+                    <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/REDACTED_kellie_sloane_mp_office_letter.pdf" class="w-full border border-paper/[0.07]" style="height:420px;background:#0d0d0d" title="Kellie Sloane MP office letter"></iframe>
+                </div>
+                <div>
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-[0.44rem] tracking-[0.16em] uppercase text-gold/70">Letter to Homes NSW</span>
+                        <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/REDACTED_letter_to_homes+(1).pdf" target="_blank" rel="noopener" class="text-[0.42rem] tracking-[0.12em] uppercase text-gold border border-gold/30 px-2 py-0.5 hover:bg-gold/10 transition-colors">Open ↗</a>
+                    </div>
+                    <iframe src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/REDACTED_letter_to_homes+(1).pdf" class="w-full border border-paper/[0.07]" style="height:420px;background:#0d0d0d" title="Letter to Homes NSW"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dr Hilton Shapiro — Diabetes referral -->
+        <div class="border border-sage/25 p-6 mb-8 reveal" style="background:rgba(61,122,74,0.05)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-sage mb-3">The Medical Referral — Dr Hilton Shapiro</div>
+            <h3 class="font-display text-2xl md:text-3xl tracking-wide mb-4 leading-tight">A DOCTOR WHO FEELS<br><span class="text-sage">VERY STRONGLY ABOUT THIS.</span></h3>
+            <div class="flex flex-col sm:flex-row gap-5 items-start">
+                <div class="shrink-0 w-32 border border-paper/[0.07] overflow-hidden" style="aspect-ratio:3/4">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/rose_jackson/dr_hilton_shapiro.jpg" alt="Dr Hilton Shapiro" class="w-full h-full object-cover object-top" loading="lazy" />
+                </div>
+                <div class="flex-1">
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-3"><strong class="text-paper/70">Dr Hilton Shapiro</strong>, from Mascot, has been made aware of what LAHC has done — and he feels very strongly about it. He has <strong class="text-paper/70">referred this matter to Diabetes Australia / the Diabetes Council</strong>.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50">The medical dimension is not incidental. The tenant is diabetic and depends on his <strong class="text-paper/70">weekly payments</strong> to fund his diabetic medication — the same payments Housing NSW seized in full. A government agency that leaves a diabetic in a mould-ridden, powerless home and then strips his weekly income is a health matter, and a doctor has now put it in front of the body that exists to advocate for exactly these patients.</p>
+                    <div class="text-[0.44rem] tracking-[0.18em] uppercase text-sage/70 mt-2">Dr Hilton Shapiro · Mascot, NSW</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-l-4 border-gold/60 pl-5 py-3 reveal" style="background:rgba(201,138,16,0.04)">
+            <h4 class="font-display text-2xl tracking-wide mb-2 leading-tight">THE QUESTION THE DOCUMENTS LEAVE ON THE TABLE.</h4>
+            <p class="text-[0.72rem] leading-relaxed text-paper/55">Strip away every contested claim and one fact remains, sealed and signed: a NSW government agency told a tribunal it would fix this by November. It is now winter again. The work is not done, the power has failed, and the rent has gone up nearly seven-fold. The only open question is who, if anyone, will be held responsible — and whether <em>"we're inspecting"</em> is still an acceptable answer from a government to a court.</p>
+        </div>
+    </div>
+
+
+    <!-- ── SECTION 06: EVIDENCE VAULT ── -->
+    <div id="evidence-vault">
+        <div class="flex items-center gap-3 mb-4 reveal">
+            <span class="text-[0.5rem] tracking-[0.2em] uppercase text-gold border border-gold/40 px-2 py-1">Section 06 — Evidence Vault</span>
+            <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">8 Documents · NCAT Orders · Ausgrid Note · Mould Photos</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-4 leading-tight reveal">THE DOCUMENTS.<br><span class="text-gold">READ THEM YOURSELF.</span></h2>
+        <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-8 reveal">Every factual claim sourced to a tribunal order in this article is verifiable from the sealed documents below. Click any file to open it in the evidence viewer, or download directly.</p>
+
+        <!-- Evidence vault -->
+        <div class="evidence-vault reveal">
+            <div class="ev-header open" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
+                <div>
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-0.5">NCAT Orders &amp; Applications — Case 2025/00005577 · 2026/00090755</div>
+                    <div class="text-[0.48rem] text-paper/25 tracking-wide">7 sealed tribunal documents · Full originals</div>
+                </div>
+                <span class="ev-toggle">▼</span>
+            </div>
+            <div class="ev-body open">
+                <div class="ev-file ef-gold" onclick="openMV('order-aug-2025')">
+                    <div class="ev-icon ev-pdf">PDF</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">NCAT consent order, 1 August 2025 (Case 2025/00005577)</div>
+                        <div class="ev-desc">Keystone document · Consent order + 15 Apr 2026 order · Mould remediation · Rent cap $77.95/wk · $291.80 compensation</div>
+                    </div>
+                    <span class="ev-cta">Open →</span>
+                </div>
+                <div class="ev-file ef-gold" onclick="openMV('application-mar-2026')">
+                    <div class="ev-icon ev-pdf">PDF</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">Fresh NCAT application, 4 March 2026 (Case 2026/00090755)</div>
+                        <div class="ev-desc">Tenant returns to tribunal — consent-ordered repairs never completed</div>
+                    </div>
+                    <span class="ev-cta">Open →</span>
+                </div>
+                <div class="ev-file ef-gold" onclick="openMV('order-apr-2026')">
+                    <div class="ev-icon ev-pdf">PDF</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">NCAT order, 29 April 2026 — Virtual attendance</div>
+                        <div class="ev-desc">Tenant granted leave to appear virtually</div>
+                    </div>
+                    <span class="ev-cta">Open →</span>
+                </div>
+                <div class="ev-file ef-hot" onclick="openMV('order-may-2026')">
+                    <div class="ev-icon ev-pdf">PDF</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">NCAT order, 1 May 2026 — "The landlord is inspecting"</div>
+                        <div class="ev-desc">Adjourned because respondent landlord is inspecting — 6 months after deadline</div>
+                    </div>
+                    <span class="ev-cta">Open →</span>
+                </div>
+                <div class="ev-file ef-gold" onclick="openMV('order-jun-2026')">
+                    <div class="ev-icon ev-pdf">PDF</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">NCAT order, 18 June 2026 — Adjourned by consent</div>
+                        <div class="ev-desc">Another adjournment — by consent</div>
+                    </div>
+                    <span class="ev-cta">Open →</span>
+                </div>
+                <div class="ev-file ef-hot" onclick="openMV('urgent-jun-2026')">
+                    <div class="ev-icon ev-pdf">PDF</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">Request for urgent/expedited hearing, 26 June 2026</div>
+                        <div class="ev-desc">Emergency application — power failure + $520 rent + Ausgrid note + mould photos as annexures</div>
+                    </div>
+                    <span class="ev-cta">Open →</span>
+                </div>
+                <div class="ev-file ef-sage" onclick="openMV('ausgrid-note')">
+                    <div class="ev-icon ev-img">IMG</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">Ausgrid note to housing electrician (Ref. 66693)</div>
+                        <div class="ev-desc">Faulty main switchboard · Life-support customers · Replace directive · Never actioned</div>
+                    </div>
+                    <span class="ev-cta">Open →</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="evidence-vault mt-4 reveal">
+            <div class="ev-header open" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
+                <div>
+                    <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-0.5">Photographic Evidence — Mould at the Premises</div>
+                    <div class="text-[0.48rem] text-paper/25 tracking-wide">3 photographs · Wall and ceiling surfaces · Present despite Nov 2025 remediation order</div>
+                </div>
+                <span class="ev-toggle">▼</span>
+            </div>
+            <div class="ev-body open">
+                <div class="ev-file ef-sage" onclick="openMV('mould-1')">
+                    <div class="ev-icon ev-img">IMG</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">Mould at the premises (1 of 3)</div>
+                        <div class="ev-desc">Wall and ceiling mould — photographed post-remediation-deadline</div>
+                    </div>
+                    <span class="ev-cta">Open →</span>
+                </div>
+                <div class="ev-file ef-sage" onclick="openMV('mould-2')">
+                    <div class="ev-icon ev-img">IMG</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">Mould at the premises (2 of 3)</div>
+                        <div class="ev-desc">Wall and ceiling mould — painted over, bled back through</div>
+                    </div>
+                    <span class="ev-cta">Open →</span>
+                </div>
+                <div class="ev-file ef-sage" onclick="openMV('mould-3')">
+                    <div class="ev-icon ev-img">IMG</div>
+                    <div class="ev-meta">
+                        <div class="ev-name">Mould at the premises (3 of 3)</div>
+                        <div class="ev-desc">Wall and ceiling mould</div>
+                    </div>
+                    <span class="ev-cta">Open →</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── SECTION: ADNAN ALIJA / ALIJA CONCRETE ── -->
+    <div id="alija" class="mt-16">
+        <div class="flex items-center gap-3 mb-4 reveal">
+            <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">New Character — Adnan Alija</span>
+            <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Alija Concrete · The Slur · The Judgment</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-4 leading-tight reveal">"I'M NOT PAYING YOU<br><span class="text-hot">BECAUSE YOU'RE A FAGGOT."</span></h2>
+        <p class="text-[0.72rem] leading-relaxed text-paper/45 mb-8 reveal max-w-3xl">Adnan Alija is the founder of <strong class="text-paper/65">Alija Concrete</strong>. What follows separates two things carefully: the allegations, which are described as allegations, and the court record, which speaks for itself.</p>
+
+        <!-- Founder / logo -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-stretch mb-8 reveal">
+            <div class="border border-paper/[0.07]" style="background:#0c0804">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/alija_founder.png" alt="Adnan Alija — founder of Alija Concrete" class="w-full h-auto block" style="max-height:420px;object-fit:contain" loading="lazy" />
+                <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 mt-1.5 px-2 pb-2">Adnan Alija · Founder, Alija Concrete</div>
+            </div>
+            <div class="border border-paper/[0.07] p-6 flex flex-col items-center justify-center text-center" style="background:#fff">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/alija_concrete_logo.png" alt="Alija Concrete" class="w-full max-w-[240px] mb-4" style="object-fit:contain" loading="lazy" />
+                <a href="https://www.instagram.com/alijaconcrete/" target="_blank" rel="noopener" class="text-[0.44rem] tracking-[0.14em] uppercase text-ink/60 border border-ink/20 px-2 py-0.5 hover:bg-ink/5 transition-colors">@alijaconcrete ↗</a>
+            </div>
+        </div>
+
+        <!-- The allegations -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Allegations</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">It is <strong class="text-paper/65">alleged</strong> that while his girlfriend — who was brought to Australia from overseas — was <strong class="text-paper/65">pregnant</strong>, Adnan Alija entered into a sexual relationship with Adam Watson and a friend of Adam's, both of whom are Muslim. That is an allegation, and it is presented as one.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">What sits alongside it is harder to reconcile. Alija Concrete <strong class="text-paper/65">engaged Adam Watson for work and never paid.</strong> The <strong class="text-paper/65">alleged stated reason</strong> for not paying was as blunt as it was ugly: <em class="text-paper/70">"I'm not paying you because you're a faggot."</em> A private relationship on one hand; a homophobic slur weaponised to avoid a debt on the other. The contradiction is the story.</p>
+        </div>
+
+        <!-- The judgment / on the record -->
+        <div class="border border-gold/25 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.04)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">On the Record — The Judgment</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Adam Watson took the unpaid debt to court and <strong class="text-paper/65">obtained a judgment</strong> against Adnan Alija. That is not an allegation — it is a matter of record.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The judgment has since done what judgments do. Adnan Alija was <strong class="text-paper/65">recently knocked back for a bank loan because of it</strong> — a recorded judgment debt is exactly the kind of thing a lender declines on. With the loan blocked, he <strong class="text-paper/65">reached out to Adam</strong>, now asking to pay the debt — in exchange for a <strong class="text-paper/65">Notice of Discontinuance.</strong></p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">It is worth sitting with that reversal. The man who allegedly refused to pay because of who Adam is now needs Adam's signature to move on with his own finances. The slur was free when there was nothing at stake. The moment the judgment stood between him and a bank, the position changed.</p>
+            <div class="border border-paper/[0.07] mt-5 p-4 flex items-center gap-4" style="background:rgba(12,8,4,0.5)">
+                <div class="shrink-0 w-12 h-14 flex items-center justify-center border border-gold/30 text-[0.5rem] tracking-[0.12em] text-gold" style="background:rgba(201,138,16,0.06)">PDF</div>
+                <div class="flex-1">
+                    <div class="text-[0.6rem] text-paper/60 mb-0.5">Form 33 — Notice of Discontinuance · Watson v Alija Concrete</div>
+                    <div class="text-[0.5rem] text-paper/30">Court document · The instrument Adnan Alija has requested in exchange for paying the judgment debt</div>
+                </div>
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/Form+33+-+Notice+of+Discontinuance+-+Watson+v+Alija+Concrete+(003).pdf" target="_blank" rel="noopener" class="shrink-0 text-[0.5rem] tracking-[0.14em] uppercase text-gold border border-gold/40 px-3 py-1.5 hover:bg-gold/10 transition-colors">View →</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── SECTION: SOUTHPORT OFFICEWORKS ── -->
+    <div id="officeworks" class="mt-16">
+        <div class="flex items-center gap-3 mb-4 reveal">
+            <span class="text-[0.5rem] tracking-[0.2em] uppercase text-hot border border-hot/40 px-2 py-1">New Incident — Southport Officeworks</span>
+            <span class="text-[0.5rem] tracking-[0.15em] uppercase text-paper/20">Two Charges · A $20 Item · $10 Held</span>
+        </div>
+        <h2 class="font-display text-4xl md:text-5xl tracking-wide mb-4 leading-tight reveal">TWO CHARGES<br><span class="text-hot">OVER A $20 PAIR OF HEADPHONES.</span></h2>
+        <div class="flex flex-col sm:flex-row gap-5 items-start mb-8 reveal">
+            <div class="shrink-0 border border-paper/[0.07] p-5 flex items-center justify-center" style="background:#fff;width:200px;min-height:96px">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/officeworks_logo.png" alt="Officeworks" class="w-full max-w-[150px]" style="object-fit:contain" loading="lazy" />
+            </div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/45 max-w-3xl">Queensland Police brought <strong class="text-paper/65">two charges</strong> against Kosta Kondratenko over an incident at <strong class="text-paper/65">Officeworks Southport</strong>. This is his account of what happened, and why. The matter is <strong class="text-paper/65">listed for mention</strong> — it has not been to trial, and nothing here is a finding of any court. Should police elect to proceed to a full trial, the outcome will be reported at the end.</p>
+        </div>
+
+        <!-- The documents -->
+        <div class="flex items-center gap-3 mb-3 reveal">
+            <div class="shrink-0 border border-paper/[0.1] p-2.5 flex items-center justify-center" style="background:#fff;width:120px;min-height:60px">
+                <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/qld_police_logo.png" alt="Queensland Police Service" class="w-full max-w-[96px]" style="object-fit:contain" loading="lazy" />
+            </div>
+            <div class="text-[0.5rem] tracking-[0.16em] uppercase text-paper/30 leading-relaxed">Queensland Police · Two charges laid<br>Item seized · Field Property Receipt issued</div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8 reveal">
+            <div class="border border-paper/[0.07]" style="background:#0c0804">
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/officeworks/undertaking_to_bail.jpeg" target="_blank" rel="noopener" class="block"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/officeworks/undertaking_to_bail.jpeg" alt="Undertaking to bail — Southport Officeworks charges" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 px-3 py-2 border-t border-paper/[0.06]">Undertaking to Bail · Two charges</div>
+            </div>
+            <div class="border border-paper/[0.07]" style="background:#0c0804">
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/officeworks/20_dollar_headphones.jpeg" target="_blank" rel="noopener" class="block"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/officeworks/20_dollar_headphones.jpeg" alt="Field Property Receipt — $20 headphones seized by QLD Police" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 px-3 py-2 border-t border-paper/[0.06]">Field Property Receipt · The item seized — a $20 pair of headphones</div>
+            </div>
+        </div>
+
+        <!-- What actually happened -->
+        <div class="story-chapter reveal mb-8">
+            <div class="text-[0.48rem] tracking-[0.2em] uppercase text-gold mb-3">What Actually Happened</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">It started at the self-service machines. Adam Watson was trying to print, and the machine <strong class="text-paper/65">wouldn't scan.</strong> Adam complained to Kosta about the scanning issue. Kosta went into Officeworks and told a staff member what had happened. The response was <em class="text-paper/70">"Well, that's all right"</em> — and Kosta explained that, no, it is <strong class="text-paper/65">not all right.</strong></p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Kosta asked to speak to the person who had aggravated Adam. The manager <strong class="text-paper/65">would not allow it</strong> — he said only that he would handle it himself, and refused to let Kosta speak to the person who had caused the problem in the first place.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">At that point, on Kosta's account, <strong class="text-paper/65">all he did was point a finger.</strong> He walked out. Then he came back in and <strong class="text-paper/65">took a pair of headphones.</strong> The logic was one the staff had themselves supplied: the machine had taken Adam's money and not given it back, and a worker had said Adam would get that money back <strong class="text-paper/65">in 14 days.</strong> So Kosta said he would take the <strong class="text-paper/65">$20 headphones for 14 days</strong> — and when the money came back, they could have their headphones back. If the machine can hold a customer's money for 14 days, the reasoning went, the customer can hold a $20 item for the same 14 days.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">The staff called the police. Kosta was <strong class="text-paper/65">arrested within 10 minutes.</strong> The officer did not appear to have the full story. Kosta explained the issue — the held money, the 14-day promise, the refusal to let him speak to anyone — and the officer <strong class="text-paper/65">proceeded with the arrest without any attempt to resolve the underlying issue whatsoever.</strong></p>
+        </div>
+
+        <!-- Why the headphones — the $10 held -->
+        <div class="border border-hot/25 p-6 mb-8 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">Why It Happened — The $10 Officeworks Kept</div>
+            <div class="grid grid-cols-1 sm:grid-cols-[150px_1fr] gap-5 items-start">
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/gc_council/adam_watson_portrait.jpg" alt="Adam Watson" class="w-full h-auto block" style="object-fit:cover" loading="lazy" />
+                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06]">Adam Watson</div>
+                </div>
+                <div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">This did not happen over nothing. Officeworks <strong class="text-paper/65">took $10 from Adam Watson for his printing and did not return it.</strong> The receipt showing Officeworks holding that money is below. The headphones were never about $20 worth of headphones — they were a stand-in for money the store had taken and would not give back.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50">There is also a piece of property that has never been accounted for. Since the police <strong class="text-paper/65">removed the item from Kosta's bag</strong>, his <strong class="text-paper/65">charger has gone missing</strong> — and its value is considerably higher than the $20 headphones that generated the charges. The Field Property Receipt above records what was taken; the charger is not coming back.</p>
+                </div>
+            </div>
+            <div class="border border-paper/[0.07] max-w-md mt-5" style="background:#0c0804">
+                <a href="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/officeworks/officeworks_holding_money.jpeg" target="_blank" rel="noopener" class="block"><img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/officeworks/officeworks_holding_money.jpeg" alt="Receipt — Officeworks holding Adam Watson's $10" class="w-full h-auto block" style="object-fit:contain" loading="lazy" /></a>
+                <div class="text-[0.44rem] tracking-[0.14em] uppercase text-paper/25 px-3 py-2 border-t border-paper/[0.06]">Proof · Officeworks holding Adam Watson's $10</div>
+            </div>
+        </div>
+
+        <!-- The culture -->
+        <div class="border border-gold/25 p-6 mb-8 reveal" style="background:rgba(201,138,16,0.04)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-gold mb-3">The Culture at Southport Officeworks</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">The incident does not sit in isolation. It goes to the <strong class="text-paper/65">culture of the staff at Officeworks Southport</strong>, who — on Adam Watson's repeated experience — <strong class="text-paper/65">never help him with the self-service printers.</strong> Adam has also complained that the printing is <strong class="text-paper/65">set to colour by default</strong>. He believes this is a <strong class="text-paper/65">deliberate attempt to extract money</strong> from customers — charging colour rates even when the pages are plainly black and white.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">It is not only customers who describe it that way. An Officeworks staff member at <strong class="text-paper/65">Robina</strong> has said she <strong class="text-paper/65">never rosters herself onto shifts at the Southport store</strong> because of the culture and the people there — and that, in her view, the staff seem <strong class="text-paper/65">trained to be unhelpful.</strong></p>
+        </div>
+
+        <!-- Wesfarmers / Rob Scott -->
+        <div class="border border-paper/[0.08] p-6 mb-8 reveal" style="background:rgba(12,8,4,0.4)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-paper/40 mb-4">Escalated — The Owner of Officeworks</div>
+            <div class="grid grid-cols-1 sm:grid-cols-[150px_1fr] gap-5 items-start">
+                <div class="border border-paper/[0.07]" style="background:#0c0804">
+                    <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/officeworks/rob_scott_ceo.jpg" alt="Rob Scott — CEO, Wesfarmers" class="w-full h-auto block" style="object-fit:cover" loading="lazy" />
+                    <div class="text-[0.42rem] tracking-[0.14em] uppercase text-paper/25 px-2 py-1.5 border-t border-paper/[0.06]">Rob Scott · CEO, Wesfarmers</div>
+                </div>
+                <div>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Officeworks is owned by <strong class="text-paper/65">Wesfarmers</strong>. Its CEO, <strong class="text-paper/65">Rob Scott</strong>, has been contacted about the culture of the staff at the Southport store. He has indicated he will <strong class="text-paper/65">look at the complaint numbers</strong> for that location to determine whether this is a valid, recurring concern rather than a one-off.</p>
+                    <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">That is the right response to a complaint of this kind: check whether the data backs it up. If the volume of complaints against Officeworks Southport is elevated, it tells its own story — and it would corroborate exactly what a Robina staff member has already said out loud about that store.</p>
+                    <div class="border border-paper/[0.07] p-5 flex items-center justify-center" style="background:#fff;min-height:96px">
+                        <img src="https://sunlightquest.s3.ap-southeast-2.amazonaws.com/10_07_26/Wesfarmers-brand.svg.webp" alt="Wesfarmers" class="w-full max-w-[220px]" style="object-fit:contain" loading="lazy" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The bigger issue -->
+        <div class="border border-hot/25 p-6 mb-4 reveal" style="background:rgba(193,68,14,0.05)">
+            <div class="text-[0.5rem] tracking-[0.2em] uppercase text-hot mb-3">The Bigger Issue — Procedure and Held Money</div>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50 mb-4">Strip the personalities out of it and two questions remain. The first is about <strong class="text-paper/65">police procedure.</strong> When someone is standing in a store openly explaining that they have taken a $20 item because the store is holding their associate's money, the proportionate response is to <strong class="text-paper/65">offer to let them simply pay for the item</strong>, or, at the very least, to <strong class="text-paper/65">listen to the underlying issue</strong> before reaching for handcuffs. Neither happened. The officer proceeded to arrest without attempting to resolve anything.</p>
+            <p class="text-[0.72rem] leading-relaxed text-paper/50">The second is bigger, and it is the real question this case raises: <strong class="text-paper/65">what right does a store like Officeworks have to take a customer's money and hold it — for 14 days or at all — without giving it back?</strong> A self-service machine that takes payment and fails to deliver the service has not completed a sale; it has taken money. The clean fix is obvious: <strong class="text-paper/65">charge only the amount the customer agrees to pay before printing</strong> — the exact page count, in the correct colour mode — so the machine never holds money it has no service to justify. Get that right and incidents like this one do not begin.</p>
+        </div>
+    </div>
+
+</div><!-- end main content -->
+
+
+<!-- ══ FOOTER ══ -->
+<footer class="border-t border-paper/[0.05] px-5 md:px-10 py-8 max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
+    <div class="font-display text-xl tracking-widest text-paper/18">SUNLIGHT<span class="text-dim">.QUEST</span></div>
+    <div class="text-[0.52rem] tracking-[0.14em] uppercase text-paper/10 text-center">© 2026 Sunlight.Quest — Investigative Journalism — Gold Coast, QLD</div>
+    <div class="flex gap-4">
+        <a href="/" class="text-[0.52rem] tracking-[0.14em] uppercase text-paper/15 hover:text-paper/40 transition-colors">Episode 1</a>
+        <a href="/episode-2" class="text-[0.52rem] tracking-[0.14em] uppercase text-paper/15 hover:text-paper/40 transition-colors">Episode 2</a>
+        <a href="/episode-3" class="text-[0.52rem] tracking-[0.14em] uppercase text-paper/15 hover:text-paper/40 transition-colors">Episode 3</a>
+        <a href="/episode-4" class="text-[0.52rem] tracking-[0.14em] uppercase text-paper/15 hover:text-paper/40 transition-colors">Episode 4</a>
+        <a href="/episode-5" class="text-[0.52rem] tracking-[0.14em] uppercase text-gold/40 hover:text-gold transition-colors">Episode 5</a>
+        <a href="/episode-6" class="text-[0.52rem] tracking-[0.14em] uppercase text-paper/15 hover:text-paper/40 transition-colors">Episode 6</a>
+    </div>
+</footer>
+
+
+<!-- ══ TIP MODAL ══ -->
+<div id="sq-modal" onclick="sqModalBackdropClick(event)" role="dialog" aria-modal="true" aria-label="Submit a Tip">
+    <div class="sq-modal-inner">
+        <div class="sq-modal-close-row"><button class="sq-modal-close-btn" onclick="closeTipModal()">✕ CLOSE</button></div>
+        <div style="margin-bottom:6px">
+            <div class="sq-logo-row"><div class="sq-logo-bar"></div><div><div class="sq-logo-text">Sunlight.Quest</div><div class="sq-logo-sub">Accountability journalism · NSW / Queensland</div></div></div>
+            <div class="sq-conf-strip">Encrypted &nbsp;·&nbsp; Source protected &nbsp;·&nbsp; Triangulated for verification</div>
+        </div>
+        <div class="sq-card" id="sq-form-card">
+            <div class="sq-section">
+                <div class="sq-section-label">Subject of tip-off <span class="sq-badge sq-badge-req">required</span></div>
+                <div class="sq-field">
+                    <select class="sq-select" name="sq_subject" id="sq-subject">
+                        <option value="">— Select subject / profile —</option>
+                        <optgroup label="Episode 5 — Housing"><option>NSW Land and Housing Corporation / Homes NSW</option><option>Rose Jackson (Minister for Housing)</option><option>LAHC property management</option></optgroup>
+                        <optgroup label="Episode 1"><option>Marc Barrow (QPS)</option><option>Sandy Tulisi / BeHome</option><option>Felipe Mattos</option><option>RJ — QPS Officer</option><option>Tom Tate (Gold Coast Council)</option></optgroup>
+                        <optgroup label="Episode 2"><option>Bodie Chalmers</option><option>West Kira</option><option>Samira / Dave Hodgson</option><option>Alex Vourliotis</option><option>Graham Gordon</option></optgroup>
+                        <optgroup label="Episode 3"><option>Bemarine</option><option>Katherine Kidd</option><option>Changfa Agent</option></optgroup>
+                        <optgroup label="Episode 4"><option>Hellen Pertekes</option><option>Books R Us</option><option>Kane Singleton</option><option>Z Soielman</option></optgroup>
+                        <option>Other (specify below)</option>
+                    </select>
+                </div>
+                <div class="sq-field"><input class="sq-input" type="text" name="sq_subject_other" placeholder="If 'Other' — name or describe the subject" /></div>
+                <div class="sq-field"><textarea class="sq-textarea" id="sq-summary" name="sq_summary" placeholder="Summary of what you know — who, what, when, where. Keep it factual." style="min-height:110px;"></textarea><div class="sq-field-hint">Do not include names of uninvolved third parties unless essential to the account.</div></div>
+            </div>
+            <div class="sq-section">
+                <div class="sq-section-label">Evidence / material <span class="sq-badge sq-badge-opt">optional</span></div>
+                <div class="sq-field"><select class="sq-select" name="sq_evidence_type"><option value="">— Type of evidence you have —</option><option>Video / footage</option><option>Photos / images</option><option>Audio recording</option><option>Documents / screenshots</option><option>Witness testimony only</option><option>Social media posts / threads</option><option>Multiple types</option></select></div>
+                <div class="sq-field"><input class="sq-input" type="url" name="sq_drive_link" placeholder="Google Drive / Dropbox / OneDrive link (set to 'Anyone with link')" /><div class="sq-field-hint">You retain file ownership — we access read-only.</div></div>
+                <div class="sq-field"><input class="sq-input" type="url" name="sq_direct_url" placeholder="Direct URL to video, post, or public page" /></div>
+                <div class="sq-field"><textarea class="sq-textarea" name="sq_evidence_desc" placeholder="Describe the material — what it shows, when captured, chain of custody if known." style="min-height:72px;"></textarea></div>
+            </div>
+            <div class="sq-section">
+                <div class="sq-section-label">Physical handoff <span class="sq-badge sq-badge-opt">optional</span></div>
+                <label class="sq-toggle-row" for="sq-handoff-chk"><input type="checkbox" id="sq-handoff-chk" name="sq_wants_pickup" onchange="sqToggle('sq-handoff-chk','sq-handoff-fields')" /><span>I have physical material (USB, prints, recordings) and want someone to come and collect it</span></label>
+                <div class="sq-collapsible" id="sq-handoff-fields">
+                    <div class="sq-grid2"><div class="sq-field"><input class="sq-input" type="text" name="sq_pickup_suburb" placeholder="Suburb / area (no full address yet)" /></div><div class="sq-field"><input class="sq-input" type="text" name="sq_pickup_timing" placeholder="Preferred days / times" /></div></div>
+                    <div class="sq-field"><textarea class="sq-textarea" name="sq_pickup_notes" placeholder="Special instructions" style="min-height:60px;"></textarea></div>
+                </div>
+            </div>
+            <div class="sq-section">
+                <div class="sq-section-label">Triangulation context</div>
+                <div class="sq-field"><select class="sq-select" name="sq_relation"><option value="">— Your relationship to the subject —</option><option>Direct witness</option><option>Former associate / colleague</option><option>Family / household member</option><option>Victim or affected party</option><option>Secondary source (told by someone else)</option><option>Public records / online research</option><option>Prefer not to say</option></select></div>
+                <div class="sq-checkbox-group sq-field">
+                    <label class="sq-checkbox-item"><input type="checkbox" name="sq_has_corroboration" /> I have corroborating witnesses who may also be willing to speak</label>
+                    <label class="sq-checkbox-item"><input type="checkbox" name="sq_reported_before" /> I have previously reported this to police or authorities with no result</label>
+                    <label class="sq-checkbox-item"><input type="checkbox" name="sq_safety_concern" /> I have safety concerns in relation to this matter</label>
+                    <label class="sq-checkbox-item"><input type="checkbox" name="sq_consents_publish" /> I consent to this information being used in published reporting (anonymised)</label>
+                </div>
+            </div>
+            <hr class="sq-divider" />
+            <div class="sq-section">
+                <div class="sq-section-label">Your details <span class="sq-badge sq-badge-opt">optional</span></div>
+                <label class="sq-toggle-row" for="sq-anon-chk"><input type="checkbox" id="sq-anon-chk" name="sq_anonymous" checked onchange="sqToggleAnon()" /><span>Submit anonymously — do not attach contact details to this report</span></label>
+                <div class="sq-collapsible" id="sq-contact-fields">
+                    <div class="sq-grid2"><div class="sq-field"><input class="sq-input" type="text" name="sq_contact_name" placeholder="Name (or alias)" /></div><div class="sq-field"><input class="sq-input" type="text" name="sq_contact_phone" placeholder="Phone or Signal number" /></div></div>
+                    <div class="sq-field"><input class="sq-input" type="email" name="sq_contact_email" placeholder="Email address" /></div>
+                    <div class="sq-field"><select class="sq-select" name="sq_contact_pref"><option value="">— Preferred contact method —</option><option>Email only</option><option>Phone call</option><option>SMS / text</option><option>Signal (encrypted)</option><option>In-person only</option></select></div>
+                    <div class="sq-field"><textarea class="sq-textarea" name="sq_contact_notes" placeholder="Any specific instructions for how or when to contact you" style="min-height:56px;"></textarea></div>
+                </div>
+            </div>
+        </div>
+        <div class="sq-card" id="sq-success-state"><span class="sq-success-word">RECEIVED.</span><p>Your intelligence report has been logged.<br>If you provided contact details, expect a response within 48 hours.</p></div>
+        <div class="sq-form-footer" id="sq-form-footer"><p class="sq-footer-note">All submissions are timestamped on receipt. Source identity is never disclosed without explicit consent. Anonymous reports are investigated on merit.</p><button id="sq-submit-btn" onclick="sqSubmit()">SUBMIT TIP →</button></div>
+    </div>
+</div>
+
+
+<script>
+// ── Reveal on scroll ──
+(function(){
+    var obs = new IntersectionObserver(function(entries){
+        entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); obs.unobserve(e.target); } });
+    },{threshold:0.12});
+    document.querySelectorAll('.reveal').forEach(function(el){ obs.observe(el); });
+})();
+
+// ── Evidence map ──
+var EVIDENCE = {
+    'order-aug-2025': {
+        type: 'pdf',
+        title: 'NCAT CONSENT ORDER — 1 AUGUST 2025',
+        tag: 'Case 2025/00005577 · Keystone Document · Consent order + 15 Apr 2026 order',
+        meta: 'PDF · Sealed NCAT order · Mould remediation · Rent cap $77.95/wk · $291.80 compensation · Repair deadline 1 Nov 2025',
+        desc: 'The consent order made on 1 August 2025. By consent, NCAT directed the NSW Land and Housing Corporation to remediate mould and complete repairs by 1 November 2025, capped rent at $77.95/week until the work was done, and ordered $291.80 in compensation. This PDF is served with the 15 April 2026 order.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/2026-04-15_NCAT_order_with_2025-08-01_consent_order_2025-00005577.pdf',
+        filename: '2026-04-15_NCAT_order_with_consent_order_2025-00005577.pdf'
+    },
+    'application-mar-2026': {
+        type: 'pdf',
+        title: 'FRESH NCAT APPLICATION — 4 MARCH 2026',
+        tag: 'Case 2026/00090755 · Filed by tenant · Repairs never completed',
+        meta: 'PDF · Fresh NCAT application · Case 2026/00090755',
+        desc: 'The fresh application lodged on 4 March 2026 after the consent-ordered repairs were never completed by the 1 November 2025 deadline.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/2026-03-04_NCAT_application_2026-00090755.pdf',
+        filename: '2026-03-04_NCAT_application_2026-00090755.pdf'
+    },
+    'order-apr-2026': {
+        type: 'pdf',
+        title: 'NCAT ORDER — 29 APRIL 2026',
+        tag: 'Virtual attendance · Tenant granted leave to appear virtually',
+        meta: 'PDF · NCAT order · 29 April 2026',
+        desc: 'Order granting the tenant leave to appear at the hearing virtually.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/2026-04-29_NCAT_order_virtual-attendance.pdf',
+        filename: '2026-04-29_NCAT_order_virtual-attendance.pdf'
+    },
+    'order-may-2026': {
+        type: 'pdf',
+        title: 'NCAT ORDER — 1 MAY 2026',
+        tag: '"The respondent landlord is inspecting" · 6 months after repair deadline',
+        meta: 'PDF · NCAT order · 1 May 2026 · Adjourned — landlord inspecting',
+        desc: 'The adjournment order of 1 May 2026 — adjourned because the respondent landlord is inspecting. Six months after the repair deadline had already passed.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/2026-05-01_NCAT_order_landlord-inspecting.pdf',
+        filename: '2026-05-01_NCAT_order_landlord-inspecting.pdf'
+    },
+    'order-jun-2026': {
+        type: 'pdf',
+        title: 'NCAT ORDER — 18 JUNE 2026',
+        tag: 'Adjourned by consent · Again',
+        meta: 'PDF · NCAT order · 18 June 2026 · Adjourned by consent',
+        desc: 'Matter adjourned again, by consent, on 18 June 2026.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/2026-06-18_NCAT_order_adjourned-by-consent+(1).pdf',
+        filename: '2026-06-18_NCAT_order_adjourned-by-consent.pdf'
+    },
+    'urgent-jun-2026': {
+        type: 'pdf',
+        title: 'URGENT HEARING REQUEST — 26 JUNE 2026',
+        tag: 'Emergency application · Power failure + $520 rent · Ausgrid note + mould photos annexed',
+        meta: 'PDF · Urgent/expedited hearing request · 26 June 2026 · Case 2026/00090755',
+        desc: 'The urgent application lodged on 26 June 2026 after the power failed and rent was raised to $520/week. Contains the Ausgrid note (ref. 66693) and mould photographs as annexures.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/2026-06-26_NCAT_urgent-hearing-request.pdf',
+        filename: '2026-06-26_NCAT_urgent-hearing-request.pdf'
+    },
+    'ausgrid-note': {
+        type: 'image',
+        title: 'AUSGRID NOTE TO HOUSING ELECTRICIAN — REF. 66693',
+        tag: 'Ausgrid · Faulty main switchboard · Life-support customers · Replace directive',
+        meta: 'JPG · Ausgrid note · Reference 66693 · Directed to housing electrician',
+        desc: 'Ausgrid note to the housing electrician (reference 66693). Records a faulty main switchboard serving the block of units, directs that it be replaced, and notes that the affected units include life-support customers who were temporarily re-routed.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/Ausgrid_note_ref-66693.jpg',
+        filename: 'Ausgrid_note_ref-66693.jpg'
+    },
+    'mould-1': {
+        type: 'image',
+        title: 'MOULD AT THE PREMISES — PHOTO 1 OF 3',
+        tag: 'South Coogee, NSW · Mould on wall and ceiling · Post-remediation-deadline',
+        meta: 'JPG · Mould photograph 1 of 3 · Tenant-provided',
+        desc: 'Mould on the painted wall and ceiling surfaces. Present despite a consent order requiring remediation by 1 November 2025. The tenant says the mould was painted over rather than treated and has bled back through.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/mould_photo_1.jpg',
+        filename: 'mould_photo_1.jpg'
+    },
+    'mould-2': {
+        type: 'image',
+        title: 'MOULD AT THE PREMISES — PHOTO 2 OF 3',
+        tag: 'South Coogee, NSW · Mould on wall and ceiling',
+        meta: 'JPG · Mould photograph 2 of 3 · Tenant-provided',
+        desc: 'Mould on the painted wall and ceiling surfaces.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/mould_photo_2.jpg',
+        filename: 'mould_photo_2.jpg'
+    },
+    'mould-3': {
+        type: 'image',
+        title: 'MOULD AT THE PREMISES — PHOTO 3 OF 3',
+        tag: 'South Coogee, NSW · Mould on wall and ceiling',
+        meta: 'JPG · Mould photograph 3 of 3 · Tenant-provided',
+        desc: 'Mould on the painted wall and ceiling surfaces.',
+        url: 'https://sunlightquest.s3.ap-southeast-2.amazonaws.com/lahc/mould_photo_3.jpg',
+        filename: 'mould_photo_3.jpg'
+    }
+};
+
+var _currentFile = null;
+
+function openMV(key) {
+    var ev = EVIDENCE[key];
+    if (!ev) return;
+    _currentFile = ev;
+    document.getElementById('mv-tag').textContent = ev.tag || 'Evidence File';
+    document.getElementById('mv-title').textContent = ev.title;
+    document.getElementById('mv-meta').textContent = ev.meta || '';
+    var body = document.getElementById('mv-body');
+    body.innerHTML = '';
+    if (ev.type === 'pdf') {
+        var wrap = document.createElement('div');
+        wrap.style.cssText = 'width:100%;max-width:900px;height:75vh;display:flex;flex-direction:column;gap:1rem';
+        var iframe = document.createElement('iframe');
+        iframe.src = ev.url;
+        iframe.style.cssText = 'width:100%;flex:1;border:1px solid rgba(245,234,212,0.06);background:#fff';
+        iframe.title = ev.title;
+        var note = document.createElement('p');
+        note.style.cssText = 'font-size:0.55rem;color:rgba(245,234,212,0.28);text-align:center;letter-spacing:0.1em';
+        note.textContent = ev.desc || '';
+        wrap.appendChild(iframe);
+        wrap.appendChild(note);
+        body.appendChild(wrap);
+    } else {
+        var wrap = document.createElement('div');
+        wrap.style.cssText = 'max-width:900px;width:100%;display:flex;flex-direction:column;gap:1rem;align-items:center';
+        var img = document.createElement('img');
+        img.src = ev.url;
+        img.alt = ev.title;
+        img.style.cssText = 'max-width:100%;max-height:75vh;object-fit:contain;border:1px solid rgba(245,234,212,0.06)';
+        var note = document.createElement('p');
+        note.style.cssText = 'font-size:0.55rem;color:rgba(245,234,212,0.28);text-align:center;letter-spacing:0.1em;max-width:600px';
+        note.textContent = ev.desc || '';
+        wrap.appendChild(img);
+        wrap.appendChild(note);
+        body.appendChild(wrap);
+    }
+    document.getElementById('mv-wrap').classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeMV() {
+    document.getElementById('mv-wrap').classList.remove('active');
+    document.getElementById('mv-body').innerHTML = '';
+    document.body.style.overflow = '';
+}
+
+function downloadFile() {
+    if (!_currentFile) return;
+    var a = document.createElement('a');
+    a.href = _currentFile.url;
+    a.download = _currentFile.filename || 'document';
+    a.target = '_blank';
+    a.click();
+}
+
+document.getElementById('mv-wrap').addEventListener('click', function(e) {
+    if (e.target === this) closeMV();
+});
+
+// ── Vault toggles ──
+function toggleVault(el) { el.classList.toggle('open'); el.nextElementSibling.classList.toggle('open'); }
+
+// ── Tip modal ──
+function openTipModal() { document.getElementById('sq-modal').classList.add('open'); document.body.style.overflow='hidden'; }
+function closeTipModal() { document.getElementById('sq-modal').classList.remove('open'); document.body.style.overflow=''; }
+function sqModalBackdropClick(e) { if(e.target===document.getElementById('sq-modal')) closeTipModal(); }
+function sqToggle(chkId, colId) { var open=document.getElementById(chkId).checked; document.getElementById(colId).classList.toggle('open',open); }
+function sqToggleAnon() { var anon=document.getElementById('sq-anon-chk').checked; document.getElementById('sq-contact-fields').classList.toggle('open',!anon); }
+
+function sqShowError(msg) {
+    var footer = document.getElementById('sq-form-footer');
+    var err = document.getElementById('sq-submit-error');
+    if (!err) {
+        err = document.createElement('p');
+        err.id = 'sq-submit-error';
+        err.style.cssText = 'width:100%;margin:0 0 4px;color:#c8372d;font-size:0.62rem;letter-spacing:0.04em;line-height:1.5';
+        footer.insertBefore(err, footer.firstChild);
+    }
+    err.textContent = msg;
+    err.style.display = 'block';
+}
+function sqSubmit() {
+    var summary = document.getElementById('sq-summary');
+    if (!summary.value.trim()) {
+        summary.style.borderColor='#c98a10';
+        summary.focus();
+        return;
+    }
+    summary.style.borderColor='';
+
+    var card = document.getElementById('sq-form-card');
+    var val = function(name) { var el = card.querySelector('[name="' + name + '"]'); return el ? el.value : ''; };
+    var chk = function(name) { var el = card.querySelector('[name="' + name + '"]'); return el ? el.checked : false; };
+
+    var payload = {
+        subject:             val('sq_subject'),
+        subject_other:       val('sq_subject_other'),
+        summary:             summary.value.trim(),
+        evidence_type:       val('sq_evidence_type'),
+        drive_link:          val('sq_drive_link'),
+        direct_url:          val('sq_direct_url'),
+        evidence_desc:       val('sq_evidence_desc'),
+        wants_pickup:        chk('sq_wants_pickup'),
+        pickup_suburb:       val('sq_pickup_suburb'),
+        pickup_timing:       val('sq_pickup_timing'),
+        pickup_notes:        val('sq_pickup_notes'),
+        relation_to_subject: val('sq_relation'),
+        has_corroboration:   chk('sq_has_corroboration'),
+        reported_before:     chk('sq_reported_before'),
+        safety_concern:      chk('sq_safety_concern'),
+        consents_publish:    chk('sq_consents_publish'),
+        is_anonymous:        chk('sq_anonymous'),
+        contact_name:        val('sq_contact_name'),
+        contact_phone:       val('sq_contact_phone'),
+        contact_email:       val('sq_contact_email'),
+        contact_pref:        val('sq_contact_pref'),
+        contact_notes:       val('sq_contact_notes')
+    };
+
+    var btn = document.getElementById('sq-submit-btn');
+    var oldLabel = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = 'SENDING…';
+
+    fetch('/api/tips', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(payload)
+    })
+    .then(function(res) { return res.json().catch(function(){ return {}; }).then(function(data){ return { ok: res.ok, data: data }; }); })
+    .then(function(r) {
+        if (r.ok && r.data && r.data.success) {
+            document.getElementById('sq-form-card').style.display = 'none';
+            document.getElementById('sq-form-footer').style.display = 'none';
+            document.getElementById('sq-success-state').style.display = 'block';
+        } else {
+            btn.disabled = false;
+            btn.textContent = oldLabel;
+            sqShowError((r.data && r.data.message) ? r.data.message : 'Submission failed — please try again.');
+        }
+    })
+    .catch(function() {
+        btn.disabled = false;
+        btn.textContent = oldLabel;
+        sqShowError('Network error — your tip was not sent. Please check your connection and try again.');
+    });
+}
+
+// ── VIDSTACK PLAYER EP5 INIT ──
+(function() {
+    var VTT_CONTENT = [
+        'WEBVTT',
+        '',
+        '00:00:00.000 --> 00:05:00.000',
+        'NCAT — Dept of Housing',
+        '',
+        '00:05:00.000 --> 00:09:00.000',
+        'Nine Months',
+        '',
+        '00:09:00.000 --> 00:13:00.000',
+        'Lights Out',
+        '',
+        '00:13:00.000 --> 00:17:00.000',
+        '$520 a Week',
+        '',
+        '00:17:00.000 --> 00:21:00.000',
+        'Accountability',
+        '',
+        '00:21:00.000 --> 00:26:00.000',
+        'Evidence',
+    ].join('\n');
+
+    function initPlayerEp5() {
+        var el = document.getElementById('player-ep5');
+        if (!el) return;
+        if (typeof el.subscribe !== 'function') {
+            setTimeout(initPlayerEp5, 200);
+            return;
+        }
+        window.vidstackPlayerEp5 = el;
+
+        var track = document.getElementById('ep5-chapters-track');
+        if (track) {
+            var blob = new Blob([VTT_CONTENT], {type: 'text/vtt'});
+            track.src = URL.createObjectURL(blob);
+        }
+
+        el.subscribe(function(state) {
+            var time = state.currentTime;
+            var tracks = el.textTracks;
+            for (var i = 0; i < tracks.length; i++) {
+                if (tracks[i].kind === 'chapters') {
+                    var cues = tracks[i].cues;
+                    for (var j = 0; j < cues.length; j++) {
+                        if (time >= cues[j].startTime && time < cues[j].endTime) {
+                            document.querySelectorAll('[data-chap-ep5]').forEach(function(el2) {
+                                var match = parseInt(el2.getAttribute('data-chap-ep5'),10) === j;
+                                el2.style.background = match ? 'rgba(201,138,16,0.1)' : '';
+                                el2.style.borderColor = match ? 'rgba(201,138,16,0.4)' : 'transparent';
+                            });
+                            break;
+                        }
+                    }
+                    break;
+                }
+            }
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initPlayerEp5);
+    } else {
+        initPlayerEp5();
+    }
+})();
+
+function seekToChapterEp5(index) {
+    var p = window.vidstackPlayerEp5;
+    if (!p) {
+        var pl = document.getElementById('player-ep5');
+        if (pl) pl.scrollIntoView({behavior:'smooth',block:'center'});
+        return;
+    }
+    var tracks = p.textTracks;
+    var ct = null;
+    for (var i = 0; i < tracks.length; i++) { if (tracks[i].kind === 'chapters') { ct = tracks[i]; break; } }
+    if (ct && ct.cues && ct.cues.length > index) { p.currentTime = ct.cues[index].startTime; }
+    else { var d = p.duration || 0; if (d > 0) p.currentTime = (d / 6) * index; }
+    p.play().catch(function(){});
+    document.getElementById('player-ep5').scrollIntoView({behavior:'smooth',block:'center'});
+    document.querySelectorAll('[data-chap-ep5]').forEach(function(el) {
+        var match = parseInt(el.getAttribute('data-chap-ep5'),10) === index;
+        el.style.background = match ? 'rgba(201,138,16,0.1)' : '';
+        el.style.borderColor = match ? 'rgba(201,138,16,0.4)' : 'transparent';
+    });
+}
+</script>
+
+</body>
+</html>
